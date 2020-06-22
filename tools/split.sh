@@ -1,5 +1,5 @@
 dir_size=200
-dir_name="CH_Gc_"
+dir_name="CH_Gmu_"
 n=$((`find . -maxdepth 1 -type f | wc -l`/$dir_size+1))
 for i in `seq 1 $n`;
 do
