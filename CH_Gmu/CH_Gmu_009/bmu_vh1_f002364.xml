@@ -1,66 +1,79 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par le Corps de musique d'Elite<date when="06/03/1921"/></title>
-<series>1920-1921</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par le Corps de musique d'Elite
+            <date when='06/03/1921'/>
+          </title>
+          <series>1920-1921</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002364</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Romain, F. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19210306"/>
-<title>Concert donné par le Corps de musique d'Elite</title>
-<placeName key="Victoria Hall"/>
-<name key="1920-1921" type="series"/>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Händel, Georg Friedrich" ref="https://muscat.rism.info/admin/people/36552" type="person" role="cmp">Händel, Georg Friedrich</name>
-<name key="Paisiello, Giovanni" ref="https://muscat.rism.info/admin/people/1874" type="person" role="cmp">Paisiello, Giovanni</name>
-<name key="Saint-Saëns, Camille" ref="https://muscat.rism.info/admin/people/76734" type="person" role="cmp">Saint-Saëns, Camille</name>
-<name key="Weber, Carl Maria von" ref="https://muscat.rism.info/admin/people/117485" type="person" role="cmp">Weber, Carl Maria von</name>
-<name key="Duparc, Henri" ref="https://muscat.rism.info/admin/people/41011746" type="person" role="cmp">Duparc, Henri</name>
-<name key="Gluck, Christoph Willibald" ref="https://muscat.rism.info/admin/people/67338" type="person" role="cmp">Gluck, Christoph Willibald</name>
-<name key="Schumann, Robert" ref="https://muscat.rism.info/admin/people/131206" type="person" role="cmp">Schumann, Robert</name>
-<name key="Reyer, Ernest" ref="https://muscat.rism.info/admin/people/46219" type="person" role="cmp">Reyer, Ernest</name>
-<name key="Romain, F. (dir.)"  type="person" role="int">Romain, F. (dir.)</name>
-<name key="Corps de musique d'Elite"  type="person" role="int">Corps de musique d'Elite</name>
-<name key="Belly (Mme)"  type="person" role="int">Belly (Mme)</name>
-<name key="Mestrallet"  type="person" role="int">Mestrallet</name>
-<name key="Ketten, Léopold"  type="person" role="int">Ketten, Léopold</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002364_001.tif"/>
-<page><![CDATA[_
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19210306'/>
+        <title>Concert donné par le Corps de musique d'Elite</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1920-1921' type='series'/>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Händel, Georg Friedrich' ref='https://muscat.rism.info/admin/people/36552' type='person' role='cmp'>Händel, Georg Friedrich</name>
+        <name key='Paisiello, Giovanni' ref='https://muscat.rism.info/admin/people/1874' type='person' role='cmp'>Paisiello, Giovanni</name>
+        <name key='Saint-Saëns, Camille' ref='https://muscat.rism.info/admin/people/76734' type='person' role='cmp'>Saint-Saëns, Camille</name>
+        <name key='Weber, Carl Maria von' ref='https://muscat.rism.info/admin/people/117485' type='person' role='cmp'>Weber, Carl Maria von</name>
+        <name key='Duparc, Henri' ref='https://muscat.rism.info/admin/people/41011746' type='person' role='cmp'>Duparc, Henri</name>
+        <name key='Gluck, Christoph Willibald' ref='https://muscat.rism.info/admin/people/67338' type='person' role='cmp'>Gluck, Christoph Willibald</name>
+        <name key='Schumann, Robert' ref='https://muscat.rism.info/admin/people/131206' type='person' role='cmp'>Schumann, Robert</name>
+        <name key='Reyer, Ernest' ref='https://muscat.rism.info/admin/people/46219' type='person' role='cmp'>Reyer, Ernest</name>
+        <name key='Romain, F.' type='person' role='int'>Romain, F.</name>
+        <name key='Corps de musique d&apos;Elite' type='person' role='int'>Corps de musique d'Elite</name>
+        <name key='Belly (Mme)' type='person' role='int'>Belly (Mme)</name>
+        <name key='Mestrallet' type='person' role='int'>Mestrallet</name>
+        <name key='Ketten, Léopold' type='person' role='int'>Ketten, Léopold</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002364_001.tif'/>
+        <page>
+          <![CDATA[_
 <Q
 .\ ,uoo«oo,…oüoooooo°00000000000000000oooooa?ouooooî…o@
 e E 5 |=—=== N — —,
@@ -119,33 +132,23 @@ e à l | “ | e
 B5 ñ | | 165
 ur se N __ A E e N e A ulll‘; °
 © |
-
- 
-
 Ï
-
 P9000000000000 00000000 000000003080o0000 Qoooooo povoouvu 0090 (M O000900060006 ooooooooo…Ëoîä.o.
-
- 
-
 (
 |
-
-INPRIMERIE CENTRALE, GÉNÈVE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002364_002.tif"/>
-<page><![CDATA[)
+INPRIMERIE CENTRALE, GÉNÈVE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002364_002.tif'/>
+        <page>
+          <![CDATA[)
 00
-
 @
-
 060000000000000000000C000000009000000,
 5090000000000000000000000000000000000" 99
-
 e
-
 009000000000000000000000000000
 900000000000000000000000000000
-
 00
 o0
 ue
@@ -178,130 +181,55 @@ o0o
 o0
 ©
 o
-
 aovecco0o00000000000000000000000000000(8
 90000000000000000000000000000000000000
-
 @
-
- 
-
 09900000000000U00000000000000000000000 000009 0
 °
-
 0°000000000050009300000N000000
-
 À l’occasion des Fêtes de Pâques, le Corps de Musique d’Elite organise un voyage Marseil
 Retour le Mercredi 30 Mars, à midi. Pour renseignements et inscriptions s'adresser l
-
 °
 °
-
 9000000000000000900000000000000000000000000, 90 ° °°°‘/(Ï.‘oo°°».oooooooocooocco°oooco-ooo….u_ouo'oono°.
-
-    
-
- 
-
- 
-
- 
-
 s000
-
 00°20Ÿ),00009°°°°o000000000000000000000 00000c .…—nooocoo°î
-
- 
-
- 
-
 VICTORIA-HALL °=—6
-
 2900000000000000000000000000090060000000000000000090000000 0000000000000
-
 09°P0Q,
-
 °
-
- 
-
 o°
 ©
-
 O?ro00oc s0000000600 0(D Op0000000000000000() 0}
-
- 
-
- 
-
- 
-
 09000000000000000000(@0000000000000000000000(WOO00 0000000 0000000 G/
-
 )
-
 Q
 ©
-
- 
-
- 
-
 PRé
-
 5
 OOo0000000000000cu 00bcocit:
 e
 X
-
 2000@)O00000000000000000 0c
-
 PREMIÈRE PARTIE -
-
 09000000c
-
- 
-
 1. Symphonie N° 5 en ut mineur Beethoven_
-
 a) Allegro
 b) Andante
 (ÉLITE) f
-
 9: KirduMesse . ; . :Ê… Faendel
-
 (M. MESTRALLET) 4
-
 3. Air de Proserpine. . . . Paesiello
 (Mme BELLY)
-
 ï
-
 Saint-’n$l !
-
 4. Samson et Dalila Ÿ
 (ÉLITE) Ë
-
 090@)000000000000()>00v00005000&)O0co 000000
-
 11
-
 Entre la 1'© et la 2 È:
-
 c0900000006 00000 0c
-
 ©
-
- 
-
- 
-
- 
-
- 
-
- 
-
 °
 ° , r ;
 À, e 000 000000000c00000000(@O000000000000000000000 (@OO000000000000C000 71
@@ -317,37 +245,14 @@ e Ç “Les cartes de Membres bonoraire et non exécutant °
 ° % | °
 B O ETE | donnent droit à 2 entrées. °°5 Û
 oGS O -0R0 \ 09000000000000000000000000000000 0000002000030000000000000000 Q OQOo 009 û
-
- 
-
- 
-
- 
-
 00999000c 200000 socouvOVOUVALOVOVOOOVUVHSCOL O0000000
-
- 
-
-0000000000000%0 °o@°°co…;c° o°<‘ﬁnooooooooooooo«»ooouocoooooccoooooooco°\]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002364_003.tif"/>
-<page><![CDATA[@
-
+0000000000000%0 °o@°°co…;c° o°<‘ﬁnooooooooooooo«»ooouocoooooccoooooooco°\
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002364_003.tif'/>
+        <page>
+          <![CDATA[@
 009
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 ooo00,
 “ifMoo c > o. 00002 (c
 A oo, 00
@@ -372,101 +277,51 @@ MlF00000000000000000000O(@O000000060000000000000 ( WOO0000000000000000 000 e 90e
 æ : 8 2
 %, 2
 Oono®
-
- 
-
- 
-
 (L @MIME
 = 4âiovooooooooooooo 20000000 0000
 [
-
 ;
-
 DEUXIÈME PARTIE
-
- 
-
 E  5. Ouverture d'Oberon . . . Weber
 l (ÉLITE)
-
- 
-
 O
-
 . La Vague et la Cloche . . Duparc
 (M. MESTRALLET)
-
 7. Scherzo de la 3”* Symphonie.  Schumann
 (ÉLITE)
-
- 
-
 VSZATE
-
 8. Air d'Alceste (Divinités du Stix) Gluck
-
 (Mme BELLY)
-
 QSigurd 4 5> 1 —, Reyer
-
 (ÉLITE)
-
 DON aeuveueres===
-
 Entr’acte de 15 minutes
-
- 
-
 0000000000000000 coooçïOooooouoooooOa;ocaoooooou@)OoooooooooooOooooocoooooo€îOooonn.moo…—,n.woooo.‘”c
-
 I
 F
 l2
 IË
-
 @
-
 990000000000000000000(@O000000000000000000000 ((900000000000000000000
-
-  
-
 0090000000c
-
 % Qee0006000000007000(QO00000
-
 °
 °
-
 o,e0
-
 ËOooooooooocoaaacooOOOooaooouaoooooccooO
-
 o°9
 ©
 O
 00°
-
 $
 S
 %
-
 109000000000000500000000000090
-
 2000000000 v00000000000000000000000 000000
 00000000
-
-  
- 
-  
-
 30ÿ0000000000099000000G0000000 00
 2000000u0000000000000000000000
-
- 
-
 )900000000000000006000000500000
-
 °
 °
 °
@@ -497,15 +352,6 @@ S
 °
 °
 °
-
-  
-
- 
-
- 
-
- 
-
 f 2s
 î! 09900 é
 Ÿ % GDO O 00000600000000 00000000000000000000000000000000060000N00000000
@@ -516,78 +362,27 @@ f 5 £ «%} 00 °
 1000 suppl. de 1 fr. par personne à une place numérotée
 r‘ P 0°00 20000000
 Poo0 oo00 00000 eo0 0900000000
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 .1@.. } ,, o
-
 |
-
 DIS à
-
 9090000000000000000000000000000000000 900008 202F 2Ece 2009960000000000000000000000000000000000000p
 °
 00#3000000000000000000000000000060000000%6®É), 0 0009°°9°9000000000005000000000000000000000000000 0
-
 Qo90900000000000000000000000000 00000000 OO
 P05000000000000000000c O0O000009 00000000
-
 @
-
 Mlon avec arrêts à Aix-en-Provence et Avignon au retour. Départ Je Jeudi 24 Mars, à 18 h. 30.
-5 de répétitions (Mardi et Vendredi à 20 h.) au local, Bâtiment Electoral, rue de Saussure.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002364_004.tif"/>
-<page><![CDATA[IAUTES
+5 de répétitions (Mardi et Vendredi à 20 h.) au local, Bâtiment Electoral, rue de Saussure.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002364_004.tif'/>
+        <page><![CDATA[IAUTES
 NOUVFAUTES
-
 CONFECTIONS
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 e e =
-
-rr E]]></page>       
-        </p>
+rr E
+]]></page>
+      </p>
     </body>
   </text>
 </TEI>

@@ -1,104 +1,97 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Grand concert donné par l'Harmonie nautique : [Au bénéfice du comité central des Sans-travail]<date when="17/10/1914"/></title>
-<series>1914-1915</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Grand concert donné par l'Harmonie nautique : [Au bénéfice du comité
+            central des Sans-travail]
+            <date when='17/10/1914'/>
+          </title>
+          <series>1914-1915</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F001190</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Pieyre, A. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19141017"/>
-<title>Grand concert donné par l'Harmonie nautique : [Au bénéfice du comité central des Sans-travail]</title>
-<placeName key="Victoria Hall"/>
-<name key="1914-1915" type="series"/>
-<name key="Verdi, Giuseppe" ref="https://muscat.rism.info/admin/people/137994" type="person" role="cmp">Verdi, Giuseppe</name>
-<name key="Borodin, Alexandr Porfir'evič" ref="https://muscat.rism.info/admin/people/30015583" type="person" role="cmp">Borodin, Alexandr Porfir'evič</name>
-<name key="Gluck, Christoph Willibald" ref="https://muscat.rism.info/admin/people/67338" type="person" role="cmp">Gluck, Christoph Willibald</name>
-<name key="Rachmaninov, Sergej Vasil'evič" ref="https://muscat.rism.info/admin/people/32447" type="person" role="cmp">Rachmaninov, Sergej Vasil'evič</name>
-<name key="Lully, Jean-Baptiste" ref="https://muscat.rism.info/admin/people/132446" type="person" role="cmp">Lully, Jean-Baptiste</name>
-<name key="Lalo, Edouard" ref="https://muscat.rism.info/admin/people/65446" type="person" role="cmp">Lalo, Edouard</name>
-<name key="Wettge, Gustave" ref="https://muscat.rism.info/admin/people/30081063" type="person" role="cmp">Wettge, Gustave</name>
-<name key="Delibes, Léo" ref="https://muscat.rism.info/admin/people/30016578" type="person" role="cmp">Delibes, Léo</name>
-<name key="Massenet, Jules" ref="https://muscat.rism.info/admin/people/84264" type="person" role="cmp">Massenet, Jules</name>
-<name key="Lacome, Paul" ref="https://muscat.rism.info/admin/people/30024118" type="person" role="cmp">Lacome, Paul</name>
-<name key="Pieyre, Auguste (dir.)"  type="person" role="int">Pieyre, Auguste (dir.)</name>
-<name key="Harmonie Nautique"  type="person" role="int">Harmonie Nautique</name>
-<name key="Tatianoff (Mlle)"  type="person" role="int">Tatianoff (Mlle)</name>
-<name key="Snell, H."  type="person" role="int">Snell, H.</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001190_001.tif"/>
-<page><![CDATA[&
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19141017'/>
+        <title>
+          Grand concert donné par l'Harmonie nautique : [Au bénéfice du comité
+          central des Sans-travail]
+        </title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1914-1915' type='series'/>
+        <name key='Verdi, Giuseppe' ref='https://muscat.rism.info/admin/people/137994' type='person' role='cmp'>Verdi, Giuseppe</name>
+        <name key='Borodin, Alexandr Porfir&apos;evič' ref='https://muscat.rism.info/admin/people/30015583' type='person' role='cmp'>Borodin, Alexandr Porfir'evič</name>
+        <name key='Gluck, Christoph Willibald' ref='https://muscat.rism.info/admin/people/67338' type='person' role='cmp'>Gluck, Christoph Willibald</name>
+        <name key='Rachmaninov, Sergej Vasil&apos;evič' ref='https://muscat.rism.info/admin/people/32447' type='person' role='cmp'>Rachmaninov, Sergej Vasil'evič</name>
+        <name key='Lully, Jean-Baptiste' ref='https://muscat.rism.info/admin/people/132446' type='person' role='cmp'>Lully, Jean-Baptiste</name>
+        <name key='Lalo, Edouard' ref='https://muscat.rism.info/admin/people/65446' type='person' role='cmp'>Lalo, Edouard</name>
+        <name key='Wettge, Gustave' ref='https://muscat.rism.info/admin/people/30081063' type='person' role='cmp'>Wettge, Gustave</name>
+        <name key='Delibes, Léo' ref='https://muscat.rism.info/admin/people/30016578' type='person' role='cmp'>Delibes, Léo</name>
+        <name key='Massenet, Jules' ref='https://muscat.rism.info/admin/people/84264' type='person' role='cmp'>Massenet, Jules</name>
+        <name key='Lacome, Paul' ref='https://muscat.rism.info/admin/people/30024118' type='person' role='cmp'>Lacome, Paul</name>
+        <name key='Pieyre, Auguste' type='person' role='int'>Pieyre, Auguste</name>
+        <name key='Harmonie Nautique' type='person' role='int'>Harmonie Nautique</name>
+        <name key='Tatianoff (Mlle)' type='person' role='int'>Tatianoff (Mlle)</name>
+        <name key='Snell, H.' type='person' role='int'>Snell, H.</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001190_001.tif'/>
+        <page>
+          <![CDATA[&
 YieroORnrA HALI,
 Samedi 17 octobre 1914, à 8 heures et quart
-
 JUNGERT
-
 donné par
-
- L'HARMONIE NAUTIQUE
-
+L'HARMONIE NAUTIQUE
 sous la direction de
-
 M. Auguste PIEYRE, professeur au Conservatoire
-
 avec le gracieux concours de
-
 M“ TATIANOFF
-
 MEZZO-SOPRANO, premier prix du Conservatoire de Paris (1914)
-
 et de
-
 K kL SNELL
-
 TÉNOR, soliste des Concerts Colonne
-
- 
-
 “/C/ ORN
-
- 
-
- 
-
- 
-
- 
-
 Le heneﬁce sera versé au Gomité central des 8ans travail
 = O—— =—
 PROGRAMME
@@ -116,18 +109,14 @@ ds s.… P ATO a) Los Toros
 M ISNELL. b) La Reja.
 5. Concerto pour toutes 0 La Zarzuela
 les clarinettes . . WETTGE.
-
- 
-
- 
-
 PRIX DES PLACHES :
 Rez-de-chaussée, 1 fr. Loges, 2 fr. — 1'° galerie: cordon, 2 fr.,
 autres places, 1 fr. 2m° galerie, 50 cent.
-
 Location ouverte dès ce jour, de 9 heures à midi et de 2 à 6 heures
-chez le concierge du Victoria Hall.]]></page>       
-        </p>
+chez le concierge du Victoria Hall.
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

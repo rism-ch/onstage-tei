@@ -1,85 +1,98 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Deux grands concerts populaires donnés par le grand Orchestre militaire du 5me régiment badois<date when="06/05/1875"/></title>
-<series>1874-1875</series>
-<placeName>Brasserie des Pâquis</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Deux grands concerts populaires donnés par le grand Orchestre
+            militaire du 5me régiment badois
+            <date when='06/05/1875'/>
+          </title>
+          <series>1874-1875</series>
+          <placeName>Genève, Brasserie des Pâquis</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU DG4 F001323</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Frank, L. (dir)</note>
+        <note>Date présumée</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18750506"/>
-<title>Deux grands concerts populaires donnés par le grand Orchestre militaire du 5me régiment badois</title>
-<placeName key="Brasserie des Pâquis"/>
-<name key="1874-1875" type="series"/>
-<name key="Frank"  type="person" role="cmp">Frank</name>
-<name key="Flotow, Friedrich von" ref="https://muscat.rism.info/admin/people/63626" type="person" role="cmp">Flotow, Friedrich von</name>
-<name key="Boieldieu"  type="person" role="cmp">Boieldieu</name>
-<name key="Strauß, Johann" ref="https://muscat.rism.info/admin/people/132082" type="person" role="cmp">Strauß, Johann</name>
-<name key="Suède, Gustave de"  type="person" role="cmp">Suède, Gustave de</name>
-<name key="Bial"  type="person" role="cmp">Bial</name>
-<name key="Meyerbeer, Giacomo" ref="https://muscat.rism.info/admin/people/725" type="person" role="cmp">Meyerbeer, Giacomo</name>
-<name key="Rossini, Gioachino" ref="https://muscat.rism.info/admin/people/63766" type="person" role="cmp">Rossini, Gioachino</name>
-<name key="Herfurth"  type="person" role="cmp">Herfurth</name>
-<name key="Unrath"  type="person" role="cmp">Unrath</name>
-<name key="Nicolai"  type="person" role="cmp">Nicolai</name>
-<name key="Pestrella"  type="person" role="cmp">Pestrella</name>
-<name key="Faust"  type="person" role="cmp">Faust</name>
-<name key="Weber, Carl Maria von" ref="https://muscat.rism.info/admin/people/117485" type="person" role="cmp">Weber, Carl Maria von</name>
-<name key="Bosch"  type="person" role="cmp">Bosch</name>
-<name key="Abt"  type="person" role="cmp">Abt</name>
-<name key="Rambach"  type="person" role="cmp">Rambach</name>
-<name key="Budik"  type="person" role="cmp">Budik</name>
-<name key="Piefke"  type="person" role="cmp">Piefke</name>
-<name key="Frank, L. (dir.)"  type="person" role="int">Frank, L. (dir.)</name>
-<name key="Orchestre militaire du cinquième régiment badois"  type="person" role="int">Orchestre militaire du cinquième régiment badois</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f001323_001.tif"/>
-<page><![CDATA[RUE DE LAUSANNE .
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18750506'/>
+        <title>
+          Deux grands concerts populaires donnés par le grand Orchestre
+          militaire du 5me régiment badois
+        </title>
+        <placeName key='Genève, Brasserie des Pâquis'/>
+        <name key='1874-1875' type='series'/>
+        <name key='Frank' type='person' role='cmp'>Frank</name>
+        <name key='Flotow, Friedrich von' ref='https://muscat.rism.info/admin/people/63626' type='person' role='cmp'>Flotow, Friedrich von</name>
+        <name key='Boieldieu' type='person' role='cmp'>Boieldieu</name>
+        <name key='Strauß, Johann' ref='https://muscat.rism.info/admin/people/132082' type='person' role='cmp'>Strauß, Johann</name>
+        <name key='Suède, Gustave de' type='person' role='cmp'>Suède, Gustave de</name>
+        <name key='Bial' type='person' role='cmp'>Bial</name>
+        <name key='Meyerbeer, Giacomo' ref='https://muscat.rism.info/admin/people/725' type='person' role='cmp'>Meyerbeer, Giacomo</name>
+        <name key='Rossini, Gioachino' ref='https://muscat.rism.info/admin/people/63766' type='person' role='cmp'>Rossini, Gioachino</name>
+        <name key='Herfurth' type='person' role='cmp'>Herfurth</name>
+        <name key='Unrath' type='person' role='cmp'>Unrath</name>
+        <name key='Nicolai' type='person' role='cmp'>Nicolai</name>
+        <name key='Pestrella' type='person' role='cmp'>Pestrella</name>
+        <name key='Faust' type='person' role='cmp'>Faust</name>
+        <name key='Weber, Carl Maria von' ref='https://muscat.rism.info/admin/people/117485' type='person' role='cmp'>Weber, Carl Maria von</name>
+        <name key='Bosch' type='person' role='cmp'>Bosch</name>
+        <name key='Abt' type='person' role='cmp'>Abt</name>
+        <name key='Rambach' type='person' role='cmp'>Rambach</name>
+        <name key='Budik' type='person' role='cmp'>Budik</name>
+        <name key='Piefke' type='person' role='cmp'>Piefke</name>
+        <name key='Frank, L.' type='person' role='int'>Frank, L.</name>
+        <name key='Orchestre militaire du cinquième régiment badois' type='person' role='int'>Orchestre militaire du cinquième régiment badois</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f001323_001.tif'/>
+        <page>
+          <![CDATA[RUE DE LAUSANNE .
 Eh ’ sA ‘ ä . ; 4 À ; ; Q“""‘.“'Ùê .
 Jour de f'ascension 11751
-
 JONCERTS Populaires
-
 T DONNÉS PAR ; ;
 - le grand orchestre militaire du 5"° régiment badois
-
 5 sous la Direction de M. L. FRANK
-
 PROGRAMME
-
 PREMIER CONCERT (de 3 à 6 heures)
 ; fre Partie
 iSalut à Genève (marche) . . . « … ÉRANK.
@@ -90,170 +103,93 @@ F ; ‘ æme ÿ
 Ouverture de l’opéra Maritana w WALLACR.
 ‘Polka tirée de l’opt*® Le Carnaÿd( à Rome & . … . STRAUSS.
 és a,ﬁfp)%e I_(çhanspn) v un Hosentt u/»y.{ |l . . …. PrinceGusravr de Suède
- La Duchesse de Gerolsteÿ(quadrille) . L -— Brar.
+La Duchesse de Gerolsteÿ(quadrille) . L -— Brar.
 ur 47 æ" Partie
 Paraphrase sur Yépéra L’Africaine . . Mryerarrer.
 ' gens (polka-mazurka). . . ‘FRANK.
 .  RossiNi.
 4001 ,  Herrvrrn.
-
 DEUXIEME CORNCERBT (de 8 à LA heures)
 ; ' #e Partie
 La Reme Qlga,(marche) .. .. . … VR SS
 Ouverture de l’opéra Les joyeuses Femmes de Windsor . NrCoLAI.
 Fmalerde-Marco Visconh .1 111 11e 1 0 PESTRELLA.
-
 ; UxraTH.
-
 Le Crépuscule (valse) . . . CT y N FausT.
-
 2" Partie -
-
 Réjouissance (ouverture) %Z/æ& RE e A C. M. v. Wesrr.
 Tingel-Tangel (polka) e 16 0N Boscx,
 schanwohl; du:süsser Fargel . 1 4L Re 5 ABT.
-
 Motifs sur le quadrille de La Fille de Mudame Angot. . FiRANK.
 s” Partie
 Consertante pour cornet et cor-basson . ; RAMBACH.
 la Forêt de Vienne (valse). . STRAUSS.
-
 Tableau mo®»ique (grand pot-pourri). .
-
 Plaisir du vice GDJs v
-
 . . . . .
-
- 
-
 “ _ Pour le 10 Mai, il y aura, avec le concours de la Musique Militaire Badoise, un -
-
 , GRAND BAL avec illumination
-
 _ auquel l’honorable public est invité à prendre part. Les deux grandes salles sont destinées pour le
 — Bal; le service des rafraîchissements se fera au Jardin, dans les pavillohs et les petites salles de
- l'établissement. — Seulement des personnes honorables seront admises.
-
+l'établissement. — Seulement des personnes honorables seront admises.
 [ Prix d’Entrée : Un cavalier 2 fr., une dame ! fr.
-
 Les Listes de souscription sont déposées chez MM. Bleuler, vue du Märché, 2; Arnaud-Rossy,
 _ tapissier, Mont-Blanc, 13; Brand, coiffeur, rue Bonivard ; Bringer, coitfeur, place Chevelu, vis-à-vis
 - le café du Midi, et chez M. Senn, Brasserie des Pâquis. '
 ; Les personnes qui auront souscrit, pourront réclamer les cartes, dès le 8 Mai, dans les locaux
 où elles se sont fait inscrire. ‘ _
 - " Demain soir, à 8 heures, Concert Classique à Ia Salle de la Réformation.
-
 SAMEDI soir, a}î&nf-,-den_‘glçr Coneert à la Brasserie des Päquis.
-‘ T 5e VP:]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f001323_002.tif"/>
-<page><![CDATA[' _;<CARTE de CONSOMMATIÛN
-
+‘ T 5e VP:
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f001323_002.tif'/>
+        <page>
+          <![CDATA[' _;<CARTE de CONSOMMATIÛN
 Pendant les Concerts
-
 *
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Rs sE
 e -
-
 CARTE DES VINS
-
 Vin ordinaire rouge .
 » biaære .
-
 Vin bilanc (Eavaux).
 MAconR
-
 Crépy .
-
 Jeudiezma .
-
 Vin d'Espagne .
 Markgräfier
- Baujolnis
-
+Baujolnis
 Neuchaätel (rouge)
 Bordeaux .
 . Riersteiner .
-
 MoselDbiitmchen
 Champagne ...
-
- 
-
 Liqueurs à 20 cent.
 Rhum — Cognac — Kirsch — Absinthe — Ver-
 mouth — Bitter — Anisette — Sirop — Kümmel
-
 Cassis — Quina — Curaçao.
-
- 
-
 Café 25 cent.
 avec Kirsch, Rhum ou Cognac 4@ cemt. -
-
- 
-
 Consommation à 30 cent.
-
 Punch — Grog — Cognac fine Champagne — Char-
 treuse — Parfait-d’Amour — Pipermint — Crême
-
 de Vanille — Madère.
-
- 
-
 Bière, Ix chope 20 cent.
-
- 
-
 Eau de soude 20 cent.
 Siphon 25 cts. — Limonade 30 cts.
-
- 
-
- 
-
 vn um m
-
 w
-
 ; Vins du Rhin
-
 Demi-Glace 40 cent.
-
- 
-
- 
-
- 
-
 CARTE DES METS
-
 BReefsteak .
-
 Cotelette. .. ... ... ‘!
-
 Filet sauté
-
 Oreilles de veau. Ë
-
 Rôti de veau. > ë
-
 Jamborn de Westphalie *Ë
 %
-
 > cuit.
 Saucisson de Bologne
 Cervelas .
@@ -262,18 +198,13 @@ Bæalade
 Porsames de terre .
 Deufs, Sardimes, la 1;Àièce ;
 EPæaünma (extra), la portion .
-
 MPetits ppæalms et WDessert. la pièce 5 cts.
-
 ............................................................................................................................................
 ............................................................................................................................................
-
- 
-
- 
-
-Genève. - Imp. Nationale, rue du Môle, 6 (Pâquis).]]></page>       
-        </p>
+Genève. - Imp. Nationale, rue du Môle, 6 (Pâquis).
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

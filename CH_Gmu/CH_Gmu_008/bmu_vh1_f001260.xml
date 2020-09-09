@@ -1,589 +1,339 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Programme du festival en l'honneur du Président Wilson : Au profit du don national suisse<date when="02/04/1919"/></title>
-<series>1918-1919</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Programme du festival en l'honneur du Président Wilson : Au profit
+            du don national suisse
+            <date when='02/04/1919'/>
+          </title>
+          <series>1918-1919</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F001260</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Koch, L. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19190402"/>
-<title>Programme du festival en l'honneur du Président Wilson : Au profit du don national suisse</title>
-<placeName key="Victoria Hall"/>
-<name key="1918-1919" type="series"/>
-<name key="Schubert, Franz" ref="https://muscat.rism.info/admin/people/111603" type="person" role="cmp">Schubert, Franz</name>
-<name key="Verdi, Giuseppe" ref="https://muscat.rism.info/admin/people/137994" type="person" role="cmp">Verdi, Giuseppe</name>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Massenet, Jules" ref="https://muscat.rism.info/admin/people/84264" type="person" role="cmp">Massenet, Jules</name>
-<name key="Debussy, Claude" ref="https://muscat.rism.info/admin/people/4338" type="person" role="cmp">Debussy, Claude</name>
-<name key="Petit, Georges"  type="person" role="cmp">Petit, Georges</name>
-<name key="Saint-Saëns, Camille" ref="https://muscat.rism.info/admin/people/76734" type="person" role="cmp">Saint-Saëns, Camille</name>
-<name key="Lippmann, S."  type="person" role="cmp">Lippmann, S.</name>
-<name key="Koch, L. (dir.)"  type="person" role="int">Koch, L. (dir.)</name>
-<name key="Corps de musique de Landwehr"  type="person" role="int">Corps de musique de Landwehr</name>
-<name key="Saint-Georges, Paul"  type="person" role="int">Saint-Georges, Paul</name>
-<name key="Payan, Paul"  type="person" role="int">Payan, Paul</name>
-<name key="Decompoix, L. (Mlle)"  type="person" role="int">Decompoix, L. (Mlle)</name>
-<name key="Caill, F."  type="person" role="int">Caill, F.</name>
-<name key="Prieur, J. (Mlle)"  type="person" role="int">Prieur, J. (Mlle)</name>
-<name key="Salmond"  type="person" role="int">Salmond</name>
-<name key="Nordi, L. (Mlle)"  type="person" role="int">Nordi, L. (Mlle)</name>
-<name key="Petit, Georges"  type="person" role="int">Petit, Georges</name>
-<name key="Ginelly, Leda"  type="person" role="int">Ginelly, Leda</name>
-<name key="Tasset, G."  type="person" role="int">Tasset, G.</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001260_001.tif"/>
-<page><![CDATA[Wonoruw WILSON
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19190402'/>
+        <title>
+          Programme du festival en l'honneur du Président Wilson : Au profit du
+          don national suisse
+        </title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1918-1919' type='series'/>
+        <name key='Schubert, Franz' ref='https://muscat.rism.info/admin/people/111603' type='person' role='cmp'>Schubert, Franz</name>
+        <name key='Verdi, Giuseppe' ref='https://muscat.rism.info/admin/people/137994' type='person' role='cmp'>Verdi, Giuseppe</name>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Massenet, Jules' ref='https://muscat.rism.info/admin/people/84264' type='person' role='cmp'>Massenet, Jules</name>
+        <name key='Debussy, Claude' ref='https://muscat.rism.info/admin/people/4338' type='person' role='cmp'>Debussy, Claude</name>
+        <name key='Petit, Georges' type='person' role='cmp'>Petit, Georges</name>
+        <name key='Saint-Saëns, Camille' ref='https://muscat.rism.info/admin/people/76734' type='person' role='cmp'>Saint-Saëns, Camille</name>
+        <name key='Lippmann, S.' type='person' role='cmp'>Lippmann, S.</name>
+        <name key='Koch, L.' type='person' role='int'>Koch, L.</name>
+        <name key='Corps de musique de Landwehr' type='person' role='int'>Corps de musique de Landwehr</name>
+        <name key='Saint-Georges, Paul' type='person' role='int'>Saint-Georges, Paul</name>
+        <name key='Payan, Paul' type='person' role='int'>Payan, Paul</name>
+        <name key='Decompoix, L. (Mlle)' type='person' role='int'>Decompoix, L. (Mlle)</name>
+        <name key='Caill, F.' type='person' role='int'>Caill, F.</name>
+        <name key='Prieur, J. (Mlle)' type='person' role='int'>Prieur, J. (Mlle)</name>
+        <name key='Salmond' type='person' role='int'>Salmond</name>
+        <name key='Nordi, L. (Mlle)' type='person' role='int'>Nordi, L. (Mlle)</name>
+        <name key='Petit, Georges' type='person' role='int'>Petit, Georges</name>
+        <name key='Ginelly, Leda' type='person' role='int'>Ginelly, Leda</name>
+        <name key='Tasset, G.' type='person' role='int'>Tasset, G.</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001260_001.tif'/>
+        <page>
+          <![CDATA[Wonoruw WILSON
 2 avril 1919, à 8 !/, heures
-
 di
-
- 
-
- 
-
- 
-
- 
-
 PROGRAMME
-
- 
-
 Mercre
-
- 
-
- 
-
- 
-
- 
-
- 
-
 —
-
 Z
 O
 “
 5
-
 ,
-
 …w
-
 6
-
 G
-
 Z
-
 - H
-
 à À
 p=t
 ,
 L
 _
 Q.
-
 cOO
 Au profit
 Don National
-
-GUSsTAVE ADOR]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001260_002.tif"/>
-<page><![CDATA[#
-
+GUSsTAVE ADOR
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001260_002.tif'/>
+        <page>
+          <![CDATA[#
 ÿ
 PRN SS— —“"
-
 CRL
-
- 
-      
-
 A
 ;
-
 pROG
-
 S
-
- 
-
 Première Partie
-
 1. Musique de Joandwehr, Direct. L. Koch.
 MARCHE AMÉRICAINE.
-
 ROSEMUNDE. Entracie ... . …. . * >cHupEr.
 AIDA Fantaise e
-
- 
-
 M. Paul Saint-Georges, du Grand Théâtre.
-
 A L’AMÉRIQUE. Poème, dont il est l'auteur.
 ;. M. Paul Payan, de l'Opéra-Comique.
-
 . M!e J. Decompoix, du Grand Théâtre. .
-
 à r e d r ms m Rn
-
- 
-
 s. M. F. @aill, du Grand Théâtre
-
 Dans son réperloire.
-
 SZ
 p
-
- 
-
 6. Mc J. frieur, du Grand Théâtre.
 CHANSON DU BOLÉRO.
 CE QUE C'EST QUN DRAPEAU.
-
 MRE p
 00SD
-
 1pich 43e
-
 Au piano .
-
 Pendant l'entr'acte, vente du poe‘me?È
-
 SVRE \\\\\\\\\\\\‘\‘\—       
         </p>
     </body>
   </text>
 </TEI>
-
- 
-
- 
-
- 
-
 SOUVEMIA »p22 _.3q
-
 Perpétuer, à travers les années qui suivront la guerre, le souvenir des hérc
 lien sympathique entre leurs parents et amis. Œuvre hors de tous les partis pom
 les héros par la musique, la conférence ct le poème. Propager la Médaille du Sour
 chacun fera graver le nom du héros perdu. Publier, si faire se peut, un Livre «
-
- 
-
 héros que pleurent nos membres, des artistes et des poètes.
 S. A. le roi Albert Ter de Belgique et le maréchal Joffre s’intéressent à notren
 mener à chef l’effective collaboration de tous les parents des soldats tombés. _ ;'
-
- 
-
 s——
-
 l Ecrire à Sacha Bernard, 13, place des lînux-Vivëv
-
 ,
 ,
 I
 ; f
 .
-y]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001260_003.tif"/>
-<page><![CDATA[. Q\usique de
-
+y
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001260_003.tif'/>
+        <page>
+          <![CDATA[. Q\usique de
 7
 H
-
 ‘l\@n&1{v—
-
 ; I\Œmu
-
 p
-
 M. Georges
-
 —
 v . uN
-
 sm ns
-
 If. DOn un
-
 =1
-
 M. G. TASSET
-
-     
-   
- 
-    
-
 mérique”
-
- 
-
 és. Créer une sorté de
 às ou religieux. Exalter
 , au revers de laquelle
 ontenant les noms des
-
-  
-
 @' :
-
 €
-
 vrre. Mais il faut pour la
-
 ETE i‘êï—‘â
-
 (HENÈVE
-
 …:_.,«
-
 S ;î”.£$:.:‘»—n;_y,ÿ:
-
 MARCHE DES CHEVALIERS.
 HÉRODIADE.
-
 2. M. Salmond,
 AH,
 L’ENFANT PRODIQUE.
-
 J. Nordi, du Grand Théâtre.
 POUR CEUX QUI SONT TOMBÉS.
 MON CŒUR S’OUVRE A TA VOIX
-
 M. Paul Saint-Georses, du Grand I
-
 Dans ses œuvres.
-
 LA COCARDE
 LA LEGENDE D
-
 6. Me Joeda Ginelly.
-
 Danses classiques. (au piano Mme L. Gardon, liuréate du Conservatoire de Paris.
-
 Seconde Partie
-
 Joandwehr, Direct. L. Koch,
-
-    
- 
-
 WAGNER.
 MASSENET.
-
 rë T'énor.
 , DOUCE IMAGE MASSENET.
-
 DEpussy.
-
 FUYEZ
-
 G REn
 SAINT-SAENS,.
-
 “héâtre.
-
 Petit, de l'Opéra.
 S. LiPPMANN.
-
 E LA SAUGE . MASSENET.
-
 APOTHÉOSE FINALE
-
 Les Hymnes alliés.
-
 au profit des œuvres
-
 M ts €
-
 Q A R 0000
-
 SS S
-
- 
-
- 
-
-ARAN AN rrr rr r]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001260_004.tif"/>
-<page><![CDATA[;
-
+ARAN AN rrr rr r
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001260_004.tif'/>
+        <page>
+          <![CDATA[;
 A T E
 E PR A TIT PEN A
-
 .‘{:.. 0T ;
-
 PE AD AN E 2
 ." N 1ES
-
 243 T E
 - /F 0 T4n E" PE st
-
-   
-
 llllmm……mmm|mmnuuuunmumn|m|m||||‘|||HMMHM…Humuﬂu||n||||||m|…m|uul|nmmumnmmﬂ…mn…nnnm…ﬂ…lliinuïlj||||È
-
- 
-
- 
-
- 
-
 =
-
 l||||llHlllllllllllllllllllllllllllIlHlIlllllllllllllllllllllllllllll!lllIllllllllllllllllllllllllllllllllllllllIllllllllllllllllllllllllllIIIIIlllllllllllllll…llllIllll|…
-
- 
-
 e
-
 1
-
- 
-
- 
-
 CHAUSSURES
-
 À RATIONNELLE
-
 e e
-
 Illlllllllllllll|lllllIlllllllllllllll(|……H
 }}
-
 OON
-
 HELFCEETONIOKELEEOOOENEEEITTHNNTEUI
-
 GN e y
-
 LHHECOODECEOEEC OEOEN OEOEN EEENTENEHENH
-
- 
-
 rr TTOTE SN
-
 20, rue de Rive
-
 :-:.«;.——.—-..—4æiæ
-
 PE
-
 Même Maison
-
 10, CORRATERIE, 10
-
- 
-
 5 $
-
 |…|lllllIlllllllllllllllllllllllllllllllllllllIHIllllllllllll…llllllllllIllllllllllllllllllllllllllllI|lIIIHIHIIHIIIIlllllllIllIllllllllllllHl|lllllllllllllllllIllllllllllllllll!lllllllll
-
 I "
 l"”"'IIIIIIIIHIIllllllllllllllllllll…l…llllllllllllllllllllllll
-
 …llHlllHlllllllll|lllHHIIIIIHIIHIHIIIIIIllllllllllllllllllllllllllll
-
 4444444 HHHHHHwwHd«œŒœ«œŒŒŒKHaah}
-
- 
-
- 
-
- 
-
 [K
 ,l
 llll|IH||llllllllllllllllllllHllIlllllll|llllllllllllllllllllllll|lllll}lIlllllllllllIllllllllllllll|llllIIHIIllllllllllIIIIII|IIIIIIIIIIlllllIIIIIllllllllllllllllllllll||…ii…l…
-
 HHHHHHHIIHIIIIIHIHI|l|I|HI|l|HlllIllllllllllllllllllllllllllllﬂ!ll|l|ÿlllﬂl{l{ljﬂlÿllL[Hlﬂÿÿj[lÔllllllllllllll!llllllllllllllllllllllllllllllllllllllllllllllilll”
-
-=]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001260_005.tif"/>
-<page><![CDATA[ao
-
- 
-
+=
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001260_005.tif'/>
+        <page>
+          <![CDATA[ao
 e
-
 OE
-
- 
-
- 
-
 -
-
- 
-
-   
-
-   
-
 =
-
 =
-
- 
-
 E L
-
-   
- 
- 
-
 s6 065 06 0608c
-
 fn
-
 vl|…unu
-
-  
-  
- 
-
- 
-
 (
-
- 
-
 N
-
 = _5|.…|ill|l
 th
-
 à l'aAmérique
-
 vn
-
 nn renoren Hn
-
 cttreeteea n
-
 "
-
 Hn rrrn ns
-
-  
-
 Hursaan tn
-
 smt
-
-  
-
 Hn oropeoeeneee eh
-
 nozcmnn
-
 vetrreononnneno
-
 POÈME
-
 en l’honneur du
-
 FESTIVAL ,PRO WILSON”
-
 2 Avril 1919 au VICTORIA-HALL
 par
 PaUNn SAINT-GEORGES
 au bénéficé du
 Don National Suisse
-
 L ce e Vescecpispppttrppe 1 SUn prce rrn
 Ws e
-
 LS U h
-
 =
-
- 
-
- 
-
 9
-
 ue z Z
-ur]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001260_006.tif"/>
-<page><![CDATA[GXD
+ur
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001260_006.tif'/>
+        <page>
+          <![CDATA[GXD
 d
-
-  
- 
-
 Mars nnl neuf cent dix-sept.
 Sur les monts, dans les plaines,
-
 De l’Yser glorieux aux campagues lorraines,
-
 Un long frémissement d’espoir passe soudain.
-
 De là-bas, d’outre-mer, de l’horizon lointain,
-
 Un bruit confus accourt, une clameur s’élève
-
 À travers l’Océan, de l’une à l’autre grève,
-
 L’étincelant et pur flambeau de Liberté
-
 Illumine le ciel d’une ardente clarté,
-
 Et la France meurtrie. haletante, héroïque,
-
 A ce signal béni comprend que l’'Amérique
-
 Vient défendre le Droit et, fière de souffrir,
-
 Se range à ses côtés pour vainere ou pour mourir!….
-
- 
-
 Ah! que de cœurs émus battent dans les poitrines ! i* ;
 Quel rénouveau de foi, quelie force divine, A
 Au milieu du fracas des vivats éperdus, ; :
@@ -594,31 +344,27 @@ En avant, les poilus, héros jamais lassés ! Î
 Oubliez maintenant les mauvais jours passés, Ë;
 Descendez, confiants, dans la sanglante lice, â«
 L’avenir est plus bleu, moins lourd le sacrifice! ;
-
 L’Amérique est debout pour les derniers assauts,
 Accrochant la Victoire aux plis de vos drapeaux!
 Et vous, les morts sacrés, les martyrs de la Gloire,
 Vous qui n’osez dormir tant que le (erritoire, ‘
 Repu de sang, de bronze, et d'acier, el d’airain, .
 Reste souillé par les sauvages d’outre-Rhin
-
 Reposez-vous, enfin! L’heure de délivrance
-
 Sonne joyeusement aux vieux clochers de France! ;
 L'Amérique est debout pour le suprême effort.
 L’Amérique est debout! Dormez en paix, les morts !
-
 Et l’Amérique vint, formidable, invincible,
 Jeter ses bataillons dans la mêlée horrible
-
 Ah! vous n‘y compliez pas, Boches! Le « bon vieux ï
 Celui qui n’a jamais figuré dans les cieux, (dieu »,
-
 —C_Q…D_C Na-CMD- C S Ç3@_GJMD_®@_Œ_ŒJ#®@_@ÎË.‘D_CÈ@ ÿ
-
-J4 + + + * + + + b E]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001260_007.tif"/>
-<page><![CDATA[Le vôtre enfin, coiffé d'un casque, armé d’un glaive,
+J4 + + + * + + + b E
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001260_007.tif'/>
+        <page>
+          <![CDATA[Le vôtre enfin, coiffé d'un casque, armé d’un glaive,
 Ce bon vieux bon dieu là, soudain, s’est mis en grève,
 Honteux d’être avec vous si longtemps demeuré…
 — Faut-il que vous l’ayez toul de même écœuré! —
@@ -637,15 +383,12 @@ L’oncle Sam est venu triomphant jusqu’à Lu….
 Non, ils n’y comptaient pas. La Deutschland über Alles
 Avait trop oublié, brute trop Kolossale,
 Qu'’elle était Lilliput à côté de Titan.
-
 . Adieu les srands espoirs, les beaux rêves d’antan !
 Son aigle impérial, ouvrant déjà les ailes
 Pour contempler de haut ses conquêtes nouvelles,
 Dut retomber meurtri, malade, agonisant…
 Et ce n’est plus qu’un perroquet rhumatisant !
-
 Amérique sacrée! O noble République !
-
 Je voudrais, pour chanter ton geste magnifique,
 Trouver des mots plus beaux que ceux qu’on apprend.
 Les mots sont trop petits pour un geste si grand !
@@ -653,97 +396,69 @@ Mais je l'ouvre mon cœur, et c’est un coin de France,
 Vibrant pour toi d’amour et de reconnaissance.
 Lasse de voir pleurer, lasse de voir souffrir,
 Frémissante de voir autour de toi mourir
-
 Les peuples qui voulaient leur Droit et la Justice,
 Généreuse, tu vins partager leur supplice,
-
 Donner ton or, ta force, aux pays alliés,
-
 Offrir aux coups mortels tes enfants par milliers!…
 Ah! commeilsétaient beaux sur nos champs de bataille,
 Ardents, fougueux et fiers au sein de la mitraille!
 L'âme des anciens preux, des chevaliers sans peur,
 Semblait les animer de la sainle füreur.
-
 Qui faisaît les héros des grandes épopées.
 Accrochée au tranchant aigu de léurs épées,
 Faisant briller, ainsi que les plns purs joyaux,
-
 Les étoiles piquées au ciel de leurs drapeaux,
-
 —CHD—CK3-CXD—CH— C— 05—_05—-05-05-05=
 es
-
- 
-
--]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001260_008.tif"/>
-<page><![CDATA[Revivant avec eux les jours lointaias de gloire,
+-
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001260_008.tif'/>
+        <page>
+          <![CDATA[Revivant avec eux les jours lointaias de gloire,
 Elle les a conduits tout droit à la Victoire!
-
 Amérique ! Au mépris de tes propres douleurs,
-
 Toi qui sauvas le monde et séchas tant de pleurs,
 Toi qui nous redonnas l'espérance et la vie,
-
 C'est à genoux qu’il faut que l’on te remercie,
-
 C’est à genoux qu’il faut honorer à jamais ;
 Tes fils tombés pour nous, pour le Droit, pour la Paix.
-
 Salut à vous, héros sublinres,
-
 Salui à vous, morts glorieux !
-
 Du saint devoir nobles victimes,
 Vous êtes plus grands que des dieux.
 Il n’y avait pour votre taille
-
 Et digne de vous qu’un tombeau,
 Oui, c’était le champ de bataille,
-
 A l’ombre de votre drapeau !
-
 À vous, vaillants de grande race,
 Mourant debout, panache au front,
 Il fallait pour cercueil l’espace
-
 Où vibrait le glas du clairon.
 Vous avez sous l'azur sans voiles.
 D'Ypres jusques à Saint-Mihiel,
 Pour flambeaux d’argent les étoiles
 Et poür couronne l’arc-en-ciel !
-
 Dormez, hors de votre patrie !
-
 La terre que vous défendiez
-
 À voulu, sanglante et méurtrie,
 Qu'’en elle vous vous reposiez.
 Dormez, amants purs de la Gloire!
 C'’est elle qui veille à vos pieds.
 Vous berçant d’un chant de victoire,
 Dans vos linceuls de verts lauriers.
-
- 
-
 Soyez bénis, vous que l’on pleure
-
 Et que l’on aime avec fierté.
-
 Grâce à vous vient de sonner l’'heure
 Du Droit et de la Liberté.
-
 Vons avez été l’espérance,
-
 La force et la sérénité…
-
 Vous êtes l’âÂme de la France,
-
 Vous êtes l’Immortalité !
-
-SAINT-GEORGES]]></page>       
-        </p>
+SAINT-GEORGES
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

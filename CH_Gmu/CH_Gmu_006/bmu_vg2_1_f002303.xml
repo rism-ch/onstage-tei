@@ -1,264 +1,171 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par l'Orchestre de la Ville<date when="25/08/1887"/></title>
-<series>1886-1887</series>
-<placeName>Kiosque (Promenade des Bastions)</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par l'Orchestre de la Ville
+            <date when='25/08/1887'/>
+          </title>
+          <series>1886-1887</series>
+          <placeName>Genève, Kiosque (Promenade des Bastions)</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VG2-1 F002303</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Senger, H. de (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18870825"/>
-<title>Concert donné par l'Orchestre de la Ville</title>
-<placeName key="Kiosque (Promenade des Bastions)"/>
-<name key="1886-1887" type="series"/>
-<name key="Michiels"  type="person" role="cmp">Michiels</name>
-<name key="Gevaert"  type="person" role="cmp">Gevaert</name>
-<name key="Weber, Carl Maria von" ref="https://muscat.rism.info/admin/people/117485" type="person" role="cmp">Weber, Carl Maria von</name>
-<name key="Conradi"  type="person" role="cmp">Conradi</name>
-<name key="Gounod, Charles-François" ref="https://muscat.rism.info/admin/people/80479" type="person" role="cmp">Gounod, Charles-François</name>
-<name key="Meyerbeer, Giacomo" ref="https://muscat.rism.info/admin/people/725" type="person" role="cmp">Meyerbeer, Giacomo</name>
-<name key="Garin, Jos."  type="person" role="cmp">Garin, Jos.</name>
-<name key="Blanchereau, J."  type="person" role="cmp">Blanchereau, J.</name>
-<name key="Senger, Franz Ludwig Hugo von  (dir.)" ref="https://muscat.rism.info/admin/people/30015297" type="person" role="int">Senger, Franz Ludwig Hugo von  (dir.)</name>
-<name key="Orchestre de la Ville de Genève"  type="person" role="int">Orchestre de la Ville de Genève</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_1_f002303_001.tif"/>
-<page><![CDATA[‘ mosition. — Béférences: MM. Oder & Fournier,}
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18870825'/>
+        <title>Concert donné par l'Orchestre de la Ville</title>
+        <placeName key='Genève, Kiosque (Promenade des Bastions)'/>
+        <name key='1886-1887' type='series'/>
+        <name key='Michiels' type='person' role='cmp'>Michiels</name>
+        <name key='Gevaert' type='person' role='cmp'>Gevaert</name>
+        <name key='Weber, Carl Maria von' ref='https://muscat.rism.info/admin/people/117485' type='person' role='cmp'>Weber, Carl Maria von</name>
+        <name key='Conradi' type='person' role='cmp'>Conradi</name>
+        <name key='Gounod, Charles-François' ref='https://muscat.rism.info/admin/people/80479' type='person' role='cmp'>Gounod, Charles-François</name>
+        <name key='Meyerbeer, Giacomo' ref='https://muscat.rism.info/admin/people/725' type='person' role='cmp'>Meyerbeer, Giacomo</name>
+        <name key='Garin, Jos.' type='person' role='cmp'>Garin, Jos.</name>
+        <name key='Blanchereau, J.' type='person' role='cmp'>Blanchereau, J.</name>
+        <name key='Senger, Franz Ludwig Hugo von' ref='https://muscat.rism.info/admin/people/30015297' type='person' role='int'>Senger, Franz Ludwig Hugo von</name>
+        <name key='Orchestre de la Ville de Genève' type='person' role='int'>Orchestre de la Ville de Genève</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_1_f002303_001.tif'/>
+        <page>
+          <![CDATA[‘ mosition. — Béférences: MM. Oder & Fournier,}
 |
-
- 
-
 BESTAURATÏON DU KIOSQUE DES BAS ÎIONS
-
 Tous les jours Déjeuners & Dmers à prix Îixe.
-
 Service à la Carte à toute heure
-
 CUISINE SOIGNÉE ## CAVE RENOMMÉE #
-
 (îf
-
- 
-
- 
-
- 
-
 h\ COCHER ANGLANS
-
 Ï Demande place. — Excellents certificats à dis- ” JÜ“(]i 25 AOùL ù —l: hÜÜI‘ÜS.
-
 I0 sque des Bastions. —
-
 E ; CONCERT
 Î‘jÿ L |
-
 | ‘ donné par | La Venlable BlCYCLETTE
-
 |
 |
-
 | - un (RUDGE & Co)
 E -— L ! chestre de la Ville .
-
 Se trouve seulement
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 CHEZ
 FlﬂS & 0rdina_ir‘es | Direction de VH. Elugo de SENGER ‘
-
 lä EN FUTS & EN BOUTEILLES ï,;  se | L @LU > D E Ll p R A ZJ
 |
-
 |
-
 |
-
 e Æ LS Tt UN T A
-
 ; > | | UE-de SAUSSURE, 6 GENÈVE
 Louis ODHER | à; , | à ...
 IGenève -- 14, chs 14, -- Genève | p“0GR\MMF) uT (à côté du Bâtiment Ëlectoral)
-
 | \ seul Agent pour In Suisse
 VINS VAUDOIS de ] SCHMIDHAUSER | | ñ
-
 Première partie PRIX-COURANT franco sur demande
 1. FORMOSE, marche militaire française
-
 OURNITURES GÉNÉRALES POUR LA} | ?-
 PHOTOGRAPHIE
-
- 
-
 de Lausanne
-
- 
-
 MICHIELS Fehanges. - Réparations - Loeation-
-
 l PRN
 Ouverture de GEORGETTE, opéra-bouffe GEVAERT les À Maison fondée en 1810
-
 su Cl de ‘\VEBER | ©ÜVÏËR & F ©E@Z
-
- 
-
-| _ 3 PRÉCIOSA]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_1_f002303_002.tif"/>
-<page><![CDATA[GASIN ne T ABACS! ROMÉO et JULIETTE, ouverture-prologue e
+| _ 3 PRÉCIOSA
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_1_f002303_002.tif'/>
+        <page>
+          <![CDATA[GASIN ne T ABACS! ROMÉO et JULIETTE, ouverture-prologue e
 4, BOULEVARD JAMES-FAZY, 4 l , ; ' 5
 L’ÉTOILE DU NORD MEYERBEER
-
 IBAINS du RHONF | * #ost rs e
-
 | Pont de la Coulouvrenière | CERISETTE, valse
-
 !
-
 LIQUEURS FINES, SIROPS DIVER
-
 J. BLANGHEREAU P A R F U “1 Ë RÏE
-
 (Ouverture rer Juin) | IRVIGRES de TOILETT E en tous se
-
 TARIF DES BAINS W
-
 4058 c | | PÉCIALITÉS lÉTRANGÈRES
 Cabine particulière, avec douches fr. | |
-
 | «  pour 5 ou 6 personnes
-
 {{rande piscineaves cabîne pour Mesciers 4 Etablissement couvert en cas de pluie | … @ENË@@ÀN & Ve
-
 « « pour Dames
-
- 
-
- 
-
 | | |
 .\Douchcs Il ur ! j ;
 Ï LINGERIE il \ Vis-à-vis du MOLARD
-
 E NN OE MIS C A e R EES
-
 cos s, 30 centime. — drap, 2 imes Ï }
 I costumes, 350 centime 1 drap, 20 centimes, | 40’ rue du M3;Ï‘Châ, 40
-
 1 serviette, TO c. — I Caleçon, IO C. —
-
 }
-
 ; | Veadredi 26 Août, 8 à heures, Concert donné par l’Orchestre de la Ville. | PRIX MODÉRÉS
-
 \rousles Vemdawedis à 8 h. du soir gwatuitenmentd,
 . e LA .
-
 ‘]’9“““““.aﬁ‘"' du Fausionnisime Pour tout ce qui concerne le Programme ‘
-
 Aux personnes qui voudront bien nous honorer de leur présence. | W Æ | Officiel des Concerts du KIOSQUE DIES |
-
 | Ladémonstration du Æasionisme à pour objet de nous consti- | SS x BASTIONS, c'est-à-(dire, Annonces, ‘
-
 fréclames, Insertions diverses, ‘
-
 |
-
 |
-
 |
-
 Ï
-
 Ï
-
 |
-
 |
-
- 
-
- 
-
 tuer dans la Vie Eternelle, par \a Connaissance de Dieu, dui
 Ï * Trierselet de Nous-mêmes. Sans ces C aissances ; > ; es
 Monde l niversel et de Nous-mêmes. Sans ces connaissances T0 s’adresser à Victor GUILLOT
 lexactes, il nous est impossible de réaliser e ce Monde et dans ous les sOIrSs fantmeure Myponte e
 les Autres, e Bonheur dont chacun de nousà Besoin. | ' \ e _.[ Î‘l !)(.
 AVWES aux personnes qui ne pourraient pas ou qui crain- ‘ / : \ ue des Allemands, ZV
-
 ; es pmà ASOE À PFAT AN e mm S ‘
 (draient dese déranger : ; | TU hﬁ: IË À TÂ1ÛNË D 1 J KÎÛS T "
 | Démonstration du Fusionnisme à Domicile | el el / matoe Ropa Ÿ e PA) VS sN sP V50 mV Ÿ ÜJ Ej
-
 Movyennant l’envoi de 5 francs, par la poste, pour une asseny
 *lée de DEUX à VINGT personnes,
 par BABICK, Enfant du Règne de Dieu,
 - de l'Ordre des Prêtres hyménéens ainsi qu’ Apôtre du Fusionnisme.
 ÀA Genève, rue des Allemands, 26, au 3me étage
-
 GRANDS MAGASINS
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 DE DENRÉES COLONIALES - ÉPICERIE FINE - DROGUERTÉ
-
 [ n à KANRT MEYVER Fn face FHôte! Métropote ‘
 2 | u4 % \ e DpPp Q ‘
 98, Rue du Khône, ve GRR L Y ILN En face ôte! Métropolc
@@ -268,38 +175,21 @@ surer aux cousonnnaleurs la qualité et des prix sans précédents, aussi clle r
 toute coneurrence; el elle prie instamment le puhlic de consulter sérieusement le prix courant et de remarquer qu'à côté des prix excessivement bas, d'autre part elle est à mème |
 de faire des conditions encore plus favorables pour les commandes d'une certaine importance et surtout aux personnes qui voudront=bien l'honorer de leur visite pour,
 ! traiter verbalement. Aperçu des prix de quelques articles pris au hasard :
-
 Sncre de Paris Tre qnal. e kil. 45 | Chocolats Snchard rabaispar K1 369 | Thé se recommandes le*1.k.1,75 | Aloool fenthe Riogls ‘ faconl3 | Sardines excellente qualité 351
-
 Grande SEUL ET ÉNIQUE DÉPOT DU ; Fabrique et Dépôt ('.L—m';rnl de ka
-
 n « . , ; ; = - X
-
 25 F â RE en E q 2c andons a Jersonnes faibles et dé- : -and asso :nt de Produits Pirotecniques. _ ë ; ; e 2
-
 SPÉCIALITÉ DE CAFES TORREFIES \ » ÎîLO…_…‘:“.M - \Î\ ; coénérateur dela san- ("r‘…'1 n \kl‘:…… ni‘% . _rL_l S l-‘ï = Nouveau vernis ang'ais, le plus utile et le plus ; “_‘Ÿ“’_“ ’l_:‘1‘: ÿ fa
 licates le rec A)Ï.\ stituant et fkthkfè €  1 Feux d’art (‘ (H en tous ge .\r‘Î s: klar i.u\i.<}\u'll-‘n‘. le pour tout le monde, séchant ins- CIRE à PARQUET (Encaustique p\Tfl’k‘h«’)ïïﬂt)
-
 squiestle V . au Mala- < de Bengale, ch: lles romaines, fusées VO- ; = ;
-
 é ']…Ê— ﬂL,‘ p (.1( (#EEF î‘:l]_“ _“_Ë 1 =T ,,1 > mes ce Bc n_î“%‘ ù chandelles r‘ 31P \_\…_" u\“k VÎ tautanement en donnant un E1l H‘ re <ur1srv- Reco. nu ‘<U\Cl'l(‘.ll et \Ul‘p.h\_.lht tout autre pr({-
-
 GI "…l*…Ènù. toyal, lelit 3,505 € (U él L $$CONTENT$$1…. — eurs CR UE nant, employer pour vernir et restaurer soi- duit similaire fait jusqu’à ce jour, le seul et unk-
-
 Fidèle aux prescriptions de la recette, cette déli- randoles, ailes de moulin, bombes, pétards, etc. L
-
 cieuse prérar;xtîon doit sa réputation si justement Spécialité d’articles pour les enfants n’offrant
-
 mériée à la richesse en quinine et à pureté du vin aucun danger et faisant beaucoup d’éclat.
-
 >
-
 avec lequel elle est préparée. Les médecins la Articles de fantaisie depuis 5 cent. à 5 fr.: feux
-
- 
-
 Torréfaction tous les jours
-
 ! Grâce à un nouveau système de chauffage per-
 fectionné. conservant au café toutes ses proprî—_'—-
 tés: arôme.porfam. économie
@@ -309,50 +199,23 @@ Grand choix de cafés verts de toute provenance :
 Rio, Ceylan, Caracoli, Liberia, St-Salvador,
 | Bourbon, Moka, etc. etc. le 172 kil. depuis 80,
 F 90, 1, 1,20.
-
 \ . . As à . » I -
 mème, sans préparation aucune, n’importe quels que rec ymmandable sous le rapport de ?Hy-}
 objets tels que: Chapeaux de paille, cuir, maro- giène, Proprete, Rayhh_ln, Fconomie ; se vend \
 <\u'….1mpi«'r.\vni.<,1…—t:uu.vtv.rw ommandé par- en boîtes dep. J, 2, 5 fr. SD Ck au-dessus. y
 3 A A Ç A 2 uS ticulièrement aux modistes, chapeliers, lithogra- Grand Dépôt de tous les articles concernant
 recommande, aux m::lades aux convalescents et tout prêt pour être emportés et tirés soi-mèmez;
-
 aux personnes aycnt besoin d’un vin nutritif et articles d’illumination : lanternes vénitiennes,
 fortifiant. flambeoux, etc. Prix défiant toute concurrence.
-
 phes, rclieurs, tourneurs, sculpteurs. en toutes les parquets, tels que : Cire Jaune et blanche en|
-
- 
-
- 
-
- 
-
- 
-
 nuances, et vendu en flacon de 50 cent. ! et 2 pains, Essence térébenthine, Couleur de noyer, |
 fr., par litre prix réduit. Paille de fer, Eponges, Peaux de daim, ete.
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Vente au Comptant Réclamer Service prompt ct soigné Livraison à dormicile Wéléphone adisposition d.chcntä
-
 le Prix Courant
-
-— = —]]></page>       
-        </p>
+— = —
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

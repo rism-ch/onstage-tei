@@ -1,77 +1,81 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par l'Harmonie nautique<date when="29/03/1896"/></title>
-<series>1895-1896</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par l'Harmonie nautique
+            <date when='29/03/1896'/>
+          </title>
+          <series>1895-1896</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F000367</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Bonade, L. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18960329"/>
-<title>Concert donné par l'Harmonie nautique</title>
-<placeName key="Victoria Hall"/>
-<name key="1895-1896" type="series"/>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Thomas, A."  type="person" role="cmp">Thomas, A.</name>
-<name key="Meyerbeer, Giacomo" ref="https://muscat.rism.info/admin/people/725" type="person" role="cmp">Meyerbeer, Giacomo</name>
-<name key="Arban, Jean-Baptiste" ref="https://muscat.rism.info/admin/people/31980" type="person" role="cmp">Arban, Jean-Baptiste</name>
-<name key="Saint-Saëns, Camille" ref="https://muscat.rism.info/admin/people/76734" type="person" role="cmp">Saint-Saëns, Camille</name>
-<name key="Eilenberg, Richard" ref="https://muscat.rism.info/admin/people/42284" type="person" role="cmp">Eilenberg, Richard</name>
-<name key="Titl"  type="person" role="cmp">Titl</name>
-<name key="Bonade, Louis (dir.)"  type="person" role="int">Bonade, Louis (dir.)</name>
-<name key="Harmonie Nautique"  type="person" role="int">Harmonie Nautique</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000367_001.tif"/>
-<page><![CDATA[j .
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18960329'/>
+        <title>Concert donné par l'Harmonie nautique</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1895-1896' type='series'/>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Thomas, A.' type='person' role='cmp'>Thomas, A.</name>
+        <name key='Meyerbeer, Giacomo' ref='https://muscat.rism.info/admin/people/725' type='person' role='cmp'>Meyerbeer, Giacomo</name>
+        <name key='Arban, Jean-Baptiste' ref='https://muscat.rism.info/admin/people/31980' type='person' role='cmp'>Arban, Jean-Baptiste</name>
+        <name key='Saint-Saëns, Camille' ref='https://muscat.rism.info/admin/people/76734' type='person' role='cmp'>Saint-Saëns, Camille</name>
+        <name key='Eilenberg, Richard' ref='https://muscat.rism.info/admin/people/42284' type='person' role='cmp'>Eilenberg, Richard</name>
+        <name key='Titl' type='person' role='cmp'>Titl</name>
+        <name key='Bonade, Louis' type='person' role='int'>Bonade, Louis</name>
+        <name key='Harmonie Nautique' type='person' role='int'>Harmonie Nautique</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000367_001.tif'/>
+        <page>
+          <![CDATA[j .
 | N e e A E ‘>Ïï—î’3â@ ,,
 %êËËH—:;————————M% . * 59
 ©j ue r1 A -H ATT, ﬂ;@
 Æ 1 ]Ouverture des portes | | on commencera à | Æ
-
 |Â … .. …
 .
-
 à 2 heures, | Dimanche 29 Mars IS(}() JL 2 Weures 112 > | “$
-
- 
-
- 
-
- 
-
 DONNÉE PAR
 L'HARMONIE NAUTIQUE DE GENÈVE
 sous la direction de
@@ -79,7 +83,6 @@ sous la direction de
 r% Ç°:ÇK“ t
 Î‘Rl'..\lll".lîli PARTIE
 ©Y© à @
-
 e 5
 œ °
 b
@@ -101,9 +104,6 @@ e
 u
 ®
 5
-
- 
-
 cummecermanniauser .… R. Wagner.
 go"îÿ P nnsesurLeCcaid ... À. Thomas.
 Q S e ,
@@ -121,24 +121,18 @@ b) La danse des Lutins..........11112111m R. Eilenberg.
 Seconde Galerie, 50 cent. A 0n
 On peut se procurer des cartes a l'avance de 10 heuves à 4 heures jusqu'au Samedi soir
 au Victoria-Hall,
-
- 
-
- 
-
 À
 MM. les membres non-exécutants obt droit d’entrée à ce concert sur présentation
 du coupon n° 3 aux places du rez-de-chaussée
-
 € et, moyennant un supplément de
 1 fr., aux places de première galérie.
-
 SS
-
 Ÿ
 @
-\Ïÿ Prière de ne pas entrer pendant l’exécution des morceaux,]]></page>       
-        </p>
+\Ïÿ Prière de ne pas entrer pendant l’exécution des morceaux,
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

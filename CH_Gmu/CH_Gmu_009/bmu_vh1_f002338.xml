@@ -1,115 +1,95 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par le Corps de musique d'Elite<date when="07/03/1920"/></title>
-<series>1919-1920</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par le Corps de musique d'Elite
+            <date when='07/03/1920'/>
+          </title>
+          <series>1919-1920</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002338</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Romain, F. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19200307"/>
-<title>Concert donné par le Corps de musique d'Elite</title>
-<placeName key="Victoria Hall"/>
-<name key="1919-1920" type="series"/>
-<name key="Mozart, Wolfgang Amadeus" ref="https://muscat.rism.info/admin/people/115324" type="person" role="cmp">Mozart, Wolfgang Amadeus</name>
-<name key="Händel, Georg Friedrich" ref="https://muscat.rism.info/admin/people/36552" type="person" role="cmp">Händel, Georg Friedrich</name>
-<name key="Wormser"  type="person" role="cmp">Wormser</name>
-<name key="Gluck, Christoph Willibald" ref="https://muscat.rism.info/admin/people/67338" type="person" role="cmp">Gluck, Christoph Willibald</name>
-<name key="Haydn, Joseph" ref="https://muscat.rism.info/admin/people/55803" type="person" role="cmp">Haydn, Joseph</name>
-<name key="Verdi, Giuseppe" ref="https://muscat.rism.info/admin/people/137994" type="person" role="cmp">Verdi, Giuseppe</name>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Fauré, Gabriel" ref="https://muscat.rism.info/admin/people/41731" type="person" role="cmp">Fauré, Gabriel</name>
-<name key="Lenormand"  type="person" role="cmp">Lenormand</name>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Romain, F. (dir.)"  type="person" role="int">Romain, F. (dir.)</name>
-<name key="Corps de musique d'Elite"  type="person" role="int">Corps de musique d'Elite</name>
-<name key="Béchard-Leschaud, Renée"  type="person" role="int">Béchard-Leschaud, Renée</name>
-<name key="Tindel, Raymond"  type="person" role="int">Tindel, Raymond</name>
-<name key="Ketten, Léopold"  type="person" role="int">Ketten, Léopold</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002338_001.tif"/>
-<page><![CDATA[. ; © 22
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19200307'/>
+        <title>Concert donné par le Corps de musique d'Elite</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1919-1920' type='series'/>
+        <name key='Mozart, Wolfgang Amadeus' ref='https://muscat.rism.info/admin/people/115324' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Händel, Georg Friedrich' ref='https://muscat.rism.info/admin/people/36552' type='person' role='cmp'>Händel, Georg Friedrich</name>
+        <name key='Wormser' type='person' role='cmp'>Wormser</name>
+        <name key='Gluck, Christoph Willibald' ref='https://muscat.rism.info/admin/people/67338' type='person' role='cmp'>Gluck, Christoph Willibald</name>
+        <name key='Haydn, Joseph' ref='https://muscat.rism.info/admin/people/55803' type='person' role='cmp'>Haydn, Joseph</name>
+        <name key='Verdi, Giuseppe' ref='https://muscat.rism.info/admin/people/137994' type='person' role='cmp'>Verdi, Giuseppe</name>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Fauré, Gabriel' ref='https://muscat.rism.info/admin/people/41731' type='person' role='cmp'>Fauré, Gabriel</name>
+        <name key='Lenormand' type='person' role='cmp'>Lenormand</name>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Romain, F.' type='person' role='int'>Romain, F.</name>
+        <name key='Corps de musique d&apos;Elite' type='person' role='int'>Corps de musique d'Elite</name>
+        <name key='Béchard-Leschaud, Renée' type='person' role='int'>Béchard-Leschaud, Renée</name>
+        <name key='Tindel, Raymond' type='person' role='int'>Tindel, Raymond</name>
+        <name key='Ketten, Léopold' type='person' role='int'>Ketten, Léopold</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002338_001.tif'/>
+        <page>
+          <![CDATA[. ; © 22
 @oaooooon oaoooooooo'ooOOoo»oocoooooooooocoooooouaooaooo oooOOOoooooooooooonooonoo@
 H ;
 VICTORIA _—HALL
-
- 
-  
-
- 
-
- 
-
 P va ts GENEVE
 ! Ouverture des portes
-
 à 2 h. et demie
-
 Q
 {
 On commencera Ë
-
 { a1h.trois quarts ; 50
 ? 2
-
- 
-
- 
-
 Dimanche 7 Mars 1920
-
 DONNÉ PAR LE CORPS DE
-
-     
-
 90000000005000(M)O9000000000000000000
-
- 
-
- 
-
- 
-
 0000000000000000 (O 000000000000 00000000
-
- 
-
- 
-
 jpo
 Ï
 |
@@ -128,96 +108,43 @@ H
 Ï
 F
 IÏ
-
- 
-
 ! MUSIQUE D'ELITE
 | DIRECTION : F. ROMAIN #
 avec le bienveillant concours de
-
 |
 |
 M"* Renée BÉCHARD-LESCHAUD M. Raymond TINDEL L
-
 Cantatrice Baryton
 ; Elève de M, le Prof. L. KETTEN
-
- 
-
 M. Léopold KETTEN #
-
 {Professeur supérieur au Conservatoire
-
 00000000 -mooocooaoaOOOoaoooooaooooooonooc‘î
-
- 
-
- 
-
- 
-
 r r >
-
 @aoooooooooooooooaooOOOoooumooonŒ@)oçun @Yâ Ju 50 ' s00000 Qooc
-» ?]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002338_002.tif"/>
-<page><![CDATA[S… , PEN E OI 7 ME TPI
-
-  
-
- 
-
- 
-
- 
-
- 
-
+» ?
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002338_002.tif'/>
+        <page>
+          <![CDATA[S… , PEN E OI 7 ME TPI
 30000 ;
-
 @g: à PEORA 0050902999 GAog c0 *90NIAOAAO000r CO0SOSCOO000COCO00CACCOgE
 s000 20000 0920 000000°99 oconannanGAo °coc°oonoo………,}gcscçn_goä
-
 #
-
 F
-
 >
-
 ë
-
- 
-
 09%00p
-
 VICTORIA HALL =
-
 -
 o00000006V0000000 :oge::c:c:o'}c:oaaolÿ
-
-     
-
 M0cpooo000000C00000000000 00000000 000
-
- 
-
- 
-
- 
-
 J Q9990000O0CNONOO0O000000000000000000000000000000000000090000 0000000000 CP008
 [
 |
 |
-
- 
-
 9900000000000000000000000000 3°
-
 20000000 0000000030000C00060000000000 5,
-
-   
-
 Il Ë
 | ‘
 (S) Il
@@ -242,25 +169,13 @@ O 1. Ouverture d'Idoménée …. . . . Mozart
 Ë g 8 (ÉLITE)
 s8
 p
-
 .o
-
-   
-
 (M. TINDEL)
-
 Les Lupercales, poème symphon. Wormser
 (ÉLITE)
-
 O&)C
 S
-
- 
-
- 
-
 aovo(
-
 |
 { $ 2. Récit et Air du Messie .. . . . Haendelà
 |
@@ -268,54 +183,19 @@ aovo(
 |
 |
 |
-
- 
-
- 
-
- 
-
 e ], | 4. Récit et Air de Clytemnestre
-
 1Q (Iphigénie en Aulide) . Gluck
-
 28 9 2 (Mme BÉCHARD-LESCHAUD)
-
 88 8 5. Final de la 16"° Symphonie . . Haydn
-
 s. Q 9
-
 3 S (ÉLITE)
-
 e - © |
-
 83 9 3 Entre la Jre et la Qme pa
-
 @ Les portes seront fermées
-
 > PRIX DES PLACES : Loges et 1 rang de lagl " €
-
 2 8 $ places de la 1'° galerie, 1 fr. 05 — 2me rie
 2 ë ë Cartes à l'avance : Victoria-Hall ; Case de l’Oncle
-
- 
-
 9000000000600 ((@O000p0000000000000 ooco®0«:««; ooooooooococccoc‘ñ
-
- 
-
- 
-
- 
-
-   
-
- 
-
- 
-
- 
-
 |
 |
 a
@@ -324,22 +204,12 @@ a
 |
 |
 !
-
- 
-
- 
-
- 
-
 900600000000000000000000000000
-
 _ rrDersre T e e d e en p rr r rc t e rn urr
 S 09000000000000000000000000060000000000000000000000000000000000 O O 55)
 ° O“ _
 ° Les cartes de Membres bonoraires et non exécutants
-
 5
-
 ° 9, donnent droit à 2 entrées,
 °
 ë O, e
@@ -348,56 +218,20 @@ e odo c 0090000600 00COC0OOCDO000000O0000O000000000000 00000000 000O() OC
 Q Én
 O
 °
-
- 
- 
-    
-
 90000000000000000000000060000000 0000
-
-    
-
 c090 00909°0©000000000000000000900000000 000000
-
 (n
 50
-
 {
-
 0000000000000000000000000000000000 2)oco00
-
- 
-
-$ []]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002338_003.tif"/>
-<page><![CDATA[u°,a°°°°°°@oo°°ooooococooaoooebooooooooooacoonoauaoooaooon°
-
- 
-
+$ [
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002338_003.tif'/>
+        <page>
+          <![CDATA[u°,a°°°°°°@oo°°ooooococooaoooebooooooooooacoonoauaoooaooon°
 @
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 9000000972 ©O 200000 00
-
 00
 °o
 ..
@@ -424,7 +258,6 @@ C © ©
 '>æcoucoaococoocaoooooO®oaoonoooooaoaoconooooO®oaooocooooacacoccooçoc Q300 c
 5 ° o0o
 » | ° s0
-
 . = Ï ° ;
 Ï , A ° 0
 ; 6 Ï Oo(8 o°0
@@ -436,184 +269,84 @@ Z ° 0
 ‘ ; | o 0
 f °eo
 H °
-
 \
-
- 
-
 AMM
-
 (èoaoooooooaocoooooooooooou s0Q
 f
-
- 
-
- 
-
 DEUXIÈME PARTIE
-
 rrn qe à eqs
-
-  
-
 6. Ouverture d'Iphigénie en Aulide Gluck
-
 (ÉLITE)
-
 7. Grand Air du Bai Masqué Verdi
-
- 
-
 Ooooçoo:oscoo@Ocoocucco:coOoooccooooooo€Üchcoouccoocouccoocc
-
- 
-
 9(Oeo0000000000000000É)O0c00000000000 00c O
-
 °
 °
-
 @
-
 GS
-
 S ,09000000000000000 00000000
 90000000 006000000
-
 4)0o
-
- 
-
- 
-
-  
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-  
-
- 
-
 E (M. TINDEL) el en )
 ü 00 % (‘°Oo
-
 ÿ 8 Scherzo de la 2"° Symphonie. Beethoven I| 20e Poos
-
 js , e8 00 —,
-
 j (ÉLITE) ‘oapge. D
-
 j O s°
-
 # 9 a)Les Roses . .. Fauré 58
-
 _li a oo
-
 à 2 .S
-
 | b) Le Vautour . E Lenormand : p É1
-
 A £ ° ° s0
-
 l (Mme BÉCHARD-LESCHAUD) é j 8 2.8
-
 Ï 3 s8
-
 2 ° 2 s9
-
 W 8 8 98
-
 ] su ° | ° ° 0
-
 * 10. La Walkyrie . ; - - Wagner 2 É 20
-
 Ë E “ Ô s8
-
 Ë (ÉLITE) 0 = 2e
-
 Î © e 88
-
 © : 2pe
-
 (ENTR'ACTE de 15 minutes g E 98
-
 O ° o°oo
-
 %nt l’exécution des morceaux 9 9 .
-
 ; 8 88
-
 % p st | s9
-
 ( érotés), 2 fr. 10 — Rez-de-chaussée et autres 8 2 2n
-
 y Place Kléberg ; E. Fivaz, Terrassière, 9. 2 O l É
-
 8 e 8
-
 & 0 00 88
-
 D000000000000000 «’/“O®OoOoc(ooùoaoucbuçoooo(;f@mocr 000000000000c (,ﬂ°Çd ( | °%0Ü;_ﬂ°° {J ’
-
 E °9
-
 P— — — —— 60
-
 0000° Câf_‘,'j 000 909000000000000000000000000000000000000000 00 9090C000000006, 0. c0
-
 © 890020 900 2n
-
 8 Le coupon No 1 donne droit à une entrée et moyennant 5 S 2â !j s.
-
 O'J = J r; | po °o
-
 S suppl. de 1 fr, par personne à une place numérotée 5 |l ° ©‘ä”/? s8
-
 . o | O 00 ° ;r ::
-
 0°°OOOOOOcoor:xrpw:ooaawavo AmHcooOcnooocnooocûoocoaoaooooooocooooo"—’”o | aoodP0%008 Îî °
-
 e | 282
-
 —s | 88
-
 90000000000000000000000000000000000 99900090 oo°"°°°@o 9g0990000000600000N0000 00c 0900000009 =.
-
-20000000 ,>cmf«cocnfmocao«,awrru,r"f'°GEJOO,)O…,Q°n…rmooouoaocuoooaooo… 900c »…«,o°j_@]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002338_004.tif"/>
-<page><![CDATA[reaudes
-
+20000000 ,>cmf«cocnfmocao«,awrru,r"f'°GEJOO,)O…,Q°n…rmooouoaocuoooaooo… 900c »…«,o°j_@
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002338_004.tif'/>
+        <page><![CDATA[reaudes
 N
-
 D
 @
 Rs
-
 SÉceud
-
 -
-
 0»
-
 aléortes
-
 ©
-S (171//‘(]]></page>       
-        </p>
+S (171//‘(
+]]></page>
+      </p>
     </body>
   </text>
 </TEI>

@@ -1,411 +1,217 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Programme des concerts donnés par l'Orchestre symphonique de Genève<date when="29/07/1944"/></title>
-<series>1943-1944</series>
-<placeName>Promenade du Lac</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Programme des concerts donnés par l'Orchestre symphonique de Genève
+            <date when='29/07/1944'/>
+          </title>
+          <series>1943-1944</series>
+          <placeName>Genève, Promenade du Lac</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VG2-2 F000985</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Held, Ch. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19440729"/>
-<title>Programme des concerts donnés par l'Orchestre symphonique de Genève</title>
-<placeName key="Promenade du Lac"/>
-<name key="1943-1944" type="series"/>
-<name key="Mozart, Wolfgang Amadeus" ref="https://muscat.rism.info/admin/people/115324" type="person" role="cmp">Mozart, Wolfgang Amadeus</name>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Smetana, Bedřich" ref="https://muscat.rism.info/admin/people/144306" type="person" role="cmp">Smetana, Bedřich</name>
-<name key="Weber, Carl Maria von" ref="https://muscat.rism.info/admin/people/117485" type="person" role="cmp">Weber, Carl Maria von</name>
-<name key="Held, Ch. (dir.)"  type="person" role="int">Held, Ch. (dir.)</name>
-<name key="Orchestre Symphonique de Genève"  type="person" role="int">Orchestre Symphonique de Genève</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_2_f000985_001.tif"/>
-<page><![CDATA[VILLE DE GENÈVE
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19440729'/>
+        <title>Programme des concerts donnés par l'Orchestre symphonique de Genève</title>
+        <placeName key='Genève, Promenade du Lac'/>
+        <name key='1943-1944' type='series'/>
+        <name key='Mozart, Wolfgang Amadeus' ref='https://muscat.rism.info/admin/people/115324' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Smetana, Bedřich' ref='https://muscat.rism.info/admin/people/144306' type='person' role='cmp'>Smetana, Bedřich</name>
+        <name key='Weber, Carl Maria von' ref='https://muscat.rism.info/admin/people/117485' type='person' role='cmp'>Weber, Carl Maria von</name>
+        <name key='Held, Ch.' type='person' role='int'>Held, Ch.</name>
+        <name key='Orchestre Symphonique de Genève' type='person' role='int'>Orchestre Symphonique de Genève</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_2_f000985_001.tif'/>
+        <page>
+          <![CDATA[VILLE DE GENÈVE
 *
-
 Promenade du Lac
-
 ÉTÉ 1944
-
 (10° saison)
-
 Programme
-
 des Concerts donnés par
-
- 
-
 [ Ôrcﬁesire ymPËonique,2
-
 de Cyenève?
-
 | sous les auspices du Département du Travail, du Conseil Administratif
 - et de l’Association des Intérêts de Genève
-
 s, œ
-
- 
-
 PATEK, PHILIPPE a Ce
-
 =% Æn;ﬁc&‘æze
 Àd '%@çu‘ç de Mauivte
-
 /î 2ecuseore,
-
- 
-
 GENÈVE 22, Grand-Quai
-
- 
-
- 
-
- 
-
- 
-
-Prix : Fr. 0.15]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_2_f000985_002.tif"/>
-<page><![CDATA[u
-
+Prix : Fr. 0.15
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_2_f000985_002.tif'/>
+        <page><![CDATA[u
 Ÿ
-
-    
-
-  
-
- 
-
- 
-
- 
-
- 
-
 Une F
-
 RISTOURNE
 ET ESCOMPTE
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Siège et direction
-
- 
-
-    
-
-RUEgDE'HA-]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_2_f000985_003.tif"/>
-<page><![CDATA[A
-
+RUEgDE'HA-
+]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_2_f000985_003.tif'/>
+        <page>
+          <![CDATA[A
 M r G
-
- 
-
 T-
-
-   
-
 Î
-
- 
-
 t1cuhers .
-
- 
-
-   
-
 3, Place des BergueS
-
 'Assoœaüon des Interets de Geneve a pour ob3et de t_ra_ aﬂler dans tous les doma1nes 3
 au deveLoppement de la ville de Geneve, de manière à pr où'rer à tous ses habitants, tant
 naüonaux quætrangers le max1mum d'avantages aussi b1' econom1ques qu 1ntellectuels E
 L’Assocm”aon s eﬁorce par ‘tous les moyens de fa1re conna1tre _eneve comme lieu de sé30ur
-
 “-et de res1dence. d orgamser toutes mamfestaüons destmees à animer le tourisme et la vie
-
- 
-
 8500 membres — Co'asaﬁon annuelle 10 francs -
-
- 
-
- 
-
- 
-
- 
-
 I,Lb\‘ '_"‘] ; L" v , {
 .. Concerts dete 2
 AE
 Geneve, ont conqu1s, d'année en année, un public grand1ssant
 ce pubhc ne doit cesser d’être tou10urs plus nombreux et d' encourager, par sa présence
-
 et son @ appu1, une entrepnse arüsﬁque qui collabore le plus heureusement à la v1e et à l’attrait de la
 _ Geneve estivale
-
- 
-
 Compose dexcellents musm1ens professmnnels 1'O chestre Symphomque de Genève est
-
 n alle. de saison en saison, améliorant la qualité de ses exécutions, elar91ssant son répertoire. Ses
 _programmes, s'ils ont surtout souci de charmer et de d13tra1re, n'ont pas néghgé pour cela les
-
 grandes œuvres à 11nterprétaüon desquelles l'Orchestre Symphomque a voué des soms tout par-
-
- 
-
 Ts presen‘ce sa1son 1e verra poursmvrer plus acüvement encore cette dermere initiative,
 pmsque tous les quinze jours (]mllet à septembre) de grands concerts symphomques seront orga-
-
 — nisés sous 1’experte organisation de M. Samuel Baud-Bovy.
 E ; C'est d1re que les hôtes de notre ville et le public genevois ne menageront pas leur faveur
 et leur encouragement aune msﬁtuﬁon à laquelle, dès sa création, notre Association s'est intéressée.
-
 … De la musique, ‘de la belle et bonne musique, parmi les fleurs et les pelouses d' Un 1ardm
 rav1ssant au bord d'un lac unique, c'est un plaisir auquel nul ne saurait bouder Us
-
 , Aussi l'Association des Intérêts de Genève est-elle fondée à penser que la saison qui _
-
 S ouvre et que patronnen‘c fidèles à leur rôle de protecteurs et d' animateurs de toutes les initiatives
 ‘utiles à la prospénte ‘de Genève, le Departement du travail, le Conseil adm1mstraüf et notre Asso—'
 Ë Œaüon, connaîtra, fout au travers de l' éte qu1 v1ent un nouveau succès.
-
 t e e 'ASSOCIATION DES INTÉRÊTS DE GENÈVE
 2 E EU Ç -'\.'4“._»."‘,v: "" '\/
-
 s| S éc 42 A T A VROR ‘ ;
 \ v 4/ # Z t3
-
- 
-
- 
-
- 
-
- 
-
 42 ',
 Ÿ <'_
-
 f
-
 P LORETTI s. À.
-
- 
-
 genev01se en un mot de part101per à toutes activités suscepübles d'assurer sa prospente e lve
-
 G ncerts que donne chaque éte, à la Promenade du \Lac, ]’ Orchestre Symphomque de ‘ '
-
- 
-
 14, RUE D'ITALIE — GENÈVE — TÉL 43469 |
-
- 
-
- 
-
-    
-   
-   
-    
-      
-  
-
-      
-
-  
-   
-  
-      
-
-“]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_2_f000985_004.tif"/>
-<page><![CDATA[E
-
+“
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_2_f000985_004.tif'/>
+        <page>
+          <![CDATA[E
 4
-
 |
-
 ‘ —
 ANQUE
 — H
-
 SOCIÉT;ÊÎ
-
 MOLARD
-
 GEi
-
 vous conseille individuelleme»
-
- 
-
 Tailleur
-
 Chemisier
 Chapelier
-
 8, CROIX-D’OR
-
- 
-
- 
-
- 
-
- 
-
 À
 4
 ;
-
 |
 {
 il
-
 SAMEDI 29 JUILEL
-
- 
-
 CONCERT DE GALA |
-
- 
-
 PROQ
-
 1. OUVERTURE en si béni
-
 2. SYMPHONIE No 2 en r
-
 Adagio molto. Allegro con br£
 Allegro molto. }
-
 ;
-
 es
-
 3. LA MOLDAU, poème syäa
 La Source de la Moldau. Chi
 Clair de lune. Les rapidesëk»
-
 Moldau majestueuse. i
-
 4. LE FREISCHUTZ, ouvet
-
 Demain, dimanche #
 Concert avec le gracieux coné{
-
- 
-
 DE
-
-   
-
 72
 H
-
 U
-
-   
-
 f
 LA MAISON DE L'
 , _+°‘
-
- 
-
- 
-
- 
-
-   
-
 TÉL: 5.34.32 !
-RÉPARATIOM]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_2_f000985_005.tif"/>
-<page><![CDATA['a qua[afe '
+RÉPARATIOM
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_2_f000985_005.tif'/>
+        <page>
+          <![CDATA['a qua[afe '
 EST NOTRE SPECIALITE
 DEPU|S UN SIECLE
-
 PIANOS
 Ë muuos
-
 ; MARQUE
 VEN’I‘E ÉCHANGE LOCATION
-
 '-T0UTES RÉPARATIONS
 NSTALLATIONS TE‘.CHNIQUES
-
- 
-
- 
-  
-
 EÎ 'Î=
-
 SAUTIER JAEGER
-
 F US T E R
 TÉLÉPHONE 421 24
-
 Ç 20 (
-
- 
-
- 
-
 Une vcmefe mcroyable d ouvrages
 de fous les domcunes -
-
 ä O‘-ÏË P ; 1
-
 Une occasion. denchanfemenf
 pour l'amateur de bons livres et
 dedecouverfes pourle b1bhophuïe
@@ -414,143 +220,62 @@ La posabﬂu’re de bouquiner tout
 à son aise, mais OUSSI le sentiment
 :dGi pouv01r compter, si on le veut,
 sur les conseils de l|bralres
-
- 
-
- 
-
- 
-
 exper1mem‘es #
-
 2 ”O
-
 y
-
- 
-
- 
-
- 
-
 Une atmosphere 01mable et cul
 - tivée tout à la fois
-
- 
-
-     
-
 LIBRAIRIES |
-
-°‘NAVILLE & c'E]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_2_f000985_006.tif"/>
-<page><![CDATA[La plus délicieuse des eaux de table
-
+°‘NAVILLE & c'E
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_2_f000985_006.tif'/>
+        <page>
+          <![CDATA[La plus délicieuse des eaux de table
 Lithinée, alcaline, légèrement gazeuse F ;
 préparée instantanément avec les ; ÿ
-
 Lithinés «SOCOP» dRe »E…baﬂage Expédünons
-
 La boîte de 10 paquets dosés 2 A Transports de p|anos
 chacun pour obtenir un l|tre 60 0 3 ï
 ; d'EAU LITHINÊE I
-
 PHARMACIES POPULHIRES
-
 Soclété coopérative fondée en 1891 par les soclétés de secours "—
-
- 
-
- 
-
- 
-
- 
-
-   
-
 mutuels en cas de maladie - SIx ofﬂclnes enville — % ,»-—{\‘
 ; fï [ INSTRUMENTS DE MUSIQUE
 Ÿ‘ZW rs ‘Fanfares Aîeluer
 COSTUMES DE BAIN  / *Harmomeæ . de repqrohonä
-
- 
-
 e de &fer ordre, z
-
 æ&nuuec&œ
-
 DU RUZ ' GENEV‘E»
 e »Ecole de Medecme 85
 E f‘Téléphone*53]î2 ...
-
- 
-
- 
-
- 
-
- 
-
- 
-
 A LOURS DE BERNE
-
- 
-
-  
-
 Le plus grond cho|x V£”MÛUÏH
 | en Bijoux fantaisie ‘
 | et Bibelots. $ u
 Grand Qucu 28 ‘
 Face Jardln Anglals ; "'. TRU
-
- 
-
- 
-
- 
-
- 
-
- 
-
-CIRAVEGNA & C* S,A. GENÈVE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_2_f000985_007.tif"/>
-<page><![CDATA[B KOFMANN
-
+CIRAVEGNA & C* S,A. GENÈVE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_2_f000985_007.tif'/>
+        <page>
+          <![CDATA[B KOFMANN
 Tour-Mantresse 12 (entresol)
-
 - Vend e Achète e Loue « Répare
 e tous instruments de musique
-
- 
-
- 
-
- 
-
 Tous les a è&mld1, sautl 1e mard1, de 16 h. 4.) à 18 h., et 1es 1eud1s, samedis et dimanches soir,
 se 20 h 45. ;
-
 D4 E 2m1’ 3 ; FREZFR — = = ë “
 R SEES vs “\—;‘F’_Qg e e e e
-
 ; rands bncerts de Uala, les samedis soir, avec orchestre renforcé, divers chefs
 et solis " sous le patronagé du Conse11 administratif de la Ville de Genève. à
-
 Ls Le pubhc est ren«fu attentif au fait qu’une demi-heure avant chaque concert, il sera perçu
-
 0 cent1mes“de location par chmse pour la durée du concert et sur tout l’emplacement autour du kiosque
-
 — et sur les chemm tenants Pendant chaque: concert, il sera perçu aussi 20 centimes par personne
-
 à la Potm1ère ; 5 =
 ; Cartes d’äbonneü)ent onnant dr01t à} une place assise- 5 francs
-
 <
-
 Presædent A1mé KLING,' rond—pomt de Plampalms G, tél. 411 24.
 De'legue du De'partement‘ du travail : ä M. Emﬂe BOCHET, directeur de 1 Ofnœ cantonal de placement,
 , rue de Lausanne 22, tél. 200801 .
@@ -562,56 +287,26 @@ Tresoner M. Eugène\WEHRLI ue Pl tamour 8, tél. 2 48 54. Compte de cheques post
 - Toute de Dnze, tél,ï 528 67 ; M Jean LACROIX, rue Fendt 45.
 É5 Un&boxte aux lettres est placée Ëi Pentrée du podium pour la correspondance destinée à
 Lros. G n0us serons heure x de connaître les suggestmns ou les avis de nos aud1teurs
-
- 
-
- 
-
- 
-
- 
-
- 
-
 . RELIURE»  [
 TA_BLEAUX GRAVURES W".LY ENGGIST
-
 CARTES D
-
- 
-
- 
-
-'.)Rue du Rh/ôn\e 47_- GENÈVE - Téléphone 447983]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_2_f000985_008.tif"/>
-<page><![CDATA[REMO
-
+'.)Rue du Rh/ôn\e 47_- GENÈVE - Téléphone 447983
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_2_f000985_008.tif'/>
+        <page>
+          <![CDATA[REMO
 e \ e =-
-
- 
-
- 
-
 VÉRANDA CHAUFFÉE - OUVERT TOUTE L’ANNÉE
-
 1 16R ei n
 :: l/ p ; e
 ‘ — _a] LA POTINIÈRE
 / ä JARDIN “ ANGLAIS
 t '
-
- 
-
- 
-
- 
-
- 
-
- 
-
-IMPRIMERIE DE « LA TRIBUNE DE GENÈÊVE »]]></page>       
-        </p>
+IMPRIMERIE DE « LA TRIBUNE DE GENÈÊVE »
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

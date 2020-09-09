@@ -1,79 +1,82 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par le Corps de musique d'Elite<date when="08/03/1931"/></title>
-<series>1930-1931</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par le Corps de musique d'Elite
+            <date when='08/03/1931'/>
+          </title>
+          <series>1930-1931</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002740</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Welsch, M. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19310308"/>
-<title>Concert donné par le Corps de musique d'Elite</title>
-<placeName key="Victoria Hall"/>
-<name key="1930-1931" type="series"/>
-<name key="Gluck, Christoph Willibald" ref="https://muscat.rism.info/admin/people/67338" type="person" role="cmp">Gluck, Christoph Willibald</name>
-<name key="Händel, Georg Friedrich" ref="https://muscat.rism.info/admin/people/36552" type="person" role="cmp">Händel, Georg Friedrich</name>
-<name key="Bach, Johann Sebastian" ref="https://muscat.rism.info/admin/people/2539" type="person" role="cmp">Bach, Johann Sebastian</name>
-<name key="Granados"  type="person" role="cmp">Granados</name>
-<name key="Templeton-Strong"  type="person" role="cmp">Templeton-Strong</name>
-<name key="Mozart, Wolfgang Amadeus" ref="https://muscat.rism.info/admin/people/115324" type="person" role="cmp">Mozart, Wolfgang Amadeus</name>
-<name key="Berlioz, Hector" ref="https://muscat.rism.info/admin/people/13803" type="person" role="cmp">Berlioz, Hector</name>
-<name key="Saint-Saëns, Camille" ref="https://muscat.rism.info/admin/people/76734" type="person" role="cmp">Saint-Saëns, Camille</name>
-<name key="Welsch, Marcel (dir.)"  type="person" role="int">Welsch, Marcel (dir.)</name>
-<name key="Corps de musique d'Elite"  type="person" role="int">Corps de musique d'Elite</name>
-<name key="Nathan-Chaïkin"  type="person" role="int">Nathan-Chaïkin</name>
-<name key="Lombard"  type="person" role="int">Lombard</name>
-<name key="Reichel, B."  type="person" role="int">Reichel, B.</name>
-<name key="Buyssens, Yvette"  type="person" role="int">Buyssens, Yvette</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002740_001.tif"/>
-<page><![CDATA[CORPS
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19310308'/>
+        <title>Concert donné par le Corps de musique d'Elite</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1930-1931' type='series'/>
+        <name key='Gluck, Christoph Willibald' ref='https://muscat.rism.info/admin/people/67338' type='person' role='cmp'>Gluck, Christoph Willibald</name>
+        <name key='Händel, Georg Friedrich' ref='https://muscat.rism.info/admin/people/36552' type='person' role='cmp'>Händel, Georg Friedrich</name>
+        <name key='Bach, Johann Sebastian' ref='https://muscat.rism.info/admin/people/2539' type='person' role='cmp'>Bach, Johann Sebastian</name>
+        <name key='Granados' type='person' role='cmp'>Granados</name>
+        <name key='Templeton-Strong' type='person' role='cmp'>Templeton-Strong</name>
+        <name key='Mozart, Wolfgang Amadeus' ref='https://muscat.rism.info/admin/people/115324' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Berlioz, Hector' ref='https://muscat.rism.info/admin/people/13803' type='person' role='cmp'>Berlioz, Hector</name>
+        <name key='Saint-Saëns, Camille' ref='https://muscat.rism.info/admin/people/76734' type='person' role='cmp'>Saint-Saëns, Camille</name>
+        <name key='Welsch, Marcel' type='person' role='int'>Welsch, Marcel</name>
+        <name key='Corps de musique d&apos;Elite' type='person' role='int'>Corps de musique d'Elite</name>
+        <name key='Nathan-Chaïkin' type='person' role='int'>Nathan-Chaïkin</name>
+        <name key='Lombard' type='person' role='int'>Lombard</name>
+        <name key='Reichel, B.' type='person' role='int'>Reichel, B.</name>
+        <name key='Buyssens, Yvette' type='person' role='int'>Buyssens, Yvette</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002740_001.tif'/>
+        <page>
+          <![CDATA[CORPS
 MUSIQUE D'ELITE
-
 (FANFARE GENEVOISE)
-
 —S
-
-    
- 
-
- 
-
- 
-
 äd|ll|l\.I||lllullll|lullllllullllllnll|lllull|lllullllllnllllllnllllllulll|llulllllh.llllllullllllullllllullllllullllllullllllulllllh.lllllIullllllullllll sHU L
 % up =
 Ë Genève - llc St-lerrais - brai-Pnt Lausanne -
@@ -86,51 +89,36 @@ E jeunes gens et enfants 2
 = NEILLEUR MARCHÉ QUE PARTOUT AILLEURS ?
 TIHI IL PN HL A VN
 ËIANOS - GRAMOS - RADIO - DISQUES
-
 A Genève le plus grand choix
 ÉCHANGE - LOCATION
-
 SAUTIER & JAEGER
-
 FUSTERIE
-
-IMP, J, MORET. - CAROUGE,]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002740_002.tif"/>
-<page><![CDATA[ärl.lﬂŒIMÈI‘ŒM.«M…wﬂ…lw«lﬂfﬂllﬂMﬁlfml…Wﬂﬂ%wMﬂﬂlhwûlﬂlﬂﬂMl@|llÆwﬂllleﬂiﬂlüﬂwﬂW“BﬁwM%œä“l‘lwﬂW…%dﬂ…ﬂl‘…üâﬂﬂî…&ﬂﬁﬂh (Mh
-
+IMP, J, MORET. - CAROUGE,
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002740_002.tif'/>
+        <page>
+          <![CDATA[ärl.lﬂŒIMÈI‘ŒM.«M…wﬂ…lw«lﬂfﬂllﬂMﬁlfml…Wﬂﬂ%wMﬂﬂlhwûlﬂlﬂﬂMl@|llÆwﬂllleﬂiﬂlüﬂwﬂW“BﬁwM%œä“l‘lwﬂW…%dﬂ…ﬂl‘…üâﬂﬂî…&ﬂﬁﬂh (Mh
 La CDNTINENTAL*
-
 F«a»ﬂublü
-
 remarquable
 par sa rapidité
 et la beauté de
 son écriture.
-
 O.Bachmann
-
 F PASSAGE DES LIONS
-
- 
-
 LE PRODUIT SUISSE :
-
 Se boiît pur où à Peau.
 ” Diablerets “ vermouth, ‘ Diablerets “ curaçao.
-
 ” Diablerets “ grenadine, ” Diablerets ”  cassis
 ou ” Diablerets ,, citron. ‘
-
 Demandez
 les BIÈRES
 ‘eldschlôsschen
-
 Produit suisse d’ancienne réputation
-
 L ëlﬂpiël”fŒ
 | ﬂaurîdæ—
 Tél. 40.077 ' ' , ﬂüë JJIÎ »Ê…Lôm&, 2
-
 =
 = ,
 â |
@@ -144,49 +132,28 @@ Z
 8
 é
 =
-
 ;
 4
-
 ï
-5]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002740_003.tif"/>
-<page><![CDATA[231n A A A A A A A A A ME HRCui6 166c idtHaccat 005 otttastH11p L
+5
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002740_003.tif'/>
+        <page>
+          <![CDATA[231n A A A A A A A A A ME HRCui6 166c idtHaccat 005 otttastH11p L
 BANQUE DE PARIS ET DES PAYS-BAS
 PARIS
 Amsterdam - Bruxelles - Genève
-
 Succursale de Genève: 6, Rue de Hollande
-
 Toutes opérations de Banque en Suisse «et à l’Etranger
 Négociations de tous coupons
-
 (UE ETE
-
 0"00n rrn mmn" aar
-
- 
-
 Portes à 14 h. 15 VICTORIA-HALL Concert à 14 h.}ê
-
 DIMANCHE 8 MARS 1931 î
-
 19 CONCERT
-
 DONNÉ PAR LE CORPS DE
-
 MUSIQUE D'’ÉLITE
-
- 
-
- 
-
- 
-
- 
-
- 
-
 = É
 = =
 É ë
@@ -211,41 +178,25 @@ f Ê Tous les billets de Chemins de fer aux conditions des tarifs. Ë
 d C. BLENK, FERT & C* *manue à
 : > ; GENÈVE É
 = Voyages à forfait pour tous pays À
-_Ë_—; Demandez notre brochure spéciale «Nos Grands Voyages et Croisières 1951 » Ë]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002740_004.tif"/>
-<page><![CDATA[ZLHc A A As
-
+_Ë_—; Demandez notre brochure spéciale «Nos Grands Voyages et Croisières 1951 » Ë
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002740_004.tif'/>
+        <page>
+          <![CDATA[ZLHc A A As
 LES POISSONS es plus frais,
 LES VOLAILLES les plus fines,
-
-  
-   
-
 aux plus bas prix, aux
-
 Pêcheries de la Rochelle
-
 7, Rue du_ Commerce
 Téléphone 49.316
-
- 
-
 A E E A R ESL
-
- 
-
 E
-
- 
-
 I
-
 NOTICE HISTORIQUE
-
 Nous voulons essayer par les quelques lignes qui vont
 suivre de retracer très brièvement la grande aclivité déployée
 jusqu’à ce jour par notre Corps de Musique d'Elite.
-
 Il faut retourner jusque vers 1789 pour distinguer un
 mouvement en faveur de la création d'un corps de musique
 dans nos Iroupes genevoises. L'idée ful mise de suile à exécu-
@@ -260,60 +211,35 @@ du Contingent fort de 18 hommes à sa fondation, plus deux
 musiques de réserve, le lout, durant quelques mois, sous la
 divection de Louis Sabon qui fut un chef apprécié et très
 populaire.
-
 John Grasset lui succéda en 1841. La musique dü Contin-
 gent à vrai dire ne comprenait pas à ce moment les quarante
-
- 
-
 CHARCUTERIE DE LA CROIX-D'OR
-
 SPÉCIALITÉS : Pârés froids
-
 Aspics de veau et de foie gras
-
 Léon ARGANAB
-
 Z, Rue de !la Croix-d'Or, 7
 GENEVE
-
 ur
-
 Service à domicile 0 ;
 Téléphone: 43-121 ; Maison de confiance
 lllll“‘llllll"llllll"llllll"llllll"lllll"'llllll"lllll|"lllll|”llllll"lllll"‘lllll“'lllll"'lllll"‘llllll"lllll|"llllll"lllll|"lllll"‘lllll|"llllll"lllll|"ll|ll'"Hlll'""lll'""lllI
-
 ‘|llll'"'llll"“llll""llll'"lllll"‘lllll"‘llllll"llll""lllll“‘lIIIU"l'll"‘lllll"‘l!lll"‘lllll'”lIIIW‘|llll"‘lllll‘"lllll"‘lllll"“Illll"lllll"“lllll"lllll""lllll"lllll'"lllll‘"‘lll"'.‘lllﬂ"|llll"‘lllll"“llll'"lllll‘""llll”llllll"llllll"lllll|"'llll'"Nlll'"‘llll""llll""llll""llll"ﬁî
-
 L‘=.llllh..|l|l|h.lilllhAlilh…lllllh;llllll..|lllii..|lllll…llll|mIlllh.|llll|..|llll|.nllll|…|lllll..1|lllm|llh…||llll…lllll…xlllll..|llll1..|llll:..lllHh.|llllh.|lllhu|llll|…|lllll…|lllll..|llllh.ﬂlllh.lllll|..|lllll…|llll|..|lllll..llllllulllluullullullllll..||llll…|llll|..
-
-ai]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002740_005.tif"/>
-<page><![CDATA[A
-
+ai
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002740_005.tif'/>
+        <page>
+          <![CDATA[A
 21 A{{tsd6tot ll
-
 .lll…lllll..|llll|..(llll|.ulll!|…llllll…lllll|…|lllll..lllll|.nllllmlllll…xllll|. |!llll…llllﬂ…t!ll|..|lilll.nllll.ullll|…|llll|..|lIll|..|llllh.llllh…lllll..|llllmlllh..ﬂlll|…rlllll…lllll|..|HIH..|llll|…x|lH|.nllllh
-
 Ns eCEEEtcdecAUEEEEcaeEEEE0 0066 cAHEEEsaeEEEE sKH
-
 E
-
 é
-
- 
-
 LE MEILLEUR AMI DE L’'ESTOMAC
-
- 
-
 MAISON COMMUNALE v: PLAINPALAIS
-
 En Eté Buffetier :
 JARDIN ANGLAIS LOUIS FREY
-
- 
-
 musiciens prévus par la loi, mais chacun avait une grande
 confiance en ce nouveau chef, confiance qui fut justifiée par les
 quelques 15 ans de labeur que fournit John Grasset à la têle
@@ -321,7 +247,6 @@ de la musique du Contingent. C’est pendant celle période que
 celle derniere se rendit au camp de Thoune: le fait mérile
 d'être signalé car c’était la première fois qu'un corps de musi-
 que genevois prenait part à un service hors du Canton.
-
 Vers 1842 survint un changement et la musique du Con-
 tingent prit le nom de Corps de musique d'Elite. Depuis cette
 époque, bien des modifications et des incidents se présentèrent,
@@ -333,75 +258,46 @@ direction l’Elite prospéra d’année en année, elle entreprit de
 grands voyages à Alger. Turin, Gênes, Barcelone et parcourut
 la Suisse en tous sens. Partout elle sut se faire apprécier et
 chacun possède encore le souvenir vivant de ces voyages.
-
 Nous ne pouvons toutefois passer sous silence des noms
 comme Fézio père et fils, Francis Bergalonne, qui resta 27 ans
 à la tête de l'Elite et fut un des chefs des plus capables et des
 plus aimés grâce à la bonté et au tact dont il a toujours fait
-
- 
-
 MAROQU|NER|E FINE *#TicuLEs DE
-
 VOYAGES
 Réparations
-
 Grand assortiment de BSacs
-
 pour Dames
 orte-monnaie - Porte-cartes
-
 Portefeuilles
 Terrassière, 9 - GENÈVE
-
 Etuis à cigarettes et cigares
 Nécessaires - Trousses
 Sacs de voyages - Valises
-
 Mallettes garnies
-
 Téléphone : 22.248
-
 dc
-
 '|llll"‘lllll|"'llll"‘"lll‘"'llll|"llllll"lllll|"'llll"‘Nlll""llll‘"lllll|"lllll“"lll""Hlll"‘lllll'"'llll'"'llll"‘lllll""llll"‘|Hll'"Hlll‘”|lllll"llllll"lHll‘"Nlll""llll'"'llll‘"||l|l"‘|lll“"”ll""”l”""Hl""'llll'"‘llN|"'llll‘"'llll'"'lll"'"llll"‘")lN"‘llll"‘llllll"llllli"lllIl“‘llllll’
-
-5 ‘llllll"lllll'"lIlll“‘”lll'"'lllll"lll|l"‘llllll”|lllll”'llll|"|llll"‘|Illll"llllll"llllll"ll|ll""llll|"'lllll"lIlll"'lllll|"'lllll"lllll"‘|lllll"lllll|"Hlll'"|llll"‘llllll"llllll'LË']]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002740_006.tif"/>
-<page><![CDATA[ï
-
-     
-
+5 ‘llllll"lllll'"lIlll“‘”lll'"'lllll"lll|l"‘llllll”|lllll”'llll|"|llll"‘|Illll"llllll"llllll"ll|ll""llll|"'lllll"lIlll"'lllll|"'lllll"lllll"‘|lllll"lllll|"Hlll'"|llll"‘llllll"llllll'LË'
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002740_006.tif'/>
+        <page>
+          <![CDATA[ï
 3
-
 SLM A MMN AN AN A AN A A A A A A A A A A A AN E
-
 Maison spéciale
-
 Buvez un pour
-
 l r e se sé
-
 Tapis et Linoléums
-
 Amer Fieoni - ….
-
 Exigez-le Rue de la Confédération, 3
-
 JNLPPSEH90"XEAQE09CY899°<CHHAVY0AAOEP"QNIS" TON
-
 PRIX MODÉRÉS
-
- 
-
- 
-
 preuve. Sous sa direction l’Elite ne s’en tint pas seulement au
 répertoire populaire, mais nombre de composilions classiques
 furent inscriles au programme. Au nom de Bergalonne il faut
 associer celui de Edouard Racine qui fut de ceux qui en 1881
 créèrent la Fanfare genevoise.
-
 La société civile du Corps de musique d’Elite ou autrement
 dit la Fanfave genevoise fut fondée par quelques membres de
 l'Elite. Son but était comme nous l'apprennent ses règle-
@@ -409,276 +305,150 @@ ments, la propagation de l’art musical à Genève, un appui
 moral et financier à l’Elite par l’admission de membres
 passifs. Le but poursuivi fut, nous semble-t-il, atteint et la
 Fanfare genevoise déploya une activité bienfaisante.
-
 La place nous manque ici pour dire combien l’Elite véeut
 de beaux moments depuis sa fondation et combien de con-
 certs elle donna un peu partout. A Genève, le Victoria Hall
 est une vieille connaissance et nos musiciens sont bien sou-
 vent montés sur son podium sous la direction des chefs dont
 nous venons de parler plus haut.
-
 La carrière de Francis Bergalonne terminée, M. François
 Romain, bien connu à Genève dans le domaine musical,
 tant pour ses capacités musicales que pour son énergie, fut
 appelé au pupitre de directeur. Avec lui l’Elite grandit encore
-
 Machines à écrire d'occasion “El“l"üï"“
-
 depuis GO fr.
 = Portable
-
- 
-
 L. Im-Obersteg
-
 Bd Georges-Favon, 17
-
- 
-
 Ac HHh
-
-51 MIV HN" SON" AN" SHN" I""]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002740_007.tif"/>
-<page><![CDATA[2LHc LE
-
- 
-
+51 MIV HN" SON" AN" SHN" I""
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002740_007.tif'/>
+        <page>
+          <![CDATA[2LHc LE
 Voulez-vous être bien servis dans tous les articles
 d’alimentation, adressez-vous à
-
 L’ÉPICERIE DE RIVE
-
 Les fils de Jos. Besson - 20, Rue de Rive
-
- 
-
 Livraisons rapides à domicile
 Escompte $ “
-
- 
-
 et marcha de succès en succès, ceci également grâce au dé-
 vouement dont fit preuve notre dernier officier M. le capi-
 taine Zôller, qui, pendant plus de vingt ans donna le meilleur
 de ses forces et de son dévouement à la cause de l’Elite.
-
 Actuellement le Corps est sous le commandement de
 M. le Capitaine Von Auw et dirigé par M. Marcel Welsch,
 1" Prix du Conservatoire du Musique de Paris, et sous son
 énergique direction l’Elite à toutes les facilités pour continuer
 la route que ses anciens lui ont tracée.
-
- 
-
- 
-
 CYCLES & MOTOS “ALLEGRO”
 scc G. TREZZA
-
 Mécanicien
-
 MOTOS DEPUIS SSO FkR.
-
- 
-
 Spéciallté de musique de Accessoires pour tous les
 danse et des succès des instruments. Cordes qua-
 fllms sonores lités supérieures
-
 “MODERN MUSIC"”
-
 Centrale ‘de réparations d'Instruments de muslque, de fanfares
-
 et harmonies, et de machines parlantes
-
 Ateller dirlgé par M. Max SEIDEL
 Prop. B. KOFMAN
-
 Disques et Gramos GENÈVE
-
 Accordéons:et Ban: 10, TOUR-MAITRESSE
-
 donéons Argentins h
 Matériel de Jazz-Band U
-
 ”ull…|ul…|lul"||lul|”|lul…|lul…llull…lul|…lull…|ul…|lnl|…lhl|…lul|…lull…|ul|…lul"“|ul|"Mlul…|lnl…llul…l|ul|…lul…|lull…lull…lnl…l|ul|…lu|||||lul…||nl|…lul…|lul|…lul…l
-
- 
-
 lllll‘"llllll"llllll"lllll|”llllll"lllll"‘lllll|"lllll'"'llll""llll"'lllll"‘llllll"llllll"llllll"llllll"|llll|"ll|l|"'|llll"‘|llll"‘'llll|“llllll"lllll"“llll'"lllll|"lllll|"lllll|'‘lllll|"lIllll"lllll|"llllll"llllll"lllll|"llllll"lllll|"lllll'"lllll|"llllll"|llll'"lllll'"lllll|"|llll*"‘llll""llll'"'l}ll|
-
 dh
-
-äl‘|llll|”llllll"lll…"|llll|”|l|ll‘"llllll"|lllll"|lllll"llllll"ll!lIl"llllll”lllll|"llllll"lIlll"‘|lllll"llIll"‘l|llll'lllll"'|llll|"|llll|"|llll|"lllll"'lllll|"lllll""llll“"llll"ﬁ]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002740_008.tif"/>
-<page><![CDATA[= ud{ s0 HHN AN OE A A A A A A A AN A AN AN AN A Ac AN LE
-
+äl‘|llll|”llllll"lll…"|llll|”|l|ll‘"llllll"|lllll"|lllll"llllll"ll!lIl"llllll”lllll|"llllll"lIlll"‘|lllll"llIll"‘l|llll'lllll"'|llll|"|llll|"|llll|"lllll"'lllll|"lllll""llll“"llll"ﬁ
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002740_008.tif'/>
+        <page>
+          <![CDATA[= ud{ s0 HHN AN OE A A A A A A A AN A AN AN AN A Ac AN LE
 PORTEZ NOS CHEMISES marque “‘“ ÉTOILE ”
 remarquable par leur qualité
 et leur coupe impeccables
-
 Le bénéfice de O
 chaque cliente 5 Â
-
 en timbres jaunes
-
 A. GRAS e C”
-
 5, Coutance
-
 L RËV | r
-
 ﬂue ne Ancienne maison
-
 == LANCE-BEYERBACH
 —-1  Carouge
-
- 
-
-   
-    
-  
- 
-
- 
-
- 
-
 3q (GRAF-LEMAIRE succ”)
 ©
-
 Grandes .
-
 facilités 12, Corraterie, 12
-
 de paiements Téléphone 40.910
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 R TISSOT
 Téléphone 40.800 _ GENÈVE —  Boulevard du Théâtre, 12
-
 *
-
 Cave réputée
 Spécialités culinaires
 Salle pour banquets
-
- 
-
 HENRI DUPRAZ
-
 SOCIÉPÉ  ANONYME
-
 Sa lustrerie - Son choix - Ses prix
-
 ÉLECTRICITÉ
-
 INSTALLATIONS - RÊP.»\RATÎO.\‘S
 3, Rue Tour-Maîtresse
 51 018" HQ"X 98"00N CON EUN EN" OIN CQN SORN"
-
 WMIHMs woWwWoahadwwdhehedcwsdsdWhethcdreoth
 ‘lllll"‘llllll"lllll"‘lIllll"llllll"\llll"‘\lllll“llllll"llllll"lI|ll""ll""'llll"‘lllll"‘ülll"“llll'"'llll|"lllll"‘"lll'"'llll""llll"‘lllll'"'llll'"lllll"‘llilll"lllll'”'llll"‘"lll'.‘lllll""lllll"llllll”llllll"llllll"mlﬂ"lllll"‘lllll"‘"lll‘"'IIIW‘lllll'"lllIN"Nlll'"'llll"“llll
-
-=]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002740_009.tif"/>
-<page><![CDATA[Ah dh
-
+=
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002740_009.tif'/>
+        <page>
+          <![CDATA[Ah dh
 Fleuriste d'art
-
 n
 CJÎÆ/J/WÆ
-
 Corraterie, 26, rue de Rive, 15
-
 Téléph. 41.815 50.967
-
- 
-
- 
-
- 
-
- 
-
 Corps de Musique d’Elite Photo F.-H. Jullien
-
 avi concerne MUSIQUE, CRAMOPHONES, DISQUES
-
 adressez-vous à
-
 ROTSÛHY FRÈRES
-
 22, CORRATERIE, " 22
-
 MAISON DF CONFIANCE FONDÉE EN 1865
-
 ACHAT, LOCATION PIANOS
 RÉPARATION DE
 Même maison : 64, RUE DU STAND, 64 :: 1 et 2me étages
 55108N "q n" SHH8VXKH 08" UE SE N E
-
- 
-
 SAKCUUPESEQUV"COEPAYER EN ETEN" AI ETE O TT OEN NNN TO
-
 .|llllh.lllll|..||lll:.nlllllmlllh.nlllllu|llll|…lllll..|llllh.|lllll..lllll ull||llullllllullllllulll|llulll“lulll“l…llllllulllllh.llllllulllllh.llllll..l|llllull|lllnllllllnllllll:Ml.h;ll|lllulllllh.llllllullllllulll|llullllllullllllullllllullllllullllllullllllullll|lullllllullllllulllllh
-
-HENES""HIHEQU"HEEE V" ANNV NN" ON]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002740_010.tif"/>
-<page><![CDATA[Z0h
-
+HENES""HIHEQU"HEEE V" ANNV NN" ON
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002740_010.tif'/>
+        <page>
+          <![CDATA[Z0h
 GHANDE ORASSEMIE CENTAI
-
 Êglles deÿ Sociÿéÿtés
-
 Ÿ? TOUS LES METS Ÿ?
 DE BRASSERIE
-
 M{19044H90V4A0924YE0°X0H90P"OQU8 C1U" SEO99P OH SEQQUP OO E -
-
- 
-
 E. MAYERAT - 2, Croix-d’Or, 2
-
- 
-
-  
-
 NOS MEMBRES NON EXÉCUTANTS
-
 A toutes nos manifestations nous aimons rencontrer ces précieux collaborateurs
 qui, par l’intérêt qu'ils portent à notre société, nous encouragent et nous aident tant
 financièrement que moralement.
-
 Nous les remercions sincèrement de tout l’attachement qu'’ils vouent à notre
 Corps de Musique, et espérons que toujours pius nombreux, ils viendront renforcer
 les rangs des amis de l’Elite.
-
 La carte de membre non exécutant munie de coupons donne droit à 2 entrées
 à tous les concerts organisés par la Société et chaque coupon à 1 entrée selon avis
 donné par affiche, elle peut être demandée à chaque membre du Corps ou en adressant
 le montant de 5 fr. au compte de chèques postaux I. 2560
-
 ÉCOLE DE MUSIQUE
-
 Nous recommandons aux parents, désireux de donner à leurs enfants une
 éducation musicale sérieuse, notre ÉCOLE DE MUSIQUE organisée par notre
 Directeur, M. Marcel WELSCH, 1e* Prix du Conservatoire de Paris.
-
 Les cours de solfèges élémentaire et supérieur, proïessés par M. WELSCH,
 selon les méthodes en usage au Conservatoire de Paris sont très suivis et sont
 acccessibles à tous les jeunes gens. Ces cours ont une durée de deux heures par
@@ -687,107 +457,56 @@ Les cours d'instruments ont aussi adopté le nouvel enseignement en vigueur à c
 même Conservatoire, ils sont enseignés par les professeurs de la société: Cuivres, J/.
 Richard ; Saxophones, M. J. Kister, et placés sous la surveillance de notre
 Directeur, M. WELSCH.
-
 Des bulletins trimestriels renseignent les parents sur la présence et le travail
 de leurs enfants et sur le résultat des examens.
-
 Tous ces cours sont d’un prix modique et à la portée de tous. Les inscriptions
 sont reçues au local, Bâtiment Electoral (rue de Saussure) tous les vendredis, dès 20 h.
-
 HHc adwdahdwhWhaha{wwe{hred{wwohcW{ww{e{dwh
 SSD SE MI q llll"IlllH"HlllÜ"'llll'"‘llll
-
-  
-
- 
-
 Demandez et
-
 Buvez toujours la
-
 BIÈRE réputée du
-
- 
-
 La bière des connaisseurs
-
 5371 (H""HH{09"A QEN" Q9" N"N" QU" TQEE X} CON" }UI QE TQ }L CON EU" O OR EUIE !V OO"
-
-   
-
 pr e r
-
 SE VA OLU E
-
- 
-
 E A E
-
-008]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002740_011.tif"/>
-<page><![CDATA[Ms A
-
+008
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002740_011.tif'/>
+        <page>
+          <![CDATA[Ms A
 1 a{Hrr660001H Al|…|hl”"ln|…"ul…l|ul|…|u|l…|ul|…lu|l…lnll…|ul|…|ul|…|u|…||u||…lull…|ul…"nl…|lu|"…ull…|ul"|||ull…lul|…|nl…ll-ul…lh (
-
 llllllul…llull…lnlllllh.llllllullllllullllllullllllullllllullll|lMllllllulIllllnllllllullllllullllllnllllllullllllulllllh.ll||llulllllh.llllllnllllllull||llullllllullNllullllllulll‘.lulllHlnlllllh.llllllnllllllnll|lllullllllullllllullllllullllllnllllllullllllullllllullllllullllllulllllln
-
 E
-
 SOCIÈTE DE
-
 BANQUE SUISSE
-
 FONDÉE EN 1872
-
 OO HH DD A E
-
 Capital-Actions et Réserves: Frs 212 Millions
-
 6. Cortere GENEVE Corsere. 6
-
 CORNAVIN EAUX-VIVES
 10, Place de Cornavin Place des Eaux-Vives, 3
-
 PLAINPALAIS CAROUGE
 36, Rue de Carouge Rue du Marché, 11
-
 Ouverture de comptes à vue et à terme
-
 Achat et vente de titres
-
- 
-
- 
-
 er en general
-
 toutes opérations de banque
-
- 
-
 aux meilleures conditions
-
 0HA6YCNQV0A 000N 9Y NNN Q}1XN 100YN AN" SE NNN QSN QN VEQOPSQ QU" SAQUN SD"N"
-
-5550000 "" " OION NNN FF]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002740_012.tif"/>
-<page><![CDATA[21560106N À'\:O ÜRS D‘—- AJ,        
+5550000 "" " OION NNN FF
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002740_012.tif'/>
+        <page>
+          <![CDATA[21560106N À'\:O ÜRS D‘—- AJ,        
         </p>
     </body>
   </text>
 </TEI>/:‘— llh |||||||ul…llnl|…|hl|…|u||…|nl|||||ul|"||u||||||u||||||u|l…|u||…|u…”|nl…||ul|l…ul"…u‘c
 ®. , <E £
-
- 
-
- 
-
- 
-
- 
-
- 
-
 O
 Sculptures Articles S[“USSEL & [ à
 Sulsses fantaisie Horlogerie -- Bijouterie fine |
@@ -796,361 +515,180 @@ Genève Artistique ®
 c5 GRAND-QUAI, 28
 1, Place du Port GEN E\Æ Téléph.: 43.461 FACE AU ……‘Ë…— ANGLAIS J
 NAVILLE & VICTORIA-HALL q
-
 PIRO (CÏr]Ë}
 e
-
 PRE.MIÈE}!&
-
 LIDRAIRIE
 NUOIQUË
 CAFÉTENIE
-
 DOUVIER
-
 A PE
 à la CROIX-D'OR
-
- 
-
 1. Ouverture d’Iphigénie en Â«
-
 2. Sonate pour violoncelle eÈe
-
- 
-
 Grave - Allegro - Sarabande - 3\Ilegro!
 M. NATHAN-CHAIKIN. :
 3. Ouverture du Messie :
-
 4 Air de La Trompette du M
-
 M. LOMBARD, avec accompagneme!|
-
 5. Alleluia du Messie
-
 |
 (Orchestration militaire de M. \ÿelsc}‘%
-
 e
-
 L’orgue sera tenu par M. REICHE!i
-
 NOTRE BÉOC
-
 ECONOMIC
 100 flles =-.90
-
- 
-
- 
-
- 
-
 À
 Entre la première et La deuxièmet,
-
 .......... 24
-
 Ï
 ]
 |
-
- 
-
- 
-
- 
-
 POUR VOTRE INTÉRIEUR
-
 adressez-vous
-
 AU MOBILIER MODERNE
-
 GRAND CHOIX - QUALITÉ -  BAS PRIX
 1 RUE WINKELRIED RUE BERTHELIER, 2-4
-
 F. KRANCK Facilités de paiements Tél, 23.109
 0109 G}" !!!N ! S EN N N À
-
-nlllll..ullll..|llllh.lllllmllll|..|lllll.;llllll…lllll|..|llllh.ﬁlll|…Illll…lllllh.llllllu|llll|.ullllh.|lllll..|llll|…:|IH|\.|llll|.nllllmlllh..nlll|..|lllllu|lllll..llllln..nlllll…|Mll|…|llll|…|llll|..|llll|…|lll||…lllll..ulllll…||lll:.nlllh..|llllh.||lll ds cebH cOE aa8EHH cOH 006s n1EE11 E]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002740_013.tif"/>
-<page><![CDATA[ä ; ,
+nlllll..ullll..|llllh.lllllmllll|..|lllll.;llllll…lllll|..|llllh.ﬁlll|…Illll…lllllh.llllllu|llll|.ullllh.|lllll..|llll|…:|IH|\.|llll|.nllllmlllh..nlll|..|lllllu|lllll..llllln..nlllll…|Mll|…|llll|…|llll|..|llll|…|lll||…lllll..ulllll…||lll:.nlllh..|llllh.||lll ds cebH cOE aa8EHH cOH 006s n1EE11 E
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002740_013.tif'/>
+        <page>
+          <![CDATA[ä ; ,
 E «
 …ulllmullllmlllll.Allll|u|lllll..|llll|.:|II|llmlllllmlllll.;|lllll..|llll…lllll.nllllm|llllh.|llll|..|llll|…llll|m|lll|..llllll.;llllll..|llll|mllll|..|llll|…llllll…|llll|mlllln.nllllnë
-
 BANQUE DE GENÈVE
-
 Fondée en 1848
-
- 
-
 Toute opération de banque aux meilleures conditions
-
- 
-
 &
-
 ÆÔIMANCHE 8 MARS 1931
 [AMMNE
-
 18
-
 11
 2
 e
-
 {PARTIE
-
 vai
-
- 
-
 Ondulation permanente
 25 frances
-
 Toute la tête, système parfait,
 pas de brûlures
-
 ®
-
 Hochuli
-
- 
-
- 
-
- 
-
- 
-
 COIFPEUR
 1400 2/ P
 e  : GR > 00e ,//('/'/'('—,//(///(‘
 0 - . ; e n Téléphone 45.373
 Maison
-
 { [ll erquer
 se .
-
 îiîl; Corps de Musique. Haênde/_
-
 —— Ç EP
-
 : 11, RUE PETITOT, 11
-
 “lllll"‘lllll'"'lllll"llllll”llllll"lllll""llll‘”llllll"llllll“Hlll"‘”lll"‘”llll“lIl|l"‘Hlll"'lllll|"'Hll“‘lIIII""llll""llll"“llll"‘llllll HO SH OH V
-
 T. S. F. - Melographes
 Gramos - Disques
-
 7, RUE DU RHONE
-
 Ï
 L;
-
 fle, entr’acte de quinze minutes
 }
-
 . (Suite page suivante
-
- 
-
- 
-
- 
-
 ORFEVRERIE ARGENT ET MÉTAL ARGENTÉ
-
-    
-
 .  aholreme ; .
 | M IMHOI
-
 6. PASSAGE DEs LIONS, 6 - GENÈVE TÉL. 44.517
 ; Grand choix - Prix très modérés
 ']|llll"'lllll"lHlll"'IIlIl"llllll"llllll"llllll"lllll|"'llll"‘llllll"llllll”llllll"lllll' ‘lllll""llll“"lll!'”'llll""llll'""ll“‘‘llllll'‘|lllll''llllll"llllll"llllll"llllll"lllll""lllll
-
-2 UUNV IHHEN p]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002740_014.tif"/>
-<page><![CDATA[[
-
+2 UUNV IHHEN p
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002740_014.tif'/>
+        <page>
+          <![CDATA[[
 =
-
- 
-
 RE
-
 49, RUE DU STAND
-
 Registres et Comptabilités
 Fournitures de Bureaux
 Meubles de Bureaux
 » q Organisations
-
 PAPETERIE H. BAUMANN-JEANNERET
-
 BD GEORGES-FAVON. 3
-
- 
-
- 
-
- 
-
- 
-
 PHOTOGRAPHIE D'ART
-
 F. H. JULLIEN
-
- 
-
- 
-
 15, COURS DE RIVE, Tél. 41.524
-
 ACCESSOIRES
-
 Rue du Rhône, 102
-
 c00106c
-
-    
-  
-
- 
-
-  
-  
- 
-     
-    
-      
-   
- 
-
 G. Suite N° 3
-
 . a) Air, pour violoncelle et piano .
-
 GRAMOS TrHorI
-
 Gavotte - Bourrée - Gigue
 (Orchestration militaire de M. Welsch).
-
- 
-
 b) Goyescas, » ,
 c) Mazurka » » (Ire audif.) l4
-
 TI. NATHAN-CHAIKIN.
-
 . a) Don Juan, air de Laporello&î
-
 b) La Damnation de Faust, air de Méphisto t
 M. LOMBARD. b
-
 . Occident et Orient
-
 4
 ]
-
 Au piano d’accompagnement ‘
-
 LA GRANDE
 MARQUE SUISSE
 PIÈCES DÉTACHÉES
-
 Maison F. GUIGNARD
 PIANOS, HARMONIUMS, DISQUES |
-
 4, Rue d'Italie, 4 |
-
 5 "UN" ""N" CON XEN" ON" OE
-
 A
-
-e]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002740_015.tif"/>
-<page><![CDATA[/
+e
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002740_015.tif'/>
+        <page>
+          <![CDATA[/
 n 1/‘ lnlll|llullllllull…h HHh S
-
 I ACCORD - RÉPARATION
 * ÉCHANGE - LOCATION
 |
-
 I\lodèl es droits OCCASIONS Modèles à queue
 neufs e dans © neufs
- depuis 1475 fr. tous les prix depuis 2600 îr.
+depuis 1475 fr. tous les prix depuis 2600 îr.
 Escompte au comptant ou très grandes facilités de paiements
-
 f PIANOS KELLER, _0, Route des Acacias, 40
-
 RR OE
-
 P u…:.,ÿ. e
-
 ,
-
- 
-
 =
 E
-
-   
-
 h
 ‘n
 “
-
 Ï
-
-           
-  
-   
-   
- 
-   
-   
-    
-
 m
-
 r
 1 e
 ë
 #
-
 (DIMANCHE 8 MARS [93
-
 M MMNE
 .
-
 RTIE
-
- 
-
- 
-
- 
-
 BÉPAHATIUN D‘INSTRUMENTS DE MUSIQUE
-
 (Fanfares et Harmonies) Jazz-Band
-
 Kaspar WICHV
-
 Angle r. Ecole-de-Médecine, 8, r. Maralchers, 48
 PLAINPALAIS-GENÈVE
-
 Gd choix d’accessoires et fournitures
 Instruments neufs et d’occasions
 Accessoires pr instruments à cordes
-
 CUIVRES D'ART
-
 Coquemars-
 cache-pôts
 Jardinières
@@ -1158,127 +696,68 @@ MARMITES
 D'ESCALADE
 Porte-parapluies
 Samowars
-
 Grand choix
 d’objets pr
 cadeaux
 Etains neufs
 et anciens
-
 Antiquités
 Réparations
-
 H D A N NHAUER
 (7, RUE DES CHAUDRONNIERS
-
 RICHELIEUX POUR HOMMES
-
 En box brun et noir. . 1 16.50
 En box brun, cousu l|epmnlv . ] 5l]
-
- 
-
- 
-
- 
-
- 
-
 rrs .ç_ Tm
-
 J. $. Bach.
-
 mT
-
 J. S. Bach.
-
 Granados.
-
 Templeton Strong-
-
- 
-
 _ Mozart.
 . .- Berlioz.
-
 cjerpac T R
-
 Saint-Saëns.
-
 &Y ette BUYSSENS, professeur
-
 ;
-
- 
-
- 
-
 En box brun, noir forme Golf, cousu lreu
 En vernis uni, cousu trépointe
 En vernis av. nervure, cousu l|ep
-
 }Chaussures KURTH Genève
 Ûl""|lllll"Hllll"llllll"llllll"lll|ll"lIllll"lllll'"'Illl"'lllll"‘llllll"lllll'"'llll'"'llll""lllll"'lllll"llllll"llllll"lllll'"llllll"llllll"lllll"‘llIIH”llllll”llllll"llllll"lIIN'
-
- 
-
 0"06" HEN" ETE" QUN" OQ}V HO QB" YQ} QEN SORN" QQ" QO8 QU WON9P EJN SEN QN !N EN N QEN N OLVUN NN
-
 $
-Ê]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002740_016.tif"/>
-<page><![CDATA[ZLN AN AN AN odhooddhrohodho{tWWWWL
-
+Ê
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002740_016.tif'/>
+        <page>
+          <![CDATA[ZLN AN AN AN odhooddhrohodho{tWWWWL
 WINTERTHOUR
-
 SOCIÉTÉ SUISSE D'ASSURANCE CONTRE LES ACCIDENTS
-
 A- G6F EN G EN EERN —E
-
 ROBERT MEYER
-
 1, RUE GÉNÉRAL-DUFOUR, 11
-
- 
-
- 
-
- 
-
 M. E. vox AUW, Capitaine
 Commandant du Corps
 Photo F.-H. Jullien
-
- 
-
- 
-
- 
-
- 
-
 Les: célèbres Saxophones, Clarinettes, etc.,
 “ BUFFET-CRAMPON & C° ” sont toujours en vente chez
-
 12, BOULEVARD
 e , GEORGES-FAVON
-
 Demandez aussi les catalogues d'éditions
 pour instruments à vent
-
 (Un catalogue spécial est édité
 our chaque sorte d'instrument)
-
- 
-
 rhc
 51 4HN[0"X01000904140°CA08" QQ PAQN96* 011 00°*CA8°EQ8X CIN" NQE XHON SREE O CON XCN NNN N OSN" EQNO SON EN EN
-
 01499N" A" UHN" NNN" MIN r
-
--2e——]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002740_017.tif"/>
-<page><![CDATA[P
+-2e——
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002740_017.tif'/>
+        <page>
+          <![CDATA[P
 ‘ 2c AAaôoadodddododriadoad{d{{roddwdsd{td{todcdtsdsdwadtwd L
 E € % ; …%Ï ; ;ÆÏCZ/
 8 E
@@ -1290,64 +769,10 @@ E = Paris - Fourrures
 s =
 M" P. BASSINO
 B o, Rond-Point de Plainpalais
-
- 
-
 Téléphone 48.015
-
- 
-
 *
 $
 â
-
- 
-
- 
-
- 
-
- 
-
- 
-
-      
-
-     
- 
-   
-
- 
-
-  
-  
-     
- 
-
-  
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 J‘
 CONFECTIONS ET SUR MESURES
 ; Conservation -- Réparations -- Transformations
@@ -1368,351 +793,182 @@ E’ aux truffes et aux champignons % ’ È:'…‘?È°Ê‘läæîi}ä%ê!ï�
 ;‘ O ; »2 ‘ —— —H
 )Ê . 4 Jleaua * hl rérarnnon soignéeés= -
 !
-
- 
-
 i CONFISERIE - PATISSERIE
 E Ë
-
 / JOSEPH ROBERT
-
 ë 11, BOULEVARDTJAMES-FAZY, 11
-
 :Î‘ TÉLEPHONE 216.184
-
 E Spécialités ;
-
 !‘. Moka — Bries —- Coquelins, etc.
-
 ( Vacherins glacés -- Vol-au-Vent
-
 ' Glaces --  Chocolats fins
-
 =3 0H" ON* OH OL OEOEN OH CO H VHHEN TON QE HEN EN E E q
-
 557410000000" 0998" HN SOONP"HHN HIHIN "N
-
-BT E]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002740_018.tif"/>
-<page><![CDATA[ZLHc cAc sI L
-
+BT E
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002740_018.tif'/>
+        <page>
+          <![CDATA[ZLHc cAc sI L
 MANUFACTURE DE CASQUETTES
-
 — Spécialité de: —
 Casquettes d’uniformes
-
 bugène PEILLONNEX
-
 4, Passage du Rond-Point
 PLAINPALAIS
-
- 
-
 RELIURE
-
 ET
-
 REGISTRES
-
 q À. DONZEL & Fils
-
 Rue des Savoises, 9
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 PLAINPALAIS
 DERIVE 5b15»—GEN YE: GENÈVE
 PAPETERIE CHARCUTERIE
-
 p£ L'UNIVERSITÉ | A. CHOUET
 F, TRAUTWEIN 6, COUTANCE, 6,
-
 2 e Téléphone : 24-545
 S, RUE DE CAROUGE, S Spécialité de Pâté froids
 ® Galantines truffées
-
 TOUTESLES FOURMITURE ? Assortiment complet pour tout
 DE BUREAUX
 FABRIQUE DE REGISTRES
-
 CArL- B
-
 ce qui concerne la |partie
-
- 
-
- 
-
 SOPRANT
 18, COURS DE RIVE
 e
-
 Consommations de premier choix et spécialité de
 Vins Italiens
-
 ‘!llll""llll‘"‘lllll"|llll"‘lllll"‘llllll"llllll"lllll|"lllll"‘lllll'æ"“llll"‘"lll'"lllll'"‘llll‘""lll'"‘llll'"'llll"‘"lll"‘|llll"‘lllll"‘lllll“‘lllll""llll'"Hlll‘"lllll""llll““llW""lIll"‘lllll""lllll"llllll"llllll"lllll""llll""lllll"lIlll'"lllll|"|llll‘""ll"'"lll""‘llll"“llll'
-
 L ccML
-
 51414" 08"18N" XUU" AN" SOQAV QQQN" XQN 9"93" SUN" SCQ9" Q0" QON" SON* O r
-
-|]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002740_019.tif"/>
-<page><![CDATA[l|…|u|…||u||…lnl|…|ul|”||u|""lul""lull…|ul|…|nl”|||u|…“|||…|||1I"“lul”…Nl…|hl"…lu|…“nl""lu"…lul|…|ul|"||u||"|lu||…|u||"|lul|…|H|"“lnl…llnl…l
-
+|
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002740_019.tif'/>
+        <page>
+          <![CDATA[l|…|u|…||u||…lnl|…|ul|”||u|""lul""lull…|ul|…|nl”|||u|…“|||…|||1I"“lul”…Nl…|hl"…lu|…“nl""lu"…lul|…|ul|"||u||"|lu||…|u||"|lul|…|H|"“lnl…llnl…l
 [
-
 21h LE
-
- 
-
 Mesdames !des ondes de T. S. F. vont p1‘0babl€meqt pro-
 pager le concert que vous écoutez aux quatre coins du
-
 MONDE
-
 pensez également que si vous mettiez, bout à bout, cha-
 que pièce traitée par làa BLANCHISSERIE DES
 ÉPINETTES, tél. 43.054, celles-ci feraient égale-
 ment le tour de notre globe. Confiez donc votre lessive à
 cet établissement. Linge lavé et repassé ou au poids lavé
 et séché.
-
-   
-
- 
-
 Teinture à l’Échantillen
-
 Nettoyage à sec perfectionné
-
 Wc crch E
-
-   
-
 TEINTURIER
-
 USINE MODERNE : RUE DES CornDpIERS, 19
-
 RUE DU RHONE, 49
 RUE DE BERNE, 45
-
 M ai som re c ommMandée
-
- 
-
 Landwehriens et Elitiens, souvenez-vous que…
-
 FLUBACHER
-
 Travaille bien
-
 BOUQUETS & COURONNES <— PLANTES
 6, BOULEVARD GEORGES-FAVON — Téléphone 48.123
-
 PSUCHUIVSKKQQQV"SCWN99"SEOH3V"X00 998" Q998"MCHQ4"S0QQ19"X0 Q00" QQOS"OQ}A9P SO" X0QN" CQQES"SEQQN9""ERGEN"SEOHEOQQEEPSQEESESQQUE SEN OEMI
-
- 
-
 PATISSERIE —- CONFISERIE | “er/escrie-Syouterte
-
 s- E A SRS T sA C e
 ;/(VIIII‘('.S (/(’.S‘ /)I'(‘II/I('I‘(‘,\‘ III(II'(/II(‘,       
         </p>
     </body>
   </text>
 </TEI>
-
 H plquiLLouD | .
-
 4, Rue de Rive, 4 A° REICH
-
 Téléphone 47-198 90, Rue du Rhône, 90
-
 à côté de l’Agence Cook
-
 Les meilleurs gâteaux .
 /
-
 Les meilleurs chocolats
-
 V{5194"S0{QQA9"Y4Ç{HD9SETQGII UEN" T E NNN
-
 D,
 ,//’/,r avantageuxr
-
- 
-
 551 0"00" I 401101400088" SCKQ08"00009°<CHO9""EQQDS"SOQYOS" SISI Q EME
-
-—T']]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002740_020.tif"/>
-<page><![CDATA[ZLHc Ac rrrc L
-
-  
-
+—T'
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002740_020.tif'/>
+        <page>
+          <![CDATA[ZLHc Ac rrrc L
 É 4
-
 = A
-
 : TAXI-CABS :
-
 = Q
-
 = TAXI-CAMIONNETTES
-
 Ë SO cts. le kilom. Î\
-
 1 E Téléph.
 GARAGE DES NATIONS ' l |
-
- 
-
- 
-
- 
-
- 
-
 M. Marcer WELSCH, Directeur
 1" Prix du Conservatoire National
 de Musique de Paris
-
 Photo F.-H. Jullien
-
- 
-
- 
-
- 
-
 l|"llllll"lIllll"lllll"‘Nlll'"'llll“‘lllll|"'lllN"Hlll|"llllll"lllll"‘|llll"‘"llll"ülll"“llll""llll“"lll""i‘ SUSN OHN SE IEKON OEOE VOH HH EN HN
-
-   
-
- 
-
- 
-
- 
-
 Utilisez pour vos transports de malades les
-
 Aml3ulances raﬁsclni
-
 les plus confortables, les meilleurs
 marchés de la Suisse.
-
-  
-
 Hh
-
-  
-
 RUE MICHELI-DU-CREST, 39 Tél. 51.910
 (En face de l'Hôpital Cantonal) Membre exécutant
-
 Sx UIO OIS" CION" 199" I"N" E ON EN" SE" E
-
-aAEEHNabEHHhicet{HHhn 4]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002740_021.tif"/>
-<page><![CDATA[Æ
-
+aAEEHNabEHHhicet{HHhn 4
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002740_021.tif'/>
+        <page>
+          <![CDATA[Æ
 ZLANNoAUAU AN A A Ac A Ac Ac AN AN L
-
 Nôl)l@&3@
-
- 
-
- 
-
 BANQUE POPULAIRE SUISSE
-
 Fondée en 1869
-
 Place Saint-Gervais - Quai des Berques, 1
-
 AGENCES : 18, Cours de Rive
 Route des Acacias, 2 - 24, rue des Pâquis
-
 GENÈVE
-
 Capital e Réserves: Fr. 210.000.000
-
 ®
-
 Dispose du réseau de succursales le plus étendu en Suisse.
 Correspondants dans tous les centres importants
 du monde entier :: Organisée pour toutes opé-
 rations.de banque aux meilleures conditions
-
 P SIMON A FAITES GLACER
-
 ; C l VO 8 C OLS
 «uS‘îî'0r yc CS
 ';- Blanchussene Idéale
-
 6, Rue des Born%—8amts USINE : Rue du Prieuré, 179
-
 - j 5 MAGASINS :
 CON5ÏRUCÏION$ 13, Cours de Rive - 5, Rue du Commerce
 RÉPARATI ONS 5, Rue du Conseil-Général
 REPRÉ5ENÏHÏ/ONS 3, Rue de la Servette  2, Rue des Eaux-Vives
 ‘|llll""llll'"|llll"‘llllll"llllll"|llll"‘"lll|"|llll'"|lllll"llllll"lllll"‘"lll'"'llll' M{119"40009"40009" C00" SEUI HEU N NN E
-
- 
-
-  
-
 E OLU E LAACE L LKA TRVE |lllll"!lllll"lllll'”‘llll"‘lIlll"‘lllll|”llll|l"llllll”llllll"llllll"llllll"lllll|"llllll"lllll‘”lllll"“llll""llll|"'llll'"'IIIl"‘|llll"‘lll|l""llll“"lll1|"'llll"‘|llll""Illl“"llll'"'lllll"lllll"‘|llll"‘lllll""llll"‘lllll""llll"‘lllll"‘llllll'
-
-llllllull|lllullllllulllllh.llllllnll"llnllllllullllllull|llh.ll|lllnlIll!ulI||llnllllllullllllulll|!lnllllllullllllull||llullllllull|ll!ullllllullllllullllllullllllullllllullllllullllllulllllInlNullll|lull|lllullllllnllllllulllllln llllllullllllnllllllull||llnll|lllull||llullllllullllllulllllh;Illlth]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002740_022.tif"/>
-<page><![CDATA[(Ë
-
+llllllull|lllullllllulllllh.llllllnll"llnllllllullllllull|llh.ll|lllnlIll!ulI||llnllllllullllllulll|!lnllllllullllllull||llullllllull|ll!ullllllullllllullllllullllllullllllullllllullllllulllllInlNullll|lull|lllullllllnllllllulllllln llllllullllllnllllllull||llnll|lllull||llullllllullllllulllllh;Illlth
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002740_022.tif'/>
+        <page>
+          <![CDATA[(Ë
 ZL AHANANTANANANANSANAANAAANANANANANANANoAAaModWodWodWaau
-
 VITRERIE - GLACES - ENCADREMENTS [;a|g.Brassgrie
-
 Fabrique et Réparations de S
 St.)]'eS d@ tous uu cal‘l‘em…‘ ue ﬂ…e
-
 systèmes
-
 F
-
 ÆAANT Emd| SO Æ E Propriétaire
-
 8, Boulevard Georges-Favon Spécialités : VINS VAUDOIS et
 VINS FRANÇAIS
-
 Compte de Chèques I. 1543 Ë
 Ï ; Consommations
-
- 
-
 Charcuterie de Rive FASA Hl 0 N
-
 CHEMISERIE
-
 C CQURTOIS 2, RUE DE RIVE, 2
-
- 
-
- 
-
- 
-
 9 RUE DE RiVE, 9 SUCCURSALE:
 Toutes les spécialités MA|SON BOCHET
 On porte à domicile MODE ET CHAPELLERIE
@@ -1720,166 +976,75 @@ Téléphone 42-472 RUE CORNAVIN, 14-16
 PORCELAINES Î
 … Une grande aifiche
 ECERISTA U X sur la voie publique
-
- 
-
 G@ GIRARDï - GUY/ es EP]]uSIÜBÎUGIEE(ÈS pul]belilgité
-
 “““““““ très vigoureuse
-
 29, Croix-d’Or, 29
-
- 
-
 Localion de Malériel pour Banquels [ 52°ÉÉ ou arind « GENEve
-
 a-Brasserie Nétropole | Boneherie de Longemall
 M" L. {(1‘ener
-
 Vins étrangers
 Viande de 1“ choix
-
- 
-
- 
-
 Glachino Seralino
-
 Rue du Prince, G
-
 Rue du Port, 5 Service à domicile
-
- 
-
- 
-
 llll"‘llllN"llllll"llllll"ll|ll‘"llllll"lllll"‘lllll“‘HIII‘"'IIII""Ù'llll"‘lllll'"|llll"‘Hlll'"'lll""‘llll“‘|llll'"'llll'"‘llll|"lllll|"llllll"llllll"llllll"llllll"llllll”llllll"llllll"“"llllll”llllll"llllll"llllll"llllll"lllll'"llllll"llllll"lIllll"HIII"‘|llll'"'|lll""llll""lll""‘|llll
-
 Ouvert en été depuis 4 h , en hiver depuis 5 h. Téléphone : 41-545
 51 AEHO"HDV QE" llllIl"llllIl"llllll"lllll"‘lIllll"llllll"llllll"llllll"llllll"llllll"llllll"llllll"llllll'È
-
- 
-
-d{trce{{cd crrr]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002740_023.tif"/>
-<page><![CDATA[r.
-
+d{trce{{cd crrr
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002740_023.tif'/>
+        <page>
+          <![CDATA[r.
 I…l|l"""ll'…"llll…Ill"m|lll…"“l”…llll""U"…llll…nll…"| ||"…
-
- 
-
- 
-
- 
-
 la preference ;
 pour Vos achats
 aux“ ma150ns qu1 nous
-
- 
-
-  
-   
-
 l"ll{lll"illlll"|lllll"ul!Il"…lll"|llll"‘üllﬂ"llllll"llllﬂ"llllll"llllll"ll!lll"llllll"llll""llllll"llllll"lllll""ll!l"‘lllll‘""lll'"'lllll
-
 TRANSPORTS FUNÈBRES
-
 Ancxenne Mmson MURITH DUPARC & FERT e Fondée en 1888
-
 E A. MUR|‘I‘H S.A., Siège sumal IB Bue des Chaudronniers
-
 ’I‘ÉIÆ.PHONE 150.288 (Serv1ce permanent)
-
- 
-
-   
- 
-
- 
-
-  
-
-   
- 
-  
-
- 
-
 Fabnque de Cercueds ; Automob11es funéraires
 Inhuxﬁatmns Exhumaf:xdns, Incmeratmns, Transports
-
 “EN" "q
-
-   
-
- 
-
-  
- 
- 
-
 ,'æ‘
-
 È.» î|llll1"llllﬂ"ll|ll"‘lllll"‘lÏl ‘
-
 Ë
-=1 rrrc]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002740_024.tif"/>
-<page><![CDATA[SE HUs UEc ORc EE sDE EOOs 0UNF cE L
-
+=1 rrrc
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002740_024.tif'/>
+        <page>
+          <![CDATA[SE HUs UEc ORc EE sDE EOOs 0UNF cE L
 ÉTIENNE ®55N
-
 2, Rue Winkelried, 2
-
 (A côté de l’Hôtel des Berqgues)
-
 Téléphone 24.527
-
- 
-
 Demandez la délicieuse -
-
 ICE CREAM
-
 (Crème glacée) …
 des
-
 Laiteries Réunies ;
-
- 
-
 Un ménage sans SOLEIL Du feu sans fumée aves
 esi Un ménage sans feu. ün fourneau ” SOLEIL “
-
 de la
-
 RUE DE CAROUGE, 15
-
 ANGLE RVD ph* 0N
-
- 
-
 LA PHOTO DES BERGUES
-
 Livre des Travaux d'amateurs
 irréprochables
-
 ®
-
 M JANET o
 WRCEWNES JA%NNSES
-
 ; F
 11, Qual des Bergues, 11 “J"NîÏ.Ï"*ËËä%&gsues s.
-
 SHHHOV 0H 009X080X00909 COQUX0QQOVS OO QVOQA" QVUS*N
-
- 
-
 Z
-J]]></page>       
-        </p>
+J
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

@@ -1,97 +1,99 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title><date when="27/09/1882"/></title>
-<series>1881-1882</series>
-<placeName>[Kiosque (Promenade des Bastions) ?]</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            <date when='27/09/1882'/>
+          </title>
+          <series>1881-1882</series>
+          <placeName>Genève, Kiosque (Promenade des Bastions)</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VG2-1 F001482</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Lieu incertain</note>
+        <note>Date présumée</note>
+        <note>Interprète incertain</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18820927"/>
-<placeName key="[Kiosque (Promenade des Bastions) ?]"/>
-<name key="1881-1882" type="series"/>
-<name key="Gregh, Louis" ref="https://muscat.rism.info/admin/people/30071283" type="person" role="cmp">Gregh, Louis</name>
-<name key="Verdi, Giuseppe" ref="https://muscat.rism.info/admin/people/137994" type="person" role="cmp">Verdi, Giuseppe</name>
-<name key="Kling, Henri" ref="https://muscat.rism.info/admin/people/30022454" type="person" role="cmp">Kling, Henri</name>
-<name key="Offenbach, Jacques" ref="https://muscat.rism.info/admin/people/111831" type="person" role="cmp">Offenbach, Jacques</name>
-<name key="Pichoz"  type="person" role="cmp">Pichoz</name>
-<name key="Massenet, Jules" ref="https://muscat.rism.info/admin/people/84264" type="person" role="cmp">Massenet, Jules</name>
-<name key="Junod"  type="person" role="cmp">Junod</name>
-<name key="Taubert, Wilhelm" ref="https://muscat.rism.info/admin/people/124431" type="person" role="cmp">Taubert, Wilhelm</name>
-<name key="Rifat-Bey"  type="person" role="cmp">Rifat-Bey</name>
-<name key="Métra, Jules-Louis-Olivier" ref="https://muscat.rism.info/admin/people/30022610" type="person" role="cmp">Métra, Jules-Louis-Olivier</name>
-<name key="[Orchestre de la Ville de Genève ?]"  type="person" role="int">[Orchestre de la Ville de Genève ?]</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_1_f001482_001.tif"/>
-<page><![CDATA[é (/'LL E
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18820927'/>
+        <placeName key='Genève, Kiosque (Promenade des Bastions)'/>
+        <name key='1881-1882' type='series'/>
+        <name key='Gregh, Louis' ref='https://muscat.rism.info/admin/people/30071283' type='person' role='cmp'>Gregh, Louis</name>
+        <name key='Verdi, Giuseppe' ref='https://muscat.rism.info/admin/people/137994' type='person' role='cmp'>Verdi, Giuseppe</name>
+        <name key='Kling, Henri' ref='https://muscat.rism.info/admin/people/30022454' type='person' role='cmp'>Kling, Henri</name>
+        <name key='Offenbach, Jacques' ref='https://muscat.rism.info/admin/people/111831' type='person' role='cmp'>Offenbach, Jacques</name>
+        <name key='Pichoz' type='person' role='cmp'>Pichoz</name>
+        <name key='Massenet, Jules' ref='https://muscat.rism.info/admin/people/84264' type='person' role='cmp'>Massenet, Jules</name>
+        <name key='Junod' type='person' role='cmp'>Junod</name>
+        <name key='Taubert, Wilhelm' ref='https://muscat.rism.info/admin/people/124431' type='person' role='cmp'>Taubert, Wilhelm</name>
+        <name key='Rifat-Bey' type='person' role='cmp'>Rifat-Bey</name>
+        <name key='Métra, Jules-Louis-Olivier' ref='https://muscat.rism.info/admin/people/30022610' type='person' role='cmp'>Métra, Jules-Louis-Olivier</name>
+        <name key='Orchestre de la Ville de Genève' type='person' role='int'>Orchestre de la Ville de Genève</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_1_f001482_001.tif'/>
+        <page>
+          <![CDATA[é (/'LL E
 en uc ON 27 5l€1/”+;
 PROGRAMME
-
 PREMIÈRE PARTIE
-
 S
-
 Marche royale espagnole, . - L. Gregh.
 | 2. Ouverture des Vêpres siciliennes, Verdi.
-
 | 3. Dans la Forêt, valse (2me audition), Kling-
-
 | 4 Fantaisie sur les Contes d’Hoffmann, Offenbach.
-
 SECONDE PARTIE
-
 / 5. _ Airs du ballet : Les Chasseresses,  lichoz.
 G. Sévillana, de Don César de Bazan, Massenet.
 | T. a) Menuet (lre audition), . . Junod.
-
 ( }) Chanson d'Amour, . . - Taubert.
-
 | pour instruments à cordes. -
-
 8 Ghazi-Osman, marche (2de audition), Rifat-Bey.
 9 Champagne-galop, . - - * Métra.
-
- 
-
 Æ ‘ ‘x1 J - VÎ«':r->—< Ï ; . ! f ; ! ‘ I: V f,' Î ( \
 10 fUN Wdi UEN A*
 | A
-
-rs]]></page>       
-        </p>
+rs
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

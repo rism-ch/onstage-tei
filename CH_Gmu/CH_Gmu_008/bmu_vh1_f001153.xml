@@ -1,173 +1,117 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Un seul grand concert Pablo Casals et Harold Bauer<date when="15/01/1913"/></title>
-<series>1912-1913</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Un seul grand concert Pablo Casals et Harold Bauer
+            <date when='15/01/1913'/>
+          </title>
+          <series>1912-1913</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F001153</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Date présumée</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19130115"/>
-<title>Un seul grand concert Pablo Casals et Harold Bauer</title>
-<placeName key="Victoria Hall"/>
-<name key="1912-1913" type="series"/>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Schumann, Robert" ref="https://muscat.rism.info/admin/people/131206" type="person" role="cmp">Schumann, Robert</name>
-<name key="Bach, Johann Sebastian" ref="https://muscat.rism.info/admin/people/2539" type="person" role="cmp">Bach, Johann Sebastian</name>
-<name key="Brahms, Johannes" ref="https://muscat.rism.info/admin/people/39914" type="person" role="cmp">Brahms, Johannes</name>
-<name key="Casals, Pablo"  type="person" role="int">Casals, Pablo</name>
-<name key="Bauer, Harold"  type="person" role="int">Bauer, Harold</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001153_001.tif"/>
-<page><![CDATA[- Ï J Ï
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19130115'/>
+        <title>Un seul grand concert Pablo Casals et Harold Bauer</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1912-1913' type='series'/>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Schumann, Robert' ref='https://muscat.rism.info/admin/people/131206' type='person' role='cmp'>Schumann, Robert</name>
+        <name key='Bach, Johann Sebastian' ref='https://muscat.rism.info/admin/people/2539' type='person' role='cmp'>Bach, Johann Sebastian</name>
+        <name key='Brahms, Johannes' ref='https://muscat.rism.info/admin/people/39914' type='person' role='cmp'>Brahms, Johannes</name>
+        <name key='Casals, Pablo' type='person' role='int'>Casals, Pablo</name>
+        <name key='Bauer, Harold' type='person' role='int'>Bauer, Harold</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001153_001.tif'/>
+        <page>
+          <![CDATA[- Ï J Ï
 _Ïmmmmmmmmmmmmmmmmmmmmmwmmmmmwmp
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 THercredi 15 âam?ief à8 19 h du soir
-
 ——
-
- 
-
- 
-
- 
-
 Un Seul Grand Concert
-
 A
-
 &
-
 4ﬂ Pablo Casals P 0
 P « Harold Bauer
-
 PROGRAMME 3
-
 1, Sonate en la majeur op.69. . - Becthoven
 (Pour violoncelle et piano.)
 Allegro, ma non tanto. — Scherzo, allegro
 molto. — Adagio cantabile.
 Pablo Casals et Harold Bauer
-
 eresienanaop u6 … …. ‘Sbumorn
 8 Fantaisies dédiées à F. Chopin,
 Harold Bauer
-
 3, Suite ré mineur, pour violoncelle seul Bach
 Prélude. — Allemande. — Courante. —
 Sarabande, - Menuetto |. - Menuetto |I.
 — Gique,
-
 Pablo Casals
-
 d sonale enta majeur ... … — -Brabms
 (Pour violoncelle et piano.)
 Allegro vivace, — Adagio affettuoso. —
 Allegro passionato, — Allegro molto.
 Pablo Casals et Harold Bauer
-
 |nuuouononuuu.nonouuuonouwuruuuu\unumuovy.u.un.ow.n.nouuw….uu.u
-
 Î> Piano de Concert Pleyel aux soins de la maison Ch. Berguer.
-
 Î Direction du Concert Th. WALLBACH, Lausanne,
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Places de rez-de-chaussée : Loges G Fr. — Parquet 5 Fr,
 Parterre 4 Fr. — Pourtour 4 Fr. — Promenoir 3 Fr.
-
 Amphith. 2 Pr, 50 — Podium 2 Fr. — Premières Galeries ;
 Loges G6 Fr, — Balcons: Jer rang 5 Fr,, 2me et 3me
 rang 3 Fr. — Balcons 4me rang 2 Fr. Fauteuils de Face
 der et 2me rang 5 Fr. — Autres 4 Fr. — Amphith. 3 Fr,
 — Orgue 2 Fr. 50 — Deuxièmes Galeries : Amphith. 2 Fr,
 — Balcon der rang 2 Fr. — Balcon Qme rang 1 Fr. 50.
-
 Le 5 °/o en sus pour droit des pauvres.
 Location : Magasin de Musique, Rotschy Frères, Corraterie,
-
- 
-
- 
-
- 
-
- 
-
-AMACKER, LAUSANNE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001153_002.tif"/>
-<page><![CDATA[Pablo Casals.
-
+AMACKER, LAUSANNE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001153_002.tif'/>
+        <page>
+          <![CDATA[Pablo Casals.
 L’événement artistique de cette saison restera probablement
 le concert qu'annoncent pour le 15 de ce mois, au Victoria-
 Hall, MM. FHarold Bauer et Pablo Casals. Chacun de ces
@@ -178,36 +122,34 @@ personnalité captivante. M. Pablo Casals plane au-dessus des
 autres virtuoses de la basse, à une hauteur qui le fait apparaître
 comme le seul. En vérité il est unique, et son renom a dépassé
 aujourd’hui les limites du continent européen.
-
 Or, phénomène extraordinaire, si grands que soient Bauer
 et Casals pris à part, réunis ils apparaissent encore grandis.
 Leurs deux natures se complètent et se pénètrent merveilleuse-
 ment; aussi la jouissance que procure leur audition simultanée
 est-elle peut-être la plus idéalement parfaite qui se puisse conce-
 voir.
-
 Nous n’avons pas la prétention de faire de la réclame à
 deux virtuoses qui n’en ont nul besoin. Il va sans dire que les
 places feront prime pour le concert du 16 janvier. Mais pour ceux
 qui ne les connaissent qu’imparfaitement, nous voulons simple-
 ment ajouter quelques notes sur MM. Bauer et Casals.
-
 Harold Bauer, né en Angleterre en 1873 d’un père allemand
 et d’une mère anglaise, est avant tout une nature d’artiste. De-
 venu pianiste par accident — ainsi qu’il le raconte lui-même —
 Harold Bauer aurait excellé de même sur n’importe quel autre ins-
 trument. Et de fait, il avait débuté comme violoniste, et c’est par
-hasard, après avoir travaillé le piano en amateur, qu’il s'aperçut]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001153_003.tif"/>
-<page><![CDATA[Harold Bauer.
-
+hasard, après avoir travaillé le piano en amateur, qu’il s'aperçut
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001153_003.tif'/>
+        <page>
+          <![CDATA[Harold Bauer.
 vers la vingtième année qu’il était devenu sans s’en douter pia-
 niste virtuose, l’égal des plus grands. Depuis ce moment sa car-
 rière fut rapide et s’est affirmée partout où il s’est fait entendre.
 Il est en Amérique un des grands favoris du public, et son nom
 y attire toujours la foule. Ses récitals parisiens sont parmi les plus
 courus.
-
 Pablo Casals, fils de parents beaucoup moins riches en argent
 qu'en progéniture, ‘est né en 1874 en Catalogne. De bonne heure il
 montra des dispositions phénoménales pour la musique. Il était
@@ -227,10 +169,11 @@ lui dit être bonne. Quand il s'attaque à une œuvre, c’est que, pre-
 mièrement, cette œuvre l’a conquis. De là l’intensité qu’il met à la
 transposer sur le plan sonore, cette intensité qui fait de son jeu
 une chose inouïe, surhumaine.
-
 Oui, vraiment, la venue de Casals et Bauer est un événe-
-ment, et Genève peut se féliciter de l’aubaine.]]></page>       
-        </p>
+ment, et Genève peut se féliciter de l’aubaine.
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

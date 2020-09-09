@@ -1,60 +1,71 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert symphonique (Dixième de l'abonnement - Série A)<date when="20/02/1932"/></title>
-<series>1931-1932</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert symphonique (Dixième de l'abonnement - Série A)
+            <date when='20/02/1932'/>
+          </title>
+          <series>1931-1932</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002773</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Weingartner, F. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19320220"/>
-<title>Concert symphonique (Dixième de l'abonnement - Série A)</title>
-<placeName key="Victoria Hall"/>
-<name key="1931-1932" type="series"/>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Haydn, Joseph" ref="https://muscat.rism.info/admin/people/55803" type="person" role="cmp">Haydn, Joseph</name>
-<name key="Schubert, Franz" ref="https://muscat.rism.info/admin/people/111603" type="person" role="cmp">Schubert, Franz</name>
-<name key="Weingartner, Felix  (dir.)" ref="https://muscat.rism.info/admin/people/127753" type="person" role="int">Weingartner, Felix  (dir.)</name>
-<name key="Orchestre de la Suisse Romande" ref="https://muscat.rism.info/admin/people/50007615" type="person" role="int">Orchestre de la Suisse Romande</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002773_001.tif"/>
-<page><![CDATA[-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19320220'/>
+        <title>Concert symphonique (Dixième de l'abonnement - Série A)</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1931-1932' type='series'/>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Haydn, Joseph' ref='https://muscat.rism.info/admin/people/55803' type='person' role='cmp'>Haydn, Joseph</name>
+        <name key='Schubert, Franz' ref='https://muscat.rism.info/admin/people/111603' type='person' role='cmp'>Schubert, Franz</name>
+        <name key='Weingartner, Felix' ref='https://muscat.rism.info/admin/people/127753' type='person' role='int'>Weingartner, Felix</name>
+        <name key='Orchestre de la Suisse Romande' ref='https://muscat.rism.info/admin/people/50007615' type='person' role='int'>Orchestre de la Suisse Romande</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002773_001.tif'/>
+        <page><![CDATA[-
 Ë
 B
-
 v
 |
 |
@@ -62,122 +73,55 @@ v
 _€
 ‘
 4
-
-|]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002773_002.tif"/>
-<page><![CDATA[AVILLE
-
+|
+]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002773_002.tif'/>
+        <page>
+          <![CDATA[AVILLE
 adence des journaux
-
 PASSAGE DES LIONS
-
 LIBRAIRIE - MUSIQUE - PAPETERIE
-
 ABONNEMENT MUSICAL
 PARTITIONS DE POCHE
-
 TOUTE LA MUSIQUE
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
- 
-
 22.Corraterie. 22
-
-  
- 
-
 GRAMOPHONES /
 ET DISQUES E
-
 Même Maison P I A N S
-
 64. rue du Stand, 64
-
 Représentation exclusive des
-
 17 Pianos SEILER
-
 Pas d’arcade sur rue
-
- 
-
-  
- 
-
- 
-
-p RE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002773_003.tif"/>
-<page><![CDATA[]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002773_004.tif"/>
-<page><![CDATA[MAGIC NOTES
-
+p RE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002773_003.tif'/>
+        <page><![CDATA[]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002773_004.tif'/>
+        <page>
+          <![CDATA[MAGIC NOTES
 FRANE -MaoË
-
- 
-
 Remporte le 1” prix du Disque à Paris
 avec ses merveilleux enregistrements
-
- 
-
- 
-
- 
-
 Lçcs 3‘1‘(1l1(/A (/lc‘_/lÿ <Ïorc/zestre
-
- 
-
 Ernest ANSERMET. Orch. de la Suisse Romande, Genève.
 Volkmar ANDRE Æ, Orchestre de la Tonhalle de Zurich.
 Félix WEINGARTNER. Orchestre Symphonique de Bâle.
 Willem MENGELBERG. Orch. Concertgebouw, d’Amsterdam.
 Bruno WALFER. Berliner Staatskapelle.
-
 Philippe GAUBERT. Orchestre du Conservatoire de Paris.
 W. STRARAM et l’Orchestre Straram de Paris.
-
 Franz von HŒSSLIN et l’Orchestre du Théâtre de Bayreuth.
-
 sy . .
 des imstnumentistes célebres
-
- 
-
 Igor STRAWINSKY, piano. compositeur.
 JSoseph SZIGETI, violoniste.
-
 Lionel TERTIS. altiste.
-
 Walter GIESEKING. pianiste.
-
 Zino FRANCESCATTI. violoniste.
 Gaspar CASSADO. violoncelliste.
-
 3 . .
 LS&’S S'I‘(Ill(l.s artistes /l’l‘l(lll(’.\‘
-
- 
-
 A.-M. GUGLIELMETTI. soprano.
 FRANZ, ténor.
 Alex. l&ll'       
@@ -189,279 +133,172 @@ G. TFHEILL. ténor.
 Ses admirables enregistrements de la EKcala de Milan.
 Ses appareils de gramo et de radio réputés pour
 leur naturel et leur pureté musicale.
-
- 
-
 Exclusivité des enregistrements wagnériens à Bayreuth
-
- 
-
- 
-
- 
-
 VENTE PARTOUT
-
- 
-
-EN]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002773_005.tif"/>
-<page><![CDATA[Joseph HAYDN
-
+EN
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002773_005.tif'/>
+        <page><![CDATA[Joseph HAYDN
 - 2
-1752-1809]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002773_006.tif"/>
-<page><![CDATA[radio +
+1752-1809
+]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002773_006.tif'/>
+        <page>
+          <![CDATA[radio +
 gramos 1
 disques
-
-  
-
 columbian
-
 agent régional : |
-
 à juipiter n
-
 4. rue du rhone
-
 dépositaire
 de toutes les
 prinmécipales
-marques]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002773_007.tif"/>
-<page><![CDATA[. , . .
+marques
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002773_007.tif'/>
+        <page>
+          <![CDATA[. , . .
 D15ques dactua11té ev D15ques nouveautés
-
 COLUMBIA
-
 Disques d’Actualité
-
- 
-
 LFX 288  Concerto grosso op. 6 (Hændel), par l'Orchestre
 S\'…ph()l]î(]…} de Londres, direction S. Th. Beec ham.
-
 D 15231 Ouverture d'Idoménée (Mozart), par l'Orchestre du
 (]U (_‘Un$(‘l'       
         </p>
     </body>
   </text>
 </TEI>(lt()l‘l'(‘ ({(' l’(ll'l‘\, llil'('(ti()ll l’h. (;.l\ll)(‘l‘l.
-
 HB NHÎ)_{ Gavotte d'Idoménée (Mozart), par l'Orchestre de la
 Tonhalle de Zirich, direction D" V. Andreæ
-
 L. 2079/85_ Symphonie en ut majeur (Schubert par l'Orches-
-
 tre Hal]ë, de Londres.
-
 L 1021 Ouverture de Coriolan (Beethoven), par le Quenshall
-
 Orchester de Londres. Direction : H. Woods
-
 Nouveunutés
-
 ——
-
- 
-
 DX 311 Kindersinfonie (Haydn), par le British S_       
         </p>
     </body>
   </text>
 </TEI>nl|\hml_\
-
 ()r«'hcstl‘.‘n, direc tion E \'(*ing.‘u'(n(*r.
 LFX 223 224 La Nuit ensorcelée (Cllo|)in-.\ulwr‘l’. par l'Orch.
-
 S_\…phuniquo de Paris, direct. L. Aubert.
-
 LX 154  Ouverture du Freischutz (Weber), par l'Orchestre du
-
 (‘()|1Ç(‘X'lg('l)0ll\', (“l'(‘L‘(i()ll \’ A“'î(‘HÊ_{(Ï”)(‘Ï‘L{.
-
 LX 156 Marche fanèbre de Siegfried (Wagner),
 British S_}'|ll})h0|\_       
         </p>
     </body>
   </text>
 </TEI> ()n‘hvslr.‘n. direct. B. W alther.
-
 par l(‘
-
 DF 707/708  Petite Suite (Debussy), orchestrée et dirigée
-
 !)('l"
 H. Büsser.
-
 LFX 1091 Tzrigane, rapsodie (Ravel), par M.
 M. Faure.
-
 l‘ï'.|…‘('&«’.\lli et
-
 LFX 210/213 Premier quatuor (Debussy),
 Calvet.
-
-par le Qll.‘lllll)l']]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002773_008.tif"/>
-<page><![CDATA[]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002773_009.tif"/>
-<page><![CDATA[IIIl
-
+par le Qll.‘lllll)l'
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002773_008.tif'/>
+        <page><![CDATA[]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002773_009.tif'/>
+        <page>
+          <![CDATA[IIIl
 |
-
 ORCHESTRE DE LA SUISSE ROMAND
-
 PS S es r se t
-
 VICTOREY HAL E
-
 Samedi 20 février 1932, à 20 beures et demie précises
-
 CONCERT SYMPHONIQUE
-
 (Dixième de l’'Abonnement - Série A)
-
- 
-
 PROGRAMME
-
 PREMIÈRE PARTIE
-
 Quyerture de CORIOPANN Beethoven
 2. SYMPHONIE n° 11, en vo{ majeur (dite “Militaire”) — Hayon
-
 a) Adagio, allegro.
 b) Allegretto.
 c) Menuetto.
 0) Finale (presto!.
-
 DEUXIEME PARTIF
-
 3. SYMPHONIE n° 7, en % NaAJEUrT E Sehubert
-
 a) Andante. - Allegro ma non troppo.
 b) Andante con moto.
-
 c) Scherzo.
-
 0) Finale. - Allegro vivace.
-
 L'Orchestre sera dirigé par
-
 D' Felix WEINGARTNER
-
 Aucun morceau ne sera répélé ni ajouté au programme.
-
 . . ‘ . , q
 La Direction se réserve le droit d apporter au programme toutes modificatic
 que les circonstances pourraient lui împoser.
-
 Les porles seront r:_z/nurzu.vemml4/’(r/ﬂ('{.v pendanl l’exéculion es morceaux,
-
- 
-
 llllll:lllllllIllIIllllllIllIlIllllllllllllllllllllllllllIllllllllllllllllllllllllllllllllIlIIIÎ"IÏIillilÏlﬁllllllllllllllll
-
 Îl
-
 lllllllIlllllll|lllllllllllllllllllllllllllllllﬂllll|!llllllllllllllllllllllllllllllllllll!llllllllll_llÿllÿlÿll…H…IIHllllll!llllllllllllll@ll_‘:
-
 HHHIl|llll…llll!lllllllllIIÏIIlllllllllllllllllllllHllllllllllllllllllllllllllll
-
 =
-
 SHNEENCEGQRHAQNRNORQAQNRVEQNORNENLNETONETEOOWEXITETTEETKEOVEOVEOVOOEOUV000063000000000000000500000KOVOKVOVH0000T1
-
 ns
-
- 
-
 SNNINTILNIEÉ
-
-EEFOECHEHIOHEOEEEENEOTAMNEHEMEHHiE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002773_010.tif"/>
-<page><![CDATA[r. T
+EEFOECHEHIOHEOEEEENEOTAMNEHEMEHHiE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002773_010.tif'/>
+        <page>
+          <![CDATA[r. T
 es qe e à
 es
-
 PN
 EN
 14
 OS
-
- 
-  
-   
-    
-
-  
-
- 
-
 N,
-
- 
- 
-
- 
-
- 
-
- 
-
 haszoan qer
 D DAc0LolE GÎ
-
 du Rhône
-
-        
-
-6 rue]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002773_011.tif"/>
-<page><![CDATA[D" Féelix WEINGARTNER]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002773_012.tif"/>
-<page><![CDATA[le tricotm
-
+6 rue
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002773_011.tif'/>
+        <page><![CDATA[D" Féelix WEINGARTNER
+]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002773_012.tif'/>
+        <page>
+          <![CDATA[le tricotm
 pieine V(Dg‘ll(‘
-
 pour le monde
-
 Ja Vill€, le Sp01‘t
 letricot ….
 est élégant
 confortable
 pratique
-
 In femme moderne
-
 s‘adresse à la
-
 maison spécialisée
-
 (VFREUK ANCETME 1N
-
 Leading Honuse for Ladies Knitted _wear
-
 bonneterie fine Genë‘re
-
 vêtements de sport
-tricot haute couture  G,rueduMont-Blane]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002773_013.tif"/>
-<page><![CDATA[Louis van BEETHOVEN
-
+tricot haute couture  G,rueduMont-Blane
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002773_013.tif'/>
+        <page>
+          <![CDATA[Louis van BEETHOVEN
 Né à Bonn le 16 décembre 1770, mort à Vienne le 26 mars 182
-
 (l’lî‘r’l'//ll e de (:( )l(l()l,.'].\v
-
 E n'est point à la tragédie de Shakespeare que cette
 ouverture doit servir de préface musicale, mais à un
-
 drame oublié d’un littérateur obscur nommé Collin.
-
-  
-
 #3> . ;
 Il semble pourtant que ce drame ait évoqué dans
 l'esprit de Beethoven le souvenir de l’œuvre shakespearienne,
@@ -476,7 +313,6 @@ puissantes et mûries; en outre, sa surdité, de jour en jour
 plus complète, l’obligeait à s’abstraire dans une solitude
 profonde et dans une méditation d’où devaient sortir les
 œuvres impérissables de sa dernière manière.
-
 Trois fois les cordes attaquent avec une énergie sauvage
 la tonique du ton d’ut mineur, que coupent brusquement des
 accords secs, à la sonorité compacte et intensive, suivis de
@@ -489,62 +325,42 @@ mineur à celui d’ut mineur. Le thème se désagrège bientôt,
 morcelé par de puissants soubresauts rythmiques. Tout à
 coup, une phrase s’élève, poignante et pathétique. Au thème
 précédent, qui peignait les ressentiments de Coriolan, s'oppose
-
-la supplication de sa mère, et la phrase, chantée d’abord]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002773_014.tif"/>
-<page><![CDATA[GRAMO
-
+la supplication de sa mère, et la phrase, chantée d’abord
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002773_014.tif'/>
+        <page>
+          <![CDATA[GRAMO
 Polydor
 Brunswick
-
 Lc> dvux marques dc 1‘éputati0n mondiale
 enrichissent leurs répertoires considérables par
-
 dcs cn1‘cgi>trcmcnts d artistes de premier 0rd1‘e
-
 RADIO
-
 Apex
 American Bosch
-
 CCS Lll)lhll‘L‘il> l'ill]iClïl tous lCS \UHI
-
 pevaicte à alieuns hautes
-
 Tous ces produits sont en vente dans les
-
 bons magasins de musique et de T.S.F.
-
 l’{kl)lk\knîklllî\ "(Iïkl«lU\ [>UUI l( \Ul\L
-
-KAISER & C° s. A., BERNE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002773_015.tif"/>
-<page><![CDATA[par les premiers violons, reprise ensuite par les seconds
+KAISER & C° s. A., BERNE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002773_015.tif'/>
+        <page>
+          <![CDATA[par les premiers violons, reprise ensuite par les seconds
 violons et les bois, s’anime et se développe, toujours plus
 pressante, sur un arpège de violoncelles. Les deux thèmes
 alternent jusqu’au moment où s’apaise le chant de colère
 et de haine qui meurt attendri et désarmé sous l’archet des
-
 violoncelles.
-
 ##
-
 JOSEPH HAYDN
-
 Né à Rohrau (Basse Autriche) le 1“r avril 1732, mort à Vienne le 31 mai 1809
-
 Ü[Ië UR l’invitation d’un célèbre violoniste et entrepre
 @
-
-  
- 
-
-  
-
 neur de concerts, Johann-Peter Salomon, Haydn
-
- 
-
 \,( , fit deux tournées de concerts à Londres, dur.ar'nt
 les saisons d’hiver 1791/92 et 1794/95 et écrivit
 spécialement pour ces tournées douze symphonies qui sont
@@ -557,7 +373,6 @@ et dans son quatrième mouvement de ce qu'on appelait alors
 la musique de janissaires, c’est-à-dire un corps de musique
 composé d'’instruments à vent et de percussion (grosse-
 Caisse, cymbales, triangles).
-
 « Rien de moins guerrier que cette symphonie, dit M. Willy
 Schmidt dans une de ses pénétrantes analyses écrites pour le
 Bulletin officiel de la Société de musique de Neuchâtel, rien
@@ -565,31 +380,31 @@ qui ressemble moins à une symphonie héroïque. Et d’abord,
 il n’est pas probable que Haydn ait lui-même donné ce
 nom à son œuvre. Cette épithète: militaire, se justifie cepen-
 dant par l’allure des thèmes de la première partie, et plus
-encore par l'Allegretto tout entier, qui n’est qu'une Marche]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002773_016.tif"/>
-<page><![CDATA[Réserves 32 amillions
+encore par l'Allegretto tout entier, qui n’est qu'une Marche
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002773_016.tif'/>
+        <page>
+          <![CDATA[Réserves 32 amillions
 — — ——
-
 Toutes opérations
 sont traîtées avec
 le meilleur soin
-
 Æ 7
 —
-
 NIONde BANQUES SUISSES
-
 ANGLE RUE DU RHÔNE RUE DUCOMMERCE
-
-Capital 100 millions]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002773_017.tif"/>
-<page><![CDATA[instrumentée à grand renfort de cymbales et grosse caisse ;
+Capital 100 millions
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002773_017.tif'/>
+        <page>
+          <![CDATA[instrumentée à grand renfort de cymbales et grosse caisse ;
 et même Haydn joint aux bois deux clarinettes — rares dans
 les symphonies de cette époque — ce qui lui donne, avec
 les cors, pour l’opposer aux instruments à archet, un chœur
 d'instruments à vent bien fourni, rappelant celui des bandes
 militaires.
-
 Il y a dans toute création artistique une part de fiction,
 de jeu, terrible ou charmant. TI consiste dans le fait d’imiter,
 pour traduire l'émotion esthétique, une des formes du réel,
@@ -618,62 +433,33 @@ neux, ressemble à une marche d'apparat pour une revue; et
 l’on croit voir la garde du prince, uniformes de couleur,
 larges baudriers blancs, bonnets monumentaux, armes étin
 celantes et inoffensives, évoluer comme des marionnettes sur
-
-le pavé propre de la cour d’honneur.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002773_018.tif"/>
-<page><![CDATA[PIANON
-
-  
-  
-  
- 
-   
-   
-  
-  
-   
-  
-   
- 
-   
-  
-
- 
-
+le pavé propre de la cour d’honneur.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002773_018.tif'/>
+        <page>
+          <![CDATA[PIANON
 KRob. ÉNÉIFEÉL-BKRMOUED
-
 20, Rue du Marché - Passuge du Terraillet |
 'l—\;l('lxlunnv 44.192 GENEVE (‘l\c\l. post. [: 2159 . ‘
-
 REPRESENTANT DES PIANOS
-
 Steinway & Sons
 a N(‘\ -Y«‘l'l\
-
 Schiedmeyer
-
 a Stuttgart
-
 Julius Feurich
-
 a l"P“:'
-
 Pleyel & Co
 a P«U‘i\
-
 WELTE-MIGNON
-
- 
-
 SCEHMIDIRERÉOHR SIDERI BUREE R AACOBI
-
 - ECHANGE LOCATION ACCORDS — REPARATIONS
-
-      
-
-VENTE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002773_019.tif"/>
-<page><![CDATA[Le Menuet est un vrai menuet que l’on pourrait danser,
+VENTE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002773_019.tif'/>
+        <page>
+          <![CDATA[Le Menuet est un vrai menuet que l’on pourrait danser,
 d'une cadence élégante et nerveuse. Et le Final est un
 morceau de 6/8 de larges proportions, mené avec une verve
 soutenue, d'allure franche ,d’un style simple mais non sans
@@ -683,42 +469,25 @@ trait bien haydénien de prudente économie seulement
 vers la fin du morceau, dans une brillante conclusion au
 milieu de laquelle il intercale autre exemple d’un effet
 sagement calculé — une courte reprise du thème principal
-
 exposé, piano, par les cordes seules.
-
- 
-
 LE puo el
-
-AlAR |]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002773_020.tif"/>
-<page><![CDATA[ETE 112 R
-
+AlAR |
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002773_020.tif'/>
+        <page>
+          <![CDATA[ETE 112 R
 q,
-
 Rond-Point de Plainpalais, 1" étage
-
 Violons anciens, Altos, Violoncelles. Archets. Etuis
 Location -- Cordes ‘* PIRASTRO ° -:-
-
 Réparations
-
- 
-
- 
-
- 
-
 L’AFRIQUE DU NORD
-
 à moins de 40 heures de Genève !
 ..et à des prix incroyablement bas
-
 par la COMPAGNIE GÉNÉRALE TRANSATLANTIQUE
-
 Départ de Marseille pour ALGER : chaque Mardi, Jeudi, Samedi et Dimanche;
 > > TUNIS : chaque Mercredi et Vendredi
-
 > > ORAN : chaque Samedi
 > BONE : chaque Lundi
 Prix des parcours maritimes ALLER et RETOUR
@@ -726,32 +495,22 @@ Prix des parcours maritimes ALLER et RETOUR
 2eiclasse > 170. —
 Saclasses > 908
 4e classe ... > 50°= >
-
 Réductions pour groupes
-
 En 1930 : 310,527 passagers ont traversé entre Marseille
 et l’Afrique du Nord par les paquebots de la French Line
-
 Prenez vos billets chez
-
 J. VÉRON, GRAUER & Cle - 22, Rue du Mont-Blanc, 22
-
-Agents généraux de la Cie Gle Transatlantique |]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002773_021.tif"/>
-<page><![CDATA[FRANZ SCHUBERT
-
+Agents généraux de la Cie Gle Transatlantique |
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002773_021.tif'/>
+        <page>
+          <![CDATA[FRANZ SCHUBERT
 Né à Lichtenthal, près Vienne, le 31 janvier 1797,
-
 mort à Vienne le 19 novembre 1826.
-
 E musicien, qu'une courte maladie enlevait à son art,
 à Vienne, le 19 novembre 1828, à l'âge de trente
-
 et un ans, était une des natures d’homme les
-
- 
-  
-
 ° plus adorables que le monde ait connues, un
 cœur tendre et loyal, la sensibilité la plus vive, mais la plus
 délicate, cette véracité et cette fraîcheur inaltérables des
@@ -778,62 +537,37 @@ divine »), 1l semble bien que Beethoven n'ait guère pris
 farde à lui. Ce n’est que plusieurs années après sa mort, et
 particulièrement grâce à la découverte de certaines œuvres
 instrumentales restées inédites, que tout le sens de l’œuvre
-
-de Schubert devait être révélé.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002773_022.tif"/>
-<page><![CDATA[RAVITAILLEZ
-
+de Schubert devait être révélé.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002773_022.tif'/>
+        <page>
+          <![CDATA[RAVITAILLEZ
 GARAGE MÉTROPOLE
-
 Théo SARBACH S. A.
-
- 
-
 PUF DIN G
 TELEPHONE 44.022
-
- 
-
 Le plus central -  Ouvert jour et nuit
 VOITURES AMILCAR
 (H VH OV - d cyl , 86 CVv;
 stock pièces detacheées
-
 RÉPARATIONS SOIGNÉES - TOUTES FOURNITURES
-
- 
-
- 
-
- 
-
-    
- 
-
 SOC/ETE SUISSE
-
 ASSURANCES
-
 ACCIDENTS - VOL - RESPONSABILITÉ CIVILE
 DOMESTIQUES - EMPLOYES - AUTOMOBILES - CASCO
 DEGATS D'EAU - ASSURANCE DES BAGAGES
-
- 
-
 Direction pour la Suisse Romande :
-
 GENÈVE, Place Longemalle, Î
-
-  
-
-e]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002773_023.tif"/>
-<page><![CDATA[En 1839, se trouvant à Vienne, et ayant été faire un péle-
+e
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002773_023.tif'/>
+        <page>
+          <![CDATA[En 1839, se trouvant à Vienne, et ayant été faire un péle-
 rinage auprès de la tombe de Schubert, Schumann eut l'idée
 d'aller faire visite à Ferdinand Schubert, frère aîné de
-
 Franz.
-
 « 1l me connaissait, écrivait-il, pour la vénération que j'avais pour
 son frère. Il me raconta et me fit voir bien des choses. Enfin il me
 montra aussi quelques-unes des compositions de Franz Schubert qui
@@ -855,9 +589,7 @@ l’artiste, dont le regard pénétrant, habitué à distinguer les moindres
 germes de beauté naissante, n’aurait pas de peine à reconnaître la
 beauté rayonnante de cette œuvre. Ainsi fut fait. La symphonie fut
 envoyée à Leipzig, elle y fut entendue (22 mars 1839), comprise,
-
 rejouée, et bientôt admirée presque par tous. »
-
 La partition que Schumann eut entre les mains portait
 la date de mars 1828; elle datait donc de quelques mois
 avant ls mort de Schubert. « Celui qui ne connaît pas cette
@@ -870,43 +602,32 @@ le montre dans sa grandeur. La force des symphonies de
 Beethoven est d’ordre psychologique et leur grandeur est
 d’ordre dramatique. La grandeur de la Symphonie en do
 tient à la seule richesse de l’invention musicale et à la force
-
-de son caractère; elle est d’ordre épique, d'où la différence]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002773_024.tif"/>
-<page><![CDATA[TEINTURE ET LAVAGE CHIMIQUE
-
+de son caractère; elle est d’ordre épique, d'où la différence
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002773_024.tif'/>
+        <page>
+          <![CDATA[TEINTURE ET LAVAGE CHIMIQUE
 Nettoyage à sec - Décatissage - Costumes ba!s et soirées
-
-    
-   
-     
-  
-
- 
-
 F.« E. BAECHLER frères
-
 4, Tour-de-l'Ile - 3, Cours de Rive - 3, Grand'Rue - 3, Place du Molard
-
 7, Rue du Mont-Blanc - 6, Rue Leschot - 3, Rue de la Servette {
-
 17, Boul. Georges-Favon - 71, Rue de Carouge - 15, Place du Marché,
-
 Carouge - 22, Rue Voltaire - Angle Rue Lefort-Rue Charles-Bonnet :
 Usine : 84, Rue de Lausanne
-
 GENÈVE 1
-
 |
 ;
 ä
 |
 !
 î
-
-Dépoussiérage €E nettoyage cle tapis et amcublements]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002773_025.tif"/>
-<page><![CDATA[de style et de moyens; les parties dites de « développe-
+Dépoussiérage €E nettoyage cle tapis et amcublements
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002773_025.tif'/>
+        <page>
+          <![CDATA[de style et de moyens; les parties dites de « développe-
 ment » ou de « conduite » diminuant d'importance, d'intérêt
 et de caractère; celles dites d’'« exposition », prenant toute
 la vie de l'œuvre. De là encore, et précisément dans ces
@@ -932,7 +653,6 @@ de Schumann: « Qu’il est bienfaisant, ce sentiment de richesse
 qu'on éprouve partout dans cette symphonie, tandis qu'avec
 d’autres' musiciens on doit craindre à tout instant qu'ils ne
 soient à court… ».
-
 Inutile donc de chercher à cette œuvre un sens drama
 tique qu’elle ne comporte pas. Pour qu'elle nous parle
 comme elle le doit, il suffit que notre imagination veille,
@@ -941,129 +661,78 @@ qu'elle nous apporte. « O imagination, écrivait Schubert,
 source insondable où viennent s’abreuver à l’envie l’artiste
 et le savant! O bien que st peu connaissent et honorent,
 reste au milieu de nous, pour nous préserver de fausses
-
-lumières, des spectres trompeurs qui n'ont ni chair ni sang.»]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002773_026.tif"/>
-<page><![CDATA[|
+lumières, des spectres trompeurs qui n'ont ni chair ni sang.»
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002773_026.tif'/>
+        <page>
+          <![CDATA[|
 U
-
 LUE DU RH( ’l\x_ 104
-
-   
-
 D,
 K
-
 ADIO
-
 RAMOPHONES
 S QU
-
- 
-
 ÜOD
-
- 
-
 E D'ITALIE 4
-
-     
-
- 
-
-     
-      
-     
- 
- 
-  
-
- 
-
- 
-
 POUIR SONWHURIEIZS
-
 COMPLET SMOKING
-
 prêt à porter 95.--
 COMPLÉET FRA@EK )=
 prêt à porter 125.-
 COMPLET SMOKING
-
 sur mesure ; 12U'
 COMPLET FRACK <é
 sur mesure ; l\-‘ )-'
-
 Draperies pure laine
 Coupeurs fer ordre
-
 ADLER
-
-Cms 5, CROIX-D'OKk, 8 —s]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002773_027.tif"/>
-<page><![CDATA[SALLE DE LA RÉFORMATION
-
- 
-
+Cms 5, CROIX-D'OKk, 8 —s
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002773_027.tif'/>
+        <page>
+          <![CDATA[SALLE DE LA RÉFORMATION
 Mercredi 24 février 1952, à 20 beures et demie
-
 6"° Concert de l’Hbonnement
-
 v
-
- 
-
 (SÉRIE B)
 SOLISTE :
-
 M" Isalae“e N EF
-
 CLAV ECINISTE
 avec le concours de
-
 M'":B.HONEGGER
-
 VIOLONISTE
 et du
-
 CHOEUR ROMAND
-
 AU PROGRAMME :
-
 Ouverture et Gavotte dildoménée. … Mozarl
 Concerto brandebourgeois n° 5 pour cla-
 veoimiiiatégeduroione J.-S. Bach
-
 Ode pour chœur et orchestre (1"° audition) J. Binel
 Concerto pour clavecin, flâte, hautbois, cla-
 rinette, violon et violoncelle (G'°audition) . de Falla
-
 Danses du Tricorne M. Je Falla
-
 L'Orchestre sera dirigé par
-
 M. Erness ANSERMET
-
 Location chez        
         </p>
     </body>
   </text>
-</TEI>|æR()N, GRAUER & C“, rue du Rhône, 27.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002773_028.tif"/>
-<page><![CDATA[]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002773_029.tif"/>
-<page><![CDATA[VICTORIA-HALIL-GENÈVE
-
+</TEI>|æR()N, GRAUER & C“, rue du Rhône, 27.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002773_028.tif'/>
+        <page><![CDATA[]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002773_029.tif'/>
+        <page>
+          <![CDATA[VICTORIA-HALIL-GENÈVE
 Samedi ; mars 1952, à 20 beures ct demie
-
 N"* Concert de l’Hbonnement
-
 (SÉRIE A)
 Sous la direction de M. Ernest ANSERMET
-
 Soliste : M Rudolf SERKIN, pi:…is‘tc
-
 Rudolf Serkin est né en 1g03,
 de parents russes naturalisés
 aufrichiens depuis la guerre.
@@ -1075,204 +744,97 @@ mena à Vienne où il travailla
 jJusqu’à 17 ans le piano et
 la composition. Depuis lors
 M. Serkin a donné de nom-
-
 breux concerts dans toutes les
-
- 
-
 contrées d’Europe, soit seul,
 soit en compagnie d’Adolf Busch : l’an dernier, sa première
 fournée en Amérique fut une brillante consécration de ses
 beaux succès européens. Le Quatuor Busch a joué de lui
-
 son premier Quatuor à cordes.
-
 AU PROGRAMME :
 Ouverture d'Egmont, de Beethoven,
 Concerto en »i bémol, pour piano et orch., de Beethoven,
 Rondes de Printemps, de Debussy,
 Helvetia, le Pays des Montagnes et son Peuple
-
-Fresque symphonique de Ernest Bloch ((" audition).]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002773_030.tif"/>
-<page><![CDATA[GAVEAU
-
+Fresque symphonique de Ernest Bloch ((" audition).
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002773_030.tif'/>
+        <page>
+          <![CDATA[GAVEAU
 PARIS
 SAUTIER & JAËEGER
-
 AGENTS RÉGIONAUX
-
 POUR LE CANTON DE GENEVE
-
- 
-
 Pr4inos DRoITs
-
 PIANOS AUTOMATIQUES
-
 e rrr E
-
- 
-
- 
-
 Pranos 4 QUEUE
-
 ELECTRIQUES
-
- 
-
- 
-
- 
-
- 
-
 MAISON GENEVOISE
-
 LA PHARMACIE HAHN
-
 J.-G. BRUN & SES FILS, succ.
-
 18, Place Longemalle - GENÈVE - Rue Croix-d'Or, 29
-
 est l’une des principales
 et plus anciennes de Genève .
-
 Médhenments (1e toute pureté
-
 SPECIALITES - ANALYSES
-
 PETROLE HAHN
-
 5 GORLE //h on
-
 .«1'1:1 r<’…f‘«l<‘ eÎiâ«;ue* contre l.1 cl1ntt‘ (l(*\ \‘llf’\‘t‘H.\ et })t‘Hicul«*x
-
- 
-
- 
-
 IMmprimé par P.-E. Grivet -=- Genève.
-
- 
-
- 
-  
-
 |
-
-e]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002773_031.tif"/>
-<page><![CDATA[RE E EnT
-
-e tn es M E
-
-—— corerseais
-
-ETEN
-
-m æ
-
-m0
-
-REc rn PR E
-
 e
-
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002773_031.tif'/>
+        <page>
+          <![CDATA[RE E EnT
+e tn es M E
+—— corerseais
+ETEN
+m æ
+m0
+REc rn PR E
+e
 e '\Ï"Ïî: puel
-
 5 DR DE
-
 en
-
- 
-
 ME ATS 7
-
-   
-
-  
-
 GRAND PRIX
-
 EXPOSITION NATIONALE SVISSE
-
 BEAMNE 1914
-
 PARIS 1925
 MÉDAILLE D'OR
-
-    
-      
-  
-
- 
-
- 
-
- 
-
- 
-
- 
-
 E
-
-  
-
 SEN
-
 BVROER ET JACOBI
 IFABRIQUE DE PIANOS SA.
 | C BIENNE <svissE> |
-
 La plus grande marque suisse de pianos. 60 années de Ë
 pratique et d’expérience. Plus de 26.000 pianos vendus
-
- 
- 
-    
- 
-  
-  
-  
-
 jusqu’à ce jour. De nombreux virtuoses ont loué les
 magnifiques qualités de ces instruments.
 NOMBREUSES ATTESTATIONS A DISPOSITION
 PIANOS DROITS ET A QUEUE
-EN VENTE DANS TOUS LES BONS MAGASINS DE MUSIQUE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002773_032.tif"/>
-<page><![CDATA[ESSAYEZ une 201 modèle (932
-
+EN VENTE DANS TOUS LES BONS MAGASINS DE MUSIQUE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002773_032.tif'/>
+        <page>
+          <![CDATA[ESSAYEZ une 201 modèle (932
 SES NOMBREUX AVANTAGES:
-
 roues AV indépendantes
 moteur puissant et silencieux
-
 carrosserie spacieuse tout acier
 équipements complets et luxueux
-
 et ses
 PRIX AVANTAGEUX
-
 VOUS DÉCIDERONT
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Etablissements Albert FLEURY, 30, av. de Frontenex
-
-PROCÉDÉ OFFSET ATAR - GENEVE]]></page>       
-        </p>
+PROCÉDÉ OFFSET ATAR - GENEVE
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

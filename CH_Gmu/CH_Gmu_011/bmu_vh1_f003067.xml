@@ -1,258 +1,183 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert extraordinaire<date when="10/02/1941"/></title>
-<series>1940-1941</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert extraordinaire
+            <date when='10/02/1941'/>
+          </title>
+          <series>1940-1941</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F003067</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Ansermet, E. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19410210"/>
-<title>Concert extraordinaire</title>
-<placeName key="Victoria Hall"/>
-<name key="1940-1941" type="series"/>
-<name key="Schumann, Robert" ref="https://muscat.rism.info/admin/people/131206" type="person" role="cmp">Schumann, Robert</name>
-<name key="Chopin, Fryderyk Franciszek" ref="https://muscat.rism.info/admin/people/51160" type="person" role="cmp">Chopin, Fryderyk Franciszek</name>
-<name key="Debussy, Claude" ref="https://muscat.rism.info/admin/people/4338" type="person" role="cmp">Debussy, Claude</name>
-<name key="Liszt, Franz" ref="https://muscat.rism.info/admin/people/107196" type="person" role="cmp">Liszt, Franz</name>
-<name key="Ansermet, Ernest  (dir.)" ref="https://muscat.rism.info/admin/people/40219507" type="person" role="int">Ansermet, Ernest  (dir.)</name>
-<name key="Orchestre de la Suisse Romande" ref="https://muscat.rism.info/admin/people/50007615" type="person" role="int">Orchestre de la Suisse Romande</name>
-<name key="Benedetti-Michelangeli, Arturo"  type="person" role="int">Benedetti-Michelangeli, Arturo</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003067_001.tif"/>
-<page><![CDATA[ORCHESTRE
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19410210'/>
+        <title>Concert extraordinaire</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1940-1941' type='series'/>
+        <name key='Schumann, Robert' ref='https://muscat.rism.info/admin/people/131206' type='person' role='cmp'>Schumann, Robert</name>
+        <name key='Chopin, Fryderyk Franciszek' ref='https://muscat.rism.info/admin/people/51160' type='person' role='cmp'>Chopin, Fryderyk Franciszek</name>
+        <name key='Debussy, Claude' ref='https://muscat.rism.info/admin/people/4338' type='person' role='cmp'>Debussy, Claude</name>
+        <name key='Liszt, Franz' ref='https://muscat.rism.info/admin/people/107196' type='person' role='cmp'>Liszt, Franz</name>
+        <name key='Ansermet, Ernest' ref='https://muscat.rism.info/admin/people/40219507' type='person' role='int'>Ansermet, Ernest</name>
+        <name key='Orchestre de la Suisse Romande' ref='https://muscat.rism.info/admin/people/50007615' type='person' role='int'>Orchestre de la Suisse Romande</name>
+        <name key='Benedetti-Michelangeli, Arturo' type='person' role='int'>Benedetti-Michelangeli, Arturo</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003067_001.tif'/>
+        <page>
+          <![CDATA[ORCHESTRE
 DE LA
-
 SUISSE ROMANDE
-
 Concert extraordinaire
 VICTORIA - HALL
-
 uE P | ]O FEVRIER
-
 à 20 h. 30 ; à 20 h. 30
-
 \/PÇl gracileux concours de
-
 ARTURO
-
 BENEDETTI-MICHELANGELI
-
 pianiste
-
 Orchestre sous la direction de
-
 ERNEST ANSERMET
-
 Concert au bénéfice
-
-des Artistes de l’Orchestre]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003067_002.tif"/>
-<page><![CDATA[NOU\VEAUTES
+des Artistes de l’Orchestre
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003067_002.tif'/>
+        <page><![CDATA[NOU\VEAUTES
 'ä /®d“« 54” //Zâﬂ'[L/h(
-
 BÜN GENIF
-
 SA.
-
- 
-
- 
-
-@]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003067_003.tif"/>
-<page><![CDATA[Arturo BENEDETTI-MICHELANGELI
-
- 
-
+@
+]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003067_003.tif'/>
+        <page>
+          <![CDATA[Arturo BENEDETTI-MICHELANGELI
 Né à Brescia en 1920, Arturo Benedetti-Michelangeli manifesta dès l'âge
 de trois ans un tel goût pour la musique que ses parents ne tardèrent pas à
 encourager cette passion innée et lui donnèrent de courtes mais fréquentes
 leçons de piano, sans pour cela le lasser par trop de technique et de théorie.
-
 Après une année d'études, le bambino connaissant un répertoire assez
 copieux de petites pièces, entreprit l'étude méthodique du mécanisme servi
 par une main déjà très développée.
-
 Durant sept ans, il suivit les cours de l'Institut Musical Venturi, remportant
 à chaque fin d'exercice les plus hautes récompenses.
-
 Il devint ensuite, à Milan, le disciple de M. Anfossi — élève lui-même
 de Martucci — et obtint à 11 ans la licence normale et à 14 ans le diplôme
 de virtuosité.
-
 Après s'être fait entendre à Milan, Florence, Rome, Bruxelles, etc., Arturo
 Benedetti-Michelangeli remporta au Concours International de Genève en 1939
 le premier prix qui lui valut, on peut le dire, une renommée mondiale. Depuis
 lors, la carrière du jeune artiste ne fut qu'une suite de triomphes que vient
 couronner la reconnaissance émue des musiciens de l'O.S.R, auxquels l
-
 ve|u’t bien, ce soir, offrir généreusement le précieux concours de son admirable
-talent.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003067_004.tif"/>
-<page><![CDATA[#
+talent.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003067_004.tif'/>
+        <page>
+          <![CDATA[#
 _/)((9(;mmme
-
 PREMIÈRE PARTIE
-
 1. Symphonie N° 1, en si bémol
-
 à) Andante un poco mæstoso ; allegro molto vivace.
 b) Larghetto. — c) Scherzo (molto vivace).
 d) Allegro animato e grazioso.
-
 2. Andante Spianato et Polonaise, pour piano
-
 et orchestre.
 Soliste: M. BENEDETTI-MICHELANGELI.
-
 DEUXIËÈME PARTIE
-
 3. Deux nocturnes pour orchestre
 a) Nuages. —- b) Fêtes.
-
 4. Concerto en mi bémol pour pisno et orchestre
-
 a) Allegro maestoso. — b) Quasi adagio.
 c) Allegretto vivace — d) Allegro marziale.
-
 Soliste : M. BENEDETTI-MICHELANGELI.
-
- 
-
 Piana de concett dcSteinway & dSans
 aux éoins de la Maison Sautier-Fægez
-
 SCHUMANN
-
 CHOPIN
-
 DEBUSSY
-
 LISZT
-
- 
-
- 
-
- 
-
-e]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003067_005.tif"/>
-<page><![CDATA[Ernest ANSERMET]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003067_006.tif"/>
-<page><![CDATA[QZ:, un J/PL‘Â? de tradition 976/L61)0/L1{3...
-
+e
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003067_005.tif'/>
+        <page><![CDATA[Ernest ANSERMET
+]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003067_006.tif'/>
+        <page>
+          <![CDATA[QZ:, un J/PL‘Â? de tradition 976/L61)0/L1{3...
 PATEK PHILIPPE 0
-
 _—%w%&w
-
 GENÈVE
-
- 
-
 22, Grand-Quai
-
- 
-
- 
-
- 
-
- 
-
 Terminez l'hiver à CONFISERIE
-
 5 © 1E
 METROPOLE 1Ec
-
 & NATIONAL 00
-
 , \
 34, GRAND-QUAI, 34 (/\ \
-
- 
-
- 
-
 Chambres confortables ,(/
 Chauffage assuré \Q
 Restaurant ouvert aux \Q(
 passants. - Conditions \l\(
 spéciales pour long ‘
 séjour et [amilles.
-
 —
 —(
-
- 
-
- 
-
 Adressez-vous @ 2, PLACE DU LAC, 2 … TÉL. 5.39,53
-
 ll FÀUCONNET, dir. Fermé le dimanche
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-°.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003067_007.tif"/>
-<page><![CDATA[|
-
+°.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003067_007.tif'/>
+        <page>
+          <![CDATA[|
 ; ©
-
- 
-
 Robert SCHUMANN
-
 Vé à Lwickau en 1810, mott à Eendenich, près Bonn, en 1856
-
 SYMPHONIE Ne 1, EN SI BÉMOL
-
 chumann a composé cette symphonie en 1841, l'année qui suivit son
 S mariage. Elle porte bien l'empreinte de la joie qui remplissait son cœur,
 de cette espèce d'exaltation lyrique sous l'empire de laquelle il écrit à
@@ -285,75 +210,40 @@ d'autant plus grande d'avoir réussi, deux ans plus tard, à mettre sur pied la
 C’est moins difficile qu'il aurait cru. « Je rends grâces au bon génie qui m'a
 permis d'écrire un si grand ouvrage si facilement et en si peu de temps. »
 Une « Symphonie du Printemps ! » Schumann est si persuadé que c'en
-est une, qu'il songe à donner un titre à chaque mouvement, pour en préciser]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003067_008.tif"/>
-<page><![CDATA[*e | PARCS - JARDINS - TENNIS - Arbres
-
+est une, qu'il songe à donner un titre à chaque mouvement, pour en préciser
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003067_008.tif'/>
+        <page>
+          <![CDATA[*e | PARCS - JARDINS - TENNIS - Arbres
 1 f | [ruitiers et d’ornement - Conifères
-
 Rosiers - Plantes grimpantes el vivaces
 P> EPIMIERES
-
 - BOCCARD
-
-  
-    
- 
-
 |
 |
-
 R EeS
 GENÈVE - Tél. 2.61.15 - PETIT-SACONNEX
 @  Scène paysagère (une de nos créations)
-
- 
-
- 
-
- 
-
 Faites confiance aux laitiers
 qui vous offrent nos produits
 Ils vendent ce qu'il y a de
 mieux
-
 L'aiteries Réunies
-
- 
-
- 
-
- 
-
- 
-
 PUBL.M.COLLET
-
- 
-
- 
-
- 
-
 M AIl S ©N GIFN 0
-
 La PHARMAGIE HAHN
-
 J.-G. BRUN & SES FILS
 18, place Longemaile GENEVE Rue Croix-d'’Or, 29
-
 est l'une des peincipales et plus ancienneë de Genève
-
 PÉTROLE HAHN
-
-seule lotion efficace contre la chute des cheveux et les pellicules. Fr. 3.50 le flacon]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003067_009.tif"/>
-<page><![CDATA[|
+seule lotion efficace contre la chute des cheveux et les pellicules. Fr. 3.50 le flacon
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003067_009.tif'/>
+        <page>
+          <![CDATA[|
 |
-
- 
-
 le sens: « Réveil du printemps » pour le premier allegro; « Adieu au prin-
 temps » pour le Final. A un autre moment, l'artiste traduisait ce soi-disant
 « Adieu » par: « En plein printemps ». Tout cela est à la fois juste et superflu.
@@ -369,7 +259,6 @@ le premier allegro, le timbre cristallin d'une clochette — en ‘l'espèce, un
 triangle — c'est par une innocente audace de romantique épris de couleur
 et soucieux d'assurer à la musique notée toute la fraîcheur des sentiments
 où elle à pris sa source.
-
 Cette fraîcheur de la conception est incontestable, et elle est délicieuse.
 Les thèmes et les motifs surgissent avec une naturelle abondance comme les
 petites fleurs sous les pas du promeneur dans les bois. Sous des formes diverses
@@ -378,36 +267,27 @@ assurance, tendre passion, profonde rêverie dans la contemplation d'un bonheur
 indicible, jeux pleins de gaîté mais auxquels on sent que préside encore l’amour,
 joie débordante, joie dansante, joie attendrie. Rien de pédant; quelque gau-
 cherie plutôt; et une inspiration toujours vive et charmante.
-
 Wy S.
-
 (Bulletin de la Soctélé de HIH.‘I'4/1I1' de À‘t'…'/.‘:l‘l:'/).
-
- 
-
 Claude-Achille DEBUSSY
-
 Né à cSaint-Germain en Laye en 1862, mort à Patis en 1918.
-
 NOCTURNES
-
 e titre « Nocturnes » veut prendre ici un sens plus général et surtout plus
 décoratif. Il ne s'agit donc pas de la forme habituelle du nocturne, mais
 bien de tout ce que ce mot contient d'expression et de lumières
-
 spéciales.
-
 Nuages. — C'est l'aspect immuable du ciel avec la marche lente et
 mélancolique des nuages, finissant dans une agonie grise doucement teintée
 de blanc.
-
 Fêtes. — C'est le mouvement, le rythme dansant de l'atmosphère avec
-des éclats de lumière brusque. C'est aussi l'épisode d'un cortège (vision]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003067_010.tif"/>
-<page><![CDATA[éblouissante et toute chimérique) passant à travers la fête, se confondant avec
+des éclats de lumière brusque. C'est aussi l'épisode d'un cortège (vision
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003067_010.tif'/>
+        <page>
+          <![CDATA[éblouissante et toute chimérique) passant à travers la fête, se confondant avec
 elle; mais le fond reste, s'obstine et c'est toujours la fête, et son mélange de
 musique, de poussière lumineuse participant à un rythme total.
-
 Il n'y a pas une explication à ajouter à ces quelques mots que l'auteur
 des « Nocturnes » a écrits lui-même sur son œuvre. Les « Nocturnes », parus
 en 1899, appartiennent à l'époque la plus importante de l'activité créatrice de
@@ -418,126 +298,68 @@ qui semblent le récréer en musique, réaliser en matière sonore son apparence
 formelle, dans son devenir, avec ses -affinités et son atmosphère. Un tel art
 exige de la spontanéité. L'esprit n'y intervient pas en commentateur; il n'y
 apporte que la conscience des sensations. C'est l'émotion qui crée sa forme.
-
- 
-
 Franz LISZT
-
 Yé à Raiding (Tocngrie) en 1811, mott à Bayreuth en 1886
-
 CONCERTO EN MI BÉMOL
-
 ans le cadre rigide d'un concerto quasi-classique, Liszt a pu cependant
 D faire transparaître son tempérament de poète et de coloriste. Au
 cours de ces variations thématiques éclatent la richesse d'imagination
-
 et l'adresse prodigieuse de son talent d’orchestrateur. Tout en laissant la prime#
-
 place à la sonorité et à la virtuosité délicate du piano, il a soin de donner
 une valeur considérable aux répliques de l'orchestre. Celui-ci ne se borne pas
 au rôle d'interlocuteur complaisant, mais il impose souvent son verbe et son
-
 idée. Les deux éléments en présence constituent, opposés ou réunis, un tout
 vivant obéissant à une discipline supérieure et procédant d'une conception
 ferme qui n'exclut en rien la sensibilité et la délicatesse.
-
 Liszt écrivit ce concerto en 1848 ou, du moins, il donna alors sa forme
 défiriitive à une composition antérieure de plusieurs années déjà. Il fut joué
 pour la première fois en public par Liszt lui-même, en 1855, dans un concert à
 Weimar, Hector Berlioz conduisant l'orchestre. Plus tard, ce fut Bülow qui le
 mit à son répertoire et le joua à plusieurs reprises, en particulier aux grandes
 fêtes musicales d'Aix-la-Chapelle, en 1857, dirigé par Liszt.
-
- 
-
- 
-
-e]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003067_011.tif"/>
-<page><![CDATA[CONSERVATOUNE
-
+e
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003067_011.tif'/>
+        <page>
+          <![CDATA[CONSERVATOUNE
 DE
-
 MUSIQUE » GENÈVE
-
- 
-
- 
-
 Ouverture du
 2c semestre :
 18 février 1941
-
 cript ns des nouveaux rr‘»:'h' . [OL Ï»v
 urs (lundi excepté) de 9 } ; midi et de ]4 à
 ; MS e ON
-
 |/7 heures, au Secrétariat du C >rvatoire
 Examens d’admission : Samedi 15 fév.
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 TIN NAT T TIL
-
 APÉRITIF
-
- 
-
- 
-
- 
-
- 
-
 VAIUNIES SUISSES
-
 DURUZ
-
 CKROIX-D'OR. 83
 TÉLÉPHONE 4.09.10
-
 LAYETTE COMPLIÈTE
-PIO UEN B BF]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003067_012.tif"/>
-<page><![CDATA[sp ,
+PIO UEN B BF
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003067_012.tif'/>
+        <page>
+          <![CDATA[sp ,
 1=urrs dn 2/
-
 —s
 cu
-
 SOCIÉTÉ DE
-
 BANQUE SUISSE
-
 FONDÉE EN 1872
-
 Capital-Actions et Réserves : Fr. 194 millions
-
 GENEÈVE
-
 2, rue de la Confédération, 2
-
 CORNAVIN EAUX-VIVES
-PLAINPALAIS CAROUGE]]></page>       
-        </p>
+PLAINPALAIS CAROUGE
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

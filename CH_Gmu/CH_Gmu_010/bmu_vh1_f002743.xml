@@ -1,112 +1,116 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Festival de musique russe donné par l'Harmonie nautique<date when="22/03/1931"/></title>
-<series>1930-1931</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Festival de musique russe donné par l'Harmonie nautique
+            <date when='22/03/1931'/>
+          </title>
+          <series>1930-1931</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002743</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Gabelles, G. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19310322"/>
-<title>Festival de musique russe donné par l'Harmonie nautique</title>
-<placeName key="Victoria Hall"/>
-<name key="1930-1931" type="series"/>
-<name key="Rimskij-Korsakov, Nikolaj Andreevič" ref="https://muscat.rism.info/admin/people/55357" type="person" role="cmp">Rimskij-Korsakov, Nikolaj Andreevič</name>
-<name key="Arensky"  type="person" role="cmp">Arensky</name>
-<name key="Moussorgski, M. [et al.]"  type="person" role="cmp">Moussorgski, M. [et al.]</name>
-<name key="Gabelles, Gustave  (dir.)" ref="https://muscat.rism.info/admin/people/30073762" type="person" role="int">Gabelles, Gustave  (dir.)</name>
-<name key="Harmonie Nautique"  type="person" role="int">Harmonie Nautique</name>
-<name key="Popovitzky, S."  type="person" role="int">Popovitzky, S.</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002743_001.tif"/>
-<page><![CDATA[PROGRAMME OFFICIEL
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19310322'/>
+        <title>Festival de musique russe donné par l'Harmonie nautique</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1930-1931' type='series'/>
+        <name key='Rimskij-Korsakov, Nikolaj Andreevič' ref='https://muscat.rism.info/admin/people/55357' type='person' role='cmp'>Rimskij-Korsakov, Nikolaj Andreevič</name>
+        <name key='Arenskij, Anton Stepanovič' type='person' role='cmp'>Arenskij, Anton Stepanovič</name>
+        <name key='Musorgskij, Modest Petrovič' ref='https://muscat.rism.info/admin/people/30019183' type='person' role='cmp'>Musorgskij, Modest Petrovič</name>
+        <name key='Čajkovskij, Pëtr Il&apos;ič' ref='https://muscat.rism.info/admin/people/144048' type='person' role='cmp'>Čajkovskij, Pëtr Il'ič</name>
+        <name key='Rachmaninov, Sergej Vasil&apos;evič' ref='https://muscat.rism.info/admin/people/32447' type='person' role='cmp'>Rachmaninov, Sergej Vasil'evič</name>
+        <name key='Gabelles, Gustave' ref='https://muscat.rism.info/admin/people/30073762' type='person' role='int'>Gabelles, Gustave</name>
+        <name key='Harmonie Nautique' type='person' role='int'>Harmonie Nautique</name>
+        <name key='Popovitzky, Serge' type='person' role='int'>Popovitzky, Serge</name>
+        <name key='Popovitzy (Mme)' type='person' role='int'>Popovitzy (Mme)</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002743_001.tif'/>
+        <page>
+          <![CDATA[PROGRAMME OFFICIEL
 1930=1931
 p>
-
 - Harmonie
 — <lautique
-
 Harmonie MunicipaleÏde la Ville de Genève
-
- 
-
- 
-
- 
-
- 
-
 HELVÉTIA -ASSURANCES
-
 ACCIDENTS - RESPONSABILITÉ CIVILE
-
 S’adresser à Gaston MOISY, Inspecteur de la Compagnie
-Téléphone 43.257]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002743_002.tif"/>
-<page><![CDATA[]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002743_003.tif"/>
-<page><![CDATA[]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002743_004.tif"/>
-<page><![CDATA[]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002743_005.tif"/>
-<page><![CDATA[]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002743_006.tif"/>
-<page><![CDATA[]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002743_007.tif"/>
-<page><![CDATA[]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002743_008.tif"/>
-<page><![CDATA[]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002743_009.tif"/>
-<page><![CDATA[]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002743_010.tif"/>
-<page><![CDATA[]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002743_011.tif"/>
-<page><![CDATA[]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002743_012.tif"/>
-<page><![CDATA[]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002743_013.tif"/>
-<page><![CDATA[]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002743_014.tif"/>
-<page><![CDATA[]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002743_015.tif"/>
-<page><![CDATA[]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002743_016.tif"/>
-<page><![CDATA[]]></page>       
-        </p>
+Téléphone 43.257
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002743_002.tif'/>
+        <page><![CDATA[]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002743_003.tif'/>
+        <page><![CDATA[]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002743_004.tif'/>
+        <page><![CDATA[]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002743_005.tif'/>
+        <page><![CDATA[]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002743_006.tif'/>
+        <page><![CDATA[]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002743_007.tif'/>
+        <page><![CDATA[]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002743_008.tif'/>
+        <page><![CDATA[]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002743_009.tif'/>
+        <page><![CDATA[]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002743_010.tif'/>
+        <page><![CDATA[]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002743_011.tif'/>
+        <page><![CDATA[]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002743_012.tif'/>
+        <page><![CDATA[]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002743_013.tif'/>
+        <page><![CDATA[]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002743_014.tif'/>
+        <page><![CDATA[]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002743_015.tif'/>
+        <page><![CDATA[]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002743_016.tif'/>
+        <page><![CDATA[]]></page>
+      </p>
     </body>
   </text>
 </TEI>

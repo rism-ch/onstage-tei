@@ -1,228 +1,173 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par la Fanfare municipale de la Ville de Genève : Au bénéfice de la commission centrale des secours pendant la guerre<date when="28/11/1914"/></title>
-<series>1914-1915</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par la Fanfare municipale de la Ville de Genève : Au
+            bénéfice de la commission centrale des secours pendant la guerre
+            <date when='28/11/1914'/>
+          </title>
+          <series>1914-1915</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F001194</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Teissier, A. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19141128"/>
-<title>Concert donné par la Fanfare municipale de la Ville de Genève : Au bénéfice de la commission centrale des secours pendant la guerre</title>
-<placeName key="Victoria Hall"/>
-<name key="1914-1915" type="series"/>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Mozart, Wolfgang Amadeus" ref="https://muscat.rism.info/admin/people/115324" type="person" role="cmp">Mozart, Wolfgang Amadeus</name>
-<name key="Martini, Giovanni Battista" ref="https://muscat.rism.info/admin/people/30002105" type="person" role="cmp">Martini, Giovanni Battista</name>
-<name key="Favarger"  type="person" role="cmp">Favarger</name>
-<name key="Saint-Saëns, Camille" ref="https://muscat.rism.info/admin/people/76734" type="person" role="cmp">Saint-Saëns, Camille</name>
-<name key="Berlioz, Hector" ref="https://muscat.rism.info/admin/people/13803" type="person" role="cmp">Berlioz, Hector</name>
-<name key="Donizetti, Gaetano" ref="https://muscat.rism.info/admin/people/18064" type="person" role="cmp">Donizetti, Gaetano</name>
-<name key="Dell'Acqua"  type="person" role="cmp">Dell'Acqua</name>
-<name key="Jaques-Dalcroze, Emile" ref="https://muscat.rism.info/admin/people/109238" type="person" role="cmp">Jaques-Dalcroze, Emile</name>
-<name key="Delibes, Léo" ref="https://muscat.rism.info/admin/people/30016578" type="person" role="cmp">Delibes, Léo</name>
-<name key="Teissier, Aug."  type="person" role="cmp">Teissier, Aug.</name>
-<name key="Teissier, Auguste (dir.)"  type="person" role="int">Teissier, Auguste (dir.)</name>
-<name key="Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)"  type="person" role="int">Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)</name>
-<name key="Dupré, Lily"  type="person" role="int">Dupré, Lily</name>
-<name key="Denizot, Charles"  type="person" role="int">Denizot, Charles</name>
-<name key="Despesse, Hugo"  type="person" role="int">Despesse, Hugo</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001194_001.tif"/>
-<page><![CDATA[VE(‘TÛE&H ä=Elﬁl äLL
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19141128'/>
+        <title>
+          Concert donné par la Fanfare municipale de la Ville de Genève : Au
+          bénéfice de la commission centrale des secours pendant la guerre
+        </title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1914-1915' type='series'/>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Mozart, Wolfgang Amadeus' ref='https://muscat.rism.info/admin/people/115324' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Martini, Giovanni Battista' ref='https://muscat.rism.info/admin/people/30002105' type='person' role='cmp'>Martini, Giovanni Battista</name>
+        <name key='Favarger' type='person' role='cmp'>Favarger</name>
+        <name key='Saint-Saëns, Camille' ref='https://muscat.rism.info/admin/people/76734' type='person' role='cmp'>Saint-Saëns, Camille</name>
+        <name key='Berlioz, Hector' ref='https://muscat.rism.info/admin/people/13803' type='person' role='cmp'>Berlioz, Hector</name>
+        <name key='Donizetti, Gaetano' ref='https://muscat.rism.info/admin/people/18064' type='person' role='cmp'>Donizetti, Gaetano</name>
+        <name key='Dell&apos;Acqua' type='person' role='cmp'>Dell'Acqua</name>
+        <name key='Jaques-Dalcroze, Emile' ref='https://muscat.rism.info/admin/people/109238' type='person' role='cmp'>Jaques-Dalcroze, Emile</name>
+        <name key='Delibes, Léo' ref='https://muscat.rism.info/admin/people/30016578' type='person' role='cmp'>Delibes, Léo</name>
+        <name key='Teissier, Aug.' type='person' role='cmp'>Teissier, Aug.</name>
+        <name key='Teissier, Auguste' type='person' role='int'>Teissier, Auguste</name>
+        <name key='Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)' type='person' role='int'>Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)</name>
+        <name key='Dupré, Lily' type='person' role='int'>Dupré, Lily</name>
+        <name key='Denizot, Charles' type='person' role='int'>Denizot, Charles</name>
+        <name key='Despesse, Hugo' type='person' role='int'>Despesse, Hugo</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001194_001.tif'/>
+        <page>
+          <![CDATA[VE(‘TÛE&H ä=Elﬁl äLL
 SAMEDI 28 NOVEMBRE 1914
-
 à 8 heures et demnie
-
 = 02e
-
 AU BÉNÉFICE DE LA COMMISSION CENTRALE
-
 DES
-
 SECOURS PENDANT LA GUERRE
-
 E MEn
-
 CONCERT
-
 DONNÉ PAR LA
-
 FANFARE MUNICIPALE
-
 DE LA VILLE DE GENÈVE
-
- 
-
- 
-
 Sous la direction de M. Auguste TEISSIER
-
 avec |e bienveillant concours de
-
 M" Lily DUPRÉ | M. Ch. DENIZOT
-
 PREMIÈRE CHANTEUSE LÉGÈRE … PREMIER TÉNOR
-
 du Théâtre de la Monnale de Bruxelles ! de l'Opéra de Nice
-
 M. Huco DESPESSE
-
 PIANISTE
-
 -— x
-
-PRIX : 0.10 CT.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001194_002.tif"/>
-<page><![CDATA[CONCER T donné par la PANFARE |
-
+PRIX : 0.10 CT.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001194_002.tif'/>
+        <page>
+          <![CDATA[CONCER T donné par la PANFARE |
 MUNICIPALE de la Ville de Genève |
-
- 
-
-  
-   
-  
-  
-  
-    
-    
-
- 
-
 Ux
-
 PREMIÈRE PARTIE
-
 Marche religieuse de Lohengrin
 Ouverture des Noces de Figaro .
 Gavotte des Moutons .
-
 Boiéro, Op. 1.
-
 a) Air de La Lyre et la Harpe
-
 z b) Air de L’enfance du Christ .
 Chantés par M. Charles DENIZOT.
-
 a) Air de la Folie de Lucie de Lamermoor
-
 b) Villaneile .
 Chantés par M'e Lily DUPRÉ.
-
- 
-
 VVAGNER.
 MozAaRrT.
 MARTINI. |
 FAVARGER.
-
 SAINT-SAENS.
-
 BERLIOZ.
-
 DONIZETTI.
-
 Derr’ .\CQU.
-
 ===
-
 IGARETTE
-
- 
-
-  
-
-JOHN ABRESOL]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001194_003.tif"/>
-<page><![CDATA[au bénefice de la Commission Centrale
-
+JOHN ABRESOL
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001194_003.tif'/>
+        <page>
+          <![CDATA[au bénefice de la Commission Centrale
 des Secours pendant la Guerre.
-
- 
-
 A MME :
-
 DEUXIÈME PARTIE
-
 7. Fragments de La Fête.de Jun . ._>- . … JAquEs-DaALcrozc.
-
 (Arrangement de M. A. TEissiER.)
-
 8. Duo de Lakmé .
-
 = 22048 Léo Deurses.
 Chanté par M'e DUPRÉ et M. DENIZOT.
 9. A mon Pays! troisième fantaisie sur des airs
 populairesisuisss Aug. TEIssiER.
-
 Au piano: M. Huco DESPESSE.
-
 t
-
 L'AURENS
-
-ROUTE DES ACACIAS 310bis]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001194_004.tif"/>
-<page><![CDATA[OLD ENGLAND
-
+ROUTE DES ACACIAS 310bis
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001194_004.tif'/>
+        <page>
+          <![CDATA[OLD ENGLAND
 GENEÈVE
-
 British Tailors a Drapers
-
 ARTIGLES ANGLAÏS En Tous GEnres
-
 $){0118 bDEenons {ÎI(’ recevoir ([.‘ﬁl‘lÿl(’Ï(c‘l‘l‘£’ ü'(? mnouveaux
-
 envois, consistant en
-
 Serges - Gheviottes - Tissus Tailleur
 Velours grosses côtes - Draps pr Manteaux
-
 Flanelles - Flanellettes - Gouvertures
-
 Sous-Vêtements pour Hommes, Dames et Enfants
 Bas, Chaussettes, Gants, Bretelles, Cravaies
-
- 
-
 Grand choix d’ARTICLES CHAUDS en
-LAÏNE DES PNRFNES]]></page>       
-        </p>
+LAÏNE DES PNRFNES
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

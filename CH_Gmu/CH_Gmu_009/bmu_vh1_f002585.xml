@@ -1,351 +1,218 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par le Corps de musique d'Elite<date when="25/01/1925"/></title>
-<series>1924-1925</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par le Corps de musique d'Elite
+            <date when='25/01/1925'/>
+          </title>
+          <series>1924-1925</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002585</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Welsch, M. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19250125"/>
-<title>Concert donné par le Corps de musique d'Elite</title>
-<placeName key="Victoria Hall"/>
-<name key="1924-1925" type="series"/>
-<name key="Mendelssohn Bartholdy, Felix" ref="https://muscat.rism.info/admin/people/88790" type="person" role="cmp">Mendelssohn Bartholdy, Felix</name>
-<name key="Gluck, Christoph Willibald" ref="https://muscat.rism.info/admin/people/67338" type="person" role="cmp">Gluck, Christoph Willibald</name>
-<name key="Händel, Georg Friedrich" ref="https://muscat.rism.info/admin/people/36552" type="person" role="cmp">Händel, Georg Friedrich</name>
-<name key="Guiraud, Ernest" ref="https://muscat.rism.info/admin/people/30024115" type="person" role="cmp">Guiraud, Ernest</name>
-<name key="Lalo, Edouard" ref="https://muscat.rism.info/admin/people/65446" type="person" role="cmp">Lalo, Edouard</name>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="David, Fél."  type="person" role="cmp">David, Fél.</name>
-<name key="Fauré, Gabriel" ref="https://muscat.rism.info/admin/people/41731" type="person" role="cmp">Fauré, Gabriel</name>
-<name key="Saint-Saëns, Camille" ref="https://muscat.rism.info/admin/people/76734" type="person" role="cmp">Saint-Saëns, Camille</name>
-<name key="Chopin, Fryderyk Franciszek" ref="https://muscat.rism.info/admin/people/51160" type="person" role="cmp">Chopin, Fryderyk Franciszek</name>
-<name key="Welsch, Marcel (dir.)"  type="person" role="int">Welsch, Marcel (dir.)</name>
-<name key="Corps de musique d'Elite"  type="person" role="int">Corps de musique d'Elite</name>
-<name key="Defago, Edmée"  type="person" role="int">Defago, Edmée</name>
-<name key="Graf, Hermine"  type="person" role="int">Graf, Hermine</name>
-<name key="Navarro"  type="person" role="int">Navarro</name>
-<name key="Ketten, Léopold"  type="person" role="int">Ketten, Léopold</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002585_001.tif"/>
-<page><![CDATA[Ooo00 000000000000000000000000 00
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19250125'/>
+        <title>Concert donné par le Corps de musique d'Elite</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1924-1925' type='series'/>
+        <name key='Mendelssohn Bartholdy, Felix' ref='https://muscat.rism.info/admin/people/88790' type='person' role='cmp'>Mendelssohn Bartholdy, Felix</name>
+        <name key='Gluck, Christoph Willibald' ref='https://muscat.rism.info/admin/people/67338' type='person' role='cmp'>Gluck, Christoph Willibald</name>
+        <name key='Händel, Georg Friedrich' ref='https://muscat.rism.info/admin/people/36552' type='person' role='cmp'>Händel, Georg Friedrich</name>
+        <name key='Guiraud, Ernest' ref='https://muscat.rism.info/admin/people/30024115' type='person' role='cmp'>Guiraud, Ernest</name>
+        <name key='Lalo, Edouard' ref='https://muscat.rism.info/admin/people/65446' type='person' role='cmp'>Lalo, Edouard</name>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='David, Fél.' type='person' role='cmp'>David, Fél.</name>
+        <name key='Fauré, Gabriel' ref='https://muscat.rism.info/admin/people/41731' type='person' role='cmp'>Fauré, Gabriel</name>
+        <name key='Saint-Saëns, Camille' ref='https://muscat.rism.info/admin/people/76734' type='person' role='cmp'>Saint-Saëns, Camille</name>
+        <name key='Chopin, Fryderyk Franciszek' ref='https://muscat.rism.info/admin/people/51160' type='person' role='cmp'>Chopin, Fryderyk Franciszek</name>
+        <name key='Welsch, Marcel' type='person' role='int'>Welsch, Marcel</name>
+        <name key='Corps de musique d&apos;Elite' type='person' role='int'>Corps de musique d'Elite</name>
+        <name key='Defago, Edmée' type='person' role='int'>Defago, Edmée</name>
+        <name key='Graf, Hermine' type='person' role='int'>Graf, Hermine</name>
+        <name key='Navarro' type='person' role='int'>Navarro</name>
+        <name key='Ketten, Léopold' type='person' role='int'>Ketten, Léopold</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002585_001.tif'/>
+        <page>
+          <![CDATA[Ooo00 000000000000000000000000 00
 H. @o0000000000000000000000000000008
-
 O ;
 F ®OOO°ODOOOOOOODOOOOOO 9000 0600 0000 200600090000 00000000C0O000ObD60
-
 °0
-
- 
-
 === E 38 E GE
-
 JF
 >|j.
-
 PRIX 20 CENTIMES
-
 .
 L
-
 CORPS
-
 MUSIQUE D'ÉLITE
-
 =%>
 ï
-
 PROGRAMME
-
- 
-
- 
-
 °OOOOOOOOOOOOOOOOOOG 9090 0000 0000 o0o00 00000000c »0900000000000000P
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 _;
-
- 
-
 ooË)
-
 e
-
 ®ooooooooooooooooooooaococoooooonooOooor 200000000000000000000000D00
-
- 
-
 21 (Ic f HE
 3 d ÀE E
-
 _SOCIÉTÉ DE
-
 BANQUE SUISS
-
 FONDÉE EN 1872
-
- 
-
- 
-
- 
-
 CAPITAL-ACTIONS ET RÉSERVES FR. 153 MILLIONS
-
 E GEN EVE CORRATERIE, 6
 CORNAVIN EAUX -VIVES
-
 UFURFERROVKLOARTAOOAOSOONAONNAWNN T HUOUEOLELOORENELOO)ONOAGON0NNNN
-
 10, Place de Cornavm 2 PhPo deg ÎïUX Vives
-
 PLAINPALAIS CAROUGE
-
 36, Rue de Carouqe 11; Rue du Marché
 æ
-
 TOUTES OPERATIONS DE BANQUE AUX MEILLEURES CONDITIONS
-
- 
-
- 
-
- 
-
- 
-
- 
-
 |
-
 }
-
-SSs == e s== E——=———=23——= ‘£‘ÿJ]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002585_002.tif"/>
-<page><![CDATA[M E. von AUW
+SSs == e s== E——=———=23——= ‘£‘ÿJ
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002585_002.tif'/>
+        <page>
+          <![CDATA[M E. von AUW
 CAPITAI \[ E
-
 Commandant du Corps
-
 .QOo.
-
 pn ï ] ……'…_@_…ï.….
-
 Ces cavtes sont destinées aux personnes désireuses d'apporter
-
 CARTES pe MEMBRES NON-EXÉCUTANTS
-
 au Corps de Musique d’Elité leur appui moral et finaneier.
-
 Elles sont délivrées au prix annuel de fr. 5.— et peuvént èêtre
 démandées à chaque membre du Corps.
-
 [a carte de membre non-exécutant munie de coupons donne
-
 droit à 2 entrées à tous les concerts et chaque coupon à
-
 1 entrée selon avis donné par affiche.
-
- 
-
- 
-
 M. MarceL WELSCH
 DIRECTEUR
-
 rr Prix du Conservatoire National
-
 de Musique de Paris
-
 0G «
-
 COURS DE SOLFÈGE ET INSTRUMENTS
-
 Th TT M
-
 Chaque année, à partir du mois d’octobre, le Corps de Musique
-
 d’Elite organise des cours de soifège et instruments. Ils sont
-
 placés sous la surveillance de M. Marcel Welsch, directeur,
-
 1er Prix du Conservatoire de Paris, et donnés parles pl‘()ll‘.\‘$uUf$
 de la société.
-
 Ces cours, d’un prix modique, sont à la portée de tous les jeunes
-
 gens désireux de posséder une solide instruction musicale.
-
- 
-
 Les inscriptions sont recues au local, Bâtiment Electoral (rue
-de Saussure), tous les vendredis dès 20 heures,.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002585_003.tif"/>
-<page><![CDATA[&añàm;n;m;n;m;m;ñàm;m à Fbàﬁ‘.äàñàñàñàñàñà&"—bàñàñàñ
-
- 
-
+de Saussure), tous les vendredis dès 20 heures,.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002585_003.tif'/>
+        <page>
+          <![CDATA[&añàm;n;m;n;m;m;ñàm;m à Fbàﬁ‘.äàñàñàñàñàñà&"—bàñàñàñ
 QETHÉCT DÉCTDACT DE DI DS DI DIDI DE DI DEDE DIDI DAEDICDO
-
 VICTORIA HAIL
-
 Portes à 14 b: 15 Concert à 14 b. 45
-
 DIMANCHE 25 JANVIER 1925
-
 CONCERT
-
 DONNE PAR LE CORPS DE
-
 MUSIQUE D'ELITE
-
 Monsœur NIARCLL WELSCH
-
 Premier pr du  Conservatoir aitional de musique de Paris
 p ]
-
 PEPE EDL
-
 avec l(' })iL'I]       
         </p>
     </body>
   </text>
 </TEI>CEII.'HH concours (]('
-
 M" Enmér DEFAGO M" HERMiNE GRAF
 Cantatrice-Contralto Cantatrice-Soprano
 (Blèves deM4 le  Professeur Léopold KETTEN)
-
 M. NAVARRO M. Léororn KETTEN
-
 Flütiste Professeur supé u Conservatoire
-
 PRIX DES PLACRES
 Loges el 1" rang de la 17e galerie (numérotées) Fr. 2.10. Rez-de
 chaussée el autres places de 1r° galerie Fr. 1.10. 2 galerte 60 cls
-
 Cartes à l'avance : Victorial-Hal] ; Epicerie GENEVARD, Place Cornavin
 J. FIVAZ, Terrassière, 9
-
 cartes de .\‘cmlwn'\}H)nuruil'n*x donnent droit à z entrées, celles de Membres non-exécutant
 >xceptionnellement à 3 entrées et, moyennant supplement de 1 fr., aux places numérotées
-
 e E E E e e E E E S
-
 Œ\..& SSD SD E SO DE SD SD DSD SI IOOE
-
- 
-
 FERBLANTERIE - PLOMBERIE - ZINGUERIE
-
 ENTREPRISE DE BATIMENTS
-
 J- F IVA Z Ü 9, ÊerErla\lsÈsi\è/rË, 9
-
 Installations de chambres de bains Appareils sanitaires de tous systèmes
 Concessionnaire de /a Ville de Genève pour installations du Gaz
 Cuisinières à gaz 'Le Rêve "
-
-FACILITÉS DE PAIEMENT Téléphone Stand 13.55]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002585_004.tif"/>
-<page><![CDATA[M. A
-
- 
-
+FACILITÉS DE PAIEMENT Téléphone Stand 13.55
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002585_004.tif'/>
+        <page>
+          <![CDATA[M. A
 POTHELOZ
-
- 
-
- 
-
 °43 22, COUTANCE, 22
 2 *
 -? Ses FLEURS
 < J ses CORBEILLES
 v ses COURONNES
 SE RECOMMANDE Tél.: Mont-Blanc 28-57
-
- 
-
- 
-
 F
-
- 
-
 CORPS DE MUSIQUE D'ÉLITE
-
- 
-
- 
-
- 
-
 Achetez des chaussures,
 des tissus et des vêtements
 de bonne gqualité, à bon marché
-
 A la COOPÉRATIVE
-
 Rue du Commerce, 8
-
- 
-
- 
-
- 
-
-Maison de Confiance Venfe au public]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002585_005.tif"/>
-<page><![CDATA[Ernest GUIRAUD
-
+Maison de Confiance Venfe au public
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002585_005.tif'/>
+        <page>
+          <![CDATA[Ernest GUIRAUD
 né à La Nouvelle Orléans en 1837, vint réparer, dans les concerts et dans
 les théâtres de Paris, les insuccès que son père, compositeur et professeur,
 avait connus en France et dont l’amertume l’avait fait émigrer en Amé-
@@ -359,43 +226,33 @@ enseignement et ses qualités de musicien cultivé, expert dans les choses
 de la composition et de l’orchestre, qu’il a été le plus remarquable. C’est
 lui qui enseigna la composition et mena Claude Debussy au premier Prix
 de Rome.
-
 Guiraud à laissé des pièces de théâtre, des ballets et des suites d’or-
 .hcxlw. [] est mort au Conservatoire, dans le cabinet mème du secrétariat.
-
 I
-
 n plein exercice de ses fonctions (1802).
-
 Frédéric CHOPIN
 célèbre pianiste et compositeur, naquit le rer mars 1809 pres de Varsovie.
 Son père, qui était professeur au Gymnase de Varsovie, était un Francais
 Originaire de Nancy. Il avait comme épouse une Polonaise, Justine
 Chryzanowska.
-
 Frédéric Chopin fit d’abord de solides études secondaires et acquit
 cette culture générale qui, plus tard, dans les sociétés élégantes qu’il tra-
 versa, lui permit d’être apprécié non seulement commé viftuose et poète du
 piano, mais comme homme du monde.
-
 À partir de l’âge de douze ans, il ne prit plus de lecons de piano et
 acheva de s’instruire lui-même.
-
 Chopin se fit entendre à Varsovie, à Vienne, à Paris et à Londres. Il
 resta dix-neuf ans à Paris, où il fut reçu par la société aristocratique à bras
 ouverts. Chopin ne fut pas, à proprement parler, un virtuose de concert.
 [1 aimait peu se produire en public, mais préférait les soirées privées, sur-
 tout les réunions intimes qu’il formait chez lui et où il jouait et improvisait
-
 devant un petit cercle d’amis. Malgré qu’il quitta la Pologne de bonne
-
 .ç…\- et qu’il fut un Parisien d’adoption, son génie est l’expression pro-
 onde de l’ime polonaise, Il fut un poète du piano et de la pensée musi-
 cale, de sentiment intense et profondément national. Chopin mourut le
 17 octobre 1849 à l’age de trente-neuf ans. On dit que la belle comtesse
 Delphine Potocka accourut à son lit de mort et chanta à ses derniers
 moments un psaume de Marcello.
-
 Les polonaises et mazurkas de Chopin, inspirées des mélodies et des
 rythmes du pays natal, sont de ses compositions les plus carac téristiques
 et les plus supérieures. La polonaise était une danse destinée à faire sur-
@@ -405,28 +262,22 @@ Inclinaisons, les redressements subits, les finesses de pantomime muette,
 et les doiets occupés à jouer soit avec les longues moustaches, soit avec le
 pommeau du sabre. Le luxe des étofles, des bijoux, des couleurs vives,
 était poussé aussi loin chez les hommes que chez les femmes et formait
-
-l’objet de vanité pour tous les âges également.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002585_006.tif"/>
-<page><![CDATA[AUX PRIX DE FABRIQUES
-
+l’objet de vanité pour tous les âges également.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002585_006.tif'/>
+        <page>
+          <![CDATA[AUX PRIX DE FABRIQUES
 TROUSSEHUX A. GRAS & Cie LAYETTES
 5, Rue Coutance 5 — GENÈVE — Téléph. Mt-BIi. 43-18
 Nos arfticles récfare :
-
 Chemise percale avec 2 faux cols la pièce Frs. 5.90
 Bretelle, qualité forte . : . la paire » 1.90 |
 Chaussettes, coton couleur e la paire » 0.95 {
 Régate, soie, grand choix 7 depuis » 095 |
 Timbres escompte de l’UMnion Commerciale È%
-
 1
 ;
-
- 
-
- 
-
 p 00000 ë…ñ ACDIE DE DIDI DIDI DIDI DEDE DSD AN
 O f
 Z
@@ -459,45 +310,24 @@ e 2 Ç
 : : | 6 u .
 Ë°°°°°°”° â (\(7 ENTRE ILA 1K ET LA 2MC l'.\?î
 ‘ DEDE III SIR I RI IR DI I E IS DŸ
-
- 
-
- 
-
- 
-
 O
 °
-
 CÊic 3 À
-
 AUX RUË
-
- 
-
 Nouveauté
-
 Qualité
-
- 
-
 9999000,
 20000000
-
 °
-°]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002585_007.tif"/>
-<page><![CDATA[{PIANOS - PHONOLAS
-
+°
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002585_007.tif'/>
+        <page>
+          <![CDATA[{PIANOS - PHONOLAS
 GRAMOPHONES et DISQUES
 SAUTIER & JAEGER
-
- 
-
- 
-
 112, Fusterie GENÈVE Fusterie, 12
-
 [ Ÿ=3—= CESSCDICSACSACES CV AEDEE DE IE DEDE VA® y
 ®
 ; =
@@ -507,25 +337,17 @@ SAUTIER & JAEGER
 »
 '* W ; y > V p
 1ÆMME â
-
 © ° ;
-
 DEUXIEME PARTIE
-
 1. Duo du Roid’Ys . . . Lab
 (Mlles Graf et Defago)
-
 #0. Ouverture d’Egmont . … Berthoven
 7. Air de la Perle du Brésil
 Chant du Mysoli) avec
-
 accompagnement de flûte  Fél. David
 (Mlle Graf et M. Navarro)
-
 7pnoq uou ‘“joinjeu 1Pj9,] ©
-
 gdojduue a1ja 7nad 1 ‘ayandgs ap wnunxeu a] 21410 jiP] 39
-
 # 0. a) Les Roses d’Ispahan . Gab. Fauré
 Oilla Cloche 1S SN
 |
@@ -535,47 +357,32 @@ J
 l 9. .lonaise. C hoP
 ; »
 â PÎ\I|(‘\(,II lD} !.“‘ MINUTES
-
 P E2L PVS G S / v9
-
 JUBJSUOI 2]01JU02 SNOS SaUIPS SaIDEA ap JuBUANOId
-
 SIINNIH SIIJILIVT
-
- 
-
 SPE PE PS PE DS I T 0 A 0T 7590 SIF SD SID E OEIEIEDES DSD
-
 PIDIS DIIR III II SOR IU
-
 _
-
 AN
-
 | BASSES
 |
-
 Lainages - Soieries
-
 ©
 O
-
 Velours
-
 9999000,
 90000090
-
 Articles fantaisie
 Haute Mode
-
 { J
 |
-
 °
-©]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002585_008.tif"/>
-<page><![CDATA[Ludwig van BEETHOVEN
-
+©
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002585_008.tif'/>
+        <page>
+          <![CDATA[Ludwig van BEETHOVEN
 est né a Bônn, pres de Cologne, le 16 décembre 1770, dans la chambre
 étroite et misérable d’une vieille maison. Son grand-père et son père
 étaient des chanteurs attachés à la Cour du prince électeur. l’enfance de
@@ -604,7 +411,6 @@ et lui causa les tourments les plus amers. La vie sentimentale ne l’épargna
 pas non plus. Beethoven, qui avait quelque chose de puritain dans l’âme,
 avait sur la sainteté de l’amour des idées intransigeantes ; sans cesse 1l
 s’éprenait furieusement, sans cesse il révait de bonheurs aussitôt déçus !
-
 Au fond de cet abime de tristesse, dans cette vie tourmentée, le génie
 et la pensée de Beethoven gardèrent leur entière indépendance. Les qua-
 lités les plus visibles de son œuvre sont d’abord la grâce, l’élan de la jeu-
@@ -620,129 +426,70 @@ son regard en haut, comme s’il eut voulu dire: « Puissances ennemies,
 arrière ! Dieu est avec moi ! C’est pour le drame de Gœæœthe que Beethoven
 composa, en 1S10, là musique de scène d’Egmont. L’ouverture qui est
 au programme est transerite pour la fanfare par E. Dureau.
-
- 
-
 “A LA TOUR DE L’ILE* — GENÈVE
-
 AIN HO
-
 FORESTIER & C*
-
 Fabrique de Coutellerie
 SPÉCIALITÉS pour Hôtels, Pensions et Restaurants
 COUTELLERIE DE TABLE
 "EPRÉSENTANTS de l'Orfévrerie CHRISTOFLE, à Paris
 .
-
 \ 56N€
-
- 
-
-Métal anglais]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002585_009.tif"/>
-<page><![CDATA[Si vous voulez acheter un
-
+Métal anglais
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002585_009.tif'/>
+        <page>
+          <![CDATA[Si vous voulez acheter un
 /
-
 GramophoË.
-
 ou compléter votre col/ection de
-
 Disques
-
- 
-
- 
-
 adressez-vous à /a maison
-
 ROTSCHY Frères - Eoñarer
-
- 
-
- 
-
- 
-
- 
-
 Barthoidy-Félix MENDELSSOHN
 1é à Hambourg le 3 février 1809, mort à Leipzig le 4 novembre 1847, l'ut
 élevé dans une famille riche et très unie : il acquit une brillante culture et
 fit des études musicales très complétes, pour le piano, le violon et la
 (UII.}IIMHiHI].
 Mendelssohn fit preuveé extraordinairement tôt de facultés musicales
-
 remarquables. À l’aâge de neuf ans, il |
-
 Jouait pour la première fois dans un
 concert public ; à dix ans, il était altiste à la Singakademie et c’est a dix-
 sept ans qu’il écrivit une de ses meilleures compositions : l’ouverture du
 Songe d’une nuit d’été. qui est le chef-d’œuvre le plus représentatif de sa
-
 personnalité. Il avait déjà écrit en 1524, à l’age de quinze ans, la Sympho-
-
 nie no 1 en ut mineur.
-
 sa carrière d’artiste fut d’abord celle d’un pianiste-&t d’un chef d’or
-
 r l
-
 chestre. Il se révéla comme virtuose de concert par des voyages à Lon lres,
-
 Berlin, Venise, Paris, où il ennoblit la vie les concerts en v faisant péne
 trer les œuvres des classiques. Comme chef d’orchestre il … uf, grâce a sa
-
 culture générale et à son génie musical, une valeur exceptionnelle, puisqu’à
 vinet-deux ans, alors qu’il étaäit sans titre, on lui confia le commandement
 de quatre cents exécutants dans un fe stival rhénan.
-
 Mendelssohn n’eut à souténir aucune lutte pénible contre ses sem
 blables ou contre lui-même. Il fut un homme heureux, affranchi des
 besoins matériels, qui cultiva son art avec désintéressement. Il fut un
 1omme de goût, d’un esprit critique étendu, orné et très cultivé, qui
 ipporta toutes les qualités de son esprit à ses compositions,
-
 (D'après JuLEs COMBARIEU)
-
- 
-
 PI OlOÇ RAPHIE DA[ÇÏI
-
 E. 1 CIN
-
 15, COURS DE RIVE, 15- GFNEV E
 Poses d'Enfants — Portraits Artistiques — Travaux en tous genves
-
-Téléphone Stand 1524 Téléphone Stand 1524]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002585_010.tif"/>
-<page><![CDATA[NATIONAL-SPORT
-
+Téléphone Stand 1524 Téléphone Stand 1524
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002585_010.tif'/>
+        <page>
+          <![CDATA[NATIONAL-SPORT
 10, RUE-DE CORNAVIN, 10
-
 GENEÈVE
-
 .eOg.
-
 Sportsmens réservez vos achats
-
 à notre maison vous serez satisfait de votre acquisition
-
- 
-
- 
-
- 
-
- 
-
 TABLEAU DES MEMBRES EXÉCUTANTS
-
- 
-
- 
-
 Saxophone Sopranino Bugles Solos anes Pistons Barytons .
 Marti Erb Burki, Lucien Aebischer ‘
 Saxophones Sopranos Henninger, Ernest Floquet Bussy
@@ -780,96 +527,58 @@ E CAFÉ LYRIQUE
 à e
 Ëî VINS OUVERTS de premier choix
 Œ Maison de confiance —— PRIX POPULAIRE Eä
-
- 
-
 Réparation d'instruments de musique
 cuivre et bois
-
 Vre P. Martin
-
 Chemin GENÈVE Chemin
-
 Grands Philosophes, 8 Grands Philosophes, 8
-
- 
-
-$ Accessoires pour tous instruments]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002585_011.tif"/>
-<page><![CDATA[mth un ps
-
- 
-
+$ Accessoires pour tous instruments
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002585_011.tif'/>
+        <page>
+          <![CDATA[mth un ps
 . su IMEI5S DE BRASSERIE
-
- 
-
 CAFÉ -BRASSERIE [
 ; ME @. A
 Restaurant du XX" Siècle
 23, Boulevard Georges-Favon
 TÉLÉPHONE: STAND 30-88
-
 VINS des 1 crûs — APÉRITIFS de marque
 Dégustation de Porto Douw”’s (rouge et blanc)
 BIÈRES de MUNICH, PILSEN-URQUELL,
 Spéciale (bittrée), AVENIR (brune et blonde)
-
- 
-
 SPÉCIALITÉ d’entrecôtes aux champignons
 Mercredi et Samedi: AMOURETTES
 Cervelas à la Genevoise
-
 Vs mmmtmaatb6, 1000 G5 TS mmmn
-
 ME
 Se recommandent M HELD et ENFANTS
 Ex-propriétaires
 de la BRASSERIE GENEVOISE
-
 \ Ct VIN TPEN
-
- 
-
 e E e E
-
 ‘ . INSTRUMENTS NEUFS ET D'OCCASION
-
- 
-
 TR MS IE E ETE TR
 -
-
 RÉPARATION D'INSTRUMENTS
 DE MUSIQUE. (FANFARES ET HARMONIES)
-
- 
-
 GRAND CHOIX
 \CCESSOIRES ET FOURNITURES
-
- 
-
 I— ememenmnnmennnnt
-
 Kaspar WICKY
-
 G-s
-
- 
-
 AxcLe RUE ÉCOLE DE MÉDECINE. 8
 RUE DES MARAICHERS, 48
-
-PLAINPALAIS GENÈVE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002585_012.tif"/>
-<page><![CDATA[Imp. Rotogravure S. À.
-
+PLAINPALAIS GENÈVE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002585_012.tif'/>
+        <page><![CDATA[Imp. Rotogravure S. À.
 GENÈVE
-
->4h]]></page>       
-        </p>
+>4h
+]]></page>
+      </p>
     </body>
   </text>
 </TEI>

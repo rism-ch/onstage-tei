@@ -1,119 +1,90 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par le Corps de musique de Landwehr<date when="13/03/1921"/></title>
-<series>1920-1921</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par le Corps de musique de Landwehr
+            <date when='13/03/1921'/>
+          </title>
+          <series>1920-1921</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002365</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Hoogstoël, L. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19210313"/>
-<title>Concert donné par le Corps de musique de Landwehr</title>
-<placeName key="Victoria Hall"/>
-<name key="1920-1921" type="series"/>
-<name key="Mozart, Wolfgang Amadeus" ref="https://muscat.rism.info/admin/people/115324" type="person" role="cmp">Mozart, Wolfgang Amadeus</name>
-<name key="Händel, Georg Friedrich" ref="https://muscat.rism.info/admin/people/36552" type="person" role="cmp">Händel, Georg Friedrich</name>
-<name key="Bizet, Georges" ref="https://muscat.rism.info/admin/people/20057" type="person" role="cmp">Bizet, Georges</name>
-<name key="Massenet, Jules" ref="https://muscat.rism.info/admin/people/84264" type="person" role="cmp">Massenet, Jules</name>
-<name key="Schubert, Franz" ref="https://muscat.rism.info/admin/people/111603" type="person" role="cmp">Schubert, Franz</name>
-<name key="Puccini, Giacomo" ref="https://muscat.rism.info/admin/people/30921" type="person" role="cmp">Puccini, Giacomo</name>
-<name key="Balay, Guillaume" ref="https://muscat.rism.info/admin/people/30072837" type="person" role="cmp">Balay, Guillaume</name>
-<name key="Delibes, Léo" ref="https://muscat.rism.info/admin/people/30016578" type="person" role="cmp">Delibes, Léo</name>
-<name key="Hoogstoël, L. (dir.)"  type="person" role="int">Hoogstoël, L. (dir.)</name>
-<name key="Corps de musique de Landwehr"  type="person" role="int">Corps de musique de Landwehr</name>
-<name key="Schumacher-Gailloud (Mme)"  type="person" role="int">Schumacher-Gailloud (Mme)</name>
-<name key="Mestrallet, M."  type="person" role="int">Mestrallet, M.</name>
-<name key="Ketten, Léopold"  type="person" role="int">Ketten, Léopold</name>
-<name key="Maillard, E."  type="person" role="int">Maillard, E.</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002365_001.tif"/>
-<page><![CDATA[éc :
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19210313'/>
+        <title>Concert donné par le Corps de musique de Landwehr</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1920-1921' type='series'/>
+        <name key='Mozart, Wolfgang Amadeus' ref='https://muscat.rism.info/admin/people/115324' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Händel, Georg Friedrich' ref='https://muscat.rism.info/admin/people/36552' type='person' role='cmp'>Händel, Georg Friedrich</name>
+        <name key='Bizet, Georges' ref='https://muscat.rism.info/admin/people/20057' type='person' role='cmp'>Bizet, Georges</name>
+        <name key='Massenet, Jules' ref='https://muscat.rism.info/admin/people/84264' type='person' role='cmp'>Massenet, Jules</name>
+        <name key='Schubert, Franz' ref='https://muscat.rism.info/admin/people/111603' type='person' role='cmp'>Schubert, Franz</name>
+        <name key='Puccini, Giacomo' ref='https://muscat.rism.info/admin/people/30921' type='person' role='cmp'>Puccini, Giacomo</name>
+        <name key='Balay, Guillaume' ref='https://muscat.rism.info/admin/people/30072837' type='person' role='cmp'>Balay, Guillaume</name>
+        <name key='Delibes, Léo' ref='https://muscat.rism.info/admin/people/30016578' type='person' role='cmp'>Delibes, Léo</name>
+        <name key='Hoogstoël, L.' type='person' role='int'>Hoogstoël, L.</name>
+        <name key='Corps de musique de Landwehr' type='person' role='int'>Corps de musique de Landwehr</name>
+        <name key='Schumacher-Gailloud (Mme)' type='person' role='int'>Schumacher-Gailloud (Mme)</name>
+        <name key='Mestrallet, M.' type='person' role='int'>Mestrallet, M.</name>
+        <name key='Ketten, Léopold' type='person' role='int'>Ketten, Léopold</name>
+        <name key='Maillard, E.' type='person' role='int'>Maillard, E.</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002365_001.tif'/>
+        <page>
+          <![CDATA[éc :
 pF
-
- 
- 
-   
- 
-
 |
 â ;
-
- 
-
 La Reme de la Machine à Ecrxre
-
 OST
-
 donne lé plus beau travail
-
 -Guide Central Tampon Encreur
-
 21, CORRATERIE K ——s pROF |-ANCE
-
- 
-
- 
-
- 
-
- 
-
 PROGRAMME
-
 PREMIÈRE PARTIE
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 *MM. les membres non exécufants ont droit à deux enfrées sur présentation de leur carte de 1921
-
 1. Les Noces de Figaro, ouverture ... 111111122100 Mozart. @ :
 2. Air d'Amadigi (M"° Schumacher-Gailloud) ... . Faendél.
 5. La Jolie Fille de Perth (M. Mestrallet) 1111112 Bizel. Ë CJ
@@ -127,25 +98,13 @@ en Én Ë° p
 9.  Coppélia, prélude et polka-mazurka... 1111111111 L. Delibes. @
 Le plano d'accompagnement‘sera obligeamment tenu par M. le professeur KETTEN l rr
 B.
-
 PRIX DES PLACES (droit des pauvres compris) : Loges el Cordons de première galerie,
 {r. 2,10 ; Parterre et Première Galerie, fr. 1.10 ; Deuxième galerie, fr. 0.60
-
- 
-
 Les enfants au-dessous de 10 ans paient demi-place
-
 e
 MM. les membres exéculants des Corps de Musique d'Elite, Harmonie Naulique el Fanfare Municipale ont droit
 à l'entrée du- concert sur présenfation de leur carte de 1920, €
 - 1 '
-
- 
-
- 
-
- 
-
 Volailles fraîches
 @Ë = DE TABLE
 | Vins, Champagnes et Liqueurs de loutes marques “N Poulets — Pintades — Pigeons — Oies — etc,
@@ -153,17 +112,17 @@ l 11, Rue du Conseil-Général, Genève AU PERDREAU ROUCE
 / E
 ! n e |KM Grn. Glauser, succ. de L'Hôte
 N@ION
-
 Amer Picon, Pippermîn_t Get, Rhum-Foxland,
 Whisky White Horse | , COURS [)5 mvg 7 Téléphone 15.70
-
 BAEF—'£ &s CT
-
 |
 |' Maison fondée en 1884 TÉLÉPH, 23-26
-}]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002365_002.tif"/>
-<page><![CDATA[p A }} =
+}
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002365_002.tif'/>
+        <page>
+          <![CDATA[p A }} =
 n \ , Ve ==n
 <—
 A3 ‘
@@ -175,8 +134,10 @@ uw 4
 f .
 e 220 , v“r\“,_ =
 gua r . x
-= — ec]]></page>       
-        </p>
+= — ec
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

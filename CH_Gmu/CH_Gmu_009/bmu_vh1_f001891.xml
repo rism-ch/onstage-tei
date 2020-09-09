@@ -1,287 +1,176 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Grand concert symphonique<date when="26/04/1917"/></title>
-<series>1916-1917</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Grand concert symphonique
+            <date when='26/04/1917'/>
+          </title>
+          <series>1916-1917</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F001891</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Ranse, M. de (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19170426"/>
-<title>Grand concert symphonique</title>
-<placeName key="Victoria Hall"/>
-<name key="1916-1917" type="series"/>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Borodin, Alexandr Porfir'evič" ref="https://muscat.rism.info/admin/people/30015583" type="person" role="cmp">Borodin, Alexandr Porfir'evič</name>
-<name key="Debussy, Claude" ref="https://muscat.rism.info/admin/people/4338" type="person" role="cmp">Debussy, Claude</name>
-<name key="Lalo, Edouard" ref="https://muscat.rism.info/admin/people/65446" type="person" role="cmp">Lalo, Edouard</name>
-<name key="Saint-Saëns, Camille" ref="https://muscat.rism.info/admin/people/76734" type="person" role="cmp">Saint-Saëns, Camille</name>
-<name key="Berlioz, Hector" ref="https://muscat.rism.info/admin/people/13803" type="person" role="cmp">Berlioz, Hector</name>
-<name key="Indy, Vincent d'" ref="https://muscat.rism.info/admin/people/114686" type="person" role="cmp">Indy, Vincent d'</name>
-<name key="Ranse, Marc de (dir.)"  type="person" role="int">Ranse, Marc de (dir.)</name>
-<name key="Orchestre symphonique des Internés alliés"  type="person" role="int">Orchestre symphonique des Internés alliés</name>
-<name key="Canivet, Jean"  type="person" role="int">Canivet, Jean</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001891_001.tif"/>
-<page><![CDATA[TN
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19170426'/>
+        <title>Grand concert symphonique</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1916-1917' type='series'/>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Borodin, Alexandr Porfir&apos;evič' ref='https://muscat.rism.info/admin/people/30015583' type='person' role='cmp'>Borodin, Alexandr Porfir'evič</name>
+        <name key='Debussy, Claude' ref='https://muscat.rism.info/admin/people/4338' type='person' role='cmp'>Debussy, Claude</name>
+        <name key='Lalo, Edouard' ref='https://muscat.rism.info/admin/people/65446' type='person' role='cmp'>Lalo, Edouard</name>
+        <name key='Saint-Saëns, Camille' ref='https://muscat.rism.info/admin/people/76734' type='person' role='cmp'>Saint-Saëns, Camille</name>
+        <name key='Berlioz, Hector' ref='https://muscat.rism.info/admin/people/13803' type='person' role='cmp'>Berlioz, Hector</name>
+        <name key='Indy, Vincent d&apos;' ref='https://muscat.rism.info/admin/people/114686' type='person' role='cmp'>Indy, Vincent d'</name>
+        <name key='Ranse, Marc de' type='person' role='int'>Ranse, Marc de</name>
+        <name key='Orchestre symphonique des Internés alliés' type='person' role='int'>Orchestre symphonique des Internés alliés</name>
+        <name key='Canivet, Jean' type='person' role='int'>Canivet, Jean</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001891_001.tif'/>
+        <page>
+          <![CDATA[TN
 IW \Vé—\
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 OEs
-
 Î/ZW//Æ
-
 SOUS LE PATRONAGE
 ou /V\IHISTÈQE ves BEAUX-ARTS n PARIS
-
 DE L’'AMBASSADE ve FRANCE
-
 DE LA LÉGATION oe BELGIQUE
 et du
-
 BUREAU D'INTERNEMENT ves PRISONNIERS oe GUERRE 4 BERNE
-
 PRONS) ,
-
 // AO
 Rephyphonque
-
- 
-
- 
-
- 
-
- 
-
- 
-
-»&,£Î”’)]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001891_002.tif"/>
-<page><![CDATA[e =
-
+»&,£Î”’)
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001891_002.tif'/>
+        <page>
+          <![CDATA[e =
 VICTORIA HALL = VICTORIA HALL |
-
 |
-
 u '
-
 \ =. v \l. |
 1 JEUDI 26 AVRIL I91T, à 8 beures ‘s du soir .\
-
- 
-
 M.
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 ORCHESTRE DE 75 EXÉCUTANTS
 Sous la direction de M. Marc de Kanse
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 %ÿæ%%%êﬁ@
-
-A @>s]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001891_003.tif"/>
-<page><![CDATA[L]Œ _\/_
-
+A @>s
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001891_003.tif'/>
+        <page>
+          <![CDATA[L]Œ _\/_
 + PROGRAMME *
-
 —
-
 X
-
- 
-
 és |
-
 É EGMONT ° , 0 c L.-V. BEETHOVEN (1770-1827 !
 a) Ouverture.
 b) La Mort de Claire. |
 c) Chant de Victoire |
-
 PREMIERE PARTIE ’
-
- 
-
 2. Dans les Steppes de l’Asie centrale. BORODINE (1834-1887)
-
 Dans les steppes sablonneuses de l'Asie centrale retentit le premier refrain d’une
-
 chanson paisible russe. On entend aussi les sons melancoliques des chants d’Orient
-
- 
-
 ‘ on entend le pas des chevaux et des chameaux qui s’approchent. Une caravane es-
-
 n Il
 ll cortée par des soldats russes, traverse l'immense desert, continue son long voyage |
 Î
-
 N sans crainte, s’abandonnant avec confiance à la garde de la force guerrière russe, La 1
 \ , , //
 \ \ caravane s’avance toujours. Les chants russes et ceux des indigènes se confondent /
-
 2 dans la même harmonie. Leurs refrains se font entendre longtemps dans le désert et / ///
-
 finissent par se perdre dans le lointain.
-
 \ (\
 ——
-
 3. A=viie SUINIE 6 6006004000 C. DEBUSSY (1862) }
 Ï
-
 a) En bateau. r:jj
-
 b) Cortege
-
 c) Menuet.
-
 v
-
- 
-
- 
-
 ( K\_…e ; en 2 <Ÿ\
-
 SECONDE PARTIE
 …s
-
 U, Ouverture du ROI D’'YS... , Edouard LALO (1823-1892)
 5. RHAPSODIE D’AUVERGNE. , C. SAINT-SAËNS (1835)
-
 pour piano et orchestre
 Au piano : M. Jean CANIVET
-
 6. FEKVAAL (Prelude du premier Acte : Le
 Sommeil de Fervaal) P */ ; Vincent D'INDY (1851)
-
- 
-
- 
-
 | 7. Marche de la Damnation de Faust . Hector BERLIOZ (1803-1869)
-
- 
-
- 
-
- 
-
 Piano Gaveau de la Maison Fætiseh
-
 A)PAÆA —S —
-
-NN]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001891_004.tif"/>
-<page><![CDATA[L'Onchesine Symphomique DEs INTEnnÉs ALLIÉS
-
+NN
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001891_004.tif'/>
+        <page>
+          <![CDATA[L'Onchesine Symphomique DEs INTEnnÉs ALLIÉS
 =
-
 Au milieu des douloureuses circonstances que traverse en ce
 moment l’Europe entière, il y a toujours quelque consolation à
 constater les généreuses initiatives et les efforts dévoués que
 suscite partout le spectacle des infortunes à soulager.
-
 Les secours aux blessés, l’organisation d’établissements sani-
 taires pour rendre la santé aux malades, le ravitaillement des
 prisonniers, sont autant de buts offerts chaque jour au zèle et
 à l’activité de ceux que leur âge ou leur situation éloigne par
 force de toute participation directe à la guerre.
-
 Il était naturel que les privilégiés, auxquels l'internement en
 Suisse a rendu, avec la santé, l’aptitude au travail et le désir de
 prendre leur part de la tâche commune, tiennent à honneur d’ap-
 porter leur concours, dans tous les domaines, aux bienfaisantes
 entreprises dont ils avaient été les premiers bénéficiaires, au temps
 de leur captivité.
-
 Telle a été la pensée maîtresse qui a présidé à la formation
 de l’Orchestre Symphonique des Internés Alliés, que tout le
-
 monde appelle déjà familièrement « l'OSIA », suivant un usage
 moderne, plus rapide que littéraire.
 Réunis depuis deux mois à l’Hôtel Carlton, à Villeneuve, les
-
 musiciens de l’OSIA ont recommencé quotidiennement, sous
 la direction de leur chef MarC DE RANSE, un entraînement
 pratique que la guerre avait fait perdre — en partie tout au
@@ -293,21 +182,20 @@ propagande qu’il entreprit, par l’organisation de grands concerts
 avec orchestre et chœurs, aux programmes desquels figuraient
 déjà la plupart des maîtres dont nous retrouvons aujourd’hui les
 noms au programme.
-
 Ce que MarC DE RANSE avait commencé en captivité, lorsqu’il
 fut interrompu par la maladie à laquelle il dut plus tard d’obtenir
 son internement en Suisse, il a voulu l’achever ici, aussitôt
 rendu à la santé, et c’est le résultat de son inlassable effort,
 secondé par celui de tous ses camarades, que le public est
 appelé à constater ce soir.
-
 Déjà très applaudi à Berne, à Fribourg, à Montreux, « l'OSIA »
 vient aujourd’hui pour la deuxième fois à Genève et continue in-
 cessamment sa tournée de propagande artistique, à La Chaux-de-
 Fonds, Zürich, Lausanne, Bâle, etc.
-
-_—>]]></page>       
-        </p>
+_—>
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

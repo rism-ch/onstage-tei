@@ -1,144 +1,109 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par le Corps de musique de Landwehr<date when="01/12/1912"/></title>
-<series>1912-1913</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par le Corps de musique de Landwehr
+            <date when='01/12/1912'/>
+          </title>
+          <series>1912-1913</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F001150</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Koch, L. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19121201"/>
-<title>Concert donné par le Corps de musique de Landwehr</title>
-<placeName key="Victoria Hall"/>
-<name key="1912-1913" type="series"/>
-<name key="Koch, Léonard"  type="person" role="cmp">Koch, Léonard</name>
-<name key="Dubois, Théodore" ref="https://muscat.rism.info/admin/people/30016588" type="person" role="cmp">Dubois, Théodore</name>
-<name key="Caix d'Hervelois"  type="person" role="cmp">Caix d'Hervelois</name>
-<name key="Saint-Saëns, Camille" ref="https://muscat.rism.info/admin/people/76734" type="person" role="cmp">Saint-Saëns, Camille</name>
-<name key="Goens, Daniel van" ref="https://muscat.rism.info/admin/people/41007232" type="person" role="cmp">Goens, Daniel van</name>
-<name key="Massenet, Jules" ref="https://muscat.rism.info/admin/people/84264" type="person" role="cmp">Massenet, Jules</name>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Lacome, Paul" ref="https://muscat.rism.info/admin/people/30024118" type="person" role="cmp">Lacome, Paul</name>
-<name key="Verdi, Giuseppe" ref="https://muscat.rism.info/admin/people/137994" type="person" role="cmp">Verdi, Giuseppe</name>
-<name key="Pillevestre"  type="person" role="cmp">Pillevestre</name>
-<name key="Charpentier, L."  type="person" role="cmp">Charpentier, L.</name>
-<name key="Koch, Léonard (dir.)"  type="person" role="int">Koch, Léonard (dir.)</name>
-<name key="Corps de musique de Landwehr"  type="person" role="int">Corps de musique de Landwehr</name>
-<name key="Beck-Vidoli, Assunta"  type="person" role="int">Beck-Vidoli, Assunta</name>
-<name key="Belli, Pio"  type="person" role="int">Belli, Pio</name>
-<name key="Hansotte, Marcel"  type="person" role="int">Hansotte, Marcel</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001150_001.tif"/>
-<page><![CDATA[VICTORIA-HALL
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19121201'/>
+        <title>Concert donné par le Corps de musique de Landwehr</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1912-1913' type='series'/>
+        <name key='Koch, Léonard' type='person' role='cmp'>Koch, Léonard</name>
+        <name key='Dubois, Théodore' ref='https://muscat.rism.info/admin/people/30016588' type='person' role='cmp'>Dubois, Théodore</name>
+        <name key='Caix d&apos;Hervelois' type='person' role='cmp'>Caix d'Hervelois</name>
+        <name key='Saint-Saëns, Camille' ref='https://muscat.rism.info/admin/people/76734' type='person' role='cmp'>Saint-Saëns, Camille</name>
+        <name key='Goens, Daniel van' ref='https://muscat.rism.info/admin/people/41007232' type='person' role='cmp'>Goens, Daniel van</name>
+        <name key='Massenet, Jules' ref='https://muscat.rism.info/admin/people/84264' type='person' role='cmp'>Massenet, Jules</name>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Lacome, Paul' ref='https://muscat.rism.info/admin/people/30024118' type='person' role='cmp'>Lacome, Paul</name>
+        <name key='Verdi, Giuseppe' ref='https://muscat.rism.info/admin/people/137994' type='person' role='cmp'>Verdi, Giuseppe</name>
+        <name key='Pillevestre' type='person' role='cmp'>Pillevestre</name>
+        <name key='Charpentier, L.' type='person' role='cmp'>Charpentier, L.</name>
+        <name key='Koch, Léonard' type='person' role='int'>Koch, Léonard</name>
+        <name key='Corps de musique de Landwehr' type='person' role='int'>Corps de musique de Landwehr</name>
+        <name key='Beck-Vidoli, Assunta' type='person' role='int'>Beck-Vidoli, Assunta</name>
+        <name key='Belli, Pio' type='person' role='int'>Belli, Pio</name>
+        <name key='Hansotte, Marcel' type='person' role='int'>Hansotte, Marcel</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001150_001.tif'/>
+        <page>
+          <![CDATA[VICTORIA-HALL
 Portes à 1 h. 3/4
-
-  
-
 Œ7'mancﬁe Jer @éeembæ 1972
-
 A 2 heures et demie
-
- 
-
 CONCERT
-
 DONNÉ PAR LE
-
 CORPS pe MUSIQUE pe LANDWEHR
-
 (HARMONIE MILITAIRE)
-
-  
-
 -—
-
-       
-         
-  
-     
-          
-  
-
 Sous la direction de M. Léonard KOCH, Prof" au Conservatoire
-
 AVEC LE BIENVEILLANT ET GRACIEUX CONCOURS DE
-
 M"* ASSUNTA BECK-VIDOLI M. PIO BELLI
-
 Soprano dramatique Violoncelliste
-
 Elève de Mme LACROIX-RABANY, Professeur de Chant Elève de M. le Professeur CARLO BONFIGLIO
-
 er pc M. MARCEL HANSOTTE
 Pianiste-Accompagnateur
-
 Couronnement de la Muse (extrait de Louise)
-
 Piano offert par la Maison DUBACH & Cie (Sautier & Jaeger, successeurs)
-
 — Hs
-
 PRIX DES PLACES : Loges et Cordon de 1re Galerie (numérotées), 2 fr. ;
 (non numérotées), 1 fr. ; Galeries,
-
 Cartes à l’avance au Victoria-Hall, rue Hornung
-
 MM. les Membres d’Honneur, Honoraires et Amis visitants ont droit à 2 places de
 ou de 1re Galerie non numérotées, sur présentation de leur carte de 1912. Coupons 9
 pour 1 place non numérotée,
-
- 
-
- 
-
- 
-
- 
-
 Sous la direction de M. L. KOCH, directeur du Corps de Musique
-
- 
-
 S’inscrire les Mardi et Vendredi,
-
 Le piano d'accompagnement sera obligeamment tenu par M. H,
-
 COURS D'ÉLÈVES — 5 FR. PAR MOISs
-
 1. Patria Triumphans, marche L. Kocu.
 2. Ouverture de Frithiof . Th. DuBois. %
 3. a) Andante, M. PIO BELLI. CAIX D'HERVELOIS.
@@ -151,27 +116,19 @@ a) La maison active ; b) Bercelonnette ; c) La leçon de danse ; d) Conte d’hi
 7. Grand air d’Aïda, M"* BECK-VIDOLI e VERDI.
 8. Jupiter et Danaé, duo pour flûte et saxophone (MM. Maillard et Fillion) J. PILLEVESTRE,
 9.
-
 L. CHARPENTIER.
-
 INSOTTE
-
 Rez-de-Chaussée et 1re Galerie
 50 centimes. — Les enfants au-dessous de 40 ans paient demi-place.
-
 Rez-de-Chaussée
 et 10 valables chacun
-
 - Moyennant un supplément de 4 fr., on peut réserver des places numérotées de Loges ou Are Galerie
-
 SOLFÈGE, PLUTE, HAUTBOIS, CLARINETTE, SAXOPHONE, COR & CUIVRES
-
 dès 8 heures du soir, au local, Bâtiment Electoral (entrée du côté de la Plaine)
-
- 
-
-Imp, Bertsehi et Laclet, ruo du Prince, 40]]></page>       
-        </p>
+Imp, Bertsehi et Laclet, ruo du Prince, 40
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

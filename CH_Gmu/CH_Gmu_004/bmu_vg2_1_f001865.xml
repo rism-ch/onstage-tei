@@ -1,118 +1,105 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title><date when="08/09/1882"/></title>
-<series>1881-1882</series>
-<placeName>[Kiosque (Promenade des Bastions) ?]</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            <date when='08/09/1882'/>
+          </title>
+          <series>1881-1882</series>
+          <placeName>Genève, Kiosque (Promenade des Bastions)</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VG2-1 F001865</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Lieu incertain</note>
+        <note>Date présumée</note>
+        <note>Interprète incertain</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18820908"/>
-<placeName key="[Kiosque (Promenade des Bastions) ?]"/>
-<name key="1881-1882" type="series"/>
-<name key="Meyerbeer, Giacomo" ref="https://muscat.rism.info/admin/people/725" type="person" role="cmp">Meyerbeer, Giacomo</name>
-<name key="Auber, Daniel-François-Esprit" ref="https://muscat.rism.info/admin/people/38000" type="person" role="cmp">Auber, Daniel-François-Esprit</name>
-<name key="Métra, Jules-Louis-Olivier" ref="https://muscat.rism.info/admin/people/30022610" type="person" role="cmp">Métra, Jules-Louis-Olivier</name>
-<name key="Massenet, Jules" ref="https://muscat.rism.info/admin/people/84264" type="person" role="cmp">Massenet, Jules</name>
-<name key="Berlioz, Hector" ref="https://muscat.rism.info/admin/people/13803" type="person" role="cmp">Berlioz, Hector</name>
-<name key="Gounod, Charles-François" ref="https://muscat.rism.info/admin/people/80479" type="person" role="cmp">Gounod, Charles-François</name>
-<name key="Verdi, Giuseppe" ref="https://muscat.rism.info/admin/people/137994" type="person" role="cmp">Verdi, Giuseppe</name>
-<name key="Strauß, Johann" ref="https://muscat.rism.info/admin/people/132082" type="person" role="cmp">Strauß, Johann</name>
-<name key="[Orchestre de la Ville de Genève ?]"  type="person" role="int">[Orchestre de la Ville de Genève ?]</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_1_f001865_001.tif"/>
-<page><![CDATA[V… 3 WM 5
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18820908'/>
+        <placeName key='Genève, Kiosque (Promenade des Bastions)'/>
+        <name key='1881-1882' type='series'/>
+        <name key='Meyerbeer, Giacomo' ref='https://muscat.rism.info/admin/people/725' type='person' role='cmp'>Meyerbeer, Giacomo</name>
+        <name key='Auber, Daniel-François-Esprit' ref='https://muscat.rism.info/admin/people/38000' type='person' role='cmp'>Auber, Daniel-François-Esprit</name>
+        <name key='Métra, Jules-Louis-Olivier' ref='https://muscat.rism.info/admin/people/30022610' type='person' role='cmp'>Métra, Jules-Louis-Olivier</name>
+        <name key='Massenet, Jules' ref='https://muscat.rism.info/admin/people/84264' type='person' role='cmp'>Massenet, Jules</name>
+        <name key='Berlioz, Hector' ref='https://muscat.rism.info/admin/people/13803' type='person' role='cmp'>Berlioz, Hector</name>
+        <name key='Gounod, Charles-François' ref='https://muscat.rism.info/admin/people/80479' type='person' role='cmp'>Gounod, Charles-François</name>
+        <name key='Verdi, Giuseppe' ref='https://muscat.rism.info/admin/people/137994' type='person' role='cmp'>Verdi, Giuseppe</name>
+        <name key='Strauß, Johann' ref='https://muscat.rism.info/admin/people/132082' type='person' role='cmp'>Strauß, Johann</name>
+        <name key='Orchestre de la Ville de Genève' type='person' role='int'>Orchestre de la Ville de Genève</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_1_f001865_001.tif'/>
+        <page>
+          <![CDATA[V… 3 WM 5
 (.
-
 PROGRAMML
-
- 
-
 PREMIÈRE PARTIE
-
 larche de Schiller,, . . .  Meyerbeer.
-
 — Juverture du Lac des Fées, . — Auber.
 “ érénade espagnole, . . .  Métra.
-
 Ae Roman d’Arlequin, pantomime
 “ pour orchestre,
-
 werture gigue.
-
 Atrée d’Arlequin.
 "VEI‘IC de Colombine à sa Colombine.
-
- 
-
 .  Massenet.
 D) Sérénade.
 E) Duo d’Arlequin et de
-
 SECONDE PARTIE
-
 Ouverture du Carnaval romain,  Berlioz.
 Marche funèbre d’une marionnette, Gounod.
 Fantaisie sur Rigoletto, . .  Verdi.
-
 Jockey-galop, .
-
 e
-
 e N e 4 e
-
 cn
-
 Strauss.
-
- 
-
- 
-
 65
-
 Imsprim® J.-D. Jarrys, rue de la Tféille.
-
 =—
-
 A
-
-da]]></page>       
-        </p>
+da
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

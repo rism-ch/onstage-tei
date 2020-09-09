@@ -1,130 +1,111 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Oedipe roi<date when="21/11/1922"/></title>
-<series>1922-1923</series>
-<placeName>Salle de la Réformation</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Oedipe roi
+            <date when='21/11/1922'/>
+          </title>
+          <series>1922-1923</series>
+          <placeName>Genève, Salle de la Réformation</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU DG3-1 F001627</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Martin, F. (dir)</note>
+        <note>Date présumée</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19221121"/>
-<title>Oedipe roi</title>
-<placeName key="Salle de la Réformation"/>
-<name key="1922-1923" type="series"/>
-<name key="Sophokles" ref="https://muscat.rism.info/admin/people/437836" type="person" role="cmp">Sophokles</name>
-<name key="Lacroix, Jules"  type="person" role="cmp">Lacroix, Jules</name>
-<name key="Martin, Frank" ref="https://muscat.rism.info/admin/people/40205781" type="person" role="cmp">Martin, Frank</name>
-<name key="Martin, Frank   (dir.)" ref="https://muscat.rism.info/admin/people/40205781" type="person" role="int">Martin, Frank   (dir.)</name>
-<name key="Société de musique symphonique"  type="person" role="int">Société de musique symphonique</name>
-<name key="Froment, Jean"  type="person" role="int">Froment, Jean</name>
-<name key="Zorelli, Janine"  type="person" role="int">Zorelli, Janine</name>
-<name key="Bert, Camille"  type="person" role="int">Bert, Camille</name>
-<name key="Baudin, Henri"  type="person" role="int">Baudin, Henri</name>
-<name key="Maraval"  type="person" role="int">Maraval</name>
-<name key="Derlier"  type="person" role="int">Derlier</name>
-<name key="Lambert, Jean"  type="person" role="int">Lambert, Jean</name>
-<name key="Martin, Pauline"  type="person" role="int">Martin, Pauline</name>
-<name key="Sangor, Mona"  type="person" role="int">Sangor, Mona</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg3_1_f001627_001.tif"/>
-<page><![CDATA[#
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19221121'/>
+        <title>Oedipe roi</title>
+        <placeName key='Genève, Salle de la Réformation'/>
+        <name key='1922-1923' type='series'/>
+        <name key='Sophokles' ref='https://muscat.rism.info/admin/people/437836' type='person' role='cmp'>Sophokles</name>
+        <name key='Lacroix, Jules' type='person' role='cmp'>Lacroix, Jules</name>
+        <name key='Martin, Frank' ref='https://muscat.rism.info/admin/people/40205781' type='person' role='cmp'>Martin, Frank</name>
+        <name key='Martin, Frank' ref='https://muscat.rism.info/admin/people/40205781' type='person' role='int'>Martin, Frank</name>
+        <name key='Société de musique symphonique' type='person' role='int'>Société de musique symphonique</name>
+        <name key='Froment, Jean' type='person' role='int'>Froment, Jean</name>
+        <name key='Zorelli, Janine' type='person' role='int'>Zorelli, Janine</name>
+        <name key='Bert, Camille' type='person' role='int'>Bert, Camille</name>
+        <name key='Baudin, Henri' type='person' role='int'>Baudin, Henri</name>
+        <name key='Maraval' type='person' role='int'>Maraval</name>
+        <name key='Derlier' type='person' role='int'>Derlier</name>
+        <name key='Lambert, Jean' type='person' role='int'>Lambert, Jean</name>
+        <name key='Martin, Pauline' type='person' role='int'>Martin, Pauline</name>
+        <name key='Sangor, Mona' type='person' role='int'>Sangor, Mona</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg3_1_f001627_001.tif'/>
+        <page>
+          <![CDATA[#
 PAUTEX-MELLIARD et Cie
-
 17, Rue de la Croix-d’Or, 17 - GENÈVE
-
- 
-
 Bonneterie - Spécialité de sous-vêtements en tous genres,
 pour Messieurs, Dames et Enfants. - Bas et Chaussettes
 @ Laines et Cotons à tricoter ©
 Articles en Crêpe de santé RUMPF
-
 À la Salle de la Réformation : îH
 mrarel> U povecuhre ( A 22
-
 CŒDIPE ROI
-
 tragédie de SOPHOCLE
-
 Version de la Comédie-Française
 par Jules LACROIX
 Musique nouvelle de M. FRANK-MARTIN
-
 avec le concours de
-
 M. Jean FROMENT
-
 du Théâtre Sarah-Bernhardt
-
 M"* Janine ZORELLI
 de l’Odéon
-
 M. Camille BERT
 de l’Odéon
-
 M. Henri BAUDIN M. MARAVAL
 de l'Odéon de l’'Œuvre
-
 M. DERLIER
 du Théâtre des Arts
-
 M. J. LAMBERT
 de l’Odéon
 et des chœurs de la
 SOCIÉTÉ DE MUSIQUE SYMPHONIQUE
-
 sous la direction de l’auteur
-
- 
-
- 
-
- 
-
- 
-
- 
-
 0 |
-
- 
-
 La légende d'Œdipe
-
 La légende grecque rapporte qu’Œdipe
 est fils de Laïus, roi de Thèbes, et de sa
 femme Jocaste. Un oracle avait prédit que
@@ -132,54 +113,21 @@ si Laïus avait un fils, ce fils tuerait son
 père et épouserait sa mère. Aussitôt Laïus
 fit exposer le nouveau-né sur le Cithéron ;
 des pâtres le recueillirent et le portèrent
-
- 
-
- 
-
 FORres F
 L
-
 ; e
 N Tarce O 7Molard 2
-
 z RBCRIIN AIN
-
- 
-
- 
-
- 
-
- 
-
-P noe.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg3_1_f001627_002.tif"/>
-<page><![CDATA[MODES
-
+P noe.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg3_1_f001627_002.tif'/>
+        <page>
+          <![CDATA[MODES
 , SIMONE
-
 À à
 f
-
- 
-
- 
-
- 
-
- 
-
 15, Rue du Rhône, au 1e
-
- 
-
- 
-
- 
-
- 
-
 Ë À
 E L OE
 | ROBES ë
@@ -188,51 +136,29 @@ E L OE
 s0
 e
 BUN
-
 PARFUMERIE DU MOLARD
-
 |
 !
-
 ED. HUMET
-
 4, PLACE DU MOLARD, 4
-
- 
-
 PARFOMS de LUXE - ARTICLES de TOILETTE
 PRODUITS de BEAUTÉ
-
 DE LA
 Maison CLARÉS - Paris
-
 NNNROLOOOOVNÉTEUEVENENEOEUEOOOUOCLEDEOEDEVEENVODOOOONOOOTREFDEONOOOKESOOVOVEODPEOEEOREOOOODURODOEOMEONOOEPOONBOOCONVEOVOTEEEEEOEENEEUE 1U
-
 efUVe VECVETECNECOCOTEEOOT OEOEF OEOEUN EE O EEESTEEAEEO
-î||l||lllllllllmlllllllllllllllllilllllllllllllllllﬂllllllllllllllllllllllllllllllllllll]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg3_1_f001627_003.tif"/>
-<page><![CDATA[PE TS E E S QO ETE OD PS PR
-
+î||l||lllllllllmlllllllllllllllllilllllllllllllllllﬂllllllllllllllllllllllllllllllllllll
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg3_1_f001627_003.tif'/>
+        <page>
+          <![CDATA[PE TS E E S QO ETE OD PS PR
 {
-
- 
-
- 
-
 l > E
-
 Î CIGARETTES
-
 dl
-
 |)
-
 I 23 GRANDS PRIX = HORS CONCOURS
-
- 
-
- 
-
 à Polybe, roi de Corinthe, qui l’éleva
 Ï comme son propre fils. Devenu grand et
 raillé sur sa naissance, Œdipe alla con-
@@ -250,7 +176,6 @@ mes. Créon, frère de Jocaste et successeur
 du défunt roi, avait promis le pouvoir
 royal et la main de Jocaste à celui qui
 1 viendrait à bout du monstre.
-
 Or, Œdipe, ayant deviné les énigmes, fut
 ï vainqueur du Sphinx. Proclamé roi, il
 devint époux de la reine. Mais survint
@@ -265,151 +190,62 @@ d’horreur et perdu de désespoir, il se
 creva les yeux ; puis, accompagné de sa
 fille Antigone, prit le chemin de l’exil et
 alla mourir à Colone, en Attique.
-
- 
-
- 
-
- 
-
 Les Brûle-parfums et veilleuses électriques
-
 | »  Poupées, boîtes à bonbons et à poudre
 ; »  Allumeurs électriques pour fumeurs
-
 » Porcelaines d’art
-
 » Verreries d’art
-
-  
-
 <J
-
 | ;h En vente dans toutes les bonnes
 | —J\ v%\ Maisons d’objets d’artet d'électricité
 Exiger sur chague.objet notre marque déposé obj
 D> CJ Objet notre marque déposée R——-}…œ
-
 are
-
- 
-
- 
-
 Demames
-
 — 15 —
-
 |
 |
-
- 
-
 sd ; es ; en
-R ME M E E SS A ” + i]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg3_1_f001627_004.tif"/>
-<page><![CDATA[?}’““““‘Îäg
-
+R ME M E E SS A ” + i
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg3_1_f001627_004.tif'/>
+        <page>
+          <![CDATA[?}’““““‘Îäg
 uN BANOUES
-
 SUISSES
 Rue du Rhône
-
- 
-
- 
-
 30 Sièges et Succursales
 Capital : Fr. 86,000,000.—
-
- 
-
 - Avoir un compte dans une bonne banque et |
 faire un large usage de chèques pour toutes affaires
 courantes, c'est réaliser, à la fois, une économie de
 Temps et d'Argent.
-
- 
-
- 
-
- 
-
- 
-
 d À
-
- 
-
- 
-
- 
-
 '_lllllllIIIIII|I"lllIllllllIlllllllllllllll"lIIHIIIIIIIIIIIIIIIIIlll"'llllllllllllllllllllllllllllllllllllll|:
-
- 
-
- 
-
- 
-
- Hu Carnaval de UVenise
+Hu Carnaval de UVenise
 , , CHEMISIER Ofic CHAPELIER
 12, Rue du Mont-Blanc,
 Genève E
-
- 
-
 76 e
-
-es S ctc S pl e S 5 t F st sE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg3_1_f001627_005.tif"/>
-<page><![CDATA[—
-
+es S ctc S pl e S 5 t F st sE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg3_1_f001627_005.tif'/>
+        <page>
+          <![CDATA[—
 n
-
- 
-
- 
-
- 
-
-      
-
- 
-
- 
- 
- 
-
-      
-
 HJ CIGARES & lFC RFN
 = °'GA!îÊÎIÊ?Â"Ë'æ:ä"â“:“'ï;:"f“"Ê5
-
 QUALITÉS SUPÉRIEURES AUX PRODUITS IMPORTÉS N
 PRIX AYANTAGEUX S
-
 Ê vsure :xcwsw. Au COMPTOIR n!TABACS B RUE Où MT- auuc
-
 ———
-
- 
-
-  
-   
-  
-   
-
 Œdipe Roi
-
- 
-
 Le sujet de la tragédie de Sophocle est
 la découverte que fait Œdipe de ses cri-
 mes involontaires et le terrible châtiment
 qu’il s’inflige.
-
 Au début du drame, qui se déroule
 devant le palais royal de Thèbes, on
 apprend que la peste ravage la ville. Le
@@ -423,7 +259,6 @@ effet, voici venir Créon, apportant la
 réponse du dieu : le fléau sévira tant
 que le meurtrier de Laïus ne sera pas
 châtié.
-
 Œdipe lance d’effroyables imprécations
 contre ce meurtrier inconnu et com-
 mence une véritable enquête ; il consulte
@@ -434,61 +269,25 @@ puis Jocaste elle-même. Au cours de ces
 interrogatoires, la lumière se fait dans
 l’esprit d'Œdipe, importune lumière que
 le héros repousse, mais qui l'envahit et
-
- 
-
- 
-
 £; chaussures NOVELT—Y—
-
 pour la VILLE et le SOIR
 sont les plus
-
 ÉLÉGANTES
 AVANTAGEUSES
 DURABLES
-
-  
- 
- 
- 
-
- 
-
 EME E
 S, rue du Commerce, 5
-
-   
-
-M L E—]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg3_1_f001627_006.tif"/>
-<page><![CDATA[LINGERIE FINE
-
-  
-
+M L E—
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg3_1_f001627_006.tif'/>
+        <page>
+          <![CDATA[LINGERIE FINE
 AU PETIT VATEL
-
 D. JACCAUD
 TRAITEUR
 1, Place Longemalle, 1
-
- 
-   
-
- 
-  
-  
- 
- 
- 
- 
- 
-  
-
 SPÉCIALITÉS :
-
- 
-
 Bouillabaisse
 CIVET
 Galantine
@@ -496,108 +295,53 @@ PATÉS FINS
 Aspics variés
 ENTREMETS
 Glaces
-
 Vins & liqueurs
 I* marques
-
-  
-
- 
-
 Maison spéciale pour Vol-au-Vent
 Dîiners pour la ville
 DS ORO E SIU E Téléphone : STAND 6-47
 Plats fins sur commande
 Ouvert le dimanche
-
- 
-
 ﬁ Æ(?" CZ&ÆÊ
-
 55.rue du %cne %@72‘#2{3 .
 Conève.
-
 S G
 àè%È
-
 ,
-
- 
-    
-
- 
-    
-
 LUSYENERTRNONDERENDENEINEEUN
-
 H. CANTON, sucer.
-
 SIIOIOEENETEONENNEENTETTENENENEITEIT
-
 ue qes
-
 % HOTEL DES BERGUES
 Téléphone :
 Mont-Blanc 48-47
-
 990000009000009090909000090000990 900
-
 IULUn
-
 SSLCONRULEONDENOOOOTUCEDO ON EORRTOOORONEKEOOOCNENOOOOUOOOUROOOOOCOOOOEOOVEOOCOOOOOOOONEOVOOTEOOEOEOCOONCOEOEOEDOECOOOCCEODOENEEEON E E
-
- 
-
 ROBES & MANTEAUX
-
- 
-    
-
 2999990900000000000009900000900000000000
-
- 
-
 7
-
 SIUUCOONOOTOONETOONINDANEDCVEOVETEONEOODOSOEOOOOOESEOOSOOOEOSEOOOOOVODEENOANHEOREENNEANNAUI
-
 #
-
 3 mn e t es Ls s. E uml t As d E E
-É L e e A e se n L A E é st és]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg3_1_f001627_007.tif"/>
-<page><![CDATA[_ E E T
+É L e e A e se n L A E é st és
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg3_1_f001627_007.tif'/>
+        <page>
+          <![CDATA[_ E E T
 REFIEEUR ETE T E RE ETE
-
-   
-
- 
-
 Poupées, Jeux, Jouets
 ARTICLES SOIGNÉS
-
 AU CHAPERON ROUGE
-
 Maison L. BUREAU " | G. BELCE, Successeur
 58, Rue du Rhône, 58
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Q lui apporte, avec la certitude, la honte et
 | l’horreur. Accablé par la démonstration
 de son parricide et de son inceste invo-
 lontaires, il se crève les yeux en expiation
 de ses crimes et fuit, misérable et san-
 glant, de cette ville qu’il a sauvée.
-
 Le mythe d’Œdipe se présente comme
 le plus terrible exemple de la fragilité
 du bonheur humain que l’imagination
@@ -605,13 +349,8 @@ antique ait fourni à la légende. Le héros
 glorieux est précipité soudain dans la
 plus lamentable misère, mais l’art de
 Sophocle consiste à faire que cette chute,
-
- 
-
 si rapide qu’elle soit, ait ses degrés et
-
 qu'à chacun d’eux la douleur de la victi-
-
 me s'accroisse, et avec elle la pitié des
 } témoins. La fatalité a tout mené, mais la
 iJ confiance présomptueuse du roi et le
@@ -624,168 +363,96 @@ i ‘aractère irréfléchi de Jocaste marquent
 Ï destin était fait pour inspirer.
 | L’admirable conduite de l’action, l’an-
 E} goisse croissante qui s’en dégage pour se
-
 | ; Ps ;
 ‘! résoudre en pitié, la justesse de l’obser-
 | vation, la grandeur tragique qui domine
-
- 
-
- 
-
- 
-
 ! LES PLUS BEAUX
-
 MANTEAUX - COSTUMES - ROBES
-
 | —— sont en vente à des —
 prix sans concurrence à la
-
 CONFECTION MODERNE
-
 Rue du Rhône, 66
 f- MAISON SPÉCIALE DE VÊTEMENTS POUR DAMES
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 F — 719 —
-
- 
-
- 
-
-É]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg3_1_f001627_008.tif"/>
-<page><![CDATA[©
-
- 
-
+É
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg3_1_f001627_008.tif'/>
+        <page>
+          <![CDATA[©
 Ex-première
 de la
-
 Maison LEWIS de Paris
-
- 
-
 6, Rue du Rhône, 6
-
 GENÈVE
-Téléphone : Stand 50-43]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg3_1_f001627_009.tif"/>
-<page><![CDATA[PHOH‘OGRAPHIE D'ART
+Téléphone : Stand 50-43
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg3_1_f001627_009.tif'/>
+        <page>
+          <![CDATA[PHOH‘OGRAPHIE D'ART
 [ F.-H. JULLIEN
-
 15, Cours de Rive, 15 y  POSES D'ENFANTS
 en Téléphone Stand 15-24 TRAVAUX SOIGNÉS
-
 tout le drame, s’unissent pour faire d'Œ-
 dipe Roi un admirable chef-d’œuvre
 de la poésie dramatique de tous les temps.
-
 { DISTRIBUTION :
 Œdipe. . . . : . . MM. Jean FROMENT
 Créone 111e Camille BerT
 Mirésias e 1 44 Henri BAupin
 Le messager de Corinthe . DERLIER
-
 | Le vieil esclave de Laïus . MaravaL
-
 | Percoryphéen t 1 Jean LAMBERT
-
 Le grand-prêtre de Jupiter, l’envoyé du palais.
 Chœur des vieillards thébains
-
- 
-
 Ï Jocaste . . . . . . Mmes Janine ZorELLI
 Une jeune fille thébaine. . Mona SANGOR
 Une jeune fille thébaine. . Pauline MARTIN
-
 Chœur des jeunes filles thébaines
-
 Le mardi 21 novembre, la représentation
 | d’ŒDIPE ROI, sera précédée d’une causerie de
 M. Jean ARTUS.
-
- 
-
 9 Ÿ
 Si vous voulez acheter
-
 les dernières nouveautés en
-
 SOIERIES UNIES ET FANTAISIES
-
 de qualités garanties et à des prix sans concurrence,
-
 refenez cetfe adresse :
 Soieries Lyonnaises
-
 Place l_.ongemalle, 13
-
 E cAQAE 2S
-
- 
-
- 
-
- 
-
 2
-
 ° .
-
- 
-
-RN SREE CT PRN SS]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg3_1_f001627_010.tif"/>
-<page><![CDATA[“ASSURANCES”
-
+RN SREE CT PRN SS
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg3_1_f001627_010.tif'/>
+        <page>
+          <![CDATA[“ASSURANCES”
 Accident, Responsabilité civile,
 Automobile, Vol, Dégâts d’eau
-
- 
-
 Succursale de Genève : Rue de Hesse, 12
-
 (
-
 7
-
 SIOHCEOOOOHOOEAOOOOOOOOOOOOOOOOOOOOOOONOUOAUCENNNNN
-
 LIBRAIRIE PRIOR
-
 CITÉ, 11 et 16 - Téléphone : Stand 50-71
-
 LIVRES et MUSIQUE
 NEUFS et d’'OCCASION
 aux HEILLEURES CONDITIONS —- Le plus fort rabais de change
-
 Beaux livres reliés pour cadeaux, ouvrages de luxe
 illustrés, livres scolaires et universitaires, musique clas_—
 sique et moderne, toutes les danses en vogue. - Librairie
 théâtrale : comédies, saynètes, monologues.
 LENTOOOEUENEOOOODODEDEODECOHOTEOEOOOROOECEODEOVEODOOVEOROOOOOODOOEECOOECONEOEOOOAAOENAEEOOOOVENEOOOOOVOOVEOEEREO DO
-
 = 89*
-
 lHINIHIHiHIHIHlHlHIHIHIHIHIHINIHINIHlHlNIHIHIMIHIHIHIHIHIHIHIHl
 '1|lHl"l"l“l"l"lHIHIHIHIHIHl"l"l"i"l"lHlHl"l"l"l"lﬂlﬂlﬂlﬂl“l"l"l“
-
-=l]]></page>       
-        </p>
+=l
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

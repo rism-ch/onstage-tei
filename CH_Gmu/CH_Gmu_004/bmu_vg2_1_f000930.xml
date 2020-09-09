@@ -1,91 +1,97 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title><date when="28/07/1882"/></title>
-<series>1881-1882</series>
-<placeName>[Kiosque (Promenade des Bastions) ?]</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            <date when='28/07/1882'/>
+          </title>
+          <series>1881-1882</series>
+          <placeName>Genève, Kiosque (Promenade des Bastions)</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VG2-1 F000930</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>[Senger, H. de?] (dir)</note>
+        <note>Lieu incertain</note>
+        <note>Date incertaine</note>
+        <note>Interprète incertain</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18820728"/>
-<placeName key="[Kiosque (Promenade des Bastions) ?]"/>
-<name key="1881-1882" type="series"/>
-<name key="Hérold"  type="person" role="cmp">Hérold</name>
-<name key="Verdi, Giuseppe" ref="https://muscat.rism.info/admin/people/137994" type="person" role="cmp">Verdi, Giuseppe</name>
-<name key="Strauß, Johann" ref="https://muscat.rism.info/admin/people/132082" type="person" role="cmp">Strauß, Johann</name>
-<name key="Robaudi, Vincenzo" ref="https://muscat.rism.info/admin/people/30006108" type="person" role="cmp">Robaudi, Vincenzo</name>
-<name key="Weber, Carl Maria von" ref="https://muscat.rism.info/admin/people/117485" type="person" role="cmp">Weber, Carl Maria von</name>
-<name key="Michaelis"  type="person" role="cmp">Michaelis</name>
-<name key="Audran"  type="person" role="cmp">Audran</name>
-<name key="Meyerbeer, Giacomo" ref="https://muscat.rism.info/admin/people/725" type="person" role="cmp">Meyerbeer, Giacomo</name>
-<name key="[Senger, Franz Ludwig Hugo von ?] (dir.)" ref="https://muscat.rism.info/admin/people/30015297" type="person" role="int">[Senger, Franz Ludwig Hugo von ?] (dir.)</name>
-<name key="[Orchestre de la Ville de Genève?]"  type="person" role="int">[Orchestre de la Ville de Genève?]</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_1_f000930_001.tif"/>
-<page><![CDATA[e PREMIÈRE PARTIE
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18820728'/>
+        <placeName key='Genève, Kiosque (Promenade des Bastions)'/>
+        <name key='1881-1882' type='series'/>
+        <name key='Hérold' type='person' role='cmp'>Hérold</name>
+        <name key='Verdi, Giuseppe' ref='https://muscat.rism.info/admin/people/137994' type='person' role='cmp'>Verdi, Giuseppe</name>
+        <name key='Strauß, Johann' ref='https://muscat.rism.info/admin/people/132082' type='person' role='cmp'>Strauß, Johann</name>
+        <name key='Robaudi, Vincenzo' ref='https://muscat.rism.info/admin/people/30006108' type='person' role='cmp'>Robaudi, Vincenzo</name>
+        <name key='Weber, Carl Maria von' ref='https://muscat.rism.info/admin/people/117485' type='person' role='cmp'>Weber, Carl Maria von</name>
+        <name key='Michaelis' type='person' role='cmp'>Michaelis</name>
+        <name key='Audran' type='person' role='cmp'>Audran</name>
+        <name key='Meyerbeer, Giacomo' ref='https://muscat.rism.info/admin/people/725' type='person' role='cmp'>Meyerbeer, Giacomo</name>
+        <name key='Senger, Franz Ludwig Hugo von' ref='https://muscat.rism.info/admin/people/30015297' type='person' role='int'>Senger, Franz Ludwig Hugo von</name>
+        <name key='Orchestre de la Ville de Genève' type='person' role='int'>Orchestre de la Ville de Genève</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_1_f000930_001.tif'/>
+        <page>
+          <![CDATA[e PREMIÈRE PARTIE
 >
-
 0uverture du Pré aux Clercs, Hérold.
-
 Fanteusœ Sur La Traviata, . Verdi.
 Morgenblatter, vs - 1 Ss
 Alla stella confidente, . . Robaudi.
-
 « (Piston solo, M. RENARD).
 SECONDE PARTIE
-
 Duverture du Roi des Génies,  Weber.
-
 Patrouille turque, . . - Michœlis.
 lantaisie sur La Mascotte, . _ Audran.
 Marche de Schiller, . . .  Meyerbeer,
-
 nn =
 Inrpeimé J.-D. Jarrys, rue de la Vr@ile.
-
 FOUr 1ES UU11CELrws à 1a UAULLGUIL A1G, 10D
-
 EN
 ts>
-
 o0
-
-voûdre]]></page>       
-        </p>
+voûdre
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

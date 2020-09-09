@@ -1,178 +1,141 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par l'Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)<date when="03/12/1922"/></title>
-<series>1922-1923</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par l'Union instrumentale genevoise (Fanfare
+            municipale de la Ville de Genève)
+            <date when='03/12/1922'/>
+          </title>
+          <series>1922-1923</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002387</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Bodet, F. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19221203"/>
-<title>Concert donné par l'Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)</title>
-<placeName key="Victoria Hall"/>
-<name key="1922-1923" type="series"/>
-<name key="Gluck, Christoph Willibald" ref="https://muscat.rism.info/admin/people/67338" type="person" role="cmp">Gluck, Christoph Willibald</name>
-<name key="Popper, David" ref="https://muscat.rism.info/admin/people/27091" type="person" role="cmp">Popper, David</name>
-<name key="Paisiello, Giovanni" ref="https://muscat.rism.info/admin/people/1874" type="person" role="cmp">Paisiello, Giovanni</name>
-<name key="Massenet, Jules" ref="https://muscat.rism.info/admin/people/84264" type="person" role="cmp">Massenet, Jules</name>
-<name key="Moszkowski, Moritz" ref="https://muscat.rism.info/admin/people/94844" type="person" role="cmp">Moszkowski, Moritz</name>
-<name key="Chopin, Fryderyk Franciszek" ref="https://muscat.rism.info/admin/people/51160" type="person" role="cmp">Chopin, Fryderyk Franciszek</name>
-<name key="Meyerbeer, Giacomo" ref="https://muscat.rism.info/admin/people/725" type="person" role="cmp">Meyerbeer, Giacomo</name>
-<name key="Glazounow"  type="person" role="cmp">Glazounow</name>
-<name key="Goens, Daniel van" ref="https://muscat.rism.info/admin/people/41007232" type="person" role="cmp">Goens, Daniel van</name>
-<name key="Franck, César" ref="https://muscat.rism.info/admin/people/70009" type="person" role="cmp">Franck, César</name>
-<name key="Bodet, Francis (dir.)"  type="person" role="int">Bodet, Francis (dir.)</name>
-<name key="Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)"  type="person" role="int">Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)</name>
-<name key="Barbey-Meyer, H. (Mme)"  type="person" role="int">Barbey-Meyer, H. (Mme)</name>
-<name key="Claret, Gaston"  type="person" role="int">Claret, Gaston</name>
-<name key="Sanctis, de"  type="person" role="int">Sanctis, de</name>
-<name key="Bodet (Mme)"  type="person" role="int">Bodet (Mme)</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002387_001.tif"/>
-<page><![CDATA[PORTES CONCERT
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19221203'/>
+        <title>
+          Concert donné par l'Union instrumentale genevoise (Fanfare municipale
+          de la Ville de Genève)
+        </title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1922-1923' type='series'/>
+        <name key='Gluck, Christoph Willibald' ref='https://muscat.rism.info/admin/people/67338' type='person' role='cmp'>Gluck, Christoph Willibald</name>
+        <name key='Popper, David' ref='https://muscat.rism.info/admin/people/27091' type='person' role='cmp'>Popper, David</name>
+        <name key='Paisiello, Giovanni' ref='https://muscat.rism.info/admin/people/1874' type='person' role='cmp'>Paisiello, Giovanni</name>
+        <name key='Massenet, Jules' ref='https://muscat.rism.info/admin/people/84264' type='person' role='cmp'>Massenet, Jules</name>
+        <name key='Moszkowski, Moritz' ref='https://muscat.rism.info/admin/people/94844' type='person' role='cmp'>Moszkowski, Moritz</name>
+        <name key='Chopin, Fryderyk Franciszek' ref='https://muscat.rism.info/admin/people/51160' type='person' role='cmp'>Chopin, Fryderyk Franciszek</name>
+        <name key='Meyerbeer, Giacomo' ref='https://muscat.rism.info/admin/people/725' type='person' role='cmp'>Meyerbeer, Giacomo</name>
+        <name key='Glazounow' type='person' role='cmp'>Glazounow</name>
+        <name key='Goens, Daniel van' ref='https://muscat.rism.info/admin/people/41007232' type='person' role='cmp'>Goens, Daniel van</name>
+        <name key='Franck, César' ref='https://muscat.rism.info/admin/people/70009' type='person' role='cmp'>Franck, César</name>
+        <name key='Bodet, Francis' type='person' role='int'>Bodet, Francis</name>
+        <name key='Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)' type='person' role='int'>Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)</name>
+        <name key='Barbey-Meyer, H. (Mme)' type='person' role='int'>Barbey-Meyer, H. (Mme)</name>
+        <name key='Claret, Gaston' type='person' role='int'>Claret, Gaston</name>
+        <name key='Sanctis, de' type='person' role='int'>Sanctis, de</name>
+        <name key='Bodet (Mme)' type='person' role='int'>Bodet (Mme)</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002387_001.tif'/>
+        <page>
+          <![CDATA[PORTES CONCERT
 à 8 heures, ‘/»
-
 a @ es DIMANCHE SOIR 3 DÉCEMBRE 1922
 v = —,
-
 DONNÉ PAR
-
 L'UNION INSTRUMENTALE GENEVOISE
-
 (FANFARE MUNICIPALE DE LA VILLE DE GENÈVE)
-
 SOUS LA DIRECTION DE
-
 M., FRANCIS BODET, Directeur
-
 ler Prix du Conservatoire national de Musique de Paris
 Avec le bienveillant concours de
 Madame H. BARBEY-MEYER Monsieur Gaston CLARE
 Mezzo Pianiste DR
 Monsieur De SANCTIS
-
 Violoncelliste soliste de l'O. S. R.
-
 O UE O *
 D- e PROGRAMME: @
-
- 
-
- 
-
- 
-
- 
-
 PREMIÈRE PARTIE
-
 suphigénie en Aulide (ouverture). . *. . - - » Gluck
-
 UVn 9 Tardatelle® 4. 1 1* 1. 11010 0 Paphet
 Monsieur De SANCTIS.
-
 . Récitatif et Cavatine de Cérès, Ex. de Proserpine. — Paesiello.
 Madame BARBEY-MEYER.
-
 . Scènes Pittoresques. a) Marche. b) Air de ballet.
 c) Angelus. d) Fête bohême.. . . . . .  Massenet.
-
 DEUXIÈME PARTIE
-
 . Trois danses espagnoles M. MNoszkowski.
-
 - a) Impromptu. op. 51. - b) Polonaise, op. 53. . — Chopin.
 Monsieur Gaston CLARET.
-
 . Cavatine et air de Fidès (Prophête). . . . . G. Meyerbeer.
 Madame BARBEY-MEYER.
-
 isérénade espagnole . L 1 L . . . - Glazounaa
-
 e 1TN T K4 D voriaee
 Monsieur De SANCTIS.
-
 ; Hulda (Marche du 4m actey . . . . . . . @ Franck.
-
 Au piano Madame Fr. BODET, professeur de piano.
 Piano de concert Erard, aux soins de la Maison Charles BERGUER,
-
 MM. les membres honoraires et passifs ont droit à deux places
-
 sur présentation de leur carte de 1922.
 Ils peuvent se placer partout, sauf aux loges et cordon de première galerie.
-
 PRIX DES PLACES : Cordons de première galerie (places numérotées) Fr. 2.10 : Rez-de-chaussée
 et Première galerie Fr. 1.10 ; Deuxième galerie Fr. 0.60 (droit des pauvres compris).
-
- 
-
- 
-
 Cartes à l’avance chez le concierge du Victoria-Hall.
-
- 
-
- 
-
 =J£ % .  ‘
 S SUS SS NNN MS E
 ErarérarirariarbrarErar ivar à e
-
- 
-
- 
-
-\MPRIMERIE J. STUDER, GENÈVE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002387_002.tif"/>
-<page><![CDATA[7
-
- 
-
- 
-
+\MPRIMERIE J. STUDER, GENÈVE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002387_002.tif'/>
+        <page>
+          <![CDATA[7
 =
-
 UNION INSTRUMENTALE GENEVOISE
-
 FANFARE MUNICIPALE DE LA VILLE DE GENÈVE
-
 COURS D’ÉLÈVES
 T COURS SUPÉRIEURS
-
 pour le Solfège et tous les Jnstruments de cuivre, donnés
 par Monsieur Francis BODET, directeur, premier prix
 de Cornet au Conservatoire de Paris, et par d’excellents
@@ -180,9 +143,6 @@ professeurs: MM. Fr. Kister, H. Deluz, A. Genton, J. Kæser.
 Pour renseignements et inscriptions, s'adresser au local
 des répétitions. Ecole primaira de Malagnou, le Vendredi,
 enire & '/, et 9 heures oùu soir.
-
- 
-
 Les Membres Passifs on/ droit d'entrée pour deux
 personnes à tous les Concerts donnés par l’Union Instru-
 mentale Genevoise (Fanfare Municipale de la Ville de
@@ -191,15 +151,11 @@ très avantageuses à fous les voyages organisés par la
 Société. Pour devenir Membre Passif, // suffit d’adres-
 ser sa demande par écrit au Crésorier, M. J. MARCONI,
 rue J.-Jacquet, 12. £a cotisation annuelle est de 5 Fr.
-
 Ÿ
-
- 
-
- 
-
-J]]></page>       
-        </p>
+J
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

@@ -1,85 +1,91 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par l'Union instrumentale genevoise<date when="19/03/1922"/></title>
-<series>1921-1922</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par l'Union instrumentale genevoise
+            <date when='19/03/1922'/>
+          </title>
+          <series>1921-1922</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F001905</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Bodet, F. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19220319"/>
-<title>Concert donné par l'Union instrumentale genevoise</title>
-<placeName key="Victoria Hall"/>
-<name key="1921-1922" type="series"/>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Mascagni, Pietro" ref="https://muscat.rism.info/admin/people/84056" type="person" role="cmp">Mascagni, Pietro</name>
-<name key="Saint-Saëns, Camille" ref="https://muscat.rism.info/admin/people/76734" type="person" role="cmp">Saint-Saëns, Camille</name>
-<name key="Sacchini, Antonio" ref="https://muscat.rism.info/admin/people/30002777" type="person" role="cmp">Sacchini, Antonio</name>
-<name key="Charpentier, G."  type="person" role="cmp">Charpentier, G.</name>
-<name key="Boëllmann, L."  type="person" role="cmp">Boëllmann, L.</name>
-<name key="Massenet, Jules" ref="https://muscat.rism.info/admin/people/84264" type="person" role="cmp">Massenet, Jules</name>
-<name key="Wieniawski, Henryk" ref="https://muscat.rism.info/admin/people/137176" type="person" role="cmp">Wieniawski, Henryk</name>
-<name key="Schubert, Franz" ref="https://muscat.rism.info/admin/people/111603" type="person" role="cmp">Schubert, Franz</name>
-<name key="Bodet, Francis (dir.)"  type="person" role="int">Bodet, Francis (dir.)</name>
-<name key="Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)"  type="person" role="int">Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)</name>
-<name key="Barassi, Louise"  type="person" role="int">Barassi, Louise</name>
-<name key="Defago, Edmée"  type="person" role="int">Defago, Edmée</name>
-<name key="Sottiaux, Fernand"  type="person" role="int">Sottiaux, Fernand</name>
-<name key="Bodet (Mme)"  type="person" role="int">Bodet (Mme)</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001905_001.tif"/>
-<page><![CDATA[GN A |
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19220319'/>
+        <title>Concert donné par l'Union instrumentale genevoise</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1921-1922' type='series'/>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Mascagni, Pietro' ref='https://muscat.rism.info/admin/people/84056' type='person' role='cmp'>Mascagni, Pietro</name>
+        <name key='Saint-Saëns, Camille' ref='https://muscat.rism.info/admin/people/76734' type='person' role='cmp'>Saint-Saëns, Camille</name>
+        <name key='Sacchini, Antonio' ref='https://muscat.rism.info/admin/people/30002777' type='person' role='cmp'>Sacchini, Antonio</name>
+        <name key='Charpentier, G.' type='person' role='cmp'>Charpentier, G.</name>
+        <name key='Boëllmann, L.' type='person' role='cmp'>Boëllmann, L.</name>
+        <name key='Massenet, Jules' ref='https://muscat.rism.info/admin/people/84264' type='person' role='cmp'>Massenet, Jules</name>
+        <name key='Wieniawski, Henryk' ref='https://muscat.rism.info/admin/people/137176' type='person' role='cmp'>Wieniawski, Henryk</name>
+        <name key='Schubert, Franz' ref='https://muscat.rism.info/admin/people/111603' type='person' role='cmp'>Schubert, Franz</name>
+        <name key='Bodet, Francis' type='person' role='int'>Bodet, Francis</name>
+        <name key='Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)' type='person' role='int'>Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)</name>
+        <name key='Barassi, Louise' type='person' role='int'>Barassi, Louise</name>
+        <name key='Defago, Edmée' type='person' role='int'>Defago, Edmée</name>
+        <name key='Sottiaux, Fernand' type='person' role='int'>Sottiaux, Fernand</name>
+        <name key='Bodet (Mme)' type='person' role='int'>Bodet (Mme)</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001905_001.tif'/>
+        <page>
+          <![CDATA[GN A |
 PGTE), VICTORIA-HALL RRN
 ÈŸ— Ÿ
-
 | ‘ | CONCERT
 PORTES ;
 ' X ore DIMANCHE 19 MARS 1922 à 2 heures A
 }‘: v == A v
 Ë
-
 A Ÿ / 4 u SN H 7:—î
 R ( Î[Ù l—. Ë
-
 DONNÉ _ PAR ÿ A
-
 | | vUNION INSTRUMENTALE GENEVOISE
-
- 
-
 Ï (FANFARE MUNICIPALE DE LA VILLE DE GENÈVE)
 I SOUS LA DIRECTION DF "
 lä_ M. Francis BODET Directeur
@@ -87,25 +93,8 @@ lä_ M. Francis BODET Directeur
 Ï Avec le bienveillant concours de
 Madame Louise BARASSI Mademoiseile Edlmée DEFAGO
 Soprano Contralto
-
 ' ; Monsieur Fernand SOTTIAUX
-
 Violoniste soliste de l'O. S. R.
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 G e G
 D> PROGRAMME: 5
 PREMIÈRE PARTIE.
@@ -136,38 +125,22 @@ PRIX DES PLACES : Cordons de première galerie (places numérotées) Fr. 2.10 ; 
 et Première galerie Fr. 1.10 ; Deuxième galerie Fr. 0.60 (droit des pauvres compris).
 Cartes à l'avance chez le concierge du Victoria-Hall
 Les membres exécutants de l’Harmonie naulique, de la Musique de Landwehr et de la Musique d'Elite
-
- 
-
- 
-
- 
-
- 
-
 L ont droit d'entrée sur présentation de leur carte de 1922.
-
 D
 S 1s Essss:sçc se s) Ks ®x SEN
 NWIO Ë&@QÔâ M@ Œ Ëoÿ6ÿ0ä MC) % MIO 63 ë
-
 IMPRIMERIE J. STUDER, GENÈVE
-
 S
-
-Q]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001905_002.tif"/>
-<page><![CDATA[UNION INSTRUMENTALE GENEVOISE
-
+Q
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001905_002.tif'/>
+        <page>
+          <![CDATA[UNION INSTRUMENTALE GENEVOISE
 FANFARE MUNICIPALE DE LA VILLE DE GENEVE
-
- 
-
 [ \
-
 COURS D’ÉLÈVES
 t COURS SUPÉRIEURS
-
 pour le Solfège et tous les Jnstruments de cuivre, donnés
 par Monsieur Francis BODET, directeur, premier prix
 de Cornet au Conservatoire de Paris, et par d’excellents
@@ -175,9 +148,6 @@ professeurs : MM. Fr. Kister, H. Deluz, A. Genton, A. Galland. i
 J Kæser. Pour renseignements et inscriptions, s'adresser au
 local des répétitions, Ecole primaire de Malagnou, le
 Vendredi, entre 8 ‘,, et 9 heures Àu soir.
-
- 
-
 Les Membres Passifs ont droit d'entrée pour deux
 personnes à tous les Concerts donnés par l’Union Instru-
 mentale Genevoise (Fanfare Municipale de la Ville de
@@ -186,19 +156,11 @@ très avantageuses d fous les voyages organisés par la
 Société. Pour devenir Membre Passif, // suffit d’adres-
 ser sa demande par écrit au Crésorier, M. J. MARCONI.
 rue J.-Jacquet, 12. ÆLa cotisation annuelle est de 5 Fr.
-
- 
-
- 
-
- 
-
- 
-
 (r
-
-d]]></page>       
-        </p>
+d
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

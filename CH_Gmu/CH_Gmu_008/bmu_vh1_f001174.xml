@@ -1,201 +1,156 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par l'Harmonie nautique<date when="21/12/1913"/></title>
-<series>1913-1914</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par l'Harmonie nautique
+            <date when='21/12/1913'/>
+          </title>
+          <series>1913-1914</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F001174</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Pieyre, A. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19131221"/>
-<title>Concert donné par l'Harmonie nautique</title>
-<placeName key="Victoria Hall"/>
-<name key="1913-1914" type="series"/>
-<name key="Mendelssohn Bartholdy, Felix" ref="https://muscat.rism.info/admin/people/88790" type="person" role="cmp">Mendelssohn Bartholdy, Felix</name>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Massenet, Jules" ref="https://muscat.rism.info/admin/people/84264" type="person" role="cmp">Massenet, Jules</name>
-<name key="Chopin, Fryderyk Franciszek" ref="https://muscat.rism.info/admin/people/51160" type="person" role="cmp">Chopin, Fryderyk Franciszek</name>
-<name key="Berlioz, Hector" ref="https://muscat.rism.info/admin/people/13803" type="person" role="cmp">Berlioz, Hector</name>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Hahn, Reynaldo"  type="person" role="cmp">Hahn, Reynaldo</name>
-<name key="Bastard, William"  type="person" role="cmp">Bastard, William</name>
-<name key="Doret, Gustave" ref="https://muscat.rism.info/admin/people/3145724" type="person" role="cmp">Doret, Gustave</name>
-<name key="Balakirew"  type="person" role="cmp">Balakirew</name>
-<name key="Liszt, Franz" ref="https://muscat.rism.info/admin/people/107196" type="person" role="cmp">Liszt, Franz</name>
-<name key="Debussy, Claude" ref="https://muscat.rism.info/admin/people/4338" type="person" role="cmp">Debussy, Claude</name>
-<name key="Pieyre, Auguste (dir.)"  type="person" role="int">Pieyre, Auguste (dir.)</name>
-<name key="Harmonie Nautique"  type="person" role="int">Harmonie Nautique</name>
-<name key="Roesgen, Marguerite"  type="person" role="int">Roesgen, Marguerite</name>
-<name key="Kunz, A."  type="person" role="int">Kunz, A.</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001174_001.tif"/>
-<page><![CDATA[SuRRE
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19131221'/>
+        <title>Concert donné par l'Harmonie nautique</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1913-1914' type='series'/>
+        <name key='Mendelssohn Bartholdy, Felix' ref='https://muscat.rism.info/admin/people/88790' type='person' role='cmp'>Mendelssohn Bartholdy, Felix</name>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Massenet, Jules' ref='https://muscat.rism.info/admin/people/84264' type='person' role='cmp'>Massenet, Jules</name>
+        <name key='Chopin, Fryderyk Franciszek' ref='https://muscat.rism.info/admin/people/51160' type='person' role='cmp'>Chopin, Fryderyk Franciszek</name>
+        <name key='Berlioz, Hector' ref='https://muscat.rism.info/admin/people/13803' type='person' role='cmp'>Berlioz, Hector</name>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Hahn, Reynaldo' type='person' role='cmp'>Hahn, Reynaldo</name>
+        <name key='Bastard, William' type='person' role='cmp'>Bastard, William</name>
+        <name key='Doret, Gustave' ref='https://muscat.rism.info/admin/people/3145724' type='person' role='cmp'>Doret, Gustave</name>
+        <name key='Balakirew' type='person' role='cmp'>Balakirew</name>
+        <name key='Liszt, Franz' ref='https://muscat.rism.info/admin/people/107196' type='person' role='cmp'>Liszt, Franz</name>
+        <name key='Debussy, Claude' ref='https://muscat.rism.info/admin/people/4338' type='person' role='cmp'>Debussy, Claude</name>
+        <name key='Pieyre, Auguste' type='person' role='int'>Pieyre, Auguste</name>
+        <name key='Harmonie Nautique' type='person' role='int'>Harmonie Nautique</name>
+        <name key='Roesgen, Marguerite' type='person' role='int'>Roesgen, Marguerite</name>
+        <name key='Kunz, A.' type='person' role='int'>Kunz, A.</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001174_001.tif'/>
+        <page>
+          <![CDATA[SuRRE
 \
-
- 
-
- 
-
 ; 6601 H AI .
-
 G e oÊ-—— =0
-
 e dimanche 21 Décembre 1913 | 0m commençors à
-
- 
-
 à 1 heure 314 |
-
 | COI e - |
 | L'HARMONIE NAUTIQUE DE GENÈVE
-
 sous la direction de
-
 M. Aususte PIEY fI
-
 Professeur au Conservatoire
-
- 
-
-     
-
 CIRR T
-
- 
-
 avec le gracieux concours de
-
 M'e M. ROESGEN M. A. KUNZ
-
 Pianiste Baryton
 m
 —— PROGRAMME 2 ——
 uv
 PREMIÈRE PARTIE
 denmed Ruy-Blass.….. ... Mendelssohn
-
 en daleonenerin. .1 R. Wagner
-
 u auRoide ‘ahore ... Massenet
 M. A. KUNZ.
-
 vasaane e Chopin
 M* Marguerite ROESGEN.
-
 mimarche Troyvenne....… ... 0. Berlioz
-
- 
-
 DEUXIÈME PARTIE
-
- 
-
- 
-
 Adagio de la Neuvième Symphonie ..…....…..… Beethoven
 r Puineprison ... Reynaldo Hahn
 DiNeproyezpus ... William Bastard
 . S oneronm Gustave Doret
 M. A. KUNZ.
-
 PR meme e Balakirew
-
 aezeppatt = Liszt
 M'® Marguerite ROESGEN,
-
 emessnnent 1 1T es Claude Debussy
-
- 
-
- 
-
 1. En bateau — 2. Cortège. 3. Menuet. — 4. Ballet.
 PRIX DES PLACES : Loges el premier rang de la première Galerie (numérotés), 2 fr, Rez-de-chaussée
 el autres places de la premiébre Galerie, 1 fr. — Seconde Galerie, 50 cent.
-
 MM, les membres non-exécutants ont droit d’entrée à ce concerl
 10 aux places du rez-de-chaussée et de la première galerie,
 auxquels ils ont droit moyennant nn supplément de 1 fr.
 demi-place. — I1 ne sera pas délivré de demi places
-
 Ï sur présentation du coupon n°* 9 et
-
 à l'exception du premier randg et des loges,
 Les enfants au-dessous de dix ans paieront
-
 pour la seconde galerie,
-
 Dés ce jour, cartes à l’avance de 9 à 6 h,, au Victoria-Hall.
-
 Prière de ne pas entrer pendant l'exécution des morceaux. — BUFFET au rez-de-chaussée.
-
 mprimerie H. Jarrys, Treille, 4, Genéve.
-
-T. S. V. P.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001174_002.tif"/>
-<page><![CDATA[Cours d’Instruments
-
+T. S. V. P.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001174_002.tif'/>
+        <page>
+          <![CDATA[Cours d’Instruments
 DE
-
 L’HARMONIE NAUTIQUE DE GENÈVE
-
 e P33 —
-
 Solfège — Cuivres — Clarinette — Saxophone — Hautbois
 Cor anglais — Basson — Flûte.
-
 Directeur général : M. Aug. PIEYRE.
-
 Prix des cours de solfège, cuivres, clarinette, saxophone :
-
 5 fr. par mois.
-
 Les jeunes gens désireux de suivre ces cours peuvent s’inserire tous
 les jours, de 11 heures à midi, auprès du Directeur, au Victoria-Hall.
-
 és
-
 AVIS. — Pour être reçu membre non-exécutant de l’Harmonie
 Nautique on peut s’inscrire tous les jours chez le Concierge du
 Victoria-Hall ou par lettre adressée au Comité; le prix de la carte
 est de 8 fr. par an et donne droit à deux entrées pour
-
 chaque
-concert donné par l’Harmonie Nautique.]]></page>       
-        </p>
+concert donné par l’Harmonie Nautique.
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

@@ -1,59 +1,72 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert-jubilé du 25me anniversaire de la fondation de l'OSR<date when="13/10/1943"/></title>
-<series>1943-1944</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert-jubilé du 25me anniversaire de la fondation de l'OSR
+            <date when='13/10/1943'/>
+          </title>
+          <series>1943-1944</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F003225</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Ansermet, E. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19431013"/>
-<title>Concert-jubilé du 25me anniversaire de la fondation de l'OSR</title>
-<placeName key="Victoria Hall"/>
-<name key="1943-1944" type="series"/>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Liszt, Franz" ref="https://muscat.rism.info/admin/people/107196" type="person" role="cmp">Liszt, Franz</name>
-<name key="Ansermet, Ernest  (dir.)" ref="https://muscat.rism.info/admin/people/40219507" type="person" role="int">Ansermet, Ernest  (dir.)</name>
-<name key="Orchestre de la Suisse Romande" ref="https://muscat.rism.info/admin/people/50007615" type="person" role="int">Orchestre de la Suisse Romande</name>
-<name key="Frohsinn"  type="person" role="int">Frohsinn</name>
-<name key="Frey, Willy"  type="person" role="int">Frey, Willy</name>
-<name key="Koenig, H."  type="person" role="int">Koenig, H.</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003225_001.tif"/>
-<page><![CDATA[PEs PRETE x ;
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19431013'/>
+        <title>Concert-jubilé du 25me anniversaire de la fondation de l'OSR</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1943-1944' type='series'/>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Liszt, Franz' ref='https://muscat.rism.info/admin/people/107196' type='person' role='cmp'>Liszt, Franz</name>
+        <name key='Ansermet, Ernest' ref='https://muscat.rism.info/admin/people/40219507' type='person' role='int'>Ansermet, Ernest</name>
+        <name key='Orchestre de la Suisse Romande' ref='https://muscat.rism.info/admin/people/50007615' type='person' role='int'>Orchestre de la Suisse Romande</name>
+        <name key='Frohsinn' type='person' role='int'>Frohsinn</name>
+        <name key='Frey, Willy' type='person' role='int'>Frey, Willy</name>
+        <name key='Koenig, H.' type='person' role='int'>Koenig, H.</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003225_001.tif'/>
+        <page>
+          <![CDATA[PEs PRETE x ;
 ï RE 4 £
 * $ & ;
 R
@@ -68,103 +81,56 @@ _
 Ÿ
 4 f
 + l ;
-
- 
-
- 
-
 en lllllillllIlllllllllllllll_lllllll HNUOOESCENTOOTOVENECOOOONLAOGENOLOOOOOUOOOAONSTOOCHORNOCEOSEENTEOSETOOUEOOLOONONENEEORTE
-
 TT O IS
-
 AUCENRUOUNCONROUEOOUONECHUNCECEOETULOEOCLCEOEOTOUO E CEOE CECCTTEOTENTE
-
 T
 II
-
- 
-
- 
-
- 
-
- 
-
 Ssptouirontontenra tn nattani O 0
-
- 
-
- 
-
-DANORHDHSOHOODOODSHOHADHDDNDIDDODADOODONDOODISDODDONODITISANTIHÉSTOOOROPONENODOODÉDUONENDDENSSTDDODBAODIDSTIDRONTESHSHIHENENNN]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003225_002.tif"/>
-<page><![CDATA[NÈVE
+DANORHDHSOHOODOODSHOHADHDDNDIDDODADOODONDOODISDODDONODITISANTIHÉSTOOOROPONENODOODÉDUONENDDENSSTDDODBAODIDSTIDRONTESHSHIHENENNN
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003225_002.tif'/>
+        <page>
+          <![CDATA[NÈVE
 3 %\îî desEaux-Vives
-
- 
-
 Fabrication de tous pa_ÿs
 En gros et en détail
-
 _
-
 Téléphone: 5 08 92 ;
- Télégrammes : Paptenture, Genève
+Télégrammes : Paptenture, Genève
 ‘ Chèques postaux : I. 4605
-
- 
-
- 
-
 6} r e e
-
 É5 0 Ttn es dc
-
-0 voges mc éh es]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003225_003.tif"/>
-<page><![CDATA[PRCRTEES T IIAE T0h 207 58T
+0 voges mc éh es
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003225_003.tif'/>
+        <page>
+          <![CDATA[PRCRTEES T IIAE T0h 207 58T
 , ys" p
-
- 
-
 MERCREDI 13 OCTOBRE 10943 VICTORIA-HALL
-
 ccrc C m “4
-
 _'—.—.__—=—a
 E CRRGUE Ac d
-
 r tc d
-
- 
-
 p O SS
-
 {  CONCERT-JUBILÉ
-
 du 25”° Anniversaire
-
 de la fondation de
-
 0n
-
- 
-
 mirapes Mée c hp diees dipie ogpage cRE
-
-1918 1943]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003225_004.tif"/>
-<page><![CDATA[Directeur :
-
+1918 1943
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003225_004.tif'/>
+        <page>
+          <![CDATA[Directeur :
 ICYSWiolons
-
 MM.
-
 Capoulade
 Neufeld
-
 *Klein
-
 Echenard
 Bornand, M!e
 Breittmayer, M=e
@@ -174,13 +140,9 @@ Gavalda
 *Gœhring
 Guinand-Breguet, Mme
 Lacroix
-
 Leonardi
-
 Minkoff
-
 ames violons
-
 Perret
 Grandpierre
 Belin
@@ -194,9 +156,7 @@ Lehmann
 Meerson
 Reichel
 Schwock
-
 Altos
-
 Krausz
 Sougné
 | *Borgeaud
@@ -205,190 +165,122 @@ Kunz
 Pilet
 Robert, M!e
 Schenker
-
 Les noms marqués
-
 Orchestre de la Suisse Romande À
 Frmest ANSERMET
-
 MM.
-
 Violoncelles
-
 Honegger
 *Buenzod
-
 Faller, M!le
 *Guignard
 Montandon, M!e
 Morel
-
 Reinhard
-
 de Ribaupierre
-
 Contrebasses
-
 Fryba
 Bouillod
 Barroux
 Faller
 Zinsstag
-
 Flütes
-
 Pépin
-
 Roy
-
 Meschini
 *Bretton
-
 Hautbois
-
 *Dennes
 Fauquex
 Parolari
 Guilhot
-
 Clarinettes
-
 *Hoogstoel
 Gugolz
 Thomann
-
 *Lavanchy
-
 Bassons
 Helaerts
 Frei
 Lancoux
-
 dénnr- s# sont
-
 ceux des
-
- 
-
 Bonnal ;
 Galletti ,
 *Fritz
 Ristori
 Béhar
-
 Trompettes
 Bodet |
 Bindschedler 5
 Weber
 Paychère
-
 Trombones
 Morley
-
 Perrin
 Tabachnik
-
 Tuba Æ
 Laurent
 Fatio
 Batterie’
 Peschier
-
 *Trémège François
 Trémège Louis
-
 Harpes
-
 de Sanctis, Mme
 Vita
-
 Rossiaud, M!le
 Vaucher-Clerc, Mme
-
 Garçon d'orchestre
-
 *Bühler Adolphe
-
 membres de l’orchestre
-
-ayant participé à ses débuts.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003225_005.tif"/>
-<page><![CDATA[]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003225_006.tif"/>
-<page><![CDATA[Association des Amis
-
+ayant participé à ses débuts.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003225_005.tif'/>
+        <page><![CDATA[]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003225_006.tif'/>
+        <page>
+          <![CDATA[Association des Amis
 de l’Orchestre Romand à Genève
-
 COMITÉ :
-
 MM. Pierre JACCOUD, Président ;
 Henri BROLLIET, Vice-président ;
 Charles BABEL, Trésorier ;
 Edmond MARTIN-ACHARD, Secrétaire.
-
 MM. Léopold BOISSIER, Alfred BOREL, Emile BRUNSCHWIG,
 René DOVAZ, Paul FUBTER, Francis GATEAY. Jean
 LULLIN, Frank MARTIN, Félix POMMIER, Gaston RIONDEL,
 Emile UNGER, Charles ZANELLO.
-
 *
 * *
-
 L’Association des Amis de l’Orchestre Romand a été créée en vue
 d’apporter à l'institution de l'orchestre un appui moral et financier:
-
 C’est par l’organe des Amis de l’Orchestre Romand que s’est opéréé
 la jonction des ressources publiques et des ressources radiophoniques
 en vue d’agrandir et de stabiliser notre orchestre. C’est d’eux que
 dépend le maintien de l'état actuel des choses.
-
 Devenir souscripteur, membre des Amis de l’O.S.R., c’est
 donc collaborer activement au maintien de notre orchestre et
 à l’élément de culture qu’il représente en notre ville.
-
 La qualité de membre souscripteur s'acquiert par le versement d’une
 cotisation annuelle (minimum 5 francs) au compte de chèques postaux
 des Amis de l'O.S.R. n° I. 6870 ; elle assure un droit de priorité lors de
 la souscription des abonnements, et celui d'’assister gratuitement au
 « Concert plébiscite » en fin de saison.
-
- 
-
 Æ
 ;
-L]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003225_007.tif"/>
-<page><![CDATA[Aliréd  VIDOUDE/
-
-            
-      
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
- 
-    
-
+L
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003225_007.tif'/>
+        <page>
+          <![CDATA[Aliréd  VIDOUDE/
 Le cœur serré nous inscrivons ici dans un cadre de deuil le nom
 d’Alfred Vidoudez. Notre collègue, notre ami nous a quittés brusquement.
 Plus qu’aucun de nous, il s’était réjoui des deux anniversaires que nous
 célébrons et il avait apporté à préparer leur commémoration la délicatesse
 de son cœur et sa riche expérience.
-
 Alfred Vidoudez a été un excellent citoyen. Il n’a jamais dissimulé son
 opinion à l’égard des problèmes politiques, et face à eux, il a toujours eu
 la franchise de s’affirmer. À ce trait qui souligne la qualité de son civisme,
@@ -403,134 +295,97 @@ constitution en 1938, en sa nouvelle formule, l’Orchestre de la Suisse
 romande lui confia son administration. Malgré ses préoccupations, il
 ne se déroba pas et fut un administrateur auquel nous n’avons cessé de
 rendre hommage, dévoué et désintéressé.
-
 Dans le domaine musical,comme dans d’autres, Alfred Vidoudez a fait
 rayonner sa loyauté, sa bonté, sa sensibilité, l’amour qu’il professait pour
 son pays et ses institutions culturelles.
-
 Alfred Vidoudez a servi Genève en toute modestie et avec un dévouement
-dont ses concitoyens conserveront le souvenir avec émotion.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003225_008.tif"/>
-<page><![CDATA[L'AUTORITÉ EN
-
+dont ses concitoyens conserveront le souvenir avec émotion.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003225_008.tif'/>
+        <page>
+          <![CDATA[L'AUTORITÉ EN
 PEIRNOS
-
- 
-
 LA SPÉCIALITÉ EN
-
 TOUS- LES GENRES
 NOUVEAUTÉS
-
- 
-
 Ms N°9
-
 PIANOS
 « ÉTUDE»
-
 L’'INSTRUMENT
-
 SE FAIT EN TOUS
 STYLES ET BOIS
-
 Fabriqué en Suisse
-
 Steinway & Sons - Bluthner
 Pleyel - Schmidt-Flohr - Bur-
 ger-Jacobi, etc.
-
 Location - Toutes réparations - Accords
 Echange - Instruments anciens.
-
 RADIOS
-
 Deso - Marconi - Aga - Albis
 Telefunken - Philips
 Antennes collectives, blindées - Radio
-
 Gramos - Changeurs - Dépannage,
 service de premier ordre.
-
 DESQUES
-
 LA MAISON DE LA MUSIQUE
 Existe depuis 1830
-
 SAUTIER s JAEGER
-
-FUSTERIE ,312, GENEVE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003225_009.tif"/>
-<page><![CDATA[Conseil de Fondation
-
+FUSTERIE ,312, GENEVE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003225_009.tif'/>
+        <page>
+          <![CDATA[Conseil de Fondation
 de l’Orchestre de la Suisse Romande
-
 Président : M. Paul LACHENAL, Genève.
 Vice-président: M. le D' Fréd. BLANCHOD, Lausanne.
 Secrétaire : M. René DOVAZ.
-
 Trésorier : M. Henri BROLLIET.
-
 Conseillers délégués :
-
 MM.
-
 Emile HEUBI, Lausanne; Pierre JACCOUD, Emile UNGER,
 Genève; MM. les Directeurs des studios de Genève et Lausanne.
-
 Memubres :
-
 M.
 MM.
-
 M.
-
 MM.
-
 MM.
-
 MM.
-
 GLOGG, Directeur général de la Radiodiffusion, Berne.
-
 les représentants des Gouvernements cantonaux: Conseiller d'Etat
 Henri MOUTTET, Berne (Jura romand); Conseiller d'Etat
 Adrien LACHENAL, Genève ; Conseiller d’Etat Joseph PILLER,
 Fribourg; Conseiller communal Gérard BAUER, Neuchâtel;
 Conseiller d’Etat Cyrille PITTELOUD, Valais; Conseiller d’Etat
 Paul PERRET, Vaud.
-
 le Conseiller d’Etat Louis CASAÏ, MM. les Conseillers administratifs
 Jules PENEY et Fernand COTTIER, MM. Philippe ALBERT,
 Léopold BOISSIER, Alfred BOREL, André GUINAND, Emile
 JAQUES-DALCROZE, Alfred PELLIGOT, Maurice PICTET
 DE ROCHEMONT, Marcel RAYMOND, Charles ZANELLO,
 à Genève.
-
 Antoine VODOZ, Conseiller d’Etat, Marius AMANN, Conseiller
 municipal, Jacques BÉRANGER, René BICKART, KRoger
 CORREVON, Louis SALATHE, Auguste MARGUERAT, Georges
 ROSSET, Henri STIERLIN-VALLON, à Lausanne.
-
 Samuel GÉTAZ et E. ROSSIER-GEORG, à Vevey; François
 ESSEIVA et le Dr Paul RYNCKI, à Fribourg; Claude DU
 PASQUIER, à Neuchâtel; Tell PERRIN, à La Chaux-de-Fonds;
 Edmond BILLE et Gustave TURINI, à Sierre.
-
 les délégués des Associations genevoise et vaudoise des Amis de
 l’O.S.R., de la Société des Emissions Radio-Genève, de la Société
 Romande de Radiodiffusion, de la Commission des Programmes
 de Sottens et des Artistes-Musiciens de l’Orchestre.
-
 Chef d’Orchestre: E. ANSERMET
-
-ADMINISTRATION: 22, CORRATERIE, GENÈVE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003225_010.tif"/>
-<page><![CDATA[D
+ADMINISTRATION: 22, CORRATERIE, GENÈVE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003225_010.tif'/>
+        <page>
+          <![CDATA[D
 è A
-
- 
-
 ps 7
 Ë
 [
@@ -546,138 +401,75 @@ b
 Ï
 çu
 f
-
- 
-
- 
-
 16 +4)
 LR
 L
 E
-
- 
-
-     
-
 PATEK, PHILIPPE & C° |
 = -fÔ V%Â//z«ä E /ÿÆZ/(È/{Z(& î/Æ%ng(»/fi€/
-
 22, GRAND-QUAI
-
- 
-
- 
-
- 
-
 TT #
-m E]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003225_011.tif"/>
-<page><![CDATA[n es 4
-
+m E
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003225_011.tif'/>
+        <page>
+          <![CDATA[n es 4
 » Programme du premier concert de lO.S.R. en 1918
-
- 
-
 —— es
-
 {
 118
 Ë‘:
-
- 
-
 ue
-
 S5Te3 T =
-
 vIietToR N MnLye © CENÈVE
-
 SAMEDI 30 NOVEMBRE 1918, à 8 heures 30
-
 SOGIFLTE DE JORCHESTRE
-
 DE LA
-
 SUISSE ROMANDE
 CONCERT SYMPHONIQUE
-
 1e° DE Ll'ABONNEMENT
 Soliste: Mre DEBOGIS-BOHY, Cantatrice
-
 PROGRAMME
-
 PREMIÈRE PARTIE
-
 1. CONCERTO GROSSO en si bémol, op. 3n 1 . .. . . . .  Haendel
 Allegro moderato - Largo - Allegro.
 Concertino: Cordes : MM. Closset, Sabbatani, Sottiaux, Albisi, Brandia, Mazzoni.
 Hautbois : Nazzi et Bellenger.
 Piano : Pommier.
-
 2. AIR DE NITOCRIS, de « Balthazar », pour chant et orchestre . Haendel
 Mme DEBOGIS-BOHY
-
 3. SYMPHONIE en ré majeur (K. 504) . e n . Moratl
 a) Adagio - Allegro. - b) ;\ndantt - c) l’r(xtn
-
 DEUXIÈME PARTIE
-
 4. a) NOX (des Poèmes de la Mer), 1'° audition . . 1. " Bemmer
 b) RONDE PRINTANIÈRE, pour chant et nrchutrn » … … .  Jaques-Dalcroze
 Mme DEBOGIS-BOHY
-
 5. SHÉHÉRAZADE, suite symplmmquc d’après Les mille et une
 Naise 1s 4- ; ‘ » lRimsky-Korsakow
-
 a) La mer et Ic vaisseau dç Sm(lbml
-
 b) Le récit du Prince. Kalender.
-
 c) Le jeune Prince et la Princesse.
-
 d) Fête à Bagdad. - La mer. - Le vaisseau sombre sur un
-
 écueil présentant l’aspect d’un guerrier d’airain.
 Violon solo: M. Closset.
-
 Orchestre sous la direction de M' Ernest ANSERMET
-
- 
-
 Aucun morceau ne sera répété, ni ajouté au programme.
-
 La Direction se réserve le droit d’apporter au programme toutes modifications que les
 circonstances pourraient lui imposer.
-
- 
-
 Location et renseignements chez MM. ROTSCHY frères
-
- 
-
- 
-
 R A SE
-
 ;
 f
 #
-
- 
-
- 
-
-PR EnR 026]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003225_012.tif"/>
-<page><![CDATA[En vente chez
-
+PR EnR 026
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003225_012.tif'/>
+        <page><![CDATA[En vente chez
 17
 Rue du Rhône
-
 ©
-
 es
 —
 &
@@ -685,87 +477,55 @@ S
 =—
 =
 æ
-&]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003225_013.tif"/>
-<page><![CDATA[Programme du
-
+&
+]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003225_013.tif'/>
+        <page>
+          <![CDATA[Programme du
 CONCERT-JUBILÉ
-
 du 25”° anniversaire de la fondation de
-
 OSn
-
 Direction : Ernest ANSERMET
-
- 
-
 1. SYMPHONIE N° 1, en ut majeur . 3EETHOVEN
-
 a) Adagio molto - Allegro con brio.
-
 b) Andante cantabile con moto.
-
 c) Menuetto (allegro molto e vivace).
 d) Adagio - Allegro molto e vivace.
-
 2. SYMPHONIE SUR FAUST . LISzT
-
 en trois images de caractère, avec chœur final et
 ténor solo.
-
 a) Faust - b) Gretchen - c) Méphistophélès,
-
 Chœur d’hommes : Frohsinn, dir.: M. H. KœnirG.
-
 Ténor solo: M. Willy FrEv.
 ©
-
 La manifestation du XXVre anniversaire aura lieu après
-
 la première symphonie.
-
-Il n'y a pas d’entr’acte.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003225_014.tif"/>
-<page><![CDATA[| BRASSÉRIE-CABARET-BAR- DANCING
+Il n'y a pas d’entr’acte.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003225_014.tif'/>
+        <page>
+          <![CDATA[| BRASSÉRIE-CABARET-BAR- DANCING
 Ÿ IV 48079 0200 MRE IERE ”
-
-       
- 
-   
-   
-
 . , Soirée dès
 Après-midi
-
 ; 21 heures
 CONCERT Orchestre Christen CABARET
 de 4 à6h. DANCING
-
- 
-
- 
-
 Confiserte — Tea-RNoom $
-
- 
-
 £e rendej-vous de la clientèle élégante
-
-2, place du Sac Genève]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003225_015.tif"/>
-<page><![CDATA[Louis van BEETHOVEN
-
+2, place du Sac Genève
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003225_015.tif'/>
+        <page>
+          <![CDATA[Louis van BEETHOVEN
 (1770-1827)
-
 GP
-
 Première symphonie de Beethoven
-
 GP
-
 EETHOVEN avait près de trente ans lorsque, le 2 avril 1800, il offrit
 B au public viennois sa première symphonie.
-
 À cet âge, Mozart avait écrit la plupart des siennes ; Beethoven,
 moins précoce, n’avait encore composé que deux grands ouvrages pour
 orchestre, les concerti de piano, opus 15 et 19: le premier datant de 1795
@@ -779,14 +539,12 @@ inspiration nouvelle, on peut dater, en tout cas, la première symphonie
 de 1799-1800 au plus tard, puisque le concert à la fin duquel elle fut exécutée
 pour la première fois était annoncé dès le 26 mars 1800 aux lecteurs de
 l’« Allgemeine musikalische Zeitung ».
-
 Plutôt que d’analyser cette œuvre bien connue, il nous semble plus
 intéressant de dire en quels termes elle fut accueillie. À Paris, le « Courrier
 de l’Europe et des Spectacles » trouve « que cette symphonie riche d’har-
 monie et pleine de motifs délicieux, bien contrastés, bien variés et distri-
 bués de la manière la plus heureuse a excité les plus vifs applaudissements.
 Voilà l’œuvre d’un grand homme.… »
-
 Par contre, les « Tablettes de Polymnie » s’effrayaient « de l’étonnant
 succès des compositions de Beethoven, d’un exemple dangereux pour l’art
 musical. La contagion d’une harmonie tudesque semble gagner l’école
@@ -796,56 +554,32 @@ avec fracas tous les instruments de l’orchestre. Hélas ! on ne fait que déch
 rer bruyamment l’oreille, sans jamais parler au cœur ». Ailleurs, on qualifie
 la première symphonie « d’explosions confuses de la présomption effrontée
 d’un jeune homme ».
-
-Telles sont les critiques d’alors. Le temps en fit justice…]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003225_016.tif"/>
-<page><![CDATA[VIDOUDEZ
-
+Telles sont les critiques d’alors. Le temps en fit justice…
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003225_016.tif'/>
+        <page>
+          <![CDATA[VIDOUDEZ
 LUTHIER DU CONSERVATOIRE
-
-   
-
 Û Corraterie 299
 Ë Téléphone 4 43 35
 fl
-
- 
-
- 
-
- 
-
 Cadeaux artistiques
-
-  
-
 Fleurs de choix
-
 Maître Fleuriste
-
 CORRÀTERIE. 26 (Pas de succursale)
-
- 
-
- 
-
-    
-
-©]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003225_017.tif"/>
-<page><![CDATA[Franz FISZT
-
+©
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003225_017.tif'/>
+        <page>
+          <![CDATA[Franz FISZT
 (r811-1886)
-
 GP
-
 ymphonie sur « Faust», en trois images de caractère, avec un
-
 chœur final. Il faut bien peser les termes de ce titre si l’on veut
-
 aborder la grande œuvre de Liszt dans l’esprit où elle est conçue et
 écarter d’emblée l’épouvantail de la « musique à programme ».
-
 Ce que Liszt met en musique, ce n’est pas l’anecdote, à laquelle Gœthe
 dramaturge est obligé de recourir, c’est le monde de sentiments que
 Gœthe a incarné en elle. Plus simplement encore, c’est le monde de
@@ -867,7 +601,6 @@ par une succession d’épisodes. Les sentiments qu’elle met en œuvre sont
 en quelque sorte détachés du drame pour entrer dans une existence nou-
 velle où leur expression n’obéit plus qu’aux lois du style et de la forme
 symphoniques.
-
 Prenons donc cette Faust-Symphonie comme une symphonie qu’elle
 est, et pour y introduire l’auditeur, procédons de la seule manière possible
 dans ce domaine, en essayant d’indiquer sommairement la substance et
@@ -876,184 +609,101 @@ citaient la pensée de Gœthe constituent le meilleur commentaire possible
 des motifs du musicien — et pour marquer le lien de l’une à l’autre pensée,
 nous utiliserons abondamment de précieuses notes de Robert Godet.
 Ainsi orienté sur l’intention expressive de la musique, l’auditeur n’en
-suivra pas moins à son gré, ensuite, son envol.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003225_018.tif"/>
-<page><![CDATA[£aine.xz SULSSES
-
+suivra pas moins à son gré, ensuite, son envol.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003225_018.tif'/>
+        <page>
+          <![CDATA[£aine.xz SULSSES
 DURUZ
-
 Croix-d’Or 3
-
 Le plus grand choix
 Les meilleures qualités
 Les prix les plus bas
-
 Salon de tricotage
-
 A notre magasin place des Eaux-Vives 5 :
 Sous-vêtements chauds en bonnes qualités d'avant guerre
-
 w |
 SO uE ts Ctn =
-
- 
-
- 
-
- 
-
 Vous aimez la belle musique,
 aimez ausoi la beaulé el la
 qualité de votre montre el de
-
 volre "/'/‘[‘.‘/'{/'l‘x‘...
-
 ,
-
- 
-
-    
-
 RFÉVRERIE « BIJOUTERIE |
 ESS--HORLOGERIE!
-
 =20:R. d MARCHE |
-
 SSRZZBAUME
-
- 
-
 ...alors faites votre c]10Ïx parm[ les montres soignées:
 ILONGINES . TISSOT
 OMÉGA . ZÉNITH
-
 ORFÉVRERIE JEZLER ARGENT MASSIF ET CHRISTOFLE
-
 Le plus beau choix
-
 Prix très modéres
-
 BIJOUTERIE OR ET ARGENT
-
- 
-
- 
-
- 
-
 u d e |
-
-rc cé é]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003225_019.tif"/>
-<page><![CDATA[« Zwei Seelen ach ! wohnen in meiner Brust.» Cette parole de Faust
+rc cé é
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003225_019.tif'/>
+        <page>
+          <![CDATA[« Zwei Seelen ach ! wohnen in meiner Brust.» Cette parole de Faust
 semble avoir son écho dans deux motifs
-
 (1) V uE
-
- 
-
- 
-
- 
-
- 
-
 «s
 fn æ f 4 ï
 e 110e fs
-
- 
-
- 
-
- 
-
 (2)
-
- 
-
 3 qui comme deux fils de couleur éclaireront tout le tissu de la symphonie.
 î’ Il y a dans l’expression du motif (1), tout à la fois, cette lassitude désabusée
 u de la « Melancholia » de Dürer, et une réserve latente d’héroïsme. C’est
-
 ’élément « deute » de l’âÂme faustienne, celui par lequel elle s’ouvre à
 ,' Méphisto («der Geist der stets verneint »), mais un doute tour à tour
-
 désespéré et fécond, susceptible de trouver un chemin de foi par l’action.
 ‘ Le motif (2) qui n’est encore, ici, que l’expression d’un timide et incertain
-
 désir — rêve d’amour —, prendra des formes plus accusées où l’on recon-
 l naîtra l’élément « positif » de l’âÂme faustienne, celui par lequel elle s’ou-
 vrira à l’amour et à la foi.
-
- 
-
 Pour exprimer alors l’âÂme faustienne dans le premier panneau de son
 triptyque, Liszt ne procédera pas autrement que Beethoven pour exprimer
 celle d’un héros dans le premier mouvement de sa troisième symphonie.
 Après une introduction qui par deux fois enchaîne et oppose l’un à l’autre
 les motifs (1) et (2), un allegro symphonique dans la forme symétrique
 traditionnelle en dépeint tout le devenir. Une première période théma-
-
- 
-
 tique expose tout le pathos faustien — véhémence passionnée, aspiration,
 $ résignation, impatience —; une seconde période, contemplative, inter-
 vient où semble se concrétiser le rêve d’amour (développement du motif (2) ;
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 ) et comme pour résoudre cette opposition, apparaît un motif énergétique
-
 € k ) f
 Î 4
 ‘ Z PEPE E S rzl 3 e
 /-Aa 4 Ï 4 Ï î{ [ puèmett
-
 ; C H æl n E
 e n
 $ où la loi d’action — « Im Anfang war die That » semble montrer son
-
 chemin au héros. Un développement symphonique alors met en lumière,
 dans une série d’oppositions et de contrastes la portée expressive de ces
 éléments, puis l’exposition des trois périodes thématiques se répète,
 ‘!.« diversement nuancée, et suivie d’une péroraison ou « coda » qui marque
-l’inquiétude essentielle du héros, l’affaissement d’une âme toujours déçue]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003225_020.tif"/>
-<page><![CDATA[adoyerers >ée
-
+l’inquiétude essentielle du héros, l’affaissement d’une âme toujours déçue
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003225_020.tif'/>
+        <page>
+          <![CDATA[adoyerers >ée
 UNION
 DE BANQUES SUISSES
-
 Angle rue du Rhône
-
-et rue du Commerce G E NE VE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003225_021.tif"/>
-<page><![CDATA[|
+et rue du Commerce G E NE VE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003225_021.tif'/>
+        <page>
+          <![CDATA[|
 |
 i
-
 qui ne trouvera son salut — à la fin de l’œuvre — qu’en étreignant le Dieu
 qui est amour.
-
 Le deuxième panneau du triptyque n’est pas précisément «Gretchen »,
 mais ce qu’est «Gretchen» pour Faust. C’est pourquoi beaucoup d’élé-
 ments du premier morceau y reviennent, mais comme dans une autre
@@ -1066,7 +716,6 @@ sion d’un être pour qui le temps semble suspendu, mesuré seulement par
 le ronron du rouet qui berce son rêve, le second, polyphonique, de dyna-
 misme tout interne, et qui semble une émanation directe du souffle de
 l’âme aimante.
-
 Le troisième panneau du triptyque, de nouveau, ce n’est pas tant Méphis-
 tophélès que Faust entre les mains de Méphistophélès. Et en effet, toute la
 matière du premier morceau, cette fois, y revient, complètement transfi-
@@ -1077,7 +726,6 @@ qui était autrefois un motif d’amour ; il aboutira, au terme de son plus
 grand élan, à cette sorte de marche triomphale où plutôt qu’en Méphisto
 Faust semble mué en Prométhée, qui du vide « aimé » fera jaillir la
 lumière.
-
 Mais à chaque tournant, il se trouvera devant ce néant qu’exprime
 maintenant le motif (1) changé en « mineur » et comme éteint, sur le
 fond sombre de cors bouchés. Un dernier élan, alors semble élever le
@@ -1085,12 +733,10 @@ regard de Faust vers l’au-delà, dans une traînée d’harmonies mysté-
 rieuses. Le motif de Gretchen, élargi, réapparaît, repris par la voix
 d’un ténor solo et un chœur d’hommes, sur le rythme même du motif
 (1), entonne les paroles :
-
 Alles Vergängliche Das Unbeschreibliche
 Ist nur ein Gleichniss, Hier wird es gethan.
 Das Unzulängliche Das Ewig-Weibliche
 Hier wird’s Ereignis, Zieht uns hinan.
-
 (Tout l’éphémère n’est que symbole. Ce qui n’était qu’ébauche, ici
 devient figure; ce qui passait les mots, ici s’accomplit. C’est l’éternel
 attrait du féminin mystère qui nous soulève de terre.) Cette sorte de choral
@@ -1099,89 +745,48 @@ que projette le motif de Gretchen. Le vouloir aveugle a trouvé sa rédemption
 et le rêve d’amour individuel s’est élargi en manière d’hymne cosmique à
 l’« Ewig-Weibliche », ce principe d’amour partout en travail dans la
 nature vivante, seul foyer possible d’une « action » féconde.
-
 E. À.
-
-$]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003225_022.tif"/>
-<page><![CDATA[PIANOS
-
+$
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003225_022.tif'/>
+        <page>
+          <![CDATA[PIANOS
 Steinway & Sons, Fôrster, Feurich,
 Schmidt-Flohr, Wohlfahrt
-
 —H'anna J<neiﬁeâ
-
 LOGAITTON
 ÉCHANGE
 RÉPARATIONS
-
 Passage
 Tél. 4 41 92
-
 du T'erraillet 20
 (ENTRESOL)
-
- 
-
- 
-
- 
-
- 
-
 BOULANGERIE FINE
 PN TS S E RKI}E
-
 LA
 M 4< !
-
 Chantepoulet 10
 Tél. 2 29 78
-
- 
-
- 
-
- 
-
 Plantamour 37
 Tél. 2 58 09
-
 ; . , . 1559
 1‘('UI‘IH«':'(’I!I' 1)L'.f l]l'dllll\‘ €[11/7/l-‘:‘?/!!('/1/-“ l)L’ (l(’llL'       
         </p>
     </body>
   </text>
-</TEI>t']]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003225_023.tif"/>
-<page><![CDATA[n é
-
+</TEI>t'
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003225_023.tif'/>
+        <page>
+          <![CDATA[n é
 Tm e
-
 SRS E
-
 Tc n
-
- 
-
- 
-
- 
-
- 
-
- 
-
-   
-
-   
-
 1918-1943
-
 GR
-
 propos n’est pas de la rappeler en cette page. Il est de rendre
-
 hommage à la mémoire des anciens qui soutinrent nos premiers
 concerts d'abonnement sous la baguette d’Hugo de Senger, de Willy
 Rehberg et de Stavenhagen. L’un d’eux, M. Maurice Gautier, n'a point
@@ -1192,7 +797,6 @@ Ernest Ansermet, et encouragèrent son initiative de créer un Orchestre
 romand. Honneur leur soit rendu et que notre reconnaissance une fois
 de plus leur soit exprimée en cette saison où nous célébrons le double
 anniversaire du Chef et de son entreprise.
-
 Le public les comprit et fit écho à leur appel. L’Orchestre a pris rang
 dans le pays. Lausanne et Genève le tiennent pour l’un des fondements
 de leur vie musicale. Cela n’a pas été sans efforts ni sacrifices. Preuves
@@ -1202,7 +806,6 @@ montant des subventions publiques dont ces offrandes sont les indispen-
 sables prémisses. Les municipalités de Lausanne et de Genève ont droit
 à toute notre gratitude. Sans doute aussi ne seront-elles pas insensibles
 à notre encouragement…
-
 Un orchestre de la valeur et du plan du nôtre, qui du même coup
 qu'il honore la Suisse romande appartient à la Suisse entière et à sa
 culture, ne peut exister sans l’appui des autorités. Ce fut l’idée et le
@@ -1214,50 +817,31 @@ quiconque, ni à quelque activité ou institution culturelle que ce soit.
 Nous nous félicitons de l’accueil que Berne en 1938 fit à nos suggestions.
 Je suis heureux de rendre témoignage des excellents rapports que nous
 n'avons cessé d’entretenir avec ses plus hauts représentants. Aujourd’hui
-
-N()TRIË Orchestre a vingt-cinq ans. On connaît son histoire et notre]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003225_024.tif"/>
-<page><![CDATA[Le parfum de lavande
+N()TRIË Orchestre a vingt-cinq ans. On connaît son histoire et notre
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003225_024.tif'/>
+        <page>
+          <![CDATA[Le parfum de lavande
 est la plus belle offrande !
-
 Vente en gros :
-
 F. Uhimann-Eyraud, S.A.
-
 Genève - Zurich
-
- 
-
- 
-
- 
-
- 
-
 Pour tous renseignements financiers
-
 Pour toutes opérations de banque
-
 adressez-vous à la
-
 Banque Commerciale de bâle
-
 GENEÈVE
-
 9-11, place de la Fusterie
-
-B/s ZORIC n]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003225_025.tif"/>
-<page><![CDATA[I )
-
- 
-
+B/s ZORIC n
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003225_025.tif'/>
+        <page>
+          <![CDATA[I )
 }
 I
 }
-
- 
-
 - nous avons lieu non seulement d’espérer mais de penser que nous pour-
 rons toujours mieux compter sur leur active collaboration et leur compré-
 hension. Comme je l’ai dit ailleurs, puisse la république, j'entends
@@ -1267,7 +851,6 @@ de sa qualité, offre par surcroît le mérite de reposer sur une organisation
 qui, tout en continuant à dépendre de l’effort privé, a su adapter avec un
 rare bonheur et dans l’intérêt de tous, son indispensable liberté à un
 service d'Etat.
-
 Associé par mes aînés en 1918 à la fondation de notre orchestre, je
 lui souhaite vingt-cinq nouvelles années de bonheur. Je les attends de
 notre admirable chef, de sa persévérante jeunesse et de son action sur
@@ -1280,187 +863,118 @@ encore plus de sollicitude. Je n’aurais pas été complet si, par cette allusi
 à un problème délicat, je n’avais pas souligné, devant nos abonnés, nos
 souscripteurs et nos autorités la nécessité de donner à l'Orchestre de la
 Suisse Romande une base financière plus étendue et mieux assurée.
-
 Notre entente avec nos amis de Lausanne est entière et elle nous
 réjouit. Les uns et les autres en commun nous poursuivons une belle
 tâche. Nous ne l’abandonnerons point. Nous sommes convaineus de
 l’enrichissement artistique qu’elle implique pour notre pays et du bien-
 fait qu’il retire des contacts étroits qu'elle renouvelle sans cesse entre
 deux villes heureusement appelées à travailler ensemble.
-
 PAUL LACHENAL,
 Président de la Fondation
-de l’O.S.R.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003225_026.tif"/>
-<page><![CDATA[Œ@…… ET s5mum
-
+de l’O.S.R.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003225_026.tif'/>
+        <page><![CDATA[Œ@…… ET s5mum
 uIR DES BERGHEo .s
-GEN tVF]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003225_027.tif"/>
-<page><![CDATA[Prochain Concert :
-
+GEN tVF
+]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003225_027.tif'/>
+        <page>
+          <![CDATA[Prochain Concert :
 : Mercredi 27 octobre 1943, à I9 h. 45
 Ï
 | VICTORIA-HALL
-
 Direction :
-
 \ Ernest ANSERMET
-
 Soliste :
-
 Wilhelm BACKHAUS
-
- 
-
 pianiste
 ®
 Ë {È
 É
 AU PROGRAMME :
-
 Beethoven - Brahms - Debussy - Burkhard
-
-   
- 
-
 T 0T T T E
-Ps v ; f]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003225_028.tif"/>
-<page><![CDATA[HOTEL DES BERGUES
+Ps v ; f
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003225_028.tif'/>
+        <page>
+          <![CDATA[HOTEL DES BERGUES
 RESTAURANT
 Salons et salles pour
-
 conférences, réceptions,
 noces, etc.
-
 TÉL. 2 66 45
-
 RESTAURANT AMPHITRYON
-
 BAR (Place des Bergues)
-
 Menus soignés
 Spécialités culinaires
 SERVICE EN VI RÉE
-
 TÉL. 2 69 56
-
- 
-
- 
-
-  
-
- 
-
 Cailleur -— C/zem[ﬂez _ C/za;zaâiaâ
 8 Croix-d’Or 8
-
 Tissus anglais pure laine (Importation dinecete)
-
 DISTRIBUTEUR OFFICIEL DES CÉLÈBRES
 MANTEAUX IMPERMÉABLES
-
 AQUASCUTUM
-
-RAINCOATS]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003225_029.tif"/>
-<page><![CDATA[GRAND-THÉATRE DE GENÈVE
-
+RAINCOATS
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003225_029.tif'/>
+        <page>
+          <![CDATA[GRAND-THÉATRE DE GENÈVE
 NHANANONANSONESENNENEONNERNAGHGANANNNENENNRANAONAONAAHAGUNONNEOSLOCUCNANOONAICAGOANOONONOOONOONEDEROEONANONOO GOS COOOTPPETIOOHOHHPHTOTTOTIE
-
 SOCIÉTÉ ROMANDE DE SPECTACLES — SAISON 1943-1944
-
- 
-
 Vendredi 22 et samedi 23 octobre 1943
-
 en soirée à 20 heures
-
 Dimanche 24 octobre
-
 en matinée à 14 h. 30
-
 Mam”zelle Nitouche
-
 OPÉRETTE EN 4 ACTES
-
 Musique de Hervé
-
 Samedi 27 novembre
-
 en soirée à 20 heures
-
 CRÉATION
-
 Le Malade imaginaire
-
 OPÉRA-COMIQUE D’APRÈS LA COMÉDIE DE
 MOLIÈRE
-
 Texte et musique de Jean DUPÉRIER
 ORCHESTRE DE LA SUISSE ROMANDE
-
 Direction :
-
-Ernest Ansermet]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003225_030.tif"/>
-<page><![CDATA[HELVETIA-ACCIDENTS
-
+Ernest Ansermet
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003225_030.tif'/>
+        <page>
+          <![CDATA[HELVETIA-ACCIDENTS
 DIRECTION ROMANDE
-
 BEACE ÉONCEMACEE #
-
 AGENCE GÉNÉRALE :
-
 L. CHATELAIN ET H. COLLOMB
-
 CIOURIRIA ME RIP E ; 7
-
- 
-
- 
-
- 
-
- 
-
 Le plaisit par la musique
-
 ,Æa sécurité par une assutance su la vie
-
 CHATELAIN
 &
-
 COLLOMB
-
 Agents généraux
-
- 
-
 HELVETIA -VIE
-
 COMPAGNIE D’ASSURANCES SUR LA VIE
-
 Corraterie 7 Tél. 40350
-
- 
-
- 
-
 va . e
-37P RE &]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003225_031.tif"/>
-<page><![CDATA[Comment on devient chef d’orchestre
-
+37P RE &
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003225_031.tif'/>
+        <page>
+          <![CDATA[Comment on devient chef d’orchestre
 Sous ce titre, M. Willy Schmid a écrit pour l'« Hommage à Ansermet » un essai
 pénétrant. Il y montre comment, avec des facultés brillantes et diverses, où dominait
 un goût certain pour les mathématiques, Ansermet a abordé les problèmes que pose le
 monde sonore et la vie intérieure de la musique.
-
 Voici sa conclusion :
-
 Il est significatif de constater qu’Ansermet commença ses investiga-
 tions dans la musique du passé par Jean-Sébastien Bach, dans les œuvres
 duquel son goût pour la complexité technique trouvait à se satisfaire. Il
@@ -1472,7 +986,6 @@ qui le portaient au-devant de toute œuvre nouvelle, que ce fût chez les jeunes
 d’aujourd’hui ou dans l’histoire, il interrogea des maîtres plus anciens ou
 moins connus. Il étendit encore son horizon, mais il ne fit que reculer le
 problème.
-
 Car il y a un problème, il le pressentait dès longtemps. Mais il chercha
 dès lors la solution avec une ardeur passionnée, comme saint Augustin
 chercha la vérité, et il est allé dans cette recherche aussi loin que pouvaient
@@ -1489,44 +1002,30 @@ réduite à la sensibilité et à l’intelligence, et il découvrit que sa vér
 signification est surtout intérieure. À plus forte raison en est-il ainsi chez
 Beethoven. Si nous avons pu dire, avec quelque exagération, que dans la
 musique, moderne dite, objective le signe — c’est-à-dire les notes — à une
-existence propre, se suffit à lui-même comme un signe algébrique, et ne]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003225_032.tif"/>
-<page><![CDATA[paris-house
-
+existence propre, se suffit à lui-même comme un signe algébrique, et ne
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003225_032.tif'/>
+        <page>
+          <![CDATA[paris-house
 5, rue des alpes
-
 paul daunay
-
 couturier-
-
 fourreur
-
-  
-
 à zsenève
-téléphone 23370]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003225_033.tif"/>
-<page><![CDATA[P
-
+téléphone 23370
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003225_033.tif'/>
+        <page>
+          <![CDATA[P
 T5F
-
- 
-
- 
-
- 
-
- 
-
-  
-
 recouvre ou ne représente rien de plus que ce que l’on voit ou entend, il est
 par excellence, dans la musique classique, un symbole qu’il faut savoir
 interpréter. Il ne suffit pas de comprendre ce que le musicien classique a
 fait; cela est facile à voir, c’est écrit noir sur blanc. Il faut encore com-
 prendre ce qu’il a voulu faire, le prendre pour ainsi dire sur le fait dans la
 conception même de son œuvre.
-
 Si les modernes — et je prends ce terme dans le sens où l’emploient
 ceux qui parlent avec aigreur de « musique moderne » — cherchent volon-
 tiers le sujet ou le prétexte de leur musique dans le monde extérieur,
@@ -1549,7 +1048,6 @@ Il est remarquable que Beethoven, qui a écrit un si grand nombre
 d’esquisses musicales, parsemées quelquefois d’annotations, ne consacre
 aucune de celles-ci à ce qu’il se propose d’exprimer ou de représenter.
 Elles sont toutes d’ordre technique.
-
 Ce n’est ni par le calcul, ni par le raisonnement que l’on pénètre le sens
 intérieur, profond, des formes musicales, mais bien plutôt par une libre
 et intime communion, comme par un acte de foi. L’intelligence peut recon-
@@ -1568,48 +1066,23 @@ victorieusement ; et par ce dernier adieu reconnaissant du musicien au
 mathématicien, à l’instant de pénétrer dans ce monde de clarté et de
 mystère où règne seule la musique, il a consacré la dernière phase de son
 ascension.
-
 Il ne commettra pas l’erreur de répudier sa belle intelligence. La cons-
 tante activité de l’esprit est un besoin fondamental de sa nature. Il sait
-d’ailleurs mieux que jamais jusqu’où cette intelligence peut le conduire]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003225_034.tif"/>
-<page><![CDATA[Maison du beau linge, trous-
+d’ailleurs mieux que jamais jusqu’où cette intelligence peut le conduire
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003225_034.tif'/>
+        <page>
+          <![CDATA[Maison du beau linge, trous-
 seau soigné, lingerie fine,
 blouses et peignoirs élégants.
-
- 
-
- 
-
 Buisson - Paisant
-
 Grana’e maison de Élaﬁcfandée en 1865
-
 3, rue du Rhône, GENÈVE
-
- 
-
- 
-
- 
-
 Une belle fourrure… Un manteau élégant…
-
-   
-
 Chez le spécialiste
-
 GENÈVE, 3, RUE DE RIVE
 Même maison: LAUSANNE, 6, RUE DE BOURG - J. LÉVY
-
- 
-
- 
-
- 
-
- 
-
 Ï
 q
 |
@@ -1617,24 +1090,16 @@ q
 |
 |
 |
-v]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003225_035.tif"/>
-<page><![CDATA[Î
-
+v
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003225_035.tif'/>
+        <page>
+          <![CDATA[Î
 À64 RE E SE POR
-
-  
-
 w
-
 =
-
 10
-
- 
-
-   
-
 dans l’étude d’une partition. Et, au point même où elle perd ses droits et
 laisse le champ libre à l’instinct, il l’emploie à réfliéchir aux problèmes que
 pose la musique, son rôle, son pouvoir, sa nature intime, les conditions de
@@ -1655,95 +1120,60 @@ dans le passé et chez les jeunes artistes contemporains, Ansermet n’est
 pas devenu seulement un éminent chef d’orchestre: pour nous, en Suisse
 romande, il a été un initiateur et un éducateur. Il a enrichi considérable-
 ment notre vie musicale; il en a élargi l’horizon, changé le climat. Et, de
-cela, nous n> lui sèrons jamais assez reconnaissants.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003225_036.tif"/>
-<page><![CDATA[deﬁ€7”. S
-
+cela, nous n> lui sèrons jamais assez reconnaissants.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003225_036.tif'/>
+        <page>
+          <![CDATA[deﬁ€7”. S
 Un des compositeurs les
 plus radiophoniques |
-
 Si vous voulez jouir d'une belle retransmission,
 comme si vous étiez dans la salle de concert,
-
 achetez un PHILIPS
-
- 
-
 Les PHILIPS sont tous d'une musicalité
 remarquable !
-
 Venez écouter les derniers modèles dans mon
 magasin.
-
 RADIO-BALTASSAT
-
 20, rue de Rive " °/{(1
-
 pn
-
- 
-
- 
-
 Ancien technicien de la maison Philips, Genève
-
- 
-
- 
-
- 
-
- 
-
 LES ATELIERS PROFESSIONNELS
 DE
-
 L’ACADÉMIE D'ARTS APPLIQUÉS
-
- 
-
 exécutent tous travaux de
-
 PUBLICITÉ
-
 DESSINS DE MODE
 ENSEMBLIER-DÉCORATEUR
 PHOTOGRAPHIE
-
 1, PROMENADE DU PIN - GENÈVE
-TÉLÉPHONE 4 7564]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003225_037.tif"/>
-<page><![CDATA[TF cr E R D A A E
-
- 
-
- 
-
+TÉLÉPHONE 4 7564
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003225_037.tif'/>
+        <page>
+          <![CDATA[TF cr E R D A A E
 * CAISSE .
 HYPOTHÉCAIRE
-
 DUVCANTON
 DE -GENEVE
-
 INSTITUÉE PAR LA
 CONSTITUTION DE 1847
-
 MOLARD 2
-
 cE
-
 PRÊTS ÆET CRÉDITS HYPOTHÉCAIRES
-
 CERTIFICATS
 (D E rOT
-
 L YH TS
-D’ÉPARGNE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003225_038.tif"/>
-<page><![CDATA[CONSTANTIN ‘
-
-’ WÂ%Æ/4W]]></page>       
-        </p>
+D’ÉPARGNE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003225_038.tif'/>
+        <page><![CDATA[CONSTANTIN ‘
+’ WÂ%Æ/4W
+]]></page>
+      </p>
     </body>
   </text>
 </TEI>

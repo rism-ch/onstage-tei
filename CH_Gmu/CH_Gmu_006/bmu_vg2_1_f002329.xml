@@ -1,151 +1,117 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Festival Tchaikowski (neuvième concert du théâtre)<date when="09/03/1889"/></title>
-<series>1888-1889</series>
-<placeName>Grand Théâtre</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Festival Tchaikowski (neuvième concert du théâtre)
+            <date when='09/03/1889'/>
+          </title>
+          <series>1888-1889</series>
+          <placeName>Genève, Grand Théâtre</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VG2-1 F002329</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Tchaikowski (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18890309"/>
-<title>Festival Tchaikowski (neuvième concert du théâtre)</title>
-<placeName key="Grand Théâtre"/>
-<name key="1888-1889" type="series"/>
-<name key="Čajkovskij, Pëtr Il'ič" ref="https://muscat.rism.info/admin/people/144048" type="person" role="cmp">Čajkovskij, Pëtr Il'ič</name>
-<name key="Čajkovskij, Pëtr Il'ič  (dir.)" ref="https://muscat.rism.info/admin/people/144048" type="person" role="int">Čajkovskij, Pëtr Il'ič  (dir.)</name>
-<name key="Orchestre de la Ville de Genève"  type="person" role="int">Orchestre de la Ville de Genève</name>
-<name key="Arnaud, Félicie"  type="person" role="int">Arnaud, Félicie</name>
-<name key="Dauphin"  type="person" role="int">Dauphin</name>
-<name key="Ketten, Léopold"  type="person" role="int">Ketten, Léopold</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_1_f002329_001.tif"/>
-<page><![CDATA[GRAND THÉATRE DE GENEVE
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18890309'/>
+        <title>Festival Tchaikowski (neuvième concert du théâtre)</title>
+        <placeName key='Genève, Grand Théâtre'/>
+        <name key='1888-1889' type='series'/>
+        <name key='Čajkovskij, Pëtr Il&apos;ič' ref='https://muscat.rism.info/admin/people/144048' type='person' role='cmp'>Čajkovskij, Pëtr Il'ič</name>
+        <name key='Čajkovskij, Pëtr Il&apos;ič' ref='https://muscat.rism.info/admin/people/144048' type='person' role='int'>Čajkovskij, Pëtr Il'ič</name>
+        <name key='Orchestre de la Ville de Genève' type='person' role='int'>Orchestre de la Ville de Genève</name>
+        <name key='Arnaud, Félicie' type='person' role='int'>Arnaud, Félicie</name>
+        <name key='Dauphin' type='person' role='int'>Dauphin</name>
+        <name key='Ketten, Léopold' type='person' role='int'>Ketten, Léopold</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_1_f002329_001.tif'/>
+        <page>
+          <![CDATA[GRAND THÉATRE DE GENEVE
 DIRECTION F. RYRIN-DUCASTEL
-
 | Samedi ‘) Mars 1889, à huit heures du soir
-
 | (NEUVIÈME CONCERT DU THÉATRE)
-
 \L TCHAIKOVSKY
-
 Sous la direction de 'AUTEUR
-
- 
-
- 
-
 AVEC LE CONCOURS DE
-
 M Félicie ARNAUD M. DAUPHIN
-
 Ténor du Grand Théâtre t" Chanteuse du Grand Théâtre Basse du Grand Théâtre
-
- 
-
 | ET DE
-
 | L'ORCHESTRE DE LA V II LE DE GENÈVE
-
 f ——
-
- 
-
 PREMIÈRE PARTIE
 Ÿ O n (rumients à cordes, ... 141en ce e ae nn en n en 06 Techaïkovsky
 | «) Pezzo in Forma di Sonatina. — b) Valse. — «) Elegia. () Finale (thème russe).
-
 DEUXIÈME PARTIE
 st es Tn e Tehaïlkovsky
 «) Andante religioso. b) Menuet.
-
 d Mloment.texrible, romance.chantée-par M SEBAN mmms 1111100000 Tchaïkovsky
 Q AN qui brûla d'amour!...) ... ; . e A
-
 IN ® mélodies chantées par Mle Félicie ARNAUD, Tehaïkovsky
-
 G bkBoysquoit— ... ) ‘
 09 Dérénade de Don Juan, chantée par M. DAUPHIN,........0222000 000000s Tchaïkowvsky
 en en en Tchaïkovshky
 «) Introduzione e Fuga. — /) Divertimento. () Andante. () Marche miniature.
-
 — ‘) Gavotte.
-
 Le piano à queue, de la maison Bron & Berguer, sera tenu par M. Léopold KETTEN.
-
 ———___"0r—2
-
 PRIN ORDINAIRES DES PLACES — Voitures de tramuways pour Carouge et Chéne-Annemasse.
-
- 
-
- 
-
 e  DIMANCHE 10 MARS, à deux heures après midi, MATINÉE A PRIX RÉDUITS
-
 | LA GRANDE DUCHESSE DE GEROLSTEIN
-
 Opéra-bouffe en 3 actes, d’Offenbach. — M"" Pirard remplira le rôle de la Grande Duchesse.
-
- 
-
- 
-
- 
-
 DIMANCHE SOIR, à 7 heures 112, REPRESENTATION EXTRAORDINAIRE
-
 I \‘d X J d «I "‘& Avec le concours e MI, DEKERNEEL des Boulles.
 dxs Led . lr
-
 k La PERICHOLE
 0|>(|1(|| 1 actes, de G. \(l(ll
-
-   
-
 Opéra-bouffe en 3 actes, d’Offenbach.
 M. SERAN M" F.ARNAUD M. DECHESNE M* PIRARD remplira le rôle de la Périchole, - M. DEKERNEL celui de Piquillo,
 Q PRIX ORDINAIRES DES PLACES
-
 ÀJ. # …. tenève. — Imp. L.-F. Jarrys, Treille, 4 \%
 E=-_——
-
 —%)
-J]]></page>       
-        </p>
+J
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

@@ -1,107 +1,98 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Cinquième concert du théâtre avec le concours de M. Fontbonne, M. Pellegrin, de la garde républicaine de Paris<date when="12/01/1889"/></title>
-<series>1888-1889</series>
-<placeName>Grand Théâtre</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Cinquième concert du théâtre avec le concours de M. Fontbonne, M.
+            Pellegrin, de la garde républicaine de Paris
+            <date when='12/01/1889'/>
+          </title>
+          <series>1888-1889</series>
+          <placeName>Genève, Grand Théâtre</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VG2-1 F002325</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Senger, H. de (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18890112"/>
-<title>Cinquième concert du théâtre avec le concours de M. Fontbonne, M. Pellegrin, de la garde républicaine de Paris</title>
-<placeName key="Grand Théâtre"/>
-<name key="1888-1889" type="series"/>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Verroust"  type="person" role="cmp">Verroust</name>
-<name key="Bizet, Georges" ref="https://muscat.rism.info/admin/people/20057" type="person" role="cmp">Bizet, Georges</name>
-<name key="Heinemeyer"  type="person" role="cmp">Heinemeyer</name>
-<name key="Spontini, Gaspare" ref="https://muscat.rism.info/admin/people/149551" type="person" role="cmp">Spontini, Gaspare</name>
-<name key="Gattermann, Michael Samuel David" ref="https://muscat.rism.info/admin/people/270700" type="person" role="cmp">Gattermann, Michael Samuel David</name>
-<name key="Luigini, Alexandre" ref="https://muscat.rism.info/admin/people/30071428" type="person" role="cmp">Luigini, Alexandre</name>
-<name key="Vogt"  type="person" role="cmp">Vogt</name>
-<name key="Fontbonne"  type="person" role="cmp">Fontbonne</name>
-<name key="Joncières, Victorien"  type="person" role="cmp">Joncières, Victorien</name>
-<name key="Senger, Franz Ludwig Hugo von  (dir.)" ref="https://muscat.rism.info/admin/people/30015297" type="person" role="int">Senger, Franz Ludwig Hugo von  (dir.)</name>
-<name key="Orchestre de la Ville de Genève"  type="person" role="int">Orchestre de la Ville de Genève</name>
-<name key="Garde républicaine de Paris"  type="person" role="int">Garde républicaine de Paris</name>
-<name key="Fontbonne"  type="person" role="int">Fontbonne</name>
-<name key="Pellegrin"  type="person" role="int">Pellegrin</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_1_f002325_001.tif"/>
-<page><![CDATA[r e e
-
- 
-
- 
-
- 
-
- 
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18890112'/>
+        <title>
+          Cinquième concert du théâtre avec le concours de M. Fontbonne, M.
+          Pellegrin, de la garde républicaine de Paris
+        </title>
+        <placeName key='Genève, Grand Théâtre'/>
+        <name key='1888-1889' type='series'/>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Verroust' type='person' role='cmp'>Verroust</name>
+        <name key='Bizet, Georges' ref='https://muscat.rism.info/admin/people/20057' type='person' role='cmp'>Bizet, Georges</name>
+        <name key='Heinemeyer' type='person' role='cmp'>Heinemeyer</name>
+        <name key='Spontini, Gaspare' ref='https://muscat.rism.info/admin/people/149551' type='person' role='cmp'>Spontini, Gaspare</name>
+        <name key='Gattermann, Michael Samuel David' ref='https://muscat.rism.info/admin/people/270700' type='person' role='cmp'>Gattermann, Michael Samuel David</name>
+        <name key='Luigini, Alexandre' ref='https://muscat.rism.info/admin/people/30071428' type='person' role='cmp'>Luigini, Alexandre</name>
+        <name key='Vogt' type='person' role='cmp'>Vogt</name>
+        <name key='Fontbonne' type='person' role='cmp'>Fontbonne</name>
+        <name key='Joncières, Victorien' type='person' role='cmp'>Joncières, Victorien</name>
+        <name key='Senger, Franz Ludwig Hugo von' ref='https://muscat.rism.info/admin/people/30015297' type='person' role='int'>Senger, Franz Ludwig Hugo von</name>
+        <name key='Orchestre de la Ville de Genève' type='person' role='int'>Orchestre de la Ville de Genève</name>
+        <name key='Garde républicaine de Paris' type='person' role='int'>Garde républicaine de Paris</name>
+        <name key='Fontbonne' type='person' role='int'>Fontbonne</name>
+        <name key='Pellegrin' type='person' role='int'>Pellegrin</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_1_f002325_001.tif'/>
+        <page>
+          <![CDATA[r e e
 $* GRAND THÉATRE DE GENÈVE
-
 DIRECTION F. EYRIN-DUCASTEL
-
 Samedi 12 Janvier 1889, à huit heures du soir
 @@ UL HIMF3
-
 CONCERY DU THÉATRE
-
 AVEC LE CONCOURS DE
-
 M. FONTBONNE ; M. PELLEGREN
-
 Première flâte solo | Premier hautbois solo
 GARDE RÉEÉPUBLICAINE
 D PA RI S
-
 ET DE
-
 L'ORCHESTRE DE LA VILLE DE GEN EVE
-
- 
-
- 
-
 LRSERANMMNE à
-
 PREMIÈRE PARTIE
-
- 
-
 V OEN O EN UMAÇeUT 11e 0 0 es e « Deethoven
 Adagio molto. Allegro con brio. — Andante cantabile con moto. Menuetto
 (Allegro molto e vivace). — Adagio. Allegro molto e vivace.
@@ -111,12 +102,8 @@ D Jeux dEntinis pélitersurted’orchestre, ... ... 011eN Bizel
 Marche (Trompette et Tambour). — Berceuse (la Poupée). — Impromptu
 (la Toupie). — Duo (Petit Mari, petite Femme). — Galop (le Bal).
 4. Concertino pour flüte avec accompagnement d’orchestre,.......…. Heinemeyer
-
 M. FONTBONNE.
 DEUXIÈME PARTIE
-
- 
-
 e d Cla Vestale 9.1n e RS Spontini
 6. Duo pour flûte et hauthois avec accompagnement d’orchestre,.... Gattermann
 MM. FONTRBONNE et PELLEGRIN. 3
@@ -127,25 +114,18 @@ f M. PELLEGREN. ‘
 ë 9. Fantaisie pour petite flüte avec accompagnement d’orchestre, .... Fontbonne
 M. FONTBONNE.
 OMn 91 ON Victorien Joncières
-
- 
-
 S VeTNATAEAS DR PLACHNS
 VOITURES DE TRAMWAYS POUR CAROUGE ET ANNEMASSE ®
-
- 
-
 Samedi 26 Janvier 1889, 6"* Concert du Théâtre
-
 sous la direction dEDOUARD BROUSTET, compositeur,
-
 . avec le concours de shvit
 [ @ M. E. PHILIPP, pianiste des Concerts Colonne et Lamoureux. — MYE Léoporr KETTEN, cantatrice. O
-
 Z”/‘ _ “
 nève -H arrvs. l’rei \
-}_', - m_ngu,. Imp. L-F. Jarrys, ‘Treille, 4. ]]></page>       
-        </p>
+}_', - m_ngu,. Imp. L-F. Jarrys, ‘Treille, 4. 
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

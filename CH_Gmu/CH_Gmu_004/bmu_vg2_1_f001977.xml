@@ -1,91 +1,96 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert<date when="06/07/1883"/></title>
-<series>1882-1883</series>
-<placeName>Kiosque (Promenade des Bastions)</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert
+            <date when='06/07/1883'/>
+          </title>
+          <series>1882-1883</series>
+          <placeName>Genève, Kiosque (Promenade des Bastions)</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VG2-1 F001977</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Senger, H. de (dir)</note>
+        <note>Date présumée</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18830706"/>
-<title>Concert</title>
-<placeName key="Kiosque (Promenade des Bastions)"/>
-<name key="1882-1883" type="series"/>
-<name key="Gung'l"  type="person" role="cmp">Gung'l</name>
-<name key="Suppè, Franz von" ref="https://muscat.rism.info/admin/people/138448" type="person" role="cmp">Suppè, Franz von</name>
-<name key="Strauß, Johann" ref="https://muscat.rism.info/admin/people/132082" type="person" role="cmp">Strauß, Johann</name>
-<name key="Bilse, Benjamin" ref="https://muscat.rism.info/admin/people/18342" type="person" role="cmp">Bilse, Benjamin</name>
-<name key="Rossini, Gioachino" ref="https://muscat.rism.info/admin/people/63766" type="person" role="cmp">Rossini, Gioachino</name>
-<name key="Mozart, Wolfgang Amadeus" ref="https://muscat.rism.info/admin/people/115324" type="person" role="cmp">Mozart, Wolfgang Amadeus</name>
-<name key="Stasny, Ludwig" ref="https://muscat.rism.info/admin/people/30007998" type="person" role="cmp">Stasny, Ludwig</name>
-<name key="Verdi, Giuseppe" ref="https://muscat.rism.info/admin/people/137994" type="person" role="cmp">Verdi, Giuseppe</name>
-<name key=""  type="person" role="cmp"></name>
-<name key="Senger, Franz Ludwig Hugo von  (dir.)" ref="https://muscat.rism.info/admin/people/30015297" type="person" role="int">Senger, Franz Ludwig Hugo von  (dir.)</name>
-<name key="Orchestre de la Ville de Genève"  type="person" role="int">Orchestre de la Ville de Genève</name>
-<name key="Rey"  type="person" role="int">Rey</name>
-<name key="Kolster"  type="person" role="int">Kolster</name>
-<name key="Bergmann"  type="person" role="int">Bergmann</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_1_f001977_001.tif"/>
-<page><![CDATA[Ë }
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18830706'/>
+        <title>Concert</title>
+        <placeName key='Genève, Kiosque (Promenade des Bastions)'/>
+        <name key='1882-1883' type='series'/>
+        <name key='Gung&apos;l' type='person' role='cmp'>Gung'l</name>
+        <name key='Suppè, Franz von' ref='https://muscat.rism.info/admin/people/138448' type='person' role='cmp'>Suppè, Franz von</name>
+        <name key='Strauß, Johann' ref='https://muscat.rism.info/admin/people/132082' type='person' role='cmp'>Strauß, Johann</name>
+        <name key='Bilse, Benjamin' ref='https://muscat.rism.info/admin/people/18342' type='person' role='cmp'>Bilse, Benjamin</name>
+        <name key='Rossini, Gioachino' ref='https://muscat.rism.info/admin/people/63766' type='person' role='cmp'>Rossini, Gioachino</name>
+        <name key='Mozart, Wolfgang Amadeus' ref='https://muscat.rism.info/admin/people/115324' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Stasny, Ludwig' ref='https://muscat.rism.info/admin/people/30007998' type='person' role='cmp'>Stasny, Ludwig</name>
+        <name key='Verdi, Giuseppe' ref='https://muscat.rism.info/admin/people/137994' type='person' role='cmp'>Verdi, Giuseppe</name>
+        <name key='' type='person' role='cmp'/>
+        <name key='Senger, Franz Ludwig Hugo von' ref='https://muscat.rism.info/admin/people/30015297' type='person' role='int'>Senger, Franz Ludwig Hugo von</name>
+        <name key='Orchestre de la Ville de Genève' type='person' role='int'>Orchestre de la Ville de Genève</name>
+        <name key='Rey' type='person' role='int'>Rey</name>
+        <name key='Kolster' type='person' role='int'>Kolster</name>
+        <name key='Bergmann' type='person' role='int'>Bergmann</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_1_f001977_001.tif'/>
+        <page>
+          <![CDATA[Ë }
 :!1 “ à
 ; ë à à r exc
-
 ‘ e ë e m rrn …u
 * GUNCERT & 2 [
 ‘ q RE t TS ; .— ; } À
 - Programme officiel |
 Vendredi 6 Juillet, àr8 h, |
-
 Société civile de l'Orchestre [Ïﬂ la Ville
-
 Direction de M. HMugo de SENGER
-
 PREMIERE PARTIE
-
 1. Marche. e Nc T
 } 2. La Dame de Pique, ouverture SuPPÉ
 | 3. Wienerblut, valse STRAUSS
 4
-
 . Airs Silésiens, pour deux violons,
 MM. Rey et Kolster.
-
- 
-
 Birsk
 DEUXIÈME PARTIE ?
 5. Ouverture de Guillaume-Tell. ROssINI
@@ -96,27 +101,19 @@ DEUXIÈME PARTIE ?
 / 9. Juristes, galop. STRAUSS 4
 p t
 ; ; En cas de force majeure, le Chef d’
-
 orchestre se réserve de modiftier leÿ
 programme.
-
- 
-
 E CONCERTS AU KIOSQUE les Dimanches, Lundis,
 | ; Mercredis et Vendredis, à 8 heures du soir.
-
 CONCERT CLASSIQUE. — Orchestre et Grandes
-
 £ Orgues, à la Cathédrale de St-Pierre, les S
-
 Abonnements par feuille de 20 coupons: fr.
 à l’entrée.
-
- 
-
 amedis à 4 h.
-7,50. S’adresser]]></page>       
-        </p>
+7,50. S’adresser
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

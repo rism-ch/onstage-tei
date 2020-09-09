@@ -1,157 +1,121 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Huitième concert donné par la Société civile de l'Orchestre de la Ville de Genève<date when="03/03/1883"/></title>
-<series>1882-1883</series>
-<placeName>Grand Théâtre</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Huitième concert donné par la Société civile de l'Orchestre de la
+            Ville de Genève
+            <date when='03/03/1883'/>
+          </title>
+          <series>1882-1883</series>
+          <placeName>Genève, Grand Théâtre</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VG2-1 F001884</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Senger, H. de (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18830303"/>
-<title>Huitième concert donné par la Société civile de l'Orchestre de la Ville de Genève</title>
-<placeName key="Grand Théâtre"/>
-<name key="1882-1883" type="series"/>
-<name key="Schumann, Robert" ref="https://muscat.rism.info/admin/people/131206" type="person" role="cmp">Schumann, Robert</name>
-<name key="Saint-Saëns, Camille" ref="https://muscat.rism.info/admin/people/76734" type="person" role="cmp">Saint-Saëns, Camille</name>
-<name key="Mercadante, Saverio" ref="https://muscat.rism.info/admin/people/89350" type="person" role="cmp">Mercadante, Saverio</name>
-<name key="Godefroid, Dieudonné-Joseph-Guillaume-Félix" ref="https://muscat.rism.info/admin/people/30019634" type="person" role="cmp">Godefroid, Dieudonné-Joseph-Guillaume-Félix</name>
-<name key="Godard"  type="person" role="cmp">Godard</name>
-<name key="Rameau, Jean-Philippe" ref="https://muscat.rism.info/admin/people/169730" type="person" role="cmp">Rameau, Jean-Philippe</name>
-<name key="Grétry, André-Ernest-Modeste" ref="https://muscat.rism.info/admin/people/83932" type="person" role="cmp">Grétry, André-Ernest-Modeste</name>
-<name key="Massenet, Jules" ref="https://muscat.rism.info/admin/people/84264" type="person" role="cmp">Massenet, Jules</name>
-<name key="Fauré, Gabriel" ref="https://muscat.rism.info/admin/people/41731" type="person" role="cmp">Fauré, Gabriel</name>
-<name key="Senger, Franz Ludwig Hugo von  (dir.)" ref="https://muscat.rism.info/admin/people/30015297" type="person" role="int">Senger, Franz Ludwig Hugo von  (dir.)</name>
-<name key="Orchestre de la Ville de Genève"  type="person" role="int">Orchestre de la Ville de Genève</name>
-<name key="Régis (Mlle)"  type="person" role="int">Régis (Mlle)</name>
-<name key="Heuschling"  type="person" role="int">Heuschling</name>
-<name key="Provesi, Luigi"  type="person" role="int">Provesi, Luigi</name>
-<name key="La Muse"  type="person" role="int">La Muse</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_1_f001884_001.tif"/>
-<page><![CDATA[5;..p&f‘n—-‘anqÊ gv P
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18830303'/>
+        <title>
+          Huitième concert donné par la Société civile de l'Orchestre de la
+          Ville de Genève
+        </title>
+        <placeName key='Genève, Grand Théâtre'/>
+        <name key='1882-1883' type='series'/>
+        <name key='Schumann, Robert' ref='https://muscat.rism.info/admin/people/131206' type='person' role='cmp'>Schumann, Robert</name>
+        <name key='Saint-Saëns, Camille' ref='https://muscat.rism.info/admin/people/76734' type='person' role='cmp'>Saint-Saëns, Camille</name>
+        <name key='Mercadante, Saverio' ref='https://muscat.rism.info/admin/people/89350' type='person' role='cmp'>Mercadante, Saverio</name>
+        <name key='Godefroid, Dieudonné-Joseph-Guillaume-Félix' ref='https://muscat.rism.info/admin/people/30019634' type='person' role='cmp'>Godefroid, Dieudonné-Joseph-Guillaume-Félix</name>
+        <name key='Godard' type='person' role='cmp'>Godard</name>
+        <name key='Rameau, Jean-Philippe' ref='https://muscat.rism.info/admin/people/169730' type='person' role='cmp'>Rameau, Jean-Philippe</name>
+        <name key='Grétry, André-Ernest-Modeste' ref='https://muscat.rism.info/admin/people/83932' type='person' role='cmp'>Grétry, André-Ernest-Modeste</name>
+        <name key='Massenet, Jules' ref='https://muscat.rism.info/admin/people/84264' type='person' role='cmp'>Massenet, Jules</name>
+        <name key='Fauré, Gabriel' ref='https://muscat.rism.info/admin/people/41731' type='person' role='cmp'>Fauré, Gabriel</name>
+        <name key='Senger, Franz Ludwig Hugo von' ref='https://muscat.rism.info/admin/people/30015297' type='person' role='int'>Senger, Franz Ludwig Hugo von</name>
+        <name key='Orchestre de la Ville de Genève' type='person' role='int'>Orchestre de la Ville de Genève</name>
+        <name key='Régis (Mlle)' type='person' role='int'>Régis (Mlle)</name>
+        <name key='Heuschling' type='person' role='int'>Heuschling</name>
+        <name key='Provesi, Luigi' type='person' role='int'>Provesi, Luigi</name>
+        <name key='La Muse' type='person' role='int'>La Muse</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_1_f001884_001.tif'/>
+        <page>
+          <![CDATA[5;..p&f‘n—-‘anqÊ gv P
 A f OE E E
-
- 
-
 —s
-
- 
-
 GRAND THÉATRE DE GENÈVE
-
- 
-
- 
-
- 
-
 SAMÉDI 3 MARS 1883
-
 “ HUITIÈME CONCERT
-
 DONNÉ PAR LA SOCIÉTÉ CIVILE DE
-
- 
-
 L’ORCHESTRE DE LA VILLE DE GENEÈVE
-
 AVEC LE BIENVEILLANT CONCOURS DE
-
 M RÉGIS, harpiste; de M. HEUSCHLING, baryton,
-
 ET DE
-
 plusieurs Membres de la Société chorale LA MUSE (Directeur : M. L. REY)
-
 —— -
-
- 
-
 s—-
-
 PROGRAMME :
-
 PREMIÈRE PARTIE
 1. Symphonie N° 4 (ré mineur,) en une partie,
 Introduction, allegro, romance, scherzo et finale.
 2. Chanson d’Ancêtre, paroles de V. Hugo, pour baryton solo et voix d’hommes,
-
 avec accompagnement d’Orchestre (chantée par M. HEUSCHLING et le
 Chœur de LA Muse, 1re audition),
-
 chantés par M. HEUSÇHL[NG avec accomp.1guement (l OIbhObtï‘0
 T. Scènes alsaciennes (1re audition),
-
 10 Dimanche matin. - 20 Au (abaret - 30 Sous les t111euls - 40 D1manche soir,
 Le Piano d’accompagnement sera tenu par M. Luigi PROVESI.
 L’Orchestre sera dirigé par M. HUGO DE SENGER.
-
 Les deux autres Concerts auront lieu les Samedis 17 et 31 Mars.
-
 PRIX DES PLACES POUR CE CONCERT:
-
 Fauteurls de batcon et Loges, 5 fr.: ; location, 6 fr. - Fauteuils d’orchestre et Parquet, 5 fr.; location, G fr. - Parterre. 5 fr.:
 Galerie, 2 fr. 50.; location, 3 fr. -lll"“' Galerfe, 1 fr.; location, 1 fr.
-
 Ouverture des Bureaux à 7 heures.
-
- 
-
- 
-
 -- On commencera à 7 hemes‘ et demie précises.
-
- 
-
 x
-
 —— SRN
 ä——î_—“'—"“““‘"' e e r
-
- 
-
 Massenet.
-
- 
-
 Schumann.
-
 Saint-Sæns.
-
 3. a) Mélodie pour harpe et Orchestre, ; Mercadante.
 b) Danse des Sylphes, rondo pour harpe solo,. Godefroid.
 exécutées par Mlle RÉGIS.
@@ -163,35 +127,17 @@ DEUXIÈME PARTIE
 , b) Entr’acte de l’Épreuve v1llage01se, Grétry.
 6. a) Arioso du « Roi de Lahore, » Massenet.
 b) Les Rameaux, Faure.
-
 ; location, 4 fr, - T}me
 50 e. - Bureau de lomtnon ouvert tous les jours, au l‘lwalra de4ta /h
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 € _s
 700 SEs
 —0 ce E
-
 4
-
 |
-Ÿ]]></page>       
-        </p>
+Ÿ
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

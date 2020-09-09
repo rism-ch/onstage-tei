@@ -1,609 +1,466 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Grand concert donné par le Sängerverein "Harmonie Zürich" : A l'occasion des fêtes du centenaire genevois ; au profit de l'hospice général<date when="03/07/1914"/></title>
-<series>1913-1914</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Grand concert donné par le Sängerverein "Harmonie Zürich" : A
+            l'occasion des fêtes du centenaire genevois ; au profit de l'hospice
+            général
+            <date when='03/07/1914'/>
+          </title>
+          <series>1913-1914</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F001188</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Fassbaender, P.</note>
+        <note>Pieyre, A. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19140703"/>
-<title>Grand concert donné par le Sängerverein "Harmonie Zürich" : A l'occasion des fêtes du centenaire genevois ; au profit de l'hospice général</title>
-<placeName key="Victoria Hall"/>
-<name key="1913-1914" type="series"/>
-<name key="Chabrier, Emmanuel" ref="https://muscat.rism.info/admin/people/48553" type="person" role="cmp">Chabrier, Emmanuel</name>
-<name key="Franck, César" ref="https://muscat.rism.info/admin/people/70009" type="person" role="cmp">Franck, César</name>
-<name key="Hegar, Friedrich" ref="https://muscat.rism.info/admin/people/57553" type="person" role="cmp">Hegar, Friedrich</name>
-<name key="Schubert, Franz" ref="https://muscat.rism.info/admin/people/111603" type="person" role="cmp">Schubert, Franz</name>
-<name key="Brunner, M."  type="person" role="cmp">Brunner, M.</name>
-<name key="Heim, Ignaz" ref="https://muscat.rism.info/admin/people/30021331" type="person" role="cmp">Heim, Ignaz</name>
-<name key="Rietz, Julius" ref="https://muscat.rism.info/admin/people/55090" type="person" role="cmp">Rietz, Julius</name>
-<name key="Gigout, Eugène" ref="https://muscat.rism.info/admin/people/62831" type="person" role="cmp">Gigout, Eugène</name>
-<name key="Widor, Charles-Marie" ref="https://muscat.rism.info/admin/people/135158" type="person" role="cmp">Widor, Charles-Marie</name>
-<name key="Attenhofer, Carl" ref="https://muscat.rism.info/admin/people/30007424" type="person" role="cmp">Attenhofer, Carl</name>
-<name key="Barblan, Otto" ref="https://muscat.rism.info/admin/people/5298" type="person" role="cmp">Barblan, Otto</name>
-<name key="Kremser, Ed."  type="person" role="cmp">Kremser, Ed.</name>
-<name key="Fassbaender, P. (dir.)"  type="person" role="int">Fassbaender, P. (dir.)</name>
-<name key="Pieyre, Auguste (dir.)"  type="person" role="int">Pieyre, Auguste (dir.)</name>
-<name key="Saengerverein Harmonie de Zürich"  type="person" role="int">Saengerverein Harmonie de Zürich</name>
-<name key="Harmonie Nautique"  type="person" role="int">Harmonie Nautique</name>
-<name key="Bastard, William"  type="person" role="int">Bastard, William</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001188_001.tif"/>
-<page><![CDATA[VENDREDI, 3 JUILLET 1914 à 8!/: HEURES PRÉCISES
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19140703'/>
+        <title>
+          Grand concert donné par le Sängerverein "Harmonie Zürich" : A
+          l'occasion des fêtes du centenaire genevois ; au profit de l'hospice
+          général
+        </title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1913-1914' type='series'/>
+        <name key='Chabrier, Emmanuel' ref='https://muscat.rism.info/admin/people/48553' type='person' role='cmp'>Chabrier, Emmanuel</name>
+        <name key='Franck, César' ref='https://muscat.rism.info/admin/people/70009' type='person' role='cmp'>Franck, César</name>
+        <name key='Hegar, Friedrich' ref='https://muscat.rism.info/admin/people/57553' type='person' role='cmp'>Hegar, Friedrich</name>
+        <name key='Schubert, Franz' ref='https://muscat.rism.info/admin/people/111603' type='person' role='cmp'>Schubert, Franz</name>
+        <name key='Brunner, M.' type='person' role='cmp'>Brunner, M.</name>
+        <name key='Heim, Ignaz' ref='https://muscat.rism.info/admin/people/30021331' type='person' role='cmp'>Heim, Ignaz</name>
+        <name key='Rietz, Julius' ref='https://muscat.rism.info/admin/people/55090' type='person' role='cmp'>Rietz, Julius</name>
+        <name key='Gigout, Eugène' ref='https://muscat.rism.info/admin/people/62831' type='person' role='cmp'>Gigout, Eugène</name>
+        <name key='Widor, Charles-Marie' ref='https://muscat.rism.info/admin/people/135158' type='person' role='cmp'>Widor, Charles-Marie</name>
+        <name key='Attenhofer, Carl' ref='https://muscat.rism.info/admin/people/30007424' type='person' role='cmp'>Attenhofer, Carl</name>
+        <name key='Barblan, Otto' ref='https://muscat.rism.info/admin/people/5298' type='person' role='cmp'>Barblan, Otto</name>
+        <name key='Kremser, Ed.' type='person' role='cmp'>Kremser, Ed.</name>
+        <name key='Fassbaender, P.' type='person' role='int'>Fassbaender, P.</name>
+        <name key='Pieyre, Auguste' type='person' role='int'>Pieyre, Auguste</name>
+        <name key='Saengerverein Harmonie de Zürich' type='person' role='int'>Saengerverein Harmonie de Zürich</name>
+        <name key='Harmonie Nautique' type='person' role='int'>Harmonie Nautique</name>
+        <name key='Bastard, William' type='person' role='int'>Bastard, William</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001188_001.tif'/>
+        <page>
+          <![CDATA[VENDREDI, 3 JUILLET 1914 à 8!/: HEURES PRÉCISES
 A L'OCCASION DES FÊTES DU
 CENTENAIRE GENEVOIS
-
 GRAND CONCERT
-
 DONNÉ
-
 AU PROFIT DE L'HOSPICE GÉNÉRAL
-
 PAR LE
-
 SÂNGERVEREIN
 # , HARMONIE ZÜRICH“
-
 (DIRECTEUR: M. P. FASSBAENDER)
-
 AVEC LE CONCOURS DE
-
 L'HARMONIE NAUTIQUE
-
 DE GENÈVE
 (DIRECTEUR: M. A. PIEYRE)
 ET DE M. WILLIAM BASTARD, ORGANISTE A PARIS
-
 L
-
 PRIX: 20 CTS.
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 PENDANT L'’EXÉCUTION DES MORCEAUX, LES PORTES
-SERONT FERMÉES.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001188_002.tif"/>
-<page><![CDATA[]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001188_003.tif"/>
-<page><![CDATA[Orchestre:
-
+SERONT FERMÉES.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001188_002.tif'/>
+        <page><![CDATA[]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001188_003.tif'/>
+        <page>
+          <![CDATA[Orchestre:
 PROGRAMME
-
 e
-
 l a. Ouverture de Gwendoline
-
 1b. Rédemption (Poème Symphonique)
-
 Harmonie Nautique.
-
 Chœurs:
-
 Vineta
-
 . —-
-
 Chante encore (Bundeslied)
 La Nuit (Die Nacht) ;
 Souvenir des Alpes (Erinnerung)
-
 Chanson matinale (Morgenlied)
-
 Harmonie Zürich.
-
 Orgue:
-
 Ta. Marche Religieuse ;
 7b. Toccata de la 5e Symphome
 M. William Bastard.
-
 Chœurs:
 8.  Marche dans le désert (Schlafwandel)
 9.  La blanche croix de l’étendard (Das
-
 @.
 11
-
 weisse Kreuz)
 Hymne Patriotique
 Actions de grâce (Dankgcbçt) (h…u
-
 et Orgue)
 Harmonie Zürich.
-
-   
-
 Chabrier
 C. Franck
-
 Fr. Hegar
-
 F. Schubert
 M. Brunner
 lonaz Heim
-
 - J. Rietz
-
 E. CGigout
 C. M. Widor
-
 Fr. Fegar
-
 C. Attenhofer
 O. Barblan
-
-Ed. Kremser]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001188_004.tif"/>
-<page><![CDATA[LIEDER-TEXTE.
-
+Ed. Kremser
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001188_004.tif'/>
+        <page>
+          <![CDATA[LIEDER-TEXTE.
 la. Ouverture de Gwendoline. Orchestre. Chabrier.
 1b. Rédemption (Poème Symph.). Orchestre. C. Franck.
-
 2. Bundeslied.
-
 Theod. Kôrner. Friedr. Hegar. .
-
 Freudig treten wir zusammen mit des Liedes hohem Gruss,
 und des Altars reine Flammen glühen dir, Gott Cinthius! Dank dir,
 Schlangenüberwinder, für den liedbegabten Mund! Du vereinest
 deine Kinder zu Gesang und Bruderbund!
-
 Ward das schônste nicht der Lose, ward uns nicht die hôchste
 Lust? Für das Edle, für das Grosse schlägt wohl glühend manche
 Brust; doch es treibt ein dunkles Sehnen sie in tiefe Nacht hinaus,
 und es sprechen ihre Tränen, ihre Freuden sich nicht aus.
-
 Aber wir, mit kühnem Herzen, halten fest, was in uns glüht,
 unsre Freuden, unsre Schmerzen hauchen wir ins warme Lied.
 Weben sinnig unsre Worte zu der Saiten tiefem Klang, und lebendig
 im Accorde wird die Sprache zum Gesang.
-
 Darum singt in lauten Tônen, was die Gunst der Musen schafft,
 und dem Edlen und dem Schônen weihen wir des Bundes Kraft.
-
 3. Die Nacht.
-
 F. A. Krummacher. Franz Schubert.
-
 Wie schôn bist du, freundliche Stille, himmlische Ruh’! Sehet,
 wie die klaren Sterne wandeln in des Himmels Auen und auf uns
 herniederschauen, schweigend aus der blauen Ferne!
-
 Wie schôn bist du, freundliche Stille, himmlische Ruh’! Schwei-
 gend naht des Lenzes Milde sich der Erde weichem Schoss, kränzt
-
 den Silberquell mit Moos und mit Blumen die Gefilde. .
-
 4. Erinnerung.
 Brunner v. Glarus. Volksweise.
-
 [hr Berge lebt wohl! Ibr lispelnden Büsche, du kühlende Frische,
 du rieselnder Quell. Noch denke ich so gerne an euch in weiter
 Ferne. Ihr Berge lebt wohl!
-
 Ihr Hirten lebt wohl! Ihr schallenden Lieder, wann hôr’ ich
 euch wieder auf grünender Alp? Mit Wehmut und mit Schmerzen
 ruf’ ich: Ihr edlen Herzen, ihr Hirten, lebt wohl!
-
 Ihr Alpen lebt wohl!  Welch’ liebliche Dûfte, welch’ kühlende
 Lüfte umhauchten mich dort. Was habe ich empfunden; nun sind
-
 sie hingeschwunden, ihr Alpen lebt wohl.
-
- 
-
 |
 ]
 1
 J
-E]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001188_005.tif"/>
-<page><![CDATA[TEXTE DES CHANSONS.
-
+E
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001188_005.tif'/>
+        <page>
+          <![CDATA[TEXTE DES CHANSONS.
 2293
-
 la. Ouverture de Gwendoline. Orchestre. Chabrier.
 1b. Rédemption (Poème Symph.). Orchestre. C. Franck.
-
 2. Chante encore.
 Joseph Bovet. Fr. Hegar.
-
 Gloire à la céleste flamme qui jaillit dans tes accents, 0 musique,
 voix de l’âme, douce reine! A toi nos chants. Car c’est toi qui dis
 les gloires des ancêtres valeureux, toi qui chantes les victoires, les
 exploits dés anciens preux. C’est toi!
-
 Que ta voix célèbre encore, l’ideal des nobles cœurs, leur amour
 à son aurore, leurs angoisses, leurs ardeurs. Tu sais dire avec des
 larmes les douleurs des cœurs meurtris, leurs espoirs trop tôt flétris.
-
 Par ta voix, par ta puissance, le guerrier vole au combat, tu
 ranimes sa vaillance jusqu’à l’heure du trépas. À l’exemple des
 ancêtres, pour combattre sans aucun effroi, dans son âme, tu fais naître
 le courage d’autrefois.
-
 Chante encore sur la terre, fais vibrer tes doux accords, o musique,
 si chère, voix de l’âme, chante, o chante encore!
-
 è. La Nuit.
 Trad. par Ch. Troyon. Franz Schubert,
-
 O belle nuit! Du doux repos aimable moment! A cette heure
 les étoiles, brillent calmes et sans voiles au majestueux firmament.
 Tout est calme; au ciel pas un nuage. D’un bon Père, c’est le touchant
 message.
-
 O belle nuit. Du doux repos aimable moment! Notre tête est
 rafraîchie; à la paix Dieu nous convie, sous son œil si bon, si clément.
 A notre âme, l’eau du ciel est versée, comme aux p]antes la lim-
 pide rosée.
-
 4. Souvenir des Alpes.
 Brunner de Glaris. Chanson populaire.
-
 Mes Alpes adieu, adieu! Je vois dans les nues vos cimes chenues
 vos noires forêts vos heureux chalets. Jusqu’au lointain rivage votre
 éclatante image m’accompagne en tout lieu. Mes Alpes, adieu!
-
 Mes Alpes adieu! Je vois sur les pentes des fleurs plus riantes;
 J’entends les troupeaux jeter aux échos le bruit de leurs clochcttc:
 dont l’Alpe au loin répète le chant harmonieux, Mes Alpes, adieu!
-
 Mes Alpes, adieu! Je vois le bon pâtre debout près de P’âtre;
 ami toujours prêt à verser son lait au voyageur qui passe, 9an*utc
-et se délasse, assis près d’un bon feu. Mes Alpes, adieu!]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001188_006.tif"/>
-<page><![CDATA[se
-
+et se délasse, assis près d’un bon feu. Mes Alpes, adieu!
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001188_006.tif'/>
+        <page>
+          <![CDATA[se
 Josef Seiler. 5. Vineta. Ignaz Heim.
-
 Hier, wo das Meer wie Spiegel so glatt, hier war Vineta, die
 heilige Stadt: hier klang zu hohem Orgelton das Wallfahrtslied der
 Prozession: Salve regina!
-
 Das Meer ist falsch, das Meer ist tief, weh’ dem, der in seinen
 Armen schlief! Die Stadt versank; vergebens klang der Mônche
 flehender Chorgesang: Salve regina!
-
 Das Meer so tief, so spiegelglatt, lebendig begrub es die heilige
 Stadt! Nachts, wenn das Heer der Sterne zieht, entrauscht den
 Wogen Vinetas Lied: Salve regina!
-
 J. v. Eichendorff. 6. Morgenlied. Julius Rietz.
-
 Kein Stimmlein noch schallt von allen in frühester Morgenstund’,
 wie still ists noch in den Hallen durch den weiten Waldesgrund.
-
 Ich stehe hoch über’m Tale, stille vor grosser Lust, und schau’
 nach dem ersten Strahle, kühl schauernd in tiefster Brust.
-
 Nun rauschen schon stärker die Wälder, Morgenlicht funkelt
 hinauf, die Lerche singt über den Feldern, schône Erde, nun wache auf.
-
 7a. Marche Religieuse. Orgue. E. Gigouft.
 7b. Toccata de la 5° Symphonie. Orgue. C. M. Widor.
-
 Gottfr, Keller. 8. Schlaïwandel. Friedr. Hegar.
-
 Im afrikanischen Felsental marschiert ein Bataillon, sich selber
 fremd, eine braune Schar der Fremdenlegion. Lang ist ihr wildes
 Lied verhallt in Sprachen mancherlei; stumm glüht der rômische
 Schutt am Weg, schlafend zieh’n sie vorbei.
-
 Unter der Trommel vorgebeugt der schlafende Tambour geht;
 es nickt der Kommandant zu Ross, von lohender Glut umweht.
 Es schläft die Truppe, Haupt für Haupt unter der Sonne gesenkt,
 von der Gewohnheit Eisenfaust in Schritt und Tritt gelenkt.
-
 Und was sonst in der dunklen Nacht das Zelt nur sehen mag,
 tritt unterm offnen Himmelsblau im Wüstenlicht zutag. Es spielt
 das schmerzliche Mienenspiel unglücklichen Manns, der träumt,
 von Gram und Leid und Bitterkeit ist jeglicher Mund umsäumt.
-
 Es zuckt die Lippe, zuckt das Aug’, auf dürre Wangen quillt
 die unbemeisterte Träne hin, vom Sonnenbrand gestillt. Sie schaun
 ein reizend ‘Spiegelbild vom kühlen Heimatstrand, das grüne Klee-
 feld, rot beblümt, den Vater, der einst den Sohn gerühmt, verlornes
 Jugendland!
-
 Ein Schuss — da flatterts weiss heran, und schon steht das
 Karree schlagfertig und munter, und keiner sah des andern Reu und
 Weh; nur zorniger ist jeder Mann, willkommen ihm der Streit, doch
 wie er kam, zerstiebet der Feind wie Traum und Reu so weit!
-
-   
-
-e]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001188_007.tif"/>
-<page><![CDATA[dl SrdgaTes
-
+e
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001188_007.tif'/>
+        <page>
+          <![CDATA[dl SrdgaTes
 HR
-
 GR JAIS TRN NER VUI A
-
 Tea n
-
 vs
-
 E R E QE e
-
 Sh
-
 PR c—upqu—-—o-y_.nr-“’-t\u ÉF we
-
 RS ATRNNUSES
-
 RRN ME RI II UR
-
 d
-
-  
-
 Trad. par Ch. Troyon. 5. Vineta. Ignaz Heim.
-
 C’est ici, où la mer est lisse comme un miroir, c’est ici que fut
 Vineta, la ville sainte. C’est ici que résonna, au son des orgues, le
 chant des pèlerins: Salve regina!
-
 La mer est perfide, la mer est profonde; malheur à celui qui
 s’endormit dans ses bras. La ville s’est engloutie; en vain, les moines
 firent entendre leurs voix suppliantes: Salve regina!
-
 La mer profonde, unie comme un miroir ensevelit la ville sainte
 et ses habitants. La nuit, quand passe l’armée des étoiles, on entend
 .monter des vagues le chant de Vineta: Salve regina!
-
 Trad.par Ch. Troyon. 6. Chanson matinale. Julius Rietz.
-
 Toutes les voix se taisent encore; l’aurore trouve silencieuses
 les forêts et les vallées.
-
 Je domine de haut la vallée; l’extase m’envahit, et, muet, je
 guette le premier rayon du soleil. La fraicheur de l’aurore me fait
 frissonner jusqu’au fond de mon être.
-
 Déjà les forêts bruissent et s’agitent; le soleil du matin les couvre
 d'étincelles. Au-dessus des champs, l’alouette chante et monte. Ré-
 veille-toi, 6 terre!
-
 7a. Marche Religieuse. Orgue. E. Gigout.
 7b. Toccata de la 5° Symphonie. Orgue. C. M. Widor.
-
 Henri Warnéry. 8. Marche dans le désert. Friedr. Hegar,
-
 Vers l’horizon rougeoyant où fuit le morne Atlas poudreux, la
 légion étrangère suit la steppe au sol pierreux. On n’entend plus le
 fier clairon on n’entend plus un chant. Ces durs soldats, sous le ciel
 de plomb dorment tout en marchant.
-
 Sombre et fermant ses yeux brûlés, aux feux du grand jour
 brutal, le vieux major aux traits hâlés sommeille sur son cheval. La
 troupe entière, inertement dort sous l’ardeur du soleil chacun marchant
 péniblement d’un pas toujours pareil.
-
 Le rêve aimé des longues nuits miroite au fond des yeux, tous
 leurs pensées se sont enfuis bien loin, vers d’autres cieux. Un deuil
 Sans nom fait saigner leurs cœurs; en vain cherchent-ils l’oubli. D’amers
 regrets, d’espoirs rongeurs leur bouche a gardé le pli.
-
 Parfois un pleur au bord des cils, un pauvre pleur brille trem-
 blant combien déjà sur leurs traits virils, séchés par l’air brûlant!
 Ils vont, songeant au vert pays où chantent les ruisseaux, aux champs
 de trèfle épanouis, aux bois peuplés d’oiseaux, aux vieux parents aux
 cheveux blanchis, au doux pays perdu.
-
 Soudain! — un coup de fusil au loin! Soldats, serrez vos rangs!
 Voici l’insolent Bedouin! Croisez bayonette! Un feu remplit leurs yeux
 indifférents car tous ont la colère au cœur. Va-t-on se battre enfin?
 La trompette sonne — mais comme il vient s’enfuit l’agresseur, pareil
-au vent, dans le désert sans fin.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001188_008.tif"/>
-<page><![CDATA[2090 2
-
+au vent, dans le désert sans fin.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001188_008.tif'/>
+        <page>
+          <![CDATA[2090 2
 [m afrikanischen Felsental marschiert ein Bataillon, sich selber
 fremd, eine braune Schar der Fremdenlegion. Es schläft die Truppe,
 Haupt für Haupt unter der Sonne gesenkt, von der Gewohnheit
 Eisenfaust in Schritt und Tritt gelenkt. Sie schaun ein reizend
 Spiegelbild vom kühlen Heimatstrand; verlornes Land, verlornes
 Jugendland.
-
 9. Das weisse Kreuz im roten Feld.
 Fr, Oser. C. Attenhofer.
-
 Das weisse Kreuz im roten Feld, hoch flattert®s über’m Plan,
 das Zeichen, das den Sieg behält, vorwärts, vorwärts! es fliegt
 voran! Gott selber droben, der hats erhoben, und gab’s zum Hort
 dir in die Hand vor aller Welt, mein Vaterland!
-
 Das weisse Kreuz im roten Feld, wir halten’s frei und rein,
 das Zeichen, das den Sieg behält, nie, nie soll’s verloren sein! Im
 Tod und Leben solls uns umweben! Nichts soll dir reissen aus der
 Hand dein Banner dir, mein Vaterland!
-
 Das weisse Kreuz im roten Feld, weh! Jedem der’s bedroht!
 das Zeichen, das den Sieg behält, Heil bleibës, Heil bleibts in Not
 und Tod! Und wer muss sterben, der lässt’'s den Erben! so lang
 noch waltet Gottes Hand, frei bleibst du, frei mein Vaterland!
-
 10. Vaterlandshymne.
 M. Bühler und G, Luck. Otto Barblan.
-
 Heil dir, mein Schweizerland! Heil dir, frei Alpenland, im
 Vôlkersturm! Weit in der Länder Kreis lcughtet aus Nacht und Eis
 dein Banner rot und weiss vom Felsenturm.
-
 Hôrt ihr das Heldenlied? Tell heissts und Winkelried, Fontanas
 Tod. Frisch auf zu Trutz und Wehr’ heut oder nimmermehr rettet
 ihr Fid und Ehr’ aus Kampfesnot.
-
 Hoch strahlt vom Firmenschild, Freiheit, dein hehres Bild, den
 Sternen nah! Frei wie dein Grund und Grat, kühn wie der \/.1ttr
 Tat sei unser Schwur und Rat, Helvetia!
-
 E. Kremser.
-
 11. Dankgebet. . (
-
 Wir treten zum Beten vor Gott den Gerechten, er waltet und
 haltet ein strenges Gericht, er lässt von den Schlechten die Guten
 nicht knechten, dem Name sei gelobt — er vergisst unser nicht.
-
 Im Streite zur Seite ist Gott uns gestanden, er wollte, es sollte
 das Recht siegreich sein. Da war kaum begonnen, die Suhlmht schon
 gewonnen, du Gott warst ja mit uns, der Sieg, er war dein.
-
 Wir loben dich oben, du Lenker der Schlachten, und flehen,
 môg’st stehen uns fernerhin bei, dass deine Gemeinde nicht Opfer
 der Feinde, dein Name sei gelobt — o Herr mach’ uns frei.
-
-— ROMAOS]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001188_009.tif"/>
-<page><![CDATA[r E TO E
-
+— ROMAOS
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001188_009.tif'/>
+        <page>
+          <![CDATA[r E TO E
 VRs
-
 TIZF
-
 q e
-
 EJ
-
 P e e ME
-
-    
-
- 
-
 E A
-
 OS NN
-
 FREREEEE
-
 A RE
 Ÿ
-
 PETEETS
-
-   
-
 Vers l’horizon rougeoyant où fuit le morne Atlas poudreux, la
 légion étrangère suit la steppe au sol pierreux, la troupe entière
 inertement dort sous l’ardeur du soleil chacun marchant péniblement
 d’un pas toujours pareil. Le rêve aimé des longues nuits, miroite au
 fond des yeux; oh doux pays perdu!
-
 9. La blanche croix de l’étendard.
 C. Attenhofer,
-
 La blanche croix de l’étendard flotte aux sommets, qu’elle aime.
 C’est là le signal du départ, marchons, à son appel suprême! Ce
 saint emblème, c’est Dieu lui-même, qui des beaux cieux vous l’a
 remis, 6 vieux héros de mon pays.
-
 La blanche croix de l’étendard protège nos frontières! Nos corps
 seront son seul rempart, toujours-aux plaines meurtrières. Guerriers
 austères, comme nos pères, nous voulons léguer à nos fils, la liberté
 de leur pays.
-
 La blanche croix de l’étendard affronte les abimes! Du Suisse
 inspire le regard; salut! drapeau cher aux victimes! Deux mots
 sublimes, comme tes cimes, paix et liberté sont unis dans ta bannière,
 0 mon pays.
-
 10. Hymne Patriotique.
 Edouard Mercier. Otto Barblan.
-
 Terre des monts neigeux, pour toi jusques aux cieux montent
 nos voix! Sur ton rempart sacré de l’étendard paré, brille en son
 champ pour pré, ta blanche croix.
-
 Il vibre en tous les cœurs, le nom des grands vainqueurs des
 anciens jours! Comme eux, en hommes droits, contre l’assaut des rois,
 nous maintiendrons nos droits, libres toujours.
-
 Suisse, vers tes glaciers luit, en ses traits altiers, la liberté!
 Fiers comme nos aïeux, comme eux audacieux, nous te jurons comme
 eux fidélité!
-
 11. Actions de grâce.
 B, Kremser,
-
 Ton peuple se place, à Dieu, devant ta face; en paix, il adore
 tes saints jugements. Dieu, pour qui l’implore, Dieu se montre encore,
 puissant, pour délivrer des plus rudes tourments.
-
 Ta force éternelle confond le rebelle, qui, dans son orgueil,
 croyait rester vainqueur. Ta main est plus forte; le faible l’emporte.
 Tu combattis pour nous: à Toi tout l’honneur.
-
 À Toi toute gloire, à Toi la victoire. Toi seul nous délivres d’un
 joug redouté! C’est Toi que notre âme adore et réclame. Seigneur,
 nous te devons paix et liberté,
-
-——FRosos——]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001188_010.tif"/>
-<page><![CDATA[]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001188_011.tif"/>
-<page><![CDATA[]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001188_012.tif"/>
-<page><![CDATA[]]></page>       
-        </p>
+——FRosos——
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001188_010.tif'/>
+        <page><![CDATA[]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001188_011.tif'/>
+        <page><![CDATA[]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001188_012.tif'/>
+        <page><![CDATA[]]></page>
+      </p>
     </body>
   </text>
 </TEI>

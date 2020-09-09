@@ -1,221 +1,172 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>6me grand concert populaire<date when="15/04/1931"/></title>
-<series>1930-1931</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            6me grand concert populaire
+            <date when='15/04/1931'/>
+          </title>
+          <series>1930-1931</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002746</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Helaerts, G.</note>
+        <note>Piantoni, L. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19310415"/>
-<title>6me grand concert populaire</title>
-<placeName key="Victoria Hall"/>
-<name key="1930-1931" type="series"/>
-<name key="Popy, Francis" ref="https://muscat.rism.info/admin/people/30071122" type="person" role="cmp">Popy, Francis</name>
-<name key="Offenbach, Jacques" ref="https://muscat.rism.info/admin/people/111831" type="person" role="cmp">Offenbach, Jacques</name>
-<name key="Charpentier"  type="person" role="cmp">Charpentier</name>
-<name key="Verdi, Giuseppe" ref="https://muscat.rism.info/admin/people/137994" type="person" role="cmp">Verdi, Giuseppe</name>
-<name key="Schubert, Franz" ref="https://muscat.rism.info/admin/people/111603" type="person" role="cmp">Schubert, Franz</name>
-<name key="Delibes, Léo" ref="https://muscat.rism.info/admin/people/30016578" type="person" role="cmp">Delibes, Léo</name>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Rossini, Gioachino" ref="https://muscat.rism.info/admin/people/63766" type="person" role="cmp">Rossini, Gioachino</name>
-<name key="Lasso, Orlando di" ref="https://muscat.rism.info/admin/people/506" type="person" role="cmp">Lasso, Orlando di</name>
-<name key="Helaerts, G. (dir.)"  type="person" role="int">Helaerts, G. (dir.)</name>
-<name key="Piantoni, Louis  (dir.)"  type="person" role="int">Piantoni, Louis  (dir.)</name>
-<name key="La Lyre de Genève"  type="person" role="int">La Lyre de Genève</name>
-<name key="Cercle choral"  type="person" role="int">Cercle choral</name>
-<name key="Andreossi, V. (Mme)"  type="person" role="int">Andreossi, V. (Mme)</name>
-<name key="Beckmans, Guy"  type="person" role="int">Beckmans, Guy</name>
-<name key="Santandrea, P."  type="person" role="int">Santandrea, P.</name>
-<name key="Gardon, L. (Mme)"  type="person" role="int">Gardon, L. (Mme)</name>
-<name key="Molina, O. (Mme)"  type="person" role="int">Molina, O. (Mme)</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002746_001.tif"/>
-<page><![CDATA[; .
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19310415'/>
+        <title>6me grand concert populaire</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1930-1931' type='series'/>
+        <name key='Popy, Francis' ref='https://muscat.rism.info/admin/people/30071122' type='person' role='cmp'>Popy, Francis</name>
+        <name key='Offenbach, Jacques' ref='https://muscat.rism.info/admin/people/111831' type='person' role='cmp'>Offenbach, Jacques</name>
+        <name key='Charpentier' type='person' role='cmp'>Charpentier</name>
+        <name key='Verdi, Giuseppe' ref='https://muscat.rism.info/admin/people/137994' type='person' role='cmp'>Verdi, Giuseppe</name>
+        <name key='Schubert, Franz' ref='https://muscat.rism.info/admin/people/111603' type='person' role='cmp'>Schubert, Franz</name>
+        <name key='Delibes, Léo' ref='https://muscat.rism.info/admin/people/30016578' type='person' role='cmp'>Delibes, Léo</name>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Rossini, Gioachino' ref='https://muscat.rism.info/admin/people/63766' type='person' role='cmp'>Rossini, Gioachino</name>
+        <name key='Lasso, Orlando di' ref='https://muscat.rism.info/admin/people/506' type='person' role='cmp'>Lasso, Orlando di</name>
+        <name key='Helaerts, G.' type='person' role='int'>Helaerts, G.</name>
+        <name key='Piantoni, Louis' type='person' role='int'>Piantoni, Louis</name>
+        <name key='La Lyre de Genève' type='person' role='int'>La Lyre de Genève</name>
+        <name key='Cercle choral' type='person' role='int'>Cercle choral</name>
+        <name key='Andreossi, V. (Mme)' type='person' role='int'>Andreossi, V. (Mme)</name>
+        <name key='Beckmans, Guy' type='person' role='int'>Beckmans, Guy</name>
+        <name key='Santandrea, P.' type='person' role='int'>Santandrea, P.</name>
+        <name key='Gardon, L. (Mme)' type='person' role='int'>Gardon, L. (Mme)</name>
+        <name key='Molina, O. (Mme)' type='person' role='int'>Molina, O. (Mme)</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002746_001.tif'/>
+        <page>
+          <![CDATA[; .
 |
-
 3
-
 VILLE DE ® GENÈVE
-
 SERVICE MUNICIPAL DES CONGERTS
 VICTORIA-HALL SAISON 1930-1931
-
 Mercredi 15 Avril 1931
 à 20 h. 30 (8 h. 30)
-
 67 GRAND CONCERT
-
 POPULAIRE
-
 organisé par les soins du
-
 Conseil Administratif de la Ville de Genève
-
 avec le bienveillant ef gracieux concours de
-
 L'Harmonie La Lyre de Genève
 Direction : M. G. H€lﬂQI‘ÏS, Prof. de musique
-
 Le Cercle Choral (Chorale municipale)
 Direction : M. L. Diantoni, Prot. de musique
-
 Mme V. Àﬂdl‘€0$Si, canfafrice
 M- Guy Bec1(mans, Professeur
-
 M. P. Santandrea, “*rine!tiste, Professeur
 ° ( ;
-
 à l'Harmonie Nautique
 basson solo de
 M' H' Helﬂel‘ts, l’Orchestre Romand
 Au piano : Mres [. Gardon & O. Molina
 — e mm
-
 Pendant l'exécution des morceaux, les portes seront fermées et le
 silence le plus absolu devra être observé, — Prière de ne pas faire les
 préparatifs de départ avant que le dernier morceau ne soit complètement exécuté,
-
 PPPPPTEPIPSTPPTPTTE SPE
-
 PFF
-
 TF
-
- 
-
- 
-
 T
-
- 
-
- 
-
- 
-
- 
-
- 
-
-IMPRIMERIES POFULAINES, GENÈVE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002746_002.tif"/>
-<page><![CDATA[Qu
-
+IMPRIMERIES POFULAINES, GENÈVE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002746_002.tif'/>
+        <page>
+          <![CDATA[Qu
 sgI
-
- 
-
 . Cortège étincelant, marche triomphale . . F. Popy.
-
 Mon village, chœur ° Senubert ]
 Cercle Choral (Chorale municipale). ;
 f
 |
 SECONDE PARTIE |
 coppélla ballet 11 Po Polites
-
 . Duo N° 3 pour clarinette et basson. . . Beethoven.
-
 . Air de la Calomnie du Barbier de Séville  Rossini. .
-
 PI‘OSI‘&I‘I”IIH€
-
- 
-
 PREMIÈRE PARTIE
-
 Harmonie « La Lyre de Genève ». ‘
-
 Les Contes d’Hofmann. . . . . . . . . Offenbach. '
 Fantaisie sur l’opéra-comique . . . . . Arr. d’Andrieu. :
-
 Harmonie « La Lyre de Genève ». .
-
 Air de Louise (Depuis le jour où je me suis ; ‘
 donnée…) e eN ; Charpentier. ’
 Rigoletto (air de Gilda) . . . . . . . .  Verdi. |
-
 Mme V. Andreossi, cantatrice. ‘
-
 Au piano : Mme O. Molina.
-
 Eragmenta T 7 de 1 Bouchel
-
 Harmonie « La Lyre de. Genève ».
-
 M. P. Santandrea, clarinettiste ;
 M. H. Helaerts, basson.
-
 M. Guy Beckmans, basse.
 Au piano : Mme L. Gardon.
-
 . La Sérénade du Lansquenet (1520-1594) O. di Lasso.
-
-Cercle Choral (Chorale municipale).]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002746_003.tif"/>
-<page><![CDATA[Gm e fiigam
-
-  
-
- 
-
+Cercle Choral (Chorale municipale).
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002746_003.tif'/>
+        <page>
+          <![CDATA[Gm e fiigam
 SERVILE MUNICIPAL DES CONGERTS
-
 HE concert du mercredi 15 avril est le sixième des
 grands concerts populaires de la saison 1930-1931,
 et la soixantième des séances musicales organisées
 par les soins du Service compétent de la ville de
-
 “ Genève pendant la période 1922-1931, dans la
 somptueuse salle du Victoria-Hall.
-
 A chacun de nos concerts, nous avons dû refuser la vente des
 billets, le nombre des places (1800) étant par trop restreint.
-
 L’hiver prochain, le Victoria-Hall ayant été retenu par le
 Conseil d’Etat en vue de la Conférence du désarmement, nos grands
 concerts populaires seront donnés au Grand-Théâtre.
-
 A l’occasion de ce dernier concert, nous tenons essentiellement
 à remercier très vivement tous ceux qui ont collaboré gracieusement
 à la bonne et complète réussite de nos belles manifestations ar-
 tistiques.
-
 Mentionnons, en tout premier lieu, l’Orchestre de la Suisse
 romande, son chef, M. E. Ansermet, et le chef en second, M. F.
 Closset, lesquels ont mis, avec leurs musiciens, beaucoup de cœur
@@ -226,31 +177,23 @@ concours. Nous ne voulons point oublier, dans nos félicitations,
 les sociétés, la « Lyre de Genève » et le « Cercle Choral », (Chorale
 municipale), leurs directeurs, et les solistes qui ont accepté avec
 empressement leur inscription au programme de ce soir.
-
 Nous remercions, enfin, les personnes qui nous ont encouragé
 dans nos initiatives, telles que les concerts à cinq sous, les repré-
 sentations théâtrales et cinématographiques populaires.
-
 La belle discipline et la remarquable docilité observées dans nos
 manifestations diverses a grandement facilité notre ingrate orga-
 nisation. ;
-
 Aussi est-ce avec plaisir que nous adressons à tous — public,
 sociétés musicales, artistes, amateurs, presse, critique, personnel
 municipal, secrétaire et commis du Service des spectacles et
 concerts, — les compliments mérités et les sincères remerciements
 du Conseil administratif.
-
- 
-
 %
 # %
-
 TRE 60me grand concert populaire termine la série
 des manifestations de cet hiver, et déjà, il nous faut
 préparer l’organisation compliquée des concerts
 ; gratuits en plein air.
-
 Nous envisageons, pour la belle saison, une cin-
 quantaine de concerts gratuits, sur nos quelques places publiques
 et nos promenades municipales, avec le concours des sociétés mu-
@@ -259,22 +202,19 @@ Genève. Nous aurons à tenir compte des critiques justifiées concer-
 nant certains concerts. La tâche ne sera pas facile. Mais nous cher-
 cherons avant tout à contenter le public genevois, amateur de
 bonne musique.
-
 Genève, le 15 avril 1931. Le Conseiller admimistratif
 délégué aux spectacles et aux concerts :
-
-J.-B. PONS.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002746_004.tif"/>
-<page><![CDATA[Les Pouvoirs publics et la Musique
-
+J.-B. PONS.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002746_004.tif'/>
+        <page>
+          <![CDATA[Les Pouvoirs publics et la Musique
 Nous reproduisons ici un intéressant article écrit par M.
 Gustave Doret. L’excellent compositeur suisse expose clairement,
 dans un journal vaudois, les devoirs des Pouvoirs publics en vue de
 venir en aide financièrement aux sociétés musicales, aide indis-
 pensable aux bonnes exécutions vocales et instrumentales :
-
- 
-
 «Dans le domaine de l’exécution musicale, écrit M. Doret,
 il est impossible de rien faire sans possibilités financières. Examinez
 les budgets des sociétés symphoniques qui constituent, si je puis
@@ -286,47 +226,41 @@ les moyens d’étude et de travail qu’elles désirent ; elles posséderaient
 les instruments les meilleurs de la fabrication moderne; elles n’au-
 raient plus à craindre que le plus petit déficit déséquilibre leur
 existence. ;
-
 Lors de la Fête fédérale de Zoug, en 1923, une société est
 sortie première dans les concours, se classant hors pair, avec une
 distinetion qu’accentuèrent les musiciens étrangers présents.
 Cette société, la Civica Filarmonica, de Lugano, était animée du
 plus bel esprit de travail et de saine ambition : elle possédait
 un chef de talent le plus ferme, dont la science égalait l’entrain.
-
 L’exécution et _l’interprétation de l’ouverture du Carnaval
 romain, de Berlioz, qu’elle donna, furent admirables, de tout
 premier ordre; chef et exécutants eurent droit aux louanges les
 plus absolues. C’est l’évidence.
-
 Mais, en feuilletant le livret de la fête qui donnait tous les
 détails sur l’état et l’activité des sociétés, qu’avons-nous constaté ?
-
 Un simple fait : Lugano est la seule ville de Suisse qui donne
 une subvention convenable à sa musique municipale; subvention
 justifiée en tous points de vue. Quel serait le développement de la
 musique luganaise si elle n’était soutenue que par ses concitoyens ?
-
 Quand donc ne considérera-t-on plus la musique @omme un
 luxe dans la vie quotidienne? Et vous qui souriez peut-être, en me
 lisant, vous êtes-vous imaginé ce que deviendraient nos fêtes et
 cerémomes si les milliers de musiciens exécutants de notre pays :
 cuivres, bois, tambours, cymbales, ne sacrifiaient pas leur temps
 et leurs forces à y appliquer l’élément indispensable ?
-
 Si parfois vos oreilles ne sont pas très satisfaites, à qui la
 faute? Vous savez maintenant les causes qui enrayent le per-
 fectionnement. »
-
 C’est précisément pour obvier à cet inconvénient, celui des
 difficultés financières, que le Service des musiques de la ville de
 Genève développa les concerts populaires d’été en indemnisant
 les sociétés musicales prêtant leur concours à ces concerts en plein
 air, et qu’il fit voter par les autorités municipales des subventions
 raisonnables à la plupart de nos populaires sociétés chorales et
-
-instrumentales.]]></page>       
-        </p>
+instrumentales.
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

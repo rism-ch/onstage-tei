@@ -1,103 +1,109 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Grand concert organisé par le choeur de dames Edelweiss et les Sociétés La Muse et Concordia : Au bénéfice de leur directeur, M. Ami Bosson<date when="27/11/1898"/></title>
-<series>1898-1899</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Grand concert organisé par le choeur de dames Edelweiss et les
+            Sociétés La Muse et Concordia : Au bénéfice de leur directeur, M.
+            Ami Bosson
+            <date when='27/11/1898'/>
+          </title>
+          <series>1898-1899</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F000420</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Bosson, A. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18981127"/>
-<title>Grand concert organisé par le choeur de dames Edelweiss et les Sociétés La Muse et Concordia : Au bénéfice de leur directeur, M. Ami Bosson</title>
-<placeName key="Victoria Hall"/>
-<name key="1898-1899" type="series"/>
-<name key="Attenhofer, Carl" ref="https://muscat.rism.info/admin/people/30007424" type="person" role="cmp">Attenhofer, Carl</name>
-<name key="Munzinger, Karl" ref="https://muscat.rism.info/admin/people/119456" type="person" role="cmp">Munzinger, Karl</name>
-<name key="Goens, Daniel van" ref="https://muscat.rism.info/admin/people/41007232" type="person" role="cmp">Goens, Daniel van</name>
-<name key="Massenet, Jules" ref="https://muscat.rism.info/admin/people/84264" type="person" role="cmp">Massenet, Jules</name>
-<name key="Ritz"  type="person" role="cmp">Ritz</name>
-<name key="Wiesner, R."  type="person" role="cmp">Wiesner, R.</name>
-<name key="Tilman"  type="person" role="cmp">Tilman</name>
-<name key="Widor, Charles-Marie" ref="https://muscat.rism.info/admin/people/135158" type="person" role="cmp">Widor, Charles-Marie</name>
-<name key="Pinsutti"  type="person" role="cmp">Pinsutti</name>
-<name key="Sturm, W."  type="person" role="cmp">Sturm, W.</name>
-<name key="Bosson, Ami (dir.)"  type="person" role="int">Bosson, Ami (dir.)</name>
-<name key="Edelweiss"  type="person" role="int">Edelweiss</name>
-<name key="La Muse"  type="person" role="int">La Muse</name>
-<name key="Concordia"  type="person" role="int">Concordia</name>
-<name key="Bonade (Mme)"  type="person" role="int">Bonade (Mme)</name>
-<name key="Rey, Louis"  type="person" role="int">Rey, Louis</name>
-<name key="Rehberg, Adolf" ref="https://muscat.rism.info/admin/people/30044261" type="person" role="int">Rehberg, Adolf</name>
-<name key="Colombatti"  type="person" role="int">Colombatti</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000420_001.tif"/>
-<page><![CDATA[| eemrememee e mesmar
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18981127'/>
+        <title>
+          Grand concert organisé par le choeur de dames Edelweiss et les
+          Sociétés La Muse et Concordia : Au bénéfice de leur directeur, M. Ami
+          Bosson
+        </title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1898-1899' type='series'/>
+        <name key='Attenhofer, Carl' ref='https://muscat.rism.info/admin/people/30007424' type='person' role='cmp'>Attenhofer, Carl</name>
+        <name key='Munzinger, Karl' ref='https://muscat.rism.info/admin/people/119456' type='person' role='cmp'>Munzinger, Karl</name>
+        <name key='Goens, Daniel van' ref='https://muscat.rism.info/admin/people/41007232' type='person' role='cmp'>Goens, Daniel van</name>
+        <name key='Massenet, Jules' ref='https://muscat.rism.info/admin/people/84264' type='person' role='cmp'>Massenet, Jules</name>
+        <name key='Ritz' type='person' role='cmp'>Ritz</name>
+        <name key='Wiesner, R.' type='person' role='cmp'>Wiesner, R.</name>
+        <name key='Tilman' type='person' role='cmp'>Tilman</name>
+        <name key='Widor, Charles-Marie' ref='https://muscat.rism.info/admin/people/135158' type='person' role='cmp'>Widor, Charles-Marie</name>
+        <name key='Pinsutti' type='person' role='cmp'>Pinsutti</name>
+        <name key='Sturm, W.' type='person' role='cmp'>Sturm, W.</name>
+        <name key='Beethoven, Ludwig van' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Bosson, Ami' type='person' role='int'>Bosson, Ami</name>
+        <name key='Edelweiss' type='person' role='int'>Edelweiss</name>
+        <name key='La Muse' type='person' role='int'>La Muse</name>
+        <name key='Concordia' type='person' role='int'>Concordia</name>
+        <name key='Bonade (Mme)' type='person' role='int'>Bonade (Mme)</name>
+        <name key='Rey, Louis' type='person' role='int'>Rey, Louis</name>
+        <name key='Rehberg, Adolf' ref='https://muscat.rism.info/admin/people/30044261' type='person' role='int'>Rehberg, Adolf</name>
+        <name key='Colombatti' type='person' role='int'>Colombatti</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000420_001.tif'/>
+        <page>
+          <![CDATA[| eemrememee e mesmar
 5Ê‘
 | tù VICTORIA-HAILI, #
-
- 
-
 Dîmanebe 27 noVembre 1898, à 2 heures et demie après midi
-
 | ORGANISÉ PAR LE
-
 Chœur de dames EDELWEISS
 LA MUSE # CGCONCORDIA
 au bénéfice de leur directeur, M. Ami BOSSON
-
 M"° BONADE ML.REY M. A REHBERG M. COLOMBATTI
-
 2
-
 OE @î%‘ë%ä%ääê
-
 Professeur de chant e Vioion solo au Théâtre — Professeur de Violoncelle au Conservatoire Professeur de Piano
 =— 802 ——
 —… PROGRAMME ——
-
 1. a) Grüner Wald, chœur | û ï | ATTENHOFER
 ONCOYTAAA .
-
 b) s'Vreneli ab-em Guggisberg, chœur | . > 5 <( MONANGEE
-
 ‘ PREMIÈRE PARTIE
 |
 ‘ (Chœurs imposés au Concours fédéral de chant à Berne 1899)
-
 2. a) Cantilène | = ; e e TR
 | Bs * cO Clongelle M- A Rehbero: ; ..72 1 0 0 | VAN GOENS
 3. Alleluia du Cid, M" Bonade . . . . . dx 0 e MASSENET
@@ -110,51 +116,24 @@ rad S. a) Humoresque | e 5010h ét Violondelle \l\l (u/nmbulh L. Rey | W
 ‘ b) Sérénade l pour piano, violon et violoncelle éc | IDOR
 | 9. LeLivre saint, solo avec accompagnem. de violoncelle (M. lhl:lm_q). M" Bonade PinsurmI
 | 40. Bittgesang für’s Vaterland, Concordia (Chœur imposé au Concours de Berne 1899) . W. STURM
-
 Piano de Concert Blüthner offert gracieusement par la maison DUBACH & Ci*
-
 PRIX DES PLACES : Loges, fauteuils de face et premier rang de la 1"° galerie (numérotées), fr. &.—;
 Rez-de-chaussée et autres places de lu Qre g:nleric_ fr. 1.— ; Seconde galerie, fr. —.75.
-
- 
-
 On peut se procurer des cartes à l’avance (lu/ M" Cuouvkr et GADEN, Magasin de musique, Corraterie ;
-
- 
-
- 
-
 M. I)…nMA\N libraïrie, rue du Mont-Blanc, 9; M"* GænsLI, magasin de tabacs, rue de Rive, et aux locaux des
 ‘ sociétés, lËI(ASSIIHI B0\IA\H\I avenue du \l nl et VETTERLI, rue Berthelier, 3.
 | Pour les places numérotées s'adresser au concierge du Victoria-Hall, tous les jours de 10 h. à 4 h. jusqu’au
 Samedi 26 novembre. °ä
 \
-
- 
-
 Les cartes de membres passifs et honoraires ne sont pas valables pour ce concert. | (äêç
-
 BUÜFFET AU BEZ-DE-CHAUSSÉE
-
 {
 P RE E R ETE
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 èä%‘îä@aæe@…ä@äe
-
-imp, Bre]]></page>       
-        </p>
+imp, Bre
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

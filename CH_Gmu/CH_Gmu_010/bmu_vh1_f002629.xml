@@ -1,233 +1,153 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>1er grand concert populaire<date when="27/10/1927"/></title>
-<series>1926-1927</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            1er grand concert populaire
+            <date when='27/10/1927'/>
+          </title>
+          <series>1926-1927</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002629</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Ansermet, E. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19271027"/>
-<title>1er grand concert populaire</title>
-<placeName key="Victoria Hall"/>
-<name key="1926-1927" type="series"/>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Mozart, Wolfgang Amadeus" ref="https://muscat.rism.info/admin/people/115324" type="person" role="cmp">Mozart, Wolfgang Amadeus</name>
-<name key="Berlioz, Hector" ref="https://muscat.rism.info/admin/people/13803" type="person" role="cmp">Berlioz, Hector</name>
-<name key="Borodin, Alexandr Porfir'evič" ref="https://muscat.rism.info/admin/people/30015583" type="person" role="cmp">Borodin, Alexandr Porfir'evič</name>
-<name key="Duparc, Henri" ref="https://muscat.rism.info/admin/people/41011746" type="person" role="cmp">Duparc, Henri</name>
-<name key="Fauré, Gabriel" ref="https://muscat.rism.info/admin/people/41731" type="person" role="cmp">Fauré, Gabriel</name>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Ansermet, Ernest  (dir.)" ref="https://muscat.rism.info/admin/people/40219507" type="person" role="int">Ansermet, Ernest  (dir.)</name>
-<name key="Orchestre de la Suisse Romande" ref="https://muscat.rism.info/admin/people/50007615" type="person" role="int">Orchestre de la Suisse Romande</name>
-<name key="Sauvin, Madeleine"  type="person" role="int">Sauvin, Madeleine</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002629_001.tif"/>
-<page><![CDATA[Eîä(@äîä@%ﬁ)@ää(@’%? CHICEICEICE
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19271027'/>
+        <title>1er grand concert populaire</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1926-1927' type='series'/>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Mozart, Wolfgang Amadeus' ref='https://muscat.rism.info/admin/people/115324' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Berlioz, Hector' ref='https://muscat.rism.info/admin/people/13803' type='person' role='cmp'>Berlioz, Hector</name>
+        <name key='Borodin, Alexandr Porfir&apos;evič' ref='https://muscat.rism.info/admin/people/30015583' type='person' role='cmp'>Borodin, Alexandr Porfir'evič</name>
+        <name key='Duparc, Henri' ref='https://muscat.rism.info/admin/people/41011746' type='person' role='cmp'>Duparc, Henri</name>
+        <name key='Fauré, Gabriel' ref='https://muscat.rism.info/admin/people/41731' type='person' role='cmp'>Fauré, Gabriel</name>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Ansermet, Ernest' ref='https://muscat.rism.info/admin/people/40219507' type='person' role='int'>Ansermet, Ernest</name>
+        <name key='Orchestre de la Suisse Romande' ref='https://muscat.rism.info/admin/people/50007615' type='person' role='int'>Orchestre de la Suisse Romande</name>
+        <name key='Sauvin, Madeleine' type='person' role='int'>Sauvin, Madeleine</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002629_001.tif'/>
+        <page>
+          <![CDATA[Eîä(@äîä@%ﬁ)@ää(@’%? CHICEICEICE
 SRS HX , ! MSPHKSIMK
-
 S :<Mä
 G3RNGD
 G
-
 VILLE DE GENÈVE
-
 P
 }
-
- 
-
 VICTORIA-HALL SAISON 1926-1927
-
- 
-
 Lundi 25 Octobre 1926
 à 20 h. 30 (8 h. 30)
-
 [ GRAND CONCERT
-
 POPULAIRE
-
 ORGANISÉ PAR LE
-
 CONSEIL ADMINISTRATIF DE LA VILLE DE GENÈVE
-
 FFF FTFEX
-
 MO oo
 _—
-
 AVEC LE BIENVEILLANT ET GRACIEUX CONCOURS DE
-
 L'ORCHESTRE DE LA
 SUISSE ROMANDE
-
 ET DE
-
 M"* MADELEINE SAUVIN
-
 CANTATRICE
-
 e r
 ÉÉF FEFFE ETEF FFF FFF FFF AAAEX
-
- 
-
- 
-
- 
-
- 
-
- 
-
 PROGRAMME
 Première Partie
 . Symphonie No 5 en ut mineur BEETHOVEN
-
 » Air de Chérubin des “Noces de Figaro”.... MOZART
 pour chant et orchestre — Mme Madeleine SAUVIN
-
 Seconde Partie
-
- Marche hongroise de la “Damnation de Faust” BERLIOZ
+Marche hongroise de la “Damnation de Faust” BERLIOZ
 . Dans les Steppes de l’Asie Centrale BORODINE
 5 a) Chanson triste
 * b) Clair de lune
 pour chant et orchestre — Mrs Madeleine SAUVIN
 6. Ouverture du “ Vaisseau-Fantôme ”
-
 L'Orchestre sera dirigé pr M. Ernest ANSERMET
-
 Pendant l'exécution des morceaux, les portes seront fermées et le silence le plus
 absolu devra être observé., — Prière de ne pas faire les préparatifs de départ X
 avant que le dernier morceau ne soit complètement exécuté.
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 FFF TAIEF
-
 DECIRE DECORE DECURE 3RE DECORE PR PR DECRE DR 2R SR DO 3 PR O 30 S SO E E SE SE SE S T ROR
-
 E SEIESIESEENNSEESSANSES SEN
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Ê=
-
- 
-
- 
-
- 
-
- 
-
 EUN &’bﬁ SVDN DZN ;
-
 %3(Ç%Ë)Œê@@äîä)@%ÈKÈ©@(Ç%Ë@%È@Ü@Ü@ÊÊ
-
 SSD MU SIMS MU SD S AK 7 .( MI AKSIAK S
-
 NCD/NED
-
 :(MN
-
-IMP. POPULAIRE, RUE DU JURA, 14]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002629_002.tif"/>
-<page><![CDATA[Louis Van BEETHOVEN
+IMP. POPULAIRE, RUE DU JURA, 14
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002629_002.tif'/>
+        <page>
+          <![CDATA[Louis Van BEETHOVEN
 Né à Born le 16 décembre 1770. Mort à Vienne le 26 mars 1827
-
 En cette saison musicale 1926-27, sera célébré partout le centenaire de
 la mort du grand compositeur Louis van Beethoven, le génial maître de la
 symphonie. C'est en effet le 26 mars 1827 qu'il rendit le dernier soupir, en-
 touré de quelques amis, pendant qu'un orage terrifiant ébranlait la petite
 maison de Vienne où Beethoven reposait sur son lit d'agonie.
-
 Plus que toute autre partie de son œuvre, les neuf symphonies ont con-
 tribué à sa gloire. Composées à partir de 1800, leur histoire se confond,
 pendant un quart de siècle, avec la vie d'artiste la plus admirable et la plus
 douloureuse qui ait jamais été vécue.
-
 La symphonie en ut mineur, qui porte le no 5, fut composée en grande
 partie en 1807, et exécutée pour la première fois à Vienne le 22 décembre
 1808, dans un concert composé exclusivement d'œuvres du maître, toutes en
 première audition.
-
 On raconte qu'un froid sibérien, venant s'ajouter à la longueur excessive
 du programme, fit de cette soirée un fiasco complet.
-
 Aujourd'hui, l'Ut mineur est, sans aucun doute, celle des œuvres de
 Beethoven qui est le plus souvent jouée dans les grands concerts, la plus
 connue et aussi la plus universellement applaudie, comme étant l'expression
 la plus caractéristique du génie de Beethoven dans ce domaine. Elle corres-
 pond à la période de pleine maturité du compositeur, et sa personnalité y
 apparaît pour la première fois affranchie de toute influence.
-
 «C'est ainsi que le Destin frappe à la porte», dit Beethoven, pour indi-
 quer le caractère dominant de cette symphonie. Et les terribles coups,
 frappés fortissimo par les cordes et les clarinettes au début de l'allegro con
@@ -235,11 +155,9 @@ brio, forment à eux seuls l'idée-mère de ce mouvement fameux, dont le
 développement thématique a fait école. Tout ce premier allegro est doulou-
 reux et passionné. L'âme angoissée du maître s‘y révolte et s'y exaspère,
 luttant et pleurant.
-
 L'andante con moto repose sur une phrase rêveuse et mélancolique
 des altos et des violoncelles à l'unisson, alternant avec des passages des
 instruments à vent et variée ou brodée d'une manière exquise.
-
 L’allegro (scherzo) qui suit ramène l'agitation et les sombres pensées
 du premier mouvement. Dans le trio, phrase fuguée bien fameuse des basses
 et que Berlioz, dont on sait l'humour, comparait aux ébats d'un éléphant en
@@ -247,22 +165,13 @@ gaîté. Mais, peu à peu, tout s'apaise et s'endort, et du clair-obscur de la
 transition déjà mentionnée surgit la marche fulgurante du finale. Ses fan-
 fares triomphales, d'une simplicité voulue, achèvent l'œuvre en une magnifi-
 que explosion de sonorités,
-
- 
-
- 
-
-  
-
- 
-
- 
-
-|]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002629_003.tif"/>
-<page><![CDATA[Hector BERLIOZ
+|
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002629_003.tif'/>
+        <page>
+          <![CDATA[Hector BERLIOZ
 1803-1869
-
 Ce fut pendant un voyage en Autriche, en Hongrie, en Bohême et en
 Silésie, que Berlioz commença la composition de sa légende de Faust dont
 il méditait le plan depuis longtemps. Dès qu'il fut décidé à l'entreprendre,
@@ -270,48 +179,39 @@ il se résolut à écrire lui-même le livret, les fragments de la traduction fr
 çaise du Faust de Gœthe, par Gérard de Nerval, qu'il avait mis en musique
 vingt ans auparavant en Huit scènes, ne formant pas dans leur ensemble
 la sixième partie de l’œuvre.
-
 « J'essayai, écrit-il dans ses Mémoires, tout en roulant dans ma vieille
 chaise de poste allemande, de faire les airs destinés à ma musique… »
-
 C'est à Vienne qu'en une nuit, Berlioz écrivit la Marche sur le thème
 hongrois de Rakoczy. L'effet extraordinaire qu'elle produisit à Pesth l'en-
 gagea à l'introduire dans sa partition de Faust en prenant la liberté de
 placer son héros en Hongrie, au début de l'action, et en le faisant assister
-
 au passage d'une armée hongroise à travers la plaine où il promène ses
 réveries,
-
 Alexandre BORODINE
 1834-1887
-
 DANS LES STEPPES DE L’ASIE CENTRALE
-
 Dans les Steppes, de Borodine, est une page descriptive et pittoresque
 d'une poésie pénétrante et qui rend par des moyens musicaux sobres et
 distingués l’impression d'immensité profonde et de tristesse infinie que
 laisse le désert oriental,
-
 Le poème symphonique demande le plus souvent l'appoint d'un pro-
 gramme explicatif, Malgré la simplicité de la donnée, Dans les Steppes est
 accompagné de la courte notice qui suit :
-
- 
-
 « Dans le silence des steppes sablonneuses de l'Asie centrale retentit le
 premier refrain d'une paisible chanson russe. On entend aussi les sons
 mélancoliques des chants de l'Orient, On entend le pas des chevaux et des
 chameaux qui s'approchent. Une caravane escortée par des soldats russes
 | traverse l'immense désert, continue son long voyage sans crainte, s'aban-
 donnant avec confiance à la garde de la force guerrière russe,
-
 «La caravane s'avance toujours. Les chants des Russes et ceux des
 indigènes se confondent dans la même harmonie. Leurs refrains se font
-entendre longtemps dans le désert et finissent par se perdre dans le lointain. »]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002629_004.tif"/>
-<page><![CDATA[Richard WAGNER
+entendre longtemps dans le désert et finissent par se perdre dans le lointain. »
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002629_004.tif'/>
+        <page>
+          <![CDATA[Richard WAGNER
 Né à Leipzig le 28 mai 1813, mort à Venise le 13 février 1883
-
 C'est dans un voyage en mer, pendant une tempête qui le jeta vers les
 bords de la Norvège, que Richard Wagner se fit redire par les marins eux-
 mêmes l'histoire effrayante de ce Hollandais-volant, Ashaverus de la mer,
@@ -320,7 +220,6 @@ qui blasphéma, défia l'orage avec l'aide de Satan, et fut condamné pour cela
 fille, pâlie par le reflet des neiges, qui languit d'amour pour le damné emporté
 sans cesse à travers l'éclair et les naufrages, le sauvera, s'il vient jusqu'à elle,
 par son dévouement fidèle jusqu'à la mort.
-
 « L'ouverture nous jette en pleine mer et en pleine tempête.. L'appel
 sauvage des cuivres sur la quinte annonce le terrible vaisseau : le voici avec
 ses voiles rouge-sang.…. Mais la mer s'apaise… une étoile brille au firmament,
@@ -330,50 +229,31 @@ c'est une femme qui de loin appelle le malheureux. Il s'élance de tout l'effort
 du désir né du désespoir. Devant cette voix qui l'attire, le vaisseau maudit
 s'abîme et son maître se sent enlevé dans les bras de celle qui le délivre de
 sa malédiction. »
-
 Henri DUPARC (né en 1848)
-
 CHANSON TRISTE
-
 Dans ton cœur dort un clair de lune, Tu prendras ma tête malade
-
 Un doux clair de lune d'éte, Oh! quelquefois sur tes genoux,
 Et pour fuir la vie importune Et lui diras une ballade,
-
 Je me noierai dans ta clarté. Qui semblera parler de nous.
-
 J'oublierai les douleurs passées, Et dans tes yeux, pleins de tristesse,
 Mon amour, quand tu berceras, Dans tes yeux alors je boirai
-
 Mon triste cœur et mes pensées ; Tant de baisers et de tristesses,
 Dans le calme aimant de tes bras ! Que peut-être je guérirai.
-
 JEAN LAHOR.
-
 Gabriel FAURÉ
 Né à Pamiers (Ariège) le 30 mai 1845, Mort à Paris le 4 novembre 1924
-
 CLAIR DE LUNE (Menuet)
-
 Votre âme est un paysage choisi, [ques - Ils n’ont pas l'air de croire à leur bonheur,
 Que vont charmant masques et bergamas- _ Et leur chanson se mêle au clair de lune !
 Jouant du luth et dansant, et quasi Au calme clair de lune, triste et beau,
-
 Tristes sous leurs déguisements fantasques! … Qui fait rêver les oiseaux dans les arbres,
 Tout en chantant sur le mode mineur Et sangloter d’extase les jets d'eau, [bres.
 L'amour vainqueur et la vie opportune, Les grands jets d’eau sveltes parmi les mar-
-
 P. VERLAINE.
-
-   
- 
-
- 
-
- 
-
-J]]></page>       
-        </p>
+J
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

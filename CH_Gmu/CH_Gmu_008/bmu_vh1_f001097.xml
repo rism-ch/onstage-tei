@@ -1,288 +1,214 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert sonné par l'Harmonie nautique<date when="23/01/1910"/></title>
-<series>1909-1910</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert sonné par l'Harmonie nautique
+            <date when='23/01/1910'/>
+          </title>
+          <series>1909-1910</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F001097</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Pieyre, A. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19100123"/>
-<title>Concert sonné par l'Harmonie nautique</title>
-<placeName key="Victoria Hall"/>
-<name key="1909-1910" type="series"/>
-<name key="Schubert, Franz" ref="https://muscat.rism.info/admin/people/111603" type="person" role="cmp">Schubert, Franz</name>
-<name key="Chopin, Fryderyk Franciszek" ref="https://muscat.rism.info/admin/people/51160" type="person" role="cmp">Chopin, Fryderyk Franciszek</name>
-<name key="Bernard, E."  type="person" role="cmp">Bernard, E.</name>
-<name key="Lederer, D."  type="person" role="cmp">Lederer, D.</name>
-<name key="Dukas, Paul" ref="https://muscat.rism.info/admin/people/40221423" type="person" role="cmp">Dukas, Paul</name>
-<name key="Bruneau, Alfred" ref="https://muscat.rism.info/admin/people/78271" type="person" role="cmp">Bruneau, Alfred</name>
-<name key="Wieniawski, Henryk" ref="https://muscat.rism.info/admin/people/137176" type="person" role="cmp">Wieniawski, Henryk</name>
-<name key="Bastard, William"  type="person" role="cmp">Bastard, William</name>
-<name key="Leutner"  type="person" role="cmp">Leutner</name>
-<name key="Pieyre, Auguste (dir.)"  type="person" role="int">Pieyre, Auguste (dir.)</name>
-<name key="Harmonie Nautique"  type="person" role="int">Harmonie Nautique</name>
-<name key="Breittmayer, Maggy"  type="person" role="int">Breittmayer, Maggy</name>
-<name key="Aubert, Johnny"  type="person" role="int">Aubert, Johnny</name>
-<name key="Bastard, A."  type="person" role="int">Bastard, A.</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001097_001.tif"/>
-<page><![CDATA[R
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19100123'/>
+        <title>Concert sonné par l'Harmonie nautique</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1909-1910' type='series'/>
+        <name key='Schubert, Franz' ref='https://muscat.rism.info/admin/people/111603' type='person' role='cmp'>Schubert, Franz</name>
+        <name key='Chopin, Fryderyk Franciszek' ref='https://muscat.rism.info/admin/people/51160' type='person' role='cmp'>Chopin, Fryderyk Franciszek</name>
+        <name key='Bernard, E.' type='person' role='cmp'>Bernard, E.</name>
+        <name key='Lederer, D.' type='person' role='cmp'>Lederer, D.</name>
+        <name key='Dukas, Paul' ref='https://muscat.rism.info/admin/people/40221423' type='person' role='cmp'>Dukas, Paul</name>
+        <name key='Bruneau, Alfred' ref='https://muscat.rism.info/admin/people/78271' type='person' role='cmp'>Bruneau, Alfred</name>
+        <name key='Wieniawski, Henryk' ref='https://muscat.rism.info/admin/people/137176' type='person' role='cmp'>Wieniawski, Henryk</name>
+        <name key='Bastard, William' type='person' role='cmp'>Bastard, William</name>
+        <name key='Leutner' type='person' role='cmp'>Leutner</name>
+        <name key='Pieyre, Auguste' type='person' role='int'>Pieyre, Auguste</name>
+        <name key='Harmonie Nautique' type='person' role='int'>Harmonie Nautique</name>
+        <name key='Breittmayer, Maggy' type='person' role='int'>Breittmayer, Maggy</name>
+        <name key='Aubert, Johnny' type='person' role='int'>Aubert, Johnny</name>
+        <name key='Bastard, A.' type='person' role='int'>Bastard, A.</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001097_001.tif'/>
+        <page>
+          <![CDATA[R
 & VICTORIA-HALL %
-
- 
-
- 
-
- 
-
 sSI
-
- 
-
 M!: Maggy BREITTMAYER
-
 PRIX DES PLACES : Loges el premier rang de la première Galerie (numérotés), 2 fr.
-
 MM. les membres mon-exécutants ont droit d’entrée à ce concert
 n° K aux places du rez-de-chaussée et de la première galerie, & l'exce
 des loges, auxquels ils ont droit moyennant un supplément de 1 fr,
 dix ans paicront demi-place. — Il ne sera pas délivré de demi places pour la seconde galevie.
-
 e
-
 Ë RIV GS L Tn3 Jôr GS ISER S Vs A
-
 /mprimerie H. Jarrys, “reille, 4 Genéve.
-
- 
-
 VN NNN LS A
-
 eq* ] - Dimanche 23 Janvier 1900 | smm*
-
 é CONCERT se
-
 donné par
-
 L'HARMONIE NAUTIQUE DE GENÈVE
-
 sous la direction de
 M. Aususte PIEYERtE
-
 Professeur au Conservatoire
-
 avec le gracieux concours de
-
 Violoniste,
-
 Professeur suppl. au Conservatoire. Pianiste,
 — —es e
 1P13 D CR ÆL 1T HL 192
 PREMIÈRE PARTIE
 . Andante de la Symphonie inachevée . . . . . Schuberl
-
 . Introduction ct Grande Polonaise, op. 22, pour
 piano. — M. J. AuUBErT . S 7 Chopin
 (Avec accompagnement de l’Harmonie Nautique).
 . a) Rêverie, pour violon. — M"e M. Brerrrmayer . E. Bernard
-
 b) Poème hongrois, p' violon.- M"e M, Brerrrmayer. D, Lederer
-
 . L’Apprenti Sorcier, scherzo, d’après une ballade de
-
 Corneliedemande e 51 - Dutas
-
 SECONDE PARTIE
-
 . L’Attaque du Moulin, suite d’orchestre . . . . ÆA. Bruneau
 . Polonaise en ré, p' violon. - M'e M. Brervrmayer. - Wieniawsky
-
 (Avec accompagnement de l’Harmonie Nautique.)
-
 . Suite concertante, pour 2 violons et piano (1*aud.)  William Bastard @
-
 Andantino. — Scherzando. — Tranquillamente. — Allegro
 bt‘11 marcato non U'OPP().
 Mlle M. BREITTMAYER, M. A. BAsrArD et M. J. AuskrT.
-
 resuvaleOnverture 1 e Leniiner
-
 Piano SCHIEDMAYER, gracieusement offert par la Maison GUIGNARD, à Genève.
-
 <—>
-
 chaussée el autres places de la première Galerie, 1 fr. — Seconde Galerie, 50 cent,
-
 = Dès ce jour, cartes à l’avance de 9 à 6 h., au Victoria-Hall.
 Prière de ne pas entrer pendant l’exécution des morceaux. BUFFET au rez-de chaussée.
-
- 
-
 T. S. V. P.
-
 M. Johnny AUBERT
-
 Rez-de-
-
 sur présentation du conpon
 ption du premier rang et
 — Les enfants au-dessous de
-
 p
-
 %
-
 ©
-
 E
-
 Ç
-
 F
 # px >
 Qe
-
 /LÇ
-
 q@@
-
 —>
 E
-
 ,
 A
-
 ;Œî
-
 SS
-
 \;È E 9_ë"
-
 GY
 n
-
 & «
 }
-
-   
-
 v
-
 FiQ
 î«':}
-
 -
-
-   
-  
-
 Æ
 ( ‘;K
-z]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001097_002.tif"/>
-<page><![CDATA[L'APPRENTI SORCIER
-
+z
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001097_002.tif'/>
+        <page>
+          <![CDATA[L'APPRENTI SORCIER
 BALLADE
-
 Enfin, il s’est donc absenté, le vieux maître sorcier! Et maintenant c’est à moi
 aussi de commander à ses Esprits; j'ai observé ses paroles et ses œuvres, j'ai retenu
 sa formule, et avec de la force d’esprit, moi aussi je ferai des miracles.
-
 Que pour l’œuvre l’eau bouillonne et ruisselle, et s’épanche en bain à large seau !
-
 Et maintenant, approche, viens, viens, balai ! prends-moi ces mauvaises guenilles ;
 tu as été domestique assez longtemps ; aujourd’hui songe à remplir ma volonté ! Debout
 sur deux jambes, une tête en haut, cours vite, et te dépêche de m'aller puiser de l’eau!
-
 Que pour l’œuvre l’eau bouillonne et ruisselle; et s’'épanche en bain à large seau !
-
 Bravo! il descend au rivage; en vérité, il est déjà au fleuve et. plus prompt que
 l’éclair, le voilà ici de retour avec un flot rapide. Déjà, une seconde fois! comme
 chaque vase s’emplit jusqu’au bord!
-
 Arrête, arrête! car nous avons assez de tes services. — Ah! jJe m’en aperçois!
 Malheur! malheur! j'ai oublié le mot !
-
 Ah! la parole qui le rendra enfin ce qu’il était tout à l'heure? Il court et se
 démène ! Fusses-tu donc le vieux balai! Toujours de nouveaux seaux qu’il apporte!
 Ah! et cent fleuves se précipitent sur moi.
-
 Non! je ne puis le souffrir plus longtemps ; il faut que je l’empoigne! C’est trop
 de malice! Ah! mon angoisse augmente ! Quelle mine ! Quel regard!
-
 Engeance de l’enfer! faut-il que la maison entière soit engloutie? Je vois sur
 chaque seuil courir déjà des torrents d’eau. Un damné balai qui ne veut rien entendre!
 Büche que tu étais, tiens-toi donc tranquille !
-
 Si tu n’en finis pas, prends garde que je ne t’empoigne, et ne fende ton vieux bois
 au tranchant de la hache !
-
 Oui-dà ! le voilà qui se traîne encore par ici! Attends, que je t'attrape ! Un
 moment, Kobold, et tu seras par terre. Le tranchant poli de la hache l’atteint. Il
 craque! bravo, vraiment fort bien touché ! Voyez, il est en deux! et maintenant J’espère
 et je respire!
-
 Malheur! malheur! deux morceaux s’agitent maintenant. et s’empressent comme
 des valets debout pour le service! A mon aide, puissances supérieures !
-
 Comme ils courent; de plus en plus l’eau gagne la salle et les degrés ; quelle
 effroyable inondation ! Seigneur et Maître! entends ma voix! — Ah! voici venir le
 maître! — Maître, le péril est grand ; les Esprits que j'ai évoqués, je ne peux plus m’en
 débarrasser.
-
 « Dans le coin, balai! balai! que cela finisse, car le vieux maître ne vous
 que pour vous faire servir à ses desseins. »
-
 anime
-
 (Gœrur, Poésies, — Traduction Henri BLAZE,)
-
 C O T OE GI IGI GP PII PI G LIPIEPI YIS
-
 AVIS. — Pour être reçu membre non-exécutant de l’Harmonie
 Nautique on peut s’inscrire tous les jours chez le Concierge du
 T1 e “ a ; ” ‘ "AGCCh ‘ ité» »
 Victoria-Hall ou par lettre adressée au Comité; le prix de la carte
 est de 8 fr. par an et donne droit à deux entrées pour chaque
 concert donné par l’Harmonie Nautique.
-
-C GI OIP GI GOOI GP AI]]></page>       
-        </p>
+C GI OIP GI GOOI GP AI
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

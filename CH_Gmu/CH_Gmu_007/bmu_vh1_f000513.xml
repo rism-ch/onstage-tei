@@ -1,206 +1,161 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par l'Harmonie nautique : XXe anniversaire de fondation<date when="15/03/1903"/></title>
-<series>1902-1903</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par l'Harmonie nautique : XXe anniversaire de
+            fondation
+            <date when='15/03/1903'/>
+          </title>
+          <series>1902-1903</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F000513</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Bonade, L. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19030315"/>
-<title>Concert donné par l'Harmonie nautique : XXe anniversaire de fondation</title>
-<placeName key="Victoria Hall"/>
-<name key="1902-1903" type="series"/>
-<name key="Mendelssohn Bartholdy, Felix" ref="https://muscat.rism.info/admin/people/88790" type="person" role="cmp">Mendelssohn Bartholdy, Felix</name>
-<name key="Schumann, Robert" ref="https://muscat.rism.info/admin/people/131206" type="person" role="cmp">Schumann, Robert</name>
-<name key="Puccini, Giacomo" ref="https://muscat.rism.info/admin/people/30921" type="person" role="cmp">Puccini, Giacomo</name>
-<name key="Godard, Benjamin" ref="https://muscat.rism.info/admin/people/30016713" type="person" role="cmp">Godard, Benjamin</name>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Chopin, Fryderyk Franciszek" ref="https://muscat.rism.info/admin/people/51160" type="person" role="cmp">Chopin, Fryderyk Franciszek</name>
-<name key="Boieldieu, Adrien" ref="https://muscat.rism.info/admin/people/23607" type="person" role="cmp">Boieldieu, Adrien</name>
-<name key="Mendelssohn Bartholdy, Felix" ref="https://muscat.rism.info/admin/people/88790" type="person" role="cmp">Mendelssohn Bartholdy, Felix</name>
-<name key="Delahaye"  type="person" role="cmp">Delahaye</name>
-<name key="Bonade, Louis (dir.)"  type="person" role="int">Bonade, Louis (dir.)</name>
-<name key="Harmonie Nautique"  type="person" role="int">Harmonie Nautique</name>
-<name key="Bonade (Mme)"  type="person" role="int">Bonade (Mme)</name>
-<name key="Huguet"  type="person" role="int">Huguet</name>
-<name key="Bonny, E."  type="person" role="int">Bonny, E.</name>
-<name key="Roesgen (Mlle)"  type="person" role="int">Roesgen (Mlle)</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000513_001.tif"/>
-<page><![CDATA[es —— 0
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19030315'/>
+        <title>Concert donné par l'Harmonie nautique : XXe anniversaire de fondation</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1902-1903' type='series'/>
+        <name key='Mendelssohn Bartholdy, Felix' ref='https://muscat.rism.info/admin/people/88790' type='person' role='cmp'>Mendelssohn Bartholdy, Felix</name>
+        <name key='Schumann, Robert' ref='https://muscat.rism.info/admin/people/131206' type='person' role='cmp'>Schumann, Robert</name>
+        <name key='Puccini, Giacomo' ref='https://muscat.rism.info/admin/people/30921' type='person' role='cmp'>Puccini, Giacomo</name>
+        <name key='Godard, Benjamin' ref='https://muscat.rism.info/admin/people/30016713' type='person' role='cmp'>Godard, Benjamin</name>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Chopin, Fryderyk Franciszek' ref='https://muscat.rism.info/admin/people/51160' type='person' role='cmp'>Chopin, Fryderyk Franciszek</name>
+        <name key='Boieldieu, Adrien' ref='https://muscat.rism.info/admin/people/23607' type='person' role='cmp'>Boieldieu, Adrien</name>
+        <name key='Mendelssohn Bartholdy, Felix' ref='https://muscat.rism.info/admin/people/88790' type='person' role='cmp'>Mendelssohn Bartholdy, Felix</name>
+        <name key='Delahaye' type='person' role='cmp'>Delahaye</name>
+        <name key='Bonade, Louis' type='person' role='int'>Bonade, Louis</name>
+        <name key='Harmonie Nautique' type='person' role='int'>Harmonie Nautique</name>
+        <name key='Bonade (Mme)' type='person' role='int'>Bonade (Mme)</name>
+        <name key='Huguet' type='person' role='int'>Huguet</name>
+        <name key='Bonny, E.' type='person' role='int'>Bonny, E.</name>
+        <name key='Roesgen (Mlle)' type='person' role='int'>Roesgen (Mlle)</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000513_001.tif'/>
+        <page>
+          <![CDATA[es —— 0
 »>(YXCTORXA HALLH*
-
- 
-
- 
-
 -n 2004004087
-
 Ouverture des portes )lma“(he 15 Nars 1903 VÏ 011rr)mmﬂnr‘(n\
-
 à 1 heure 314 2 heures 112.
-
 XX* ANNIVERSAIRE DE FONDATION
-
 CONCERT
-
 DONNÉE PAR
-
 L'HARMONIE NAUTIQUE DE GENÈVE
-
 sons la direction de M. LOUIS BONADE
-
 avec le gracieux concours de
-
 M" Louis BONADE ct de MM. HUGUET, Directeur du Théâtre,
 E. BONNY, professeur à l’Académie de Musique.
-
 — —e ce
-
 PRSSRAMMNE
-
 ql ur
-
 PREMIÈRE PARTIE
 Ouverture de La Grotte de Fingal
 Les deux Grenadiers (M. HuGuET)
 Fantaisie sur La Bohème
 Air de Pedro de Zalaméa (M""® BoNADE)
-
 SECONDE PARTIE
 Le Chant de la Nuit (Tristan et Yseult)
 Ballade en la bémol (\Î E. |‘>u\‘\‘\)
 Le nouveau Seigneur de Village, duo
 (M" BonanEe et M. HUGUET.)
-
 «) La Chanson du Printemps
 b) Colombine (2"° Menuet) Delahave
-
 ccompagnateur : MIle ROXSGEN.
-
 Piano BLÜruNer, gracieusement offert par la maison G. DupacH & Cie.
-
 PRIX DES PLACES : Loges et premier rang de la première Galerie (numérotés), Z fv.
 Rez-de-chaussée et autres places de la première tualerie, 1 Ir. Seconde Galerie, 50 cent.
-
 MM. les membres non-exécutants ont droit d'entree à ce ……‘ml sur presentation
 du coupon n° % aux places du rez-de-chaussee et de la première galerie, & l'exceptton
 du premier rang el des loges, auxquels ils ont droit moyennant un supplément de t Ir.
-
 Les membres exécutants des Corps de musique Landiwehr, Elite et Fanfare Municipale
 ont droit à l'entrée de ce concert sur présentation de leur carte personnetle,
-
 Dès ce jour, cartes à l'avance de 9 à 6 h, au Victoria-Hall.
 Prière de ne pas entrer pendant l'exécution des morceaux. BUFFET au rez-de-chaussèe.
-
 w
-
- 
-
-© Bibliothèque de Genève — La Musicale]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000513_002.tif"/>
-<page><![CDATA[(©
-
+© Bibliothèque de Genève — La Musicale
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000513_002.tif'/>
+        <page>
+          <![CDATA[(©
 5 L
 y
 Y
-
 e
-
 >N
-
 Z Adie
-
- 
-
- 
-
 5
-
 e
-
 ds
-
- 
-
 H— > DG E 2x
 ( - ‘ >
-
- 
-
- 
-
 oŸe 2
 e ——PINSG" e 33x @
 %
-
 Cours d’Instruments
-
 DE
-
 L’HARMONIE NAUTIQUE DE GENÈVE
-
 — DEpe—3
-
- 
-
 Directeur général : M. Louis Bonade.
-
 PROFESSEURS :
-
 N
-
 MIMSROURMEN. .- Clarinettes et saxophones.
 AnGsuEyRne . Cuivres. =
 Mkover Hautbois, cor anglais.
 Kmn - Flûte
 3RUNEAU-D’ArNaur.r ..Solfège.
-
 Prix des cours de solfège, cuivres, clarinettes, saxophones :
-
 5 fr. par mois.
-
 Les jeunes gens désireux de suivre ces cours peu-
 vent s'inscrire tous les jours, auprès du Concierge du
 Victoria-Hall. |
-
-v]]></page>       
-        </p>
+v
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

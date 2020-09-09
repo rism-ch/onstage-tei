@@ -1,69 +1,78 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>7me concert de l'abonnement<date when="08/01/1941"/></title>
-<series>1940-1941</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            7me concert de l'abonnement
+            <date when='08/01/1941'/>
+          </title>
+          <series>1940-1941</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F003066</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Hoesslin, F. von (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19410108"/>
-<title>7me concert de l'abonnement</title>
-<placeName key="Victoria Hall"/>
-<name key="1940-1941" type="series"/>
-<name key="Weber, Carl Maria von" ref="https://muscat.rism.info/admin/people/117485" type="person" role="cmp">Weber, Carl Maria von</name>
-<name key="Schumann, Robert" ref="https://muscat.rism.info/admin/people/131206" type="person" role="cmp">Schumann, Robert</name>
-<name key="Berlioz, Hector" ref="https://muscat.rism.info/admin/people/13803" type="person" role="cmp">Berlioz, Hector</name>
-<name key="Hoesslin, Franz von (dir.)"  type="person" role="int">Hoesslin, Franz von (dir.)</name>
-<name key="Orchestre de la Suisse Romande" ref="https://muscat.rism.info/admin/people/50007615" type="person" role="int">Orchestre de la Suisse Romande</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003066_001.tif"/>
-<page><![CDATA[| ORCHESTRE
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19410108'/>
+        <title>7me concert de l'abonnement</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1940-1941' type='series'/>
+        <name key='Weber, Carl Maria von' ref='https://muscat.rism.info/admin/people/117485' type='person' role='cmp'>Weber, Carl Maria von</name>
+        <name key='Schumann, Robert' ref='https://muscat.rism.info/admin/people/131206' type='person' role='cmp'>Schumann, Robert</name>
+        <name key='Berlioz, Hector' ref='https://muscat.rism.info/admin/people/13803' type='person' role='cmp'>Berlioz, Hector</name>
+        <name key='Hoesslin, Franz von' type='person' role='int'>Hoesslin, Franz von</name>
+        <name key='Orchestre de la Suisse Romande' ref='https://muscat.rism.info/admin/people/50007615' type='person' role='int'>Orchestre de la Suisse Romande</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003066_001.tif'/>
+        <page><![CDATA[| ORCHESTRE
 l*  SUISSE
 ROMANDE
-
 @
-
-PROGRAMME]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003066_002.tif"/>
-<page><![CDATA[6, rue de Saussure
-
+PROGRAMME
+]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003066_002.tif'/>
+        <page>
+          <![CDATA[6, rue de Saussure
 M. GARABEDIAN
-
 S
 S
 S
@@ -95,233 +104,144 @@ SE
 e
 _/,\
 N3
-
-(Tél. 4.68.86)]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003066_003.tif"/>
-<page><![CDATA[CONSEIL DE FONDATION
+(Tél. 4.68.86)
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003066_003.tif'/>
+        <page>
+          <![CDATA[CONSEIL DE FONDATION
 (l€ l'Orclüestre de la Suisse Romande
-
 ……
 Président : M. Paul LACHENAL, Genève.
 Vice-Président : M. le Dr Fred. BLANCHOD, Lausanne
 Secrétaire : M. René DOVAZ.
-
 Trésorier : M. Henri BROLLIET.
-
 Conseillers délégués :
-
 MM. Emile HEUBI, Lausanne; Pierre JACCOUD, Emile UNGER,
 Genève; Marcel BEZENÇON, Directeur de la Société Ro
 mande de Radiodiffusion ; Félix POMMIER, Directeur de
 la Société des Emissions Radio-Genève.
-
 M. GLOGG, Directeur général de la Société suisse de radio
 diffusion.
-
 Membres :
-
 MM. les représentants cantonaux : Conseiller d’Etat Edouard von
 STEIGER, Berne (Jura romand) ; Conseiller d’Etat Adrien
 LACHENAL, Genève; Conseiller d’Etat Joseph PILLER, Fri
 bourg; Conseiller communal Gérard BAUER, Neuchâtel;
 Conseiller d’Etat Cyrille PITTELOUD, Valais; Conseiller
 d’Etat Paul PERRET, Vaud.
-
 M. le Conseiller d’Etat Louis CASAI, MM. les Conseillers
 administratifs Jules PENEY et Marius NOUL, MM. Philippe
 ALBERT, Léopold BOISSIER, Alfred BOREL, André GUI
 NAND, Maxime HAISSLY, Emile JAQUES-DALCROZE,
 Alfred PELLIGOT, Maurice PICTET DE ROCHEMONT,,
 Marcel RAYMOND, Alfred VIDOUDEZ, à Genève.
-
 MM. Antoine VODOZ, Conseiller d’Etat, Marius AMANN, Conseil
 ler municipal, Jacques BERANGER, René BICKART, Roger
 CORREVON, Auguste MARGUERAT, Georges ROSSET,
 Henri STIERLIN-VALLON, à Lausanne ;
-
 Samuel GETAZ et E. ROSSIER-GEORG, à Vevey; François
 BSSEIVA et le Dr Paul RYNCKI, à Fribourg; Claude DU
 PASQUIER, à Neuchâtel ;
 Tell PERRIN, à La Chaux-de-Fonds; Edmond BILLE et
 Gustave TURINI, à Sierre.
-
 Les délégués de l’Association genevoise et vaudoise des Amis de
 l’O.R., de la Société des Emissions Radio-Genève, de la
 Société Romande de Radiodiffusion, de la Commission des
-
 programmes de Sottens et des artistes-musiciens de l’Or-
 chestre.
-
-ADMINISTRATION : 22, CORRATERIE, GENEVE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003066_004.tif"/>
-<page><![CDATA[DESO Î PRADIC
-
+ADMINISTRATION : 22, CORRATERIE, GENEVE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003066_004.tif'/>
+        <page>
+          <![CDATA[DESO Î PRADIC
 MANUFACTURE NATIONALE
-
 PAR DE CONSTANTES ET MINUTIEUSES EXPÉRIENCES
 PAR LEUR GRANDE QUALITÉ DE SONORITÉ
-
 A CONQUIS LE PRÉCIEUX ÉLOGE D'ÊTRE CHOISI PAR LES MUSICIENS
-
 SÉRIE “’UNIVERSELLE’ de Fr. 270.— à Fr. 485.— RADIO-GRAMO
-
 Avant de vous décider, venez les entendre chez
-
 LES AGENTS EXCLUSIFS POUR GENÈVE
-
 SAU FEER « JAEGER
-
 FUSTERIE GENËÈVE
 ANTENNES ANTIPARASITES - DÉPANNAGE
 SERVICE 1* ORDRE - TOUTES MARQUES A CHOIX
-
 TOUTES RÉPARATIONS ET
 AGENTS OFFICIELS MARNWCON E se AU POINT SCIENTIFIQUE
 … … L ©
-
 LE PIANO DE L'AVENIR
-
- 
-
- 
-
 MINI=-PIANCO Résoud définitivement le problème du PIANO
 MODERNE - Dimentions réduites - Toucher précis et sonorité
 remarquable. Construit par Burger & Jacobi - Bienne
-
 EXCLUSIVEMENT: SAUTIER & JAEGEIM GENÈVE
-
 Les premières marques
-
- 
-
- 
-
- 
-
 ÉSse
-
 —n
-
 2N cr
-
 N Es p sr
-
 és T e A
-
-&]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003066_005.tif"/>
-<page><![CDATA[Franz von HCŒSSLIN]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003066_006.tif"/>
-<page><![CDATA[paris =- house téléphone 2 33 70
-
+&
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003066_005.tif'/>
+        <page><![CDATA[Franz von HCŒSSLIN
+]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003066_006.tif'/>
+        <page>
+          <![CDATA[paris =- house téléphone 2 33 70
 paul daunay
-
 couturier
-
- 
-
-5, rue des nipes]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003066_007.tif"/>
-<page><![CDATA[7”* concert e l'abonnement
-
+5, rue des nipes
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003066_007.tif'/>
+        <page>
+          <![CDATA[7”* concert e l'abonnement
 Mercredi 8 janvier 1941 à 20 h. 30
 VICTORIA-HALL
-
 sous la direction de
-
 Franz von HCŒSSLIN
-
 PROGRAMME
 Première partie
 1. OUVERTURE DE «FREISCHUTZ». . . . . WEBER
 2. SYMPHONIE Ne 4, en ré mineur . . . . . SCHUMANN
-
 a) Assez lent - Vif — b) Romance
 c) Scherzo — d) Lent, vif
 (Se joue sans interruption)
-
 Deuxième nartie
 3. SYMPHONIE FANTASTIQUE ... .. .. H. BERLIOZ
 (Episode de la Vie d’un Artiste)
 a) Rêverie — Passions.
 b) Un bal.
-
 c) Scène aux champs.
 d) Marche au supplice.
 e) Songe d'une nuit de Sabbat.
-
- 
-
 En cas d’alerte aérienne, le concert n’est pas interrompu
-
 Si le concert se termine pendant une alerte, le public est
 prié de rester dans la salle jusqu’à ce que retentisse le signal
-de fin d’alerte.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003066_008.tif"/>
-<page><![CDATA[VIDOUDEZ
-
+de fin d’alerte.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003066_008.tif'/>
+        <page>
+          <![CDATA[VIDOUDEZ
 LUTHIER DU CONSERVATOIRE
-
- 
-
 C'orraterie, 22
 Téléphone 44335
-
 1Ef el E A
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Pour vos Cadeaux
-
 une 16lie idée
-
 ue
-
 26, Corraterie
-
-   
-
-  
-  
-   
-
 MARE RU
-
 16, Rue de
-
- 
-  
- 
-
-Rive]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003066_009.tif"/>
-<page><![CDATA[Franz von HCŒSSLIN —
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
+Rive
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003066_009.tif'/>
+        <page>
+          <![CDATA[Franz von HCŒSSLIN —
 L’éminent chef d'orchestre qui, ce soir, est nmotre hôte,
 fit, on ne le sait peut-être pas, ses premières armes au T hhéâtre
 de Saint-Gall : il conduisit, en effet, l'orchestre de cette ville
@@ -334,17 +254,11 @@ en même temps qu'’il dirigeait une partie des Festspiele repré
 sentés dans le nouvel Institut. Le reste de sa carrière, tant
 wagnérienne que mozartienne en particulier, est trop connu
 pour que nous y insistions.
-
 Rappelons que Franz von Hæsslin dirigera, en fin de saison,
-
 des représentations de Parsifal au Grand Théâtre de Genève.
-
 Kar| Maria von WEBER
-
 1786—1826
-
 Ouverture du « Freischutz »
-
 e 18 juin 1821, une foule impatiente envahit le Théâtre
 de Dresde. Parmi les spectateurs, on pouvait remarquer
 “h Hoffmann, l’auteur des fameux « Contes », le poète Henri
@@ -358,70 +272,32 @@ dans l'introduction n'est pas tiré de l'opéra, mais sert à situer
 l’action, à évoquer le lleu mystérieux où elle se passe: la
 forêt. Par ailleurs, les motifs qui la composent ne sont autres
 que ceux de la partition, merveilleusement soudés les uns aux
-autres.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003066_010.tif"/>
-<page><![CDATA[p AN S
-
+autres.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003066_010.tif'/>
+        <page>
+          <![CDATA[p AN S
 Steinway & Sons, Pleyel, Feurich, Schiedmayer
-
 Wohl[ahri-Baby
-
 LOCATION
 ÉCHANGES
-
 - Passage du Terraillet, 20
 REPARATIONS EN REÉS O,
-
- 
-
- 
-
- 
-
- 
-
- 
-
 HORÉFO S FRIRE
-
 M PHitiPPE BEGUIN
-
 26 GRAND QUAI, angle PLACE DU PoRT
 °\ tèl.:5.3432 . GENEÈVE
-
- 
-
- 
-
- 
-
- 
-
- 
-
 P A E O A
-
-E DE S PE ETE CO L ME A]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003066_011.tif"/>
-<page><![CDATA[Robert SCHUMANN e
+E DE S PE ETE CO L ME A
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003066_011.tif'/>
+        <page>
+          <![CDATA[Robert SCHUMANN e
 1810—1856 2E
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 La quatrième Symphonie.
-
 Ft parce qu'elle porte le numéro d'opus 120 et parce que
-
 Schumann la garda 12 ans avant de la publier, la Sym-
 à phonie en ré mineur est désignée comme étant la
 4me symphonie du maître et fut même considérée par des
@@ -436,7 +312,6 @@ modifie, l’instrumente à nouveau. Ce n'est qu'en 1853 que,
 selon André Schaeffner, le maître allemand présente son
 œuvre dans sa nouvelle version, celle qu'il dédiera alors à son
 ami Joseph Joachim.
-
 Composée de plusieurs parties, l'œuvre est néanmoins jouée
 d'un seul tenant, selon l'indication même de son auteur qui
 précise: « Introduction — Allegro — Romance — Scherzo —
@@ -445,64 +320,38 @@ comprit que les quatre mouvements de sa symphonie n'étaient
 autres que quatre aspects distincts d'une même idée poétique:
 conception polyédrique de l’unité d'une œuvre qui se marquera
 par certains rappels, par certaines interpénétrations, et dans
-
 laquelle on a voulu voir une anticipation partielle — et peut-être
 un peu plus naïve — de la forme ultérieure du poème sym-
 phonique.
-
- 
-
 Notre activité radiophonique
-
 Vendredi 10 janvier, 21 h. 10. — Concert Mozart avec Mlle Aida
 Stucki, violoniste (dir.: M. Appia).
-
 Dimanche 12 janvier, 20 h. 50. — « Tryptique russe » (musique
 et littérature). Dir.: M. Appia.
-
 Mercredi 15 janvier, 11 h.45. — Programme varié (dir.: E. Appia).
-
 Mercredi 15 janvier, 20 h. 55, — Fragments de « Pelléas et
 Mélisande » (avec Mlle Mad. Dubuis et M. Hugues Cué-
 nod). Dir.: E. Ansermet.
-
 Dimanche 19 janvier, 20 heures. — Concert de musique ita-
-lienne, avec Mme Marise Morel, cantatrice (dir.: Appia).]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003066_012.tif"/>
-<page><![CDATA[UNION
+lienne, avec Mme Marise Morel, cantatrice (dir.: Appia).
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003066_012.tif'/>
+        <page>
+          <![CDATA[UNION
 DE
 BANQUES SUISSÉS
-
 (
-
- 
-
 G EN -F YV -
-
-Angle rue du Rhône et rue du Commerce]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003066_013.tif"/>
-<page><![CDATA[H. BERLIOZ
-
- 
-
- 
-
+Angle rue du Rhône et rue du Commerce
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003066_013.tif'/>
+        <page>
+          <![CDATA[H. BERLIOZ
 18053 -— 1869
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Episode de la vie d'un artiste
-
 Symphonie fantastique en cinq parties (op. 14), de Berlioz
-
 | est, croyons-nous, indéniable que la Symphonie fan-
 tastique est, avec le Freischütz de Weber — ecrit en
 1821 — l'une des' deux œuvres les plus représentatives
@@ -516,14 +365,12 @@ de Paris. La première version avait été présentée au public
 par l'illustre chef d'orchestre Habeneck. Et, fait exceptionnel,
 dans la salle se trouvaient réunis Meyerbeer, Spontini et Liszt
 lui-même.
-
 C'est sous l'influence de la lecture du Faust de Gœthe,
 dans la traduction de Gérard de Nerval, que Berlioz écrivit la
 Fantastique. C’est donc en quelque sorte la suite des Huit
 scènes de Faust, avec ‘toute la transposition psychologique
 qui s'impose et, avec la même réserve, la prémonition de la
 Damnation de Faust, qu'il devait écrire 14 ans plus tard.
-
 Pour préciser l'intention du compositeur, il suffit de se
 reporter à deux documents: la déclaration de Berlioz parue dans
 le «Figaro» du 21 mai 1830; le livret imprimé en tête de la
@@ -533,134 +380,71 @@ situations de la vie d'un artiste. Le plan du drame instru-
 mental, privé du secours de la parole, a besoin d'être exposé
 d'avance. Le « programme » de cette symphonie doit donc
 être considéré comme le texte parlé d'un opéra servant à amener
-
 des morceaux de musique ,dont il motive le caractère et
 , . (— "
-
 l'expression ». |l est donc nécessaire de donner ce « program-
 me », qui parut en les termes suivants :
-
 « Un jeune musicien d'une sensibilité maladive et d'une
 imagination ardente s'empoisonne avec de l’opium dans un
 accès de désespoir amoureux. La dose de narcotique, trop
-faible pour lui donner la mort, le plonge dans un lourd som-]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003066_014.tif"/>
-<page><![CDATA[Abonnements
-
+faible pour lui donner la mort, le plonge dans un lourd som-
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003066_014.tif'/>
+        <page>
+          <![CDATA[Abonnements
 aux
-
 Livres, Revues et Journaux illustrés
 en français, anglais, allemand, italien
-
 13, rue Céard
-
 (à l'entresol)
-
- 
-
- 
-
 CHANT …
 VIOLETTE ANDRÉOSSI
-
 CANTATRICE, ŸPROFESSEUR AU CONSERVATOIRE DE GENÈVE
-
 MÉETHODE ITALIENNE - POSE DE VOIX - INTERPRÉTATION - PRÉPARATION AU
 RÉPERTOIRE LYRIQUE ET DE CONCERT FRANÇAIS, ITALIEN, ALLEMAND - COURS
 DE POSE DE VOIX POUR :COMÉDIENS
-
 STUDIO: 16, BOULEVARD DES TRANCHÉES -  TÉLÉPHONE 4 66 80
-
- 
-
- 
-
- 
-
- 
-
- 
-
 PIANOS - HARMONIUMS - RADIOS ;
 GRAMOS DISQUES
 BRUCKNER-GUIGNARD
 Rue du Rhône, 98 jentreso) — Tél. 5.04.80
-
 LOCATION
-
 VENTE
-
 EXPERTISES
-
 ACCORDS
-
 RÉPARATIONS
-
 JÎtudic et falle
-
-paur auditions, lecans, causeries]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003066_015.tif"/>
-<page><![CDATA[H. BERLIOZ
-
- 
-
- 
-
+paur auditions, lecans, causeries
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003066_015.tif'/>
+        <page>
+          <![CDATA[H. BERLIOZ
 (Suite)
-
- 
-
- 
-
- 
-
- 
-
 meil, accompagné des plus étranges visions, pendant lequel
 ses sensations, ses sentiments, ses souvenirs, se traduisent dans
 son cerveau malade en pensées et en images musicales. La
 femme aimée elle-même est devenue pour lui une mélodie, et
 comme une idée fixe qu'il « entend » partout.
-
- 
-
- 
-
 ATHH
-
- 
-
- 
-
- 
-
 Première partie : Rêveries, passions.
-
 Il se rappelle d'abord ce malaise de l'âme, ce vague des
 passions, ces mélancolies, ces joies sans sujet qu'il éprouva
 avant d'avoir vu celle qu'il aime; puis, l'amour volcanique
-qu'elle lui inspira subitement, ses délirantes angoisses, ses fu-]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003066_016.tif"/>
-<page><![CDATA[LA PLUS IMPORTANTE So»c USESTIE ANONYME TOUS LES IMPRIMÉS EN
-
+qu'elle lui inspira subitement, ses délirantes angoisses, ses fu-
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003066_016.tif'/>
+        <page>
+          <![CDATA[LA PLUS IMPORTANTE So»c USESTIE ANONYME TOUS LES IMPRIMÉS EN
 LITHOGRAPHIE TYPOGRAPHIE
 DE GENEVE » SPE- BROCHURES * CATALOGUES
 CIALISTE DE L'AFFICHE REVUES « JOURNAUX
 ET DU PROCÉDÉ CRÉATIONS * DESSINS
-
 O F F S E T RueverxDôte 11 - T. 26018 C LI CH É S
-
- 
-
- 
-
- 
-
- 
-
 | Enseignement de toutes les branches
 de la musique, sur des bases nouvelles
-
 1- ;
 Direction: YVE BUYSSENS e n
 @AUEL@UES: PFROPESSEUNRSS
@@ -669,66 +453,32 @@ Yve Buyssens H. Honegger, Ed. Willems
 G, .Depi erre Ai. Maeder, G. Deprez.
 Diction : Mme Camylle Hornung Rythmique: Mme Roger Vuataz
 Inscriptions au début de chaque mois au LYCÉE MUSICAL, rue Ch.-Giron, 9 — Tél. 2.33.96
-
 STUDIOS EN VILLE : PLACE DES BERGUES ET CERCLE DES ARTS ET DES LETTRES
-
- 
-
- 
-
 ECOLE FYFOURE
-
 GENÈVE 4, Tour de l’Ile
-
 cSténo-dactyle
 Camptabilité
 Corceépandance
 L'angues
-
 Caours épéciaux de français poue élèves de langue étcangèrze
-
- 
-
- 
-
- 
-
- 
-
 GRAND CAFÉ-RESTAURANT
-
 EVREQUE
-
 R. TISSOT
-
 SES MENUS RÉPUTÉS
 SA CAVE RENOMMÉE
-
-12, boul. du Théâtre - Tél. 408 00]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003066_017.tif"/>
-<page><![CDATA[H. BERLIOZ A A ISS S DE
+12, boul. du Théâtre - Tél. 408 00
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003066_017.tif'/>
+        <page>
+          <![CDATA[H. BERLIOZ A A ISS S DE
 (Suite)
-
- 
-
- 
-
- 
-
- 
-
- 
-
 reurs jalouses, ses retours de tendresse, ses consolations reli-
 gieuses.
-
 Deuxième partie : Un bal.
-
 Il retrouvé l’aimée, dans un bal, au milieu du tumulte d'une
 fête brillante.
-
 Troisième partie : Scène aux champs.
-
 Un soir d'été, à la campagne. |l entend deux pâtres, qui
 dialoguent un ranz des vaches; ce duo pastoral, le lieu de la
 scène, le léger bruissement des arbres doucement agités par
@@ -739,9 +489,7 @@ raît de nouveau: son cœur se serre, de douloureux sentiments
 l'agitent: si Elle le trompait… L'un des pâtres reprend sa
 naïve mélodie, l'autre ne répond plus. Le soleil se couche…
 Bruit éloigné du tonnerre… Solitude… Silence.
-
 Quatrième partie : Marche au supplice.
-
 Il rêve qu'il a tué celle qu'il aimait, qu'il est condamné à
 mort, conduit au supplice. Le cortège s'avance, au son d'une
 marche tantôt sombre et farouche, tantôt brillante et solen-
@@ -749,9 +497,7 @@ nelle, dans laquelle un bruit sourd de pas graves succède, sans
 transition, aux éclats les plus bruyants. À la fin, l'idée fixe
 reparaît un instant. Comme une dernière pensée d'amour in-
 terrompue par le coup fatal.
-
 Cinquième partie : Songe d'une nuit de Sabbat.
-
 (l se voit au Sabbat, au milieu d'une troupe affreuse d'om-
 bres, de sorciers, de monstres de toutes espèces, réunis pour
 ses funérailles. Bruits étranges, gémissements, éclats de rire,
@@ -759,89 +505,43 @@ cris lointains auxquels d'autres cris semblent répondre. La mé-
 lodie aimée reparaît, mais elle a perdu son caractère de noblesse
 et de timidité: ce n'est plus qu'un air de danse ignoble, trivial,
 grotesque; c'est Elle qui vient au Sabbat… Rugissements de
-joie à son arrivée… Elle se mêle à l'orgie diabolique… glas]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003066_018.tif"/>
-<page><![CDATA[DIRECTION ROMANDE:
-
+joie à son arrivée… Elle se mêle à l'orgie diabolique… glas
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003066_018.tif'/>
+        <page>
+          <![CDATA[DIRECTION ROMANDE:
 LONGEMALLE, !
 GENEÈVE
-
- 
-
 ACCIDENTS
-
 loutes aséurances Accidents
-
 SRE S : AGENCE GÉNÉRALE:
 Respansalilité civile, autamobile ven e
 5au y 7haÊadée sn 'Î)a€ Corraterie, 7
-
- 
-
- 
-
- 
-
- 
-
- 
-
 PIANOS
-
 VENTE - ÉCHANGE - LOCATION
 ACCORDS ET RÉPARATIONS
-
 RADIOS An
-
 TÉPÉPRPHONE 2°36.:51
-
- 
-
 FACILITÉS DE PAIEMENTS
-
- 
-
- 
-
 M AI* SON GFN PV © 1
-
 La PHARMAGIE HAHN
-
 J.-G. BRUN & SES FILS
 18, place Longemalle GENEVE Rue Croix-d’Or, 29
-
 est l’une des peincipales et plus anciennes de Genève
-
- 
-
 Exécution soignée de prescriptions de tous les pays selon
 chaque pharmacopée. - Envois à domicile et par poste
-
 SPÉCIALITÉS (le plus gros stock) HOMOEOPATHIE
-
 PÉTROLE HAHN
-
-seule lotion efficace contre la chute des cheveux et les pellicules. fr. 3.50 |e flacon]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003066_019.tif"/>
-<page><![CDATA[H. BERLIOZ
-
- 
-
+seule lotion efficace contre la chute des cheveux et les pellicules. fr. 3.50 |e flacon
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003066_019.tif'/>
+        <page>
+          <![CDATA[H. BERLIOZ
 (Suite)
-
- 
-
- 
-
- 
-
- 
-
- 
-
 funèbre; parodie burlesque du Dies irae. Ronde du Sabbat
 et Dies lrae simultanés.
-
 Rappelons qu'après la première audition de cette sympho-
 nie, Berlioz put écrire: « J'ai eu un succès furieux. La Symphonie
 Fantastique a été accueille avec des cris et des trépigne-
@@ -851,177 +551,84 @@ abimé d'effets sataniques.» Un fait encore: le 16 décembre
 tastique »: le lendemain, Paganini le proclamait l'héritier et
 le successeur de Beethoven, et lui envoyait en gage d'admi-
 ration une somme de 20.000 francs…...
-
- 
-
 Spectacles de la Comédie
-
 Actuellement, prolongation du succès triomphal de L'Aiglon.
-
 Prochainement, création de deux œuvres d'auteurs suisses :
 Le Palais d'Argile, pièce en trois actes de René Besson et
 Seconde Nature, un acte de Marcel Rosset.
-
 Puis, aux affiches suivantes: La Belle Aventure, de Flers et
-
 Caillavet, Pygmalion, de Bernard Shaw, et Fanny et ses gens,
 de Jérôme K. Jérôme.
-
 Le 25 janvier: quatrième matinée classique avec Polyeucte,
-de Corneille.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003066_020.tif"/>
-<page><![CDATA[l:erguer s. à
-
+de Corneille.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003066_020.tif'/>
+        <page>
+          <![CDATA[l:erguer s. à
 84, rue du Rhône
-
- 
-
- 
-
 PIANOS-RADIOS
-
- 
-
-   
- 
-   
- 
-
 Pour une bonne audition de
 vos disques, employez le
 Discophone Marconi
-
 depuis F 106.-
-
 Location clavecin et studios
-
- 
-
- 
-
- 
-
- 
-
 PORTRÀITS
 GB ETEF
-
 @. G.
-
-  
-  
-  
-
 1, rue de la Monnaie
-
- 
-
 TÉLÉPHONE 4.66.57
-
 Geocge
-
 Photogeaphe
-
-GENÈVE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003066_021.tif"/>
-<page><![CDATA[. S. BR. —— ——s
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
+GENÈVE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003066_021.tif'/>
+        <page>
+          <![CDATA[. S. BR. —— ——s
 Mercredi 22 Janvier 1941 à 20 h. 30
 GRAND-THÉATRE
-
 8” Concert c l’'Abonnement
-
 sous la direction de
-
 Ernesl ANSERMET
-
 Soliste :
-
 Adrien AESCHBACHER
-
 pianiste
-
 Au programme .
-
 Oeuvres de BACH, MOZART, LIZST, R. DUCASSE
 et Arthur HONEGGER
-
- 
-
 Location chez Vidoudez, Corraterie 22, à partir du jeudi 16 janvier
-
- 
-
 GRAND-THÉATRE DE GENÈVE
-
- 
-
 en avzil
-
 Deux représentations de
-
 PARSIFAL
-
 de Richard WAGNER
 Version originale en allemand sous la direction du Maître
-
-FRANZ VON HŒSSLIN]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003066_022.tif"/>
-<page><![CDATA[&4, rue du
-
+FRANZ VON HŒSSLIN
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003066_022.tif'/>
+        <page>
+          <![CDATA[&4, rue du
 Rhône
-
 Aeschbach
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 CAISSE HYPOTHECAIRE
 DU CANTON DE GENÈVE
-
 Instituée par la Constitution de 1847 - Molard, 2
-
 Prêtis el crédits hypothécaires
 de
 d'épargne
-
 Certificats dépôt
-
-Livrets]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003066_023.tif"/>
-<page><![CDATA[Gomment la Presse parle de l’Orchestre Romand
-
+Livrets
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003066_023.tif'/>
+        <page>
+          <![CDATA[Gomment la Presse parle de l’Orchestre Romand
 Comment sonl accueillis nos concerts du dimanche.
-
 Voilà une initialive qui sera bien accueillie. Quel momenl plus
 agréable pour écouter de bonne musique que la détente d’une matinée
 de dimanche ?
-
 On se souvient du très grand succès qu'obtinrent durant plusieurs
 saisons les concerts organisés par l'O.R. à la Maison communale dc
 Plainpalais. Un certain hiver, si ma mémoire est bonne, leur nombre
@@ -1031,9 +638,7 @@ trop, d’ailleurs. La lassitude vint en même temps que se développail à
 l’excès le goût des vastes excursions. Aujourd’hui, les frontières
 sont fermées et l’essence rare. Nul doute que le rétablissement des
 concerts dominicaux ne vienne au bon moment
-
 Journal de Genève, 9 déc. 1940
-
 Nous avons salué récemment comme il se devail l’initiative prise
 par le Conseil de fondation de l’Orchestre de la Suisse romande
 d’organiser une série de concerts dominicaux à prix réduit. La pre
@@ -1045,70 +650,48 @@ musique d’orchestre qui, pour une raison ou une autre, ne peuvenl
 venir aux séances d’abonnement et qui en ressentent cruellement la
 privation. Nous pensons que M. Ernest Ansermet et son ensemble
 symphonique ont été touchés des ovations qui leur ont été prodiguées
-
 Nous-mêmes n’avons pu nous défendre d’une intense émotion
 il semblait que vingt ans fussent abolis, qu’on était revenu au (emps
 où, à la Salle communale, l’'Orchestre romand et la Compagniec
 Piloëff revenue elle aussi parmi nous attiraient l’élite de loutes
 les classes de la population de notré ville
-
 Tribune de Genève, 10 déc 1910,
-
- 
-
 CHI\NT, COU RS et [4[‘:ç‘()NS |):n‘lirllli('ﬂ‘s
-
- 
-
 TECHNIQUE VOCALE, INTERPRÉTATION, ARTICULATION
-
 LINA IFAILIH
-
 Contraltu, Pr0Îcsscur sup. au Cnnwrv:1tnirv Rlb\’.‘ll «|<- Bru\«'ll(‘s
 Soliste des Concerts du Conservatoire de Paris
 Colonne, Lamoureux, Padeloup, etc.
-
-Studio: RUE TŒPFFER, 21 rÉL. 5,24.79]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003066_024.tif"/>
-<page><![CDATA[Loterie de la
+Studio: RUE TŒPFFER, 21 rÉL. 5,24.79
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003066_024.tif'/>
+        <page>
+          <![CDATA[Loterie de la
 Cuisse RMomande
-
 au profit des œuvres de secours et d'utilité publique
-
 Tirages réguliers tous les 2 mois
 —— (pour les prochaines dates de tirage, consulter la presse) ——
-
 Le billet: Fr. 5.— le '|s de billet: Fr. 1.—
-
-Secrétariat cantonal: GENÈVE - Passage du Terraillet 20 - Ch. post. |. 222]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003066_025.tif"/>
-<page><![CDATA[;
-
+Secrétariat cantonal: GENÈVE - Passage du Terraillet 20 - Ch. post. |. 222
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003066_025.tif'/>
+        <page>
+          <![CDATA[;
 ‘J‘Ï
-
 | .
-
 (CCOHOOOHOGONAOODAOENOAEECADNEONCHOMNXNOAANWAOMHNAAXNNHNANNNHWONNNON
-
 Orchestre de la Suisse Romande
-
 Directeur E
-
 Ernest ANSERMET
-
 Les solistes cordes sont indiqués ici en tête de liste de chaque
 registre, les suivants dans l’ordre alphabétique.
-
 Iers violons
-
 MM.
-
 zer soliste Capoulade
-
 2e soliste Neufeld
-
 3° soliste Klein
-
 4£ soliste Echenard
 Bornand (Mille)
 Breittmayer (Mille)
@@ -1117,22 +700,16 @@ Cleis
 Fert (MIle)
 Gavalda
 Gœhrin
-
 Guinan£Bréguet (Mme)
-
 Minkoff
-
 de Siebenthal (MiIle)
-
 ames violons
-
 Perret
 Grandpierre
 Bergmann
 Calascione
 Echenard (Mme)
 Franzini
-
 Gyr
 Léonardi
 Lehmann
@@ -1140,30 +717,20 @@ Massarenti
 Meersson
 Reichel
 Schwok
-
 Altos
-
 Krausz
-
 Sougné
 Borgeaud
 Challand
 Correvon (Mille)
 Kunz
-
 Pilet
-
 Robert (Mille)
-
 ICY soliste
 2e soliste
-
 Violoncelles
-
 MM.
-
 IeT soliste Honegger
-
 2e soliste Walter
 Buenzod
 Guignard
@@ -1171,128 +738,90 @@ Montandon (MIle)
 Morel
 Reinhard
 de Ribaupierre
-
 Contrebasses
-
 1°x soliste Fryba
-
 2e soliste Ammon
 Gros
 Leonardi
 Neukirch
 Orsi
-
 Flûtes
-
 1CT soliste Pépin
-
 2e soliste Roy
 Meschini
 Bretton (petite flute)
-
 Hautbois et cor anglais
-
 Soliste Dennes
 Shann
 Fauquex
-
 Guilhot
-
 Clarinettes
-
 1er soliste Hoogstæl
-
 2e soliste Gugolz
 Thomann
 Lavanchy
-
 Bassons
-
 MM.
-
 Helaerts ;
 Frei (contrebasson)
-
 Ruf
-
 Soliste
-
 Cors
 Bôhler
-
 Baum
 Scheiwein
 Fritz
 Ristori
-
 Soliste
-
 Trompettes
-
 \ Bodet
-
 | Longinotti
 Bindschedler
 Weber
-
 Solistes
-
 Trombones
-
 Soliste Morley
-
 Lyard
 Tabachnik
 Tuba
-
 Laurent
-
 Timbales et batterie
-
 Peschier
 Beck
 Trémège
-
 Harpes
-
 de Sanctis (Mme)
-Vita]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003066_026.tif"/>
-<page><![CDATA[ASSOCIATION
-
+Vita
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003066_026.tif'/>
+        <page>
+          <![CDATA[ASSOCIATION
 DES AMIS DE L'ORCHESTRE ROMAND
 2
 Comité :
 MM. Pierre JACCOUD, Président ;
 Henri BROLLIET, Vice-président ;
-
 Charles BABEL, T”résorier ;
 Edmond MARTIN-ACHARD, Secrétaire.
-
 MM. Léopold BOISSIER, Alfred BOREL, Emile BRUNSCHWIG,
 René DOVAZ, Jean DUCHOSAL, Dr Maurice GILBERT,
 Frank MARTIN, Félix POMMIER, Emile UNGER, Charles
 ZANELLO.
-
 L’Association des Amis de l’Orchestre Romand a été créée dans
 l’idée d’apporter à l’institution de l’orchestre un appui moral et
 financier :
-
 a) en faisant en sa faveur une active propagande ;
-
 b) en mettant à sa disposition le produit des contributions de
 ses membres, ainsi que les dons et legs spéciaux qui pour-
 raient lui être faits.
-
 C’est par l’organe des Amis de l’Orchestre Romand que s'est
 opérée la jonction des ressources publiques et des ressources radio-
 phoniques en vue d’agrandir et de stabiliser notre orchestre. C’est
 d’eux que dépend le maintien de l’état actuel des choses.
-
 Devenir souscripteur, membres des Amis de l'O.S.R., c'est
 collaborer activement au maintien de notre orchestre et à l’élé-
 ment de culture qu'il représente en notre ville.
-
 Pensez-y.
 e
 La qualité de membre souscripteur s'acquiert par le ver-
@@ -1300,9 +829,6 @@ sement d’une cotisation annuelle (minimzmz Fr. 5_,ÿ,) au compte
 de chèques postaux des Amis de lO.S.R. No 1.0870 ; elle assure un
 droit de priorité lors de la souscription des abonnements, et celui
 d'assister gratuitement au « concert p/ébiscit@ » en fin de saison.
-
- 
-
 PEs S S S m cs se se cu ct …îÈ'
 ä{ Anna-Maria GUGLIELMETTÏ |t
 ä|‘ cnacigne \Ë
@@ -1310,56 +836,37 @@ PEs S S S m cs se se cu ct …îÈ'
 Ï e” bel canto È
 ‘4 Frontenex, 57 Téléph.: 4.69-:56 [E
 ‘ LEÇONS PARTICULIÈRES & COURS (LYCÉE MUSICAL) ÎÈ
-O e 77P ETE TE ETE ETE 7777777738]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003066_027.tif"/>
-<page><![CDATA[Café Restaurant
-
+O e 77P ETE TE ETE ETE 7777777738
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003066_027.tif'/>
+        <page>
+          <![CDATA[Café Restaurant
 International
-
 J. UWagnez
-
- 
-
 Tél. 4.07.29 21, Boul. Georges-Favon - Genève
-
- 
-
- 
-
- 
-
 PEPINIÈRES BOCCARD FRÈRES
-
- 
-
- 
-
 ARBRES FRUITIERS
 ET D'ORNEMENT
 CONIFÈRES, ROSIERS
 PLANTES GRIMPANTES
 ET VIVAC@ES
-
 PARCS … JARDINS
 EN N | 5
 Engrais et spécialités
-
 nonLIco es CIP RE
-
-   
-
 Cèdre pleureur
-
-PETIT-SACONNEX … GENÈVE … TÉLÉPHONE 2 6115]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003066_028.tif"/>
-<page><![CDATA[L'a précision…
-
+PETIT-SACONNEX … GENÈVE … TÉLÉPHONE 2 6115
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003066_028.tif'/>
+        <page><![CDATA[L'a précision…
 peésentée avec élégance…
-
 VACHERON
 x 5n
-CONSTANTIN]]></page>       
-        </p>
+CONSTANTIN
+]]></page>
+      </p>
     </body>
   </text>
 </TEI>

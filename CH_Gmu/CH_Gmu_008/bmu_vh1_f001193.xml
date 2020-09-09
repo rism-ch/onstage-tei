@@ -1,259 +1,189 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Grand concert : Au bénéfice des réfugiés belges en Hollande et en Suisse<date when="26/11/1914"/></title>
-<series>1914-1915</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Grand concert : Au bénéfice des réfugiés belges en Hollande et en
+            Suisse
+            <date when='26/11/1914'/>
+          </title>
+          <series>1914-1915</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F001193</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Koch, L. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19141126"/>
-<title>Grand concert : Au bénéfice des réfugiés belges en Hollande et en Suisse</title>
-<placeName key="Victoria Hall"/>
-<name key="1914-1915" type="series"/>
-<name key="Saint-Saëns, Camille" ref="https://muscat.rism.info/admin/people/76734" type="person" role="cmp">Saint-Saëns, Camille</name>
-<name key="Popy, Francis" ref="https://muscat.rism.info/admin/people/30071122" type="person" role="cmp">Popy, Francis</name>
-<name key="Gautier, Théophile" ref="https://muscat.rism.info/admin/people/47344" type="person" role="cmp">Gautier, Théophile</name>
-<name key="Svendsen, Johan" ref="https://muscat.rism.info/admin/people/176065" type="person" role="cmp">Svendsen, Johan</name>
-<name key="Closset, F."  type="person" role="cmp">Closset, F.</name>
-<name key="Chausson, Ernest" ref="https://muscat.rism.info/admin/people/30087317" type="person" role="cmp">Chausson, Ernest</name>
-<name key="Jaques-Dalcroze, Emile" ref="https://muscat.rism.info/admin/people/109238" type="person" role="cmp">Jaques-Dalcroze, Emile</name>
-<name key="Martini, Giovanni Battista" ref="https://muscat.rism.info/admin/people/30002105" type="person" role="cmp">Martini, Giovanni Battista</name>
-<name key="Mendelssohn Bartholdy, Felix" ref="https://muscat.rism.info/admin/people/88790" type="person" role="cmp">Mendelssohn Bartholdy, Felix</name>
-<name key="Rameau, Jean-Philippe" ref="https://muscat.rism.info/admin/people/169730" type="person" role="cmp">Rameau, Jean-Philippe</name>
-<name key="Massenet, Jules" ref="https://muscat.rism.info/admin/people/84264" type="person" role="cmp">Massenet, Jules</name>
-<name key="Lalo, Edouard" ref="https://muscat.rism.info/admin/people/65446" type="person" role="cmp">Lalo, Edouard</name>
-<name key="Koch, L. (dir.)"  type="person" role="int">Koch, L. (dir.)</name>
-<name key="Corps de musique de Landwehr"  type="person" role="int">Corps de musique de Landwehr</name>
-<name key="Desormes, F."  type="person" role="int">Desormes, F.</name>
-<name key="Closset, F."  type="person" role="int">Closset, F.</name>
-<name key="Andina, G."  type="person" role="int">Andina, G.</name>
-<name key="Tatianoff (Mlle)"  type="person" role="int">Tatianoff (Mlle)</name>
-<name key="Jacquin"  type="person" role="int">Jacquin</name>
-<name key="Baszanger-Terracina (Mme)"  type="person" role="int">Baszanger-Terracina (Mme)</name>
-<name key="Despesse, Hugo"  type="person" role="int">Despesse, Hugo</name>
-<name key="Favre, Suzanne"  type="person" role="int">Favre, Suzanne</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001193_001.tif"/>
-<page><![CDATA[VICTORIA-HALL
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19141126'/>
+        <title>Grand concert : Au bénéfice des réfugiés belges en Hollande et en Suisse</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1914-1915' type='series'/>
+        <name key='Saint-Saëns, Camille' ref='https://muscat.rism.info/admin/people/76734' type='person' role='cmp'>Saint-Saëns, Camille</name>
+        <name key='Popy, Francis' ref='https://muscat.rism.info/admin/people/30071122' type='person' role='cmp'>Popy, Francis</name>
+        <name key='Gautier, Théophile' ref='https://muscat.rism.info/admin/people/47344' type='person' role='cmp'>Gautier, Théophile</name>
+        <name key='Svendsen, Johan' ref='https://muscat.rism.info/admin/people/176065' type='person' role='cmp'>Svendsen, Johan</name>
+        <name key='Closset, F.' type='person' role='cmp'>Closset, F.</name>
+        <name key='Chausson, Ernest' ref='https://muscat.rism.info/admin/people/30087317' type='person' role='cmp'>Chausson, Ernest</name>
+        <name key='Jaques-Dalcroze, Emile' ref='https://muscat.rism.info/admin/people/109238' type='person' role='cmp'>Jaques-Dalcroze, Emile</name>
+        <name key='Martini, Giovanni Battista' ref='https://muscat.rism.info/admin/people/30002105' type='person' role='cmp'>Martini, Giovanni Battista</name>
+        <name key='Mendelssohn Bartholdy, Felix' ref='https://muscat.rism.info/admin/people/88790' type='person' role='cmp'>Mendelssohn Bartholdy, Felix</name>
+        <name key='Rameau, Jean-Philippe' ref='https://muscat.rism.info/admin/people/169730' type='person' role='cmp'>Rameau, Jean-Philippe</name>
+        <name key='Massenet, Jules' ref='https://muscat.rism.info/admin/people/84264' type='person' role='cmp'>Massenet, Jules</name>
+        <name key='Lalo, Edouard' ref='https://muscat.rism.info/admin/people/65446' type='person' role='cmp'>Lalo, Edouard</name>
+        <name key='Koch, L.' type='person' role='int'>Koch, L.</name>
+        <name key='Corps de musique de Landwehr' type='person' role='int'>Corps de musique de Landwehr</name>
+        <name key='Desormes, F.' type='person' role='int'>Desormes, F.</name>
+        <name key='Closset, F.' type='person' role='int'>Closset, F.</name>
+        <name key='Andina, G.' type='person' role='int'>Andina, G.</name>
+        <name key='Tatianoff (Mlle)' type='person' role='int'>Tatianoff (Mlle)</name>
+        <name key='Jacquin' type='person' role='int'>Jacquin</name>
+        <name key='Baszanger-Terracina (Mme)' type='person' role='int'>Baszanger-Terracina (Mme)</name>
+        <name key='Despesse, Hugo' type='person' role='int'>Despesse, Hugo</name>
+        <name key='Favre, Suzanne' type='person' role='int'>Favre, Suzanne</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001193_001.tif'/>
+        <page>
+          <![CDATA[VICTORIA-HALL
 = GENÈVE - ——
-
 (7 d 26 c7( mb 191%
 du soïr æ
-
- 
-
- 
-
 €ﬂ…:?ﬁ@fäf—’, ef en Suisse
-
 Sous le patronage
-
 u.
 M. Ch.-G. VERMAIRE
-C]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001193_002.tif"/>
-<page><![CDATA[t
+C
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001193_002.tif'/>
+        <page>
+          <![CDATA[t
 s==
-
 E e E p rrr E
 —Ss —
-
 —— —S SE =
-
 e
-
 N
-
 PREMIERE
-
 e
-
 HYMNE HOLLANDAIS.
 LA BRABANÇONNE.
-
 SUIIERADPABANPÉ E
-
 MUSIQUE DE LANDWEHRR.
 (Directeur M. L. Koch.)
-
 LES VIEUX
-
 Û.
-
 DE LA VIFILLE.
 (Ext!‘aît de “ Émn\lx et Cnmécst)
 M. DESÛRË'ÏES, de Lia Comédie.
 1 )rROMNCRR
 b) AIRS LIÉGEOIS....…
-
 Violon : M. F. CLOSSET.
 SE RRCOPNIBRI
 b) e - TON IROUEI,
 MIGNONNE....
 JENNEIMI UE
-
 Chant : Mre G. ANDINA.
-
 E 3”ÿa
-
 PAR"
-
-  
-
 ‘ x
 4
-
 TIR
-
 . MARCHE DE DÉJANIRE Saint-Saëns.
-
 Popy.
-
 Th. Gauthier.
-
 Svendsen.
-
 F. Clocvel.
-
 Chausson.
-
 Jaques-Dalcroze.
-
 Martint.
-
-      
-   
-        
-   
-     
-  
-     
-   
-    
-
 —— EN
-
 r
 S
-
 — E
-
- 
-
 —N
-
- 
-
 e
-
 r
-
 —N
-
 =
-
 E
-
 —
-
 EN
-
 —N
-
-e]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001193_003.tif"/>
-<page><![CDATA[SENSEEESS
-
-s===
-
- 
-
-—E e
-
-|
-|
-
- 
-
-  
-
-DEUXIÈME PARTIE
-
 e
-
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001193_003.tif'/>
+        <page>
+          <![CDATA[SENSEEESS
+s===
+—E e
+|
+|
+DEUXIÈME PARTIE
+e
 . RUY-BLAS, ouverture...... Menodelssohn.
 MUSIQUE DE LANDWEHR.
-
 10 CASTOREHIBROTEUX PRameau
-
 b)'Aix de P'ANCETRE | Saint-Saëns,
 Chant : Mlle TATIANOFPF,
 . LE JONGLEUR
 DE NOTRE-DAME .. /assenet,
 (Légende de la Sauge.)
-
 Chant : M. JACQUlN.
-
 SÉFRROrDPYS Fo, Lalo.
 (Air de Margared.)
 Chant: Mme BASZANGER-TERRACINA.
-
 . M.M. FABER, dans son réperftoire.
-
 MARCHE DES GRENADIERS
-
- 
-
- 
-
- 
-
 (La ‘Fête de Juin”) ... Jaques-Dalcroze.
-
 MUSIQUE DE LANDWEHR.
-
 Piano d'accompagnement tenu par
-
 Mile Suzanne FAVRE ct M. Hugo DESPESSE,
-
-c»*@’&«9]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001193_004.tif"/>
-<page><![CDATA[]]></page>       
-        </p>
+c»*@’&«9
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001193_004.tif'/>
+        <page><![CDATA[]]></page>
+      </p>
     </body>
   </text>
 </TEI>

@@ -1,225 +1,147 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Grand concert donné par les sociétés chorales catholiques de Genève : Au bénéfice du sanatorium de Clairmont-sur-Sierre<date when="27/05/1900"/></title>
-<series>1899-1900</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Grand concert donné par les sociétés chorales catholiques de Genève
+            : Au bénéfice du sanatorium de Clairmont-sur-Sierre
+            <date when='27/05/1900'/>
+          </title>
+          <series>1899-1900</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F000450</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Jauch, T. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19000527"/>
-<title>Grand concert donné par les sociétés chorales catholiques de Genève : Au bénéfice du sanatorium de Clairmont-sur-Sierre</title>
-<placeName key="Victoria Hall"/>
-<name key="1899-1900" type="series"/>
-<name key="Bach, Johann Sebastian" ref="https://muscat.rism.info/admin/people/2539" type="person" role="cmp">Bach, Johann Sebastian</name>
-<name key="Bonifas, Ch."  type="person" role="cmp">Bonifas, Ch.</name>
-<name key="Luzzi, Luigi" ref="https://muscat.rism.info/admin/people/30015608" type="person" role="cmp">Luzzi, Luigi</name>
-<name key="Händel, Georg Friedrich" ref="https://muscat.rism.info/admin/people/36552" type="person" role="cmp">Händel, Georg Friedrich</name>
-<name key="Dubois, Théodore" ref="https://muscat.rism.info/admin/people/30016588" type="person" role="cmp">Dubois, Théodore</name>
-<name key="Chaminade, Cécile" ref="https://muscat.rism.info/admin/people/30016699" type="person" role="cmp">Chaminade, Cécile</name>
-<name key="Rostand"  type="person" role="cmp">Rostand</name>
-<name key="Corelli, Arcangelo" ref="https://muscat.rism.info/admin/people/30000734" type="person" role="cmp">Corelli, Arcangelo</name>
-<name key="Archer"  type="person" role="cmp">Archer</name>
-<name key="Palestrina, Giovanni Pierluigi da" ref="https://muscat.rism.info/admin/people/1904" type="person" role="cmp">Palestrina, Giovanni Pierluigi da</name>
-<name key="Tinel, Edgar" ref="https://muscat.rism.info/admin/people/30017136" type="person" role="cmp">Tinel, Edgar</name>
-<name key="Jauch, T. (dir.)"  type="person" role="int">Jauch, T. (dir.)</name>
-<name key="Sociétés chorales catholiques"  type="person" role="int">Sociétés chorales catholiques</name>
-<name key="Bressler-Gianoli (Mme)"  type="person" role="int">Bressler-Gianoli (Mme)</name>
-<name key="Rey, Louis"  type="person" role="int">Rey, Louis</name>
-<name key="Granville-Smith, J."  type="person" role="int">Granville-Smith, J.</name>
-<name key="Fournier, Ernest"  type="person" role="int">Fournier, Ernest</name>
-<name key="Carrichon, M. (Mlle)"  type="person" role="int">Carrichon, M. (Mlle)</name>
-<name key="Andina, G. (Mme)"  type="person" role="int">Andina, G. (Mme)</name>
-<name key="Secret"  type="person" role="int">Secret</name>
-<name key="Monfort"  type="person" role="int">Monfort</name>
-<name key="Denizot"  type="person" role="int">Denizot</name>
-<name key="Cheridjean"  type="person" role="int">Cheridjean</name>
-<name key="Bruel, Jeanne"  type="person" role="int">Bruel, Jeanne</name>
-<name key="Moynat, J."  type="person" role="int">Moynat, J.</name>
-<name key="Schmidt"  type="person" role="int">Schmidt</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000450_001.tif"/>
-<page><![CDATA[}
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19000527'/>
+        <title>
+          Grand concert donné par les sociétés chorales catholiques de Genève :
+          Au bénéfice du sanatorium de Clairmont-sur-Sierre
+        </title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1899-1900' type='series'/>
+        <name key='Bach, Johann Sebastian' ref='https://muscat.rism.info/admin/people/2539' type='person' role='cmp'>Bach, Johann Sebastian</name>
+        <name key='Bonifas, Ch.' type='person' role='cmp'>Bonifas, Ch.</name>
+        <name key='Luzzi, Luigi' ref='https://muscat.rism.info/admin/people/30015608' type='person' role='cmp'>Luzzi, Luigi</name>
+        <name key='Händel, Georg Friedrich' ref='https://muscat.rism.info/admin/people/36552' type='person' role='cmp'>Händel, Georg Friedrich</name>
+        <name key='Dubois, Théodore' ref='https://muscat.rism.info/admin/people/30016588' type='person' role='cmp'>Dubois, Théodore</name>
+        <name key='Chaminade, Cécile' ref='https://muscat.rism.info/admin/people/30016699' type='person' role='cmp'>Chaminade, Cécile</name>
+        <name key='Rostand' type='person' role='cmp'>Rostand</name>
+        <name key='Corelli, Arcangelo' ref='https://muscat.rism.info/admin/people/30000734' type='person' role='cmp'>Corelli, Arcangelo</name>
+        <name key='Archer' type='person' role='cmp'>Archer</name>
+        <name key='Palestrina, Giovanni Pierluigi da' ref='https://muscat.rism.info/admin/people/1904' type='person' role='cmp'>Palestrina, Giovanni Pierluigi da</name>
+        <name key='Tinel, Edgar' ref='https://muscat.rism.info/admin/people/30017136' type='person' role='cmp'>Tinel, Edgar</name>
+        <name key='Jauch, T.' type='person' role='int'>Jauch, T.</name>
+        <name key='Sociétés chorales catholiques' type='person' role='int'>Sociétés chorales catholiques</name>
+        <name key='Bressler-Gianoli (Mme)' type='person' role='int'>Bressler-Gianoli (Mme)</name>
+        <name key='Rey, Louis' type='person' role='int'>Rey, Louis</name>
+        <name key='Granville-Smith, J.' type='person' role='int'>Granville-Smith, J.</name>
+        <name key='Fournier, Ernest' type='person' role='int'>Fournier, Ernest</name>
+        <name key='Carrichon, M. (Mlle)' type='person' role='int'>Carrichon, M. (Mlle)</name>
+        <name key='Andina, G. (Mme)' type='person' role='int'>Andina, G. (Mme)</name>
+        <name key='Secret' type='person' role='int'>Secret</name>
+        <name key='Monfort' type='person' role='int'>Monfort</name>
+        <name key='Denizot' type='person' role='int'>Denizot</name>
+        <name key='Cheridjean' type='person' role='int'>Cheridjean</name>
+        <name key='Bruel, Jeanne' type='person' role='int'>Bruel, Jeanne</name>
+        <name key='Moynat, J.' type='person' role='int'>Moynat, J.</name>
+        <name key='Schmidt' type='person' role='int'>Schmidt</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000450_001.tif'/>
+        <page>
+          <![CDATA[}
 I
 |
 |
 /
 i
 /
-
-    
-    
- 
-  
-  
-  
-     
-
- 
-
 E
-
-   
-    
-  
-   
- 
-  
- 
-   
-   
-  
-   
-    
-  
- 
- 
- 
-  
-    
-    
-   
- 
-  
-  
- 
-   
-    
- 
- 
- 
-  
-  
-  
-   
-    
-  
-  
- 
-  
-   
-  
- 
-
 /
 24 00
 \ *\ë > 3
 P A
 7 SSN
 GL LA n<*
-
- 
-
- 
-
-   
-
 Portes à 7 h. ‘ Dimanche 27 Mai 1900 Concert à 8h."
-
 J . - ——
-
 © S% sz © 257
-
 GRAND CONCERT
-
 DONNÉ AU BÉNÉFICE DU
-
 SAMATORIUM DE CLAIRMONT-SUR-SIERRE
-
 PAR LES
-
 SOCIÉTÉS CHORALES CATHOLIQUES DE GENÈVE
-
 Sous la Direction de M. Th. JAUCH
 AVEC LE GRACIEUX CONCOURS DE
 Mme BRESSLER-GIANOLI, cantatrice — M. LOUIS REY, Violoniste
 M. d. GRANVILLE-SMITH, organiste — M. ERNEST FOURNIER, professeur de diction
 et de plusieurs artistes et amateurs distingués
-
 /°\
-
 PREMIÈRE PARTIE
-
 ;
 1. Prélude et fugue (en si mineur) pour orgue, M. Granville Smith _ BACH.
-
 M Oque M. Ernest Fournier . . . . . « + € == CH. BONIFAS.
 EUe Marnia, M'e Bressler-Gianoli . . - . « € . = LUZZI
-
 4 Sonate (en ré majeur) pour violon, M. Louis Rey. . . .  HAENDEL.
-
 STABAT MATER
-
 DE PALESTRINA
 à 8 voix (2 chœurs a capella)
-
 Quatuors soli: Mlle M. Carrichon, Mme G. Andina, Mlles A, Z, B. V.; MM. Secret, Monfort, Denizot, Cheridjean
-
 DEUXIÈME PARTIE
-
 s; M voccata (en sol) pour orgue, M. Granville-Smith. . . + + « < © ; ‘ DUBOIS.
 ) Te> , ;
-
 sE ue (Sc QE MivcéBressier@ganon 1 00 , . … CHAMINADE,.
 èjc{' b) Partout |
-
 (9}' à lla Brouette, récitation, M. Ernest Fournier . . . s . - . ej . . - Rosrun
 îgêä 4. La Folia, Variations sérieuses pour violon, M. Louis Rey . . . … s4 4% GOREREN
 _(/ SN
-
 TE DEUM
 )E TINEL
 POUR CHŒUR, ORGUE ET CUIVRES
-
- 
-
 6. Marche, pour orgue M. Granville-Smith. . . . . .… 401 40 ARCEE N
-
 Le Piano d’accompagnement sera tenu pan Mlles Jeanne Bruel et J. Moynat.
 L’orgue d’accompagnement sera tenu par M. Schmidt, professeun.
 Piano à queue Kaps offert gracieusement par la Maison BRON & BERCGUER.
-
- 
-
- 
-
- 
-
- 
-
 ,J PRIX DRS PEACE>.
 a Rez-de-chaussée. — Loges numérotées, la place fr. 5; Parquets, Stalles de Parterre, de Pourtour et de Promenoir,
 4K non numérotées, fr. 2 ; \mplntln âtre, non numé |nh es en Première galerie. Loges numérotées, la place fr. 6 ;
@@ -227,141 +149,91 @@ Fauteuils de face et cordon, numérotées, fr. 3 ; autres places fr. 1, — Deux
 ° Les Loges du rez-de-chaussée et de la Première galerie; les Fauteuils de face et le cordon de la première galerie, sont
 A les seules places numérotées ; Pour la location s’adresser exclusivement chez Mme GARIN, librairie, Corraterie.
 0n DÉPÔT DE CARTES : Mme Garin, Corraterie; MM. Trembley, frère et sœur, librairie, Corraterie; M, Ferrand,
-
 Molard ; Mlle Jacquet, librairie, Place Cornavin ; Mlles Beerli, librairie, Cours de Rive; M, Joseph Baud, Chène; M. Dénériaz,
 Carouge ; M. Lance, à Lancy ; chez le concierge du Victoria-Hall et le soir à l’entrée,
-
 Scniurz & C*, Grand’Rue, 40, Genève,
-
 />
 Mesée. 0 Comserve/” ceu-( Wy(W &z_,{p
 .4
-
 \
-
-l *]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000450_002.tif"/>
-<page><![CDATA[DE PALESTRINA
-
- 
-
+l *
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000450_002.tif'/>
+        <page>
+          <![CDATA[DE PALESTRINA
 stabat Mater dolorosa,
 Juxta Crucem lacrymosa,
-
 Dum pendebat Filius
-
 Cujus animam gementem.
 Contristatam et dolentem,
-
 Pertransivit gladius
-
 O quamn tristis et afflicta
 Fuit illa benedicta
 Mater unigeniti!
-
 Quæ mœrebat et dolebat,
 Pia Mater, dum videbat
 Nati poœnas inelyti
-
 Quis est homo qui non fleret,
 Matrem Christi si videret
-
 In tanto \ll]!‘lÏ{t'\ur f
-
 Quis non posset contristari,
 Christi matrem contemplari
-
 Dolentem cum Filio
-
 Pro peccatis suæ centis
 Vidit Jesum in tormentis,
-
 Et flagellis subditum.
-
 Vidit suum dulcem natum
 Moriendo desolatum.
-
 Dbum emisit spiritum
-
 Fia, Mater, fons amoris,
 Me sentire vim doloris
-
 Fac, ut tecum luceam
-
 F'ae ut ardeat cor meum
 In amando Christum Deum.
-
 UÜt sibi complaceam
-
 Sancta Mater, istud acas,
 Gruelfix1 fige plagas
-
 Cordi meo valide.
-
 Tui nati vulnerati,
 Tam dignati pro me pati,
-
 Pœnas mecum divide
-
 Fac me secum pie flere,
 Crucifixo condolere,
-
 Donec ego vixero
-
 Juxta Crucem tecum stare,
 Kt me tibi sociare
-
 In planetu desidero.
-
 Virgo virginum præclara,
 Mihi jam non sis amara,
-
 Fac me tecum plangere.
-
 Fac ut portem Christi mortem,
 Passionis fac consortem,
-
 Et plagas recolere.
-
 lac me plagis vulnerari,
 Cruci hac inebnari,
 Et eruore Filii.
-
 Flammis ne urar succensus,
 Per te, Virgo, sim defensus
 In die judicii.
-
 Fac me cruce costodiri
 Morte Christi præmuniri
 Conferevi gratia.
-
 Quando corpus morietur.
 Fac ut animæ donetur
-
 Paradisi gloria.
-
 G
-
 ——
-
 Debout au pied de la croix à laquelle son fils était
 suspendu, la Mère des douleurs pleurait
-
 son âme en proie aux gémissements et à la désol:
-
 ton fut alors transpercée d’un glaive
-
 Oh! qu’elle fut triste et afflixée. cette Mèr«
 d'un fils unique
-
 Elle gémissait, et soupirait, la tendre Mère, à la vue
-
 des angoisses de son Aueguste Fils
-
 Qui pourrait retenir ses larmes en voyant la Mère du
-
 Christ en proie à cet excès de douleur?
-
 )
 Qui pourrait contempler sans une tristesse profond«
 cette Mère du Sauveur souffrant avec son Fils?
@@ -398,143 +270,88 @@ accorder à mon âme la gloire du Paradis.
 }
 |
 Î
-W]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000450_003.tif"/>
-<page><![CDATA[Te Deum laudamus, te Dominum confité1
-
- 
-
+W
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000450_003.tif'/>
+        <page>
+          <![CDATA[Te Deum laudamus, te Dominum confité1
 TE DE
-
 ul
-
 Te ætérnum Patrem omnis terra veneratui
-
 Tibi omnes Angeli,
-
 Tibi Cherubim et Seraphim incessabili vo
-
 Dan(
-
 ‘tus, Sanctus,
-
 panctus,
-
 tibi Cœli, et universa
-
 Dominus Deus Sa
-
 Pleni sunt cœli et terra majestat
-
 Te cloriosus \[…xlu»l…y||… chorus
-
 Te Prophetarum laudabilis nume
-
 Te Martvrum candidatus laudat «
-
 le per orbem terrarum sancta co1
-
 Patrem, immensa
-
 INajestatis
-
 Venerandum tuum verum et ur
-
 Çu !
-
 pu
 \
-
 Pu,
-
 TTN
-
 Sanctum quoque Paraclitum S
 ex gloriæ, Christe
-
 u Patris sempiternus es 1 l
 ad liberandum susceptu
 1@INIS Uterum
 devicto mortis aculeo l
 elorum
 1d déxteram De Ï
-
 créderis esse venturu
-
 rgo quæsumus, tuis famu
 nguine redemisti
 lld |l“-'H'M \‘l‘\"'\‘ I‘H
-
 pal
-
 Mise
-
 ngulos d
-
 audamu
-
 euli
-
 vum fac populum tuum
-
 uU
-
 Dor
-
 uu
-
 nedicimus t
-
 nomen tuun
-
 are, Domine
-
 lere nost
-
 die isto
-
 Domin«
-
 J111
-
 l’iat misericordia .tua. Domin
-
 In t
-
 l'avVImu
-
 Domine
-
 1}
-
 te
-
 1E PEc
 erer(
-
 conlu
-
 JUs
-
 da
-
 odum
-
 DE TINEL
-
 () Dieu. nous vous louons IS VOUS cConfessons le Sou
-
 A V pitic C Tnou Sergneur. ave pitie de nou
-
 Que votre miséricorde e répande ur nou Wivant
 l'espérance que nous avons mise en vou
-
 C'est en vou seigneur, que Jai espér ( seral pa
-
-l'éternite]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000450_004.tif"/>
-<page><![CDATA[t e O A E]]></page>       
-        </p>
+l'éternite
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000450_004.tif'/>
+        <page><![CDATA[t e O A E
+]]></page>
+      </p>
     </body>
   </text>
 </TEI>

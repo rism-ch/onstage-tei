@@ -1,244 +1,161 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par le Corps de musique de Landwehr<date when="07/12/1924"/></title>
-<series>1924-1925</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par le Corps de musique de Landwehr
+            <date when='07/12/1924'/>
+          </title>
+          <series>1924-1925</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F001925</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Hoogstoël, L. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19241207"/>
-<title>Concert donné par le Corps de musique de Landwehr</title>
-<placeName key="Victoria Hall"/>
-<name key="1924-1925" type="series"/>
-<name key="Schubert, Franz" ref="https://muscat.rism.info/admin/people/111603" type="person" role="cmp">Schubert, Franz</name>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Massenet, Jules" ref="https://muscat.rism.info/admin/people/84264" type="person" role="cmp">Massenet, Jules</name>
-<name key="Grieg, Edvard" ref="https://muscat.rism.info/admin/people/84066" type="person" role="cmp">Grieg, Edvard</name>
-<name key="Schumann, Robert" ref="https://muscat.rism.info/admin/people/131206" type="person" role="cmp">Schumann, Robert</name>
-<name key="Popper, David" ref="https://muscat.rism.info/admin/people/27091" type="person" role="cmp">Popper, David</name>
-<name key="Gounod, Charles-François" ref="https://muscat.rism.info/admin/people/80479" type="person" role="cmp">Gounod, Charles-François</name>
-<name key="Saint-Saëns, Camille" ref="https://muscat.rism.info/admin/people/76734" type="person" role="cmp">Saint-Saëns, Camille</name>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Hoogstoël, Léon (dir.)"  type="person" role="int">Hoogstoël, Léon (dir.)</name>
-<name key="Corps de musique de Landwehr"  type="person" role="int">Corps de musique de Landwehr</name>
-<name key="Altyser, David"  type="person" role="int">Altyser, David</name>
-<name key="Gobalet, L. (Mme)"  type="person" role="int">Gobalet, L. (Mme)</name>
-<name key="Altyser, A."  type="person" role="int">Altyser, A.</name>
-<name key="Filliou, Roger"  type="person" role="int">Filliou, Roger</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001925_001.tif"/>
-<page><![CDATA[f
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19241207'/>
+        <title>Concert donné par le Corps de musique de Landwehr</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1924-1925' type='series'/>
+        <name key='Schubert, Franz' ref='https://muscat.rism.info/admin/people/111603' type='person' role='cmp'>Schubert, Franz</name>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Massenet, Jules' ref='https://muscat.rism.info/admin/people/84264' type='person' role='cmp'>Massenet, Jules</name>
+        <name key='Grieg, Edvard' ref='https://muscat.rism.info/admin/people/84066' type='person' role='cmp'>Grieg, Edvard</name>
+        <name key='Schumann, Robert' ref='https://muscat.rism.info/admin/people/131206' type='person' role='cmp'>Schumann, Robert</name>
+        <name key='Popper, David' ref='https://muscat.rism.info/admin/people/27091' type='person' role='cmp'>Popper, David</name>
+        <name key='Gounod, Charles-François' ref='https://muscat.rism.info/admin/people/80479' type='person' role='cmp'>Gounod, Charles-François</name>
+        <name key='Saint-Saëns, Camille' ref='https://muscat.rism.info/admin/people/76734' type='person' role='cmp'>Saint-Saëns, Camille</name>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Hoogstoël, Léon' type='person' role='int'>Hoogstoël, Léon</name>
+        <name key='Corps de musique de Landwehr' type='person' role='int'>Corps de musique de Landwehr</name>
+        <name key='Altyser, David' type='person' role='int'>Altyser, David</name>
+        <name key='Gobalet, L. (Mme)' type='person' role='int'>Gobalet, L. (Mme)</name>
+        <name key='Altyser, A.' type='person' role='int'>Altyser, A.</name>
+        <name key='Filliou, Roger' type='person' role='int'>Filliou, Roger</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001925_001.tif'/>
+        <page>
+          <![CDATA[f
 N
 E |
-
 |
-
 i
 R |
 + ‘Ë;
-
 E
-
- 
-
 An
 = /\il
-
- 
-
- 
-
 —
-
 V ictoria Hall Dinimens 7 Décembre 19241
-
 Portes à 14 heures Concert à 14 h. 30
-
 CONCERT
-
 DONNE PAR LE
-
 COI‘PS (]€ MUSi(1U€ (lC LﬂllClW€l‘ll‘
-
 (HARMONIE MILITAIRE)
-
 sous la direction de
-
 M. LÉON HOOGSTOEL
-
 1%' Prix du Conservatoire de Paris. Professeur au Conservatoire
-
 &
-
 x
 @
 <
-
 .\l'\ It‘ concours tl('
-
 M. D3vid Alt_yzer Mmc L Gol)z1lct M A Altyzer
-
 Violoncelliste Cantatrice Pianiste
-
- 
-
- 
-
 &l
-
- 
-
- 
-
- 
-
 ÉNORME BAISSE
-
 des prix de mes
-
 CHAUSSURES
-
 Bien meilleur marché qu’en zône
-
 MESSIEURS & MESDAMES
 Venez profiter de cette occasion
-
 Bottines pour messieurs, art. récl. pointue 23.80 Richelieu pour dames depuis 19.80
 Bottines pour messieurs, 15.80, 19.80 23.80 Richelieu de luxe pour dames, ext. pointue 20.80
 Richelieu pour messieurs, form. point. dep. 2250 Souliers pour dames, 1 barrette vernis dep. 21.50
-
 Grand choix de Bottines feutrées, semelle feutre et cuir, pour Dames, Messieurs, fillettes et garçonsv
 Grand assortiment de sabots, 150 paires de pantoufles à 3.80 au lieu de 5.50
-
-\J. BURGENEH 24, Rue du Cendrier]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001925_002.tif"/>
-<page><![CDATA[MODERN - HOUSE
-
+\J. BURGENEH 24, Rue du Cendrier
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001925_002.tif'/>
+        <page>
+          <![CDATA[MODERN - HOUSE
 25. Place Kléberg. | Tél.: M.-Blanc 27.26
-
 , Daehler
-
 Maison spéciale d'articles
 Chemises en tous genres, chaussettes,
 bretelles, jaretelles. pochettes, cache-cols, gants,
 sous-vêtements. Grand choix de cravates, etc.
-
 PRIX MODÉRÉS
-
 pour Messieurs,
-
 cols,
-
 CAFÉ - BRASSE
 ;
 19, CORRATERIE Ï!
-
 Consommations de 17 Ü
 Mets de Brasserie
 Max ZIMMERMAN ï_\
-
- 
-
- 
-
 Chapellerie Michel
-
 30, Coutance, 30
-
 GRAND CHOX DE
-
 Chapeaux — Casquettes
-
 AU PLUS BAS PRIX
-
- 
-
- 
-
 MARCHAND - TAILLEUR
 D 7€0d Rebsamen ©
-
 SPÉCIALITÉ
-
 D'UNIFORMES BT CASQUETTES
-
 en tous genres pour
-
 MILITAIRES, HOTELS, SOCIÉTÉS
-
 él. Mt. Blanc 37-93
 GENÈVE
-
 Vêtements sur Mesure T
-
 Rue Lévrier, 11
-
- 
-
- 
-
- 
-
 BUVEZ un
-
 MER PICON
-
 EXIGEZ-LE
-
-  
-
- 
-
- 
-
- 
-
 . — PROG |
-
 HULESEOELELEOODOKOLVOVD)VX00OWVO0OUOOMOMVE NNN
-
 ©
-
-  
-
 DRE.ÀIÈRE PARTIE
-
- 
-
 P Marchemitare N Schubert
 DGrandfairsde hideroe Beethoven
 Mme L. Gobalel
@@ -253,204 +170,116 @@ clarinelle \|r|u_ M. H<w_;l'
 a) Le Malin : b) La Mort d’Ase : ‘ _}%
 c) La Danse d’Anilra : d) dans le #
 Hall du Roi dé la Monltagne ?:
-
- 
- 
-  
-  
- 
- 
-
 |
 Ealcaib e
-
 Prix des places : Loges.et cordons de première g8
 première galerie, fr. 1.10. — Deuxièmes gaË_
-
 Les enfants au-dessous dét
-
 MM. les Membres non-exécutants ont droit à d£
 Les coupons N°* 9 et 10 donnent drt
-
 Les personnes s'inscrivant COII‘.I]‘IÎ— Ë
-
 auront droit à deuxh
-
 MM. les nouveaux amis visitants ainsi qu@l;
-
 ef Instruments peuvent s’inscrire au local, B
 les Mercredis et Vendredis de 20 h. 50 à 2%
-
- 
-
 1, Rue de Fribourg
-
 Où l’on trouve un choix immense dlh.
-Disques : Parlophone-Homokord et b]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001925_003.tif"/>
-<page><![CDATA[1E DU MUSÉE
-
+Disques : Parlophone-Homokord et b
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001925_003.tif'/>
+        <page>
+          <![CDATA[1E DU MUSÉE
 isvV E 19, CORRATERIE
 éx © “Prix modéré,
-
 Mets de Brasserie
-
- 
-
 Miveau propriéftaire,
-
 S ociété Générale d'Affichage
-
 iège Social : GENÈVE - Rue du Stand. 60
 Affichage sous toutes les formes et dans tous les pays
-
 Suceursales el Agence dans toules les principales
 villes de la Suisse el du sud de la France, Corres-
 |nrlnÎ;«|1\x sérieux dans lous les pays.
-
 Affichage à Genève sur 120 colonnes et 410 cadres
-
 réservés.- Publicité dans les tramways el les chemins
-
 !
-
 de fer de montagne.- Peintures sur !'es tourelles des
-
 transformaleurs électriques.- Distribution.- Peintures
 murales.- Chars-réclame, ele.
-
 Etudes el devis gratis et franco sur demande
-
- 
-
 UMME ——
-
 H UEELEOENEOLIOHEOELAKQANOEEOKHHKLOEOOEOONEODONOLANONNE
-
 \ @
-
 DEUXIÈME PARTIE
-
 [ Rosamunde (suite d'Orchestre)... .… Schubert
 D Réevene 110 4 Schumann
-
 M Savoite s15581 Popper
 Violoncelle M. David _\II}A:‘!‘
 Au piano: M. A. Allyser
-
 HPrélude du Déluge............... Saint-Saëns
-
 { Philémon et Baucis (grand air)... .… Gounod
 Mme Gobalel
-
 # Tannhauser (ouverture)...........…. Wagner
-
 dsr. 2.10. — Parterres, 2"°S et 3°s rangs de
-
 ÿ fr. 0.60 (droits des pauvres compris),
 fêns payent demi-place.
 fatrées sur présentation de leur carte de 1024
 acun à une entrée supplémentaire.
-
 ’fîhî . l'année 1925 (prix 5 francs)
 fées à ce concert,
-
 «@mouveaux élèves des Cours de Solfège
 int Electoral, rue de la.Plaine, 4, sous-sol
 _
-
 Un bon Fleuriste
 C’est MORHARDT Fils
-
 e rrs
-
 Au Palmier
-
 28, Rue du Cendrier
-
 (Les plus bas prix )
-
- 
-
 Sage-Femme diplômée
-
 Geender=Hochstrasser
 Médecin attaché à l'Etablissement
 9, RUE DU MONT-BELANCE
 Mant-pmehfdentea S pacla éh
-
 Confort Moderne
-
- 
-
 M('JÏSOIÏ V(”IÏ(/ÛI1Ï /(‘ lH(‘I/”
-
 /CUI‘ IÏI(']/”('/Ié (](’ /â [)/fï('(‘
-
 AF
 / Fêt
 \ retes
 A ns srrr e PE ETE
 \ Pour les longues soirées d’hiver vous serez
 bien inspiré en faisant une visite .- … zx
-
 ; Artistiques
-
 | Au 1c". étage
 (isques et gramophones.
 …ﬂlr_nophone “ La Voix de son Maître ”
-
 #
-
- 
-
- 
-
 Pour Etrennes
-
 PI_ANOS
-
 Gl‘âlïî()ph0ﬂ€S
-
 DISQUES
-
 Sautier et Jaeger 12, Fusterie
-
- 
-
- 
-
- 
-
 MU ETE D R TO S T
-
- 
-
- 
-
- 
-
 ä
 3
-$]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001925_004.tif"/>
-<page><![CDATA[C1 8 MFHI, :9, Quai des Bergiil
-
+$
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001925_004.tif'/>
+        <page>
+          <![CDATA[C1 8 MFHI, :9, Quai des Bergiil
 LE PLUS GRAND CHOIX D'ARTICLES POUR CADEAUX
 ‘ SOCIÉTÉS, etc. L
 SPÉCIALITÉ DE CACHE-POTS EN LAITON
-
- 
-
 PI‘1X sans concurrence
-
 Le service complet Fr. 135.— Plat en étain, fait à la main
-
 pour & personnes, méfal argenté d'après croquis ou photo
-
 Le service métal argenté Bol à sucre, métal argenté
-M epuis Er. 10.— Fr. 8.—]]></page>       
-        </p>
+M epuis Er. 10.— Fr. 8.—
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

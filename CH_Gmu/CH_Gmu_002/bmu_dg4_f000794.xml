@@ -1,88 +1,94 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Grand concert donné par Louis Rey<date when="07/03/0018"/></title>
-<series>[18--?]</series>
-<placeName>Casino de Saint-Pierre</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Grand concert donné par Louis Rey
+            <date when='07/03/1899'/>
+          </title>
+          <series>[18--?]</series>
+          <placeName>Genève, Casino de Saint-Pierre</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU DG4 F000794</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Date incertaine</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="00180307"/>
-<title>Grand concert donné par Louis Rey</title>
-<placeName key="Casino de Saint-Pierre"/>
-<name key="[18--?]" type="series"/>
-<name key="Rubinstein-Vieuxtemps, Henri" ref="https://muscat.rism.info/admin/people/142566" type="person" role="cmp">Rubinstein-Vieuxtemps, Henri</name>
-<name key="Halévy, Fromental" ref="https://muscat.rism.info/admin/people/40914" type="person" role="cmp">Halévy, Fromental</name>
-<name key="Vieuxtemps, Henri" ref="https://muscat.rism.info/admin/people/142566" type="person" role="cmp">Vieuxtemps, Henri</name>
-<name key="Wieniawski, Henryk" ref="https://muscat.rism.info/admin/people/137176" type="person" role="cmp">Wieniawski, Henryk</name>
-<name key="Ketten, Léopold"  type="person" role="cmp">Ketten, Léopold</name>
-<name key="Nicolle, Louis"  type="person" role="cmp">Nicolle, Louis</name>
-<name key="Bach, Johann Sebastian" ref="https://muscat.rism.info/admin/people/2539" type="person" role="cmp">Bach, Johann Sebastian</name>
-<name key="Vidor"  type="person" role="cmp">Vidor</name>
-<name key="Grisar"  type="person" role="cmp">Grisar</name>
-<name key="Hérold"  type="person" role="cmp">Hérold</name>
-<name key="Léonard"  type="person" role="cmp">Léonard</name>
-<name key="Rey, Louis"  type="person" role="int">Rey, Louis</name>
-<name key="Arnaud, Félicie"  type="person" role="int">Arnaud, Félicie</name>
-<name key="Wittmer, Elisa"  type="person" role="int">Wittmer, Elisa</name>
-<name key="Séran"  type="person" role="int">Séran</name>
-<name key="Dauphin"  type="person" role="int">Dauphin</name>
-<name key="Senger, Franz Ludwig Hugo von" ref="https://muscat.rism.info/admin/people/30015297" type="person" role="int">Senger, Franz Ludwig Hugo von</name>
-<name key="Huguenin, Ch."  type="person" role="int">Huguenin, Ch.</name>
-<name key="Boyer"  type="person" role="int">Boyer</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f000794_001.tif"/>
-<page><![CDATA[h. du soir
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18990307'/>
+        <title>Grand concert donné par Louis Rey</title>
+        <placeName key='Genève, Casino de Saint-Pierre'/>
+        <name key='[18--?]' type='series'/>
+        <name key='Rubinstein-Vieuxtemps, Henri' ref='https://muscat.rism.info/admin/people/142566' type='person' role='cmp'>Rubinstein-Vieuxtemps, Henri</name>
+        <name key='Halévy, Fromental' ref='https://muscat.rism.info/admin/people/40914' type='person' role='cmp'>Halévy, Fromental</name>
+        <name key='Vieuxtemps, Henri' ref='https://muscat.rism.info/admin/people/142566' type='person' role='cmp'>Vieuxtemps, Henri</name>
+        <name key='Wieniawski, Henryk' ref='https://muscat.rism.info/admin/people/137176' type='person' role='cmp'>Wieniawski, Henryk</name>
+        <name key='Ketten, Léopold' type='person' role='cmp'>Ketten, Léopold</name>
+        <name key='Nicolle, Louis' type='person' role='cmp'>Nicolle, Louis</name>
+        <name key='Bach, Johann Sebastian' ref='https://muscat.rism.info/admin/people/2539' type='person' role='cmp'>Bach, Johann Sebastian</name>
+        <name key='Vidor' type='person' role='cmp'>Vidor</name>
+        <name key='Grisar' type='person' role='cmp'>Grisar</name>
+        <name key='Hérold' type='person' role='cmp'>Hérold</name>
+        <name key='Léonard' type='person' role='cmp'>Léonard</name>
+        <name key='Rey, Louis' type='person' role='int'>Rey, Louis</name>
+        <name key='Arnaud, Félicie' type='person' role='int'>Arnaud, Félicie</name>
+        <name key='Wittmer, Elisa' type='person' role='int'>Wittmer, Elisa</name>
+        <name key='Séran' type='person' role='int'>Séran</name>
+        <name key='Dauphin' type='person' role='int'>Dauphin</name>
+        <name key='Senger, Franz Ludwig Hugo von' ref='https://muscat.rism.info/admin/people/30015297' type='person' role='int'>Senger, Franz Ludwig Hugo von</name>
+        <name key='Huguenin, Ch.' type='person' role='int'>Huguenin, Ch.</name>
+        <name key='Boyer' type='person' role='int'>Boyer</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f000794_001.tif'/>
+        <page>
+          <![CDATA[h. du soir
 DONNÉ PAR
-
 1 REY
-
 Premier Violon-Solo de l'Orchestre de la Ville et du Grand Théâtre, Professeur à l’Académie de Musique
-
 AVEC LE GRACIEUX CONCOURS DE
-
 M'e FÉLICIE ARNAUD, Première Chanteuse du Grand Théâtre
 M ELISA WITTMER, Pianiste, Professeur à l’Académie de Musique
 M. SÉRAN, Premier Ténor du Grand Théâtre
 M. DAUPHIN, Première Basse Chantante du Grand Théâtre
 M. HUGO DE SENGER et M. Ch. HUGUENIN, Violoniste, élève de M. L. REY
-
 <> PROGRAMME —#>
-
 . Grand duo sur le Prophète RUBEINSTEIN-VIEUXTEMPS
 M"e E, WITTMER et M, LOUIS REY.
 . Air de la Fée ay«%äes,« \ HArLÉvy.
@@ -103,24 +109,19 @@ GP e Précanx-Clercs .......!.........4....02 00000 .  Héroup.
 M'": ARNAUD et M. LOUIS REY. !
 9. Duo pour deux violons LÉONARD.
 MM. LOUIS REY et CHARLES HUGUENIN,
-
 —>s
-
 PRIX D'ENTRÉE : Places__ﬁéservM fr_a_ùcs4 -- Premières, 2 francs
-
 On trouve des billets chez tous les marchands de musique, chez MM. Bron & BrrGUER, Corraterie,
 et chez le Concierge du Casino de Saint-Pierre.
-
 2398000309 I0E
-
 Imp. de la Tribune de Genève.
-
 A
 ps 0 4
 L J2 1
-
-v S]]></page>       
-        </p>
+v S
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

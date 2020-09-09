@@ -1,234 +1,176 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par l'Harmonie nautique<date when="20/02/1927"/></title>
-<series>1926-1927</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par l'Harmonie nautique
+            <date when='20/02/1927'/>
+          </title>
+          <series>1926-1927</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002646</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Gabelles, G. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19270220"/>
-<title>Concert donné par l'Harmonie nautique</title>
-<placeName key="Victoria Hall"/>
-<name key="1926-1927" type="series"/>
-<name key="Schubert, Franz" ref="https://muscat.rism.info/admin/people/111603" type="person" role="cmp">Schubert, Franz</name>
-<name key="Vitali"  type="person" role="cmp">Vitali</name>
-<name key="Jaques-Dalcroze, Emile" ref="https://muscat.rism.info/admin/people/109238" type="person" role="cmp">Jaques-Dalcroze, Emile</name>
-<name key="Schmitt, Florent" ref="https://muscat.rism.info/admin/people/41010094" type="person" role="cmp">Schmitt, Florent</name>
-<name key="Honegger, Arthur" ref="https://muscat.rism.info/admin/people/464584" type="person" role="cmp">Honegger, Arthur</name>
-<name key="Chausson, Ernest" ref="https://muscat.rism.info/admin/people/30087317" type="person" role="cmp">Chausson, Ernest</name>
-<name key="Gretchaninow"  type="person" role="cmp">Gretchaninow</name>
-<name key="Musorgskij, Modest Petrovič" ref="https://muscat.rism.info/admin/people/30019183" type="person" role="cmp">Musorgskij, Modest Petrovič</name>
-<name key="Čajkovskij, Pëtr Il'ič" ref="https://muscat.rism.info/admin/people/144048" type="person" role="cmp">Čajkovskij, Pëtr Il'ič</name>
-<name key="Gabelles, Gustave  (dir.)" ref="https://muscat.rism.info/admin/people/30073762" type="person" role="int">Gabelles, Gustave  (dir.)</name>
-<name key="Harmonie Nautique"  type="person" role="int">Harmonie Nautique</name>
-<name key="Magnin, Berthe"  type="person" role="int">Magnin, Berthe</name>
-<name key="Sottiaux, Fernand"  type="person" role="int">Sottiaux, Fernand</name>
-<name key="Magalli, Julien"  type="person" role="int">Magalli, Julien</name>
-<name key="Wend, Otto"  type="person" role="int">Wend, Otto</name>
-<name key="Deprez, Georges"  type="person" role="int">Deprez, Georges</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002646_001.tif"/>
-<page><![CDATA[w= VIETORI | A-HALL_ =—
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19270220'/>
+        <title>Concert donné par l'Harmonie nautique</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1926-1927' type='series'/>
+        <name key='Schubert, Franz' ref='https://muscat.rism.info/admin/people/111603' type='person' role='cmp'>Schubert, Franz</name>
+        <name key='Vitali' type='person' role='cmp'>Vitali</name>
+        <name key='Jaques-Dalcroze, Emile' ref='https://muscat.rism.info/admin/people/109238' type='person' role='cmp'>Jaques-Dalcroze, Emile</name>
+        <name key='Schmitt, Florent' ref='https://muscat.rism.info/admin/people/41010094' type='person' role='cmp'>Schmitt, Florent</name>
+        <name key='Honegger, Arthur' ref='https://muscat.rism.info/admin/people/464584' type='person' role='cmp'>Honegger, Arthur</name>
+        <name key='Chausson, Ernest' ref='https://muscat.rism.info/admin/people/30087317' type='person' role='cmp'>Chausson, Ernest</name>
+        <name key='Gretchaninow' type='person' role='cmp'>Gretchaninow</name>
+        <name key='Musorgskij, Modest Petrovič' ref='https://muscat.rism.info/admin/people/30019183' type='person' role='cmp'>Musorgskij, Modest Petrovič</name>
+        <name key='Čajkovskij, Pëtr Il&apos;ič' ref='https://muscat.rism.info/admin/people/144048' type='person' role='cmp'>Čajkovskij, Pëtr Il'ič</name>
+        <name key='Gabelles, Gustave' ref='https://muscat.rism.info/admin/people/30073762' type='person' role='int'>Gabelles, Gustave</name>
+        <name key='Harmonie Nautique' type='person' role='int'>Harmonie Nautique</name>
+        <name key='Magnin, Berthe' type='person' role='int'>Magnin, Berthe</name>
+        <name key='Sottiaux, Fernand' type='person' role='int'>Sottiaux, Fernand</name>
+        <name key='Magalli, Julien' type='person' role='int'>Magalli, Julien</name>
+        <name key='Wend, Otto' type='person' role='int'>Wend, Otto</name>
+        <name key='Deprez, Georges' type='person' role='int'>Deprez, Georges</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002646_001.tif'/>
+        <page>
+          <![CDATA[w= VIETORI | A-HALL_ =—
 Dimanche 20 Février 1927
-
 Ouverture on
-
 des portes à (Œ:@ NŒ ”E: R'l" = commencera à
 14 heures N
-
- 
-
- 
-
- 
-
- 
-
- 
-
 donné par
-
 L’HARMONIE NAUTIQUE
-
 (HARMONIE MUNICIPALE DE LA VILLE DE GENÈVE)
 Directeur: M. Gustave GABELLES
-
 avec le bienveillant concours de
-
 Meirs BrerTur MAGNIN M. FERNAND SOTTIAUX
-
 Mezzo-soprano Violoniste
 Elève de M, Otto WEND
-
 M. JuLreN MAGALLI
-
 Premier baryton du Théâtre dos Arts à Rouen
 —2>
-
 1 PIROGIRAM MIF
 Première Partie
-
 1. OUVERTURE EN STYLE ITALIEN
 alaton . eN . Schubert
-
 2 CHACONNE .. . . t 2U VMitalr
-
 M. Fernand SOTTIAUX
-
 3. LA CHANSON DES REGRETS
 Mile B. MAGNIN
-
 4. DIONYSIAQUES
-
 Jaques-Dal/croze
-
 Florent Schmitt
 Deuxième Partie
 9 OREDETE ... ... .. A Honegger
-
 eN N E Chausson
 M. F. SOTTIAUX
-
 12 LES FORÇATS . « .… - . . Gretchaninow
 b) BORIS GODOUNOW (Chanson de la
 M . . - - Moussorgshi
 M. Jullen MAGALLI
 RD e Tschaikowsky
-
 Au plano: MM. Otto WEND et Georges DEPREZ
-
 Prix des places: Fr. 2.10, 1.10 et —.60 (droit des pauvres compris)
-
 LOCATION et BILLETS
 en vente à la MUTUELLE MUSICALE, Corraterie, 18, Téléphone : Stand 18.53
-
 MM. les membres passifs ont droit d'entrée sur présentalion du coupon No 4 aux places du rez-de-chaussée et de première
 galerie, à l’excention du premier rang et des loges, auxquels ils ont droitmoyennant un supplément de Fr. !.- (en locatlon).
-
 Dimanche 20 mars: FESTIVAL BEETHOVEN
 CIGARETTES
-
 LAURENS
-
 23 GRANDS PRIX ° HORS CONCOURS
-
 lmp CHAÇUIS & BaumeisTer, Rue du Stand, 47._4>;ÈÎ{:—vÈ ;
-
 e
-
- 
-
- 
-
 |
 |
-|]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002646_002.tif"/>
-<page><![CDATA[Hew DEVRED-VÉTEMENTS
-
+|
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002646_002.tif'/>
+        <page>
+          <![CDATA[Hew DEVRED-VÉTEMENTS
 Place St-Gervas : GENEÈVE — Rue de Coutance
-
 La plus grande spécialité pour hommes, jeunes gens et enfants
-
 VISITEZ COMPAREZ
 SES MAGASINS 0 SES MARCHANDISES
 à qualités égales 0 à façons égales
-
 MEILLEUR MARCHÉ QUE PARTOUT AILLEURS
-
- 
-
 Franz SCHUBERT
-
 Le grand maître du lied, né à Lichtenthal en 1797, est mort à Vienne
 en 1828.
-
 Parmi ses travaux de jeunesse on peut placer l’ouverture en style ita-
 lien, que nous exécutons ce jour en première audition à Genève.
-
 DIONYSIAQUES (Florent Schmitt)
-
 Dionysiaques, c’est l’ivresse, la joie presque tragique de tout un peuple
 dansant et titubant. Une première partie, lente, en même temps que
 quelques thèmes incidentels, certains à dessein antithétiques à la danse
 elle-même, résume les thèmes principaux — qui s’épanouiront dans le
 mouvement vif.
-
 Vers la fin de la danse, l’introduction reparaîtra un instant pour ame-
 ner ensuite une strette de plus en plus précipitée où l’orgie atteindra son
 paroxysme.
-
 Cette œuvre a été écrite — pour harmonie — au commencement de
 l’année 1914.
-
- 
-
- 
-
- 
-
- 
-
 Œourgaoi va=ton au
-
 XX" SIÈCLE ?
-
 Pour sa bière de “ Munich double maltée”,
 sa Spéciale-blonde (Avenir), sa véritable
 “ Pilsen-Urquell”’. Ses vins de Jussy 1° choix
 et Villeneuve extra. Ses apéritifs de marque.
 Son excellente cuisine. Sa magnifique terrasse
-
- 
-
- 
-
 ——
-
-1]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002646_003.tif"/>
-<page><![CDATA[Imp. CHAPUIS & BArmeisrer, Rue du Stand, 17, Genève
-
+1
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002646_003.tif'/>
+        <page>
+          <![CDATA[Imp. CHAPUIS & BArmeisrer, Rue du Stand, 17, Genève
 E 2016
 =}
 —— VICTOR I IA-HALL ——
 Dimanche 20 Février 1927
-
 Ouverture On
 . CEONCERT 52
 Ë donné par
@@ -264,43 +206,26 @@ en vente à la MUTUELLE MUSICALE, Corraterle, 18, Téléphone : Stand 18.53
 MM les membres passifs ont droit d'entrée sur présentation du coupon.No 4 aux places du rez-ve-chaussée et de première
 galerie, à l'exception du premier rang et des loges, auxquels ls onf droitmoyennant un supplément de Pr. 1.- (en location).
 Dimanche 20 mars: FESTIVAL BEETHOVEN
-[e) [&)]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002646_004.tif"/>
-<page><![CDATA[]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002646_005.tif"/>
-<page><![CDATA[BANQUE
+[e) [&)
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002646_004.tif'/>
+        <page><![CDATA[]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002646_005.tif'/>
+        <page>
+          <![CDATA[BANQUE
 POPULAIRE SUISSE
-
 PLACE SAINT-GERVAIS Fondée en 1869 1, QUAI DES BERGUES
-
 AGENCES : 18, COURS DE RIVE
 2, ROUTE DES ACACIAS
-
 GEN EÈVE
-
- 
-
 Capital et réserves : fr. 120.000.00_0
-
- 
-
 Dispose du réseau de succursales
 le plus étendu en Suisse
-
 Correspondants dans tous les cen- Organisée pour toutes opératiopg de
 tres importants du monde entier banque aux meilleures conditions
-
- 
-
- 
-
- 
-
- 
-
 Florent SCHMITT
 Ne à Blämont (Meurthe-et-Moselle), le 28 septembre 1870
-
 Florent Schmitt est originaire de ce pays lorrain qui, dit M. Jean
 Poueigh, « met un trait d’union entre la clarté francaise et la profondeur
 germanique. Ses regards d’enfant s’accrochèrent à des sommets : la cathé-
@@ -316,47 +241,28 @@ toujours logique, très fouillé et traité avec maîtrise. Rappelant Chabrier
 par sa truculence, utilisant à sa façon les trouvailles harmoniques de
 Debussy, et, dans ses dernières œuvres, de Strawinsky, il reste pius
 qu’aucun autre Français fidèle à la tradition classico-romantique, à Wagner,
-
- 
-
 Au dessert un
 Cointreau Liqueur
 s'impose
-
 Cointreau Veuve et Fils, Angers
-
 Ch. BRUCHON, Agent générai pour la Suisse - GENÈVE
-
-2 -]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002646_006.tif"/>
-<page><![CDATA[SOCIÉTÉ DE
-
+2 -
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002646_006.tif'/>
+        <page>
+          <![CDATA[SOCIÉTÉ DE
 BANQUE SUISSE
-
 FONDÉE EN 1872 — _—
 Capital-actions et Réserves : 153 millions
-
 6-10, Corraterie - GENÈVE - Corraterie, 6-10
-
 CORNAVIN l; EAUX-VIVES
 10, Place de Cornavin " 32, Place des Eaux-Vives
 PLAINPALAIS H CAROUGE
-
 36, Rue de Carouge 11, Rue du Marché
-
- 
-
 TOUTES OPÉRATIONS DE BANQUE AUX MEILLEURES CONDITIONS
-
- 
-
- 
-
- 
-
 voire à Strauss. Détail assez significatif: il est, parmi les jeunes Français,
 celui auquel semble s’attacher le plus notre Honegger.
-
 Voué à la musique dès son jeune âge, Florent Schmitt a fait ses pre-
 mières études à Nancy (avec Henri Hess et Gustave Sandré), puis à Paris,
 avec Dubois, Lavignac, Massenet et Fauré. Grand prix de Rome en 1900,
@@ -366,415 +272,172 @@ vatoire de Lyon, il est une des personnalités les plus marquantes de la
 musique française, soit par son activité générale dans tous les domaines
 de son art, soit par son œuvre nombreuse, et dont il faut citer en tout cas
 le Psaume XLVI, la Tragédie de Salomé et le Quintette.
-
 Pierre TSCHAIKOWSKY
-
 Né à Wotkinsk en 1846, décédé à Pétrograd en 1893, l’auteur du
 Capriccio (op. 45), avait écrit, entre autres grandes œuvres, six sympho-
 nies, dont la dernière, la Symphonie pathétique, ne fut achevée que peu de
 temps avant sa mort.
-
- 
-
- 
-
 Toutes fournitures pour la couture
 la BRODERIE et e TRICOT
-
 BONNETERIE de soie, fil, laine-et coton
-
 ROBES, JUMPERS, BAS, CHAUSSETTES, GANTS, SOUS-VÉTEMENTS
 POUR DAMES ET ENFANTS
-
 Les meilleures qualités aux plus bas prix chez
-
-Charles WEBER, Place Kléberg]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002646_007.tif"/>
-<page><![CDATA[MACHINE A ECRIRE
+Charles WEBER, Place Kléberg
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002646_007.tif'/>
+        <page>
+          <![CDATA[MACHINE A ECRIRE
 AMÉRICAINE
-
 Vente Gchange Location
-
 Œe'paraﬁon de tous sysfèmes
-
 G. Pozzi
-
 Tour de l’lie, 4 Genève
-
 Concessionnaire
-
 des produits origmaux “ yosl"
-
- 
-
 Buvez un
-
 AMER PICON
-
 Exigez-le
-
- 
-
- 
-
- 
-
- 
-
- 
-
 'PERNOÏ
-
 G ENEVE
-
- 
-
- 
-
-     
-  
-   
-    
-  
- 
-
-mx —]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002646_008.tif"/>
-<page><![CDATA[»
-
+mx —
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002646_008.tif'/>
+        <page>
+          <![CDATA[»
 E—————_;—;Ÿ,,f_: rr es
-
 |
 |
-
 |l
 |
 |
 |
-
- 
-
- 
-
- 
-
- 
-
- 
-
 O
-
 Pour voyager agréablement et sans soucis, adressez-vous
-
 PAGENGE
-
 C. BLENK, FERT & C:
-
 1, Rue du Mont-Blanc, 1
-
 Angle Quai des Bergues
-
 Tous ies billets de chemins de fer et de passages
 maritimes aux conditions des tarifs
-
 CHÈQUES DE VOYAGEURS = BANQUE = CHANGE
 VOYAGES A FORFAIT
-
- 
-
 HARMONIE NAUTIQUE
-
 MEMBRES DU COMITÉ :
 MM. G. MARTINET, président ; G. GABELLES, directeur ; J. LICKERT et
-
 E. LEUTÉ, vice-présidents ;  A. PORTIER, secrétavre ; P. MURITH, vice-
-
 secrétaire ; M. GALFRE, trésorier ; F CHAPUIS, vice-trésorier ; E. BURDET,
-
 bibliothécaire ; M. DEPRAZ et J. VIBERT, économes.
 MEMBRES EXÉCUTANTS (19286)
-
 Flûtes : MM. BLuMm - Baup - COULOMB - ZWEIGART - SEIDEL.
-
 Hautbois el cor anglaïs: MM. VEYRAT - ENGEL - GyaI - PAINOT.
-
 Petites clarinettes : MM. SANTANDRÉA - BÉBOUX.
-
 Clarinettes: MM. DéPRAZ - MENNET - PORTIER - CHAPUIS - Roy
 RreuNnaup - MurirH - Pezzortms - Garray - DucRET
 ScHWIZGUÉBEL - LAVILLAT - HÆFLIGER - ZIBACH - KELILER
 NONNEMANN - VANAT - SANFILIPPO - MARTI - VANBIANCHI
 Rorn - GysiN - MÉpA - BuUrpET - BESSON:
-
- 
-
 GRANDE BRASSERIE CENTRALE
-
 CAFÉ-RESTAURANT
 CROIX-D'OR, 2 TÉL. STAND 34.62
 Déjeuners et Dîners -  Choucroûte extra toute l'année
-
 BIÈRES WARTECK de Bâle
 et VINS de première qualité
-
 E, MAYERAT
-
- 
-
- 
-
- 
-
- 
-
- 
-
-           
-  
-  
-   
-   
-     
-    
-   
- 
- 
-    
-   
-   
- 
-  
- 
-
 —0 DE r e
-aun]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002646_009.tif"/>
-<page><![CDATA[=
-
- 
-
- 
-
- 
-
+aun
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002646_009.tif'/>
+        <page>
+          <![CDATA[=
 @ŒÎÈ1HL@HÜÏES FILEURS
-
 Zleuriot
-
 FLEURISTKIE
 GENEVYIE
-
 2616%NÛÉHQ 26
 Célép. SL 18.15 Oélep. SL 32.67
-
 RKue de É%Ïbe,Â5
-
- 
-
 Membres exécutants (su//e)
-
 Clarinettes basses : MM. RAMONDETTI - MOisY.
-
 Bassons : MM. PORTIER - FRANCOUAL H. - FrANncoua. J.
-
 Saxophones : MM. D’IvVERNOIS - GONDRET - PEDRONI - BôscH
 VANAT - MOIEN - CLÉMENT - RoyBIN.
-
 Cornets à pistons : MM. DuPonr - CHAPUIS - SOLIER - DRoz
 VoLToLINI M. - Decroux L. - Scumrep - TrisCONI.
-
 Bugles : MM. Poncion1 - GuyoT - REvoL - LANIER - SIGNORINI.
-
 Trompettes : MM. BURDET - ENGEL - ROSSET - MAIRE.
-
 Cors : MM. RisTor: - CAILLER - PiGueT - Gay - MArTIN R.
 RErcHITZKY - BoccarD J. - BIGNATI.
-
 Trombones : MM. Sinay - ProTTON - MARTIN - MAITRE - RocH.
-
 Barytons, Basses et contre-basses : MM. GREBER - VIBERT
 DEFRANCESCO - BALESTRA - D'OLIVEIRA - CHOUARD - OMARINI
 MOLINATTI - BocCARD - MONTILLARD.
-
- 
-
- 
-
- 
-
 Au Dépôt général du Poisson du Lac Léman
-
 Maison fondée en 1848
-
 LUGRIN & Cie (s.a)
-
 46, Rue du Rhône, 46 - Genève
-
 Adr. télégr.: LUGRIN-GENÈVE - AUCUNE SUCCURSALE - Téléphone: Stand 2100
-
 Volailles de Bresse - Gibiers de touies provenances
 Poissons du Lac
 Marée française - Muitres de Claires de Marennes
 Arrivages directs et journaliers
 Langousies du parc de Camaret
 Comestibles de toutes espèces - Conserves des fres marques
-
 JL |mport.…Cc de la vente lui permet de ne jamais
 constituer de stock et de garantir à sa clientèle la qualité et la fraîcheur de ses marchandises
-
 Expéditions en tous pays
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-m} ps DE SS]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002646_010.tif"/>
-<page><![CDATA[u
-
- 
-
- 
-
- 
-
+m} ps DE SS
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002646_010.tif'/>
+        <page>
+          <![CDATA[u
 TRANSPORTS FUNÈBRES
-
 Ancienne Maison MURITH, DUPARC & FERT Fondée en 1888
-
 A. MURITH s.a.
-
 GENEVE - siège Social : Rue des Chaudronniers, 16
-
 Téléph. Stand 121 Service permanent
-
 Fabrique de, Cercueils Automobiles Funéraires
-
 L’Administration se charge, sans aucun déplacement pour les
 familles, de toutes les démarches et formalités relatives aux
-
 Inhumations — Exhumations — \Incinérations —  Transports
-
 cIS CENTRALDEURE
-
- 
-
- 
-
 Membres exécutants (sui/e)
-
 Contre-basses à cordes : MM. RICHTER - MAYER - RiccIouI.
-
 Batterie : MM. Kurr - DerocHe - L. TRÈMÈGE - Ch. TRÈMÈGE
 DESCOMBES.
-
- 
-
 AVIS. — Les personnes qui désirent devenir « Membres
 passifs » de l’Harmonie Nautique peuvent s’inscrire au Vic-
 toria Hall ou à la Librairie Richard (80, rue du Rhône), et
 auprès des membres de la Société. — La carte de « membre
 passif » donne droit à deux entrées pour chaque concert donné
 par l’Harmonie Nautique.
-
- 
-
 Pour les cours d’élèves, s'adresser à M. G. Gabelles,
 directeur. au Victoria-Hall, de 11 à 12 h. 30. — Télép. St. 53.28.
-
- 
-
- 
-
- 
-
 Rendor - Friederick
-
 o S.A. o
 FABRIQUE A CHÊNE-BOURG
-
- 
-
- 
-
 Lessives - Cristaux de soude
 Encaustiques
 | Cires, Cierges, Bougies de Noël
-
 Gralsses surfines pour usages oulinaires :
 Oleol - Alpina - Nostras - Etoile - Union
-
- 
-
 Savons de ménage : Bougies :
-
 Souris - Lyre - Vénus - Chêne - Alpa | Couronne - Brillant - Diamant - Vénus
-
- 
-
- 
-
- 
-
- 
-
- 
-
-   
-  
-     
-   
-   
-  
-  
- 
- 
-     
-  
-   
-  
-   
-   
-
 d en en en
-
- 
-
-rrrn r]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002646_011.tif"/>
-<page><![CDATA[CAFÉ DU COMMERCE
+rrrn r
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002646_011.tif'/>
+        <page>
+          <![CDATA[CAFÉ DU COMMERCE
 celu AMolaré
-
 Dégustation réputée
-
 cForto Quinto Do Sabor
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Arthur HONEGGER
-
 De tous les jeunes musiciens actuels ayant atteint à quelque notoriété
 en Europe, Arthur Honegger est celui qui y sera parvenu le plus rapide-
 ment, et dès maintenant son nom a franchi les frontières de bien des
@@ -791,35 +454,24 @@ Strauss, influence personnelle de Strawinsky, — capable d’allier à une
 vive curiosité des moindres manifestations de la vie moderne (aussi bien
 artistiques que mécaniques) un sens quasi religieux de la sublimité d’un
 J.-S. Bach, d’un Hændel ou d’un Wagner, doué lui-même d’une exception-
-
 Union Mutuelle Musicale
 18, Corratere G. FITYV T. st 1853
-
 °
-
 Bureau de Concerts
 Location - Organisation
-
 Musique - Instruments
 Grand Choix
-
-—— Studio et Piano à disposition =—]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002646_012.tif"/>
-<page><![CDATA[Faites tous vos achats de
-
+—— Studio et Piano à disposition =—
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002646_012.tif'/>
+        <page>
+          <![CDATA[Faites tous vos achats de
 MUSIQUE
-
 et ACCESSOIRES d GRAMOPHONES
 e DISQUES
-
 chez
-
 ROTSCH V FRÈRES, Corraterie, 22
-
- 
-
-   
-
 nelle puissance lyrico-dramatique, parfaitement maître de ses moyens
 techniques (surtout en matière polyphonique et orchestrale), arrivé juste
 au moment où la révolution harmonique opérée par le Sacre du vrintemps
@@ -829,7 +481,6 @@ que nous possédions : elle se révèle même en notre époque comme néces-
 satre, — ainsi que peuvent en témoigner les triomphales exécutions
 en 1924 à Paris, puis dans d’autres villes étrangères, du Roi David et du
 Pucifie 231.
-
 De composition fort simple, très tonale, la Pastorale expose d’abord
 sur une pédale de dominante et en mouvement assez lent, une calme
 phrase. Des rythmes légers scintillent. Une animation croissante conduit
@@ -837,39 +488,25 @@ au second mouvément « vif et gai», à allure de ronde populaire. Après
 un passage molto diminuendo, la flûte ranime le premier mouvement. Les
 deux thèmes principaux sont désormais associés. Tout s’évapore sur un
 piunissimo final.
-
 La Pastorale d'été est dédiée au compositeur Roland Manuel, et a
-obtenu en 1921 le prix Verley, décerné par les auditeurs eux-mêmes.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002646_013.tif"/>
-<page><![CDATA[!
-
+obtenu en 1921 le prix Verley, décerné par les auditeurs eux-mêmes.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002646_013.tif'/>
+        <page>
+          <![CDATA[!
 |
 |
 @
-
 u
 Parasol MNoderne
-
 1, Rue de la Croix-d'Or (angle Molard)
-
 FABRIQUE :
 13, Place des Eaux-Vives (angle Terrassière)
-
 laison de premier ordre
 fondée en 1906
-
 Si parla italano — Man Spricht deutsch — English spoken
-
- 
-
- 
-
- 
-
- 
-
 POÈME (Ernes( Chausson)
-
 Le Poème pour violon, dédié à Eugène Ysaye, est l’œuvre n° 25 d’Ernest
 Chausson. Il débute par un Lento e misterioso à 3/4 en mi bémol où appa-
 raît un premier motif calme et soutenu. La seconde idée est exprimée,
@@ -879,111 +516,54 @@ bémol. Après quoi un Allegro à 6/8 puis à 9/8 nous apporte des impres- |
 sions plus âpres. Enfin un troisième retour du premier motif nous conduit,
 au travers des trilles et des arpèges du violon, à une conclusion toute de
 sérénité et de douceur.
-
 Ernest Chausson (1855-1899), prématurément enlevé à la musique
 francaise, à laissé un opéra, le Roi Arthur, une symphonie, un quatuor et
 ün sextuor pour piano et instruments à cordes et de nombreux lieds.
 C’était une nature délicate, une âme noble.
-
- 
-
- 
-
- 
-
-     
- 
-
 ASSURANCES ACCIDENTS
-
 ,y !““’ÿ,!El T E @ Hesponsabilité civile
 GT | ‘ R
-
 8 Vol - Automobile
 Succursale pour la Suisse française :
-
 UO
 SS
-
 Z
-
-  
-
 S
-
- 
-
 N
-
 MI
-
-  
-
 Dégâls d'eau
-
-     
-
 12, Rue de Hesse - GENÈVE - Tér. pn eE
-
- 
-
 Gaston MOssy, Insp., rue du Centre, 26
-
- 
-
- 
-
- 
-
- 
-
-Membre de l’Harmonie Nautique]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002646_014.tif"/>
-<page><![CDATA[RAUBER FRÈRES
-
+Membre de l’Harmonie Nautique
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002646_014.tif'/>
+        <page>
+          <![CDATA[RAUBER FRÈRES
 Grand’Rue, 50 MONTREUX Téléphone 1062
 Instruments de Musique
-
 Cuivres et bois
 ATELIERS DE RÉPARATIONS AVEC OUTILLAGE MODERNE DE PRÉCISION
-
 Spécialistes renommés
 pour saxophones, clarinettes, flûtes, hautbois et bassons de tous systèmes
-
 CATALOGUE ET PRIX-COURANT GRATIS ET FRANCO SUR DEMANDE
-
 Instruments des premières marques françaises au prix de fabrique en argent
 français au change au cours du jour
-
 Î
-
- 
-
 Dimanche 20 Mars
-
 Festival Beethoven
-
- 
-
- 
-
- 
-
 LES INSTRUMENTS
-
 COUESNON “"{inis —
-
 ? .
 sont les seuls que 1 on trouve toujours Œ““ﬂ
-
 RD
 . CHEZ TOUS LES MARCHANDS .
-
 CONCOURS D’'INSTRUMENTS DE MUSIQUE CONCOURS
 G9 Qualité - Sonorité @
-
-Demandez la marque “MONOPOLEH]]></page>       
-        </p>
+Demandez la marque “MONOPOLEH
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

@@ -1,61 +1,75 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>6me grand concert populaire<date when="29/03/1932"/></title>
-<series>1931-1932</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            6me grand concert populaire
+            <date when='29/03/1932'/>
+          </title>
+          <series>1931-1932</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002779</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Ansermet, E.</note>
+        <note>Bodet (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19320329"/>
-<title>6me grand concert populaire</title>
-<placeName key="Victoria Hall"/>
-<name key="1931-1932" type="series"/>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Bach, Johann Sebastian" ref="https://muscat.rism.info/admin/people/2539" type="person" role="cmp">Bach, Johann Sebastian</name>
-<name key="Debussy, Claude" ref="https://muscat.rism.info/admin/people/4338" type="person" role="cmp">Debussy, Claude</name>
-<name key="Dukas, Paul" ref="https://muscat.rism.info/admin/people/40221423" type="person" role="cmp">Dukas, Paul</name>
-<name key="Ansermet, Ernest  (dir.)" ref="https://muscat.rism.info/admin/people/40219507" type="person" role="int">Ansermet, Ernest  (dir.)</name>
-<name key="Bodet (dir.)"  type="person" role="int">Bodet (dir.)</name>
-<name key="Orchestre de la Suisse Romande" ref="https://muscat.rism.info/admin/people/50007615" type="person" role="int">Orchestre de la Suisse Romande</name>
-<name key="Cercle J. S. Bach"  type="person" role="int">Cercle J. S. Bach</name>
-<name key="Montillet, William" ref="https://muscat.rism.info/admin/people/30022909" type="person" role="int">Montillet, William</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002779_001.tif"/>
-<page><![CDATA[i
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19320329'/>
+        <title>6me grand concert populaire</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1931-1932' type='series'/>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Bach, Johann Sebastian' ref='https://muscat.rism.info/admin/people/2539' type='person' role='cmp'>Bach, Johann Sebastian</name>
+        <name key='Debussy, Claude' ref='https://muscat.rism.info/admin/people/4338' type='person' role='cmp'>Debussy, Claude</name>
+        <name key='Dukas, Paul' ref='https://muscat.rism.info/admin/people/40221423' type='person' role='cmp'>Dukas, Paul</name>
+        <name key='Ansermet, Ernest' ref='https://muscat.rism.info/admin/people/40219507' type='person' role='int'>Ansermet, Ernest</name>
+        <name key='Bodet' type='person' role='int'>Bodet</name>
+        <name key='Orchestre de la Suisse Romande' ref='https://muscat.rism.info/admin/people/50007615' type='person' role='int'>Orchestre de la Suisse Romande</name>
+        <name key='Cercle J. S. Bach' type='person' role='int'>Cercle J. S. Bach</name>
+        <name key='Montillet, William' ref='https://muscat.rism.info/admin/people/30022909' type='person' role='int'>Montillet, William</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002779_001.tif'/>
+        <page>
+          <![CDATA[i
 |
 v<.'
 d
@@ -63,175 +77,69 @@ if
 |
 f
 â
-
 mmm rr
-
- 
-
- 
-
- 
-
 ŒÜ(C>Ü(Ç>@< XsICR)
-
 M}{KM&BÇMX}ZM
-
 €%3@%3@%3@
-
- 
-
- 
-
- 
-
- 
-
 LÊëËÎ VILLE DE
-
- 
-
- 
-
 Organmisé par le Conseil Administratif
 avec le bienveillant et gracieux concours de
-
 \% Prière de ne pas faire de préparatifs de départ avant la fin
-
 RESRE Ê &=sxl
 3(C
-
 SI AN SI AKSD 4K Uä
-
 GENÈVE Ëëä‘
-
- 
-
 SAISON 1931-1932
-
 A
-
 VICTORIA-HALL
-
- 
-
 Mardi 29 Mars 1932
 (à 20 heures 30)
-
 | 07 GRAND CONCERT
-
 POPULAIRE
-
- 
-
 ——
-
- 
-
- 
-
 sous la direction de
-
 M. Ernest ANSERMET
-
- 
-
 bhœur du Cercle Jean-Sébastien Bach
-
 1 Directeur : M. BODET |
-
 | et de l
-
 M. le prof. W. MONTILLET |
 organiste
-
- 
-
 Pendant l'exécution des morceaux, les portes seront fer-
 mées et le silence le plus absolu devra être observé.
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Î,{h'] du concert,
-
 3
-
- 
-
 R RR
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 ll KSx
 AI UIS AX, CIC DEDE ä'bz |
-Œ% > >]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002779_002.tif"/>
-<page><![CDATA[PROGRAMME
-
+Œ% > >
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002779_002.tif'/>
+        <page>
+          <![CDATA[PROGRAMME
 PREMIÈRE PARTIE
-
 —
-
 a) Allegro con brio. b) Andante con moto.
 c) Scherzo et Finale.
-
 2. Kyrie de la Messe en fa majeur . . l
 Pour chœur, petit orchestre et orgue. Ph
-
 3. Motet No 6 pour 4 voix et orgue
 «Lobet den Herrn, alle Heiden ! »
 (Psaume 117)
 L’orgue sera obligeamment tenu par M. William Montillet
-
 DEUXIÈME PARTIE
-
 4. Printemps, suite symphonique en deux parties … Debussy.
-
 5. L’Apprenti soreier, scherzo symphonique . Dukas.
-
- 
-
 L’Orchestre sera dirigée par
-
 ERNEST ANSERMET
-
-Symphonie No 5 en ut mineur . . . . Beethoven.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002779_003.tif"/>
-<page><![CDATA[LOlliS vain BEETHO VEN
-
+Symphonie No 5 en ut mineur . . . . Beethoven.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002779_003.tif'/>
+        <page>
+          <![CDATA[LOlliS vain BEETHO VEN
 Né à Bonn en 1770, mort à Vienne en mars 1827
-
- 
-
 SYMPHONIE No 5, EN UT MINEUR
-
 L'œuvre fut composée en 1807 et exécutée pour la première fois à
 Vienne en 1808. Cette symphonie marque une des étapes les plus déci-
 sives de la carrière du compositeur. C’est la première dans laquelle sa
@@ -246,15 +154,9 @@ l’œuvre forment l’idée mère de cette symphonie, dont le début est
 douloureux et passionné, tandis que le finale éclate en une fanfare
 triomphale qui termine en apothéose cette épopée d’un opiniâtre et
 sombre combat.
-
 Jean-Sébastien BACH
-
 Né à Eisenach en 1685 mort à [.L'ïplig en ]75()
-
- 
-
 MESSE BRÈVE EN FA MAJEUR
-
 Pour témoigner sa reconnaissance après sa nomination de «Hoff-
 kompositeur », Bach, pressé d’affirmer sa gratitude, écrivit des messes
 brèves pour la Chapelle royale. Ces messes se composent presque uni-
@@ -265,32 +167,24 @@ l’Avent, en 1737, ce Kyrie, où un choral s’unit à une phrase de la
 Litanie est, en son genre, peut-être plus grand et plus profond que
 celui de la Messe en si. Il réalise la véritable synthèse du dogme catho-
 lique et du dogme protestant.
-
 MOTET No 6 « Lobet den Herrn, alle Heiden ! »
-
 (Psaume 117)
-
 Bach écrivit un nombre considérable de motets: six seulement
 nous sont parvenus. Ces œuvres ne composent uniquement de
 strophes de chorals et de versets bibliques ; elles produisent une impres-
 sion profonde, plus profonde peut-être que les Cantates, parce qu’elles
 ne représentent qu’une seule idée sans recherche aucune de diversion.
-
 Texte (traduction E. Mercier)
-
 « Peuples, chantez votre divin Maître à Dieu, soit louange et
 gloire, car sa tendresse infinie dure pour les siens à tout jamais, »
-
-Alleluia !]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002779_004.tif"/>
-<page><![CDATA[Claude DEBUSSY
-
+Alleluia !
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002779_004.tif'/>
+        <page>
+          <![CDATA[Claude DEBUSSY
 Ne à Saint-Germain-en-Laye en 1862, mort à Paris en 1918
-
- 
-
 PRINTEMPS, suite symphonique en deux parties
-
 Premier envoi de Rome de Claude Debussy, Printemps fut composé
 à la Villa Médicis entre 1886 et 1887. L’ouvrage, qui comprenait alors
 une partie chorale sans paroles pour voix de femmes, n’eut pas l’agré-
@@ -298,43 +192,35 @@ ment de l’Institut, qui le refusa. Debussy remania cette composition
 vers 1905, et en fit la version actuelle où toute la musique est confiée
 à l’orchestre, sans voix, mais comportant une importante partie de
 piano à quatre mains.
-
 La source d’inspiration de ce Printemps pourrait bien être dans
 l’œuvre picturale de Botticelli. Tl forme une suite de deux pièces,
 dont la première est toute lyrique et contemplative, tandis que la
 seconde est une danse tantôt passionnée, tantôt rieuse.
-
 Paul DUKAS
-
 Ne à Paris le 1” octobre 1865
-
 L’APPRENTI SORCIER
 Scherzo symphonique, d’après une Ballade de Gæthe
-
 Ce scherzo commente les péripéties de l’apprenti qui, en l’absence
 de son maître, veut utiliser ses formules. Sur son ordre, le balai emplit
 les cuves, mais ne s’arrête plus. Les cuves débordent. L’apprenti a
 oublié le mot qui conjurerait le malheur. De sa hache, il tranche le
 balai, mais les morceaux s’empressent comme des valets. Le maître
 revient et tout rentre dans l’ordre.
-
 L’analyse nous révèle trois motifs principaux : celui des S'ortilèges ;
 celui de l’Apprenti, dit par les flûtes, les hautbois et les clarinettes. Le
 troisième, celui de l’évocation, est une sorte de fanfare ou d’appel
 d’instruments de cuivre.
-
 L’Apprenti sorcier fut donné en première audition, en 1897, à la
 Société Nationale, sous la direction de l’auteur. Le succès fut immédiat.
 et cette spirituelle fantaisie symphonique a été depuis lors répandue
 dans le monde entier par tous les orchestres.
-
 «
-
 (R
 1
-
-j]]></page>       
-        </p>
+j
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

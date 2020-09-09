@@ -1,108 +1,118 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Fête patriotique organisée par les Vaudois habitant Genève en commémoration du 100me anniversaire de la proclamation de la souveraineté du canton de Vaud<date when="19/04/1903"/></title>
-<series>1902-1903</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Fête patriotique organisée par les Vaudois habitant Genève en
+            commémoration du 100me anniversaire de la proclamation de la
+            souveraineté du canton de Vaud
+            <date when='19/04/1903'/>
+          </title>
+          <series>1902-1903</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F000518</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Jaques-Dalcroze, E.</note>
+        <note>Romieux, Ch.</note>
+        <note>Henny, H.</note>
+        <note>Delaye, G. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19030419"/>
-<title>Fête patriotique organisée par les Vaudois habitant Genève en commémoration du 100me anniversaire de la proclamation de la souveraineté du canton de Vaud</title>
-<placeName key="Victoria Hall"/>
-<name key="1902-1903" type="series"/>
-<name key="Dixon-Aegerter"  type="person" role="cmp">Dixon-Aegerter</name>
-<name key="Correvon, H."  type="person" role="cmp">Correvon, H.</name>
-<name key="Senger, Franz Ludwig Hugo von" ref="https://muscat.rism.info/admin/people/30015297" type="person" role="cmp">Senger, Franz Ludwig Hugo von</name>
-<name key="Romieux, Charles" ref="https://muscat.rism.info/admin/people/30044111" type="person" role="cmp">Romieux, Charles</name>
-<name key="Guiraud, Ernest" ref="https://muscat.rism.info/admin/people/30024115" type="person" role="cmp">Guiraud, Ernest</name>
-<name key="Hahn, R."  type="person" role="cmp">Hahn, R.</name>
-<name key="Massenet, Jules" ref="https://muscat.rism.info/admin/people/84264" type="person" role="cmp">Massenet, Jules</name>
-<name key="Charpentier"  type="person" role="cmp">Charpentier</name>
-<name key="Dénéréaz"  type="person" role="cmp">Dénéréaz</name>
-<name key="Zwyssig, Alberik" ref="https://muscat.rism.info/admin/people/30003427" type="person" role="cmp">Zwyssig, Alberik</name>
-<name key="Jaques-Dalcroze, Emile  (dir.)" ref="https://muscat.rism.info/admin/people/109238" type="person" role="int">Jaques-Dalcroze, Emile  (dir.)</name>
-<name key="Romieux, Charles  (dir.)" ref="https://muscat.rism.info/admin/people/30044111" type="person" role="int">Romieux, Charles  (dir.)</name>
-<name key="Henny, H. (dir.)"  type="person" role="int">Henny, H. (dir.)</name>
-<name key="Delaye, G. (dir.)"  type="person" role="int">Delaye, G. (dir.)</name>
-<name key="Effeuilleuse"  type="person" role="int">Effeuilleuse</name>
-<name key="Echo vaudois"  type="person" role="int">Echo vaudois</name>
-<name key="Corps de musique de Landwehr"  type="person" role="int">Corps de musique de Landwehr</name>
-<name key="Fournier-Bartens (Mme)"  type="person" role="int">Fournier-Bartens (Mme)</name>
-<name key="Fournier, Ernest"  type="person" role="int">Fournier, Ernest</name>
-<name key="Grausaz, Marguerite"  type="person" role="int">Grausaz, Marguerite</name>
-<name key="Grivel"  type="person" role="int">Grivel</name>
-<name key="Pasche"  type="person" role="int">Pasche</name>
-<name key="Gaillard"  type="person" role="int">Gaillard</name>
-<name key="Echo Vaudois"  type="person" role="int">Echo Vaudois</name>
-<name key="Brélaz, Ch."  type="person" role="int">Brélaz, Ch.</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000518_001.tif"/>
-<page><![CDATA[Dimanche, 19 Gvril 1908, à 2 h. précises
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19030419'/>
+        <title>
+          Fête patriotique organisée par les Vaudois habitant Genève en
+          commémoration du 100me anniversaire de la proclamation de la
+          souveraineté du canton de Vaud
+        </title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1902-1903' type='series'/>
+        <name key='Dixon-Aegerter' type='person' role='cmp'>Dixon-Aegerter</name>
+        <name key='Correvon, H.' type='person' role='cmp'>Correvon, H.</name>
+        <name key='Senger, Franz Ludwig Hugo von' ref='https://muscat.rism.info/admin/people/30015297' type='person' role='cmp'>Senger, Franz Ludwig Hugo von</name>
+        <name key='Romieux, Charles' ref='https://muscat.rism.info/admin/people/30044111' type='person' role='cmp'>Romieux, Charles</name>
+        <name key='Guiraud, Ernest' ref='https://muscat.rism.info/admin/people/30024115' type='person' role='cmp'>Guiraud, Ernest</name>
+        <name key='Hahn, R.' type='person' role='cmp'>Hahn, R.</name>
+        <name key='Massenet, Jules' ref='https://muscat.rism.info/admin/people/84264' type='person' role='cmp'>Massenet, Jules</name>
+        <name key='Charpentier' type='person' role='cmp'>Charpentier</name>
+        <name key='Dénéréaz' type='person' role='cmp'>Dénéréaz</name>
+        <name key='Zwyssig, Alberik' ref='https://muscat.rism.info/admin/people/30003427' type='person' role='cmp'>Zwyssig, Alberik</name>
+        <name key='Jaques-Dalcroze, Emile' ref='https://muscat.rism.info/admin/people/109238' type='person' role='int'>Jaques-Dalcroze, Emile</name>
+        <name key='Romieux, Charles' ref='https://muscat.rism.info/admin/people/30044111' type='person' role='int'>Romieux, Charles</name>
+        <name key='Henny, H.' type='person' role='int'>Henny, H.</name>
+        <name key='Delaye, G.' type='person' role='int'>Delaye, G.</name>
+        <name key='Effeuilleuse' type='person' role='int'>Effeuilleuse</name>
+        <name key='Echo vaudois' type='person' role='int'>Echo vaudois</name>
+        <name key='Corps de musique de Landwehr' type='person' role='int'>Corps de musique de Landwehr</name>
+        <name key='Fournier-Bartens (Mme)' type='person' role='int'>Fournier-Bartens (Mme)</name>
+        <name key='Fournier, Ernest' type='person' role='int'>Fournier, Ernest</name>
+        <name key='Grausaz, Marguerite' type='person' role='int'>Grausaz, Marguerite</name>
+        <name key='Grivel' type='person' role='int'>Grivel</name>
+        <name key='Pasche' type='person' role='int'>Pasche</name>
+        <name key='Gaillard' type='person' role='int'>Gaillard</name>
+        <name key='Echo Vaudois' type='person' role='int'>Echo Vaudois</name>
+        <name key='Brélaz, Ch.' type='person' role='int'>Brélaz, Ch.</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000518_001.tif'/>
+        <page>
+          <![CDATA[Dimanche, 19 Gvril 1908, à 2 h. précises
 FÉTE PATRIOTIQUE
-
 organisée par les Vaudois habitant Genève
-
 en commémoration du
-
 100" Anniversaire de la Proclamation de la Souveraineté du Canton de Vaud
-
 avec le gracieux concours de
-
 Mme Fournier - Bartens , ÀM Ernest Fournier … M'e Marguerite Grausaz
 du Chéâtre de Genève ; du Chéâire de Genève Cantatrice
-
 M. Grivel M. Pasche
-
 d’un Chœur d’Enfants (60 exécutants) d’un Chœur mixte (80 exécutants)
 dirigé par M. Jaques-Dalcroze, Prof. au Conservatoire dirigé par M. Charles Romieux, Professeur de Chant
-
 “ Effeuilleuse ” et “ Echo Vaudois” Corps de Musique de Landwehr
 dirigés par M. X. Xenny Directeur: M. G. Delaye
-
 - PROGRAMME
-
 Première Partie
 . Marche des Héros, Dixon Ægerter . . 21222211 - . . Musique de Landwehr.
 . Imvocation patriotique . . e … PV . M. le Pasteur Gaillard,
 a) Patrie et Liberté, Chœur d’Enfants, direction . . . ; } v M. Jaques-Dalcroze.
 Oiccithistoniques ns ns = e _ . M. le Pasteur Gaillard.
 . Quatorze-A vril, vers de H. Correvon, dits pane 5 q 550 . . . M. Ernest Fournier.
-
 - Romance de la Coupe du Roi de Thulé, chantée par L ‘ M. Grivel.
 ns dnipacres Chœur ps 1 1 1 11 - - PÉcho Vaudois,
 . Souvenir de Patrie, de Hugo de Senger, chanté par . 1 M Os Bartens,
@@ -110,7 +120,6 @@ sonce Conkblie, Romance, chantée par 1111 11 11 1S M. Pasche,
 - Grand air de « Guillaume Tell », chanté par . . E 17 V V Crausan
 - 1903 : Cantate du Centenaire Vaudois, de Ch. Romieux, exécutée par un
 Chœur mixte et un Chœur d’Enfants, sous la direction de l’Auteur.
-
 Deuxième Partie
 v ebredela Viherté, Pasredoublé ,, $ 1 A Musique de Landwehr.
 Ls ipersanedeGuiraude 0R = » »
@@ -128,25 +137,21 @@ qn >>>>>s O Ernest Fournier.
 PRIX DES PLACES : Loges de parterre, fr. 2 ; Parterre et cordon des 1"°* Galeries, fr. 1 ; autres places, fr. 0,50.
 Enfants accompagnés moitié prix à toutes les places
 LE BÉNÉFICE SERA VERSÉ AU BUREAU VAUDOIS DE BIENFAISANCE
-
 Troisième Partie. — A 7h. du soir, Banquet populaire, suivi d’une Soirée familière, au Restaurant Vidoudez, Hôtel de l’Arquebuse. —
 Prix de la carte, 2 fr. 50, vin compris, — Le nombre des places étant limité, les personnes désireuses d’assister au banquet officiel (dames admises)
 feront bien de se hâter pour retirer leurs cartes dans les dépôts indiqués d’autre part. On trouve des cartes de concert et de banquet aux adresses suivantes ;
-
 Restaurant Vidoudez, rue du Stand prolongée ; Cercle Vaudois, Grand’Rue, 25 ; aux Viticulteurs Genevois, rue de Cornavin ; Renevier, 16 place Longe-
 malle ; Favre Emile, 15, rue des Eaux-Vives : Union artistique, 20, rue Général-Dufour ; Henny, 10, place de la Madeleine ; Ankenmann, tabacs, Rond-
-
 Point de Plainpalais ; Branat, pharmacien, rue Verdaine, 15, et au Victoria-Hall.
-
 x
-
 ÛN
-dh Imp. du Journal de Gonève]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000518_002.tif"/>
-<page><![CDATA[CANTIQUE SUISSE
-
+dh Imp. du Journal de Gonève
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000518_002.tif'/>
+        <page>
+          <![CDATA[CANTIQUE SUISSE
 Musique de . Fwissig
-
 Sur nos monts, quand le soleil
 Annonce un brillant réveil,
 Et prédit d’un plus beau jour
@@ -155,48 +160,30 @@ Les beautés de la patrie
 Parlent à l’âme attendrie :
 Au ciel montent plus joyeux  (bis)
 Les accents d’un cœur pieux,
-
 Les accents émus d’un cœur pieux.
-
 TEI
-
 Lorsqu'un doux rayon du soir
-
 Joue encore dans le bois noir,
-
 Le cœur se sent plus heureux
 Près de Dieu.
-
 Loin des vains bruits de la plaine,
-
 L'âme en paix est plus sereine :
-
 Au ciel montent plus joyeux _ (bis)
-
 Les accents d’un cœur pieux,
-
 Les accents émus d’un cœur pieux.
-
 Lorsque dans la sombre nuit
-
 La foudre éclate avec bruit,
-
 Notre cœur pressent encor
-
 Le Dieu fort.
-
 Dans l’orage et la détresse
-
 Il est notre forteresse ;
-
 Offrons-Lui des cœurs pieux _ (bis)
-
 Dieu nous bénira des cieux,
-
 Dieu nous bénira du haut des cieux.
-
-Ch. Chatelanat.]]></page>       
-        </p>
+Ch. Chatelanat.
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

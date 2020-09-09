@@ -1,139 +1,124 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>La fille du tambour-major<date when="01/07/1880"/></title>
-<series>1879-1880</series>
-<placeName>Coulouvrenière (Théâtre des Bouffes parisiens)</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            La fille du tambour-major
+            <date when='01/07/1880'/>
+          </title>
+          <series>1879-1880</series>
+          <placeName>Genève, Coulouvrenière (Théâtre des Bouffes parisiens)</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU DG4 F001397</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt> </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18800701"/>
-<title>La fille du tambour-major</title>
-<placeName key="Coulouvrenière (Théâtre des Bouffes parisiens)"/>
-<name key="1879-1880" type="series"/>
-<name key="Offenbach, Jacques" ref="https://muscat.rism.info/admin/people/111831" type="person" role="cmp">Offenbach, Jacques</name>
-<name key="Duru, Alfred" ref="https://muscat.rism.info/admin/people/25936" type="person" role="cmp">Duru, Alfred</name>
-<name key="Chivot, Henri Charles" ref="https://muscat.rism.info/admin/people/30026651" type="person" role="cmp">Chivot, Henri Charles</name>
-<name key="Théâtre des Bouffes parisiens"  type="person" role="int">Théâtre des Bouffes parisiens</name>
-<name key="Paul Cadet-Grégoire (Mme)"  type="person" role="int">Paul Cadet-Grégoire (Mme)</name>
-<name key="Grégoire-Poyard, Cécile"  type="person" role="int">Grégoire-Poyard, Cécile</name>
-<name key="Grégoire, Baptiste"  type="person" role="int">Grégoire, Baptiste</name>
-<name key="Grégoire, Joseph"  type="person" role="int">Grégoire, Joseph</name>
-<name key="Grégoire, Victor"  type="person" role="int">Grégoire, Victor</name>
-<name key="Baron"  type="person" role="int">Baron</name>
-<name key="Luidgi"  type="person" role="int">Luidgi</name>
-<name key="Huguenet"  type="person" role="int">Huguenet</name>
-<name key="Théophile"  type="person" role="int">Théophile</name>
-<name key="Frédéric"  type="person" role="int">Frédéric</name>
-<name key="Dupuis"  type="person" role="int">Dupuis</name>
-<name key="Ruy"  type="person" role="int">Ruy</name>
-<name key="Anselme (Mme)"  type="person" role="int">Anselme (Mme)</name>
-<name key="Delby (Mme)"  type="person" role="int">Delby (Mme)</name>
-<name key="Blanche (Mme)"  type="person" role="int">Blanche (Mme)</name>
-<name key="Francesca"  type="person" role="int">Francesca</name>
-<name key="Bertin (Mme)"  type="person" role="int">Bertin (Mme)</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f001397_001.tif"/>
-<page><![CDATA[mnnonces du Théâtre des Bou
-
- 
-
- 
-
- 
-
- 
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18800701'/>
+        <title>La fille du tambour-major</title>
+        <placeName key='Genève, Coulouvrenière (Théâtre des Bouffes parisiens)'/>
+        <name key='1879-1880' type='series'/>
+        <name key='Offenbach, Jacques' ref='https://muscat.rism.info/admin/people/111831' type='person' role='cmp'>Offenbach, Jacques</name>
+        <name key='Duru, Alfred' ref='https://muscat.rism.info/admin/people/25936' type='person' role='cmp'>Duru, Alfred</name>
+        <name key='Chivot, Henri Charles' ref='https://muscat.rism.info/admin/people/30026651' type='person' role='cmp'>Chivot, Henri Charles</name>
+        <name key='Théâtre des Bouffes parisiens' type='person' role='int'>Théâtre des Bouffes parisiens</name>
+        <name key='Paul Cadet-Grégoire (Mme)' type='person' role='int'>Paul Cadet-Grégoire (Mme)</name>
+        <name key='Grégoire-Poyard, Cécile' type='person' role='int'>Grégoire-Poyard, Cécile</name>
+        <name key='Grégoire, Baptiste' type='person' role='int'>Grégoire, Baptiste</name>
+        <name key='Grégoire, Joseph' type='person' role='int'>Grégoire, Joseph</name>
+        <name key='Grégoire, Victor' type='person' role='int'>Grégoire, Victor</name>
+        <name key='Baron' type='person' role='int'>Baron</name>
+        <name key='Luidgi' type='person' role='int'>Luidgi</name>
+        <name key='Huguenet' type='person' role='int'>Huguenet</name>
+        <name key='Théophile' type='person' role='int'>Théophile</name>
+        <name key='Frédéric' type='person' role='int'>Frédéric</name>
+        <name key='Dupuis' type='person' role='int'>Dupuis</name>
+        <name key='Ruy' type='person' role='int'>Ruy</name>
+        <name key='Anselme (Mme)' type='person' role='int'>Anselme (Mme)</name>
+        <name key='Delby (Mme)' type='person' role='int'>Delby (Mme)</name>
+        <name key='Blanche (Mme)' type='person' role='int'>Blanche (Mme)</name>
+        <name key='Francesca' type='person' role='int'>Francesca</name>
+        <name key='Bertin (Mme)' type='person' role='int'>Bertin (Mme)</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f001397_001.tif'/>
+        <page>
+          <![CDATA[mnnonces du Théâtre des Bou
 THÉATRE DES BOUFFES PARISIENS
-
 STAND DE LA COULOUVRENIÈRE
 Direction de Mme Vve Paul CADET-GRÉGOIRE
-
- 
-
 Aujourd'hui Jeudi 1 Juillet et jours suivants
-
 IMMENSE SUCCÈS !
-
 Représentations de
-
 M“ CÉCILE GRÉGOIRE-POYARD
-
 Première chanteuse des Théâtres de New-York
-
 A FILLE
-
 TAMBOUR-MAJOR
-
 Opéra comique en 3 actes et 4 tableaux, à grard spectacle.
 Paroles de MM. Alfred Duru et Henri Chivot. Musique de J. Offenbach.
-
 Mme CÉCILE GRÉGOIRE-POYARD
 Remplira le rôle de Stella
 M. BApTIsTe GRÉGOIRE M. Joseeu GRÉGOIRE M. Vicror GRÉGOIRE
 Rôle de Monthabor Rôle de Griolet Rôle du duc Della Volia
-
 Premiei‘ acte : Un couvent à Biela. — Deuxième acte : A Navara,
 chez le duc della Volta. — Troisième acte : L'auberge de Glampas.
 — Quatrième tableau ; L’entrée à Milan. Fanfare sur la scène,
-
 DISTRIBUTION : Monthabor, MM. B. Grégoire. — Le lieutenant Robert,
 Baron. — Griolet, J. Grégoire. — Le duc della Volta, V. Grégoire. —
 Le marquis Bambini, Luwrdgi. — Clampas, Huguenet. — Grégorio, Théo-
 phale. — Zerbinelli, Fréuéric. — Del Ponto, Dupuis. — Le sergeut Morin,
-
 “ Ruy. — STELLA, Mmes Gécile GREGOIRE - POYARD. — La
 duchesse della Volla, Amnselme. — Claudine, Delby. — La Prieure,
 Anselme, — Fraucesca, Blanche. — Lucrezia, Christophe. — Loreuza,
 Armand.— Paola, Fréderic. — Farella, Franvesca. — Guilletta. Bertin.
 Soldats, Religieuses, Pensionnaires, Seigneurs et Femmes du peuple.
-
 La scène se passe en Italie, en 1800
-
 150 costumes nouveaux de la maison BLOT, de Lyon.
 Décors nouveaux de M. BERTI
-
 NOTA, — Pour les représentations de la Fille du Tambour-Major, le &*
 bureau de location est ouvert de 10 à 4 heures. On peut s’inscrire pour
 les trois premières représentations. Æ i
 c ;
 Q)
-
-; « ; | À ‘ ŒÊ‘ e]]></page>       
-        </p>
+; « ; | À ‘ ŒÊ‘ e
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

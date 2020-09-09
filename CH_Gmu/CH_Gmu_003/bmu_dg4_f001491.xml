@@ -1,66 +1,77 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Eden-concert<date when="30/05/1883"/></title>
-<series>1882-1883</series>
-<placeName>Eden-Concert</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Eden-concert
+            <date when='30/05/1883'/>
+          </title>
+          <series>1882-1883</series>
+          <placeName>Genève, Eden-Concert</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU DG4 F001491</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Date présumée</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18830530"/>
-<title>Eden-concert</title>
-<placeName key="Eden-Concert"/>
-<name key="1882-1883" type="series"/>
-<name key="Wibert, F."  type="person" role="cmp">Wibert, F.</name>
-<name key="Klein, J."  type="person" role="cmp">Klein, J.</name>
-<name key="Fessy, A."  type="person" role="cmp">Fessy, A.</name>
-<name key="Amourdedieu"  type="person" role="cmp">Amourdedieu</name>
-<name key="Damiani"  type="person" role="cmp">Damiani</name>
-<name key="Desseaux"  type="person" role="cmp">Desseaux</name>
-<name key="Berthile (Mlle)"  type="person" role="int">Berthile (Mlle)</name>
-<name key="Catel"  type="person" role="int">Catel</name>
-<name key="Djaly (Mme)"  type="person" role="int">Djaly (Mme)</name>
-<name key="Deverny"  type="person" role="int">Deverny</name>
-<name key="Dubois (Mlle)"  type="person" role="int">Dubois (Mlle)</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f001491_001.tif"/>
-<page><![CDATA[E"
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18830530'/>
+        <title>Eden-concert</title>
+        <placeName key='Genève, Eden-Concert'/>
+        <name key='1882-1883' type='series'/>
+        <name key='Wibert, F.' type='person' role='cmp'>Wibert, F.</name>
+        <name key='Klein, J.' type='person' role='cmp'>Klein, J.</name>
+        <name key='Fessy, A.' type='person' role='cmp'>Fessy, A.</name>
+        <name key='Amourdedieu' type='person' role='cmp'>Amourdedieu</name>
+        <name key='Damiani' type='person' role='cmp'>Damiani</name>
+        <name key='Desseaux' type='person' role='cmp'>Desseaux</name>
+        <name key='Berthile (Mlle)' type='person' role='int'>Berthile (Mlle)</name>
+        <name key='Catel' type='person' role='int'>Catel</name>
+        <name key='Djaly (Mme)' type='person' role='int'>Djaly (Mme)</name>
+        <name key='Deverny' type='person' role='int'>Deverny</name>
+        <name key='Dubois (Mlle)' type='person' role='int'>Dubois (Mlle)</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f001491_001.tif'/>
+        <page>
+          <![CDATA[E"
 0T
-
 n
 _
 e
@@ -86,97 +97,55 @@ Qn
 1
 =
 >
-
 Btﬂletin International de Jrispradence du Bâtiment
-
 y
-
 Restaurant, Grande Salle pour Sociétés, Vins et consommations de
-
 premier choix, Bières Thoma et Steinhof, à Berthoud.
-
 UE PLAINPALAIS
 volonté à un ou plusjeursî‘:cjl
-
 ches, Paniers, etc., pour voyages et pro-
-
 à
 à
-
 Voitures
 è
-
 Attenant à la maison :
 vaux, Breaks, Landaux, Cal
-
 menades.
-
 Acôté auciique GHALET DU CIRF
-
 s fins
-
 BIÈRE DE CORSIER EN BOUTEILLES
-
 Transport à domicile
 Chez P. DANCET, Boulevard James-Fazy, 1
-
 Champagnes, V
-
 -
 2
-
 2
 À
 ress de Lyon, rue de
-
 ône
-
 ’abonnement 8 francs pour
 Etrangers, place
-
 artie de l’union postale.
 Journal des
-
 nést GEORGE-MILLION, rue du Rh
 : Bureaux de l’Exp
-
 ET DES TRAVAUX
 s'faisant p
-
 M. Er
-
 2 fois par an. — Prix de 1
 tous pay
-
 - Administration
 la République, 65,'Lyon. —
-
 Be1—Air, Genêve.
-
 araissant 1
-
 TR
-
 Abonnements et annonces
-
 Directeur-Propriétaire PROVNST
 CATEL '
-
 Tous les soirs Eclairage par la lum'ère électrique
 (Système Edison) R
-
- 
-
- 
-
 Prodige du XIX: Siècle
-
- 
-
- 
-
 PROGRAMME DU MERCHEDT 90 MAI
-
 PREMIÈRE PARTIE
 Vanére où - mounmsiquabiilieh : .. ./144 7 LA. 2 S F Wibert.
 Lèvre de feu (valse). J. Klein.
@@ -188,11 +157,8 @@ Le beau pédicure M. DEVERNY.
 Les maréchaux (ouvertme) Fessy.
 e coq du regnuent M. CATEL.
 10. Pas si vite. Mlle BERTHILE.
-
 LNORBËR
-
 Jolie (polka)
-
 1
 >
 9.
@@ -201,195 +167,99 @@ Jolie (polka)
 ,
 7
 8
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Amourdedieu.
-
 1O
-
 12.
-
 Avant-dernière repréèsentation de
-
 E I'FLI
 HE F
 Dit l'Homme Reptile
 ENTR'ACTE DE DIX MINUTES
-
 DEUXIÈME PARTIE
 e séjour des nymphes (mazurka),. . : . . -
 L’étoile de Valentino
 Nos turlutaines . 000
 Le nouveau commis . . #s
-
 14.
 Lox -
 16.
 1E
-
 F. Wibert.
 Mlle DJALY.
 M. DEVERNY.
 Mlle DUBOIS.
-
- 
-
- 
-
- 
-
- 
-
 |
-
 ORBERT
-
 Eden-Concert (marche) UE VEUR L ER1 . A
-
 Première représentation de
-
 LA TARENTU
-
 DISRREÉBU TION
 — Ophélia, Mlle BERTHILE.
-
- 
-
- 
-
- 
-
 19. D(Lm[(tﬂi.
-
 L
-
 N
-
 . A . . é
-
 B
-
 , 21;
 La Direction à l’honneur d’informer le publice que par suite d’engagement antérieur le petit NORBERT
 ne pourra plus donner que quelques représentations à Genève, et vn les grands frais nnpoqu par ce
-
 ÀVIS précoce et célèhbre
-
 secondes seulement.
-
 PRIX DES PLACES :
-
 Casimir, M. DEVERNY. — Fricandeau, M. CATEL,
-
 Bucéphal (galop final). .  Desseaux.
-
 La loge 15 fr. (la place 3 fr.) — Fauteuils ll‘\(‘th‘ ? fr, — Fauteuils ordinaires 1,50.
 Parterres el p…mcres 1 fr. — Secondes 0,75. — Trmsmmea 0,50.
-
- 
-
 artiste, les billets de faveur gris seront Sﬂllls rogus au contrôle, mais pour les
-
 q Inod
-
 reique y1m17su09 ‘oyoreur meopjiour ap Troutddy
-
 sosneze3 suossiog 19 Z]Te5 op Xxne
-
 ‘aule[aodod ue juours
-
 - NOAT ‘aNdrland3# v1 30 anu ‘s9
-
 SeOUOUUV 18 SIUSUIOTUONF
-
- 
-
 üeneve. — Imprimerie de l’Annuaire du (;ommeme Suisse (Société anonyme). — 3U,000 ex. par mois
-
 7101 pue orv ojeq sosm[Sue sedgIg
-
 semnuèoQ
-
 enbrytjod “Herp1zonD
-
 “Homogpay - “UOIeISTTUP Ÿ
 ebaQ
-
 313A388 3L0H1 TAdYddW
-
 H 09SÉ
-
 sO
-
 œ
 ”
 [4
-
 ques g JB8uIL-10y puwvss
-
 I_}H
-
 HHOIVIQVA: LE aURIAVAÉ
-
 Iy *
-
 Hd saugIE
-
 1gTnd 10 1 (
-
 5)"LL‘9A 9p Sm09 ‘SQ
-
 d LOdad
-
-1S VT 400]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f001491_002.tif"/>
-<page><![CDATA[Tous les Soirs
+1S VT 400
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f001491_002.tif'/>
+        <page>
+          <![CDATA[Tous les Soirs
 æ 8 h.
-
- 
-
 ÏAu premœr jour nouveaux débuts
-
 Ce soir mercred, première repr ésentation de la
-
 Hürcherstrasse, 04
-
 @ à tout autre produit similaire
 e jusqu’à ce jour.
-
 Opérétte—b0uffe
-
 Aux prnﬂms is F ehx 0TIN
 MAISON G. ADAM
-
 15, Rue du Mont-Blane, 15
-
 GENÈVE
 QUALITÉ & BON MARCHÉ
-
- 
-
- 
-
 Aperçu de quelques prix
-
 | buc10(le Paris premier choix, le demi-kilo Fr.
-
 UÛI'B scié » » » »
 Sucre pilé » » »
 Cassonnade . »
-
 # Biscuits anglais, le denn k110 depuis
 Très bonne eau-de-vie, le 11t1e )
 Rn e e »
@@ -397,87 +267,55 @@ Eau-de-cerises. . . . » »
 Esprit-de-vin . . . . » » ;
 Madère, Malaga, Marsala, la bouteille .
 Vins de B0rdeaux natuwl< »
-
 » Mâcon » »
 Chartreuse jaune véritable, le litre
 Cognac J.-F. Martell, la houteﬂle
 Riz de l’Inde, le kilo . ;
-
 Articles recommandés
-
 Café Mont-Blanc, en grain ou moulu, le
 demi-kilo. . / . Pn
-
 Thé noir. d’ 1mp01t1t10n duecte le demi-
 l\l10 SÉ D2
-
 Envoi ÎI‘Hl1GÛ d’80hﬂllïlllûﬂ3 Slll‘ ﬂ8[ﬂâllﬂﬁ |
-
 Demandez partout
-
 ALCOOL DE MENTHE
-
 DU JAPON
 ; Utile et agréable
-
 Fr. 1.25 le Flacon.
-
 Dépôt Général :
-
 ROENON & C'
-
 2, Boul. des Philosophes,
 GENÈVE
-
 N V* À GRANGEN 8 seS FiS
-
 ont l’honneur d’annoncer à leur hono-
 rable clientèle et à leurs connaissances
 qu'ils continueront comme par le passé
 les RÉPARATIONS en tous genres de
 BIJOUTERIE,
 Lorgnons, Eventails, Pipes, etc., ete. —
-
 f, rue du Ethône, f1
 ENTRESOL
 NB. Ne pas confondre
-
 Orfèvrerie, Bijoux faux,
-
 notre maison
-
- 
-
 avec d’autres ateliers du même nom.
-
- 
-
 JACOB ET C'
-
 Place des Alpes, 13
 DORURE, ARGENTURE
-
 d'Orfèvrerie et Couverts
-
 RÉPARATIONS
 NICKELAGE
-
 Galvanoplastie, Clichés
-
- 
-
 Fabrique d'apparells inodores
-
 ENTREPRISE DE
 PLOMBERIE, FERBLANTERIE, ZINGUERIE
-
 EN TOUS GENRES
-
 GHASSE 1-DUFOUR FILS
-
 3, Place des XXII Cantons, 3
-GENEVE]]></page>       
-        </p>
+GENEVE
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

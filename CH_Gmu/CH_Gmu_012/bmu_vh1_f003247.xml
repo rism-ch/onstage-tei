@@ -1,232 +1,184 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>5me concours national suisse d'exécution musicale : concert final des lauréats<date when="07/10/1944"/></title>
-<series>1944-1945</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            5me concours national suisse d'exécution musicale : concert final
+            des lauréats
+            <date when='07/10/1944'/>
+          </title>
+          <series>1944-1945</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F003247</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Ansermet, E. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19441007"/>
-<title>5me concours national suisse d'exécution musicale : concert final des lauréats</title>
-<placeName key="Victoria Hall"/>
-<name key="1944-1945" type="series"/>
-<name key="Händel, Georg Friedrich" ref="https://muscat.rism.info/admin/people/36552" type="person" role="cmp">Händel, Georg Friedrich</name>
-<name key="Haydn, Joseph" ref="https://muscat.rism.info/admin/people/55803" type="person" role="cmp">Haydn, Joseph</name>
-<name key="Donizetti, Gaetano" ref="https://muscat.rism.info/admin/people/18064" type="person" role="cmp">Donizetti, Gaetano</name>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Schumann, Robert" ref="https://muscat.rism.info/admin/people/131206" type="person" role="cmp">Schumann, Robert</name>
-<name key="Ansermet, Ernest  (dir.)" ref="https://muscat.rism.info/admin/people/40219507" type="person" role="int">Ansermet, Ernest  (dir.)</name>
-<name key="Orchestre de la Suisse Romande" ref="https://muscat.rism.info/admin/people/50007615" type="person" role="int">Orchestre de la Suisse Romande</name>
-<name key="Rabot, François"  type="person" role="int">Rabot, François</name>
-<name key="Conrad-Amberg, Margrit"  type="person" role="int">Conrad-Amberg, Margrit</name>
-<name key="Schmit, Yvonne"  type="person" role="int">Schmit, Yvonne</name>
-<name key="Gamper, Annelies"  type="person" role="int">Gamper, Annelies</name>
-<name key="Fallot, Guy"  type="person" role="int">Fallot, Guy</name>
-<name key="Fallot, Monique"  type="person" role="int">Fallot, Monique</name>
-<name key="Datyner, Harry"  type="person" role="int">Datyner, Harry</name>
-<name key="Vollenweider, Hans"  type="person" role="int">Vollenweider, Hans</name>
-<name key="Grunder, Anne-Marie"  type="person" role="int">Grunder, Anne-Marie</name>
-<name key="Viala-Brandt, Marguerite"  type="person" role="int">Viala-Brandt, Marguerite</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003247_001.tif"/>
-<page><![CDATA[rh es rn p r e sr
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19441007'/>
+        <title>5me concours national suisse d'exécution musicale : concert final des lauréats</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1944-1945' type='series'/>
+        <name key='Händel, Georg Friedrich' ref='https://muscat.rism.info/admin/people/36552' type='person' role='cmp'>Händel, Georg Friedrich</name>
+        <name key='Haydn, Joseph' ref='https://muscat.rism.info/admin/people/55803' type='person' role='cmp'>Haydn, Joseph</name>
+        <name key='Donizetti, Gaetano' ref='https://muscat.rism.info/admin/people/18064' type='person' role='cmp'>Donizetti, Gaetano</name>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Schumann, Robert' ref='https://muscat.rism.info/admin/people/131206' type='person' role='cmp'>Schumann, Robert</name>
+        <name key='Ansermet, Ernest' ref='https://muscat.rism.info/admin/people/40219507' type='person' role='int'>Ansermet, Ernest</name>
+        <name key='Orchestre de la Suisse Romande' ref='https://muscat.rism.info/admin/people/50007615' type='person' role='int'>Orchestre de la Suisse Romande</name>
+        <name key='Rabot, François' type='person' role='int'>Rabot, François</name>
+        <name key='Conrad-Amberg, Margrit' type='person' role='int'>Conrad-Amberg, Margrit</name>
+        <name key='Schmit, Yvonne' type='person' role='int'>Schmit, Yvonne</name>
+        <name key='Gamper, Annelies' type='person' role='int'>Gamper, Annelies</name>
+        <name key='Fallot, Guy' type='person' role='int'>Fallot, Guy</name>
+        <name key='Fallot, Monique' type='person' role='int'>Fallot, Monique</name>
+        <name key='Datyner, Harry' type='person' role='int'>Datyner, Harry</name>
+        <name key='Vollenweider, Hans' type='person' role='int'>Vollenweider, Hans</name>
+        <name key='Grunder, Anne-Marie' type='person' role='int'>Grunder, Anne-Marie</name>
+        <name key='Viala-Brandt, Marguerite' type='person' role='int'>Viala-Brandt, Marguerite</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003247_001.tif'/>
+        <page>
+          <![CDATA[rh es rn p r e sr
 5”* CONCOURS NATIONAL
 Suiss: DEXFÉCUTION
 MESIe E GENEVE
-
 1944
-
 D r1 ONAL-
 SO E /ZERISCHER
 MUSIKWETTBEWERB, GENF
-
 Cliché prêté par
 l'Association des
 Intérêts de Genève
-
- 
-
 VILLA BARTHOLONI AU PARC MON REPOS
-
 (François Bartholoni, mécène genevois et fondateur du Conservatoire en 1835)
-
 VICTORIA-HALL
-
 SAMEDI 7 OCTOBRE 1944
 020 Neures 15
-
 IPIR(DEIR A AA AN E
-
 DU CONCERT FINAEL DES FLAURÉAENS
-
- 
-
-PRIX DU PROGRAMME : FR. 0.60]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003247_002.tif"/>
-<page><![CDATA[PATEK, PHILIPPE & C° S. À.
-
+PRIX DU PROGRAMME : FR. 0.60
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003247_002.tif'/>
+        <page>
+          <![CDATA[PATEK, PHILIPPE & C° S. À.
 7 OE
 % L//ant{/4zcl?/zf,‘ Cê;/zgzwa‘âf; A {“lngéenè
 C
 a/a ÿf!/{/;ﬂé c.'/c£}J&
 2
-
 GENÈVE 2127
-
 S
-
 GRAND-QUAI
-
- 
-
-|]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003247_003.tif"/>
-<page><![CDATA[COn oOU >s N"TIONAL SUISSE
-
- 
-
+|
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003247_003.tif'/>
+        <page>
+          <![CDATA[COn oOU >s N"TIONAL SUISSE
 GENÈVE 1944
 CONSERVATOIRE DE MUSIQUE
-
- 
-
 PROCPAMAMAE
-
 DU CONCERT FINAL DES LAURÉATS
-
 VICTORIA-HALL
-
 SAMEDI 7 OCTOBRE
 A 20 HEURES 15
-
 l'Orchestre de la Suisse Romande
 DIRECTION : ERNEST ANSERMET
-
- 
-
 z O = H + C A à mn <m E
-
-rz> 0 —. 0 @ 4<]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003247_004.tif"/>
-<page><![CDATA[5”* CONCOURS NATIONAL SUISSE
+rz> 0 —. 0 @ 4<
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003247_004.tif'/>
+        <page>
+          <![CDATA[5”* CONCOURS NATIONAL SUISSE
 D'EXÉCUTION MUSICALE . GENÈVE 1944
-
- 
-
 Comité d'Honneur
 Président :
-
 M. le Dr. Philippe Etter, Conseiller Fédéral, Chet du Département Fédéral de l'Intérieur.
-
 Membres :
-
 M. Albert Malche, Conseiller aux Etats ;
-
 . Albert Picot, Président du Conseil d’Etat de la République et Canton de Genève ;
 . Adrien Lachenal, Conseiller d'Etat de la République et Canton de Genève ;
-
 . André Guinand, Président du Grand Conseil de la République et Canton de Genève ;
 . Marcel Raisin, Président du Conseil administratif de la Ville de Genève ;
-
 . Jules Peney, Vice-président du Conseil administratif de la Ville de Genève ;
-
 . Samuel Boud-Bovy, Conseiller administratif de la Ville de Genève ;
-
 . Henri Rossire, Président du Conseil municipal de la Ville de Genève ;
-
 . Paul Lochenol, Président de la Communauté de travail Pro-Helvetia ;
-
 . Frédéric Borbey—Ador, ancien Ministre de Suisse en Belgique ;
-
 Mre J. Wartmann-Perrot, Genève ;
-
 M. le Dr h. c. Werner Reinhart, Winterthour ;
-
 M. Jacques Salmanowitz, Genève.
-
 e
-
 Comité de Patronage
-
 M. # Maurice Gautier, Président honoraire du Conservatoire de Genève ;
-
 M. Robert Bory, Vice-président du Conservatoire de Genève ;
-
 M. Alfred W. G|ogg, Directeur général de la Société suisse de Radiodiftftusion ;
-
 M. Rodolphe de Reding, Secrétaire général de la Société suisse de Radiodifftusion ;
-
 M. le Prof. Dr A.-E. Cherbuliez, Président central de la Société suisse de pédagogie
 musicale ;
-
 M. Mare Cougnord, Président de l'Association des Intérêts de Genève ;
-
 M. Alphonse Brun, Directeur du Conservatoire de Berne ;
-
 M. Charles Faller, Directeur du Conservatoire de La Chaux-de-Fonds ;
-
 M. le Dr Hans Münch, Directeur des Conservatoires de Bâle et de Lucerne ;
-
 M. Charles Tr0yon, Directeur honoraire du Conservatoire de Lausanne ;
-
 M. Carl Vogler, Directeur du Conservatoire de Zurich ;
-
 MM le Dr Volkmar Andreae, + Otto Barblan, Arthur Honegger, Emile Jaques-
 Dalcroze, Joseph Lauber, le Dr Othmar Scheæck.
-
 Comité d'Organisation
-
 Président : M. Henri Gognebin, Directeur du Conservatoire de Genève ;
-
 Vice-Présidents: MM. Eugène Empeyta, Frank Martin et Alfred Pochon ;
-
 Trésoriers : MM. Max Dunand et Pierre Vidoudez ;
-
 Secrétaire : M. Richard Jeandin ;
-
 Membres : MM. Ernest Ansermet, Paul Budry, M"* Chéridjian-Charrey,
 MM. René Dovaz, Fernand Haissly, André Marescotti, } Alexandre
 Mottu, Jean-Marc Pasche, Félix Pommier ;
-
-Secrétaire général : M. le Dr Frédéric Liebstæckl.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003247_005.tif"/>
-<page><![CDATA[eur la cinquième fois, malgté l'incettitude des temps,
-
+Secrétaire général : M. le Dr Frédéric Liebstæckl.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003247_005.tif'/>
+        <page>
+          <![CDATA[eur la cinquième fois, malgté l'incettitude des temps,
 un Concours national siuisse d'exécution musicale souvre
 à Genève. Alors qu'au-delà de nos frontières, l'apport des
 génétations précédentes est en butte à la desttuction, que
@@ -239,7 +191,6 @@ qui est de présecver les biens spitituels dans la mesute du
 possible et d'en assurer la conservation en vue d'un avenit
 meilleur. “Oelle est aussi la mission élevée du Concours
 national suisse d'exéeution musicale.
-
 (Je félicite les otganisateurs d'avoir, cette année-ci
 de nouveau, tenu à maintenit une manifestation de notte
 vie attistique dont, depuis cinq ans, la Suisse ne sautait
@@ -250,240 +201,145 @@ fait foi. Aucun art, plus que la musique, n'est propr à
 Aucun ne peut non plus, à un même degté, tayonner dans
 le monde, éveillee davantage la sympathie de l'étranger
 pouxe la vie spicituelle d'un peuple.
-
 Puisse le Concours national suisse d'exécution
 musicale de 1944 connaîtee le même succès que les précé-
 dents ! Ct puisse le prochain Sinaugueer en un jour plus
 clément, où les hommes espireront enfin la paix aptès leut
-
 longue souffrance !
-
 Philippe Etter
-
 Conseiller fédétal
-
 CIOI RIR RS
 070000 005
-DS E IEI N ES]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003247_006.tif"/>
-<page><![CDATA[w A R T E S # ( MÉDAILLES - INSIGNES
+DS E IEI N ES
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003247_006.tif'/>
+        <page>
+          <![CDATA[w A R T E S # ( MÉDAILLES - INSIGNES
 A. INVERSIN
-
 SUCCESSEUR DE J.-A. POCHON
 RUE DE COUTANCE . TÉL. 2.33.68
-
 FOURNISSEUR DE LA MÉDAILLE DU CONCOURS
-
- 
-
 Un disque… un témoin !
-
 Studio d'Enregistrement AUDEMARS S. À.
 RUE GÉNÉRAL-DUFOUR, 15 . GENÈVE . TÉL. 5.55.00
 INSTALLATION ULTRA-MODERNE
-
 ÉDITIONS DE DISQUES DU COMMERCE
-
- 
-
- 
- 
-
 090900009000N
 CC E CC GGG CV GC BEI BC CC PIV PE IEICU PEEIC V PEPE DEDEN OVO CO
 LS C G CL e L G L RL L GL 6T PE GC L G C G F C PL C :o:nfo!o!.:.:ofo:o:o!oîo:o:o:o:o!o:o:o:o:o‘o
 . '
 e ° ©
 e0
-
 — F W l I u l ISTRIBUÉ
 23e EN
-
 S% RISTOURNE en CHAQUE ANNÉE
-
 2 crescommre STÉCOOPÉRATIVE Ë
-
 A SES SOCIÉTAIRES B «
-
-   
- 
-     
-
-    
-
- 
-
 ETEN e ;
-
 5 R RUN - à * e* 72 C E E E UE C C
 'o'o'o;o‘ç‘ç‘o‘o‘o"‘ "o;o‘o‘o‘o'o‘ç'o‘o‘o ‘0TeLo c 00 "er0 0t0 SE S SE Se CCC
 2DN OE C D E E E E S O CC
-a‘VvFvW?%ñña%@W%%%%%%%%%Ë%Ë%ËŸ%%%%%%V%äVf%ﬁ%“]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003247_007.tif"/>
-<page><![CDATA[WduM
-
+a‘VvFvW?%ñña%@W%%%%%%%%%Ë%Ë%ËŸ%%%%%%V%äVf%ﬁ%“
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003247_007.tif'/>
+        <page>
+          <![CDATA[WduM
 Présidence: M. HENRI GAGNEBIN
-
 Directeur du Conservatoire de Genève
-
 CHANT
 Mres Marie-Louise Debogis-Bohy (Genève) et Elsa Scherz-Meister (Berne) ; MM. Ernest
-
 Bauer (Neuchâtel), Alfredo Cairati (Zurich), Karl-Heinrich David (Zurich), Alexandre
 Krannhals (Bôle) et Jean-Marc Pasche (Genève).
-
 PIANO
 M"* Isabelle Nef (Genève); MM. Edwin Fischer (Lucerne), Walter Frey (Zurich),
-
 Dinu Lipatti (Genève), Nikita Magaloff (Clarens), André Marescotti (Genève), Walter
 Rehberg (Zurich) et Edouard Moser (Lausanne).
-
 CLAVECIN
-
 Mr°s Silvia Kind (Zurich) et Germaine Vaucher-Clerc (Genève) ; MM. Frank Martin
 (Genève), Dr Max Zulauf (Berne) et Jean-Marc Pasche (Genève).
-
 ORGUE
-
 MM. Charles Faller (La Chaux-de-Fonds), Heinrich Funk (Zurich), Kar| Matthæi
 (Winterthour), Pierre Segond (Genève) et Richard Jeandin (Genève).
-
 VIOLON
-
 MM. François Capoulade (Genève), Walter Geiser (Bâle), Alfred Pochon (Lausanne),
 Peter Rybar (Winterthour) et Alphonse Brun (Berne).
-
 SONATES pour piano et violoncelle
-
 MM. Henri Buenzod (Genève), Walter Frey (Zurich), Alfred Pochon (Lausanne),
 Walter Rehberg (Zurich), Richard Sturzenegger (Berne) et Roger Vuataz (Genève).
-
 INSTRUMENTS D'ORCHESTRE
-
 MM. Ernest Ansermet (Genève), Luc Balmer (Berne), Paul Kletzki (Clarens), Paul
 Sacher (Bâle) et en outre, comme représentants de chacun des instruments,
 MM. Edmond Defrancesco (Lausanne) pour la flûte, Richard Guilhot (Genève) pour
-
-le hautbois et Thomas Morley (Genève) pour le trombone.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003247_008.tif"/>
-<page><![CDATA[IN
+le hautbois et Thomas Morley (Genève) pour le trombone.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003247_008.tif'/>
+        <page>
+          <![CDATA[IN
 IIN 1. Larghetto et Allegro du concerto z
-
 l Ÿ
 }' ll en sol mineur, pour orgue et orchestre G. F. Haendel Ë
 V | î M. François RABOT, 2me prix d'orgue. »
-
 UIN 2. Air de l'Oratorio de Saül, "O Herr..”
-
 Il pour contralto et orchestre .. .. . .. . G. F. Haendel
 V Mr° Margrit CONRAD-AMBERG, |
 } H 2me prix de chant. . ‘ ‘
 CUNNHIIM !
-
 IUUN ‘
 I ‘i ' ; e ::
 N 3. Vivace du concerto en ré majeur, :
-
 H pour clavecin et orchestre. .. .. . .- - J. Flaydn
-
 Mlle Yvonne SCHMIÏ, 2me prix de clavecin.
-
 | 4. Air de Don Pasquale, pour soprano et
-
 Orcnesme e C DON e
-
 M''e Annelies GAMPER, 2me prix de chant.
-
- 
-
-  
-
- 
-
 ERNPRNTENTESNT RIP SPE TNREATERETTETTETETTESTETTEITE
 E EN DE OE OO 0000000000
 AI A FRA AIN KK PLF PA K E A KP AF A K AF A AN
-
- 
-
 DE NOUVEAUX INSTRUMENTS
 SONT ARRIVÉS
-
 PIEANOS
-
 DROITS  FT7/ T QUEULE
-
 SCHMIDT -FLOHR ‘ BURGER & JACOBI ;
 STEINWAY & SONS . BLUTHNER
 ÉCHANGE AUX MEILLEURES CONDITIONS il
-
 . . &  RADIOS
-
 AGENTS OFFICIELS LES PLUS GRANDES MARQUES
-
- 
-
 AI d SIS A R
-
- 
-
- 
-
- 
-
 SAUTIER & e r
 SAECEERurusreme RADIOS - GRAMOS - CHANGEUR-DISQUES ä
-
 g |
-
-‘ \]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003247_009.tif"/>
-<page><![CDATA[N
+‘ \
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003247_009.tif'/>
+        <page>
+          <![CDATA[N
 $
 ;
-
 //
-
- 
-
 5. Sonate en la majeur, op. 69,
-
 pour violoncelle et piano. .. . . . . . L. van Beethoven
-
 Allegro ma non tanto. Scherzo. Adagio cantabile, Allegro vivace.
-
 M'e Monique et M. Guy FALLOT, 1er prix de sonates.
-
 6. Concerto en la mineur, pour piano et
 erenesme. 1.17 R Schumann
-
 Allegro affetuoso. Intermezzo-Allegro.
-
 @ M. Harry DATYNER, 1er prix de piano.
-
 EINSTEREEA SRE
 Le public est instamment prié de regagner ses places dès que
-
 la sonnerie se fera entendre.
-
 IDIIS TIRIHIBWUTION IDIES IPIRHX
-
 sous la présidence de
-
- 
-
 M. AIBERT PICOIN
-
 Président du C eil d'Etat de la République et Canton de Genéve …
 M. JULES PENEY
 e-président du Conseil odministratif de la Ville de Genève
-
 M. FRANEF MARTIN
-
 Président de l'Association des musicie
-
 M. HENPE CAOCNEBIN
-
 |l
 |
 |
@@ -496,227 +352,114 @@ III
 Président du Comité, Directeur du Conservatoire |
 |
 |l
-
 1æy RR G TT S GS RSI IT LN TG SAR S OIOI GTN
 O OO O OEN WN 0 001N 00 OS 44
 D A GSSN AI YGFN AA ANF AN RP A GBN O
-
 2165 DIANOS SUISSES
-
 DROITS ET A QUEUE
 FOUR L'ÉTUDE
 El CESYCONGCERIS
-
 SONT DES INSTRUMENTS D'ÉLITE
-
 UNE GAMME DE NOUVEAUX MODÈLES
 SONT EXPOSÉS CHEZ
-
 Oautiee & (Jacger
 ETE MRE ] FUSTERIE
-SERA DEMAIN VOTRE PIANO AGENTS RÉGIONAUX]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003247_010.tif"/>
-<page><![CDATA[ROUIRIÉES
-
+SERA DEMAIN VOTRE PIANO AGENTS RÉGIONAUX
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003247_010.tif'/>
+        <page>
+          <![CDATA[ROUIRIÉES
 TROUSSEAUX . LAYETTES . NOUVEAUTÉS
 voyez le grand spécialiste
-
 Éuisson Ps
-
 3, RUE DU RHONE GENÈVE
-
- 
-
 CGRAND CAFÉ-RESTAURANT
-
 H Ÿ HR2 4D VD E
-
 12, BOUL. DU THÉATRE E TÉL. 4.08.00
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 SES MENUS RÉPUTÉS
 TIS S O,N SA CAVE RENOMMÉE
-
- 
-
 E S B©O N -S
-
 L
 ls s Us
-
 PEs B EISES
-
 NOUVEAUTÉS
-
 aux meilleurs prix,
-
 pour Dames, Messieurs et Enfants
-
 A. J. BENOIT S. #.
-
 12, Croix-d'Or GENÈVE Téléphone 4.37.20
-
- 
-
- 
-
 VERMOUTH
-
 CIRAVEGNA & G'€ S.A., GENÈVE
-
 LV tIN àj
-
- 
-
 NDBLES
-
- 
-
 10
-
-us cp]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003247_011.tif"/>
-<page><![CDATA[à
-
+us cp
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003247_011.tif'/>
+        <page>
+          <![CDATA[à
 _
-
- 
-
 sees LES LAURÉATS =
-
 nafional suisse d'exécution musicale
-
 du 5"° concours
-
- 
-
- 
-
 Jeanine Ducray
-
 (Genève)
 2me PRIX DE FLUTE
-
 Harry Datyner
 (La Chaux-de-Fonds)
 1er PRIX DE PIANO
-
 Annelies Gamper
-
 Winterthour)
-
 2me PRIX CE CHANT
-
- 
-
- 
-
 Hans Vollenweider
 (Zurich)
 2me PRIX D'ORGUE
-
 Monique et Guy FALLOT
-
 (Lausanne)
-
 ler PRIX DE SONATES
-
- 
-
 Anne-Marie Grunder
 (Berne)
 2me FRIX DE VIOLON
-
- 
-
 Yvonne Schmit
 (Genève)
 2me PRIX DE CLAVECIN
-
 Phot
-
 Wassermann
-
-  
-
 | ' 0
 e | _
-
 Marguerite VIALA-BRANDT
 (Genève)
-2me PRIX DE PIANO]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003247_012.tif"/>
-<page><![CDATA[EAU DE LAVANDE
-
+2me PRIX DE PIANO
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003247_012.tif'/>
+        <page>
+          <![CDATA[EAU DE LAVANDE
 BLACKFORD
-
 PARFUM FRAICHEUR
 QUALITEÉ
-
- 
-
-  
- 
-
 » - PARCS
 ts 9à“êBE‘ê
-
- 
-
- 
-
 En vente : Pharmacies, Drogueries, Parfumeries, etc.
 Gros: F. UHLMANN-EYRAUD S.A.
 Genève
-
- 
-
- 
-
- 
-     
-
 bon génie
 se
 Genève J/
-
 %Â/
-
- 
-
- 
-
 LAINES * BAS * EOULARDS
-
 Grand choix D U R U z Croix-d'Or, 3
-
-Articles de bébés]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003247_013.tif"/>
-<page><![CDATA[Le 5me Concours National Suisse d'Exécution Musicale, à Genève, 1944,
-
+Articles de bébés
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003247_013.tif'/>
+        <page>
+          <![CDATA[Le 5me Concours National Suisse d'Exécution Musicale, à Genève, 1944,
 était destiné aux jeunes artistes suisses, âgés de 15 à 30 ans, ainsi qu'aux étran-
 gers. du même Ââge résidant en Suisse depuis plus de trois ans. Il comportait des
 épreuves de chant, piano, orgue, clavecin, violon, flâte, hautbois, trombone et
-
 sonates pour piano et violoncelle. 82 candidats, dont 67 Suisses, se sont inscrits.
-
 Pour le chant et le piano, deux premiers prix de Fr. 500.— et deux
 seconds prix de Fr. 250.— (hommes et femmes) pouvaient être attribués. Pour
 l’orgue, le clavecin et le violon, un premier prix de Fr. 500.— et un second prix
@@ -727,7 +470,6 @@ Fr. 200.— à chacun des premiers prix de hautbois et trombone. Tous les candi-
 dats admis aux concours définitifs reçoivent un diplôme et ceux qui, sans obtenir
 de prix, se sont néanmoins distingués, des médailles d'argent. Le montant total
 des prix attribuables était de Fr. 7350.—
-
 Les concurrents des instruments d’orchestre avaient à apprendre un
 morceau imposé, spécialement composé pour ce concours. D'accord avec le
 Comité de l’Association des Musiciens Suisses, les compositeurs suivants ont
@@ -735,10 +477,8 @@ Comité de l’Association des Musiciens Suisses, les compositeurs suivants ont
 le hautbois et Hans Haug (Rivaz) pour le trombone. Les lectures à vue ont été
 composées par Otmar Nussio (Lugano) pour la flûte, Albert Jenny (Lucerne)
 pour le hautbois et Pierre Wissmer (Genève) pour le trombone.
-
 Durant les concours, la plupart des candidats ont été accompagnés
 par Mmes Lottie Morel, Renée Peter et Doris Rossiaud.
-
 Le concert de clôture est retransmis par les émetteurs suivants :
 Sottens, de 20 h. 15 à 21 h. 50 ; Beromünster et Monte-Ceneri donneront, enregistré
 sur disques, le concert à une date ultérieure. L'émetteur suisse d’ondes courtes
@@ -747,175 +487,86 @@ matin ; pour l’Amérique du Sud, à 1 h. du matin ; pour l’Australie, à 6 h
 pour l’Orient, à 14 h. 3o.
 La National Broadcasting Company américaine a retransmis le concert de 20 h. 15
 à 20 h. 45
-
 Le Ciné-Journal suisse a pris des vues du concert final et de la distri-
 bution des prix.
-
 Le concert de clôture est enregistré intégralement par les Studios
 AUDEMARS S. À, 15, rue du Général-Dufour, Genève. Ce studio a offert à
 chaque lauréat (premier prix) un enregistrement gratuit.
-
 Les pianos de concert, STEINWAY & SONS et SCHMIDT-FLOHR, sont
-
 prêtés gracieusement par la Maison Sautier e3 Jaeger.
-
- 
-
-1S]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003247_014.tif"/>
-<page><![CDATA[MODE MASCULINE ÉLÉGANTE
-
- 
-
+1S
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003247_014.tif'/>
+        <page>
+          <![CDATA[MODE MASCULINE ÉLÉGANTE
 PHOTÛGRAVUREAMÛH7,RUEDE L'ARQUEBUSE
-
 CLICHÉS POUR
 L'ILLUSTRATION
-
 TÉLÉPHONE
 4.17.96
-
- 
-
- 
-
 Mu"FO;“:el
-
 G. Houriet Genève
 4, rue Bonivard
-
 Tél. 2.58.40
-
 la maison spécialisée
 pour la
 création de prospectus illlustrés
-
 reproduction de fextes manuscrits
-
 impression de MUSIQUE
-
- 
-
-14]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003247_015.tif"/>
-<page><![CDATA[‘ ' ‘ [a f ULRN agoum’ﬁuz
+14
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003247_015.tif'/>
+        <page>
+          <![CDATA[‘ ' ‘ [a f ULRN agoum’ﬁuz
 e UG le bi (
-
 c£e OI,
-
 VACHE 240N
 CONSTANTIN
-
- 
-
 CONSERVATOIRE
 DE MUSIQUE
-
 DL CEN E "
 F0n<lati()n Bart]10loni
-
 101 5 5
-
 —.
-
 Le plus ancien des Conservatoires Suisses
 TOUTES LES BRANCHES DE LA MUSIQUE
 DÉCLAMATION — BALLET CLASSIQUE
-
 COURS DE CINÉMA
-
 . , , . .
-POlll‘ I‘CIISCISÏICIIICHÎS et programmcs s Zl(erSSCI‘ au S(‘Crétäll‘l(lt (lll COIISCI‘V.‘ItOI[‘C]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003247_016.tif"/>
-<page><![CDATA[EUCHEHECLECUOCEOOEECEEOCEQOQE QQQ OIOI OO
-
- 
-
+POlll‘ I‘CIISCISÏICIIICHÎS et programmcs s Zl(erSSCI‘ au S(‘Crétäll‘l(lt (lll COIISCI‘V.‘ItOI[‘C
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003247_016.tif'/>
+        <page>
+          <![CDATA[EUCHEHECLECUOCEOOEECEEOCEQOQE QQQ OIOI OO
 Votre banque…
-
- 
-
-     
-    
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 —I E IS Q
 melkme=/5 4
 L Ï ÀE e =
 IN,) E— /8=s /
-
 frraUT R T= HE
-
 J\[ ï T—n y —j 7
-
- 
-
- 
-
- 
-
- 
-
 .\J !
-
 sr E JN
 uu 24
 E e
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 LA SOCIÉTÉ DE
-
 BANQUE SUISSE
-
 Frs 195 millions
-
 Capital-Actions et Réserves:
-
 GENÈVE
-
 2, Rue de la Confédération
-
 EAUX-VIVES PLAINPALAIS CAROUGE
-
 CORNAVIN
-
 LLAECLUAOEELAEEELEUEEREEONEECLOEECOEECLEOELAOOOECOAON
 — =—
-
 Delachaux, Genève
-
-(LE …\…4HHI……M\M‘\…1\iHIIH|IH[H…HIHIHIMË]]></page>       
-        </p>
+(LE …\…4HHI……M\M‘\…1\iHIIH|IH[H…HIHIHIMË
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

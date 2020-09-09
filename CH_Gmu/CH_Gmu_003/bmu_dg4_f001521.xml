@@ -1,92 +1,91 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par M. A. Weiss<date when="06/05/1886"/></title>
-<series>1885-1886</series>
-<placeName>Casino de Saint-Pierre</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par M. A. Weiss
+            <date when='06/05/1886'/>
+          </title>
+          <series>1885-1886</series>
+          <placeName>Genève, Casino de Saint-Pierre</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU DG4 F001521</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt> </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18860506"/>
-<title>Concert donné par M. A. Weiss</title>
-<placeName key="Casino de Saint-Pierre"/>
-<name key="1885-1886" type="series"/>
-<name key="Meyerbeer, Giacomo" ref="https://muscat.rism.info/admin/people/725" type="person" role="cmp">Meyerbeer, Giacomo</name>
-<name key="Duprato, Jules Laurent Anacharsis" ref="https://muscat.rism.info/admin/people/40219219" type="person" role="cmp">Duprato, Jules Laurent Anacharsis</name>
-<name key="Verroust, Louis Stanislas Xavier" ref="https://muscat.rism.info/admin/people/30074176" type="person" role="cmp">Verroust, Louis Stanislas Xavier</name>
-<name key="Delibes, Léo" ref="https://muscat.rism.info/admin/people/30016578" type="person" role="cmp">Delibes, Léo</name>
-<name key="Bériot, Charles-Auguste de" ref="https://muscat.rism.info/admin/people/13658" type="person" role="cmp">Bériot, Charles-Auguste de</name>
-<name key="Gounod, Charles-François" ref="https://muscat.rism.info/admin/people/80479" type="person" role="cmp">Gounod, Charles-François</name>
-<name key="Boisdeffre, R. de"  type="person" role="cmp">Boisdeffre, R. de</name>
-<name key="Braga, Gaetano" ref="https://muscat.rism.info/admin/people/30016691" type="person" role="cmp">Braga, Gaetano</name>
-<name key="Weiss, A."  type="person" role="int">Weiss, A.</name>
-<name key="Delaquerrière"  type="person" role="int">Delaquerrière</name>
-<name key="Ellès, Fanny"  type="person" role="int">Ellès, Fanny</name>
-<name key="Rey, L."  type="person" role="int">Rey, L.</name>
-<name key="Jandelli, D."  type="person" role="int">Jandelli, D.</name>
-<name key="Moog, J."  type="person" role="int">Moog, J.</name>
-<name key="Colombatti"  type="person" role="int">Colombatti</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f001521_001.tif"/>
-<page><![CDATA[GRANDE SALLE DU CASINO DE SAINT-PIERRES *
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18860506'/>
+        <title>Concert donné par M. A. Weiss</title>
+        <placeName key='Genève, Casino de Saint-Pierre'/>
+        <name key='1885-1886' type='series'/>
+        <name key='Meyerbeer, Giacomo' ref='https://muscat.rism.info/admin/people/725' type='person' role='cmp'>Meyerbeer, Giacomo</name>
+        <name key='Duprato, Jules Laurent Anacharsis' ref='https://muscat.rism.info/admin/people/40219219' type='person' role='cmp'>Duprato, Jules Laurent Anacharsis</name>
+        <name key='Verroust, Louis Stanislas Xavier' ref='https://muscat.rism.info/admin/people/30074176' type='person' role='cmp'>Verroust, Louis Stanislas Xavier</name>
+        <name key='Delibes, Léo' ref='https://muscat.rism.info/admin/people/30016578' type='person' role='cmp'>Delibes, Léo</name>
+        <name key='Bériot, Charles-Auguste de' ref='https://muscat.rism.info/admin/people/13658' type='person' role='cmp'>Bériot, Charles-Auguste de</name>
+        <name key='Gounod, Charles-François' ref='https://muscat.rism.info/admin/people/80479' type='person' role='cmp'>Gounod, Charles-François</name>
+        <name key='Boisdeffre, R. de' type='person' role='cmp'>Boisdeffre, R. de</name>
+        <name key='Braga, Gaetano' ref='https://muscat.rism.info/admin/people/30016691' type='person' role='cmp'>Braga, Gaetano</name>
+        <name key='Weiss, A.' type='person' role='int'>Weiss, A.</name>
+        <name key='Delaquerrière' type='person' role='int'>Delaquerrière</name>
+        <name key='Ellès, Fanny' type='person' role='int'>Ellès, Fanny</name>
+        <name key='Rey, L.' type='person' role='int'>Rey, L.</name>
+        <name key='Jandelli, D.' type='person' role='int'>Jandelli, D.</name>
+        <name key='Moog, J.' type='person' role='int'>Moog, J.</name>
+        <name key='Colombatti' type='person' role='int'>Colombatti</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f001521_001.tif'/>
+        <page>
+          <![CDATA[GRANDE SALLE DU CASINO DE SAINT-PIERRES *
 JEUDEI G MAH 1886G6, A HUIT HEURES DU SÛIR,
-
 GCONCGERT
-
 DONNÉ PAR
-
 NE. 4. VU HE SS S
-
 Hauwthois solo, premier Prix du Conservatoire de Musique de l’aris,
-
 AVEC LE GRACIEUX CONCOURS DE
-
 M. DEILAQUERRIÈERE
-
 Premier Ténor du Grand Théâtre de Genève
 Mlle FANNY ELLES (Élèvc de Mlle Pautex, Professeur au Conservatoire),
 MM. L. REV, D. JANDELLI, et J. MOOG,
-
 Violon solo du Grand Dhéâtre, Harpiste solo du Grand Théâtre, Professeur au Conservatoire, Flute solo du Grand Vhéâtre,
-
 D3
-
 PROGRANME :
-
 PREMIÈRE PARTIE
 L’Africaine, fantaisie pour flûte, arrangée par L. Galli._ . . .  Meyerbeer
 exécutée par M. J. MOOG.
@@ -105,25 +104,17 @@ chantée par M. DELAQUERRIE RE
 exécutés par M. A. WEISS.
 La Sérénata, légende valaquc pour soprano, violon et harpe, . . G. Braga
 exécutée par Mlle F. ELLÉS, MM. L. REY et D. JANDELLI.
-
 Le Piano d'accompagnement sera tenu par M. COLONMBATTTK.
-
 —— —— S
-
 Prix des Piaces : Numérotées, S fr. =- Premières, 3 fr.
-
- 
-
 On peut se procurer des billets aux magasins de musique de M!'° Frey, Corraterie ; M. Rotschy, Corraterie ; M. Plomb, Cité, 12; M°€ Emery,
 Fusterie ; MM. Bron et Berg guer, Corr ll(,llL et au Café du Théâtre. —  Pour les pl.ucs numérotées, chez Mle Frey ; M. A \us\, 9, place
 de la Fustcrnc et chez le Concierge du tasmo
-
 ‘’Genève. — lmpnme……l -F, Jarrys. = 4
-
- 
-
-?]]></page>       
-        </p>
+?
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

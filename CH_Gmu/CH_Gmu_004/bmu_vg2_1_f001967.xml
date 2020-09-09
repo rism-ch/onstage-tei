@@ -1,125 +1,112 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert<date when="26/06/1883"/></title>
-<series>1882-1883</series>
-<placeName>Kiosque (Promenade des Bastions)</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert
+            <date when='26/06/1883'/>
+          </title>
+          <series>1882-1883</series>
+          <placeName>Genève, Kiosque (Promenade des Bastions)</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VG2-1 F001967</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Rey, L. (dir)</note>
+        <note>Date présumée</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18830626"/>
-<title>Concert</title>
-<placeName key="Kiosque (Promenade des Bastions)"/>
-<name key="1882-1883" type="series"/>
-<name key="Gungl, Joseph" ref="https://muscat.rism.info/admin/people/93386" type="person" role="cmp">Gungl, Joseph</name>
-<name key="Auber, Daniel-François-Esprit" ref="https://muscat.rism.info/admin/people/38000" type="person" role="cmp">Auber, Daniel-François-Esprit</name>
-<name key="Métra, Jules-Louis-Olivier" ref="https://muscat.rism.info/admin/people/30022610" type="person" role="cmp">Métra, Jules-Louis-Olivier</name>
-<name key="Massé, Victor" ref="https://muscat.rism.info/admin/people/84236" type="person" role="cmp">Massé, Victor</name>
-<name key="Kreutzer, Conradin" ref="https://muscat.rism.info/admin/people/53829" type="person" role="cmp">Kreutzer, Conradin</name>
-<name key="Nicole"  type="person" role="cmp">Nicole</name>
-<name key="Rossini, Gioachino" ref="https://muscat.rism.info/admin/people/63766" type="person" role="cmp">Rossini, Gioachino</name>
-<name key="Arban, Jean-Baptiste" ref="https://muscat.rism.info/admin/people/31980" type="person" role="cmp">Arban, Jean-Baptiste</name>
-<name key="Rey, L. (dir.)"  type="person" role="int">Rey, L. (dir.)</name>
-<name key="Orchestre de la Ville de Genève"  type="person" role="int">Orchestre de la Ville de Genève</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_1_f001967_001.tif"/>
-<page><![CDATA[CONCERT
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18830626'/>
+        <title>Concert</title>
+        <placeName key='Genève, Kiosque (Promenade des Bastions)'/>
+        <name key='1882-1883' type='series'/>
+        <name key='Gungl, Joseph' ref='https://muscat.rism.info/admin/people/93386' type='person' role='cmp'>Gungl, Joseph</name>
+        <name key='Auber, Daniel-François-Esprit' ref='https://muscat.rism.info/admin/people/38000' type='person' role='cmp'>Auber, Daniel-François-Esprit</name>
+        <name key='Métra, Jules-Louis-Olivier' ref='https://muscat.rism.info/admin/people/30022610' type='person' role='cmp'>Métra, Jules-Louis-Olivier</name>
+        <name key='Massé, Victor' ref='https://muscat.rism.info/admin/people/84236' type='person' role='cmp'>Massé, Victor</name>
+        <name key='Kreutzer, Conradin' ref='https://muscat.rism.info/admin/people/53829' type='person' role='cmp'>Kreutzer, Conradin</name>
+        <name key='Nicole' type='person' role='cmp'>Nicole</name>
+        <name key='Rossini, Gioachino' ref='https://muscat.rism.info/admin/people/63766' type='person' role='cmp'>Rossini, Gioachino</name>
+        <name key='Arban, Jean-Baptiste' ref='https://muscat.rism.info/admin/people/31980' type='person' role='cmp'>Arban, Jean-Baptiste</name>
+        <name key='Rey, L.' type='person' role='int'>Rey, L.</name>
+        <name key='Orchestre de la Ville de Genève' type='person' role='int'>Orchestre de la Ville de Genève</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_1_f001967_001.tif'/>
+        <page>
+          <![CDATA[CONCERT
 Programme officiel
-
 Mardi 26 Juin, à 3 h. (gratuit)
-
-  
- 
-
 Dociété civile de l'Orchestre de ln Ville
-
 Divrection de NE. Es REY
-
 .“I
-
 24
-
 PREMIÈRE PARTIE
-
 ‘) £
-
 1. Marche e e GuNe T #
-
 DS Ps
-
 2. Ouverture de Fra-BDiavolo . . - ‘AUBFER X
 3. Sérénade espagnole, valse. .  Mérra
 4. Fantaisie sur Galathée 0 M ssh
-
 DEUXIÈME PARTIE
-
 9. Ouverture d’Une nuiît à Grenade KREUTZER )
 6. Les Patineurs, polka. . . ° NCoTRh
-
 T. Fantaisie sur Guillaume-Tell. ROssINI
-
 3. Quadrille sur des airs fran-
-
- 
-
 çais. ARBAN "
-
 ; :(
-
 j — —- ;
-
 â En cas de force majeure, le Chef d’orchestre se réserve de moditier le ä
-
 î A programme. %
 17
-
 à CONCERTS AWU KIDOSQUE Jes D'manches, Lundis, à
-
 Mercredis et Vendredis, à 8 heares du soir.
-
 CONCERT (JLASSIQUI&‘. — Orche
 Orgues, à l& Cathédrale Je St-Pierre
 Ahonnements par feuille de 20 cou
 à l’entrée.
-
 svre et Grandes
 » Jes Samedis à 4 h,
-pons: fr. 7.50. S’adresser]]></page>       
-        </p>
+pons: fr. 7.50. S’adresser
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

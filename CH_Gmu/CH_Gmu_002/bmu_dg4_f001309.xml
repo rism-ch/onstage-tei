@@ -1,89 +1,94 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert sous la direction de M. Moog<date when="22/05/1874"/></title>
-<series>1873-1874</series>
-<placeName>Café du Musée</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert sous la direction de M. Moog
+            <date when='22/05/1874'/>
+          </title>
+          <series>1873-1874</series>
+          <placeName>Genève, Café du Musée</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU DG4 F001309</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Moog (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18740522"/>
-<title>Concert sous la direction de M. Moog</title>
-<placeName key="Café du Musée"/>
-<name key="1873-1874" type="series"/>
-<name key="Kuhner"  type="person" role="cmp">Kuhner</name>
-<name key="Verdi, Giuseppe" ref="https://muscat.rism.info/admin/people/137994" type="person" role="cmp">Verdi, Giuseppe</name>
-<name key="Strauß, Johann" ref="https://muscat.rism.info/admin/people/132082" type="person" role="cmp">Strauß, Johann</name>
-<name key="Walace"  type="person" role="cmp">Walace</name>
-<name key="Hamm"  type="person" role="cmp">Hamm</name>
-<name key="Auber, Daniel-François-Esprit" ref="https://muscat.rism.info/admin/people/38000" type="person" role="cmp">Auber, Daniel-François-Esprit</name>
-<name key="Gungl, Joseph" ref="https://muscat.rism.info/admin/people/93386" type="person" role="cmp">Gungl, Joseph</name>
-<name key="Verdi, Giuseppe" ref="https://muscat.rism.info/admin/people/137994" type="person" role="cmp">Verdi, Giuseppe</name>
-<name key="Faust"  type="person" role="cmp">Faust</name>
-<name key="Eilhardt"  type="person" role="cmp">Eilhardt</name>
-<name key="Moog (dir.)"  type="person" role="int">Moog (dir.)</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f001309_001.tif"/>
-<page><![CDATA[Vendredi 22 Mai 1874, à 8 heures du soir
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18740522'/>
+        <title>Concert sous la direction de M. Moog</title>
+        <placeName key='Genève, Café du Musée'/>
+        <name key='1873-1874' type='series'/>
+        <name key='Kuhner' type='person' role='cmp'>Kuhner</name>
+        <name key='Verdi, Giuseppe' ref='https://muscat.rism.info/admin/people/137994' type='person' role='cmp'>Verdi, Giuseppe</name>
+        <name key='Strauß, Johann' ref='https://muscat.rism.info/admin/people/132082' type='person' role='cmp'>Strauß, Johann</name>
+        <name key='Walace' type='person' role='cmp'>Walace</name>
+        <name key='Hamm' type='person' role='cmp'>Hamm</name>
+        <name key='Auber, Daniel-François-Esprit' ref='https://muscat.rism.info/admin/people/38000' type='person' role='cmp'>Auber, Daniel-François-Esprit</name>
+        <name key='Gungl, Joseph' ref='https://muscat.rism.info/admin/people/93386' type='person' role='cmp'>Gungl, Joseph</name>
+        <name key='Verdi, Giuseppe' ref='https://muscat.rism.info/admin/people/137994' type='person' role='cmp'>Verdi, Giuseppe</name>
+        <name key='Faust' type='person' role='cmp'>Faust</name>
+        <name key='Eilhardt' type='person' role='cmp'>Eilhardt</name>
+        <name key='Moog' type='person' role='int'>Moog</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f001309_001.tif'/>
+        <page>
+          <![CDATA[Vendredi 22 Mai 1874, à 8 heures du soir
 CONCERT
-
 SOUS LA DIRECTION DE M. MOOG
-
 PROGRAMME
-
 PREMIÈRE PARTIE
-
 - Marche sur l’Hymne Suisse
 - Ouverture de l’opéra Nabuceo
 . Schwungræder. Valse STRAUSS.
 - Finale de l’opéra Maritana
 5. Das Allerkleinste. Polka Hamm.
-
 SECONDE PARTIE
-
 - Ouverture de l’opéra Fra Diavolo
 - Visionen. Valse
-
 L Rap RCRA_ée 95 —
-
 ENTRÉE LIBRE
-
-Imprimerie L.-É. PRIVAT ;]]></page>       
-        </p>
+Imprimerie L.-É. PRIVAT ;
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

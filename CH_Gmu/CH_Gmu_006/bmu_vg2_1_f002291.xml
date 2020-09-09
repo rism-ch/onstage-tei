@@ -1,334 +1,183 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Deux concerts donnés par l'Orchestre de la Ville<date when="07/08/1887"/></title>
-<series>1886-1887</series>
-<placeName>Kiosque (Promenade des Bastions)</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Deux concerts donnés par l'Orchestre de la Ville
+            <date when='07/08/1887'/>
+          </title>
+          <series>1886-1887</series>
+          <placeName>Genève, Kiosque (Promenade des Bastions)</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VG2-1 F002291</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Senger, H. de (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18870807"/>
-<title>Deux concerts donnés par l'Orchestre de la Ville</title>
-<placeName key="Kiosque (Promenade des Bastions)"/>
-<name key="1886-1887" type="series"/>
-<name key="Lumbye, Hans Christian" ref="https://muscat.rism.info/admin/people/132458" type="person" role="cmp">Lumbye, Hans Christian</name>
-<name key="Boieldieu, Adrien" ref="https://muscat.rism.info/admin/people/23607" type="person" role="cmp">Boieldieu, Adrien</name>
-<name key="Boccherini, Luigi" ref="https://muscat.rism.info/admin/people/30000391" type="person" role="cmp">Boccherini, Luigi</name>
-<name key="Dvořák, Antonín" ref="https://muscat.rism.info/admin/people/26196" type="person" role="cmp">Dvořák, Antonín</name>
-<name key="Massenet, Jules" ref="https://muscat.rism.info/admin/people/84264" type="person" role="cmp">Massenet, Jules</name>
-<name key="Flotow, Friedrich von" ref="https://muscat.rism.info/admin/people/63626" type="person" role="cmp">Flotow, Friedrich von</name>
-<name key="Blanchereau, J."  type="person" role="cmp">Blanchereau, J.</name>
-<name key="Kéler, Béla" ref="https://muscat.rism.info/admin/people/30016648" type="person" role="cmp">Kéler, Béla</name>
-<name key="Hoffmann, Louis-Frédéric"  type="person" role="cmp">Hoffmann, Louis-Frédéric</name>
-<name key="Schubert, Franz" ref="https://muscat.rism.info/admin/people/111603" type="person" role="cmp">Schubert, Franz</name>
-<name key="Brahms, Johannes" ref="https://muscat.rism.info/admin/people/39914" type="person" role="cmp">Brahms, Johannes</name>
-<name key="Meyerbeer, Giacomo" ref="https://muscat.rism.info/admin/people/725" type="person" role="cmp">Meyerbeer, Giacomo</name>
-<name key="Bennett, William Sterndale" ref="https://muscat.rism.info/admin/people/12297" type="person" role="cmp">Bennett, William Sterndale</name>
-<name key="Lange, Gustav  Halévy, Fromental {RISM:40914}" ref="https://muscat.rism.info/admin/people/30021136" type="person" role="cmp">Lange, Gustav  Halévy, Fromental {RISM:40914}</name>
-<name key="Senger, Franz Ludwig Hugo von  (dir.)" ref="https://muscat.rism.info/admin/people/30015297" type="person" role="int">Senger, Franz Ludwig Hugo von  (dir.)</name>
-<name key="Orchestre de la Ville de Genève"  type="person" role="int">Orchestre de la Ville de Genève</name>
-<name key="Moog, Jean"  type="person" role="int">Moog, Jean</name>
-<name key="Fritschi"  type="person" role="int">Fritschi</name>
-<name key="Bergmann"  type="person" role="int">Bergmann</name>
-<name key="Bleye, de"  type="person" role="int">Bleye, de</name>
-<name key="Rey, Louis"  type="person" role="int">Rey, Louis</name>
-<name key="Vancini"  type="person" role="int">Vancini</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_1_f002291_001.tif"/>
-<page><![CDATA[ESTAURATION DU KIOSQUE DES BASTIONS
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18870807'/>
+        <title>Deux concerts donnés par l'Orchestre de la Ville</title>
+        <placeName key='Genève, Kiosque (Promenade des Bastions)'/>
+        <name key='1886-1887' type='series'/>
+        <name key='Lumbye, Hans Christian' ref='https://muscat.rism.info/admin/people/132458' type='person' role='cmp'>Lumbye, Hans Christian</name>
+        <name key='Boieldieu, Adrien' ref='https://muscat.rism.info/admin/people/23607' type='person' role='cmp'>Boieldieu, Adrien</name>
+        <name key='Boccherini, Luigi' ref='https://muscat.rism.info/admin/people/30000391' type='person' role='cmp'>Boccherini, Luigi</name>
+        <name key='Dvořák, Antonín' ref='https://muscat.rism.info/admin/people/26196' type='person' role='cmp'>Dvořák, Antonín</name>
+        <name key='Massenet, Jules' ref='https://muscat.rism.info/admin/people/84264' type='person' role='cmp'>Massenet, Jules</name>
+        <name key='Flotow, Friedrich von' ref='https://muscat.rism.info/admin/people/63626' type='person' role='cmp'>Flotow, Friedrich von</name>
+        <name key='Blanchereau, J.' type='person' role='cmp'>Blanchereau, J.</name>
+        <name key='Kéler, Béla' ref='https://muscat.rism.info/admin/people/30016648' type='person' role='cmp'>Kéler, Béla</name>
+        <name key='Hoffmann, Louis-Frédéric' type='person' role='cmp'>Hoffmann, Louis-Frédéric</name>
+        <name key='Schubert, Franz' ref='https://muscat.rism.info/admin/people/111603' type='person' role='cmp'>Schubert, Franz</name>
+        <name key='Brahms, Johannes' ref='https://muscat.rism.info/admin/people/39914' type='person' role='cmp'>Brahms, Johannes</name>
+        <name key='Meyerbeer, Giacomo' ref='https://muscat.rism.info/admin/people/725' type='person' role='cmp'>Meyerbeer, Giacomo</name>
+        <name key='Bennett, William Sterndale' ref='https://muscat.rism.info/admin/people/12297' type='person' role='cmp'>Bennett, William Sterndale</name>
+        <name key='Lange, Gustav  Halévy, Fromental {RISM:40914}' ref='https://muscat.rism.info/admin/people/30021136' type='person' role='cmp'>Lange, Gustav Halévy, Fromental {RISM:40914}</name>
+        <name key='Senger, Franz Ludwig Hugo von' ref='https://muscat.rism.info/admin/people/30015297' type='person' role='int'>Senger, Franz Ludwig Hugo von</name>
+        <name key='Orchestre de la Ville de Genève' type='person' role='int'>Orchestre de la Ville de Genève</name>
+        <name key='Moog, Jean' type='person' role='int'>Moog, Jean</name>
+        <name key='Fritschi' type='person' role='int'>Fritschi</name>
+        <name key='Bergmann' type='person' role='int'>Bergmann</name>
+        <name key='Bleye, de' type='person' role='int'>Bleye, de</name>
+        <name key='Rey, Louis' type='person' role='int'>Rey, Louis</name>
+        <name key='Vancini' type='person' role='int'>Vancini</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_1_f002291_001.tif'/>
+        <page>
+          <![CDATA[ESTAURATION DU KIOSQUE DES BASTIONS
 Tous les jours J Ba1@u ers & Diners à prix fixe.
-
 Service à la Carte à toute heure
-
 E CUISINE SOIGNÉE %ef4 CAVE RENOMMÉE
-
- 
-
 Case à disposition: 30 fr.
 jusqu’à la fin de la saison (octobre
 Par conséquent y compris la période du
-
 Wir Fédéral
-
 ; | | |
 |
-
 Dimanche 7 Août à 3 heures. | NN |
-
- 
-
 | |La Ver1lable BICYCLETTE
 donnés par | ( RUDGE & Co )
-
 Téléphone | VlN S FTéléphone y ,j @ h d 1 V ÏÏ Se trouve seulement |
 ; B = ä | P © © SJ t F e aJ _\_| __\l_“} | CHEZ |
-
 Fins & Ordinaires | | 1= ‘ TET APRA' |
 Y FUES & EN BOUTEILLES | ‘ | LÈ@UËÏ}S ËLËAËEÀÂ 3,
-
 Direction de NE. Hlusgo de SENGEMR | F ï
-
 Louis ODER (s \ | 6, RUE de SAUSSURE, 6, GENÈVE
-
 F —— IO R S r S PEs ut A4: ‘
 è “Ti è - e TM ‘ à côté âtiment Électoral
 Genève -- 14, Délices, 14, -- Genève (à côté du Bâtime ct )
 sn Seul Agent pour In Suisse
-
 E der J VÎSCHMIDHAUSER \ - p“0GRÆ\MME î“ P1U€»—( “OURANT franco sur demande
-
 +
 de Lausanne
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Première ])ﬂl‘ﬁ(‘ Échankes. - Réparations - Loention-
-
 ®URNITURÈS GLN}LRAL}LS POUR TN . HONNEUR-MARCHE LUMBYE | Maison fondée en 1810
 | - PHOTOGRAPHIE | 2. JEAN DE PARIS, ouverture BOÏELDIEU
-
 .  SICILIENNE . BOCCÏIIIîRINI Ë@ÜVÎ_ËË) & F GË@Z) -\
-
 DANSE SLAVE ‘ ; ‘ DVORAK |
-DIADB: ;; 5 ' LATEURSL[QUÛR[$I‘L‘S‘ â]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_1_f002291_002.tif"/>
-<page><![CDATA[ernaer ; q ÿa
-
+DIADB: ;; 5 ' LATEURSL[QUÛR[$I‘L‘S‘ â
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_1_f002291_002.tif'/>
+        <page>
+          <![CDATA[ernaer ; q ÿa
 TREATN n ff es = EEE O CN 0N
-
- 
-
- 
-
 9 EME MaIsON ” { \ — MM. Jeañ Moog, Frit erde
-
 = | 7 L'OMBRE,mosaique ETE DE ÉLOTON T
 [AGASIN ne T ABAESH l* TES CAMÉLIAS, polka [ e P T w IRMOUTIE DE OIR
 4, Bourevarp James-Fazy, 4 * SOUVENIR DU JARDIN DES GLACIERS | U DE LUNMIN
 A LUCERNE, valse KÉLER-BÉLA ;
-
 se | LIQUEURS FINES, SIROPS pivers |
 BAINS du RHONE
-
 I ä A
 À 8112 heures | ;
 Pont de In C0ulouwrenière
-
 q ‘ Première partie. P A H F U Nl E BIE 2
-
- 
-
 #
-
- 
-
- 
-
- 
-
 s4
-
 E d d ds tl ns ps se
-
 (Ouverture rer Juin) !  MARCHE SOLENNELLE, (Tir fédéral de Genève) 70es p n
 TARIF DES BAINS 2. ROSAMUNDE, ouverture Fr. SCHUBERT |
-
 p
-
 - ([Cabine particulière, avec douches fr. — 60
-
 | SPÉCIALITÉS ÎÉTRANGÈRES
 « _ pour 5 ou 6 personnes ; | DANSES HONGROISES BRAHMS |
-
 S
 3- il I ntknl 1 A RE |
 * [Grande piscine avec cabine pour Messieurs — 30 , ROBERT LE DIABLE MEYERBEER ;\‘ LJ!J @ËN EJ©Ü AJND & G°
 e « « pour Dames = © | | x =
-
 E
-
 Z |
-
 ... =s Seconde partie | 0 |
-
 S LINGERIE ; ; (c IUES NAIADES, ouverture Ym Sternd. BENNETT | 15521200 LARD \
-
 ; I cc;stume;,ü3o centime. = lldrap, 20 centimes, R GROSSMÜTTERCHEN, lindler pour deux violons soli Gust. LANGER | 40, rue du Marché, 40 |
 serviette, IO C. -— caleçon, TONG ex*
-
 | MM. Louis Rey et Vancini. | |
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 ‘ . : [ 7. LA JUIVE HALÉVY | PRIX MODÉRES |
-
 :l‘ouslcs Vendredis à 8 h.du soir gratuitement | 81 Li*‘ ROI de LAHORE entr'acte et cortège MASSENET ds &
-
 C Démonstration du Fusiomnmisme| ; ; - n ; 5 èc | Pour tout ce qui concerne le Programme \
-
 * [|Aux personnes qui voudront bien nous honorer de leur présence. | â> Æ | Ofticiel des Concerts du KLOSQUE DES \ “
-
 1 La démonstration du Æzesionisme a pour objet de nous consti- \ ®_Â Ê | BASTIONS, c’est-à-dire, Annonces, \ À
-
 E tuer dans la Vie Æternelle, par la Connaissance de Diert, duj l | PBéclames, Insertions diverses, \ s
-
 \Monde Universel et de Nous-mêmes. Sans ces connaissances \ ; s’adresser à Victor GUILLOT
-
 ‘ lexactes, il nous est impossible de réaliser erz ce Monde et dans ‘ Tous les soirs l > Imprimeur - Py )0(jrl'-d phe " \’
-
 e Zes Autres, 1e Bonheur dont chacun de nousà Besoir. | Ü ; t es ioile ; ‘ll Îq È)Ü \ 4
-
 E \AWES aux personnes qui ne pourraient pas ou qui crain- | 19 el A j m | R ME n ; c Ï vue des Allemancs, € | sA
-
 (draient dese déranger : | ; \ÈÊUJ lMl IN AT&ÎN DU B\ I@S l \ E% | ‘ 00 = | #
-
 K . Démonstration’ du Fusionnisme à Domicile | m hl l Nl sé e 5s Ÿ L p E 1 M sN 0 ms S se m HS O ® © | J
-
 | Moyennant lenvoi de 5 francs, par la poste, pour une assem - - ‘\ ä
-
 blée de DEUX à VINGT personnes, us … y | %
-
 | par BABICK, Enfant du Règne de Dieu, ;];(5@ = |
-
 RS | de l'Ordre des Prêtres hyménéens ainsi qu' Apôtre du Fusionnisme. @.. ë ä $ ÿ ; ; B | n
-
 ;> | À Genève, rue des Allemands, 26, au 3me étage « Ï ..
-
 e | T | 1TN uuDPLS (( \ N 1Q IDO 1 DINTW \ ] M à
-
 E 10 3 MAGASINS DE DENREES ALES - ÉPICERIE FINE - sUbnlb| à
-
 3 | UIV 9 MAUADER v vl JUx JU LUV \ LAU U LI LULINLEU E 44* % UE / |
-
 E | ; e ETEN QU / — » 5 A Î , 5
-
 ; { ) A ) Vai à | à » 2
-
 f ' Q P \ \ ‘ ä
-
 Ë . 98, Rue du RKhône, 9s Èt RNILS [ N{ lù \ ËL l% En face lHôtel Méli opole ; À
-
 Grâce aux relations directes que la Maison tient avec les producteurs et les importateurs de «lçln_*«w<: plus les immenses achats qu'elle fait constamment ; elle peut rv_ullmnmnyt_as— .
-
 " surer aux cousomimnateurs la qualité et des prix sans précédents, aussi elle restera toujours fidèle au principe de vendre en toute confiance aux prix les plus réduits et défiant â
 ; toute concurrence; el elle prie instamment le public de consulter sévieusement le prix courant el de remarquer qu’à côté des prix excessivement bas, d’autre part elle est à mème ;
-
 de faire des conditions encore plus favorables pour les commandes d'une certamne importance et surtout aux personnes qui voudront bien l'honorer de leur visite pour
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-   
-
- 
-
 e . .
 " 21 > varh: x « A » "e € e ° Q *Bu € « N e \
 Ë (traiter verbalement. Aperçu des prix de quelques à ticles pris au hasard : / A
@@ -377,8 +226,10 @@ t ë n e CIN 45 3
 ; s% ;
 24 — n / ;
 C u < âp" 20s 66 nc
-4 e t. ; RBL 2S E]]></page>       
-        </p>
+4 e t. ; RBL 2S E
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

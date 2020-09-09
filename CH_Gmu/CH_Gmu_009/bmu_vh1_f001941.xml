@@ -1,142 +1,111 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Le Laudi di San Francesco d'Assisi<date when="02/10/1926"/></title>
-<series>1926-1927</series>
-<placeName>Victoria Hall ; Cathédrale de Lausanne</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Le Laudi di San Francesco d'Assisi
+            <date when='02/10/1926'/>
+            <date when='03/10/1926'/>
+          </title>
+          <series>1926-1927</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <placeName>Lausanne, Cathédrale</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F001941</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Münch, H. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19261002
-19261003"/>
-<title>Le Laudi di San Francesco d'Assisi</title>
-<placeName key="Victoria Hall ; Cathédrale de Lausanne"/>
-<name key="1926-1927" type="series"/>
-<name key="Suter, Hermann" ref="https://muscat.rism.info/admin/people/139137" type="person" role="cmp">Suter, Hermann</name>
-<name key="Münch, Hans (dir.)"  type="person" role="int">Münch, Hans (dir.)</name>
-<name key="Orchestre de la Suisse Romande" ref="https://muscat.rism.info/admin/people/50007615" type="person" role="int">Orchestre de la Suisse Romande</name>
-<name key="Gesangverein de Bâle"  type="person" role="int">Gesangverein de Bâle</name>
-<name key="Liedertafel de Bâle"  type="person" role="int">Liedertafel de Bâle</name>
-<name key="Choeur d'enfants des écoles de Carouge"  type="person" role="int">Choeur d'enfants des écoles de Carouge</name>
-<name key="Stooss, Hélène"  type="person" role="int">Stooss, Hélène</name>
-<name key="Philippi, Maria"  type="person" role="int">Philippi, Maria</name>
-<name key="Bauer, Ernest"  type="person" role="int">Bauer, Ernest</name>
-<name key="Rehfuss, C."  type="person" role="int">Rehfuss, C.</name>
-<name key="Gagnebin, Henri" ref="https://muscat.rism.info/admin/people/30081182" type="person" role="int">Gagnebin, Henri</name>
-<name key="Perret, Georges"  type="person" role="int">Perret, Georges</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001941_001.tif"/>
-<page><![CDATA[É aau
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19261002'/>
+        <date when='19261003'/>
+        <title>Le Laudi di San Francesco d'Assisi</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <placeName key='Lausanne, Cathédrale'/>
+        <name key='1926-1927' type='series'/>
+        <name key='Suter, Hermann' ref='https://muscat.rism.info/admin/people/139137' type='person' role='cmp'>Suter, Hermann</name>
+        <name key='Münch, Hans' type='person' role='int'>Münch, Hans</name>
+        <name key='Orchestre de la Suisse Romande' ref='https://muscat.rism.info/admin/people/50007615' type='person' role='int'>Orchestre de la Suisse Romande</name>
+        <name key='Gesangverein de Bâle' type='person' role='int'>Gesangverein de Bâle</name>
+        <name key='Liedertafel de Bâle' type='person' role='int'>Liedertafel de Bâle</name>
+        <name key='Choeur d&apos;enfants des écoles de Carouge' type='person' role='int'>Choeur d'enfants des écoles de Carouge</name>
+        <name key='Stooss, Hélène' type='person' role='int'>Stooss, Hélène</name>
+        <name key='Philippi, Maria' type='person' role='int'>Philippi, Maria</name>
+        <name key='Bauer, Ernest' type='person' role='int'>Bauer, Ernest</name>
+        <name key='Rehfuss, C.' type='person' role='int'>Rehfuss, C.</name>
+        <name key='Gagnebin, Henri' ref='https://muscat.rism.info/admin/people/30081182' type='person' role='int'>Gagnebin, Henri</name>
+        <name key='Perret, Georges' type='person' role='int'>Perret, Georges</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001941_001.tif'/>
+        <page>
+          <![CDATA[É aau
 SN A A
 \
-
 A t t t mt
 Victoria-Hall - Genève Samedi 2 octobre 1926, à 20 h. 50 Ë
-
- 
-
 r A d
-
- 
-
 dc
-
 Catluédrale Cle Lausannue D[}]u[/ü'/_)" 3 …'/u/l/1’ /(/_‘!/}, a 15 /J
-
- 
-
 ,
-
 Orchestre de la Suisse Romande
-
 22 ü
-
 avec le concours des
-
 BASLER GESANGVEREIN
 et BASLER LIEDERTAFEL
-
 et du CHŒUR D’ENFANTS DES ÉCOLES DE CAROUGE {
-
 0[H /(Z /U(’Iïlt(ll ﬂ’l' en LSl(LJ sC /Ul71(ll1()(
-
 “LE LAT
-
 DI SAN FRANCESCO ]D”ASSËIS]Ï e
-
 â!
 J
 3
-
-  
-
- 
-
 …
-
- 
-
 ‘ 1 pour chœur mixte, chœur d’enfants, soli, orchestre et orgue,
 Ï Î musique de
-
 P 8 HERMANN SUTER *
-
 Î:. SOLUISTES -
-
 -
-
 M"* Hélène STOOSS M'« Maria PHILIPPI
 Str/u'n…r (Ï;au.mmu’} Allo ( Bäle)
-
 M. Ernest BAUER M. C. REHFUSS
 Ténor ((;I’Hæ“t'() Basse (Neuchâtel)
-
 ./I /'l’l:ql'Ë ; M' Henri GAGNEBIN, l)irl‘C‘clll' (lll C(’|l\(‘r       
         </p>
     </body>
@@ -147,46 +116,22 @@ Ténor ((;I’Hæ“t'() Basse (Neuchâtel)
   </text>
 </TEI>('.
 Au piano : M. Georges PERRET (Genève).
-
- 
-
 ESL A A A
-
 CHŒURS ET ORCHESTRE (350 exécutants)
 5 sous la direction de
 î M. Hans MÜNCH, Directeur du Basler GL‘s:…chrcîn.
-
 LÜ Cl]ŒLII‘ (lcS 1Çn{'ﬂn'.ï a l"t(" l)|‘L"[lﬂrk" |)Âll' A‘Â‘1 ll'\
 professeurs LUDWIG et MARTI , de Genève,
-
 Les portes seronl rigoureusement fermées pendant l'exécution de l’œuvre.
-
 10DN EN RENTIAOSESS 2Ap000 age prag
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 |
-IN mmmn]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001941_002.tif"/>
-<page><![CDATA[Le GESANGVEREIN de Bâle
+IN mmmn
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001941_002.tif'/>
+        <page>
+          <![CDATA[Le GESANGVEREIN de Bâle
 sS PFAERTAFPE
-
- 
-
 Le Basles Gesangverein, qui a célébré en 1924 sa centième année
 d’existence, fut fondé par le professeur de chant Ferdinand Laur;
 il eut depuis cette époque quatre directeurs, à part un court inter-
@@ -195,7 +140,6 @@ baguette directoriale. Une semblable continuité et une telle régularité
 de développement devaient faire du Gesangverein une institution
 excepftionnelle, dont la population bâloise, si éprise de l’art du chant,
 se monftre particulièrement fière, et à juste titre.
-
 Dès ses débuts, et sous la direction de Laur, le Gesangverein se
 voua spécialement au culte des grands maîtres, Hændel, Haydn,
 Mozart. Après Laur, Ernest Reiter (1845-1876) qui, ainsi que ses
@@ -204,7 +148,6 @@ la voie aux œuvres de Beethoven, aux maîtres romantiques, et enfin
 et surtout à Bach. Les exécutions des Passions selon saint Jean et
 selon saint Matthieu, qu’il donna dans les années 1861 et 1865,
 furent les premières en Suisse.
-
 De 1876 à 1899, Alfred Volkland continua cette œuvre, en mon-
 trant toutefois des préférences pour Schumann et Brahms. C'’est à
 lui cependant que l’on doit les premières auditions à Bâle des deux
@@ -214,40 +157,21 @@ la direction du Gesangverein, et il ouvrit les portes toutes grandes
 il fit interpréter des œuvres françaises dans leur langue originale ;
 ce fut le cas en particulier pour / Ænfance du Christ de Berlioz et
 les Béatitudes de Franck.
-
 Le culte des classiques a été également entretenu par M. Suter
 et les exécutions fréquentes des Passions et des Messes dans la
 cathédrale de Bâle constituent des fêtes de l’art, vers lesquelles
 affluent de toutes parts les amis de la musique. C’est au Gesangvereun,
 et à l’occasion de son centenaire, que Hermann Suter dédia ses
 Laudi Jde saint François 0d'Assise dont la première audition eut lieu
-
 en mai 1924 avec un succès considérable.
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-é …>]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001941_003.tif"/>
-<page><![CDATA[Rappelons ici les magnifiques exécutions de la Pavsion et çle la
+é …>
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001941_003.tif'/>
+        <page>
+          <![CDATA[Rappelons ici les magnifiques exécutions de la Pavsion et çle la
 Neuvième Symphonie que le Gesangverein donna à Genève et à Lausanne
 il y à quelques années.
-
 La Licdertafel est la grande société chorale bâloise qui s'est vouée
 à la littérature, si riche en Suisse alémanique, des chœurs d’hommes.
 Outre des concerts d’œuvres «a capella » elle donne chaque année
@@ -255,23 +179,16 @@ de grandes auditions avec orchestre, et elle assiste généralement le
 Gesangverein pour l'interprétation des œuvres qui exigent un nom-
 breux effectif de voix masculines. Sous l’active direction de Hermann
 Suter, elle a connu son époque de plus grande prospérité, et a rendu
-
 d’éminents services à la cause artistique.
-
- 
-
 Le su d 51 M 1 resco d'Assisi
-
 C’est une heureuse coïncidence qu’en cette année du 7“ centenaire
 de saint François d’Assise et, au moment même où cet anniversaire
 est célébré dans le monde entier, le Comité de l’Orchestre de la
 Suisse romande ait décidé d’ouvrir la saison par une exécution des
 Laudi, l’'œuvre maîtresse du regretté compositeur suisse Hermann
 Suter.
-
 Le beau livre que George Lafenestre a consacré au saint d’Assise
 retrace ainsi la genèse du « Cantique des Créatures ».
-
 « Deux ans avant sa mort, comme saint François souffrait beaucoup
 des yeux, le seigneur Hugolin, cardinal, qui l’aimait beaucoup, lui fit
 dire d’aller à Rieti où 1l y avait alors d'excellents oculistes. Au reçu
@@ -282,17 +199,17 @@ il souffrit tellement des yeux qu'’il ne pouvait plus supporter la
 lumière du ciel, ni même celle du feu. FEt madame Claire duf lui faire
 arranger, avec des nattes de joncs, une hutte où il passa plus de
 soixante jours dans la nuit et la douleur.
-
 « Se voyant ainsi crucifié par tant de douleurs, François, une cer-
 faine nuit, pris de pitié pour lui-même, dit à part soi : « Seigneur,
 Seigneur, viens à mon aide, secours-moi dans mon infortune, afin
 que j'aie la force de la supporter patiemment! » Et aussitôt il lui
-
-fut répondu, en esprit : « Mon frère, réjouis-toi et jubile dans tes]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001941_004.tif"/>
-<page><![CDATA[infirmités et afflictions. D'’ailleurs, sois aussi tranquille que si tu
+fut répondu, en esprit : « Mon frère, réjouis-toi et jubile dans tes
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001941_004.tif'/>
+        <page>
+          <![CDATA[infirmités et afflictions. D'’ailleurs, sois aussi tranquille que si tu
 étais déjà en mon royaume. »
-
 « Et le matin, quand il se leva, le bienheureux François dit à ses
 compagnons : « Il faut donc me réjouir beaucoup de toutes mes
 infirmités et tribulations, et me consoler en Dieu et rendre foujours
@@ -304,12 +221,10 @@ consolation et pour l’édification du prochain, faire un nouvel éloge
 des créations du Seigneur dont nous jouissons tous les jours, et dans
 lesquelles souvent le genre humain trouve occasion d’offenser le
 Créateur.
-
 « Alors, se mettant sur son séant, il médita quelques instants, puis
 il dit : « Très-Haut, Très-Puissant et Dieu Seigneur… » H fit un
 chant sur ces paroles qu’il nomma le Cantique du Soleil, et apprit
 à ses frères à le réciter et à le chanter. »
-
 Cette glorification des créations divines a fourni au compositeur
 suisse la matière d’un admirable commentaire musical. Une intro-
 duction confiée au ténor solo forme à l’'œuvre un majestueux por-
@@ -322,7 +237,6 @@ célébrée par le quatuor vocal. Une passacaille monumentale expose
 à son four la puissance de frère Feu, puis l’alto solo chante les
 louanges de notre sœur la Terre, qui nous dispense les fruits et les
 fleurs.
-
 Le passage consacré à la Mort est d’une puissance rare. En
 une sorte de vision du moyen âge italien, l’auteur nous dépeint,
 clamée par le chœur, l'épouvante de ceux qui sont morts en état de
@@ -331,230 +245,144 @@ multitude crie son désespoir et sa terreur. Mais les portes de l’église
 s'ouvrent, et une voix promet la miséricorde divine. Sur d’admi-
 rables thèmes grégoriens, le chœur « a capella » chante la joie des
 célestes récompenses, et l'œuvre s’achève dans une douce atmosphère
-
-de monastère, aux sons des cloches toscanes et des chants liturgiques.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001941_005.tif"/>
-<page><![CDATA[JTER
-
+de monastère, aux sons des cloches toscanes et des chants liturgiques.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001941_005.tif'/>
+        <page><![CDATA[JTER
 mann SU
-
 Her
-
 D
-
- 
-
 26.
-
 87()- 1Q
-
-1]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001941_006.tif"/>
-<page><![CDATA[]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001941_007.tif"/>
-<page><![CDATA[D
-
- 
-
- 
-
- 
-
+1
+]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001941_006.tif'/>
+        <page><![CDATA[]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001941_007.tif'/>
+        <page>
+          <![CDATA[D
 LF CANTIQUE DES CRÉATURES
-
 (CANTIQUE DU SOLEIL)
-
 de saint François d'Assise
-
 Altissimo, onnipotente, bon Signore,
-
 tue son le laude, la gloria e l'onore ed
 ogni benedizione.
-
 À te solo, altissimo, se confanno
-
 e I1UH() omo enne d€‘gn() te mentovare.
-
 Laudato sia, mio Sîgnm‘c, con tutte le
 tue creature,
-
 spec ialmente messer lo frate sole,
-
 lo qu.'tlc gîorna ed 1llumina per lui ;
-
 ed ello & bello e radiante con bfr:md('
-
 splendore ;
-
 di te, alfissimo, porta significazione.
-
 Laudato sia, mio Signore, per sora luna
 e le stcllc,
 in cielo l'hai formate chianite e preziose
-
 e belle.
-
 Laudato sia, mio Signore, per frate
 vento
-
 e per acre e nuvolo
-
 e sereno ed ogni tempo,
-
 per lo quale alle tue creature dai sus-
-
 tentamento.
-
 Laudato sia, mio Signore, per sor‘acqua,
 la (lll.‘llC è molto utile ed umile e pre-
-
 zlosa e casta.
-
 Laudato sia, mio Signore, per frate foco,
 per lo quale u allumini la notte,
 ed ello è bello € giocondo e robustoso e
-
 forte.
-
 Très Haut, très Puissant, Bon Seigneur,
-
 A Toi les l()ll.ll1‘:"t‘\, la gluirc et l'hon-
 neur et toute bénédiction !
-
 A Toi seul, Très Haut, ils conviennent,
-
 Et nul homme n'est tlignc de te nommer.
-
 Sois l(\uC‘, Mon S«'ig‘llt*…'. avec ftoutes
 les créatures,
-
 spécialement messire le frère Soleil,
-
 |,rquvl fait le jour et par lui nous éclaire,
-
 Et 1l est beau et rayonnant avec gl'.…tlt'
 \Pl('l](ll'lll',
-
 Et de Toi, Très Haut, 1l est la manifes-
-
 tation.
-
 Sois loué, Mon Seigneur, pour sœur
 Lune et les Etoiles
 (2\|(‘ tu as faites au Ciel, claires et |)l'(‘-
-
 cieuses et belles.
-
 Sois loué, Mon Seigneur, pour frère le
 Vent.
-
 Et pour l'Air, ou nuageux ou serein,
 et pour toutes Saisons,
-
 par lesquelles tu donnes réconfort à tes
-
 creatures.
-
 Sois loué, Mon Scignc…', pour sœur
 l'Eau,
 L:u]ucllv est trèés utile, humble, et p|‘Ë-
-
 cieuse, et chaste.
-
 Sois loué, Mon Seigneur, pour frère le
 Feu,
 Par lequel s’illumine la Nuit :
-
-[1 est beau et vigoureux et fort.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001941_008.tif"/>
-<page><![CDATA[Laudato sia, mio Signore, per
+[1 est beau et vigoureux et fort.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001941_008.tif'/>
+        <page>
+          <![CDATA[Laudato sia, mio Signore, per
 nostra matre terra,
-
 la quale ne sustenta e governa
-
 e produce diversi frutti
-
 con coloriti fiori ed erba.
-
 Laudato sia, mio Signore, .per que….
-
 che perdonano per lo tuo amore
 e sostengono infirmitate e tribulazione.
-
 Beati quelli che sosterranno in pace,
-
 che da te, altissimo, saranno incoronati.
-
 Laudato sia, mio Signore, per sora
 nostra morte corporale,
-
 dalla quale nullo omo vivente po scap-
 pare.
-
 Gnai a quelli che morranno nelle pec-
 ‘cata mortali ;
-
 beati quelli che si trovera nelle tue
 santissime voluntati,
-
 che la morte seconda nol farä male.
-
 Laudate et benedite mio Signore
 e ringraziate e serviteli con grande
-
 umilitate.
-
 Amen.
-
 Sois loué, Mon Seigneur, pour notre
 sœur, notre amie, la Terre,
-
 Laquelle nous soutient et nous mêne
-
 Et produit divers fruits avec les fleurs
-
 colorées et les herbes.
-
 Sois loué, Mon Seigneur, pour ceux qui
 pardonnent
-
 et supportent infirmités et tribulations ;
-
 Bien heureux qui les supporteront en
 paix.
-
 Car par toi, Très-Haut, ils seront cou-
-
 ronnés.
-
 Sois loué, Mon Seigneur, pour notre
-
 sœur la mort corporelle
-
 à laquelle aucun homme ne peut
-
 ,
 échapper.
-
 Malheur à ceux qui meurent en état de
 péché mortel,
-
 heureux ceux qui se trouveront confor-
 mes à tes très saintes volontes,
-
 car la seconde mort ne leur fera aucun
-
 mal.
-
 Louez et bénissez Mon Seigneur
 et rendez-lui grâces et servez-le avec
-
 grande humilité.
-
 Amen.
-
-Traouction d'après G. Lafenestre.]]></page>       
-        </p>
+Traouction d'après G. Lafenestre.
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

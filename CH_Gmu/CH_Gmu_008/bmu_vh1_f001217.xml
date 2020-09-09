@@ -1,126 +1,115 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par l'Harmonie nautique<date when="19/03/1916"/></title>
-<series>1915-1916</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par l'Harmonie nautique
+            <date when='19/03/1916'/>
+          </title>
+          <series>1915-1916</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F001217</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Pieyre, A. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19160319"/>
-<title>Concert donné par l'Harmonie nautique</title>
-<placeName key="Victoria Hall"/>
-<name key="1915-1916" type="series"/>
-<name key="Schumann, Robert" ref="https://muscat.rism.info/admin/people/131206" type="person" role="cmp">Schumann, Robert</name>
-<name key="Grieg, Edvard" ref="https://muscat.rism.info/admin/people/84066" type="person" role="cmp">Grieg, Edvard</name>
-<name key="Boskoff, G."  type="person" role="cmp">Boskoff, G.</name>
-<name key="Stierlin-Vallon"  type="person" role="cmp">Stierlin-Vallon</name>
-<name key="Scriabine"  type="person" role="cmp">Scriabine</name>
-<name key="Braïloï"  type="person" role="cmp">Braïloï</name>
-<name key="Blanchet"  type="person" role="cmp">Blanchet</name>
-<name key="Lauber, Joseph"  type="person" role="cmp">Lauber, Joseph</name>
-<name key="Saint-Saëns, Camille" ref="https://muscat.rism.info/admin/people/76734" type="person" role="cmp">Saint-Saëns, Camille</name>
-<name key="Pugnani, Gaetano" ref="https://muscat.rism.info/admin/people/30002608" type="person" role="cmp">Pugnani, Gaetano</name>
-<name key="Senaillé, Jean-Baptiste" ref="https://muscat.rism.info/admin/people/30012011" type="person" role="cmp">Senaillé, Jean-Baptiste</name>
-<name key="Salmon"  type="person" role="cmp">Salmon</name>
-<name key="Kreisler, Fritz" ref="https://muscat.rism.info/admin/people/52067" type="person" role="cmp">Kreisler, Fritz</name>
-<name key="Chabrier, Emmanuel" ref="https://muscat.rism.info/admin/people/48553" type="person" role="cmp">Chabrier, Emmanuel</name>
-<name key="Pieyre, Auguste (dir.)"  type="person" role="int">Pieyre, Auguste (dir.)</name>
-<name key="Harmonie Nautique"  type="person" role="int">Harmonie Nautique</name>
-<name key="Astruc, Yvonne"  type="person" role="int">Astruc, Yvonne</name>
-<name key="Boskoff, G."  type="person" role="int">Boskoff, G.</name>
-<name key="Nieswizski, Léon"  type="person" role="int">Nieswizski, Léon</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001217_001.tif"/>
-<page><![CDATA[arerorrA, ErATT,
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19160319'/>
+        <title>Concert donné par l'Harmonie nautique</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1915-1916' type='series'/>
+        <name key='Schumann, Robert' ref='https://muscat.rism.info/admin/people/131206' type='person' role='cmp'>Schumann, Robert</name>
+        <name key='Grieg, Edvard' ref='https://muscat.rism.info/admin/people/84066' type='person' role='cmp'>Grieg, Edvard</name>
+        <name key='Boskoff, G.' type='person' role='cmp'>Boskoff, G.</name>
+        <name key='Stierlin-Vallon' type='person' role='cmp'>Stierlin-Vallon</name>
+        <name key='Scriabine' type='person' role='cmp'>Scriabine</name>
+        <name key='Braïloï' type='person' role='cmp'>Braïloï</name>
+        <name key='Blanchet' type='person' role='cmp'>Blanchet</name>
+        <name key='Lauber, Joseph' type='person' role='cmp'>Lauber, Joseph</name>
+        <name key='Saint-Saëns, Camille' ref='https://muscat.rism.info/admin/people/76734' type='person' role='cmp'>Saint-Saëns, Camille</name>
+        <name key='Pugnani, Gaetano' ref='https://muscat.rism.info/admin/people/30002608' type='person' role='cmp'>Pugnani, Gaetano</name>
+        <name key='Senaillé, Jean-Baptiste' ref='https://muscat.rism.info/admin/people/30012011' type='person' role='cmp'>Senaillé, Jean-Baptiste</name>
+        <name key='Salmon' type='person' role='cmp'>Salmon</name>
+        <name key='Kreisler, Fritz' ref='https://muscat.rism.info/admin/people/52067' type='person' role='cmp'>Kreisler, Fritz</name>
+        <name key='Chabrier, Emmanuel' ref='https://muscat.rism.info/admin/people/48553' type='person' role='cmp'>Chabrier, Emmanuel</name>
+        <name key='Pieyre, Auguste' type='person' role='int'>Pieyre, Auguste</name>
+        <name key='Harmonie Nautique' type='person' role='int'>Harmonie Nautique</name>
+        <name key='Astruc, Yvonne' type='person' role='int'>Astruc, Yvonne</name>
+        <name key='Boskoff, G.' type='person' role='int'>Boskoff, G.</name>
+        <name key='Nieswizski, Léon' type='person' role='int'>Nieswizski, Léon</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001217_001.tif'/>
+        <page>
+          <![CDATA[arerorrA, ErATT,
 Î Ouverture des portes Ï »imauche 19 Mars 1916 On commencera à
-
- 
-
 à 1 heure ôT4. | .‘ heu}'es 11‘Î.
-
 CONCERT
-
 donné par
-
 L’HARMONIE NAUTIQUE
-
 (HARMONIE MUNICIPALE DE LA VILLE DE GENÈVE)
-
 sous la direction de
-
 M. Auguste PIEYRE
 Professeur au Conservatoire
-
 avec le gracieux concours de
 M" Yvonne ASTRUC M. G. BOSKOFF
 Violoniste, 1°" prix du Conservatoire de Paris. Pianiste.
-
 mn
 S CSrpnrpamme ? .
 —2 PROGRANNE —
-
- 
-
 PREMIÈRE PARTIF
-
- 
-
 1. Hermann et Dorothée, ouverture..........…. Schumann
 2. CONTUS n E Grieg
 Allegro con brio - Allegretto quasi andantino - Allegro molto vivace.
 M'e Y. Astruc et M. G. Boskoff.
-
 . 4)(maorommpal h 1 à
-
 ‘ b% Beîceuse ................................. ( Boskof]
 alpan-sespaienne n°l :.....….....….:….… Stierlin-Vallon
 ETE 0991 e n Scriabine
 donmonde … (… C. Braïloï
 J\POONEISS cecon t Blanchel
-
 g) Deuxième valse de concert .........… G. Boskoff
 M. G. Boskoff.
-
 . Sous les armes, fantaisie militaire ...........… J. Laubey
-
 DEUXIÈME PARTIE
-
 —
-
 miemiere symphonie … ..….…… … .… Saint-Saëns
 . a) Adagio et allegro. - b) Marche scherzo. - c) Final.
 C 'angoespressivoe. … ... Pugnani
@@ -128,61 +117,48 @@ l DENIIEgnonspmitosoe .. Senaillé-Salmon
 | JneludetetAllégre . .… Pugnani-Kreisler
 } M'e Y. Astruc.
 | OnF fantasques n 11 Chabries
-
 Au piano d'accompagnement : M. Léon NIESWIZSKI
-
 i Piano PLEYEL, aux soins'de la Maison Berguer.
 PRIX DES PLACES : Loges el premier rang de la première Galerie (numérotés), 2 fr. RKez-de-chaussée
 ] et autres places de la première Galerie, 1 fv. Seconde Galerie, 50 cent.
 MM. les membres non-exéecutants ont droit d’entrée
-
 à ce concert sur présentation du coupon
 « l'exception du premier vang et des loges,
 Les enfants au-dessous de dix ans paieront
-
 our la seconde galerie
-
 Dès ce jour, cartes à l’avance de 9 à 6 h, au Victoria-Hall
 Prière de ne pas entrer pendant l'exécution des morceaux
-
 'mprimerie H. Jarrys. Trellle, 4, Geneve
-
 n° 2 aux places du rez-de-chaussée et de la première galerie,
 auxquels ils ont droit moyennant nn supplément de 1 fvr.
 demi-place. Il ne sera pas délivré de demi places |
-
 BUFFET au rez-de chaussée.
-
-N S. V P]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001217_002.tif"/>
-<page><![CDATA[Cours d’Instruments
-
+N S. V P
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001217_002.tif'/>
+        <page>
+          <![CDATA[Cours d’Instruments
 DE
-
 L'HARMONIE NAUTIQUE DE GENÈVE
-
 e —p3——3—
 Solfège — Cuivres — Clarinette — Saxophone Hautbois
 Cor anglais —— Basson — Flûte.
-
 Directeur général : M. Aug. PIEYRE.
-
 Prix des cours de solfège, cuivres, clarinette, saxophone :
-
 5 fr. par mois.
-
 Les jeunes gens désireux de suivre ces cours peuvent s’inscrire tous
 les jours, de 11 heures à midi, auprès du Directeur, au Victoria-Hall.
 sP
 AVIS. — Pour être recu membre non-exécutant de l’Harmonie
-
 Nautique on peut s’inscrire tous les Jours chez le Concierge du
 arte
 est de S fr. par an et donne droit à deux entrées pour chaque
 concert donné par l’Harmonie Nautique.
-
-Victoria-Hall ou par lettre adressée au Comité: le prix de la c]]></page>       
-        </p>
+Victoria-Hall ou par lettre adressée au Comité: le prix de la c
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

@@ -1,200 +1,141 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par l'Harmonie nautique<date when="09/12/1928"/></title>
-<series>1928-1929</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par l'Harmonie nautique
+            <date when='09/12/1928'/>
+          </title>
+          <series>1928-1929</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F001948</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Gabelles, G.</note>
+        <note>Kunz, A. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19281209"/>
-<title>Concert donné par l'Harmonie nautique</title>
-<placeName key="Victoria Hall"/>
-<name key="1928-1929" type="series"/>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Schumann, Robert" ref="https://muscat.rism.info/admin/people/131206" type="person" role="cmp">Schumann, Robert</name>
-<name key="Schubert, Franz" ref="https://muscat.rism.info/admin/people/111603" type="person" role="cmp">Schubert, Franz</name>
-<name key="Gabelles, Gustave  (dir.)" ref="https://muscat.rism.info/admin/people/30073762" type="person" role="int">Gabelles, Gustave  (dir.)</name>
-<name key="Kunz, A. (dir.)"  type="person" role="int">Kunz, A. (dir.)</name>
-<name key="Harmonie Nautique"  type="person" role="int">Harmonie Nautique</name>
-<name key="Liederkranz"  type="person" role="int">Liederkranz</name>
-<name key="Schlerff, Maria"  type="person" role="int">Schlerff, Maria</name>
-<name key="Bruel, Eliane"  type="person" role="int">Bruel, Eliane</name>
-<name key="Knechtli-Béran (Mme)"  type="person" role="int">Knechtli-Béran (Mme)</name>
-<name key="Bochet, Henri"  type="person" role="int">Bochet, Henri</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001948_001.tif"/>
-<page><![CDATA[R
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19281209'/>
+        <title>Concert donné par l'Harmonie nautique</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1928-1929' type='series'/>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Schumann, Robert' ref='https://muscat.rism.info/admin/people/131206' type='person' role='cmp'>Schumann, Robert</name>
+        <name key='Schubert, Franz' ref='https://muscat.rism.info/admin/people/111603' type='person' role='cmp'>Schubert, Franz</name>
+        <name key='Gabelles, Gustave' ref='https://muscat.rism.info/admin/people/30073762' type='person' role='int'>Gabelles, Gustave</name>
+        <name key='Kunz, A.' type='person' role='int'>Kunz, A.</name>
+        <name key='Harmonie Nautique' type='person' role='int'>Harmonie Nautique</name>
+        <name key='Liederkranz' type='person' role='int'>Liederkranz</name>
+        <name key='Schlerff, Maria' type='person' role='int'>Schlerff, Maria</name>
+        <name key='Bruel, Eliane' type='person' role='int'>Bruel, Eliane</name>
+        <name key='Knechtli-Béran (Mme)' type='person' role='int'>Knechtli-Béran (Mme)</name>
+        <name key='Bochet, Henri' type='person' role='int'>Bochet, Henri</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001948_001.tif'/>
+        <page>
+          <![CDATA[R
 VICTORIA HALL
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Ouverture ÿ } ps On
 des portes à Dimanche 9 décembre 1928 ! commencera à
 14 heures ‘1Î h45 _
 /
 CON CIEIRT
 donné par
-
 L’HARMONIE NAUTIQUE
-
 (HARMONIE MUNICIPALE DE LA VILLE DE GENÈVE)
 Directeur: M. Gustave GABELLES
-
 avec le bienveillant concours de
-
 M'e Maria SCHLERFF M'le Eliane BRUEL
-
 Cantatrice Plianiste, diplômée du Conservatoire de Genève.
-
 La Chorale LIEDERKRANZ
-
 Directeur: M. A. KUNZ
-
 ! PROGRAMMIE
-
 ; Première partie
-
 f 1. PREMIÈRE SYMPHONIE (op. 21) . . . . . . Beethoven
-
 ï . Adagio molto e allegro con brio. Andante cantabile con moto.
-
 | Minuetto. Adaglo e allegro molto vivace.
-
 . E COOMNCERTSTUCK (0p.92):. .. ... . .… . Schumann
-
 , Pour piano et orchestre.
-
 I Mile E. BRUEL.
-
 , Deuxième partie
 Ÿ CENTENAIRE DE LA MORT DE
 ! FRANZ SCHUBERT
 ;; (1828-1928)
 l!__ 3. a) PSAUME XXIII
-
 à b) VALSES
-
 I ® LIEDERKRANZ.
-
 (. Au plano : Mme KNECHTLI-BÉRAN
 | 4. SYMPHONIE INACHEVÉE. Allegro moderato. Andante con moto.
 } 5. CINQ LIEDER:
-
 LIEBESBOTSCHAFT.- FRÜHLINGSTRAUM - NACHT UND TRAUME
 KLARCHENS LIED - UNGEDULD.
 Mlile Marla SCHLERFF.
-
 - AIR DE BALLET DE ROSAMUNDE
-
- 
-
 Au plano d’accompagnement: M. Henri BOCHET.
 Piano de concert BECHSTEIN aux soins de la maison Guignard
-
- 
-
- 
-
- 
-
 CIGARETTES
-
 LAUHEN
-
 23 GHANDS PRIX j' û HORS CONCOUR5*-
-
- 
-
- 
-
- 
-
 p e
-
-Imp. CHAPUIS & BAUMEISTER, Rue du VStund, 17, Genève]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001948_002.tif"/>
-<page><![CDATA[æ
-
- 
-
- 
-
+Imp. CHAPUIS & BAUMEISTER, Rue du VStund, 17, Genève
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001948_002.tif'/>
+        <page>
+          <![CDATA[æ
 Pour voyager agréablement et sans soucis, adressez-vous à
-
 L'AGENGE
-
 C. BLENK, FERT & Co
-
 1, Rue du Mont-Blanc, 1
 Angle Quai des Bergues
-
 GENEBVEF
-
 Tous les billets de chemins de fer et de passages
 maritimes aux conditions des tarifs
-
 CHÈQUES DE VOYAGEURS - BANQUE - CHANGE
 VOYAGES A FORFAIT
-
- 
-
- 
-
 PREMIÈRE SYMPHONIE (ut majeur, op. 21) — L. van Beethoven.
-
 Cette symphonie est dédiée au baron Van Sweiten, grand admirateur
 de Bach et de Hændel, lui-même compositeur de symphonies « aussi rudes
 qu’il l’était lui-même », d’après un mot de Haydn.
-
 Elle fut exécutée à Vienne, pour la première fois, le 2 avril 1795.
-
 Berlioz donne l’appréciation suivante sur cette symphonie. « L’æuvre,
 par sa forme, par son style méthodique, par sa sobriété harmonique, par
 son instrumentation, se distingue tout à fait des autres compositions de
@@ -204,295 +145,157 @@ partout ingénieusement imitées. Dans la première et seconde partie,
 pourtant, on voit poindre de temps en temps quelques rythmes dont l’au-
 teur de don Juan a fait usage, il est vrai, mais fort rarement et d’une
 façon beaucoup moins saillante.
-
- 
-
- 
-
 GRANDE BRASSERIE ET CAFÉ DU XX" SIÈCLE
-
 23, Boulevard Georges-Favon
-
 GENÈVE
 A
-
 Bières de Munich - Pilsen-Urquell - Spéciale Bittrée - Brune et
 Blonde ordinaire - Apéritifs de marque - Dégustation des grands
 vins français - Lunch à fr. 3— et 3.50 - Grande carte de spécialités
 Tous les samedis “Amourettes ”” - Menus fins sur commande
-Salle de société]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001948_003.tif"/>
-<page><![CDATA[©
-
-   
- 
-
- 
-
- 
-
- 
-
+Salle de société
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001948_003.tif'/>
+        <page>
+          <![CDATA[©
 BANQUE
 POPULAIRE SUISSE
-
 Capital et Réserves: 141.000.000
-
 Place Saint-Gervais
 18, COURS DE RIVE - 2, ROUTE DES ACACIAS
-
- 
-
 Son principe d’avoir toujours soin des intérêts de sa
 clientèle et de la contenter dans la mesure du possible a fait
-
 sa force et sa prospérité
-
- 
-
 Le troisième morceau de la symphonie s’intitue « Minuetto ». Ce titre,
 habituel aux symphonies de ses prédécesseurs, fut bientôt abandonné par
 Beethoven qui fut amené à lui préférer la coupe du scherzo, plus dramati-
 que, plus chaleureuse, plus impérieuse aussi.
-
 Le finale de cette symphonie est empreint d’une gaieté, d’une verve
 fine et spirituelle tout à fait exceptionnelle chez Beethoven dont la nature
 géniale et profonde, mais souvent amère et triste, sourit parfois, mais
 ne rit presque jamais.
-
 C’est un épisode isolé dans la vie du Maître ; dans aucune des œuvres
 qui suivront, pas même dans la danse paysanne de la symphonie pastorale,
 nous ne retrouverons l'insouciance apparente, la bonne humeur presque
 «rossinienne » qu’évoque ce finale,
-
- 
-
- 
-
 3 PREMIERS PRIX - 2 DEUXIÈMES PRIX 6 PREMIERS ACCESSITS - 2 SECONDS ACCESSITS
-
 MANUFACTURE GÉNÉRALE o'INSTRUMENTS be MUSIQUE
-
 - La plus Importante du monde
 Hors, COnçOUxS Société en commandite par actions au capital de 10 millions Hors Concours
-
 Menibre du Jury IE Membre dn Jury
 Exposition univer- Exposition univer-
 selle de Paris 4900 selle de Paris 1900
 et Genève 4927 et Genève 1927
 94, Rue d’Angoulême, PARIS
-
 Fournisseurs du Conservatoire Hational de IMusique de Paris
 de la Garde Républicaine et des Ministères de la Guerre et de fa IMarine
 et des Grands Concerts
 Spéolallté d’Instruments pour Harmonies, Fanfares, Orohestres, Soolétés de
 @ymnastique, de TIr, Sapeurs-Pompiers, Jazz-Bands ot Nouveautés Musloales
-
 Nouvelle victoire des Instruments MONOPOLE COUESNON
-aux Concours annuels du Conservatoire National de Musique de Paris (Juin 1928)]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001948_004.tif"/>
-<page><![CDATA[SOCIÉTÉ DE
-
+aux Concours annuels du Conservatoire National de Musique de Paris (Juin 1928)
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001948_004.tif'/>
+        <page>
+          <![CDATA[SOCIÉTÉ DE
 BANQUE SU sSE
-
 = FONDÉE EN 182 — ””
 Capital-actions et Réserves : 182 millions
-
 6-10, Corraterie - GENÈVE - Corraterie, 6-10
 CORNAVIN | EAUX-VIVES
-
 10, Place de Cornavin 3, Place des Eaux-Vives
-
 PLAINPALAIS | CAROUGE
 36, Rue de Carouge | 11, Rue du Marché
-
- 
-
 TOUTES OPÉRATIONS DE BANQUE AUX MEILLEURES CONDITIONS
-
- 
-
 CENTENAIRE DE LA MORT DE FRANZ SCHUBERT
-
 1828-1928
-
 Toutes les grandes villes ont rendu hommage à la mémoire de ce pur
 viennois, dont les lieder disent si tendrement, si profondément, l’amour
 et la douleur; l’Harmonie Nautique se fait un devoir d’inscrire au pro-
 gramme de son deuxième concert d’hiver les plus belles pages du maître,
 afin de célébrer une gloire si touchante !
-
 FRANZ SCHUBERT est né à Lichtenthal près de Vienne le 31 janvier 1797
 et il est mort à Vienne le 19 novembre 1828.
-
 Bien souvent, Schubert nous fait penser à Beethoven. Il lui ressemble
 par la profondeur de l’émotion, par la puissance d’expression, par la gran-
 deur tragique.
-
 Schubert est le maître du lied, jamais il ne fut encore dépassé, ni
 même égalé. Notons en outre qu’il inventa un genre absolument nouveau
 en transportant le lied dans le domaine de la musique instrumentale.
-
 (Suite page 9)
-
- 
-
- 
-
- 
-
- 
-
 TFENNIS
-
 riche assortiment en RAQUETTES
-
 Modèles pour enfants . . . . dep. fr. 7.75
 » » adultes .… ,:; » »> 148 —
-
 Toutes les marques de BALLES TENNIS
 depuis fr. 47.50 la douzaine
 @
-
 Delacroixriche
-
 57, Rue du Rhône - GENÈVE - Grand-Quai, 38
-
-   
-
- 
-
- 
-
- 
-
 es
-
- 
-
- 
-
- 
-
- 
-
 OE EN R
-
 SREE
-
 b tepéniaae
-
-C e]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001948_005.tif"/>
-<page><![CDATA[e
-
-   
-
- 
-
- 
-
+C e
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001948_005.tif'/>
+        <page>
+          <![CDATA[e
 ses consommations
-
 son site incomparable
-
 lîiosque (lu jarclin 3nglais
 ses repas freY v fils
-
- 
-
 0rc11estre sottiaux
-
 en hiver salle communale de plainpalais
-
- 
-
 GRANDE
-
 BOUCHERIE DU MOLARD
-
 BOVAGNE & DURET
-
 TÉLÉPHONE STAND 05.85
-
 La plus importante maison de
-
 Genève, ce qu’il y a de plus
-
 moderne comme magasin de
-
 vente et installation frigori-
 fique.
-
 A
-
 Toujours les meilleures mar-
 chandises, le plus grand choix
 et les prix les plus modérés.
-
 Service de commande très soigné et
 livraison rapide dans toutes les
 directions.
-
- 
-
- 
-
 Spécialité d’AGNEAU DE PRÉ-SALÉ
-
- 
-
- 
-
 50/ d’Escompte en tickets jaunes de l’U. C. G. pour tous les achats faits
 0 au comptant.
-
- 
-
- 
-
- 
-
 Buvez un
-
 AMER PICON
-
-Exigez-le]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001948_006.tif"/>
-<page><![CDATA[Au Dépôt général du Poisson du Lac Léman
-
+Exigez-le
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001948_006.tif'/>
+        <page>
+          <![CDATA[Au Dépôt général du Poisson du Lac Léman
 Maison fondée en 1848
-
 LUGRIN & Cie (s.A.)
-
 46, Rue du Rhône, 46 - Genève
-
 Adr. télégr.: LUGRIN-GENÈVE - AUCUNE SUCCURSALE - Téléphone: Stand 2100
-
 Volailles de Bresse - Gibiers de toutes provenances
 Poissons du Lac
 Marée française - Huitres de Claires de Marennes
 Arrivages directs et journaliers
 Langoustes du parc de Camaret
 Comestibles de toufes espèces - (Conserves des lres marques
-
 L’importance de la vente lui permet de ne jamais
 constituer de stock et de garantir à sa clientèle la qualité et la fraîcheur de ses marchandises
-
 Expéditions en tous pays
-
- 
-
- 
-
 HARMONIE NAUTIQUE
-
 MEMBRES DU COMITÉ:
 MM. G. MARTINET, président ; G. GABELLES, directeur ; J. LICKERT et
 E. LEUTÉ, vice-présidents ; A. PORTIER, secrétaire ; F CHAPUIS, vice-
 secrétaire ; M. GALFRE, trésorier ; P. MURITH, vice-trésorier ; E. BURDET,
 bibliothécaire ; M. DEPRAZ et J. VIBERT, économes.
-
 MEMBRES EXÉCUTANTS (1928)
 Flûtes : MM. BLuMm - Baup - SEmpEL - LEvy - STOCKBURGER.
 Hautbois et cor anglais: MM. VEYRAT - ENGEL - Gya1 - PAINOT.
@@ -500,198 +303,101 @@ Petites clarinettes : MM. SANTANDRÉA - BéBoux.
 Clarinettes: MM. DéPRAZ - PORTIER - RiEUNauD - MURITH
 PEZZOTTI - DUCRET - SCHWITZGUÉBEL - Moisy - ROTH - ZIBACH
 GYsIN - MARTI - BURDET - MÉDA - VANBIANCHI - NONNEMANN
-
 TRANSPORTS'FUNÈBRES
-
 Ancienne Maison MURITH, DUPARC & FERT Fondée en 1888
-
 A. MURITH s.a.
-
 # GENEÈVE - siège Social : Rue des Chaudronniers, 16
-
 Téléph. Stand O.121 (Service permanent)
-
 Fabrique de Cercueils Automobiles Funéraires
-
 L’Administration se charge, sans aucun déplacement pour les
 familles, de toutes les démarches et formalités relatives aux
-
 Inhumations —  Exhumations — Incinérations —  Transports
-
 voriuares CENTRAL-DEUIL snes-rs,16 |
-
 e e rrs e d
-
-t t r «]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001948_007.tif"/>
-<page><![CDATA[\@
-
- 
-
- 
-
+t t r «
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001948_007.tif'/>
+        <page>
+          <![CDATA[\@
 E .cs Îâuws
-
 de
-
 S PIFURIOT
-
 RUE DE RIVE, 15 fleuriste artistique
-
- 
-
- 
-
 Membres exécutants (suite)
-
 BERGOIN - BoDOIRA - CHATELAIN - GABELLES fils - MARTIGNIER
 VIGNA - BuscH. - GINDRE - BINET.
-
 Clarinette basse : M. BESSON.
-
 Bassons : MM. FRANCcOUAL Ch. - FRANCOUAL J. - LANCOUX.
-
 Saxophones : MM. D’IvERNOIS - GONDRET - PEDRONI - BôscH
 MARET - VANAT H. - CLÉMENT - RovBIN - ENGEL - RHAN
-
 RizzATo.
-
 Cors: MM. ZBINDEN - PIGUET - MARTIN R. - RETSCHINSKY
 BoccArD J. - BINEATI - MATTEUZZI.
-
 Cornets à pistons: MM. DuponT - M. Cxapuis - Droz
-
 DEcrouUx L. - TRISCONI - SIGNORINI - M6.
 Bugles : MM. Poncionr - GuyoT - REvoL - REISSER.
 Trompettes : MM. E. BurpEeT - CoLomBo - RossET - MAIRE.
 Trombones : MM. Sinay - PioTToN - Ch. MARTIN - MAITRE - RocH
 Marc PoRTIER - BALESTRA.
-
- 
-
- 
-
- 
-
- 
-
 BlSCUIÏS
-
 PERNOÏ
-
 GENÈVE
 La grande marque Suisse des
-Desserts fins]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001948_008.tif"/>
-<page><![CDATA[m
-
- 
-
+Desserts fins
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001948_008.tif'/>
+        <page>
+          <![CDATA[m
 | Hem DEVRED-VÊTEMENTS
-
 Place St-Gervas  GENEVE — Rue de Coutance
-
 La plus grande spécialité pour hommes, jeunes gens et enfants
-
 VISITEZ COMPAREZ
 Û SES MARCHANDISES
 à qualités égales Û à façons égales
-
 SES MAGASINS
 MEILLEUR MARCHÉ QUE PARTOUT AILLEURS
-
- 
-
- 
-
 Membres exécutants (suile)
-
 Barytons, Basses et contrebasses : MM. GREBER - Ducray
 VIBERT - D’OLIVEIRA - CHOUARD - OMARINI - MOLINATTI
 MONTILLARD - BOssON - ABREZOL.
-
 Contrebasses à cordes : MM. RIcCHTER - MAYER - KNUCHEL.
-
 Batterie : MM. KurT - DELOCHE - DESCOMBES - GRIEDER - BELET
 Gav.
-
- 
-
 AVIS. — Les personnes qui désirent devenir «membres passifs » de
 l’Harmonie Nautique peuvent s’inscrire au Victoria Hall ou à la Librairie
 Richard (80, rue du Rhône), et auprès des membres de la Société. La carte
 de «membre passif» donne droit à deux entrées pour chaque concert
 donné par l’Harmonie Nautique.
-
 FAITES VOS ACHATS de préférence chez les commerçants indiqués
 dans nos programmes analytiques !
-
- 
-
- 
-
 MUSIQUE ..
-
 c1a551que 27 1110(1ern6 Grancl clxoix pour piano, violon et c11ant
-
 16, Corraterie Méthodes - Partitions
-
- 
-
 TÉLÉPHONE : STAND 0.685 Littérature musicale
-
 VENTE ET ABONNEMENT
-
 Accessoires divers
-
 Ancienne Maison CHOUET & GADEN
-
 Alfred P ÉNA RD, Successeur
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-    
-
 ...
-
 |
 |
 1
 |
-
-e]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001948_009.tif"/>
-<page><![CDATA[CAFÉ-RESTAURANT
+e
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001948_009.tif'/>
+        <page>
+          <![CDATA[CAFÉ-RESTAURANT
 CROIX-D'OR, 2
-
 Déjeuners et Dîners -  Choucroute extra toute l’année
-
 BIÈRES WARTECK de Bâle
 et VINS de première qualité
-
 GRANDE BRASSERIE CENTRALE
-
 TÉL. STAND 34.62
-
- 
-
 Salle au premier E. MAYERAT \
-
- 
-
-   
-
 Schubert était né pauvre et vécut pauvre, mais avec une insouciance de
 bohème. Il habitait tantôt chez un ami, tantôt chez l’autre, avait recours
 à la bourse de ses compagnons plus fortunés que lui, mais n’admettait
@@ -700,28 +406,24 @@ Longtemps ses lieder passèrent en manuscrits de mains en mains. À qui
 lui Çisait que cette mélodie était plaisante, il la donnait, souvent sans en
 avoir pris copie. Un camarade avait chez lui, ainsi, plusieurs centaines de
 lieder qu’il ne se souciait point de porter à l’éditeur…
-
 _ Schubert non-plus, d’ailleurs. 1 composail parce qu’il n’avait de plai-
 sir qu’à composer, sur tous les poèmes, bons ou médiocres. Il ne savait
 pas refuser des strophes à qui sollicitait pour elles l’honneur de sa musi-
 que. Il aimait les longues flâneries dans les tavernes, le visage des ser-
-vantes et les longs débats entre amis dans les chambres enfumées.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001948_010.tif"/>
-<page><![CDATA[LA
-
+vantes et les longs débats entre amis dans les chambres enfumées.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001948_010.tif'/>
+        <page>
+          <![CDATA[LA
 BIÈRE
 DES
-
 CONNAISSEURS
-
- 
-
 Romantique, il l’était tout naturellement, nerveux, sensible, amou-
 reux timide parce qu’il savait qu’il n’était pas beau, hanté par les succès
 des théâtres qu’il ne connut jamais, transporté par des accès de piété,
 comme un enfant. À trente et un ans, il mourut, évoquant, dans son ago-
 nie, Beethoven, son dieu terrestre, auprès duquel il repose…
-
 Sa vie a déjà la beauté un peu fanée des légendes. Il s’en faut de peu
 que, pour certains, son œuvre n’ait aussi qu'une grâce passée. Que le
 centenaire de sa mort éloigne de lui cette injustice ! Que l’on écoute cet
@@ -731,77 +433,36 @@ dante, qui salue aussi puissamment l’aube et ses promesses que les mélan-
 colies du soir. Il faut aimer ce jeune homme. Il est du peuple. Il a chanté
 pour lui. Il vit encore en lui, là-bas, à Vienne, où, dans les faubourgs, par
 les fenêtres entr’ouvertes, on entend des voix qui répètent ses secrets…
-
- 
-
- 
-
- 
-
- 
-
 CLARINETTES, FLUTES, HAUTBOIS
-
 de la maison
-
 LEBLANC
-
 70?', rue des Rigoles - PARIS
 ont été appréciés par tous les connaisseurs
 à l'Exposition de la Musique
 à Genève
-
- 
-
- 
-
- 
-
- 
-
- 
-  
-   
- 
- 
-
 e d r c e
-
 v
-
- 
-
-—]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001948_011.tif"/>
-<page><![CDATA[Pharmacie de l’Université
-
+—
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001948_011.tif'/>
+        <page>
+          <![CDATA[Pharmacie de l’Université
 11, rue du Conseil-Général — GENÈVE — Téléphone Stand 23.34
-
 C. TAUCHER
-
 Pharmacien-chimiste diplômé fédéral
-
- 
-
 Pharmacie d'ordonnances recom-
 mandée par le corps médical.
-
 Exécution scrupuleuse de toutes /es
 ordonnances avec des produits de
 marque et chimiquement purs par ;
 un personnel scientifique et diplômé. | et taxées aux tarifs les plus bas flxés.
-
 Les ordonnances pour/es sociétés de
 secours mutuels, caisses de mala-
 dies, assurance scolaire, ete., sont
 exécutées avec tfous /es soins voulus
-
 Spécialités de tous les pays — Service à domicile
-
- 
-
 SYMPHONIE INACHEVÉE
-
 Cette symphonie ne contient que deux morceaux. On pourrait croire
 que la mort interrompit le compositeur au cours de son travail, car l'œu-
 vre s’annonçait assez riche d’inspiration, assez belle pour mériter qu’il lui
@@ -813,98 +474,52 @@ quement au milieu d’une phrase commencée, se désintéressa de l’ouvrage
 et, par la suite, n’y revint plus, sans qu’on ait jamais connu les motifs de
 cet inexplicable abandon. Ce n’est qu’en 1865 que furent exécutés, pour la
 première fois, les deux mouvements achevés.
-
- 
-
- 
-
 Pour avoir un grand choix de
-
 M U Siÿ UE — ;l faut prendre un
-
 abonnement
-
 chez
-
 Rotsch 1 /rêres —.
-
- 
-
- 
-
- 
-
- 
-
-—]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001948_012.tif"/>
-<page><![CDATA[Randor - Friederich
-
+—
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001948_012.tif'/>
+        <page>
+          <![CDATA[Randor - Friederich
 S SA -
 FABRIQUE A CHÊNE-BOURG
-
- 
-
- 
-
 Lessives - Cristaux de soude
 Encaustiques
 Cires, Cierges, Bougies de Noël
-
 Gralsses surfines pour usages culinaires :
 Oleol - Alpina - Nostras - Etoile - Union
-
 Savons de ménage : Bougies :
-
 Souris - Lyre - Vénus - Chêne - Alpa | Couronne - Brillant - Diamant - Vénus
-
- 
-
 Bien que cette œuvre soit de six ans antérieure à la grande sympho-
 nie en uwt majeur, elle lui est cependant supérieure au point de vue de la
 forme, et l’on n’y trouve aucune de ces longueurs qui rendent l’audition
 de l'autre symphonie un peu fatigante.
-
 Le premier mouvement, allegro moderato 3/4, renferme, comme
 second motif, une perle mélodique célèbre. Ce thème exquis accapare tel-
 lement l’attention de l’auditeur, et se fixe si bien dans sa mémnoire que
 tout ce qui vient après souffre, plus ou moins, de ce trop charmant voisi-
 nage.
-
 Les deux motifs de l’andante con moto 3/8 : le premier simple et can-
 dide, le second d’une expression élevée, forment contraste et résument on
 ne peut mieux la nature musicale de Schubert, composée de naïveté popu-
 laire et d’envolées vers l’idéal.
-
- 
-
- 
-
- 
-
 Musique Prior et Librairie circulante
-
 sont transiérés à la “Petite Corraterie ”
-
 Fr. 15.— par an ou fr. 2.50 par mois
 pour un livre ou trois cahiers de musique
 échangeables tous les jours
-
 Nouveautés littéraires et musicales dès parution. Tarif postal spécial.
 Catalogue à disposition.
-
 Cité, 16: Vente, achat et échange de livres anciens et modernes
-
- 
-
- 
-
- 
-
 n e e
-
-1x É5N]]></page>       
-        </p>
+1x É5N
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

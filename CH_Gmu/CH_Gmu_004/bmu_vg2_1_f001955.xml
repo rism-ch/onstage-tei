@@ -1,117 +1,112 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert<date when="13/06/1883"/></title>
-<series>1882-1883</series>
-<placeName>Kiosque (Promenade des Bastions)</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert
+            <date when='13/06/1883'/>
+          </title>
+          <series>1882-1883</series>
+          <placeName>Genève, Kiosque (Promenade des Bastions)</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VG2-1 F001955</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Senger, H. de (dir)</note>
+        <note>Date présumée</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18830613"/>
-<title>Concert</title>
-<placeName key="Kiosque (Promenade des Bastions)"/>
-<name key="1882-1883" type="series"/>
-<name key="Moog, J."  type="person" role="cmp">Moog, J.</name>
-<name key="Kéler, Béla" ref="https://muscat.rism.info/admin/people/30016648" type="person" role="cmp">Kéler, Béla</name>
-<name key="Joseneau"  type="person" role="cmp">Joseneau</name>
-<name key="Tit'l"  type="person" role="cmp">Tit'l</name>
-<name key="Bilse, Benjamin" ref="https://muscat.rism.info/admin/people/18342" type="person" role="cmp">Bilse, Benjamin</name>
-<name key="Joncières"  type="person" role="cmp">Joncières</name>
-<name key="Meyerbeer, Giacomo" ref="https://muscat.rism.info/admin/people/725" type="person" role="cmp">Meyerbeer, Giacomo</name>
-<name key="Mattei"  type="person" role="cmp">Mattei</name>
-<name key="Bienert"  type="person" role="cmp">Bienert</name>
-<name key="Senger, Franz Ludwig Hugo von  (dir.)" ref="https://muscat.rism.info/admin/people/30015297" type="person" role="int">Senger, Franz Ludwig Hugo von  (dir.)</name>
-<name key="Orchestre de la Ville de Genève"  type="person" role="int">Orchestre de la Ville de Genève</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_1_f001955_001.tif"/>
-<page><![CDATA[e ‘ %
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18830613'/>
+        <title>Concert</title>
+        <placeName key='Genève, Kiosque (Promenade des Bastions)'/>
+        <name key='1882-1883' type='series'/>
+        <name key='Moog, J.' type='person' role='cmp'>Moog, J.</name>
+        <name key='Kéler, Béla' ref='https://muscat.rism.info/admin/people/30016648' type='person' role='cmp'>Kéler, Béla</name>
+        <name key='Joseneau' type='person' role='cmp'>Joseneau</name>
+        <name key='Tit&apos;l' type='person' role='cmp'>Tit'l</name>
+        <name key='Bilse, Benjamin' ref='https://muscat.rism.info/admin/people/18342' type='person' role='cmp'>Bilse, Benjamin</name>
+        <name key='Joncières' type='person' role='cmp'>Joncières</name>
+        <name key='Meyerbeer, Giacomo' ref='https://muscat.rism.info/admin/people/725' type='person' role='cmp'>Meyerbeer, Giacomo</name>
+        <name key='Mattei' type='person' role='cmp'>Mattei</name>
+        <name key='Bienert' type='person' role='cmp'>Bienert</name>
+        <name key='Senger, Franz Ludwig Hugo von' ref='https://muscat.rism.info/admin/people/30015297' type='person' role='int'>Senger, Franz Ludwig Hugo von</name>
+        <name key='Orchestre de la Ville de Genève' type='person' role='int'>Orchestre de la Ville de Genève</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_1_f001955_001.tif'/>
+        <page>
+          <![CDATA[e ‘ %
 CONŒRT
-
 Programme officiel
 Meëcredi 13 Juin, à 8 h. du soir
-
 s0ciété civile de l’Orchestre de h Ville
-
 Direction de M. Hugo de SENGER
-
 PREMIÈRE PARTIE
-
 {. Appolina, marche . . 1 Mooc
 2. Comédies françaises, ouverture
 3. La Volière, polka pour petite flüte.
 M. Jean Moog. à e
 4. Sérénude, pour flûte et cor, MM. Bri-
 vady et de Blayeses - En
-
 - Airs Silésiens, pour deux violons,
 I MM. Rey et Kolster.
-
 KÉLER-BfLa
-
 JOSENRAU
-
 S
-
 BILsE
-
 DEUXIÈME PARTIE
-
 6. Sérénade hongroise
-
 /. Grande fantaisie sur Robert-le-
 Diable . ;
-
 8. 'l‘burbillon, valse .
 ; Sohniek, Sehnack, quadrille .
-
 ‘ 4 \_
-
 JONCIÈRES.
-
 MEYERBEER
 MATTEI
 BIENERT
-
- 
-
 e réserve
-
 En cas de force majeure, le Chef d’orchestre s
-de modifier le programme.]]></page>       
-        </p>
+de modifier le programme.
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

@@ -1,506 +1,259 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par le Corps de musique de Landwehr<date when="18/02/1934"/></title>
-<series>1933-1934</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par le Corps de musique de Landwehr
+            <date when='18/02/1934'/>
+          </title>
+          <series>1933-1934</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002902</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Hoogstoël, L. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19340218"/>
-<title>Concert donné par le Corps de musique de Landwehr</title>
-<placeName key="Victoria Hall"/>
-<name key="1933-1934" type="series"/>
-<name key="Rossini, Gioachino" ref="https://muscat.rism.info/admin/people/63766" type="person" role="cmp">Rossini, Gioachino</name>
-<name key="Templeton-Strong"  type="person" role="cmp">Templeton-Strong</name>
-<name key="Breton, T."  type="person" role="cmp">Breton, T.</name>
-<name key="Honegger, Arthur" ref="https://muscat.rism.info/admin/people/464584" type="person" role="cmp">Honegger, Arthur</name>
-<name key="Mozart, Wolfgang Amadeus" ref="https://muscat.rism.info/admin/people/115324" type="person" role="cmp">Mozart, Wolfgang Amadeus</name>
-<name key="Franck, César" ref="https://muscat.rism.info/admin/people/70009" type="person" role="cmp">Franck, César</name>
-<name key="Hoogstoël, Léon (dir.)"  type="person" role="int">Hoogstoël, Léon (dir.)</name>
-<name key="Corps de musique de Landwehr"  type="person" role="int">Corps de musique de Landwehr</name>
-<name key="Société des instruments à vent de Genève"  type="person" role="int">Société des instruments à vent de Genève</name>
-<name key="Pépin, André"  type="person" role="int">Pépin, André</name>
-<name key="Dennes, P."  type="person" role="int">Dennes, P.</name>
-<name key="Hoogstoël"  type="person" role="int">Hoogstoël</name>
-<name key="Helaerts, H."  type="person" role="int">Helaerts, H.</name>
-<name key="Böhler, Arthur"  type="person" role="int">Böhler, Arthur</name>
-<name key="Auber, J."  type="person" role="int">Auber, J.</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002902_001.tif"/>
-<page><![CDATA[CORPS DE MUSIQUE
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19340218'/>
+        <title>Concert donné par le Corps de musique de Landwehr</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1933-1934' type='series'/>
+        <name key='Rossini, Gioachino' ref='https://muscat.rism.info/admin/people/63766' type='person' role='cmp'>Rossini, Gioachino</name>
+        <name key='Templeton-Strong' type='person' role='cmp'>Templeton-Strong</name>
+        <name key='Breton, T.' type='person' role='cmp'>Breton, T.</name>
+        <name key='Honegger, Arthur' ref='https://muscat.rism.info/admin/people/464584' type='person' role='cmp'>Honegger, Arthur</name>
+        <name key='Mozart, Wolfgang Amadeus' ref='https://muscat.rism.info/admin/people/115324' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Franck, César' ref='https://muscat.rism.info/admin/people/70009' type='person' role='cmp'>Franck, César</name>
+        <name key='Hoogstoël, Léon' type='person' role='int'>Hoogstoël, Léon</name>
+        <name key='Corps de musique de Landwehr' type='person' role='int'>Corps de musique de Landwehr</name>
+        <name key='Société des instruments à vent de Genève' type='person' role='int'>Société des instruments à vent de Genève</name>
+        <name key='Pépin, André' type='person' role='int'>Pépin, André</name>
+        <name key='Dennes, P.' type='person' role='int'>Dennes, P.</name>
+        <name key='Hoogstoël' type='person' role='int'>Hoogstoël</name>
+        <name key='Helaerts, H.' type='person' role='int'>Helaerts, H.</name>
+        <name key='Böhler, Arthur' type='person' role='int'>Böhler, Arthur</name>
+        <name key='Auber, J.' type='person' role='int'>Auber, J.</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002902_001.tif'/>
+        <page>
+          <![CDATA[CORPS DE MUSIQUE
 P DIRF 11LANDWIFHR
 / e=—s—>e—s— È&æææ@âä
-
 y
-
- 
-
 PIANOS - HARMONIUMS
-
 Maison GUIGNARD)
-
 BRUCKNER - GUIGNARD
-
 successeurs
 RADIOS
 GRAMOS
-
 DISQUES
 fFacilités de paiement|
-
 Rue jdu Rhône 102, angle rue d’Italie, 4
-
 2 RTETS | PHOTO des BERGUES
-
 l!'l'ul'Au';&æ MF
 J, 4 48 54 74
-
 M. JM N 1E"
 ///
-
 ‘:l
 —
 x
-
 S—
-
 ance—ses s->
-
 11 _ Quai des Bergues, 11
-
 e
-
 4 bÿ t_",‘_“ Œ=‘ Dâ S . n
 =x===—_.
-
 PS S A
 PE.‘_‘üL‘-_“\‘_
-
 Maison vendant
-
 le meilleur marché
-
- 
-
- 
-
 Travaux irréprochables
-
->.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002902_002.tif"/>
-<page><![CDATA[Remarquable
+>.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002902_002.tif'/>
+        <page>
+          <![CDATA[Remarquable
 par sa rapidité
-
 et la beauté de
-
-   
-
- 
-
- 
-
 B son écriture
 CONTINENTA= © Bachmann
 Portable. 7,PASSAGE DES LIONS
-
- 
-   
-  
-   
- 
- 
- 
-   
-  
-
- 
-
- 
-
- 
-
 LE PRODUIT SUISSE
-
 DIABLERETS
-
 Se boïît pur ou à l’eau.
 ” Diablerets “ vermouth. ” Diablerets” curaçao.
 ” Diablerets ‘‘ grenadine. ” Diablerets ‘‘ cassis
 ou ” Diablerets ‘ citron.
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Demandez
 les BIÈRES
-
 Feldschiôosschen
-
- 
-
 Produit suisse d’ancienne réputation
-
- 
-
- 
-
- 
-
 GFprès le spectacle H
-
 Donnez vous Rendez-vous
-
 au BUFFET CORNAVIN | |
-
 chez RACINE
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-SE E E RE ETE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002902_003.tif"/>
-<page><![CDATA[| BANQUE DE PARIS ET DES PAYS-BAS
-
+SE E E RE ETE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002902_003.tif'/>
+        <page>
+          <![CDATA[| BANQUE DE PARIS ET DES PAYS-BAS
 Succursale de Genève
 6 RUE DE HOLLANDE, 6
-
- 
-
- 
-
 Toutes opérations de Banque en Suisse et à l’Etranger. Négociations
 de tous coupons. Location de coffres-forts
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Portes à 14 h. 15 VICTORVA TTAUE Concert à 14 h. 45
-
 e
-
 DIMANCHE 18 FÉVRIER 1934
-
 CONCHRIRTTF
-
 DONNÉ PAR LE CORPS DE
-
 MUSIQUE DE LANDWEHR
-
 Harmonie de l’Etat de Genève, fondée en 1789
-
- 
-
- 
-
 sous la direction de
-
 Monsieur Léon HOOGSTOEL
-
 ler Prix du Conservatoire de Paris, Professeur au Conservatoire de Genève
-
 avec le bienveillant concours de la
-
 Société des Instruments à vent de Genève
-
 Flâte : M. André PÉPIN
-
 Hautbois : M. P. DENNES * 1ers prix du Conserv. de Paris
-
 Clarinette : M. HOOGSTOEL
-
 Basson : M. H. HELÆRTS ler Prix du Conservatoire de Bruxelles.
 Cor : M. Arthur BÔHLER Soliste de l’Orchestre de la Suisse Romande
 Pianiste : M. J. AUBERT Pro'esseur au Conservatoire
-
 Prix des places : Loges et Cordons de 1re Galerie : frs. 2.30 ; Parterre, 2me et 3meé
 rangs de Ire Galerie : fr. 1.15 ; 2me Galerie : fr. 0.60 ; (droit des pauvres compris)
-
- 
-
- 
-
 Les cartes de membres d’honneur, honoraires et non-exécutants donnent droit à
 2 places non numérotées de rez-de-chaussée ou de 1re galerie, de même que les coupons
-
 1 Îë Z. — Ces mêmes cartes donnent droit à une réduction de fr. 1.— aux places numé-
 rotées.
-
- 
-
-    
-
- 
-
- 
-
 Tous les billets de Chemins de fer aux conditions des tarifs.
 Emission sans frais des billets circulaires à longue validité
-
 AGENCE DE VOYAGES
-
 C. BLENK & FERT' rueGäèwvtèslanc
-
 Voyages à forfait Ppouxr tous paws
 Passages maritimes — Services aériens — Croisières
-
 Demandez notre brochure spéciale
 « Nos Grands Voyages et Croisières »
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 E e }
-
-Brûlez-vous des BOULETS ?]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002902_004.tif"/>
-<page><![CDATA[(éE S
-
+Brûlez-vous des BOULETS ?
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002902_004.tif'/>
+        <page>
+          <![CDATA[(éE S
 société Coopérative Suisse de Consommation
-
 RNUE BAUTTE, &
 Epicerie fine et courante — Boulangerie-Pâtisserie
 Laiterie par /es soins de l'Union Laitière. -- Combustibles
 Tissus - Vêtements - Chaussures « Aux Epis d’Or »
 8, rue du Commerce
 SO MAGASINS DE VYVENTE
-
 Escompte 5 0/e à tout acheteur en timbres-achat sur carnet de fr. 200.— dans TOUS les
 magasins de la Société. Les Sociétaires ont en plus droit à la ristourne annuelle.
-
 Carnets à disposit‘on dans les magasins de la S. C. S. C.
 1932 : Escompte 5 °/. et ristourne annuelle aux Sociétaires 2 °/, — 7 e
-
- 
-
 Fleurs, Plantes et  Couronnes ë
-
 Jaison V* &, Îîabacﬁer
-
 Stuccesseur: M. VARONIE I-R
-
 Articles mortuaires soignés en fleurs naturelles et artficielles
 Confection, florales en tous genres
 Téléphone 48,12 6, Doulevard Georges-Favon
-
- 
-
- 
-
 Achetez la toile d’Emmenthal l‘AV_TOILE
-
 mi-fil chaîne retors
 Largeur _ 170cm. … 180cm. 200 cm. 220 cm. RRN
-
 lemètre 3.25 3.90 4.45 4.90
-
 A. B"AS & [ie, [oulance 5, EENÈVE b
-
- 
-
- 
-
- 
-
 p
-
 |
 |
-
 ORFEÉVRERIE ARGENT ET MÉTAL ARGENTÉ
 BIJOUTERIE
-
 M. 1 MIHOIWF
-
 6, Passage des Lions, 6 — Genève Tél. 44.517
-
 Granmnd Choix —- Prix très modérés
-
-Alors brûlez des BOULETS BRASSAC.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002902_005.tif"/>
-<page><![CDATA[Tous1es
-
+Alors brûlez des BOULETS BRASSAC.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002902_005.tif'/>
+        <page>
+          <![CDATA[Tous1es
 Instruments
-
 à vent et là cordes |
 Fournitures pour harmonies |
-
 fanfares et orchestres "
 |
-
 |
-
 |
-
 |
-
 }
-
- 
-
 Ré parations
-
 “ MODERN MUSIC” s. 4
-
 10, Tour-Maitresse - CENÈVE
-
 molephone 42405
-
- 
-
- 
-
- 
-
- 
-
-  
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Gl
 7 sb
 ÿ£l/r/gn
-
- 
-
- 
-
- 
-
- 
-
- 
-
 “ BRASSERIE CENEVOISE - TAVERNE SUISSE —
 CHANTEPOULET
-
 Bières spéciales
 Cuisine bourgeoise
 Tous les jours CONCERT
-
- 
-
- 
-
- 
-
-Les BOULETS BRASSAC sont les meilleurs.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002902_006.tif"/>
-<page><![CDATA[*
-
- 
-
+Les BOULETS BRASSAC sont les meilleurs.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002902_006.tif'/>
+        <page>
+          <![CDATA[*
 CUISINIÈRES
-
 f Exposition
-
 ; et
-
 } Démonstration
 | 34
-
 |
 Rue Dépositaires H
-
 î autorisés '.
-
 | de Carouge
 |
-
- 
-
- 
-
 AMÜ[Ë \*][S][']ÙA\B '][‘S
-
 .\
 |
 Toute personne peut manifester son intérêt à notre harmonie !
@@ -513,78 +266,47 @@ chacun à une entrée aux concerts, suivant indication donnée à chaque |
 occasion sur les affiches.
 Ces cartes sont vendues, en tout temps, par tous les Membres
 exécutants du Corps ainsi que par le sergent fourrier, au local, tous (
-
 || les vendredis
-
 ’ FAITES GLACER
 VOS COLS Cafe- Brasserre
 l
-
 i |
-
 5 ED. EGGER
 anc hlSSBPIG ld‘€â]€ SUN Venue du Maill 3
-
 (/}|h——-«
-
 > bis ; ; ;
 INE : Rue du ! rieuré, 17bis Consommations de premier choix
 5 MAGASINS : Mets de Brasserie ‘
 13, Cours de Rive — 5, Rue du Commerce Spécialité de fondues au fromage |
-
 l
-
 |
-
 RE aux tfruffes et aux champignons !
-
 5, Rue du Conseil-Général [
-
 3, Rue de la Servette 2, Rue des Eaux-Vives Ouvert jusqu’à 1 heure Î
 !
-
- 
-
- 
-
- 
-
 4——s E SIS TR == =
-
-Gros BOULBTS BRASSAC de 60 grammes]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002902_007.tif"/>
-<page><![CDATA[SOCIÉTÉ DE
-
+Gros BOULBTS BRASSAC de 60 grammes
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002902_007.tif'/>
+        <page>
+          <![CDATA[SOCIÉTÉ DE
 BANQUE SUISSE
-
 Fondée en 1872
-
 â Capital-Actions et Réserves : Frs. 214 Millions
 Qä 6, Corrateie GENÈVE — Corraterie,
-
 |
-
 CORNAVIN EAUX-VIVES
-
 10, Place de Cornavin Place des Eaux-Vives, 3
-
 36, Rue de Carouge Rue du Marché, 11
-
 Tÿcÿ>uÿ’ÿœÿs opérgtion_s de _banq»_uﬁç
 pImereunes conaitions
-
 2 Nos Bureaux de Change
-
 É À GARE DE CORNAVIN
-
 | et
-
 ] â GARE DES EAUX-VIVES
-
 : z sont ouverts tous les jours, dimanches compris
-
 (m]
-
 Ë
 |
 [
@@ -599,149 +321,82 @@ PLAINPALAIS CAROUGE Ê
 |
 |
 |
-
-Petits BOULETS BRASSAC de 45 grammes]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002902_008.tif"/>
-<page><![CDATA[u
-
-   
- 
-
- 
-
+Petits BOULETS BRASSAC de 45 grammes
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002902_008.tif'/>
+        <page>
+          <![CDATA[u
 |i|||i|f…ll|"l
 C0
 …llllnllùllll
-
 ; CIRAVEGNAEC° S.A-GENEVE
-
 ©
-
 s@
-
 \ \
 c
-
 SON
-
 “
-
 N
-
 \ es
-
 e 4 e
 |"ﬁf|l"“""l
-
 F
-
-  
-
 |l|||ll'[l!l
-
 !lui._..|!_llllllll
 ‘||||
 d
-
- 
-
 Boulangerie - Pâtiss
-
 Fred. LAUP
-
 Rue de Chantepoulet, 10
 Téléphone 22.978
-
 Rue Plantamour, 27
 Téléphone 25.809
-
 Toutes les Spécialités de 1°' choix
-
 ù
 CHARCUTERIE+
-
 A. CHOUET
-
 6, COUTANCE, 6
-
 Téléphone 24.545
 Spécialités de pâtés froids
 GALANTINES TRUFFÉES
 Assortiment complet pour tout
 ce qui concerne la partie
-
- 
-
- 
-
- 
-
 MARY
-
 Delapierre
 fleuriste
 1, rue du Commerce
-
- 
-
 laissez parler les Heurs! ?
-
- 
-
- 
-
 ü
 L
-
 CMIFIE ILVIRIQUIE
-
 R. TISSOT
-
 GENÈVE Boulevard du Théâtre, 12
-
 Téléphone 40.800
 Cave réputée
 Spécialités eulinaires
 Salles pour banquets
-
- 
-
 S
-es BOULETS BRASSAC chauffent]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002902_009.tif"/>
-<page><![CDATA[ù
+es BOULETS BRASSAC chauffent
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002902_009.tif'/>
+        <page>
+          <![CDATA[ù
 VINS EN GROS
-
 Importation des vins d’Iitalie
 S et Français
-
- 
- 
-
 ETIENNE
-
 OIPTTICHEN
-
 Vins fins et de table en fûts et bouteilles
 Malaga - Vermouth Turin - Porto - Chianti
-
 (onstant Bottau
-
 . CAVES : Rue Sillem, 6
 Voyez T ]unèe}le.-Pr}îme 55_- face de la rue de la Grenade (Eaux-Vives)
 Tél. 24.527 OJs à rs. GENÈVE
-
 2, rue Winkelried et place des Bergues Téléphone 52.470
-
- 
-
- 
-
- 
-
 — NOTICES BIOGRA PHIQUES
 PE BARBIER DE SÉVIITE
-
 GioAcHINo ROSSINI, né à Pétaro (Romagne), le 29 février 1792, mort à Paris
 13 novembre 1868. — C'’est en 1816 que Rossini fit représenter le Barbier de
 Séville à Rome ; il avait composé cet ouvrage en 16 jours! La première repré-
@@ -749,9 +404,7 @@ sentation fut mouvementée et faillit compromettre le succès de l’œuvre, au 
 que Rossini ne voulut pas conduire l’orchestre à la seconde, qui fut, au contraire,
 un triomphe et assura à cet opéra-bouffe, considéré à bon droit comme le chef-
 d’œuvre de Rossini, un juste triomphe,
-
 CINQ AQUARELLES
-
 TEMPLETON STRONG est né à New-Vork le 26 mai 1856, fit ses études de
 composition à Leipzig et fréquenta Liszt à Weimar . Il se fixa en Suisse en 1889.
 De lui, l’'Orchestre Romand a joué la symphonie Sintram, les Poèmes Sym-
@@ -759,24 +412,15 @@ phoniques, Le Roi Arthur, La Nuit, Une Vie d'Artiste, Elégie, Le
 Moulin abandonne, et, tout dernièrement, Auval et Pollainiana, pour
 violoncelle. A MM. Pépin, Dennes, Hoogstoël, Bôhler et Hélaerts sont dédiées
 les Cinq Aquarelles qui figurent au programme.
-
 Danse rustique, Féerie et Les Chevriers furent composés à l’ombre
 d’une magnifique forêt près des Diablerets pendant un séjour en septembre der-
 . nier. La Danse rustique est « bon enfant ». Elle ressemble aux danses de nos
-
- 
-
- 
-
- 
-
 ë —-——
 VOUS SAVEZ QUE ".
 Nous sommes a votre
 disposition pour vous
 donner gratuitement
 tout renseignement
-
 financier ou commer-
 cial pouvant vous être
 utile ou pour exécuter
@@ -784,25 +428,20 @@ n’'importe quelle opé-
 ration bancaire aux
 conditions les plus
 intéressantes
-
 BANQUE D'ESCOMPTE SUISSE,
-Les BOULETS BRASSAC flambent]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002902_010.tif"/>
-<page><![CDATA[MUSIQUE, GRAMOPHONES, DISQUES, T. S. F.
-
+Les BOULETS BRASSAC flambent
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002902_010.tif'/>
+        <page>
+          <![CDATA[MUSIQUE, GRAMOPHONES, DISQUES, T. S. F.
 adressez-vous à
-
 ROTSCHY FRÈRES
 22, CORRATERIE, 22
-
 Maison de confiance fondée en 1865
 ACHAT, LOCATION
 RÉPARATION DE PIANOS
-
 Même maison : 64, RUE DU STAND, 64 :: 1er et 2”c étages
-
- 
-
 grand’pères : le petit solo de cor rappelle le cor des Alpes. L’Idylle essaie
 d’être idyllique, rien de plus. Feéerie sonneries des corps des Elfes et danse.
 Peut-être le petit roi et la petite reine font-ils un bout de causet'e dans la partie
@@ -811,9 +450,7 @@ jouant ensemble dans leurs chalumeaux une petite mélodie d’une prodigieuse et
 effarante simplicité jusqu’à ce que la nuit les chasse. Au Cabaret : De joyeux
 compagnons au -cabaret du village. On raconte des histoires, parfois même tous
 ensemble. La diane sonne dans le lointain, il est l’heure du repos.
-
 GRAN IOTA de l'Opéra DOLORES
-
 Tuéopore BRETON, né le 29 décembre 1850, à Salamine, mort le 2 décem-
 bre 1923 à Madrid. — Commença sa carrière en jouant dansles orchestres de
 café et de théâtre, devint chef d’orchestre et aide d’Olivier Métra. En 1876, il fut
@@ -821,296 +458,156 @@ nommé chef d’orchestre de l’Union artistique musicale puis, à l’Opéra e
 Société des Concerts de Madrid et directeur du Conservatoire, Il composa plu-
 sieurs zanzuetas, un oratorio, de la musique de chambre et quelques opéras
 dont il écrivit le livret lui-même.
-
 PASTORALE D'ÉTÉ. — Poème symphonique
-
 ArTHUR HONEGGER, né au Hâvre le 10 mars 1892. — La Pastorale d’éte
 a pour épigraphe ces mots de Rimbaud : « J’ai embrassé l’aube d’été ». Œuvre
 modeste, délicate et contenue, riche de fond et sobre de réalisation, elle est l’une
 des plus heureuses réussites qui distinguent, non seulement le nom de Honegger,
 mais tout le nouveau mouvement musical.
-
- 
-
- 
-
- 
-
 Slon de Coîllre [ Corsets CLÉMENT
 Maison CHARLES 26, rue du Marché - Genève
-
 i lasti - Soutien-G
 1 placo dusCirque —“Téleph 48697111
-
 «S'e recommande par un fravail soïgné
-
 Corsets —- Ceintures
-
- 
-
 SPÉCIALITÉS : Les fameuses Gaînes Sensation
 Permanentes -- Mise en plis ;
 Coupes Prix modérés (Elastique dans les 2 sens)
-
 &
-
- 
-
 Rien ne vaut les BOULETS BRASSAC.
-
- 
-
-À]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002902_011.tif"/>
-<page><![CDATA[f
-
+À
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002902_011.tif'/>
+        <page>
+          <![CDATA[f
 Ciafé =BF&SSGPÏ€Î ""°'J“Ël‘h}--ÏkÊcËsierie
 du Carrefour de Rive -
-
 ancien membre exécutant de la Landwehr
-
 Nl”e ñ LL] SON 52, boul. St-Georges — Tél. 43.587
-
 Propriétaire 'ous 1es EZIerbages
 Spécialités : VINS VAUDOIS et Pinceauzx - Peinture
 VINS FRANCAIS en toutes T'eintes
 Consommations Eponges
 Tél. 43.532 de premier choix Prix modérés. Timbres jaunes
-
- 
-
 Jn
-
- 
-
 OUINTE RR e mi b | W.-A. Mozart
-
 W.-A. MOZART, illustre compositeur autrichien, né à Salzbourg, mort à
 Vienne (1756-1791), — D’une extraordinaire précocité musicale, il toucha à tous
 les genres et réussit dans tous. La force et la grâce, la puissance et l’émotion
 s’allient en une merveilleuse unité dans la musique de ce grand maître. Sa gloire
 est universelle.
-
 CR SSAURMAUD
 Poème symphonique
-
 CÉSAR-AUGUSTE FRANCK, né à Liège en 1822, mort à Paris en 1890. —
 C’était un dimanche matin. Au loin retentissaient le son joyeux des cloches et les
 chants religieux de la foule… Sacrilège! Le farouche comte du Rhin a sonné
 dans son cor ! La chasse s’élance par les blés, les landes, les prairies. ….
-
 Arrête, comte, je t’en prie, écoute les chants pieux. Non. Arrête, comte, je
 fen supplie ; prends garde ! Non. La chevauchée se précipite comme un tour-
 billon.
-
 Soudain, le comte est seul ; son cheval ne veut plus avancer; il souffle dans
 son cor et le cor ne raisonne plus... une voix lugubre, implacable, le maudit :
 Sacrilège, dit elle, sois éternellement couru par l’enfer! Alors les flammes jaillis-
 sent de toutes parts.. . Le comte, affolé de terreur, s’enfuit toujours, toujours
 plus vite, poursuivis par une meute de démons … pendant le jour à travers les
 abîmes, à minuit, à travers les airs.
-
- 
-
- 
-
 MAROQUINERIE FINE e
-
 VOYAGES
-
 RMépanarntions
-
 Grand assortiment de Sacs me
 =0s" "" M" GIROD-MOCK
 Porte-monnaie - Porte-cartes
-
 Portefeuilles Maison de confiance
-
 Etuis à cigarettes et cigares Terrassière, 9 Z GENÈVE
-
 Nécessaires - Trousses
-
- 
-
 Sacs de Voyages - Valises
 Mallettes garnies Télépnone: 22.258
-
 k
-
 Les BOULETS BRASSAC ne fument pas.
-
- 
-
-À]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002902_012.tif"/>
-<page><![CDATA[4
-
+À
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002902_012.tif'/>
+        <page>
+          <![CDATA[4
 CHARCUTERIE DE LA CROIX-D'OR
-
 SPÉCIALITÉS : Pâtés froids, Aspics de veau et de foie gras
 ; 7 ‘ i .
-
 7, Rue de la Croix-d’Or, 7 — GENÉVE
-
 Téléphone 43.121 Service à domicile Maison de confiance
-
- 
-
 æse=
 %
-
- 
-
- 
-
 CUIVRES D’ART
-
 Coquemars -- cache-pots
 Jardinières
 MARMITE D'ESCALADE : es
-
 Porte- pa apluie
 Samowars
 Grand choix
 d’objets pour
 cadeaux
-
 Etains neufs
 et anc ens
-
 Antiquités
 Réparations
-
 H. DANNHAUER
-
 12, Rue des Chaudronniers
-
- 
-
-   
-  
- 
-  
-   
- 
-    
-    
-
 PIROGt;
-
 Ï
-
 PREMI
-
- 
-
 1. Le Barbier de Séville (ouv};
 Ï
 2. Cinq Aquareiles (pour quirt
-
 a) Danse rustique !
 b) \dylle
-
 c) Féerie .
-
 d) Les Chevriers
-
 e) Au Cabaret
-
 Loa Centrale
-
 Rue Croix-d'Or, 2
-
 *
 Mets de Brasserie
 Salle de Billard
-
 x
-
 éJean & <Albert
 PIANOS ue RADIO
-
- 
-
 3. Gran lota (de l’Opéra La |
 Piston solo : M. Ernest BL4i
-
 |
-
- 
-
 —— es es }
 Entre la première et la deuxièîjy
 Ï
-
-  
-
- 
-
 STEINYVAY & SONS
 BLUTHNER-GAVEAU MARCONT |
 PIEYEI, la renommée mondiale SABA ;
-
 SCHMIEDT-FI, OHF
-
 Ces Fabriques sont les garanties que vous rechercherez
-
 certerare z SAUTIER & JAEGER GENÈVE
-
- 
-
- 
-
- 
-
 }
-
-Les BOULETS BRASSAC ne collent pas.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002902_013.tif"/>
-<page><![CDATA[/
-
+Les BOULETS BRASSAC ne collent pas.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002902_013.tif'/>
+        <page>
+          <![CDATA[/
 —H À
 ‘ [ Les LIVRES NOUVEAUX sont mis en vente par la IÈ
-
 LIBRAIRIE MURY
-
 |
-
 ! dès le lendemain de leur parution à Paris. Demandez le catalogue
 '\ mensuel
 Ï
-
 illustré
-
- 
-
- 
-
 gratuit
-
 Collections bon marché (Livres neufs d’auteurs modernes) 2000 titres
 en magagin, de 55 cts à 1.90. — Librairie MURY, 12, boul. Georges-
 Favon. — Téléphone 44.042
-
- 
-
 JANCHE 18 FÉVRIER 1934
-
 1X M[MIE
 J _ % Réparations d’lnstruments de Musiqüe
-
 (Fanfares, Harmonies) Jazz-Band
-
 .1[ÊÏPARTIE "' KﬂSpﬂl‘ W | C K Y
-
- 
-
- 
-
- 
-
- 
-
 Wre) . . G. Rossini. À% Angle r. Ecole-de-Médecine, 8; r. Maraichers, 48
 4 X PLAINPALAIS-GENÈVE
 |Ëte à vent) Grand choix d’accessoires et fournitures
@@ -1125,12 +622,7 @@ IBrès). . T. Breton. énaz
 £ (Suite page suivante) ’: PE E R ETESEN
 Ï
 Î
-
- 
- 
-
 J SURGENER
-
 [
 Ï
 |
@@ -1138,879 +630,395 @@ J SURGENER
 i
 :
 ;
-
- 
-
-88]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002902_014.tif"/>
-<page><![CDATA[ë
-
+88
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002902_014.tif'/>
+        <page>
+          <![CDATA[ë
 Grande Maison de Blanc Les RAVIOLIS
-
 CALICOES
-
 14, rue de Rive, 14
-
 Specialités de Trousseaux
 Prix avantageux leur qualité
-
 NAVILLE & C
-
 LIBRAIRIE
 MUSIQUE
 PAPETERIE 4  Pastorale d'Eté (poème sympho-i
-
 5 Quintette en mi-b.
 pour hautbois, clarinette, cor, bassoni!
 a) Largo, Allegro, Moderato .
 b) Larghetto . 08
 c) Allegretto .
-
-  
-
 s’'imposent par
-
- 
-
 Victoria Hall
-
- 
-
 PIROGrIR]
-
 DEUXIÈME!
-
- 
-
- 
-
- 
-
 PHOTOGRAPHIE D'ART
-
 F.-H. JULLIEN
-
 6 Le Chasseur maudit (poème
-
 Piano à queue de concert BLUTHNER ‘.
-
-  
-
 15, COURS DE RIVE - Tél.41 524
 BSXES 0763065486 CT ES03E58535€8
-
- 
-
 c
 POUR VOTRE INTÉRIEUR
-
 adressez-vous
-
 AU MOBILIER MODERNE
-
- 
-
 GRAND CHOIX — QUALITÉ — BAS PRIX
 1, Rue Winkelried Rue Berthelier, 2 - 4
 Ë F. KRANCK Frolte= dofp e 0n Tél. 23.109
-
- 
-
-Les BOULETS BRASSAG sont brillants.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002902_015.tif"/>
-<page><![CDATA[| e
+Les BOULETS BRASSAG sont brillants.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002902_015.tif'/>
+        <page>
+          <![CDATA[| e
 WALSHEIM | ovvéres pe vms
-
 J BRIFFOD L G
 La bière des
-
 CHÊNE-BOUGERIES - GENÈ/E
 connaisseurs Téléphone 48.739
-
-          
-    
-  
-  
-   
-  
-  
-  
-    
- 
-   
-   
-
 2l f@3ﬁ)£0äêä…ä 683483360600 53 6 E
-
- 
-
- 
-
 D|manche 18 Fevner 1934 Ê CONFIEZ vos commandes de
-
- 
-
- 
-
- 
-
- 
-
- 
-
 . T - | FLEURS
 (l à la Maison
 1AUMIMIE u| MORHARDT
 Af/PARTIE HBI]HB
 | au bas de la SERVETTE
 mauer. … —. A Honegger. ; Téléphone 25.665
-
 & toutes les confections florales
 «rèt pialnoî 044 / |
 | ) W.A.Mozart. % b
-
 ‘ berguer
-
 84, rue du rhône
 ; |çymphonique « — César Franck. &
-
 w sa nouvelle installation
 % ses studios modernes
 son grand choix de disques
-
 1 AUX soins de la Maison Sautier et Jaeger
-
- 
-
 plﬂll0$ l‘ﬂ(ll0$ JIS(]IIBS
 4…@wæ…äﬁﬁ%æäæ@-_
-
 Gaisse Hypothécaire du Canton de Cenève
-
 Certificats de Dépôts à 3, 5 et 10 ans
-
- 
-
 Livrets d’épargne Garde gratuite des titres
 e=e=0 AIN 20
-- Marque des BOULETS BRASSAC : un bouton allongé]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002902_016.tif"/>
-<page><![CDATA[*x
-
- 
-
+- Marque des BOULETS BRASSAC : un bouton allongé
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002902_016.tif'/>
+        <page>
+          <![CDATA[*x
 /
 Æ
-
- 
-
 > U £ F
-
 -
 rs
-
- 
-
 LE MEILLEUli? AMI DE L’ESTOMAS
-
- 
-
 Maison Communale de Plainpalais
-
 En Eté:
 JARDIN ANGLAIS
-
 Buffetier :
 Lours FREY
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 M. Eugène VUAGNAT, 1 lieutenant
-
 Photo F. H. Jullien
-
- 
-
- 
-
- 
-
 |
 Officier commandant '
 |
 |
 |
 |
-
- 
-
- 
-
 Manufacture de Casquettes
 spécuœalite de
 Casquettes d’uniformes
-
 ——N 0—
-
 Eugêne PEILLONNEX
-
 4, Passage du Rond-Point
 PLAINPALAIS
-
- 
-
- 
-
 RELIURE & REGISTRES
-
 Ch. R. DONZEL
-
 Rue des Savoises, 9
 PLAINPALAIS - GENÈVE l
 Téléphone 44.589
 Couvertures téléphoniques brevetées }
-
- 
-
- 
-
-Les BOULETS BRASSAHAG sont très caloriques.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002902_017.tif"/>
-<page><![CDATA[e
-
- 
-     
- 
-
+Les BOULETS BRASSAHAG sont très caloriques.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002902_017.tif'/>
+        <page>
+          <![CDATA[e
 t.
-
 P
-
- 
-
 L
-
- 
-
 POUIR VOS FLEURS
-
 HIRT
-
 l1e _ Mniître-FIeuriste
-
 14, Cours de Rive @ Téléphone 50.160
-
- 
-
- 
-
 LE COR ET LE
-
 TROMBONNE
-
- 
-
 peuvent entonner leur meilleur chant d’allégresse, ils ne couvriront pas
-
 les louanges que nos ménagères adressent à la
-
 Blanchisserie des Epinettes. Acacias. Tél. 43.054
-
 pour son service impeccable ou sa régularité. Linge lavé, repassé ou au
-
 poids lave et séché.
-
- 
-
 Chez BAUMANN-JEANNERET
-
 49, Rue du Stand, vous trouverez à des condi-
-
 tions avantageuses, tout ce qui concerne
 Papeterie, Fournitures, Meubles et Organisations
-
 de Bureaux.
-
 Boulangerie - Pâtisserie
 Confiserie
-
 F. MOTZIG
-
 Maison de 1* ordre
-
 WIEAF1ROOM
-
 Rue du Vieux-Collège
 (Face de la Poste)
-
 Téléphone 47.790
-
- 
-
- 
-
 Les BOULETS BRASSAG s’allument facilement.
-
 G. MERK
-
 8, rue des Corps-Saints
 TELÉPHONE 23.484
-
 evebEsS
-
 Construetions
 Réparations
-
 Représentations
-
- 
-
- 
-     
- 
- 
-
 î
-
- 
-
-e]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002902_018.tif"/>
-<page><![CDATA[LANDVWEHRIENS
-
+e
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002902_018.tif'/>
+        <page>
+          <![CDATA[LANDVWEHRIENS
 Donnez
-
 | la préférence
-
 pour vos achats
-
 aux maisons qui nous
 favorisent de leurs annonces
-
 “BANQUE POPULAIRE SUISSE
-
 GENEVE
-
- 
-
- 
-
 | Fondée en 1869
 l Capital et Réserves : Fr. 195.000.0000
-
 | Siège : 2, Place Saint-Gervais
-
 Toutes opérations de banque et de bourse en Suisse et à l’Etranger
 aux meilleures conditions.
-
 RIVE : 18, Cours de Rive (Angle boulevard Helvétique)
 PAQUIS : 24, rue des Pâquis, 24
-
- 
-
- 
-
- 
-
 (Angle Place de la Navigation)
-
 î Agences : ACACIAS : 2, Route des Acacias
 |
 |
-
 c=== === —— === 8
-Les BOULETS BRASSAG ne s’éerasent pas.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002902_019.tif"/>
-<page><![CDATA[LA BONNE BIÈRE
-
+Les BOULETS BRASSAG ne s’éerasent pas.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002902_019.tif'/>
+        <page>
+          <![CDATA[LA BONNE BIÈRE
 PAPETERIE Aux 10000 Ghemses
 DE ÉUNIVERSITÉE [4 4 € e
-
 |
 ;' F° TÎRAUTW(EIN{ Rue de Carouge, !19
 Ï
-
 S, RUE DE CAROUGE, 5
 TOUTES LES FOURNITURES
-
- 
-
 Chemises sur Mesure
-
 et confectionnées
 DE BUREAUX
-
 FABRIQUE DE REGISTRES
-
- 
-
 Pyjamas — Sous-Vêtements
-
- 
-
- 
-
- 
-
 *
-
- 
-
 %
-
- 
-
-Les BOULETS BRASSAG ne s’ouvrent pas au feu.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002902_020.tif"/>
-<page><![CDATA[Grande Brasserie
-
+Les BOULETS BRASSAG ne s’ouvrent pas au feu.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002902_020.tif'/>
+        <page>
+          <![CDATA[Grande Brasserie
 et CAFÉ du XXne SIÈCLE
-
 23, BOUL. GEORGES-FAVON
-
 Bières de Munich. Spéciale bittrée
 Apéritifs de Marque. Dégustition
 des grands vins francais. Lunch
 à Fr. 3.— et 3.50. Grande carte
 de spécialités. Salle de Société.
 Téléphone 43.088
-
- 
-
- 
-
 Winterthour
-
 SOCIÉTÉ SUISSE D'ASSURANCE
 CONTRE LES ACCIDENTS
-
 AGENT GÉNÉRAL
-
 ROBERT MEYER
 11, RUE GÉNÉRAL-DUFOUR, 11
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 *
-
-   
- 
-
- 
-
- 
-
- 
-
 M. Léon HOOGSTOEL, Directeur
 1er Prix du Conservatoire de Paris
-
- 
-
- 
-
- 
-
 Photo F.-H. Jullien
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Corraterie, 26
-
- 
-
 Les BOULETS BRASSAG sont économiques.
-
- 
-
- 
-
-À]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002902_021.tif"/>
-<page><![CDATA[(
-
+À
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002902_021.tif'/>
+        <page>
+          <![CDATA[(
 Garages C. HOFFER
-
 précédemment GARAGE des NATIONS S.A.
-
- 
-
 \TZXXIS ACCÉIlER E/
-
 \\ et TAXI-CAMIONNETTES ;
 ». : MARQUE /4/ L 4
 SO cts. , Ÿ
 le kilom. . ; Téléphone
-
- 
-
 - 44333
-
- 
-
 DAGRON
-
 CARBONES
 LUBANS
-
 Fournitures pour bureaux
-
 E. uœllîl{er
-
 Agent exclusif
-
 17, Coulouvrenière. - Tél. 48.035
-
 APAREILLAGE
 SERRURERIE
-
 Réparations en tous genres
-
 Henri Mennet
-
 Rue Sismondi, 5
-
- 
-
 BONBONS
 PASCHE
-
 toujours purs fruits
-
- 
-
- 
-
 (afé NATIONAL
 Henri MINERY
-
 Rue de la Plaine, 9
-
 Consommation de 1er choix
 Mets de Brasserie
 Spécialité : Assiette Nationale
 Choucroûte garnie
-
 Salle pour Sociétés et Banquets
 Téléphone 45.595
-
- 
-
 Buvez un
-
 Amer Picon
-
 Exigez-le
-
- 
-
 5
-
- 
-
 LES MEILLEURS
-
 POISSONS. VOLAILLES et GIBIERS
-
 se trouvent toujours chez
-
 LUGRIN & C”
-
 Rue du Rhône, 46
 Téléphone 48.266
-
 qui, à prix égal, ne livrent à leur clientèle
 que des produits de tout premier choix et
 q Ï Q J
-
 exclusivement frais
-
 La Maison n’a pas de succursale
-
- 
-
- 
-
 d
-
- 
-
-Demandez les BJULETS BRASSAC! chez les bons marchands.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002902_022.tif"/>
-<page><![CDATA[7
+Demandez les BJULETS BRASSAC! chez les bons marchands.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002902_022.tif'/>
+        <page>
+          <![CDATA[7
 Charcuterie du Mt-Blanc
 Maison S. JAVET
-
 Successeur de E. Rouvière
-
 17, RUE DU MONT-BLANC, 17
 GENÈVE
 Teléphone 24.012
-
 Voir les spécialités de la Maison
-
 S
-
 FASHION
-
 CHAPELLERIE - CHEMISERIE
 2, RUE DE RIVE, 2
-
 SUCCURSALE
-
 Maison BOCHET
 MODES ET CHAPELLERIE
 RUE CORNAVIN, 14-16
-
- 
-
 Jean CASETTI
-
 Boul. Georges-Favon, 8 -- GENÈVE
-
 VITRIER - MIROITIER
 ENCADREUR
-
- 
-
 Fabrique et Réparations
-
 de STORES
 Téléph. 43.573
-
- 
-
 BOUCHERIE
-
 K L, KIENER
-
 RUE DU PRINCE, 9
-
- 
-
 Viande de 1“ choix
-
 Service à domicils
-
 Téléphone 41.545
-
- 
-
 cn tous
 genres
-
 BALANCE
-
 VENTE ET RÉPARATIONS
-
 J, FAVAE
-
 Passage des Terreaux, 6
 Té'éphone 28.985
-
 PATISSERIE - GÛNFISBRIE
-
 4, Rue de Rwe,
 Téléphone 47.198
-
 Les meilleurs gâteaux
-
 Les meilleurs chocolats @
-
- 
-
 Gaié-Brasserie
-
 SUFRAN
-
 Consommations de Tler
 choix et spécialté de
 Vins !Italiens
-
 18, Cours de Rive
-
 Téléphone 41.557
-
 &
-
- 
-
- 
-
- 
-
 Il n’y a qu’un boulet : ll BOULET BRASSAC.
-
 HORLOGERIE-BIJOUTERIE
-
 Montres des premières marques suisses
-
 A. REICH
-
 90, RUE DU RHONE, 90
-
- 
-
 à côté de l’Agence Cook
-
 Prix avantnageux
-
- 
-
- 
-
-2]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002902_023.tif"/>
-<page><![CDATA[ETE E RF rs
-
+2
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002902_023.tif'/>
+        <page>
+          <![CDATA[ETE E RF rs
 = E e
 2 e TR
-
-   
-
 Les onctueuses Fondues
 se préparent avec le Fromage
 de Gruyère Gras des
-
 Laiteries Réunies
-
- 
-
- 
-
 e Gamionnage - Expéditions - Déménagements
-
- 
-
-  
-
- 
- 
-
- 
-
- 
-
 pour (tous pays
-
 5, Rue des Gares E GENEVE
-
 TÉLÉPHONE 22.910
-
- 
-
 ÆDransports Funèbres
-
 À. MURITH S. A.
-
 Siège social : 16, Rue des Chaudronniers. Fondèée en 1888
 Téléphone 50.288 (Service permanent)
-
 Fabrique de Cercueils Automobiles funéraires
 Inhumations, Exhumations, Incinérations, Transports
-
 Couronnes mortuaires : CENTRAL-DEÉUIL
-
 BOULEVARD JAMES-FAZY, 16
-
- 
-
 DL—-—Jt
-
 Ecole de Commerce
-
 ROCHAT-BURDIN
-
 s. A.
 Sténotypie - Sténographie - Dactylographie - Calligraphie
 Comptabilité - Lorrespondame Langues
 Passage du Terraillet, 18, GENÈVE Téléphone 43-611
-
-Cours à toutes époques]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002902_024.tif"/>
-<page><![CDATA[—— _— — 65F F—="——="— ——
-
- 
-
- 
-
- 
-
+Cours à toutes époques
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002902_024.tif'/>
+        <page>
+          <![CDATA[—— _— — 65F F—="——="— ——
 —
-
- 
-
 lBS Mêlll!'êâ
-
- 
-
 9
-
- 
-
 présentent à leurs Ulients les i0lis MeulælesÎ
-
 bien fnis iâ des prix avanfageux
-
- 
-
 e rr e A
 PL E RE PEN E TA SE A E E E PS ETE S E en PE
-
- 
-
 Œ Facilités] dej paiement
 D0
-
- 
-
- 
-
- 
-
 0==—se=s=s=ss=ss1s=s —E s=== s== ds
-Imp. E. ROCHAT, rue Verdaine, 15 - tGenève]]></page>       
-        </p>
+Imp. E. ROCHAT, rue Verdaine, 15 - tGenève
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

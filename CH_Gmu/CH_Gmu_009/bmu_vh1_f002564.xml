@@ -1,169 +1,121 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>3e grand concert populaire<date when="18/02/1924"/></title>
-<series>1923-1924</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            3e grand concert populaire
+            <date when='18/02/1924'/>
+          </title>
+          <series>1923-1924</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002564</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Ansermet, E. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19240218"/>
-<title>3e grand concert populaire</title>
-<placeName key="Victoria Hall"/>
-<name key="1923-1924" type="series"/>
-<name key="Rossini, Gioachino" ref="https://muscat.rism.info/admin/people/63766" type="person" role="cmp">Rossini, Gioachino</name>
-<name key="Méhul, Etienne-Nicolas" ref="https://muscat.rism.info/admin/people/101056" type="person" role="cmp">Méhul, Etienne-Nicolas</name>
-<name key="Grieg, Edvard" ref="https://muscat.rism.info/admin/people/84066" type="person" role="cmp">Grieg, Edvard</name>
-<name key="Lalo, Edouard" ref="https://muscat.rism.info/admin/people/65446" type="person" role="cmp">Lalo, Edouard</name>
-<name key="Berlioz, Hector" ref="https://muscat.rism.info/admin/people/13803" type="person" role="cmp">Berlioz, Hector</name>
-<name key="Proch, Heinrich" ref="https://muscat.rism.info/admin/people/29436" type="person" role="cmp">Proch, Heinrich</name>
-<name key="Ansermet, Ernest  (dir.)" ref="https://muscat.rism.info/admin/people/40219507" type="person" role="int">Ansermet, Ernest  (dir.)</name>
-<name key="Orchestre de la Suisse Romande" ref="https://muscat.rism.info/admin/people/50007615" type="person" role="int">Orchestre de la Suisse Romande</name>
-<name key="Courcelles, de"  type="person" role="int">Courcelles, de</name>
-<name key="Morin, Renée"  type="person" role="int">Morin, Renée</name>
-<name key="Sanctis, de"  type="person" role="int">Sanctis, de</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002564_001.tif"/>
-<page><![CDATA[. Aubade du ROI D’YS (pour chant et orchestre)
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19240218'/>
+        <title>3e grand concert populaire</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1923-1924' type='series'/>
+        <name key='Rossini, Gioachino' ref='https://muscat.rism.info/admin/people/63766' type='person' role='cmp'>Rossini, Gioachino</name>
+        <name key='Méhul, Etienne-Nicolas' ref='https://muscat.rism.info/admin/people/101056' type='person' role='cmp'>Méhul, Etienne-Nicolas</name>
+        <name key='Grieg, Edvard' ref='https://muscat.rism.info/admin/people/84066' type='person' role='cmp'>Grieg, Edvard</name>
+        <name key='Lalo, Edouard' ref='https://muscat.rism.info/admin/people/65446' type='person' role='cmp'>Lalo, Edouard</name>
+        <name key='Berlioz, Hector' ref='https://muscat.rism.info/admin/people/13803' type='person' role='cmp'>Berlioz, Hector</name>
+        <name key='Proch, Heinrich' ref='https://muscat.rism.info/admin/people/29436' type='person' role='cmp'>Proch, Heinrich</name>
+        <name key='Ansermet, Ernest' ref='https://muscat.rism.info/admin/people/40219507' type='person' role='int'>Ansermet, Ernest</name>
+        <name key='Orchestre de la Suisse Romande' ref='https://muscat.rism.info/admin/people/50007615' type='person' role='int'>Orchestre de la Suisse Romande</name>
+        <name key='Courcelles, de' type='person' role='int'>Courcelles, de</name>
+        <name key='Morin, Renée' type='person' role='int'>Morin, Renée</name>
+        <name key='Sanctis, de' type='person' role='int'>Sanctis, de</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002564_001.tif'/>
+        <page>
+          <![CDATA[. Aubade du ROI D’YS (pour chant et orchestre)
 ; 4) MENUET DES FOLLETS )
-
- 
-
- 
-
- 
-
- 
-
 20 heures et demie (8 h. 30)
-
 -
-
 Lundi 18 février 1924, à
-
- 
-
 VICTORIA BA1L
-
 3° Grand Concert Populaire
-
 offert par le
-
 CONSEIL ADMINISTRATIF DE LA VILLE DE GENÈVE ,
-
 avec le concours gracieux de
-
 L'Orchestre de la Suisse Romand_ÿ
-
 M" Renée Morin
-
 GRAND-THÉZXA TRE
-
 M. de Courcelles
-
 TS
-
- 
-
 PRHOGR AMME
-
 Pl(lî.\llf“lÊE PARTIF
 O MRAMS .1 e
-
 Air du BARBIER DE SÉVILLE (chant et orchestre)
 Mile R, MORIN.
-
 Air de JOSEPH (chant et orchestre)
 M. DE COURCELLES.
-
 PEER GYNT (suite d’orchestre)
-
 a) Le Matin.
-
 b) La Mort d’Ase.
-
 c) Danse d’Anitra.
-
 d) Chez le Roi des Montagnes.
-
 .............
 ...........................
-
 ...............................
-
 DEUXIÈME PARTIE
-
 OOs e
 Violoncelle solo, M. DE SANCTIS.
-
 ..................
-
 M. DE COURCELLES.
-
 ‘ ; Extraits dela DAMNATION DE FAUST
 b) DANSE DES SYLPHES | Xtraits de la D A ]
-
 VARIATIONS pour chant et orchestre
 Mile R. MORIN.
-
 MARCHE HONGROISE de la DAMNATION DE FAUST..... ….
 L'Orchestre sera dirigé par M. ERNEST ANSERMET
-
 ..........................
-
- 
-
 Les portes seront fermées pendant l'exécution des morceaux,
-
- 
-
-  
-
 .\ä,
 »
 c
-
- 
-
- 
-
- 
-
- 
-
 @
 q
 Rossini 3
@@ -178,11 +130,6 @@ Beﬂioz -
 C.
 S
 E
-
- 
-
- 
-
 û É
 jÏ ï D
 !:_.
@@ -197,31 +144,17 @@ l 8
 E ,
 &
 C
-
- 
-  
- 
-
- 
-
 J
-
- 
- 
-   
-
- 
- 
-
 KT
-
 4 p
 ".."…ﬁæ-' # v
 ds A
 ;
 ÿ4 à
-u Ë]]></page>       
-        </p>
+u Ë
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

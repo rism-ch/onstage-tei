@@ -1,119 +1,101 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Festival Wagner donné par l'Harmonie nautique<date when="10/03/1929"/></title>
-<series>1928-1929</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Festival Wagner donné par l'Harmonie nautique
+            <date when='10/03/1929'/>
+          </title>
+          <series>1928-1929</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002690</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Gabelles, G. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19290310"/>
-<title>Festival Wagner donné par l'Harmonie nautique</title>
-<placeName key="Victoria Hall"/>
-<name key="1928-1929" type="series"/>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Gabelles, Gustave  (dir.)" ref="https://muscat.rism.info/admin/people/30073762" type="person" role="int">Gabelles, Gustave  (dir.)</name>
-<name key="Harmonie Nautique"  type="person" role="int">Harmonie Nautique</name>
-<name key="Cercle choral"  type="person" role="int">Cercle choral</name>
-<name key="Mussotter, A. (Mme)"  type="person" role="int">Mussotter, A. (Mme)</name>
-<name key="Denizot, Ch."  type="person" role="int">Denizot, Ch.</name>
-<name key="Charrot, F."  type="person" role="int">Charrot, F.</name>
-<name key="Wend, Otto"  type="person" role="int">Wend, Otto</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002690_001.tif"/>
-<page><![CDATA[VICTORIA- HALL
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19290310'/>
+        <title>Festival Wagner donné par l'Harmonie nautique</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1928-1929' type='series'/>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Gabelles, Gustave' ref='https://muscat.rism.info/admin/people/30073762' type='person' role='int'>Gabelles, Gustave</name>
+        <name key='Harmonie Nautique' type='person' role='int'>Harmonie Nautique</name>
+        <name key='Cercle choral' type='person' role='int'>Cercle choral</name>
+        <name key='Mussotter, A. (Mme)' type='person' role='int'>Mussotter, A. (Mme)</name>
+        <name key='Denizot, Ch.' type='person' role='int'>Denizot, Ch.</name>
+        <name key='Charrot, F.' type='person' role='int'>Charrot, F.</name>
+        <name key='Wend, Otto' type='person' role='int'>Wend, Otto</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002690_001.tif'/>
+        <page>
+          <![CDATA[VICTORIA- HALL
 ——s
-
- 
-
 14 heures
-
- 
-
- 
-
- 
-
- 
-
 Sestival Wagner
-
 donné par
-
 L’HARMONIE NAUTIQUE
-
 “(HARMONIE MUNICIPALE DE LA VILLE DE GENÈVE)
-
 avec le bienveillant concours de
-
 Mre A MUSSOTTER =— M. Ch. DENIZOT M. F. CHARROT
-
 ‘Cantatrice Ténor, Professeur de chant Baryton
-
 LE CERCLE CHORAL (Chorale Municipale)
 Directeur: M. L. PIANTONI
 et le
-
 CHŒUR DE DAMES
-
 ——
-
 1P> 1R OGTIR & MMIIE
 PARSIFAL (Enchantement du Vendredi Saint)
-
 - à): LE VAISSEAU FANTOME (Ballade de Sänta)
 b) DORS MON ENFANT (Berceuse)
 Mme A. MUSSOTTER
-
 LA WALKYRIE :
-
 a) HYMNE AU PRINTEMPS
 M. Ch. DENIZOT
-
 b) ADIEUX DE WOTAN
 ; M. F., CHARROT
-
 c) CHEVAUCHÉE
 TANNHAUSER ( (Ouverture)
-
 5. TRISTAN ET YSEULT (La mort d'Yseult)
-
 Mme A MUSSOTTER
-
 LES MAITRES CHANTEURS (Fragments du 3me acte)
 Prélude
 Danse des Apprentis
@@ -121,30 +103,20 @@ Récit du songe (M. ch. DENIZOT)
 Marche des Corporations
 Entrée des Maîtres Chanteurs
 SOLI - CHŒUR MIXTE ET ORCHESTRE - 250 EXÉCUTANTS
-
 sous la direction de
-
 M, Gustave GABELLES
-
 Au piano d’accompagnement: M. O. WEND.
-
- 
-
- 
-
 Prix des places: fr. 3.— 2.— 1.— (droit des pauvres en sus).
 Les membres passifs ont droit d’ entréc sur présentation des coupons No @
 LOCATION et BILLETS
 chez Chouet & Gaden, A. Pénard successeur, Corraterie, 16, tél. Stand 0.685
-
 Imp. ChApurs & BAumErsren. Rue (lll \l md h (.u|l ve
-
 Ouverture ‘ On
-
 des portes à Dimanche 10 Mars 1929 commencèéra à
-
-J]]></page>       
-        </p>
+J
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

@@ -1,134 +1,118 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert de bienfaisance donné par les sociétés chorales Frohsinn Lausanne, Frohsinn Vevey, Liederkranz Genève : En faveur des colonies de vacances des écoles de Genève<date when="23/05/1909"/></title>
-<series>1908-1909</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert de bienfaisance donné par les sociétés chorales Frohsinn
+            Lausanne, Frohsinn Vevey, Liederkranz Genève : En faveur des
+            colonies de vacances des écoles de Genève
+            <date when='23/05/1909'/>
+          </title>
+          <series>1908-1909</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F001082</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Weiss, B.</note>
+        <note>Röllin, E.</note>
+        <note>Wissmann, R. [et al.] (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19090523"/>
-<title>Concert de bienfaisance donné par les sociétés chorales Frohsinn Lausanne, Frohsinn Vevey, Liederkranz Genève : En faveur des colonies de vacances des écoles de Genève</title>
-<placeName key="Victoria Hall"/>
-<name key="1908-1909" type="series"/>
-<name key="Montagne"  type="person" role="cmp">Montagne</name>
-<name key="Kreutzer, C."  type="person" role="cmp">Kreutzer, C.</name>
-<name key="Eckert, C."  type="person" role="cmp">Eckert, C.</name>
-<name key=""  type="person" role="cmp"></name>
-<name key="Weiss, B. (dir.)"  type="person" role="int">Weiss, B. (dir.)</name>
-<name key="Röllin, E. (dir.)"  type="person" role="int">Röllin, E. (dir.)</name>
-<name key="Wissmann, R. (dir.)"  type="person" role="int">Wissmann, R. (dir.)</name>
-<name key="Krugell, P. (dir.)"  type="person" role="int">Krugell, P. (dir.)</name>
-<name key="Frohsinn Lausanne"  type="person" role="int">Frohsinn Lausanne</name>
-<name key="Frohsinn Vevey"  type="person" role="int">Frohsinn Vevey</name>
-<name key="Liederkranz"  type="person" role="int">Liederkranz</name>
-<name key="Harmonie Grütli"  type="person" role="int">Harmonie Grütli</name>
-<name key="Seiler, C."  type="person" role="int">Seiler, C.</name>
-<name key="Jaeger, L."  type="person" role="int">Jaeger, L.</name>
-<name key="Weber, Ch."  type="person" role="int">Weber, Ch.</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001082_001.tif"/>
-<page><![CDATA[A ‘
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19090523'/>
+        <title>
+          Concert de bienfaisance donné par les sociétés chorales Frohsinn
+          Lausanne, Frohsinn Vevey, Liederkranz Genève : En faveur des colonies
+          de vacances des écoles de Genève
+        </title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1908-1909' type='series'/>
+        <name key='Montagne' type='person' role='cmp'>Montagne</name>
+        <name key='Kreutzer, C.' type='person' role='cmp'>Kreutzer, C.</name>
+        <name key='Eckert, C.' type='person' role='cmp'>Eckert, C.</name>
+        <name key='' type='person' role='cmp'/>
+        <name key='Weiss, B.' type='person' role='int'>Weiss, B.</name>
+        <name key='Röllin, E.' type='person' role='int'>Röllin, E.</name>
+        <name key='Wissmann, R.' type='person' role='int'>Wissmann, R.</name>
+        <name key='Krugell, P.' type='person' role='int'>Krugell, P.</name>
+        <name key='Frohsinn Lausanne' type='person' role='int'>Frohsinn Lausanne</name>
+        <name key='Frohsinn Vevey' type='person' role='int'>Frohsinn Vevey</name>
+        <name key='Liederkranz' type='person' role='int'>Liederkranz</name>
+        <name key='Harmonie Grütli' type='person' role='int'>Harmonie Grütli</name>
+        <name key='Seiler, C.' type='person' role='int'>Seiler, C.</name>
+        <name key='Jaeger, L.' type='person' role='int'>Jaeger, L.</name>
+        <name key='Weber, Ch.' type='person' role='int'>Weber, Ch.</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001082_001.tif'/>
+        <page>
+          <![CDATA[A ‘
 ÎVICTORH”\-HF\LL Dimanche 23 Mai 1909
-
 asteses GENÈVE sssssss 2 h. 30 de l’après-midi - - Caisse 2 h.
-
- 
-
 Concert de bBienïaisance
-
 en faveur des Colonies de Vacances des Ecoles de Genève
-
 PIRITITT'IS'
-
- 
-
- 
-
 donné par les Sociétés chorales
-
 Frohsinn Lausanne Frohsinn Vevey
-
 Dir. M. B. Weiss Dir. M. E. Rôllin
-
 Liederkranz Genève
 Dir. M. R. Wissmann
 avec le gracieux concours de
-
 Madame C. Seiler — Mademoiselle L. Jæger
-
 Cantatrice, Vevey Pianiste, Genève
-
 Monsieur Ch. Weber, ténor
-
 Élève de M"* Bastard-Fœx
-
 et de l'Harmonie Grütli, Genève
-
 Dir. M. P. Krugell
-
 Le piano d’accompagnement sera tenu par M'e L. Jæger Piano Bluthne
 offert par la Maison Sautier & Jæger, Genève
-
- 
-
- 
-
 e —# 200 EXÉCUTANTS E C—
-
 PRIX DES PLACES : Loges et premier rang de la première galerie (numérotés) 2 Fr.,
 Rez-de-chaussée et autres places de la première galérie 1 Fr., Seconde galerie 50 Cts.
-
 - DÉPOTS DE CARTES : M. EHRSAM-RUEGG, rue Céard, 6; M. H. ANGERER, Coiffeur, rue de la Monnaie ; M. O. WEBER, place
 Kléberg. -- Loges et premier rang de la première galerie seulement chez M. O. WEBER._ @ R @ RE RN SE MS E E ä
-m Gutenber rue de Hesse e]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001082_002.tif"/>
-<page><![CDATA[\.‘.\..A..l..A—.-L.L.L.A.L.L-J—-A..L.L.L.L.L-l..l..&._l. dn ds her e de n de n de r de n dn d J. rhn ec es 4._4. + L.L.A.L.A.L.L._&. A..A. A. L,A. a. .L a.,:...«. A..L.J..L.L.}.à-}.-+,ﬁ.
-
- 
- 
-
- 
-
- 
-
- 
-
- 
-
+m Gutenber rue de Hesse e
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001082_002.tif'/>
+        <page>
+          <![CDATA[\.‘.\..A..l..A—.-L.L.L.A.L.L-J—-A..L.L.L.L.L-l..l..&._l. dn ds her e de n de n de r de n dn d J. rhn ec es 4._4. + L.L.A.L.A.L.L._&. A..A. A. L,A. a. .L a.,:...«. A..L.J..L.L.}.à-}.-+,ﬁ.
 E e n e e R AL AIs à
 Ÿ
 | Arelier de Photographie — | A. DRINNEBERG.
@@ -151,36 +135,22 @@ $ Man spricht deutsch Vereinsmitgliea | Qualités incomparables Faites un essai 
 4 [=s
 À | Ê:
 P
-
 | Ï A
-
 =
-
 J
-
 Accessoires
-
 Mit Gegenwärtigem erlauben wiruns Freunde
-
 …
 …
-
 und Bekannte unseres Vereins zu zahlreichem
 Besuche des Konzertes, dessen Details wir um-
 stehend mitteilen, angelegentlichst einzuladen
-
 phitayhadadahatatatdathatdahatadatahahy
-
 Dank der freundlichen Mitiwirkung der Ve-
-
 écanique
-
 15, Rue des Grottes, 15 A. WEI DMANN
-
 [1 910N Np ony HAHNHD 310 Np on ‘I1
-
 I—IJ…DWEIÈ)']HOAA 3
-
 ——
 v ,\A
 -U
@@ -218,74 +188,31 @@ p œ. ; l
 < & Genf. | é
 œ
 | Q
-
- 
-
- 
-
- 
-
 Etabhssement de Bains chauds | Mercerie Bonneterie, Toilerie
 et Buanderie =— ————== Chaussure, Corsets
-
 24, RUE DE BERNE, 24
-
 E.Ritzmann
-
 LES BAINS sont ouverts tous les jours sans
-
 interruption, le dimanche matin jusqu’à 10 heures 11, Rue du Môle GENEVE Rue du Môle, 11
-
 (Entrée des Bains rue Rossi) Service soigné à
-
 CONFECTION SUR MESURE
-
- 
-
- 
-
 rrrh dh hn hn hhs tratrateapte traptes dhntes
-
 ue
-
 Se recommande J. RITZMANN, propr.
-
 Vereinsmitglied
-
 Vereinsmitglied
-
-  
-
- 
-
- 
-
 Phérachshscha ts da d
-
- 
-
 cvc
-
 PEPE P PFF FETET
-
 Ë
-
 CAFÉ - RESTAURANT en face de la gare Cornavin
-
 H0tel de la Monnaie, Genève ... v éronire trésconon d cande se
-
-CR CR OE QR p. sociétés, rep. à prix fixe et àlacarte. J. SCHMIDT, propr.(Vereinsmilgl.)]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001082_003.tif"/>
-<page><![CDATA[à  Fleurs Naturelles AUG BAER f
-
- 
-
- 
-
- 
-
- 
-
+CR CR OE QR p. sociétés, rep. à prix fixe et àlacarte. J. SCHMIDT, propr.(Vereinsmilgl.)
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001082_003.tif'/>
+        <page>
+          <![CDATA[à  Fleurs Naturelles AUG BAER f
 é — RUE DU CONSEIL GÉNÉRAL, !! À
 An “N
 & MAISON rrr es es A
@@ -299,165 +226,92 @@ M 12, Rue Did —. Succ. Place Bel-Air, 4 N
 ::: SpBCIHIIÎBS pÛur Theatre Bt CÛ"CBIÎS Téléphone 2326 On porte à domicile Zä
 : ;
 f €
-
- 
-
- 
-
- 
-
 * BRASSERIE BERGER ARTICLES DE VOYAGE â
-
 W â
 @ — Place des Alpes EN TOUS GENRES —— :ë
 Restauration à toute heure d
-
 A ;
 /:: PILSNER URQUELL P. RENCK A
-
- 
-
 PSCHORRBRÆU MUNICH
-
 ; i st d au rétabli dans « anc lokal ;
 ACT]ENBRÆU DE BALE Le magasin est de nouveau rétabli dans son ancien loka :::
-
 U
 / Se recommande Georges MULLER. Rue de Chkantepoulet, 4 “
 ‘\ Vereinsmitglied ancien Chef-Brasseur 3s angle Rue de Berne : W
-
- 
-
 » - LINGERIE DE PARIS HM À
 ‘ 9,Rue£[{&l£nt—Blanc GENÈVE RueduMont—l!lanc,9 LEÇÛNS DE FRÀNÇAIS ;${
-
 N
 /
-
 W
-
 W
-
 I
-
 I
-
 I
-
 W
-
 I
-
 f
-
 N
-
 I
-
 A
-
 f
-
 W
-
 N
-
 \
-
 N
-
 #N
-
 N
-
 I
-
 ÛN /
 N < té ; ; ; U
 a opéc“ de Bonneterie - Trousseaux et layettes Tme ,
 ÜN 2 ; ’ W
 I l ÎÎd€ÏWGI I P ll] ,
 U e c
-
 N
-
 A
-
 W
-
 /l\
-
- 
-
- 
-
 Grand assortiment d’articles
 pour catéchumènes (filles et garçons)
 à des prix défiant toute concurrence
-
 =— KRue de Fribourg,8 = N
-
 Blouses dentelles pour dames depms Îr. 6.75 | ME ME MR SEME MD ME ME AD. EME AE N
-
 % 15, Rue de Carouge GENEVE Rue G.-Leschot, 2
-
 p —. — _ pour 6…P10985 d’ HOtG] N
-
- 
-
 À DRASSERIE DE PLAINPALAIS | Bureau Continental —— ®
 A PIERRE FLUHR — de Placements ,
-
 W
-
 I
 U
 UN
-
 ::: BIERE DE MUNICH EBERLBRÆU ,::
 :.= BIÈRE BLONDE ST-JEAN A soë
 À METS DE BRASSERIE 59, Rue Chaponnière, 5 ;
 \ A P W
 \ SALLES DE SOCIÉTÉS —  TÉLÉPHONE 4247 ÛN
 N
-
 /:\ Vereinsmitglied Vereinsmitglied 0TTO SCHOCH :::
 UN W
 MECISSSSSSSSSSSSSSSSSS é———éé—-——————-———7èèèêêèèëëëëêê—-———-—*—:è%è%ê%%êê%%ä‘:
-
 — DEPOSITAIRE Coes (Vereinsmitglied) P||S€n (Urque”) = Teinacher Sprudel =
-
 GENEÈVE
-
-RUE DEs VoiroNs, 26]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001082_004.tif"/>
-<page><![CDATA[ROTEEPERE
-
+RUE DEs VoiroNs, 26
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001082_004.tif'/>
+        <page>
+          <![CDATA[ROTEEPERE
 RERER IERE I PEPEEPEPEEPE
-
- 
-
 Machines à coudre PFAFF
-
 insurpassées pour
-
- 
-
 Coudre
 Broder et
 Repriser!
 5 Otto WEBER, Place Kléberg, GENÈVE
 l'_d Grand Atelier de Réparation. (Vereinsmitglied)
 rJ NUNUNNNHNOHOONONONOONOUNONONOONONHNOOUOHOOONUNOOOUHONOHONHOOHUONOOHHONINEORHUOHOOONOHHOOHOOHHOHHOHHNHHHH1
-
 Demandez et Buvez
-
- 
-
 toujours la bière
-
- 
-
 degla=——_—
 © Brasserie de l’Avenir
 Ê—‘lllIlIllllIllllIllll|lllllllllIlllllllllllIllllIlIlIllllllllllllllllllllllllI;l‘l‘l‘l’:‘Ill':::l‘l’l‘l‘::l“:l’l‘l"l‘l’l;IllIl
@@ -467,510 +321,234 @@ rd FABRIQUE DE FOURNEAUX
 Ë ggg ET DE BALANCES éée
 Q e
 m
-
 ec BORN, Car0uge -Genève
-
 £é2 34, RUE D'ARVE, 54 £éé
-
 EXPOSITION NATIONALE GENÈVE 1896
 Médaille de Vermeil (En collectivité)
-
 (Vereinsmitglied)
-
- 
-
 NUNNRNNURHNNNNHNNONONNNNONENNNNONNNNONNOOHDNNNOOONNNEDRNNTDDRANHOONNONNHIDOO TON OUHNNNTTDANOEDDENT ETE HANTEE
-
 BRASSERIE JRERNOISE
-
 F_| 11, Rue du Mont-Blanc
-
 Déjeüners et Diners à la carte à toute heure
-
- 
-
 Angle rue de Berne
-
- 
-
- 
-
 Bière de Munich et de Pilsen
-
- 
-
 r Spécialités de Vins des premiers crus du Valais.
-
 L. MEYENBERG, propr.
-
 (Vereinsmilglied)
-
- 
-
- 
-
 cPPP7PP7P77P77P77P7PPPPPTTT
-
 Js Jn fs
-
- 
-
- 
-
- 
-
- 
-
 l TEETTETEETRTETAATETETEER
 rl —
 q .
 &
-
 s| CONCERT DEB
 [
-
 Lï en faveur des Colonies de Vä
 [C 2
-
 &
-
 r L
 r PROGÏ
 &
-
 r_'J 1. Marie-Henriette, Ouverture
 l'_'—! (Harmonie Grütli)
-
 l
-
 %j 2. Das ist der Tag des Herrn
 r Gesamtchor, Dir. Mofuri
 r 3. Arie aus ,,Guillaume d’Orag
 EJ (Madame Seiler)
-
 LË 4. Freu dich Herz
-
 :“._} (Frohsinn, Vevey) !
 l 5. Fantasie in C-Dur (1. Satz)
 m (Mademoiselle L. Jæger)
 r 6. Cavatine de Mireille .
-
 f_'j (Monsieur Ch. Weber)
-
 l
-
 %Ü 7. Die Maid vom Isla
-
 l'_d (Frohsinn Lausanne)
-
 Ï:-! 8. a) Frühlingsglaube ;
-
 Lj b) Die junge Nonne \
-
 ÎI:Î_Ï (Madame Seiler)
-
 r S Ossian . @
 FJ' (Â/6d6‘f/fräﬂZ Gem‘)
-
 Lﬁ 10. a) Prélude C-moll ,
-
 %J— b) Ballade G-molil \ !
 r—d (Mademoiselle L. Jæger) \
 r 11. Wie hab’ ich sie geliebt Â
 I'_L! Gesamtchor, Dir. Monsieurt:
 ä 12. Alte Kameraden |
 EJ: (Harmonie Grütli)
-
 &
-
 &
-
-pai]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001082_005.tif"/>
-<page><![CDATA[SISIs lsls Sl 91915 SIs
-
- 
-
- 
-
- 
-
+pai
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001082_005.tif'/>
+        <page>
+          <![CDATA[SISIs lsls Sl 91915 SIs
 SIENFAISANCE
-
 ‘inces des Ecoles de Genève
-
 E 4
 } 7
-
 Ë
-
 WMME
-
 Montagne
 ; C. Kreutzer
 Êr#[?//'n.
 W C. Eckert
 C. Môhring
-
 R. Schumann
 Ch. Gounod
-
 W. Sturm
-
 F. Schubert
 Ë . 1N Pescn
-
 F. Chopin
-
 C. Môhring
-
 Teike
-
 (ERREREREEE! EIEIEIENEEMENENE 57
-
- 
-
- 
-
 ‘r-1E LEEGS SS SSFF
-
 }
-
 NOUVEAUTE 1909 NOUVEAUTE
-
 Motoclette B. M.
-
 Bicyclette montée en pièces BS À
 Fourche à ressorts DAVID
 Poids 37 kg Pneu GOTHANIA 24 x 2
-
 — LA CÉLÈBRE GRIMPEUSE_ ——
-
 L. BUI{RY & (:,ic l Représentants :
-
 | Ch. CHEVALLIER, Rue de
-
- 
-
-                       
-
- 
-
- 
-
 Constructeurs
-
 | la Servette, !
 10o, Rue du Diorama, 10 | E. LE ROYER, Place Kléberg
-
 CNENNNNNININSNNQNRNINQNNNQNNNNNIRNNNQNNNNNQNNQANQNNQNNNNQNNQANQNNQNTQNNNNNANINNQNNQNNNNNQNNANNNINNNNNNINII)
-
 Les Pneumatiques Gothania
-
 —— ayant fait leurs preuves
-
- 
-
- 
-
- 
-
 Les meilleurs
 SJ019 suIoW s97
-
 sont sans contredit les plus demandés
-
 En vente chez tous les bons marchands de vélos
-
 LUNANNEIINNNINNNENNSNNNHNNANTNNNNINQNNNNNNNNNNANENNNNNNTNNNNQANNNQQNNNIINNNENNNNNNNNENTNNNNNNNNINNNININNIN)
-
 £_la Gonfeetion Suis_sg
-
 30, Rue Rousseau, 30
-
- 
-
- 
-
 Herren- und Knabenkleider
 Grossartige Auswahl vom Billigsten
 bis zu besseren Genres
 Tadelloser Sitz - Beste Verarbeitung
-
 Es empfiehlt sich bestens G. WAGNER
 (Vereinsmitglied)
 WUNONNOONOENORNONOONOOONECOONDENOODHSURNONSOHOGONOODHNHONHOODRDENONOONOEOONDOAOKRNNANONNGANANNHNKANKKNENUNN
-
 Brasserie de Grange-Canal
-
 u S. 4. m
-
- 
-
 Bière de Conserve
 en füts et en bouteilles
-
 GC Façon Munich et Pilsen 9
-
- 
-
 HaEe —> m L —Fn
-
 Lyon 1894 - MÉDAILLE D’OR - Genève 1896
-
 ( Vereinsmitglied)
-
- 
-
 L
-
-AEAAE A AAAEAAAAEEAEAEEEES]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001082_006.tif"/>
-<page><![CDATA[q
+AEAAE A AAAEAAAAEEAEAEEEES
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001082_006.tif'/>
+        <page>
+          <![CDATA[q
 0J
-
 éeg
-
 éédsénoadaendenaconees
-
 pAAgerAnErAGAAnAAEnAEnENGAnAESEcENERAGAAAnAGAEGAGAGEnRAGEGAGALE à$°$$£&àâ!—“âââi‘-‘fﬁ
-
 DROGUERIES - PRODUITS CHIMIQUES ET PHARMACEUTIQUES
 et pour les Sciences, les Arts et l’Industrie
-
 Gafé - Brasserie de Neuchâtel
-
 Place des XXII Cantons, 3 - GENEVE
-
 Bière de Munich KOLLER 8ÎCROCHET
-
 et Action de Bâle
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 GENÈVE
 Vins du Valais extra_ — Téléphone 58 = = Rue du Marché. 18
 Restauration à toute heure L2£
 (Vereinsmitglied) P. VILLIGER-SCHMID | SPÉCIALITÉS PHARMACEUTIQUES = = HYGIÈNE
-
- 
-
 géégondecenee
-
 ÉAGGOAGArAraRASAgAnAEREfAnAAAAANARAAANANAERAE’AAEAREnAEnASARAGA*
-
 q
-
 AUX BALANCES|AU lainreur MODERNE
-
 KemmleÎ-Clément Maison KN APP & C'
-
 ræ=] VANDŒUVRES = Fondée en 1892
 10, RUE BONIVARD, 10
-
- 
-
- 
-
- 
-
- 
-
 Grand jardin ombragé - Consommation de l" choix | Vêtements sur mesure - - Coupe de ler ordre
-
 ( Vereinsmitglied) Prix les |)lll.\ modérés (Vereinsmitglied)
-
- 
-
 ËË‘ËS.‘IÎÊ…..Ë&.ÂY‘*Œ'Ë BOUCHERIE F. NÆF
-
 Établissement de premier ordre = = Téléphone 761
-
 @lfped R15 Gerbep Viandedç l °Ë‘_’Ï_Xÿ
-
 es  Paulaner -Bräu ce Rue Wlnke]rled, 7
-
 Bière de St-Jean & Bière de Munich
 Téléphone 414 se GEN EVE
-
- 
-
 p E E e E e E e e 6‘6ä5$‘5‘6*.5‘6“5“6“6‘6‘5‘6ü Â‘3‘€‘66"6=äü‘ôÛë‘€$ïï‘ô‘ë‘àë“ô‘ô“o“ﬁ
-
 Restauration à toute heure — Dîners depuis Fr. 1.50
 Lokal des ,, Liederkranzes*
-
- 
-
- 
-
- 
-
 —— Adressez-vous en toute confiancê à la
-
 Laiterie Centrale de Genève
-
- 
-
 pour vos fournitures de Lait, Beurre, Crême double et Fromage de choix.
-
 Service à domicile matin et soir dans toute la ville.
-
 6@3Û53663Ü$3Ü3663
-
 Nessussssssesssssssssessss Es sSUS HSHESSS uoavàvﬁâauvüväôâvaaa»vavevvô66v$euu&
-
- 
-
- 
-
 3, Rue kaehled 3
-
- 
-
- 
-
 BOULANGERIE-PATISSERIE syécisité cé pain'ie seide « pañr ae RINIKER, GENÈVE
-
 fruits — Service |)l()lll|)l( et soigné
-
- 
-
- 
-
-$€È”6“6‘66:.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001082_007.tif"/>
-<page><![CDATA[hahirihohytada t titidetahotahototito hh hotatha h tra hs hn hs tn thates Mophodhaahahadathatia des en tra dre es hc éesdes hhs didrcrideadelie
+$€È”6“6‘66:.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001082_007.tif'/>
+        <page>
+          <![CDATA[hahirihohytada t titidetahotahototito hh hotatha h tra hs hn hs tn thates Mophodhaahahadathatia des en tra dre es hc éesdes hhs didrcrideadelie
 »t
-
- 
-
- 
-
 ÿ Chareuterie de la Croiz d’or es
-
 CALEÇONS 3
-
 F O n CHEMISETTES |Ÿ
-
 ° sur mesure f*
 ——
-
 E NE ; V.-F. ARMAND Frères
 m RUB DE LîÊîROIX-D OR 7 0
-
 PATÉS FROIDS — GALANTINES et ASPICS
 DE VEAUX — CHARCUTERIE
 ALLEMANDE — CONSERVES
-
 Maison de confiance Téléphone 3121
-
 katatatatahs
-
 e 0.
-
 hrthattatateatantess
-
 Rux pu RHONE, 36, MAISON ZANETTA GENEVE
-
- 
-
- 
-
 stododatatahahoctot
-
 °
-
 ,
-
 +.
-
 Hôtel de la]<[ouve]le Poste
-
 S90DJK) 19 SJUSWAJPDOUI
-
 J,
-
 Vereinsmitglied
-
 Allen Freunden des Gesanges der deutsch-
-
 sprechenden Bevôlkerung Genfs wird zur
-
 rhh
-
 Kenntnis gebracht, dass der
-
 Männerchor Liederkranz Genf
-
 nn
-
 s,
-
- 
-
 stets neue Milglieder aufnimmt.
-
 Man spricht deutsch. — English spoken.
-
 prrrtoe t tettats
-
 Die Gesangstunden finden allwächentlich
 am @iensz‘ag, abends 9 Uhr, im Vereins-
 lokale, Brasserie de Munich, Boule-
 vard James-Fazy, 3, stait.
-
 Diejenigen Herren, welche beizutreten
-
 hotatote
-
 e
-
 t t.
-
 rtrtrdadirtadadurdetiat
-
 « R. STAUB, propr. « Restaurant
-
 gedenken, sind gebeten, sich daselbst zu
-
 angegebener Stunde gefälligst anmelden zu
-
 = ‘Sad1v ssa ans ‘a
 SILE 19 9JHOIN W ,,A UOSIEU ET
-
 Xneso| sas 212$SUEU E 2[[2.nb a[21U31[5 2[GqélOUOY UOS 2SIAE
-
- 
-
-  
-
 À proximité de la Gare, du débarcadère des Bateaux à vapeur et de la Nouvelle
-
 22, Rue du Cendrier GENÈVE Rue du Cendrier, 22
-
 Poste. — Chambre depuis fr. 1. 5o.
-
- 
-
- 
-
 —
 =
 S ‘ wollen. S |
@@ -979,36 +557,15 @@ S ‘ wollen. S |
 $ | =l Der Vorstand. |é |
 4“:— * I & f
 # f
-
- 
-
- 
-
 2s
-
 Fabrique de Vermouth Droguerie-Herboristerie ## ‘
 —sc t# ,, Au Bienvenue” ;
-
 F° FMÏ'HÏËHI % GGFhaZ Veeînis «:'» Brosses
-
- 
-
- 
-
 2drtertated:vtactotat.
-
 ec &
 >_?
 10, Rue Lissignol GENÈVE Rue Lissignol, 10 Couleurs | Pinceaux r:
-
- 
-
 erateatatetatate:
-
- 
-
- 
-
 . — J. DŒss ——
 « ps es P
 Ÿ ° e À ° f
@@ -1016,38 +573,23 @@ erateatatetatate:
 # q €urs Et Splf|t“€“X 4, Rue de la Servettt GENEVE Rue de la Servette, 4 r
 4 z
 Î-'Ï.}’{-.'y,'—.',-‘,—,;—.'-.}-','-.‘,,;_;‘—;__;,},;{:,p}‘;æ;æ’;&;{.;;‘;ç_ÿ OE e p p p p PÉDEINDEIET X y
-
- 
-
 Hôtel de Strashourg et Du Midi ? WURZLER. propriétaire BENÈVE Pre Pradior
-
 A proximité de la Gare, des Bateaux et de la ggée 10 pog
-
-Grande Poste. Prix modérés (Vereinsmitglied)]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001082_008.tif"/>
-<page><![CDATA[<
+Grande Poste. Prix modérés (Vereinsmitglied)
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001082_008.tif'/>
+        <page>
+          <![CDATA[<
 s=
 7
-
 VMN MN
-
 NNN A
-
 SV VSV SV VSV e SV VSV
-
 NAN/A
-
 GRANDE CORDONNERIE MODERNE
 14
-
 O. ÆSC HBAC H CORRATERIE,
-
- 
-
- 
-
- 
-
 u
 O
 É ;
@@ -1062,167 +604,81 @@ w < S m
 < 2E
 ;j =m
 Q &
-
 ETE SPE SISI SIM S SP SVME SS SPE E ISS ME N ME E TS
-
 R. DOEBELI * GENÈVE
-
 25, Quai des Bergues, 25
-
- 
-
 Grand assortiment de
-
 CIGARES et CIGARETTES
-
 des meilleures provenances
-
- 
-
 (Vereinsmitglied)
-
 ARTICLES POUR FUMEURS
-
- 
-
 cETE ETE ETE E RE
-
 Les plus belles PRIMES
-
 se trouvent aux
 Timbres Escomptes rouges Le Coq
-
 13, LONGEMALLE, 13
 sd ej e sf sf e ds sf se d ofe e e f ofe ofe sl ofe ofe sd f
-
 LAITERIE DU MANDEMENT
-
 F. Hostettler
-
 40, PLACE KLÉBERG. 40
-
- 
-
 Crême fraîche tous les jours
 SPÉCIALITÉS DE FROMAGES FINS, CAMENBERT
 ROQUEFORT, BRIE, ete.
-
 — GRUYÈRE ET EMMENTHAL SUR CHOIX —
-
- 
-
 Atelier de Reliure et Dorure
-
 G. BIAESI
-
 8, COUTANCE, 8
-
- 
-
 \\\\\\\
 32> Ss
-
 (Vereinsmitglied)
-
 TRAVAIL PROMPT ET SOIGNÉ
-
- 
-
 EPICERIE eT CONSERVES
-
 Spécialité de cafés verts et torréfiés
-
 LOUIS MICHEL
-
 —— GENÈVE —
 |8, RUE DE CAROUGE,
-
- 
-
 7
-
- 
-
 %N'Æ«*“”'…"'A‘c”‘l‘XL“‘?3‘!&sa“êàl@%“"@?ê—è%'@«‘»&%M”"!6‘%‘{@""‘$\‘\"‘ GRM SNS
-
 $$Ÿ@êÏê N
-
 v v G EGLI ww
 | RUE DE BERNE * GENEVE
 Ustensiles de Ménage et Articles
-
 d’Eclairage en tous genres
-
 Réchauds de Voyages et pour
 Alpinistes en aluminium, cuivre
 rouge, cuivre nickelé et fer-blanc
 Téléphone 1892
-
- Coutellerie et Services de Table
-
+Coutellerie et Services de Table
 (Vereinsmitglied)
-
- 
-
 ISS SIS SS ISS UUN SS
-
- 
-
 CHARCUTERIE FINE,
 Aug. WEBER
-
 - 2, Rue de Berne, 2 -
-
 JAMBONS, PALETTES ET COTELETTES FUMÉS
 Saucissons diverses — Marchandise de Ire choix
 Service prompte et soigné
-
- 
-
 TÉLÉPHONE 3383 (Vereinsmitglied)
-
 ASYSISASÜSAS ÜS ÜS ASASASASUSASASUS A AS ÜS ÜS ASÜSASASASASAS ÜS AS YS ÜSAS ASASASASASASASAS OS ASASIR
-
 ‘ «wcaw°ax@«%aæ«.}9@%
-
 n p
-
 %“‘ä%“%…“‘ä@°«l&”% USUSASASUSASAS US US ÜS
-
 %®À€‘%E“äl@ FASUSASUSASASUS SE
-
- 
-
 r e OE e MS PE
 - … TC ,, MRVN A P n0 00 SRE RV AOA 06 KS A A OE S S e RS
-
- 
-
 Œ
 e
-
-ASASASUS ASASUSASASUSASAS US]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001082_009.tif"/>
-<page><![CDATA[VICTORIA- HALL, GENÈVE
-
+ASASASUS ASASUSASASUSASAS US
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001082_009.tif'/>
+        <page>
+          <![CDATA[VICTORIA- HALL, GENÈVE
 Dimanche 23 mai 1909, à 2 h. 30 après midi
-
 Concert de Bienfaisance
-
 EN FAVEUR DES
-
 e Colonies de Vacances
-
 des Ecoles de Genève
-
 PROGRAMME
-
- 
-
- 
-
- 
-
 1. Marie-Henriette, Ouverture. . . . MONTAGNE.
 / (Harmonie Grütli)
 { 2. Das ist der Tag des Herrn. . . . C. KREUTZER.
@@ -1248,40 +704,30 @@ t'y b) Ballade G-moillf( - : - . . . F. CHopIn.
 | 11. Wie hab’ ich sie geliebt. . - C MôOHRING
 L (Gesamtchor, Dir. M. Wezss)
 F 12. Alte Kameraden . . . . . . . TEKk,
-| (Harmonie Grütli)]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001082_010.tif"/>
-<page><![CDATA[]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001082_011.tif"/>
-<page><![CDATA[Des Schäfers Sonntagslied.
+| (Harmonie Grütli)
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001082_010.tif'/>
+        <page><![CDATA[]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001082_011.tif'/>
+        <page>
+          <![CDATA[Des Schäfers Sonntagslied.
 (Gesamtchor).
-
 Das ist der Tag des Herrn!
-
 Ich bin allein auf weiter Flur,
-
 Noch eine Morgenglocke nur,
-
 Nun Stille nah und fern
-
 Anbetend knie’ ich hier.
-
 O süsses Grau’n! geheimes Weh’n!
 Als knieten viele ungeseh’n,
-
 Und beteten mit mir.
-
 O siüsses Grau’n, geheimes Weh’n!
 Der Himmel nah und fern,
-
 Er ist so klar und feierlich,
-
 Als wollt’er ôffnen sich!
-
 Das ist der Tag des Herrn!
-
 Guillaume d’Orange.
 (Mme Seiler).
-
 Wenn ich mit Menschen und mit Engelszungen redete,
 Und alle Weisheit hätt’, und alle Macht der Mächtigen
 Und hätte doch der Liebe nicht, wär’ ich ein tônend Erz,
@@ -1289,243 +735,168 @@ Und wenn ich Hab’ und Gut den Armen freudig spendete
 Und wenn ich meinen Leib dem Flammentode opferte,
 Und hätte doch der Liebe nicht, es wär’ ein eitel Thun
 Die Liebe ist freundlich, sie suchet nicht das ihre,
-
 Sie freut sich nicht der Ungerechtigkeit,
-
 Sie freuet sich der Wahrheit.
-
 Sie träget, sie glaubet, sie hoffet, sie duldet alles,
-Die Liebe hôret nimmer auf!]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001082_012.tif"/>
-<page><![CDATA[Freu’ dich Herz!
+Die Liebe hôret nimmer auf!
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001082_012.tif'/>
+        <page>
+          <![CDATA[Freu’ dich Herz!
 (Frohsinn Vevey)
-
- 
-
 Wenn der Mai wird wieder kommen
-
 Und mit seiner reichen Hand,
-
 Flur und Haine bräutlich schmücket,
 Welch ein Jubel weit im Land!
-
 Frohe Heiterkeit macht die Brust mir weit!
 Freu dich Herz der selgen Zeit!
-
 Wenn die Vôgel munter singen, .
 Rauschend Quell und Bächlein springt,
-
 Süssen Duft die Auen spenden, |
 Volle Lust im Walde klingt! ‘ä
 Frohe Heiterkeit, etc. Ÿ
-
 Gerne ich der Zeit gedenke,
-
 Die mir in dem grünen Haag,
 Ersten Kuss und Liebe brachte,
 S'war ia auch ein Maientag!
 Frohe Heiterkeit, etc.
-
 Cavatine de Mireille.
 (Herr Ch. Weber).
-
 Anges du Paradis couvrez-la de votre aile,
-
 Dans les airs étendez votre manteau sur elle! .
 Et toi, brûlant soleil d’été,
-
 Fais grâce à sa ieunesse, épargne sa beauté!
-
 Je l’ai vue, à travers mon rêve,
 Dans la lande au souffle de feu,
-
 Accourant seule, vers la grêve, |
 Pâle, le front courbé,
-
 Sous l’éclat du ciel bleu, f
 Invoquant les saintes et Dieu!
-
-Anges du Paradis, etc.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001082_013.tif"/>
-<page><![CDATA[Die Maid von Isla
-
+Anges du Paradis, etc.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001082_013.tif'/>
+        <page>
+          <![CDATA[Die Maid von Isla
 (Frohsinn Lausanne).
-
 O Maid von Isla, hoch vom Strand,
-
 Siehst du das Meer sich nachtschwarz tiürmen ?
 Und dort das Schiff, das mutig Stand
-
 Der Brandung hält, und trotzt den Stürmen?
 Jetzt spritzt die Flut ihm aufs Verdeck,
-
 Jetzt himmelhoch fliegt es im Nu :
-
 O Maid, o Maid, es strebt der Heimat zu!
-
 Siehst, Mädchen, du die Môve dort,
-
 Im Gischt die weissen Schwingen wiegen,
 Bemüiht, dem sichern Felsenhort
-
 Des nahen Ufers zuzufliegen ?
-
 Was giebt der Bangen diesen Mut,
-
 Zu flattern ohne Rast und Ruh,
-
 Was treibt sie so durch Sturm und Flut ?
 O Maid, o Maid, sie strebt der Heimat zu!
-
 Dort wie auf’s Schiff der Sturmwind ietzt,
-
 So siehst du hôhnisch auf mein Werben,
-
 Rauh wie der Fels, von dem zerfetzt,
-
 Die Môve rückprallt in’s Verderben,
-
 Sei noch so hart, ich lass’ nicht ab,
-
 Dich anzufleh’n, dich anzufleh’n,
-
 Doch ôffnest du mir nicht dein Herz,
-
 Dann schliesst das Grab sich über mir als
 Heimat zu,
-
-Dann Maid, dann Maid, streb ich der Heimat zu!]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001082_014.tif"/>
-<page><![CDATA[Frühlingsglanbe.
+Dann Maid, dann Maid, streb ich der Heimat zu!
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001082_014.tif'/>
+        <page>
+          <![CDATA[Frühlingsglanbe.
 (Mme Seiler).
-
 Die linden Lüfte sind erwacht,
-
 Sie säuseln und wehen Tag und Nacht,
 Sie schaffen an allen Enden,
-
 O frischer Duft, o neuer Klang,
-
 Nun armes Herze, sei nicht bang,
-
 Nun muss sich alles, alles wenden.
-
 Die Welt wird schôner mit iedem Tag, .
 Man weis nicht was noch werden mag,
 Das Blühen will nicht enden,
-
 Es blüht das fernste tiefste Thal,
-
 Nun armes Herz, vergiss der Qual,
-
 Nun muss sich alles, alles wenden.
-
 Die junge Nonne.
 (Mme Seiler).
-
 Wie braust durch die Wipfel der heulende Sturm!
-
 Es klirren die Balken, es zittert das Haus,
-
 Es rollet der Donner, es leuchtet der Blitz,
-
 Und finster die Nacht, wie das Grab
-
 [Immerhin, immerhin, so tobt es auch iüngst noch in mir, .
 Es brauste das Leben wie ietzo der Sturm,
-
 Es bebten die Glieder wie ietzo das Haus,
-
 Es flammte die Liebe wie ietzo der BIitz,
-
 Und finster die Brust, — wie das Grab.
-
 Nun tobe, du wilder gewalt'ger Sturm,
-
 Im Herzen ist Friede, im Herzen ist Ruh’,
-
 Des Bräutigams harret die liebende Braut,
-
 Gereinigt in prüfender Gluth, |
-Der ewigen, ewigen Liebe getraut.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001082_015.tif"/>
-<page><![CDATA[Ich harre, mein Heiland! mit sehnen dem Blick,
+Der ewigen, ewigen Liebe getraut.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001082_015.tif'/>
+        <page>
+          <![CDATA[Ich harre, mein Heiland! mit sehnen dem Blick,
 Komm himmlischer Bräutigam, hole die Braut,
 Erlôse die Seele von irdischer Haît.
 Horch, friedlich ertônet das Glôcklein vom Thurm!
 Es lockt mich das süsse Getôn all mächtig zu
 ewigen Hôh’n,
 Halleluia! Halleluja !
-
 Ossian.
 (Liederkranz Genf).
-
 O Sang von Cona Ossian,
-
 Wie ist dein Lied so rein und schôn
-
 Wie bricht es glorreich seine Bahn
-
 Durch Wogendrang und Sturmesweh’n.
 Geharnischt schreitet es daher,
-
 Ein Waffenklang ist ieder Ton.
-
 Und brausend fliegt’'s von Meer zu Meer,
 Gleich Meteoren ist’s entfloh’n.
-
 In Nebel hüllt es grau sich ein
-
 Und schreitet über Haid und Moor,
-
 Und tônend klingts beim Becher Wein,
 Begeisternd an der Krieger Ohr.
-
 Es ist ein Klang, so süss und mild,
-
 Wie einer Jungfrau Spiel.
-
 Es ist ein Klang, wie Schwert und Schild,
 Es ist ein Klang wie Schlachtgewühl.
 Aus fernen Zeiten kommt’s heran
-
 In leichtem Schritt wie Helden geh’n :
-
 O Sang von Cona Ossian,
-
-Wie ist dein Lied so rein und schôn.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001082_016.tif"/>
-<page><![CDATA[Wie hab’ ich sie geliebt.
-
+Wie ist dein Lied so rein und schôn.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001082_016.tif'/>
+        <page>
+          <![CDATA[Wie hab’ ich sie geliebt.
 (Gesamtchor).
-
 Wie hab’ ich sie geliebt, doch ach!
 Der süsse Traum verschwand,
-
 Sie selber rief daraus mich wach,
 Leb’ wohl, mein Vaterland! leb’ wohl!
 Jetzt lass’ ich wiegen von der Flut
 Mich wieder in den Traum.
-
 Es kühlt der Ocean mein Blut
-
 Mit seinem kalten Schaum!
-
 Noch einen letzten Blick nach dir,
-
 Du blü’nder Heimatstrand ;
-
 Grüss’ noch einmal mein Liebchen mir
 Leb wohl, mein Vaterland! leb” wohl!
 Ich liebe dich, du weites Meer,
 Nun in die See hinein.
-
 Ich liebe dich, du weites Meer!
-
-    
-
-e]]></page>       
-        </p>
+e
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

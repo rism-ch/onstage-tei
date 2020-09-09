@@ -1,180 +1,134 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par l'Harmonie nautique<date when="13/02/1910"/></title>
-<series>1909-1910</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par l'Harmonie nautique
+            <date when='13/02/1910'/>
+          </title>
+          <series>1909-1910</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F001099</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Pieyre, A. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19100213"/>
-<title>Concert donné par l'Harmonie nautique</title>
-<placeName key="Victoria Hall"/>
-<name key="1909-1910" type="series"/>
-<name key="Bizet, Georges" ref="https://muscat.rism.info/admin/people/20057" type="person" role="cmp">Bizet, Georges</name>
-<name key="Leoncavallo, Ruggero" ref="https://muscat.rism.info/admin/people/30007109" type="person" role="cmp">Leoncavallo, Ruggero</name>
-<name key="Saint-Saëns, Camille" ref="https://muscat.rism.info/admin/people/76734" type="person" role="cmp">Saint-Saëns, Camille</name>
-<name key="Messager, André" ref="https://muscat.rism.info/admin/people/92078" type="person" role="cmp">Messager, André</name>
-<name key="Massenet, Jules" ref="https://muscat.rism.info/admin/people/84264" type="person" role="cmp">Massenet, Jules</name>
-<name key="Lyonnet"  type="person" role="cmp">Lyonnet</name>
-<name key="Ponchielli, Amilcare" ref="https://muscat.rism.info/admin/people/1653417" type="person" role="cmp">Ponchielli, Amilcare</name>
-<name key="Vaninetti"  type="person" role="cmp">Vaninetti</name>
-<name key="Pieyre, Auguste (dir.)"  type="person" role="int">Pieyre, Auguste (dir.)</name>
-<name key="Harmonie Nautique"  type="person" role="int">Harmonie Nautique</name>
-<name key="Rodhain (Mlle)"  type="person" role="int">Rodhain (Mlle)</name>
-<name key="Aquista"  type="person" role="int">Aquista</name>
-<name key="Zbinden, M. (Mme)"  type="person" role="int">Zbinden, M. (Mme)</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001099_001.tif"/>
-<page><![CDATA[se DE S Dimanche 13 Février 1900 MSn
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19100213'/>
+        <title>Concert donné par l'Harmonie nautique</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1909-1910' type='series'/>
+        <name key='Bizet, Georges' ref='https://muscat.rism.info/admin/people/20057' type='person' role='cmp'>Bizet, Georges</name>
+        <name key='Leoncavallo, Ruggero' ref='https://muscat.rism.info/admin/people/30007109' type='person' role='cmp'>Leoncavallo, Ruggero</name>
+        <name key='Saint-Saëns, Camille' ref='https://muscat.rism.info/admin/people/76734' type='person' role='cmp'>Saint-Saëns, Camille</name>
+        <name key='Messager, André' ref='https://muscat.rism.info/admin/people/92078' type='person' role='cmp'>Messager, André</name>
+        <name key='Massenet, Jules' ref='https://muscat.rism.info/admin/people/84264' type='person' role='cmp'>Massenet, Jules</name>
+        <name key='Lyonnet' type='person' role='cmp'>Lyonnet</name>
+        <name key='Ponchielli, Amilcare' ref='https://muscat.rism.info/admin/people/1653417' type='person' role='cmp'>Ponchielli, Amilcare</name>
+        <name key='Vaninetti' type='person' role='cmp'>Vaninetti</name>
+        <name key='Pieyre, Auguste' type='person' role='int'>Pieyre, Auguste</name>
+        <name key='Harmonie Nautique' type='person' role='int'>Harmonie Nautique</name>
+        <name key='Rodhain (Mlle)' type='person' role='int'>Rodhain (Mlle)</name>
+        <name key='Aquista' type='person' role='int'>Aquista</name>
+        <name key='Zbinden, M. (Mme)' type='person' role='int'>Zbinden, M. (Mme)</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001099_001.tif'/>
+        <page>
+          <![CDATA[se DE S Dimanche 13 Février 1900 MSn
 donné par
-
 L'HARMONIE NAUTIQUE DE GENÈVE
-
 sous la direction de
-
 M. Aususte PIEYRE
-
- 
-
- 
-
 Professeur au Conservatoire
-
 avec le eracieux concours de a)
-
 |
-
 M'« RODHAIN M. AQUISTA Ÿ
 Contralto, Grand Théâtre de Genève. Basse chantante, Grand Théâtre de Genève (/
 Mn M. ZBINDEN, Professeur de piano î
-
 ——> =e- ce X
-
 .ﬂ
-
 1JSN O (CAIER ÆA NIT HUT 161 Æ3
-
 27
-
 PREMIERE PARTIE
-
 Raine  onvernmre dramatique ; —- . . . = G Biæel.
 Prologue de Paillasse. — M. Aquisra. . . . .  Leoncavallo.
 Grand air de Samson et Dalila. — M"* RoDHAIN . Sainl-Saëns.
 Balcisaisoines ° . —. - . Méssdger.
-
 SECONDE PARTIF
-
- 
-
- 
-
 Roman d’Arlequin 119 Moassenel
-
 «) Ouvertur-egigue ; b) Entrée d’Arlequin ; c) Réverie de
 Colombine à sa fenêtre: d) Sérénade d’Arlequin à
 Colombine ; ç#) Duo final.
-
- 
-
- 
-
 [es, trois Hussards. — M. Aquista … . . . - Lvomnet.
-
 Romance de l’aveugle, de la Gioconda . . . . À. Ponchielli.
 M" RODHAIN.
-
 Le triomphe d’Euterpe, poème symphonique . . Vanimelli.
-
 Le prano d'accompagnement sera tenu par Mme M. ZBINDEN.
-
 Piano BLÜTHNER, gracieusement offert par la Maison SaUrIEr & JXÆGER.
-
- 
-
 P e 3
 É PRIX DES PLACES : Loges el premier rang de la première Galerie (numérotés), 2 {r. Rez-de
 | chaussée el autres places de la première Galerie, 1 fr. Seconde Galerie, 50 cent.
-
- 
- 
-  
-  
-  
-
 MM. les membres non-exéeutants ont droit d'entrée à ce concert sur présentalion du coupon
 n° 2 aux places du rez-de-chaussée el de la prémière galerie. à / eaception du premier vang et
 des loges, auxquels ils ont droil moyennant un supplément de 1 fr. Les enfants au-dessous de
 dix ans paicronl demi-place, I ne sera pas délivré de demi places pour la seconde
-
-   
-
 galerie
 Dès ce jour, cartes à l’avance de 9 à 6 h, au Victoria Hall
 Prière de ne pas entrer pendant l’exécution des morceaux. BUFFET au rez-de chaussée.
 Le GF E 8 &
 Gustr LZ d VD U pl Q XE CG NNN
 9 VY? — NRD GMP ( —> 097 — UR
-
- 
-
 'mprimerie H _ Jarrys. (reille, & Genéve
-
-T. sS. V. P.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001099_002.tif"/>
-<page><![CDATA[À(@ \-u'e),f f ’£
+T. sS. V. P.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001099_002.tif'/>
+        <page>
+          <![CDATA[À(@ \-u'e),f f ’£
 /E,S-:-( _ H—> ‘.( <—+- Rc sH e
 IN w
-
 Cours d’Instruments
 } L'HARMONIE NAUTIQUE DE GENÈVE |
 PROFESSEURS !
-
 MM. Auc. Prryre, directeur . Cuivres.
-
- 
-
- 
-
- 
-
- 
-
 9 F'OURMEN. .. . - - - - - (larinettes, saxophones, solfève.
 5 Marter ... Fs Hautbois, coranglais, basson.
 ; Jelfaspee … —. Flûte.
@@ -188,21 +142,16 @@ Victoria-Hall.
 E— d FNWAH e sUO
 ‘ }( e
 ñ X 9N
-
- 
-
 C e T IG GOOI OL
-
- 
-
 / AVIS. — Pour être recu membre non-exécutant de l’Harmonie
 Nautique on peut s'inscrire tous les jours chez le Concierge du
 | Victoria-Hall ou par lettre adressée au Comité: le prix de la carte
 | est de 8 fr. par an et donne droit à deux entrées pour chaque
 concert donné par l’Harmonie Nautique.
-
-IG GPF rrF OE S]]></page>       
-        </p>
+IG GPF rrF OE S
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

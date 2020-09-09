@@ -1,248 +1,160 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par l'Harmonie nautique<date when="27/10/1929"/></title>
-<series>1929-1930</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par l'Harmonie nautique
+            <date when='27/10/1929'/>
+          </title>
+          <series>1929-1930</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002702</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Gabelles, G. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19291027"/>
-<title>Concert donné par l'Harmonie nautique</title>
-<placeName key="Victoria Hall"/>
-<name key="1929-1930" type="series"/>
-<name key="Mendelssohn Bartholdy, Felix" ref="https://muscat.rism.info/admin/people/88790" type="person" role="cmp">Mendelssohn Bartholdy, Felix</name>
-<name key="Händel, Georg Friedrich" ref="https://muscat.rism.info/admin/people/36552" type="person" role="cmp">Händel, Georg Friedrich</name>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Scarlatti, Domenico" ref="https://muscat.rism.info/admin/people/30002849" type="person" role="cmp">Scarlatti, Domenico</name>
-<name key="Chopin, Fryderyk Franciszek" ref="https://muscat.rism.info/admin/people/51160" type="person" role="cmp">Chopin, Fryderyk Franciszek</name>
-<name key="Roussel, A."  type="person" role="cmp">Roussel, A.</name>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Mozart, Wolfgang Amadeus" ref="https://muscat.rism.info/admin/people/115324" type="person" role="cmp">Mozart, Wolfgang Amadeus</name>
-<name key="Hubay, Jenő" ref="https://muscat.rism.info/admin/people/103720" type="person" role="cmp">Hubay, Jenő</name>
-<name key="Paladilhe"  type="person" role="cmp">Paladilhe</name>
-<name key="Février"  type="person" role="cmp">Février</name>
-<name key="Liszt, Franz" ref="https://muscat.rism.info/admin/people/107196" type="person" role="cmp">Liszt, Franz</name>
-<name key="Widor, Charles-Marie" ref="https://muscat.rism.info/admin/people/135158" type="person" role="cmp">Widor, Charles-Marie</name>
-<name key="Gabelles, Gustave  (dir.)" ref="https://muscat.rism.info/admin/people/30073762" type="person" role="int">Gabelles, Gustave  (dir.)</name>
-<name key="Harmonie Nautique"  type="person" role="int">Harmonie Nautique</name>
-<name key="Meylan (Mme)"  type="person" role="int">Meylan (Mme)</name>
-<name key="Debran, Merrick"  type="person" role="int">Debran, Merrick</name>
-<name key="Bernand, Georges"  type="person" role="int">Bernand, Georges</name>
-<name key="Wend, Otto"  type="person" role="int">Wend, Otto</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002702_001.tif"/>
-<page><![CDATA[’ N 1n  ,‘\_ 1929=l 930
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19291027'/>
+        <title>Concert donné par l'Harmonie nautique</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1929-1930' type='series'/>
+        <name key='Mendelssohn Bartholdy, Felix' ref='https://muscat.rism.info/admin/people/88790' type='person' role='cmp'>Mendelssohn Bartholdy, Felix</name>
+        <name key='Händel, Georg Friedrich' ref='https://muscat.rism.info/admin/people/36552' type='person' role='cmp'>Händel, Georg Friedrich</name>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Scarlatti, Domenico' ref='https://muscat.rism.info/admin/people/30002849' type='person' role='cmp'>Scarlatti, Domenico</name>
+        <name key='Chopin, Fryderyk Franciszek' ref='https://muscat.rism.info/admin/people/51160' type='person' role='cmp'>Chopin, Fryderyk Franciszek</name>
+        <name key='Roussel, A.' type='person' role='cmp'>Roussel, A.</name>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Mozart, Wolfgang Amadeus' ref='https://muscat.rism.info/admin/people/115324' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Hubay, Jenő' ref='https://muscat.rism.info/admin/people/103720' type='person' role='cmp'>Hubay, Jenő</name>
+        <name key='Paladilhe' type='person' role='cmp'>Paladilhe</name>
+        <name key='Février' type='person' role='cmp'>Février</name>
+        <name key='Liszt, Franz' ref='https://muscat.rism.info/admin/people/107196' type='person' role='cmp'>Liszt, Franz</name>
+        <name key='Widor, Charles-Marie' ref='https://muscat.rism.info/admin/people/135158' type='person' role='cmp'>Widor, Charles-Marie</name>
+        <name key='Gabelles, Gustave' ref='https://muscat.rism.info/admin/people/30073762' type='person' role='int'>Gabelles, Gustave</name>
+        <name key='Harmonie Nautique' type='person' role='int'>Harmonie Nautique</name>
+        <name key='Meylan (Mme)' type='person' role='int'>Meylan (Mme)</name>
+        <name key='Debran, Merrick' type='person' role='int'>Debran, Merrick</name>
+        <name key='Bernand, Georges' type='person' role='int'>Bernand, Georges</name>
+        <name key='Wend, Otto' type='person' role='int'>Wend, Otto</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002702_001.tif'/>
+        <page>
+          <![CDATA[’ N 1n  ,‘\_ 1929=l 930
 monie
-
 — étaufiqu
-
 Harmonie Municipale de la Ville de Genève
-
-       
-  
- 
-
 sA
-
 =
-
- 
-
- 
-
- 
-
- 
-
- 
-
 HELWÊ'ËHA /A$$ŒDR/A\N@E$
-
 ACCIDENTS - RESPONSABILITÉ CIVILE
-
 | S'adresser/à Gaston MOISY, Inspecteur de la Compagnie
 ; 12, RUE DE HESSE - Téléphone 43.257 (2 racc.)
-7OLA) ;]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002702_002.tif"/>
-<page><![CDATA[e 008 e e A e 0 e 8 O D u M L A
-
-           
-     
-    
-     
- 
-
+7OLA) ;
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002702_002.tif'/>
+        <page>
+          <![CDATA[e 008 e e A e 0 e 8 O D u M L A
 “Nos sénes Standard pour Messœurs* ï [
-
 Richelieux. box brun et-noïr, cousus Fr. 49. 50
 Richelieux vernis?et box brun, uni ,» 25.— …
 Fantaisies diverses couleurs, cousus » 29.50
-
- 
-
- 
-
- 
-
-  
-
- 
-
 Richelieux fantaisies avec semelles y
 erêpe et Uskide, diverses couleurs » 39.75- Ë
 Riche choix en Chaussures fantaisies .
 pour dames fillettes et enfants \
-
 \
-
 AU PALAIS DE LA CHAUSSURE
-
 7, RUE DE LA CONFÉDÉRATION - GENÈVE
-
- 
-
 A 0 A 0 A n A h 0 [ n A 0 ‘ n [ 0 R 0 0 0 ‘ r 0 L 0 L 0 0 0 A 0 r 0 5 ‘ n A
-
- 
-
 B UZSSOR ﬂP a lSCIÎlÂJ
-
 Genève
-
 GRANDE MAISON DE BLANC
 se
-
 ccsretar r
-
 Z, “—"’
-
 emiirts
-
 n TeT ""î!
-
 506
-
 Trousseaux D . <» — Lingerier «» - Bonneterie>
-
 7028 2 AN
-
 "" VS VS SS SV SS VN SS
-
- 
-
-   
-
- 
-
- 
-
 YV V V VVV V ” V SS V VS S S VS S
-
 |||nul|lllulll|lllllll|llulll|llnl“||lull|‘llml||lul|l||hull||llull||luul||lmu||||ull||llu|l"l|ll|ll|||ul\||fml|||llm||llllul|ll|ull"||n|l||lunl…nu||||mlllllml||||uu]|@ ,
-
 PRIOR
-
 \ CITÉ, 16 « CORRATERIE, 9
-
 Vend neufs. ﬁche:‘e, loue
-
 es
-
 ds EU
 ÉF EME IERE
-
 d
-
 DEn
-
- 
-
 (firessfHsnse{prosea ce {premnan pn EHiora}}rorcr{frscae{}renna | ysrenr{prareee ( }rreret }
 @uu-u"n-u||llmi|llpuu||||uu||l|uu|||n…|u|mu||||…|||u.u|…mull|un|mnu|
-
 et d’occasion ; livres et musique äl
-
 ; Nouveautés littéraifes et musicales dès barution Ë
-
 Le seul abonnement qui vous. accorde à votre gré llvres ou muslque ,
-
 Fr. 45,— par an, Fr. 2.50 par mois ‘ ’ï
-
 |umll|nm|||u--ullw-ul||--mllnmlllmmllumllllmullIIMIIll---ulllnulllll-Mllh-ullll…llüln-ullu»lllllunllllmul|umll|unu||n--u||wullllnu|lllmullnuul , w
-.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002702_003.tif"/>
-<page><![CDATA[VICTORIA-HALL
-
- 
-
- 
- 
-
- 
-
- 
-
- 
-
- 
-
+.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002702_003.tif'/>
+        <page>
+          <![CDATA[VICTORIA-HALL
 Ouvert On
 d Dimanche 27 octobre 1929 pomménean à
 ! 14 h.
 donné par
-
 L’'HARMONIE NAUTIQUE
-
 (HARMONIE MUNICIPALE DE LA VILLE DE GENÈVE)
 Directeur: M. Gustave GABELLES
-
 avec le bienveillant concours de
-
 Mre MEYLAN M. Merrick DEBRAN
 SOPRANHO VIOLONISTE
 M. Georges BERNAND
 PIANISTE
-
 Prix de virtuosité du Conservatoire 1929
 ——
-
- 
-
 1\PIROGIR A MMF
 SOUVERTURE DEFRUMEBEAS T Mendeïssonn
 2. SONATE EN RÉ (Adagio - Allegro - Larghetto - Allegro) . . . Haënde/
@@ -253,10 +165,8 @@ Mme MEYLAN. Au piano: M. O. WEND
 DISCHERZORENUMID/IÉS E 1 AGhODIN
 M. G. BERNAND
 5. POÈME DE LA FORÊT (Faunes et Dryades) .. . . . . ÀA Rousse/
-
 1re audition
 Deuxième partie
-
 » 6. TRISTAN ET ISOLDE (Prélude et Mort) .. . .. . . . Æ Wagner
 Vga)iNOCNURNES 0 Chopin
 OIXIENUET E 1 d Mozart
@@ -269,46 +179,26 @@ Mme MEYLAN
 DIMEFBISTONAEZ T t
 M. G. BERNAND
 10> ANDANTE ET TOCCATA.......,..... … . Ch-M Widor
-
 Piano de concert PLEYEL, au soins de la maison Ch. Berguer
-
- 
-
 Dimanche 8 décembre : Festival de Musique Italienne
-
- 
-
 S. À. pour la en
 Vente des Automobiles Suisse
 RUE DE LA TRUITE (Jonction) Téléphone 50.184
-
- 
-
- 
-
- 
-
-Imp Cuarurs & BauwFisTer, Rue du Stand, 47, Geuévo—]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002702_004.tif"/>
-<page><![CDATA[GRANDE BRASSERIE ET CAFÉ
+Imp Cuarurs & BauwFisTer, Rue du Stand, 47, Geuévo—
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002702_004.tif'/>
+        <page>
+          <![CDATA[GRANDE BRASSERIE ET CAFÉ
 pu XX" SIÈCLE
-
 23, Boulevard Georges-Favon - GENÈVE
-
- 
-
 AOT
-
 Bières de Munich - Pilsen-Urquell - Spéciale Bittrée - Brune et
 Blonde ordinaire - Apéritifs de marque - Dégustation des grancs
 vins français - Lunch à fr. 3— et 3.50 - Grande carte de spécialités
 Tous les samedis “Amourettes” - Menus fins sur commande
 Salle de société
-
- 
-
 FÉLIX MENDELSSOHN
-
 L’auteur de l’ouverture de Ruy-Blus, né à Hambourg en 1809, mort à
 Leipzig en 1847, nous donne l’exemple des inconvénients d’une trop grande
 facilité et d’une vie trop heureuse. Petit-fils du philosophe Moses Mendels-
@@ -322,56 +212,29 @@ Saint Mathieu ». Il eut le mérite de comprendre les anciens et de répan-
 dre la connaissance de leurs œuvres. En revanche il resta toujours insen-
 sible à l’art si pénétrant de son ami Schumann. En 1829, Mendelssohn fit
 un voyage en Angleterre qui lui valut une célébrité universelle.
-
- 
-
- 
-
- 
-
- 
-
 Pour voyager agréablement et sans soucis, adressez-vous à
-
 L’AGENCE
-
 C. BLENK, FERT & Co
-
 1, Rue du Mont-Blanc, 1
-
 Angle Quai des Bergues
-
 GENÈVE
-
- 
-
 Tous les billets de chemins de fer et de passages
 maritimes aux conditions des tarifs
-
 CHÈQUES DE VOYAGEURS = BANQUE - CHANGE
-VOYAGES A FORFAIT]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002702_005.tif"/>
-<page><![CDATA[BANQUE
+VOYAGES A FORFAIT
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002702_005.tif'/>
+        <page>
+          <![CDATA[BANQUE
 POPULAIRE SUISSE
-
 Capital et Réserves: 195.000.000
-
 Piace Saint-Gervais
 18, COURS DE RIVE - 2, ROUTE DES ACACIAS
-
- 
-
 Son principe d’avoir toujours soin des intérêts de sa
 clientèle et de la contenter dans la mesure du possible a fait
-
 sa force et sa prospérité
-
-    
-
- 
-
 AH ! PERFIDO ! SPERGIURO ! (Bee/hoven)
-
 Beethoven composa cette scène dramatique en 1796 alors qu’il avait
 26 ans. Elle comprend les trois parties classiques conventionnelles. En
 première partie il s’agit de Didon, la reine Carthaginoise, abandonnée par
@@ -382,73 +245,45 @@ seconde partie, l’Air proprement dit, où l’amante implore la pitié du crue
 el manifeste sa profonde tendresse pour lui : « Je mourrai si je le perds.…! »
 Mais les supplications sont vaines. Nous voici à l’Allégro final et l’explo-
 sion véhémente du désespoir de se voir méprisée malgré un si grand amour.
-
 Quoique cette œuvre n’appartienne pas encore à la belle période du
 génie beethovenien, elle n’en est pas moins remarquable par ses accents
 dramatiques. La profonde émotion de l’Air est déjà bien marquée du style
 beethovenien, et c’est une des belles pages du Maître de Bonn.
-
 On sait que Berlioz a traité ce même sujet de Didon abandonné, dans les
 Troyens à Carthage, avec un rare bonheur.
-
- 
-
- 
-
- 
-
 MANUFACTURE GÉNÉRALE D'INSTRUMENTS ne MUSIQUE
-
 La plus Importante du monde
 Sociélé en commandite par actions au capital de 10 millions Hors Concours
-
 Membre du Jury f IE Membre du Jury
 Exposition univer- " 5 Exposition univer-
 ‘ selle de Paris 4900
-
 selle de Paris 4900
 et Genève 1927 et Genève 1927
-
 Hors Concours
-
- 
-
 94, Rue d’Angoulême, PARIS
-
 Fournisseurs du Conservatoire KHational de Musique de Paris
 de la Garde Républicaine et des IMinistères de fa Guerre et de fa arine
 et des Grands Concerts
-
 Spéolalité d’Instruments pour Harmonies, Fanfares, Orohostres, Soolétés de
 Bymnastique, de Tir, Sapeurs-Pomplers, Jazz-Bands et Nouveautés Musloales
-
 Nouvelle victoire des Instruments MONOPOLE COUESNON
 au Concours annuel du Conservatoire National de Musique de Paris (Juin 1928)
-
-3 PREMIERS PRIX - 5 SECONDS PRIX 6 PREMIERS ACCESSITS - 2 SECONDS ACCESSITS]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002702_006.tif"/>
-<page><![CDATA[SOCIÉTÉ DE
-
+3 PREMIERS PRIX - 5 SECONDS PRIX 6 PREMIERS ACCESSITS - 2 SECONDS ACCESSITS
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002702_006.tif'/>
+        <page>
+          <![CDATA[SOCIÉTÉ DE
 BANQUE SUISSE
-
 FONDÉE EN 1872
 Cap1tal—actmns et Réserves : 209 millions
-
 6-10, Corraterie - GENÈVE - Corraterie, 6-10
-
 CORNAVIN EAUX-VIVES
 10, Place de Cornavin 3, Place des Eaux-Vives
 PLAINPALAIS CAROUGE
 86, Rue de Carouge 11, Rue du Marché
-
 TOUTES OPÉRATIONS DE BANQUE AUX MEILLEURES CONDITIONS
-
- 
-
- 
-
 Aibert ROUSSEL
-
 Né à Tourcoing le 5 avril 1869, embrassa d’abord la carrière de marin :
 en 1887, à dix-huit ans, il était reçu au Borda, puis il fit en qualité d’en-
 seigne de vaisseau le voyage de Cochinchine, à bord de la canonnière cui-
@@ -462,146 +297,71 @@ théâtre — entr’autres les Evocations, le Festin de l’araignée, Pour une
 Fête de printemps et Poème de la Forét. Albert Roussel s’est très vite dégagé
 des influences pour réaliser un style personnel, un peu laborieux et com-
 plexe, subtil, mais généralement persuasif par sa sincérité et sa qualité poé-
-
- 
-
 !
 |
 |
-
- 
-
 tique. Ce style manifeste toujours une grande distinction de pensée et allie
 à la fantaisie la plus vivante le souci de la logique formelle.
-
- 
-
- 
-
- 
-
 Drocucrie R. SCHULÉ & Fits
-
 30, Boulevard Georges-Favon et Rue de Hesse, 4
-
 SERVICE RAPIDE GEN ÈVE ESCOMPTE 5°/o
 A DOMICILE Téléphone 43.784 AU COMPTANT
-
 Spécialités recommandées :
-
 ‘“OXY-FLI° sacs
 pour la destruction des mites, “IMPERMITE”
-
 mouches, moustiques, punaises et pour la protection
-autres insectes nuisibles des vêtements]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002702_007.tif"/>
-<page><![CDATA[l(iosque clu jarclin dn glais
+autres insectes nuisibles des vêtements
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002702_007.tif'/>
+        <page>
+          <![CDATA[l(iosque clu jarclin dn glais
 , frey et f113
-
 ses thés concerts
-
- 
-
 orc11estre sottiaux
-
- 
-
 en hiver salle communale de plainpalai…ﬁ‘
-
- 
-
- 
-
- 
-
- 
-
 GRANDE
-
 BOUCHERIE DU MOLARD
-
 BOVAGNE & DURET
-
 TÉLÉPHONE 47.385
-
 AN
 La plus importante maison de Toujours les meilleures mar-
 Genève, ce qu’il y a de plus chandises, le plus grand choix
 moderne comme magasin de et les prix les plus modérés.
 vente et installation frigori- Service de commande très soigné et
 livraison rapide dans toutes les
-
 fique. directions.
-
- 
-
- 
-
- 
-
 Spécialité d’AGNEAU DE PRÉ-SALÉ
-
- 
-
 5°/ d’Escompte en tickets jaunes de l’U. C. G. pour tous les achats faits
 0 au comptant.
-
- 
-
- 
-
- 
-
- 
-
 @ =—
-
 Buvez un
-
 AMER PICON
-
-Exigez-le]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002702_008.tif"/>
-<page><![CDATA[Au Dépôt général du Poisson du Lac Léman
-
+Exigez-le
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002702_008.tif'/>
+        <page>
+          <![CDATA[Au Dépôt général du Poisson du Lac Léman
 Maison fondée en 1848
-
 LUGRIN & Cie (s.a.)
-
 46, Rue du Rhône, 46 - Genève
-
 Adr. télégr.: LUGRIN-GENÈVE - AUCUNE SUCCURSALE - Téléphone 48.266
-
 Volailles de Bresse - Gibiers de toutes provenances
 Poissoens du Lac
 Marée française - Huitres de Claires de Marennes
 Arrivages directs et journaliers
 Langoustes du pare de Camaret
 Comestibles de toutes espèces - (Conserves des tres marques
-
 L'importance de la vente lui permet de ne jamais
 constituer de stock et de garantir à sa clientèle la qualité et la fraîcheur de ses marchandises
-
 Expéditions en tous pays
-
- 
-
- 
-
- 
-
- 
-
- 
-
 HARMONIE NAUTIQUE
-
 MEMBRES DU COMITÉ :
 MM. G. MARTINET, président ; G. GABELLES, directeur ; J. LICKERT et
 E. LEUTÉ, vice-présidents ; A. PORTIER, secrétaire ; F. CHAPUIS, vice-
 secrétaire ; M. GALFRE, trésorier ; P. MURITH, vice-lrésorier ; E. BURDET,
 bibliothécaire ; M. DEPRAZ et J. VIBERT, économes.
-
 MEMBRES EXÉCUTANTS (1929)
 Flûtes : MM. BLum - Baup - SEIDeL - LEvy - STOCKBURGER
 CAVALLO.
@@ -610,229 +370,120 @@ Petites clarinettes : MM. SANTANDRÉA - BéBoux - BERTONE.
 Clarinettes: MM. DéPraz - A. PORTIER - RIEUNAUD - MURITH
 PEZZOTTI - DUCRET - SCHWITZGUÉBEL - Moisy - ROTH - ZIBACH
 GyYSsIN - MARTI - BURDET - MÉDA - VANBIANCHI - NONNEMANN
-
- 
-
 A. MURITH s.a.
-
 GENÈVE - siège Social : Rue des Chaudronniers, 16 ;
-
 Téléph. 50.288 (Service permanent)
 Fabrique de Cercueils Automobiles Funéraires
-
 L’Administration se charge, sans aucun déplacement pour les
 familles, de toutes les démarches et formalités relatives aux
-
 inhumations —  Exhumations — Incinérations —  Transports |
-
- 
-
-   
-
 | rrs CENTRAL-DEUIL s52750
-
-  
- 
-  
-
 TRANSPORTS FUNÈBRES|
-
-Ancienne Maison MURITH, DUPARC & FERT _— _ Fondée en 1888]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002702_009.tif"/>
-<page><![CDATA[ARTICLES DE VOYAGE
-
+Ancienne Maison MURITH, DUPARC & FERT _— _ Fondée en 1888
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002702_009.tif'/>
+        <page>
+          <![CDATA[ARTICLES DE VOYAGE
 MAROQUINERIE
 MALLES POUR AUTOMOBILES
-
 ERN. CHEVALLIERS A
-
 4, Place Bel-Air - Rue du Rhône, 58
-
 GENÈVE
-
 Une qualité La meilleure
-
- 
-
- 
-
 Membres exécutants (suile)
-
 BERGOIN - BopoIRA - CHATELAIN - GABELLES fils - (CHARLON
 VIGNA - BUsCH. - GINDRE - BINET - Kunz - G. PORTIER.
-
 Clarinette basse : M. BESsOoN.
-
 Bassons : MM. Ch. FRANCOUAL - J. FRANCOUAL - J. LAncOUD.
-
 Saxophones : MM. D’IvERNOIS - GONDRET - PEDRONI - BOESCH
 MARET - H. VANAT - ROYBIN - RIzzATo - DEPOISIER.
-
 Cors : MM. RISTORI - ZBINDEN - PIGUET - R. MARTIN - RETSCHISKY
 J. BoccARD - BINEATI - MERCIER.
-
 Cormnets à pistons : MM. A. DuponT - M. CuaPuis - C. DRoz
 L. Decroux - Trisconr - J. PicurT
-
 Bugles : MM. Poncion! - GuyoT - REvoL - REISSER.
-
 Trompettes : MM. E. Burper - CoLoMBO - ROssET - MAIRE.
-
 Trombones : MM. PioTTron - Sinay - Ch. MARTIN - MAITRE - RocH
 Marc PoRTIER - BALESTRA - TABACZNICK.
-
- 
-
- 
-
-  
- 
-
- 
-
 LA
-
 BIÈRE
 7 DES
 8 CONNAISSEURS
-
 PUc
-
- 
-  
-
-ä]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002702_010.tif"/>
-<page><![CDATA[Hew EVREŒÊTEMENTS
-
+ä
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002702_010.tif'/>
+        <page>
+          <![CDATA[Hew EVREŒÊTEMENTS
 La plus grande spécialité pour hommes, jeunes gens et enfants
-
 VISITEZ “ COMPAREZ
 SES MAGASINS Û SES MARCHANDISES
 à qualités égales Û à façons égales
-
 MEILLEUR MARCHÉ QUE PARTOUT AILLEURS
-
- 
-
 —n
-
- 
-
 Membres exécutants (suile)
-
 Barytons, Basses et contrebasses : MM. GREBER - DucRAY - VIBERT
 DEFRANCESCO - D’OLIVEIRA - CHOUARD - OMARINI - BossoN
 MANDALLAZ - LEISER - MONTILLARD - MOLINATTI - MAROCCO.
-
 Contrebasses à cordes : MM. RICHTER - MAYER - KNUCHEL.
-
 Batterie : MM. Kurr - DELOCHE - DESCOMBES - GRIEDER - BELET
 Gay.
-
- 
-
 AVIS. — Les personnes qui désirent devenir « membres passifs » de
 l’Harmonie Nautique peuvent s’'inscrire au Victoria Hall ou à la Librairie
 Richard (80, rue du Rhône), et auprès des membres de la Société. La carte
 de «membre passif» donne droit à deux entrées pour chaque concert
 donné par l’Harmonie Nautique.
-
 FAITES VOS ACHATS de préférence chez les commerçants indiqués
 dans nos programmes analytiques !
-
- 
-
- 
-
 GRANDE BRASSERIE CENTRALE
-
 CAFÉ-RESTAURANT
 CROIX-D’OR, 2 TÉLÉPH. 43.462
 Déjeuners et Dîners -  Choucroute extra toute l’année
-
 BIÈRES WARTECK de Bâle
 et VINS de première qualité
-
-Saîle au premier E. MAYERAT]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002702_011.tif"/>
-<page><![CDATA[E e e
-
- 
-
+Saîle au premier E. MAYERAT
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002702_011.tif'/>
+        <page>
+          <![CDATA[E e e
 P e
-
 TRs
-
 Foaeee
-
- 
-
- 
-
 |
 |
 Ï
-
 'ä
 j
 z
 I;
 i
 Î
-
- 
-
 :
-
-  
-
 ÿ
 îL
 |
-
 Ps
-
-  
-  
-
- 
-
- 
-
 —
-
 Pharmacie de l’Université
-
 11, rue du Conseil-Général — GENÈVE — Téléphone 51.434
-
 C. TAUCHER
-
 Pharmacien-chimiste diplômé fédéral
-
 EU D onnances 9 | Lesordonnances pourles sociétés de
 mandée par le corps médical. | ;
-
 | secours mutuels, caisses de mala-
-
 dies, assurance scolaire, ete., sont
-
 exécutées avec fous les soins voulus
-
 Î et taxées aux tarifs les plus bas flxés.
-
 Exécution scrupuleuse de toutes /es
 ordonnances avec des produits de
 marque et chimiquement purs par
 un personnel scientifique et diplômé.
-
 Spécialités de tous les pays — Service à domicile
-
- 
-
 TRISTAN et ISEULT (R. Wagner)
 |. Prélude
-
 Une douloureuse tension de tous les sens vers un bonheur qui l’épou-
 vante à force d’être surhumain ; un désir qui se dévore soi-mème dans le
 désespoir de sa vanité ; des efforts cent fois trompés ; des recrudescences
@@ -844,57 +495,26 @@ un mot, tout le vouloir de la passion humaine, déshérité de pouvoir, voilà
 ce qu’exprime, dans son déroulement qui se hausse avec une pénible len-
 teur pour se relever encore, et encore, et toujours, le prélude sanglotant de
 Tristan et Iseult.
-
- 
-
- 
-
- 
-
 _
-
 (2)
-
 IANOS ‘ se
 D'OCCASION
-
 ESCOMPTE AU COMPTANT OÙ
 GRANDES FACILITÉS DE PAIEMENT
-
 R0tschy Frères
-
 64, RUE DU STAND
-
- 
-
- 
-
-L'CLI A S Elage]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002702_012.tif"/>
-<page><![CDATA[BANQUE pe PARIS ET pes PAYS-BAS
-
+L'CLI A S Elage
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002702_012.tif'/>
+        <page>
+          <![CDATA[BANQUE pe PARIS ET pes PAYS-BAS
 PARIS
-
 AMSTERDAM - BRUXELLES - GENÈVE
-
 SUCCURSALE de GENÈVE 6, rue de Hollande
-
 TOUTES OPÉRATIONS DE BANQUE
-
- 
-
 ORDRES DE BOURSE Ouverture de Comptes en toutes monnates
-
- 
-
- 
-
- 
-
- 
-
 Il. Mort d’Iseult
-
 [Iseult a rejoint Tristan qui, le regard levé vers elle, s’est affaissé sans
 vie dans ses bras ; en poussant un cris, l’amante est tombée, défaillante,
 sur le cadavre de l’amant. Or, voici qu’un navire amène le roi Marke et sa
@@ -907,75 +527,42 @@ dant il manque une victime encore : Iseult qui, penchée sur le corps de Tris-
 tan, indifférente au sang versé, regarde sans comprendre et n’appartient déjà
 plus à la terre. Tout à coup, un éclair passe en ses yeux, un frisson con-
 vulsif la secoue, et sur ses lèvres résonne l’hymne des amours glorifiées.
-
 La voix d’Iseult, douce et voilée d’abord, s’élève graduellement sur
 l’immense progression de l’orchestre. Le motif du Sterbelied se répète et
 se développe ; il s’élargit, il se transforme sur un torrent de sonorités gran-
 dissantes. Les thèmes d’extase et de félicité se répondent, donnant sa con-
 clusion nécessaire au duo passionné du deuxième acte. Iseult va être
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 CLARINETTES, FLUTES, HAUTBOIS
-
 de la maison
-
 LEBLANC
-
 70?i, rue des Rigoles - PARIS
-
 ont été appréciés par tous les connaisseurs
-
-à l’'Exposition de la Musique à Genève]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002702_013.tif"/>
-<page><![CDATA[> 1EdUIER
-
+à l’'Exposition de la Musique à Genève
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002702_013.tif'/>
+        <page>
+          <![CDATA[> 1EdUIER
 PERNOT
-
 - GENÈVE
 E | T1V [OIN (S
 ! | IOU
-
-  
-
- 
-
 | . réunie à Tristan par delà la mort, sans fin, sans limites, sans séparations
 possibles et pour toute l’éternité ! L’ineffable motif de la félicité infinie
 plane sept fois à l’orchestre, emportant vers le ciel les dernières paroles
 du cantique, et l’écho des thèmes du désir aboutit à l’accord final, tandis
 | qu'Iseult glisse lentement sur le corps de Tristan, morte d’extase, morte
 f d’amour et de félicité. |
-
 Cet ouvrage, qui demeure peut-être le type le plus complet et le plus
 caractéristique du drame musical tel que l’a compris Wagner, fut repré-
 senté pour la première fois à l’Opéra de Munich, sous la direction de Hans
 ‘ de Bülow, le 10 juin 1865. Le rapprochement du prélude et de la scène finale
 est un artifice imaginé par l’auteur lui-même pour donner place à son œu-
 vre dans les concerts exclusivement symphoniques.
-
- 
-
- 
-   
-  
-
 LES
 GPANDS
 M A GA SINS
-
 "PRINTEMPS
-
 DE PARIS
 \ e
 possèédent une Ouccursale
@@ -983,216 +570,108 @@ AHORUE du RHÔNE AGENÈVE
 Vous y trouverez
 | les dernieres Nouveautes de
 leMODE PARISIENNE
-
 vendues en
-
 ". \ Francs Français — N
-
 /
 \ ;
 "l \ Æ;ÿ é
 ; }L ©
-
 Ÿ
-
- 
-
- 
-
- 
-
- 
-
-508]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002702_014.tif"/>
-<page><![CDATA[GRANDS VINS DE CHAMPAGNE
-
+508
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002702_014.tif'/>
+        <page>
+          <![CDATA[GRANDS VINS DE CHAMPAGNE
 MOËT & CHANDON
-
 TÉIPFERENAYŸ
-
 —En
-
 Louis LECHÈRE & Fils
-
 AGENTS GÉNÉRAUX
-
 3, Rue de la Monnaie
 Téléphone : 50.732 GENÈVE
-
- 
-
 ANDANTE de la 2me symphonie
 TOCCATA de la 5me symphonie pour orgue.
 Ch.-M. Widor
-
 Charles-Marie Widor né à Lyon le 22 février 1845. Depuis 1869, le
 maître est organiste à l’église Saint-Sulpice, où de nos jours il interprète
 encore sa pensée et celle des grands maîtres sur le magnifique instrument
 de Cavaillé-Coll.
-
 Widor a écrit des symphonies d’orgue, de la musique de chambre, des
 messes, des motets, 3 symphonies, des musiques de scène pour « Conte
 d’avril », Jeanne d’Are, un ballet : La Korrigane, ete., etc.…
-
 Charles-Marie Widor, membre de l’Institut, est depuis 1922, le secré-
 taire perpétuel de l’Académie des Beaux-Arts
-
- 
-
- 
-
- 
-
 Pour être servi | e
 ° ° Service régulier à domicile
 rap1dement et blen’ ville et banlieue
 adressez-vous à la —
-
 BOULANGERIE-PATISSERIE DE PARIS
 E. MATZINGER
-
 18, Bd Georges-Favon - GENÈVE - Téléphone : 46.803
 Spécialités :
 Pains de régime - Pains de gluten pour diabétiques
-
- 
-
-w -]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002702_015.tif"/>
-<page><![CDATA[ETE Z
+w -
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002702_015.tif'/>
+        <page>
+          <![CDATA[ETE Z
 RE T E é
-
 PPC SE
-
 aifasae
-
-  
-
 PEPE RESRE RE E SS DU
-
-  
-
-  
-
 SPE
-
 An
-
- 
-
- 
-
- 
-  
-
 Restaurant YVROUD
-
 QUAI DES BERGUES 23
-
 - } (en face du Pont de la Machine)
 Téléphone A L’ENTRESOL Téléphone
-
 23.420 ; 25.420
-
 GENÈVE
-
- 
-
- 
-        
-  
-
-  
- 
-
- 
-
- 
- 
-
 Repas à fr. 3.50, fr. 5— et fr. G—
 THÉ - GLACES - CHOCOLAT
-
- 
-  
-
- 
-
 TERRASSE avéc vué. du Mont-Blanc J. YVROUD
-
 et la Ghaîne des Alpes Ÿ f ; CHEF DE CUISINE
-
- 
-
-       
- 
-
 Brasserie
 LANDOLT
-
 Etablissement de 1#" ordre
-
 d'Une ancienne renommée
-
- 
-
 ||n|ll|||mlll]lmll"|…l|||||u|l"||u||"|…lil||m|:…|…|||luu|||hm|||nm|l\||n||l‘llmll|ﬂnu|]|nu||||nulll|nu(|||ml||l|| u|||lmllll|lmlIlll"llllllHllllll"!llll"llll@
-
 }Wessæurs,
-
 Vos  habits. seront comme neufs, nettoyés et repassés
-
 F. & E. BAEC HLER Frères.
-
 4, Tour-de-Plle - 2, Cours dé Rive - 3, Grand’Rue
-
 3, Place du Molard_ - 7, Rue dû Mt-Blanc - 6, Rue Leschot
-
 3, Servette, - 17, Bd Georges-Favon - 71, Rue de Carouge
 15,/Place du Marché, Carouge -16, Rue Voltaire
-
 poi{frroeeffrrcer rrrn es }c prrre rrr r1 (
-
 Uslne: 84, Rue de La‘u.:sanne‘ - / GENÈVE
-
 '|nnill|l|lllllllmlll|lnul[|luul“lmllllllI!ll…lull“lulll“hllll|llnll“luul"nuu
-
-n…||||||m||||uu|l||uu1|||um|l||mul||mum|m|||)mu||wu|||||-u||||uu1|||u||ll||lm||||||.|||||m||||um||||nu|||||pu||||nm||||m|||||mu||luulll]m|ll||…|||l|uu||]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002702_016.tif"/>
-<page><![CDATA[REPRÉSENTATION PRINCIPÀLE ;
-
+n…||||||m||||uu|l||uu1|||um|l||mul||mum|m|||)mu||wu|||||-u||||uu1|||u||ll||lm||||||.|||||m||||um||||nu|||||pu||||nm||||m|||||mu||luulll]m|ll||…|||l|uu||
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002702_016.tif'/>
+        <page>
+          <![CDATA[REPRÉSENTATION PRINCIPÀLE ;
 A GE NÈVE
-
 LN IR 600
-
 _ FONDE EN 180Z
-
- 
-
 MAISON CHS BERGUER
-
 1T, RUE PETITO‘Î[‘ 11
-
- 
-
- 
-
 ; Ÿ A / = Ÿ
 Ÿ 2s » » } | e A ‘
 > e e t4 ÿ
 F L ” - z » Z ; /
 . k y 7 } f e
 w “ f EN Ç r3
-
-  
-
 E ds d d
-
 R — ts
 Gx “y A 2 Ts ; #
-r —— r A e E rn E S R]]></page>       
-        </p>
+r —— r A e E rn E S R
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

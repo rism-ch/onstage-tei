@@ -1,198 +1,133 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par l'Harmonie nautique<date when="04/10/1925"/></title>
-<series>1925-1926</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par l'Harmonie nautique
+            <date when='04/10/1925'/>
+          </title>
+          <series>1925-1926</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002604</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Gabelles, G. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19251004"/>
-<title>Concert donné par l'Harmonie nautique</title>
-<placeName key="Victoria Hall"/>
-<name key="1925-1926" type="series"/>
-<name key="Mendelssohn Bartholdy, Felix" ref="https://muscat.rism.info/admin/people/88790" type="person" role="cmp">Mendelssohn Bartholdy, Felix</name>
-<name key="Grétry, André-Ernest-Modeste" ref="https://muscat.rism.info/admin/people/83932" type="person" role="cmp">Grétry, André-Ernest-Modeste</name>
-<name key="Gigout, Eugène" ref="https://muscat.rism.info/admin/people/62831" type="person" role="cmp">Gigout, Eugène</name>
-<name key="Saint-Saëns, Camille" ref="https://muscat.rism.info/admin/people/76734" type="person" role="cmp">Saint-Saëns, Camille</name>
-<name key="Mozart, Wolfgang Amadeus" ref="https://muscat.rism.info/admin/people/115324" type="person" role="cmp">Mozart, Wolfgang Amadeus</name>
-<name key="Duparc, Henri" ref="https://muscat.rism.info/admin/people/41011746" type="person" role="cmp">Duparc, Henri</name>
-<name key="Dubois, Théodore" ref="https://muscat.rism.info/admin/people/30016588" type="person" role="cmp">Dubois, Théodore</name>
-<name key="Gabelles, Gustave  (dir.)" ref="https://muscat.rism.info/admin/people/30073762" type="person" role="int">Gabelles, Gustave  (dir.)</name>
-<name key="Harmonie Nautique"  type="person" role="int">Harmonie Nautique</name>
-<name key="Schnyder, Hélène"  type="person" role="int">Schnyder, Hélène</name>
-<name key="Bastard, William"  type="person" role="int">Bastard, William</name>
-<name key="Mottier, Fréd."  type="person" role="int">Mottier, Fréd.</name>
-<name key="Roesgen-Liodet (Mme)"  type="person" role="int">Roesgen-Liodet (Mme)</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002604_001.tif"/>
-<page><![CDATA[PROGRAMME OFFICIEL
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19251004'/>
+        <title>Concert donné par l'Harmonie nautique</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1925-1926' type='series'/>
+        <name key='Mendelssohn Bartholdy, Felix' ref='https://muscat.rism.info/admin/people/88790' type='person' role='cmp'>Mendelssohn Bartholdy, Felix</name>
+        <name key='Grétry, André-Ernest-Modeste' ref='https://muscat.rism.info/admin/people/83932' type='person' role='cmp'>Grétry, André-Ernest-Modeste</name>
+        <name key='Gigout, Eugène' ref='https://muscat.rism.info/admin/people/62831' type='person' role='cmp'>Gigout, Eugène</name>
+        <name key='Saint-Saëns, Camille' ref='https://muscat.rism.info/admin/people/76734' type='person' role='cmp'>Saint-Saëns, Camille</name>
+        <name key='Mozart, Wolfgang Amadeus' ref='https://muscat.rism.info/admin/people/115324' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Duparc, Henri' ref='https://muscat.rism.info/admin/people/41011746' type='person' role='cmp'>Duparc, Henri</name>
+        <name key='Dubois, Théodore' ref='https://muscat.rism.info/admin/people/30016588' type='person' role='cmp'>Dubois, Théodore</name>
+        <name key='Gabelles, Gustave' ref='https://muscat.rism.info/admin/people/30073762' type='person' role='int'>Gabelles, Gustave</name>
+        <name key='Harmonie Nautique' type='person' role='int'>Harmonie Nautique</name>
+        <name key='Schnyder, Hélène' type='person' role='int'>Schnyder, Hélène</name>
+        <name key='Bastard, William' type='person' role='int'>Bastard, William</name>
+        <name key='Mottier, Fréd.' type='person' role='int'>Mottier, Fréd.</name>
+        <name key='Roesgen-Liodet (Mme)' type='person' role='int'>Roesgen-Liodet (Mme)</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002604_001.tif'/>
+        <page>
+          <![CDATA[PROGRAMME OFFICIEL
 1925-1926
-
 | Harmonie
 | élautique
-
 Harmonie municipale de la Ville de Genève
-
- 
-
- 
-
 Buvez touiours les
-
-Bières « n Brasserie de l’Avenir]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002604_002.tif"/>
-<page><![CDATA[Buvez un
-
+Bières « n Brasserie de l’Avenir
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002604_002.tif'/>
+        <page>
+          <![CDATA[Buvez un
 AMER PICON
-
 Exigez-le 0
-
- 
- 
-    
- 
-   
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 - -POIR- 9 ; h
 JARDINS 9% 0Æ/VÆ
-
-   
-   
-
 ,_6Èneœ
 cOL W\"l *Wﬁ
-
- 
-
 CAFÉ DU COMMERCE ;
 cu Aolaré
-
 Dégustation réputée
-
 cFPorto Quinto @0 Sabor
-
 [1
-IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002604_003.tif"/>
-<page><![CDATA[e SS
-
+IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002604_003.tif'/>
+        <page>
+          <![CDATA[e SS
 p SS
-
 ——
 Ÿ
-
 S
-
 en u
-
 e e
-
- 
-
- 
-
- 
-
- 
-
 —— VICTORIA-HALL =—
-
 Dimanche 4 Octobre 1925
-
 Ouverture On
 des portes à @:®NŒ:ÏERÏIÊ commencera à
 14 heures 14 h. 45
-
 donné par
-
 L’HARMONIE NAUTIQUE
-
 (HARMONIE MUNICIPALE DE LA VILLE DE GENEVE)
 DIRECTEUR: M. Gustave GABELLES
 avec le gracieux concours de
-
 Miurrr HÉLENE SCHNYDER_sM. WirL1am BASTARD
 Soprano léger Organiste du Victoria-Hail
-
 M. Frfp. MOTTIER
-
 Violoncelliste
 Diplôme de virtuosité du Conservatoire
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 PROGRAM MIF
 Première Partie
 1. OUVERTURE DE LA GROTTE DE FINGAL Mendelssohn
-
 2 AIRDE ZEMRE ET AZOR © . .. Grétry
 Mile Hélène SCHNYDER
-
 3. a) RHAPSODIE SUR DES NOELS
-
 E. Gigout
 DI TOCCAIA
 M. Willlam BASTARD
@@ -203,70 +138,32 @@ Deuxième Partie
 S BALEEADEDONVUAN T MoZait
 6} a) CHANSON TRISIE. ... : .,.12 ; .- - Dupare
 b) L'A FLUTE ENCHANTÉE .. ; ... Mozart
-
 (Air de la Reine de la Nuit)
 Mile Hélène SCHNYDER
-
 7. FANTAISIE TRIOMPHALE (orgue etorchestre) 7h. Dubois
 M. WIilllam BASTARD
-
 Au plano Mme RCŒSGEN-LIODET, professeur de chant.
-
- 
-
- 
-
 Prix des places: Fr. 1.50, 1.— et 0.50 (droit des pauvres en sus)
 Location à l’Agence Véron, Grauer & Cle, Passage du Terralllet (Tél. Stand 31-64)
-
- 
-
- 
-
 MM. les membres non-exéeutants ont droit d'entrée sur présentation des coupons Nos 5 et 6
-
- 
-
- 
-
 CIGARETTES
-
 LAURENS
-
 23 GRANDS PRIX e HORS CONCOURS
-
- 
-
- 
-
-Imp. CHAPUIS & BAUMEISTER, Coulouvrenière, 3, Genève]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002604_004.tif"/>
-<page><![CDATA[Vêtements pour Hommes, Jeunes-gens et Enfants
-
+Imp. CHAPUIS & BAUMEISTER, Coulouvrenière, 3, Genève
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002604_004.tif'/>
+        <page>
+          <![CDATA[Vêtements pour Hommes, Jeunes-gens et Enfants
 A SAINT-GERVAIS
-
 1, rue de Coutance - PLACE St-GERVAIS - 2, rue Vallin
-
- 
-
 Maison de confiance ne vendant que des
 Marchandises de toute première qualité aux prix les plus bas
-
- 
-
 Chapellerie -  Chemiserie -  Bonneterie
-
 VÉTEMENTS SUR MESURE
-
 Le meilleur tissu - La meilleure coupe - Le meilleur marché
 PRÉVOT & Cie
-
- 
-
- 
-
 OUVERTURE DE « LA GROTTE DE FINGAL » (Mendelssohn)
-
 C’est en 1829, pendant son premier séjour en Angleterre, que
 Mendelssohn conçut le plan, ou du moins jeta sur le papier les premières
 notes de cette ouverture. Sa correspondance permet de suivre, presque
@@ -283,41 +180,23 @@ des Hébrides. T1 me raconta que non seulement la forme générale de cette
 œuvre et sa couleur lui furent suggérées par l’aspect de la grotte de
 Fingal, mais encore qu’il écrivit de suite, sur les lieux mêmes, les
 premières mesures dans lesquelles se trouve exposé le thème principal
-
- 
-
- 
-
- 
-
 BRASSERIE-CAFÉ DU XX"" SIÈCLE
-
 23, BOULEVARD GEORGES-FAVON
-
 Au rendez-vous des artistes
-
 Etablissement renommé pour
 Ses Bières du pays et étrangères
 Ses Vins blancs ouverts des premiers crûs
 Tous les samedi Ses Mets de brasserie
-Amourettes à la crème Sa Cuisine soignée]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002604_005.tif"/>
-<page><![CDATA[BANQUE POPULAIRE SUISSE
-
+Amourettes à la crème Sa Cuisine soignée
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002604_005.tif'/>
+        <page>
+          <![CDATA[BANQUE POPULAIRE SUISSE
 1, Quai des Bergues — GENEVE — Place Saint-Gervais
-
- 
-
 AGENCES : Route des Acacias - 18, Cours de Rive
-
- 
-
 CAPITAL SOCIAL ET RÉSERVES : Fr. 119 »000,000. —
-
 Traite toutes opérations de banque aux meilleures conditions
-
- 
-
 qui sert de base au morceau entier. Le soir du jour où la chose lui arriva,
 il alla, en compagnie de son ami Klingemann, faire visite à une famille
 écossaise. Dans le salon se trouve un piano ; mais, hélas ! c’était un
@@ -327,7 +206,6 @@ pour obtenir que l’instrument fût ouvert une seule minute, afin de
 permettre à Klingemann d’entendre le thème en question, véritable
 embryon de cette ouverture maîtresse et originale que Félix devait
 terminer seulement quelques années plus tard à Dusseldorf. »
-
 Du 1°" novembre 1830 au 6 avril 1831, Mendelssohn séjourne à Rome,
 et là encore il s’occupe de son ouverture qu’il esquisse en grande partie.
 Le 16 novembre, il écrit à sa sœur ; « Maintenant, je veux achever l’ou-
@@ -336,80 +214,38 @@ L’«ouverture » est celle de la Grotte de Fingal, qu’il appelait ordinaire-
 ment les Hébrides, et la « symphonie » est la symphonie en /a mineur, dite
 l’ Ecossaise. Plusieurs mois s’écoulent ; Mendelssohn retourne en Allemagne,
 s’installe à Dusseldorf et y termine enfin son œuvre ; mais l’Angleterre la
-
- 
-
-   
-
- 
-
- 
-
 d —
-
 ASSURANCES ACCIDENTS
 à N € many u [IMN
-
 Ÿ Vol - Automabile
 Dégâts d'eau
-
 Succursale pour la Suisse française :
-
-  
-
 /)
-
 S
-
-  
-
-   
-
 T
 Nn
-
-  
-
-   
-
- 
-
 12, Rue de Wesse - GENÈVE - Téc. ; Stand 57
-
- 
-
 Gaston MOISY, Insp., rue du Centre, 26
-
 Membre de l’Harmonie Nautique
-
- 
-
-—]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002604_006.tif"/>
-<page><![CDATA[Au Dépôt général du Poisson du Lac Léman
-
+—
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002604_006.tif'/>
+        <page>
+          <![CDATA[Au Dépôt général du Poisson du Lac Léman
 Maison fondée en 1848
-
 LUGRIN & Cie (S.A.)
-
 46, Rue du Rhône, 46 - Genève
-
 Adr. télégr. : LUGRIN-GENÈVE - AUCUNE SUCCURSALE - Téléphone: Stand 2100
-
 Volallles de Bresse - Gibiers de toutes provenances
 Poissons du Lac
 Marée française - Huitres de Claires de Marennes
 Arrivages directs et journaliers
 Langoustes du parc de Camaret
 Comestibles de tfoutes espèces - (Conserves des (res marques
-
 L’importance de la vente lui permet de ne jamais
 constituer de stock et de garantir à sa clientèle la qualité et la fraîcheur de ses marchandises
-
 Expéditions en tous pays
-
- 
-
 lui a inspirée, et c’est à elle qu’il réserve l’honneur de la première audi-
 tion. En 1832, il va passer deux mois à Londres, et, le 14 mai, l’ouverture
 est exécutée pour la première fois au concert de la Philharmonique, sous
@@ -426,312 +262,166 @@ de la facture, elle s’impose encore comme un modèle ; elle semble ani-
 mée par le souffle même d’Ossian, et l’élégance académique de
 Mendelssohn peut soutenir ici la comparaison avec la vigueur classique
 de Beethoven et la fantaisie romantique de Weber.
-
- 
-
- 
-
- 
-
 SOCIÉTÉ DE
-
 BANQUE SUISSE
-
 FONDÉE EN 1872
 Capital-actions et Réserves : 153 millions
-
 6-10, Corraterie - GENÈVE - Corraterie, 6-10
-
 CORNAVIN EAUX-VIVES
 t0, Place de Cornavin 8, Place des Eaux-Vives
 PLAINPALAIS CAROUGE
-
 TOUTES OPÉRATIONS DE BANQUE AUX MEILLEURES CONDITIONS
-
-r t r]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002604_007.tif"/>
-<page><![CDATA[MACHINE A ECRIRE
+r t r
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002604_007.tif'/>
+        <page>
+          <![CDATA[MACHINE A ECRIRE
 AMÉRICAINE
-
- 
-
 Vente Gchange Location
-
 Œe'paraﬁon de tous systèmes
-
 G. Pozzi
-
 Tour de l’lle, 4 Genève
-
-  
-
- 
-  
-
- 
-
- 
-
- 
-
 Concess/onnaire
-
- 
-
- 
-
 [ des produits originaux “ Yost”
 | [
-
 … Toutes fournitures pour la couture
 f | la BRODERIE et le TRICOT
-
 Ë | BONNETERIE de soie, fil, laine et coton
-
 | :! ROBES, JUMPERS, BAS, CHAUSSETTES, GANTS, SCUS-VÊTEMENTS
 J! i] POUR DlÎÏWES ET ENFANTS
-
 |
-
 Ï
-
 |
-
 ill Les meilleures qualités aux plus bas prix chez
-
 | _\ Charles WEBER, Pilace Kléberg
-
- 
-
 BISCUITS
-
 =N TN
-
 , GENEVE
-
 marque Swsse des
-Desserts fms]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002604_008.tif"/>
-<page><![CDATA[TRANSPORTS DE BAGAGES - VOYAGES
-
- 
-
+Desserts fms
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002604_008.tif'/>
+        <page>
+          <![CDATA[TRANSPORTS DE BAGAGES - VOYAGES
 J. Vêéron, Grauer & C*
-
 22, rue du Mont-Blanc, 22 - GENÈVE
-
 Agence de location de Théâtres et Concerts
 20, Terraillet, 20
-
 Assurances de bagages et de voyage
 Billets de chemins de fer
 Passages pour tous pays
-
- 
-
 HARMONIE NAUTIQUE
-
 MEMBRES DU COMITÉ :
 MM. (. MARTINET, président ; G. GABELLES, directeur ; J. LICKERT et
-
 E. LEUTÉ, vice-présidents ; Ch. KULT-REYNAUD, secrétaire ; P. MURITH,
-
 vice-secrétaire ; M. GALFRÈ, trésorier ; F (CHAPUIS, vice-trésorier ; E.
-
 BURDET, bibliothécarre ; M. DEPRAZ et J. VIBERT, économes.
-
 MEMBRES EXÉCUTANTS (1925)
-
 Flûtes : MM. BLum - Baup - DuPoNT - COULOMB - ZWEIGART
 SEIDEL.
-
 Hautbois et cor anglais: MM. VEYRAT - ENGEL - Gyar - PAINOT.
-
 Petites clarinettes : MM. SANTANDRÉA - Roy.
-
 Clarinettes: MM. LIcKERT - DÉPRAZ - MENNET - PORTIER - CHAPUIS
 RieunAaup - MurirH - PerzzorTi - Garray - DuUcrET
 WEHRLY - SCHWIZGUÉBEL - VANAT - SANFILIPPO - LAVILLAT
 ZiBACH - KErLLEr - NONNEMANN - HÆrFLIGER. - MARTI
 VANBIANCHI - Rorn - GysiN - Mépa.
-
 Vente et dégustation des Portos et Xérès 902
 Anglo-American Drinks - Spiritueux d’origine MR DS E
-
 27, rue de ia Confédération
 et Fusterie, 16
-
- 
-
- 
-
 GRANDE BRASSERIE CENTRALE
-
 CAFÉ-RESTAURANT
 CROIX-DO’'R, 2 ' TÉL. STAND 34.62
-
 Déjeuners et Dîiners -  Choucroûte extra toute l’année
-BIÈRES et VINS de première qualité:: A. GSELL.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002604_009.tif"/>
-<page><![CDATA[—
+BIÈRES et VINS de première qualité:: A. GSELL.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002604_009.tif'/>
+        <page>
+          <![CDATA[—
 OUELOQUES FLEURS
-
 U» IF
-
 leuriot :
-
 FLEURISYTE
 GIENÏEYIE
-
 26, Ûorraferzê, 26 Rue de Rive 151
 Célép. SL 18.15 Célép. SL 32.67 |
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Membres exécutants (suite)
-
 Clarinettes basses : MM. RAMONDETTI - Moisy.
-
 Bassons : MM. PORTIER - FRANCOUAL - H. MÆRrky - FRANCONALJ. |
-
 Saxophones : MM. D’YvERNOIS - GONDRET - RENTsCH - PEDRONI
 BôscH - WonxLscHLAG - VANAT.
-
 Cornets à pistons : MM. DuPonT - CHAPUIS - SOLIER - Droz
 DEcroux - M. VoLTOLINI - DecRoUX Léon - SCHMIED.
-
 Bugles : MM. MENNET - PoNcIONI - GuyoT - REvoL - LANIER.
-
 Trompettes : MM. BURDET - ENGEL - SCHLEIFFER - ROSSET.
-
 Cors : MM. RISTORI - CAILLER - JACOT-DES COMBES - PIGUET - GAY
 MARTIN B.
-
 Barytons : MM. FONTAINE - GRAEBER.
-
 Trombones : MM. PioTToN - SinGy - MARTIN - PERRIN - MAITRE
 Roch.
-
 Basseset contre-basses :  VIBERT - DEFRANCESCO - BALESTRA
 D’OÔLIVEIRA - CHOUARD - OMARINI - BoCCARD - MONTILLARD
 SIMON - SPRING.
-
 TRANSPORTS FUNÈBRES
-
 Ancienne Maison MURITH, DUPARC & FERT - __—— Fondée en 1888
-
 A. MURITH s.
-
 GENÈVE - siège Social : Rue des Chaudronniers, 16
-
 Téléôph. Stand 121 Service permanent
-
 Fabrique de Cercueils Automobiles Funéraires
-
 L’Administration se charge, sans aucun déplacement pour les
 familles, de toutes les démarches et formalités relatives aux
-
 Inhumations —  Exhumations — Incinérations — Transports
-
-reroirs CENTRAL-DEUIL 15i5,]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002604_010.tif"/>
-<page><![CDATA[Ë}_
-
+reroirs CENTRAL-DEUIL 15i5,
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002604_010.tif'/>
+        <page>
+          <![CDATA[Ë}_
 Café-Brasserie de l'Univers
-
 | Consommations de premier choix - Mets de brasserie
-
- 
-
- 
-
 Salles de Sociétés - Ouvert après les spectacles
-
- 
-
 | E. HANDWERCK - C. RICHOUD, succ.
-
 | Rue du Rhône, 5 et Quai Besançon-Hugues, 6
 Téléphone: Stand 35-77
-
- 
-
 Membres exécutants (suile) ;
-
 Contre-basses à cordes : MM. RICHTER - MAYER.
-
 Batterie : MM. Kurr - Decocue - L. TRÈMÈGE - Ch. TRÈMÈGE
 DESCOMBES.
-
- 
-
 AVIS. — Les personnes qui désirent devenir « Membres
 passifs » de l’Harmonie Nautique peuvent s’inscrire au Vic-
 toria Hall ou à la Librairie Richard (80, rue du Rhône), et
 auprès des membres de la Société. — La carte de « membre
 passif » donne droit à deux entrées pour chaque concert donné
 par l’Harmonie Nautique.
-
 Pour les cours d’élèves, s’adresser à M. G. Gabelles,
 directeur. au Victoria-Hall, de 11 à 12 h. 30. — Télép. St. 53.28.
-
 Randor - Friederick
-
 SRS 2
- FABRIQUE A CHÊNE-BOURG
-
- 
-
- 
-
- 
-
- 
-
- 
-
+FABRIQUE A CHÊNE-BOURG
 Lessives - Cristaux de soude
 Encaustiques
 Cires, Cierges, Bougies de Noël
-
 Graisses surfines pour usages cutlnaires :
 Oleol - Alpina - Nostras - Etoile - Union
-
- 
-
 Savons de ménage : Bougies :
-
 Souris - Lyre - Vénus - Chêne - Alpa | Couronne - Brillant - Diamant - Vénus
-
- 
-
-J]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002604_011.tif"/>
-<page><![CDATA[Tiuisson=Paisant
+J
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002604_011.tif'/>
+        <page>
+          <![CDATA[Tiuisson=Paisant
 GENÈVE
-
 D
-
 LINGERIE - BONNETERIE - TROUSSEAUX
 NAPPAGE - LITERIE
-
 D
 GRANDE MAISON DE BLANC
-
- 
-
- 
-
 E. GIGOUT
-
 Né à Nancy il y a quatre-vingts ans, est considéré à juste titre comme
 l’un des grands maîtres de l’école d’orgue française. Il fut l’un des plus
 brillants disciples de Niedermeyer à l’école duquel il fit ses études en
@@ -748,324 +438,142 @@ ler recueil d’orgue, une rhapsodie sur des Noëls très pittoresques, et la
 brillante Toccata, célèbre dans les annales de l’orgue, morceau de pre-
 mier ordre tant par la valeur de l’écriture musicale que par la fermeté du
 style et le bel équilibre des sonorités.
-
- 
-
- 
-
 Delacroixriche - Sports
-
 57, Rue du Rhône çt Grand-Quai, 38
 GENEÈVE
-
 Æ Foot-Ball
-
 BALLONS COMPLETS
 pour matchs . . . depuis fr. 11.25
-
 CHAUSSURES
 depuis fr. 45.—
 f
-
 JERSEYS depuis fr. 6—
 Ÿ
-
 ( TOUS LES SPORTS
-
- 
-
-  
-   
-
-       
-
- 
-
-ä]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002604_012.tif"/>
-<page><![CDATA[Horlogerie
+ä
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002604_012.tif'/>
+        <page>
+          <![CDATA[Horlogerie
 Bijouterie - Joaillerie - Orfèvrerie
 Montres Zénith
-
 EM
-
 Quai des Bergues, 21
-
- 
-
- 
-
- 
-
- 
-
 PIÈCES DE COMMANDE - DEVIS - RÉPARATIONS SOIGNÉES
 ACHAT DE BIJOUX ET PIERRES PRÉCIEUSES
-
- 
-
- 
-
 CHANSON TRISTE (Henri Dupare)
-
 Dans ton cœur dort un clair de lune, Tu prendras ma têète malade
-
 Ün doux clair de lune d’été, Oh ! quelquefois sur tes genoux,
-
 üt pour fuir la vie importune Et lui diras une ballade,
-
 Je me noierai dans ta clarté. Qui semble parler de nous,
 J’oublierai les douleurs passées, Et dans tes yeux pleins de tristesses
 Mon amour, quand tu berceras Dans tes yeux alors je boirai
-
 Mon triste cœur et mes pensées Tant de baisers et de tendresses
 Dans le calme aimant de tes bras Que peut-être je guérirai.
-
 Poésie de JEAN LAHOR.
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 ONORA
-
 , Clear as the Bell “
 Voiei la grande marque américaine des Gramophones
-
 I
-
- 
-
 Avant de faire un achat venez l’entendre chez
-
 OTSCHY FRÈRES
-
 22, CORRATERIE, 22
-
- 
-
- 
-
- 
-
- 
-
- 
-
-  
-
-  
-
- 
-
 RE r 50 v t 2 TO RERER e AEe E
-
 Cts e
-
-PE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002604_013.tif"/>
-<page><![CDATA[Au Salon de @laces oËmerzcames
-
+PE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002604_013.tif'/>
+        <page>
+          <![CDATA[Au Salon de @laces oËmerzcames
 VRS SE RN TQ R e Q e T T T E r rr T E ETE Q I " T
-
 B. REMOR
-
 3, Place du Cirque - Boul. Georges-Favon, 32
 Téléphone Stand 54.33
-
- 
-
 Vs
 SPÉCIALITÉ DE GLACES AMÉRICAINES - TEA ROOM - CAFÉ-CRÈMERIE
-
 Ilème Maison: V iosque des Bastions
-
- 
-
- 
-
- 
-
 THÉODORE DUBOIS
-
 L’auteur de la Fantaisie Triomphale pour orgue et orchestre, né le
 24 août 1837 à Rosney (Marne), reçut à Reims les premières leçons de
 musique.
-
 Premier grand prix de Rome en 1861, il fut nommé à son retour
 d’Italie maître de chapelle à Ste-Clotilde puis à la Madeleine de Paris.
-
 Membre de l’Institut en 1894, Théodore Dubois succéda à Ambroise
 Thomas en qualité de Directeur du Conservatoire de Paris (1896-1905).
-
 En tant que compositeur Th. Dubois s’est fait connaître surtout par
 ses œuvres orchestrales et vocales et aussi par son célèbre traité d’har-
 monie en collaboration avec Réber.
-
- 
-
- 
-
- 
-
- 
-
 Amis de la Nautique ! Sachez que
 les bonnes Chaussures
 les bonnes Pantoufles
-
 s’achètent dans les Grands Magasins de
-
 CHAUSSURES LUX S. A.
-
- 
-
- 
-
 É/ 20, RUE DE LA CONFÉDÉRATION, 20
 Æ7Ù PAUL BARBEY, adm
-
- 
-
-*]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002604_014.tif"/>
-<page><![CDATA[Rue de la Confédération, 3
+*
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002604_014.tif'/>
+        <page>
+          <![CDATA[Rue de la Confédération, 3
 au ler étage
-
- 
-
- 
-
 En
-
 ROTT ULD ETE LI LDN PR TRL CRL LELETERTTELEETETIE
-
 FAITES VOS ACHATS de préférence chez les commerçants
 indiquês dans nos programmes analytiques !
-
-        
-
 AI TRIN P TT RIR
-
- 
-
- 
-
-   
-
 Au dessert un
 Cointreau Liqueur
 s’impose
 Cointreau Veuve et Fils, Angers
-
-Ch. BRUCHON, Agent général pour la Suisse - GENÈVE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002604_015.tif"/>
-<page><![CDATA[RR
-
- 
-
- 
-
- 
-
+Ch. BRUCHON, Agent général pour la Suisse - GENÈVE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002604_015.tif'/>
+        <page>
+          <![CDATA[RR
 L f|||n||||||m(|||||m|llnu|||l|m||||mll||l|u||||||u|l|lllu!ll||ml|||llnl||[|uu|"||n||lllnu|||||m|||||u||||||u|||||m|||||||||l|||||-|||||uu||||u|||||l|-|||||||u||||l|m||[|ml||
-
-   
-
 RAUBER FRÉÈRES
-
 Grand’Rue, 50 MONTREUX Téléphone 1062
 | Instruments de Musique
-
 Cuivres et bois
 ATELIERS DE RÉPARATIONS AVEC OUTILLAGE MODERNE DE PRÉCISION
-
 Spécialistes renommés
 pour saxophones, clarinettes, flâtes, hautbois et bassons de tous systèmes
 CATALOGUE ET PRIX-COURANT GRATIS ET FRANCO SUR DEMANDE
-
 Instruments des premières marques françaises au prix de fabrique en argent
 français ou change au cours du jour
-
-   
-  
-   
-   
-   
-   
- 
-
-         
-      
-   
-
-  
-
- 
- 
-
 (
-
 |lln||||]||||||||||nl|]|lu|l"llm]”|||;|||||||||||||l|||||||||l||||||ml|h|llll||||u||||||nll||nnl|||||u||||||ml|||l|ul||Illul|||ll|ll||||ull||[|lnll||lnn|||llulI||Illllllll…ll||ll'"ll
-
 BRASSERIE LANDOLT
-
 Ch. SWOBODA, propr.
 A deux pas du Théâtre et de la Comédie - Téléphone Stand 44-92
-
 "l
-
- 
-
- 
-
- 
-
 L'établissement est ventilé par un aspirateur
 à haute pression. // n’y a plus de fumée.
-
- 
-
 Spaten-Bräu Munich - Cardinal-Bräu Fribourg - Pilsner Urquell
-
 Plats du jour et Mets de brasserie
-
 [||l|ll”H|Ill…lllll"lIIIII“lllll|”llllll”lllll|"l|ll(||lllllll|l|lllll”lllll|"llllll"[llllll@
-
 Cepfiucer{proccei pc {{ercc es [ts {fiveafroceea }c {pracrea hc f rs
-
 TEINTURERIE, LAVAGE CHIMIQUE, NETTOYAGE À SEC
-
 NOIR RAPIDE POUR DEUIL - EXPÉDITIONS
-
 F.&E. BAECHLER Frères
-
 Tour-de-l’Ile, 4 - Rue de Lausanne, 84 - Cours de Rive, 2
 Grand’Rue, 3 - Rue du Mont-Blanc, 7 - Rue Leschot, 6
 Place dq Molard, 3 - Servette,3 - Bd Georges-Favon, 17
-
 GENÈVE
-
-     
-        
-      
-
-Dépoussiérage et Nettoyage de Tapis et Ameublements]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002604_016.tif"/>
-<page><![CDATA[@
-
+Dépoussiérage et Nettoyage de Tapis et Ameublements
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002604_016.tif'/>
+        <page><![CDATA[@
 oÆ@ vn |
 Belles &
-S'achétent cher ÆÆJÆQJ]]></page>       
-        </p>
+S'achétent cher ÆÆJÆQJ
+]]></page>
+      </p>
     </body>
   </text>
 </TEI>

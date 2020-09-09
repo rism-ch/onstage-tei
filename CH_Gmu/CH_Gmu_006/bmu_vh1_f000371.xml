@@ -1,339 +1,190 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert symphonique : Exposition nationale suisse à Genève<date when="06/06/1896"/></title>
-<series>1895-1896</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert symphonique : Exposition nationale suisse à Genève
+            <date when='06/06/1896'/>
+          </title>
+          <series>1895-1896</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F000371</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Doret, G. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18960606"/>
-<title>Concert symphonique : Exposition nationale suisse à Genève</title>
-<placeName key="Victoria Hall"/>
-<name key="1895-1896" type="series"/>
-<name key="Lazzari, Sylvio" ref="https://muscat.rism.info/admin/people/30075070" type="person" role="cmp">Lazzari, Sylvio</name>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Marty, G."  type="person" role="cmp">Marty, G.</name>
-<name key="Franck, César" ref="https://muscat.rism.info/admin/people/70009" type="person" role="cmp">Franck, César</name>
-<name key="Saint-Saëns, Camille" ref="https://muscat.rism.info/admin/people/76734" type="person" role="cmp">Saint-Saëns, Camille</name>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Doret, Gustave  (dir.)" ref="https://muscat.rism.info/admin/people/3145724" type="person" role="int">Doret, Gustave  (dir.)</name>
-<name key="Roger-Miclos (Mme)"  type="person" role="int">Roger-Miclos (Mme)</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000371_001.tif"/>
-<page><![CDATA[EXPOSITION NATIONALE SUISSE A GENÈVE
-
- 
-
- 
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18960606'/>
+        <title>Concert symphonique : Exposition nationale suisse à Genève</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1895-1896' type='series'/>
+        <name key='Lazzari, Sylvio' ref='https://muscat.rism.info/admin/people/30075070' type='person' role='cmp'>Lazzari, Sylvio</name>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Marty, G.' type='person' role='cmp'>Marty, G.</name>
+        <name key='Franck, César' ref='https://muscat.rism.info/admin/people/70009' type='person' role='cmp'>Franck, César</name>
+        <name key='Saint-Saëns, Camille' ref='https://muscat.rism.info/admin/people/76734' type='person' role='cmp'>Saint-Saëns, Camille</name>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Doret, Gustave' ref='https://muscat.rism.info/admin/people/3145724' type='person' role='int'>Doret, Gustave</name>
+        <name key='Roger-Miclos (Mme)' type='person' role='int'>Roger-Miclos (Mme)</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000371_001.tif'/>
+        <page>
+          <![CDATA[EXPOSITION NATIONALE SUISSE A GENÈVE
 G‘
-
 SAANAANANA
-
 (
 V
-
- 
-
- 
-
- 
-
 ys ?
 XN
-
 (ICTonIrA-rI AI
-
 Samedi 6 Juin 1896, à & h. 1/2 précises
-
 L Concert Symphonique
-
 @
-
 avec le concours de
-
 M"* ROGER-MICLOS, pianiste
 des concerts du Conservatoire, Lamoureux, Colonne et d’Harcourt.
 î J Aann
-
 — PROEC
-
 . Prélude d'Armor Sylvio Lazzari.
-
 Concerto en ut mineur L. van Beethoven.
 d) Allegro con brio. — b) Largo. — c) Rondo.
-
 Mme ROGER-MrcLos.
-
 Matinée de Printemps Georges Marty.
 /SECONDE PARTIE
-
 . Symphonie en ré mineur César Franck.
 I. Lento. Allegro non troppo. — II. Allegretto. —
-
 III. Allegro non troppo.
-
 . Africa, fantaisie pour piano et orchestre C. Saint-Saëns.
 Mme ROGER-MiCLOS.
-
 . Ouverture des Maîtres Chanteurs R. Wagner.
-
 Orchestre sous la direction de M. Gustave DORET
-
- 
-
- 
-
 Piano PLEYEL, aux soins de MM. Bron et Berguer.
-
- 
-
- 
-
- 
-
 Les portes seront rigoureusement fermées pendant l’exécution des morceaux.
-
-_>]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000371_002.tif"/>
-<page><![CDATA[PROGRAMME OFFICIEL
-
- 
-
- 
-  
-
- 
-
- 
-
+_>
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000371_002.tif'/>
+        <page>
+          <![CDATA[PROGRAMME OFFICIEL
 M" ROGER-MICLOS
-
 Née à Toulouse, premier prix de piano du Conservatoire de cette ville à l’âce de
 IO ans, premier prix, à 15 ans, du Conservatoire de Paris (classe de Mme Massart). pia-
 te d
-
 niste de la Société des concerts du Conservatoire. pianiste des concerts Colonne et des
-
 concerts Lamoureux, Mme Roger-Miclos, par ses concerts à Bruxelles, Anvers. Monte-
-
- 
-
 Carlo, Londres, Leipzig, Vienne, Dresde, Berlin, etc., s’est placée au premier rang des
 virtuoses du clavier. La première, elle fit accepter aux Concerts du Conservatoire l’exécu-
-
 tion d’œuvres modernes, la première elle organisa
-
- 
-
 des concerts historiques spéciaux avec
-
 contérences et présenta au public parisien les maîtres étrangers contemporains : Scandi-
-
-    
-
 naves, Russes, 15, Allemands, Hongrois, Anglais, etc., etc. Merveilleuse inter-
 prète de Schumann et des classiques, aussi éminent professeur qu'’excellente virtuose,
-
 oger-Miclos à formé école et ses élèves sont de véritables artistes.
-
- 
-
 fantaisie Africa a été écrite spécialement pour Mme Roger-Miclos par M. Saint-
-
-  
-
 lui a dédié sor œuvre.
-
 M. SYLVIO LAZZARI
-
- 
-
 né en 1860 à Bozen dans le Tyrol, fixé depuis 1882 à Paris, est
-
 élève de Ernest Guiraud et-C. Franck. Parmi ses œuv
-
- 
-
 res, il faut citer un /rio pour
 piano, violon et violoncelle; un quatuor pour instruments à cordes: un octuor pour
 instruments à vent ; une soyate pour piano et violon ; des œuvres symphoniques parmi
-
 lesquelles une Swite en fa majeur et un Concertstück pour piano et orchestre esécuté en 1894
-
- 
-
 aux concerts Lamoureux. Le prélude d’Armor, exécuté pour la première fois en mars 1895
 tux concerts de la Société nationale, a été joué ensuite avec grand succès aux concerts
-
 Lamoureux.
-
 ARMOR
-
 yendes du roi Arthus et des
-
- 
-
 Le sujet du drame lyrique Armor, est emprunté aux 1
 autres héros de la Table Ronde. Au premier acte, le chevalier Armor conquiert la cou-
 ronne sacrée d’Arthus, que, depuis la mort du preux Roi, les Korriganes gardent jalou-
 sement dans une île sauvage de la mer armoricaine. Pour s'en emparer, pour la ceindre,
 il faut braver les tempêtes et les enchantements, sortir vainqueur des luttes, des épreuves,
 des tentations.
-
 Le prélude exécuté aujourd’hui n’est pas une synthèse de l’œuyre, mais une page svmi-
 phonique en rapport musical avec le drame, et destinée spécialement à servir d’introduction
 au premier acte. Il commence par les harmonies mystérieuses des Korriganes, au quatuor
 avec sourdines très divisé. Puis, aux contrebasses, s’élève le motif de la mer, motif qui
 passe aus bois, réunit ensuite toutes les cordes dans un grand unisson et arrive à une
 vigoureuse explosion de tout l’orchestre. Le mouvement change : le thème, transformé,
-
 engendre des développements musicaux assez étendus, de caractère pittoresque, et, de
-
 G
 s|
 Z
-
-     
- 
-   
-    
-   
-  
-  
-      
-     
-   
- 
-     
-      
-  
-   
-   
-  
-  
-   
-  
- 
- 
- 
- 
- 
- 
- 
-   
-   
-
 ( A T ETE
-
 p
-
- 
-
- 
-
 S
-
 76SD
-
 d
-
-c]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000371_003.tif"/>
-<page><![CDATA[VS
-
+c
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000371_003.tif'/>
+        <page>
+          <![CDATA[VS
 Ü
-
- 
-
- 
-
 DES CONCERTS SYMPHONIQUES
-
 —
-
 plus en plus modifié en son rythme, de plus en plus diminué en ses valeurs, se combine
 aux harmonies des Korriganes. Dans un mouvement plus large, le motif d’Armor, le
 héros, apparaît majestueusement aux quatre cors, puis aux trombones ; il varie en pas-
-
 sant par la série complète des instruments à vent pour arriver enfin aux violons ; lorsqu’il
-
- 
-
 s'assombrit et se dissout, un des fragments persiste associé aux harmonies des Ko
-
 ganes. En dernier lieu, ces visions évanouies, le motif de la mer demeure seul, dans sa
-
- 
-
 monotone sérénité, (Alfred Ei
-
 M. GEORGES MARTY
-
 M. Georges Marty est né à Paris le 16 mai 1860. Il obtint le grand Prix de Rome de
-
 composition en 1882. Il est actuellement professeur de la classe d’ensemble au Conserva
-
- 
-
 toire, chef de chant à l’Opéra et chef d’orchestre des concerts de l’Opéra. La Mal
-
 Printemps est le deuxième morceau d’une suite d’orchestre, l’ les plus char
-
- 
-
 inspirations du jeune compositeur,
-
 CÉSAR FRANCK
-
 Né le 10 décembre 1822 à Liège, César Franck fit ses premières études au Conserva-
-
 toire de sa ville natale. En 1837, 1l vient à Paris, entre au Conservatoire
-
 plusieurs années, il suit les classes de Leborne, Zimmermann, !
-
 u, pendant
 3ertin et Benoit; il y obtint
 les premières récompenses de contrepoint et fugue, de piano ct d’orgue,
-
 En 1842, César Franck quitte le Conservatoire ét se consacre aussitôt à la composition
 et au professorat. Sa longue catrière n’offre guère d’incidents dignes d’être rapportés ici :
 elle est faite de travail et de peine.
-
 Longtemps méconnu, pauvre, et avec de lourdes charges de famille, César Franck
 lutte vaillamment pour l’existence et pour son art; on le rencontrait dans les rues, tou-
 jours à pied, toujours trottant et courant, avec un paletot à moitié enfilé et un pantalon
@@ -342,62 +193,46 @@ jours, pendant toute sa vie. Quand travaillait-il ? Hiver comme été, il était
 et, dès cette heure matinale, il se mettait au travail jusqu’à 8 heures ; il prenaît alors
 un modeste repas et partait pour donner ses leçons, soit au Conservatoire, soit dans les
 pensionnats ou ailleurs, Il ne rentrait chez lui que le soir après 7 heures pour diîner.
-
 Jusqu’à la fin, et sauf le mois de septembre qui était son mois de vacances,
-
- 
-
 ar Franck
 n'a jamais travaillé plus de ces trois heures du matin, et c’est ainsi qu’il a composé
 toutes ses grandes œuvres : Rédemption, les Béatitudes, la Symphonie, les pièces pour
-
 Oreule, erc:
-
 2
-
 Organiste de Sainte-Clotilde, il fut, en 1872, appelé à la chaire d’orgue au Conserva-
-
- 
-
 toire, et, dans ces fonctions qu’il occupa pendant de longues années, 1l groupa autour
 de lui une phalange de disciples venus pour écouter la parole du maîtré, Parmi les plus
 marquants, on peut citer Vincent d’Indy, Dupare, Chausson, Augusta Holmès, Pierné,
-
 Rousseau, Camille Benoit, Bordes, Coquard, Guy-Ropartz, etc. L’influence de César
-
 S
 GL
-
-‘_\‘\ ‘]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000371_004.tif"/>
-<page><![CDATA[PROGRAMME OFFICIEL
-
+‘_\‘\ ‘
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000371_004.tif'/>
+        <page>
+          <![CDATA[PROGRAMME OFFICIEL
 Franck a été immense et les œuvres de ceux que nous venons de citer témoignent que
 ses élèves ont gagné à son enseignement une merveilleuse technique et une grande
-
 habileté dans la manière de traiter l’orchestre. Mais à part la valeur de ses lecons, les
-
 élèves de César Franck ont conservé un pieux souvenir-de leur vieux maître qui avait
-
 avec eux des rapports paternels, et, parmi eux, l’habitude leur était venue de l’appe-
 ler tout naturellement le «père Franck », et c’était bien là le nom qui lui convenait.
 Cet homme excellent était un modeste et un désintéressé - il ne sut jamais solliciter et
 sa devise était : « Art et Charité ». Jamais il ne faisait payer ses. lecons aux élèves peu for-
 tunés et, souvent, il a aidé de sa bourse, bien peu garnie pourtant, ceux qu'il savait dans
 l’embarras.
-
 Grâce à une robuste santé, il avait traversé la vie sans misères physiques, et il était
 encore en pleine force lorsqu’un accident imprévu, une pleurésie pernicieuse, vint
 l’atteindre mortellement dans sa soixante-huitième année : il mourut le $ novembre 1890.
-
 L’œuvre de César Franck est considérable et dans tous les genres : musique de chambre,
 opéras, symphonies, poèmes symphoniques, oratorios, de nombreuses pièces pour orgue
-
 et de la musique de chant religieuse et profane.
-
 (Voir d'autre part pour la symphonie la notice analytique spéciale qui est en vente dans
-la salle).]]></page>       
-        </p>
+la salle).
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

@@ -1,79 +1,88 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert<date when="16/09/1883"/></title>
-<series>1882-1883</series>
-<placeName>Kiosque (Promenade des Bastions)</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert
+            <date when='16/09/1883'/>
+          </title>
+          <series>1882-1883</series>
+          <placeName>Genève, Kiosque (Promenade des Bastions)</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VG2-1 F002053</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Senger, H. de (dir)</note>
+        <note>Date présumée</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18830916"/>
-<title>Concert</title>
-<placeName key="Kiosque (Promenade des Bastions)"/>
-<name key="1882-1883" type="series"/>
-<name key="Keller"  type="person" role="cmp">Keller</name>
-<name key="Lortzing, Albert" ref="https://muscat.rism.info/admin/people/122656" type="person" role="cmp">Lortzing, Albert</name>
-<name key="Durand"  type="person" role="cmp">Durand</name>
-<name key="Haydn, Joseph" ref="https://muscat.rism.info/admin/people/55803" type="person" role="cmp">Haydn, Joseph</name>
-<name key="Rossini, Gioachino" ref="https://muscat.rism.info/admin/people/63766" type="person" role="cmp">Rossini, Gioachino</name>
-<name key="Kling, Henri" ref="https://muscat.rism.info/admin/people/30022454" type="person" role="cmp">Kling, Henri</name>
-<name key="Robaudi, Vincenzo" ref="https://muscat.rism.info/admin/people/30006108" type="person" role="cmp">Robaudi, Vincenzo</name>
-<name key="Thomas, A."  type="person" role="cmp">Thomas, A.</name>
-<name key="Gounod, Charles-François" ref="https://muscat.rism.info/admin/people/80479" type="person" role="cmp">Gounod, Charles-François</name>
-<name key="Senger, Franz Ludwig Hugo von  (dir.)" ref="https://muscat.rism.info/admin/people/30015297" type="person" role="int">Senger, Franz Ludwig Hugo von  (dir.)</name>
-<name key="Orchestre de la Ville de Genève"  type="person" role="int">Orchestre de la Ville de Genève</name>
-<name key="Delarue"  type="person" role="int">Delarue</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_1_f002053_001.tif"/>
-<page><![CDATA[ce ce
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18830916'/>
+        <title>Concert</title>
+        <placeName key='Genève, Kiosque (Promenade des Bastions)'/>
+        <name key='1882-1883' type='series'/>
+        <name key='Keller' type='person' role='cmp'>Keller</name>
+        <name key='Lortzing, Albert' ref='https://muscat.rism.info/admin/people/122656' type='person' role='cmp'>Lortzing, Albert</name>
+        <name key='Durand' type='person' role='cmp'>Durand</name>
+        <name key='Haydn, Joseph' ref='https://muscat.rism.info/admin/people/55803' type='person' role='cmp'>Haydn, Joseph</name>
+        <name key='Rossini, Gioachino' ref='https://muscat.rism.info/admin/people/63766' type='person' role='cmp'>Rossini, Gioachino</name>
+        <name key='Kling, Henri' ref='https://muscat.rism.info/admin/people/30022454' type='person' role='cmp'>Kling, Henri</name>
+        <name key='Robaudi, Vincenzo' ref='https://muscat.rism.info/admin/people/30006108' type='person' role='cmp'>Robaudi, Vincenzo</name>
+        <name key='Thomas, A.' type='person' role='cmp'>Thomas, A.</name>
+        <name key='Gounod, Charles-François' ref='https://muscat.rism.info/admin/people/80479' type='person' role='cmp'>Gounod, Charles-François</name>
+        <name key='Senger, Franz Ludwig Hugo von' ref='https://muscat.rism.info/admin/people/30015297' type='person' role='int'>Senger, Franz Ludwig Hugo von</name>
+        <name key='Orchestre de la Ville de Genève' type='person' role='int'>Orchestre de la Ville de Genève</name>
+        <name key='Delarue' type='person' role='int'>Delarue</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_1_f002053_001.tif'/>
+        <page>
+          <![CDATA[ce ce
 CO@RT ‘
 Programme officie]
-
 Dimanche 16 Septembre, à 8 h.
-
 Société civile de %sïra d le Ville
-
 Direction de NI.ÎHugO de SENGER
 nn ms CN
 PREMIBRE PARTIE
 - Général Herzog, marche . … , KELLER
 - Ouverture de Ondiîne. C UORmaN ,
 - DURAND
-
 Hayn’N
 DEUXIÈME PARTIE
 - Ouverture de Sénuirannis v 04 ROSSTNT
@@ -82,13 +91,10 @@ DEUXIÈME PARTIE
 mance, piston-solo : M. Delarue - RoBaum
 - Fantaisie sur Migmon . L e 10 AC DOs
 9. Saltarello. E T , Gounon
-
 KTLING
-
 0
 En cas de force majeure, le Chef d’orche
 Programme
-
 À.BONNÈNIEE'H‘S par 20 coupons - fr. 7.50, S’:uh‘e$SÎr
 ; à l'entrée,
 00NCERTS AU KIOSQUE les Dimanches, Lundis,
@@ -97,9 +103,10 @@ Mercredis et Vrenvlrwlis, à 8 henres du soir. (JLOTURE:
 CONCt R, CLASSI()UE. —, Orchestre et Grandes
 Orgues, à la Cathédrale de >t-Pierre, les Samedis à 4h.
 SAISON D’IIIVER, Aler Concert : 17 Novembre.
-
-Stre se l'éserve de moditier le]]></page>       
-        </p>
+Stre se l'éserve de moditier le
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

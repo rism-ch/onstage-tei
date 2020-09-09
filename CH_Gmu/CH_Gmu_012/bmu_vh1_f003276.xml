@@ -1,167 +1,137 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Premier concert de l'abonnement<date when="10/10/1945"/></title>
-<series>1945-1946</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Premier concert de l'abonnement
+            <date when='10/10/1945'/>
+          </title>
+          <series>1945-1946</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F003276</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Ansermet, E. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19451010"/>
-<title>Premier concert de l'abonnement</title>
-<placeName key="Victoria Hall"/>
-<name key="1945-1946" type="series"/>
-<name key="Bach, Johann Sebastian" ref="https://muscat.rism.info/admin/people/2539" type="person" role="cmp">Bach, Johann Sebastian</name>
-<name key="Chopin, Fryderyk Franciszek" ref="https://muscat.rism.info/admin/people/51160" type="person" role="cmp">Chopin, Fryderyk Franciszek</name>
-<name key="Gagnebin, Henri" ref="https://muscat.rism.info/admin/people/30081182" type="person" role="cmp">Gagnebin, Henri</name>
-<name key="Lipatti, Dinu"  type="person" role="cmp">Lipatti, Dinu</name>
-<name key="Britten, Benjamin" ref="https://muscat.rism.info/admin/people/52788" type="person" role="cmp">Britten, Benjamin</name>
-<name key="Ansermet, Ernest  (dir.)" ref="https://muscat.rism.info/admin/people/40219507" type="person" role="int">Ansermet, Ernest  (dir.)</name>
-<name key="Orchestre de la Suisse Romande" ref="https://muscat.rism.info/admin/people/50007615" type="person" role="int">Orchestre de la Suisse Romande</name>
-<name key="Lipatti, Dinu"  type="person" role="int">Lipatti, Dinu</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003276_001.tif"/>
-<page><![CDATA[p
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19451010'/>
+        <title>Premier concert de l'abonnement</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1945-1946' type='series'/>
+        <name key='Bach, Johann Sebastian' ref='https://muscat.rism.info/admin/people/2539' type='person' role='cmp'>Bach, Johann Sebastian</name>
+        <name key='Chopin, Fryderyk Franciszek' ref='https://muscat.rism.info/admin/people/51160' type='person' role='cmp'>Chopin, Fryderyk Franciszek</name>
+        <name key='Gagnebin, Henri' ref='https://muscat.rism.info/admin/people/30081182' type='person' role='cmp'>Gagnebin, Henri</name>
+        <name key='Lipatti, Dinu' type='person' role='cmp'>Lipatti, Dinu</name>
+        <name key='Britten, Benjamin' ref='https://muscat.rism.info/admin/people/52788' type='person' role='cmp'>Britten, Benjamin</name>
+        <name key='Ansermet, Ernest' ref='https://muscat.rism.info/admin/people/40219507' type='person' role='int'>Ansermet, Ernest</name>
+        <name key='Orchestre de la Suisse Romande' ref='https://muscat.rism.info/admin/people/50007615' type='person' role='int'>Orchestre de la Suisse Romande</name>
+        <name key='Lipatti, Dinu' type='person' role='int'>Lipatti, Dinu</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003276_001.tif'/>
+        <page><![CDATA[p
 ï
-
 sc énde
-
- 
-
 cé 0— 0
-
 QC ESTRE
-
 DE LA
-
 VUISSE ROMANDE
-
-PROGRAMME]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003276_002.tif"/>
-<page><![CDATA[au profit des œuvres de secours
+PROGRAMME
+]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003276_002.tif'/>
+        <page>
+          <![CDATA[au profit des œuvres de secours
 et d’utilité publique
-
- 
-
- 
-
- 
-
-  
- 
-
 D
-
 RUE PU RHONE
-
-AGENT DES GRANDES MARQUES]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003276_003.tif"/>
-<page><![CDATA[GENÈVE
-
+AGENT DES GRANDES MARQUES
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003276_003.tif'/>
+        <page>
+          <![CDATA[GENÈVE
 PREMIER CONCERT
 DE L’'ABONNEMENT
-
 e VICTORIA-HALL
-
 MERCREDI 1o OCTOBRE T045
-
 Direction :
-
 Ernest ANSERMET
-
 e
-
 Soliste:
-
-Dinu LIPATTI]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003276_004.tif"/>
-<page><![CDATA[PE
+Dinu LIPATTI
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003276_004.tif'/>
+        <page>
+          <![CDATA[PE
 t
 = =.
-
- 
-
- 
-
 7 {
 SN
-
 FONDÉ EN 1830
-
- 
-
 EXPERTS
 AGENTS
 STENVWATCSSONS n PE CHMIDIÉREONR
 BURGER-JACOBI . BLÜTHNER
-
 CLAVECINS PLEYEL ET GAVEAU
 Haute nouveauté: MINIPIANOS-ÉTUDE
 Construit . Répare . Transforme . Loue , nstalle
-
 Personnel spécialisé
-
 RADIOS
-
 AGENTS
 MARCONI . LONDRES  DEs0O . NGA
 RADIOGRAM . MEUBLE COMBINÉ
-
 GRAND CHOIX DE DISQUES
-
- 
-
- 
-
-(6s e 0T]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003276_005.tif"/>
-<page><![CDATA[Association des Amis
+(6s e 0T
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003276_005.tif'/>
+        <page>
+          <![CDATA[Association des Amis
 de l’Orchestre Romand à Genève
-
 COMITÉ :
-
 MM. Pierre JACCOUD, Président,
-
 Henri BROLLIET, Vice-président,
 Mlle Gabrielle BOISSIER, Vice-présidente,
 MM. Charles BABEL, Trésorier,
-
 Edmond MARTIN-ACHARD, Secrétaire.
-
 MM. Léopold BOISSIER, Alfred BOREL, Antoine BRON, Emile
 “ BRUNSCHWIG, Mme Jacques CHENEVIÈRE, MM. René
 Ë' . DOVAZ, Albert DUPONT-WILLEMIN, Paul FUETER, Eugène
@@ -169,67 +139,51 @@ GAULIS, Mmes André GUINAND, Jeanne HATT-SIMON,
 MM. Henri KŒNIG, Jean LULLIN, François MARESCOTTI,
 Frank MARTIN, Félix POMMIER, Gaston RIONDEL, Emile
 UNGER, Charles ZANELLO.
-
 Devenir souscripteur, membre des Amis de l’O.S.R., c’est
 collaborer activement au maintien de notre orchestre et à
 l’élément de culture qu’il représente en notre ville.
-
 LES AVANTAGES SONT LES SUIVANTS:
-
- 
-
 A. Une souscription de 10 francs conférera :
-
 I. — un droit de priorité pour le choix d’une place d’abonnement ;
 2. — un droit de priorité pour la location des places disponibles
 È£; . aux concerts ordinaires et extraordinaires de l’O.S.R.;
 #" 3. — une entrée gratuite à un concert réservé
-
 au Studio de Radio-Genève.
-
 B. Une souscription de 20 francs et plus conférera:
-
 I. — un droit de priorité pour le choix d’une ou plusieurs places
 d’abonnement ;
-
 2. — un droit de priorité pour la location des places disponibles
 aux concerts ordinaires et extraordinaires de l’'O.S.R.:
-
 3. — une entrée gratuite à trois concerts réservés
-
 au Studio de Radio-Genève (un concert de musique de
 chambre, octuor, septuor, etc.; un concert avec soliste; un
 concert de musique contemporaine)
-
 Compte de chèques postaux des Amis de l'O.S.R. m I 6870.
-
 f >
-u]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003276_006.tif"/>
-<page><![CDATA[PATEK, PHILIPPE & C°
-
+u
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003276_006.tif'/>
+        <page>
+          <![CDATA[PATEK, PHILIPPE & C°
 GM E
 27 U/Æ ;7////(/c///æ Genevosse
-
 // ‘ 7Æ7//;7/’Ï/È’ /é ‘//Æ///g ;Q/Ë{iæ'szm
-
-22, Grand-Quai]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003276_007.tif"/>
-<page><![CDATA[Conseil de Fondation
+22, Grand-Quai
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003276_007.tif'/>
+        <page>
+          <![CDATA[Conseil de Fondation
 de l’Orchestre de la Suisse Romande
-
 Président : M. Paul LACHENAL, Genève.
 Vice-président: M. le D" Fred BLANCHOD, Lausanne.
 Secrétaire : M. René DOVAZ.
-
 Trésorier : M. Henri BROLLIELI.
-
 Conseillers délégués :
-
 MM. Emile HEUBI, Lausanne; Pierre JACCOUD, Emile UNGER,
 Genève; Léopold BOISSIER; Auguste MARGUERAT ; GLOGG
 Directeur général de la Radiodiffusion, Berne; René DOVAZ,
-
 Directeur de la Société des Emissions Radio-Genève; Marcel
 ÎÜ . BEZENÇON, Directeur de la Société romande de Radiodiffusion.
 Memubres :
@@ -239,129 +193,97 @@ Adrien LACHENAL, Genève; Conseiller d’Etat Joseph PILLER,
 Fribourg; Conseiller communal Gérard BAUËR, Neuchâtel;
 Conseiller d’Etat Cyrille PITTELOUD, Valais; Conseiller d'Etat
 Paul PERRET, Vaud.
-
 M. le Conseiller d’Etat Louis CASAÏ, MM. les Conseillers administratifs
 Jules PENEY et Fernand COTTIER, MM. Philippe ALBERT,
 Alfred BOREL, André GUINAND, Emile JAQUES-DALCROZE,
 Alfred PELLIGOT, Maurice PICTET DE ROCHEMONT, Marcel
 RAYMOND, Charles ZANELLO, Jean LULLIN, Pierre VI-
 DOUDEZ, à Genève.
-
 .MM. Marius AMANN, Conseiller municipal, Jacques BERANGER,
 René BICKART, Roger CORREVON, Louis SALATHÉ, Georges
 ROSSET, Henri STIERLIN-VALLON, Charles GILLIÉRON, à
 Lausanne.
-
 ; MM. Samuel GÉTAZ et E. ROSSIER-GEORG, à Vevey:; François
 ’. ESSEIVA et le Dr Paul RYNCKI, à Fribourg ; Claude DU
-
 PASQUIER, à Neuchâtel; Tell PERRIN, à La Chaux-de-Fonds;
 Edmond BILLE et Gustave TURINI, à Sierre.
-
 MM. les délégués des associations genevoise et vaudoise des Amis de
 l’'O.S.R., de la Société des Emissions Radio-Genève, de la Société
 romande de Radiodiffusion, de la Commission des Programmes
 de Sottens et des Artistes-Musiciens de l’Orchestre.
-
 Chef d’Orchestre: E. ANSERME!
-
 ADMINISTRATION ET LOCATION:
 GRAND-THÉATRE, GENÈVE (entré: rae Diday)
-TÉLÉPHONE : 44334]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003276_008.tif"/>
-<page><![CDATA[CHOISIR LA FOURRURE
+TÉLÉPHONE : 44334
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003276_008.tif'/>
+        <page>
+          <![CDATA[CHOISIR LA FOURRURE
 QUI DONNERA LA NOTE JUSTE
 A VOTRE ÉLÉGANCE
-
- 
-
 3, rue de Rive . GENÈVE
 6,rue de Bourg . LAUSANNE
-
 ARRIVAGES D'OUTRE-MER :
-
 OPPOSUMS D'AMÉRIQUE
 MARMOTTES DU CANADA
-SKUNGS . CASTORS . VISONS]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003276_009.tif"/>
-<page><![CDATA[scc
-
+SKUNGS . CASTORS . VISONS
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003276_009.tif'/>
+        <page>
+          <![CDATA[scc
 10
-
- 
-
 PDimu FIPATTII
-
 Né à Bucarest en 1917, Dinu Lipatti commence l’étude du
 piano à l’âge de 4 ans. A 14 ans, l’enfant quitte le Conservatoire
 de Bucarest, où il a suivi le cours de piano de Mlle Florica Musi-
 cesco, à laquelle il doit le meilleur de son métier d’instrumentiste,
 et le cours de composition de M. Michel Jora.
-
 En 1933, le jury du Concours international de piano de Vienne
 lui décerne le deuxième prix. Il étudie ensuite à Paris, avec
 Alfred Cortot, Nadia Boulanger, Paul Dukas et, après la mort
 de ce dernier, avec Igor Strawinsky.
-
 Filleul et disciple de Georges Enesco, Lipatti fait ses débuts
 dans la carrière de compositeur à l’âge de 16 ans. Ses œuvres
 sont déjà nombreuses.
-
 h . La carrière de virtuose de Dinu Lipatti est des plus brillantes :
 engagé dans presque tous les pays d’Europe, il s’est fait connaître
 en Suisse avec le plus grand succès, étant engagé trois ans de
 suite dans la plupart des associations symphoniques.
-
 En 1943, le Conservatoire de Genève a offert à Dinu Lipatti
 une de ses classes de virtuosité.
-
 A propos de ses « Danses roumaines », dont notre programme
 comporte la première audition, M. Lipatti a bien voulu nous
 donner la notice analytique que voici:
-
 ‘ « Ces « Danses roumaines », composées en juillet 1943 et
 [ instrumentées en août 1945 pour piano solo et grand orchestre,
-
 J
 272
-
-“]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003276_010.tif"/>
-<page><![CDATA[Mauvaise digestion
+“
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003276_010.tif'/>
+        <page>
+          <![CDATA[Mauvaise digestion
 Crampes .d'estomac
 LIaU e MS roJuTe e
-
 Aigreurs d'estomac
-
 RIUE
 - vous LUCLE C _sou_lage‘ment dl
-
 Demandez un échantillon PLO OE lln
-
- 
-
- 
-
- 
-
 TAILLEURS
-
-   
- 
-  
-
 CHEMISIERS
-
 CHAPELIERS
-
 ADLER:
-
-8. CROIX D'OR GENÈVE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003276_011.tif"/>
-<page><![CDATA[m'’ont été inspirées par des thèmes et rythmes populaires rou-
+8. CROIX D'OR GENÈVE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003276_011.tif'/>
+        <page>
+          <![CDATA[m'’ont été inspirées par des thèmes et rythmes populaires rou-
 mains cueillis dans la riche et précieuse collection folkloristique
 de Bucarest du professeur Constantin Brailoiu.
-
 » La première danse, monothématique, en rythme de sept
 temps (rythme qui, en réalité, représente une mesure de 3/4 dont
 le troisième temps — appuyé — est prolongé de moitié), est
@@ -371,7 +293,6 @@ exposé d’abord en dialogue entre l’orchestre et le piano, fournit,
 en modulant, la possibilité d’un grand crescendo. Son développe-
 ment central est construit sur une longue pédale aux contrebasses
 et violoncelles.
-
 » La deuxième danse, « Andante cantabile », où, par contraste,
 l’écriture devient transparente et la pulsation calme, un chant
 nostalgique (apparenté à nos « Doinas ») se déroule aux bois,
@@ -383,7 +304,6 @@ s’accrochent par des pizzicati en contretemps, s’amplifie petit
 aboutir, en «tutti», au retour du premier thème qui, cette
 fois-ci, expose son chant nostalgique par soubresauts, en s’éloi-
 gnant, pour finir sur une phrase interrogative.
-
 » La troisième et dernière danse, « Allegro vivace », dont le
 premier thème est exposé par le piano seul, puis vigoureusement
 repris par tout l’orchestre, nous fait entrer dans une ronde
@@ -396,12 +316,12 @@ s’amplifie sans cesse, nous fait réentendre la plupart des thèmes
 déjà exposés dans les mouvements précédents et, atteignant son
 point culminant dans un triple canon, elle précipite sa fin dans
 un tourbillon scintillant.
-
 » Genève, le 21 septembre 1945.
-
-Dinu LIPATTI »]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003276_012.tif"/>
-<page><![CDATA[8
+Dinu LIPATTI »
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003276_012.tif'/>
+        <page><![CDATA[8
 ä
 i.
 Ë
@@ -410,172 +330,103 @@ j
 &I
 Ë
 ;
-;]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003276_013.tif"/>
-<page><![CDATA[Premier Concert de l’Abonnement
-
+;
+]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003276_013.tif'/>
+        <page>
+          <![CDATA[Premier Concert de l’Abonnement
 Direction:
-
 Ernest ANSERMET
-
 Soliste :
-
 Dinu LIPATTI
-
 Pianiste
-
 :Q
-
 PROGRAMME
-
 PREMIÈRE PARTIE
-
 1. CONCERTO BRANDEBOURGEOIS
-
 ; . n° 3, en sol majeur, pour trois violons,
 “ trois altos, trois violoncelles et basse
 conmmuee 1 e e Dacu
-
 2. CONCERTO en mi mineur, pour piano
 élorenesmee 1T CHOËNN
 a) Allegro maestoso
 b) Romance (Larghetto)
-c) Rondo vivace]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003276_014.tif"/>
-<page><![CDATA[Le rendez-vous du public cultivé
-
+c) Rondo vivace
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003276_014.tif'/>
+        <page>
+          <![CDATA[Le rendez-vous du public cultivé
 et des gens de goût
-
 LIBRAIRIES
 NAVILLE & C"
-
 PASSAGE DES LIONS 5-7, RUE LÉVRIER 1, PLACE DU LAC
-
 Oll       
         </p>
     </body>
   </text>
 </TEI>l'(lË_"(’8 sur I(l HlllSi(lll(?
-
 et les beaux-arts
-
 PIVIKE S DF BUXE
-
- 
-
- 
-
- 
-
 PQPIERS-PEINÏS
-
-     
-           
-
- 
-
 rrrN
-
 9. PLACE DES EAUX-VIVES
-
-   
-
 Téléphone: 5 08 92
 Télégrammes : Paptenture, Genève
-Chèques postaux : !. 4605]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003276_015.tif"/>
-<page><![CDATA[PROGRAMME (suite)
-
+Chèques postaux : !. 4605
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003276_015.tif'/>
+        <page>
+          <![CDATA[PROGRAMME (suite)
 DEUXIÈME PARTIE
-
 NOCTURNE, pousoréhestre …. .- - , H '(GsGNEBIN
-
 Première audition au concert
-
 Co
-
 4. DANSES ROUMAINES, pour piano
 et'orenestres 1… dn léTr A
-
 Première audition
-
 SINFONIA DA REQUIEM, op. 20 B. BRITTEN
-
 Première audition
-
 Q
-
 a) Lacrymosa
 b) Dies Irae
-
 c) Requiem Aeternam
-
 Piano de concert Steinway de la Maison Sautier & Jaeger
-
 La vignette de la couverture représente la Flûte de Pan, instrument dont
-
 usaient d’ordinaire les bergers, composé d’abord d’un seul chalumeau, enfin
-
 de sept de longueur inégale (tiré de l’'ouvrage Gabinetto armonico du P. Filippo
-BONANNI, paru à Rome en 1723).]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003276_016.tif"/>
-<page><![CDATA[TIDOUDEZ
-
+BONANNI, paru à Rome en 1723).
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003276_016.tif'/>
+        <page>
+          <![CDATA[TIDOUDEZ
 ; . …
 J////« F (r roseruatoure
-
 22, RUE DE LA CORRATERIE -CGFENEÈVE
-
 9
-
 e r rrr «
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Amis de
 l'Orchestre Romand…
-
- 
- 
-
 se recommande
-
 Maiître fleuriste 26, CORRATERIE
-
- 
-
- 
-
-  
-  
-
 déezirenshatsties
-SLOI CIRU]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003276_017.tif"/>
-<page><![CDATA["@
-
+SLOI CIRU
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003276_017.tif'/>
+        <page>
+          <![CDATA["@
 Jean-Sébastien BACH
-
 Né à Eisenach, le 21 mars 1685, mort à Leipzig le 28 juillet 1750
-
 CONCERTO BRANDEBOURGEOIS N° 3
-
 trois parties de violons, trois altos, trois violoncelles, et
 la basse. Les violons, altos et violoncelles tantôt concer-
 tent polyphoniquement, tantôt jouent en chœur. Le premier
 mouvement est construit selon le même principe formel que celui
 du premier concert, et comme lui il est bâti sur un seul thème !…
-
 I E « Troisième Concerto brandebourgeois » est écrit pour
-
 « Peut-être n’y a-t-il que Bach, dit avec raison Willy
 Schmid, pour bâtir un thème aussi vigoureux, dont la puis-
 sance soit aussi indépendante des moyens d’exécution. Cette
@@ -588,7 +439,6 @@ l’idée principale dont le plus souvent d’ailleurs ils s’écartent
 à peine, et quoique tiré presque tout entier du premier frag-
 ment du thème — du «motif» unique ce morceau,
 débordant de vie, est d’une merveilleuse richesse. »
-
 Le point culminant en est atteint lorsqu’à la réexposition du
 thème au second violon, le premier violon oppose un motif
 inédit, insolite; à ce signal trois fois répété, un flux descendant
@@ -596,72 +446,48 @@ de notes et d’harmonies entraîne comme dans des cataractes
 tout l’ensemble instrumental et engloutit pour un moment toute
 polyphonie : c’est une des trouvailles les plus géniales de toute la
 littérature instrumentale.
-
 L’adagio habituel manque. À sa place, deux longs accords
 laissent un instant la fantaisie au repos. Mais elle repart aussitôt
 dans un allegro 12/8, entraînant et enjoué, « une sorte de ronde
 aux prodigieuses évolutions ».
-
-=—]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003276_018.tif"/>
-<page><![CDATA[cAINES 54> * 19005
-
+=—
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003276_018.tif'/>
+        <page>
+          <![CDATA[cAINES 54> * 19005
 ARTICLES DE BÉBÉS - LAYETTES COMPLÈTES
-
 Coujours les meilleutes qualités
-
 Grand choix D U“/ UZ Groix-d'Or 3
-
 Le geand spécialiste des Kues TSasses
-
 Durant toute l'année, chaque achat de LAYETTE destiné à un
 cadeau est gracieusement emballé dans un carton fantaisie.
-
 c2 presemeet 1
-
 841 Qraéne ps p t S E
-
- 
-
- 
-
- 
-
 Es TUN -
-
 2, rue de Candolle - Tél. 41332
-
 Ses bières spéciales du Cardinal
 Ses menus soignés
 Ses mets de brasserie
-
 Ses plats du jour
-
- 
-
 Propr.: J. ZOLFANELLI
-
-Ouvert après les concerts et spectacles]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003276_019.tif"/>
-<page><![CDATA[Frédéric CHOPIN
-
+Ouvert après les concerts et spectacles
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003276_019.tif'/>
+        <page>
+          <![CDATA[Frédéric CHOPIN
 (1809-18409)
-
 e>
-
 ES deux Concertos (op. 11 en mi mineur et op. 21 en fa
 mineur) datent de la même époque et furent exécutés par
 l’auteur dans l’année de leur composition en 1830.
-
 Schumann écrivit un jour sous le coup de l’enthousiasme :
-
 « Was ist ein ganzer Jahrgang einer musikalischen Zeitung
 gegen ein Konzert von Chopin ? »
-
 Ravel, maintes fois, montra combien il aimait l’œuvre de
 Chopin. Il fut vice-président de la Société Frédéric Chopin depuis
 sa fondation en 1911. Et Debussy dans une préface écrivait :
-
 « Par la nature de son génie Chopin échappe au jeu des
 classifications. L’influence de Field, purement d’époque, fut
 légère; son italianisme, son chromatisme, diversement
@@ -670,7 +496,6 @@ lui resteront particulières… Si la liberté de sa forme a pu
 tromper ses commentateurs, comme l’abondance des « traits »
 faire croire à un souci de virtuosité, il faut pourtant en com-
 prendre la valeur de mise en place et la sûre ordonnance.… »
-
 On ne se rend pas toujours compte, hors de Pologne, combien
 la musique de Chopin plonge ses racines dans la musique du
 peuple, combien elle reflète les traits les plus purs, les plus
@@ -678,114 +503,77 @@ authentiques de la race. Si le caractère national est si prononcé
 dans la musique de Chopin, c’est justement grâce aux éléments
 empruntés à la musique du peuple : rythmes, tours mélodiques,
 cadences, tonalités, harmonies qui ont laissé leur empreinte
-dans toute sa pensée.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003276_020.tif"/>
-<page><![CDATA[CORRATERIE 9 — CITÉ 18
-
+dans toute sa pensée.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003276_020.tif'/>
+        <page>
+          <![CDATA[CORRATERIE 9 — CITÉ 18
 Tél. 5 63 70
-
 e vend neuf et d'occasion
 e “achète
-
 e expert Lse
-
 LIVRES ET MUSIQUE
-
- 
-
- 
-
 GRAND CAFÉ-RESTAURANT
 LYRIQUE
-
 ©
 SA CAVE RENOMMÉE
-
 n TISsSOT
-
-TÉLÉPHONE 4 08 00 12, boul. du Théâtre]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003276_021.tif"/>
-<page><![CDATA[Henri GAGNEBIN
+TÉLÉPHONE 4 08 00 12, boul. du Théâtre
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003276_021.tif'/>
+        <page>
+          <![CDATA[Henri GAGNEBIN
 DIRECTEUR DU CONSERVATOIRE
-
 ’læ(,ﬁ_\«.‘
-
 l L y a déjà vinét ans qu’Henri Gagnebin a été appelé à la
-
 | direction de notre Conservatoire de musique et dans le cours
-
 { . de cette saison il aura aussi sa soixantième année. Le Conseil
 de notre Fondation lui présente à cette occasion ses vœux les
 plus sincères.
-
 L’O.S.R. a joué fréquemment de ses œuvres. Parmi les plus
 importantes, rappelons la « Symphonie en fa mineur », l’Ora-
 torio « Saint François d’Assise», le « Requiem des Vanités
 du Monde », une Pastorale, « Le Meunier, son Fils et l’Ane ».
-
 Le « Nocturne », inscrit au concert de ce soir, a été composé
 en hommage à Emile Jaques-Dalcroze, à l’occasion des quatre-
 vinéts ans de ce bon maître, et exécutée à Radio-Genève, en
 première audition, le 6 juillet 1945, jour anniversaire du dédi-
 cataire.
-
 Elle porte en exergue ces vers tirés d’une chanson déjà
 ancienne de Jaques-Dalcroze :
-
 Il nous faut faire nos adieux
 Aux nocturnes mélodieux…
-
 En fait, ce morceau contredit à cette constatation et n’est que
 mélodie. Il évoque une nuit d’été, calme et sereine. L’orchestre ne
 comporte ni bassons ni contrebasses, non plus que les trompettes
-
-. et les trombones.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003276_022.tif"/>
-<page><![CDATA[PERIRNOS
-
+. et les trombones.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003276_022.tif'/>
+        <page>
+          <![CDATA[PERIRNOS
 steinway & Sons, Fôrster Schmidt-Flohr
 Wohlfahrt
-
 —H'anna Àneiﬁaâ
-
 Passage du Terraillet 20
 =
-
 Tél. « 4132 (Entresol)
-
 LOCATIONS ‘ ÉCHANGE , RÉPARATIONS
-
- 
-
- 
-
- 
-
 Boulangerie fine - Pâtisserie
-
 Chantepoulet, 10 Tél. 2.29.78
 PhBlantameur 37 Tél 25809
-
 Fournisseur
-
- 
-
 des grands établissements de Genève
-
- 
-
- 
-
 î
-
- 
-
-L ec VN N]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003276_023.tif"/>
-<page><![CDATA[MUSIQUE ANGLAISE
-
+L ec VN N
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003276_023.tif'/>
+        <page>
+          <![CDATA[MUSIQUE ANGLAISE
 '1æf+\—‘
-
 Il règne sur la musique et sur la musicalité anglaises des
 idées assez confuses et souvent erronées. Pour mettre les choses
 au clair, il convient d’abord, pour l’Angleterre comme pour tout
@@ -801,13 +589,11 @@ tient au passé. C’est d’Angleterre que nous est venu, au moyen
 âge, l’art de faire chanter les voix ensemble, à distance de tierces
 ou de sixtes, et c’est bel et bien ce qui devait nous découvrir le
 phénomène de l’accord et fonder notre sens de l’harmonie.
-
 Plus tard, à la fin du XVIC et au début du XVII© siècles,
 c’est-à-dire au moment le plus florissant de la musique anglaise
 originale, c’est aussi de ce pays que nous est venu l’art de la
 variation qui devait avoir une portée également considérable
 sur toute notre musique.
-
 Mais la musique anglaise participe du caractère insulaire
 dont est empreinte toute la civilisation de ce pays. Si elle nous
 a fourni des ressources de style, elle n’a guère elle-même débordé
@@ -817,7 +603,6 @@ point que l’originalité des compositeurs anglais actuels manifeste
 le même goût mélodique, l’inclination vers les mêmes caractères
 et les mêmes tendances de style qui faisaient déjà l’originalité
 de leurs ancêtres du moyen âge et de la Renaissance.
-
 C’est depuis la fin du siècle dernier que s’est manifesté le
 réveil de cette musicalité anglaise autochtone que la présence en
 Angleterre de musiciens étrangers d’un accent et d’un prestige
@@ -825,31 +610,19 @@ considérables avait rejeté dans l’ombre, sans toutefois l’éteindre
 jamais. Ce réveil musical, initié par Edward Elgar, est illustré
 aujourd’hui par une remarquable pléiade de compositeurs dont
 Benjamin Britten est à la fois le plus jeune et le plus brillant.
-
 Ce n’est pas médire de la musique anglaise que de constater
-qu’elle fleure volontiers la romance, comme on pourrait recon-]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003276_024.tif"/>
-<page><![CDATA[COMBUSTIBLES
-
+qu’elle fleure volontiers la romance, comme on pourrait recon-
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003276_024.tif'/>
+        <page><![CDATA[COMBUSTIBLES
 CHAUFFAGES
-
- 
-
 Téléphone 5 53 33 ACACIAS - GENÈVE
-
- 
-
- 
-
- 
-
- 
-  
- 
-
-A A]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003276_025.tif"/>
-<page><![CDATA[naître dans la musique de Chopin un ton de salon, dans celle des
+A A
+]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003276_025.tif'/>
+        <page>
+          <![CDATA[naître dans la musique de Chopin un ton de salon, dans celle des
 meilleurs compositeurs français un écho de la rue, pour ne pas
 dire du café-concert. Cette touche de mondanité n’indique qu’un
 point de départ, elle situe le compositeur dans le concret, le
@@ -859,7 +632,6 @@ teurs anglais, et un témoignage évident de sa spontanéité, d’avoir
 adopté d’emblée et délibérément cette attitude apparemment
 frivole mais pleine de naturel et de conviction et dépourvue de
 toute prétention comme de tout pédantisme.
-
 Né le 22 novembre 1913 à Lowestoft, il fit de solides études
 théoriques avec Frank Bridge et John Ireland, pianistiques avec
 Harold Samuel et Arthur Benjamin et, tout voué à la composition
@@ -872,357 +644,201 @@ citer que les plus marquantes de ses œuvres — la progression de
 son art est constante, et tout dernièrement, son opéra « Peter
 Grimes » a obtenu un succès que n’avait connu jusqu’ici aucun
 opéra anglais moderne.
-
 La « Sinfonia da Requiem », écrite au cours de l’été 1940, est
 inspirée par les épreuves que subissait alors la patrie de l’auteur,
 et le pathétisme direct et poignant de cette œuvre lui a valu un
 grand retentissement dans les pays anglo-saxons. La forte
 impression qu’elle laissa lors de sa première audition à Radio-
 Genève nous a décidé à la présenter au public de nos concerts.
-
-p]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003276_026.tif"/>
-<page><![CDATA[PORCELAINE ,
-
+p
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003276_026.tif'/>
+        <page>
+          <![CDATA[PORCELAINE ,
 <%Îÿ> ÉCFATANES
-
 GCRIS FAUX
-
 €s COUrENTE E
-
- 
-
 LOUIS KUHNE , ,
-
 6, rue du Rhône . Tél. 40362 3
-
- 
-
- 
-
- 
-
- 
-
 DS E L E A E , A E RE
-
 NELUETIA-AGCIDENTS
-
 DIRECTION ROMANDE
-
 PÉACE LONCEN/ANELE, Ÿ
-
 AGENCE GÉNÉRALE : Ï
-
 L. CHATELAIN ET H. COLLOMB ÿ
-
-C'HORARTATERRA E 7]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003276_027.tif"/>
-<page><![CDATA[NOS RAPPORTS AVEC L’ÉTRANGER
-
+C'HORARTATERRA E 7
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003276_027.tif'/>
+        <page>
+          <![CDATA[NOS RAPPORTS AVEC L’ÉTRANGER
 Ade P
-
 La fin de la guerre a aussitôt ramené la circulation dans
 le monde musical. Les pays autrefois en guerre ont repris
 leur activité avec une rapidité surprenante. Le tableau de nos
 concerts en est un amdice, tant par les œuvres nouvelles qu
 /7(H’ les solistes.
-
 Réciproquement notre chef d'orchestre M. E. Ansermet
 a veçu un grand nombre d’invitations, dont la plupart lui sont
 parvenues par le canal des légations suisses à l’étranger.
-
 Dans celles qu’'il a pu accepter jusqu'ici se trouvent
 2 concerts de la Société philharmomique de Bruxelles, 3 concerts
 de l'Orchestre de la Résidence de La Haye, 10 concerts en
 Angleterre (Londres et autres villes ) avec le London Philhar-
 monic Orchestra.
-
 Ces concerts auront lieu en janvier et février 1946.
-
 L'activité de M. Ansermet à Genève et en Suisse romande
 l’a amené à décliner des invitations à Paris, Monte-Carlo,
-KRome et Milan.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003276_028.tif"/>
-<page><![CDATA[Une tenommée unique
-
- 
-
- 
-
+KRome et Milan.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003276_028.tif'/>
+        <page>
+          <![CDATA[Une tenommée unique
 %na ambiance qui ;zzâaîi
-
 L Hôtel des Bergues
-
- 
-
- 
-
- 
-
 AxÇ"ÂK
-
 cëæ‘:‘/M
 )…‘ g
-
- 
-
- 
-
 '
-
 rnounc: & A
 “SPÉCIAL”
-
-2/4 GRAS]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003276_029.tif"/>
-<page><![CDATA[Prochain Concert :
-
+2/4 GRAS
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003276_029.tif'/>
+        <page>
+          <![CDATA[Prochain Concert :
 (Deuxième de l’abonnement)
-
 Mercredi 24 octobre 1945, à 20h.15
-
 GRAND-THÉATRE
-
 =—
-
 Direction :
-
 Ernest ANSERMET
-
 Soliste :
-
 Ninon VALLIN
-
 Cantatrice
-
 R
-
 AU PROGRAMME:
-
 Mozart - Debussy - Martinu - Ravel
-Duparc - Fauré]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003276_030.tif"/>
-<page><![CDATA[INION
-
+Duparc - Fauré
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003276_030.tif'/>
+        <page>
+          <![CDATA[INION
 DE BANQUES SUISSES
-
 & B v % % 8
-
-Angle rue du Rhône et rue du Commerce]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003276_031.tif"/>
-<page><![CDATA[VICGTORIS HALIL ,— GENÈVE
-
- 
-
+Angle rue du Rhône et rue du Commerce
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003276_031.tif'/>
+        <page>
+          <![CDATA[VICGTORIS HALIL ,— GENÈVE
 Mereredi 17 octobre 1945
-
 à Z0h.15
-
 GRAND GALA
 DE MUSIQUE FRANÇAISE
-
 }HH‘
 l'ORCHESTRE DE LA SUISSE ROMANDE
 organisé par la
 SOCIÉTÉ DES ÉMISSIONS RADIO-GENÈVE
 et strictement
-
 réservé aux Amis de Radio-Genève
 et aux souscripteurs de l’O. S. R.
-
 Direction :
-
 MANUEL ROSENTHAL
-
 Chef de l'Orchestre national de la Radiodiffusion français‘
 Soliste :
-
 M"°© MONIQUE HAAS
-
 Pianiste
-
 PROGRAMME :
-
 LES PATLADINS (Suite d’orchestre) “ ! . J.-Ph. RAMEAU
-
 ROMÉO ET JULIETTE (Scène d’amour) . 3ERLIOZ
-
 CONCERTO pour piano et orchestre . ... . Henry BARRAUD
 Soliste: MmMe Monique HAas
-
 OQUVERRURE 051e Georges AURI(
-
 VUN DB Manuel ROSENTHAL
-
 Le montant de la cotisation annuelle des Amis de Radio-Genève est de 3 frs.
 Les cartes peuvent être retirées au magasin de meubles, 8 Cours-de-Rive.
-
 Les souscripteurs de l’O.S.R. peuvent retirer leurs invitations du jeudi 11
-au lundi 15 octobre, au Grand Théâtre, rue Diday 14.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003276_032.tif"/>
-<page><![CDATA[Trousseaux - Rideaux
+au lundi 15 octobre, au Grand Théâtre, rue Diday 14.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003276_032.tif'/>
+        <page>
+          <![CDATA[Trousseaux - Rideaux
 Lingerie de luxe
 Chemisiers - Peignoirs
 Layette
-
 - GENEVE-
-
- 
-
- 
-
- 
-
 Votre maison de confiancec..
-
- 
-
- 
-
 ph d N RS
-
 C O N PS RE N TS é dc
-
 Rsx
-
 es
-
-RLJ E p A MPEN TS]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003276_033.tif"/>
-<page><![CDATA[GRAND THÉATRE DE GENÈVE
+RLJ E p A MPEN TS
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003276_033.tif'/>
+        <page>
+          <![CDATA[GRAND THÉATRE DE GENÈVE
 SOCUBIT P ROMANDE DE SPBCTACLES
-
- 
-
 Saison 1945/1946 12€ année
-
 Vendredi 19 et samedi 20 octobre 1945
-
 à 20h.15
-
 Madame Butterfly
-
 DRAME LYRIQUE EN 3 ACTES DE GIACOSA ET ILLICA
 MUSIQUE DE GIACOMO PUCCINI
 avec
-
 Mme GÉORI BOUÉ, de l’Opéra-Comique; M"Me JEANNE
 MATTIO, de l’Opéra-Comique; MM. ANDRÉ BURDINO
 et ROGER BOURDIN, de l’Opéra-Comique
-
 Orchestre de la Suisse Romande
-
 sous la direction de
-
 M. Gustave CLOETZ
-
 18 chef d’orchestre de l’Opéra-Comique
-
 Billets de 1.50 à 12 francs
 Location ouverte au Grand Théâtre, dès le vendredi 12 octobre
-
-Téléphone 5 53 53 de 16 à 19 heures exclusivement]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003276_034.tif"/>
-<page><![CDATA[œeégac es m S 0 RE
-
+Téléphone 5 53 53 de 16 à 19 heures exclusivement
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003276_034.tif'/>
+        <page>
+          <![CDATA[œeégac es m S 0 RE
 22, rue du Mont-Blanc
-
- 
-
- 
-
- 
-
 21, RUE DU STAND
 G e N E v E
 TmEÉE 4 51760
-
-RETQUEMES, ChROOUS D-> 1]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003276_035.tif"/>
-<page><![CDATA[Caisse hypothécaire
-
+RETQUEMES, ChROOUS D-> 1
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003276_035.tif'/>
+        <page>
+          <![CDATA[Caisse hypothécaire
 du Canton de Genève
-
 Instituée par la Constitution de 1847
-
 Molard, 2
-
 Prêts et crédits hypothécaires
 Certificats de dépôt
-
-Livrets d’épargne]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003276_036.tif"/>
-<page><![CDATA[|
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
+Livrets d’épargne
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003276_036.tif'/>
+        <page>
+          <![CDATA[|
 ARC DE TRIOMPHE DE CONSTANTIN À ROME
-
 VN N OM ©RA F
 NS L'HISTOIRE
-
 %ä VÀ@HÈ RON ä4
 ©©NS“ÎAN‘Î'IN
-
 DONNE L’HEURE EXACTE DEPUIS 160 ANS
-
- 
-
- 
-
- 
-
- 
-
- 
-
 e
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-KUNDIG 5]]></page>       
-        </p>
+KUNDIG 5
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

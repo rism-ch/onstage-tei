@@ -1,78 +1,88 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Giroflé-Girofla<date when="04/06/1881"/></title>
-<series>1880-1881</series>
-<placeName>[Coulouvrenière ?] Théâtre des Bouffes [parisiens]</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Giroflé-Girofla
+            <date when='04/06/1881'/>
+          </title>
+          <series>1880-1881</series>
+          <placeName>Genève, Coulouvrenière (Théâtre des Bouffes parisiens)</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU DG4 F001427</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Lieu incertain</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18810604"/>
-<title>Giroflé-Girofla</title>
-<placeName key="[Coulouvrenière ?] Théâtre des Bouffes [parisiens]"/>
-<name key="1880-1881" type="series"/>
-<name key="Lecocq, Charles" ref="https://muscat.rism.info/admin/people/85756" type="person" role="cmp">Lecocq, Charles</name>
-<name key="Théâtre des Bouffes"  type="person" role="int">Théâtre des Bouffes</name>
-<name key="Sichel (Mme)"  type="person" role="int">Sichel (Mme)</name>
-<name key="Grégoire, Baptiste"  type="person" role="int">Grégoire, Baptiste</name>
-<name key="Duchaussoy"  type="person" role="int">Duchaussoy</name>
-<name key="Grégoire, Alphonse"  type="person" role="int">Grégoire, Alphonse</name>
-<name key="Grégoire, Joseph"  type="person" role="int">Grégoire, Joseph</name>
-<name key="Polydor"  type="person" role="int">Polydor</name>
-<name key="Estiot"  type="person" role="int">Estiot</name>
-<name key="Frédéric"  type="person" role="int">Frédéric</name>
-<name key="Roche"  type="person" role="int">Roche</name>
-<name key="Fernand"  type="person" role="int">Fernand</name>
-<name key="Florentin"  type="person" role="int">Florentin</name>
-<name key="Spina (Mme)"  type="person" role="int">Spina (Mme)</name>
-<name key="Desjardins (Mme)"  type="person" role="int">Desjardins (Mme)</name>
-<name key="Eva"  type="person" role="int">Eva</name>
-<name key="Blanche (Mme)"  type="person" role="int">Blanche (Mme)</name>
-<name key="Théo"  type="person" role="int">Théo</name>
-<name key="Guérini"  type="person" role="int">Guérini</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f001427_001.tif"/>
-<page><![CDATA[q €£76‘7)n ' 2 Bs
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18810604'/>
+        <title>Giroflé-Girofla</title>
+        <placeName key='Genève, Coulouvrenière (Théâtre des Bouffes parisiens)'/>
+        <name key='1880-1881' type='series'/>
+        <name key='Lecocq, Charles' ref='https://muscat.rism.info/admin/people/85756' type='person' role='cmp'>Lecocq, Charles</name>
+        <name key='Théâtre des Bouffes' type='person' role='int'>Théâtre des Bouffes</name>
+        <name key='Sichel (Mme)' type='person' role='int'>Sichel (Mme)</name>
+        <name key='Grégoire, Baptiste' type='person' role='int'>Grégoire, Baptiste</name>
+        <name key='Duchaussoy' type='person' role='int'>Duchaussoy</name>
+        <name key='Grégoire, Alphonse' type='person' role='int'>Grégoire, Alphonse</name>
+        <name key='Grégoire, Joseph' type='person' role='int'>Grégoire, Joseph</name>
+        <name key='Polydor' type='person' role='int'>Polydor</name>
+        <name key='Estiot' type='person' role='int'>Estiot</name>
+        <name key='Frédéric' type='person' role='int'>Frédéric</name>
+        <name key='Roche' type='person' role='int'>Roche</name>
+        <name key='Fernand' type='person' role='int'>Fernand</name>
+        <name key='Florentin' type='person' role='int'>Florentin</name>
+        <name key='Spina (Mme)' type='person' role='int'>Spina (Mme)</name>
+        <name key='Desjardins (Mme)' type='person' role='int'>Desjardins (Mme)</name>
+        <name key='Eva' type='person' role='int'>Eva</name>
+        <name key='Blanche (Mme)' type='person' role='int'>Blanche (Mme)</name>
+        <name key='Théo' type='person' role='int'>Théo</name>
+        <name key='Guérini' type='person' role='int'>Guérini</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f001427_001.tif'/>
+        <page>
+          <![CDATA[q €£76‘7)n ' 2 Bs
 é N '
 { ; La L 0n 1880 Ë démängeaisons, rougeurs, acnés (points noirs sur le“1ez), gerçures, eczémas, f
 R y
-
 /
-
 & psoriasis (pellicules)ét toutes les maladies de la peau et lesimpure-B
 ; [ f tés du teint disparaissent promptement et sûrement par l'cmllulul du
 | as ir à aaTee ps sp => Bien supérieus à tous les sa-
@@ -83,45 +93,25 @@ ndamment des lots|  El4i 27 ; | à la peau, une fraicheur, une
 " Ë dl :omparables.— 80 cents.le mor
 9/zre. _ “i|ceau de 100 gr. (enveloppe cha-
 ; l au Journal # mois) dans toutes les pharmacies ##
-
 nE Paris.
-
- 
-
- 
-
 D'IDEHE E ®0 HE H DEs BECPDUIEEVHSS
-
- 
-
 Samedi, 4 Juin 1881
-
 POUR LES REPRÉSENTATIONS de M"* SICHEL
-
 (iirollé-Girolla
-
 Opéra—comiqué en $ actes, musique de Lecocg
 Mme SICHEL remplira le rôle de Giroflé-Girofla
-
 %,  DISTRIBUTION. Mourzouck, MM. Baptiste Grégoire. Marasquin, Duchaussoy,
 T Don Boléro, Alphonse Grégoire. Le chef des pirates, Joseph Grégoire. Le parrain,
 # Polydor. Le danseur, Estiot. L'oncle, Frédéric. Le notaire, Roche. Le précepteur,
 # Fernand. Le garçon d'honneur, Florentin.— Giroflé-Girofla, Mme# SICHEL. Aurore,
 Spina. Paquita, Desjardins. Pedro, Eva. Gusman, Blanche. Fernando, Théo.
 Almanzor, Polydor. Juliano, Florentin. Antonio, Frédéric. Alcindor, Guérini.
-
- 
-
- 
-
-Les bureaux seront ouverts à 7 h. 113 — On commencera à 8 h.1y4]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f001427_002.tif"/>
-<page><![CDATA[“ d’appla'udiSsements
-
- 
-
-  
-
+Les bureaux seront ouverts à 7 h. 113 — On commencera à 8 h.1y4
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f001427_002.tif'/>
+        <page>
+          <![CDATA[“ d’appla'udiSsements
 Le rôle de don Boléro était tenu par M. Alphonse
 Grégoire. Pour drôle, il a été fort drôle ; mais pour
 avoir été constamment de bon goût et n’avoir
@@ -129,80 +119,51 @@ jamais dépassé les limites de la charge permise,
 oh non ! Que cet artiste, — qui a certainement du
 mérite, — y prenne garde : il aurait tort de croire
 que l’enthousiasme des titis des troisièmes, éclatant
-
- 
-
 ance Ma belle Girofla, dite | -
 souleve une véritable tempête ë
-
 [D1IT CT e U, CATEPES
 midi champêt1e donné par la $
 — Tirage de la loterie, jeux di
 bienveillant concours de Fanf
-
 *
-
 *
 Nous avons sous les yeux u
 Chaffard pour les chemins de
 avec carte. Cette utile publicat
 horaires des bateaux à vapeu
 se vend partout au prix de 30
-
 *
-
 SFSMA BREMDPEeS:s/MAS OS L AN SS TH
-
- 
-
 Dimanche 5 Juin, à 5 kheures 12 du soir Gra
-
 Con
-
 [7 CONCENT POPULAIRE ]
-
 DONNÉ PAR
-
 L'ORCHESTRE DE LA VILLE | }
-
- 
-
 PROGRAMME
-
 Deuxième Marche aux flambeaux. ...
 Conjuration de l’opéra Cinq-Mars
-
 Ouverture des Joyeuses Commères de Windsor
 Mosaïque sur Don Pasquale.
-
 A Toi, valse. ;
-
 La Patrou1]le, marche ;
-
 Tramway, galop .
-
 SUS S
-
 Musique de ballet et cortège nuptial de l’opéra Feramors
-
 Sr
-
 MEYERBEER. ej: ä
 Cha
-
 GouNop. Bros
-
 RUBINSTEIN. ÊeS,
-
 e ous
 NrcoLAaï. Nett
 DONIZETTI. amé
 WALDTEUFEL. smT
 (
-
 MICHÆLIS. ËA Pn
-BURGMEIN. p]]></page>       
-        </p>
+BURGMEIN. p
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

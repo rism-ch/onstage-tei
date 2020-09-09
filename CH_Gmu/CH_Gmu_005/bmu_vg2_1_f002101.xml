@@ -1,134 +1,116 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Grand concert donné par la Société de l'Orchestre de la Ville de Genève<date when="02/07/1885"/></title>
-<series>1884-1885</series>
-<placeName>Jardin anglais</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Grand concert donné par la Société de l'Orchestre de la Ville de
+            Genève
+            <date when='02/07/1885'/>
+          </title>
+          <series>1884-1885</series>
+          <placeName>Genève, Jardin anglais</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VG2-1 F002101</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Bergalonne, F. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18850702"/>
-<title>Grand concert donné par la Société de l'Orchestre de la Ville de Genève</title>
-<placeName key="Jardin anglais"/>
-<name key="1884-1885" type="series"/>
-<name key="Massenet, Jules" ref="https://muscat.rism.info/admin/people/84264" type="person" role="cmp">Massenet, Jules</name>
-<name key="Hamm, Johann Valentin" ref="https://muscat.rism.info/admin/people/44440" type="person" role="cmp">Hamm, Johann Valentin</name>
-<name key="Massenet, Jules" ref="https://muscat.rism.info/admin/people/84264" type="person" role="cmp">Massenet, Jules</name>
-<name key="Delibes, Léo" ref="https://muscat.rism.info/admin/people/30016578" type="person" role="cmp">Delibes, Léo</name>
-<name key="Meyerbeer, Giacomo" ref="https://muscat.rism.info/admin/people/725" type="person" role="cmp">Meyerbeer, Giacomo</name>
-<name key="Bériot, Charles-Auguste de" ref="https://muscat.rism.info/admin/people/13658" type="person" role="cmp">Bériot, Charles-Auguste de</name>
-<name key="Saint-Saëns, Camille" ref="https://muscat.rism.info/admin/people/76734" type="person" role="cmp">Saint-Saëns, Camille</name>
-<name key="Guiraud, Ernest" ref="https://muscat.rism.info/admin/people/30024115" type="person" role="cmp">Guiraud, Ernest</name>
-<name key="Bergalonne, F. (dir.)"  type="person" role="int">Bergalonne, F. (dir.)</name>
-<name key="Orchestre de la Ville de Genève"  type="person" role="int">Orchestre de la Ville de Genève</name>
-<name key="Gland"  type="person" role="int">Gland</name>
-<name key="Colombino"  type="person" role="int">Colombino</name>
-<name key="Rey, L."  type="person" role="int">Rey, L.</name>
-<name key="Haertel"  type="person" role="int">Haertel</name>
-<name key="Vancini"  type="person" role="int">Vancini</name>
-<name key="Richter"  type="person" role="int">Richter</name>
-<name key="Dohmayer"  type="person" role="int">Dohmayer</name>
-<name key="Rey, E."  type="person" role="int">Rey, E.</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_1_f002101_001.tif"/>
-<page><![CDATA[JARDIN ANGLAIS
-
- 
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18850702'/>
+        <title>Grand concert donné par la Société de l'Orchestre de la Ville de Genève</title>
+        <placeName key='Genève, Jardin anglais'/>
+        <name key='1884-1885' type='series'/>
+        <name key='Massenet, Jules' ref='https://muscat.rism.info/admin/people/84264' type='person' role='cmp'>Massenet, Jules</name>
+        <name key='Hamm, Johann Valentin' ref='https://muscat.rism.info/admin/people/44440' type='person' role='cmp'>Hamm, Johann Valentin</name>
+        <name key='Massenet, Jules' ref='https://muscat.rism.info/admin/people/84264' type='person' role='cmp'>Massenet, Jules</name>
+        <name key='Delibes, Léo' ref='https://muscat.rism.info/admin/people/30016578' type='person' role='cmp'>Delibes, Léo</name>
+        <name key='Meyerbeer, Giacomo' ref='https://muscat.rism.info/admin/people/725' type='person' role='cmp'>Meyerbeer, Giacomo</name>
+        <name key='Bériot, Charles-Auguste de' ref='https://muscat.rism.info/admin/people/13658' type='person' role='cmp'>Bériot, Charles-Auguste de</name>
+        <name key='Saint-Saëns, Camille' ref='https://muscat.rism.info/admin/people/76734' type='person' role='cmp'>Saint-Saëns, Camille</name>
+        <name key='Guiraud, Ernest' ref='https://muscat.rism.info/admin/people/30024115' type='person' role='cmp'>Guiraud, Ernest</name>
+        <name key='Bergalonne, F.' type='person' role='int'>Bergalonne, F.</name>
+        <name key='Orchestre de la Ville de Genève' type='person' role='int'>Orchestre de la Ville de Genève</name>
+        <name key='Gland' type='person' role='int'>Gland</name>
+        <name key='Colombino' type='person' role='int'>Colombino</name>
+        <name key='Rey, L.' type='person' role='int'>Rey, L.</name>
+        <name key='Haertel' type='person' role='int'>Haertel</name>
+        <name key='Vancini' type='person' role='int'>Vancini</name>
+        <name key='Richter' type='person' role='int'>Richter</name>
+        <name key='Dohmayer' type='person' role='int'>Dohmayer</name>
+        <name key='Rey, E.' type='person' role='int'>Rey, E.</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_1_f002101_001.tif'/>
+        <page>
+          <![CDATA[JARDIN ANGLAIS
 JEUDI 2 JUILLET 18S5, A $ HEURES DU SOIR,
 GRAND
-
 CONCGERT
-
 DONNÉ PAR LA
-
 SOCIÉTÉ DE L'ORCHESTRE DE LA VILLE DE GENÈVE
-
 AVEC LE BIENVEILLANT CONCOURS DE
-
 PLUSIEURS ARTISYES
-
 SOUS LA DIRECTION DE
-
 M. F. BERGALONNE
-
 — m S—— -
-
- 
-
- 
-
- 
-
- 
-
 PROGRAMME :
-
 PREMIÈRE PARTIE
-
 e d ciFPhèdre » . . .- . . . . . .  Massenet
-
 MDuo pour hautbois et clarinette, par MM. GLAND et CoLoMBINO, . Hamm
-
 Le dernier Sommeil de la Vierge, . . . . »  Massenet
-
 Ballet de « Coppélia, » Ballade et Thème Slaves variés, . . Léo Delibes
 DEUXIÈME PARTIE
-
 Grande Polonaise de « Struensée,» . . . . . . .  Meyerbeer
 Premier Solo du "7me Concerto, pour 6 violons solos, exécuté par
 MM. L. Rry, HÆRrTEL, VANCINI, RICHTER, DonmayERr, E. Rrey, . .  Bériot
 Ballet-Divertissement de « Menri VEEE,>. . . . . . C. Saint-Saëns
 &) Introduction. Entrée des Clans. — b) Danse de la Gipsy.
 Carnaval de la suite d’Orchestre . . . . 2 2 - . E. Guiraud
-
 —— ç P——
-
 Prix d’entrée : 50 Centimes.
 PLACES ASSISES DANS L’'ENCEINTE BÉSERVÉE: UN FRANC.
-
- 
-
- 
-
 MM. les Membres honoraires sont priés de se munir de leurs cartes de Sociétaires.
-
 Genève. — Imprimerie J-D. Jarrys. 4
-S P.]]></page>       
-        </p>
+S P.
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

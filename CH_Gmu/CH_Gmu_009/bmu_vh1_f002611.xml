@@ -1,216 +1,154 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par le Corps de musique d'Elite<date when="06/12/1925"/></title>
-<series>1925-1926</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par le Corps de musique d'Elite
+            <date when='06/12/1925'/>
+          </title>
+          <series>1925-1926</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002611</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Welsch, M. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19251206"/>
-<title>Concert donné par le Corps de musique d'Elite</title>
-<placeName key="Victoria Hall"/>
-<name key="1925-1926" type="series"/>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Paisiello, Giovanni" ref="https://muscat.rism.info/admin/people/1874" type="person" role="cmp">Paisiello, Giovanni</name>
-<name key="Gluck, Christoph Willibald" ref="https://muscat.rism.info/admin/people/67338" type="person" role="cmp">Gluck, Christoph Willibald</name>
-<name key="Schumann, Robert" ref="https://muscat.rism.info/admin/people/131206" type="person" role="cmp">Schumann, Robert</name>
-<name key="Vieuxtemps, Henri" ref="https://muscat.rism.info/admin/people/142566" type="person" role="cmp">Vieuxtemps, Henri</name>
-<name key="Saint-Saëns, Camille" ref="https://muscat.rism.info/admin/people/76734" type="person" role="cmp">Saint-Saëns, Camille</name>
-<name key="Gounod, Charles-François" ref="https://muscat.rism.info/admin/people/80479" type="person" role="cmp">Gounod, Charles-François</name>
-<name key="Dvořák, Antonín" ref="https://muscat.rism.info/admin/people/26196" type="person" role="cmp">Dvořák, Antonín</name>
-<name key="Widor, Charles-Marie" ref="https://muscat.rism.info/admin/people/135158" type="person" role="cmp">Widor, Charles-Marie</name>
-<name key="Pugnani, Gaetano" ref="https://muscat.rism.info/admin/people/30002608" type="person" role="cmp">Pugnani, Gaetano</name>
-<name key="Kreisler, Fritz" ref="https://muscat.rism.info/admin/people/52067" type="person" role="cmp">Kreisler, Fritz</name>
-<name key="Clérice"  type="person" role="cmp">Clérice</name>
-<name key="Welsch, Marcel (dir.)"  type="person" role="int">Welsch, Marcel (dir.)</name>
-<name key="Corps de musique d'Elite"  type="person" role="int">Corps de musique d'Elite</name>
-<name key="Schmied-Vallier, Jeanne"  type="person" role="int">Schmied-Vallier, Jeanne</name>
-<name key="Lehmann, Edouard"  type="person" role="int">Lehmann, Edouard</name>
-<name key="Pollatos, Marika"  type="person" role="int">Pollatos, Marika</name>
-<name key="Longobardi, A."  type="person" role="int">Longobardi, A.</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002611_001.tif"/>
-<page><![CDATA[e >X*/
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19251206'/>
+        <title>Concert donné par le Corps de musique d'Elite</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1925-1926' type='series'/>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Paisiello, Giovanni' ref='https://muscat.rism.info/admin/people/1874' type='person' role='cmp'>Paisiello, Giovanni</name>
+        <name key='Gluck, Christoph Willibald' ref='https://muscat.rism.info/admin/people/67338' type='person' role='cmp'>Gluck, Christoph Willibald</name>
+        <name key='Schumann, Robert' ref='https://muscat.rism.info/admin/people/131206' type='person' role='cmp'>Schumann, Robert</name>
+        <name key='Vieuxtemps, Henri' ref='https://muscat.rism.info/admin/people/142566' type='person' role='cmp'>Vieuxtemps, Henri</name>
+        <name key='Saint-Saëns, Camille' ref='https://muscat.rism.info/admin/people/76734' type='person' role='cmp'>Saint-Saëns, Camille</name>
+        <name key='Gounod, Charles-François' ref='https://muscat.rism.info/admin/people/80479' type='person' role='cmp'>Gounod, Charles-François</name>
+        <name key='Dvořák, Antonín' ref='https://muscat.rism.info/admin/people/26196' type='person' role='cmp'>Dvořák, Antonín</name>
+        <name key='Widor, Charles-Marie' ref='https://muscat.rism.info/admin/people/135158' type='person' role='cmp'>Widor, Charles-Marie</name>
+        <name key='Pugnani, Gaetano' ref='https://muscat.rism.info/admin/people/30002608' type='person' role='cmp'>Pugnani, Gaetano</name>
+        <name key='Kreisler, Fritz' ref='https://muscat.rism.info/admin/people/52067' type='person' role='cmp'>Kreisler, Fritz</name>
+        <name key='Clérice' type='person' role='cmp'>Clérice</name>
+        <name key='Welsch, Marcel' type='person' role='int'>Welsch, Marcel</name>
+        <name key='Corps de musique d&apos;Elite' type='person' role='int'>Corps de musique d'Elite</name>
+        <name key='Schmied-Vallier, Jeanne' type='person' role='int'>Schmied-Vallier, Jeanne</name>
+        <name key='Lehmann, Edouard' type='person' role='int'>Lehmann, Edouard</name>
+        <name key='Pollatos, Marika' type='person' role='int'>Pollatos, Marika</name>
+        <name key='Longobardi, A.' type='person' role='int'>Longobardi, A.</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002611_001.tif'/>
+        <page>
+          <![CDATA[e >X*/
 /CORPS de \
-
 AmuSIOUE;ELITÉ
-
 q GRAŒﬂ)€
-
 SOC ETE DE
-
 e NOQUE SUISS
-
 FONDÉE EN 1872
-
- 
-
- 
-
- 
-
- 
-
- 
-
 CAPITAL-ACTIONS ET RÉSERVES FR. 153 MILLIONS
-
 6, CORRATERIE GENEVE CORRATERIE, 6
 CORNAVIN EAUX-VIVES
-
 10, Place de Cornavin 3, Place des Eaux-Vives
-
 PLAINPALAIS CAROUGE
-
 36, Rue de Carouge 11, Rue du Marché
-
-Prix : 20 centimes]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002611_002.tif"/>
-<page><![CDATA[BIJOUTERIE
-
+Prix : 20 centimes
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002611_002.tif'/>
+        <page>
+          <![CDATA[BIJOUTERIE
 #
 6, PASSAGE DES LIONS, G6
-
-    
-
 TÉLÉPHONE STAND 45-17
-
 ORFEÉVRERIE ARGENT ET MÉTAL ARGENTÉ
-
- 
-
 GENÈVE
-
 Grand choix Prix sans concurrence
-
- 
-
- 
-
- 
-
 BRASSERIE LANDOLT
-
- 
-
- 
-
 Etablissement de Premier
 d’une ancienne
-
 renommée
-
-     
-
 À K y = e ®.
 us D/ / RÉPARATION ACORD
 - 2 P PIANOS PNEUMATIQUES
-
-Ordre]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002611_003.tif"/>
-<page><![CDATA[VICTORIA HALL
-
+Ordre
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002611_003.tif'/>
+        <page>
+          <![CDATA[VICTORIA HALL
 ce -
-
 Portes à 14 k. 15 Cczxcert à Ir4ÿth 45
-
 DIMANCHE 6 DECEMBRE 1925
-
 CONCERT
-
 DONNÉ PAR LE CORPS DE
-
 MUSIQUE D'ÉLITE
-
 SOUS LA DIRECTION DE
 Monsieur MARCEL WELSCH
-
 Premier prix du Conservatoire national de musique de Paris
-
 avec le bienveillant concours de
-
 Madame JEANNE SCHMIED - VALLIER
-
 Cantatrice
-
 Monsieur EDOUARD LEHMANN
-
 Professeur, violoniste à l’Orchestre ‘de ‘la Suisse Romande
-
 PRIX DES PLACES
-
 Loges et 1“" rang de la 1" galerie (numérotées) Fr. 2.20. Rez-de-
 chaussée et autres places de 1" galerie Fr. 1.10. 2”* galerie GO cts
-
 Cartes à l’avance : Victoria-Hall et J. FIVAZ, Terrassière, 9
-
 Les cartes de Membres honoraires et non-exécutants donnent droit à 2 entrées
 (le coupon n° B8 à une entrée)
 et, moyennant supplément de 1 fr., aux places numérotées.
-
- 
-
- 
-
- 
-
 TI IDILAPIFRRE
-
 HORTICULTEUR - FLEURISTE
-
 Maison de 1* ordre
-
 RUE DU RHONE, 2, GENÈVE, TÉL. STAND. 00-77
-V t t S]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002611_004.tif"/>
-<page><![CDATA[NOTICE HISTORIQUE
-
-   
-    
- 
-   
- 
- 
-
+V t t S
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002611_004.tif'/>
+        <page>
+          <![CDATA[NOTICE HISTORIQUE
 Nous voulons essayer par les quelques lignes qui vont suivre
 de retracer très brièvement la grande activité déployée jusqu’à ce
 jour par notre Corps de Musique d’Elite.
-
 Il faut retourner jusque vers 1795 pour distinguer un mou-
 vement en faveur de la création d’un corps de musique dans nos
 troupes genevoises. L'idée fut mise de suite à exécution, mais ce
@@ -218,21 +156,7 @@ n’est pas sans subir diverses transformations que ce premier corps
 de musique, auquel on avait donné le nom de «musique réformée»,
 totalisa six années d’existence. Ce n’est ensuite qu'en 1814 après
 le départ des Autrichiens, les « Kaiserliks », comme on se plaisait
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 CORPS DE MUSIQUE D'ÉLITE Photo F.-H. Jullien
-
 à les appeler, qu’on songea de nouveau à créer une musique mi-
 Ÿ litaire genevoise d’un effeclif de 12 musiciens. Effeclil bien mince
 # comme on s'’en rendit compte par la suile et alors on altribua un
@@ -242,304 +166,178 @@ progrèsetun peu plus tard la loi de 1839 inslitua le premier corps
 de musique du Contingent fort de 18 hommes à sa fondation, plus
 deux musiques de réserve, le tout sous la direction de Louis
 Sabon qui fut un chef apprécié et très populaire.
-
 John Grasset lui succéda en 1841. La musique du Contingent
 à vrai dire ne comprenait pas à ce moment les quarante musi-
 ciens prévus par la loi, mais chacun avait une grande confiance
 en ce nouveau chef, confiance qui fut justifiée par les quelques 15
-ans de labeur que fournit John Grasset à la tête de la musique]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002611_005.tif"/>
-<page><![CDATA[F CT T SRE RE TION RE E A E S O A E PS E
-
+ans de labeur que fournit John Grasset à la tête de la musique
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002611_005.tif'/>
+        <page>
+          <![CDATA[F CT T SRE RE TION RE E A E S O A E PS E
 i du Contingent. C’est pendant cette période que cette dernière se
-
 l rendil au camp de Hl()llll(" le fait mérite d’être signalé car c’étail
-
 | la première fois (|ll un corps de |nu>1q…* genevois prenail part à
 un service hors du Canton.
-
 Vers 1842 survint un changement et la musique du Contin-
-
 gent prit Jle nom de Corps de musique d'Elite. Depuis celte épo-
-
 Î que, bien des modifications el des incidents se présentèrent, aussi
-
 | seraït-il trop long d’énumérer ici tous les chels qui tour à tour se
-
 dépensèrent sans compler pour l’Elite. Leur tâche ne fut pas tou-
-
 | Jours aisée et en bien des occasions ils durent faire preuve de
-
- 
-
 beaucoup d’énergie et de persévérance. Sous leur direction l’Elite
 |IIH\])\ ra d’année en année, elle entreprit de grands voyages à
-
 \lger, Turin, Gênes, Barcelone et |l'll«'wlllHî la Suisse en tous
 sens. Partout elle sut se faire apprécier et chacun possède encore
 le souvenir vivant de ces voyages.
-
- 
-
 Nous ne pouvons toutefois passer sous silence des noms
 comme Fézio père et fils, Francis Bergalonne, qui resta 27 ans
 à la tête de l’Elite et fut un des chefs des plus capables et des
-
 | plus aimés grâce à la bonté et au tact dont il a toujours fail
-
 | preuve. Sous sa direction l’Elite ne s’en tint pas seulement au
-
 répertoire populaire, mais nombre de compositions classiques
-
 B furent inscrifes aux programmes. Au nom de Bergalonne il fant
-
 } associer celni de Edouard Racine qui fut de ceux qui en 1881
 | créèrent la Fanfare genevoise.
-
 La société civile du C orps de musique d’Elite ou autrement dit
 | la Fanfare genevoise fut fondée par quelques membres de l'Elite.
 | Son but était, comme nous l’annrennent ses rè glements, la pro-
-
 I
-
 l
 |
 Ï
 [
 l
-
 pagation de l’art mnsical à Genève. un appui moral et financier
 à l’Elite par l’admission de membres passifs. Le but poursuivi
 l|1| nons semble-t-il, atteint et la‘Fanfare genevoise déploya une
 ctivité bienfaisante.
 La place nons manque ici pour dire combien l’Elite vécut de
 bea1x moments denuis sa fondation et combien de concerts elle
-
- 
-
 donna nn nen partont. À Genève, le Victoria Hall est nne vieille
 CONNAISSANCE e€f nos musicien ont Dbien souvent monlés sur son
-
 podinm sous la direction des chefs dont nous venons de |\:Hl4'l‘
-
 / plus haut
-
 | La carrière de Francis Bergalonne terminée. M Francçois
-
 | Romain, bien connu à Genève dans le domaine musical, tant
-
 |‘ DONUYrT ses |"|hf|('ill"\ !Illl'ir"1ÏwK ([Ie POUT SON :'|u'|l_[|t*_ |'ll| .‘l')|l(‘|('
 au pupitre de directeur. Avec Ini l’Elite orandit encore el marcha
-
 [ l en , ;
-
 ' CI NeCces en snpocés ceci éonle ment orâce ll 4'l" ONENMI ni l.(llll
-
 l fif prenve notre dernier officier M. le capilaine Zôlle v, qui pen-
 dant plns de vinot ans donna le meilleun «!«* ses lorces el de son
-
- 
-
 ‘I"“""Ill‘“' “ la canse de l FElile
-
 Nous n’allongerons: pas et terminerons cel exposé en formant
 € Yœn que les nonveaux dirigçeants de noltre ( orps de _\lll‘-i(|lll‘.
 M ] Von Anw. notre olficier, et M. Welsch, directeur, pnissent
 voir lenrs efforts couronnés de snecès: nous sonhailons vivement
 que l’année CI commence soil poul la \lll\lrlll!' l||ll|( toulte
-d'activité et de prospérité,]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002611_006.tif"/>
-<page><![CDATA[FRANÇOIS ROMAIN
-
+d'activité et de prospérité,
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002611_006.tif'/>
+        <page>
+          <![CDATA[FRANÇOIS ROMAIN
 (Directeur 1907-1922)
-
 >ar arrêté du 11 juin 1907, le Conseil d’Etat nommait au
 poste de Directeur du Corps de Musique d’Elite, en remplace-
 ment de M. F. Bergalonne, M. le Capitaine François Romain,
 chef de musique de 1"* classe en retraite et chevalier de la légion
 d'honneur.
-
 Né à Malaucène (Vaucluse), F. Romain dirigea avec succès
 plusieurs musiques militaires en France.
-
 Il est l’'auteur de plus de 300 morceaux pour orcheslre;
 piano, harmonie ou fanfare, romances, chansonneltes, dont
 beaucoup sont devenus populaires.
-
 Choisi parmi plus de vingt candidats, il sut de suite par ses
 inestimables capacilés musicales et son travail acharné, sa per- l
 sévérance, conquérir l’estime de lous ses musiciens et de la
 population genevoise.
-
- 
-  
-
-  
-
- 
- 
-
 Gràäce à sa volonté et à ses vastes connaissances artisliques,
 l’Elite fit, sous son habile direction, des progrès surprenants et
-
 conquit l’un des premiers rangs parmi nos corps de musique.
 .°
-
- 
-   
- 
-  
-
 Le 30 septembre 1922, ayant consacré à l'Elite le meilleur
 de son temps pendant 15 ans, notre vénéré direcleur prenait une
 vetraite bien mérilée.
-
 Le 29 août 1925, après une pénible maladie et des souffrances
 raillamment supportées, notre chef aimé s'éteignait à Caluire,
 près de Lyon, où il s’était retiré.
-
 De cet homme énergique, qui maintint aussi haut le niveau
 artistique de l’Elite, nous gardons un respeclueux souvenir.
-
-      
-       
-   
-     
-   
- 
- 
-
 r
-
- 
-
- 
-
 CAFÉ-BRASSERIE
-
 Restaurant du X X"" Siècle
-
 23, Boulevard Georges-Favon
-
 Téléphone Stand 30-88
-
- 
-       
-    
-
 VINS des premiers cûs — APÉRITIFS de marque Dequstation de Porto
-
 Dow’s (rouge et blanc) BIÈRES de MUNICH, PILSEN-URQUELL,
-
 Spéciale (bittrée), AVENIR (brune et blonde) METS DE BRASSERIE
 Spécialité d’entrecôte aux champignons
-
 Mercredi et Samedi: AMOURETTES o— Cervelas à la Genevoise
-
-     
-        
-     
- 
-
-Se recommandent : Mme HELD et Enfants, ex-propriétaires de la Brasserie Genevoise.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002611_007.tif"/>
-<page><![CDATA[Nos membres non exécutants
-
+Se recommandent : Mme HELD et Enfants, ex-propriétaires de la Brasserie Genevoise.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002611_007.tif'/>
+        <page>
+          <![CDATA[Nos membres non exécutants
 À toutes nos manifestations nous aimons ren-
 contrer ces précieux collaborateurs qui, par l’in-
 térêt qu’ils portent à notre société, nous enéou
 ragent et nous aident tant financièrement que
 moralement
-
 Nous les remercions sincèrement de tout l’at
 tachement qu'ils vouent à notre Corps de Mu
 sique, et espérons que toujo1 s plus nombreux
 ils viendront renforcer les rangs des amis de
 l’Elite
-
 La carte de membre non exécutant munie de
 coupons donne droit à 2 entrées à tous les con
 certs organisés par la Société et chaqu )upon
 à l entrée selon avis donné par affiche, elle peut
 être demandée à chaque membre du Corps ou en
-
 adressant le montant de 5 fr. au ww|>]lr de
-
- 
-
 <’]lt«|lh s postaux [. 2560
-
 M. E. von AUW Capitaine
-
 Commandant du Corps
 Photo F.-H. Jullien
 Cours de solfège et CF C0 IE R OIR
 instruments
-
- 
-
 Chaque année, à partir du mois d’octobre, l
 Corps de Musique d'Elite organise des cours d
 solfège et instruments. Ils sont placés sous la
 surveillance de M. Marcel Welsch, divecteur, 16
 Prix du Conservatoire de Paris, et donnés par
 les proïesseurs de la société
-
 Ces cours, d’un prix modique, sont à la portée
 de tous les jeunes gens désireux de posséder
 une solide instruction musicale. Les inscriptions
 ont reçues au local, Bâtiment Electoral (ru
 de Saussure), tous les vendredis, dès 20 heures
-
- 
-
 M, MArce. WELSCH, Directeur
-
 1"" Prix du Conservatoire National de Musiquic
 de Paris
-
- 
-
 Photo | H. Jullien
-
- 
-
- 
-
- 
-
 PHOTOGRAPHIE D'ART
-
 F L 21N
 IL COUIRS | RIVI GENEVE
 Poses d’Enfants, Porlrai Lr/isliques
 Travanx en lous genres
 /Ë';‘ﬁ/;/!r;lu' >s/ANDm… 192 l« «/I/IHIH
-
-TTT 4 ETEN SES Ls 00 OE D PE 0560 OE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002611_008.tif"/>
-<page><![CDATA[AUX PRIX DE FABRIQUES
-
-   
-
+TTT 4 ETEN SES Ls 00 OE D PE 0560 OE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002611_008.tif'/>
+        <page>
+          <![CDATA[AUX PRIX DE FABRIQUES
 Trous$eaux A. GRAS & Cie Layettes
 5, Rue Coutance, 5 GENEVE Téléph. Mt-BI. 43-18
 Nos articles réclame : $
 Chemise percale avec 2 faux-cols la pièce Fr.590 — Chaussettes, coton couleur . -la paire — Fr. 0.95 Ï
 Bretelle, qualite forte . . . la paire » 4.90 — Régate, soie, grand choix . . depuis » 0.95
-
 Timbres escompte de l’Union Commerciale
-
- 
-
 FABRIQUE DE MEUBLES
-
-   
-
- 
-
- 
-
 ga 2 …
 w.> VICTORIA-HALL - DIMAN
 L
@@ -557,151 +355,79 @@ uRS , _ Î
 Q
 é < Marche funèbre . Beethoven.
 | 9 © jouée à la mémoire de François Romain,
-
 ancien chef de la Musique d’Elite.
-
 Nina pazza per amor  Paësiello Giovanni.
-
 transcription de M. Welsch.
 Air d'Alceste . Gluek.
 Deux Lieder . . — Schumann.
 (M* Jeanne Schmied-Vallier.)
 Fantaisia appassionata,
-
- 
-
 première-partie . . Vieuxtemps.
 (M. Edouard Lehmann.) .
 La Princesse Jaune Saint-Saëns.
-
 transcription de F. Romain.
-
 M"* Schmied-Vallier sera accompagnée au pi
-
 par M1. À. Longobardi, professi;
-
- 
- 
-
 ENTRE LA PREMIERE ET LA DEUXIEME R
-
-Livraisons dans toute la Suisse - Conditions uniques]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002611_009.tif"/>
-<page><![CDATA[12, Fusterie
-
+Livraisons dans toute la Suisse - Conditions uniques
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002611_009.tif'/>
+        <page>
+          <![CDATA[12, Fusterie
 |
 0 PIANOS"PHONOLAS GRAMOPËNËSISOUES
-
 Facilités de paiements
-
 SAUTIER & JAEGER
-
 GENEÈVE Fusterie, 12
-
- 
-
 ccc 0110
 es —-
 r
-
 en 0 11e T0n
-
-   
-
 A
-
-  
-
 E 6 DÉCEMBRE 1925
-
- 
-
 #|  GRANDE
 % | GRUYÈRE
-
- 
-
 p
-
 /
 Ï (M" Jea
-
 la JOV/2E
-
 * Prélude
-
 $Edn
 ; Märche
-
- 
-
 LVILE
-
 g DEUXIÈME PARTIE
 K Ouverture de Mireille Ch. Gounod.
-
 » Chansons bohémiennes
-
 nne Schmied-Vallier.)
-
 { Andante Cantabile de
 Symphonie . Widor.
-
 transcription
-
 et allegro . Pugnani Kreissier, ;42
-
 uard Lehmann )
-
 romaine, Glérice.
-
 Hc D0c e
-
 Dvoräk.
-
 F. Romain, °®
-
-  
-
 gar M'“ Mlarika Pollatos et M. Lehmann pire
 .Fà l’Académie de Musique .. E X Q U l s E
-
 JtE, ENTR'ACTE DE QUINZE MINUTES
-
- 
-
 LIQUEUR
-
- 
-
- 
-
- 
-
 DIGESTIVE
-
- 
-
- 
-
 %, V T DON
-
-Tissus -]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002611_010.tif"/>
-<page><![CDATA[Marche Funèbre, de BEETHOVEN
-
+Tissus -
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002611_010.tif'/>
+        <page>
+          <![CDATA[Marche Funèbre, de BEETHOVEN
 La «marche funèbre » de Beelhoven inscrite au programme
 est l’adagio de la douzième sonate en la bemol pour piano qui
 porte le titre de Marcia funebra sulla morte d'un eræ. Jamais en-
 core Beethoven n’avait imposé au piano une pareille imitalion de
 l’orchestre, éclat des cuivres el roulement du lambour. La sonate
-
 en la pavut à la fin de l’année 1801 ; mais, d’après Nottebolhm, ur
-
- 
-
 cahier d’esquisses en fait remonter le projet à 1799.
-
 Beelhoven avait un vif senltiment de sa valeur et n’aimait pas
 qu’on le méconnut. Fier, peu disposé à travailler sur commande,
 les côtés un peu âpres de son caractère ne sauraient être dissi-
@@ -709,73 +435,57 @@ mulés. Voici une lettre qu’il écrivit à Bettina Brentano en 1812 et
 qui montre bien sa nature violente et sauvage qui ne se souciail
 de rien, sans égards au monde, aux conventions, aux jugements
 des autres.
-
 «Les rois et les princes peuvenl bien faire des professeurs el
 des conseillers secrets; ils peuvent les combler de titres el de
 décorations ; mais ils ne peuvent pas faire des grands hommes,
 des esprits qui s’élèvent au-dessus de la fiente du monde … el
 quand deux hommes sont ensemble, tels que moi et Gœlhe, ces
 Messieurs doivent sentir notre grandeur.
-
 Hier nous avons rencontré, sur le chemin, en rentrant, toute
-
 la famille impériale. Nous la vimes de loin. Gœthe se détacha d
-
- 
-
- 
-
 PVUx PN
 INSTALLATIONS SANITAIRES BAINS TOILETTES
 GAZ
-
 pN
-
 37, Boulevard du Pont-d’Arve, 37
-GENÈVE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002611_011.tif"/>
-<page><![CDATA[mon bras, pour se ranger sur le côté de la route. J'eus beau lui
+GENÈVE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002611_011.tif'/>
+        <page>
+          <![CDATA[mon bras, pour se ranger sur le côté de la route. J'eus beau lui
 dire lout ce que je voulus, je ne pus lui faire faire un pas de plus.
 Jenfonçais alors mon chapeau sur ma tête, je boutonnai ma re-
 dingote, el je fonçai, les bras derrière le dos, au milieu des grou-
 pes les plus épais.
-
 Princes et courlisans ont fait la haie : le duc Rodolphe m’a
 ôlé son chapeau; madame l'impératrice m’a salué la première.
 — Les grands me connaissent. Pour mon divertissement, je vis
 la procession défiler devant Gœthe. Il se tenait sur le bord de la
 route, profondement courbé, son chapeau à la main. Je lui ai lavé
-
 p à lête après, je ne lui ai fait grâce de rien.. »
-
 La Princesse Jaune, de SAINT-SAËNS
-
 Cest en 1872 que Saint Saëns fit à l'opéra comique ses débuls
 comme composileur dramalique avec la « Princesse Jaune », pié-
 celle Japonaise, sorte de comédie de paravent à (rèés modesle in
 venlion dramalique. La partie féérique el exotique inspira surtoul
 le compositeur grâce à ses dons de symphonislie, mais elle dé-
 routa complètement les habitués de ce théâtre
-
 IP
-
 eslée aux lrépertoires des concerts.
-
 ouverture qui esl |||rl…lu|…-_ animée et très rvthimée esl
-
 MORET & SCHNEIDER
-
 IMTPRIMEURS
-
 KUE VAUTIER: 45 - CAROUGE l'ELEPHONE STAND 74-92
 } COMPTE DE CHÈQUES I. 1844
 |
 _ "1vrent rapidement et soigneusement
-
-E VOUS IMPRIMÉS]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002611_012.tif"/>
-<page><![CDATA[PAESIELLO GIOVANNI
-
+E VOUS IMPRIMÉS
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002611_012.tif'/>
+        <page>
+          <![CDATA[PAESIELLO GIOVANNI
 Paesiello Giovanni, né à Tarente, le 9 mai 1741, monrt à
 Naples, le 5 juin 1816, étudia au Conservatoire de Naples ; dès le
 début de ses études, il s'adonna à la composition. C'est ainsi qu'il
@@ -785,7 +495,6 @@ livent. En deux ans il composa onze œuvres musicales, louteÿ
 accueillies triomphalement par le public et la crilique. Il eut
 vite fait de régner sur tout le théâtre d’Ilalie où ses œuvres
 étaient données et redonnées.
-
 Appelé à la cour de Saint-Pétersbourg par l’impératrice
 Catherine, il eut un traitement fixe de quarante mille roubles
 par an et fut accablé de présents, à lel poinl qu'un jour l'impé-
@@ -795,51 +504,29 @@ C’est alors qu’il dota le théâtre du fameux « Barbiere di Seviglia »,
 qui déchaîna un enthousiasme immodéré. Au bout de huil ans,
 il quilta la Russie et parcourut toute l'Europe ; il écrivit alors
 de la musique sacrée et de la musique théâtrale.
-
 Il retourna à Naples, où son inspiralion se relrempa el
 retrouva encore plus de limpidité el plus de fraicheur avec son
 chef-d’œuvre : la « Nina pazza per amore » (1789) qui eut un
 immense succès.
-
 Soupçonné pendant la révolution et réhabilité bien vile paï
-
 le roi Ferdinand, il accepta de se rendre à Paris, en 1802, à la
-
- 
-
- 
-
 Mlembres de l’Elite !
-
 Favorisez par vos achats les industriels
-
 et commerçants qui insèrent des annonces
-
 dans ce programme.
-
- 
-
-Le bois de la couverture a été gravé par M. P.-E. VIBERI]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002611_013.tif"/>
-<page><![CDATA[FERBLANTERIE - PLOMBERIE - ZINGUERIE
-
+Le bois de la couverture a été gravé par M. P.-E. VIBERI
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002611_013.tif'/>
+        <page>
+          <![CDATA[FERBLANTERIE - PLOMBERIE - ZINGUERIE
 ENTREPRISE DE BATIMENTS
-
 F A z GENEVE
 \J u 9, Terrassière
-
 Installations de chambres de bains Appareils sanitaires de tous systèmes
-
 Concessionnaire de la Ville de Genève pour instaliation du Gaz
-
 CUISINIÈRES A GAZ « LE RÉÊVE y
-
 Facilités de paiement Téléphone Stand 13.55
-
- 
-
- 
-
 cour de Napoléon, qui était encore premier consul ; il y trouva
 naturellement des envieux en sorte qu’il n’y resta pas longtemps.
 Il demanda déjà, en 1803, un congé pour pouvoir rejoindre sa
@@ -848,11 +535,8 @@ triomphe grandiose de ses compositions. Malheureusement, la
 restauralion des Bourbons lui fit perdre les sympathies de la cour,
 le roi l’erdinand lui-même l’abandonna. Après avoir connu
 l'aisance el les honneurs, il eut nne condition précaire el une
-
 mort misérable.
-
 CHARLES WIDOR (1845)
-
 Secrétaire perpétuel de l’Académie des Beaux-Arts, profes-
 seur de composition au Conservatoire de Paris, titulaire des
 magnifiques orgues de Saint-Sulpice, improvisaleur el composi-
@@ -861,221 +545,125 @@ l'econnue. On à de lui trois symphonies, dont une avec orgue,
 plusieurs œuvres de musique de chambre, un grand nombre de
 pièces pour piano et des mélodies, des pièces pour orgue. Il à
 donné à l'Opéra Comique, deux drames lyriques : « Maître
-
-Ambros » et « Les Pécheurs de Saint-Jean ».]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002611_014.tif"/>
-<page><![CDATA[cAI TOUR DE LVIÉE» = C5ANraE
-
+Ambros » et « Les Pécheurs de Saint-Jean ».
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002611_014.tif'/>
+        <page>
+          <![CDATA[cAI TOUR DE LVIÉE» = C5ANraE
 FORESTIER & C*
-
 Fabrique de Coutellerie
-
 Spécialités pour Hôtels,
-
 Pensions et Restaurants
-
 Coutellerie de Table, Acier Inoxidable
 REPRÉSENTANTS de l'Orfèvrerie CHRISTOFLE, à Paris
-
 Métal
-
 anglais
-
- 
-
- 
-
 Tableau des membres exécutants
-
 Saxophone Sopranino : Marti
-
 Saxophones Sopranos : Berthelier,
-
 Glauser, Keller, Kister Fernand, Kister
-
 John.
 Saxophones Altos : Bonino, Cottier,
 Fivaz, Miglietti, Pollet, Wiederkehr.
 Saxophones Ténors : Aebischer, Ga-
 chet, Kuhni, Lanz
-
 Saxophones Barytons : Gaud, Mathey
 Maurice.
-
 Trompettes : Gehret, Pay
-
 Bugles Solos : Erb, Grandjean, Hen-
 ninger Ernest, Zenone.
-
 [ers  Bugles Laydevant, Martin,
 Reinhard, Sterki.
-
 2mes Bugles : Bajulaz, Bunzli, Duret,
 Coppel, Hostettler André, Mouret.
-
 Jers Pistons : Burki Marcel, Christin,
 Henninger Charles, Richard
-
 | 2mes Pistons : Autier, Burcher, Burki
 | Lucien, Floquet, Pradeille, Vincent.
 |
-
 Cors : Lee, Matthys Jean.
-
 Altos : Baetz, Fleury, Gavillet.
-
 Trombones : Chiorino, Emery, Hos-
 ‘ tettler Charles, Masson, Matthey Léon,
-
 | Renet, Tivollet.
-
 Barytons : Aebischer, Bussy, Ethe-
 | venon, Girod, Meyer, Torche, Trisconi.
-
 Basses : Augier, Couturier, Salzmann,
 1 Schaffner.
-
-   
- 
-
 | Contrebasses mi B : Brand Alfred,
 Delgrande.
-
-     
-   
-
 Contrebasses si B : Berthoud, Mossaz,
 Ramu.
-
- 
- 
-  
-
 |
 l
-
 Batterie: Castioni Marcel, Castion
 | Henri, Mossaz René, Poncet, Riondel.
-
- 
-
- 
-
- 
-
- 
-
 ENTRERMISE DE TRANSPRORTS
-
 «Petits camionnages)
-
 M. EMILE DUFOUR
-
 Boulevard St-Georges, 24 - Plainpalais-Genève
-
 Téléphone Stand 36-19
-
- 
-
- 
- 
-
- 
-
-   
-
- 
-
-  
-
 Î
 Ï
 Ë
 Ï
-
-r p e n]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002611_015.tif"/>
-<page><![CDATA[Avant d'’acheter un GRAMOPHONE
+r p e n
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002611_015.tif'/>
+        <page>
+          <![CDATA[Avant d'’acheter un GRAMOPHONE
 voyez le modèle exclusif avec moteur
 électrique de la Maison ——
-
 |
 E| ROTSCHY FrèreS
 |
-
 22 CORRATERIE
-
- 
-
- 
-
-  
-
 ( C
 0A
 A
-
 LAIT MATERNISÉ
 des É citerdes Rétanios
-
- 
-
- 
-
 | Demandez et Buvez toujours
 les Bières
-
 de la
-
 Brasserie de l’Avenir
-
-—]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002611_016.tif"/>
-<page><![CDATA[RÉPARATION d’INSTRUMENTS de MUSIQUE (Fanfares et Harmenies)
-
+—
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002611_016.tif'/>
+        <page>
+          <![CDATA[RÉPARATION d’INSTRUMENTS de MUSIQUE (Fanfares et Harmenies)
 PLAIN 8
 Kaspan WICKY enev ®
 Angle Rue Ecole de Médecine, 8, Rue des Maraîchers, 48
-
 GRAND CHOIX
 ACCESSOIRES ET
 FOURNITURES
 INSTRUMENTS NEUFS
 B 2 ET D'OCCASION
-
- 
-
 GRANDS MAGASINS
-
 L. Bader
-
 HORLOGERIE
 BiJOUTERIE
 JOAILLERIE
 ORFÈVRERIE
-
 Prix intéressant
-
 Angle rue de la Monnaie, 3
-
 Dera - 0 Catalogue gratis
 et rue de la Confédération, 3, en face de la Cité S
-
- 
-
 BANQUE POPULAIRE GENEVOISE
-
 Fondée en 1868
 Place de Hollande (Angle rue Diday)
-
 Escomple © Recouvrements © Ordres de Bourses © Garde de Tîtres © l:hahger
-
 La Banque reçoit Les dépôts d'argent aux meilleures conditions
 Certificats nominatifs ou « au porteur » de 1 à 5 ans de terme,
 coupons semestriels
-
-Location de Compartiments de Coffres-forts blindés]]></page>       
-        </p>
+Location de Compartiments de Coffres-forts blindés
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

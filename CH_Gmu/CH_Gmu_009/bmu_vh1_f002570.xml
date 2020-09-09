@@ -1,352 +1,213 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert extraordinaire : Au bénéfice des artistes de l'Orchestre<date when="24/03/1924"/></title>
-<series>1923-1924</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert extraordinaire : Au bénéfice des artistes de l'Orchestre
+            <date when='24/03/1924'/>
+          </title>
+          <series>1923-1924</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002570</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Ansermet, E. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19240324"/>
-<title>Concert extraordinaire : Au bénéfice des artistes de l'Orchestre</title>
-<placeName key="Victoria Hall"/>
-<name key="1923-1924" type="series"/>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Bach, Johann Sebastian" ref="https://muscat.rism.info/admin/people/2539" type="person" role="cmp">Bach, Johann Sebastian</name>
-<name key="Ansermet, Ernest  (dir.)" ref="https://muscat.rism.info/admin/people/40219507" type="person" role="int">Ansermet, Ernest  (dir.)</name>
-<name key="Orchestre de la Suisse Romande" ref="https://muscat.rism.info/admin/people/50007615" type="person" role="int">Orchestre de la Suisse Romande</name>
-<name key="Busch, Adolphe"  type="person" role="int">Busch, Adolphe</name>
-<name key="Grummer, Paul"  type="person" role="int">Grummer, Paul</name>
-<name key="Serkin, Rudlof"  type="person" role="int">Serkin, Rudlof</name>
-<name key="Closset, Fernand"  type="person" role="int">Closset, Fernand</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002570_001.tif"/>
-<page><![CDATA[4| DELA SUISSE
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19240324'/>
+        <title>Concert extraordinaire : Au bénéfice des artistes de l'Orchestre</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1923-1924' type='series'/>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Bach, Johann Sebastian' ref='https://muscat.rism.info/admin/people/2539' type='person' role='cmp'>Bach, Johann Sebastian</name>
+        <name key='Ansermet, Ernest' ref='https://muscat.rism.info/admin/people/40219507' type='person' role='int'>Ansermet, Ernest</name>
+        <name key='Orchestre de la Suisse Romande' ref='https://muscat.rism.info/admin/people/50007615' type='person' role='int'>Orchestre de la Suisse Romande</name>
+        <name key='Busch, Adolphe' type='person' role='int'>Busch, Adolphe</name>
+        <name key='Grummer, Paul' type='person' role='int'>Grummer, Paul</name>
+        <name key='Serkin, Rudlof' type='person' role='int'>Serkin, Rudlof</name>
+        <name key='Closset, Fernand' type='person' role='int'>Closset, Fernand</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002570_001.tif'/>
+        <page><![CDATA[4| DELA SUISSE
 ORCHESTRE
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 | ROMANDE
-
 N3
 / NN
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-  
-
 PROGCRAMME
-OFFICIEL]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002570_002.tif"/>
-<page><![CDATA[RUE LÉVRIER, 5-7
-
+OFFICIEL
+]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002570_002.tif'/>
+        <page>
+          <![CDATA[RUE LÉVRIER, 5-7
 sicale.
-
- 
-
 p (| SE es f e Muisique Trançaise vendue cn
-
 é LÉvRIER | U W… I . ..
 R s, M argent français, dep. 20 fr.
-
- 
-
 | LIBRAIRIE NAVILLE &.C° -
 | AGENCE vs JOURNAUX - GENEVE
-
- 
-
 et PROFESSIONNELS
-
- 
-
- 
-
 Pour suivre les Concerts : Peti-
 tes partitions de poche ; réduc-
 tion pour piano à deux et quatre
 mains des œuvres exécutées.
 Spécialité de musique française,
 russe, moderne, littérature mu-
-
 :"“'“w"“‘ E AN CONDITIONS SPÉCIALEMENT
 AVANTAGEUSES pour PROFESSEURS
-
 | MUSIQUE
-
 NAVTELF — €
-
- 
-
- 
-
- 
-
 PORTRAITS D’ART POSES D'ENFANTS
 SPÉCIALITÉ DU PROCÉDÉ A L’HUILE
 4, Quai de la Poste, Genève
 PAYSAGES
 REPRODUCTION de TABLEAUX =— TRAVAUX en TOUS GENRES
-
 E 5P REN ÉN
-
 ETE
-
-réttes]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002570_003.tif"/>
-<page><![CDATA[> ; ; E t
-
+réttes
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002570_003.tif'/>
+        <page>
+          <![CDATA[> ; ; E t
 Bè Violoncelliste Pianiste t
 n B»
 0R ;
-
 ; 4
 Hp Y » . d
 n Le Concert commencera à 20 h. 30 précises et sera terminé vers 22 h. 3o. An
 Û H
-
 H
 !
-
 : M. Paul GRUMMER — M. Rudolf SERKIN d
-
 U
 5 PROGRAMME
-
 … _ — = = es es seanen ut
 D en O itaee en L rrrs
 E e r éc rrr rr uc _ TS = » crr
 rrerrermpoce rrr e = XT 3 A 4
-
 ORCHESTRE DE LA SUISSE ROMANDE |
 VICTORIA-HALL |
-
- 
-
- 
-
 Lundi 24 mars 1924, à 20 beures et demie |
-
 |
 : CONCERT EXTRAORDINAIRE |
 |
-
 Au bénéfice des Artistes de l’Orchestre
-
 ? avec le gracieux concours de s}
-
 Violoniste
-
 |
 M. Adolphe BUSCH |
 |
 |
-
 M. Fernand CLOSSET
-
 PREMIÈRE PARTIE
-
 MOuverturetde CORIOFAN N Beethoven
 . CONCERTO en ré majeur, pour violon et
-
 }s orchestrem 11 N Beethoven
 p
-
 p mm S
 mc
 5
 N —
 = EN
 m=
-
 a) Allegro ma non troppo. - b) Larghetto. - c) Rondo. dF
-
 M. Ad. BUSCH. |
-
 : DEUXIÈME PARTIE Î' ;
-
 ‘ 3. CONCERTO en ré mineur, pour deux violons lï
 & concertants, instruments à cordes et continuo J.-S. Bach C
-
 l5l a) Vivace. - b) Largo ma non tanto. - c) Allegro. ;
-
 q MM. BUSCH et CLOSSET. l
-
 l 4. CONCERTO op. 56, pour violon, violoncelle,
-
 planogeforchestre * 111 Beethoven À
 65 a) Allegro. - b) Largo. - c) Rondo alla Polacca. '»
 ‘l MM. BUSCH, GRUMMER et SERKIN, :l'
-
 L'Orchestre sera dirigé par e
-
 M Ernestl ANS ERMET
-
 Aucun morceau ne sera répélé ni ajoulé au programme.
 :f, La Direction se réserve le droit d'apporter au programme toutes modifications que
 “ les circonstances pourraient lui imposer.
-
-    
-
 L
 ÛR ; ; PE f
 uF Les porles seront rigoureusement fermées pendant l’exéculion Des morceaux. H
 U
 Y A e A % e se e A tremmat M Ntrencea t '
 RE — d e e Fc æ I
-
-H, JARAYS, DENÈVE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002570_004.tif"/>
-<page><![CDATA[AFMÉ KLING ,
-
+H, JARAYS, DENÈVE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002570_004.tif'/>
+        <page>
+          <![CDATA[AFMÉ KLING ,
 LYYHIER-GENÈVE /
 X PVE D1DA Y XM_"
-
 VËÜÆ ‘.| " ". 2
-
- 
-
-    
- 
-  
-  
-
-   
-
 C
 //
-
- 
-
- 
-
- 
-
- 
-
 Pianos pneumatiques
 ds Pianolas
-
 PIANOS ÉLECTRIQUES
-
 VENTE
 ÉCHANGE
 LOCATION
-
 Rouleaux de musique pour
 Pianolas et Pianos
 électriques
-
-   
-
 SUISSES ET ÉTRANGERS
-
 KNEIFEL-BÉROUD
 Ls Rue du Marché 20 1S
 Représentant des célèbres PIANOS
 STEINWAY - WELTE
-
 Seul instrument qui re ;r duit fidelement le jeu de grands maîtres tels que :
 Paderewsky, Busoni, Stavenhagen, ete.
-
 —— 2 e
-
-  
-
- 
-
-Spécialiste pour la réparation des pianolas et pianos électriques]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002570_005.tif"/>
-<page><![CDATA[-ﬁll
-
- 
-
+Spécialiste pour la réparation des pianolas et pianos électriques
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002570_005.tif'/>
+        <page>
+          <![CDATA[-ﬁll
 seousn
-
- 
-
 Louis van BEETHOVEN
-
 Né à Bonn le 16 décembre 1770, mort à Vienne le 36 mars 1827.
-
 Ouverlure de CORIOLAN, op. 6.
-
 Ce n’est point à la tragédie de Shakespeare que cette ouverture
 doit servir de préface musicale, mais à un drame oublié d’un litté-
 rateur obscur nommé Collin. Il semble pourtant que ce drame ait
@@ -361,7 +222,6 @@ lité par des œuvres puissantes et mûries; en outre, sa surdité, de
 Jour en jour plus complète, l’obligeait à s’abstraire dans une solitude
 profonde et dans une méditation d’où devaient sortir les œuvres
 impérissables de sa dernière manière.
-
 Trois fois les cordes attaquent avec une énergie sauvage la tonique
 du ton d’ut mineur, que coupent brusquement des accords secs, à la
 sonoritfé compacte et infensive, suivis de silences angoissants; et,
@@ -378,145 +238,73 @@ reprise ensuite par les seconds violons et les bois, s'anime et se
 développe, toujours plus pressante, sur un arpège des violoncelles.
 Les deux thèmes alternent Jusqu’au moment où s’apaise le chant de
 colère et de haine qui meurt attendri et désarmé sous l’archet des
-violoncelles.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002570_006.tif"/>
-<page><![CDATA[Ms e
-
+violoncelles.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002570_006.tif'/>
+        <page>
+          <![CDATA[Ms e
 des œuvres jouées aux Concerts
-
 22, Corraterie, 22 de l'O. S. R.
-
 Ces œuvres se trouvent également l'ﬁbonnement
-
 dans les différentes transcriptions à
-
 ROTSCHY Frères
-
 Pour la Vente, l'Echange, la Réparation,
 l‘Accord des
-
 P I s adresser au magasin,
 A N O S Rue du Stand, 64, 1* étage
-
- 
-
 ‘
-
- 
-
- 
-
- 
-
- 
-
- 
-
 MAISON ! GENEVOISE
-
 Lia Pharmacie HAHN
-
 J. BRUN, succ.
-
 est l’une des plus anciennes de Genève
 Il existait déjà un apothicaire à Longemalle
 au temps de Philibert Berthelier
-
 Apothicaires de Longemalle depuis 1788
 EXIGET
-
- 
-
-  
-
 Charles HAHN
 1839-1868
-
 Henri-Albert GOSSE
 1788-1816
-
- 
-
-    
-
 Antoine CAST'AN
 1818-1832
-
 Charles-G. HAHN
 1868-1897
-
-    
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 François BRAUN À B. HAHN & BRUN
 1852-1838 1897-1902
 Les CHEVEUX |
 Æ;…œ 5 Seul remède elficace contre la chate des cheveux et pellicules A nalyses
 Envoi à dormicile et English spoken
-
 par poste Jacques-G. BRUN depuis 1902 Man spricht deutsok
-
- 
-
- 
-
-  
-
- 
-
-L]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002570_007.tif"/>
-<page><![CDATA[ueës
-
- 
-
+L
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002570_007.tif'/>
+        <page>
+          <![CDATA[ueës
 CONCERTO en ré majeur, op. 61.
-
 Pour violon et orchestre.
-
 Ce concerto, le seul que Beethoven ait écrit pour violon et
 orchestre, date de 1806, époque des quatrième, cinquième et sixième
 symphonies. Beethoven semble avoir eu une prédilection particulière
 pour cette œuvre : l’ayant dédiée à l’origine au violoniste Clément,
 il en fit ensuite une transcription de piano, parue en 1808, à l’inten-
 tion de son ami de Brenning.
-
 Conçu non pas comme une œuvre de virtuosité, mais comme une
 œuvre symphonique, grand par la force et la richesse, de sa théma-
 tique et de ses développements, autant que par ses proportions
 formelles, le concerto en ré majeur a pris, dans ce genre instrumental,
 une place d’exception, et demeure l’un de ses chefs-d’œuvre.
-
 4 % 4
-
 Jean-Sébastien BACH
-
 Né à Eisenach le 21 mars 1685, mort à Leipzig le 28 juillet 1750.
-
 Du double concerto en ré mineur, les parties de violons concerlanta
 sont conservées à la Bibliothèque de Berlin, en manuscrits de la
 main de l’auteur, avec cette inscription :
-
 Concerto à oix : deux violini concertini, deux violini à viola ripieni,
 violoncello e continuo, di Jean-Sébastien Bach.
-
 On a aussi la partition manuscrite de la transcription de ce
 concerto pour piano, en ut mineur.
-
 C’est une des plus belles œuvres instrumentales de Bach, et en
 tout cas la plus belle du genre. On ne sait ce qu’il y faut admirer
 le plus, de la richesse d’invention, de la beauté des thèmes, ou de
@@ -524,44 +312,33 @@ l’aisance avec laquelle les formes les plus subtiles du contrepoint y
 sont traitées. Le largo ma non tanto, en particulier, est justement
 célèbre comme exemple d’une fugue à deux voix dans laquelle la
 rigueur de la forme s’allie à la plus émouvante intensité expressive,
-
 # t
-
- 
-
-SEOSSE320OEa5ESE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002570_008.tif"/>
-<page><![CDATA[SOCIÉTÉ DE
-
+SEOSSE320OEa5ESE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002570_008.tif'/>
+        <page>
+          <![CDATA[SOCIÉTÉ DE
 BANQUE SUISSE
-
 FONDÉE EN 18728
-
 CAPITAL-ACTIONS ET RÉSERVES :
 RRANCS 15 M1510N»
-
 Corraterie, 6 GENEVE Corraterie, 6
-
 CORNAVIN FAUX-VIVES
 10. place de Cornavin 3, pl. des Eaux-Vives
-
 PLAINPALAIS CAROUGE
-
 36, rue de Carouge 11, rue du Marché
-
 °ïoutes opérations de Banque, de Bourse et de
 <* * Change, aux meilleures conditions
-
-Én]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002570_009.tif"/>
-<page><![CDATA[Louis van BEETHOVEN
-
+Én
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002570_009.tif'/>
+        <page>
+          <![CDATA[Louis van BEETHOVEN
 Ne à Bonn le 16 décembre 1770, mort à Vienne le 26 mars 1827.
-
 CONCERTO op. 56
-
 pour violon, violoncelle et piano, avec accompagnement d’orchestre.
-
 Le « Grand Concerto concertant pour piano, violon et cello,
 avec accompagnement d’orchestre », fut commandé à Beethoven en
 1807 par le prince Lobkowitz. Comme beaucoup de grands seigneurs
@@ -578,7 +355,6 @@ pour deux pianos. L’un et l’autre figurent parmi ce que les deux
 artistes ont produit de mieux. » On peut trouver étrange aujourd’hui
 cette appréciation, et surtout l’association de ces deux noms dans
 une admiration apparemment égale.
-
 Si les thèmes principaux de l’allegro et du largo sont d’une belle
 inspiration, par contre les développements en sont entravés par de
 parasites passages de pur mécanisme, dans lesquels on ne retrouve
@@ -587,184 +363,99 @@ concertos et sonates de piano. Le populaire morceau à quatre mains
 intitulé « Grande Polonaise » est un arrangement du rondo final du
 concerto, mouvement dans lequel fut pratiquées de larges coupures
 lorsque l’œuvre fut tirée d’un long oubli.
-
 d
 C@I
-
-BSBBEPSNEPES S EREESENSSESSEEESENSESSESESSSDRSERSSSOOSNSEBSBONNESONAPENPPRESNENHEOENNOSANTERENSSSOEENESERSEREDOSEEESORESSBEECHRENSSENBEEEE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002570_010.tif"/>
-<page><![CDATA[Tout ce qui concerne
+BSBBEPSNEPES S EREESENSSESSEEESENSESSESESSSDRSERSSSOOSNSEBSBONNESONAPENPPRESNENHEOENNOSANTERENSSSOEENESERSEREDOSEEESORESSBEECHRENSSENBEEEE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002570_010.tif'/>
+        <page>
+          <![CDATA[Tout ce qui concerne
 le Violon :
-
- 
-
 ANIDOUDEZ
-
 LUTHIER DU CONSERVATOIRE
 —'».-'=ï
-
-   
-   
-
 sa fabrication
-
 sa restauration
 J'Archet
-
 les Cordes et
 autres fAccessoires Téléphone :
-
 Stand 65-75
-
 E
-
 lî RUE GÉNÉRAL DUFOUR 22.
 GENÈVE
-
- 
-   
-
 w
-
- 
-
- 
-
- 
-
- 
-
 FABRIQUE D'HORLOGERIE
-
 VAGHENON & CONSTANTIN
-
 GENÈVE
-
- 
-
 FONDÉE EN
 1785
-
-  
-  
- 
-
 Marque de Fabrique
-
- 
-
- 
-
- 
-   
-
- 
-
-t rrs mm]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002570_011.tif"/>
-<page><![CDATA[VICTORIA-HALIL - GENEVE
-
+t rrs mm
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002570_011.tif'/>
+        <page>
+          <![CDATA[VICTORIA-HALIL - GENEVE
 Lunoi 31 mars 1924, à 20 heures et demie
-
 CONCERT DE CLOTURE
 Festival Beethoven
-
 ( À l'occasion du Centenaire de la Neuvième Symphonie)
-
 avec le concours de la
-
 SOCIÉTÉ DE CHANT SACRÉ
-
 du
-
 LIEDERKRANZ (Cl&œurs JHommes)
-
 et de
-
 M"* DEBOGIS-BOHY M"® Lina FALK
-
 Soprano Contralto
-
 M. E. BAUER M. de la CRUZ
-
 Ténor Basse
-
- 
-
- 
-
 AU PROGRAMME :
 1. Ouverture de LEONORE n° 3. - z. TRIO, Tremate, empi,
-
 tremale, op. 116 dour soprano, ténor et basse, avec accompa-
 gnement d’orchestre. - 3. IX"* SYMPHONIE, op. 125, en ré
 mineur, avec chœur mixte et quatuor vocal.
-
 Orchestre et chœurs (350 exécutants) sous la direction de
-
 M. Ernest- ANSERMET
-
 —— .
-
 La location sera ouverte Mardi 25 mars pour MM. les Sociétaires, Souscripteurs
 et Abonnés avec jouissance d’une réduction de 10 °/, sur le prix des places.
 Ouverture de la location pour le public : Jeudi 26 mars, à l'Agence
-
-J. VÉRON, GRAUER & C. passage du Terraillet.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002570_012.tif"/>
-<page><![CDATA[32tf 3350
-
+J. VÉRON, GRAUER & C. passage du Terraillet.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002570_012.tif'/>
+        <page>
+          <![CDATA[32tf 3350
 “Orfèvrerie Boujon Frères
-
 Nouveaux magasins: — 37, Croix-d'Or, 37
-
- 
-
- 
-
- 
-
- 
-
 SE
-
 Le plus grond Boix
 de hausoures de [uJ(_€.
 50ufe /c7ra£o/ô/€. 5[00/'£
-
 Déposrlarres des
 merlleures morques «
 Oes MONOE.
-
 Énuvor ou ChOr% Â0n3
 Fouke O SurIse.
-
 Jolons eL Akelrer3
 IpÉCSQUE pour Les —
 CAÂGUISUES IUS 1MEIUTE.
-
 Chaussures
-
 SCHEURER SA.
 RUE DU RHONE 3
-
-Genève]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002570_013.tif"/>
-<page><![CDATA[ORCHESTRE DE LA SUISSE ROMANDE
-
+Genève
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002570_013.tif'/>
+        <page>
+          <![CDATA[ORCHESTRE DE LA SUISSE ROMANDE
 SAISON 1923-1924
-
 TABLEAU DE L'ORCHESTRE
-
- 
-
 1% Chef d’orchestre : M. ERNEST ANSERMET
 : M. FernanD  CLOSSET
-
 2me Chef d’orchestre
-
 MM.
-
 1ers Violons : CLOSSET
 LACROIX
 MEERSON
@@ -777,7 +468,6 @@ ECHENARD
 NEUFELD
 ALEXY
 M"”° ANDREOSSI
-
 ames Violons : SABBATANI
 MASSARENTI
 BERGMANN
@@ -788,214 +478,126 @@ GLAUSER
 M"° MINKOFF
 AMATO
 M"° HESS
-
 Altos : GIEMSA
 ALBISI
 KLING
 KOLLER
 BORGEAUD
 MARION
-
 Violoncelles : DE SANCTIS
 KEIPER
 DETAILLE
-
 Violoncelles :
-
 (suite)
-
 Contrebasses :
-
 Flûteo :
-
 Hautbois :
-
 Clarinettes :
-
 Bassons :
-
 C‘0 rô .
-
 Trombones :
-
 Tuba :
-
 Trompeltes :
-
 Timbalier :
 Batterie :
 Harpe :
-
 MM.
-
 HAENTJENS
-
 KUNZ
-
 DOVAZ
-
 OLIVER
-
 BECCHI
-
 MONDALT
-
 LEVONI
-
 WELCH
-
 GAIMARD
-
 BRETTON
-
 DENNES
-
 FRACHISSE, cor anglaw
-
 MANGE
-
 HOOGSTOEL
-
 LAVANCHY
-
 GRANDAUX, clar. basce
-
 DUTRO
-
 SIMONET
-
 MATTEÏI, contrebasson
-
 BREUL
-
 KOCH
-
 SCHEIWEIN
-
 FRITZ
-
 HORST
-
 LEFHINER
-
 ZEISSIG
-
 AMEIS
-
 DUBOIS
-
 NAUBER
-
 BODET
-
 REHBOCK
-
 SCHIESSER
-
 M"”° DE SANCTIS-
-BARRIERA]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002570_014.tif"/>
-<page><![CDATA[AGENCE DE THÉATRES
-
+BARRIERA
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002570_014.tif'/>
+        <page>
+          <![CDATA[AGENCE DE THÉATRES
 RP RIRN RE 4
-
 CONCERTS, VOYAGES
-
 Transports
 Internationaux
-
 CHANGE
 J. Véron, Grauer « C”
-
 70 NUE DU, iVam@nIe, 70
-
-(> GENÈVÉ]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002570_015.tif"/>
-<page><![CDATA[eq
-
+(> GENÈVÉ
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002570_015.tif'/>
+        <page>
+          <![CDATA[eq
 R E A
-
 “
-
 FF
-
- 
-
- 
-
 A \!‘“;"; — ——‘ t "”‘v—V‘ !
-
 —
-
 FRg5S
-
 E E E E e E
-
 MS RS EIBE
-
- 
- 
-  
-    
-
-    
-
- 
-
 V v
 SAUTIER & JAEGER
-
 VENTE ET LOCATION
-
 TRANSPORTS - ACCORDS - RÉPARATIONS
-
 29
-
 G
-
-    
- 
-
 Représentants de Dépôt de
-
 GAVEAU, Paris PLEYEL, Paris
 BLUTHNER. Leipzig ! SCHMIDT-FLOHR
 BERDUX, Munich BURGER ET JACOBI
 RONISCH, Dresden WOHLFHART
 STEINWEG | SABEL, Rorschach
-
 Vente — Location — Accords — Echange et facilités de paiements
-
 DERNIÈRE NOUVEAUTÉ :
-
 LE TRI-PHONOLA
-
 Hupfeo1d-FRônisch:
-
 iLe plus perfectionné des pianos électriques, reproduisant le jeu des grands
 artistes, jouant tons les rouleaux, 88 notes, Auditions sans engagement
-
- 
-
- 
-
-FAVRE -FILS]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002570_016.tif"/>
-<page><![CDATA[y v
-
+FAVRE -FILS
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002570_016.tif'/>
+        <page>
+          <![CDATA[y v
 Ï Beaux F Çî e
-
 f 8
 Î2 font les Jolies Rolaes Ëî 0R
 P * |
-
 â Mart1ngay
-
 *
 %£ga les Beaux T1ssuç €tg}f«%f .
 % les Jolies Robes lll
-; t]]></page>       
-        </p>
+; t
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

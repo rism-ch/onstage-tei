@@ -1,86 +1,92 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Grand concert-festival<date when="09/12/1905"/></title>
-<series>1905-1906</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Grand concert-festival
+            <date when='09/12/1905'/>
+          </title>
+          <series>1905-1906</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F000569</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Bonade, L.</note>
+        <note>Teissier, A. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19051209"/>
-<title>Grand concert-festival</title>
-<placeName key="Victoria Hall"/>
-<name key="1905-1906" type="series"/>
-<name key="Lalo, Edouard" ref="https://muscat.rism.info/admin/people/65446" type="person" role="cmp">Lalo, Edouard</name>
-<name key="Bruneau, Alfred" ref="https://muscat.rism.info/admin/people/78271" type="person" role="cmp">Bruneau, Alfred</name>
-<name key="Chrétien, H."  type="person" role="cmp">Chrétien, H.</name>
-<name key="Hillemacher, Paul Joseph Guillaume" ref="https://muscat.rism.info/admin/people/40211800" type="person" role="cmp">Hillemacher, Paul Joseph Guillaume</name>
-<name key="Massenet, Jules" ref="https://muscat.rism.info/admin/people/84264" type="person" role="cmp">Massenet, Jules</name>
-<name key="Loret, Charles" ref="https://muscat.rism.info/admin/people/40212415" type="person" role="cmp">Loret, Charles</name>
-<name key="Pierné, Gabriel" ref="https://muscat.rism.info/admin/people/18686" type="person" role="cmp">Pierné, Gabriel</name>
-<name key="Auvray"  type="person" role="cmp">Auvray</name>
-<name key="Messager, André" ref="https://muscat.rism.info/admin/people/92078" type="person" role="cmp">Messager, André</name>
-<name key="Dard-Janin"  type="person" role="cmp">Dard-Janin</name>
-<name key="Puccini, Giacomo" ref="https://muscat.rism.info/admin/people/30921" type="person" role="cmp">Puccini, Giacomo</name>
-<name key="Barblan, Otto" ref="https://muscat.rism.info/admin/people/5298" type="person" role="cmp">Barblan, Otto</name>
-<name key="Bonade, Louis (dir.)"  type="person" role="int">Bonade, Louis (dir.)</name>
-<name key="Teissier, A. (dir.)"  type="person" role="int">Teissier, A. (dir.)</name>
-<name key="Harmonie Nautique"  type="person" role="int">Harmonie Nautique</name>
-<name key="Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)"  type="person" role="int">Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)</name>
-<name key="La Muse"  type="person" role="int">La Muse</name>
-<name key="Barblan, Otto" ref="https://muscat.rism.info/admin/people/5298" type="person" role="int">Barblan, Otto</name>
-<name key="Véry, de"  type="person" role="int">Véry, de</name>
-<name key="Hault, Marthe"  type="person" role="int">Hault, Marthe</name>
-<name key="Campagnola"  type="person" role="int">Campagnola</name>
-<name key="Jacquin"  type="person" role="int">Jacquin</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000569_001.tif"/>
-<page><![CDATA[PROGRAMME OFFICIEL
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19051209'/>
+        <title>Grand concert-festival</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1905-1906' type='series'/>
+        <name key='Lalo, Edouard' ref='https://muscat.rism.info/admin/people/65446' type='person' role='cmp'>Lalo, Edouard</name>
+        <name key='Bruneau, Alfred' ref='https://muscat.rism.info/admin/people/78271' type='person' role='cmp'>Bruneau, Alfred</name>
+        <name key='Chrétien, H.' type='person' role='cmp'>Chrétien, H.</name>
+        <name key='Hillemacher, Paul Joseph Guillaume' ref='https://muscat.rism.info/admin/people/40211800' type='person' role='cmp'>Hillemacher, Paul Joseph Guillaume</name>
+        <name key='Massenet, Jules' ref='https://muscat.rism.info/admin/people/84264' type='person' role='cmp'>Massenet, Jules</name>
+        <name key='Loret, Charles' ref='https://muscat.rism.info/admin/people/40212415' type='person' role='cmp'>Loret, Charles</name>
+        <name key='Pierné, Gabriel' ref='https://muscat.rism.info/admin/people/18686' type='person' role='cmp'>Pierné, Gabriel</name>
+        <name key='Auvray' type='person' role='cmp'>Auvray</name>
+        <name key='Messager, André' ref='https://muscat.rism.info/admin/people/92078' type='person' role='cmp'>Messager, André</name>
+        <name key='Dard-Janin' type='person' role='cmp'>Dard-Janin</name>
+        <name key='Puccini, Giacomo' ref='https://muscat.rism.info/admin/people/30921' type='person' role='cmp'>Puccini, Giacomo</name>
+        <name key='Barblan, Otto' ref='https://muscat.rism.info/admin/people/5298' type='person' role='cmp'>Barblan, Otto</name>
+        <name key='Bonade, Louis' type='person' role='int'>Bonade, Louis</name>
+        <name key='Teissier, A.' type='person' role='int'>Teissier, A.</name>
+        <name key='Harmonie Nautique' type='person' role='int'>Harmonie Nautique</name>
+        <name key='Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)' type='person' role='int'>Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)</name>
+        <name key='La Muse' type='person' role='int'>La Muse</name>
+        <name key='Barblan, Otto' ref='https://muscat.rism.info/admin/people/5298' type='person' role='int'>Barblan, Otto</name>
+        <name key='Véry, de' type='person' role='int'>Véry, de</name>
+        <name key='Hault, Marthe' type='person' role='int'>Hault, Marthe</name>
+        <name key='Campagnola' type='person' role='int'>Campagnola</name>
+        <name key='Jacquin' type='person' role='int'>Jacquin</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000569_001.tif'/>
+        <page>
+          <![CDATA[PROGRAMME OFFICIEL
 VICTORIA HALL - GENEVE
-
- 
-
- 
-
 Œ 0U ls DÙ
-
 —
 SAMEDI 9 DÉCEMBRE 1905, A 8 HEURES DU SOIR
-
 E
 cà
 d u|
@@ -97,225 +103,116 @@ E
 74B|
 @ |
 à 4
-
 avec le bienveillant concours de
-
- 
-
 l e* L'HARMONIE NAUTIQUE
-
 | sous la direction de M. Louis BONADE
-
 g,: de la
 e
-
 Fanﬁare Municipale de [a Ville de Genève
-
 sous la direction de M. A. TEISSIER
 de la
-
 SOCIÉTÉ CHORALE “LA MUSE”
-
 eSM E PROFESSEUR O. BARBLAN
-
 ORGANISTE DE LA CATHÉDRALE
-
 de Mesdames
-
 9 - MARTHE HAUR
-
 et de Messieurs
-
 E PGINOLA # JACQUIEN
-
 DU GRAND THÉATRE
-
 .
-
- 
-
 =
-
- 
-
- 
-
- 
-
- 
-
 ŒŒEŒHﬂﬂ“ﬂ“@ﬂ“ﬂ“@@ﬂﬂ@ﬂﬂ@@ﬂﬂﬂﬂ@@ﬂﬂﬁ
-
 n
-
 Reproduction interdite TKs V. R
-
- 
-
 PRIX : 20 cent.
-
-263]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000569_002.tif"/>
-<page><![CDATA[Ps AN e N e se AN Es
-
+263
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000569_002.tif'/>
+        <page>
+          <![CDATA[Ps AN e N e se AN Es
 OT
-
 6.
-
 <1
-
 v
-
 10.
-
 11.
-
 12.
-
- 
-
- 
-
 PROGRAMME
-
 l’REMIÈRE PARTIE
-
 Ouverture du Roi d'Ys.
 Entr’acte de Messidor
-
 (Harmonie Nautique).
 a) Que je t'oublie
 b) Séparation
-
 (Mademoiselle de Véry).
-
 Le Jongleur de Notre-Dame (Légende de la Sauge)
-
 (Monsieur Jacquin).
-
 Grand air d'Hérodiade . e 1
 (Mademoiselle Marthe Hault’.
-
 La chanson de Barberine .
-
 (Monsieur Campagnola).
-
 Prélude en sol mineur pour orgue .
-
 (Monsieur Barblan).
 SECONDE PARTIE
-
 Marche de Preobajensky
 Les deux pigeons, ballet
-
 1. Entrée des tziganes. 4. Divertissement.
 2. Scène et pas des deux pigeons. 5. Danse hongroise.
 3. Thèmes et variations. 6. Finale.
 (Fanfare Municipale).
 Paix et guerre, chœur.
 (La Muse).
-
 Air de La Tosca.
-
 (Monsieur Campagnola).
-
 Pensée d'automne e
 (Mademoiselle Marthe Hauit).
-
 a) Prière extraite de la Cantate pour le 300° anniversaire de l'Escalade .
-
 b) Gé qu’é laîno, pour orgue.
 (Monsieur Barblan).
-
 VA0N
-
 LALOo.
-
 BRUNEAU.
-
 H. CHRÉTIEN.
 HILLEMACH
-
 MASSENET.
 MASSENET.
 Ch. LORET.
-
 G. PIERNÉ.
-
 AuvRAY.
-
 MESSAGER.
-
 DARI)—JANIN,
 Puceini.
 MASSENET.
-
 O. BARBLAN.
-
 Le piano d’accompagnement sera tenu par M. TEISSIER
-
 vs =—
-
 PRIX DES PPACGES-.
-
 Première galerie, 2 fr. — Rez-de-chaussée (loges et parquets), 1 fr. — Seconde galerie, 50 cent.
-
 Toutes les places sont numérotées.
-
- 
-
- 
-
- 
-
- 
-
- 
-
 SEs 11s
-
- 
-
- 
-
 ccn e N
 E SRS S Or SSTENT
-
 se
-
-p]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000569_003.tif"/>
-<page><![CDATA[| K ‘.
-
+p
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000569_003.tif'/>
+        <page>
+          <![CDATA[| K ‘.
 6
-
 |
-
- 
-
 DIMANCHE 10 DÉCEMBRE
-
- 
-
- 
-
 s2
-
 MANIFESTATION POPUDLAIRE
-
 Rassemblement général - Promenade des Bastions, à 1 h.1|2
 Départ à & heures précises
-
 Ç >
 [re PARTIE DU CORTÈGE
 Elle se massera dans l’allée nord de la promenade
-
 des Bastions.
-
 ' 1. Sauveteurs auxiliaires.
-
 2. Gendarmes.
-
 . Batterie de tambours.
 . Corps de musique de Landwehr.
 . Comité Berthelier.
@@ -324,29 +221,20 @@ Université.
 8. Etudiants.
 9. Délégations des Ecoles.
 10. Délégations de citoyens.
-
 > U1 8s D
-
 q 00
-
 EN
-
 Ile PARTIE
-
 Allée Centrale
 1. Fanfare municipale de la Ville de Genève.
 2. Sections de la Société cantonale genevoise de gymnas-
-
 @ tique.
-
 > horale du Bataillon 10.
 4. Société chorale « La Concordia ».
 5. Sociétés politiques et patriotiques.
 6. Sociétés militaires.
 7. Sociétés de tir.
-
 CN
-
 IILe PARTIE
 Allée Sud
 Corps de musique d’Elite.
@@ -354,29 +242,15 @@ Sociétés chorales et musicales.
 Sociétés diverses.
 . Sociétés de secours mutuels.
 Gendarmes.
-
 —A
-
 Us UV N
-
 CN
-
 |
-
 D—3r'\c_
-
- 
-
- 
-
- 
-
 Parcours du cortège :
-
 Place Neuve aue Bartholoni — Boulevard Georges-
 Favon — Rue du Stand — Rue de la Poste — Corraterie
 — Treille — Rue de l’Hôtel-de-Ville.
-
 Lesautorités entrent dansle cortège : 1. Conseil d’Etat.
 2. Grand Conseil. 3. Corps Judiciaire. 4. Conseil Adminis-
 tratif de la Ville de Genève. 5. Conseil Municipal de la
@@ -385,207 +259,108 @@ cipaux des communes autres que la ville de Genève.
 7. Autorités ecclésiastiques, Consistoire de l’Eglise natio-
 nale protestante, Conseil supérieur de l’Eglise catholique
 nationale.
-
 Le cortège continue dans l’ordre suivant : Bourg-de-
 Four — Rue Verdaine — Rue de Rive — Rue de la Croix-
 d’Or — Place du Molard — Rue du Rhône — Place Bel-Air
-
 Rue de la Tour-de-l’Ile — Coutance — Rue de Cornavin
-
 - Place Cornavin — Rue du Mont-Blanc — Pont du Mont-
-
 Blanc — Place du Port — Place Longemalle aue de la
-
 Croix-d'Or _ Rue du Marché — Rue des Allemands — Rue
 de la Monnaie — Tour-de-l’Ile.
-
 VBN
 OIO
-
 A 4 h.. Cérémonie patriotique devant la Tour-de-l’Ile
-
 Les Sociétés, en défilant, déposent leurs offrandes
 dans les corbeilles.
-
 ORDRE DE LA CÉRÉMONIE
-
 1. Cantique suisse, par la Musique d’Elite.
-
 - Hymne à la Patrie, de M. O. Barblan, parlaChorale
 du bataillon 10, la Concordia et la Société de
 Zofingue.
-
 >. Discours de
-
 Henri FAZY.
-
 4. Chœur, Les Enfanls de Genève, par la Société de
-
 gymnastique Genève-Ville.
-
 Cé qu'é l’aino, par la Fanfare Municipale.
-
 IN
-
 M. le Président du Conseil d’État,
-
 Qu
-
 Licenciement.
-
- 
-
- 
-
- 
-
- 
-
 Û@N@@@NŒÆ
-
- 
-
-IOS EAV Pt]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000569_004.tif"/>
-<page><![CDATA[DIMANCHE 10 DECEMBRE
-
- 
-
- 
-
+IOS EAV Pt
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000569_004.tif'/>
+        <page>
+          <![CDATA[DIMANCHE 10 DECEMBRE
 se [s
-
 =s
-
 onférences
-
 J2
-
 A 5 HEURES
 SALLE DE LA RÉFORMATION
-
 ï
-
 A 8 HEURES
 TEMPEF DE SAINT—GERVAIÎ.
-
- 
-
- 
-
 OO
-
 CONFÉRENCES
-
 par
-
 MEN T
-
 président du Conseil d’État
-
 M. le professeur F.-F. ROGET
-
 avec le bienveillant concours de la
-
 SOCIÉTÉ CHORALE «LA CONCORDIA »
-
 LA CHORALE DU BATAILLON 10
 sous la direction de M. le professeur A. POCHON
-
 cD
-
 Programme
 1. Gé qu’é l’aîno, par la Concordia et la Chorale
 du bataillon 10.
-
 Conférence historique, par M. H. Fazy, pré-
 sident du Conseil d’Etat.
-
 N
-
 3. Mon beau Pays, debout, chœur par la Chorale
 du bataillon 10.
-
 4. Allocution, par M. le professeur F.-F. Roget.
-
 5. Hymne à la Patrie, de M. O. BARBLAN, par la
 Concordia et la Chorale du bataillon 10.
-
 VBN
-
 Prix d’entrée : 20 centimes
-
- 
-
- 
-
- 
-
 .C‘l
-
 AN
-
 Conférence publique et gratuite
-
 avec le concours du
-
 CHŒUR PAROISSIAL
-
 sous la direction de
-
 M. LE PROFESSEUR En. BONNY
-
 œ
-
 Programme
-
 Cantique Suisse, exécuté par le
-
 Chœur paroissial ZWYSSIG.
 Conférence historique sur Phili-
-
 bert Berthelier, par M. le
-
 pasteur A. GUILLOT.
 Nuit sereine, par le Chœur pa-
-
 roissial SCHUBERT.
-
 Allocution de M. le pasteur
 L. MAYSTRE.
-
 Cé qu’é l’aîno, chanté par le
 Chœur paroissial.
-
 VA0N
-
 Une quête sera faite à la sortie pour
-
 couvrir les frais.
-
 > e
-
 5>5 -
-
 EU
-
 es
 PEF
-
 e
-
- 
-
 DE
-
 PR Tt
-
- 
-
- 
-
-E TR ETE]]></page>       
-        </p>
+E TR ETE
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

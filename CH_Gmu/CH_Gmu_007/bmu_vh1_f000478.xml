@@ -1,156 +1,118 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par le Corps de musique d'Elite<date when="08/12/1901"/></title>
-<series>1901-1902</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par le Corps de musique d'Elite
+            <date when='08/12/1901'/>
+          </title>
+          <series>1901-1902</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F000478</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Bergalonne, F. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19011208"/>
-<title>Concert donné par le Corps de musique d'Elite</title>
-<placeName key="Victoria Hall"/>
-<name key="1901-1902" type="series"/>
-<name key="Allier, Gabriel" ref="https://muscat.rism.info/admin/people/30071210" type="person" role="cmp">Allier, Gabriel</name>
-<name key="Labory"  type="person" role="cmp">Labory</name>
-<name key="Massenet, Jules" ref="https://muscat.rism.info/admin/people/84264" type="person" role="cmp">Massenet, Jules</name>
-<name key="Mendelssohn Bartholdy, Felix" ref="https://muscat.rism.info/admin/people/88790" type="person" role="cmp">Mendelssohn Bartholdy, Felix</name>
-<name key="David, Félicien" ref="https://muscat.rism.info/admin/people/3813" type="person" role="cmp">David, Félicien</name>
-<name key="Thomas, Ambroise" ref="https://muscat.rism.info/admin/people/135452" type="person" role="cmp">Thomas, Ambroise</name>
-<name key="Gillet, Ernest" ref="https://muscat.rism.info/admin/people/30005131" type="person" role="cmp">Gillet, Ernest</name>
-<name key="Parès, Gabriël" ref="https://muscat.rism.info/admin/people/30024480" type="person" role="cmp">Parès, Gabriël</name>
-<name key="Hahn, Rynaldo"  type="person" role="cmp">Hahn, Rynaldo</name>
-<name key="Krisinska, Marie"  type="person" role="cmp">Krisinska, Marie</name>
-<name key="Sarasate, Pablo de" ref="https://muscat.rism.info/admin/people/30019733" type="person" role="cmp">Sarasate, Pablo de</name>
-<name key="Fauré, Gabriel" ref="https://muscat.rism.info/admin/people/41731" type="person" role="cmp">Fauré, Gabriel</name>
-<name key="Bergalonne, F. (dir.)"  type="person" role="int">Bergalonne, F. (dir.)</name>
-<name key="Corps de musique d'Elite (Fanfare genevoise)"  type="person" role="int">Corps de musique d'Elite (Fanfare genevoise)</name>
-<name key="Charpentier (Mlle)"  type="person" role="int">Charpentier (Mlle)</name>
-<name key="Huguet"  type="person" role="int">Huguet</name>
-<name key="Weinstein, Julie"  type="person" role="int">Weinstein, Julie</name>
-<name key="Pernelle-Lossier (Mme)"  type="person" role="int">Pernelle-Lossier (Mme)</name>
-<name key="Martinet, J."  type="person" role="int">Martinet, J.</name>
-<name key="Ketten, Léopold"  type="person" role="int">Ketten, Léopold</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000478_001.tif"/>
-<page><![CDATA[9w® ex
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19011208'/>
+        <title>Concert donné par le Corps de musique d'Elite</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1901-1902' type='series'/>
+        <name key='Allier, Gabriel' ref='https://muscat.rism.info/admin/people/30071210' type='person' role='cmp'>Allier, Gabriel</name>
+        <name key='Labory' type='person' role='cmp'>Labory</name>
+        <name key='Massenet, Jules' ref='https://muscat.rism.info/admin/people/84264' type='person' role='cmp'>Massenet, Jules</name>
+        <name key='Mendelssohn Bartholdy, Felix' ref='https://muscat.rism.info/admin/people/88790' type='person' role='cmp'>Mendelssohn Bartholdy, Felix</name>
+        <name key='David, Félicien' ref='https://muscat.rism.info/admin/people/3813' type='person' role='cmp'>David, Félicien</name>
+        <name key='Thomas, Ambroise' ref='https://muscat.rism.info/admin/people/135452' type='person' role='cmp'>Thomas, Ambroise</name>
+        <name key='Gillet, Ernest' ref='https://muscat.rism.info/admin/people/30005131' type='person' role='cmp'>Gillet, Ernest</name>
+        <name key='Parès, Gabriël' ref='https://muscat.rism.info/admin/people/30024480' type='person' role='cmp'>Parès, Gabriël</name>
+        <name key='Hahn, Rynaldo' type='person' role='cmp'>Hahn, Rynaldo</name>
+        <name key='Krisinska, Marie' type='person' role='cmp'>Krisinska, Marie</name>
+        <name key='Sarasate, Pablo de' ref='https://muscat.rism.info/admin/people/30019733' type='person' role='cmp'>Sarasate, Pablo de</name>
+        <name key='Fauré, Gabriel' ref='https://muscat.rism.info/admin/people/41731' type='person' role='cmp'>Fauré, Gabriel</name>
+        <name key='Bergalonne, F.' type='person' role='int'>Bergalonne, F.</name>
+        <name key='Corps de musique d&apos;Elite (Fanfare genevoise)' type='person' role='int'>Corps de musique d'Elite (Fanfare genevoise)</name>
+        <name key='Charpentier (Mlle)' type='person' role='int'>Charpentier (Mlle)</name>
+        <name key='Huguet' type='person' role='int'>Huguet</name>
+        <name key='Weinstein, Julie' type='person' role='int'>Weinstein, Julie</name>
+        <name key='Pernelle-Lossier (Mme)' type='person' role='int'>Pernelle-Lossier (Mme)</name>
+        <name key='Martinet, J.' type='person' role='int'>Martinet, J.</name>
+        <name key='Ketten, Léopold' type='person' role='int'>Ketten, Léopold</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000478_001.tif'/>
+        <page>
+          <![CDATA[9w® ex
 % _,_È<À VICTORIA HALL # 215
-
-   
-     
-    
-  
-   
-   
-
 @«—gi@
 Ë“
 @
 {Îî
-
 +
-
 !
 AN3 ZSs
-
- 
-
- 
-
 > rs
-
 Ouverture dest'les Dimanche & Décembre 1901 On commencera C !
 a16h. ‘._) € à 27 h5" » précises —— Ë
-
 vLO N C Er, d
 MUSIQUE D'ÉLITE |
-
 (Fanfare Genevoise) \("‘4_ %
 sous la direction de M, F. BERGALONNE
-
 e Ëns rs eFn 785s 75s e3
 c
-
 mt
-
 ! 1
 QU
 z
-
 se v es
-
 AVEC LE GRACIEUX CONCOURS DE
-
 M'® CHARPANTIER — M. HUGUET
-
- 
-
- 
-
 rs ns bs «
-
- 
-
 î _,Ë }‘ Première chanteuse légère du Grand Théâtre de Genève Du Grand Théâtre de Genèv ‘\' /{
 Ë Ü { ; ET DE Î<,/'};'4_ e
 q Mîlle Julie WEINSTEIN - Mme PERNELLE-LOSSIER - M. J. MARTINET Ténor N
-
 3 Professeur de Violon Professeur de Piano Élève de M F
-
- 
-
 M. Léopold KETTEN
-
 Professeur supérieur au Conservatoire
-
- 
-
 - ….
-
 N S3 ÎN 805 7800 /FN Ns ÎSs /N
-
- 
-
- 
-
- 
-
- 
-
 Ÿ N À
 Ë —-— PROGRAMME —— =
 À PREMIÈRE PARTIE 170 >
@@ -160,49 +122,19 @@ L{î' ; 1. Ronde des Marcheurs (Musique d’Eliter.…. . . A L1RB
 Ï É 4. Concerto-Andante et Final, Mlle J. WEINSTEIN . « … MENDELSSOHN.
 } ; o. La Perle du Brésil, Mlle CHARPENTIER, avec accompagne-
 ÿ - ment de Flüte, obligé par M. G. MARTINET . . . . FÉLICIEN DavID.
-
 6.  Air d'Hamlet, chanson bachique, M. Huauer . . .  AMBROISE THOMAS
-
 7. Au Village, air gavotte caractéristiqué (Musique d’ I«/:/: } GILTRT:
-
- 
-
 DEUXIÈME PARTIE
-
 | 3. Fantaisie-Ballet (Musique d’Elite) . 44 . . . . . . Panrks
-
 | w) Si mes Vers avaient des ailes ) i RYNALDO HAHN.
-
 ï 9 ; Mile CHARPENTIER . Z
-
 ÿ “ b) Renouveau d’Amour $ MARIE KRISINSKA. 7
 / 10. Zigeunerweisen, Mlle J, WEINSTEIN } . . . . . . SARASATE
-
 ( M. HuGuErT, baryton ;
 ( M. J. MARTINET, ténor $
 12. Le Chevalier-Garde, allegro militaire [Musique d’Elite) . Parès
-
 11. Duo du Crucifix FAURE.
-
- 
- 
-
 ns rrs véts trs eFn Îns erins rrs ds SSs
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 | l' T ” A D ‘ K |
 ! J Siano o Hch par f (dison C{. Mubach et e DN
 [ >
@@ -222,195 +154,109 @@ se BUFFET AU REZ-DE-CHAUSSÉE ». 152 13
 ? Prière de ne pas entrer penddnt l'exécution des morceaux SRMF3 ) 15
 OIN ;
 CRN <
-
- 
-
- 
-
- 
- 
-
-  
-
 j%Ê@ ”w (S jF' {n“îf° WŸÎ* /\S @ %«?<‘>?Ë«»
 00en es x…f…m SE
-
 0 e remairez = S 165 ;
 OE CT TT ! ! RE AI à RE C ".‘       
         </p>
     </body>
   </text>
 </TEI>£C….“p
-
-u. ; ÛLD ENGLAND pîääl °â”Æîäâäî su Etronnes el Cadeaux]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000478_002.tif"/>
-<page><![CDATA[rH. DELAPIERRE
+u. ; ÛLD ENGLAND pîääl °â”Æîäâäî su Etronnes el Cadeaux
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000478_002.tif'/>
+        <page>
+          <![CDATA[rH. DELAPIERRE
 FLEURISTE ‘
 Téléphone 17 — Rue du Khône, 10 — Téléphone 17
-
 ENTREPRISE DE POMPES FUNEÈBRES
-
 FERT-DUPARC-MURIT
-
 FORMALITÉS ET DEMARCHES
-
- 
-
- 
-
 Achat de Maü‘ere_sÿ[lr et d'Argent
 _B. Bocquet
-
 Essayeur-Juré fédéral
-
 GENÈVE - Place Grenus 10 - GENÈVE
-
 Dorure, Argenture, Imn age et Nickelage
-
 sur tous métaux
-
 Remise à neuf de Couverts et toute Orfévrerie argentée
-
 Fabrique de Gaînerie
-
 Fondée en 1839
-
 Alexandre GERCKE
-
 Encausti |\| ||\l ce ,peaux de Daim
 bros Dépot …Bnllmtbelge
 I y Ë Rlp0]ln vern r…ul incomparé |l
-
 Rue des Allemands, 26, au 3” Droguene _| BBrﬂngBl‘ & C‘°
 GENEÈVE 92, Rue du ‘
-
 HUILE DE FOIE DE MORUE
 Blonde et blanche , le Norvè
-
 Marchandise fraiche de 1re qualité
-
- 
-
 16, Rue des Chaudronniers, 16
 « GENÈVE «
 GRATUITES - Téléphone 121
 CAFÉ-BRASSERIE
-
 JACQUES ZEIER
-
 3, Rue des Corps-Saints, 3
-
 FONDUES, BIFTECKS au FROMAGE
 et Mets de Brasserie
-
 VINS DE PREMIÈRE QUALITÉ
-
- 
-
 Brasserie-Restaurant ACKERMANN
-
 90-92,rue du Rhone (à côté de l'Hôtel du Lac)
 — GENÈVE —
 Jean GAY, Propriétaire
-
 Seul dépôt et débit de «Spatenbrau »
 de Gabriel Sedilmayr, à Munich
 Vims fins et Liqueurs de marque
 Journaux suisses, francais, allemands et anglais
 RESTAURATION A TOUTE HEURE - HUITRES MARENNES
-
 ANGIENNE BRASSERIE
 FRITZ LANDOLT
-
 BIÈRES DE MUNICH
 PILSEN BI
-
- 
-
 BALE
-
 Déjeuner 2 îr. - Plat du jour 1 îr. 50
 MAISON
-
 D'APPROVISIONNEMENTS
-
 PRODUITS DU MIDI
-
 LOUIS PUAUX
-
 Rue de Fribourg, 11
-
 —— TÉLÉPHONE 2212 »
-
- 
-
- 
-
 TRANSPORTS |NTERNÀÎIUNÀUX
 Jean Mesmer
-
 CETTE (Hérault) — GENÈVE BARCELONE
-
 Propriétaire de wagous - Réservoirs - “oudres en hoïs pour le transsort des vins
-
 CHAUSSURES DE CONFECTION
-
 MAJ EUX HOHL
-
 » de J-J. WRISS
-
 17, Rue Rousseau. 17 GENÈVE
-
 Commandes et Ré pal 1110N Sahots el Caoutchoues
-
 né-.
-
- 
-
 Voir dans l(e
-
 SPLENDID PROGRAMUME”
-
 ' du 8 courant, le Programme détaillé du Concert de la
-
 MUSIQUE D'ÉLITE
-
 avec Portrait et Bio£raphie de M. ZOLLER,
 Officier du Corps
-
 SERA VENDU A L’ENTRÉE DU CONCERT
-
 COMESTIBLES
-
 F. ALAMARTINE
-
 7, Rue Pierre-Fatio, 7
-
 Spécialité de Volailles de Bresse
 Poissons, Gibier, Agneaux de prés salés
 CONSERVES ALIMENTAIRES
-
 Ancienne Maison J.-B. CURTET
 F. BARRAT-CURTET, Succe.
 æ2, Place des Alpes, ?
 GENEVE
-
 ( TÉLÉPHONE 3245 )
-
- 
-
 Fabrique de BLEUS pour l'azurage du
 linge. Outremers toutes nuances.
 Brillant pour chemises. Fers à glacer.
-
- 
-
- 
-
 Les meilleurs Gafés verts et torréfies, se trouvent
-
-Rue Bonivard, 2 À LASCASE DE L’ONCIE TOM e Bonivard, 2]]></page>       
-        </p>
+Rue Bonivard, 2 À LASCASE DE L’ONCIE TOM e Bonivard, 2
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

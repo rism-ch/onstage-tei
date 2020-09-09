@@ -1,141 +1,120 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Neuvième concert de l'abonnement<date when="17/02/1943"/></title>
-<series>1942-1943</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Neuvième concert de l'abonnement
+            <date when='17/02/1943'/>
+          </title>
+          <series>1942-1943</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F003214</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Ansermet, E. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19430217"/>
-<title>Neuvième concert de l'abonnement</title>
-<placeName key="Victoria Hall"/>
-<name key="1942-1943" type="series"/>
-<name key="Bach, Johann Sebastian" ref="https://muscat.rism.info/admin/people/2539" type="person" role="cmp">Bach, Johann Sebastian</name>
-<name key="Mozart, Wolfgang Amadeus" ref="https://muscat.rism.info/admin/people/115324" type="person" role="cmp">Mozart, Wolfgang Amadeus</name>
-<name key="Debussy, Claude" ref="https://muscat.rism.info/admin/people/4338" type="person" role="cmp">Debussy, Claude</name>
-<name key="Liszt, Franz" ref="https://muscat.rism.info/admin/people/107196" type="person" role="cmp">Liszt, Franz</name>
-<name key="Ansermet, Ernest  (dir.)" ref="https://muscat.rism.info/admin/people/40219507" type="person" role="int">Ansermet, Ernest  (dir.)</name>
-<name key="Orchestre de la Suisse Romande" ref="https://muscat.rism.info/admin/people/50007615" type="person" role="int">Orchestre de la Suisse Romande</name>
-<name key="Gieseking, Walther"  type="person" role="int">Gieseking, Walther</name>
-<name key="Reisser, Marguerite"  type="person" role="int">Reisser, Marguerite</name>
-<name key="Maunoir, Anrée"  type="person" role="int">Maunoir, Anrée</name>
-<name key="Enggist, Cécile"  type="person" role="int">Enggist, Cécile</name>
-<name key="Christiné, Gilberte"  type="person" role="int">Christiné, Gilberte</name>
-<name key="Deprez, Suzanne"  type="person" role="int">Deprez, Suzanne</name>
-<name key="Bosticco, Madeleine"  type="person" role="int">Bosticco, Madeleine</name>
-<name key="Boretti, Jeanne"  type="person" role="int">Boretti, Jeanne</name>
-<name key="Thévenoz, Marguerite"  type="person" role="int">Thévenoz, Marguerite</name>
-<name key="Blanche, Godel"  type="person" role="int">Blanche, Godel</name>
-<name key="Morath, Hélène"  type="person" role="int">Morath, Hélène</name>
-<name key="Gétaz, Evelyne"  type="person" role="int">Gétaz, Evelyne</name>
-<name key="Horisberger, Charlotte"  type="person" role="int">Horisberger, Charlotte</name>
-<name key="Esselborn, Sonia"  type="person" role="int">Esselborn, Sonia</name>
-<name key="Aeberhardt, Rose"  type="person" role="int">Aeberhardt, Rose</name>
-<name key="Cougnar, Manon"  type="person" role="int">Cougnar, Manon</name>
-<name key="Baud-Broux, Jacqueline"  type="person" role="int">Baud-Broux, Jacqueline</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003214_001.tif"/>
-<page><![CDATA[DE LA
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19430217'/>
+        <title>Neuvième concert de l'abonnement</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1942-1943' type='series'/>
+        <name key='Bach, Johann Sebastian' ref='https://muscat.rism.info/admin/people/2539' type='person' role='cmp'>Bach, Johann Sebastian</name>
+        <name key='Mozart, Wolfgang Amadeus' ref='https://muscat.rism.info/admin/people/115324' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Debussy, Claude' ref='https://muscat.rism.info/admin/people/4338' type='person' role='cmp'>Debussy, Claude</name>
+        <name key='Liszt, Franz' ref='https://muscat.rism.info/admin/people/107196' type='person' role='cmp'>Liszt, Franz</name>
+        <name key='Ansermet, Ernest' ref='https://muscat.rism.info/admin/people/40219507' type='person' role='int'>Ansermet, Ernest</name>
+        <name key='Orchestre de la Suisse Romande' ref='https://muscat.rism.info/admin/people/50007615' type='person' role='int'>Orchestre de la Suisse Romande</name>
+        <name key='Gieseking, Walther' type='person' role='int'>Gieseking, Walther</name>
+        <name key='Reisser, Marguerite' type='person' role='int'>Reisser, Marguerite</name>
+        <name key='Maunoir, Anrée' type='person' role='int'>Maunoir, Anrée</name>
+        <name key='Enggist, Cécile' type='person' role='int'>Enggist, Cécile</name>
+        <name key='Christiné, Gilberte' type='person' role='int'>Christiné, Gilberte</name>
+        <name key='Deprez, Suzanne' type='person' role='int'>Deprez, Suzanne</name>
+        <name key='Bosticco, Madeleine' type='person' role='int'>Bosticco, Madeleine</name>
+        <name key='Boretti, Jeanne' type='person' role='int'>Boretti, Jeanne</name>
+        <name key='Thévenoz, Marguerite' type='person' role='int'>Thévenoz, Marguerite</name>
+        <name key='Blanche, Godel' type='person' role='int'>Blanche, Godel</name>
+        <name key='Morath, Hélène' type='person' role='int'>Morath, Hélène</name>
+        <name key='Gétaz, Evelyne' type='person' role='int'>Gétaz, Evelyne</name>
+        <name key='Horisberger, Charlotte' type='person' role='int'>Horisberger, Charlotte</name>
+        <name key='Esselborn, Sonia' type='person' role='int'>Esselborn, Sonia</name>
+        <name key='Aeberhardt, Rose' type='person' role='int'>Aeberhardt, Rose</name>
+        <name key='Cougnar, Manon' type='person' role='int'>Cougnar, Manon</name>
+        <name key='Baud-Broux, Jacqueline' type='person' role='int'>Baud-Broux, Jacqueline</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003214_001.tif'/>
+        <page><![CDATA[DE LA
 SUISSE ROMAND
-
 PROGRAMME
-
-x]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003214_002.tif"/>
-<page><![CDATA[Fabrication de tous pays
+x
+]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003214_002.tif'/>
+        <page>
+          <![CDATA[Fabrication de tous pays
 En gros et en détail
-
 Téléphone: 50892
 Télégramme : Paptenture, Genève
 Chèques postaux : !. 4605
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Tirages
 rapides
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 AN 05
-
-rrn en]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003214_003.tif"/>
-<page><![CDATA[GENÈVE
-
- NEUVIÈME CONCERT
-
+rrn en
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003214_003.tif'/>
+        <page>
+          <![CDATA[GENÈVE
+NEUVIÈME CONCERT
 DE L'ABONNEMENT
-
 VICTORIA-HALL
-
 MERCREDI 17 FÉVRIER 1943, A 19 h. 45
-
 Ernest ANSERMET
-
 Soliste :
-
 Walther GIESEKING
-
-pianiste]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003214_004.tif"/>
-<page><![CDATA[« Dans l’incompréhen-
+pianiste
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003214_004.tif'/>
+        <page>
+          <![CDATA[« Dans l’incompréhen-
 sible tourbillon de la vie,
 où l’instant qui passe
 jamais ne revient, il
@@ -144,177 +123,109 @@ la musique. Elle donne
 une valeur à nos larmes,
 une grandeur à nos
 sourires ».
-
 MlNI-PIÀNO ESTx ÉEPI'ANOC DE FSAVENIR
-
 de BURGER & JACOBI Par son meuble réduit à l'extrême,
-
 BIENNE Par son toucher précis,
-
 BPANOS
-
 A QUEUE ET DROITS
-
- 
-
 Par ses qualités de sonorité.
-
 NOS AGENCES OFFICIELLES :
-
 STEINWAY & SONS
 BLUTHINER
 PLEYEEL
 S GAVEAU
 BURGER & JACOBI
 SCHMIDT & FLOHR
-
 Location - Accord - Réparations - Transport
 EXPERTISE — ÉCHANGE
-
 Toutes marques
-
 l‘. A D l O S en démonstration
-
 MARCONI MEUBLE RADIO-GRAMO-CHANGEUR
 &
 De S 0 ADAPTEUR ONDES COURTES
 ANTENNES BLINDÉES
-
 D | S Q U E S Service abonnement radio
-
 CLASSIQUES - NOUVEAUTÉS u
 A CHOIX Personnel technique de 1°' ordre
-
 MAISON DE LAÀ MUSITQUE
 FONDÉE EN 1830
-
 SAUTIER #8JAEGER
-
 FUSTERIE ,12, GENÈVE
-
 E— se d rz
-
- 
-
-  
-
-  
- 
-   
-   
-   
- 
-      
-     
-   
- 
-    
-
-  
-  
- 
-
- 
-
- 
-
- 
-
 ;
-
 m
-
-ESL AN]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003214_005.tif"/>
-<page><![CDATA[Conseil de Fondation
-
+ESL AN
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003214_005.tif'/>
+        <page>
+          <![CDATA[Conseil de Fondation
 de l’Orchestre de la Suisse Romande
-
 Président : M. Paul LACHENAL, Genève.
 Vice-président: M. le D" Fred. BLANCHOD, Lausanne.
 Secrétaire : M. René DOVAZ.
-
 Trésorier : M. Henri BROLLIET,
-
 Conseillers délégués :
-
 MM.
-
 Emile HEUBI, Lausanne; Pierre JACCOUD, Emile UNGER,
 Genève; Marcel BEZENCÇON, Directeur de la Société Romande
 de Radiodiffusion; Félix POMMIER, Directeur de la Société des
 Emissions Radio-Genève.
-
 Membres :
-
 M.
 MM.
-
 MM.
-
 MM.
-
 MM.
-
 GLOGG, Directeur général de la Radiodiffusion, Berne.
-
 les représentants des Gouvernements cantonaux: Conseiller d’Etat
 Henri_ MOUTTET, Berne (Jura romand); Conseiller d’Etat
 Adrien LACHENAL, Genève; Conseiller d’Etat Joseph PILLER,
 Fribourg; Conseiller communal Gérard BAUER, Neuchâtel;
 Conseiller d’Etat Cyrille PITTELOUD, Valais; Conseiller d’Etat
 Paul PERRET, Vaud.
-
 e Conseiller d’Etat Louis CASAÏ, MM. les Conseillers administratifs
-
 Jules PENEY et Marius NOUL, MM. Philippe ALBERT,
 Léopold BOISSIER, Alfred BOREL, André GUINAND, Emile
 JAQUES-DALCROZE, Alfred PELLIGOT, Maurice PICTET
 DE ROCHEMONT, Marcel RAYMOND, Alfred VIDOUDEZ,
 Charles ZANELLO, à Genève.
-
 Antoine VODOZ, Conseiller d’Etat, Marius AMANN, Conseiller
 municipal, Jacques BÉRANGER, René BICKART, Roger
 CORREVON, Louis SALATHE, Auguste MARGUERAT, Georges
 ROSSET, Henri STIERLIN-VALLON, à Lausanne.
-
 Samuel GÉTAZ et E. ROSSIER-GEORG, à Vevey; François
 ESSEIVA et le D' Paul RYNCKI, à Fribourg; Claude DU
 PASQUIER, à Neuchâtel; Tell PERRIN, à La Chaux-de-Fonds;
 Edmond BILLE et Gustave TURINI, à Sierre.
-
 les délégués des Associations genevoise et vaudoise des Amis de
 l’O.S.K., de la Société des Emissions Radio-Genève, de la Société
 Romande de Radiodiffusion, de la Commission des Programmes
 de Sottens et des Artistes-Musiciens de l’Orchestre.
-
 Chef d’Orchestre : E. ANSERMET
-
-ADMINISTRATION : 22, CORRATERIE, GENÈVE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003214_006.tif"/>
-<page><![CDATA[]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003214_007.tif"/>
-<page><![CDATA[LES MUSICIENS SUISSES A GENÈVE
-
+ADMINISTRATION : 22, CORRATERIE, GENÈVE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003214_006.tif'/>
+        <page><![CDATA[]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003214_007.tif'/>
+        <page>
+          <![CDATA[LES MUSICIENS SUISSES A GENÈVE
 L’Association des Musiciens suisses tiendra sa quarante-
 quatrième réunion annuelle à Genève, les samedi 29 et
 dimanche 30 mai prochains.
-
 Cet important événement musical comportera le programme
 suivant:
-
 Samedi 29 mai après-midi, au Conservatoire, concert de
 musique de chambre où seront exécutés un quintette de
 Charles Chaix, des mélodies d’Othmar Schoeck et un octuor de
 Bernard Reichel.
-
 Le soir, au Théâtre, aura lieu un concert de l’Orchestre
 de la Suisse romande, sous la direction de M. E. Ansermet,
 avec les œuvres suivantes: Musique symphonique, d’Albert
 Jenny; Concerto pour piano et orchestre, de Rudolf Wittels-
 bach; Premier concert carougeois d’A.-F. Marescotti; Antigone,
 de Robert Oboussier; Laupen-Suite, de Willy Burkhard.
-
 Le dimanche 30 mai, à 17 heures, au Victoria-Hall. l’'Or-
 chestre de la Suisse romande, la Société de Chant sacré et le
 chœur de la Société Symphonique exécuteront, sous la direc-
@@ -322,61 +233,42 @@ tion de M. S. Baud-Bovy, le Requiem des Vanités du Monde,
 d’Henry Gagnebin; en seconde partie, on entendra, sous la
 direction de M. Ansermet, Media Vita, pour orchestre, de
 Max Zehnder et la Danse des Morts, d’Arthur Honegger.
-
 Le nom des solistes sera communiqué ultérieurement.
-
 Le programme de la fête prévoit encore une réception par
 nos autorités, une soirée récréative à la Salle des Rois, une
 excursion en bateau et l’Assemblée générale de l’Association,
-sous la présidence de M. Frank Martin.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003214_008.tif"/>
-<page><![CDATA[TAILLEUR - CHEMISIER - CHAPELIER
-
+sous la présidence de M. Frank Martin.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003214_008.tif'/>
+        <page>
+          <![CDATA[TAILLEUR - CHEMISIER - CHAPELIER
 Tissus anadlais pure aine
 Importation directe
 DISTRIBUTEUR OFFICIEL DES CÉLÈBRES
-
 Manteaux imperméables
-
 AQUASCUTUM
-
 RAINCOATS
-
- 
-
 8, CROIX-D'OR, 8
-
- 
-
- 
-
- 
-
 Une belle fourrure… Un manteau élégant…
-
 nara
 ?nle
-
 3, rue de Rive - Genève
-
 Chez le spécialiste
-
 p
-
 N
-
 V
 Ÿ
 N
-
 (ruascae)
 ' Û
 ON S \
-
-Même maison, Lausanne, 6, rue de Bourg J. Lévy]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003214_009.tif"/>
-<page><![CDATA[Walther CISHKINÉ
-
+Même maison, Lausanne, 6, rue de Bourg J. Lévy
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003214_009.tif'/>
+        <page>
+          <![CDATA[Walther CISHKINÉ
 Né le 5 novembre 1895 à Lyon, fils d’un médecin allemand il fut élevé
 Ï sur la Riviera française et italienne. Il reçu son enseignement de piano de
 Karl Leimer au Conservatoire de Hanovre où les parents de Gieseking
@@ -384,151 +276,97 @@ s’étaient fixés à partir de 1911.
 ’} é. Dès lors la renommée internationale de Gieseking s’est promptement
 établie. II est l’interprète de premier rang des classiques, il est aussi un
 interprète tout personnel et d’un relief particulier des œuvres modernes
-et spécialement des œuvres de Debussy et Ravel.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003214_010.tif"/>
-<page><![CDATA[OL | || DEs
-
- 
-
+et spécialement des œuvres de Debussy et Ravel.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003214_010.tif'/>
+        <page>
+          <![CDATA[OL | || DEs
 L FABRIQUE
-
 : MÔNIQES PAUL DÏTBSHEIM S. À e
 » 244 CENTVE
-
 59, rue du Stand
-
 d
-
 CH QONQGRÀPHE
 T!TUS
-
-   
-
-  
-
- 
-
 MONTRES DE SPORT - CHRONOGRAPHES
 MONTRES DE LUXE
-
 En vente chez
-
 GALLOPIN & Cie CHRONOS S. A:
-
 17, rue du Rhône 1, rue de Chantepoulet
-
-GENÈVE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003214_011.tif"/>
-<page><![CDATA[Gs
+GENÈVE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003214_011.tif'/>
+        <page>
+          <![CDATA[Gs
 +
-
 Neuvième Concert de l’Abonnement
-
 Direction : Ernest ANSERMET
 Soliste: Walther GIESEKING, pianiste
-
 PROGRAMME
 PREMIÈRE PARTIE
-
 1 SUITE N 4,enré majeur …. … . € }ACH
 ’ . Ouverture — Bourrée — Gavotte — Menuet —
-
 Réjouissance.
 2. CONCERTO, en ut majeur (KV 467) pour
-
 prano et orchestre: . . . .
-
 a) Allegro maestoso.
 b) Andante.
-
 c) Allegro vivace assai.
-
 Soliste: M. Walther GIESEKING.
-
 MozanrT
-
 DEUXIÈME PARTIE
 3 TROIS NOCTURNES . . . à TR DEpussy
-
 a) Nuages — b) Fêtes — c) Sirènes (avec voix de
 femme).
-
 # CONCERTO,en mibémo! .. .… . . LiszT
-
 Allegro maestoso — Quasi adagio — Allegretto
 vivace — Allegro animato — Allegro marziale
 animato.
 | Soliste: M. Walther GIESEKING.
 e
-
 CHŒUR DE DAMES :
 Soprani: Mmes Marguerite Reisser, Andrée Maunoir, Cécile Enggist, Gilberte Christiné,
 Suzanne Deprez, Madeleine Bosticco, Jeanne Boretti, Marguerite Thévenoz.
 Alti: Mmes Blanche Godel, Hélène Morath, Evelyne Gétaz, Charlotte Horisberger,
 Sonia Esselborn, Rose Aeberhardt, Manon Cougnar, Jacqueline Baud-Broux
-
 F Piano Steinway aux soins de la maison Sautier $ Jaeger.
-
 8 5
 ï La vignette de la couverture est une caricature de Strawinsky.
-
 : e
-
 | Le Comité se réserve de pouvoir apporter aux programmes
-
 f toutes modifications que les circonstances rendraient nécessaires.
 y
-
 [
-
 /
-
 E
-
-R]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003214_012.tif"/>
-<page><![CDATA[Grand Café du Nord
-
+R
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003214_012.tif'/>
+        <page>
+          <![CDATA[Grand Café du Nord
 GENÈVE
 31, rue du Rhône
-
- 
-
 ; . Soirée dès
 . 21 heures
 de 4 à 6h. DANCING
-
- 
-
- 
-
- 
-
 Confiserie — Cea-Koom
-
 OL6
-
- 
-
- 
-
-   
-
-2, place Ou £ac Genève]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003214_013.tif"/>
-<page><![CDATA[Jean-Sébastien BACH
-
+2, place Ou £ac Genève
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003214_013.tif'/>
+        <page>
+          <![CDATA[Jean-Sébastien BACH
 (1685-1750)
-
 Suite n° 4, en ré majeur
-
 LORS que les deux premières des quatre suites que le grand Cantor
 écrivit pour orchestre, ne comportent ni trompettes ni timbales, il
 n’en est pas de même des deux suivantes, et en particulier de la
-
 Suite n° 4, qui ajoute trois hautbois, basson, trois trompettes et timbales
 à l’ensemble des cordes.
-
 Il semble que Bach l’écrivit pour une société de musique de Leipzig,
 dont il fut, durant quelques années, le directeur. Le fait que cette société
 était, en majeure partie, composée d’étudiants qui se réunissaient soit
@@ -536,7 +374,6 @@ dans un jardin soit dans une salle de café, suggère bien des réflexions
 point toutes à l’avantage des étudiants de notre temps ! Il est vrai qu’avoir
 Jean-Sébastien Bach au cembalo directeur n’est peut-être pas un fait
 sans importance dans l’examen de cette question !
-
 Cette Suite n° 4 ne fut publiée qu’en 1881 ; on alla même jusqu’à sus-
 pecter son authenticité, alors qu’elle est d’un style d’une si éclatante
 franchise qu’on ne saurait s’y tromper. L’ouverture, portique à trois
@@ -546,55 +383,42 @@ dont l’importance est si grande qu’elle forme, à elle seule, la moitié de
 l’œuvre. On sait d’ailleurs que Bach a repris cette ouverture dans l’une
 de ses Cantates et qu’il y a superposé — tour de force digne de ce maître ! —
 un chœur à quatre voix sur le texte: « Unser Mund sei voll Lachens ».
-
 Puis ce sont des danses bourrée, gavotte et menuet — danses « où
 s’affirme avec une magnifique franchise la joie et la malicieuse naïveté
 du peuple dans ses ébats. Malice non plus contrapuntique, mais rythmique
 et mélodique et toujours savoureuse parce qu’elle ne doit rien aux spé-
 culations d’un art savant ». Enfin, l’œuvre s’achève par des « Réjouissances »
-
 où Bach, une fois de plus, étonne par sa verve, sa fantaisie, son éclatante
-gaîté,]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003214_014.tif"/>
-<page><![CDATA[HOTEL DE L'ÉCU DE GENÈVE
-
+gaîté,
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003214_014.tif'/>
+        <page>
+          <![CDATA[HOTEL DE L'ÉCU DE GENÈVE
 Cave
 l'Ecu
-
 ROTISSERIE-
 GRILL
-
 21, rue du Rhône
-
 Ses consommations — Ses spécz'alz‘fé5
-
- 
-
 Le plaisir par
-
 la musique
-
 La sécurité par
-
 une assurance sur la vçre
-
 HELVETIA -VIE
-
 COMPAGNIE D’ASSURANCES SUR LA VIE
-
 Agents généraux :
 CHATELAIN & COLLOMB
-CORRATERIE, 7 TÉL. 40350]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003214_015.tif"/>
-<page><![CDATA[W.-A. MOZART
-
+CORRATERIE, 7 TÉL. 40350
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003214_015.tif'/>
+        <page>
+          <![CDATA[W.-A. MOZART
 (1756-1791)
-
 C()ÏlCGI”[O en ul mujuur
 e
-
 E Concerto pour piano et orchestre (K 467) fut écrit entre février
-
 et mars 1785. Mozart était alors à Vienne, très entouré par la
 ; haute aristocratie, très fêté non seulement comme compositeur,
 mais comme virtuose, présentant lui-même ses œuvres nouvelles dans
@@ -605,48 +429,33 @@ mière fois le Concerto en ut le 12 mars 1785, à Vienne, en présence de
 son père Léopold qui, dans une lettre à sa fille, écrit que cette audition
 lui fit monter les larmes aux yeux, non seulement par la beauté de l’œuvre,
 mais aussi à cause du succès triomphal qu’elle valut à son fils. Les mou-
-
 vements sont les suivants: a) Allegro maestoso; b) Andante; c) Allegro
-; vivace assai.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003214_016.tif"/>
-<page><![CDATA[VIDOUDEZ
-
+; vivace assai.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003214_016.tif'/>
+        <page>
+          <![CDATA[VIDOUDEZ
 LUTHIER DU CONSERVATOIRE
-
 Corraterie, 22
 Téléphone 4 43 35
-
- 
-
- 
-
- 
-
- 
-
 La Résidence
-
 Genève
-
 nT e Florissant
 Téléphone 4 13 88
-
 Trams n°8 1 et 6
-
 Hôtel-Restaurant - Bar
-
 Chambres depuis fr. 5.—
 Pension depuis fr. 13.—
 Eau chaude permanente
-
-Arrangcment pour lOng sejour]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003214_017.tif"/>
-<page><![CDATA[Claude-Xehille DEBUSSY
-
+Arrangcment pour lOng sejour
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003214_017.tif'/>
+        <page>
+          <![CDATA[Claude-Xehille DEBUSSY
 (1862-1918)
-
 Nocturnes
-
 ’EST en 1898 que Debussy composa les « Nocturnes » alors qu’il
 travaillait à « Pelléas »; ils furent joués pour la première fois le
 9 décembre 1900, aux Concerts Lamoureux, sous la direction de
@@ -655,28 +464,23 @@ peu connu, mais où il avait pleinement acquis depuis quelques années
 (« L’Après-midi d’un faune » et le « Quatuor » sont de 1892-1893) le sens
 de sa poésie propre, ainsi que les moyens les plus personnels pour la
 traduire.
-
 Le titre « Nocturnes » veut prendre ici un sens plus général et surtout
 plus décoratif. Il ne s’agit donc pas de la forme habituelle du nocturne,
 mais bien de tout ce que ce mot contient d’expression et de lumières
 spéciales. L’auteur a, en effet, indiqué son intention à l’égard de chaque
 pièce par les quelques lignes suivantes :
-
 NUAGES. — C’est l’aspect immuable du ciel avec la marche lente et
 mélancolique des nuages, finissant dans une agonie grise doucement
 teintée de blanc.
-
 FÊTES. — C’est le mouvement, le rythme dansant de l’atmosphère
 avec des éclats de lumière brusques. C’est aussi l’épisode d’un cortège
 (vision éblouissante et toute chimérique) passant à travers la fête, se
 confondant avec elle; mais le fond reste, s’obstine et c’est toujours la
 fête, et son mélange de musique, de poussière lumineuse participant
 à un rythme total.
-
 SIRÈNES. — C’est la mer et son rythme innombrable, puis, parmi
 les vagues argentées de lune, s’entend, rit et passe le chant mystérieux
 des sirènes.
-
 Il semble qu’il n’y ait rien à ajouter à ces explications dues à Debussy
 lui-même. Les « Nocturnes », modèles d’impressionnisme, ne cherchent
 pas dans le sujet un prétexte de lyrisme, de pittoresque et d’anecdote, et
@@ -684,128 +488,55 @@ n’en transposent pas l’expression dans une forme abstraite préconçue ;
 mais ils semblent le recréer en musique, réaliser en matière sonore son
 apparence formelle, dans son devenir, avec ses affinités et son atmosphère.
 Un tel art exige de la spontanéité. L’esprit n’y intervient pas en com-
-
 mentateur ; il n’y apporte que la conscience des sensations. C’est l’émotion
-qui crée sa forme.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003214_018.tif"/>
-<page><![CDATA[Laines suisses
-
+qui crée sa forme.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003214_018.tif'/>
+        <page>
+          <![CDATA[Laines suisses
 DURUZ
-
 Croix-d'’Or, 3
-
- 
-
- 
-
- 
-
- 
-
 Le plus grand choix
 Les meilleures qualités
 Les prix les plus bas
-
- 
-
 Salon de tricotage
-
- 
-
- 
-
- 
-
 A notre magasin Place des Eaux-Vives, 5:
 Sous-vêtements chauds en bonnes qualités d'avant-guerre
-
- 
-
- 
-
- 
-
- 
-
 Vous aimez la belle
 musique, aïmez aussi
-
 n e la beauté et la qualité
 -YQÊÊIËEÈlÈOËËEÊ,IË de votre montre et de
-
 20:R: du MARCHE| | votre orfévrerie…
-
 …alors faites votre choïx parmi les montres soignées :
-
- 
-  
-
-      
-
- 
-
 Longines e Zénith
 Oméga e Tissot
-
 Orfèvrerie Jezler argent massif et Christofle
-
 BIJOUTERIE OR ET ARGENT
-
 Le plus beau choix Prix très modérés
-
- 
-
- 
-
- 
-
 e Tn E
-
- 
-
 en e ds
-
- 
-
- 
-
 w
 Ï
-
 q
-
 e
-
 JEagex
-
 E RE
-
-2YRAY]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003214_019.tif"/>
-<page><![CDATA[Vs M T
-
+2YRAY
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003214_019.tif'/>
+        <page>
+          <![CDATA[Vs M T
 Bn
-
 ps
-
-   
-
 PR T e 53 LR RP
-
- 
-
- 
-
 Franz LISZT
-
 (1811-1886)
-
 Concerto en mi bémol
-
 ISZT a composé deux concertos pour le piano, tous deux à peu près à
 la même époque. Comme la plupart de ses grandes œuvres sym-
 phoniques, il les a achevées pendant son séjour à Weimar, d’après
-
 des esquisses datant de plusieurs années. Ce n’est donc qu’en 1848 qu’il
 fixa la forme définitive du Concerto en mi bémol, dont il donna lui-même
 la première audition en public. Hector Berlioz conduisait l’orchestre.
@@ -817,7 +548,6 @@ ne laissèrent point passer cette occasion de montrer leur mauvaise humeur.
 A les en croire, ce Concerto ne rencontra pas la moindre approbation,
 « car, si l’on y trouve quelques traits heureux, l’impression d’ensemble
 en est par contre absolument inharmonieuse ».
-
 Il faut bien reconnaître que ce Concerto avait de quoi dérouter, au
 milieu du siècle dernier, les amateurs de musique et les critiques. Au
 premier coup d’œil, il présente l’aspect d’une vaste improvisation, en
@@ -836,49 +566,39 @@ symphonie, d’une construction assez libre, il est vrai, un Finale. Il viendra,
 précédé d’un rappel des thèmes du premier Allegro et de l’Adagio. Et,
 dans le dernier mouvement, « Allegro marziale animato », ce sont encore
 trois thèmes de l’Adagio qui dominent. Un rappel important du Scherzo
-
 amène la Coda, qui s’achève par une impétueuse péroraison où triomphe
-le motif initial.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003214_020.tif"/>
-<page><![CDATA[e
-
+le motif initial.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003214_020.tif'/>
+        <page>
+          <![CDATA[e
 UMION De
 BÀNOUEs
 SUISSES
-
- 
-
 ..
-
 NION
-
 DE
-
 BANQUES SUISSES
-
 -
-
 GENEVE
-
-Angle rue du Rhône et rue du Commerce]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003214_021.tif"/>
-<page><![CDATA[L’O. S. R. et la Presse
-
+Angle rue du Rhône et rue du Commerce
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003214_021.tif'/>
+        <page>
+          <![CDATA[L’O. S. R. et la Presse
 L'activité du chef de lO.S.R. est innombrable. Preuve en soit les deux confé-
 rences qu'il vient de donner coup sur coup à Genève et à Lausanne et dont la
 Presse rend compte en des termes les plus élogieux.
-
 On lit, en effet, dans la Feuille d’Avis de Lausanne du 29 janvier, sous le
-
 titre M. Ernest Ansermet parle de Strawinsky:
-
 « C’est un fait bien connu des psychologues que seuls les idiots, les primaires
 et les primitifs enregistrent leurs sensations à l’état pur, ou à peu près. Pour le
 commun des autres mortels, un écran d’appris, de conventions, d’interpréta-
 tions s’élève entre la conscience et la sensation, et s’y superpose. Nous en
 arrivons à ne plus avoir une notion fidèle de ce que nous voyons et percevons
 autour de nous.
-
 » Or, ce serait le mérite de Strawinsky d’avoir balayé l’appris et le conven-
 tionnel et d’avoir permis à ceux qui l’ont approché de prendre un contaet
 direct avec les éléments musicaux, accords, sonorités, rythmes. M. Ernest
@@ -891,84 +611,47 @@ fait voir les choses élémentaires, Strawinsky allait apporter à M. Ernest
 Ansermet une vision toute nouvelle de la musique. Mais prenons par le com-
 mencement de ce témoignage que l’on aimerait citer intégralement et qu’il
 nous faudra malheureusement mutiler.
-
 » La vie est faite de rencontres, dit M. Ansermet. Il en est qui vous
 labourent, vous transforment. Telle fut celle qu’il eut avec Strawinsky.
 Strawinsky vint en Suisse en 1910. Il avait quitté la Russie où régnait, en
 musique, un esprit petit-bourgeois et wagnérien qui l’horripilait. Après avoir
 beaucoup voyagé, à la russe, il se fixe à Lausanne, dans une petite pension, où
 il écrivit en partie Pétrouchka, puis à Clarens, aux Tilleuls, une grande maison
-
-locative, à côté de chez M. Ansermet. Celui-ci, à cette époque, dirigeait l’or-]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003214_022.tif"/>
-<page><![CDATA[PIANOS
-
+locative, à côté de chez M. Ansermet. Celui-ci, à cette époque, dirigeait l’or-
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003214_022.tif'/>
+        <page>
+          <![CDATA[PIANOS
 Steinway & Sons, Fôrster, Feurich,
-
 Schiedmayer, Wohlfahrt
-
 Hanna Jreifet
-
 FOGCAS T TON
-
 ÉCHANGE Passage du Terraillet, 20
 RÉPARATIONS Tél. 4 41 92 (ENTRESOL)
-
- 
-
- 
-
- 
-
 BOUFANGER(E FINE
-
 PANSSFRIE
 Chantepoulet, 10 Plantamour, 37
 Tél. 2 29 78 ® Tél. 2 58 09
-
 Fournisseur des grands établissements de Genève
-
- 
-
- 
-
- 
-
-UE e a e CN A U dn]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003214_023.tif"/>
-<page><![CDATA[i
+UE e a e CN A U dn
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003214_023.tif'/>
+        <page>
+          <![CDATA[i
 j
-
 Ps
-
 ME S r ur m
-
 RE e M T0 e
-
- 
-
 p
-
 cr
-
- 
-
 dn
-
- 
-
- 
-
 chestre du Kursaal de Montreux, mais ce ne fut que quelques années plus
 tard que les deux musiciens se rencontrèrent.
-
 » Ansermet, à cette époque, est encore tout imbu d’académisme. Il y a
 autour de lui Henri Dupare, de la Cierda, Seyriex, d’autres musiciens encore.
-
 Strawinsky va les épouvanter, les scandaliser. Ce diable d’'homme bouleverse
-
- 
-
 tout, mais avec une sensibilité étonnante, une vision très pure des éléments
 musicaux, dont il jongle. Il n’y a plus de règle pour lui que celle de son bon
 plaisir musical. Cette force qui le pousse à se réaliser en musique est la même
@@ -983,115 +666,70 @@ ces débordements. Il n’est pas toujours compris. Son langage séduit d’abor
 par sa nouveauté. Mais il déroute aussi. Debussy par exemple s’enthousiasme
 au premier contact, très vite il éprouve au voisinage du grand Russe une sorte
 de gêne.
-
 » Ansermet, qui l’a pratiqué plus à fond, n’a jamais cessé de le comprendre,
 de l’aimer, de l’admirer. Mais, si l’on admet que la musique n’est pas une fin
 en soi, mais un moyen, on peut se demander jusqu’à quel point Igor Strawinsky
 a réussi, reconnaît M. Ansermet, pour qui cependant la réponse ne fait aucun
 doute.
-
 » L’éminent chef d’orchestre, qui avait illustré son exposé d’anecdotes et
 de croquis extrêmement vivants et dont on buvait littéralement les paroles,
-
 fut l’objet d’une longue ovation. »
-
- 
-
 Le Journal de Genève du 3 février écrit, de son côté, sous le titre M. Ernest
-
 Ansermet parle de Hindemith:
-
 « Hier, dans la série des « Entretiens du mardi», organisés par le groupe
 culturel de la Chambre syndicale des musiciens, M. Ernest Ansermet a pré-
 senté la Symphonie en mi bémol de Hindemith, qu’il dirige ce soir au concert
 de l’O.S.R.
-
 » L’ouvrage qui nous arrive d’Amérique (on sait qu’Hindemith y séjourne),
 a procuré à M. Ernest Ansermet un choc comparable à celui qu’il ressentit en
 prenant connaissance du Sacre du printemps de Strawinsky. Sous un aspect
 extérieur simple, il contient un grand fond de nouveauté. Ainsi, la tonalité s’y
 présente sous un aspect neuf basé sur une conception et un usage particuliers
 des accords.
-
 » Hindemith a consigné la somme de ses expériences dans un traité qui est
-
- 
-
 appelé à prendre une place importante dans le proche avenir de la musique.
-
- 
-
 C’est à la lumière de cette théorie que le conférencier nous a exposé de la
 manière la plus brillante le mécanisme de la Symphonie en mi bémol, Elle
-
-présente les caractères fondamentaux de la symphonie classique inscrits dans]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003214_024.tif"/>
-<page><![CDATA[Le
+présente les caractères fondamentaux de la symphonie classique inscrits dans
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003214_024.tif'/>
+        <page>
+          <![CDATA[Le
 parfum de lavande
-
 est la plns belle
 offrande /
-
 Vente en gros:
-
 | F. Uhimann-Eyraud, S.A.
-
 Genève — Zurich
-
- 
-
- 
-
- 
-
-  
-  
- 
-  
-  
-
- 
-
 Toutes les
-
 Dernières Nouveautés
-
 aux prix les
 plus avantageux
-
- 
-
- 
-
 se trouvent chez
-
 Meschbach
-
-4, rue du Rhône, 4]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003214_025.tif"/>
-<page><![CDATA[une matière qui constitue l’apport personnel du compositeur. La comparaison
+4, rue du Rhône, 4
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003214_025.tif'/>
+        <page>
+          <![CDATA[une matière qui constitue l’apport personnel du compositeur. La comparaison
 avec Beethoven et Debussy fut, à cet égard, éclairante et convaincante.
 M. Ernest Ansermet nous montra encore la structure de chacun des mouve-
 ments de la nouvelle partition et en dégagea le climat psychologique par
 rapport aux grands thèmes humains.
-
 » Il fut applaudi chaleureusement par un auditoire nombreux qui avait
 suivi avec la plus vive attention ce captivant exposé.
-
 » Au début de la soirée, MM. Goehring, violoniste, Kunz, altiste, et MUe Mon-
 tandon, violoncelliste, avaient donné une belle interprétation du 2m® Trio
-
 de Hindemith. »
-
 A Neuchâtel, la Feuille d’Avis du 22 janvier publie les lignes suivantes :
-
 « Un des grands mérites de M. Ernest Ansermet réside dans la sûre élégance
 avec laquelle il compose les programmes des concerts de l’Orchestre de la
 Suisse romande. Tout y est richesse, mesure et intelligence, en dépit du goût
 hardi et parfois périlleux qu'il professe pour certaines œuvres d’une saveur un
 peu rude. La soirée d’hier, qui réunissait les noms de Schubert, Bach, Mozart
 et Ravel, en est une preuve nouvelle.
-
 » Elle débutait par la Symphonie n° 5 en si bémol, de’ Franz Schubert,
 qui fut écrite, on le sait, en 1816, alors que le musicien n’avait que dix-neuf ans.
 Et si l’on y retrouve cette grâce rêveuse et mélancolique, ces sonorités tendres
@@ -1099,249 +737,126 @@ et profondes, qui furent la marque personnelle du caractère et du génie du
 compositeur, certains motifs plus aigus — fulgurants — lui donnent une forte
 et délicate humanité. M. Ansermet et ses musiciens en ont présenté une inter-
 prétation nuancée et magnifique…; et les qualités expressives de l’allegro
-
 owace, notamment, furent rendues avec une admirable éloquence. »
-
 Enfin, au Grand-Théâtre de Genève, VO.S.R. se fait aussi apprécier. Le
 Courrier de Genève du 31 janvier le remarque en ces termes, en commentant
 l’interprétation du Barbier de Séville:
-
 « L’Orchestre de la Suisse romande était dirigé par le maestro Franz
 von Hoesslin, dont l’éloge n’est plus à faire. Sous sa baguette experte, l’'œuvre
 de Rossini fut exécutée dans un rythme excellent. Longuement acclamé par le
 public, le grand chef d’orchestre tint à associer les bons musiciens de l’O.S.R.
-
-aux interminables applaudissements qui lui étaient destinés. »]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003214_026.tif"/>
-<page><![CDATA[par Ï s- ll ouse téléphone 2 33 70
-
+aux interminables applaudissements qui lui étaient destinés. »
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003214_026.tif'/>
+        <page>
+          <![CDATA[par Ï s- ll ouse téléphone 2 33 70
 A
-
 Pn
-
- 
-
 paul daunay
-
 couturier
-
 E A O E A TV EUs
-
 t
-
-   
-
 5, rue des Alpes à e neve à
-
- 
-
- 
-
- 
-
 E E SS
-
- 
-
-V cm e]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003214_027.tif"/>
-<page><![CDATA[Prochain Concert :
-
+V cm e
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003214_027.tif'/>
+        <page>
+          <![CDATA[Prochain Concert :
 Mercredi 3 mars 1943, à 19 h. 45
-
 VICTORIA-HALL
-
 Direction :
-
 Kobert DENZLER
-
 AU PROGRAMME :
-
-Wagner - PDvorak -  Beethoven]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003214_028.tif"/>
-<page><![CDATA[PIANOS
-
+Wagner - PDvorak -  Beethoven
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003214_028.tif'/>
+        <page>
+          <![CDATA[PIANOS
 VENTE . ÉCHANGE
 LOCATION - ACCORDS
 ET RÉPARATIONS
-
-  
-
 H WEBERÿ
-
 EF
 FACILITÉS DE PAIEMENT Téléphone 2 36 51
-
-   
-
 RADIOS
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Maroquinier
 Ses modèles um'gues
 en sacs cÏap7‘c‘s—midi
-
 sacs du soir, elc.
-
 13, Confédération
-
- 
-
- 
-
- 
-
 ECTRICITE
-
 RRs
-
 l
-
- 
-
-RUE TA0S 0 CID N0ICES]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003214_029.tif"/>
-<page><![CDATA[CCCE és 060 E 0 Hiez
-
+RUE TA0S 0 CID N0ICES
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003214_029.tif'/>
+        <page>
+          <![CDATA[CCCE és 060 E 0 Hiez
 cu
-
 A P A d
-
 — E
 BÉEY 200e
-
 PE e L P r
-
- 
-
- 
-
 GRAND-THÉATRE
-
 SOCIÉTÉ ROMANDE DE SPECTACLES —  SAISON 1942-1943
 DIXIÈME ANNÉE
-
- 
-
 ÀA LA DEMANDE GÉNÉRALE
 Vendredi 19 et samedi 20 février 1943, à 20 heures
-
 DEUX REPRÉSENTATIONS SUPPLÉMENTAIRES DE
-
 FAUST
-
 x
-
 Vendredi 5, samedi 6 et dimanche 7 mars 1943
-
 LA CHAUVE-SOURIS
-
 x
-
 Vendredi 26 et samedi 27 mars
-
 LE MALADE IMAGINAIRE (création)
-
 de MOLIÈRE
 Musique de Jean DUPÉRIER
-
 x
-
 En préparation pour début de mai:
 SPECTACLE DE BALLETS
-
 LE VILLAGE SOUS LE GLACIER
-
 (légende valaisanne) de Heinrich SUTERMEISTER
-
 LE BEAU DIMANCHE (création)
 de Pierre WISSMER
 Chorégraphie de Delly et Willy FLAY
-
-ORCHESTRE ROMAND, direction: Ernest ANSERMET]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003214_030.tif"/>
-<page><![CDATA[Pour vos C.-1DË-—1 UX
-
+ORCHESTRE ROMAND, direction: Ernest ANSERMET
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003214_030.tif'/>
+        <page>
+          <![CDATA[Pour vos C.-1DË-—1 UX
 une Jolie idée de…
-
 MAITRE-
 FLEURISTE
-
 26, CORRATERIE - Tél. 452 55 Pas de succursale
-
- 
-
- 
-
- 
-
 PRIOR
-
 CORRATERIE, 9 - CITÉ, 18 — Téléphone 45071
-
 vend neuf et d’occasion
 achète
-
 expert Lse
-
 [()ll(’
-
 LIVRES ET MUSIQUE
-
- 
-
- 
-
-  
-
 HELVETIA-AGCIDENTS
-
 ACCIDENTS - RESPONSABILITÉ CIVILE, AUTOMOBILE
 MALADIE - EAU - GLACES - VOL - CYCLISTES, ETC.
-
-  
-
- 
-
- 
-
- 
-
-   
-
-  
- 
-
-  
-
-  
-
- 
-
-ln e S——]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003214_031.tif"/>
-<page><![CDATA[Orchestre de la Suisse Romande
-
+ln e S——
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003214_031.tif'/>
+        <page>
+          <![CDATA[Orchestre de la Suisse Romande
 Directeur :
-
 1ers piolons
-
 MM.
-
 Capoulade
 Neufeld
-
 Klein
-
 Echenard
 Bornand, M!e
 Breittmayer, Mle
@@ -1351,13 +866,9 @@ Gavalda
 Gœhring
 Guinand-Breguet, MMe
 Lacroix
-
 Leonardi
-
 Minkoft
-
 2mes piolons
-
 Perret
 Grandpierre
 Belin
@@ -1370,74 +881,49 @@ Lehmann
 Massarenti
 Meerson
 Reichel
-
 Schwoek
-
 Altos
-
 Krausz
 Sougné
 Borgeaud
 Challand
 Kunz
-
 Pilet
-
 Robert, Mlle
 Schenker
-
 Ernest ANSERMET
-
 Violoncelles
-
 MM.
-
 Honegger
 Buenzod
-
 Faller, MHe
 Guignard
 Montandon, MHe
 Morel
-
 Reinhard
-
 de Ribaupierre
-
 Contrebasses
-
 Fryba
 Bouillod
 Barroux
 Faller
 Gros
 Zinsstag
-
 Flûtes
-
 Pépin
 Roy
 Meschini
 Bretton
-
 Hautbois
-
 Dennes
 Fauquex
-
 Cullet
-
 Guilhot
-
 Clarinettes
-
 Hoogstoel
 Gugolz
-
 Thomann
-
 Lavanchy
-
 Bassons
 MM.
 Helaerts
@@ -1450,13 +936,10 @@ Galletti
 Fritz
 Ristori
 Trompettes
-
 Bodet
 Bernard
 Bindschedler
-
 Weber
-
 Trombones
 .\l()l'l4']       
         </p>
@@ -1466,261 +949,143 @@ Trombones
 Barat
 Tabachnik
 Tuba
-
 Laurent
-
 Batterie
 Peschier
 Beck
-
 Trémège
-
 Harpes
-
 de Sanctis, MMe
-Vita]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003214_032.tif"/>
-<page><![CDATA[POUR VOUS CRÉER
+Vita
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003214_032.tif'/>
+        <page>
+          <![CDATA[POUR VOUS CRÉER
 UN MÉTIER D’ART
-
- 
-
- 
-
 La nouvelle méthode de l’AAA permet de former en atelier des
-
 professionnels de l’art ayant un métier immédiatement négociable.
-
 Académie d’Arts Appliqués
-
 W. BORDIGONI, Directeur
-
 1 PROMEN DE DU PIN GENÈVE
 Dessin publicitaire -  Dessin de mode
-
 Photographie - Sculpture - Décoration
-
 COURS DU SOIR: OUVERTURE 14 SEPTEMBRE
-
- 
-
- 
-
- 
-
 » Ln PHARMACIE
 G BRÛN S SF> IES
 18, PLÂCE LONGEMALLE
 GEN ÈV E
-
 est l'une des principales et plus
 anciennes de Genève
-
- 
-
- 
-
- 
-
 CLR TL RE
-
- 
-
- 
-
 TPE T E PE TAnE
-
 WiLLUNR
-
-LIQUEUR D'ANIS]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003214_033.tif"/>
-<page><![CDATA[Dn A p ce dh p
-
+LIQUEUR D'ANIS
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003214_033.tif'/>
+        <page>
+          <![CDATA[Dn A p ce dh p
 c
-
 ?
 '.
 |
 |
 ;
-
- 
-
- 
-
 A LA COMÉDIE
-
- 
-
 PROCHATNS. SPECTACLES
 LA CENDRE CHAUDE
 de Henry BORDEAUX et E. LEBLOND (création avant Paris)
-
 *
-
 L’AMANT DE MADAME VIDAL
-
 Comédie gaie de Louis VERNEUIL, avee Madame Germaine MONTERO
 x
-
 Samedi 27 février: Cinquième matinée classique :
-
 LORENZACCIO
-
 d’Alfred de MUSSET, adaptation nouvelle de F. FOSCA
-
- 
-
- 
-
 GOTH & Co S.A.
-
 6, rue du Mont-Blanc
-
 TRANSPORTS MARITIMES ET TERRESTRES
 DÉDOUANEMENT — AGENCE DE VOYAGES
-
 Tél. 281 43 Services spéciaux pour tous pays d’Europe et outre-mer
-
- 
-
- 
-
-  
-
- 
-
 D" LAURENT REHFOUS
-
 EXPERT
 achète aux plus hauts DI
-
 ARGENTERIE ANCIENNE
-
 TABLEAUX DE QUALITÉ DE L'« ÉCOLE GENEVOISE »
 MEUBLES ANCIENS
-
 BELLES PORCELAINES DE NYON
-
 MINIATURES
-
 18, CORRATERIE-GENÈVE
-
-    
-
-Tél. 5 24 41]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003214_034.tif"/>
-<page><![CDATA[AVIS
+Tél. 5 24 41
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003214_034.tif'/>
+        <page>
+          <![CDATA[AVIS
 L’Administration de l’O.S.R.
-
 serait infiniment reconnais-
-
 sante aux auditrices de ses concerts de bien vouloir enlever
 leur chapeau au Victoria-Hall, comme elles le font déjà au
-
 Grand-Théâtre.
-
 Nous pouvons les assurer d’avance de la gratitude de nom-
-
 breux spectateurs.
-
- 
-
 HOTEL DES BERGUES
 RESTAURANT
-
 Salons et salles pour
 conférences, réceptions,
 noces, etc.
-
 TÉL. 2 66 45
-
 RESTAURANT AMPNITAYON
-
 BAR (Place des Bergues)
-
 Menus soignés
 Spécialités culinaires
-
 SERVICE EN VIÈÉE
-
 TÉL. 2 69 56
-
- 
-
- 
-
- 
-
 ERN
 OE
-
 28, Rue du Rhône
-
 G) F
-
 OBJETS D'ART - CRISTAUX
 CÉRAMIQUE COLIFICHETS
 BIJOUX FANTAISIE
-
- 
-
- 
-
- 
-
 Dans un dénuement complet, affaibli par les
-
- 
-
 privations, ,
 moyen de sortir d'une pareille misère était de
-
 “prêcher à l’humanité les principes
 libérateurs de l’aide et de l’entr’aide”’.
-
 La Coopération est la réalisation de son idée.
 Elle éduque ses adhérents à la solidarité et à
 l'économie et élève leur niveau d'existence.
-
 Pestalozzi reconnut que le seul
-
 Adhérez donc à la
-
 COOPÉRATIVE
 DE GENEÈVE
-
 pour collaborer utilement à l'avènement d'un
-avenir meilleur.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003214_035.tif"/>
-<page><![CDATA[CAISSE
-
+avenir meilleur.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003214_035.tif'/>
+        <page>
+          <![CDATA[CAISSE
 HYPOTHÉCAIRE
-
 DU CANTON
 D'ÉGENBVE
-
 Instituée  par |a
 Constitution de 1847
-
 MOLARD, 2
-
 Prêts et crédits hypothécaires
 “ Certificats de dépôt
-
 Livrets d'épargne
-
- 
-
- 
-
 |
 .f
 (
-ë]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003214_036.tif"/>
-<page><![CDATA[]]></page>       
-        </p>
+ë
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003214_036.tif'/>
+        <page><![CDATA[]]></page>
+      </p>
     </body>
   </text>
 </TEI>

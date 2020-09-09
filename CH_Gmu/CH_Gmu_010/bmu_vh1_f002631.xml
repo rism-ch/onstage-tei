@@ -1,141 +1,117 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert symphonique (Troisième de l'abonnement)<date when="06/11/1926"/></title>
-<series>1926-1927</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert symphonique (Troisième de l'abonnement)
+            <date when='06/11/1926'/>
+          </title>
+          <series>1926-1927</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002631</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Ansermet, E. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19261106"/>
-<title>Concert symphonique (Troisième de l'abonnement)</title>
-<placeName key="Victoria Hall"/>
-<name key="1926-1927" type="series"/>
-<name key="Bach, Johann Sebastian" ref="https://muscat.rism.info/admin/people/2539" type="person" role="cmp">Bach, Johann Sebastian</name>
-<name key="Honegger, Arthur" ref="https://muscat.rism.info/admin/people/464584" type="person" role="cmp">Honegger, Arthur</name>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Roland-Manuel"  type="person" role="cmp">Roland-Manuel</name>
-<name key="Ibert, Jacques" ref="https://muscat.rism.info/admin/people/30021293" type="person" role="cmp">Ibert, Jacques</name>
-<name key="Liszt, Franz" ref="https://muscat.rism.info/admin/people/107196" type="person" role="cmp">Liszt, Franz</name>
-<name key="Ansermet, Ernest  (dir.)" ref="https://muscat.rism.info/admin/people/40219507" type="person" role="int">Ansermet, Ernest  (dir.)</name>
-<name key="Orchestre de la Suisse Romande" ref="https://muscat.rism.info/admin/people/50007615" type="person" role="int">Orchestre de la Suisse Romande</name>
-<name key="Choeur romand"  type="person" role="int">Choeur romand</name>
-<name key="Aubert, Johnny"  type="person" role="int">Aubert, Johnny</name>
-<name key="Closset"  type="person" role="int">Closset</name>
-<name key="Dennes"  type="person" role="int">Dennes</name>
-<name key="Kaucky"  type="person" role="int">Kaucky</name>
-<name key="Scheiwein"  type="person" role="int">Scheiwein</name>
-<name key="Braillard-Verdan (Mme)"  type="person" role="int">Braillard-Verdan (Mme)</name>
-<name key="Mongenet (Mlle)"  type="person" role="int">Mongenet (Mlle)</name>
-<name key="Duret (Mlle)"  type="person" role="int">Duret (Mlle)</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002631_001.tif"/>
-<page><![CDATA[MEF ETEF ETEF x
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19261106'/>
+        <title>Concert symphonique (Troisième de l'abonnement)</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1926-1927' type='series'/>
+        <name key='Bach, Johann Sebastian' ref='https://muscat.rism.info/admin/people/2539' type='person' role='cmp'>Bach, Johann Sebastian</name>
+        <name key='Honegger, Arthur' ref='https://muscat.rism.info/admin/people/464584' type='person' role='cmp'>Honegger, Arthur</name>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Roland-Manuel' type='person' role='cmp'>Roland-Manuel</name>
+        <name key='Ibert, Jacques' ref='https://muscat.rism.info/admin/people/30021293' type='person' role='cmp'>Ibert, Jacques</name>
+        <name key='Liszt, Franz' ref='https://muscat.rism.info/admin/people/107196' type='person' role='cmp'>Liszt, Franz</name>
+        <name key='Ansermet, Ernest' ref='https://muscat.rism.info/admin/people/40219507' type='person' role='int'>Ansermet, Ernest</name>
+        <name key='Orchestre de la Suisse Romande' ref='https://muscat.rism.info/admin/people/50007615' type='person' role='int'>Orchestre de la Suisse Romande</name>
+        <name key='Choeur romand' type='person' role='int'>Choeur romand</name>
+        <name key='Aubert, Johnny' type='person' role='int'>Aubert, Johnny</name>
+        <name key='Closset' type='person' role='int'>Closset</name>
+        <name key='Dennes' type='person' role='int'>Dennes</name>
+        <name key='Kaucky' type='person' role='int'>Kaucky</name>
+        <name key='Scheiwein' type='person' role='int'>Scheiwein</name>
+        <name key='Braillard-Verdan (Mme)' type='person' role='int'>Braillard-Verdan (Mme)</name>
+        <name key='Mongenet (Mlle)' type='person' role='int'>Mongenet (Mlle)</name>
+        <name key='Duret (Mlle)' type='person' role='int'>Duret (Mlle)</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002631_001.tif'/>
+        <page>
+          <![CDATA[MEF ETEF ETEF x
 ORCHESTRE DE LA SUISSE ROMANDE
-
- 
-
 —
-
 -
-
 VICTORIA-HALL
-
 Samedi 6 novembre 1926, à 20 heures et Oemie
-
 CONCERT SYMPHONIQUE
-
 (Troisième de l'Abonnement)
-
 Soliste: M Jolunny AUBERT, pianiste
-
 PREMIÈRE PARTIE
-
 » CONCERTO BRANDEBOURGEOIS n° 1, en Jfa
 majeur, pour deux cors, trois hautbois, basson,
 violon concertant et instruments à cordes J.-S. Bach
 Allegro - Adagio - Allegro - Menuet et Polonaise.
-
- 
-
- 
-
- 
-
 Violon concertanl : M. CLosseT.
 Hautbois solo : M. Dennes.
 Coro : MM. Kaucxy et SCHEIWEIN.
-
 - CANTIQUE DE PAQUES, pour trois voix de
-
 femmes, chœur de femmes et orchestre (1"° audition) . Honegger
 Soliotes : Mme BraitLARD-VerpaN, Mlle MONGENET,
 Mlle Durer - Le Cuœur RoManD.
-
 - FANTAISIE pour piano, chœur et orchestre Beethoven
-
 M. Johnny AUBERT et Le CHœur Romanp.
-
- 
-
- 
-
 DEUXIÈME PARTIE
 - TEMPO DI BALLO (1"° audition) Roland-Manuel
-
 - Trois pièces de ballet extraites des RENCONTRES
 (a”° audition) Jacques Ibert
 a) Les Bouquetières. - 6) Les Créoles. - c) Les Bavardes.
-
 . CONCERTO en mi bémol, pour piano et orchestre .. _ Liszt
 Allegro maestoso.
 Quasi adagio ; Allegretto vivace ; Allegro marziale.
-
 M. Johnny AUBERT.
-
 L'Orchestre sera dirigé par
-
 M. Ernest ANSERMET
 Coucert Bront ‘exéontées p:r LE CHŒUR ROMAND
-
 Piano de concert Steinway and Sons aux soins e la Haïson Cb. Berguer.
-
- 
-
 e
 ;
 :‘
@@ -145,11 +121,9 @@ e
 ;
 j
 W
-
 Ë
 ;‘
 v
-
 f‘
 g‘
 g‘
@@ -159,7 +133,6 @@ k
 Ë
 “
 K
-
 B
 h
 e
@@ -174,11 +147,9 @@ f
 :.
 PS
 W
-
 5
 “
 Ç
-
 ;
 %
 é
@@ -210,102 +181,67 @@ x
 E
 ;
 .
-
 ;
 “
-
 CEI E FN T e e en e es e e e es e e I e Y N I N IMN NN NNN NNN III NNN N NNN ISSN SIS
-
- 
-
 VUTF
 >*
-
 II III I III II I II I II I IIN III III Is e II e SD e YY II III I GIN
-
-t t m r 0 _WVA4\M1M\A}]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002631_002.tif"/>
-<page><![CDATA[Ç
+t t m r 0 _WVA4\M1M\A}
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002631_002.tif'/>
+        <page>
+          <![CDATA[Ç
 C
 Ç
-
 Ç
 Ç
 Ç
 Ç
 (
-
 C.
-
 »
-
 avaus?
 95989
-
 |
-
 s-
-
 S
-
 Aimé KLING
-
 LUTHIER
-
 S-
-
 CISP SISI3 78
-
 == TT
-
 Ps
-
 A pe r aclman se sm
 e —
-
 12 Rll€ Di(l(lL‘ (,)l't'…f1'!‘ ùlagc/)
-
 Ç
 (Ç.
 Ç
-
 C
 t
 (
 (Îy .-.:.. ,
 c INSTRUMENTS:' ANCIENS
-
 A UOHEI S PU
-
 (] S ‘i
 ce 2R QS
 Ë | l . :: A '“\Û\ç
-
 b>
-
 £ %
 - ax ns n n n sn nn n d" RR RR Ps nAOD DON EN 90 aoa-no 5no-_Dbir
 3{@Uü\—)\—?»—)\—?\—/‘\_)\_?\—(\—/\_{\_/\«'\—.«‘\—.("——.—/\.—4\—(‘—...«’».1\_4V\—-\—.—}—«
-
 %
-
- 
-
 S ” MA\SON
 ÿ OS* FonDEE EN 1830 £_Â’ '
 ; GENEVE
-
 A
 2S
 N ‘ N
 % \‘
-
 A S, N
-
 » , ;
-
- 
-
 C N
 <N S
 N Ÿ N
@@ -315,29 +251,21 @@ N N
 v
 |
 \
-
-f]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002631_003.tif"/>
-<page><![CDATA[HF CI EAIGCEIEIEST CT
-
+f
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002631_003.tif'/>
+        <page>
+          <![CDATA[HF CI EAIGCEIEIEST CT
 HE CI CI CGT CETEST E T
-
 aesecoe
-
 IEFCICICEIEaGAIEITE
-
 æ
-
 HIEICIEIG ETE
-
 —E C CIOI GCOI6
-
 Ü(’/."M("'}f" ETE IEICIETEITICEAICAIGIDaE3SAOaMaaae AI AADE DE
-
 ‘ Jean-Sébastien BACH
-
 Né à Eisenach le 21 mars 1685, mort à Leipzig le 28 juillet 1750.
-
 C’est à Cüthen en 1721, que Bach écrivit les six Concertos dédiés
 au margrave Christian-Ludwig de Brandenbourg, et appelés pour
 cette raison Concertos brandebourgeois. Présentant tour à tour ou à la
@@ -370,101 +298,55 @@ basses; l’allegro 6/8 qui suit est d’une nature plus rythmique et
 moins polyphonique que 'le‘premÎer.'f‘ApÎ‘ès ces trois morceaux, qui
 sont les éléments habituels du genre, Bach conclut par un ensemble
 de danses, constitué par les reprises d’un menuel qui aurait trois
-
 Irios : le premier pour deux hautbois et basson ; le deuxième pour
 ! [ E ‘ f 1 trraa
-
 MD A IV OD
-
 AI DVDV OVR DOEOLODOAOIIA0VI DE S
-
 AIDB3ID III A O SO ,
-
-GaOo/aOoOaS09aAOAOOAO0oI0Ia.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002631_004.tif"/>
-<page><![CDATA[ABRONNEMEN T Le plus grand assortiment, complété des
-
+GaOo/aOoOaS09aAOAOOAO0oI0Ia.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002631_004.tif'/>
+        <page>
+          <![CDATA[ABRONNEMEN T Le plus grand assortiment, complété des
 nouveautes intéressantes, ainsi que des
-
- 
-
 œuvres jouées aux concerts de l'O. S. R.
-
 ——
-
 En vente : Part:tton.v (l 0rc}1estrc’ pour sutvre au concertv
-
- 
-
- 
-
 S3* ali DISQUES de musique sérieuse — Orchestre
 Musique de chambre — Chant — Instruments, etc., etc.
 Œuvres jouées aux concerts, pour autant qu'elles ont paru.
-
 GRAMOPHONES
-
- 
-
- 
-
- 
-
 TEINTURE ET LAVAGE CHIMIQUE
-
 Netloyage à sec - Décatissage - Costumes bals el soirées
-
 ——
-
 E & ! BÆCHLER Frères
-
 Tour-de-l’Ile, 4 - Cours de Rive, 2 - Grand'Rue, 3
 Place du Molard, 3 - Rue du Mont-Blanc, 7 - Rue Leschot, 6
 Servette, 3 - Boul. Georges-Favon, 17 - Rue de Carouge, 71
-
 Usine : Rue de Lausanne, 84
 GENÈVE
-
 ——
-
 Dépoussiérage et nettoyage cle tapis et ameuhlements
-
 cr rn cr es e ns rrrc e
-
 P E S
-
- 
-
- 
-
- 
-
- 
-
- 
-
 p v e c DS
-
-e]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002631_005.tif"/>
-<page><![CDATA[EF CF PI TS OI CEI OF OLU CLS OS CVOV m(‘ÆMÜAÏÛÆÜÆFÆM“…Ü'ÆC‘ÆMMMM
-
+e
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002631_005.tif'/>
+        <page>
+          <![CDATA[EF CF PI TS OI CEI OF OLU CLS OS CVOV m(‘ÆMÜAÏÛÆÜÆFÆM“…Ü'ÆC‘ÆMMMM
 {Æ“Œ'ﬂ(‘/_"(‘.â“’ﬂ("ﬂ PICIP3E3TEVP77
-
 cordes seules (polacca), le troisième pour deux cors et trois hautbois.
 Ce concerto est écrit pour deux cors, trois hautbois, un basson,
 un violon piccolo (dont la partie est exécutée aujourd’hui communé-
-
 ment par un violon ordinaire) et l’ensemble des cordes.
 AJe >fe f
-
 Arthur HONEGGER
-
 Né au Havre le 10 mars 1892.
-
 Le Cantique de Pâques date de juillet 1918. Il faisait partie d’un
 projet d’œuvre plus considérable qui fut dès lors abandonné.
-
 « Le Cantique, dit M. André Georges, a la douce allégresse d’un
 matin de résurrection. Les voix des trois solistes entrent successive-
 ment, piano, a cavella, figurant les trois saintes femmes surprises
@@ -475,7 +357,6 @@ solistes reprennent leur alleluia et, tout à coup, un chœur lointain
 y répond. Toutes les voix et les instruments se mêlent dans une
 expression de religieuse allégresse que prolonge l’orchestre, tandis
 que les derniers échos des voix se font encore entendre.
-
 On reconnaîtra dans ce Cantique quelques traits des alleluia du
 Rot David qui devait venir plus tard. On y reconnaîtra surtout la
 polyphonie caractéristique de Honegger, et qui est clairement définie
@@ -487,118 +368,57 @@ plicité harmonique. Je trouve au contraire que nous devons nous
 servir des matériaux harmoniques créés dans cette école qui nous a
 précédés, mais dans un sens différent, comme base à des lignes et à des
 rylhmes. Bach se sert des éléments de l’harmonie tonale comme je
-
 voudrais me servir des superpositions harmoniques modernes. »
-
 e h 4
-
 MMM“MM““…D‘DM%M}O‘.“”“””…D‘“”.‘
-
 DIS DES3ODSDIDDE DEDE ALGOANDaA—HAa—
-
 OO AOAOOSDVAOIAIELSIS3ESILADICIEBAaan
-
 à
 à
-à]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002631_006.tif"/>
-<page><![CDATA[rr 752en e t
-
+à
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002631_006.tif'/>
+        <page>
+          <![CDATA[rr 752en e t
 0600600000 000060000000000009000006000000000000000000000006060620600000000000000007
-
- 
-
- 
-
- 
-
 Cs ,
-
 Corralerie, 9, aut 1€
-
 MUSIQUE NEUVE ET D'OCCASION
-
 Partitions de poche des œuvres d'orchestre,
 littérature musicale, etc.
-
 ABONNEMENT
 aux livres et à la musique. Pour le prix excep-
 tionnel de 12 fr. par an, vous pouvez lire ou Jouer
 foutes les nouveautés littéraires et musicales.
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Vhs00090000000000V000900090000 004000970000 0DD0VC00DO0DO000O09DONO9O0ONODOOCONDOSSCSLCOO000000000R000OHHOD00
-
 : INSTITUT JAQUES-DAICROZE
-
 EN P VH
-
 R )'tllllli(llh‘ SollL—gv
 Théorie du R ytlnne
-
 Pi.‘\ll0
-
 1111})r0vi<:ttinn
-
 H:lrmunn'
-
- 
-
 I(‘Î('lll]i(]ll(’ \‘U!‘l)()l'(‘ll(‘ et Pl:lSîi(lll(* ﬂllilll(;(‘,
-
 1. Cours pour amaleurs, adultes et enfants
 ; ; ;
 2. Couré profèsstonnets a) Cours supertéui b) Coura /n‘«’«h/.h]…/u‘.'.
-
 E ; ‘ à ;
 Cours préparant à l’enseignement de la mélbode Jaques-Dalcroze (examen du
 certificat et du diplôme).
-
 lous les cours seront donnes ou ixn3«w tes par M. l.\Qî‘+,$-Ï)A!\NM/I
-
 qui a repris toute son acfivite à l'Institut Centralde Genève
 ] E
-
-   
-
 cluo au Secrélarial, 44, Terracdière.
 00.10" #......... ....ll.....I.....l..|..l'.l.l...'l...l...l.llII.....OI....'I...
-
- 
-
-VHOUCHONCCOGOUCCOHOOOOVEOGHSOHOGUA0S0HHOOGOTUAGSOADOVUCCOACOCOLHHACOVGCSONACHACNNE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002631_007.tif"/>
-<page><![CDATA[(ESIPIETEIEICEIEVETETCESOICITOETETOHETCEGTEIOGTOETOGTOEITEITOEIOITOI CI
-
+VHOUCHONCCOGOUCCOHOOOOVEOGHSOHOGUA0S0HHOOGOTUAGSOADOVUCCOACOCOLHHACOVGCSONACHACNNE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002631_007.tif'/>
+        <page>
+          <![CDATA[(ESIPIETEIEICEIEVETETCESOICITOETETOHETCEGTEIOGTOETOGTOEITEITOEIOITOI CI
 Ludwig van BEETHOVEN
-
 Né à Bonn le 16 décembre 1770, mort à Vienne le 26 mars 1827.
-
 La première idée d’écrire une fantaisie chorale dans le genre
 de celle qui nous occupe remonte chez Beethoven aux environs de
 l’année 1800. Il en note des esquisses dès son op. 18. Mais la
@@ -608,124 +428,72 @@ d’en faire un brillant final pour un concert auquel Beethoven
 attachait une grande importance et qui devait avoir lieu le
 22 décembre 1808 à l’Académie musicale de Vienne. Voici le pro-
 gramme de ce concert mémorable, composé de morceaux « entière-
-
 ment nouveaux et jamais encore joués en public » :
-
 1. Une symphonie, intitulée « Souvenirs de là vie des champs »,
 en /a majeur (n° 5).
-
 Un Air.
-
 Un hymne latin (fragment de la Messe en u().
-
 CEI CEI CT C CICEHETCIOGIETGENCEGENTENCIESTENETHE aeswemœes
-
 Un Concerto pour piano, joué par l’auteur (sol majeur).
 Une grande symphonie en ué mineur (n° 6).
 Un Sanctus (autre fragment de la messe en uf).
-
 N 6 exs us
-
 Fantaisie pour piano, chœur et orchestre.
-
 (On voit qu’à ce moment-là, Beethoven attribuait à la Symphonie
 pastorale le n° 5, et à l’u( mineur le n° 6.)
-
 CO DESDDODDMUDASDOAIDIOIDVMAIaDOOOIOODO AI DO A DIODD PLOn
-
 Ce concert fut semé d’incidents de tous genres. « Nous sommes
 restés assis, dit en substance un auditeur, de 6 heures et demie à
 11 heures du soir dans une température glaciale, et nous avons pu
 nous convaincre par expérience qu’il ne faut pas abuser des
 meilleures choses et encore moins des choses fortes. » La cantatrice
 chargée de chanter l’Aria fut prise d’une telle peur en arrivant sur
-
 EF EITETETCOTHEFETEICETCAPLTETESse
-
 la scène, qu’elle ne put émettre aucun son convenable et les forti-
 flants au moyen desquels on chercha à la réconforter, achevèrent
 de la mettre hors d’état de se produire. Les répétitions avaient été
 si insuffisantes et les parties d’orchestre si hâtivement préparées
 que l’exécution, dit un journaliste « fut de tous points défectueuse. »
-
 La Fantaisie était annoncée de la manière suivante : « Fantasie
-
 BEICTHETEIOTET@EIT
-
 TD DLD DAIOO0a3aAUVOO DO A0ara
-
-KOD DE AI IOOE OEOE OIOI O Aa OO OarOmaOaarDaaman DEDEN]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002631_008.tif"/>
-<page><![CDATA[PR C S E
-
+KOD DE AI IOOE OEOE OIOI O Aa OO OarOmaOaarDaaman DEDEN
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002631_008.tif'/>
+        <page>
+          <![CDATA[PR C S E
 0 IERE CTF RE EES TEIN
 A E E E A T T T E T T T T T TT TT e TT T T e
-
- 
-
 } >
 H } t4
 e tn
-
 SOCIÉTÉ DE
-
 . BANQUE SUISSE ;
-
 FONDÉE EN 1872
 CAPITAL-ACTIONS et RESERVES
 FRANCS : 153 MILLIONS
-
 ——
-
 1
 ;
-
 TT mn T
-
 6, Corratere  GENEVE Corraterie, 6
 CORNAVIN EAUX-VIVES
 10, place de Cornavin | 3, pl. des Eaux-Vives \EH
-
 PLAINPALAIS | CAROUGE
-
 36, rue de Carouge | 11, rue du Marché
-
 sR 5
-
 Toutes opérations de Banque et de Change, aux
-
- 
-
- 
-
 tronttomionioiii
-
 meilleures conditions.
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 ue
-
-0T C L t]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002631_009.tif"/>
-<page><![CDATA[DE PE rFs TF
-
- 
-
+0T C L t
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002631_009.tif'/>
+        <page>
+          <![CDATA[DE PE rFs TF
 l“APÆFÆ('/:ÏMMPÆMF/QPAÏC‘.‘I”MM”/°PÆMMMŒ
-
 Ë
 $
 S
@@ -741,13 +509,8 @@ $
 ;
 ;
 S
-
 en
-
 ;
-
- 
-
 auf dem Clavier, welche sich nach und nach mit Eintreten des
 ganzen Orchesters, und zuletzt mit Einfallen von Chèëren als Finale
 endet. » La cadence de piano (que jouait Beethoven) par laquelle
@@ -758,7 +521,6 @@ de l’insuccès de l’exécution, il n’avait « pas eu le temps de le mettre
 en partition ». Il s’en suivit une confusion dans l’orchestre, qui
 obligea à recommencer devant une salle presque vide, car la
 plupart des auditeurs avaient fui.
-
 Ce qui fait l’importance de la Fantaisie, c’est qu’elle est un témoi-
 gnage de ce qui fut la pensée constante de Beethoven et qui devait
 trouver sa forme définitive dans la IX: Symphonie. La substance
@@ -769,7 +531,6 @@ moyens si curieusement élaborés et, en soi, si débiles. Beethoven
 n’est-il pas revenu, dans certains fragments de sa dernière manière,
 à cette sorte de rusticité et de simplicité robuste qui caractérisent
 le fonds même de sa nature musicale ?
-
 Le thème des variations du finale est emprunté à un lied intitulé
 Gegenliebe, écrit sur des vers de Biürger, en 1795. Ce thème, qui est
 l’ancêtre incontestable de l’Ode à la Joie, et qui exprimait dans le lied
@@ -784,11 +545,7 @@ phonie, désigne la demeure de l’Etre divin « au-dessus des étoiles »,
 se retrouve à la même place et dans le même ton vers la fin de la
 Fantatsie pour symboliser l’union d’Amour et de Puissance, qui est
 réalisée en Dieu seul. »
-
-  
-
 E PI BV BIETETBT GT BTB A IBCTED ETE eaea…g
-
 à
 û
 à
@@ -824,107 +581,59 @@ $
 Û
 ë
 à
-
-”…””MD@“”“…W%%””D@WDŒI”D@OŒS]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002631_010.tif"/>
-<page><![CDATA[en
+”…””MD@“”“…W%%””D@WDŒI”D@OŒS
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002631_010.tif'/>
+        <page>
+          <![CDATA[en
 FURMOTO
 et l(‘
-
 \ SOLITAIRE ,
-
- 
-
-     
-     
-   
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-   
-
 ([REDARDe c< moRGES) }
-
-O D E E R e r É]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002631_011.tif"/>
-<page><![CDATA[RS C A
-
+O D E E R e r É
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002631_011.tif'/>
+        <page>
+          <![CDATA[RS C A
 d
-
 sn
-
- 
-
 TALAMEE Eh RE Rn
-
 PEn
-
 T rrs
-
 r rrrs
-
-   
-
- 
-
- 
-
 CIC CEI ETE II CI E3 GI CECIGETETET
-
- 
-
 II CI CIEITIGOIOICIESCIETEIETITETETETESE FCICEICEICEAIEIOCIETOIECTETtYE
-
 æ
-
 PEAIEIEIOEITOEITEITCICTIOETOCIOEITOTPIBIVOT DIETCIEIOEIOTETOETOEIOETOITOI
-
 Les paroles lranserites ci-après sont une aodaptalion de Bellanger qui
-
 dénalure malheureusement le sens primitif de l'œuvre. C'est pourquoi nous
-
 les faisons précéder du texte allemand original.
-
 Schmeichelnd hold und lieblich klin-
 gen unseres Lebens Harmonien, und
 dem Schänheitstum entschwingen Blu-
 men sich, die ewig blühn.
-
 Fried' und Freude gleiten freundlich
 wie der Wellen Wechselspiel ; was sich
 drängte rauh und feindlich, ordnet sich
 zu Hochgefühl.
-
 Wenn der Tône Zauber walten und
 des Wortes Weihe spricht, muss sich
 Herrliches gestalten, Nacht und
 Stürme werden Licht, äuss’re Ruhe,
 inn’re Wonne herrschen für den Glück-
 lichen.
-
 Doch der Künste Frühlingssonne
 lässt aus beiden Licht entsteh’n.
-
 Grosses, das in's Herz gedrungen,
 blüht dann neu und schän emport, hat
 ein Geist sich aufgeschwungen, häll’t
 ihm stets ein Geisterchor.
-
 Nehmt denn hin, ihr schônen Seelen,
 froh die Gaben schôèner Kunst. Wenn
 sich Lieb’ und Kraft vermählen, lohnt
 dem Menschen Gätter Gunst.
-
 Dieu puissant, qui nous a donné la vie
 Pour t'aimer, pour te bénir,
 Nous suivons ta loi chérie ;
@@ -933,19 +642,14 @@ Le bonheur qui fuit sur terre
 N'est jamais bien regrette
 Quand notre âme libre et fière
 Doit rêver l’éternité !
-
 D'une chaîne trop cruelle
 Nous sentons le poids encor ;
 Vers ta gloire paternelle
-
 Nous prendrons bientôt l'essor,
 Ta parole nous rappelle
-
 Du sein même du trépas,
-
 Et notre âme est immortelle
 Dans l'asile de tes bras.
-
 Le Seigneur en sa clémence
 Nous prodigue ses bienfaits ,
 Le trésor de sa puissance
@@ -953,15 +657,9 @@ Ne saurait tarir jamais.
 L'univers est son ouvrage
 Qui proclame sa grandeur,
 L'univers dans son langage
-
 Dit la gloire du Seigneur.
-
- 
-
 e f se
-
 DCUX jeunes musiciens français
-
 Sans avoir inventé aucun «isme», ni fondé de tendance carac-
 térisée, Jacques Ibert et Roland-Manuel sont deux représentants
 remarquables de la génération actuelle des musiciens français et de
@@ -973,131 +671,63 @@ l’influence des dernières œuvres de Strawinsky et notamment de son
 Pulcinella, d’autre part un retour à ce ton d’agrément ou de diver-
 tissement de la musique française du second empire, qui fut celui
 de Gounod, Bizet et Delibes, qui vit encore dans Chabrier et hanta
-
 EDL OOAOIDEDIAaG DSD DE OM OO OO O AOooOoaaoaAacaa
-
-     
-  
-
-   
-
 A3 003 AOAO0OAOL A A 7
-
-OVIVU3 OADOIDMUUM AI3 MDOODIDDAOASSGODU OV A3aOAaa—DE-]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002631_012.tif"/>
-<page><![CDATA[ERNEST BAUER
+OVIVU3 OADOIDMUUM AI3 MDOODIDDAOASSGODU OV A3aOAaa—DE-
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002631_012.tif'/>
+        <page>
+          <![CDATA[ERNEST BAUER
 Chant
-
 Boulevard James-Fazy, 17
-
 Willy PERRET
-
 Cours D'ÉLÈvEs
-
 PROFESSFURS
-
 ÉCOLE ARTISTIQUE DE MUSIQUE
-
 Directeurs :
 Solisle de l'Orcheetre Je la Suisse Romande, violon
-
 10, rue du Conceil-Général
-
-  
-
- 
-
 E. KNECHTLI-BERAN
-
 Piano
-
 3, rue Louis-Duckhosal (Rive)
-
 Louis PIANTONI
-
 Directeur u Cercle Choral de Genève, piano
-
 LEÇONS PARTICULIÈRES
-
- 
-
 00000020/000000000000000000000000C00000000000
-
 H. KBIPER
-
 Violoncelle
-
 Rue des Granges, 11 Tel. St. 58.09
-
 E. BERTHOUE
-
 Violon
-
- 
-
 do000000000000000000000000000000000000000000000
-
 M"" M ELACHENAE
-
 Chant
-
- 
-
 Profecseur au Conservaloire
-
 Route de Chêne, 28* Tél. St. 36.41
-
 Rue des Eaux-Vives, 73 Tél. St. 16-78 Ê
 PAUE MICHE
 Violon - Concerts
-
- 
-
 Avenue de la Gare des Eaux-Vives, 10 ‘
 .
-
- 
-
 DANSE EF MAINTEEN
-
- 
-
- 
-
- 
-
 è Professeur Eug. REVUZ ;
 Rue Ou Rhône, 61 Téléphone Sland 59-19 ë
 Mre Renée NICOLAIE W â F. DURETF ;
-
 Cantatrice et Professeur â Piano - Solfège 3
-
 Boul. des Philosophes, 24  Tél. St. 62.83 â Route de Chêne, 13 Tél. St. 78.66 ;
-
 : Ee KEBEN van GELFAY : MANON COUGNARD :
 Violon ê Chant
-
 Chemin Beau-Soleil (Champel) â Grange-Canal = Tél. Mont-Blanc 22.39 Î
-
- 
-
 M"® A. LEPONTE de LUISI
 Violon
-
 Rue u Marché, 40
-
- 
-
- 
-
- 
-
- 
-
-Renseignements el conditions : Imprimerie JTARRYS, 4, rue Henri-Fazy.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002631_013.tif"/>
-<page><![CDATA[MM.<:!‘a.ﬂœ«ac—aœgmﬁqœﬂ.—ﬂ%.@
-
+Renseignements el conditions : Imprimerie JTARRYS, 4, rue Henri-Fazy.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002631_013.tif'/>
+        <page>
+          <![CDATA[MM.<:!‘a.ﬂœ«ac—aœgmﬁqœﬂ.—ﬂ%.@
 |
 £
 (
@@ -1105,17 +735,11 @@ E
 {
 £
 Ÿ
-
- 
-
- 
-
 le génie incomplet d’Erik Satie, et qu’on voudrait faire refleurir
 aujourd’hui à plus de frais, c’est-à-dire dans un style plus ‘riche et
 plus fouillé. La première tendance nous sera représentée aujourd’hui
 par Roland-Manuel, la seconde par l'œuvre de Jacques Ibert ins-
 crite à notre programme.
-
 Après avoir suivi de près les traces de son maître Maurice Ravel,
 Roland-Manuel s’en est évadé pour participer à sa manière au
 mouvement actuel, dans son opérette Zsabelle et Pantalon et dans ses
@@ -1123,7 +747,6 @@ mélodies sur des vers de Toulet. Tempo 0i ballo est un court morceau
 d'orchestre, comme un mouvement de sonate, où le souvenir de
 Domenico Scarlatti semble se mêler à des motifs d'’inspiration,
 rythmiques et harmoniques, tout récents.
-
 Jacques Ibert, né le 15 août 1890, à Paris, fut élève de Gédalge,
 Fauré et Vidal au Conservatoire et en sortit en 1919 avec le Grand-
 Prix de Rome. Mais pour une fois cette haute récompense semble
@@ -1135,66 +758,42 @@ les Bavardes, sont extraites d’une œuvre intitulée Rencontres qui fut
 d’abord un recueil pour le piano et, passant à l’orchestre, fournit
 ensuite la musique d’un ballet représenté à l’Opéra de Paris,
 en 1925.
-
 444
-
 Franz LISZT
-
 Né à Raidig (Hongrie) le 22 octobre 1811, mort à Bayreuth le 31 juillet 1886.
-
 CONCERTO en mi bémol, pour piano et orchestre.
-
 Dans le cadre rigide d’un concerto quasi-classique, Liszt a pu
 cependant faire transparaître son tempérament de poète et de colo-
 riste. Au cours de ces variations thématiques éclatent la richesse
 d'imagination et l’adresse prodigieuse de son talent d’orchestrateur.
 Tout en laissant la prime place à la sonorité et à la virtuosité
-
 délicate du piano, il a soin de donner une valeur considérable aux
-
 B3 E EFIETEO TEI DIV OT ETEF PI ETE “…“M“““““g
-
-A BI SD ADD DI3 EBG DSD aB DID DGD DSOPPGSDGDE DE DO]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002631_014.tif"/>
-<page><![CDATA[VICTORIA-HALL Samedi 20 novembre 1926
-
- 
-
+A BI SD ADD DI3 EBG DSD aB DID DGD DSOPPGSDGDE DE DO
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002631_014.tif'/>
+        <page>
+          <![CDATA[VICTORIA-HALL Samedi 20 novembre 1926
 4 Concert de l’Abonnement
-
 Sous la direction de M. Fernand CLOSSET
-
 Soliste : M. Gabriel BOUILLON, violoniste
-
 DÎ””%W%WW%”W:‘)“”
-
- 
-
 Ne à Montpellier en 1898, Gabriel Bouillon commença dès son enfance l'étude
 du violon sous la direction de son père. Reçu au Conservatoire national de Paris,
 il y fut l'élève de Berthelier, de Capet, et remporta à l’unanimite le prix d'excel-
 lence. Dès sa sortie du Conservatoire, Gabriel Bouillon commença une brillante
 carrière, donnant une suite ininterrompue de concerts à Paris, en province et à
-
 l'étranger. Jacques Thibaud le désigna pour le remplacer à la Société des Concerts
-
 r e e mtn e t
-
 du Conservatoire.
-
 AU PROGRAMME :
-
 1.-Symphonie n° 7, en fa majeur ::.....2 1 Beethoven
 2. Les Petits Riens, musique de pantomime ... Mozarl
 3. Concerto russe, op. 29, pour violon et orchestre
-
 (i*anditionns. .1 Lalo
 4. Jour d’Eté à la Montagne, tryptique symphon.  Vincent d'Indy -
-
- 
-
 Location chez Véron, Grauer, à partir Ou Lundi 15 novembre.
-
 ;
 $
 9
@@ -1238,70 +837,49 @@ $
 ë
 9
 $
-
-DEDE DIS DEZ E DES DEDE DES DIS OR DE OS DEDE DS DIS DIS DSD OO OE DE OVI DEDE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002631_015.tif"/>
-<page><![CDATA[se ds tee
-
+DEDE DIS DEZ E DES DEDE DES DIS OR DE OS DEDE DS DIS DIS DSD OO OE DE OVI DEDE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002631_015.tif'/>
+        <page>
+          <![CDATA[se ds tee
 s5e
-
 !
 |
-
 F'ECIEI REF CI CEI OI CI CI CEI CI CT CLR CL E PI ENON S CIOI CZI CC I CAT EZ3 CI C BC OS
-
 AI
-
 se
-
- 
-
 F EU ETE G
-
 rr
-
 sæ
-
 yx
-
 ce
-
 «c
-
-  
-
 CACICAOCSICETIESCAHENesdHenNEeNteNcASeNcnesecnrcHEtese 3I EIES EZI R
-
 répliques de l’orchestre. Celui-ci ne se borne pas au rôle d’interlo-
 cuteur complaisant, mais il impose souvent son verbe et son idée.
 Les deux éléments en présence constituent, opposés ou réunis, un
 tout vivant obéissant à une discipline supérieure et procédant d'une
 conception ferme qui n’exclut en rien la sensibilité et la délicatesse.
-
 Liszt écrivit ce concerto en 1848 ou, du moins, il donna alors sa
 forme définitive à une composition antérieure de plusieurs années
 déjà. Il fut joué pour la première fois en public par Liszt lui-même,
 en 1855, dans un concert à Weimar, Hector Berlioz conduisant
 l’orchestre. Plus tard ce fut Bülow qui le mit à son répertoire et le
 Joua à plusieurs reprises, en particulier aux grandes fêtes musicales
-
 d’Aix-la-Chapelle, en 1857, dirigé par Liszt.
 t
-
 Note à prendre ou à laisser
-
 M. Frank Martin, dans la Tribune Je Genève, m’invite à donner
 aux auditeurs de nos concerts un mot d’explication sur le groupe-
 ment des œuvres dans nos programmes. C’est une proposition trop
 flatteuse pour que je ne m’exécute pas.
-
 Le Canlique 0e Pâques m'a paru dès l’abord en bonne place à côté
 de Bach. Ce n’est pas du Bach cependant — et, Dieu soit loué !
 Honegger n’a pas voulu en faire — mais il a pris un sujet qui eût
 tenté Bach, et il l’a pris de la même façon. Il y a donc entre ces
 œuvres une parenté d’esprit et cette parenté de style qu’indique
 notre notice.
-
 Le style de la Fantaisie de Beethoven tranche violemment avec
 celui des deux autres œuvres, mais leurs valeurs spirituelles
 s'accordent. La pauvreté de matière de la Fantaisie apparaîtrait
@@ -1310,33 +888,23 @@ d’autres œuvres de Beethoven. A côté d’œuvres d’un style tout
 différent, au contraire c’est le type qui s'affirme ef non la qualité
 particulière de ce type — et dans ce type une certaine valeur ;
 spirituelle qui est précisément ici ce qu’il importe de souligner. !
-
 Après cette première partie figurait, dans mon projet primitif, une
-
 ut CR ë
 œuvre qui a été reportée à plus tard pour complaire à son auteur.
-
 MMS A MO SO A d a sA3 Ss s Lacstocs As
-
- 
-
 SO DM3OAOAOAAOAAaAAaHaAamAaaa.
-
 amaac
-
 Dc
-
 a…
-
 acaoc
-
 1c
-
 AI BDID II DIV IAAOA OO As
-
-LI aca]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002631_016.tif"/>
-<page><![CDATA[C’est donc un peu par hasard que tombent là Roland-Manuel et
+LI aca
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002631_016.tif'/>
+        <page>
+          <![CDATA[C’est donc un peu par hasard que tombent là Roland-Manuel et
 Jacques Ibert. Mais de toute façon après une première partie que
 jJ'aime à croire suffisamment substancielle, on tolèrera sans doute un
 petit divertissement, pourvu qu’il soit de qualité. Lorsque les
@@ -1347,31 +915,18 @@ tenant de sortir de ce ton, mais voyons ce qu'il peut comporter
 de plus accentué et de plus riche : un Concerto de haute allure, et
 Lizst pourra nous apprendre que le mot virtuosité et l’adjectif vaine
 ne sont indissolublement mariés que dans quelques esprits chagrins
-
 ou paresseux.
 Ernest ANSERMET.
-
- 
-
 Samedi 27 novembre 1926, à 20 beures et demie
-
 VICTORIA-HALL
-
 FESTIVAL WAGNER
-
 Sous la direction de M. Ernest ANSERMET
-
 AU PROGRAMME :
-
 TANNHAUSER
 LE CRÉPUSCULE DES DIEUX
-
 MM. les Sociétaires-Souscripteurs et Abonnés recevront une circulaire les
 informant des détails du programme, des conditions de vente des billets, et des
 avantages qui leur seront réservés.
-
- 
-
 =
 ]
 !
@@ -1407,8 +962,10 @@ $
 J
 ÿ
 ;
-en]]></page>       
-        </p>
+en
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

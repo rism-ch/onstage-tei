@@ -1,413 +1,236 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Grand festival Massenet donné par l'Union instrumentale genevoise (Musique [Fanfare] municipale de la Ville de Genève)<date when="28/11/1931"/></title>
-<series>1931-1932</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Grand festival Massenet donné par l'Union instrumentale genevoise
+            (Musique [Fanfare] municipale de la Ville de Genève)
+            <date when='28/11/1931'/>
+          </title>
+          <series>1931-1932</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002758</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Bodet, F. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19311128"/>
-<title>Grand festival Massenet donné par l'Union instrumentale genevoise (Musique [Fanfare] municipale de la Ville de Genève)</title>
-<placeName key="Victoria Hall"/>
-<name key="1931-1932" type="series"/>
-<name key="Massenet, Jules" ref="https://muscat.rism.info/admin/people/84264" type="person" role="cmp">Massenet, Jules</name>
-<name key="Bodet, Francis (dir.)"  type="person" role="int">Bodet, Francis (dir.)</name>
-<name key="Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)"  type="person" role="int">Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)</name>
-<name key="Dufresne, Germaine"  type="person" role="int">Dufresne, Germaine</name>
-<name key="Grétillat, Nelly"  type="person" role="int">Grétillat, Nelly</name>
-<name key="Courtois, Charles"  type="person" role="int">Courtois, Charles</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002758_001.tif"/>
-<page><![CDATA[= GRATUIT=
-
- 
-
- 
-
- 
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19311128'/>
+        <title>
+          Grand festival Massenet donné par l'Union instrumentale genevoise
+          (Musique [Fanfare] municipale de la Ville de Genève)
+        </title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1931-1932' type='series'/>
+        <name key='Massenet, Jules' ref='https://muscat.rism.info/admin/people/84264' type='person' role='cmp'>Massenet, Jules</name>
+        <name key='Bodet, Francis' type='person' role='int'>Bodet, Francis</name>
+        <name key='Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)' type='person' role='int'>Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)</name>
+        <name key='Dufresne, Germaine' type='person' role='int'>Dufresne, Germaine</name>
+        <name key='Grétillat, Nelly' type='person' role='int'>Grétillat, Nelly</name>
+        <name key='Courtois, Charles' type='person' role='int'>Courtois, Charles</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002758_001.tif'/>
+        <page>
+          <![CDATA[= GRATUIT=
 DE LA
-
 VILLE DE GENÈVE
-
 N MUSIQUE MUNICIPALE
-
- 
-
- 
-
- 
-
 men nNnseruméntale
 Genevoise
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 |
 ’ Programme Officiel ‘
-
 [ °> 81
 v R Ÿ
-
 UNION ; |
 DESANNIFES SUISSES
-
-Capital 100 Millions Réserves 32 Millions]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002758_002.tif"/>
-<page><![CDATA[‘ ehutz 1 chaussures se
-
+Capital 100 Millions Réserves 32 Millions
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002758_002.tif'/>
+        <page>
+          <![CDATA[‘ ehutz 1 chaussures se
 Venez dîner avec vos amis au RESTAURANT de ‘
-
 |l'HOTEL RICHEMOND
-
 Famille Armleder, propr. -
-
-      
-
 TERRASSE |
-
 - Repas de noces el grands dîners | |
-
- 
- 
-
- 
-
- 
-
- 
-
 :IIIIIII!IIIIIlIIIIIIIIIIIIEIIIIIIIIEIIl'IIIIIIIIIIIII
 ‘ .
-
 : Z/ne nécessité des temps modernes : :
-
 e ; ; ;
-
 2 “Gtre servi vite et bien,, u
-
 = adressez-vous à la =
-
 @ u
-
 « BOULANGERIE - PATISSERIE DE PARIS :
-
 æ a ;
-
 ; E. Matzinger S
-
 = Boulevard Georges-Favon, 18 — Genève ü
-
 =nmmmnallllnnuIlIsnllluulululnllll!llllllluulu.l.llln:
-
 QUVN UVN AANAAAU NNN ANUAL
-
 = e e e e®
-
 e MODERN MUSIC
-
 © Grand choix d’instruments Saxophones, ‘jazz, violons, accordéons neufs etd’occasion - Ecñanges
-
 S Spécialité de musique de danse et des succès des films sonores
-
 ACCESSOIRES - CORDES DE QUALITÉ etc.
-
 Central de réparations d'instruments de musique et de machines çarlantes
-
 B. Kofman
 aÿe 10, Tour-Maîtresse -  LOCATIONS -  Téléphone : 42.405
-
 SÉ HSHSHSTIHHROT®
-
 TIMBRES-POSTE
-
 BOUR COEFEHONS
 Toutes nouveautés en cartes Postales
-
 Mile P. HONEGGER
 Chantepouiet, 3
-
 SÉGÉS DE
-
 f
-
 QQUQES
-
 '//@
 Q
-
- 
-
- 
-
- 
-
- 
-
- 
-
-  
-
- 
-
- 
-
- 
-
-  
-
-   
-
- 
-
-e]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002758_003.tif"/>
-<page><![CDATA[J. Burgener, 24 rue du Gendrier
-
- 
-
+e
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002758_003.tif'/>
+        <page>
+          <![CDATA[J. Burgener, 24 rue du Gendrier
 avec les arrangements spéciaux
-
 … VOYAGEZ ( 'AGENCE DE VOYAGES
-
 BLENK FERT & C"
-
 1, Rue du Mont-Blanc - Genève
-
 Plus d’ennuis, plus de soucis, meilleure utilisation du temps.
-
 CÀF‘_QS AUX î\Il‘llLÿl;lﬁyl"HES.(ÏlD.\_‘l)l'l‘l_<Ï.\S GÀRS
-
 NOUS LOUONS LES MEILLEURS
-
- 
-
- 
-
- 
-
- 
-
 VICTTO ]E£( ][A\=]H[ 2X 1I,
-
 Concert à
-
 poree e Samedi 28 Novembre 1931 20 h. 30
-
 Grand Festival Massenel
-
 — donnré par a2À —
-
 Musique Municipale de la Ville de Genève
-
 (Union Instrumentale Genevoise)
-
 sous la direction de M.
-
 ERANCIS BOIDIRI
-
 Premier Prix du Conservatoire national de musique de Paris
-
 avec le concours de
-
 M"° Germaine Dufresne M're Nelly Gretillat
 du Grand Théâtre
-
 1re chanteuse du Gd-Théâtre
 de Bordeaux de Genève
-
 M. Charles Courtois
 Ténor
-
 Prix des places: Fr. 1.10 et 60 Cts. (Droit des pauvres compris)
-
- 
-
 MAISON
 HOCHUL n llﬂ[llllﬂll0ﬂ u°rmangnla
-
 Système parfaif /
 COIFFEUR U
 25.-francs
-
 toute la tête
-
 RUF PIERRE - FATIO 5 pas de brûlures
-TÉL. 45.373 —]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002758_004.tif"/>
-<page><![CDATA[Achetez vos chaussures che
-
- 
-
+TÉL. 45.373 —
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002758_004.tif'/>
+        <page>
+          <![CDATA[Achetez vos chaussures che
 Photo-House
 Z =— AMREIN-GRAF — GENÈVE
 27, Quai des Bergues, 27
-
 Retenez bien l’adresse à 50 m. de l'hôtel des Bergues
-
 Appareils Kodaks, Zeiss-Ikon, Agïa, Nagel Voigtländer, etc.
 Cinés Prises de vues et projection Kodaks, Bell & Howell, Zeiss Ikon, Agfa, Bolex etc.
-
 Toujours les derniers modèles en magasin
 DÉVELOPPEMENTS, TIRAGES, AGRANDISSEMENTS rapides et très soignés.
-
 La bonne maison pour le phofographe amateur
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Musique Municipale de la Ville de Genève
-
 (Union Instrumentale Genevoise)
-
 =—
-
 Notice historique
-
 C’est en 1863, et sous la dénomination de Société
 des Fanfares Militaires Genevoises que notre actuelle
 Musique est portée sur les fonts baptismaux. MM. Joseph
 Leclerc et John Grasset en sont les premiers Président
 et Directeur.
-
 Dès sa création, elle participe aux manifestations de
 la vie genevoise, étant « priée» par les Autorités de prêter
 son concours alors que les autres Corps de musique
 étaient «commandés ».
-
 Lors d’une manifestation, en 1867, la Société des
 Fanfares est à son tour « commandée ». Mais les membres
 de la Fanfare n’entendent pas abdiquer leur indépendance
 et se constituent en société civile, sous la dénomination
 actuelle : Union Instrumentale Genevoise.
-
- 
-
- 
-
 Lachat - Deblue
-
 Confiseur-Glacier
 TEA-ROOM
-
 :3, VAP[acre d'es VÏroz‘s—Peÿrdrix, 5
-
 Petits fours glacés
 D=E>sERIS HINS
 Téléphone 40.526 Livraison rapide
-
- 
-
 chemiserie
-
 winitzky
-
 genève
 téléph. 46.050 r. de la Contédération, 5
-
 passage des lions
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 SHAAHEEZEAAEHENNEREAREREEEN { @
 DS
-
 ]
 ë
 ü
 À
 qj
 Poos
-ÿ]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002758_005.tif"/>
-<page><![CDATA[- . ; Dj * - m BEREE * X
+ÿ
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002758_005.tif'/>
+        <page>
+          <![CDATA[- . ; Dj * - m BEREE * X
 D- RS e E
 L 6
-
 J. Burgener, % rue du Cendrier
 SR REN S SÆ VS E VS E
-
 @ Brasserie Genevoise Ë
 l |
-
 CHANTEPOULET
-
 Ses bières Sa cuisine
 AÉNÆEEÆÉ E Æ SÆ ZIS
-
- 
-
 |#
-
 | Les années s’écoulent, heureuses parfois, difficiles
 ‘ ' souvent. De 1860 à 1880, Bergalone dirige l’Union Ins-
 Ë f . trumentale Genevoise avec un talent sans conteste. Sous
@@ -433,11 +256,6 @@ mourut subitement pendant qu’il dirigeait un concert.
 progrès dans l’art musical qui est sa raison d’être ; les
 . frais d’enseignement, les achats de musique, instruments,
 les équipements, ete. grèvent lourdement son budget. Il
-
- 
-
-  
-
 ? u &
 â u ". \ " " u
 . ! De la qualité! à des prix imbattables :
@@ -451,52 +269,26 @@ M ; double cuie dep. 9.50 Malles très nolides...,....…. dep. 2%. — N
 ' " . -
 , Æ Maroquinerie Moderne - 26, Rue Plantamour, % ;
 f t L LI E TEI TI T III TT TT TT TT P PTTT TT ETE TT
-
 l
 œ
-Ï]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002758_006.tif"/>
-<page><![CDATA[Achetez vs chaussures ch
-
- 
-
- 
-
- 
-
- 
-
- 
-
+Ï
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002758_006.tif'/>
+        <page>
+          <![CDATA[Achetez vs chaussures ch
 Torréfaction “Oder, | ; Grande Brasserie
-
 Cafés-Mélanges 1ères qualités |Ë Centrale
 Croix-d’Or, 2 — Genève
 Téléphone 43.462
 CAFÉ-RESTAURANT — CAFÉ EXTRA
 Mets de Brasserie - Salles de Société
-
 Bière Warteck Bâle
 Ch. Eisenhoffer-Roch
-
 Livraisons à domicile
-
 ë
-
 3, RUE AMI-LULLIN, 3
-
 Téléphone 48.190
-
- 
-
- 
-
- 
-
- 
-
- 
-
 était donc indispensable que l’Union trouvât des appuis
 destinés à venir en aide à ses membres dévoués. En 1882
 sous l’impulsion de notre ancien Président d'honneur
@@ -512,108 +304,54 @@ Malet, qui lui consacra son activité et son énergie pen-
 dant 25 ans et obtint, en 1900, du Conseil Administratif
 que l’Union Instrumentale Genevoise soit élevée au rang
 de « Fanfare Municipale de la Ville de Genève ».
-
 Dès lors, l'histoire de notre Société est encore plus
 intimement liée à l’histoire de notre pays et nous pou-
 vons dire sans présomption que l’Union Instrumentale
 Genevoise n’a pas démérité de son titre officiel.
-
 Par décision du Conseil Administratif du mois de
 juin 1928, il a été substitué au titre «Fanfare Municipale »
 celui de « Musique Municipale de la Ville de Genève ».
-
 Actuellement, et sous la présidence de M. Plulippe
 Albert et la direction de M. Francis Bodet (premier prix
 du Conservatoire national de Paris), notre Musique mu-
 nicipale, forte de cent membres exécutants, consacre tous
-
- 
-
- 
-
 Inderwoocd
-
 Standard et Portable
-
 Machimes à calculer
 Meubles en acier
-
 Marius Trosselili
 Rue du Stand, 58 — GENEVE
-
 Téléphone 40.715
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 |
 |
 1
-|]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002758_007.tif"/>
-<page><![CDATA[Ë
+|
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002758_007.tif'/>
+        <page>
+          <![CDATA[Ë
 |
 !
-
- 
-
- 
-
 J.Burgener, 24 rue du Gendrer
 BICYCL…ETÎE À l’Àurore
-
 fout Acier garantie pour toujours
-
 LElG
-
 depuis 235 frs.
-
- 
-
 5, Rue du Commerce
-
-  
-
 Fournitures
-
 pour couture ef nouveautés
-
 Fréd. BROCHER Maison de confiance
-
 40, Rue de la Synagogue
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 ses efforts au développement de la culture musicale de
 ses membres, guidée par le désir de faire apprécier, en
 tout désintéressement, à notre population toute entière
 une musique saine et éducative. 1
-
 Notre Société se tient toujours à l’entière disposition
 de nos Autorités pour toutes les manifestations de notre
 vie publique ; elle fait œuvre utile au point de vue s<)(’i_nl,
 en même temps qu’acte de patriotisme par son solide
 attachement au pays et à ses institutions. ‘ .
-
 Une école de musique permet à une soixantaine
 d’élèves de suivre gratuitement les cours de solfège et
 d’instruments que nous avons institués sous la direction
@@ -621,7 +359,6 @@ artistique de notre dévoué directeur. Nous trouvons par-
 mi ces jeunes gens des éléments bien préparés pour com-
 pléter nos registres et nous pouvons dire que les plus
 belles perspectives s’ouvrent devant notre Musique.
-
 Une société de secours, très appréciée, fondée en
 1885, présidée par M. Æ. Bernard, contribue à fortifier
 le%pnt de solidarité qui règne entre nos membres, Ceux
@@ -631,531 +368,244 @@ de 70 environ, sous la présidence de M. Joseph Ecuer
 doyen de l’Ecole des Arts et Métiers, et ne cessent de
 s’intéresser à léur chère Union qu’ils entourent et suivent
 dans toutes ses manifestations.
-
 @@@@@@@@@@@@@@@@@@@@@@@@@@@
-
 & Ph. Albert & Braschoss &
-
 % Rue de la Confédération - NVE - Passage des Lions %
 @ lelæphonv 43.334 @
 Assurances - Régie d’Iimmeubles - Contentieux @
-
 Assurances de toutes branches - Vente et achat d’immeubles
 Kecouvrements - Liquidations - Prêts et emprunts hypothécaires
-
 @
 % Service fiduciaire de comptabilité
 @@@@@@@@@@@@@@@@@@@@@@@@@@
-
-1]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002758_008.tif"/>
-<page><![CDATA[IR
+1
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002758_008.tif'/>
+        <page>
+          <![CDATA[IR
 |
-
-   
-
-   
-
 E E . e PE
-
 Achetez vos chaussures chez
 Pianos Harmoniums ;
-
 F. GUIGNARD
-
 BRUCKNER - GUIGNARD, Successeur
 Rue du Rhône 102 - Rue d'italie, 4
-
 Gramos Disques
-
- 
-
 .
 Rc E E As
-
- 
-
 MRE OVS
-
- 
-
- 
-
- 
-
- 
-
 Dans le but de permettre aux personnes qui lui portent {
 intérêt de lui apporter leur précieux appui moral et matériel,
 notre Sociétéa institué des cartes de Membre Passif donnant .
 droit d’entrée à deux personnes à chacun de nos concerts.
-
 D'autre part, les membres passifs bénéficient, lors
 des voyages organisés par la Musique, de tous les avan- À
 tages obtenus sur les conditions de déplacements.
-
 Les cartes de membres passifs sont délivrées par
 notre trésorier général, M. J.-Æ. Marconi, entrepreneur,
 rue Jean-Jaquet, 12 (Téléphone 23-110) à raison de 5 fr.
 par année ou 50 fr. pour la carte de membre passif à vie.
-
 G 6 |
-
- 
-
- 
-
 TI‘âﬂ(l€ BI‘&SS€I‘i€
-
 anclolt |
-
-GENÈVE GENÈVE |]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002758_009.tif"/>
-<page><![CDATA[J. Burgener, 24 rue du Cendrier
-
- 
-
+GENÈVE GENÈVE |
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002758_009.tif'/>
+        <page>
+          <![CDATA[J. Burgener, 24 rue du Cendrier
 5 Boulangerie - Pâtisserie T E
-
 e 75 MIMOMORUISTES|
 Z S ASSUREZ-VOUS À LA
 PN *
-
 E Rue duliçgîÊ:Collège Ë Ê C. A P.
-
 = Spécialité de glaces ; = ;
 :-------.-.---.---.---u--: :..'.I.II.I.IIIIIÜI..I..'
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Musique Municipale de fa Ville de Genève
-
 (Union Instrumentale Genevoise)
-
- 
-
-  
- 
-
 Couverfs BOUJON. Frères
 __3 bis. Rue de Rive. GENÈVE
-
 1KTN E
 L 3 bis. Rue de Rive. GENÈVE
--Ï 0R E E p ë ï e e e r e ex k r ë]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002758_010.tif"/>
-<page><![CDATA[Achetez vos chaussures chez
-
- 
- 
-
-  
-
- 
-
- 
-
+-Ï 0R E E p ë ï e e e r e ex k r ë
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002758_010.tif'/>
+        <page>
+          <![CDATA[Achetez vos chaussures chez
 La voüure en vogue
-
 Ses mcomparables
 G et 8 cylindres
-
 PERROT, DPUVAL & Ci°
 Genève
-
- 
-
 Avec bonne garanhe
-
 depﬁÈ%îî5.- P l A r{
-
 RADIO - GRAM
-
 HRS ‘lASTER’SŸ
-
 $AUTIER
-
 FUS‘]t
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Fleuriste d’Art
-
 Flieuriot
-
 Corraterie, 26
 Rue de Rive, 15
-
 La Maison n’a pas
 d’autre succursale
-
- 
-
- 
-
 PUGHÜN Fabrique Artès
-
 == GENÈVE
-
- 
-
 \
 SD /A D
-
-   
-
 Médailles
-
 Insignes
 de fêtes et Sociétés
-
 Fe), Articles pour Primes et Tombolas
 Croix Huguenotes
-
- 
-
- 
-
- 
-
 ÛÜII-IŒJÛ-Ë
 PROGIE
-
 PREMIÈRE PARTIE
-
 ËIËËÊ£II
-
 1. Ouverture u Roi de Lah0reî&
-
 9. Prélude, Danses et Chansons de
 Don Quichotte !
-
 Soliste : Mme Nelly Grétillat
-
 3. Grande Sélection sur Nzamonm
 Solistes : Mme Germaine Dufresne
-
 M. Charles Courtois
-
 ËË & ËËÊŒ@@@@ËË
-
 -III-Û-IÛ-Ë
-
- 
-
 Instruments de Musique
-
 Fanfare, Harmonie, Jazz-Band
-
 Réparations, Vente, Achal, Accessoires
-
 Kaspar Wicky
-
 Angle rue Ecole-de-Médecine, 8
 Entrée rue des Maraîchers, 48
-
 GIN B2 E
-
- 
-
 ST' DE BAN‘t
-
 FONDÉË‘
 Capital et Réservl|
-
 6, Corraterie - GEÏ
-
-  
-
 Cornavin Eaux-Vives
 10, pl. Cornavin 3, pl. des Eaux-Vives
-
- 
-
-    
-
 1
 î
 |
 Î
-
 Toutes opératwns de Ba
-
- 
-
-  
-
- 
-
- 
-
-l]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002758_011.tif"/>
-<page><![CDATA[A 'rv cE
-
- 
-
- 
-
+l
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002758_011.tif'/>
+        <page>
+          <![CDATA[A 'rv cE
 hœïurgenerlämmmœwmr
 ‘iO 2 Photographie d'Art
-
- 
-
 S - DISQUES
-
 mii COLUMBIA
-
 0JAEGER
-
- 
-
- 
-
 WÎIE É
-
 15 Coûurs ece jve 129
 CENÈVE
 TÉLÉPHONE 41.524
-
- 
-
 :\II-IDIII-
 A MMUE
-
 DEUXIÈME PARTIE
-
 » Parade Militaire
-
 ‘ Grande Sélection sur Werther
-
 | Solistes : Mme Nelly Gretillat
-
 ; Mme Germaine Dufresne
 M. Charles Courtois
-
- 
-
 | Scènes Pittoresques
 | a) Marche cortège
-
 b) Air de ballet
-
 c) ;\ngclus
-
 d) Fête bohème
-
 @
 1= pssassapaess
-
 x< ËËË@J{Ë@@J@]Ë == ®[ËHËÊI
-
 \
-
- 
-
- 
-
 Restaurant
-
 GARANCE
-
 Repas à pnx fixe et à
 la carte Spécialités
 Ouvert toute l'année
 ORPRECIHIEIS T RE
-
 Téléph. 43.700
-
 RENÉ-W. REGAMEY
-
 Propriétaire
-
- 
-
 14, Corraterie et Rue Diday
-
- 
-
- 
-
 cint'à
-
 le PORTO Supérieur
-
- 
-
- 
-
- 
-
- 
-
 QUE SUISSE
-
 (IN 1872
 ( Fr. 214 millions
 EVE -
-
 Plainpalais
 36, rue de Carouge
-
 Corraterie, 6
-
 Carouge
 11, rue du Marché
-
 jaux meilleures conditions
-
- 
-
- 
- 
-
 —R Téléphone
 mN" ns
 Fernand ETIENNE
-
 OPTICIEN
-
 2, Rue Winkelried, 2
-
 (A côté de l’Hôtel des Bergues)
-
 Notre jumelle-prisme 8 fois avec élui 55 [r.
-
- 
-
- 
-
 r
 }l
-
 *
-
 N
 #
-R*]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002758_012.tif"/>
-<page><![CDATA[Pour toutes vos 1nstallations de
-
+R*
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002758_012.tif'/>
+        <page>
+          <![CDATA[Pour toutes vos 1nstallations de
 LUMIÈRE ELECTRIQUE 9
 PLOMBERIE ET CGAZ
-
 . BORNET } }
-
 Elux - G Electr1ute s= RUE DE RIVE
-
 Grand choix de Lustrerie -
-
- 
-
- 
-
 Cuisinières à gaz - Glacières electnques
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Nofice sur les œuvres [igurant au programme ®
-
 MASSENET |
-
 ne à Montaud (Loire) le 12 mai 1842, mort à Paris Ï
 le 13 août 1912
-
 neezss i
-
 Il n'est personne qui ne connaisse le nom de Massenet. Il est
 peu de musiciens qui possèdent une aussi extraordinaire popula- |
 rité. Cela provient de ce que Massenet a créé dans la musique Ï
 une forme très caractéristique. C'est un instinctif et la réflexion
 intervient chez lui, grâce à l'habileté qu'il montre à rendre une Ï
 impression. Massenet, c'est aussi le charme féminin. Bien qu'il
-
 soit imprégné de toutes les sources, il n’a jamais imité ; il a con-
-
 servé sa nature toute de câlinerie et de délicatesse qui l'a tenu
-
 loin de la vulgarité.
-
-     
-   
-     
-
- 
-
 GI‘âll(l Câf€ ClU COI”HI”H€I‘CC
 Molarcl et Cr01x (J Or
-
 Toujours fidèle au principe qui fait sa renommée, sert avec
-
- 
-
- 
-
 soin (les consommations cle tout premier Cl]01X
-
-aux Pl‘iX les plus l)&S]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002758_013.tif"/>
-<page><![CDATA[ù
-
+aux Pl‘iX les plus l)&S
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002758_013.tif'/>
+        <page>
+          <![CDATA[ù
 ©
-
 —
-
- 
-
 90
-
 »
-
- 
-
-   
-
 J.Burgener, 2 rue du Cendri
-
 Papiers peints = Linoléums
 Grand choïx des premières fabriques Téléphone 40.289
 Ancienne Maison P. Pricam
-
 Auguste Keller, succ.
-
 1 ) 2 E F ENNe S Z >
 11, rue Versonnex - Genève
 Collections et devis sur demande, sans frais et sans engagement
 Tous les tapis, paillassons, toiles cirées
-
- 
-
- 
-
 :IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII.IIIIIIIIIIIIIII:
 u u
 u y N
@@ -1163,100 +613,34 @@ u y N
 E 7, r. du Vieux-Collège - GENÈVE - (Angle rue Verdaine) E
 : Salle de Société — Téléphone 45.423 ë
 u u
-
 %ê5°..-"-..--.---.--'.-.-.-.-..-..-.-"-'----------.gÈb%
 CHARCUTERIE
 Victor Courtois
-
 5, RUE CHANTEPOULET, 5
-
- 
-
- 
-
 Maison de confiance fondée en 1884 — Service à domicile
 J Téléphone 22.882 Spécialité de pâtés froids
-
 RESTAURANT MINGOZZI |
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 u C =— 0
-
 Fourru IF@S Maison  Communale de Plainpalais
-
 Joli choix de renards, cravates et =
 | LOUIS FREY
-
 peaux pour garnitures - Conser- |
-
 Réparations Transformations |
 * ’RESTAURÀTEUR
-
 I
-
- 
-
- 
-
 vation pendant l’été
 H. Rivarol
 64,r. des Vollandes, Tél. 25,703 | En été: Jardin Anglais
 L ... .…
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 |
-r e]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002758_014.tif"/>
-<page><![CDATA[Achetez vos chaussures che
-
- 
-
+r e
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002758_014.tif'/>
+        <page>
+          <![CDATA[Achetez vos chaussures che
 LL‘ ROI‘ L‘](' L(1/l(}l'L’
-
 Opéra représenté pour la première fois le 27 avril
-
- 
-
 théâtre national de l'Opéra de Paris ; c'est la première grande
 œuvre de Massenet, celle qui popularisa le nom du jeune Maitre
 auprès du grand public. Le scénario, à la fois passionnel et fée-
@@ -1270,20 +654,15 @@ point de vue, si « Le Roi de Lahore » n'est pas une œuvre défi-
 nitive, c'est une œuvre type à laquelle devront se reporter les
 analystes du génie si original de Massenet. L'ouverture et les
 airs de ballet sont demeurés au répertoire des concerts domi-
-
 Do mn Qu[c‘]mttc ?
-
 (_ ome kllt’ h(lOl\ ue en actes, (I\LC .\ :“ontc ‘.'ll']0 en {("       
         </p>
     </body>
   </text>
 </TEI>l‘i(‘l‘
 1 4
-
 l]i\’.\kl\.
-
 1910 et repris triomphalement à la Gaieté Lyrique de Paris.
-
 Le héros de Cervantès a tenté bon nombre d'auteurs drama-
 tiques. Dès le XVIT siècle, ont vit appzu‘uîtl‘c sur la scène quan-
 tité de « Don Quichotte ». Henri Cain tira du « Chevalier de la
@@ -1292,136 +671,77 @@ qu'il écrivit pour Massenet. Comme dans les plus récentes
 œuvres qu'il inspira, Don Quichotte y devint, non plus une
 caricature du chevalier errant, mais la personnification de l'Ideal,
 du réveur humanitaire
-
 La partition de Massenet commente avec émotion cette comé-
 die héroïque. Le Maitre y a prodigué ses qualités enveloppantes :
 de la gaieté, de la couleur, de la grandeur, de la grâce et de la
 noblesse.
-
 La suite figurant au programme appartient au premier acte.
 On boit, on rit, on chante, on danse sous les balcons de l'en-
 chanteresse Dulcinée, qui répond par une sérénade à refrain et
 à roulades en s'accompagnant sur la guitare.
-
 Mtlll()ll
-
 Opéra comique en 5 actes représenté à l'Opéra comique le
 19 Janvier 1884. Le roman est un chef-d'œuvre qui, depuis un
 siècle, a attaché, étonné, attendri tous ceux qui l'ont lu. Masse-
 net en a réussi, au-delà de toute espérance, la traduction expres-
 sive ; son œuvre peut être considérée à bon droit comme l'une
 des plus brillantes que contienne l’histoire entière du Théätre
-
 À AN A ps d BLSN RS A A
-
- 
-
- 
-
 Tailleur
-
 Couturier
-
- 
-
- 
-
 ] Confiseur - Glacier
-
 TrPTTTIPATTTTT T
-
 AYVTET II E TTTTTE O TIMI TT PIU TT PITCE T PTITU E
-
- 
-
 V. Donadio
-
 29, Grand'Rue, 29
-
 Costumes Tailleur
 Manteau - Amazone
-
-  
-
- 
-
 d bs
-
 Maison G. Bujard
 F. RIEKER, Suce.
 GEeN .- \ E
-
 37, Grand'Rue Téléphone 44.523
-
- 
-
- 
-
- 
-
 T
-
- 
-
- 
-
- 
-
-cA T v]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002758_015.tif"/>
-<page><![CDATA[J. Burgener, 24, rue du Cendrier
+cA T v
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002758_015.tif'/>
+        <page>
+          <![CDATA[J. Burgener, 24, rue du Cendrier
 @æx@l@@l@@æ;@lb&%
-
 z
 Fabrique Suisse d’Uniformes s..
 BEIN UIRIN PAUSANNE
-
 AÏS
-
- 
-
 2, Rue Petitot - GENEÈVE - Rue Petitot, 2
-
 Equipements militaires — Culottes d'équitation — Casquettes — Vétements civils et de sports
-
 AN 652485x H55==—4)85==—2]
-
 Lyrique. Le Maitre a pu, en d'autres ouvrages, frapper plus
 fort et se montrer plus grand ; nulle part 1l n'a déployé plus
 d'élégance, de variété pittoresque et dramatique, d'enjouement
 gracieux et d'émotion vraie. Il a trouvé des accents personnels,
-
 il a eu le rare mérite d’être lui.
 Wert‘/:cr
-
 Opéra comique qui fut exécuté pour la première fois le 16 [é-
 vrier 1892 à l'Opéra de Vienne et à Paris une année plus tard.
-
 La p;n‘titf0n toute entière est d'une l‘cmz\rqu;\th tenue ; u‘lu;u1u«-
 note est expressive, bicn en place, Tout est également loin de la
 pauvretè et de l'emphase. Massenet n'a même pas voula se
 laisser aller aux longues effusions sensuelles qu‘on rencontre
 souvent dans ses autres œuvres, mais que les caractères de
 Charlotte et de Werther ne com|)orl;ticﬂt pas le moins du monde.
-
 D'ailleurs, le charme amoureux persiste. Seulement ici ae
 charme est d'une essence plus concentrée ; il s’y mêle un « on
 ne sait quoi » d'amer et de profond par où Werther constitue
 très caractéristique de ce grand livre d'amour qui est l'œuvre
 entier de Massenet.
-
 Panulu nul1hurc
 Petite fantaisie enfantine, d'un style l("gcl‘. écrite originale-
 ment pour le piano.
-
 V .
 Ôcenes I)llt(;l‘('5‘(’lll'.x‘
-
 Œuvre de jeunesse qui fut exécutée en première audition le
 22 mars 1874 au Châtelet.
-
-  
-
 ä Chapeaux - Casquettes # Ë CaÎé - Brasserie
 Cravates A
 EË Les meilleures qualités ËË ËË des DECheurs ;Ë
@@ -1429,153 +749,77 @@ EË Les meilleures qualités ËË ËË des DECheurs ;Ë
 ËË Les meilleurs  prix Ë Ë S ISIPRER S ÊÊ
 ; Chapellerie M. & B. Estier Ë # ; Sréciaités: Vins du poys
 E ïs & Vins français Casse-croûte **
-
 58, Rue du Stand, 58
-
-Téléphone 46.746]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002758_016.tif"/>
-<page><![CDATA[Achetez vs chaussures cr
-
- 
-
+Téléphone 46.746
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002758_016.tif'/>
+        <page>
+          <![CDATA[Achetez vs chaussures cr
 Charcuterie
-
 Ant. Chouet
-
 6, Coufance = Téléph. 24.545
-
- 
-
 Spécialité de pâtés froids
 Assortiment complet pour tout ce qui
-
 concerne la partie
-
- 
-
- 
-
- 
-
 Tailleur
 Georges Meyer
-
 Vêtements sur mesure pr Messieurs
-
 Prix modérés - Maison de confiance
 Tissus Anglais
-
 10, Chantepoulet (1°" étage)
 Téléphone 23.431
-
- 
-
- 
-
 Cours et Enseignement musical
-
 sous la direction de
-
 M. Francis Bodet, directeur
-
 Premier Prix du Conservatoire de Paris
-
 Professeurs:
-
 COURSIDESSOPFEGE
 M. François Kister, bucle solo
-
 INSTRUMENTS DE CUIVRE A PISTONS
 M. Gabriel Sciolli, premier trompette solo
-
 TROMBONES
-
 M. Joseph Liard, professeur au Conservatoire
-
 SAXOPHONES
-
 M. Pierre Santandréa, professeur au Conservatoire
-
 BATTERIE
 M. Morin, premier timbalier de l'O. S. R.
-
 Fl Haturelles
 J. Herdé-Probsi
-
 2, Place Fort de l’Ecluse, 2
 rGe'[épﬁone 42,828
-
- 
-
- 
-
 q
-
- 
-
- 
-
- 
-
 Pharmacie
-
 Privat & C'
-
 Ancienne Pharmacie Finck
 26, rue du Mt-Blanc - Tél. 24.211
-
- 
-
 LE PLUS GRAND CHOIX
 DE SPÉCIALITÉS
-
- 
-
- 
-
 l
-
-44e]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002758_017.tif"/>
-<page><![CDATA[l
+44e
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002758_017.tif'/>
+        <page>
+          <![CDATA[l
 |
-
 Ï
 1
 ä
 |
 }
-
 Ï
-
 TR
-
 P RE RER RE pn
-
 T
-
 és
-
 U DE E r CT
-
 É ETE PANAUT RE
-
 TVn
-
 " v—.‘e.—‘? R 7
-
 st pouer
-
- 
-
- 
-
 J. Burgener, 24 rue du Cendrier
-
- 
-
 Commission Musicale
-
 MM. Francis Bodet, directeur.
 Gabriel Sciolli, directeur-adjoint
 François Kister, — professeur de solfège.
@@ -1588,258 +832,127 @@ Fernand Thévenaz, trombone solo.
 Maurice Rippl basse solo.
 Emile Pellet baryfon solo.
 Georges Girardet, premier timbalier.
-
 Saxophones soprano : Georges Viani, Reck.
-
 » alto : Brasier (sol.), Duvillard.
 » ténor: Célandroni, Rosenherg, Mevnel.
 » baryton : Buffat, Bo:llve, Hugo Viani, Jagei.
-
 Petit bugle : Gaillepand,
-
 Bugles solo : Annen (soliste), Emonel, F. Kister, Cheneval,
 Bonnard, Offredi, Wolfram, Joly, Détruche.
-
 1ers Bugles : Lévy, Gap, Moser, Lollaz, Schenk, Grivel.
 Duffey.
-
 2nes bugles : Deluz, Refatti, Tauss.
-
 3nes bugles : Haab, Polliand René, Hartmann, Sacchi,
 Rosenberg.
-
 Cornets : Marlinel (soliste), Vaudroz, Rochat.
-
 Trompettes : Sciolli (soliste), Félix Weber, Rochat, Barth.
-
 Cors : Mouchet (soliste), Kaiser, Gex, Weber Beat, Métert.
-
 Trombones : Tliévenaz (soliste), Liaz, Junod, Radice, Pylhon.
-
 Alti: Muller, Duprat, Vallet.
-
 Barytons ; Pellel (soliste), Gloor, Tachet, Bussien, Gnädinger,
 Pédronin.
-
 Basses: Rippl (soliste), Vaucher, Thorion, Troœsch, Débar-
 bouille(, Polliand Fernand, Combes, Bessal.
-
 Contrebasses : Gindral, Marconi, Barberal, Chapon.
-
 Timbales : Girardel,
-
 Batterie et accessoires : Chambaz, Vaihlé, Giudici, l“loupe.
-
 Ballerie de 14 lambours sous la direction du caporal Malthey
-
-15]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002758_018.tif"/>
-<page><![CDATA[Achetez vos chaussures che
-
+15
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002758_018.tif'/>
+        <page>
+          <![CDATA[Achetez vos chaussures che
 PN SPN S TR SEN IFN JTN SEN SEN IERE STAT ITAC SEN STAT S PSFN S PR ICN SON S
-
 ; Pharmacie HAHN
 | 18, Place Longemalle - J.C. BRUN & SES FILS - Rue de la Groix-d'Or, 29
-
 Exécution soignée de prescriptions de tous pays selon chaque pharmacopée
 Spécialités - Envoi à domicile et par poste - Analyses
 English Spoken Man Sprich Deutsch
-
 PÉEÉETROLE HAHIN
-
 Seul remède efficace contre la chute des cheveux et peilicules - Fr. 3.50 le flacon
 SMRIS MRISF SOSDRIS TRIS DRISINS CHRSEMRITDISETRE DRS SIRO SIR C DRS MRIS DRS DRS Ï
-
 SCATS
-
 CR SON SCNES
-
 COMITÉ
-
- 
-
 Président : PH. ArperT, Rue de l’Hôtel-de-Ville, 14.
 Vice-Présidents: HENRI MARTINET el HENRI MULLER.
 Trésorier général : JÉRÔME Marcon1, rue Jean-Jaquet, 12.
 Vice-Trésoriers: JExN Cxom£ry el M. JACQUARD.
 Secrétaire général: LÉox GIUNTINI, Hôtel Municipal.
 Vice-Secrétaires: M. RirpL el . DÉBARBOUILLET.
-
 Matériel : JoseeH Cuenevar el HENRI GaP.
-
 Equipements : Grupie1 et F. MONNIER.
-
 Bibliothèque : Ep. Carrière, R. BurFaT el J. OFFREDI.
-
 Econome : C. BARBERAT. f
 Directeur : Fraxcis BopeT, rue de Saussure. 6.
-
 Officier : ter t. H. Murrer, quai des Bergues, 1
-
 Porte-drapeau : FERNAND MONNIER.
-
- 
-
- 
-
 &
 Grande Brasserie
-
 et CAFÉ DU XXre SIÈGLE
-
 23, Boul. Georges-Favon -  GENÈVE
-
 —s
-
 Rod. REBSAMEN
-
 E
-
 MARCHAND-TAILLEUR ‘
-
 pour civils et uniformes ‘
 u
 — 1
-
 Mi/ifaifeë Ë VHôfels
 Sociétés - Sports
-
 Rue Lévrier, 11 - Genève
 Téléphone 23.793
-
 Ses bières
 Ses vins de choix
 Sa cuisine soignée
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-6. —]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002758_019.tif"/>
-<page><![CDATA[u TSN RE E FE
-
- 
-
- 
-
- 
-
+6. —
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002758_019.tif'/>
+        <page>
+          <![CDATA[u TSN RE E FE
 J 3 u rgener, —24 Tue-du-Gendrier
-
 Graines Potagères, Fourrageres et de Fleurs
-
 “ Création de prairies ét Gazon d’ornement.
 Grames pour oiseaux et basses-cours — Fournitures horticoles
 Spécialité de graines récoltées au pays pour
 maraichers et cultivateurs
-
 BESSON & DECROUX
-
 Cultivateurs - Marchands grainiers
-
 u tas de Guunes - Rue Vallin, 3 - GENÈVE - Tééphore : 5 0
-
- 
-
- 
-
- 
-
 ASTLAE <
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 À l’Auto pour tous
-
 41, Avenue des Abattoirs
 (Au’fond de l'Avenue)
 Téléphone : 50,777
-
 Ses belles occasions Amilcar - Citroën
 Fiat - Peugeot - Renault etc.
 Grandes facilités de paiement
-
 AUTO-LOCATION —  AUTO-ÉCOLE
-
 Maison de confiance — Retenez bien l’adresse
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Machines à coudre électriques
-
 avec meubles modernes
-
 Exposition et essais gratuits :
-
-13, Rue de la coniédération, 13 ;]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002758_020.tif"/>
-<page><![CDATA[He
-
+13, Rue de la coniédération, 13 ;
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002758_020.tif'/>
+        <page>
+          <![CDATA[He
 Ü
-
 TOU
-
 Tourt
-
- 
-
 (HABILLE
-
 Nai DEVI
-
 à GENÈVE : Place St-Bervais réonone 23.304
 à LAUSANNE : Grand-Pont, 1 Tétépnone 28.827
-
- 
-
- 
-
 T LE MONDE
-
 Pour la Ville
 Pour le Sport
-
 Pour le Travail
-
 le monde dit :
-
 Les Vêtements Henri Devred
-
- 
-
-   
-
-   
-
 - E S RTTE
 ; ; ;
 E ESENTSEEVEE 5
@@ -1850,8 +963,10 @@ Kt « %
 VUs
 #
 ;
-;]]></page>       
-        </p>
+;
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

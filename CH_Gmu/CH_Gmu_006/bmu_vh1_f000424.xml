@@ -1,129 +1,112 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>L'or du Rhin : Au bénéfice des artistes de l'Orchestre du Théâtre<date when="18/03/1899"/></title>
-<series>1898-1899</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            L'or du Rhin : Au bénéfice des artistes de l'Orchestre du Théâtre
+            <date when='18/03/1899'/>
+          </title>
+          <series>1898-1899</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F000424</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Rehberg, W. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18990318"/>
-<title>L'or du Rhin : Au bénéfice des artistes de l'Orchestre du Théâtre</title>
-<placeName key="Victoria Hall"/>
-<name key="1898-1899" type="series"/>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Rehberg, Willy  (dir.)" ref="https://muscat.rism.info/admin/people/39565" type="person" role="int">Rehberg, Willy  (dir.)</name>
-<name key="Orchestre du théâtre"  type="person" role="int">Orchestre du théâtre</name>
-<name key="Bonade (Mme)"  type="person" role="int">Bonade (Mme)</name>
-<name key="Ketten (Mme)"  type="person" role="int">Ketten (Mme)</name>
-<name key="Bachofen, H."  type="person" role="int">Bachofen, H.</name>
-<name key="Subit, V. (Mlle)"  type="person" role="int">Subit, V. (Mlle)</name>
-<name key="Dallwigk, M. (Mlle)"  type="person" role="int">Dallwigk, M. (Mlle)</name>
-<name key="Boulogne"  type="person" role="int">Boulogne</name>
-<name key="Troyon"  type="person" role="int">Troyon</name>
-<name key="Huguet"  type="person" role="int">Huguet</name>
-<name key="Saxod"  type="person" role="int">Saxod</name>
-<name key="Villaret"  type="person" role="int">Villaret</name>
-<name key="Vyroult"  type="person" role="int">Vyroult</name>
-<name key="Dubois"  type="person" role="int">Dubois</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000424_001.tif"/>
-<page><![CDATA[VICTORIA-HALL —- GENEÈEVE
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18990318'/>
+        <title>L'or du Rhin : Au bénéfice des artistes de l'Orchestre du Théâtre</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1898-1899' type='series'/>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Rehberg, Willy' ref='https://muscat.rism.info/admin/people/39565' type='person' role='int'>Rehberg, Willy</name>
+        <name key='Orchestre du théâtre' type='person' role='int'>Orchestre du théâtre</name>
+        <name key='Bonade (Mme)' type='person' role='int'>Bonade (Mme)</name>
+        <name key='Ketten (Mme)' type='person' role='int'>Ketten (Mme)</name>
+        <name key='Bachofen, H.' type='person' role='int'>Bachofen, H.</name>
+        <name key='Subit, V. (Mlle)' type='person' role='int'>Subit, V. (Mlle)</name>
+        <name key='Dallwigk, M. (Mlle)' type='person' role='int'>Dallwigk, M. (Mlle)</name>
+        <name key='Boulogne' type='person' role='int'>Boulogne</name>
+        <name key='Troyon' type='person' role='int'>Troyon</name>
+        <name key='Huguet' type='person' role='int'>Huguet</name>
+        <name key='Saxod' type='person' role='int'>Saxod</name>
+        <name key='Villaret' type='person' role='int'>Villaret</name>
+        <name key='Vyroult' type='person' role='int'>Vyroult</name>
+        <name key='Dubois' type='person' role='int'>Dubois</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000424_001.tif'/>
+        <page>
+          <![CDATA[VICTORIA-HALL —- GENEÈEVE
 COMITÉ DES CONCERTS D’ABONNEMENT
-
 NANNNN NN NN NNN NNN NNN NN NN NNN NN NN NNN NN NN NNN NN IIIN
-
 Samedi 78 Mars 7899, à hurt Feures pzéaàes.
-
 * Au Bénéfice des Artistes de l’Orchestre du Théâtre
-
 HE RED—
-
 Audition intégrale de
-
 L'OR DU RHIN
-
 Drame lyrique en quatre tableaux, de
-
 RICHARD WAGNER
-
 avec le concours de
-
 M”° Louis BONADE M”° Léopold KETTEN
 Fricka. Erda.
-
 M"° H. BACHOFEN M"° V. SUBIT M'° M. DALLWIGK
 Velgounde. Voglinde.— Freia. Flosshilde.
-
 M. BOULOGNE M. TROYON M. HUGUET
 Wotan. Loge. Alberich.
-
 M. SAXOD M. VILLARET M. VYROULT M, DUBOIS
 Fasolt. Mime. — Froh. Donner. Fafner.
-
 Direction de M. Willy REHBERG.
 e
 ŸN COMMENCERA À HUIT HEURES PRÉCISES
 - Le public est informé que les portes seront fermées pendant l'exécution des morceaux.
-
 Prix du Programme : O cent. d
-
 PHO4 SE PHOr4 SHQue 5>4
-
 ETEN NN NNN NNN NNN N CN NNN N NN SEN N AIN
-
- 
-
- 
-
- 
-
- 
-
-GENÈVE. — ImP, L.-F, JARRYS,]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000424_002.tif"/>
-<page><![CDATA[2 PROGRAMME OFFICIEL
-
- 
-
- 
-
+GENÈVE. — ImP, L.-F, JARRYS,
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000424_002.tif'/>
+        <page>
+          <![CDATA[2 PROGRAMME OFFICIEL
 « L’OR DU RHIN », de Richard Wagner.
-
 des Nibelungs comprend l’Or du Rhin, la Walkyrie, Siegfried et le Crépus-
 cule des Dieux.
 Ces quatre drames, qui forment l’ensemble du -Ring, développent les
@@ -132,20 +115,16 @@ péripéties produites par la malédiction que le Nibelung Alberich a attachée
 dérobé aux Ondines et qu’à son tour Wotan lui a ravi.
 | L’Or du Rhin, qui est en quelque sorte le prologue du Ring, comprent
 quatre tableaux ; voici en court résumé quelle est l’action qui s’y déroule.
-
 |
 |
 l La Tétralogie, tirée par Wagner des Eddas scandinaves et du vieux poème
 |
 |
 |
-
 Premier tableau.
-
 La scène représente les profondeurs du Rhin. Les trois Ondines ou Nixes, filles du Rhin,
 folâtrent au milieu des flots tout en gardant le précieux trésor, l’or pur, qui leur fut
 confié par leur père.
-
 Alberich, le plus astucieux des Nibelungs, sortes de nains habitant dans
 les entrailles de la terre, s’est glissé dans le fleuve et cherche à séduire les
 nymphes. Celles-ci se moquent de lui, mais dans leurs bavardages elles
@@ -158,13 +137,10 @@ celle de l’or et de la domination. Il escalade le rocher sur lequel brille le
 trésor et malgré les lamentations des trois Nixes il s’en empare : c’est lui
 qui forgera l’anneau. Il s’éloigne en laissant éclater un triomphant et
 sinistre ricanement.
-
 Deuxième tableau.
-
 La scène représente une contrée rocheuse traversée par une vallée. Au loin se dresse, sur
 le sommet d’une montagne élevée, un Burg aux multiples coupoles étincelant aux rayons
 de l’aurore.
-
 Le dieu WWVotan et son épouse Fricka, reposant sur un tertre, s’éveillent
 » 3
 et contemplent l’édifice que viennent de construire, sur les ordres du
@@ -174,23 +150,13 @@ la beauté, sœur de Fricka et des dieux Froh et Donner. Fricka lui
 reproche cet engagement inconsidéré mais Wotan lui promet de ne point
 abandonner Freia; il a‘envoyé de par le monde le rusé dieu Loge à la
 recherche d’une compensation à offrir aux géants. Freia arrive tout éplorée,
-
- 
-
- 
-
-ë]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000424_003.tif"/>
-<page><![CDATA[ﬁ DES CONCERTS D’ABONNEMENT 3
-
+ë
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000424_003.tif'/>
+        <page>
+          <![CDATA[ﬁ DES CONCERTS D’ABONNEMENT 3
 _— NNN SSN SL e r rrr r
-
- 
-
- 
-
- 
-
 poursuivie par Fafner et Fasolt. Elle appelle à son aide les dieux ses frères,
 un débat s'élève entre eux et les géants, et menace de s’envenimer lorsque
 survient Loge. Mais celui-ci n’a rien trouvé que l’on puisse préférer à la
@@ -204,15 +170,10 @@ Ile seule savait cultiver les Pommes d’or qui leur donnaient la jeunesse
 royaume des nains et d’y conquérir l’anneau, pour en faire la rançon de
 la déesse. Accompagné de Loge, il s’enfonce dans les entrailles de la terre
 à la recherche d’Alberich.
-
- 
-
 Troisième tableau.
-
 On se trouve dans un vaste souterrain hérissé de rochers , à droite, au fond, un passage
 descendant de la surface de la terre; à gauche, dans une caverne, une forge avec des
 lueurs incandescentes et des tourbillons de fumée rougeâtre.
-
 C'est le royaume des Alfes noirs, où Alberich, grâce à l’anneau magique
 qu’il a forgé avec l’or du Rhin, commande aux autres Nibelungs et leur
 fait fouiller le sol pour en extraire les richesses. Il s’est fait fondre par l’un
@@ -221,7 +182,6 @@ d’eux, Mime, habile forgeron, les mailles d’un heaume enchanté ; le Tarn-
 ouvrage, mais Alberich, grâce au talisman, se dérobe à la vue de son
 esclave et le roue de coups. Ses plaintes sont entendues de Wotan et de
 Loge qui descendent par l’orifice de la caverne.
-
 Il lui font raconter ses infortunes et lui promettent assistance. À ce
 Æ moment paraît Alberich poussant devant lui à coups de fouet les Nibelungs
 chargés de trésors. Il aperçoit les nouveaux venus et leur parle des projets
@@ -232,16 +192,16 @@ est capable, Alberich, à l’aide du casque magique, se transforme d’abord
 en dragon, puis en crapaud immonde; Wotan et Loge mettent alors le
 pied dessus, s’en emparent facilement, le garottent et remontent à la sur-
 | face de la terre.
-
 Quatrième tableau.
 Même décor qu’au deuxième tableau.
 Wotan et Loge sortent du gouffre, traînant le nain fou de colère. Ils le
 raillent, l’obligent à leur livrer ses trésors et exigent le heaume enchanté,
-
-Æ_…Ï__. T N ——s E DE r rrrs]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000424_004.tif"/>
-<page><![CDATA[ë 4 PROGRAMME OFFICIEL
-
+Æ_…Ï__. T N ——s E DE r rrrs
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000424_004.tif'/>
+        <page>
+          <![CDATA[ë 4 PROGRAMME OFFICIEL
 puis l’anneau. Alberich, au comble de la fureur, se voit arracher le talis-
 man par Wotan ; mais dans une sinistre imprécation, il voue aussitôt à
 une terrible malédiction celui qui s’emparera de son bien. « Que désor-
@@ -251,7 +211,6 @@ Nibelung rentre en possession de ce qui lui est ravi. » Et Alberich s’abîme
 dans les profondeurs après avoir proféré ces terrifiantes paroles. Wotan,
 qui ne tient pas compte de leur portée, met paisiblement la bague à son
 doigt et se perd dans sa contemplation. æ
-
 Les géants paraissent venant chercher le trésor qu’on doit leur livrer eñ\j
 échange de Freia. Fasolt plante en terre son pieu et celui de Fafner et pré-
 tend que l’on amoncelle entre eux assez de richesses pour lui masquer
@@ -270,7 +229,6 @@ la malédiction ; ils en viennent aux mains, et Fafner tue Fasolt d’un coup
 de massue. Il reste seul possesseur de la bague maudite et des richesses
 qu’il entasse dans un sac puis disparaît. Les dieux épouvantés restent
 muets d’horreur. :
-
 Donner, le dieu des tempêtes, pour rasséréner l’atmosphère, appelle à
 lui tous les nuages, le tonnerre gronde, la foudre éclate, puis les brouil-
 lards se dissipent et laissent voir un merveilleux arc-en-ciel édifié par Froh
@@ -278,17 +236,15 @@ et qui servira de pont pour arriver au Burg inaccessible. Wotan invite les
 dieux à pénétrer avec lui dans le Walkalla qu’il a payé d’un salaire mau-
 dit. Le rusé Loge, qui prévoit la perte des dieux, songe à se séparer d’eux
 et à édifier sa propre fortune sur leur ruine.
-
 On entend dans les profondeurs de la vallée où coule le Rhin, les
 Ondines qui pleurent leur trésor perdu ; les dieux leur répondent par un
 rire sans pitié et s'engagent sur la route lumineuse qui leur est ouverte.
-
 (D’après Lavi6NAc. Le voyage artistique à Bayreuth.)
-
 ——
-
-—— RE OS ——]]></page>       
-        </p>
+—— RE OS ——
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

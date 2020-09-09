@@ -1,299 +1,200 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Festival de musique italienne donné par l'Harmonie nautique<date when="18/02/1938"/></title>
-<series>1937-1938</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Festival de musique italienne donné par l'Harmonie nautique
+            <date when='18/02/1938'/>
+          </title>
+          <series>1937-1938</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F003001</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Santandréa, P. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19380218"/>
-<title>Festival de musique italienne donné par l'Harmonie nautique</title>
-<placeName key="Victoria Hall"/>
-<name key="1937-1938" type="series"/>
-<name key="Verdi, Giuseppe" ref="https://muscat.rism.info/admin/people/137994" type="person" role="cmp">Verdi, Giuseppe</name>
-<name key="Boito, Arrigo" ref="https://muscat.rism.info/admin/people/23635" type="person" role="cmp">Boito, Arrigo</name>
-<name key="Respighi, Ottorino" ref="https://muscat.rism.info/admin/people/45355" type="person" role="cmp">Respighi, Ottorino</name>
-<name key="De Nardis, Camillo" ref="https://muscat.rism.info/admin/people/30024107" type="person" role="cmp">De Nardis, Camillo</name>
-<name key="Ponchielli, Amilcare" ref="https://muscat.rism.info/admin/people/1653417" type="person" role="cmp">Ponchielli, Amilcare</name>
-<name key="Rossini, Gioachino" ref="https://muscat.rism.info/admin/people/63766" type="person" role="cmp">Rossini, Gioachino</name>
-<name key="Santandréa, Pierre (dir.)"  type="person" role="int">Santandréa, Pierre (dir.)</name>
-<name key="Harmonie Nautique"  type="person" role="int">Harmonie Nautique</name>
-<name key="Béné, Dody"  type="person" role="int">Béné, Dody</name>
-<name key="Magalli, Julien"  type="person" role="int">Magalli, Julien</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003001_001.tif"/>
-<page><![CDATA[‘4:’ËÊÔG‘RAMM OFFICIEL 1937-4938
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19380218'/>
+        <title>Festival de musique italienne donné par l'Harmonie nautique</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1937-1938' type='series'/>
+        <name key='Verdi, Giuseppe' ref='https://muscat.rism.info/admin/people/137994' type='person' role='cmp'>Verdi, Giuseppe</name>
+        <name key='Boito, Arrigo' ref='https://muscat.rism.info/admin/people/23635' type='person' role='cmp'>Boito, Arrigo</name>
+        <name key='Respighi, Ottorino' ref='https://muscat.rism.info/admin/people/45355' type='person' role='cmp'>Respighi, Ottorino</name>
+        <name key='De Nardis, Camillo' ref='https://muscat.rism.info/admin/people/30024107' type='person' role='cmp'>De Nardis, Camillo</name>
+        <name key='Ponchielli, Amilcare' ref='https://muscat.rism.info/admin/people/1653417' type='person' role='cmp'>Ponchielli, Amilcare</name>
+        <name key='Rossini, Gioachino' ref='https://muscat.rism.info/admin/people/63766' type='person' role='cmp'>Rossini, Gioachino</name>
+        <name key='Santandréa, Pierre' type='person' role='int'>Santandréa, Pierre</name>
+        <name key='Harmonie Nautique' type='person' role='int'>Harmonie Nautique</name>
+        <name key='Béné, Dody' type='person' role='int'>Béné, Dody</name>
+        <name key='Magalli, Julien' type='person' role='int'>Magalli, Julien</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003001_001.tif'/>
+        <page>
+          <![CDATA[‘4:’ËÊÔG‘RAMM OFFICIEL 1937-4938
 w
-
 2n H
-
 "HARMONIE
 NAUTIQUE
-
- 
-
- 
-
- HARMONŒ MUNICIPALE
+HARMONŒ MUNICIPALE
 DELA VILLE DE GENÈVE
-
- 
-
 HELVETIA-ACCIDENTS
 RESPONSABILITÉ CIVILE - MALADIE
-Gaston MOISY, Inspecteur, Tél. 52.250]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003001_002.tif"/>
-<page><![CDATA[SOCIÉTÉ DE
-
+Gaston MOISY, Inspecteur, Tél. 52.250
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003001_002.tif'/>
+        <page>
+          <![CDATA[SOCIÉTÉ DE
 BANQUE SUISSE
-
 FONDÉE EN 1872 —
 Capital actions et Réserves: Fr. 193 millions
-
 2, Rue de la Confédération - GENÈVE - Rue de la c.m&a&—mm 2
 CORNAVIN 5 EAUX-VIVES
 10, Place de Cornavin Place des Eaux-Vives, 3
 PLAINPALAIS CAROUGE
 “ 36, Rue de Carouge - Rue du Marché, 11
-
 TOUTES LES OPÉRATIONS DE BANQUE AUX MEILLEURES CONDITIONS l @ |
-
 -— ÿmmumm ‘
 p - nettoient
-
 À habit n_euf 1 l vos VÊTEMENÏ8
 | | vos RIDEAUX
 vos TﬂPIS
-
 d USINE:S4 RUEDELAUSANNE — MAGASINS EN VILLE E *
-
 “'PIANos DlSQUES—_Ï"
-
 “ ÉCHANGE “ _ DERNIÈRES NOUVEAUTÉS
-
 LOCATION . S . CHOIX IMMENSE
 RÉPARATIONS _ F@ùü! EN e2s
-
 | SAÛTIER JAEGER
-
 _ I‘UËTERIE, l$
-
 ps ; TÉLÉDIFFUSION
 ; cæmc:wm««m&es—msvu.LAT£MR5 ; S S \
 ANTENNES ANTIPARASITES ce BA”IÔS
 SERVICE TECHNIQUE DE les ORDRE ‘ * ;
-PL PE a ct T MARCÇONI - DOSO]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003001_003.tif"/>
-<page><![CDATA[MI
-
- 
-
- 
-
- 
-
- 
-
- 
-
+PL PE a ct T MARCÇONI - DOSO
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003001_003.tif'/>
+        <page>
+          <![CDATA[MI
 — E—
 VICTORIA-HALL
 vertu . , ° On
 d8:pîrî‘.eïä vendred] 18 Fevr]er l938 commencera à
 20 heures 20 h. 30
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Festival de Musique italienne
-
 donné par
-
 L’HARMONIE NAUTIQUE
-
 v —
-
 HARMONIE MUNICIPALE DE LA VILLE DE GENEVE
-
 avec le gracieux concours de
-
 M'e Dody BÉNÉ *
-
 Soprano Baryton
-
 Première partie
-
 Ouverture des Vêpres Siciliennes
 a) , Mefistofele “ .
 b) Aïda . ;
-
 Mlie Dody Béné
-
 Les Fontaines de Rome
-
 La fontana di Valle Giulia all’alba.
-
 La fontana del Tritone al mattino.
-
 La fontana di Trevi al meriggio.
-
 La fontana di Villa Medici al tramonto.
-
 Deuxième partie
-
 » Scène Abruzzesi “ .
-
 Procession nocturne du Vendredi-Saint. - San Clemente a Casauria.
 Sérénade aux epoux. - Fête tragique.
-
 » La Gioconda “ TR
 a) Monologue. - b) Barcarolle.
 M. Julien Magalli.
-
 Ouverture de Guillaume Tell .
-
 Le concert sera dirigé par
-
 M. Pierre SANTANDREA
-
 Premier Prix d’excellence du Conservatoire de Paris
-
 M. Julien MAGALLI
-
 Verdi
 Boïto
 Verdi
-
 Respighi
-
 De Nardis
-
 Ponchielli
-
 Rossini
-
 L‘£\‘%—ﬂî-%ïËâ
-
 SH STE
-
 0
-
 SE S 0 SCEAUR
-
 e
-
 v
-
 22 EE
-
 ==
-
 —
 s>3> s—
-
 asma_vna
-
- 
-
- 
-
 LES MEILLEURS LIVRES FRANÇAIS
-
 LIBRAIRIE MURY - GENÈVE
-
 Téléphone 44.042
-
- 
-
 Revue illustrée mensuelle de critique et d’'informations
 est fournie à titre gracieux aux clients de la
-
 12, Boullevard Georges Favon -
-
- 
-
 22 2S s25572753 2s OS OEOE
-
 ChH, PezzoTTi, Imprimeur, Rue du Prince, 10, Genève
-
 F SV
-
 T SO
-
 P
-
 =>>>3 =
-
 m
-
-==]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003001_004.tif"/>
-<page><![CDATA[Kaspar Wicky
-
+==
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003001_004.tif'/>
+        <page>
+          <![CDATA[Kaspar Wicky
 Rue des Maraîchers, 48
-
 Le spécialiste
 des
 instruments à vent et à percussion
-
 Atelier de réparations de ler ordre
-
- 
-
- 
-
 Téléphone 53.112
-
 Membre passif
-
- 
-
 Ouverture des VÊPRES SICILIENNES, Verdi
-
 L'opéra les Vêépres Siciliennes — écrit à l’'occasion d’une
 Exposition universelle — fut représenté pour la première fois
 avec un très grand succès à l'Opéra de Paris, le 13 juin 1855.
@@ -301,69 +202,39 @@ Le public français mettant de côté tout ressentiment d’'orgueil
 national, exprima son enthousiasme ; et la victoire des Vêpres
 Siciliennes sur cette scène constitue une victoire de la
 musique italienne.
-
 L'Ouverture bien connue se compose de deux mouve-
 vements: un Largo plein de sévérité et d’expression, et un
 Allegro agitato qui, faisant brusquement irruption, semble être
 un cri de révolte, animé par une mélodie chaude et entraînante.
-
- 
-
- 
-
 CAFÉ -BRASSERIE -CRÈMERIE
-
 CHALET du BOIS de la BATIE
-
 TTONTHOENEEOTAO UOU OEOEU VATEOER HO EKUEOIEVEEEROITOA OEOEU EOUKHUESOOEOCAOEOOOOTOOCOT OO OOKOTVCVEEOOOOEOOEOOEREORERETOOVOVO
 FRANÇOIS TRÉMÈGE
-
- 
-
 Consommations de 1er choix
-
- 
-
- 
-
- 
-
 !
 |
 Î
 |
 i
 }
-|]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003001_005.tif"/>
-<page><![CDATA[v roix d'Or e
+|
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003001_005.tif'/>
+        <page>
+          <![CDATA[v roix d'Or e
 /,£ù W Tei 43 465 Genève
-
 Bières du Cardinal - Mets de Brasserie
-
 BILLARDS au 1er Jean et Boccard
-
- 
-
 Œapier fourni par la maison
-
 Mathey=“Loirier
-
- 
-
 LES FONTAINES DE ROME, Respighi
 Poème symphonique.
-
 La fontaine de la vallée Giulia à l'aube.
-
 La fontaine du Triton au matin.
-
 La fontaine de Trevi à midi.
-
 La fontaine de la villa Médicis au couchant.
-
 Ottorino Respighi — le vaillant artiste, qui, depuis 1914,
-
 enseigne la composition au Lycée musical de S'e Cécile de
 Rome est né à Bologne. Il commencça ses études musicales
 et le piano avec son père, entra au lycée musical de Bologne
@@ -371,164 +242,93 @@ en 1892, où il travailla avec Sarti, Torchi et Martucci, obtenant
 le diplôme de violon en 1899 et de composition en 1901. Il
 alla ensuite à l’étranger et habita quelque temps la Russie, à
 Pétrograd, où il connut les musiciens les plus célèbres.
-
- 
-
- 
-
- 
-
 A ART ELORATL,
-
 .........
-
 P [
 Fleuriste-Décorateur
-
- 
-
 T(flépl1()le 50.160 (:ENEVË
-14, (Îours «l(' I{IV( 14]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003001_006.tif"/>
-<page><![CDATA[La Grande
-
+14, (Îours «l(' I{IV( 14
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003001_006.tif'/>
+        <page>
+          <![CDATA[La Grande
 Boucherie du Malard
-
 ne vend que des marchandises de toute première qualité
-
- 
-
- 
-
 Spécialité d'AGNEAU DE PRÉ-SALÉ
-
- 
-
- 
-
 Téléphone 47.384 47.385
-
- 
-
 Dans ce poème symphonique, l’auteur a voulu exprimer les
 sensations et les visions qui lui furent inspirées par quatre
 fontaines de Rome, vues à l’heure à Jaquelle leur caractère
 s’harmonise le mieux au paysage environnant où à laquelle
 leur beauté apparaît plus suggestive à celui qui les contemple.
-
 La première partie du poème, inspirée par la fontaine de
 la vallée Giulia, évoque un paysage pastoral : un troupeau de
 moutons passe et s’éloigne dans la brume fraiche et humide
 d’une aube romaine.
-
 Un subit appel des cors très fort et très insistant, sur des
 trilles de tout l’orchestre commence la seconde partie (la
 fontaine du Triton). A cet appel joyeux accourent en foule
 naïades et tritons qui se poursuivent et parmi les éclabous-
 sements d’eau dansent une danse effrenée.
-
 Un thème solennel se dessine dans l’orchestre. C'est la
-
- 
-
- 
-
- 
-
 Pour voyager agréablement et sans soucis, adressez-vous à
-
 L'AGENCE
 C. BLENK & FERT
-
 1, Rue du Mont-Blanc, 1
 Angle Quai des Bergues
-
 GENÈVE
-
- 
-
 Tous les billets de chemins de fer et de passages maritimes
 aux conditions des tarifs
-
 CHÈQUES DE VOYAGEURS - BANQUE - CHANGE
-VOYAGES A FORFAIT]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003001_007.tif"/>
-<page><![CDATA[m e r
-
- 
-
+VOYAGES A FORFAIT
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003001_007.tif'/>
+        <page>
+          <![CDATA[m e r
 Chemises Spécialités de
 P7y;) asm ass Chemises
 Cravates sur mesures
 Bonneterie Trousseaux
-
 CHEMISERIE LICKERT
-
 EUGÈNE ZAHLER, SUCCESSEUR
 COUPEUR-CHEMISIER
-
 3, Rue Guillaume Tell
 derrière Quai des Bergues
-
 Téléphone 24.093 SEN 4H VUE
-
- 
-
 fontaine de Trevi à midi. Ce thème passant des bois aux cuivres
 assume un aspect triomphal. Des fanfares éclatent : sur l’éten-
 due radieuse des eaux passe le char de Neptune tiré par des
 chevaux marins, suivi d’un cortège de sirènes et de tritons. Et
 le cortège s'éloigne, pendant qu’au lointain, se répondent les
 fanfares voilées.
-
 La quatrième partie (la fontaine de la villa Médicis au
 couchant) s'annonce par un thème triste qui sort d’un murmure
 indistinct. C’est l’'heure nostalgique du couchant. L'air est plein
 de bruits de cloche, de murmures d’oiseaux, de bruissements
 de feuilles.
-
 Puis tout s'apaise doucement dans le silence de la nuit.
-
- 
-
- 
-
 Désirez-vous :
-
- 
-
 Un bon poisson ?
 Une volaille délicate ?
 Un gibier fin ?
 Des conserves de première marque ?
-
 ADRESSEZ-VOUS EN TOUTE CONFIANCE CHEZ
-
 LUGRIN & C" (S.A.)
-
 46, Rue du Rhône (à côté du Grand Passage)
-
-TÉLÉPHONE 48.266 MAISON FONDÉE EN 1848 PAS DE SUCCURSALE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003001_008.tif"/>
-<page><![CDATA[MAISON SPÉCIALE POUR
+TÉLÉPHONE 48.266 MAISON FONDÉE EN 1848 PAS DE SUCCURSALE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003001_008.tif'/>
+        <page>
+          <![CDATA[MAISON SPÉCIALE POUR
 BRILLANTS PARFAITS
-
 Nombreuses occasions - Bagues solitaires depuis frs. 80.-
-
 PLOJOUX
-
 30, RUE DU RHÔNE
-
-     
-
 Bijoux de tous genres - Horlogerie des meilleures marques
-
- 
-
- 
-
 » Scene Abruzzesi “, C. De Nardis
-
 I.- A la tombée du jour sortait de l'église du village et
 grimpait par les difficiles chemins, la traditionnelle procession,
 pointillée par les frétillantes petites flammes des cierges et
@@ -543,344 +343,183 @@ dormies, et de l’Adriatique resplendissant au loin, montent
 des murmures mystérieux qui accompagnent et font plus
 grande et austère la dolente apothéose chrétienne en face de
 la nature.
-
- 
-
- 
-
- 
-
 Un TaiHeur clont ont parle
-
- 
-
 BRUNSCHWIG & GALLAND s..
 CROIX - D’OR, 12
-
 Ses Tissus Anglais
 Son Travail très soigné
 Sa coupe parfaite
 Ses prix modérés
-
- 
-
- 
-
- 
-
-/U e A R]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003001_009.tif"/>
-<page><![CDATA[VICTORIA-HALL
-
+/U e A R
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003001_009.tif'/>
+        <page>
+          <![CDATA[VICTORIA-HALL
 le magnifique bâtiment construit à l'instigation de l'Harmonie Nautique par son
 généreux fondateur Monsieur D. F, P. Barton, ancien consul d'Angleterre, qui en
 fit dont à la Ville de Genève en 1904.
-
 L'Harmonie Nautique devenue depuis : ,, Harmonie Municipale de la Ville
 de Genève “ occupe au rez-de-chaussée, les locaux qui ont été spécialement amé-
-
 nagés à son intention et dont la Ville lui laisse la jouissance conformément au vœu
 exprimé par le donateur.
-
- 
-
-La grande salle de concert]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003001_010.tif"/>
-<page><![CDATA[Toute la musique
+La grande salle de concert
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003001_010.tif'/>
+        <page>
+          <![CDATA[Toute la musique
 Tous les livres
-
 neufs et Joccasion
-
 PRIOR S. À. - Corraterie, 9
-
- 
-
 HARMONIE NAUTIQUE
-
 MEMBRES DU COMITÉ :
-
 MM. G. MARTINET, président ; J. LIcKERT et M. DÉPRAZ, vice-présidents ;
 Th. ENGEL, secrétaire; A. SINGY, vice-secrétaire M. GALFRÈ, trésorier ;
 P. MuRITH, vice-trésorier ; E. BURDET, bibliothécaire, Kurr-REYNAUD et
 R. Gay, économes.
-
 DIRECTEUR: M. Pierre SANTANDRÉA
-
 MEMBRES EXÉCUTANTS (1937)
 Flûtes: MM. BrUm - STOCKBURGER - PIFFARETTI - BALSINGER
 PATTEY.
 Hautbois et cor anglais: MM. VEYRAT - ENGEL - PArNoT - Gicv.
 Petites clarinettes: MM. Rorn - Ocns.
-
- 
-
- 
-
- 
-
 Aissurez-vous chez
-
 ROCH & MARTINET
-
 1, RUE D'ITALIE, 1
-
- 
-
- 
-
 POUR TOUTES LES BRANCHES
 Incendie — Accidents — Responsabilité civile — Vie
-
 Vol — Bris de glaces — etc. etc.
-
 CONDITIONS LES MEILLEURES
-
- 
-   
-
-e]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003001_011.tif"/>
-<page><![CDATA[Clarinettes: MM. DÉpraz - RBieunaup - PezzorT: - DucRrET
+e
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003001_011.tif'/>
+        <page>
+          <![CDATA[Clarinettes: MM. DÉpraz - RBieunaup - PezzorT: - DucRrET
 SCHWITZGUÉBEL - MARTI - CHATELAIN - CHARLON - NICOLET
 VERMOT - G. PORTIER - DuPANLOUP - D1 Micco Charles - SORMANI
 GROPALLO - KELLER - BECKER - GENTILE - SCHREINER - SIMONIN
 PUGIN - STAUFFER - ORGELET - LouP - COLIN - MULLER.
 Clarinette basse: M.NussBAUM.
-
 Bassons: MM. Charles FRANCOUAL - Jules FRANCOUAL.
 Saxophones: MM. GoNDRET - VANAT - BERTRAND - DEPOISIER
 GANICHOT - PoOUGATSCH - BARBIER - GoDIO - BRUNET - BOZZETTI.
-
 Cors: MM. ZBINDEN - A. PicurT - RETscuisky - TRACHSEL
 BÉHAR - BERNASCHINA.
 Cornets à pistons et Bugles: MM. A. DuronT - M. CHapuis
-
 TRISCONI - PORTMANN - LOURDIN - FROIDEVAUX - PERRET - BAILLY
 INDERMUHLE - BRUNIER.
-
- 
-
- 
-
 Harmonie Nautique
-
 (Harmonie Municipale de la Ville de Genève)
-
 Cours d’Elèves
 1937-1938
-
 Sous la direction de M. Pierre SANTANDRÉA
-
 ler Prix d’excellence du Conservatoire de Paris
 Professeur au Conseivatoire de Musique de Genève
-
 Clarinette, Flâte, Hautbois, Basson, Saxophone, Batterie
 et tous instruments de cuivre.
-
 Cours gratuit de Solfège
-
 pour élèves de 8 à 14 ans, par M. P. Santandréa
-
 Pour inscriptions et renseignements, s’adresser à M. P.Santandréa,
 au Victoria Hall, rue Hornung, de 11 à 12 h.30 et de 17 à 19 h.
-(Téléph. 43.144).]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003001_012.tif"/>
-<page><![CDATA[TRANSPORTS FUNÈBRES
-
+(Téléph. 43.144).
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003001_012.tif'/>
+        <page>
+          <![CDATA[TRANSPORTS FUNÈBRES
 Ancienne Maison MURITH, DUPARC'& FERT:_ _— Fondée en 1888
-
 A. MURITH s.
-
 GENEVE - Siège Social : Rue des Chaudronniers, 16
-
 Téléph. 50.288 (Service permanent)
-
-  
-   
- 
-    
-   
- 
-
- 
-
-  
-
- 
-
-   
- 
- 
- 
-
 Fabrique de Cercueils Automobiles Funéraires
-
 L’Administration se charge, sans aucun déplacement pour les
 familles, de toutes les démarches et formalités relatives aux
-
 Inhumations — Exhumations — Incinérations — Transports
-
- 
-     
- 
-      
-
 MORTUAIRES CENT RAL-DEUIL sanes-Fas, 16
-
-  
-    
-   
-   
-        
-
 Trompeltes: MM. BurpET - DECROUX - SCARAMUZZA - BEZZOLA
 MICHELINI.
-
 Trombones: MM. PrIoTToN - Sinay - Ch. MARTIN - MAITRE
 Marc PORTIER - Henri MÜLLER - VÉÈRONÈSE.
-
 Barytons, Basses el Contrebasses: MM. GREBER - Marius MANDALLAZ
 DÉLÉTRAZ - PONCIONI - Georges MANDALLAZ - DALEX - REvOL .; !
 Droz - BLONDEL - DumouLIN - Charles MULLER - MONTILLARD
 MOLINATTI - MAROCCO - DENTZ.
-
 Contrebasses à cordes: MM. BRIcHTER - A. MAYER - KNUCHEL
 1 Di Mrcco Ed.
-
 ‘ Batterie: MM. Kurr - DELOCHE - DESCOMBES - GAY - MAYER J.
-
-YERSIN.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003001_013.tif"/>
-<page><![CDATA[Loute femme élégante
+YERSIN.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003001_013.tif'/>
+        <page>
+          <![CDATA[Loute femme élégante
 est cliente du Printemmps
-
- 
-
 Siegrist Frères
 28, Rue du Rhône, 28
 La Maison du Trousseau...
-
 vous invite à acheter votre trousseau avant l’épui-
 sement de son stock, car les nouveaux prix sont en
 forte hausse.
-
 Prix actuel trousseau complet Fr. 390.-,750 .-, 1000.
-
 Votre Brasserie
-
 AU XX" SIÈCLE
-
 Boulevard Georges Favon, 23
-
 ; Ses menus soignés ...
-
 Ses spécialités ,
-
- 
-
- 
-
- 
-
- 
-
 ÉTABLISSEMENT DIHORTnNCEEUETURE
-
 J. VACHOUX
-
 Entretien et décoration de tombes
-
 Bouquets et couronnes sur commande
-
 TÉLÉPHONE No 51-194 MAGASIN : EN FACE DU CIMETIÈRE DE
-CHÈQUES POSTAUX |.199 SAINT-GEORGES]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003001_014.tif"/>
-<page><![CDATA[Café-Brasserie International
+CHÈQUES POSTAUX |.199 SAINT-GEORGES
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003001_014.tif'/>
+        <page>
+          <![CDATA[Café-Brasserie International
 Place du Cirgue GENÈVE Téléphone 40.729
-
 Ré, Œ?agn er
-
 NOUVELLE SALLE DE
 RESTAURATION ET SOCIÉTÉ
-
- 
-
 Bonne Cave
 Consommations de 1°" choix
-
- 
-
 Restauration à toute heure Ouvert après les spectacles
-
- 
-  
-  
-    
-
- 
-
 II. - «San Clemente a Casauria» (')
-
 ..... Giorgio et Demetrio descendaient par un petit chemin
 vers l’Abbaye que les arbres cachaient encore.…….
-
 C’était en septembre.…….
-
 D’une vigne lointaine montait un chant, prélude de la
 vendange précoce et derrière eux répondait la litanie des
 pélerins qui reprenaient leur voyage. Et les deux cadences,
 la sacrée et la profane, se confondaient.
-
 II. - «Sérénade aux époux ».
-
 IV. - «Fête tragique ».
-
 L'esplanade de la petite église de la Madone, non loin de
 Vasto, est remplie de gens des environs, tous en habits de fête
-
 (‘V)W Trionfo della Morte, Gabriele d’Annunzio.
-
- 
-
- 
-
 HOUILLES - COKES - ANTHRACITES
 BOIS-MAZOUT
-
 Louis BERTRAND & FILS
-
 PETIT-LANCY
 Téléphone N° 41422 — GENEÈVE — Chèques post. I. 3291
-
-GROS ET DÉTAIL]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003001_015.tif"/>
-<page><![CDATA[l
-
+GROS ET DÉTAIL
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003001_015.tif'/>
+        <page>
+          <![CDATA[l
 à
 -
-
-   
-   
-  
-
-    
-
 # Rasez-vous ;
 rap1dement avec
-
 la
-
 CPQIÏ]Q â raser
-
 CHERON
-
 L Vletube: 125 :le tube géant:f: @
 . EN VENTE DANS TOUTES LES MA|SON5 VENDANT DE LA PÀRFUMEP|E
-
 VENTE EN GROS:ÉfablissementsÜEE:l],Chemin des Mines, GENÈVE
-
- 
-
 et vibrants de joie. Marchands de noisettes et de fraîches
 boissons multicolores, un bruit assourdissant de trompettes
 et de sifflets, toute une joie enfantine. Un forain appelle les
@@ -893,51 +532,33 @@ La musique d’un petit village voisin fait, dans la bourgade,
 la tournée du soir. Tout à coup brille un couteau lancé à
 travers la foule.…. on fuit précipitamment de toutes parts et
 au milieu de la mélée, un crit retentit :
-
 «Ils ont tué Çmnnd!@lld»
-
 La cloche de la petite église sonne à toute volée le
 « Magnificat ». Au loin on aperçoit l’azur de l’Adriatique au
 soleil couchant!
-
- 
-
 ORFEVRERIE ARGENT ET MÉTAL ARGENTÉ
 BIJOUTERIE - JOAILLERIE
-
 M. IMHOF
-
 T
-
 Grand choix
 Prix très modérés 6, PASSAGE DES LIONS
-
-Téléphone 44.517 GENEÈVE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003001_016.tif"/>
-<page><![CDATA[CAFEÉ DE LA TERRASSE
-
+Téléphone 44.517 GENEÈVE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003001_016.tif'/>
+        <page>
+          <![CDATA[CAFEÉ DE LA TERRASSE
 SEULQUEKOOEOEOUAOUOROVAUKOOOLVOOVACCOUOAOOVOOCONVONEOUOAOOMOA OO OOOQOOONCOOOHONOOVOOEOOCOUKAOETEC OEN VEOEO ON VONOEROT EU ETEFOVEETEE ETEN
 METS DE BRASSERIE
-
 Spécialité de fondues et biftecks au fromage
-
- 
-
 E. GIACHINO
-
 Propriétaire
 CONSOMMATIONS DE ler CHOIX RESTAURATION SOIGNÉE
 ®
-
 Place Longemalle, 8
 Téléphone 42.048
-
 GENEÈVE
-
- 
-
 Ouverture de GUILLAUME TELL, Rossini
-
 On parle communément de Rossini comme du dieu de la
 gaîté. Qui connaît de près sa vie sait quelles tempêtes d’âme
 cachait cette apparence rieuse ; et qui connaît seulement même
@@ -948,75 +569,32 @@ l’angoisse, les sentiments humains, les plus mâles et les plus
 profonds trouvent une expression de puissance surhumaine,
 et qui ne sont pas moins vivantes et inspirées que les pages
 délicieuses du Barbier.
-
 Dans l’ouverture, si populaire, sont résumés admirable-
 ment, non au moyen de thèmes revenant matériellement,
-
- 
-
- 
-
- 
-
- 
-
 Si vous avez
-
 un cadeau à faire,
 — un anniversaire à souhaiter,
-
 _/ p isi
 72 rendez visite aux
-
 Etablissements
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 45 T L.CORMIER
-
- 
-
- 
-
- 
-
 8, Rue des Caroubiers
-
 = Acacias-Genève
 - Téléphone 45.012
-
-vous y trouverez les meilleurs prix]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003001_017.tif"/>
-<page><![CDATA[CHARCUTERIE
-
+vous y trouverez les meilleurs prix
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003001_017.tif'/>
+        <page>
+          <![CDATA[CHARCUTERIE
 A. BRUNIER
-
 PETIT-LANCY © Téléphone 43,714
-
 Spécialités de saucissons
 et longeoles de campagne
-
- 
-
 Tous les Mercredis et Samedis
-
 HALLE DE L’ILE, CASE : 74
-
- 
-
 mais par le libre pouvoir expressif du langage musical, les
 moments principaux du drame.
-
 Quatre de ces moments peuvent se distinguer dans l’ou-
 verture : un moment doucement et noblement passionné (le
 célèbre quintette par lequel elle débute); une allusion mys-
@@ -1028,20 +606,15 @@ produisant un effet irrésistible: c’est la fameuse fanfare,
 qu'annonce l’éclat des trompettes et qui est développée el
 conduite avec ces magiques effets de crescendo et de contrastes
 dont Rossini etait le maître suprême.
-
- 
-
- 
-
 Agence Générale:
-
 CHARLES CHAMAY
-
 9, Bd. du Théâtre - Genève - Tél. 53.234
-
-—]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003001_018.tif"/>
-<page><![CDATA[a45 S
+—
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003001_018.tif'/>
+        <page>
+          <![CDATA[a45 S
 c» q XC
 ste c& es »
 qs es cC ” - quê
@@ -1049,87 +622,56 @@ qs es cC ” - quê
 p 1 e < a»®
 e e
 p
-
- 
-
 AVIS
-
 Les personnes qui désirent devenir ”meml)res passifs“
 (l€ lï“Iarmonie Nautique peuvent s)inscrire au Victoria—Hall
 ou à la Librairie Richard (15, rue Céard), et auprès
 des membres de la Société. La carte de ”mem1)re Passif”
 donne droit à deux entrées pour clmc1ue concert donné par
-
 lïHarmonie Nautique. Prix f1‘. 8 Par 2lllllé€.
-
 Compte chèques postaux N° 1. 246
 P q P 469
-
- 
-
 Pour toutes les communications
-
- 
-
 concernant les annonces (1u
-
 ?
 programme s adresser à
-
 Ch. PEZZOTTI
 IMPRIMEUR
 10, Rue du Prince, 10
-
 Téléph. 51.850
-
- 
-
- 
-
- 
-
-rrrs rat]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003001_019.tif"/>
-<page><![CDATA[Buvez un
-
+rrrs rat
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003001_019.tif'/>
+        <page>
+          <![CDATA[Buvez un
 Amer Dican
-
 Une maîson de confiance..….
-
 BOULANGERIE-PATISSERIE DE PARIS
-
 Golay-Matzinger
-
 18, Bd. Georges-Favon - Téléphone : 47.220
-
 » Cardinal “
-
 HMDN DEN
 la bonne bière
-
 Voyez la
-
 Patinière
-
 JARDIN ANGLAIS
 »
-
-GLACIER - THÉ - ROOM]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003001_020.tif"/>
-<page><![CDATA[è\IH//' 08 …
+GLACIER - THÉ - ROOM
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003001_020.tif'/>
+        <page>
+          <![CDATA[è\IH//' 08 …
 = \..=_—: y
 Ê%//M\ÔÊ' l
-
-  
-
- 
-
 ASSURE 0
 TouUrESs LE=s PROFESSIONS
 AUX MEILLEURES CONDITION;
-
-SUCCURSALE DE GENÈVE -— LONGEMALLE.! |]]></page>       
-        </p>
+SUCCURSALE DE GENÈVE -— LONGEMALLE.! |
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

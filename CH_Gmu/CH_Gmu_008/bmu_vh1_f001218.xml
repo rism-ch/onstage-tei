@@ -1,135 +1,117 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Grand concert donné par l'Harmonie nautique<date when="20/03/1916"/></title>
-<series>1915-1916</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Grand concert donné par l'Harmonie nautique
+            <date when='20/03/1916'/>
+          </title>
+          <series>1915-1916</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F001218</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Pieyre, A. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19160320"/>
-<title>Grand concert donné par l'Harmonie nautique</title>
-<placeName key="Victoria Hall"/>
-<name key="1915-1916" type="series"/>
-<name key="Schumann, Robert" ref="https://muscat.rism.info/admin/people/131206" type="person" role="cmp">Schumann, Robert</name>
-<name key="Saint-Saëns, Camille" ref="https://muscat.rism.info/admin/people/76734" type="person" role="cmp">Saint-Saëns, Camille</name>
-<name key="Martini, Giovanni Battista" ref="https://muscat.rism.info/admin/people/30002105" type="person" role="cmp">Martini, Giovanni Battista</name>
-<name key="Kreisler, Fritz" ref="https://muscat.rism.info/admin/people/52067" type="person" role="cmp">Kreisler, Fritz</name>
-<name key="Couperin, François" ref="https://muscat.rism.info/admin/people/30000757" type="person" role="cmp">Couperin, François</name>
-<name key="Lauber, Joseph"  type="person" role="cmp">Lauber, Joseph</name>
-<name key="Chabrier, Emmanuel" ref="https://muscat.rism.info/admin/people/48553" type="person" role="cmp">Chabrier, Emmanuel</name>
-<name key="Pieyre, Auguste (dir.)"  type="person" role="int">Pieyre, Auguste (dir.)</name>
-<name key="Harmonie Nautique"  type="person" role="int">Harmonie Nautique</name>
-<name key="Closset, Fernand"  type="person" role="int">Closset, Fernand</name>
-<name key="Closset (Mme)"  type="person" role="int">Closset (Mme)</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001218_001.tif"/>
-<page><![CDATA[Art Social — vicToria-HALL
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19160320'/>
+        <title>Grand concert donné par l'Harmonie nautique</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1915-1916' type='series'/>
+        <name key='Schumann, Robert' ref='https://muscat.rism.info/admin/people/131206' type='person' role='cmp'>Schumann, Robert</name>
+        <name key='Saint-Saëns, Camille' ref='https://muscat.rism.info/admin/people/76734' type='person' role='cmp'>Saint-Saëns, Camille</name>
+        <name key='Martini, Giovanni Battista' ref='https://muscat.rism.info/admin/people/30002105' type='person' role='cmp'>Martini, Giovanni Battista</name>
+        <name key='Kreisler, Fritz' ref='https://muscat.rism.info/admin/people/52067' type='person' role='cmp'>Kreisler, Fritz</name>
+        <name key='Couperin, François' ref='https://muscat.rism.info/admin/people/30000757' type='person' role='cmp'>Couperin, François</name>
+        <name key='Lauber, Joseph' type='person' role='cmp'>Lauber, Joseph</name>
+        <name key='Chabrier, Emmanuel' ref='https://muscat.rism.info/admin/people/48553' type='person' role='cmp'>Chabrier, Emmanuel</name>
+        <name key='Pieyre, Auguste' type='person' role='int'>Pieyre, Auguste</name>
+        <name key='Harmonie Nautique' type='person' role='int'>Harmonie Nautique</name>
+        <name key='Closset, Fernand' type='person' role='int'>Closset, Fernand</name>
+        <name key='Closset (Mme)' type='person' role='int'>Closset (Mme)</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001218_001.tif'/>
+        <page>
+          <![CDATA[Art Social — vicToria-HALL
 Lundi 20 Mars 1916
-
 î‘.‘! q Tour'Maltresse’ 12017 à 8h. et demie du soir
-
- 
-
- 
-
 GRAND CONCERT
-
 donné par
-
 L'Harmonie Nautique
-
 (Harmonie municipale de la Ville de Genève)
 sous la Direction de M. AUGUSTE PIEYRE
-
 Professeur au Conservatoire
-
 Avec le gracieux concours de
-
 M. Fernand CLOSSET
-
 . Professeur au Conservatoire
 violon solo du Théâtre et des Concerts d’abonnement
-
- 
-
 äi @ e
-
 Ë! PROGRAMME
-
 ä 1. Ouverture de Hermann et Dorothée. _ scHumANn
 | l Symphonie .. SAINT-SAENS
-
 rrrn
-
 Adagio, Allegro — Marche, Scherzo — Final,
-
 Harmonie Nautique
-
 t
-
 2. Rondo capricioso.........._..… SAINT-SAENS
 Andantimo 1 MARTINI-KREISER
 ..... COUPERIN-KREISLER
-
 M. Fernand Closset
-
 3. Sous les Armes, fantaisie dédiée à
 . lArmée Suisse y . … Joseph LAUBER
-
 Appel de mobilisation — Dans l’attente des évé-
 nements — Départ pour la frontière — Service de
 garde à l’extrême frontière (bruits de bataille au
 loin) — Au cantonnement, délassement, chansons
 — Garde à vous — L'Armée veille, la Suisse est
 confiante.
-
 Bourrée fantasque.........._.… CHABRIER
-
 Harmonie Nautique
-
 —
-
 Au piano M"* F. CLOSSET
-
 Billets à 25 centimes
-
-Imp. Jent]]></page>       
-        </p>
+Imp. Jent
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

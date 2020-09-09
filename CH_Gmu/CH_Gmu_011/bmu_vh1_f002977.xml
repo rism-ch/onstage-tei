@@ -1,213 +1,164 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>L'Orchestre philharmonique de Vienne<date when="09/05/1935"/></title>
-<series>1934-1935</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            L'Orchestre philharmonique de Vienne
+            <date when='09/05/1935'/>
+          </title>
+          <series>1934-1935</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002977</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Weingartner, F. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19350509"/>
-<title>L'Orchestre philharmonique de Vienne</title>
-<placeName key="Victoria Hall"/>
-<name key="1934-1935" type="series"/>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Schumann, Robert" ref="https://muscat.rism.info/admin/people/131206" type="person" role="cmp">Schumann, Robert</name>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Schubert, Franz" ref="https://muscat.rism.info/admin/people/111603" type="person" role="cmp">Schubert, Franz</name>
-<name key="Weingartner, Félix (dir.)"  type="person" role="int">Weingartner, Félix (dir.)</name>
-<name key="Orchestre philharmonique de Vienne"  type="person" role="int">Orchestre philharmonique de Vienne</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002977_001.tif"/>
-<page><![CDATA[e
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19350509'/>
+        <title>L'Orchestre philharmonique de Vienne</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1934-1935' type='series'/>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Schumann, Robert' ref='https://muscat.rism.info/admin/people/131206' type='person' role='cmp'>Schumann, Robert</name>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Schubert, Franz' ref='https://muscat.rism.info/admin/people/111603' type='person' role='cmp'>Schubert, Franz</name>
+        <name key='Weingartner, Félix' type='person' role='int'>Weingartner, Félix</name>
+        <name key='Orchestre philharmonique de Vienne' type='person' role='int'>Orchestre philharmonique de Vienne</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002977_001.tif'/>
+        <page><![CDATA[e
 F | 9699
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-Programme]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002977_002.tif"/>
-<page><![CDATA[]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002977_003.tif"/>
-<page><![CDATA[VICTORIA -HALE - GENÈVE
-
- 
-
- 
-
+Programme
+]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002977_002.tif'/>
+        <page><![CDATA[]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002977_003.tif'/>
+        <page>
+          <![CDATA[VICTORIA -HALE - GENÈVE
 Jeudi 9 mai 1()55, à 20 h. 4€
-
 L'ORCHESTRE
 PHILHARMONIQUE
 DE VIENNE
-
 sous la direction de M.
-
 Félix WEINGARTNER
-
 DIRECTEUR DU STAATSOPER DE VIENNE
-
- 
-
 Location à la Librairie N.|\i”x', P.'|s\.‘lQ«' des Lions - yl‘l"ll"llll
-
 . 44.457
-
- 
-
-BuRrEAU DE CONCERTS VicTor ANDRÉOSSI, Genève]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002977_004.tif"/>
-<page><![CDATA[COMITÉ D’'HONNEUR
-
+BuRrEAU DE CONCERTS VicTor ANDRÉOSSI, Genève
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002977_004.tif'/>
+        <page>
+          <![CDATA[COMITÉ D’'HONNEUR
 MM.
-
 John ALBARET, Président du Conseil administratif de la Ville de
 Genève.
-
 Ernest ANSERMET, Chef de l'Orchestre Romand.
-
 Madame Stéfanie ASKANAZY, Présidente de la Société Autri-
 chienne de Secours.
-
 J. AVENOL, Secrétaire général de la Société des Nations.
-
 Léopold BOISSIER, Secrétaire général de l'Union Interparlemen-
 taire.
-
 Robert BORY, Président de la Société des Festivals Internationaux
 de Genève.
-
 Henri BROLLIET, Vice-président de l’Association des Amis de
 l’Orchestre Romand.
-
 Harold -B. BUTLER, Directeur du Bureau International du Travail.
-
 Edouard CHAPUISAT, ancien Directeur du Journal de Genève.
-
 Dr. Z. CHERIDJIAN, Professeur à l’Université de Genève.
-
 Marc COUGNARD, Président de l’Association des Intérêts de
 Genève.
-
 Henri GAGNEBIN, Directeur du Conservatoire de Musique de
 Genève.
-
 Emile JAQUES-DALCROZE, Directeur de l’Institut Jaques-Dalcroze
-
 Dr. Egon von KŒHLER.
-
 Paul LACHENAL, Conseiller d’Etat, Président du Département de
 l’Instruction publique.
-
 René LEYVRAZ, Président de l’Association Genevoise de la Presse.
-
 William MONTILLET, Professeur au Conservatoire.
-
-Marius NOUL, Conseiller administratif de la Ville de Genève.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002977_005.tif"/>
-<page><![CDATA[S. E. M. Emmerich de PFLUGL, Envoyé extraordinaire et Ministre
+Marius NOUL, Conseiller administratif de la Ville de Genève.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002977_005.tif'/>
+        <page>
+          <![CDATA[S. E. M. Emmerich de PFLUGL, Envoyé extraordinaire et Ministre
 Plénipotentiaire, Représentant du  Gouvernement Fédéral
 d'Autriche auprès de la Société des Nations.
-
 Bertram PICKARD, Secrétaire des Institutions Privées Internatio
 nales.de Genève.
-
 William RAPPARD, Directeur de l’Institut Universitaire des Hautes
 Etudes Internationales.
-
 S. E. M. Henri SCHMID, Envoyé Extraordinaire et Ministre Pléni
 potentiaire d'Autriche à Berne.
-
 Com. G. SPECHEL, Doyen du Corps Consulaire de Genève.
-
 Dr RE SIEINMETz
-
 'l‘cmp]ct(m STRONG, Compositeur.
-
 Léopold SWOBODA, Ancien musicien à la Cour d’Autriche
-
 COMITÉ D'ORGANISATION
-
 Président :
-
 Ms TÉous JIUIULIÉE/RATE (184, 144 TP
-
 S('('I'ÜÎI{ÏI'(' °
-
 M. Pierre ATTESLANDER, Consul d’Autriche
-
 Memubres :
 M Victor ANDREOSSI, Directeur de la Sté Romande de Spectacles.
 M. À.-C. de BREYCHA-VAUTHIER.
 M. Hugo de HAAN (B. I. T.).
-
-M. Rudolf METALL (B. 1. T.).]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002977_006.tif"/>
-<page><![CDATA[RE REN
-
- 
-
+M. Rudolf METALL (B. 1. T.).
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002977_006.tif'/>
+        <page><![CDATA[RE REN
 HARMONIQUE
-
 ’"ORCHESTRE PHIL
-
 ll
-
 E
-
 VIENN
-
-DE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002977_007.tif"/>
-<page><![CDATA[LORCHESTRE
+DE
+]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002977_007.tif'/>
+        <page>
+          <![CDATA[LORCHESTRE
 PHILHARMONIQUE
-
 DE VIENNE
 ®
-
 C’est au cours de sa grande tournée qui le conduit à Paris, dans
 les principales villes de Belgique et de Grande-Bretagne, poui
 s'achever le 11 mai à Florence, que l’Orchestre Philharmo
@@ -215,7 +166,6 @@ nique de Vienne se présente, ce soir, au public genevois. Et c’est la
 première fois qu'il se fait entendre dans notre ville avec son
 effectif complet, le concert qu’il donna lors du Festival Interna
 tional, en septembre 1923, ayant été exécuté par un ensemble réduit
-
 On peut considérer Otto Nicolaï comme le fondateur de cette
 phalange justement célèbre. Grâce à son initiative et à son énergic
 les musiciens de l’orchestre de l'Opéra Impérial et Royal de Vienne
@@ -225,11 +175,9 @@ rythme de deux concerts par saison jusqu’en 1847, date à laquelle
 Nicolaï quitta Vienne pour se consacrer entièrement à la composi
 tion de son opéra Les joyeuses commères de Windsor. Dès lors, la
 cadence se ralentit pour aboutir, en 1857, à l’arrêt complet
-
 Ce ne fut, toutefois, qu'une interruption. Trois ans plus tard
 l’institution devait revivre sous forme de concerts d’abonnement
 ct continuer son activité sans interruption jusqu’à nos jours.
-
 Bien que composé de musiciens de l’orchestre de l'Opéra de
 Vienne, l’Orchestre Philharmonique est une entreprise privée entiè
 rement autonome. Elle a sa propre administration et désigne elle
@@ -240,62 +188,49 @@ Mottl, Schalk, Richard Strauss, Félix Weingartner (1908-1927),
 Furtwängler, Toscanini, Bruno Walter, ete… Wagner, Brahms,
 Bruckner, parurent également au pupitre des concerts de la Phil
 harmonie.
-
 C’est pour le public genevois un privilège exceptionnel que
 d'applaudir un ensemble de cette envergure, privilège auquel il
 est d'autant plus sensible que le concert de ce soir est le seul que
 l’Orchestre l’hilh;1rmnniquc de Vienne donne en Suisse au cours de
-sa tournée actuelle.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002977_008.tif"/>
-<page><![CDATA[Félix WEINGARTNER]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002977_009.tif"/>
-<page><![CDATA[PROGRAMME
-
+sa tournée actuelle.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002977_008.tif'/>
+        <page><![CDATA[Félix WEINGARTNER
+]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002977_009.tif'/>
+        <page>
+          <![CDATA[PROGRAMME
 SYMPHONIE No 1, ut majeur, op. 21 . . . . L. van Beethoven
 a) Adagio molto Allegro con brio.
-
 b) Andante cantabile con moto.
-
 c) Menuetto : Allegro molto e vivace.
-
 d) Adagio Allegro molto e vivace.
 Quyesturegde E MNNERED oprog R. Schumann
 SIEGFRIED-IDYLL PE U ; R. Wagner
-
 ENTR ACTI
-
 SROMIBHONPEN P amaeu T hubert
 a) Andante Allegro ma non troppo.
-
 b) Andante con moto.
 c ) Scherzo : Allegro vivace.
-
 d) Allegro vivace.
-
 x
-C@I]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002977_010.tif"/>
-<page><![CDATA[Directeurs :
-
+C@I
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002977_010.tif'/>
+        <page>
+          <![CDATA[Directeurs :
 MM.
-
 Félix WEINGARTNER.
-
 Professeur Bruno WALTER.
-
 Violon solo :
-
 MM.
-
 ROSE Arnold.
 STWERTKA Julius.
-
 Premiers violons :
-
 MM.
-
 MM.
-
 ODNOPOSOFF Richard.
 WEISS Anton.
 STARKMANN Max
@@ -308,15 +243,12 @@ WEISSGARBER Max.
 SEDLAK Fritz.
 DUESBERG Herbert.
 OBERMAYER Hermann.
-
 Deuxièmes violons :
-
 DENGLER Erwin.
 BOSKOVSKY Willi.
 SALANDER Berthold.
 FŒDERL Leopold.
 WILD Karl.
-
 FALK Dr. Daniel.
 STRASSER Otto.
 KLEIN Karl.
@@ -324,27 +256,20 @@ BROSCH Karl.
 JOHANNIS Carl.
 SUCHY Jaroslav.
 GRAF Erich.
-
 Alti :
-
 MM.
-
 MORAVEC Ernst.
 GRUNBERG Alfons.
 PORTELE Josef.
 PIRCHL Raimund.
 RIEGER Otto.
-
 KUNZ Franz.
 GŒRNER Franz.
 SLAVICEK Franz.
 STANGLER Ferdinand.
 KOCI Johann.
-
 Violoncelles :
-
 MM.
-
 BUXBAUM  Siegfried.
 KLEINECKE Walter.
 KLEIN Franz.
@@ -353,9 +278,7 @@ MAYR Rudolf.
 ZUPANCIC Nikolaus.
 MAURER Karl.
 MAGG Herbert.
-
 Contrebasses :
-
 MM. STIX Otto.
 ZAHRADNIK Karl.
 SCHREINZER XKarl.
@@ -364,38 +287,25 @@ DIRRER Adolf.
 JERGER Wilhelm.
 WUNDERER Othmar.
 HERMANN Joset.
-
 Harpe :
 M. JELINEK  Franz.
 Flütes .
-
 MM. NIEDERMAYER Josef.
 LUDERER Anton.
-
 SONNENBERG VWilhelm.
-
 Hautbois :
-
 MM. WUNDERER Alexander.
-
 KAMESCH Hans.
 WUNDERER Richard.
-
 Clarinettes :
-
 MM. LŒW Johann.
 WLACH Leopold.
 BARTOSEK Franz.
-
 Bassons :
-
 MM. SCHIEDER Otto.
-
 BILLINO Adolf.
-
 HARAND Richard.
 BURGHAUSER Hugo.
-
 GS £
 MM. KOLLER Hans.
 FREIBERG Gottfried.
@@ -403,32 +313,29 @@ NOWAK  Christian.
 KAINZ Leopold.
 MOISSL Hermann.
 KOLLER Franz.
-
 Trompettes :
 MM. DENGLER Franz.
 STIEGLER Hans.
 LEVORA Joset.
-
 Trombones :
 MM. DREYER Franz.
 BICAN Eduard.
 HADRABA Josef.
-
 Tuba :
 M. KNAPPKE Friedrich.
-
 Batterie :
 MM. RAIMUND Georg.
 GARTNER Hans.
 BEHR Paul.
-
 Orgue :
-M. WILHELM Jerger.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002977_011.tif"/>
-<page><![CDATA[]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002977_012.tif"/>
-<page><![CDATA[]]></page>       
-        </p>
+M. WILHELM Jerger.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002977_011.tif'/>
+        <page><![CDATA[]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002977_012.tif'/>
+        <page><![CDATA[]]></page>
+      </p>
     </body>
   </text>
 </TEI>

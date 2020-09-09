@@ -1,127 +1,97 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert symphonique (Deuxième de l'abonnement)<date when="30/10/1926"/></title>
-<series>1926-1927</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert symphonique (Deuxième de l'abonnement)
+            <date when='30/10/1926'/>
+          </title>
+          <series>1926-1927</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002630</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Ansermet, E. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19261030"/>
-<title>Concert symphonique (Deuxième de l'abonnement)</title>
-<placeName key="Victoria Hall"/>
-<name key="1926-1927" type="series"/>
-<name key="Brahms, Johannes" ref="https://muscat.rism.info/admin/people/39914" type="person" role="cmp">Brahms, Johannes</name>
-<name key="Debussy, Claude" ref="https://muscat.rism.info/admin/people/4338" type="person" role="cmp">Debussy, Claude</name>
-<name key="Ansermet, Ernest  (dir.)" ref="https://muscat.rism.info/admin/people/40219507" type="person" role="int">Ansermet, Ernest  (dir.)</name>
-<name key="Orchestre de la Suisse Romande" ref="https://muscat.rism.info/admin/people/50007615" type="person" role="int">Orchestre de la Suisse Romande</name>
-<name key="Gills, Gabrielle"  type="person" role="int">Gills, Gabrielle</name>
-<name key="Panzera, Ch."  type="person" role="int">Panzera, Ch.</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002630_001.tif"/>
-<page><![CDATA[ORCHESTRE DE LA SUISSE ROMANDE
-
- 
-
- 
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19261030'/>
+        <title>Concert symphonique (Deuxième de l'abonnement)</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1926-1927' type='series'/>
+        <name key='Brahms, Johannes' ref='https://muscat.rism.info/admin/people/39914' type='person' role='cmp'>Brahms, Johannes</name>
+        <name key='Debussy, Claude' ref='https://muscat.rism.info/admin/people/4338' type='person' role='cmp'>Debussy, Claude</name>
+        <name key='Ansermet, Ernest' ref='https://muscat.rism.info/admin/people/40219507' type='person' role='int'>Ansermet, Ernest</name>
+        <name key='Orchestre de la Suisse Romande' ref='https://muscat.rism.info/admin/people/50007615' type='person' role='int'>Orchestre de la Suisse Romande</name>
+        <name key='Gills, Gabrielle' type='person' role='int'>Gills, Gabrielle</name>
+        <name key='Panzera, Ch.' type='person' role='int'>Panzera, Ch.</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002630_001.tif'/>
+        <page>
+          <![CDATA[ORCHESTRE DE LA SUISSE ROMANDE
 FTFXFFX
-
 VICETORIA-HALL
 Sameodi 30 octobre 1926, à 20 heures et demie
-
 CONCERT SYMPHONIQUE
-
 (Deuxième de l'Abonnement)
-
 SOLISTES :
-
 M" Gabrielle GILLS M. CL. PANZERA
-
 Canlatrice, Oes Concerts du Conservaloire, Barylon, de l’Opéra-Comique,
-
- 
-
- 
-
- 
-
 Colonne el Lamoureux. des Concerls Colonne et Lamoureux.
-
- 
-
- 
-
- 
-
 PROGRAMME
-
 PREMIÈRE PARTIE
-
 1. SYMPHONIE n° 1, en u( mineur Brabma
 a) Un poco sostenuto - Allegro.
 b) Andante sostenuto.
 c) Un poco allegretto e grazioso.
 0) Adagio - Allegro non troppo ma con brio.
-
 ESESENEESS ++
-
 RR S
-
 DEUXIÈME PARTIE
-
- 
-
- 
-
 2. Scènes intégrales de
-
 PELLÉAS ET MÉLISANDE
-
 Drame lyrique de MÆTERLINCK, musique de Debusoy
 Pelléas : M. PANZERA. - Mélisande : M""° GILLS.
-
 3. MARCHE ÉCOSSAISE Debuosy
-
- 
-
 L'Orchestre sera dirigé par
-
 M. Ernest ANSERMET
-
 “
 “
 -
@@ -187,110 +157,61 @@ g
 K
 ;
 b
-
 Le Concert commencera à 20 h. 3o précises et sera terminé vers 22 h. 3o.
-
 Aucun morceau ne sera répélé ni ajouté au programme.
-
 AN
-
 La Direction se réserve le droit d’apporter au programme toutes modifications que
 les circonstances pourraient lui imposer.
-
 *
-
 7 | . ; > /B0
 es porles seront rigoureusement fermées pendanl l’exécution des morceaux.
-
 æ
-
 MIFIFTF FFF
-
 .‘_
-
- 
-
- 
-
- 
-
 III IN III I IIn I I III In I e I Is S IIs e I e I I e I YTn I Y IS Is JN
-
- 
-
- 
-
- 
-
 - rn en
-
-KS AN AN SS A A S IS SS IO AIN M T e r r r A r r d V M t 2 <0 e"]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002630_002.tif"/>
-<page><![CDATA[*
-
+KS AN AN SS A A S IS SS IO AIN M T e r r r A r r d V M t 2 <0 e"
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002630_002.tif'/>
+        <page>
+          <![CDATA[*
 DEDE DE DEMI DERC DEDE DE DESCDE DEN DEDEN DEDE SS DDN
-
 Aimé KLING
-
 JUTHIER
-
 12, Rue Dic]ay (premier étage)
-
 t sd
 sN
-
 ANCHELS r1
 INSTRUMENTS ANCIENS
-
 DESESESEDEDES EN DESNESESEDES CN DESCIEDES
-
 e
-
- 
-
 “
-
 Es
 »
-
- 
-
 SS A
-
 L
-
 ! LES BER
 w C ÏÈNDÈE EN 18300U
 GENEVE
-
 L e t SE S
-
 0 ; ;oeenePe ”. \} \ N
 / ” F / = ",,(’,' }— \Ë\ = \ \ N
 5 A \
-
- 
-
 sI p ME
-
- 
-
 PE RETRE SSF E RR ETE S ; HEVIRES
 PR OUR SE VRSN IERE EME SE C SR Eh R à PR EN PEN e
 R PALOITTANE RIM UR nmm:utuun|..u.l\rä!ïÏ…lhh...ll….i..….|1.! ,
-
-e E N É e E — r]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002630_003.tif"/>
-<page><![CDATA[cr avær@nemmmwreaeaeAï%m%mm%m
-
+e E N É e E — r
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002630_003.tif'/>
+        <page>
+          <![CDATA[cr avær@nemmmwreaeaeAï%m%mm%m
 BPICICEIEISICICOIEIES CI OCICBIGOEIEIOITESTETEA S PIE3IEIETeue
-
 æaececges
-
 Johannes BRAHMS
-
 Né à Hambourg le 7 mai 1833, mort à Vienne le 3 avril 1897.
-
 La qualité expressive de la symphonie, qui va diminuant de
 signification, de Beethoven à Schumann et à Mendelssohn, reprend
 un accent plus profond dans les quatre symphonies de Brahms, que
@@ -303,13 +224,11 @@ Mais, comparées à celles de Mendelssohn et de Schumann qui les
 précédèrent, elles se rapprochent de la tradition beethovenienne par
 leur retour aux grands thèmes, leur richesse et leur accomplisse-
 ment organiques.
-
 La première symphonie a été composée entre les années 1862 et
 1876 et fut inspirée à Brahms par des auditions du Manfred de Schu-
 mann, dont le sujet provoquait en lui des résonances profondes.
 Le second thème du premier mouvement de la symphonie en 00
 mineur fait d’ailleurs allusion à l’œuvre schumanienne.
-
 L'unité profonde de la symphonie trouve son expression dans un
 motif chromatique de caractère pathétique, qui domine toute l’intro-
 duction, donne naissance au premier mouvement et circule, comme
@@ -324,116 +243,57 @@ des deux qui fait penser à la gaillarde ou à l’allemande. Le rempla-
 cement du mouvement lent et du scherzo classique par ces deux
 intermèdes est fait d’ailleurs pour renforcer la valeur du finale qui
 devient le pendant du premier mouvement.
-
- Ce finale ramène dans son introduction lente l’atmosphère pesante
+Ce finale ramène dans son introduction lente l’atmosphère pesante
 et sombre du début de la symphonie, mais s’éclaire tout à coup
 d'un éclatant solo de cor, magnifique inspiration fondée sur l’échelle
-
 E BC ETE CI CL CEI CI CC EDOX ID DVEDE IOOE OON O— DE A
-
 L
-
-LOoaacOSD OO IOA IO IOALOAIAIDED3I OL OIOI AL OIOI AAOOAOAOIA OIOI OIOO SIOF OO A0oaMasIEIn]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002630_004.tif"/>
-<page><![CDATA[0os6c0n00600000000000000coceseees
-
+LOoaacOSD OO IOA IO IOALOAIAIDED3I OL OIOI AL OIOI AAOOAOAOIA OIOI OIOO SIOF OO A0oaMasIEIn
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002630_004.tif'/>
+        <page>
+          <![CDATA[0os6c0n00600000000000000coceseees
 eo0soscco0ceanDO0200000000000000000000000006C0C 000000000000 0000G0000U0VOCOOR00000000000000020C000000000000 00000
-
-   
-    
- 
-
- 
-
 Le plus grand assortiment, complété des
-
-   
-
 E T
-
 nouveautés intéressantes, ainsi que des
-
- 
-
 œuvres i0\lé(‘< aux concerts \i(‘ l’O S R
-
 ——
-
 En vente : Part1t10ns (l orflwstrc," pour suivre au concerty
-
- 
-
 Spécialité DISQUES de musique sérieuse — Orchestre
 Musique de chambre — Chant — Instruments, etc., etc.
-
 Œuvres jouées aux concerts, pour autant qu'elles ont paru.
-
 GRAMOPHONES
-
- 
-
- 
-
- 
-
 eocc00000s000000000000000000000000 0. doccoc0000000 coo000n00000000000000000005000
-
 00000000000000000000 0000000000 000000 0000000000009900200000 0000000000 00000000000000O0ONOD00OC00000000000000 000
-
 TEINTURE EI LAVAGE CHIMIQUE
-
 > es 3 54
 .\v/(n_y«1_ar à sec - I)vcal1.&.uz_qv - Costumes bals el sotrées
-
 ——s
-
 F & E BÆCHLER Frères
-
 Tour-de-l'Ile, 4 - Cours de Rive, 2 - Grand'Rue, 5
 Place du Molard, 3 - Rue du Mont-Blanc, 7 - Rue Leschot, 6
 Servette, 3 - Boul. Georges-Favon, 17 - Rue de Carouge, 71
-
 Usine : Rue de Lausanne, 84
-
 GENEVE
-
 ——
-
 Dépoussiéragç et nettoyagc (lC tapi.s et ameuhlcments
-
-   
-
 su
-
-  
-
-        
-
-   
-
-  
-
- 
- 
-  
-
 SE pN A E
-
 ps
-
 E
-
-d e e en]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002630_005.tif"/>
-<page><![CDATA[gMMM“MWMMMW”MMMM“““” “MM“%”8
-
+d e e en
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002630_005.tif'/>
+        <page>
+          <![CDATA[gMMM“MWMMMW”MMMM“““” “MM“%”8
 ;
 ÿ
 Ç
-
 Ÿ
 Ç
-
 S
 $
 ;
@@ -449,7 +309,6 @@ S
 ;
 ;
 S
-
 Û
 Ÿ
 ÿ
@@ -463,44 +322,31 @@ S
 Q
 Û
 Ç
-
 ë
 :
 s
-
 é
 s
 ‘
 ;
-
 à
 g
 Ç
 ;
 S
-
 naturelle des notes du cor des Alpes, et dont l’impression se réper-
 cute dans de pieux accords de trombones. L’allegro final s’élance
 alors dans une mélodie qui rappelle celle de la Joie, de la Neuvième
 symphonie, et cet allegro se déroule en effet comme un hymne à la
 Joie, d’une expression moins généralement humaine que celui de
-
 Beethoven, mais puissamment soutenu dans ses données plus étroites.
-
 ®
-
 e sf
-
 Claude-Achille DEBUSSY
-
 Ne à Saint-Germain-en-Laye en 1862, mort à Paris en 1918.
-
 PELLÉAS ET MÉLISANDE
-
 Drame lyrique en 5 actes et 13 tableaux, livret de M. Mæterlinck.
-
 Représenté pour la première fois sur la scène de l'Opéra-Comique le 30 avril 1902.
-
 Perdu dans la forêt où il chassait, Golaud, petit-fils d’Arkel, le
 vieux roi d’Allemonde, a rencontré une jeune fille, presque une
 enfant, qui pleurait au bord d’une fontaine. Il veut s’approcher
@@ -515,21 +361,14 @@ bois où ils se sont tous les deux égarés. Peu à peu Mélisande prend
 confiance, et, voyant à ce sauveur la barbe et les cheveux déjà gris,
 elle se décide à le suivre pour sortir de la forêt que les ombres de
 lanuit co mmencent à obscurcir.
-
 Golaud épouse Mélisande et la conduit au palais d’Arkel, lorsque
 le vieux monarque a consenti à accueillir cette étrange inconnue,
 douce et silencieuse. Elle y voit Pelléas, le jeune frère de Golaud,
 et, tout de suite, par une sympathie née en leurs âmes tristes, ils
 sont devenus compagnons. Lui, pâle rêveur, elle, créature de mys
-
 tère, sans se le dire, sans le comprendre même, ils se sont reconnus
-
- 
-
 û
-
 =
-
 à
 à
 à
@@ -540,13 +379,9 @@ tère, sans se le dire, sans le comprendre même, ils se sont reconnus
 û
 ù
 û
-
 =
-
 Û
-
 =
-
 Û
 à
 À
@@ -556,166 +391,65 @@ tère, sans se le dire, sans le comprendre même, ils se sont reconnus
 |
 Û
 à
-
 û
-
 ©
-
 =
-
 à
 ù
 ù
 à
 à
 ù
-
 =
-
 ù
-
 ;
-
 û
 à
 à
 à
-
 à
 à
 à
 û
-
-Muame“a“u”…ænwwn”“““””u…uuä]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002630_006.tif"/>
-<page><![CDATA[0008000006000000000C0000000000600000000000006090000000000
-
+Muame“a“u”…ænwwn”“““””u…uuä
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002630_006.tif'/>
+        <page>
+          <![CDATA[0008000006000000000C0000000000600000000000006090000000000
 no0cc0.00ess000u00008600000
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 E É u °
 ]Ë Ê]Ë€ÈË Corraterie, 9, AU 1
-
 MUSIQUE NEUVE ET D'OCCASION
-
 |
 | Partitions de poche des œuvres d’orchestre,
 |
 |
 |
-
-    
-   
- 
-
 littérature musicale, etc.
-
- 
- 
-
 ABONNEMENT
 aux livres et à la musique. Pour le prix excep-
 fionnel de 12 fr. par an, vous pouvez lire ou jouer
 foutes les nouveautés littéraires et musicales.
-
-    
-
- 
-
-  
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-    
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 s200000000000 0A0000000000000000C00NO0HO000COHOC00000GOMO000DO0MMO000C0OCCCHOOU0OSO0NO002C00N00000000000000008
-
 INSTITUT JAQUES-DAICROZE
-
 GENEVE
-
 R yt]1mique Solfegc
 T héorie du Rytlnne
-
 PillllO
-
 lIIIPI‘OVISHUUH
-
 ILu‘m(m E
-
- 
-
 Teclmique corporelle ef pl:1stiquc animée
-
 1. Cours pour amaleurs, adultes el «’H_/11/!/.-.
 ». Cours /7/'(_‘/'|'«‘:'(1'”/1('{.' : a) Cours .‘u/’.-'ll‘i}’///' ; b) Cours /h"(’æl‘d0_m'./uv
 Cours préparant à Ll’enseignement de la mélhode Jaques-Dalcrozè (examen ou
 certificat et Ou diplôme).
 l'ous les cours seront donnés ou in»,pc« tes par M. ].\QL‘I«‘S—DAI.CRH/J
 r]ui a n*pwiw toute son activité à l'Institut Central de Genève
-
 Demandez proodpeclus au Secrélartal, 44, Terrassière.
-
-    
-
 a000000200000000000000000000000000000000000000000000000200000000000000CO00000000000000000900S00H0000O0O000S00
-
 vs00000000<00006000000000c0sGAuC00. 00000000n ONACOGO0.00GOAC0OSOONG0C00000000000000
-
- 
-
- 
-
 Ï
-
 |
 |
 i
@@ -723,71 +457,44 @@ d
 j
 |
 |
-
 1E S E
-
 arr—
-
 ranp
-
 preridiees ec es
 PE E
-
 cmm
-
 ; iToe
-
 *
-
 :£
 q
-Ï]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002630_007.tif"/>
-<page><![CDATA[p
-
+Ï
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002630_007.tif'/>
+        <page>
+          <![CDATA[p
 Prarqaci
-
- 
-
 e A RE G d A e
-
 S e
-
 OCTEET M C E ETE
-
- 
-
-      
-
 VU Sl R As *r‘W“æ
-
 gwmmm%m%mm%mmm%%mm%%eaæaœaeacmræ:mc—‘xsg
-
 S
 ÿ
-
 û
 9
-
 >
-
 5
-
 9
 3
-
 3
 ÿ
 3
 $
 $
-
 «
-
 2
-
 2
-
 3
 ;
 ÿ
@@ -795,19 +502,13 @@ $
 ÿ
 S
 $
-
 $
 $
 à
-
 2
-
 æ
-
 2
-
 e
-
 ;
 s
 â
@@ -820,18 +521,14 @@ s
 s
 ;
 Q
-
 |
-
 Û
 à
 à
 à
 3
 à
-
 OD3 DAOA DO MO aosaIE
-
 frère et sœur en mélancolie. Ils errent au bord de la mer, dans les
 jardins et les bois, et s’assoient au bord d’une antique fontaine, où
 disparaît l’anneau nuptial de Mélisande qui lui échappa, tandis
@@ -869,13 +566,8 @@ mais un calme sinistre. Mélisande, pâlie par le mal, brisée par
 l'émotion, se meurt auprès du berceau de sa fille née au milieu de
 cette tragique tourmente. Golaud se désole et s’accuse de tout le
 malheur. Est-ce que ce n’est pas à faire pleurer les pierres ? Pelléas
-
 et Mélisande se tenaient embrassés comme deux petits enfants, ils
-
 ALaAaAaAamaaor aL0/30E75
-
-  
-
 s
 s
 :
@@ -912,47 +604,27 @@ s
 :
 |
 s
-s]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002630_008.tif"/>
-<page><![CDATA[TO
-
+s
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002630_008.tif'/>
+        <page>
+          <![CDATA[TO
 ——
-
-   
-
 uE A T E HE
 ewi ue 4T ITTCFITE
 IU mn LUN TT T CT RU DE S
-
- 
-
-  
-
 HIUF
-
 + }
 H 3
 À ä
 ; ;
-
- 
-
-  
-
 SOCIÉTÉ DE
-
 | BANQUE SUISSE
-
 FONDÉE EN 1872
 CAPITAL-ACTIONS et RESERVES
 FRANCS : 153 MILLIONS
-
 ——
-
- 
-
-  
-
 , Ï
 6, Corraterie GEN EVE Corraterie, 6 Ë À
 ; CORNAVIN EAUX-VIVES ï
@@ -960,48 +632,26 @@ FRANCS : 153 MILLIONS
 PLAINPALAIS CAROUGE .
 36, rue de Carouge 11, rue du Marche 3
 A 5
-
 crh r e p mmmn (I
-
 Toutes opérations de Banque et de Change, aux
-
- 
-
 meilleures conditions.
-
- 
-
- 
-
-TUIR]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002630_009.tif"/>
-<page><![CDATA[e e
-
+TUIR
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002630_009.tif'/>
+        <page>
+          <![CDATA[e e
 27ap RR —— S
-
- 
-
- 
-
 vasTréovee Ss
-
 étaient frère et sœur, et il a frappé malgré lui. Il demeure cependant
-
 tourmenté du désir de savoir, et, lorsque Mélisande s’éveille,
-
 Maintenant qu’elle va mourir et qu’il mourra aussi, il la supplie, il
 lui commande de dire la vérité. La vérité! Mélisande répond à
-
 peine. C’est inutile, il ne saura rien ; l’âme de Mélisande est déjà
-
 â demeuré seul avec elle il veut qu’elle lui dise si elle fut coupable.
-
 trop loin de la terre. Bientôt arrivent les servantes que personne
-
 du trépas a sonné. Et Mélisande meurt, tuée par la violence de
-
 Ë n’a appelées et qui demeurent dans la chambre, sachant que l’heure
-
 Golaud qui sanglote : Ce n’est pas ma faute ! Le vieil Arkel ordonne
 qu'on sorte de la chambre et qu’on laisse seule dans le silence celle
 qui était un petit être tranquille et timide et mystérieux comme tout
@@ -1009,13 +659,9 @@ le monde. En partant, il emporte dans ses bras la petite fille, l’en-
 fant de Mélisande, dont c’est à présent le four de vivre dans la
 tristesse humaine. ;
 574
-
 Au lendemain de la première de Pelléas et Mélisande, . Roberl
-
 Godet résumait ses impressions dans un article de la Musique en Suisse
-
 dont nous extrayons le passage suivant.
-
 L'œuvre que M. Claude Debussy vient de donner à l’Opéra-
 Comique de Paris n’est pas tirée du drame publié sous ce titre par
 M. Maurice Mæterlinck : elle est ce drame même, réalisé en la
@@ -1024,7 +670,6 @@ qui ne s'adresse ni à notre sensibilité conventionnelle ainsi qu’une
 illustration, ni telle qu’un commentaire à notre entendement, mais à
 notre infuition comme la vie, dont elle possède la sûre et grave
 éloquence.
-
 Physionomie et allure des personnages, le cri de leurs passions,
 l’accent de leur langage, c’est un fait que le musicien a transfiguré
 dans toutes ses parties le rêve du poète, qu'il l’a délivré de sa
@@ -1033,314 +678,149 @@ conféré en même temps sa véritable portée et sa signification. Quant
 à l'atmosphère où naissent et se déroulent les évènements, faut-il
 demander ce que valent, pour nous la rendre immédiatement et
 constamment perceptible, les artifices les plus subtils du langage
-
 . ‘ . . .
 abstrait auprès des ressources dont dispose un magicien de
-
 %mew%mmm%ﬂanmwvmm E DE BIDO3 OE A
-
 EICEABCIETEASTCEIEICOBGETCEICTIET OIOI CI CLICLI CEI I G ETE
-
-   
-
 c
-
-L…‘I DIVPBaDIDIDADISIDEPI3IDMSVAADODOS SI E E3BSVESD OO AAOIIS3I 00SD3 OIS3 AaA3AaOMIoraaas]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002630_010.tif"/>
-<page><![CDATA[PHÉNIX
+L…‘I DIVPBaDIDIDADISIDEPI3IDMSVAADODOS SI E E3BSVESD OO AAOIIS3I 00SD3 OIS3 AaA3AaOMIoraaas
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002630_010.tif'/>
+        <page>
+          <![CDATA[PHÉNIX
 REDARD
-
-  
-   
- 
-
 I*Ïuilu pour autos
 FISKE S
-
 sauvega l‘ÇlÉl‘l‘
-
- 
-
 LC Pll 3rx !‘l
-
 suc ]
-
 PURMOTO
-
 et lc
-
 \ SOLITAIRE ,
-
-  
-
-  
-    
-
- 
-
-    
-   
- 
-
 VS
-
 3 PPODUITS DE
-
- 
-
- 
-     
-   
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 —[2E])AJŒE)6(TCP1CHQGﬂËS
-
-L L e r E]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002630_011.tif"/>
-<page><![CDATA[û
-
+L L e r E
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002630_011.tif'/>
+        <page>
+          <![CDATA[û
 (PEICICETEIETIEITCIEOGETOUOI CB3 TEI GTCETETCUEUT GT œ—aeammwmg
-
 OE E
-
 l’harmonie ? Mais je ne parle pas seulement de qualités extérieures
 comme la contexture du style, la richesse des couleurs, la déli-
-
 catesse et la variété des nuances. Si M. Debussy s’est révélé dès
-
 ses premiers ouvrages, sous l’inspiration de Verlaine, de Baudelaire
-
 ou de Rossetti, comme un maître prestigieux en l’art d’évoquer le
-
 SE : ; ue
 « milieu lyrique », c'est un don plus rare, — là où l’écrivain ne peut
-
 t e
-
 PRUN
-
 encore que suggérer des idées ou des idées d’idées, — de faire
-
 surgir en son pur éclat cette « splendeur du vrai » dont parle’Platon
-
 et d’éveiller en nous, comme un chœur d’échos endormis dans les
-
 profondeurs de la conscience humaine, le sens des analogies mysté-
-
- 
-
 rieuses et des inéluctables fatalités dont se trament nos destinées.
 Ici intervient cette force anonyme, orpheline et unique en son espèce,
 qui apparaît irréductible à l’analyse la plus minutieuse des procédés
 fechniques, et dont Kant a indiqué le mode d’action en disant
-
 « C’est par le génie que la nature dicte à l’art ses lois. »
-
 (£{3(£GMŒÆ%ŒÆQTÈQM"ÆGÆM%M%(M—'%(ÈÆMMM
-
 Les extraits inscrits à notre programme comporltent les scènes suivantes,
-
 reltées en deux groupes principaux :
-
 Première partie. — a) Acte II, premier tableau : Un jour d'été, une Jfontaine dans
-
 le parc. — Pelléas et Mélisande viennent goûter la fraîcheur de l’ombre et de l’eau.
 « C'est au bord d’une fontaine aussi qu’il vous a trouvée ? — Oui. — Que vous
 a-t-il dit? — Rien. Je ne me rappelle plus. — Etait-il tout près de vous? —
 Oui, il voulait m'embrasser. — Et vous ne vouliez pas? — Non. — Pourquoi ne
 vouliez-vous pas? » Elle ne fait pas de réponse, elle joue avec son anneau de
 mariage, qu'elle jette vers le ciel et reprend, et rejette encore. Soudain l'anneau
-
 lui échappe : il tombe dans l’eau profonde.
-
 b) Acte IT, troisième tableau : Devant une grolte.— Les ténèbres sont profondes.
 « Il faut entrer là, dit Pelléas ; il faut pouvoir décrire l’endroit où vous avez perdu
 la bague, s’il vous interroge… Attendons que la lune ait déchiré ce grand nuage,
 elle éclairera toute la grotte.… ». Voici la lune, et voici la clarté. Mais Mélisande
 pousse un cri, elle a vu près d'elle, endormis contre un quartier de roc, trois vieux
-
 pauvres à cheveux blancs. Elle s'épouvante et prend la fuite.…
-
 Deuxième partie. — a) Acte III, premier tableau : Une des tours Ou château. —
 Mélisande, à sa fenêtre, arrange ses cheveux pour la nuit. Par le chemin de ronde
 qui passe sous la fenêtre, Pelléas paraît. « Oh ! Tu es belle ainsi.. Penche-toi…
 donne-moi ta main, ta petite main sur mes lèvres... — Je ne puis me pencher
 davantage.…. Oh! mes cheveux!.… » Ses longs cheveux se sont dénoués et se
-
 déroulent jusqu’au visage de Pelléas. « Tes cheveux descendent vers moi... —
-
 M3COIGEIEIEICEIESETeRETATE 1€ÆMMŒOE‘/Ï(“AÏ({Ô(MIŒ/Û'%ŒÆ("Æ!
-
 e
-
 Wwoaœmwo—amva%vaœæwvawwvnmm%vam MWDDwaWV&DE)W“ÆŒ—M%%%‘Ï/ŒJ%“%Œ%
-
-tracf.ﬂc/avüvatmvavnvaan%wcawvavavac«‘)um£:'—) CM OO 7X]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002630_012.tif"/>
-<page><![CDATA[secscosooneseeccee
-
+tracf.ﬂc/avüvatmvavnvaan%wcawvavavac«‘)um£:'—) CM OO 7X
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002630_012.tif'/>
+        <page>
+          <![CDATA[secscosooneseeccee
 PROFESSPUR
-
- 
-
-   
-   
-
 ERNEST BAUER
 Chant
-
 Boulevard James-Fazy, 17
-
 ÉCOLE ARTISTIQUE DE MUSIQUE
-
 Directeur Willy PERRET
 Solisle de l'Orcheetre de la Suisse Romande, violon
-
 10, rue ôdu Conseil-Général
-
 orecoon
-
 E. KNECHTLI-BERAN
-
 Piano
-
 3, rue Louis-Duchosal (Rive)
-
 Louis PIANTONI
-
 Directeur du Cercle Choral de Genève, piano
-
 LEÇONS PARTICULIÈRES
-
- 
-
-  
-  
-    
-
- 
-
 eccccececcocecNaccCescEGOEMVECOGLOLOCEO
-
 . KEBIPER
-
 Violoncelle
-
 Rue des Granges, 11 Tél. St. 58.09
-
 Coccoce00000000n0s0c00c0e0000000000000000000000. 00.0000
-
 cevec0oecanc. 00000000 s00000000000000920000000
-
 E. BERTHOUE
 Violon
-
 Avenue de la Gare des Eaux-Vives, 10
 ;
-
- 
-
 ME" ME LACHENAE
 Chant
-
 Rue des Faux-Vives, 73 Tél. St. 16-78
-
 eco000000c0000ccecsconcencecesacecosocencAcect0cecÛ
-
 ’esceroccnc00n90 S O000C0000 0000000 000000 0000000000
-
- 
-
 DANSE EF MAINTIEN
-
 Professeur Eug. REVUZ
-
 Rue du Rhône, 61
-
 cooocececococeCne’GOsDCCCONDOCO
-
 Téléphone Sland 59-19
-
- 
-
 soecausee
-
 Ec
-
 >
 ceecoscascecec000000000000000000
-
 DURET
-
 Solfège
 Tél. St. 78.66
-
 Piano -
-
 Route de Chêne, 13
-
- 
-
- 
-
 E« KERBEN van GELTFAY
-
 Violon
-
 Chemin Beau-Soleil (Champel)
-
 coccc00000000000 0000000000 c00c00
-
 >
 sececencacoraccAcc2ccccccccocecoce0
-
- 
-
 00000020002090©000000000200%009000 000009000000 000000
-
-   
-
 ococo cevecenceecocauuca000ce00000000000
-
- 
-
- 
-
-    
-
 c…
-
-Renceignements el conditions : Imprimerie J'ARRYS, 4, rue Henri-Fazy.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002630_013.tif"/>
-<page><![CDATA[P Ax
-
- 
-
- 
-
- 
-
- 
-
- 
-
+Renceignements el conditions : Imprimerie J'ARRYS, 4, rue Henri-Fazy.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002630_013.tif'/>
+        <page>
+          <![CDATA[P Ax
 GS tadce PE
-
 =T _."\_—_—_".——,Î.—.Î—
-
 PE
-
 Ï
 ï
 ;
@@ -1352,44 +832,22 @@ R,
 [
 !
 |
-
 [.
-
- 
-
 Da0r T T EN dn
-
- 
-
 RR rr e G
-
 GT SREE E
-
- 
-
- 
-
 E MAAIE p orie sA BIRU ;ç,;,ä
-
 m(ÿa(w%aûm%(&awm!‘bﬂm%%@amm%mm““a
-
 EIEICIESTESTEŒICEIETEIREIETEITOTECTEOGCKTESTBET
-
 2
-
 9
-
 Laisse-moi, quelqu'un pourrait venir. — Non, non, je ne te délivre pas cette
 nuit.. — J'entends un bruit de pas... Laisse-moi.… ». C’est Golaud, sombre et
-
 menaçant : « Que faites-vous ! Vous êtes des enfants.… »
-
 b) Acte III, troisième tableau : Une lerrasse au sortir des souterrains. — Devant
 la tour, Pelléas échappé du souterrain qu'a voulu lui faire voir Golaud, salue le
-
 Joyeux soleil matinal.
 c) Interlude symphonique.
-
 0) Acte IV, troisième tableau : Une fontaine dans le parc. — Pelléas est seul :
 « C'est le dernier soir… il faut que je la voie une dernière fois… Il faut que je lui
 dise tout ce que je n’ai pas dit.… » Mélisande survient. Sortie du château sans
@@ -1399,19 +857,13 @@ pourquoi il faut que je m'en aille? Tu ne sais pas que c'est parce que.… je t'
 — Je t'aime aussi.» Un bruit sourd gronde au loin et les fait tressaillir. On a
 fermé les portes de fer du château ; ils ne peuvent plus rentrer : Le destin
 lui-même, et non plus leur volonté, les donne l'un à l’autre. Tout à coup ils aper-
-
 çoivent Golaud qui les guette dans l’ombre, son épée à la main. « Va-t'en tout de
-
 suite, dit Pelléas. Je l'attendrai, je l’arrêterai. Va-t'en. — Non! non! — Il a
 tout vu, il nous tuera. — Tant mieux! Tant mieux! — Il vient ! Ta bouche!
 Encore ! Donne!... » À la face de la mort, ils s'embrassent éperdûment. Golaud
-
 se précipite sur eux et frappe Pelléas qui tombe au bord de la fontaine ; Mélisande
-
 fuit à travers le bois, poursuivie par Golaud…
-
 MARCHE ÉCOSSAISE
-
 La Marche écossaise, écrite en 1891, pour piano à quatre mains,
 puis orchestrée par Debussy vers 1908, est une de ses premières
 œuvres. Elle est inspirée d’un thème populaire écossais, conservé
@@ -1420,15 +872,8 @@ Debussy par un descendant de cette famille qui souhaitait le voir
 se perpétuer dans une œuvre originale. Dans cette composition d’un
 Debussy très jeune, toute sa personnalité éclate déjà dans la déli-
 catesse et la fantaisie avec laquelle il a su renouveler l’intérêt de
-
 son thème au cours des diverses parties de l’œuvre.
-
- 
-
- 
-
 F“““MMMM“…ŒGWGÆ“W““M“Ca“““““g
-
 g
 à
 :
@@ -1465,19 +910,15 @@ s
 s
 s
 s
-
-gt/«)xm%WW%M)W%wnvamwwuvﬂmwwoava&mvnmty&m]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002630_014.tif"/>
-<page><![CDATA[ORCHESTRE DE LA SUISSE ROM ANDE
-
+gt/«)xm%WW%M)W%wnvamwwuvﬂmwwoava&mvnmty&m
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002630_014.tif'/>
+        <page>
+          <![CDATA[ORCHESTRE DE LA SUISSE ROM ANDE
 SAISON 1926-1927
-
 ;
-
 st e
-
- 
-
 |
 Premucr ckef d'orchestre : M. Ernest ANSERMET *ï.
 Deuxième chef d'orchestre : M. Fernand CLOSSET l |
@@ -1496,68 +937,39 @@ Cor anglais solo...…. FRACHISSE, soliste de l'Orch. du Gd Casino de Vichy.
 —  (suppléant) SANTANDREA, premier prix du Conservatoire de Paris. '
 1" basson solo ... Ed. DUTRO, premier prix du Conservatoire de Paris. w
 n* up galo caaaodas E. KAUCKY, premier prix du Conservatoire de Prague. Î
-
 1"° trompelte solo .... DUBOIS, ex-1"° trompette solo des Concerts Lamoureux.
 1°" trombone solo .... Anton RIPA, soliste de l'Opéra de Budapest.
-
 ° MpodlPoSasoù se Fr. SCHIESSER.-
-
 m DArpenttet e e M"* BARRIERA-de SANCTIS, premier prix d'excellence
-
-du Conservatoire de Turin.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002630_015.tif"/>
-<page><![CDATA[M A n e
-
+du Conservatoire de Turin.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002630_015.tif'/>
+        <page>
+          <![CDATA[M A n e
 C T D e ce m VRS
-
- 
-
- 
-
- 
- 
-  
-
 =
-
 ;
 ÿ
-
 9
 9
 ÿ
 à
 ;
 ÿ
-
 Q
-
 EJIBEIET@Tæ@ EIEI CEICICEIESTETETG@ (‘!
-
 EAICEI6CI86E56E3560t- IE3 SI CIC3 Cn
-
 ‘
-
 ;
 $
 9
-
 KLO 0OoDeo0oLA L
-
-     
-
 VICTORIA-HALL
-
 3° Concert de l’Abonnement
 Sous la direction de M. Ernest ANSERMET
 et avec la participation du CHOEUR ROMAND
-
- 
-
 Soliste 5 M Johnny AUBERT, pianiste
-
- 
-
 Né à Genève, M. Johnny Aubert manifesta dès le Jeune âge de brillantes
 dispositions musicales, remportant chaque année, au Conservatoire de musique,
 le premier prix dans sa section. En 1909, premier prix de virtuosité avec grande
@@ -1565,106 +977,67 @@ distinction et prix Liszt fondé par Stavenhagen. Sorti premier au concours de
 virtuoses organisé à Paris, en 1912, par Musica, M. Aubert s’est partagé depuis
 lors entre l'enseignement (professeur de virtuosité au Conservatoire de Genève) et
 des tournées de concerts en Suisse et à l'étranger où il remporta des succès très
-
 L
 remarqués.
-
 AU PROGRAMME :
 1. Concerto brandebourgeoi_s n° 1,en /a majeur.. J.-S. Bach
 2. Cantique de Pâques, pour chœur de femmes,
-
 soli et orchestre (1" avaitionse , Honegger
 3. Fantaisie pour piano, chœurs et orchestre .... Beethoven
 4. Tempo di ballo (1 auditioo 1 Roland-Manuel
 5. Trois pièces de ballet extraites des Rencontres
 Caaudihone m Jacques Tbert
-
 6. Concerto en mi bémol, pour piano et orchestre.. Liszl
-
 Location chez VÉRON. GRAVUER & C2 dès Pundi s* novembre
-
 Samedi 6 novembre 1926
-
 ïæmwmmmuæbamwmvæo
-
 DID OAO0AO—aa caoaoIe DOIO0IDEIT0oAamaas
-
-acoaoraoaocaeoaareomasse a avacmc:«ammcfava%mc/nv:üvnm)m::«î\vä:ÿﬁ]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002630_016.tif"/>
-<page><![CDATA[—x — 2>
+acoaoraoaocaeoaareomasse a avacmc:«ammcfava%mc/nv:üvnm)m::«î\vä:ÿﬁ
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002630_016.tif'/>
+        <page>
+          <![CDATA[—x — 2>
 æ3@ æs
-
 =
 :
 |
-
 DOUZE CONCERTS D'ABONNEMENT
 AU VICTORIA-HALL
-
 DATES ET SOLISTES DES PROCHAINS CONCERTS
-
 Samedi 6 novembre .. M. Johnny AUBERT, pianiste.
 Samedi 20 novembre .. M. Gabriel BOUILLON, violoniste.
 Samedl 4 décembre .. M. Arthur RUBINSTEIN, pianiste.
 Samedi 18 décembre .. M. Joseph WOLFSTHAL, violoniste.
-
 DID GI APOSDSD DIDOI DEID@
-
 Samedi 8 janvier .... M”° Loite LEGNARD, cantatrice.
-
 Samedi 22 janvier .... M. Adolphe BUSCH, violoniste.
-
 Samedi 29 janvier .... M. Ernest BAUER, ténor ec LE CHŒUR ROMAND.
 Samedi 12 février .... M. Edwin FISCHER, pianiste.
-
 Samedi 26 février .... M“° Ninon VALLIN, cantatrice.
-
 Samedi 12 mars ...... M. Joseph SZIGETI, violoniste et LE CHŒUR ROMAND.
-
 La LOCATION et la Vente des billets se font à l'Agence J. VÉRON,
 GRAUER & Ci, rue du Rhône, 27, tous les jours de 9 heures à 12 h. 15 et de
 13 h. 3o à 18 heures (le samedi jusqu'à 17 heures), téléphone : Stand 0.717.
-
 Principaux avantages réservés à MM. les abonnés :
-
 1° Diminution du prix des places, l’abonné payant son abonnement à douze concerts
 au prix normal de dix concerts.
-
 *
-
 20 Certitude de pouvoir occuper à chaque audition les places préférées et de les
 conserver d’une saison à l’autre.
-
 3° Privilège sur ces mêmes places pour les Concerts hors abonnement, en jouissant
 d’une réduction de prix sur le tarif général.
-
- 
-
 À partir u 1°" novembre le Bureau de location délivrera des abonnements
-
 DD DIS DE DD DE DESDES DSD 85D GDI AN
-
 réduits pour les dix derniers concerts.
-
 Téléphone Ou Bureau e location : Stand 0.717.
-
- 
-
- 
-
 SALLE COMMUNALE DE PLAINPALAIS
-
 Dimanche 31 octobre 1926, à 15 beures
-
 3° Concert Symphonique populaire
 Sous la direction de M. Ernest ANSERMET
-
 a…%M(»æuam@aœæxmm({n“eava“éæ:%u—ae—aM%z&amm%u(m…e&muau&wmu&w“u@uau—:“
-
 E DEDE DEDE O OE DE DESDE DE DID 2A
-
 > M@OaK/0POe 0F D0OIDTaAa—a
-
 Ê‘
 Ë
 s
@@ -1676,8 +1049,10 @@ s
 :
 3
 s
-s]]></page>       
-        </p>
+s
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

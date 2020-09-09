@@ -1,109 +1,101 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par Mme Clara Schulz et Mlle Constance Sillem<date when="13/04/1886"/></title>
-<series>1885-1886</series>
-<placeName>Casino de Saint-Pierre</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par Mme Clara Schulz et Mlle Constance Sillem
+            <date when='13/04/1886'/>
+          </title>
+          <series>1885-1886</series>
+          <placeName>Genève, Casino de Saint-Pierre</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU DG4 F001517</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt> </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18860413"/>
-<title>Concert donné par Mme Clara Schulz et Mlle Constance Sillem</title>
-<placeName key="Casino de Saint-Pierre"/>
-<name key="1885-1886" type="series"/>
-<name key="Schumann, Robert" ref="https://muscat.rism.info/admin/people/131206" type="person" role="cmp">Schumann, Robert</name>
-<name key="Schubert, Franz" ref="https://muscat.rism.info/admin/people/111603" type="person" role="cmp">Schubert, Franz</name>
-<name key="Brahms, Johannes" ref="https://muscat.rism.info/admin/people/39914" type="person" role="cmp">Brahms, Johannes</name>
-<name key="Jensen, Adolf" ref="https://muscat.rism.info/admin/people/111085" type="person" role="cmp">Jensen, Adolf</name>
-<name key="Schulz, Oscar"  type="person" role="cmp">Schulz, Oscar</name>
-<name key="Krausé, Ed."  type="person" role="cmp">Krausé, Ed.</name>
-<name key="Hoffmann, Heinr."  type="person" role="cmp">Hoffmann, Heinr.</name>
-<name key="Zarzicki"  type="person" role="cmp">Zarzicki</name>
-<name key="Bargiel, Woldemar" ref="https://muscat.rism.info/admin/people/5783" type="person" role="cmp">Bargiel, Woldemar</name>
-<name key="Saint-Saëns, Camille" ref="https://muscat.rism.info/admin/people/76734" type="person" role="cmp">Saint-Saëns, Camille</name>
-<name key="Berlioz, Hector" ref="https://muscat.rism.info/admin/people/13803" type="person" role="cmp">Berlioz, Hector</name>
-<name key="Bizet, Georges" ref="https://muscat.rism.info/admin/people/20057" type="person" role="cmp">Bizet, Georges</name>
-<name key="Rubinštejn, Anton Grigor'evič" ref="https://muscat.rism.info/admin/people/30008504" type="person" role="cmp">Rubinštejn, Anton Grigor'evič</name>
-<name key="Delibes, Léo" ref="https://muscat.rism.info/admin/people/30016578" type="person" role="cmp">Delibes, Léo</name>
-<name key="Gounod, Charles-François" ref="https://muscat.rism.info/admin/people/80479" type="person" role="cmp">Gounod, Charles-François</name>
-<name key="Coèdes, Auguste" ref="https://muscat.rism.info/admin/people/30020671" type="person" role="cmp">Coèdes, Auguste</name>
-<name key="Hiller"  type="person" role="cmp">Hiller</name>
-<name key="Schulz, Clara"  type="person" role="int">Schulz, Clara</name>
-<name key="Sillem, Constance"  type="person" role="int">Sillem, Constance</name>
-<name key="Schulz, Oscar"  type="person" role="int">Schulz, Oscar</name>
-<name key="E. B. (Mme)"  type="person" role="int">E. B. (Mme)</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f001517_001.tif"/>
-<page><![CDATA[Jj( GRANDE SALLE DU CASINO DE SAINT-PIERRE
-
- 
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18860413'/>
+        <title>Concert donné par Mme Clara Schulz et Mlle Constance Sillem</title>
+        <placeName key='Genève, Casino de Saint-Pierre'/>
+        <name key='1885-1886' type='series'/>
+        <name key='Schumann, Robert' ref='https://muscat.rism.info/admin/people/131206' type='person' role='cmp'>Schumann, Robert</name>
+        <name key='Schubert, Franz' ref='https://muscat.rism.info/admin/people/111603' type='person' role='cmp'>Schubert, Franz</name>
+        <name key='Brahms, Johannes' ref='https://muscat.rism.info/admin/people/39914' type='person' role='cmp'>Brahms, Johannes</name>
+        <name key='Jensen, Adolf' ref='https://muscat.rism.info/admin/people/111085' type='person' role='cmp'>Jensen, Adolf</name>
+        <name key='Schulz, Oscar' type='person' role='cmp'>Schulz, Oscar</name>
+        <name key='Krausé, Ed.' type='person' role='cmp'>Krausé, Ed.</name>
+        <name key='Hoffmann, Heinr.' type='person' role='cmp'>Hoffmann, Heinr.</name>
+        <name key='Zarzicki' type='person' role='cmp'>Zarzicki</name>
+        <name key='Bargiel, Woldemar' ref='https://muscat.rism.info/admin/people/5783' type='person' role='cmp'>Bargiel, Woldemar</name>
+        <name key='Saint-Saëns, Camille' ref='https://muscat.rism.info/admin/people/76734' type='person' role='cmp'>Saint-Saëns, Camille</name>
+        <name key='Berlioz, Hector' ref='https://muscat.rism.info/admin/people/13803' type='person' role='cmp'>Berlioz, Hector</name>
+        <name key='Bizet, Georges' ref='https://muscat.rism.info/admin/people/20057' type='person' role='cmp'>Bizet, Georges</name>
+        <name key='Rubinštejn, Anton Grigor&apos;evič' ref='https://muscat.rism.info/admin/people/30008504' type='person' role='cmp'>Rubinštejn, Anton Grigor'evič</name>
+        <name key='Delibes, Léo' ref='https://muscat.rism.info/admin/people/30016578' type='person' role='cmp'>Delibes, Léo</name>
+        <name key='Gounod, Charles-François' ref='https://muscat.rism.info/admin/people/80479' type='person' role='cmp'>Gounod, Charles-François</name>
+        <name key='Coèdes, Auguste' ref='https://muscat.rism.info/admin/people/30020671' type='person' role='cmp'>Coèdes, Auguste</name>
+        <name key='Hiller' type='person' role='cmp'>Hiller</name>
+        <name key='Schulz, Clara' type='person' role='int'>Schulz, Clara</name>
+        <name key='Sillem, Constance' type='person' role='int'>Sillem, Constance</name>
+        <name key='Schulz, Oscar' type='person' role='int'>Schulz, Oscar</name>
+        <name key='E. B. (Mme)' type='person' role='int'>E. B. (Mme)</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f001517_001.tif'/>
+        <page>
+          <![CDATA[Jj( GRANDE SALLE DU CASINO DE SAINT-PIERRE
 Mardi 13 avril 1886, à huit heures du soir
-
 # CONCERT
-
 DONNÉ PAR
-
 1"* CLARA SCHULZ & M"* CONSTANCE SILLENI
-
 SOPRANO ACUTO
-
 DEGD
-
 &
-
 DZ6DA
-
 (
-
 k godle
-
 ISEU
-
 (3), 5
-
 avec l’obligeant concours de M"* E. B.
-
 Piano d'accompagnement : M. OSCAR SCHULZ, prof. au Conservatoire
-
 ÉREUCHSEUETECD D
-
 ‘ pwrrotele n —>—orsee ——
 f‘
-
 @
 1°:Trois Duos pour soprano et alto (op. 43). .. ... . «- - . - R SCHUMANN.
 [Ï # 2 a) Memnon SCHUBERT.
@@ -118,27 +110,18 @@ b) Romance | Ed. Krausé.
 c) Minnelied ; és par M"* S Z < J. BRAHMs.
 4,, 4) Rose et rossignol Heinr. Horrmann.
 € ©) Romance. ] Ha. | , e DE ' ‘ ZARZICKI.
-
 UD
-
 CRSE
-
 7>
 w
 6
-
 J
-
 CT
 "3N
-
 D(R
 Q
-
 D,
-
 CHCUCDSE?
-
 5° Trio pour voix de femmes 4Æ ns BARGIEL.
 6° a) Plainte. ‘Ë»/«/ amt SAINT-SAENS.
 50 mwr/b) Petit oiseau (chanson de paysan) | chantés par M"* SiLLem BERLIOZ.
@@ -150,34 +133,22 @@ $ 8 «) Les regrets ; Léo DeciBes.
 V 6b) Medjé. . . . { chantés par M"* Scavrz ; . . Gounop.
 c) Pastorale . e Corpès.
 9° Trio pour voix de femmes HirLER.
-
 D,
-
 IPEYCIEY CTLEY CIC DE CTEE?
-
 e
-
 T5 PDENTRÉF: B FR…- RÉSERVÉES: 5 FR.
-
 62
-
- 
-
 Pour les billets, s’adresser dans tous les magasins (le musique, et le soir chez le concierge du Casino.
 Réservées exclusivement chez MIle FREY, 16, Corraterie.
-
- 
-
 A
-
 dn
-
 ; X F Î% ISM ISMI S CHOIS CM IS CI CON ‘-£râ‘W 51 $,>)‘t«_—9"fﬂiÿ“@9£ﬁ)}4“(Aﬁÿf‘,g%)/Wv,@%} A
 Æ‘ //(Æ/L , 2150, Geuere llnp …ml
-
 /’{M D £{[, /‘//r,…)
-/4 //a/uv[4h___]]></page>       
-        </p>
+/4 //a/uv[4h___
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

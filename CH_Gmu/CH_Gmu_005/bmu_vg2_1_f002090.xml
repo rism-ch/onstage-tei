@@ -1,91 +1,94 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Deuxième concert classique<date when="20/12/1884"/></title>
-<series>1884-1885</series>
-<placeName>Grand Théâtre</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Deuxième concert classique
+            <date when='20/12/1884'/>
+          </title>
+          <series>1884-1885</series>
+          <placeName>Genève, Grand Théâtre</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VG2-1 F002090</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Senger, H. de (dir)</note>
+        <note>Interprète incertain</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18841220"/>
-<title>Deuxième concert classique</title>
-<placeName key="Grand Théâtre"/>
-<name key="1884-1885" type="series"/>
-<name key="Gade, Niels Wilhelm" ref="https://muscat.rism.info/admin/people/33156" type="person" role="cmp">Gade, Niels Wilhelm</name>
-<name key="Rubinštejn, Anton Grigor'evič" ref="https://muscat.rism.info/admin/people/30008504" type="person" role="cmp">Rubinštejn, Anton Grigor'evič</name>
-<name key="Ponchielli, Amilcare" ref="https://muscat.rism.info/admin/people/1653417" type="person" role="cmp">Ponchielli, Amilcare</name>
-<name key="Schubert, Franz" ref="https://muscat.rism.info/admin/people/111603" type="person" role="cmp">Schubert, Franz</name>
-<name key="Weber, Carl Maria von" ref="https://muscat.rism.info/admin/people/117485" type="person" role="cmp">Weber, Carl Maria von</name>
-<name key="Schumann, Robert" ref="https://muscat.rism.info/admin/people/131206" type="person" role="cmp">Schumann, Robert</name>
-<name key="Bizet, Georges" ref="https://muscat.rism.info/admin/people/20057" type="person" role="cmp">Bizet, Georges</name>
-<name key="Chopin, Fryderyk Franciszek" ref="https://muscat.rism.info/admin/people/51160" type="person" role="cmp">Chopin, Fryderyk Franciszek</name>
-<name key="Liszt, Franz" ref="https://muscat.rism.info/admin/people/107196" type="person" role="cmp">Liszt, Franz</name>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Senger, Franz Ludwig Hugo von  (dir.)" ref="https://muscat.rism.info/admin/people/30015297" type="person" role="int">Senger, Franz Ludwig Hugo von  (dir.)</name>
-<name key="[Orchestre de la Ville de Genève ?]"  type="person" role="int">[Orchestre de la Ville de Genève ?]</name>
-<name key="Albert, Eugen d'" ref="https://muscat.rism.info/admin/people/1047" type="person" role="int">Albert, Eugen d'</name>
-<name key="Séran, Louis" ref="https://muscat.rism.info/admin/people/30044110" type="person" role="int">Séran, Louis</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_1_f002090_001.tif"/>
-<page><![CDATA[EUXIÈME CONCERT CLASSIQUE
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18841220'/>
+        <title>Deuxième concert classique</title>
+        <placeName key='Genève, Grand Théâtre'/>
+        <name key='1884-1885' type='series'/>
+        <name key='Gade, Niels Wilhelm' ref='https://muscat.rism.info/admin/people/33156' type='person' role='cmp'>Gade, Niels Wilhelm</name>
+        <name key='Rubinštejn, Anton Grigor&apos;evič' ref='https://muscat.rism.info/admin/people/30008504' type='person' role='cmp'>Rubinštejn, Anton Grigor'evič</name>
+        <name key='Ponchielli, Amilcare' ref='https://muscat.rism.info/admin/people/1653417' type='person' role='cmp'>Ponchielli, Amilcare</name>
+        <name key='Schubert, Franz' ref='https://muscat.rism.info/admin/people/111603' type='person' role='cmp'>Schubert, Franz</name>
+        <name key='Weber, Carl Maria von' ref='https://muscat.rism.info/admin/people/117485' type='person' role='cmp'>Weber, Carl Maria von</name>
+        <name key='Schumann, Robert' ref='https://muscat.rism.info/admin/people/131206' type='person' role='cmp'>Schumann, Robert</name>
+        <name key='Bizet, Georges' ref='https://muscat.rism.info/admin/people/20057' type='person' role='cmp'>Bizet, Georges</name>
+        <name key='Chopin, Fryderyk Franciszek' ref='https://muscat.rism.info/admin/people/51160' type='person' role='cmp'>Chopin, Fryderyk Franciszek</name>
+        <name key='Liszt, Franz' ref='https://muscat.rism.info/admin/people/107196' type='person' role='cmp'>Liszt, Franz</name>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Senger, Franz Ludwig Hugo von' ref='https://muscat.rism.info/admin/people/30015297' type='person' role='int'>Senger, Franz Ludwig Hugo von</name>
+        <name key='Orchestre de la Ville de Genève' type='person' role='int'>Orchestre de la Ville de Genève</name>
+        <name key='Albert, Eugen d&apos;' ref='https://muscat.rism.info/admin/people/1047' type='person' role='int'>Albert, Eugen d'</name>
+        <name key='Séran, Louis' ref='https://muscat.rism.info/admin/people/30044110' type='person' role='int'>Séran, Louis</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_1_f002090_001.tif'/>
+        <page>
+          <![CDATA[EUXIÈME CONCERT CLASSIQUE
 AVEC LE CONCOURS DE
-
 1M EUGENE D'ALBERT
-
 PHIANISTE
-
 ET DE
-
 M. IOUXS SERAN
-
 Premier Ténor du Grand Théâtre de Genève.
-
 PREMIÈRE PARTIE
-
 Efterklang af Ossian (souvenirs d’Ossian), ouverture, . . .  Niels. W. Gade
-
 Concerto en Ré mineur, œuvre No 70, pour piano, avec accompagnement Antoine Rubinstein
 d’Orchestre, exécuté par M. Eucène D’ALBERT.
-
 Romance d’Enza, de l’opéra « La Gioconda, » chantée par M. L. SÉRAN, Ponchielli
 DEUXIÈME PARTIE
 Symphonie inachevée en Si mineur. . . . . . . …  Sehubert
 A) Allegro moderato. — B) Andante con moto
-
 G.oncert-Stuck (Le Croisé), œuvre No 79, pour piano, avec accompa- Ch. M. de Weber
 “gnement d’Orchestre, exécuté par M. Eucène D’ALBERT.
 M onaiqueMytéere « . : . . : . .. , . Sehumann
@@ -97,26 +100,19 @@ c) Rêve d’Amour (L1ebes—[‘raum), e IMN
 D) Polonaise, No 2, . = e PL0S7E
 pour piano seul, exécutés par M. Evaine D'ALBERT.
 La Chevauchée des Walkyries, . . . ; . R. Wagner
-
 L’Orchestre sera dirigé par M. HUGO DE SENGER.
 - Piano à queue de la maison BECHSTEIN (de Berlin).
-
 AVIS. — On est instamment prié de ne pas entrer pendant l’exécution des morceaux.
-
- 
-
 “
-
 Prix des places restant en dehors des abonnements : Parterre, 2 fr., location, 2 fr. 50 (sous réserve d’augmentation de la location, dans des
 - circonstances spéciales. —- Parterre debout, 2 fr. — Strapontins 12 Galerie, 4 fr. — Loges de face, 2" Galerie, 2 fr., location, 2 fr. 50. —
 Loges de côté, 2M Galerie, 4 fr. 23., location, 4 fr. 50. — Stalles numérotées, 3'"° Galerie, 4 fr. 50., location, 4 fr. 60. — Avant-scène, 5Me
 Galerie, 4 fr, 50.ÿ location, 1 fr. 60. — Galerie, 5"e, 75 c, location, 85 c. — Le Bureau de lecation est ouvert au Théâtre, tous les jours de
 la semaine où a lieu le Concert, de 14 h. à 4 heures.
-
- 
-
-Genève. — Imprimerie J-D. Jarrys.]]></page>       
-        </p>
+Genève. — Imprimerie J-D. Jarrys.
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

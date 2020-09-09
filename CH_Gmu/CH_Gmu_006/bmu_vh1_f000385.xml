@@ -1,96 +1,79 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Festival Saint-Saëns : Exposition nationale suisse à Genève<date when="12/09/1896"/></title>
-<series>1895-1896</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Festival Saint-Saëns : Exposition nationale suisse à Genève
+            <date when='12/09/1896'/>
+          </title>
+          <series>1895-1896</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F000385</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Doret, G.</note>
+        <note>Saint-Saëns, C. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18960912"/>
-<title>Festival Saint-Saëns : Exposition nationale suisse à Genève</title>
-<placeName key="Victoria Hall"/>
-<name key="1895-1896" type="series"/>
-<name key="Saint-Saëns, Camille" ref="https://muscat.rism.info/admin/people/76734" type="person" role="cmp">Saint-Saëns, Camille</name>
-<name key="Doret, Gustave  (dir.)" ref="https://muscat.rism.info/admin/people/3145724" type="person" role="int">Doret, Gustave  (dir.)</name>
-<name key="Saint-Saëns, Camille  (dir.)" ref="https://muscat.rism.info/admin/people/76734" type="person" role="int">Saint-Saëns, Camille  (dir.)</name>
-<name key="Blanc, Éléonore"  type="person" role="int">Blanc, Éléonore</name>
-<name key="Gaillard, Jacques"  type="person" role="int">Gaillard, Jacques</name>
-<name key="Eckert"  type="person" role="int">Eckert</name>
-<name key="Montillet, William" ref="https://muscat.rism.info/admin/people/30022909" type="person" role="int">Montillet, William</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000385_001.tif"/>
-<page><![CDATA[EXPOSITION NATIONALE SUISSE A GENÈVE
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18960912'/>
+        <title>Festival Saint-Saëns : Exposition nationale suisse à Genève</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1895-1896' type='series'/>
+        <name key='Saint-Saëns, Camille' ref='https://muscat.rism.info/admin/people/76734' type='person' role='cmp'>Saint-Saëns, Camille</name>
+        <name key='Doret, Gustave' ref='https://muscat.rism.info/admin/people/3145724' type='person' role='int'>Doret, Gustave</name>
+        <name key='Saint-Saëns, Camille' ref='https://muscat.rism.info/admin/people/76734' type='person' role='int'>Saint-Saëns, Camille</name>
+        <name key='Blanc, Éléonore' type='person' role='int'>Blanc, Éléonore</name>
+        <name key='Gaillard, Jacques' type='person' role='int'>Gaillard, Jacques</name>
+        <name key='Eckert' type='person' role='int'>Eckert</name>
+        <name key='Montillet, William' ref='https://muscat.rism.info/admin/people/30022909' type='person' role='int'>Montillet, William</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000385_001.tif'/>
+        <page>
+          <![CDATA[EXPOSITION NATIONALE SUISSE A GENÈVE
 sO. -
-
 Ic TrenIrzZa-H AII
-
 Samedi 12 septembre 1896, à & heures 1/2 précises
-
- 
-  
-   
-  
-  
-    
-   
-  
-      
-
- 
-
- 
-
 Festival Saint-Saëns
-
 avec le bienveillant concours de
-
 M. Camille SAINT-SAENS
-
- 
-
- 
-
- 
-
- 
-
- 
-
 ET DI
 M Éléonore BLANC
 As N ?
@@ -120,97 +103,57 @@ E Mlle Eléonore BLANC.
 e HymnetaMietorHugo. ...…._.….…...….… C. Saint-Saëns.
 à Grand orgue : M. C. SAINT-SAËNS.
 Orchestre sous la direction de M. Gustave DORET.
-
- 
-
- 
-
 Piano Erard aux soins de la Maison Bron et Berguer.
-
- 
-
- 
-
- 
-
 LE CONCERT SERA 'I'HHI\HNI-’1 /\ 10 HEURES ET DEMIE
-
 Les portes seront rigoureusement fermées pendant l'exécution des morceaux.
 JU2,_>
-
--8+-8+8-8+-8+-8+@-"]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000385_002.tif"/>
-<page><![CDATA[PROGRAMME OFFICIEL
-
-  
- 
-
- 
-
+-8+-8+8-8+-8+-8+@-"
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000385_002.tif'/>
+        <page>
+          <![CDATA[PROGRAMME OFFICIEL
 J OO OE e E
-
 |
 | Mlle ÉLÉONORE BLANC
-
 ä | Mlle Éléonore Blanc, née à Vienne (Isère), a fait ses études au Conser-
-
 f vatoire de Paris, où elle a obtenu le premier prix de chant en 1890. Elle
-
 | est aujourd’hui l’une des chanteuses de concert les plus appréciées des
-
 artistes comme du public. À la Société des concerts du Conservatoire, elle
-
 a chanté la Messe de Beethoven, le Requiem de Gounod, les Béatitudes de
-
 César Franck ; aux concerts Colonne, l’Or du Rhin de R. Wagner, Proser-
-
 pine, de C. Saint-Saëns ; aux concerts d'Harcourt, Fidelio, le Freyschülz,
-
 les Maîtres-Chanteurs, Tannhäuser, Geneviève et Faust de Schumann, des
 cantates de J.-S. Bach, etc., etc. Elle s’est fait applaudir dans toutes les .
 grandes villes : Bordeaux, Lille, Lyon, Nancy, Barcelone et Bruxelles.
-
- 
-
- 
-
 JACQUES GAILLARD
-
 |
 !
 Ïv Jacques Gaillard est né à Ensival, en Belgique, le 4 avril 1875. Il fit des
-
 études musicales complètes à l’École de musique de Verviers et alla se
 perfectionner au Conservatoire de Bruxelles sous la direction du célèbre
 violoncelliste Jacobs. Il remporta au concours de 1895 le premier prix
 | avec grande distinction. Depuis lors, il s’est fait entendre dans plusieurs
 concerts à Bruxelles, Verviers, Blankenberghe, Paris (Société nationale), etc.
-
 LA JEUNESSE D'HERCULE
-
 Légende. .
-
 La fable raconte qu’à son entrée dans la vie, Hercule vit s'ouvrir devant
 | | lui deux routes : celle du plaisir et celle de la vertu.
-
 Insensible aux séductions des Nymphés et des Bacchantes, le héros s’en-
 gage dans la voie des luttes et des combats, au bout de laquelle il entre-
 voit à travers la flamme du bûcher, la récompense de l’immortalité.
 | "
-
 |
-
 ®
 =
 D
-
 7)
-
 e
 )
-
-GENÈèvE. — IMP, L.-F. JARRYS.]]></page>       
-        </p>
+GENÈèvE. — IMP, L.-F. JARRYS.
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

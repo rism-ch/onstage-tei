@@ -1,252 +1,178 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert populaire donné par le grand Orchestre militaire du 5me régiment badois<date when="05/05/1875"/></title>
-<series>1874-1875</series>
-<placeName>Brasserie des Pâquis</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert populaire donné par le grand Orchestre militaire du 5me
+            régiment badois
+            <date when='05/05/1875'/>
+          </title>
+          <series>1874-1875</series>
+          <placeName>Genève, Brasserie des Pâquis</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU DG4 F001322</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Frank, L. (dir)</note>
+        <note>Date présumée</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18750505"/>
-<title>Concert populaire donné par le grand Orchestre militaire du 5me régiment badois</title>
-<placeName key="Brasserie des Pâquis"/>
-<name key="1874-1875" type="series"/>
-<name key="Brandes"  type="person" role="cmp">Brandes</name>
-<name key="Kreutzer"  type="person" role="cmp">Kreutzer</name>
-<name key="Gounod, Charles-François" ref="https://muscat.rism.info/admin/people/80479" type="person" role="cmp">Gounod, Charles-François</name>
-<name key="Strauß, Johann" ref="https://muscat.rism.info/admin/people/132082" type="person" role="cmp">Strauß, Johann</name>
-<name key="Suppè, Franz von" ref="https://muscat.rism.info/admin/people/138448" type="person" role="cmp">Suppè, Franz von</name>
-<name key="Nurath"  type="person" role="cmp">Nurath</name>
-<name key="Donizetti, Gaetano" ref="https://muscat.rism.info/admin/people/18064" type="person" role="cmp">Donizetti, Gaetano</name>
-<name key="Abt"  type="person" role="cmp">Abt</name>
-<name key="Forbach"  type="person" role="cmp">Forbach</name>
-<name key="Hermann"  type="person" role="cmp">Hermann</name>
-<name key="Frank, L.  (dir.)"  type="person" role="int">Frank, L.  (dir.)</name>
-<name key="Orchestre militaire du cinquième régiment badois"  type="person" role="int">Orchestre militaire du cinquième régiment badois</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f001322_001.tif"/>
-<page><![CDATA[“.
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18750505'/>
+        <title>Concert populaire donné par le grand Orchestre militaire du 5me régiment badois</title>
+        <placeName key='Genève, Brasserie des Pâquis'/>
+        <name key='1874-1875' type='series'/>
+        <name key='Brandes' type='person' role='cmp'>Brandes</name>
+        <name key='Kreutzer' type='person' role='cmp'>Kreutzer</name>
+        <name key='Gounod, Charles-François' ref='https://muscat.rism.info/admin/people/80479' type='person' role='cmp'>Gounod, Charles-François</name>
+        <name key='Strauß, Johann' ref='https://muscat.rism.info/admin/people/132082' type='person' role='cmp'>Strauß, Johann</name>
+        <name key='Suppè, Franz von' ref='https://muscat.rism.info/admin/people/138448' type='person' role='cmp'>Suppè, Franz von</name>
+        <name key='Nurath' type='person' role='cmp'>Nurath</name>
+        <name key='Donizetti, Gaetano' ref='https://muscat.rism.info/admin/people/18064' type='person' role='cmp'>Donizetti, Gaetano</name>
+        <name key='Abt' type='person' role='cmp'>Abt</name>
+        <name key='Forbach' type='person' role='cmp'>Forbach</name>
+        <name key='Hermann' type='person' role='cmp'>Hermann</name>
+        <name key='Frank, L.' type='person' role='int'>Frank, L.</name>
+        <name key='Orchestre militaire du cinquième régiment badois' type='person' role='int'>Orchestre militaire du cinquième régiment badois</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f001322_001.tif'/>
+        <page>
+          <![CDATA[“.
 1 Merecredi'le 5 /Maiï; L751
-
 INCERT POPULAIRE
 « '. DONNÉ PAR [
 le grand orchestre militaire du 5* régiment badois
-
 sous la Direction de M. L. FRANK
-
 PROGRAMME
 f* Partie
 Danceh(mareuent 10180 TC E E BRANDES.
 Ouverture de l'opéra Das Nachtlager in Granada 4154 ANROUIZER
-
 Marche de l’'opéra La Reine de Saba . : . . : . . (Gouxop.
-
 Danube bleu (valsè) us 4. STRAUSS.
-
 =n Partie
-
 Ouverture de l’opéra Tanta'usqualen . G .  Buvrk.
 @l lemnieicales (polka» 111 108 - Nonare.
 | Introduétion (sextuor) et finale de l’op. Lucie de Lammermoor Donizerni.
 ; ® J
-
 Quadrille de l’opéra Die Fledermaus . . . . . . STRAUSS.
 /IMZÛÙ6/ÎÛ'M - .Bt”\«\C(uüt«ïwa/fo./ Mé
 ; 3
-
 me Partie
-
 9° Gute Nacht, du mein herziges Kind! (chant) . . AsT.
 _10° La grève des Musiciens (komischer Zapfenstreich) | Forsacn.
-
 “ 11° Pot-pourri sur l’opéra Roméo et Juliette Gouwop.:
-
 u1 O e 1C N 8s * Himatann
-
- 
-
 Pour le 10 Mai, il y aura, avec le concours de la Musique Militaire Badoise, un-
-
 - GRAND BAL avec illumination
-
 auquel l'honorable public est invité à prendre part. Les deux grandes salles sont destinées pour le
 Bal; le service des rafraîchissements se fera au Jardin, dans les pavillons et les petites salles de
 q . ; .
-
 l'établissement. — Seulement des personnes honorables seront admises.
-
 Prix d’Entrée : Un cavalier 2 fr., une dame ! fr.
-
 __ Les Listes de souscription sont déposées chez MM. Bleuler, rue du Marché, 2; Arnaud-Rossy,
 tapissier, Mont-Blane, 13; Brand, coiffeur, rue Bonivard ; Bringer, coiffeur, place Chevelu, vis-à-vis
 le café du Midi, et chez M. Senn, Brasserie des Pâquis.
-
 L Les personnes qui auront souscrit, pourront réclamer les cartes, dès le 8 Mai, dans les locaux
 - eù elles se sont fait inscrire.
-
- 
-
 Demain, jour de J’Aseension, Deux Concerts avec nouveaux programmes
 le premier à 3 heures, le second à 8 heures.
-
 ‘
-
 NB. On est prié de ne pas fumer sur les premières places (première salle)
-
-D us T.18. V. P;]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f001322_002.tif"/>
-<page><![CDATA[—,._:CARTE de CONSOMMATION |
-
+D us T.18. V. P;
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f001322_002.tif'/>
+        <page>
+          <![CDATA[—,._:CARTE de CONSOMMATION |
 Pendant les Concerts
-
- 
-
- 
-
- 
-
 CARTE DES VINS
-
 Vin ordinaire rouge . . . fr. -
 blanc .
-
 Vin blanc (Eavaux).
-
 Maicon
-
 Crépy .
-
 Juliemma .
-
 Vin d’Espagne .
-
 Markgrafier
-
 Baujolnis
-
 Neuchâtel (rouge)
-
 Bordeaux .
 Niersteiner d
-
 - Moselblümchen
 Champagne ...
-
 -> E
-
 î Vins du Rhin
-
 IÂiqu'curs à 20 cent.
 Rhum — Cognac — Kirseh — Absinthe — Ver-
-
 “mouth — Bitter — Anisette — Sirop — Kümmel
 Cassis — Quina — Curaçao.
-
 Café 25 cent.
 avec Kirsch, Rhum ou Cognac 40 cent.
-
 Consommation à 30 cent.
 Punch — Grog — Cognac fine Champagne — Char-
-
 treuse — Parfait-d’Amour — Pipermint — Crême
 de Vanille — Madère.
-
 Bière, In chope 30 cent.
-
 Eau de soude 20 cent.
-
 Siphon 25 cts. — Limonade 30 cts.
-
 Demi-Glace 40 cent.
-
 GARTE DES METS
-
 Becfsteak .
-
 “ Côtelette.
-
 Filet sauté
 Orecilles de veau.
-
 Rôti de veau.
-
 Jambon de Westphalie
 » cuit.
-
 Saucisson de Bologne
-
 Cervelas .
-
 Paäté froid.
-
 Salade
-
 Ponmmes de terre . .
-
 Oeufs, Sardimes, la pièce . . -
-
 Pæain (extra), la portion .. « ... -
-
 sriduroo ureq
-
 Petits paîns ct Dessert, la pièce 5 cts.
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-Genève. - Imp. Nationale, rue du Môle, 6 (Pâquis).]]></page>       
-        </p>
+Genève. - Imp. Nationale, rue du Môle, 6 (Pâquis).
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

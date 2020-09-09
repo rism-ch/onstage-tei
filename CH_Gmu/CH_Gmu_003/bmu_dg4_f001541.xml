@@ -1,127 +1,126 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Audition d'élèves<date when="17/04/1889"/></title>
-<series>1888-1889</series>
-<placeName>Casino de Saint-Pierre</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Audition d'élèves
+            <date when='17/04/1889'/>
+          </title>
+          <series>1888-1889</series>
+          <placeName>Genève, Casino de Saint-Pierre</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU DG4 F001541</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt> </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18890417"/>
-<title>Audition d'élèves</title>
-<placeName key="Casino de Saint-Pierre"/>
-<name key="1888-1889" type="series"/>
-<name key="Spohr, Louis" ref="https://muscat.rism.info/admin/people/149499" type="person" role="cmp">Spohr, Louis</name>
-<name key="Dont"  type="person" role="cmp">Dont</name>
-<name key="Bach, Johann Sebastian" ref="https://muscat.rism.info/admin/people/2539" type="person" role="cmp">Bach, Johann Sebastian</name>
-<name key="Mendelssohn Bartholdy, Felix" ref="https://muscat.rism.info/admin/people/88790" type="person" role="cmp">Mendelssohn Bartholdy, Felix</name>
-<name key="Grieg, E."  type="person" role="cmp">Grieg, E.</name>
-<name key="Rode"  type="person" role="cmp">Rode</name>
-<name key="Haydn, Joseph" ref="https://muscat.rism.info/admin/people/55803" type="person" role="cmp">Haydn, Joseph</name>
-<name key="Holzmann"  type="person" role="cmp">Holzmann</name>
-<name key="Liszt, Franz" ref="https://muscat.rism.info/admin/people/107196" type="person" role="cmp">Liszt, Franz</name>
-<name key="Saint-Saëns, Camille" ref="https://muscat.rism.info/admin/people/76734" type="person" role="cmp">Saint-Saëns, Camille</name>
-<name key="Viotti, Giovanni Battista" ref="https://muscat.rism.info/admin/people/144451" type="person" role="cmp">Viotti, Giovanni Battista</name>
-<name key="Hummel, Johann Nepomuk" ref="https://muscat.rism.info/admin/people/107007" type="person" role="cmp">Hummel, Johann Nepomuk</name>
-<name key="Chopin, Fryderyk Franciszek" ref="https://muscat.rism.info/admin/people/51160" type="person" role="cmp">Chopin, Fryderyk Franciszek</name>
-<name key="Scheyterberg, de (Mlle)"  type="person" role="int">Scheyterberg, de (Mlle)</name>
-<name key="Jacken (Mlle)"  type="person" role="int">Jacken (Mlle)</name>
-<name key="Billington (Mlle)"  type="person" role="int">Billington (Mlle)</name>
-<name key="Lusk (Mlle)"  type="person" role="int">Lusk (Mlle)</name>
-<name key="Pfeiffer, Julie"  type="person" role="int">Pfeiffer, Julie</name>
-<name key="Jaques, Hélène"  type="person" role="int">Jaques, Hélène</name>
-<name key="Pochon, Alfred"  type="person" role="int">Pochon, Alfred</name>
-<name key="Ibbetson (Mme)"  type="person" role="int">Ibbetson (Mme)</name>
-<name key="Köhl, J."  type="person" role="int">Köhl, J.</name>
-<name key="Richter, H."  type="person" role="int">Richter, H.</name>
-<name key="Boris"  type="person" role="int">Boris</name>
-<name key="Prod'hom, J. (Mlle)"  type="person" role="int">Prod'hom, J. (Mlle)</name>
-<name key="Naz, Minna"  type="person" role="int">Naz, Minna</name>
-<name key="Perrottet, Jeanne"  type="person" role="int">Perrottet, Jeanne</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f001541_001.tif"/>
-<page><![CDATA[ACADÉMIE DB MUSIQUE
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18890417'/>
+        <title>Audition d'élèves</title>
+        <placeName key='Genève, Casino de Saint-Pierre'/>
+        <name key='1888-1889' type='series'/>
+        <name key='Spohr, Louis' ref='https://muscat.rism.info/admin/people/149499' type='person' role='cmp'>Spohr, Louis</name>
+        <name key='Dont' type='person' role='cmp'>Dont</name>
+        <name key='Bach, Johann Sebastian' ref='https://muscat.rism.info/admin/people/2539' type='person' role='cmp'>Bach, Johann Sebastian</name>
+        <name key='Mendelssohn Bartholdy, Felix' ref='https://muscat.rism.info/admin/people/88790' type='person' role='cmp'>Mendelssohn Bartholdy, Felix</name>
+        <name key='Grieg, E.' type='person' role='cmp'>Grieg, E.</name>
+        <name key='Rode' type='person' role='cmp'>Rode</name>
+        <name key='Haydn, Joseph' ref='https://muscat.rism.info/admin/people/55803' type='person' role='cmp'>Haydn, Joseph</name>
+        <name key='Holzmann' type='person' role='cmp'>Holzmann</name>
+        <name key='Liszt, Franz' ref='https://muscat.rism.info/admin/people/107196' type='person' role='cmp'>Liszt, Franz</name>
+        <name key='Saint-Saëns, Camille' ref='https://muscat.rism.info/admin/people/76734' type='person' role='cmp'>Saint-Saëns, Camille</name>
+        <name key='Viotti, Giovanni Battista' ref='https://muscat.rism.info/admin/people/144451' type='person' role='cmp'>Viotti, Giovanni Battista</name>
+        <name key='Hummel, Johann Nepomuk' ref='https://muscat.rism.info/admin/people/107007' type='person' role='cmp'>Hummel, Johann Nepomuk</name>
+        <name key='Chopin, Fryderyk Franciszek' ref='https://muscat.rism.info/admin/people/51160' type='person' role='cmp'>Chopin, Fryderyk Franciszek</name>
+        <name key='Scheyterberg, de (Mlle)' type='person' role='int'>Scheyterberg, de (Mlle)</name>
+        <name key='Jacken (Mlle)' type='person' role='int'>Jacken (Mlle)</name>
+        <name key='Billington (Mlle)' type='person' role='int'>Billington (Mlle)</name>
+        <name key='Lusk (Mlle)' type='person' role='int'>Lusk (Mlle)</name>
+        <name key='Pfeiffer, Julie' type='person' role='int'>Pfeiffer, Julie</name>
+        <name key='Jaques, Hélène' type='person' role='int'>Jaques, Hélène</name>
+        <name key='Pochon, Alfred' type='person' role='int'>Pochon, Alfred</name>
+        <name key='Ibbetson (Mme)' type='person' role='int'>Ibbetson (Mme)</name>
+        <name key='Köhl, J.' type='person' role='int'>Köhl, J.</name>
+        <name key='Richter, H.' type='person' role='int'>Richter, H.</name>
+        <name key='Boris' type='person' role='int'>Boris</name>
+        <name key='Prod&apos;hom, J. (Mlle)' type='person' role='int'>Prod'hom, J. (Mlle)</name>
+        <name key='Naz, Minna' type='person' role='int'>Naz, Minna</name>
+        <name key='Perrottet, Jeanne' type='person' role='int'>Perrottet, Jeanne</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f001541_001.tif'/>
+        <page>
+          <![CDATA[ACADÉMIE DB MUSIQUE
 GENFVE
 4, BOULEVARD HELVÉTIQUE, 4
-
 MERCREDI 17 AVRIL 1880
-
 A 8 HEURES PRÉCISES
-
 GRANDE SALLE DU CASINO DE ST-PIERRE
-
 AUDITION D'ÉLÈVES
-
-f@%@+ \Yjÿ]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f001541_002.tif"/>
-<page><![CDATA[Monsieur RICHTER, Directeur
+f@%@+ \Yjÿ
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f001541_002.tif'/>
+        <page>
+          <![CDATA[Monsieur RICHTER, Directeur
 de l’Académie de Musique, prie
-
 M
-
 de bien vouloir assister à 'Audition
 d’élèves, qui auralieu ler7 avrilrS8Q,
 à & R, à la grande Salle du Casino
-
-de St-Pierre.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f001541_003.tif"/>
-<page><![CDATA[G9
-
+de St-Pierre.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f001541_003.tif'/>
+        <page>
+          <![CDATA[G9
 N5
-
 PROGRAMME
-
 KWAPPORTET ANNU
-
 > ÉÉN our quatre violon
 »O 1tre OIlONSs
 Scherzo. f P
 Mlles de Scheyterberg, Jacken,
-
 &
-
 a!
-
 EL
 f Spohr.
 | Dont.
-
 Billington et Lusk (Classe de M. Louis Rey.)
-
 . Prélude et Fugue
 Caprice . sr S 44e
 Mlle _]11h| 'îciﬂn-r (Classe de M.
@@ -135,23 +134,15 @@ M. Alfred Pochon (Classe de M.
 Louis Rey.
 . Concerto en sol mineur ;
 Mme Ibbetson (Classe de M. Veit,
-
 . Trio (Andante) .
-
 Piano : Mlle J. Kôh]), 4]\ 114 4 Richter.
-
 F.-S5, Bach.
 Mendelssohn,
-
 E. Grieg,
-
 /\’(U/".
 Mendelssohn,
-
 Haydn.
-
 Violon : M, H. Richter, classe de M. Louis Rey.
-
 J
 mann.
 . La Ricordanza .
@@ -165,30 +156,23 @@ Louis Rey.)
 MIle Minna Naz (Classe de \l \ eit.)
 . Berceuse . .
 Fantaisie hongroxse
-
 Mlle Jeanne Perrottet {Cll<<x de
 M. Veit.)
-
 &
-
 Deux pianos Kaps de la Maison BRON & BERGUER, Corraterie
-
 Toloncelle : M. Boris de Skripitzinn, classe de M. Holz-
-
 Liszt.
-
 Saint-Saëns.
 Viotti.
-
 Hummel,
-
 Chopin.
 Lisat.
-
-sË]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f001541_004.tif"/>
-<page><![CDATA[]]></page>       
-        </p>
+sË
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f001541_004.tif'/>
+        <page><![CDATA[]]></page>
+      </p>
     </body>
   </text>
 </TEI>

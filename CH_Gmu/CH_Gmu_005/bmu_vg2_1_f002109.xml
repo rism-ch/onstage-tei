@@ -1,89 +1,92 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Septième concert classique<date when="20/02/1886"/></title>
-<series>1885-1886</series>
-<placeName>Grand Théâtre</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Septième concert classique
+            <date when='20/02/1886'/>
+          </title>
+          <series>1885-1886</series>
+          <placeName>Genève, Grand Théâtre</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VG2-1 F002109</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Bergalonne, F. (dir)</note>
+        <note>Interprète incertain</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18860220"/>
-<title>Septième concert classique</title>
-<placeName key="Grand Théâtre"/>
-<name key="1885-1886" type="series"/>
-<name key="Mozart, Wolfgang Amadeus" ref="https://muscat.rism.info/admin/people/115324" type="person" role="cmp">Mozart, Wolfgang Amadeus</name>
-<name key="Diaz"  type="person" role="cmp">Diaz</name>
-<name key="Molique, Bernhard" ref="https://muscat.rism.info/admin/people/112821" type="person" role="cmp">Molique, Bernhard</name>
-<name key="Bizet, Georges" ref="https://muscat.rism.info/admin/people/20057" type="person" role="cmp">Bizet, Georges</name>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Mozart, Wolfgang Amadeus" ref="https://muscat.rism.info/admin/people/115324" type="person" role="cmp">Mozart, Wolfgang Amadeus</name>
-<name key="Paganini, Nicolò" ref="https://muscat.rism.info/admin/people/1603" type="person" role="cmp">Paganini, Nicolò</name>
-<name key="Gounod, Charles-François" ref="https://muscat.rism.info/admin/people/80479" type="person" role="cmp">Gounod, Charles-François</name>
-<name key="Berlioz, Hector" ref="https://muscat.rism.info/admin/people/13803" type="person" role="cmp">Berlioz, Hector</name>
-<name key="Bergalonne, F. (dir.)"  type="person" role="int">Bergalonne, F. (dir.)</name>
-<name key="[Orchestre de la Ville de Genève ?]"  type="person" role="int">[Orchestre de la Ville de Genève ?]</name>
-<name key="Potel-Bernard, J.(Mme)"  type="person" role="int">Potel-Bernard, J.(Mme)</name>
-<name key="[Godefroid]"  type="person" role="int">[Godefroid]</name>
-<name key="Holzmann"  type="person" role="int">Holzmann</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_1_f002109_001.tif"/>
-<page><![CDATA[ÊPRAND THÉATRE DE GENÈVE
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18860220'/>
+        <title>Septième concert classique</title>
+        <placeName key='Genève, Grand Théâtre'/>
+        <name key='1885-1886' type='series'/>
+        <name key='Mozart, Wolfgang Amadeus' ref='https://muscat.rism.info/admin/people/115324' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Diaz' type='person' role='cmp'>Diaz</name>
+        <name key='Molique, Bernhard' ref='https://muscat.rism.info/admin/people/112821' type='person' role='cmp'>Molique, Bernhard</name>
+        <name key='Bizet, Georges' ref='https://muscat.rism.info/admin/people/20057' type='person' role='cmp'>Bizet, Georges</name>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Mozart, Wolfgang Amadeus' ref='https://muscat.rism.info/admin/people/115324' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Paganini, Nicolò' ref='https://muscat.rism.info/admin/people/1603' type='person' role='cmp'>Paganini, Nicolò</name>
+        <name key='Gounod, Charles-François' ref='https://muscat.rism.info/admin/people/80479' type='person' role='cmp'>Gounod, Charles-François</name>
+        <name key='Berlioz, Hector' ref='https://muscat.rism.info/admin/people/13803' type='person' role='cmp'>Berlioz, Hector</name>
+        <name key='Bergalonne, F.' type='person' role='int'>Bergalonne, F.</name>
+        <name key='Orchestre de la Ville de Genève' type='person' role='int'>Orchestre de la Ville de Genève</name>
+        <name key='Potel-Bernard, J.(Mme)' type='person' role='int'>Potel-Bernard, J.(Mme)</name>
+        <name key='Godefroid' type='person' role='int'>Godefroid</name>
+        <name key='Holzmann' type='person' role='int'>Holzmann</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_1_f002109_001.tif'/>
+        <page>
+          <![CDATA[ÊPRAND THÉATRE DE GENÈVE
 SAMEDI 20 FÉVRIER 1886, À HUIT llHllh% PRhLISI‘S
 SEPTIEME
-
 CONCERT CLASSIQUE
-
 AVEC LE CONCOURS DE %% A
 M* J. POTEL-BERNARD, M- …
-
 PREMIERS SUJETS DU GRAND THÉATRE DE NÈVE
-
 Et de M. HOLZMANN, Violoncelle solo de lOrchestre du Grand Théâtre.
-
 e S m
-
 L'Orchestre sera dirigé par M. F. BERGALONNE
-
 E mm SE -
-
 PËGGRA%ME
-
 PREMIÈRE PARTIE
-
 Symphonie n° 3, en sol mineur, Orchestre,. - - - 00 Ma Z
 A) Allegro molto. -- B) Andante. — c) Minuetto allegretto. -- D) Àll«…m assai, ;
 ……Md& Lo- WwÊo‘.. Dc“FÊ…£L. …IŒ»&‘%
@@ -100,13 +103,10 @@ chanté par Mme J, POTEL-BERNARD.
 Mouvement perpétuel, . . . - Paganini
 exécuté pa1 dl\ premiers violons de 101(thtl e du (mmtl lh…t10 ;
 Gounod
-
 chanté par M. BÉ FEEse et Mme J. POTEL-BERNARD.
 Ouverture des « Francs Juges, WOrcheslreu 11 H. Derlioz
-
 AVIS. — On est instamment prié de ne pas entrer pendant l’exécution des morceaux.
 — e &"s 0 —
-
 PRIX DES PLACES : Rez-de- chaussée. Baignoire (8 places), 50 fr., location, 60 fr. — B.n;,nonv de pourtour (4 places), 20 fr., location,
 94 fr. — Fautevil d’Orchestre et Parquet, 5 fr., location, 5 fr. 50. — Parterre, 2 l1., location, 2 fr, 50. — Hldpontm et place (lQb0Ul, 2fr, —
 Première Galérie. Loge centrale (11 places), location, 77 fr. — 1d. par place, 7 fr., location, 8 fr. — Loge de face à salon (5 places), 55 fr.,
@@ -115,23 +115,12 @@ location, 7 fr. — Loges de côté (6 place%), Q4 fr. … location, 50 fr. — 
 et strapontin, 4 fr., location, 5 fr. — 2" Galerie. Avant-scène, 5 fr., l….xtwn, 5 fr. 50. — Fauteuil de balcon, 2 fr., location, 2 tr. 50. —
 Loge de face, 2 fr., location, 2 fr. 50. — Loge de cèté, 1 fr. 95, … location. 4 fr. 50. Slrapontin, 2 r. —  Troisième Galerie. Avant-scène,
 llr 50, location. 4 fr. 60. — Stalle numérotée, 4 fr. 50., lavation, 4 1r. GU. — Galerie de côté. 75 c.. location, 85 c.
-
 Le Bureau de location pour les Concerts, comme pour les Représentations, est ouvert au Théâtre, tous les jours de 11 h. à 4 heures.
-
- 
-
 Genève. — Imprimerie L-F, Jarrys.
-
- 
-
- 
-
- 
-
- 
-
-#“\_]]></page>       
-        </p>
+#“\_
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

@@ -1,188 +1,143 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par le Corps de musique d'Elite<date when="11/12/1927"/></title>
-<series>1927-1928</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par le Corps de musique d'Elite
+            <date when='11/12/1927'/>
+          </title>
+          <series>1927-1928</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002666</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Welsch, M. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19271211"/>
-<title>Concert donné par le Corps de musique d'Elite</title>
-<placeName key="Victoria Hall"/>
-<name key="1927-1928" type="series"/>
-<name key="Gilson, Paul" ref="https://muscat.rism.info/admin/people/258437" type="person" role="cmp">Gilson, Paul</name>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Mozart, Wolfgang Amadeus" ref="https://muscat.rism.info/admin/people/115324" type="person" role="cmp">Mozart, Wolfgang Amadeus</name>
-<name key="Händel, Georg Friedrich" ref="https://muscat.rism.info/admin/people/36552" type="person" role="cmp">Händel, Georg Friedrich</name>
-<name key="Ropartz, Joseph Guy" ref="https://muscat.rism.info/admin/people/61362" type="person" role="cmp">Ropartz, Joseph Guy</name>
-<name key="Messager, André" ref="https://muscat.rism.info/admin/people/92078" type="person" role="cmp">Messager, André</name>
-<name key="Chopin, Fryderyk Franciszek" ref="https://muscat.rism.info/admin/people/51160" type="person" role="cmp">Chopin, Fryderyk Franciszek</name>
-<name key="Casado"  type="person" role="cmp">Casado</name>
-<name key="Saint-Saëns, Camille" ref="https://muscat.rism.info/admin/people/76734" type="person" role="cmp">Saint-Saëns, Camille</name>
-<name key="Massenet, Jules" ref="https://muscat.rism.info/admin/people/84264" type="person" role="cmp">Massenet, Jules</name>
-<name key="Jaques-Dalcroze, Emile" ref="https://muscat.rism.info/admin/people/109238" type="person" role="cmp">Jaques-Dalcroze, Emile</name>
-<name key="Gretchaninow"  type="person" role="cmp">Gretchaninow</name>
-<name key="Welsch, Marcel (dir.)"  type="person" role="int">Welsch, Marcel (dir.)</name>
-<name key="Corps de musique d'Elite"  type="person" role="int">Corps de musique d'Elite</name>
-<name key="Gobalet, Lily"  type="person" role="int">Gobalet, Lily</name>
-<name key="Franz, Walter"  type="person" role="int">Franz, Walter</name>
-<name key="Wend, Otto"  type="person" role="int">Wend, Otto</name>
-<name key="Neher, Marcelle"  type="person" role="int">Neher, Marcelle</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002666_001.tif"/>
-<page><![CDATA[PE S TES
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19271211'/>
+        <title>Concert donné par le Corps de musique d'Elite</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1927-1928' type='series'/>
+        <name key='Gilson, Paul' ref='https://muscat.rism.info/admin/people/258437' type='person' role='cmp'>Gilson, Paul</name>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Mozart, Wolfgang Amadeus' ref='https://muscat.rism.info/admin/people/115324' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Händel, Georg Friedrich' ref='https://muscat.rism.info/admin/people/36552' type='person' role='cmp'>Händel, Georg Friedrich</name>
+        <name key='Ropartz, Joseph Guy' ref='https://muscat.rism.info/admin/people/61362' type='person' role='cmp'>Ropartz, Joseph Guy</name>
+        <name key='Messager, André' ref='https://muscat.rism.info/admin/people/92078' type='person' role='cmp'>Messager, André</name>
+        <name key='Chopin, Fryderyk Franciszek' ref='https://muscat.rism.info/admin/people/51160' type='person' role='cmp'>Chopin, Fryderyk Franciszek</name>
+        <name key='Casado' type='person' role='cmp'>Casado</name>
+        <name key='Saint-Saëns, Camille' ref='https://muscat.rism.info/admin/people/76734' type='person' role='cmp'>Saint-Saëns, Camille</name>
+        <name key='Massenet, Jules' ref='https://muscat.rism.info/admin/people/84264' type='person' role='cmp'>Massenet, Jules</name>
+        <name key='Jaques-Dalcroze, Emile' ref='https://muscat.rism.info/admin/people/109238' type='person' role='cmp'>Jaques-Dalcroze, Emile</name>
+        <name key='Gretchaninow' type='person' role='cmp'>Gretchaninow</name>
+        <name key='Welsch, Marcel' type='person' role='int'>Welsch, Marcel</name>
+        <name key='Corps de musique d&apos;Elite' type='person' role='int'>Corps de musique d'Elite</name>
+        <name key='Gobalet, Lily' type='person' role='int'>Gobalet, Lily</name>
+        <name key='Franz, Walter' type='person' role='int'>Franz, Walter</name>
+        <name key='Wend, Otto' type='person' role='int'>Wend, Otto</name>
+        <name key='Neher, Marcelle' type='person' role='int'>Neher, Marcelle</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002666_001.tif'/>
+        <page>
+          <![CDATA[PE S TES
 S
 S
-
 m‘llllh.u|lllh.|llilhirlliln.ﬂ|llliullllmnlllnnllllmllllh;llllll.)llIH|..|llllh.lllll…||lllhdlllll..|lllll…lllllu…ll|…llllh.|llll|mllll|î.ﬂIllh;llllllmllllhl__îl£
-
 /î//////%//%////////, ADD-INDEX
-
 f} "t(£ONT.INEN—TAL ///// 5
-
 A
 L
-
-    
- 
-   
-
 CORONA-PORTABLE D, se … BRUNSVIGA
 . Oc - 4 >
 L. C. SMITH MONROE
-
 rs
-
 w CONTINENTAL
 Ÿ = O. BACHMANN, 7, Passage des Lions
-
-   
-
- 
-
 Portes à 14 h. 15 VICTORIA HALL Concert à 14 h. 45
 DIMANCHE 11 DÉCEMBRE 1927
-
 8 NCIRI
-
 DONNÉ PAR LE CORPS DE
-
 MUSIQUE D’ÉLITE
-
 SOUS LA DIRECTION DE
 Monsieur_ MARCEL WELSCH
-
 Premier prix du Conservatoire national de musique de Paris
 avec le gracieux concours de
-
 T1"° Lily GOBALET M. Walter FRANZ
-
 Cantatrice Violoncelliste de l’O. S. R,
-
 M. Otto WEND bl" Marcelle NEHER.
-
 Prof, au Conservatoire Pianiste
-
 PRIX DES PLACES
 Loges et 1 rang de la 1* galerie (numérotées) Fr. 2.—. Rez-de-
 chaussée et autres places de 1'“ galerie Fr. 1—, 2”* galerie 50 cts
 (droit des pauvres en sus)
 Cartes à l’avance : Victoria-Hall et À. AUGIER, Ameublements, Avenue du Mail, 20
-
- 
-
 Les cartes de Membres honoraires et non-exécutants donnent droit à 2 entrées
 (le coupon n° 8 à une entrée)
 et, moyennant supplément de 1 fr., aux places numérotées.
-
- 
-
 - Tous les billets de Chemins de fer aux conditions des tarifs. Emission sans
 frais des billets circulaires à Longue validité
-
 E OENCE DE VOYAGES
 C. BLENCK, FERT & C *"s6f67e"
-
 Voyages à forfait pour tous pays
 Demandez notre brochure spéciale « Nos Grands Voyages 1928 »
-
 ; Â-£ 574008" N YCN E
-
-SYRHENMHHEEP" CTN" CEOEU EDVU UEPC!UEO}EQNOHE!VE}V OO OHVE}E ETE NNU]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002666_002.tif"/>
-<page><![CDATA[Lc a1arasa11a{ra{ao{rrdradras é -
-
-     
-   
-
- 
-
+SYRHENMHHEEP" CTN" CEOEU EDVU UEPC!UEO}EQNOHE!VE}V OO OHVE}E ETE NNU
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002666_002.tif'/>
+        <page>
+          <![CDATA[Lc a1arasa11a{ra{ao{rrdradras é -
 Origines de la Musique Militaire
-
 6
-
- 
-
- 
-
 1) Nos lecteurs trouveront dans les futurs programmes la suite de cet
 exposé tiré de l’ouvrage de Michel Brenet « La Musique Militaire ».
-
 Les cornes des bovidés et les coquilles univalves que la
 mythologie place aux mains des Trilons furent les premiers =
 instruments à vent dont les sons rauques vinrent en aide à la
 voix pour propager le bruit des signaux; mais dès que l’'in-
 dustrie de l’'homme sut fondre et assouplir les métaux, elle
-
- 
-
 4 PN 0 E e
-
 DE
-
 sfursee
-
- 
-
 CORPS DE MUSIQUE D'ÉLITE Photo F.-H. Jullien .
-
- 
-
 exploita dans le même sens leurs propriétés sonores. La Bible
 fait de Tubalcaïn, fils de Lamech, le premier forgeron et de
 son frère Jubal, le premier faiseur d’instruments. C'est sur
@@ -194,54 +149,32 @@ combats. Leur double rôle, religieux et militaire, se peint dans
 le récit du siège de Jéricho où, pendant six jours, les soldats
 de Josué processionnent en silence sous les murailles de la
 ville, qui tombent, le septième, au son des sept trompetles et
-
 RS A SO 4j e A
-
- 
-
- 
-
 sm
-
 %ä"HH“”HH“WHNV“HHVWHH“WHHVWHH“"HN“"HH“"HH“"HH“”HH“"HH“”HH“WHHVWHHVWHH““HH““HH““HH““HH““HH““HH““HH““NH“"H""HË
-
-\]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002666_003.tif"/>
-<page><![CDATA[4
+\
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002666_003.tif'/>
+        <page>
+          <![CDATA[4
 Ÿ
-
 ….‘...
-
 3
-
 ; ä……“H|l”“H"…|l||l…hll””|\|||…|lll|…|H|l…|H|ll…IIÏll…|||"…Hl""lhl”"hl”…|ll……ll……\lll…|u……\ll”…H……Hl…"nl"“|U……Hl”"lH|"”lHl”"lk
-
 DÉGUSTEZ
-
 Les meilleurs Cafés et Thés
-
 Marque LE _ MAURE
-
 Le plus grand choix au meilleurs prix
-
 Importateurs Maison DUG Frères
 GEHRET & LIPP, Succ.
-
 96, Rue du Rhône, 96
-
- 
-
 Pn v P
-
 JUs
-
-     
-
 du grand cri jeté, tout d’une voix, par le peuple qui suit l’arche
 d'alliance : parfait svmbole de l’élément de terreur qu’une
 conception primitive de la musique guerrière ajoutait à l’effroi
 causé par un imposant déploiement de forces militaires.
-
 …Le plus ancien document relatif aux instruments guer-
 riers, dans l’Egypte des Pharaons, indique de leur emploi une
 application différente. C’est une peinture de l’époque dite du
@@ -257,229 +190,96 @@ leur extrémité pour être bruyamment frappées l’une contre
 l'autre. Une trompetle égyptienne en bronze doré, privée de
 son embouchure, existe au Musée du Louvre ; rien ne peut
 mieux lui être comparé que les grossières trompes droites
-
 \:l||.lull||llul|||llul|l||lnll|||lull||llullllllullllllul|||llull||llnllllllullllllull
-
-   
-
- 
-
 '.|llllh.lllll:…lllll|mlllll…lllllmllll|…lllllmllll
-
- 
-
 LAISSEZ PARLER LES FLEURS
-
 &
 Fleurs Naturelles bÊ
 » FLEUROP « Ù
-
 Association Internationale @‘äË 2, Place
-
 Transmission télégraphique des = du Port et
 envois floraux dans le %%
 monde entier ® Longemalle
-
 G- —— GENÈVE
-
 Téléphone Stand 32-77 — Chèque Postal I. 3283
 |”||‘"”lll‘"|||…"|||ll"'|||||‘"|||||"'”|||‘"'||||"'|ll||“"|l|l""llll|"|||||'"'|Ill|"|IIIl|”||lll‘"'llll'”||lll'”'|l…"|lll|"'||||l'"”lll""||ll|"…l|l"'|lll|”ïllll|"l|l||"
-
- 
-
 S ETE m
-
 —îlIIII…IIIIH"IIIII‘"llllN"IIIIN"IIIIH"HIIH"Hlll""llll'"'llll‘"lllll|"'llll"‘"lll'"'llll'"Hlll'"lllll"‘llIlll"lllll‘"'llll'””ll""'llll""llll'"|llll|"|llll"“llll"“llll"“llll'"…l""|llll‘"'lll"""lll""llll|"lllll'"'llll'"‘llll"“llll""llll|"lllll"‘|llll"‘Hlll'"'llll“"llll'”…ll"‘”lll“
-
-2h]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002666_004.tif"/>
-<page><![CDATA[PRE RSNRUNEE T-
-
+2h
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002666_004.tif'/>
+        <page>
+          <![CDATA[PRE RSNRUNEE T-
 ñrÎ”"°'* #
-
 ä|lllll…lllll|.ullll|..|llH|..|llll|.nlllll..|llll|..lllllm|Hlll..llllll..|llll|..|llll|…|llllh.llllli.nlllll..|||H|…|llllm|lllll..llllllmllllh.lllllh.lllll|..1llll|.;ﬂlll1…|llll|..lllllh.illl
 VEUILLET ‘ 4
-
 Ÿ M AU / HE Â ‘ {
-
 Ses enseignes,
-
 Son matériel de décoration en .
-
 location,
-
 8, Rue Dancet, 8W
 Téléphone Stand 75-80
-
- 
-
- 
-
- 
-
 Î xàm ñr
-
 f ŒL L él
 J "Lîv '
 äUC DU MONT-
-
 LIBRAIRIE NAVILLE sC°
 AGENCE DES JOUR.NAUX ..GENEVE
-
-    
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 MANQUE DE GRNÈVE
-
 Fondée en 1848
-
- 
-
 Toutes opérations de
-
- 
-
- 
-
- 
-
- 
-
-   
-
 . Valse-scherzo (Elite)
 se F1deho, grand air .
-
- 
-
-    
- 
-   
- 
-
-  
-
 . Sonate p' violoncelle et p1ano
-
 . Dimanche breton (Elite).
 1) À l’église. 2) Au cimetîèïî
-
-  
-
-  
-
 DEU
-
- 
-  
-
- 
- 
-
 . Hélène, suite d’orchestre (Elï
 1) Prélude. 2) Hélène et Sylvit
 .a) Nocturne . .
 b) Sérénade espagnole (M
 7. Déjanire, préludes des 1°” @
-
-   
-   
-    
-   
- 
-
-  
-  
-
 b) Nous n’avons pas le te
-
 c) Berceuse (M"® Goba (
 9. Marche des Korrigans 11=
-
- 
-
- 
-
- 
-
- 
-
 tc
-
- 
-
 aodhbttsce 000N
-
-  
-  
-
 26.80
 .—îl‘”lll‘"|llll""ll|l"‘Hlll"‘lllll""|lll"‘lllll"‘Hlll'"”lll'"‘lll“'"llll"‘"lll""lllll"lllll‘”‘llll'”lllll'”Hlll'"'llll'”lllll'”|llll"‘lllll'”'llll"‘|ll…"'llll"‘lllll"“llll"‘”lll" Ît
-
 '1
-
 banque âœ
 On vous juge à Vî«î
-
 ‘ Une ;
 J. BUL
-
 Rue du
-
- 
-
-TIMBRES 5 %]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002666_005.tif"/>
-<page><![CDATA[u .' lullllllull|lllnllll!lullllllnllllllullllllullllllullllllutlllllull||llullllllullllllullllllnlI!ll!ulllHlull|lllulll|llullllllullllllulllll!ullllllnllllllullllllullllllullllllnllllllulll[lh
-
+TIMBRES 5 %
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002666_005.tif'/>
+        <page>
+          <![CDATA[u .' lullllllull|lllnllll!lullllllnllllllullllllullllllullllllutlllllull||llullllllullllllullllllnlI!ll!ulllHlull|lllulll|llullllllullllllulllll!ullllllnllllllullllllullllllullllllnllllllulll[lh
 GAFE DE GENÈVE “
-
 Vins ouverts réputés,
 Bière: Suisse - Pi
-
 É
 RE
 B
-
 * Repas sur commande
-
 soignées dans caveau moderne
 Menus et carte
-
 DUCIMETIÈRE
 Grand-Quai, 20
-
 grande variété
-
 Isen-Munich
-
 Au restaurant :
-
 Tous mets de Brasserie
-
- 
-
- 
-
 … Paul Gilson.
 e | .- . .… Beethover.
 ipina (M”° Gobalet) Mozart.
 granz et M"* Neher) Hændel.
-
 . Guy-Ropartz.
 4) La danse.
-
 v 4 Messager:
 . 4) Aurore.
 Chopin.
@@ -488,68 +288,40 @@ Saint-Saëns.
 M assenet.
 J,-Dalcroze.
 Gratchaninow.
-
 Guy-Ropartz.
-
 }!ter Franz) ;
 L"ficztes (Elite )
-
 ; ENTR’ACTE DE QUINZE MINUTES
-
 Photographie d'r
 F. H. .{l}(ullien
-
 Poses d’Enfants
 Portraits Artistiques
 en Couleurs
-
 Travaux soignés en
 tous genres
-
 15, Cours de Rive - GENÈVE
 Téléph. Stand 15.24
-
- 
-
- 
-
- 
-
 re chaussure
 flaussure qui
-
 GENE
 9L drier, 24
-
 p
 f
-
 flatte
-
 TIMBRES 5 %
-
- 
-
 27.80
 i |“'"'ll!l""Hll'"'llll""llll"‘*llll“‘lllll"'lllll"'Hlll'””lll“ 949880N AN E
-
- 
-
 T
-
-HH""III“"|llll‘"'HH""HIl"‘lllll""ll!l‘"'llll"‘Hlll'"'lll"”'llll‘"‘llll""IHIl"lHll"'Hlll'"Hlll"‘HHl"‘lllll""llll""llll""lllH"'llll'"‘|lll""|Hl"'Hlll'"|llll""llll"“IIH"“IIH'"|lll""'llll‘"'llll""llll""llll""lll‘"‘|Hl‘""llll‘"”lll"“llll""llll'"'llll|"Hlll"‘Hlll'"”lll‘]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002666_006.tif"/>
-<page><![CDATA[=x 4H" 1 19N" EN" ETE ETE CEOEN F
-
+HH""III“"|llll‘"'HH""HIl"‘lllll""ll!l‘"'llll"‘Hlll'"'lll"”'llll‘"‘llll""IHIl"lHll"'Hlll'"Hlll"‘HHl"‘lllll""llll""llll""lllH"'llll'"‘|lll""|Hl"'Hlll'"|llll""llll"“IIH"“IIH'"|lll""'llll‘"'llll""llll""llll""lll‘"‘|Hl‘""llll‘"”lll"“llll""llll'"'llll|"Hlll"‘Hlll'"”lll‘
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002666_006.tif'/>
+        <page>
+          <![CDATA[=x 4H" 1 19N" EN" ETE ETE CEOEN F
 LSl
-
- 
-
 Ÿ
-
 dont se servent, en nos campagnes, les bergers pour appeler
 leurs troupeaux.
-
 …Les monuments de Ninive offrent l'image de trompettes
 droites dont l’'usage est fréquent dans les cortèges sacrés ou
 guerriers ainsi que dans cerlains travaux de la vie civile où
@@ -561,40 +333,27 @@ fier, leurs illusions. Notons toutefois que les bas-reliefs de
 l’arc de Titus, qui reproduisent à titre de trophées de guerre
 les objets sacrés du temple de Jérusalem, contiennent la
 figure d’une trompette.
-
 …lLe son des flütes droites dirigeait les exercices des
 jeunes Hellènes sur le rythme anapestique — ce rythme, com-
 posé de deux brèves et une longue, dont notre temps a fait
 la vulgaire polka. Des flütes mélangées aux cythares, accom-
 pagnaient la pyrrhique, danse guerrière que Thalétas avait,
 disait-on importée de Grête à Sparte. (À suivre.)
-
- 
-
- 
-
- 
-
 Paui GILSON
-
 Paul Gilson, inspecteur de l’enseignement musical en Belgique, est né à
 Bruxelles, le 15 juin 1865. Il fit son éducation musicale presque par lui-même et
 remporta, en 1889, le premier Grand Prix de Rome avec sa cantate « Sinaï!> Il a
 écrit, depuis, un nombre assez grand d’œuvres diverses, puissamment conçues et
 réalisées qui le placent parmi les meilleurs compositeurs de l’école contemporaine
 Belge.
-
 Paul Gilson, qui manie avec autorité l’orchestration des fanfares et harmonies
 ne dédaigne pas de composer pour elles des œuvres ou le rythme, l’équilibre et le
 brillant sont admirablement pensés pour le caractère de ces orchestres spéciaux.
 La valse Scherzo composée directement pour fanfare est construite sur trois thèmes
 principaux. Son plan est nettement classique.
-
 Guy ROPARTZ
-
 Guy Ropartz, né à Guingamp (côtes du Nord), le 15 juin 1864, a fait ses
 études au conservatoire de Paris.
-
 Elève de César Franck, auquel il demeura indissolublement attaché ; Guy
 Ropartz est un grand symphoniste. Son œuvre où se reflète l’âme mystérieuse et
 mélancolique de la Bretagne, comprend des pièces de théâtre : « Le diable couturier »
@@ -602,117 +361,38 @@ mélancolique de la Bretagne, comprend des pièces de théâtre : « Le diable c
 Loti), < Le Pays », ete, plusieurs symphonies. dont l’une avec chœurs qui lui valut
 le prix Cressent, de la musique de chambre, de la musique religieuse des pièces
 pour piano et pour orgue et des mélodies pour chant et piano.
-
 Guy Ropartz qui, depuis 1894, dirigeait avec grande activité le conservatoire
 de musique de Nancy, à été appelé, en 1919, à l’organisation et à la direction de
 celui de Strasbourg, ou son autorité musicale et ses dons d’organisateur se sont
 imposés.
-
 <Le dimanche Breton », inscrit à notre programme est une suite symphonique
 descriptive en quatre parties.
-
 1. A l’Eglise. C’est dimanche… en plein soleil, par les larges routes poudreuses,
 ou par les chemins creux, sous le couvert des branches entrelacées, les paysans
 d’Arvor, ceux de la côte et ceux de l’intérieur des terres, sont venus au bourg
 voisin. Leur foule emplit la vieille église et voici monter vers Dieu, du cœur ému
 de ces simples, la prière naïve et fervente.
-
 llnllllllullllllnllllllnllllllnllllllulllllIullllllnllllllnllllllullllllullllllullllllullllllnllllllul\llllnllllllnlîllllnllllll\llllllhlllllllulllllh ;
-
- 
-     
-   
-   
-   
-   
-   
-   
- 
-     
-
- 
-
-   
-     
-
- 
-     
-      
-
- 
-
- 
-
- 
- 
-
- 
-
- 
- 
-
- 
-
- 
- 
-
- 
-
-   
-
- 
-
-  
-     
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-  
-
- 
-
- 
-
-   
-
-BHN]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002666_007.tif"/>
-<page><![CDATA[3 "—"-_hll““nllllllull||lIullllllul…llullllllnll|lllulll|llull…luIlllllul…llulllllluIlllllull||llullllllullllllull||llnllllllulll“lull|lll.dlllllullllllullllllulll|llullllllulllllh
-
+BHN
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002666_007.tif'/>
+        <page>
+          <![CDATA[3 "—"-_hll““nllllllull||lIullllllul…llullllllnll|lllulll|llull…luIlllllul…llulllllluIlllllull||llullllllullllllull||llnllllllulll“lull|lll.dlllllullllllullllllulll|llullllllulllllh
 2. Au Cimetière. Le cimetière enclot l’Eglise. Au sortir de la messe suivant
 la très ancienne et si touchante coutume, les Bretons, gardiens dévots du culte
 des morts, s’agenouillent sur les tombes de leurs proches et murmurent un De
 profundis. ;
-
 3. La Procession. La cloche tinte au campanile ajouré… C’est la fin des
 vêpres... La procession sort de l,église au chant des cantiques bretons et lentement
 déroule son cortège à travers les rues du bourg… Et lorsque la foule des croyants
 s’est de nouveau agenouillée sur les dalles de granit du sanctuaire, par les portes
 restées ouvertes s’envolent par instant les saintes liturgies, tandis que la cloche
 égrène ses derniers tintements au campanile ajouré…
-
 4. La Danse. Et maintenant, sur la place qu’ombragent des chênes trois fois
 séculaires, dansez, jeunes gars et jeunées filles. Dansez au son des binious et des
 bombardes, dansez les passe pieds et les jabadaos.
-
 André MESSAGER
-
 André Messager, né à Montluçon (Allier), le 30 décembre 1853, ancien élève
 de l’Ecole Nidermeyer, n’est pas connu seulement comme ancien directeur de l* )péra
 et chef d’orchestre de la société des concerts du conservatoire. Tl à écrit des œuvres
@@ -733,96 +413,66 @@ qu'il aime, qu’il admire et qu’il à si supérieurement traduits. les d'Indy
 les Paul Dukas ; il y marque son empreinte par des moyens tout différents, un peu
 comme un phénomène musical qui aurait dû transporter la pensée d’un temps révolu
 au milieu des procédés du nôtre.
-
 L'œuvre de Messager qui est à notre programme fut composée en 1891. pour
 la musique de scène de l’Hélène, de Paul Delais. Elle est toute empreinte des
 caractères du maître: mélodies gracieuses, orchestre clair, sonore. riche d’inventions
 heureuses, abondant en sonorités ingénieuses et piquantes.
-
 Tableau des membres exécutants
-
 = _ Saxophones Sopranos : Keller, Kister 2mes Pistons : Burcher, Coppel, Pra-
-
 deilles, Autier, Frély, Feldmann.
-
 ; .Fernand, Kister John, Mæder Charles,
 Ë Scholl. 5
-
 Saxophones Altos: Cottier, Miglietti,
 Brand, Buchs, Buschi, Antonietti.
-
 Saxophones Ténors : Gachet Ulysse,
 Vescovini, Levy, Kohler.
-
 Saxophones Barytons
 Jean, Vallélian.
-
 Trompettes :
 Schmid.
-
 Bugles Solos : Duret, Henninger Er-
 nest, Hess Th., Zenone.
-
 Jers  Bugles Aeschimann,
 Reinhard, Rémy Frédéric.
-
 2mes Bugles : Bajulaz, Favre. Fessler,
 Mouret, Pfirter Fréd., Bluntschli. Rivol-
 let, Laydevant.
-
 Jers Pistons : Krugell, Richard.
-
 Aebischer
-
 Bunzli, Grandjean, Pay,
-
 Martin,
-
 Ê"llll"‘|lllll"HIII'"'IIII'"HIII|"'llll"‘”ll“"lllll"'llllll"Hlll|"lllll"‘lllll"“llll""llll""llll"'lllll""llll'”'llll""llll'"lllll""llll"‘|llll""llll"“llll""llll"‘”lll“l‘rﬁ
-
- 
-
- 
-
 Cors : Lee, Dovat, Reboux.
-
 Altos : Baetz, Gavillet, Glardon.
-
 Trombones : Emery, Matthey Léon,
 Pfirter Adolphe, Anchisi, Delessert.
-
 Barytons : Aebischer Emile, Bussy,
 Ethevenon, Girod, Mauris Louis, Torche,
 Trisconi, Birrer, Leiser.
-
 Busses : Augier, Couturier, Salzmann,
 Schaffner, Tissot, Mandallaz, Lassauer,
 Genoud.
-
 Contrebasses mi B : Delgrande, Renet.
-
 Contrebasses si B: Ramu, Moroni,
 Reber.
-
 Batterie
 Schnegg Ivan.
-
-Mossaz René, Riondel,]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002666_008.tif"/>
-<page><![CDATA[Nos membres non exécufahlè_
-
+Mossaz René, Riondel,
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002666_008.tif'/>
+        <page>
+          <![CDATA[Nos membres non exécufahlè_
 À toutes nos manifestations nous aimons ren-
 contrer ces précieux collaborateurs qui, par l’in-
 térêt qu’ils portent à notre société, nous encou-
 ragent et nous aident tant financièrement que
 moralement.
-
 Nous les remercions sincèrement de tout l’at-
 tachement qu'ils vouent à notre Corps de Mu-
 sique, et espérons que toujours pius nombreux,
 ils viendront renforcer les rangs des amis de
 l’Elite. ;
-
 La carte de membre non exécutant munie de
 coupons donne droit à 2 entrées à tous les con-
 certs organisés par la Société et chaque coupon
@@ -830,21 +480,15 @@ certs organisés par la Société et chaque coupon
 être demandée à chaque membre du Corps ou en
 adressant le montant de 5 fr. au compte de
 chèques postaux I. 2560.
-
- 
-
 M. E. von AUW, Capitaine
 Commandant du Corps
 Photo F.-H. Jullien
-
 Ecole de Musique
-
 Nous recommandons aux parents, désiveux de
 donner à leurs enfants une éducation musicale
 sérieuse, notre ÉCOLE DE MUSIQUE organisée
 par notre Directeur, M. Marcel WELSCH, 1e"
 Prix du Conservatoire de Paris.
-
 Les cours de solfèges élémentaire et supérieur,
 professés par M. WELSCH, selon les méthodes
 en usage au Conservatoire de Paris sont très
@@ -861,31 +505,20 @@ ciété : Cuivres, M Richard ; Saxophones, J.
     </body>
   </text>
 </TEI>ELSCH, D_irçcteur
-
 Des bulletins trimestriels renseignent les pa- "" P""rl‘,l"‘I("’ÏISP{'UË‘f°},'“' DaQuE
 rents sur la présence et le travail de leurs à ”S”“1’:h:,:0 ;ÏÏ; Talnen
 enfants et sur le résultat des examens. e
-
 Tous ces cours sont d'un prix modique et à la portée de tous. Les inscriptions
 sont reçues au local, Bâtiment Electoral (rue de Saussure) tous les vendredis, dès 20 h.
-
 MORET & SCHNEIDER
-
 IMPRIMEURS
 RUE VAUTIER, 45 - CAROUGE - TÉLÉPHONE STAND 74592
-
- 
-
- 
-
- 
-
 livrent rapidement et soigneusement
-
 TOUS IMPRIMÉS
-
-ﬁ‘|lllll"lllll|"Hlll'”'llll‘”lllll'”lllll"‘lllll‘"‘llll"‘lIlll"‘lllll“‘ll]ll""llll"“lllH"lllll“‘lllll'”lllll'"lllll"‘llllll”|lllll"lllll'"lllll'”'llll‘””lll""l|ll'”‘llll'"'ll!“'Ê 1]]></page>       
-        </p>
+ﬁ‘|lllll"lllll|"Hlll'”'llll‘”lllll'”lllll"‘lllll‘"‘llll"‘lIlll"‘lllll“‘ll]ll""llll"“lllH"lllll“‘lllll'”lllll'"lllll"‘llllll”|lllll"lllll'"lllll'”'llll‘””lll""l|ll'”‘llll'"'ll!“'Ê 1
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

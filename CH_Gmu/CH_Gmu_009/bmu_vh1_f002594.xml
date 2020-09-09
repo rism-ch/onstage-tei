@@ -1,98 +1,89 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Festival Wagner<date when="02/03/1925"/></title>
-<series>1924-1925</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Festival Wagner
+            <date when='02/03/1925'/>
+          </title>
+          <series>1924-1925</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002594</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Ansermet, E. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19250302"/>
-<title>Festival Wagner</title>
-<placeName key="Victoria Hall"/>
-<name key="1924-1925" type="series"/>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Ansermet, Ernest  (dir.)" ref="https://muscat.rism.info/admin/people/40219507" type="person" role="int">Ansermet, Ernest  (dir.)</name>
-<name key="Orchestre de la Suisse Romande" ref="https://muscat.rism.info/admin/people/50007615" type="person" role="int">Orchestre de la Suisse Romande</name>
-<name key="Balguerie, S. (Mme)"  type="person" role="int">Balguerie, S. (Mme)</name>
-<name key="Laffitte"  type="person" role="int">Laffitte</name>
-<name key="Mégevand-Montant, B. (Mme)"  type="person" role="int">Mégevand-Montant, B. (Mme)</name>
-<name key="Magneanat (Mlle)"  type="person" role="int">Magneanat (Mlle)</name>
-<name key="Chmetz-Bourquin (Mme)"  type="person" role="int">Chmetz-Bourquin (Mme)</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002594_001.tif"/>
-<page><![CDATA[e
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19250302'/>
+        <title>Festival Wagner</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1924-1925' type='series'/>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Ansermet, Ernest' ref='https://muscat.rism.info/admin/people/40219507' type='person' role='int'>Ansermet, Ernest</name>
+        <name key='Orchestre de la Suisse Romande' ref='https://muscat.rism.info/admin/people/50007615' type='person' role='int'>Orchestre de la Suisse Romande</name>
+        <name key='Balguerie, S. (Mme)' type='person' role='int'>Balguerie, S. (Mme)</name>
+        <name key='Laffitte' type='person' role='int'>Laffitte</name>
+        <name key='Mégevand-Montant, B. (Mme)' type='person' role='int'>Mégevand-Montant, B. (Mme)</name>
+        <name key='Magneanat (Mlle)' type='person' role='int'>Magneanat (Mlle)</name>
+        <name key='Chmetz-Bourquin (Mme)' type='person' role='int'>Chmetz-Bourquin (Mme)</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002594_001.tif'/>
+        <page>
+          <![CDATA[e
 AN
-
- 
-
 ORCHESTRE DE LA SUISSE ROMANDE
-
- 
-
- 
-
 VMICTORIA.-HALL
-
 Lunodi 2 mars 1925, à 20 h. 30 précises
-
 FESTIVAL WAGNER
-
 PROGRAMME
-
- 
-
 PREMIÈRE PARTIE
-
 SIEGFRIED
-
 a) Les Murmures de la Forêt.
 b) Scène finale du 3° acte (Sirorrien et Brunenirpe).
-
 DEUXIEME PARTIE
-
 LE CRÉPUSCULE DES DIEUX
-
 a) Première scène du 3° acte (Sircrrien et les Firres pu Ran).
 b) Mort de Siegfried et Marche funèbre.
-
 c) Scène finale du 3° acte (Brunemmpe).
-
 HAOIDIUSAIUS k
-
 BRUNEHILDE SIEGFRIED
 me
 M° S. BALGUERIE M. LAFFITTE
@@ -101,136 +92,70 @@ et des Concerts Colonne et Lamoureux. de l'Opéra.
 WOGLINDE WELGUNDE FLOSSHILDE
 M'e B. MÉGEVAND-MONTANT M" MAGNENAT | Mr"° CHMETZ-BOURQUIN
 Soprano. Mezzo-soprano. Alto.
-
 L'Orchestre (renforcé) sera dirigé par
-
 M. Ernest ANSERMET
-
 Le Concert sera terminé vers 22 heures et quart.
 Aucun morceau ne sera répété ni ajouté au programme.
 La Direction se réserve le droit d’'apporter au programme toutes modifications que
 les circonstances pourraicnt lui impo.scr.
 Leo porleo seronl rigoureusement fermées pendant l'exécution Jdeé morceaux.
-
 4. JARAVI, OGMÈVE
-
- 
-
 GiTas cr p t rr rr e e E eq
-
 e méatx rocotéé rrn
 E J
-
 r rrr S S r an é r S e cs
 E e rc ds en en
-
-bares —. —_ '.H '*- .'».:.' ':'. '—' e acssnpŸ ä-.'....:...' L‘_‘:‘. Drrrii]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002594_002.tif"/>
-<page><![CDATA[AIMÉ KLING
-
+bares —. —_ '.H '*- .'».:.' ':'. '—' e acssnpŸ ä-.'....:...' L‘_‘:‘. Drrrii
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002594_002.tif'/>
+        <page>
+          <![CDATA[AIMÉ KLING
 LYITHIER-GENÈVE
 XI RVE DIDA y XH
-
-  
- 
-
 JANCIENS ET
 ///A/ ODERNES
-
- 
-
- 
-
- 
-
- 
-
- 
-
 ooooooo
-
 . CHEVALLIER
-
 FABRICANT
 Place Bel-Air, 4 Rue du Rhône, 58
-
-    
-    
-  
-
- 
-
 No) articles de voyage donnent
-
 toujours entière satisfaction
 parce quils sont fabriqués avec
 soin, et que les fournitures em-
-
 |‘ ployées sont de première qualité.
-
 [
 P 7913 X
-
 Notre Malle spéciale pour Automobiles est un succès
-
 Maroquinerie fine
-
- 
-
- 
-
- 
-
- 
-
 »
 909000000022 00O00000002000020VO00DD0000DOD90D0D0 002000 D00N9VND2ON0 220200000000 290DODDOHDD00DD09DO2HO00002000000S
-
-   
-
 °
-
 .
-
 .
-
 .
-
 °
-
 .
-
 .
-
 »
-
 .
-
 °
-
 °
-
 - ‘
 °
-
 . ;
 .
-
 .
-
-.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002594_003.tif"/>
-<page><![CDATA[lbùuo.uiùl.onoucciudcbc!la-.uiu.ul.ouncluooooooouccol!..u10lOoautlooouoo‘
-
- 
-
+.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002594_003.tif'/>
+        <page>
+          <![CDATA[lbùuo.uiùl.onoucciudcbc!la-.uiu.ul.ouncluooooooouccol!..u10lOoautlooouoo‘
 |
 |
 |
 |
-
- 
-
 æ
 .
 æ
@@ -333,15 +258,9 @@ e
 o
 .
 .
-
-   
-
 .… veccouv00 020000022000 0000
-
 Richard WAGNER
-
 Né à Leipzig le 28 mai 1813, mort à Venise le 13 février 1883.
-
 En donnant dans des soirées précédentes une audition intégrale de l'Or
 du Rhin et du premier acte de la Walkyrie, nous avons fait en quelque sorte
 l’exposé du sujet merveilleux traité par Wagner dans son Anneau des Niebe-
@@ -350,10 +269,8 @@ les principales péripéties de la vie du héros Siegfried, pour aboutir à la c
 sion grandiose où s’éteint la race déchue des dieux. Le choix que nous avons
 fait des fragments tirés des deux dernières journées de la Tétralogie était for-
 cément limité par la durée que peut avoir une telle audition au concert.
-
 *
 * *
-
 On sait que les quatre drames qui forment l’ensemble du Ring déve-
 loppent les péripéties produites par la malédiction que le Nibelung
 Alberich a attachée à l’Anneau dispensateur de là puissance, forgé par lui
@@ -364,15 +281,12 @@ cite aboutit à la ruine finale de la race des dieux et ne prend fin que
 lorsque sa dernière victime, Brunehilde, rendant aux flots purificateurs du
 Rhin le trésor qu’on lui avait dérobé, délivre enfin le monde du terrible
 anathème…
-
 SIEGFRIED
-
 Dans ce sombre drame des Niebelungen, Siegfried est l’acte de joie, de
 Jeunesse et d’amour, la manifestation de la vie éternellement recommen-
 çante, à qui rien ne résiste dans la splendeur de sa force et de sa beauté :
 Siegfred est l’invincible adolescent dont toutes les mythologies ont, sous
 différentes figures, exalté les exploits.
-
 Wagner dès longtemps s’était épris du personnage de Siegfried tel que
 le lui offraient le Niebelunglied et l’Edda. C’est vers 1846 déjà, alors qu’il
 travaillait à la composition de Lobengrin, que surgit pour la première fois
@@ -382,85 +296,41 @@ mière esquisse intitulée la Mort de Siegfried « opéra héroïque en trois
 actes », parue en 1848, nous fait connaître ce moment de la pensée de
 Wagner. Siegfried y figurait comme une sorte de rédempteur socialiste
 venu dans le monde pour abolir le règne de l’or et fonder sur la terre
-
 9104045400 04004000000000004000000000400004051#950##1###050800000000400000000000049000019002500000040000VH000HR
-
-GHGGHGHHONHSGGGGEGSOGSGGGGGSGSCHGHSUUGHSHGUGGONGGHCGUGUGGGRUGUSGSCHGGUUUSECUVONGSG0CnsOUAGSASCHGUGUVHGCSSHOSUGCOUSUCHHSSCUGUUGGOSCCAGUGHGHOUSGHGUGCGGGOGUCGGOHHOHCÉHH000U886]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002594_004.tif"/>
-<page><![CDATA[0000000000 00000000000020H020200 00402000 0S
-
+GHGGHGHHONHSGGGGEGSOGSGGGGGSGSCHGHSUUGHSHGUGGONGGHCGUGUGGGRUGUSGSCHGGUUUSECUVONGSG0CnsOUAGSASCHGUGUVHGCSSHOSUGCOUSUCHHSSCUGUUGGOSCCAGUGHGHOUSGHGUGCGGGOGUCGGOHHOHCÉHH000U886
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002594_004.tif'/>
+        <page>
+          <![CDATA[0000000000 00000000000020H020200 00402000 0S
 MÉSIQUE
-
 des œuvres jouées aux Concerts
-
 22, Corraterie, 22 deiO SR
-
- 
-
- 
-
 Editions françaises payables en argent français sans supplément depuis 20 fr.
-
 ROTSGIY Frères
-
 Les différentes transcriptions des œuvres
 jouées par l'O. S. R. se t’ouvent également à
-
 Pour l'achat, l‘échange, la loca- I
 tion, la réparation et l'accord des I J
 sadresser au Magasin
-
 1 étage — 64, Rue du Stand, 64 — 1* étage
-
 l‘Abonnement
-
- 
-
 000500000600000000600000000000000900000000000000000000006000060000600c0c0c0nc0ces 0
-
- 
-
 P 7260 X
-
 °
 »s0.»»ew. 0.00 .»»02»e ». 200000099520 22D0000 »»0000%0...
-
-   
-
 9900080000 00000000600000000000000000000000000000000000000000000000000000000000000000
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-  
-
 (3 .‘Ë_y‘- A
-
 ARTICLE/ FAINTAISIE, HYMODE |
 RUBAN, DENTELLE/, BR/-
 Les meilleure, qualité, aux meilleur/ prix
-
 MAISON FONDÉE EN 1822
-
-7762 X]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002594_005.tif"/>
-<page><![CDATA[coccrevescecesecce
-
- 
-
+7762 X
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002594_005.tif'/>
+        <page>
+          <![CDATA[coccrevescecesecce
 e
 °
 °
@@ -587,7 +457,6 @@ e
 °
 .
 .
-
 .
 °
 ©
@@ -637,7 +506,6 @@ e
 .
 .
 .
-
 la domination de l’humanité libre. Mais Wagner ne tarda pas à dépasser
 ce point de vue. Elargissant le cadre de son œuvre, en écrivant le Jeune
 Siegfried, prologue à la Mort de Siegfried, puis la Walkyrie et enfin ”’Or du
@@ -655,15 +523,12 @@ s’il affronterait jamais les feux de la rampe. Ce ne fut qu’en 1874, dix-
 huit mois avant les premières représentations solennelles de Bayreuth,
 que Wagner acheva son travail, qu’il avait abandonné entre temps pour
 composer Tristan.
-
 a) Les Murmures de la Forêt.
-
 Cette suite pittoresque est formée par la réunion de fragments divers
 pris dans le second acte de S'egfried. C’est Wagner lui-même qui adapta
 ainsi à l’usage des concerts un des épisodes les plus ravissants de son
 œuvre, et cette page orchestrale donne une juste idée de la splendeur
 symphonique de cette partition.
-
 Recueilli par Mime le nain, Siegfried a vécu dans la solitude des forêts
 auprès de ce compagnon qui ne l’élève que dans le but de lui faire com-
 battre le dragon Fafner, gardien de l’or qu’il convoite. Pressé de questions
@@ -673,7 +538,6 @@ sa mère Sieglinde laissant en gage Nothung, l’épée brisée qui, reforgée,
 donnerait la victoire (la Walkyrie). Siegfried, le héros sans peur attendu
 par Wotan, a reforgé l’épée, et il marche à la victoire, conduit par
 Mime vers la caverne du monstre Fafner.
-
 C'est alors que la forêt lui murmure ses plus doux chants dont elle
 berce sa rèverie. Il songe avec un profond attendrissement à cette mère
 qu’il aurait tant aimée et dont les caresses lui ont été refusées. Il se plait
@@ -681,146 +545,61 @@ qu’il aurait tant aimée et dont les caresses lui ont été refusées. Il se p
 ceux des gazelles. Il soupire et médite, puis est tiré de son rêve par les
 murmures de la forêt qui montent de tous côtés et emplissent son âme
 d’une poésie mystérieuse, par le chant joyeux d’un oiseau perché au-
-
- 
-
 BOCCOROOEOSODOSOLOOOSOOASOSOOAEDOOOCOOOSOOOOOOOOCNOOOENSOOOCOOSOOCOAOONOONONOSCHOOOSCNOCOOOCONOOCGOSONNOOOOOOOCOOOEOONOOOOCSOSNNOCHOONONNONANEGCONNO0OCA0N0HCO00OS0000000000
-
 .…
-socccceu PHEFCHCHCHEOOCHCACCCHCOCOHCCCCUOHEUNCHCONOHC0O0CCCOGCC0000000]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002594_006.tif"/>
-<page><![CDATA[LDIN
-
-  
-
+socccceu PHEFCHCHCHEOOCHCACCCHCOCOHCCCCUOHEUNCHCONOHC0O0CCCOGCC0000000
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002594_006.tif'/>
+        <page>
+          <![CDATA[LDIN
 uTU
-
-  
- 
-
-     
-
 S “IIIIII:llIIIIIIIIIII.‘“II“I“IIIIIIIIIII“IIIII
-
 se E
-
 1D*
-
-       
-
-   
-
- 
-
 t
-
-  
-
 I.I’ﬂl“l LUI
-
 DEN A C C O UI
-
 TT H
-
 "
-
 GS
-
 ETEN
 —pirégée e
-
 Toutes opérations de Banque et de Change, aux
-
- 
-   
-    
-
-  
- 
- 
-
 SOCIÈTE PimoIt
-
 BANQUE SUISSE
-
 FONDÉE EN: 1072
-
- 
-
-   
-   
-   
-    
-   
-     
-    
- 
-
 CAPITAL-ACTIONS et RESERVES
 FRANCS 195 MIPÉIONS
-
 —
-
 GENÈVE
 CORNAVIN
 10, Pl.‘\k c d(' (\)l‘l\.l\il\
-
 PLAINPALAIS
-
 56, rue de C arouge 14,
-
 Corraterie, 6 Corraterie, 6
-
 EAUX-VIVES
 = pl… des Eaux-Vives
-
 CAROUGE
 rue du Marche
-
-  
-   
- 
- 
-
- 
-
 meilleures conditions.
-
- 
-
-  
-
- 
-
- 
-
- 
-
 SE
-
-     
-
 IPIITIITITIT UIN 17
 NLEIYIBETEREEA TEMRIUN RD OOODDITEE AI CRN
-
-  
-
- 
-
-HM ME E e E E e t d S]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002594_007.tif"/>
-<page><![CDATA[looo-.oco..O.lo....oooolO.o.oo..DO....OD.CD...Ol'0l.00.'0OOO..0..-cO...Oo.CIOIOOOOOUOOooo0oo.O...o..IOO.IO.CIO..0....0000..0'...0.......
-
+HM ME E e E E e t d S
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002594_007.tif'/>
+        <page>
+          <![CDATA[looo-.oco..O.lo....oooolO.o.oo..DO....OD.CD...Ol'0l.00.'0OOO..0..-cO...Oo.CIOIOOOOOUOOooo0oo.O...o..IOO.IO.CIO..0....0000..0'...0.......
 dessus de sa tête et dont il regrette de ne pouvoir comprendre le doux
 langage; peut-être lui parlerait-il de cette mère tant aimée? Il veut
 essayer d’imiter son gazouillement et taille un roseau avec son épée pour
 s’en faire un chalumeau ; mais il ne peut tirer que des sons criards de
 ce primitif instrument et, le jetant avec dépit, il le remplace par son cor
 d'argent, sur lequel il sonne sa joyeuse fanfare.
-
 C’est ainsi que jadis, demandant à la forêt un cher compagnon, il n’a
 trouvé que l’ours et le loup; que viendra-t-il maintenant ?
-
 [ci se place l’épisode (supprimé au concert) du combat avec le dragon
 Fafner dont le sang, qui a inondé Siegfried, lui fait comprendre le langage
 des oiseaux. Il apprend alors la traîtrise de Mime dont le dessein était de
@@ -834,31 +613,30 @@ gardent jalousement, la plus belle des femmes; elle y attend le fiancé
 qui saura braver le feu pour la conquérir ; Brunehilde est son nom ;
 elle n’appartiendra qu’au héros dont l’âme n’aura jamais été accessible à
 la peur.
-
 Siegfried, dont le cœur est vierge de toute crainte, reconnaît en lui-
 même l’élu qui doit triompher. Ravi, exalté, ivre de désirs, il s’élance à
 la conquête de la bien-aimée; l’oiseau, qui lui montrera le chemin,
 plane dans les airs, et le héros, poussant des cris d’allégresse, suit la
 route qui lui est indiquée.
-
 b) Scène finale du troisième acte.
-
 Siegfried, à qui Wotan a vainement essayé de barrer le passage, sonne
 une fanfare joyeuse et se précipite au travers des flammes qui envahissent
 de plus en plus la montagne ; on entend le son du cor qui s’éloigne et
 indique que le sonneur escalade le rocher ; puis le feu s'apaise, les nuées
 disparaissent et laissent voir sous un ciel d’azur le rocher où dort Brune-
 hilde. Le décor est le même qu’au troisième acte de /la Walkyrie.
-
 Siegfried, dont la fanfare a cessé, regarde autour de lui avec étonne-
 ment ; il aperçoit un noble coursier qui sommeille à l’ombre des sapins,
 puis des armes en acier brillant qui reluisent au soleil ; il s'approche, et
 voit un guerrier armé qui repose, endormi, la tête serrée par un heaume.
 Il détache doucement le heaume pour mettre plus à l’aise le dormeur.
 Une magnifique chevelure s’échappe de la coiffure. Siegfried reste stupé-
-fait et en admiration. Il veut maintenant ôter la cuirasse étouffante ; du]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002594_008.tif"/>
-<page><![CDATA[e
+fait et en admiration. Il veut maintenant ôter la cuirasse étouffante ; du
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002594_008.tif'/>
+        <page>
+          <![CDATA[e
 °
 °
 e
@@ -1032,9 +810,7 @@ e
 °
 e
 e
-
 ceccc00000000000
-
 tranchant de son épée il coupe avec précaution les lanières qui tiennent
 l’armure : il demeure confondu et troublé en voyant un gracieux corps
 de femme enveloppé d’un blanc vêtement aux plis harmonieux. Un
@@ -1042,20 +818,16 @@ charme troublant l’envahit soudain, une angoisse mortelle l’étreint, et
 dans son émoi il évoque le souvenir de sa mère. Est-ce la peur qu’il
 éprouve enfin ? Etait-il réservé à cette adorable créature de la lui faire
 connaître ?
-
 Pour réveiller la jeune fille, il dépose un long baiser sur ses lèvres ;
 Brunehilde ouvre alors les yeux et ils se contemplent avec ravissement.
-
 La Walkyrie se dresse lentement et adresse un salut solennel à la
 lumière du soleil, dont ses regards ont été privés si longtemps. Qui l’a
 éveillée de son interminable sommeil ? Siegfried ému se nomme, bénis-
 sant la mère qui l’a enfanté, la terre qui l’a nourri, et lui ont permis de
 voir se lever ce jour bienheureux.
-
 Brunehilde mêle son chant d’allégresse et de reconnaissance à celui de
 Siegfried, ce Siegfried bien-aimé qui, avant même d’être engendré, a été
 l’objet de son amour et de sa sollicitude.
-
 Ces paroles singulières donnent le change au jeune héros : n’est-ce
 pas sa mère qu'il croyait à tout jamais perdue pour lui et qu’il a retrouvée ?
 Non, lui dit la vierge en souriant, sa mère ne lui est point rendue, mais
@@ -1070,49 +842,37 @@ les regards des profanes ; elle fait appel à sa sagesse, à sa clairvoyance
 passées, et comprend avec effroi qu’elle n’en est plus animée ; son savoir
 reste muet, les ténèbres descendent dans sa pensée : la fille des dieux est
 devenue une simple femme !
-
 Mais en même temps, l'amour terrestre monte en son âme et l’envahit
 toute ; en vain veut-elle lutter encore avec elle-même et repousser les
 ardeurs de Siegfried qui la supplie d’être à lui; l’amour est le plus fort.
 Brunehilde en est enivrée : elle abandonnera la cause des dieux. Qu’ils
 périssent tous, race vieillie et sans force ; que le Walhalla s’écroule, que
 le Burg tombe en poussière, que les éternels finissent
-
 Nornes, rompez le câble des destinées divines ; que le crépuscule des
 dieux commence ; la vierge ne vit plus que pour l’amour de Siegfried,
 son bien, son tout, son étoile… Eperdue, elle se précipite dans les bras
 de son époux, qui la recoit, extasié.
-
 pos0600090000000
-
- 
-
-s00.00.0000]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002594_009.tif"/>
-<page><![CDATA[Cliché de La Semaine Littéraire
-
+s00.00.0000
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002594_009.tif'/>
+        <page>
+          <![CDATA[Cliché de La Semaine Littéraire
 R
-
 4
-
 NE
-
 C
-
 hard W A C
-
 1C
-
 Ri
-
- 
-
- 
-
 ., « ‘
-rrr é E S E]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002594_010.tif"/>
-<page><![CDATA[e
+rrr é E S E
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002594_010.tif'/>
+        <page>
+          <![CDATA[e
 e
 °
 °
@@ -1209,29 +969,23 @@ e
 °
 °
 °
-
 LE CRÉPUSCULE DES DIEUX
 a) Première scène du troisième acte.
-
 La scène représente un ravissant paysage des bords du Rhin ; les eaux
 azurées du fleuve, encaissées entre deux rives montagneuses et agrestes,
 permettent de voir dans leurs flots transparents les trois filles du Rhin
 qui prennent leurs ébats tout en évoluant dans l’onde.
-
 Woglinde, Wellgunde et Flosshilde, se lamentent sur la perte de leur
 or, dont l’éclat pur égayait jadis le fond du fleuve, voué maintenant à
 l’obscurité et à la tristesse. Si le possesseur du trésor voulait consentir à
 le leur rendre !…
-
 Justement, le son du cor dans le lointain leur apprend que le héros
 vient dans leurs parages. Elles plongent pour aller délibèrer entre elles,
 quand Siegfried, armé de toutes pièces, apparaît sur la hauteur, égaré
 dans la campagne à la poursuite du gibier.
-
 Les ondines reparaissent, interrogent le chasseur et lui offrent de lui
 retrouver l’ours qui s’est dérobé à ses coups, s’il veut leur abandonner en
 échange l’anneau d’or qu’il a au doigt.
-
 Il refuse la proposition des Nixes: donner un bien conquis au prix
 d’un combat terrible avec le dragon Fafner, jamais! Elles le taquinent,
 se moquent de son avarice et de la crainte qu’il a, lui si beau, si fort,
@@ -1247,7 +1001,6 @@ de celui qui l’a forgé, quiconque s’en rendra possesseur. Comme Fafner
 a péri, 1l périra lui-même, à moins qu’il ne rende le joyau aux gouffres
 du fleuve; seuls ses flots auraient le pouvoir d’annuler la malédiction,
 cette malédiction que les Nornes ont tressées dans le câble du destin.
-
 Siegfried ne se laisse pas troubler par ce qu’il regarde comme de vaines
 menaces ; il n’attache aucune foi au récit des Nymphes et bravera les
 prophéties alarmantes des Nornes, dont Nothung saura, au besoin, tran-
@@ -1255,22 +1008,15 @@ cher la corde. Cet anneau lui assure, dit-on, l’empire du monde : il le
 donnerait volontiers aux gracieuses Nixes si elles lui offraient, en échange,
 l’amour et ses douces extases; car la vie sans l’amour, il s’en soucie
 comme de ceci (en prononçant ces paroles, il prend une motte de terre,
-
-    
-
- 
-
 ccouc.oo.oocooooooooolt||o.ooooocoo-eoo-oo-ccoooooo..nooooooo..ooo-ooooooooooluooo
-
- 
-
-00000000000000000000000000000090000D20C09000000 0000096009 .. eoose0]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002594_011.tif"/>
-<page><![CDATA[eccersecsececeuemtescercencescenseesnacsecccucescacconcacacacescaccarcescccecasaennencecscuacacencacnacoanueus
-
+00000000000000000000000000000090000D20C09000000 0000096009 .. eoose0
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002594_011.tif'/>
+        <page>
+          <![CDATA[eccersecsececeuemtescercencescenseesnacsecccucescacconcacacacescaccarcescccecasaennencecscuacacencacnacoanueus
 qu'il jette au loin); mais ce n’est pas devant des menaces qu’il cédera
 jamais, car la peur lui est inconnue.
-
 Les ondines, le voyant sourd à leurs exhortations, renoncent à
 convaincre un insensé qui n’a pas su conserver et apprécier le bien le
 plus précieux qui lui était échu, l’amour de la Walkyrie, et ignore même
@@ -1280,9 +1026,7 @@ aujourd’hui même son héritage passera aux mains d’une noble femme
 qui, elle, écoutera leurs prières et y fera droit. Elles se hâtent d’aller la
 trouver. Siegfriéd les suit de l’œil en souriant et en admirant leurs ébats
 gracieux.
-
 b) Mort de Siegfried et Marche funèbre.
-
 Frappé traîtreusement par Hagen, Siegfried est tombé inanimé sur son
 large bouclier. Avant d’expirer, il peut encore envoyer un suprême adieu
 à la bien-aimée qu’il n’a pas conscience d’avoir trahie et dont le radieux
@@ -1291,7 +1035,6 @@ vision dans son cœur extasié. Sur un signe de Gunther les vassaux de
 Siegfried soulèvent le bouclier colossal et portent leur précieux fardeau ;
 ils se mettent à gravir le sentier des rochers, tandis que la lune, percant
 les nuages, vient répandre ses clartés blafardes sur cette scène tragique.
-
 C'est ici que se place l’admirable page symphonique qu’on a coutume
 d’appeler la Marche funêbre de Siegfried, mais dans laquelle il faut voir
 plutôt la plus éloquente et la plus émouvante des oraisons funèbres :
@@ -1299,20 +1042,17 @@ oraison funèbre muette, sans un mot, et par cela même encore plus poi-
 gnante et plus grandiose, car nous sommes arrivés à ce degré de tension
 où la parole devient impuissante ; la musique seule peut encore fournir
 des éléments à une émotion presque surnaturelle.
-
 Toute la vie du héros est ici retracée. Tous les motifs héroïques défi-
 lent, non plus dans leur allure accoutumée, mais lugubrement voilés de
 deuil, entrecoupés de sanglots, portant avec eux la terreur, et formant
 dans l’atmosphère qui entoure le héros mort un cortège visible et impal-
 pable, le cortège mystique des pensées vivantes.
-
 Les auditeurs familiers avec les thèmes de la Tétralogie reconnaîtront
 successivement : le motif héroïque de Siegfried qui atteste son origine
 divine ; la fanfare de l’Epée invincible qu’il se forge sur l’enclume de
 Mime ; la joyeuse sonnerie de cor qu’il lance à travers la forêt lorsqu’il
 part pour tuer le dragon ; le thème générateur de son duo d’amour avec
 Brunehilde lorsqu’il l’a réveillée de son sommeil léthargique.
-
 e
 e
 °
@@ -1436,22 +1176,18 @@ e
 .
 ®
 ®
-
 resvorenencenenoceena0anenO2anC 000200020000 CONSO0O0OTOOOOONOONOOCOTONOOOONOOONNEONCCCNOOCNCOSONNSOHNONNCO HON NN NONONONONONNONONOCNNNNNONNENONNONANNNNENNNA"CON ON OO MO NDONOANN00
-
 sencrcrecrentpentante000000000A00ONC00000000
-
-FECTOGTEGEEOCELOLCECOLCOCHOCLEGGETOOEESCCCEGHEOUOGHENCCHEEGHGHCUCUHEUOHHCEUTOCHCGUSUCCHNOUGUOUUCACCCCOCC0AUS]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002594_012.tif"/>
-<page><![CDATA[meilleures conditions.
-
+FECTOGTEGEEOCELOLCECOLCOCHOCLEGGETOOEESCCCEGHEOUOGHENCCHEEGHGHCUCUHEUOHHCEUTOCHCGUSUCCHNOUGUOUUCACCCCOCC0AUS
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002594_012.tif'/>
+        <page>
+          <![CDATA[meilleures conditions.
 MUSIQUE neuve et d’occasion
-
 aux prix les plus bas - Choix sans
-
 pareil en études, méthodes,
 Cité, r1 -- Genève … musique classique et moderne,
-
 partitions, littérature musicale,
 partitions de poche des œuvres d’orchestre, etc. - La seule
 maison à Genève ayant un stock de musique d’occasion
@@ -1462,71 +1198,25 @@ exceptionnel de 12 francs par an, vous pouvez lire ou
 jouer toutes les nouveautés littéraires et musicales. GRA-
 MOPHONES ET DISQUES des premières marques aux
 P 7763 X
-
- 
-
- 
-
- 
-
- 
-
 R
 B
-
-   
- 
-
-     
-
- 
-
-       
-    
-   
-   
-   
-   
-    
-
- 
-
- 
-
- 
-
 000000
-
-  
-
 Orfèvrerie BOUJON Frères
-
 Rue de Rive, 3°* - GENÈVE
-
- 
-
- 
-
 Services de Table de tous styles
-
 P 8123 X
-
 ccvccccccoccecaccenceuceneusce0c000000000
-
 .'IOV..OOUOOOIQOOOOCOOOOO.Q
-
 24r00900000000000900000000000000007000000000700n05000
-
 èn T
-
-rrresa P]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002594_013.tif"/>
-<page><![CDATA[.-....oc-oooooo.ool-uccoo|n.-.coooouo.ouoooonooo|nuco.oooconooccuo..cuooo.oooouoooooonooouoooo..ooooo.nocou—oocooooon.o.onocono-.ouoo.ouo.oooæ-
-
+rrresa P
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002594_013.tif'/>
+        <page>
+          <![CDATA[.-....oc-oooooo.ool-uccoo|n.-.coooouo.ouoooonooo|nuco.oooconooccuo..cuooo.oooouoooooonooouoooo..ooooo.nocou—oocooooon.o.onocono-.ouoo.ouo.oooæ-
 Guessstéonstotéééaccuua00
-
 c) Scène finale du troisième acte.
-
 Le funèbre cortège est arrivé au palais de Gunther, lequel est tombé
 à son tour frappé par Hagen. Brunehilde paraissant alors, contemple lon-
 guement et douloureusement le visage de Siegfried, ordonne avec solen-
@@ -1534,7 +1224,6 @@ nité aux vassaux de former sur les bords du fleuve un bûcher destiné
 à recevoir le corps du héros ; puis on lui amènera Grane, son fidèle
 et noble coursier, avec qui elle veut partager les honneurs sacrés réser-
 vés au plus valeureux des guerriers.
-
 Pendant que les vassaux entassent les fortes bûches sur lesquelles les
 femmes jettent des tapisseries et des fleurs, Brunehilde se perd de nou-
 veau dañs la contemplation du bien-aimé, le pur des purs, le cœur
@@ -1545,19 +1234,16 @@ cette extrême détresse en sacrifiant ainsi celui qu’elle aimait ! Combien
 douloureusement elle a appris, par l’excès de son malheur, ce qu’il lui
 fallait savoir ! Maintenant elle voit, elle sait, elle comprend tout, mais
 au prix de quelles souffrances ! …
-
 Elle aperçoit, tourbillonnant dans les airs, les deux noirs messagers
 du père des combats : qu’ils retournent au Walhalla annoncer que main-
 tenant tout est accompli, consommé, et que la race divine aura bientôt
 cessé d’être. Repose, repose, 6 race des dieux ! …
-
 Elle fait signe aux vassaux de porter sur le bûcher la dépouille de
 Siegfried, à qui elle enlève d’abord l’anneau, qu’elle passe à son doigt.
 Cet anneau néfaste dont elle reprend possession, elle le lègue aux Filles
 du Rhin : qu’elles viennent le rechercher tout à l’heure, au milieu de
 ses cendres, après que le feu l’aura purifié de la malédiction qui a pesé
 s1 lourdement sur tous ceux qui l’ont possédé !
-
 Elle s'approche du bûcher où repose déjà le corps du héros et, bran-
 dissant une torche, elle enjoint de nouveau aux corbeaux d’aller dire
 à Wotan ce qui se passe ici ; puis, qu’ils volent jusqu’au rocher où elle
@@ -1565,86 +1251,49 @@ a dormi, et ordonnent à Loge, qui y séjourne encore, de se transporter
 au Walhalla et d’embraser la royale demeure des dieux ; car le crépuscule
 éternel commence pour eux, et le feu qui va bientôt la consumer elle-
 même se propagera jusqu’à l’inaccessible retraite du Maître du monde.
-
 Elle lance le brandon sur le bûcher, qui s’enflamme aussitôt. Puis, se
 retournant une dernière fois vers le peuple assemblé, elle lui lègue, dans
 un suprême adieu, le trésor de sa science sacrée : la race des dieux est
 éteinte, l’univers est sans maître ; mais il lui reste un bien précieux entre
 tous et qu'il doit apprendre à chérir plus que l’or, plus que la gloire et
-
 ..O...O...l.OIO...0.0.I..lol.....'...lll...l....l.l.IIIol.ll..C.l.............l......lo..o.ll.....l...l...l...
-
-SUSCOSSOCOOSOCHCOOGCOCOSGOOOOHHOOOOHCOGOHHOCONGOGOSOGOOOOOOGOUHUOGOGONOG00O0S0GOGGGOOOOUNOOSOOOGO0HGCO0000O0OUNOOOOO0OCO0OOOAOGOGOGSC GON OHCOOOGOUOOOAUACSSON6SCGGDOGOG000O00000$]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002594_014.tif"/>
-<page><![CDATA[Teinture <K)
+SUSCOSSOCOOSOCHCOOGCOCOSGOOOOHHOOOOHCOGOHHOCONGOGOSOGOOOOOOGOUHUOGOGONOG00O0S0GOGGGOOOOUNOOSOOOGO0HGCO0000O0OUNOOOOO0OCO0OOOAOGOGOGSC GON OHCOOOGOUOOOAUACSSON6SCGGDOGOG000O00000$
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002594_014.tif'/>
+        <page>
+          <![CDATA[Teinture <K)
 & Lavage chimique, Nettoyage à sec Ç
-
 Noir rapide pour deuil
-
 F.et E BAECHLER Frères
-
 GENÈVE
-
 4. Tour de l'Île — 2. cours de Rive — 3. Grand'Rue
 84, rue de Lausanne — 7, rue du Mont-Blanc — 6, cue
 Leschot — 3. Servette — 17, boulevard Georges-Favon
-
 3, Place du Molard
-
- 
-
 2
-
 = Dépoussierage et Nettoyage
 g,/Ç de Tapis et Ameublements f
-
 { @’Êë\“îÿ
 H Q@jÿfﬂâ
-
 P 776:
-
 » X
-
- 
-
 E VS
 \ x /’ /,/
-
 MAISON
-
 Lan
-
 GENEVE
-
 1T
-
 P 7759 X
-
- 
-
- 
-
- 
-  
-  
-     
-   
-   
- 
-   
-   
-  
-
- 
-
 ;
 |
-
 t
-]]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002594_015.tif"/>
-<page><![CDATA[... #012###200012000000000000000002D00D252002R0002900020008
-
+]
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002594_015.tif'/>
+        <page>
+          <![CDATA[... #012###200012000000000000000002D00D252002R0002900020008
 »
 .
 °
@@ -1652,12 +1301,8 @@ t
 °
 .
 .
-
- 
-
 la grandeur : c’est l’amour, qui seul peut sortir victorieux de toutes les
 Épreuves et donner la félicité parfaite.
-
 Brunehilde reçoit son coursier Grane, que deux jeunes gens lui
 amènent; elle lui enlève tous ses harnais, le débride, lui montre le
 bücher où repose son maître, puis s’élançant sur le noble animal, elle
@@ -1666,19 +1311,16 @@ toute la scène. Le peuple consterné se disperse, puis le bûcher s’écroule
 en dégageant une épaisse colonne de fumée. Bientôt la nuée se dissipe et
 l'on aperçoit les flots du Rhin qui débordent maintenant et montent
 jusqu'au seuil du palais, amenant les trois Ondines sur leurs eaux.
-
 Hagen, qui a observé toute la dernière scène avec une sombre angoisse,
 se précipite, poussant un dernier et formidable cri de convoitise, au
 milieu des flots, pour y chercher l’anneau ; mais il se voit saisi et
 entrainé au fond de l’abime par Welgunde et Woglinde, tandis que
 Flosshilde se montre à la crête des vagues, brandissant joyeuse l’anneau
 enfin reconquis !…
-
 Au loin le ciel s’embrase ; l’incendie gagne tout l’horizon, et les
 vassaux, muets de stupeur, contemplent le sinistre et saississant spectacle
 de l’anéantissement du palais des dieux, qui s’abîime dans l’horreur gran-
 diose d’un océan de feu.
-
 Le drame est accompli… mais il reste à entendre un prodigieux
 épilogue purement instrumental, pendant lequel l’émotion, qui semble à
 son comble, va pourtant s’accroître encore, et cela par la seule puissance
@@ -1692,13 +1334,11 @@ parfum qui s’exhale de l’âme pur de Brunehilde, comme l’épanouissement
 de son immense tendresse, le chant radieux de la Rédemption par l’amour,
 devenant de plus en plus éthéré.… Tous ces motifs s’échelonnent comme
 dans un rève prophétique et lumineux, sans se confondre, chacun conser-
-
 vant immuable son caractère, soit grandiose, soit enjoué, soit extatique,
 et il en résulte une impression complexe, indéfinissable, profondément
 troublante, qui plonge l’âime attendrie, après toutes ces scènes d’essence
 mythologique, dans un état de contemplation surnaturelle et d’idéalisme
 presque chrétiens.
-
 .
 °
 °
@@ -1839,52 +1479,32 @@ l-
 .
 .
 *
-
- 
-
 Notice d’après le Voyage artistique à Bayreuth, de A. LAVIGNAC.
-
 #000004000000000202WWI00D000
-
- 
-
 o..olnloOO.I.o.....Ouooooolnoool.oo.llooooco.ooo.ooloo.otoo.lo.ooo.o.oouou.lo.ltooooocoouoooùo.ooo.onouoo-ooooo!0-ololooo.oololoooo.o.ooc-nn.loooo.0.onuu.ot.ocunoc.ouo.onooi.o
-
-1401010414 1###.."......]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002594_016.tif"/>
-<page><![CDATA[100000000009 000080204200240900000200022022020922902D2D000000000 ...
-
+1401010414 1###.."......
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002594_016.tif'/>
+        <page>
+          <![CDATA[100000000009 000080204200240900000200022022020922902D2D000000000 ...
 VICTORIA-HALL Samedi 7 mars, à 20 b. 50
-
 Il* Concert de l’Abonnement
 Sous la direction de M. Ernest ANSERMET
-
 Soliste ; .N‘.“e Clara HASKIL, pianiste
-
 Au programme : 1. CONCERTO BRANDEBOURGEOIS, de
 J.-S. Bach, pour piano, violon et flûte (M!e Hasxir, MM. CcrosseT et
 WerscH). - 2, SYMPHONIE en si bémol, d’F. Chausson. - 3.
 CONCERTO n° 4, en u( mineur, de C. Saint-Saëns, pour piano et
 orchestre. - 4. Suite de l'OISEAU DE FEU, de Strawineky.
-
- 
-
- 
-
 ORCHESTRE DE LA SUISSE ROMANDE
-
 SAISON 1924-1925
-
 Premier chef d'orchestre : M. Ernest ANSERMET
 Deuxième chef d'orchestre : M. Fernand CLOSSET
-
 SCFHEES DPHPRUPRITRES
-
 1°" violon solo Fernand CLOSSET, prof. au Conservatoire de Genève.
 2° premier violon solo . Jean LACROIX, ex-1”" violon solo du Grand Théâtre de
-
 Genève.
-
 1* second violon solo.. SABBATINI, de la Scala de Milan.
 1°" alto solo Henri SOUGNÉ, ex-alto solo du Casino de Monte-Carlo.
 1°" violoncelle solo.... A. de SANCTIS, ex-soliste de l'Orchestre Augusteo.
@@ -1893,24 +1513,17 @@ Genève.
 1°" hautbois solo P. DENNES, premier prix du Conservatoire de Paris.
 Cor anglais solo FRACHISSE, soliste de l'Orch. du Gd Casino de Vichy.
 1"° clarinette solo .... HOOGSTOEL, premier prix du Conservatoire de Paris.
-
 — (ouppléant) SANTANDREA, premier prix du Conservatoire de Paris.
 1°" basson solo Ed. DUTRO, premier prix du Conservatoire de Paris.
-
 1°" cor solo Maurice Van BOCXSTAELE, 1°” cor solo du Kursaal
 d'Ostende. ;
-
 1"° trompetle solo .... DUBOIS, ex-1"° trompette solo du Kursaal d'Ostende et
 de la Jetée Promenade de Nice.
-
 1”* trombone solo W. HORST, ex-soliste de l'Orch. Philharm. de Dresde.
 1" timbalier Fr. SCHIESSER.
 1"° harpe M”° de SANCTIS-BARRIERA.
-
 .nu.nau uooounoc-ooocsoon.oocooou-oooou.ocuoou--ooooo.--nooo.o-oo.ooo.on-ocoouoccuuuuo.oonuuuouu
-
 000600666000 6040OC60G04UHS66CCHH06060006000066000066
-
 .
 .
 »
@@ -2087,9 +1700,10 @@ e
 Pl
 .
 °
-
-000000000902 0092000000090000D0DDDHDH00N0000HVVH0R00200000000090 000000000200 DDRWSWOSDHO00RA000000D0000000000000]]></page>       
-        </p>
+000000000902 0092000000090000D0DDDHDH00N0000HVVH0R00200000000090 000000000200 DDRWSWOSDHO00RA000000D0000000000000
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

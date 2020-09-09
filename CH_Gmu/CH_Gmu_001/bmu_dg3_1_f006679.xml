@@ -1,303 +1,221 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Audition de musique ancienne : Au profit du fonds des concerts de la Société de chant sacré<date when="04/05/1933"/></title>
-<series>1932-1933</series>
-<placeName>Salle de la Réformation</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Audition de musique ancienne : Au profit du fonds des concerts de la
+            Société de chant sacré
+            <date when='04/05/1933'/>
+          </title>
+          <series>1932-1933</series>
+          <placeName>Genève, Salle de la Réformation</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU DG3-1 F006679</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Barblan, O.</note>
+        <note>Baud-Bovy, S. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19330504"/>
-<title>Audition de musique ancienne : Au profit du fonds des concerts de la Société de chant sacré</title>
-<placeName key="Salle de la Réformation"/>
-<name key="1932-1933" type="series"/>
-<name key="Händel, Georg Friedrich" ref="https://muscat.rism.info/admin/people/36552" type="person" role="cmp">Händel, Georg Friedrich</name>
-<name key="Lully, Jean-Baptiste" ref="https://muscat.rism.info/admin/people/132446" type="person" role="cmp">Lully, Jean-Baptiste</name>
-<name key="Carissimi, Giacomo" ref="https://muscat.rism.info/admin/people/20000429" type="person" role="cmp">Carissimi, Giacomo</name>
-<name key="Marcello, Benedetto" ref="https://muscat.rism.info/admin/people/30002070" type="person" role="cmp">Marcello, Benedetto</name>
-<name key="Rossi, Francesco"  type="person" role="cmp">Rossi, Francesco</name>
-<name key="Jannequin, Clément"  type="person" role="cmp">Jannequin, Clément</name>
-<name key="Barblan, Otto" ref="https://muscat.rism.info/admin/people/5298" type="person" role="cmp">Barblan, Otto</name>
-<name key="Buxtehude, Dieterich" ref="https://muscat.rism.info/admin/people/119801" type="person" role="cmp">Buxtehude, Dieterich</name>
-<name key="Sweelinck, Jan Pieterszoon" ref="https://muscat.rism.info/admin/people/30006120" type="person" role="cmp">Sweelinck, Jan Pieterszoon</name>
-<name key="Barblan, Otto  (dir.)" ref="https://muscat.rism.info/admin/people/5298" type="person" role="int">Barblan, Otto  (dir.)</name>
-<name key="Baud-Bovy, Samuel  (dir.)" ref="https://muscat.rism.info/admin/people/30044099" type="person" role="int">Baud-Bovy, Samuel  (dir.)</name>
-<name key="Orchestre a Cordes"  type="person" role="int">Orchestre a Cordes</name>
-<name key="Société de chant sacré"  type="person" role="int">Société de chant sacré</name>
-<name key="Falk, Lina"  type="person" role="int">Falk, Lina</name>
-<name key="Bauer, Ernest"  type="person" role="int">Bauer, Ernest</name>
-<name key="Pautex, Annie"  type="person" role="int">Pautex, Annie</name>
-<name key="Lombard, Joseph"  type="person" role="int">Lombard, Joseph</name>
-<name key="Correvon, Y. (Mlle)"  type="person" role="int">Correvon, Y. (Mlle)</name>
-<name key="Bréguet, M (Mlle)"  type="person" role="int">Bréguet, M (Mlle)</name>
-<name key="Montandon, G. (Mlle)"  type="person" role="int">Montandon, G. (Mlle)</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg3_1_f006679_001.tif"/>
-<page><![CDATA[SE DE LA RÉFORMATION
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19330504'/>
+        <title>
+          Audition de musique ancienne : Au profit du fonds des concerts de la
+          Société de chant sacré
+        </title>
+        <placeName key='Genève, Salle de la Réformation'/>
+        <name key='1932-1933' type='series'/>
+        <name key='Händel, Georg Friedrich' ref='https://muscat.rism.info/admin/people/36552' type='person' role='cmp'>Händel, Georg Friedrich</name>
+        <name key='Lully, Jean-Baptiste' ref='https://muscat.rism.info/admin/people/132446' type='person' role='cmp'>Lully, Jean-Baptiste</name>
+        <name key='Carissimi, Giacomo' ref='https://muscat.rism.info/admin/people/20000429' type='person' role='cmp'>Carissimi, Giacomo</name>
+        <name key='Marcello, Benedetto' ref='https://muscat.rism.info/admin/people/30002070' type='person' role='cmp'>Marcello, Benedetto</name>
+        <name key='Rossi, Francesco' type='person' role='cmp'>Rossi, Francesco</name>
+        <name key='Jannequin, Clément' type='person' role='cmp'>Jannequin, Clément</name>
+        <name key='Barblan, Otto' ref='https://muscat.rism.info/admin/people/5298' type='person' role='cmp'>Barblan, Otto</name>
+        <name key='Buxtehude, Dieterich' ref='https://muscat.rism.info/admin/people/119801' type='person' role='cmp'>Buxtehude, Dieterich</name>
+        <name key='Sweelinck, Jan Pieterszoon' ref='https://muscat.rism.info/admin/people/30006120' type='person' role='cmp'>Sweelinck, Jan Pieterszoon</name>
+        <name key='Barblan, Otto' ref='https://muscat.rism.info/admin/people/5298' type='person' role='int'>Barblan, Otto</name>
+        <name key='Baud-Bovy, Samuel' ref='https://muscat.rism.info/admin/people/30044099' type='person' role='int'>Baud-Bovy, Samuel</name>
+        <name key='Orchestre a Cordes' type='person' role='int'>Orchestre a Cordes</name>
+        <name key='Société de chant sacré' type='person' role='int'>Société de chant sacré</name>
+        <name key='Falk, Lina' type='person' role='int'>Falk, Lina</name>
+        <name key='Bauer, Ernest' type='person' role='int'>Bauer, Ernest</name>
+        <name key='Pautex, Annie' type='person' role='int'>Pautex, Annie</name>
+        <name key='Lombard, Joseph' type='person' role='int'>Lombard, Joseph</name>
+        <name key='Correvon, Y. (Mlle)' type='person' role='int'>Correvon, Y. (Mlle)</name>
+        <name key='Bréguet, M (Mlle)' type='person' role='int'>Bréguet, M (Mlle)</name>
+        <name key='Montandon, G. (Mlle)' type='person' role='int'>Montandon, G. (Mlle)</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg3_1_f006679_001.tif'/>
+        <page>
+          <![CDATA[SE DE LA RÉFORMATION
 Jeucli 4 mai 1955, à 20 Àeures et a’emie)
-
 . AU PROFIT DU FONDS DES CONCERTS
 DE LA
-
 SOCIÉTÉ DE CHANT SACRÉ
 DIRECTION Otto BARBLAN - (cvr ANNÉE)
-
 Audition
-
 de
-
 MUSi(1U€ ElIICi€HHÊ
-
 avec l€ bienv]eillant et gracienx concours (1(‘
-
 M!e Lina OVRN c21e
 M Ernest BAUER, ténor
 Mle Annie PUN cy eciniste
-
 et d'un
-
 ORCHESTRE À CORDES
-
 sous la direction de
-
-MS nyel BAUD-BOVY]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg3_1_f006679_002.tif"/>
-<page><![CDATA[Première partie
-
+MS nyel BAUD-BOVY
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg3_1_f006679_002.tif'/>
+        <page>
+          <![CDATA[Première partie
 ; CONCFRTO/CROSSO (
-
 en sol maçeursa - N
 A telu1)o gill$t0 - Allegf0 — Adagio - Allegr0 æ Allegl‘o.
-
 Concertino : M* Y. CoRREVON, M. BRÉGUET et
 G. MONTANDON.
-
 L’'ORCHESTRE A CORDES
-
 s, PAVANE. .
 Paroles de R.-L. PIACHAUD sur un thème ancien.
-
 LE CHANT SACRÉ
 3. DEUX AIRS DE L’OPÉRA “PERSÉE ”
-
 a) Air du Songe.j
 l)) Air de Méduse.
-
 Pour cllant et orcllestre à c0rde».
-
 C) CA.NTATE “L'IJeure ]Cllt€...” ............
 X uEM 1
- ATRIDE MITRANE |
-
+ATRIDE MITRANE |
 Pour clxant et clavecin.
-
 M!e LINnAa FALK
-
 4. AL TRAMONTAR DEL GIORNO... .…
-
 Cantate pour ténor et çlavecin.
-
 M. ErnesT BAUER
-
 5 ) MREN TT mmm
 L TE SERMEND DU CRVU
-
 Solo : M. JosepH LOMBARD.
 LE CHANT SACRÉ
-
- 
-
 G.-F. HænJcl
-
 (1685-1759)
-
 Auteur Inconnu
-
 Rl
-
 (1632-1687)
-
 Carissimi
 (1604-1674)
-
 Marcello
-
 (1686-1739)
-
 Francesco Rossi
 (1645)
-
 Carissimi
-
 Clément Jannequin
 (1515-1516)
-
 Otto Barl7lan
-
- 
-
- 
-
-y =]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg3_1_f006679_003.tif"/>
-<page><![CDATA[e CC
-
- 
-
- 
-
+y =
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg3_1_f006679_003.tif'/>
+        <page>
+          <![CDATA[e CC
 \îf_
-
 4——
-
 t
-
 m r e e
-
 (4 M M E
-
 Deuxième partie
-
 , CONCERTO en ré mineur, pour clavccin et orchestrc
-
 cordet 1
-
 AUegro - Adagio - Allegro.
 Mlle ANNIE PAUTEX
-
 730 1 CON DIE WVELI
-
 GELIEBET”, cantate pour ténor solo, orc11estrc
-
 à cordes et clavecin ........... R E e e
-
 M. ErnesrT BAUER
-
 MDEUSCMRS DU MESSIE ... …
-
 a) Il garcle ses ouailles…
 l)} Comblé zfoutrages...
-
 Pour chant et orchestre à corcles.
-
 M'e Lina FALK
-
 OR SUS SFRVITEUR, .…
-
 LE CHANT SACRÉ
-
 . HET MISERICORDIA”, extrait du Magniﬂcat,
-
 duo pour contralto et tenon>11
-
 Pour chant et orchestre à cordes.
-
 M'e L. FALK et M. E. BAUER
-
 ° “NE TREMBLE PAS...”, motet pour dou13]e c1tlœur
-
 LE CHANT SACRÉ
-
- 
-
 J.-S. Bach
-
 (1685-1750)
-
 D. Buxtelmcle
-
 (1637-1707)
-
 G.—F. HŒN[JCl
-
 Sweelinclc
-
 (1562-1621)
-
 Js B2c
-
 J.-S. Bach
-
- 
-
- 
-
- 
-
- 
-
- 
-
-VOIR AU DOS]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg3_1_f006679_004.tif"/>
-<page><![CDATA[La très forte impression produite par l’audition,
+VOIR AU DOS
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg3_1_f006679_004.tif'/>
+        <page>
+          <![CDATA[La très forte impression produite par l’audition,
 dans sa forme primitive, de la Passion selon Saint-
 Jean de J.-S. Bach, le 15 Février dernier — et
 pour répondre à un vœu émis par nombre d'audi-
 teurs — a décidé la Société de Chant Sacré de
 donner, à l’occasion des fêtes de Pâques 1954,
 deux auditions de la Passion selon St-Matthieu
-
- 
-
 de J.-S. Back, pour chœurs, soli, orcheatre, orgue
 et clavecin, sous la direction de H. Otto Barblan.
-
 Ces futures auditions, comme celles données
 précédemment, entraînent toujours de très grands
 frais et les ressources dont dispose la Soctété vont
 chaque année en diminuant.
-
 Que tous ceux qui désirent voir la Société de
-
 Chant Sacré poursuivre la tâche qu'elle accomplit
-
 à Genève depuis tantôt 106 ans, ve fassent recevoir
 membres pasoïfs en remplissant le bulletin annexé
-
 et en le retournant à l’adresse [/ZÛù]uc‘e.
-
 Le Comité.
-
- 
-
- 
-
-Impr. GRIVET, Genève.]]></page>       
-        </p>
+Impr. GRIVET, Genève.
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

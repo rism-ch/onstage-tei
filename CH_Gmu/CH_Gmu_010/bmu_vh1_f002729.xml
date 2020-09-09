@@ -1,66 +1,77 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>2me grand concert populaire<date when="09/12/1930"/></title>
-<series>1930-1931</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            2me grand concert populaire
+            <date when='09/12/1930'/>
+          </title>
+          <series>1930-1931</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002729</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Closset, F. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19301209"/>
-<title>2me grand concert populaire</title>
-<placeName key="Victoria Hall"/>
-<name key="1930-1931" type="series"/>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Franck, César" ref="https://muscat.rism.info/admin/people/70009" type="person" role="cmp">Franck, César</name>
-<name key="Musorgskij, Modest Petrovič" ref="https://muscat.rism.info/admin/people/30019183" type="person" role="cmp">Musorgskij, Modest Petrovič</name>
-<name key="Borodin, Alexandr Porfir'evič" ref="https://muscat.rism.info/admin/people/30015583" type="person" role="cmp">Borodin, Alexandr Porfir'evič</name>
-<name key="Mozart, Wolfgang Amadeus" ref="https://muscat.rism.info/admin/people/115324" type="person" role="cmp">Mozart, Wolfgang Amadeus</name>
-<name key="Berlioz, Hector" ref="https://muscat.rism.info/admin/people/13803" type="person" role="cmp">Berlioz, Hector</name>
-<name key="Closset, F. (dir.)"  type="person" role="int">Closset, F. (dir.)</name>
-<name key="Orchestre de la Suisse Romande" ref="https://muscat.rism.info/admin/people/50007615" type="person" role="int">Orchestre de la Suisse Romande</name>
-<name key="Dupont, Gabrielle"  type="person" role="int">Dupont, Gabrielle</name>
-<name key="Graf, Hermine"  type="person" role="int">Graf, Hermine</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002729_001.tif"/>
-<page><![CDATA[SAISON 1930-1931
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19301209'/>
+        <title>2me grand concert populaire</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1930-1931' type='series'/>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Franck, César' ref='https://muscat.rism.info/admin/people/70009' type='person' role='cmp'>Franck, César</name>
+        <name key='Musorgskij, Modest Petrovič' ref='https://muscat.rism.info/admin/people/30019183' type='person' role='cmp'>Musorgskij, Modest Petrovič</name>
+        <name key='Borodin, Alexandr Porfir&apos;evič' ref='https://muscat.rism.info/admin/people/30015583' type='person' role='cmp'>Borodin, Alexandr Porfir'evič</name>
+        <name key='Mozart, Wolfgang Amadeus' ref='https://muscat.rism.info/admin/people/115324' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Berlioz, Hector' ref='https://muscat.rism.info/admin/people/13803' type='person' role='cmp'>Berlioz, Hector</name>
+        <name key='Closset, F.' type='person' role='int'>Closset, F.</name>
+        <name key='Orchestre de la Suisse Romande' ref='https://muscat.rism.info/admin/people/50007615' type='person' role='int'>Orchestre de la Suisse Romande</name>
+        <name key='Dupont, Gabrielle' type='person' role='int'>Dupont, Gabrielle</name>
+        <name key='Graf, Hermine' type='person' role='int'>Graf, Hermine</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002729_001.tif'/>
+        <page>
+          <![CDATA[SAISON 1930-1931
 , ; Mardi 0'Décemb 4930
 °n 01= E
-
 |
 _ [
 “ Grand Concert Populaire ;
@@ -68,81 +79,49 @@ _ [
 l
 l
 l
-
 | VILLE pr GENÈVE
-
 Conseil Administratif de la Ville de Genève
-
 avec le bienveillant et gracieux concours de ‘
-
 L'Orchestre ce 1 Suisse Romande :
-
 000000900000 OAAR 900000800000N HOAWONONOTAGS OEOEN
-
 sous ls direction de M. F. CLOSSET ‘
-
 et avec le gracieux concours de
-
 M'° Gabriee Dupont | M" ‘ &
 abriclile CIMINE Ulà
 i . Ï HR
 ; Pianiste Cantatrice H
 Prix de virtuosité avec distinction ‘
 du Conservatoire de Genève en 1928 d
-
 PROGRAMME î
-
- 
-
- 
-
- 
-
 Première partie â
-
 En emijeur 11111111 1111 0 DE BEETHOVEN.
 a) iAdagio molto — Allegro con brio; b) Larghetto; c) Scherzo (allegro) ; d) Allegro dn
 molto. ÀN
-
 2. VARIATIONS SYMPHONIQUES, potr piano et orchestre . .. ;:.. . César FRANCK. É|
 Mile G. Dupont, l
 Deuxième partie ,Ëlb
-
 TU PIENMONT CHAuvVE .. 111111 e MoussorGsKy. ‘
 1 TPE LASIE CENTRALE .1 111110N BORODINE.
 5. a) Air DE COSI UE é IO 4 , 200006 0 E e C
 n MOZART: .
 Pour chant et orchestre, l
-
 Mlle H, Graf.
-
 1 rouede BENVENUTOCEIEM: 1111111111 BERLIOZ. :|;
 C
-
 Pendant l'exécution des morceaux les portes seront fermées et le silence le plus absolu devra n
-
 être observé. — Prière de ne pas faire les préparatifs de départ avant que le dernier H |
-
 morceau ne soit complètement exécuté. ä
-
 CEOE DS L E ETE PE S ETE DE OE TORPTOES N
-
- 
-
- 
-
 VICTORIA-HALULL
-
 me . 5 I ;
-
 Mordi 90 Gonvis 1931 5201 / 9 UaNd CONcert Populaire 18
 ORCHESTRE DE LA SUISSE ROMANDE 1
 |
-
 Prix à toutes les places Fr. 0.25
-
-IMPRIMERIES POPULAIRES, GENÈVE]]></page>       
-        </p>
+IMPRIMERIES POPULAIRES, GENÈVE
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

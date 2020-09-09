@@ -1,80 +1,86 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Grand concert donné par le grand Orchestre de Vienne<date when="24/07/1874"/></title>
-<series>1873-1874</series>
-<placeName>Brasserie des Pâquis</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Grand concert donné par le grand Orchestre de Vienne
+            <date when='24/07/1874'/>
+          </title>
+          <series>1873-1874</series>
+          <placeName>Genève, Brasserie des Pâquis</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU DG4 F001313</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Fleissner (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18740724"/>
-<title>Grand concert donné par le grand Orchestre de Vienne</title>
-<placeName key="Brasserie des Pâquis"/>
-<name key="1873-1874" type="series"/>
-<name key="Hamm"  type="person" role="cmp">Hamm</name>
-<name key="Bellini, Vincenzo" ref="https://muscat.rism.info/admin/people/11648" type="person" role="cmp">Bellini, Vincenzo</name>
-<name key="Gungl, Joseph" ref="https://muscat.rism.info/admin/people/93386" type="person" role="cmp">Gungl, Joseph</name>
-<name key="Bach, Johann Sebastian" ref="https://muscat.rism.info/admin/people/2539" type="person" role="cmp">Bach, Johann Sebastian</name>
-<name key="Offenbach, Jacques" ref="https://muscat.rism.info/admin/people/111831" type="person" role="cmp">Offenbach, Jacques</name>
-<name key="Bilse"  type="person" role="cmp">Bilse</name>
-<name key="Balfe"  type="person" role="cmp">Balfe</name>
-<name key="Hunn"  type="person" role="cmp">Hunn</name>
-<name key="Verdi, Giuseppe" ref="https://muscat.rism.info/admin/people/137994" type="person" role="cmp">Verdi, Giuseppe</name>
-<name key="Faust"  type="person" role="cmp">Faust</name>
-<name key="Herfurt"  type="person" role="cmp">Herfurt</name>
-<name key="Fleissner (dir.)"  type="person" role="int">Fleissner (dir.)</name>
-<name key="Grand Orchestre de Vienne"  type="person" role="int">Grand Orchestre de Vienne</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f001313_001.tif"/>
-<page><![CDATA[BRASSERIE DES PAQUIS
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18740724'/>
+        <title>Grand concert donné par le grand Orchestre de Vienne</title>
+        <placeName key='Genève, Brasserie des Pâquis'/>
+        <name key='1873-1874' type='series'/>
+        <name key='Hamm' type='person' role='cmp'>Hamm</name>
+        <name key='Bellini, Vincenzo' ref='https://muscat.rism.info/admin/people/11648' type='person' role='cmp'>Bellini, Vincenzo</name>
+        <name key='Gungl, Joseph' ref='https://muscat.rism.info/admin/people/93386' type='person' role='cmp'>Gungl, Joseph</name>
+        <name key='Bach, Johann Sebastian' ref='https://muscat.rism.info/admin/people/2539' type='person' role='cmp'>Bach, Johann Sebastian</name>
+        <name key='Offenbach, Jacques' ref='https://muscat.rism.info/admin/people/111831' type='person' role='cmp'>Offenbach, Jacques</name>
+        <name key='Bilse' type='person' role='cmp'>Bilse</name>
+        <name key='Balfe' type='person' role='cmp'>Balfe</name>
+        <name key='Hunn' type='person' role='cmp'>Hunn</name>
+        <name key='Verdi, Giuseppe' ref='https://muscat.rism.info/admin/people/137994' type='person' role='cmp'>Verdi, Giuseppe</name>
+        <name key='Faust' type='person' role='cmp'>Faust</name>
+        <name key='Herfurt' type='person' role='cmp'>Herfurt</name>
+        <name key='Fleissner' type='person' role='int'>Fleissner</name>
+        <name key='Grand Orchestre de Vienne' type='person' role='int'>Grand Orchestre de Vienne</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f001313_001.tif'/>
+        <page>
+          <![CDATA[BRASSERIE DES PAQUIS
 49, route de Lausanne, 49
-
 en — TS S
-
 “ GRAND CONCERT
-
 DONNÉ PAR LE
-
 GRAND ORCHESTRE DE VIENNE
 Sous la direction de M. FLRissNER
-
 LE Vm*‘azèn 2£'——JUILLET 1874
-
 —A 09 /»x(, N
-
 PROGRAMME
 I
 Mavoheimpemale 11 Hamm.
@@ -82,27 +88,21 @@ Ouverture de l’opéra Norma . . . . BELLINH.
 Danse des jeunes Cavaliers, valse . . … Guxet.
 Chœur des Soldats. Supplément à l’opéra
 les Faux-Monnayeurs . . . . - - Bacn.
-
 1[
-
 Ouverture de l’opéra Orphée . . ! . Orrentacn.
 Quadrille dédié à Frédéric-Guillaume. Birse,
 Romance tirée de l'opéra la Bohémienne . Baurt.
 Ne m’oubliez pas, polka-mazurka . . . Huw.
-
 [Il
-
 Pot-pourri de l’opéra /e Trouvère . VERDI.
-
 Du Royaume des Sons, valse. . FausT,
-
 Sérénade pour cornet à pistons . é . FIBREURT: Œ ;
 Cowmbanus, galop, .° . .… Fausr. ê
-
 128 “‘°ÿﬁ%%&“‘\“'@%% rsx
-
-3491, — Genève, [mp. Pfeffer e Puky]]></page>       
-        </p>
+3491, — Genève, [mp. Pfeffer e Puky
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

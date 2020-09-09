@@ -1,80 +1,86 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert<date when="16/08/1883"/></title>
-<series>1882-1883</series>
-<placeName>Kiosque (Promenade des Bastions)</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert
+            <date when='16/08/1883'/>
+          </title>
+          <series>1882-1883</series>
+          <placeName>Genève, Kiosque (Promenade des Bastions)</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VG2-1 F002020</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Senger, H. de (dir)</note>
+        <note>Date présumée</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18830816"/>
-<title>Concert</title>
-<placeName key="Kiosque (Promenade des Bastions)"/>
-<name key="1882-1883" type="series"/>
-<name key="Strauss"  type="person" role="cmp">Strauss</name>
-<name key="Blanchereau"  type="person" role="cmp">Blanchereau</name>
-<name key="Hérold, Ferdinand" ref="https://muscat.rism.info/admin/people/75095" type="person" role="cmp">Hérold, Ferdinand</name>
-<name key="Donizetti, Gaetano" ref="https://muscat.rism.info/admin/people/18064" type="person" role="cmp">Donizetti, Gaetano</name>
-<name key="Balfe, Michael William" ref="https://muscat.rism.info/admin/people/4403" type="person" role="cmp">Balfe, Michael William</name>
-<name key="Lamothe"  type="person" role="cmp">Lamothe</name>
-<name key="Gounod, Charles-François" ref="https://muscat.rism.info/admin/people/80479" type="person" role="cmp">Gounod, Charles-François</name>
-<name key="Senger, Franz Ludwig Hugo von  (dir.)" ref="https://muscat.rism.info/admin/people/30015297" type="person" role="int">Senger, Franz Ludwig Hugo von  (dir.)</name>
-<name key="Orchestre de la Ville de Genève"  type="person" role="int">Orchestre de la Ville de Genève</name>
-<name key="Delarue"  type="person" role="int">Delarue</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_1_f002020_001.tif"/>
-<page><![CDATA[4 e 2
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18830816'/>
+        <title>Concert</title>
+        <placeName key='Genève, Kiosque (Promenade des Bastions)'/>
+        <name key='1882-1883' type='series'/>
+        <name key='Strauss' type='person' role='cmp'>Strauss</name>
+        <name key='Blanchereau' type='person' role='cmp'>Blanchereau</name>
+        <name key='Hérold, Ferdinand' ref='https://muscat.rism.info/admin/people/75095' type='person' role='cmp'>Hérold, Ferdinand</name>
+        <name key='Donizetti, Gaetano' ref='https://muscat.rism.info/admin/people/18064' type='person' role='cmp'>Donizetti, Gaetano</name>
+        <name key='Balfe, Michael William' ref='https://muscat.rism.info/admin/people/4403' type='person' role='cmp'>Balfe, Michael William</name>
+        <name key='Lamothe' type='person' role='cmp'>Lamothe</name>
+        <name key='Gounod, Charles-François' ref='https://muscat.rism.info/admin/people/80479' type='person' role='cmp'>Gounod, Charles-François</name>
+        <name key='Senger, Franz Ludwig Hugo von' ref='https://muscat.rism.info/admin/people/30015297' type='person' role='int'>Senger, Franz Ludwig Hugo von</name>
+        <name key='Orchestre de la Ville de Genève' type='person' role='int'>Orchestre de la Ville de Genève</name>
+        <name key='Delarue' type='person' role='int'>Delarue</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_1_f002020_001.tif'/>
+        <page>
+          <![CDATA[4 e 2
 t $
 |
-
 ‘ - n mt crrr e ” ,
 w‘ é rrr eqn e rc t rrateiqe r eN - w,—-—-. .‘ |
 ; F w f #
-
 _______ Sn R
 Programme officiel \
-
 Jeudi 16 Août, à 5 h. (srahit (
-
 * Socdté ct de d'rcteste de l Vile
-
 H ' Direction de M. Hugo de SENGER
-
- 
-
 ra T X RS CT T S #
 | PREMIÈRE PARTIE | Î
 i
@@ -82,17 +88,9 @@ i
 2. Mwurmure des feuilles, valse. BLANCHEREAU |
 8. Ouverture de Mampa. Héroup !
 4
-
 - Fantaisie sur la Favorite. DoNIZETTI
-
 DEUXIÈME PARTIE
-
 Ox
-
- 
-
- 
-
 - Ouverture de la Bohémienne . Baurr \ '_ '
 6. Star of England, polka, piston- \é
 solo : M. Delarue. LAMOTHE ’{
@@ -109,8 +107,10 @@ i CONCERT CLASSIQUE. — Orchestre et Grandes
 | Abonnements par feuille de 20 coupons: fr. 7.50. S’adresser
 f à l’entrée,
 |
-l]]></page>       
-        </p>
+l
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

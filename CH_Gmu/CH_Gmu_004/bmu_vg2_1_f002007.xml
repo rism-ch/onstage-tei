@@ -1,77 +1,81 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert<date when="05/08/1883"/></title>
-<series>1882-1883</series>
-<placeName>Kiosque (Promenade des Bastions)</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert
+            <date when='05/08/1883'/>
+          </title>
+          <series>1882-1883</series>
+          <placeName>Genève, Kiosque (Promenade des Bastions)</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VG2-1 F002007</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Senger, H. de (dir)</note>
+        <note>Date présumée</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18830805"/>
-<title>Concert</title>
-<placeName key="Kiosque (Promenade des Bastions)"/>
-<name key="1882-1883" type="series"/>
-<name key="Gungl, Joseph" ref="https://muscat.rism.info/admin/people/93386" type="person" role="cmp">Gungl, Joseph</name>
-<name key="Adam"  type="person" role="cmp">Adam</name>
-<name key="Strauß, Johann" ref="https://muscat.rism.info/admin/people/132082" type="person" role="cmp">Strauß, Johann</name>
-<name key="Flotow, Friedrich von" ref="https://muscat.rism.info/admin/people/63626" type="person" role="cmp">Flotow, Friedrich von</name>
-<name key="Nicolaï"  type="person" role="cmp">Nicolaï</name>
-<name key="Arban, Jean-Baptiste" ref="https://muscat.rism.info/admin/people/31980" type="person" role="cmp">Arban, Jean-Baptiste</name>
-<name key="Hérold, Ferdinand" ref="https://muscat.rism.info/admin/people/75095" type="person" role="cmp">Hérold, Ferdinand</name>
-<name key="Faust"  type="person" role="cmp">Faust</name>
-<name key="Senger, Franz Ludwig Hugo von  (dir.)" ref="https://muscat.rism.info/admin/people/30015297" type="person" role="int">Senger, Franz Ludwig Hugo von  (dir.)</name>
-<name key="Orchestre de la Ville de Genève"  type="person" role="int">Orchestre de la Ville de Genève</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_1_f002007_001.tif"/>
-<page><![CDATA[|î , e )
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18830805'/>
+        <title>Concert</title>
+        <placeName key='Genève, Kiosque (Promenade des Bastions)'/>
+        <name key='1882-1883' type='series'/>
+        <name key='Gungl, Joseph' ref='https://muscat.rism.info/admin/people/93386' type='person' role='cmp'>Gungl, Joseph</name>
+        <name key='Adam' type='person' role='cmp'>Adam</name>
+        <name key='Strauß, Johann' ref='https://muscat.rism.info/admin/people/132082' type='person' role='cmp'>Strauß, Johann</name>
+        <name key='Flotow, Friedrich von' ref='https://muscat.rism.info/admin/people/63626' type='person' role='cmp'>Flotow, Friedrich von</name>
+        <name key='Nicolaï' type='person' role='cmp'>Nicolaï</name>
+        <name key='Arban, Jean-Baptiste' ref='https://muscat.rism.info/admin/people/31980' type='person' role='cmp'>Arban, Jean-Baptiste</name>
+        <name key='Hérold, Ferdinand' ref='https://muscat.rism.info/admin/people/75095' type='person' role='cmp'>Hérold, Ferdinand</name>
+        <name key='Faust' type='person' role='cmp'>Faust</name>
+        <name key='Senger, Franz Ludwig Hugo von' ref='https://muscat.rism.info/admin/people/30015297' type='person' role='int'>Senger, Franz Ludwig Hugo von</name>
+        <name key='Orchestre de la Ville de Genève' type='person' role='int'>Orchestre de la Ville de Genève</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_1_f002007_001.tif'/>
+        <page>
+          <![CDATA[|î , e )
 EN u { VR
-
 / Programme officiet
-
 Dimanche 5 Août, à 3 h (rtuit) I
-
 e T NRS)
-
 }Sc ce de 'Ordeste de V-
-
- 
-
- 
-
 * «
 Direction de M. Hugo de SENGER ‘ j
 — \ |J
@@ -98,25 +102,21 @@ d p
 ä )
 f CONCERTS AU KIOSQUE les Dimanches, Lundis, ï
 | Mercredis et Vendredis, à 8 heures du soir.
-
 fT4 CONCERT CLASSIQUE.
 Orgues, à la Cathédrale de S
 Abonnements par feuille de 20 c
-
 — _ Orchestre et Grandes û
 t-Pierre, les Samedis à 4 h. \
 oOupons: fr. 7.50. S’adresser
-
 à l’entrée.
-
 j
-
 â , q
-
 [ |
 = |
-#]]></page>       
-        </p>
+#
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

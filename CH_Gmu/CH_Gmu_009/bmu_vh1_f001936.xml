@@ -1,144 +1,115 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Grand concert donné par l'Union instrumentale genevoise<date when="17/03/1926"/></title>
-<series>1925-1926</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Grand concert donné par l'Union instrumentale genevoise
+            <date when='17/03/1926'/>
+          </title>
+          <series>1925-1926</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F001936</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Bodet, F. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19260317"/>
-<title>Grand concert donné par l'Union instrumentale genevoise</title>
-<placeName key="Victoria Hall"/>
-<name key="1925-1926" type="series"/>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Mozart, Wolfgang Amadeus" ref="https://muscat.rism.info/admin/people/115324" type="person" role="cmp">Mozart, Wolfgang Amadeus</name>
-<name key="Händel, Georg Friedrich" ref="https://muscat.rism.info/admin/people/36552" type="person" role="cmp">Händel, Georg Friedrich</name>
-<name key="Gilson, Paul" ref="https://muscat.rism.info/admin/people/258437" type="person" role="cmp">Gilson, Paul</name>
-<name key="Delmas, Marc" ref="https://muscat.rism.info/admin/people/30071294" type="person" role="cmp">Delmas, Marc</name>
-<name key="Bloch, Ernest" ref="https://muscat.rism.info/admin/people/30081166" type="person" role="cmp">Bloch, Ernest</name>
-<name key="Chabrier, Emmanuel" ref="https://muscat.rism.info/admin/people/48553" type="person" role="cmp">Chabrier, Emmanuel</name>
-<name key="Poulenc, Francis" ref="https://muscat.rism.info/admin/people/30090495" type="person" role="cmp">Poulenc, Francis</name>
-<name key="Vidal, Paul" ref="https://muscat.rism.info/admin/people/140775" type="person" role="cmp">Vidal, Paul</name>
-<name key="Bodet, Francis (dir.)"  type="person" role="int">Bodet, Francis (dir.)</name>
-<name key="Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)"  type="person" role="int">Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)</name>
-<name key="Cercle choral"  type="person" role="int">Cercle choral</name>
-<name key="[Union des] Amis chanteurs de Carouge"  type="person" role="int">[Union des] Amis chanteurs de Carouge</name>
-<name key="Liederkranz"  type="person" role="int">Liederkranz</name>
-<name key="Brunner, Camille"  type="person" role="int">Brunner, Camille</name>
-<name key="Scheiwein, Charles"  type="person" role="int">Scheiwein, Charles</name>
-<name key="Liard, Joseph"  type="person" role="int">Liard, Joseph</name>
-<name key="Bodet (Mme)"  type="person" role="int">Bodet (Mme)</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001936_001.tif"/>
-<page><![CDATA[F
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19260317'/>
+        <title>Grand concert donné par l'Union instrumentale genevoise</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1925-1926' type='series'/>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Mozart, Wolfgang Amadeus' ref='https://muscat.rism.info/admin/people/115324' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Händel, Georg Friedrich' ref='https://muscat.rism.info/admin/people/36552' type='person' role='cmp'>Händel, Georg Friedrich</name>
+        <name key='Gilson, Paul' ref='https://muscat.rism.info/admin/people/258437' type='person' role='cmp'>Gilson, Paul</name>
+        <name key='Delmas, Marc' ref='https://muscat.rism.info/admin/people/30071294' type='person' role='cmp'>Delmas, Marc</name>
+        <name key='Bloch, Ernest' ref='https://muscat.rism.info/admin/people/30081166' type='person' role='cmp'>Bloch, Ernest</name>
+        <name key='Chabrier, Emmanuel' ref='https://muscat.rism.info/admin/people/48553' type='person' role='cmp'>Chabrier, Emmanuel</name>
+        <name key='Poulenc, Francis' ref='https://muscat.rism.info/admin/people/30090495' type='person' role='cmp'>Poulenc, Francis</name>
+        <name key='Vidal, Paul' ref='https://muscat.rism.info/admin/people/140775' type='person' role='cmp'>Vidal, Paul</name>
+        <name key='Bodet, Francis' type='person' role='int'>Bodet, Francis</name>
+        <name key='Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)' type='person' role='int'>Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)</name>
+        <name key='Cercle choral' type='person' role='int'>Cercle choral</name>
+        <name key='Union des Amis chanteurs de Carouge' type='person' role='int'>Union des Amis chanteurs de Carouge</name>
+        <name key='Liederkranz' type='person' role='int'>Liederkranz</name>
+        <name key='Brunner, Camille' type='person' role='int'>Brunner, Camille</name>
+        <name key='Scheiwein, Charles' type='person' role='int'>Scheiwein, Charles</name>
+        <name key='Liard, Joseph' type='person' role='int'>Liard, Joseph</name>
+        <name key='Bodet (Mme)' type='person' role='int'>Bodet (Mme)</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001936_001.tif'/>
+        <page>
+          <![CDATA[F
 Î
 |
 |
 J
 |
-
 “
-
 | .
 [
 ;
-
 ‘ 4 et 6, Rue du Commerce Ël
-
 A E RE R TT
 rrs =
-
- 
-
 , Union Instrumentale
-
- 
-
- 
-
 Ppregramme
 ©fficiel 1926
-
 A / F ‘
 + M ,
 / P } C /
 / d /Q e Ÿ A
 ;
 ‘
-
- 
-
- 
-
- 
-
- 
-
- 
-
 |
 |
 |
 |
 |
 |
-
- 
-
- 
-
 Genevoise |
-
- 
-
 | de Genève
-
- 
-
 |
 |
 Fanfare Municipale de la Ville
-
- 
-
- 
-
- 
-
 | e3 |
 Î' | Ï
 Ïh l
@@ -151,55 +122,28 @@ l K q
 |
 O O l
 l
-
- 
-
 DŒË@HÆ Û
-
 Ÿ BANQUE DE GENÈVE |
-
 Fondée en 1848
-
- 
-
- 
-
 ‘(\ 2, Rond-Point-de-Plainpalais )
 SZF E S
-
 Buzzl-Macherel
-
-A]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001936_002.tif"/>
-<page><![CDATA[cE N
+A
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001936_002.tif'/>
+        <page>
+          <![CDATA[cE N
 Ville de ® anève
-
- 
-
 p ompes F unèbres
-
-  
- 
-
 Rue de l’Hôtel-de-Ville, 5
 Téléphone permanent : Stand 08.85
-
 Dispense les familles de toutes démarches pénibles à la suite d’un décès.
-
 TARIFS LES PLUS RÉDUITS | 2érerches e* formalités gratuites
-
- 
-
- 
-
 e
-
 Nl ec es nc odrrodHoWod{{ie{{hwtHi eh
-
 EGO S. À.
-
 |
-
 2 E
 Ë Anc. Etablissements SCHNEIDER Cie î
 = Rue de la Synagogue, 40 ë
@@ -211,142 +155,79 @@ EGO S. À.
 = électriques Ë
 Ë Devis et Références Tél. Stand 28.68 :Ê___
 %m»mn»‘mmw«nwwnu…1uwmﬂwumu*uuwumwrm|nnu……utlmmu"mm"mw"uæm‘umn"nnn"mnwnmn"mnmmwwwË
-
- 
-
- 
- 
-
- 
-
- 
-
- 
-
 st rs
-
 rrs mc vs e e
-
-cu érscencetot ml]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001936_003.tif"/>
-<page><![CDATA[VOYAGEZ...  avec les arrangements spéciaux de
- l'Agence de Voyages
-
+cu érscencetot ml
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001936_003.tif'/>
+        <page>
+          <![CDATA[VOYAGEZ...  avec les arrangements spéciaux de
+l'Agence de Voyages
 C. BLENK, FERT & Cie
 1, Rue du Mont-Blanc - Genève
-
 Plus d'ennuis, plus de soucis, meilleure utilisation de temps.
-
 AUX MEILLEURES CONDITIONS C
 CñR HOUS LOUONS LES MEILLEURS ñRS
-
- 
-
- 
-
 Mercredi 17 mars 1926
-
 D ; ; 5 Ç t à 20 h. 30
 [ÿortes à 2{» h à VlCÎOI‘]8—H all Concert à 1
-
 GRAND CONCERT
-
 DONNÉ PAR
-
 L'UNION INSTRUMENTALE GENEVOISE
-
 (Fanfare Municipale de la Ville de Geneve)
-
 Sous la direction de Monsieur FRANCIS BODET, directeur
 Premier prix du Conservatoire national de musique de Paris
-
 AVEC LE GRACIEUX CONCOURS DE
 Mre Camille Brunner M' Charles Scheiwein
 cantatrice corniste de l'O.S. R,
 M' Joseph Liard
-
 professeur de trombone au Conservatoire
 ET DES CHŒURS D'HOMMES
-
 Cercle Choral  Amis chanteurs de Carouge Liederkranz
-
 M. Otto Wend M. Georges Pileur M. Paul Bœæpple
 Directeur Directeur
-
 Au Piano : M"" F. Bodet, professeur.
-
 Directeur
-
 2.10 - Rez-de
 chaussée et premiere galerie fr. 1,10 - deuxième galerie fr. o.60  (droit des pauvres
 compris). - Cartes a l’avance chez le concierge du Victoria-Hall. - Les membres hono-
 raires et passifs ont droit à deux entrées sur presentation de leur carte 1926.
-
 PRIX DES PLACES : Cordons de premiere galerie (places numérotées) fr.
-
- 
-
- 
-
- 
-
 fÂ)/'/{);{01‘1'0 - Dijouterie
 Uoaillenie - Orfevrerie
-
- 
-
 QUAT _ MJ , . TÉL.
 DES BERGUES W EF£ MONT-BLANC
 21 = T6-21
 Montres Genith — Réparations soignéee
 Devis — Pièces de Commande
 Occasions
-
 Achat de bijoux et pierres précieuses
-
-L]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001936_004.tif"/>
-<page><![CDATA[Pabrique Suisse dUmfurmes CAFÉ ve  BOURSE
-
+L
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001936_004.tif'/>
+        <page>
+          <![CDATA[Pabrique Suisse dUmfurmes CAFÉ ve  BOURSE
 HOUCHHOUEEIOKOOOVOHEOOENEOOELONEONOUENE S A CONNERHIII SNNUHINVE
-
 Berne - GENÈVE - Zurich
 2, Rue Petitot, 2
-
 DespäŸds & Python, propriétaires
 14, Place de la Fust rie |
-
- 
-
 Consommations de 1* choix
 EQUIPEMENTS MILITAIRE Mets de Brasserie
 CULOTTES EQUITATION GRANDE SALLE .
-
 VÊTEMENTS CIYILS ET DE SPORTS A es e .S,OCIETES |
-
 fél. Stand 55-68 q
-
 CASQUETTES Ouvert jusqu’à 1 heure
-
- 
-
- 
-
- 
-
- 
-
 Notice Historique sur Ja Fanfare Municipale
-
 Nous pensons intéresser les lecteurs de ce programme en rappe-
 lant ici, avec quelques dates et quelques noms, les principaux événements
 qui marquèreut l’évolution de notre société, depuis sa création.
-
 C’est en 1863 et sous la dénomination de «Société des Fanfares
 Militaires Genevoises » que notre actuelle Fanfare est portée sur les
 fonts batismaux. Messieurs Joseph Leclerc et John Grasset en sont les
 premiers Président et Directeur.
-
 Dès sa création, elle participe aux manifestations de la vie gene-
 voise, étant « priée » par les autorités de prêter son concours, alors que
 les autres corps de musique étaient «commandés ». Lors d’une manifes-
@@ -354,88 +235,47 @@ tation, en 1867, la Société des Fanfares est à son tour «commandée ».
 Mais les membres de la fanfare n’entendent pas abdiquer leur indépen-
 dance. C’est pourquoi la Société des Fanfares se constitue en société
 civile, sous la dénomination actuelle :
-
 « UNION INSTRUMENTALE GENEVOISE » p
-
 Les années s’écoulent, heureuses parfois, difficiles souvent. De
 1868 à 1880, Bergalonne dirige l’Union avec un talent sans conteste Sous
 sa direction, l’Union lutte et vainc, à Berne (1868), Annecy (1869,
-
- 
-
 Genève (1872), Chambéry (1875), Lyon (1877) et Elbeuf (1879). En 1881, f
 Hugo de Senger prend la succession de Bergalonre, succession dont il *
 se montra digne. Puis se succédèrent plusieurs chefs : Messieurs Bisch j
 (1884-1887), Mirande, Delarue (1888-1894), Van Perk (1885- 1897), Louis h
-
 Rey (1898 1901), Jomaux, Teissier, qui se consacra corps et âme, durant #
 seize années (1902-1917)) à notre Soc1€te et mourut subitement en plein
 concert. Bruni lui succéda et se révéla directeur de fanfare excellent,
 mais nous fut vite repris par le Théâtre.
-
 d E
 —tezs n
-
 GV srr c
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Ph. flbert & Braschoss |
-
 ! =1
-
 « ë d
-
 2, Rue du Rhône GENEVE Piace Bel-Air Z
 TÉLÉPHONE : STAND 5200 à
-
 ASSURANCES. RÉGIE D'IMMEUBLES. CONTENTIEUX |
 Assurances de toutes branches, Ventes et Achats d’Immeubles, j
 Recouvrements, Liquidations, Prêts et Emprunts hypothécaires, «ä
-
 — _ … Service Fiduciaire et de Comptabilité —— â‘
-
 Q
-
- 
-
 2U
-
-q]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001936_005.tif"/>
-<page><![CDATA[Maux de Pie"ds Réparation d'Instruments
-
+q
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001936_005.tif'/>
+        <page>
+          <![CDATA[Maux de Pie"ds Réparation d'Instruments
 = SRJIU OEOE CEOEUN
 Douleurs, Brûlures, Engelures ; _
 Transpiration, Cors, Durillons de Musique, Fanfares et Harmonies
-
 guéris par
-
 Sels de Romarin | M. sEIDEL
-
 pour bain de pieds, la boîte fr. 1.- | !4 Rue Grenus, 5" étage
 Dr DUMARTHERAY & Cie, 10, rue du Mont GENEVE
-
 Blanc et foutes autres pharmacies.
-
- 
-
- 
-
- 
-
 Notice Historique, (suite.)
-
- 
-
 Tout au cours de sa route, l’Union eut surtout à lutter contre les
 difficultés financières, d’autant plus considérables pour une société de
 musique qu’elle cherclhie à progresser dans l’art, qui est sa raison d’être
@@ -448,111 +288,69 @@ Mais l’Union prozressait sans cesse et pouvait aspirer à des destinées
 plus brillantes. Monsieur L.-H. Malet, énergique et distingué président
 pendant vingt ans, obtient en 1900, du Conseil Administratif, que notre
 Union soit élevée au rang de « Fanfare Municipale de la Ville de Genève»
-
 Dès lors, l’histoire de notre société est plus intimement liée encorv
 qu’auparavant à l’histoire de notre pays, et nous pouvons dire sans trop
 de présomption que l’Union Instrumientale Genevoise, n’a pas démérité
 de son titre officiel.
-
 Actuellement, sous la présiderice de Monsieur Philippe Albert et
 la direction de Monsieur Francig Bodet, (premier prix du Conservatoire
 de musique de Paris), notre Fanfare Municipale consacre tous ses efforts
 au développement de la culture musicale de ses membres, guidée par le
 désir de faire apprécier, en tout désintéressement, à notre population
 toute entière, une musique saine et éducative.
-
 Notre société réalise également son but en étant toujours à l’en-
 tière disposition de nos Autorités pour toutes les manifestations de notre
 vie publique.
-
 C’est ainsi que notre société peut faire œuvre utile au point de
 vue social, en même temps qu’acte de patriotisme par son solide attache-
 ment au pays et à ses institutions.
-
- 
-
- 
-
- 
-
- 
-
 Pâtissier - Confiseur | Café de la Liberté
 cesss Traiteur — E
-
 ämile Guignet .
 E,MAGNIN,Succ. | d MOUTHON
-
 17, Grand’Rue - GENÈVE 14, Chantepoulet, 14
 Spécialitéde Vins du Paysetdu Valais
-
 BRASSERIE - RESTAURANT
-
 Plats froids et chauds
 en tous genres pour Salle de Société pr. 200 personnes
 NOCES, BALS & SOIRÉES Casses-Croûtes — Banquets
-
- 
-
- 
-
-R .]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001936_006.tif"/>
-<page><![CDATA[BOULANGERIE - PATISSERIE
-
+R .
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001936_006.tif'/>
+        <page>
+          <![CDATA[BOULANGERIE - PATISSERIE
 Spécialité de la Maison : Véritables Petits Pains de Rolle
-
 —
-
 = 9, Boul. Ou Pont-d'Arve, 9
-
 EudG,. MOTZIG fuaimneatais cenevé
 CO TELEPHONE STAND 35.71
-
 .. …
-
 Même Maison Rue du Vieux-Collège - Téléphone Stand 77-90
-
- 
-
- 
-
 Analyse du programme
 Richard Wagner
 Né à Leipzig le 28 mai 1813 mort à Vienne le 13 février 1883
-
 Ouverture de Rienzi
-
 Rienzi, dont la première représentation eut lieu à Dresde le 20
 octobre 1842, est l’un des 11 drames lyriques de Richard Wagner qui
 s’apparente encore aux opéras fastueux, historico-fantaisistes de Meyer-
 ber et consorts.
-
 Le succès qui acceuillit cet ouvrage fut formidable
-
 Oeuvre de jeunesse, inégale où l’on surprend déjà cette habileté à
 manier l’orchestre, à en tirer des effets inconnus. L’individualité du
-
 compositeur éclate aussi bien dans la fierté héroïque de ses larges mé-
 lodies que dans dans la chaleur et dans la richesse du coloris instrumen-
 tal. C’est déjà l’œuvre d’un maitre indépendant sans être celle d’un no-
 vateur.
-
 L’ouverture n’échappe pas à l’architecture contemporaine. Elle se
 compose de l’andante qui n’est autre que la célèbre prière de Rienzi et
 de l’allegro formé de l’hymne de guerre et d’une partie du final du
 deuxième acte.
-
 Wolfang Amédée Mozart
 Né à Salzbourg le 27 janvier 1756, mort à Vienne le 5 décembre 1791
-
 Concerto en mi bémol pour cor
-
 Cette œuvre écrite à Vienne en mai 1783 appartient à cette période
 tout à fait différente des autres dans la carrière artistique de Mozart.
-
- 
-
 $
 4
 $
@@ -560,171 +358,94 @@ M
 3
 Ï
 Ë
-
- 
-
- 
-
- 
-
- 
-
 AU__MANDEMENT
-
 F. C. & G. Hostetftler
-
 Place ifléberg - GENÈVE - Téléphone Mt-Blane 34.99
-
 Laiterie — Comestibles - Charcuterie
 —— Volaille de Bresse_ —
-
- 
-
 RR N EN ETE S
-
- 
-
- 
-
- 
-
 e sq e
-
- 
-
 C e e rrs
-
 s1raès
-
 éaéedhes
-
 ML A éc és
-
 __
-
 À
-
 â}
-
 9
-
-d]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001936_007.tif"/>
-<page><![CDATA[Papiers Peints
-
+d
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001936_007.tif'/>
+        <page>
+          <![CDATA[Papiers Peints
 J.-F. Dupont
-
 Rue du Stand Prolongée, 40
 221 au Premier Etage
 TELEPHONE STAND 43-72
 Demandez nos cartes échantillons,
 Nous sommes les meilleurs marché
-
- 
-
 Retenez blen notre adresse
-
- 
-
 BANQUE
-
 l'opulaire benevoise
-
 FONDÉE EN 1868
 Place de Hollande - Angle rue Diday
-
 GENEÈVE
-
 CHAN 7E-ORDRE«BOURSE
-
 Paiement et Achat de Coupons
 Location de Compartiments de Coffres-Forts
 Blindés ; Ouverture de Crédits contre garanties.
-
- 
-
- 
-
 Au printemps 1782, Mozart est entré en relation avec un riche
 amateur viennois, le baron Van Svieten qui lui fit connaître les œuvres
 principales de Haëndel et de J. S. Bach comme aussi de certains maitres
 contemporains de l’Allemagne du Nord au premier rang desquels figu-
 rait Emmanuel Bach. Le contact de cette musique plus savante et pour-
 suivant un objet plus haut a été pour Mozart une véritable révélation
-
 dont la trace se montre à nous aussi
-
 presque toutes ses œuvres musicales de la fin de 1782 et de l’année
-
 suivante.
-
 Ce concerto qui figure parmi ses œuvres les plus extèrieures de l’épo-
 que nous trahit l’enthousiasme momentané du jeune homme en face de
 ce grand art classique qu’il vient de découvrir.
-
 Haëndel
 Air de Cléopâtre
-
 Enscigne moi Isis ! l’invincible mépris
 Des plaisirs vains, des chagrins vains
 Hélas ! c’est là toute la vie _ faussi
 Ah! dis un lieu tranquille et sûr
 Bien loin du monde ingrat et vain
 Où puisse enfin rêver mon cœur !
-
 Richard Wagner
 Souffrances
-
 O soteil, quand l’ombre tomve,
 Tu rougis tes yeux de pleurs
 Et tu vas creuser ta tombe
-
- 
-
 #3e tunfantantent ofante
-
 Cerrasse
-
 AIN A
-
- 
-
 Déjeûner 5 fr. % Dîner
-
 bien dans ses lettres que dans
-
 Dis moi l’asile de calme pur,
 Lä, faste et gloire j’oublierai;
 Oubliée, oublieuse, mon destin
 J'attendrai oubliée à jamais
 Le front hautain et reine, reine
 Encore, je veux oublier
-
 Dans les vagues où tu meurs
 Mais, au jour sortant de l’onde
 Gloire de ce sombre monde
-
- 
-
 Venez dinet avec 004 amis au restaurant de
-
 l'HOTEL RICHMON
-
 Cerrasse
-
 6 fr. & Afternon-tea
-
 Repas de noces et grands dîners
-
 V, ARMLEDER.
-
- 
-
- 
-
-wfantants n fantenfe nte nfe]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001936_008.tif"/>
-<page><![CDATA[F h = d Eh Articles Récilames
+wfantants n fantenfe nte nfe
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001936_008.tif'/>
+        <page>
+          <![CDATA[F h = d Eh Articles Récilames
 a quu€ e apeaux Chemiises flanelle la p. 3.75.- Chem. |
 rrr" | Perdle, 2 cols la p. 5.90.- Chem, bl. ;
 3 la p. 6.90.- Calecons coton, la paire
@@ -741,335 +462,172 @@ Tu renais, héros vainqueur ! S’il naît, de la mort, la vie f
 AN ! pourrais-je encore me plaindre Si l’on souffre pour jouir!
 De porter mon lourd fardeau, O nature soit bénie, ; .)
 Quand cet astre doit s’éteindre De me faire tant souffrir !
-
 Paul Gilson
-
 Né en 1865, Grand Prix de Rome, Inspecteur des Conservatoires belges
-
 Deuxième valse symphonique
-
 Paul Gilson compte aujourd’hui parmi les sommités musicales de
 la Belgique. Quasi autodidacte, il n’en obtint pas moins le Prix de Rome
 Très au courant de la facture instrumentale il peut passer pour un maitre
 orchestrateur à placer tout à côté des Rimsky Korsakoff, Richard Strauss
 ou Vincent d’Indy.
-
 Cette valse-scherzo dit Marc Delmas, présente un intérêt passion-
 nant et tout à fait exceptionnel du fait qu’elle a été composée directe-
-
 ment pour fanfare. Il faut remercier Paul Gilson dont le talent d’orches- }
 trateur est puissant d’avoir bien voulu consentir à enrichir de ce joyau $
 la collection de l’Art orphéonique dans ce qu’il a de plus noble et de ;
 plus élevé- ;
-
 Cette œuvre est construite sur trois thèmes principaux ; les deux K
 premiers jouent le rôle habituel aux développements d’ouverture sym- Ë
 phonique et le troisième constitue une sorte de trio alors que deux au- Ï
 tres thèmes issus des précédents sont plutôt épis-diques et concourent à
 l’admirable équilibre de l’ensemble. q
-
 n |
-
 ;
 I‘
-
- 
-
- 
-
- 
-
 TUNDERWOOD .
 Tél. Stand 0.715 MODELES Tél. Stand 0.715 î
 STANDARD et PORTABLE Ÿ
-
 538, Rue du Stand, 58 %
-
 D rectlÇuï -— epr…sevrr1tatlon :2‘
-
 M. ‘Î'Ê©SSËLLHRÀD STRACHAN| _
-
- 
-
- 
-
- 
-
-k p t]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001936_009.tif"/>
-<page><![CDATA[5 ts
-
+k p t
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001936_009.tif'/>
+        <page>
+          <![CDATA[5 ts
 mtn ex
-
 Chemin de Fer Electrique
-
 MARTIGNY - CHAMONIX
-
 Cette | gne relie Chamonix à la lig-e du Simplon
-
 Ravissante excursion dans une vallée renommée
 pour ses gorges magnifiques au dessus des-
 quelles serpente la voie ferrée,
-
 Point de départ pour la visite du Jac de Barberine, ba-
 J F
-
 rage intéressant, belle vue suv la chaine du Mt-Blanc
 Conditions avantageuse pour écoles ef sociétés
-
 Renseignements : Cie Martigny-Cähtelard, Rue Diday
-
- 
-
- 
-
- 
-
- 
-
 Marc Delmas
-
 Grand Prix de Rome, Président de la célèbre Fanfare «La Sirène»
 Travail !
-
 Depuis qu’il a été appelé à la présidence de «ILa Sirène», Marc
 Delmas ne cesse de se consacrer à l’Art orphéonique et d’en enrichir le
 répertoire
-
 La Marche Solennelle qui figure au programme, fut écrite origi-
 nalement pour fanfare en 1923 et «La Sirène» en donni une première
 audition la même année.
-
 Composition vigo:reuse et colorée, toujours châtiée, qui ne s’in
 cline que de Join vers les séductions des recherches modernes et sait
 toujours rester claire et mélodique.
-
 Ernest Bloch
-
 Né à Genève en 1880 - Directeur du Conservatoire de San-Francisco
-
 Ronde (Fistoriettes au crépuscule)
-
 Les trois filles allèrent danser au Qui dansa le mieux
-
 [clair de lune _ Dit le diable
 La blonde, la châtaine et la brune Vous dansez si bien
 Parut le diable et leur dit : Que vous reviendrez demain
 Dansez pour moi cette nuit. La nuit suivante elles dansèrent
 Allez, nous n’aurons pas peur Bien d’autres nuits entières
 De danser pour vous Monseigneur Devinrent trois sorcières
-
 La première dansa en levant les bras Et quand on passe dans le bois
 La seconde fit tournoyer ses cheveux On entend leurs voix ….
 Mais ce fut la troisième
-
- 
-
- 
-
- 
-
 CYC L ES €t MOTO S I\’(7HII'II/[U/IJ‘ en lous genres
-
 DARDERAT
-
 Agent des Cycles et Motos “Roya/ €nfield”
-
 Fournitures, Accessoires et Pièces détachées
-
 1, Rue Rousseau - Place Chevelu — GENEVE
-
- 
-
- 
-
- 
-
- 
-
-n -]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001936_010.tif"/>
-<page><![CDATA[Quelques Heurs de
-
+n -
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001936_010.tif'/>
+        <page>
+          <![CDATA[Quelques Heurs de
 FLEURIOT
-
 DOROEUR TRUN N ÉN R ULR ORUENN OR DRN
 FLEURISTE
-
 Corraterie, 26 Rue de Rive, 15
 Tèl. Stand 18-15 Tél. Stand 32 67
-
 GENEVE
-
 ÇHWTRÂ\
-
 15, Confédération flusterie, 16
-
 Dégustation Sélecte
-
 Porto et Xérès d’origine
 Anglo - American  Drinks
 Wine et Liquor House
-
 =- Téfléphone Stand 09.92 -
 Ouvert jusqu’à ! henre du matin
-
-  
- 
-
- 
-
 PIANOS
-
 SHOOLOCOQUU CQ OEOE QE OE EU
-
 Vente et Location
-
 Facilités de payement
-
 Sautier et Jæger
 Fusterie, 2 - GENEVE
-
-       
- 
-
- 
-
- 
-
 Instruments de Musique
-
 bour Fanfares et jtarmonies
-
 Réparations - Vente - Achat
 Accessoires - Pièces défachées
-
 Maspar Wicky
-
 8, Rue Ecole-de-Médecine GENEVE
-
 entrée ». des Maraîchers
-
 Une '>
-
- 
-
 ne s obhennent |
-
 ©35@ de |
-
 'llllll"llllll"Hlll‘"Hlll'"'llll"'llllll"llHli"Hlll“'llllll"l!llll"lllIH"HIIH"HIII"‘HIi‘
 PILACE KLÉBERG %
-
 PRO
 p.
-
- 
-
- 
-
- 
-
- 
- 
-  
-    
-   
-  
-
 Ouverture de Rienzi.......!
-
 Concerto en mi bémol pour co}
-
- 
-
 DR
-
 M. Schewiein et Mme Bodet..
-
 3. . a) Air de Cléopâtre...... 8 [
-
 b soutfrancess * N |
 E Mme Camille Brunner
-
 : 4. Deuxième Valse-Scherzo (pre
-
 Travail ! Grande marche soleï
 a) Ronde (Historiettes au crë
-
 /7) J’essCigales 1 8 f
-
 Mme Camille Brunner
-
 (@4F©)
 O On
-
 7.  Sonate pourcor, tr ompette et Ï:
 AHC”IÙ IIIOL‘LI'iÎU L '\HL‘ ante "‘"
 (m: M Ch: 1I‘£)3
 8. Lou Metjoun (Cantate, premit
-
 Chœurs et Fanfare (300 éxecul
-
 Scheiwein,
-
- 
-
-  
-    
-
 SOCIÉTÉ DE.
-
 Wn nn th       
         </p>
     </body>
   </text>
 </TEI>lil!lÎ
-
 FONIN/
 Capital-Actiors et R
 ©, Corraterie -
-
 EAUX-VIVES
 3, pl des Eaux- V1b‘r‘\
-
 CORNAVIN
-10, pl. de Cornavin]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001936_011.tif"/>
-<page><![CDATA[t.
+10, pl. de Cornavin
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001936_011.tif'/>
+        <page>
+          <![CDATA[t.
 aime glacée extra…
-
 Un café noir délicieux….
-
 ec Ies mélanges réputés de la
-
 DBncle Tom
-
 I PETICHE TEPERIHN N
 Téléphone Mt-Blanc 32.82
-
-  
-
- 
-
- 
-
 ——
-
 royeororerar =xs
 A MIMNE
-
 }2 @rcie
-
- 
-
- 
- 
-  
-
 ................. J agner.
 1ï’anscriptinn de Mastio
-
 igpiano Mozart.
 .................. Haëndel.
 .................. J agner.
@@ -1078,87 +636,52 @@ e Partie 5
 t en Marc Delmas. q
 O Ernest Bloch,
 ................. Chabrier.
-
 $ D 6 6
 #rone (1“ audition) . Francis Poulenc.
 .
 e M.]Ïl%@vk ‘hh…h…m: &L]—lÀHHL
 Méition) ... Paul Vidal.
-
 “çÊ\NQUE SUISSE
-
 s/2
-
 l:rves:
 ŒVE - Corraterie, G
-
 (l PLAINPALAIS
 # _ 36, Rue de Carouge
-
 Fr. 153 miliions
-
 CAROUGE
 11, rue du Marché
-
 fe aux meilleures conditions
-
- 
-
 Pour une insfallation
-
 sérieuse d'un’'poste de
-
 1>156
-
 àadressez-vous au
-
 Photo-Hall de la Haute-Ville
-
 DHn
 Rue Ft. Dumont, 20-22
-
 Devis détaillés Auditions gratuites
-
- 
-
-     
- 
-
 ACHETEZ
 avec
 12. 18. 24.
 MOIS de CREDIT
-
 AU
 BON GENIE
 RUE DU MARCHE, 32 GENEVE
 AMEUBLEMENTS
-
 HABILLEMENTS
 NOUVEAUTES
-
- 
-
- 
-
 Cuiture Physique
-
 pour tous
-
 F 5
 9070
-
 Professeur
-
 LANCE
-
 Rue du Rhône, 61 - Genève
-
- 
-
-3 Molard]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001936_012.tif"/>
-<page><![CDATA[—— …n ° S
+3 Molard
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001936_012.tif'/>
+        <page>
+          <![CDATA[—— …n ° S
 M — es3 -
 « - sT NO °
 — n
@@ -1177,117 +700,67 @@ se 9 Ss SS R ==
 D se S z
 = = r Î'
 @ æä œ 3
-
- 
-
- 
-
 Emmanuel Chabrier
-
 Né à Ambert (Puy-de-Dôme) le 18 Janvier 1842 mort à Paris le 13
 Septembre 1894
-
 Les Cigales
-
 Le soleil est droit sur la sente.
 L’ombre bleuit sous les figuiers,
 Ces cris au loïn multipliés,
-
 C’est Midi, c’est Midi qui chante !
 Sous l’astre qui conduit le chœur
 Les chanteuses dissimulées
-
 Jettent leurs rauques ululées
-
 De quel infatigable cœur!.….
-
 Les cigales ces bestioles,
-
 Ont plus d’âme que les violes
 Les cigales, les cigalons.
 Chantent mieux que les violons,
-
 S’en donnent elles, les cigales,
 Sur les tas de poussiêre gris,
-
 Sous les oliviers rabougris
 Etoilés de fleurettes pâles ;
-
 Et grises de chanter ainsi,
-
 Elles font leur musique folle ;
-
 Et toujours leur chanson s’envole
 Des touffes du gazon roussi! .…
-
 Aux rustres épars dans lechaume,
 Le grand astre torrentiel
-
 A larges flots, du haut du ciel,
 Verse le sommeil et son baume ;
 Tout est mort rien ne bruit plus
 Qu’elles, toujours, les forcenees,
 Entre les notes égrenées
-
 De quelque loïintain angélus !
-
- 
-
 Francis Poulenc
-
 Sonate pour cor, trompette et trombone
-
 Cette œuvre est la dernière de deux sonates, écrites dans le second
 semestre de 1922, pour divers instruments à vent. Bien que composées
 peu de mois après Mavra de Strawinsky, elles decèlent plutôt l’influen-
 ce de Pulcinella de Pergolèse-Strawinsky. Daas l’évolution personnelle
 de Francis Poulenc, elles marquent le moment exact où ce jeune musi
-
- 
-
- 
-
- 
-
 BOUCHERIE - CHARCOTERIE
-
 ALHEUH) HHN HASOAEVEAOEOSOAHAHATVOAOKEKOVAHOIOIOENOOOVEAONOOU KO OOHOAAOOOACA OO OVON DEVOAER A AOOMODAM OO LOOHAENE OD EUEIEOLAEEOEEIEEOECEREAEERIEEL HELLOLELEELELEENCUINONNN
 Maison de 1er ordre Fondée en 1875
-
 Leuis Meorel
-
 Place du Bourg de-Four, 17 - GEDEVE
-
 Se recommande pour ses viandes de première qualité
 Service à domicile ville et banlieue -  Téléphone Stand 5.49
-
-  
-
- 
-
- 
-
- 
-
-—0*]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001936_013.tif"/>
-<page><![CDATA[Charcuterie @ïj—c‘zèê‘é ﬁzeambf
+—0*
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001936_013.tif'/>
+        <page>
+          <![CDATA[Charcuterie @ïj—c‘zèê‘é ﬁzeambf
 Victor COURTOIS C(«>/ ,
 À Olectricite
-
 Rue Chantepoulet, 5- GENÈVE
-
 (En facc de la Grande Poste) Max et Roger OLIVET, adm
 Maison de confiance fondée en 1884 i ;
 6, Cours de Rive -:- Tél. Stand 1l-30
 Service à domicile L
 Toutes Spécialités Maison sérieuse, consciencieuse, et
 Téléphone Mt-Blanc 28.82 en plus, modérée dans ses prix.
-
- 
-
- 
-
 cien abandonne le style inauguré avec les Mouvements perpétuels
 (et qui se continue à travers le Bestiaire et les Cocardes), pour abou-
 tir à celui des Biches. Ces sonates sont même le seul lieu où ces deux
@@ -1297,7 +770,6 @@ populaires françaises, Poulenc va à un art à peu près dépourvu de pitto-
 resque, mais qui ajoute aux éléments folkloriques précités ce qui dans
 l’écriture de Scarlatti, de Pergolèse et de Mozart pourrait à son tour
 tenir lieu de folklore.
-
 Il serait vain de rechercher dans cette sonate en sol, si bémol, ré,
 si les formes adoptées répondent ou répugnent à l’idée que nous nous
 faisons d’un allegro, d’un lied ou d’un rondo : on n’y doit trouver que la
@@ -1305,296 +777,144 @@ pure expression d’une bonne humeur musicale. Toute l’unité de cette
 œuvre tient en les naturelles affinités des thèmes entre eux, ou parfois
 en des affiliations du genre de celle qui existe entre les deux motifs
 médians de l’allegro et de l’andante.
-
 r E
-
 —c
-
 Paul Vidal
-
 Professeur de Composition au Conservatoire de Paris
 Lou Métjoun (Le Midi)
-
 Cette cantate avec accompagnement de fanfare est l’expression
 même du Midi, de son soleil, de sa gaieté, de ses arts, de sa beauté, de
 ses amours et de sa gloire.
-
 Deux textes soulignent la musique du Maître Paul Vidal l’un en
 langue d’Oc, l’autre en Français.
-
 Le texte français, fort beau certes, ne peut rendre exactement la
 couleur et le caractère du «Metjoun» sans aucun doute conçu et com-
-
- 
-
- 
-
- 
-
- 
-
 BOUCHERIE .. MOLAIRD
-
 oMUHbocbHHEH1008 60 KUEH1e581H1015 1668800 Maison de ler Orare Ah
-
 BOVAGNE & DURET
 36, Rue du Marché — GENÈVE
-
 E Téléphone St. 85.83 nn
-
- 
-
-0N 158]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001936_014.tif"/>
-<page><![CDATA[GRANDE TENTUREKRIEB MODERNE
-
+0N 158
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001936_014.tif'/>
+        <page>
+          <![CDATA[GRANDE TENTUREKRIEB MODERNE
 41594919N" ACEQU SON E!VO XQ OEOEU CON
-
 E. BERNARD
-
 A. BERNARD Fils successeurs
 G, Place Jargonnant - Rue des €Eaux-Vives, 2
 58, Rue de Srint-Tean
-
 Maison de Confiance
-
- 
-
- 
-
- 
-
 posé pour être chanté en languedocien. Mais cependant l'effet musical
 reste grandiose et imposant.
-
 (Poésie de Auguste Quercy)
-
 Sous la voute d’azur d’un ciel éblouissant
-
 Fleurit, ensoleillé, notre terroir magique.
-
 Aux champs, aux prés, aux boïs, l’insecte frémissant,
 Aux refrains des oiseaux vient se mêler sa musique.
 O Midi, lieux charmants, enchanteurs, salutaires !
 Ciel rayonnant d’amour €t de sérénité.
-
 Mon cœur est tien, tout tien, berceau de libertaires !
 Salut ! terre de paix et de fraternité !
-
 O doux séjour de la Beauté,
-
 Terre ou fleurit toute espérance,
-
 Par tes charmes fut exalté
-
 L’esprit vaillant de no:re France.
-
 Les Arts, la Poésie,
-
 La Scène, le Journal,
-
 Subissent ton génie,
-
 Sol aimé, sol natal.
-
 Dans notre beau Midi, tout rit, tout est prospère ;
 Le temps de l’Age d’or y règne reconquis ;
-
 Fêtes. /)/aler$ partout la joie et la lumière,
 Partout d’aimables fleurs dont le souffle est exquis,
 Dans ce doux et gai paradis,
-
 Joyeux en fmfs,pyem en dits,
-
 Je sais bien des lurons hardis.
-
 D’humeur légère mais point méchante,
-
 Parmi nous volontiers, on chante !
-
 Il est bruyant, le paradis !
-
- 
-
 Il nous enivre et nous enchante.
-
- 
-
 Pour vos Affaires ! Pour vos Plaisirs !
-
 Roulez tous sur bicyclettes
-
 METEORE
-
 Agent : J. MARXER, Rue de Berne, 14
-
 Représentant exclusif pour la Suisse el les deux Savote :
-
 F. CARFAGNI - GENEVE
-
- 
-
- 
-
- 
-
 1D —
-
-  
-
- 
-
-   
-
- 
-
 H GGN ancèr es ct ts
-
- 
-
-P]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001936_015.tif"/>
-<page><![CDATA[Café-Brasserie du
-
+P
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001936_015.tif'/>
+        <page>
+          <![CDATA[Café-Brasserie du
 GRAND PALAIS
-
 SCHUELI{QLESEC QVS CCEOS CO OH OQQUE CEOE
-
 Vitrerie - Encadrements
-
 m GLACES u0
 SECOTEQHEUCOHIQHI HI
-
- 
-
 Bd Carl-Vogt, Ang. Bernard-Dussaud
-
 ROLFO-ALBANESI
 Vins de 1er Choix
-
 - Service Soigné -
-
 Pierre LORETTH
-
 16, Rue d’italie — GENÈVE
-
 Téléphone Stand 34-69
-
- 
-
- 
-
- 
-
 Dans la paix d’une nuit sereine,
-
 Nuit ou sourit le doux printemps,
-
 En aspirant sa fraîche haleine,
-
 Allez au bois, gentils galants,
-
 Des rossignols inapaisés ;
-
 Menez vos mignonnes heureuses
-
 À la ceuillette des baisers.
-
 O lune splendide,
-
 Argente les eaux,
-
 Viens, rayonne et guide
-
 Pâtres et troupeaux !
-
 Fleurs des cieux si belles,
-
 Vous, riez aux champs ;
-
 Dans l’herbe, commes elles,
-
 Brillez, vers luisants !
-
 Beaux amants, oh ! venez entendre
-
 Le rossignol délicieux.
-
 Que les plaintes de sa voix tendre
 Doucement humectent vos yeux.
-
 Dans les frais parfums de la terre.
-
 La main dans la main. deux à deux,
-
 Pour connaître un divin mystère,
-
 Allez, amants, amants heureux !
-
 Aux temps les plus anciens de ta sublime histoire,
 O France,noble mère, à pays vénéré,
-
 Le sang de nos aïeux qu’avait ravis ta gloire,
 Le sang coula vermeil, pour ton nom adoré.
 Si jamais l’étranger, immortelle Patrie,
 Osait jeter l’insulte à ton drapeau sacré :
 Malheur!. .. la terre d'Oc alors dans sa furie,
 Se lèverait au cri <Patrie et Liberté» !
-
- 
-
- 
-
- 
-
- 
-
 CAFE -BRASSERIE
 Marie Suatton
-
 & TN
 . dite _ Marion ; Üﬁ
 Rue Vieux-Gollège - Rue Verdaine cé
-
- 
-
 Mets de Brasserie M
-
 Consommations de 1er Choix
-
 Grande Salle de Société
 Téléphone Stand 54.23
-
- 
-
-11322]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001936_016.tif"/>
-<page><![CDATA[GRANDE BRASSERIE CENTRALE
-
-  
-
- 
-
- 
-
+11322
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001936_016.tif'/>
+        <page>
+          <![CDATA[GRANDE BRASSERIE CENTRALE
 CEIF HEN ETE CEOE OON TT
 Croix-d’Or, 22 — GENÊVE — Tél. St. 34.62
 CAFÉ-RESTAURANT CAFÉ EXTRA
 Bières Suisses et Efrangéres réputées —  Escargots - ffuitres
-
 Mets de Brasserie —  Plat du jour
 Déjeuners et Dîners à prix fixe — Vins et biqueurs de Marque
-
 E. MEYERAT
-
- 
-
- 
-
- 
-
- 
-
 Fanfare Municipale de la Ville de Genève
 CONSTITUTION DES REGISTRES
 Petits bugles. — P. Gaillepand, M. Wyss } Premiers cornets — Martinet (premier
@@ -1622,239 +942,99 @@ sS SOR D I 4 VR O E R. Etoupe, Chambaz, Richoz.
 Deuxièmes basses. — Gaillepand, Vaucher
 Thorion, Trœsch, Chapon,
 15 Tambours de marche sous la direction du caporal Henri Mathey
-
- 
-
- 
-
- 
-
 Séjour de Famille de 1er ordre
-
-11, Florissant]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001936_017.tif"/>
-<page><![CDATA[P.ä5ﬁ@"ﬂ‘(Niﬁ% A P HE D’'ART
-
+11, Florissant
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001936_017.tif'/>
+        <page>
+          <![CDATA[P.ä5ﬁ@"ﬂ‘(Niﬁ% A P HE D’'ART
 Poses d’En‘ants
 u l n 22 Partraits Artistiques en Couleurs
-
 Travaux en fous genres
-
- 
-
 0 E
-
 15, Cours de Rive
 é GENÈVE —2 22 Téléphone Stand 15-24
-
 TSZ SSs LZ
 NMNNWËWNNNN
-
- 
-
- 
-
 M. Ph. ALBERT
 Président
-
 Carte de Membre Passif
-
 Notre sociéte, dans le but de permettre aux personnes qui lui portent
 interet de lui prêter leur appui moral et matériel, delivre des cartes de
 membres passifs au prix annuel de 5 francs.
-
 Ces cartes peuvent être demandees aupres de chaque membre de Ja
 Sociéte ou par lettre à M. J. Marconi, entrepreneur, rue lean Jaquet, 12
 tresorier de la Fanfare.
-
- 
-
- 
-
- 
-
 IMPRIMERIE
-
 Ü}ugæl»@“ucﬂccæ
-
 Téléphone St., 56-4.7
-
 E RUE DES ROIS, 12 GENEVI
-
- 
-
- 
-
- 
-
- 
-
-— 1D —]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001936_018.tif"/>
-<page><![CDATA[PUBLICITÉE OFFICE
-
+— 1D —
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001936_018.tif'/>
+        <page>
+          <![CDATA[PUBLICITÉE OFFICE
 YPI 1" | N
-
 Grand’Rue, 25 GENÈVE
-
 #
 RÉCLAMES EN TOUS GENRES
 Programmes — Prospectus — Journaux
-
-    
-    
- 
-  
-    
-     
- 
-
- 
-
- 
-
- 
-
- 
-
 08 r n sè r l e ct r C0n 2 u Fn C
-
- 
-
 25
-
- 
-
- 
-
 M. F. BODET ;
-
 Directeur . “
-
 Avantages résultant de la Carte de Membre Passif
 La carte de Membre Passif de la Fanfare Municipale donne droit :
-
 à 2 entrées à chacun des concerts ou autres manifestations de la Societe, î
-
 sauf decision exeptionnelle.
-
 D'autre part, les membres passifs beneficient lors des voyages orga-
 nisés par la Fanfare, de tous les avantages obtenus sur les conditions du |
 voyage.
-
 Nous rappelons que notre Societe organise chaque annee au minimum
 2 concerts au Victoria Hall, 3 ou 4 au Jardin Anglais. Elle organise ega- .
 lement très souvent des soirees avec bal, Arbre de Noel, etc.
-
- 
-
- 
-
- 
-
 Nous recommandons vivement
-
 DE j
-
 c,
-
 à nos auditeurs, membres, et
-
 d
-
 amis, les maisons qui font de la
-
-   
-
 publicité dans notre programme
-
- 
-
- 
-
-     
- 
-
 dn Ctc à t A ESL ESL
-
-160 Æ]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001936_019.tif"/>
-<page><![CDATA[@ Gl
-
- 
-
- 
-
- 
-
- 
-
- 
-
+160 Æ
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001936_019.tif'/>
+        <page>
+          <![CDATA[@ Gl
 COMBUSIIDBLES
 Æ Ljé//î de AÛ sz
-
 ALCCESIEUFS
-
- 
-
 _"
-
 | Maison fondéc en 1850
 | 4, Rue Prévost - Martin — Téléphone Stand 823
-
 Liﬂ'/‘[l[J{’/]«'
 Loyales
-
 (CLYE3 )@_*Æ
-
 ARGENTERIE
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Boujon frères
-
 3 bis, Rue de Rive
 Genève
 @
 RÉPARATIONS
-
- 
-
 Spécialité :
 Couverts de tables
-Argentés]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001936_020.tif"/>
-<page><![CDATA[SAUTIER &
-
+Argentés
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001936_020.tif'/>
+        <page>
+          <![CDATA[SAUTIER &
 2,Fusterie.
-
 VENTE ET LOCATION
-
 Q, TRANSPORTS - ACCORDS - RÉPARATIONS
-
-    
-
-     
-
- 
-
 e)
 “c0
 0
@@ -1864,21 +1044,13 @@ T
 N
 S
 l9)
-
- 
-
- 
-
- 
-
 SUCCURSALE,
-
 Pég e v
-
 .
-
-S]]></page>       
-        </p>
+S
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

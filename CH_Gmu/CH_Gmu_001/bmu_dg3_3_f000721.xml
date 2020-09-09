@@ -1,83 +1,86 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par Madame Alessandrina de Menscikoff<date when="28/10/1874"/></title>
-<series>1874-1875</series>
-<placeName>Conservatoire</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par Madame Alessandrina de Menscikoff
+            <date when='28/10/1874'/>
+          </title>
+          <series>1874-1875</series>
+          <placeName>Genève, Conservatoire</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU DG3-3 F000721</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt> </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18741028"/>
-<title>Concert donné par Madame Alessandrina de Menscikoff</title>
-<placeName key="Conservatoire"/>
-<name key="1874-1875" type="series"/>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Glinka, Michail Ivanovič" ref="https://muscat.rism.info/admin/people/479437" type="person" role="cmp">Glinka, Michail Ivanovič</name>
-<name key="Verdi, Giuseppe" ref="https://muscat.rism.info/admin/people/137994" type="person" role="cmp">Verdi, Giuseppe</name>
-<name key="Gounod, Charles-François" ref="https://muscat.rism.info/admin/people/80479" type="person" role="cmp">Gounod, Charles-François</name>
-<name key="Haydn, Joseph" ref="https://muscat.rism.info/admin/people/55803" type="person" role="cmp">Haydn, Joseph</name>
-<name key="Mozart, Wolfgang Amadeus" ref="https://muscat.rism.info/admin/people/115324" type="person" role="cmp">Mozart, Wolfgang Amadeus</name>
-<name key="Brahms, Johannes" ref="https://muscat.rism.info/admin/people/39914" type="person" role="cmp">Brahms, Johannes</name>
-<name key="Monuchko"  type="person" role="cmp">Monuchko</name>
-<name key="Aljab'ev, Aleksandr Aleksandrovič" ref="https://muscat.rism.info/admin/people/30016263" type="person" role="cmp">Aljab'ev, Aleksandr Aleksandrovič</name>
-<name key=""  type="person" role="cmp"></name>
-<name key="Menscikoff, Alessandrina de"  type="person" role="int">Menscikoff, Alessandrina de</name>
-<name key="Malignon (Mme)"  type="person" role="int">Malignon (Mme)</name>
-<name key="Prokesch"  type="person" role="int">Prokesch</name>
-<name key="Huber"  type="person" role="int">Huber</name>
-<name key="Malignon"  type="person" role="int">Malignon</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg3_3_f000721_001.tif"/>
-<page><![CDATA[MERCREDI 2S OCTORRE 1874, à S heures du soir
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18741028'/>
+        <title>Concert donné par Madame Alessandrina de Menscikoff</title>
+        <placeName key='Genève, Conservatoire'/>
+        <name key='1874-1875' type='series'/>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Glinka, Michail Ivanovič' ref='https://muscat.rism.info/admin/people/479437' type='person' role='cmp'>Glinka, Michail Ivanovič</name>
+        <name key='Verdi, Giuseppe' ref='https://muscat.rism.info/admin/people/137994' type='person' role='cmp'>Verdi, Giuseppe</name>
+        <name key='Gounod, Charles-François' ref='https://muscat.rism.info/admin/people/80479' type='person' role='cmp'>Gounod, Charles-François</name>
+        <name key='Haydn, Joseph' ref='https://muscat.rism.info/admin/people/55803' type='person' role='cmp'>Haydn, Joseph</name>
+        <name key='Mozart, Wolfgang Amadeus' ref='https://muscat.rism.info/admin/people/115324' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Brahms, Johannes' ref='https://muscat.rism.info/admin/people/39914' type='person' role='cmp'>Brahms, Johannes</name>
+        <name key='Monuchko' type='person' role='cmp'>Monuchko</name>
+        <name key='Aljab&apos;ev, Aleksandr Aleksandrovič' ref='https://muscat.rism.info/admin/people/30016263' type='person' role='cmp'>Aljab'ev, Aleksandr Aleksandrovič</name>
+        <name key='' type='person' role='cmp'/>
+        <name key='Menscikoff, Alessandrina de' type='person' role='int'>Menscikoff, Alessandrina de</name>
+        <name key='Malignon (Mme)' type='person' role='int'>Malignon (Mme)</name>
+        <name key='Prokesch' type='person' role='int'>Prokesch</name>
+        <name key='Huber' type='person' role='int'>Huber</name>
+        <name key='Malignon' type='person' role='int'>Malignon</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg3_3_f000721_001.tif'/>
+        <page>
+          <![CDATA[MERCREDI 2S OCTORRE 1874, à S heures du soir
 ONCERT
-
 DONNÉ PAR MADAME ALESSANDRINA
-
 | Preùière Chanteuse du Théâtre Impérial de Saint-Pétersbourg-
-
 AVEC LE CONCOURS DE
-
 - M"* MALIGNON, MM. PROKESCH, MUBER ET MALIGNON
-
 —> S-
 >
-
 PROGRAMME :
-
 Allegro moderato du Trio op. 97, pour piano, violon et violoncelle, exécuté
 par M. Proxrscu, Mme et M. MaLi6non, . . . . . . , — “ Beetloven.
 Grand air de l’opéra : La Vie pour le Czar, chanté par Mme pe Menscikorr, Glinka.
@@ -85,34 +88,20 @@ Boléro de l’opéra : Les Vépres Siciliennes, chanté par Mme pz Menscikorr, 
 Ave Maria, mélodie religieuse adaptée au 1er Prélude de J.-S. Bach, chantée
 par Mme pz MENSCIKOFF, avec accompagremt de violon par Mme MALIGNON, Gounod,
 _ Adagio et Rondo all’Ongarese du Trio en sol majeur pour piano, violon et
-
- 
-
- 
-
 violoncelle, exécutés par M. PRoxEscx, Mme et M. MALicnon, . . . Haydn.
 Grand air de l’opéra : Don Juan, chanté par Mme pz Menscikorr,. . .  Mozart.
 Airs Hongrois pour piano à 4 mains, exécutés par MM. Proxescu & Huper, Brahms.
 Monuchko.
 Alabieff.
-
 A) Le Soir, »
 » Le Rosstpnol }romances Usgeu T 1 E {
-
 Chantés par Mme DE MENSCIKOFF.
-
 Prix du Billet : 3 franes --- Places RMéservées 5 francs.
-
- 
-
 - On peut se prbqurer des billets chez tous les marchands de musique et chez le Concierge du Conservatoire.
-
- 
-
- 
-
-Geneve. — Imprunerie J.-D. Jarrys, rue de la Treille, 4, x]]></page>       
-        </p>
+Geneve. — Imprunerie J.-D. Jarrys, rue de la Treille, 4, x
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

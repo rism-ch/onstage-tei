@@ -1,159 +1,142 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Soirée de gala donnée par la Société de musique ancienne : chants de la vieille France<date when="16/04/1918"/></title>
-<series>[19--?]</series>
-<placeName>Genève ?</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Soirée de gala donnée par la Société de musique ancienne : chants de
+            la vieille France
+            <date when='16/04/1918'/>
+          </title>
+          <series>[19--?]</series>
+          <placeName>Genève</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU DG4 F006676</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Lieu incertain</note>
+        <note>Date présumée</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19180416"/>
-<title>Soirée de gala donnée par la Société de musique ancienne : chants de la vieille France</title>
-<placeName key="Genève ?"/>
-<name key="[19--?]" type="series"/>
-<name key="Mouret, Jean-Joseph" ref="https://muscat.rism.info/admin/people/30004590" type="person" role="cmp">Mouret, Jean-Joseph</name>
-<name key="Lully, Jean-Baptiste" ref="https://muscat.rism.info/admin/people/132446" type="person" role="cmp">Lully, Jean-Baptiste</name>
-<name key="Rameau, Jean-Philippe" ref="https://muscat.rism.info/admin/people/169730" type="person" role="cmp">Rameau, Jean-Philippe</name>
-<name key="Campra, André" ref="https://muscat.rism.info/admin/people/30000563" type="person" role="cmp">Campra, André</name>
-<name key="Lambert, Michel" ref="https://muscat.rism.info/admin/people/30001854" type="person" role="cmp">Lambert, Michel</name>
-<name key="Destouches, André Cardinal" ref="https://muscat.rism.info/admin/people/8699" type="person" role="cmp">Destouches, André Cardinal</name>
-<name key="Milandre"  type="person" role="cmp">Milandre</name>
-<name key="Grétry, André-Ernest-Modeste" ref="https://muscat.rism.info/admin/people/83932" type="person" role="cmp">Grétry, André-Ernest-Modeste</name>
-<name key="Dalayrac"  type="person" role="cmp">Dalayrac</name>
-<name key="Piccinni, Niccolò" ref="https://muscat.rism.info/admin/people/17950" type="person" role="cmp">Piccinni, Niccolò</name>
-<name key="Martini, J. P. L."  type="person" role="cmp">Martini, J. P. L.</name>
-<name key="Cougnard, Manon"  type="person" role="int">Cougnard, Manon</name>
-<name key="Valmond, Albert"  type="person" role="int">Valmond, Albert</name>
-<name key="Novalles, Lisy"  type="person" role="int">Novalles, Lisy</name>
-<name key="Berthoud, Eugène"  type="person" role="int">Berthoud, Eugène</name>
-<name key="Demas, Noëlle"  type="person" role="int">Demas, Noëlle</name>
-<name key="Clairval, Esther"  type="person" role="int">Clairval, Esther</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f006676_001.tif"/>
-<page><![CDATA[SOIRÉE DE GALA
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19180416'/>
+        <title>
+          Soirée de gala donnée par la Société de musique ancienne : chants de
+          la vieille France
+        </title>
+        <placeName key='Genève'/>
+        <name key='[19--?]' type='series'/>
+        <name key='Mouret, Jean-Joseph' ref='https://muscat.rism.info/admin/people/30004590' type='person' role='cmp'>Mouret, Jean-Joseph</name>
+        <name key='Lully, Jean-Baptiste' ref='https://muscat.rism.info/admin/people/132446' type='person' role='cmp'>Lully, Jean-Baptiste</name>
+        <name key='Rameau, Jean-Philippe' ref='https://muscat.rism.info/admin/people/169730' type='person' role='cmp'>Rameau, Jean-Philippe</name>
+        <name key='Campra, André' ref='https://muscat.rism.info/admin/people/30000563' type='person' role='cmp'>Campra, André</name>
+        <name key='Lambert, Michel' ref='https://muscat.rism.info/admin/people/30001854' type='person' role='cmp'>Lambert, Michel</name>
+        <name key='Destouches, André Cardinal' ref='https://muscat.rism.info/admin/people/8699' type='person' role='cmp'>Destouches, André Cardinal</name>
+        <name key='Milandre' type='person' role='cmp'>Milandre</name>
+        <name key='Grétry, André-Ernest-Modeste' ref='https://muscat.rism.info/admin/people/83932' type='person' role='cmp'>Grétry, André-Ernest-Modeste</name>
+        <name key='Dalayrac' type='person' role='cmp'>Dalayrac</name>
+        <name key='Piccinni, Niccolò' ref='https://muscat.rism.info/admin/people/17950' type='person' role='cmp'>Piccinni, Niccolò</name>
+        <name key='Martini, J. P. L.' type='person' role='cmp'>Martini, J. P. L.</name>
+        <name key='Cougnard, Manon' type='person' role='int'>Cougnard, Manon</name>
+        <name key='Valmond, Albert' type='person' role='int'>Valmond, Albert</name>
+        <name key='Novalles, Lisy' type='person' role='int'>Novalles, Lisy</name>
+        <name key='Berthoud, Eugène' type='person' role='int'>Berthoud, Eugène</name>
+        <name key='Demas, Noëlle' type='person' role='int'>Demas, Noëlle</name>
+        <name key='Clairval, Esther' type='person' role='int'>Clairval, Esther</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f006676_001.tif'/>
+        <page>
+          <![CDATA[SOIRÉE DE GALA
 donnée par la
-
 SOCIÉTÉ DE MUSIQUE ANCIENNE
 Directeur: Albert VALMOND
-
 CHANTS DE LA
 VIEILLE FRANCE
-
 AIRS DE COUR ET D’OPÉRAS
 MUSIQUE de CHAMBRE - DANSES de STYLE
-
 ’ interprétés en costumes de l’époque par
-
 M'e Manon COUGNARD M. Albert VALMOND
 Cantatrice Baryton de la Schola Cantorum
 de Paris
-
 M"* Lisy NOVALLES M. Eugène BERTHOUD
-
 Pianiste Violoniste, viole d’amour
-
 Mlles Noëlle DEMAS et Esther CLAIRVAL
 Danseuses de caractère
-
 SOIRÉE MUSICALE VERS 1780
-
 Costumes dessinés par M. Rodolphe DUNKI], artiste
 peintre et exécutés par la Maison JAQUEMET
-Danses réglées par M. le Professeur Emile FALK]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f006676_002.tif"/>
-<page><![CDATA[PREMIÈRE PARTIE :
-
+Danses réglées par M. le Professeur Emile FALK
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f006676_002.tif'/>
+        <page>
+          <![CDATA[PREMIÈRE PARTIE :
 a) Plainte de celle qui n’est pas aimée… $ Chansons du
-
 bD'Amour demoi , = XVn siècle
-
 c)-Hymnea lamour:. .… … … J.-J. MoureT.
 ; 1682-1738
-
 d) Air de Cadmus et Hermione.......…. J.-B. Lurus.
-
 j 1632-1687
 M'e Manon COUGNARD.
-
 J.-Ph. RAMEaAv.
 1683-1764
 Auteur inconnu.
-
 Gavotte
 ? pour viole / d'amours13°
-
- 
-
 Musette Ç
 M. BERTHOUD.
-
 Air d’Amadis .… e J.-B. Luris.
-
 Air vif de Silène (cantate) ... CAMPRA. ,
 1660-1745
-
 Rosecsnhumaines … - Campra.
-
 I n’est point d’amour sans peine (chanson)  Michel LAMBERT.
-
 16:0-1696
 M. Albert VALMOND.
-
 Sarabanderdi/ssee …. _ A.-C. DESTOUCHES
 1672-1749
 Gavoite …." 6 Roerr
-
 joués au violon : M. BERTHOUD.
 danses : Ms DEMAS et CLAIRVAL.
-
 Deux brunetttes à deux voix......... Auteur inconnu.
 a) Le printemps ramène la verdure.
 b) N’oubliez pas votre houlette.
-
 Mle COUGNARD et M. VALMOND.
-
 ENTR’ACTE
-
- 
-
- 
-
- 
-
 Ÿ
 5
 U
@@ -161,52 +144,48 @@ M
 *
 PJ
 £
-è]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f006676_003.tif"/>
-<page><![CDATA[(DAMME
+è
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f006676_003.tif'/>
+        <page>
+          <![CDATA[(DAMME
 DEUXIÈME PARTIE
 Andante et menuet (pour viole d’amour) .. MILANDRE.
 1770
 M. BERTHOUD.
-
 a) Ariette de Richard cœur de Lion.. … GrÉTrY.
 1742-1813
-
 bélanson .. ». .- …… … Darxyrac
-
 c) Musette S
 , « Chansons du XVIIIme siècle Auteur inconnu,
 d) Tambourin
-
 Mlle Manon COUGNARD.
-
 Kécitatif ec aird'dtiys …. . … M. Piccini.
 1728-1800
 Bergerette. Philis plus avare que tendre  Auteur inconnu.
 Plassadamous | . ; . … . J.-P.-L. MARTIN!
 , 1741-1816
 Ameterdrdnaetton 41 GRÉTRY.
-
 M. Albert VALMOND.
-
 Menver 11781N 7* GRÉTAY.
 Rigaudons de Dardanus …. … e RAMEAU.
-
 Violon : M. BERTHOUD.
 Danses : Mllee DEMAS et CLAIRVAL.
-
 a) Toutau lounchanies .. .. Trois chansons
 b) Gardez-vous d’être sévère.….....……. mondaines du
 c) Il‘est doux, belle bergère .… XVIIIme siècle,
-
-Mlle COUGNARD et M. VALMOND.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f006676_004.tif"/>
-<page><![CDATA[Phot. F. H. Jullien
-
+Mlle COUGNARD et M. VALMOND.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f006676_004.tif'/>
+        <page>
+          <![CDATA[Phot. F. H. Jullien
 Société de musique ancienne
-
-. ALBERT VALMOND — Mure MANON COUGNARD]]></page>       
-        </p>
+. ALBERT VALMOND — Mure MANON COUGNARD
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

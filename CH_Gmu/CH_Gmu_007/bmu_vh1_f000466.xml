@@ -1,118 +1,117 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Festival : Au bénéfice du poète Nicolo Ansaldi<date when="24/04/1901"/></title>
-<series>1900-1901</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Festival : Au bénéfice du poète Nicolo Ansaldi
+            <date when='24/04/1901'/>
+          </title>
+          <series>1900-1901</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F000466</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Jaques-Dalcroze, E. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19010424"/>
-<title>Festival : Au bénéfice du poète Nicolo Ansaldi</title>
-<placeName key="Victoria Hall"/>
-<name key="1900-1901" type="series"/>
-<name key="Brody, A."  type="person" role="cmp">Brody, A.</name>
-<name key="Jaques-Dalcroze, Emile" ref="https://muscat.rism.info/admin/people/109238" type="person" role="cmp">Jaques-Dalcroze, Emile</name>
-<name key="Membrée, Edmond" ref="https://muscat.rism.info/admin/people/88280" type="person" role="cmp">Membrée, Edmond</name>
-<name key="Wieniawski, Henryk" ref="https://muscat.rism.info/admin/people/137176" type="person" role="cmp">Wieniawski, Henryk</name>
-<name key="Ansaldi, Nicolo"  type="person" role="cmp">Ansaldi, Nicolo</name>
-<name key="Thomas, A."  type="person" role="cmp">Thomas, A.</name>
-<name key="Massenet, Jules" ref="https://muscat.rism.info/admin/people/84264" type="person" role="cmp">Massenet, Jules</name>
-<name key="Saint-Saëns, Camille" ref="https://muscat.rism.info/admin/people/76734" type="person" role="cmp">Saint-Saëns, Camille</name>
-<name key="Hubay, Jenő" ref="https://muscat.rism.info/admin/people/103720" type="person" role="cmp">Hubay, Jenő</name>
-<name key="Fiorillo"  type="person" role="cmp">Fiorillo</name>
-<name key="Leconte de Lisle"  type="person" role="cmp">Leconte de Lisle</name>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Franck, César" ref="https://muscat.rism.info/admin/people/70009" type="person" role="cmp">Franck, César</name>
-<name key="Barblan, Otto" ref="https://muscat.rism.info/admin/people/5298" type="person" role="cmp">Barblan, Otto</name>
-<name key="Vieuxtemps, Henri" ref="https://muscat.rism.info/admin/people/142566" type="person" role="cmp">Vieuxtemps, Henri</name>
-<name key="Chabrier, Emmanuel" ref="https://muscat.rism.info/admin/people/48553" type="person" role="cmp">Chabrier, Emmanuel</name>
-<name key="Leoncavallo, Ruggero" ref="https://muscat.rism.info/admin/people/30007109" type="person" role="cmp">Leoncavallo, Ruggero</name>
-<name key="Händel, Georg Friedrich" ref="https://muscat.rism.info/admin/people/36552" type="person" role="cmp">Händel, Georg Friedrich</name>
-<name key="Goens, Daniel van" ref="https://muscat.rism.info/admin/people/41007232" type="person" role="cmp">Goens, Daniel van</name>
-<name key="La Fontaine, Jean de" ref="https://muscat.rism.info/admin/people/158402" type="person" role="cmp">La Fontaine, Jean de</name>
-<name key="Schumann, Robert" ref="https://muscat.rism.info/admin/people/131206" type="person" role="cmp">Schumann, Robert</name>
-<name key="Dami, A."  type="person" role="cmp">Dami, A.</name>
-<name key="Jaques-Dalcroze, Emile  (dir.)" ref="https://muscat.rism.info/admin/people/109238" type="person" role="int">Jaques-Dalcroze, Emile  (dir.)</name>
-<name key="Vautier-Rutty (Mme)"  type="person" role="int">Vautier-Rutty (Mme)</name>
-<name key="Deytard-Lenoir (Mme)"  type="person" role="int">Deytard-Lenoir (Mme)</name>
-<name key="Vonnez (Mme)"  type="person" role="int">Vonnez (Mme)</name>
-<name key="Haag (Mme)"  type="person" role="int">Haag (Mme)</name>
-<name key="Rey (Mme)"  type="person" role="int">Rey (Mme)</name>
-<name key="Schauffelberger (Mme)"  type="person" role="int">Schauffelberger (Mme)</name>
-<name key="Rehberg, Adolf" ref="https://muscat.rism.info/admin/people/30044261" type="person" role="int">Rehberg, Adolf</name>
-<name key="Rehberg, Willy" ref="https://muscat.rism.info/admin/people/39565" type="person" role="int">Rehberg, Willy</name>
-<name key="Reymond, Eugène"  type="person" role="int">Reymond, Eugène</name>
-<name key="Barblan, Otto" ref="https://muscat.rism.info/admin/people/5298" type="person" role="int">Barblan, Otto</name>
-<name key="Dami, A."  type="person" role="int">Dami, A.</name>
-<name key="Rey, Louis"  type="person" role="int">Rey, Louis</name>
-<name key="Vautier, James"  type="person" role="int">Vautier, James</name>
-<name key="Saxod, Jean"  type="person" role="int">Saxod, Jean</name>
-<name key="Plomb"  type="person" role="int">Plomb</name>
-<name key="Fournier, Eugène"  type="person" role="int">Fournier, Eugène</name>
-<name key="Reymond, Ch."  type="person" role="int">Reymond, Ch.</name>
-<name key="Scheler, Alphonse"  type="person" role="int">Scheler, Alphonse</name>
-<name key="Roch"  type="person" role="int">Roch</name>
-<name key="Leisenheimer"  type="person" role="int">Leisenheimer</name>
-<name key="Bonjour"  type="person" role="int">Bonjour</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000466_001.tif"/>
-<page><![CDATA[— 20 GENTIMES asf.
-
- 
-
- 
-
- 
-
- 
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19010424'/>
+        <title>Festival : Au bénéfice du poète Nicolo Ansaldi</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1900-1901' type='series'/>
+        <name key='Brody, A.' type='person' role='cmp'>Brody, A.</name>
+        <name key='Jaques-Dalcroze, Emile' ref='https://muscat.rism.info/admin/people/109238' type='person' role='cmp'>Jaques-Dalcroze, Emile</name>
+        <name key='Membrée, Edmond' ref='https://muscat.rism.info/admin/people/88280' type='person' role='cmp'>Membrée, Edmond</name>
+        <name key='Wieniawski, Henryk' ref='https://muscat.rism.info/admin/people/137176' type='person' role='cmp'>Wieniawski, Henryk</name>
+        <name key='Ansaldi, Nicolo' type='person' role='cmp'>Ansaldi, Nicolo</name>
+        <name key='Thomas, A.' type='person' role='cmp'>Thomas, A.</name>
+        <name key='Massenet, Jules' ref='https://muscat.rism.info/admin/people/84264' type='person' role='cmp'>Massenet, Jules</name>
+        <name key='Saint-Saëns, Camille' ref='https://muscat.rism.info/admin/people/76734' type='person' role='cmp'>Saint-Saëns, Camille</name>
+        <name key='Hubay, Jenő' ref='https://muscat.rism.info/admin/people/103720' type='person' role='cmp'>Hubay, Jenő</name>
+        <name key='Fiorillo' type='person' role='cmp'>Fiorillo</name>
+        <name key='Leconte de Lisle' type='person' role='cmp'>Leconte de Lisle</name>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Franck, César' ref='https://muscat.rism.info/admin/people/70009' type='person' role='cmp'>Franck, César</name>
+        <name key='Barblan, Otto' ref='https://muscat.rism.info/admin/people/5298' type='person' role='cmp'>Barblan, Otto</name>
+        <name key='Vieuxtemps, Henri' ref='https://muscat.rism.info/admin/people/142566' type='person' role='cmp'>Vieuxtemps, Henri</name>
+        <name key='Chabrier, Emmanuel' ref='https://muscat.rism.info/admin/people/48553' type='person' role='cmp'>Chabrier, Emmanuel</name>
+        <name key='Leoncavallo, Ruggero' ref='https://muscat.rism.info/admin/people/30007109' type='person' role='cmp'>Leoncavallo, Ruggero</name>
+        <name key='Händel, Georg Friedrich' ref='https://muscat.rism.info/admin/people/36552' type='person' role='cmp'>Händel, Georg Friedrich</name>
+        <name key='Goens, Daniel van' ref='https://muscat.rism.info/admin/people/41007232' type='person' role='cmp'>Goens, Daniel van</name>
+        <name key='La Fontaine, Jean de' ref='https://muscat.rism.info/admin/people/158402' type='person' role='cmp'>La Fontaine, Jean de</name>
+        <name key='Schumann, Robert' ref='https://muscat.rism.info/admin/people/131206' type='person' role='cmp'>Schumann, Robert</name>
+        <name key='Dami, A.' type='person' role='cmp'>Dami, A.</name>
+        <name key='Jaques-Dalcroze, Emile' ref='https://muscat.rism.info/admin/people/109238' type='person' role='int'>Jaques-Dalcroze, Emile</name>
+        <name key='Vautier-Rutty (Mme)' type='person' role='int'>Vautier-Rutty (Mme)</name>
+        <name key='Deytard-Lenoir (Mme)' type='person' role='int'>Deytard-Lenoir (Mme)</name>
+        <name key='Vonnez (Mme)' type='person' role='int'>Vonnez (Mme)</name>
+        <name key='Haag (Mme)' type='person' role='int'>Haag (Mme)</name>
+        <name key='Rey (Mme)' type='person' role='int'>Rey (Mme)</name>
+        <name key='Schauffelberger (Mme)' type='person' role='int'>Schauffelberger (Mme)</name>
+        <name key='Rehberg, Adolf' ref='https://muscat.rism.info/admin/people/30044261' type='person' role='int'>Rehberg, Adolf</name>
+        <name key='Rehberg, Willy' ref='https://muscat.rism.info/admin/people/39565' type='person' role='int'>Rehberg, Willy</name>
+        <name key='Reymond, Eugène' type='person' role='int'>Reymond, Eugène</name>
+        <name key='Barblan, Otto' ref='https://muscat.rism.info/admin/people/5298' type='person' role='int'>Barblan, Otto</name>
+        <name key='Dami, A.' type='person' role='int'>Dami, A.</name>
+        <name key='Rey, Louis' type='person' role='int'>Rey, Louis</name>
+        <name key='Vautier, James' type='person' role='int'>Vautier, James</name>
+        <name key='Saxod, Jean' type='person' role='int'>Saxod, Jean</name>
+        <name key='Plomb' type='person' role='int'>Plomb</name>
+        <name key='Fournier, Eugène' type='person' role='int'>Fournier, Eugène</name>
+        <name key='Reymond, Ch.' type='person' role='int'>Reymond, Ch.</name>
+        <name key='Scheler, Alphonse' type='person' role='int'>Scheler, Alphonse</name>
+        <name key='Roch' type='person' role='int'>Roch</name>
+        <name key='Leisenheimer' type='person' role='int'>Leisenheimer</name>
+        <name key='Bonjour' type='person' role='int'>Bonjour</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000466_001.tif'/>
+        <page>
+          <![CDATA[— 20 GENTIMES asf.
 des œuvres de
-
 ËŸ PAROLES INTÉGRALES
 %
-
 qui seront interprétées par l'auteur
 Le Mercredi 24 Avril
 AU VICTORIA-HALL
-
 Ls eC(UBADE A GENÈVE
-
 Genève indolemment assise
-
 “ Ses pieds divins au fil de l’eau,
 Suit la rèverie imprécise
 Qui lui vient du vent et du flot !
@@ -120,69 +119,41 @@ Elle écoute l’onde qui chante
 En arpèges mélodieux,
 Le sonnet d’amour qui l’enchante,
 Le sonnet tendre et radieux.
-
 Refrain :
 Et dont voici la ritournelle :
 — (Genève est belle ! —
-
- 
-
 T7
-
 20 dn é
-
 CT DEDE
-
- 
-
 Il
 - Du muguet à la boutonnière,
 É Le Printemps, le cœur en éveil,
 _ L’âme charmée et prisonnière,
 A Guette Genève a son réveil !
-
 1 Et sitôt que le Jour effleure
 Ses beaux yeux mi-clos d’un frisson,
-
- 
-
 4 ; À ses pieds, que sa lèvre effleure,
 ÿ 11 met ses nids et sa chanson.
-
 Refrain :
 Dont woilà bien la ritournelle :
 L'xcnève est belle! —
-
- 
-
 | III
 | A son lever, en peignoir rose
 ÿ L’aube naissante, en souriant
-
 Ouvre avec un boutou de rose
 Les portes d’or de l’Orient,
-
 Et donne à Genève endormie
-
 Que sa bouche vient d’embrasser,
 — Tel un amant à son amie! —
 Une aubade dans un baiser!
-
 Refrain :
-
 Et dont voici la ritournelle :
 — Genève est belle ! —
-
 Ï T
 ( IV
 |
 |
 }
-
- 
-
- 
-
 Lorsque la nuit, à pleines voiles
 Vogue, oublieuse du sommeil
 ‘ Avec son cortège d’étoiles
@@ -191,55 +162,29 @@ Parfois dans les ondes paisibles
 De l’espace, à grand’peine obscur,
 Du sein des mondes invisibles
 Un chœur éclate dans l’azur.
-
 i
-
 !!ï' ‘ Refrain : -
-
 ÿ Chœur dont voici la ritournélle :
 , — Genève est belle ! —
-
 v
-
 | Elle est belle par son histoire,
-
 | D’hier, d’aujourd’hui, de demain !
-
 | -Par les étapes de victoire
-
 ‘ Dont elle a semé son chemin !
-
 ; Par le Travail et par son Rève
-
 | _ De Paix sainte et de Vérité !
 Par son âme offerte sans trève
 Au culte de la Liberté !
-
 Refrain :
-
 C’est pourquoi je chante avec elle :
 , — Genève est belle! —
-
- 
-
 f Nicolo ANSALDI.
-
 KEaux-Vives, 24 janvier 1897.
-
 ABONNEMENTS
-
 | Un an, 7 fr. — Six mois, 4 fr. — Trois mois, 2 fr. 50 =
-
 M. Nicolo Ansaldi
-
- 
-
 )2, RUE
-
 Le Serment du €rütli
-
- 
-
 La nuit chante sa mélopée
 Au rhytme grave et solennel.
 Pâle, avec des éclairs d’épée,
@@ -247,77 +192,51 @@ L’étoile fleurit dans le ciel.
 Pendant que la lune superbe
 Sur le Grütli pose sa gerbe
 De blancs rayons ;
-
 Trois hommies au visage austère,
 Au sommet du roc solitaire
-
 Font serment d’affranchir leur terre
-
 ‘
-
 Des tyrans et de leurs baillons !
 Ifl'/‘)'ll!‘li ;
-
 Par Christ-Messie,
 Jurons avec fierté
 De rendre à l’Helvétie
 Sa liberté !
-
 Au sein des neiges éternelles,
 Berceaux qui sembent des linceuls,
 Unissant des mains fraternelles
-
 Ils sont là, debouts, fiers et seuls !
 Les trois soldats, les trois apôtres,
 Conquérants du bonheur des autres,
-
 La flamme au front!
-
 Le premier dit : Bien loin des choses,
 En dépit des hivers moroses,
-
 Le fœhn a fait Meurir les roses,
-
 Et nos libertés fleuriront !
-
 L’autre dit : Longtemps nous pliames
 Au joug étranger attachés.
 Nos sœurs, nos filles et nos femmes
 Etaient en proie aux débauchés.
 Nous étions des bêtes de somme,
 Portant César et servant Rome,
-
 Pape et Ribaud !
 Jurons alors qu’on se soulève,
 Et que la Suisse enfin se lève,
 Jurons de ne quitter le glaive
 Quie vainqueurs ou dans le tombeau !
-
 JV
-
 Levant vers la voûte inondée
-
 Du souffle et des clartés de Dieu,
-
 Sa face où resplendit l'Idée,
-
 Un beau vieillard trône au milieu.
-
 Lui dit : Malgré l’aâge qui penche
-
 Ma pauvre vieille tête blanche
 Que vous aimiez,
-
 Je jure d’accomplir ma tâche
-
 Et de combattre sans relâche,
-
 Enfants, et tenez-moi pour lâche
-
 Si je ne meurs un des premiers!
-
 V
-
 Dès le lendemain les batailles
 Firent, avec le sang humain,
 Un manteau de pourpre aux b10u%'ullv
@@ -333,182 +252,92 @@ Par Christ-Messie,
 Gardons avec fierté
 \ la mère Helvétie
 Sa liberté !
-
 DU
-
 !
-
 “ ADMINISTRATION :
 IMPRIMERIE MODERNE
 RHONE, 52
-
- 
-
- 
- 
-
- 
-
 aux de 5 h. !
-
 n d
-
 Avril 1901
-
 sa-64f;
-
 ill y a lieu.
-
- 
-
 Ï‘ ; JONCES
 La ligne ou son « ‘
-
 v u
 Réc l1mes .
-
 .Q
-
- 
-
 A mon ami Elie Ducommun. } _
-
 Je chante encore
-
 Ce n’est plus le temps des roses,
-
 Le joli temps initial
-
 Des baisers et des aveux roses
-
 Pris aux lèvres de l'Idéal !
-
 C’est l’hiver, et ma tête penche
 Toujours plus vers les noirs séjours.
 Et l’urne de ma vie épanche
-
 Ses derniers mois, !
-
 ses derniers jours !
-
 Refrain :
-
 Et cependant je chante encore,
 Immuable et divin Credo,
-
 Le ciel, le nid, la fleur, l’aurore !
 Jusqu’à la € l||… du rideau !
-
 Dès l’éveil, hélas! dès l’enfance,
 Plus frêle que le frêle oiseau,
-
 Sans abri presque, sans défense,
 Sans langes, ni lait, ni berceau,
 Jai connu toutes les misères ;
-
 Les haillons, les souliers percés,
-
 La faim qui vous tient aux viscères,
 Le foyer mort aux jours
-
 glacés.
-
 IT!
-
 Tout le long de ma triste route,
-
 De mes espoirs sans lendernain,
-
 Pai vu mes rèves en déroute
-
 Saigner aux ronces du chemin !
-
 JPai vu, dans mes luttes sans nombre
 Les défaites s’'amonceler,
-
 Et du melheur la porte sombre
-
 Sur moi s'ouvrir et se sceller !
-
 1V
-
 En cette fin de siècle immonde,
-
 Sur la pente où nous dévalons
-
 Le glaive et l’or, maitres du monde
-
 Mettent le droit sous leurs talons !
-
 Les gloires, de sang revêtues,
-
 Sont à la solde des comptoirs,
-
 Et l’on élève des statues
-
 A des généraux d’abattoirs !
 V
-
 Mais, malgré les loules sans courage,
-
 Malgré les grands sans charité,
-
 Malgré que la main$de l’outrage
-
 Soufflette encore la vérité,
-
 Ma foi triomphante demeure !
-
 Et la justice, et la raison
-
 En paix dans l’'humaine demeure,
 Auront un jour leur floraison !
-
 Refrain :
-
 l£t c’est pourquoi je chante encore,
-
 Je chante avant que de finir,
-
 Le ciel, le nid, la fleur, l’aurore
-
 Des jours meilleurs qui vont venir.
 Nicolo ANSALDI.
-
 Carouge, 13 mai 1890,
-
- 
-
- 
-
- 
-   
- 
-  
-
 Allons fjior po
 Jette u
 À tes enfants,
-
 Pauvre
-
 Éclosion
-
- 
-
 0.20
 0.40
-
- 
-
 » pour les tyvrans,
 leur masque
 irire surla bouche
-
 libert Berthelier
-
 de l'histoire genevoise
-
 I
 te comme une aile
 et dans la nuit,
@@ -524,25 +353,19 @@ ippel glorieux :
 iort prompte et terrible
 elui qu'on voit plier,
 ‘or si c'est possible,
-
 hilibert Berthelier !
 Il
-
 farouche
 \vln’*l{-_
-
 de la liberté.
 comme l'alvéole
 omis à l’auréole,
-
 re au nimbe si beau
-
 Is du Léman au Tibre
 tout homme libre
 du tombeau
 [Il
 vre imprégnée
-
 vu tes bourreaux
 d’'araignée
 seurs, tes héros.
@@ -563,172 +386,81 @@ er à sa fin.
 1 uB |ll‘\l“
 te à ce rève
 enlin.
-
 ur toile
-
 ‘omesse,
-
 MATION
 eurs matinales et roses
 monts leurs pétales de roses
 Sa voix semble bénir
 rceaux … Le bourreau va venir...
 triote avant que sonne l'heure
-
 ydieu suprème à ta femme qui pleure,
 hélas! que tu fais orphelins,
 œurs déchirés, de ton calvaire pleins
 hère couvée ! 0 sainte moissonnée
 d'amour que Dien m'avait donnée
-
 Adieu! !eg entretiens si familiers du soil
-
 Adieu !
-
 heure est venue et cette heure est béni
-
 Et le |» |1 et l'époux t'offrent lenr agonie
-
 0 Genè
-
 ; ! 0 patrie! 0 peuple grandissant !
-
 Un jo1 m9 libertés éoloront de mon sang
-
 Refrain :
-
 Devant la mort prompte et terrible
 Lache est celui qu’on voit plier,
 Grandis encor si c’est |m\|l ‘|
 Debout! Philihert Berthelier
-
-(renève, 1875.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000466_002.tif"/>
-<page><![CDATA[—T—v—v—v—_——"ï“ =
+(renève, 1875.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000466_002.tif'/>
+        <page>
+          <![CDATA[—T—v—v—v—_——"ï“ =
 sE ETE E S
-
-  
-
 EN VE ‘ÏTE DANS
-
 'LENDID PROGRAMME
-
 TOUS LES KIOSQUES
-
- 
-
 m
 ‘
-
-   
- 
-
 MR
-
 ëhrhesh«aÇaæcæno
-
 GENÈVE — 11, Rue d’Italie, uî GENÈVE
-
 »
-
- 
-
 &
-
 *x
-
 ä _X. ;
 ""i.\x Â S
-
 z , BALS UI ËOI\
-
 x
-
- 
-
 —
 ——>> e
-
- 
-
 4. Corraterie, 4
 GENÈVE
-
- 
-
- 
-
 UL
-
 :e Rhum, des
-
- 
-
 J HERNAMINOS aux Ant11 e
-
 ms habiadons de ( MOs 4 e rN S
 QU EN BOUTEILLES D’ORIGINE. ; ;
 MONMASSON-GARCIN, 6, Rond-Poiut (e Plaiuyalais
-
- 
-
- 
-
- 
-
-     
-   
-   
-   
-  
-
 SALON maîîÏ.nu
-
 Rue Bonivard, 2 (à côté de l'Eylise Anglaise)
-
 NETTÛYAGE DE CHAUSSURES
-
 Bool U[u/1mm/ — hh(‘[t‘f: fte 1m_;rmr;
-
 O
-
 Gran 0n niffure
-
 POUR
 DAMES ET ŒESSI@URS
-
 Nenry Cocanier
 Croix de I'IU/C.\ÿCZH de Coifjure
-
 À, Place de là EÉusterie, 4
-
 GENÈVE
-
- 
-
 Installation Moderne --- Appareis Antiseptiques
 Spécialité de Schampooing
 SÉCHOIR ÉLECTRIQUE
-
 =
 tQ"c'Uc'}a fione 3672
-
- 
-
-  
-   
- 
- 
- 
- 
- 
-   
-   
- 
- 
-
 AVIS
-
 Nous rappelons aux Sociétés, ainsi qu’à
 MM. les Artistes, Directeurs d’attractions,
 ete., que nous annonçons gratuitement les
@@ -737,9 +469,6 @@ qués assez tôt. Ceci pour répondre à cer-
 taines réclamations, et dontla faute incombe
 aux intéressés qui négligent d’envoyer une
 note, ou l’envoient trop La1w\.
-
- 
-
 teurs, et dans le but d’augmenter l’intérêt
 de notre publication, nous donnerons, du-
 rant la saison d’été, une Ëdesalptmn des
@@ -748,29 +477,12 @@ verses de Genève, et e\<u1àions autour de
 Genève, ce qui constituera un programme
 général de toutes lés attractions recherchées
 par les personnes ayant desloisirs.
-
 Toujours désireux de sa%}'st‘aire nos lee-
-
 PV
-
 P SS
-
- 
-
- 
-
- 
-
- 
-
- 
-
 ATAR__s« GENÈVE
-
 K
-
 Est (né le 1% janvier 1838, à Port-Maurice (Italie). Issu de
-
 pareuls ayant connu la fortune parintermittence, Nicolo n'eüt
 pas le bonheur d'en profiter, c'est ainsi que Elie Ducommun
 raconte sa naissance au fond d’une chambre en contre-bas,
@@ -795,7 +507,6 @@ l ans pour en faire un garcon boulanger. Mais une vocation
 irrésistible se dessinait lentement chez Nicolo, et la muse
 commencçait à lui dévoiler ses secrets; il lisait les grands
 poètes : Lamartine, Vietor Hugo, ete.
-
 Le régime mal équilibré qu’il suivait (recevant une livre de
 pain par jour et une allocation de 20 centimes), fit qu’il
 tomba malade, et c’est pendant ce repos forcé qu’il mit au
@@ -806,7 +517,6 @@ rendait, et y joue successivement avec succès « Ruy Blas »,
 « Hernani », « Buridan », etc. Dès lors sa vocation lui sem-
 blait établie et il lächait le pétrin pour se vouer exclusivement
 au théâtre.
-
 Il entra au théâtre de Toulon, c’est là qu'il fit connaissance
 de M Philippe, jeune premier mlc qui devint Mr° Ansaldi.
 Ils louent ensuite aux théâtres de Marseille, Avignon, Nimes,
@@ -822,230 +532,115 @@ Depuis longtemps déjà, la Suisse est devenue sa deuxième
 patrie, et c'est à elle qu'il a consacré la plus grande partie de
 ses œuvres. M'e Nicolo Ansaldi, très bonne musicienne, en à
 écrit elle-même la musique.
-
- 
-
- 
-
- 
-
 MUSÉE
-
- 
-
- 
-
 CÛNCERTS SPECTACLES
-
 Attractions diverses, Réunions, etc.
-
 du 21 au 26 Avril inclus
-
 TOUS LES JOURS
-
 KURSAAL DE GENEVE (Nouveau Théâtre). — Tous
 les soirs, à 8 heures, spectacle varié. Dimanches,
 jeudis et jours fériés, matinées.
-
 ALHAMBRA (av. du Mail).— En attendant l’ouverture
 des concerts d’été, tous les soirs, concert d’orches-
 tre dans la salle de la brasserie.
-
 CASINO DE L’ESPÉRANCE (rue de Carouge).
-
 EDEN CONCERT (r. des Alpes). — Tous les soirs,
-
 concert par une troupe choisie.
-
 CAFE-BRASSER(E-DU GOTHARD (Chantepoulet, 25).
 — Tous les samedis et dimanches, à 8 h. 1/2
 Spectacle-Concert.
-
 DES ARTS DECORATIFS. —l‘\pO<ili0n‘ |
-
 objets achetés par le Musée à l'E \pn<…0H de Paris.
-
 Ouvert tous les ‘ours, sauf le samedi de L à % h. : .
-
 le dimanche de 9 h. à midi. '
-
 MUSEE FOL (Gd-Rue, 11). )
 de L à & h: Aut. j., de 9à 5'h., (Antiquités). .
-
 EXPOSITION DE PEINTURE (Athénée). — Exposit.
 permanente. (Société des Amis des Beaux-Arts),
 de 10 à 6 h. ; dimanche de 11 à % h. Entrée : 1 îr.
-
 MUSEE RATH ('l’lave Neuve). — Ouvert le dimanche
 de 10 h. à % h. : lundi, mercredi, jeudi et ven-
 dredi, de 12 à 4 h.; entrée cratuite. A part les
 jours et heures indiqués, visible contre 50 cent.
 d'entrée.
-
 BATIMENT ELECTORAL: — Du 22 avril au 22 mai,
 17me Exposition municipale des beaux-arts.
-
 — Ent. gr. jeudi et dim.,
-
 50 c.
-
 e
-
 BATIMENT ELECTORAL (salle de l’Institut). — Tous
 les jours, de 10 h. à 5 h. Exposition des peintures
 de Mlle E. de Stoutz. Entrée 0,50.
-
 BATIMENT ELECTORAL (salle des gardes) dugg/ à
-
 27 avril, exposition d’art décoratil de P. Lugrin,
 ouverte de 10 h. à 6 h. Entrée 0,50.
-
 SAMEDI 20 AVRIL
-
 VICTORIA-HALL. concert par l’Harmonie
 Nautique, au bénéfice du monument international
 Verdi. Entrée : 3 fr., 2 îfr. et 1 îr.
-
 AMIS DE L'INSTRUCTION. — 8 h., soirée littéraire
 et musicale. Entrée : 5 [r., 1,50 et 1 îr.
-
 DIMANCHE 21
-
 SALONS BOHRER (Terrassière). — 8 h., soirée mu-
 sicale, littéraire et dansante par la société litté-
 raire Les Amis de la Gaité, avec le concours des
 Hiralès, duettistes à lranslormatmns, M. Milhon,
 sawphomste et d’un groupe Iyrique. A 11 h., bal
 conduit par l’orchestre Estudiantina et hraﬂe de
-
 la tombola.
-
 AMIS DE L'INSTRUCTION. — 7 h., soirée de bien-
 faisance organisée par la Chorale et le Cercle
 de St-François. Entrée : 3 fr., 2 fr. et 1 ir.
-
 MERCREDI 24 AVRIL
-
 VICTORIA-HALL. — 8 h,, Concert Nicolo Ansaldi.
 (Voir programme en 3° page).
-
 VENDREDI 26
 — Tournée Ch. Baret.
-
 Ÿ ; 5 S»
-
 va-.‘
-
-    
-
 THÉATRE.
-
 | ;
 —æ—_—s—_—æ—x_“P—P—“P—P<—<_—P—P7 <= e e E —E S S S S n
-
 w}
-
 z
-
 e E rr 2 f Srapirgess t popect
-
 hl 1E
-
 Ls e 2R
-
 EU
-
- 
- 
-
- 
-
-Gmn t]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000466_003.tif"/>
-<page><![CDATA[G® CORDONNERIE MODERN
-
+Gmn t
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000466_003.tif'/>
+        <page>
+          <![CDATA[G® CORDONNERIE MODERN
 haussurs eVille, à Dorées e de Sports, [n 12.90 2112.90 touxu …
-
 e E
-
 W2%%2%ä%W
 ;t; VICTORIA HALL “=—,à =
 Mercredi 24 Avril, à 8 /zeures du soir
-
 FESTIVAL
-
 ORGANISÉ >:Ï
 MAu Bénéfice du Poète Nicolo Ansaldi 4
-
- 
-
- 
-
-     
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 u =:=.=_—:1 ____,(e( e [0 çr——lo ,.. m= @, es [‘l
-
 » N 0 pa
 “ Y D V
 W ! w ä %“ 4 , (\ ; A @
 l À IN n ’)Ë (l /
-
- 
-
 Jl
-
- 
-
 O
-
 ﬁ.
 ce
 Q
 ®
-
- 
-
- 
-
- 
-
 LIVEALYOC
-
 D
 >
-
- 
-
 avec /4' ///.1'///'l'/I'/111// concours e =/
-
 Mmes VAUTIER-RUTTY, DEYTARD-LENOIR, VONNEZ, HAAG, REY “ Ü
 SCHAUFFELBERGER 3
 MM. WitLy et ADoLPHE REHBERG
 EUGÈNE REYMOND,  Orro BARBLAN, À. DAMI,  JAQUES-DALCHOGH
-
- 
-
- 
-
 n lOnele T 0
-
-   
-
- 
-
 H n
 Professeurs au Conservatoire ä ; N
 MM. Louvrs REY, l'/"//ï'\‘>‘t'”l' à l'Académie de .‘[">‘“/"" | E
@@ -1088,9 +683,6 @@ R> RD m /j James Vautier. ; ; 7
 e cU Faniion, e 1 e Hubay. b) Chanson de Mai........…. » ; —
 ÎÜ_ c! -20me ètude e 040e Fiorillo. Chœurs chantés par un groupe ‘_ ; |
 = Pour violon, par un groupe d'élè- d'élèves de M"* Deytard-Lenoir ; ‘ (
-
- 
-
 ves de M, Louis Rey, accompa- v. Agnus Doi 400 ga A. Dami.
 gné par M"* Rossille-Duret, Pour voix de femmes, avec ac-
 9. Le cœur d'Hyalmar ........ Leconte de Lisle. compagn,. d’orgue, Chanté par
@@ -1098,23 +690,14 @@ Poème dit par M. E. Fournier. un qroupe d’'élèves de M. Dami,.
 10. Rondes enfantines......…. .. Jaques-Dalcroze,
 Chantées et dansées par un
 chœur d'enfants,
-
- 
-
 Pianos à queue, de la Muison Erard, aux bons soins de MM. BRON et BERGUER
 Prix des places : Rez-de-chaussée, loges, 5 fr. ; parquet, 4 fr.; parterre, 3 fr.; pourtour 3 fr, ;
-
 promenoir, 2 fr. ; amphithéâtre, 2 fr.; podium, 2 fv.; première galerie, loges, 5 fr.; fauteuils face, n
-
 der et Qme rang, 4 fr.; balcon, 1«r rang, 3 fr.;, amphithéâtre, 3 fr.; balcon, 2e et 3me rang, % fr.; ' ; ——3
-
 orgue, 2 f{r.; balcon, 4me rang, 1 fr.; deuxième galerie, amphithéâtre, 2 fr. ; balcon, 1 fr. -—
 LA LOCATION est ouverte chez M: ROTSCHY, musique et instruments, Corraterie, 22. On peut { _\‘;\}
-
 etenir ses places par correspondance, ou téléphone n° 3477. 3
-
 « | f ï ï Ar/
-
 GESRREPTESTT
 RS E G
 SRS TERE S
@@ -1128,54 +711,33 @@ CIRRE
 cmm=
 —s
 ,_:…—, -4
-
 00000
-
- 
-
-   
-
 l'/1/)]l/r | l PE
 ““…\ l n p
-
 N
-
- 
-
 qui W
 ù p |l |ll……ll“ “ ..(n/"‘° , ‘…,\ à
 M ( V m. C | 0/
-
- 
-
 | ; Ansaldi,au piano, M"* Ansaldi Par M. Jean Saxod. j
 F 6. Air de Fhiline (Mignon) ... A Thomas. - «) Lemeunier, sonfilsetl’âne La Fontaine. |
 M"* \uulu’r|—l(tu 1. ) L'Ob ; Qr
 2 7. Arioso du Roi de Lahore .... Massenet. E N R OE e
 - M. , 4 its par Alph, Scheler ‘ €_ ,ÿ
 : : !
-
- 
-
- 
-
- 
-
- 
-
 }
 \’
 .
 i
 x
 1
-
 M(“]ES CAPOTES (irilié àe fornes)
 Modèles de JParis et Créations de la MMaison
-M“ MULLER, 15, lue des Étuves, 13]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000466_004.tif"/>
-<page><![CDATA[]]></page>       
-        </p>
+M“ MULLER, 15, lue des Étuves, 13
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000466_004.tif'/>
+        <page><![CDATA[]]></page>
+      </p>
     </body>
   </text>
 </TEI>

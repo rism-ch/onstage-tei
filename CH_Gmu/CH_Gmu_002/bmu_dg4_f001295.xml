@@ -1,129 +1,116 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Grand concert donné avec le concours de Mme Ketten, M. L. Ketten, M. Lamoury, M. Rey<date when="28/09/0018"/></title>
-<series>[18--?]</series>
-<placeName>Kursaal</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Grand concert donné avec le concours de Mme Ketten, M. L. Ketten, M.
+            Lamoury, M. Rey
+            <date when='28/09/1899'/>
+          </title>
+          <series>[18--?]</series>
+          <placeName>Genève, Kursaal</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU DG4 F001295</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Gobert, H. (dir)</note>
+        <note>Date incertaine</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="00180928"/>
-<title>Grand concert donné avec le concours de Mme Ketten, M. L. Ketten, M. Lamoury, M. Rey</title>
-<placeName key="Kursaal"/>
-<name key="[18--?]" type="series"/>
-<name key="Weber, Carl Maria von" ref="https://muscat.rism.info/admin/people/117485" type="person" role="cmp">Weber, Carl Maria von</name>
-<name key="Léonard"  type="person" role="cmp">Léonard</name>
-<name key="Lacome, Paul" ref="https://muscat.rism.info/admin/people/30024118" type="person" role="cmp">Lacome, Paul</name>
-<name key="Chopin, Fryderyk Franciszek" ref="https://muscat.rism.info/admin/people/51160" type="person" role="cmp">Chopin, Fryderyk Franciszek</name>
-<name key="Méhul, Etienne-Nicolas" ref="https://muscat.rism.info/admin/people/101056" type="person" role="cmp">Méhul, Etienne-Nicolas</name>
-<name key="Gobert"  type="person" role="cmp">Gobert</name>
-<name key="Gounod, Charles-François" ref="https://muscat.rism.info/admin/people/80479" type="person" role="cmp">Gounod, Charles-François</name>
-<name key="Maillart"  type="person" role="cmp">Maillart</name>
-<name key="Vieuxtemps"  type="person" role="cmp">Vieuxtemps</name>
-<name key="Wieniawski, Henryk" ref="https://muscat.rism.info/admin/people/137176" type="person" role="cmp">Wieniawski, Henryk</name>
-<name key="Tito-Matel"  type="person" role="cmp">Tito-Matel</name>
-<name key="Ketten"  type="person" role="cmp">Ketten</name>
-<name key="Reber"  type="person" role="cmp">Reber</name>
-<name key="Gobert, Henri (dir.)"  type="person" role="int">Gobert, Henri (dir.)</name>
-<name key="Ketten, Léopold"  type="person" role="int">Ketten, Léopold</name>
-<name key="Ketten (Mme)"  type="person" role="int">Ketten (Mme)</name>
-<name key="Lamoury"  type="person" role="int">Lamoury</name>
-<name key="Rey"  type="person" role="int">Rey</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f001295_001.tif"/>
-<page><![CDATA[d
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18990928'/>
+        <title>
+          Grand concert donné avec le concours de Mme Ketten, M. L. Ketten, M.
+          Lamoury, M. Rey
+        </title>
+        <placeName key='Genève, Kursaal'/>
+        <name key='[18--?]' type='series'/>
+        <name key='Weber, Carl Maria von' ref='https://muscat.rism.info/admin/people/117485' type='person' role='cmp'>Weber, Carl Maria von</name>
+        <name key='Léonard' type='person' role='cmp'>Léonard</name>
+        <name key='Lacome, Paul' ref='https://muscat.rism.info/admin/people/30024118' type='person' role='cmp'>Lacome, Paul</name>
+        <name key='Chopin, Fryderyk Franciszek' ref='https://muscat.rism.info/admin/people/51160' type='person' role='cmp'>Chopin, Fryderyk Franciszek</name>
+        <name key='Méhul, Etienne-Nicolas' ref='https://muscat.rism.info/admin/people/101056' type='person' role='cmp'>Méhul, Etienne-Nicolas</name>
+        <name key='Gobert' type='person' role='cmp'>Gobert</name>
+        <name key='Gounod, Charles-François' ref='https://muscat.rism.info/admin/people/80479' type='person' role='cmp'>Gounod, Charles-François</name>
+        <name key='Maillart' type='person' role='cmp'>Maillart</name>
+        <name key='Vieuxtemps' type='person' role='cmp'>Vieuxtemps</name>
+        <name key='Wieniawski, Henryk' ref='https://muscat.rism.info/admin/people/137176' type='person' role='cmp'>Wieniawski, Henryk</name>
+        <name key='Tito-Matel' type='person' role='cmp'>Tito-Matel</name>
+        <name key='Ketten' type='person' role='cmp'>Ketten</name>
+        <name key='Reber' type='person' role='cmp'>Reber</name>
+        <name key='Gobert, Henri' type='person' role='int'>Gobert, Henri</name>
+        <name key='Ketten, Léopold' type='person' role='int'>Ketten, Léopold</name>
+        <name key='Ketten (Mme)' type='person' role='int'>Ketten (Mme)</name>
+        <name key='Lamoury' type='person' role='int'>Lamoury</name>
+        <name key='Rey' type='person' role='int'>Rey</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f001295_001.tif'/>
+        <page>
+          <![CDATA[d
 “
-
 e
-
 e
-
 %
-
 MPEN
 ®
-
- 
-
 4
-
- 
-
 @
-
 eL
-
 C1a
-
 e
-
 e
-
 1QX un -7---0,
-
 ç D4 % ‘%£/>Œ%€‘ÆBÆXF_—7/Ê_ÆîÏ:È%
 y Vc ;
-
 CR TS
-
 (S
 ,Qier
-
 3
-
 KURSAAL INTERNATIONAL DE GENEÈVE
-
- 
-
 Lundi 28 Septembre, à & h. 1/2 du soir
-
 INVITATIONS ET ABONNEMENTS COURANTS
-
 RAND CONC
-
 DONNÉ AVEC LE CONCOURS DE
-
 M KETTEN —- M, L KETTEN
-
 M. LAMOURY, violoncelliite. — M. RE 'Y, violoniste.
-
 PROGRAMME :
-
 PREMIÈRE PARTIE
-
 Ouverture d'Euryanthe .
 Souvenir de Bade .
 (M. REY,.
@@ -135,7 +122,6 @@ Air de Joseph. ;
 (M. KETTEN).
 Jota aragonaise . ;
 (Orchestrée par H. GOBERT)
-
 DEUXIÈME
 Ouverture de Cinq-Mars
 Air des Dragons de Villars .
@@ -147,45 +133,32 @@ Non è ver.
 a) Dans les bois.
 b) Un bal d’oiseaux
 (Mme-KETTEN).
-
 WEBER.
-
 LEONARD.
 LACOME.
 CHOPIN.
 MÉHUL.
 GOBERT.
-
 PE
-
 GOUNOD.
 MAILLART.
-
 VIEUXTEMPS.
 WIENIAWSKI,
-
 Tiro-MATE:.
 KETTEN.
 LACOME.
-
 Le Diable amoureux, ballet (danse des Pirates) . . en E REBER.
-
 Henri GOBERT, Chef d'Orchestre.
-
- 
-
- 
-
 SOIRÉE DANSANTE APRÈS LE CONCERT
-
 Pris d’'entrée : 3 F'r. — Réservées : B Fr.
-
 } T
 C 2 }
 d LI 0% ;
 OS QSnF SPIN SS
-——J SH ; Imp. Centrale Genevoise,]]></page>       
-        </p>
+——J SH ; Imp. Centrale Genevoise,
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

@@ -1,211 +1,176 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Grand concert populaire donné par l'Orchestre militaire du 1er régiment badois n° 109 des grenadiers de la garde de Carlsruhe<date when="30/06/1875"/></title>
-<series>1874-1875</series>
-<placeName>Brasserie des Pâquis</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Grand concert populaire donné par l'Orchestre militaire du 1er
+            régiment badois n° 109 des grenadiers de la garde de Carlsruhe
+            <date when='30/06/1875'/>
+          </title>
+          <series>1874-1875</series>
+          <placeName>Genève, Brasserie des Pâquis</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU DG4 F001326</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Boettge, A. (dir)</note>
+        <note>Date présumée</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18750630"/>
-<title>Grand concert populaire donné par l'Orchestre militaire du 1er régiment badois n° 109 des grenadiers de la garde de Carlsruhe</title>
-<placeName key="Brasserie des Pâquis"/>
-<name key="1874-1875" type="series"/>
-<name key="Hamm, Johann Valentin" ref="https://muscat.rism.info/admin/people/44440" type="person" role="cmp">Hamm, Johann Valentin</name>
-<name key="Nicolai, Otto" ref="https://muscat.rism.info/admin/people/100329" type="person" role="cmp">Nicolai, Otto</name>
-<name key="Mendelssohn Bartholdy, Felix" ref="https://muscat.rism.info/admin/people/88790" type="person" role="cmp">Mendelssohn Bartholdy, Felix</name>
-<name key="Strauß, Johann" ref="https://muscat.rism.info/admin/people/132082" type="person" role="cmp">Strauß, Johann</name>
-<name key="Lortzing"  type="person" role="cmp">Lortzing</name>
-<name key="Rossini, Gioachino" ref="https://muscat.rism.info/admin/people/63766" type="person" role="cmp">Rossini, Gioachino</name>
-<name key="Boettge"  type="person" role="cmp">Boettge</name>
-<name key="Unrath"  type="person" role="cmp">Unrath</name>
-<name key="Kontsky"  type="person" role="cmp">Kontsky</name>
-<name key="Latann"  type="person" role="cmp">Latann</name>
-<name key="Boettge, Adolf  (dir.)" ref="https://muscat.rism.info/admin/people/22846" type="person" role="int">Boettge, Adolf  (dir.)</name>
-<name key="Orchestre militaire du premier régiment badois n° 109 des grenadiers de la garde de Carlsruhe"  type="person" role="int">Orchestre militaire du premier régiment badois n° 109 des grenadiers de la garde de Carlsruhe</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f001326_001.tif"/>
-<page><![CDATA[e Brasserie-Restaurant des Pâquis
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18750630'/>
+        <title>
+          Grand concert populaire donné par l'Orchestre militaire du 1er
+          régiment badois n° 109 des grenadiers de la garde de Carlsruhe
+        </title>
+        <placeName key='Genève, Brasserie des Pâquis'/>
+        <name key='1874-1875' type='series'/>
+        <name key='Hamm, Johann Valentin' ref='https://muscat.rism.info/admin/people/44440' type='person' role='cmp'>Hamm, Johann Valentin</name>
+        <name key='Nicolai, Otto' ref='https://muscat.rism.info/admin/people/100329' type='person' role='cmp'>Nicolai, Otto</name>
+        <name key='Mendelssohn Bartholdy, Felix' ref='https://muscat.rism.info/admin/people/88790' type='person' role='cmp'>Mendelssohn Bartholdy, Felix</name>
+        <name key='Strauß, Johann' ref='https://muscat.rism.info/admin/people/132082' type='person' role='cmp'>Strauß, Johann</name>
+        <name key='Lortzing' type='person' role='cmp'>Lortzing</name>
+        <name key='Rossini, Gioachino' ref='https://muscat.rism.info/admin/people/63766' type='person' role='cmp'>Rossini, Gioachino</name>
+        <name key='Boettge' type='person' role='cmp'>Boettge</name>
+        <name key='Unrath' type='person' role='cmp'>Unrath</name>
+        <name key='Kontsky' type='person' role='cmp'>Kontsky</name>
+        <name key='Latann' type='person' role='cmp'>Latann</name>
+        <name key='Boettge, Adolf' ref='https://muscat.rism.info/admin/people/22846' type='person' role='int'>Boettge, Adolf</name>
+        <name key='Orchestre militaire du premier régiment badois n° 109 des grenadiers de la garde de Carlsruhe' type='person' role='int'>
+          Orchestre militaire du premier régiment badois n° 109 des grenadiers
+          de la garde de Carlsruhe
+        </name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f001326_001.tif'/>
+        <page>
+          <![CDATA[e Brasserie-Restaurant des Pâquis
 49, RUE DE LAUSANNE, 49 271N
-
 \[e rer edi. le 30 Juin /'
-
 DONNÉ PAR ,
-
 Mrchestre militaire du 1” régiment badois N° 109
 des Grenad1ers de la garde de Carlsruhe
-
 sous la Direction de M. A. BŒTTGE
 “ 50 artistes
-
 Programme
-
 1 PARTIE
-
 “
-
 1° ‘\Æarche de parade Hamm.
 9 ()uverture des Joyeuses Femmes de W'nu]sor ; Nicolaï.
 3° Chant sans paroles . u. . . Mendelssohn.
 40 MäHeret-wiie Nuits/(vailse) ( # 21 2 - » Strauss.
-
 59 Grande fantaisie : Czar le charpentier . Lortzing.
-
 2me PARTIE
-
 69 Ouverture de l'op. les Italiens en Algérie . . | Rossini.
-
 79 Souvenir de l’op. Tannhäuser ... Bôttgè.
 89 Paroles musicales (polka). . Unrath.
-
 1T dution 1 us . Kontsky.
-
 109 Ernstes und Heiteres aus der Tonwelt (pot-pourri).  Latann.
-
-T. S. V.P.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f001326_002.tif"/>
-<page><![CDATA[Gmnde Brasserie des Paqms
-
+T. S. V.P.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f001326_002.tif'/>
+        <page>
+          <![CDATA[Gmnde Brasserie des Paqms
 ;CART R de CONSOMMATIÛN
-
 Pendant les Concerts et jours de fête
-
- 
-
- 
-
 “ CARTE DES-VINS — 1 CARTE DES METS
-
- Vin ordinaire rouge . . . fr. =- Demi-Poulet. .. . . . fr. B 50
-
+Vin ordinaire rouge . . . fr. =- Demi-Poulet. .. . . . fr. B 50
 BeefsteakK. ... ... . | # »
 Cotelette de veau 90
 20
-
 N Wlzanac .
-
 , Maicom ….
-
 Élaavaaurx . Filet sauté
 Oreilies de veau. 90
 Moôti de veau froid . 70
-
 SJiamalbou avcc cornichons. . 70
-
 Ciépy
-
 - Sulicmna.
-
 Vià d'Espagne
 Y vorne
-
 es 0s rs P
-
 sduuod 0RI
-
 w
-
 we
-
 Saucisson dc Bologne 65
-
 Markszsratier
 Saujolnis, Fleury
 Xenuvthaätel rouge)
-
 Paté froid.
 salade
-
 Petits Pois.
 P>oaames de terre
-
 —>
 »»
 >
 »
-
 &
-
 Usonrdtisux
-
 “
-
 Niersteiner
 Moselbitimchen
 Clhiampagne .
-
 Vins du Rhin maardimes., la pièce .
-
 Oeufs, la pièce.
-
 “ <
-
 Panüna (extra), la portion .
 - P’etits paînas ou Dessert, la pièce H cts.
 Liqueurs à 2O cent.
 mm — Cognac — ,Kirseh — Absinthe — Ver-
 mouth — Bitter — Anisctte — Sirop — Kiimmel
 Cassis — Quina — Curacao.
-
 Café 25 cent.
 avec Kirsch, Rhum, où Cogñac 40 cent.
-
 Vhé 50 cent. In tasse
-
 Consommiation à 30 cent.
-
 Puneh — Grog — Cognde fine C "hampagne -— Char-
 treuse — Parfait-d’Aniour — Peppermint — Crême
 de Vanille — Madère.…
-
 Blèrc lu cChope 20 cent.
-
 Eau de soude 20 cent.
 îﬁ:ài]æh0};. 23 cts. — Limonade 30 cts.
-
- 
-
 Bemi-Glace 40 cent.
-
 e e m e rr m e ; —
-
- 
-
-Genève. - Imp \nhonule rue du Môle. 6 (Paqms)]]></page>       
-        </p>
+Genève. - Imp \nhonule rue du Môle. 6 (Paqms)
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

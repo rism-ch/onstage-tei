@@ -1,146 +1,127 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Deuxième concert donné par la Société des concerts du Nouvel Orchestre<date when="13/01/1886"/></title>
-<series>1885-1886</series>
-<placeName>Conservatoire</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Deuxième concert donné par la Société des concerts du Nouvel
+            Orchestre
+            <date when='13/01/1886'/>
+          </title>
+          <series>1885-1886</series>
+          <placeName>Genève, Conservatoire</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU DG3-3 F001652</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Jaques-Dalcroze, E. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18860113"/>
-<title>Deuxième concert donné par la Société des concerts du Nouvel Orchestre</title>
-<placeName key="Conservatoire"/>
-<name key="1885-1886" type="series"/>
-<name key="Gluck, Christoph Willibald" ref="https://muscat.rism.info/admin/people/67338" type="person" role="cmp">Gluck, Christoph Willibald</name>
-<name key="Massenet, Jules" ref="https://muscat.rism.info/admin/people/84264" type="person" role="cmp">Massenet, Jules</name>
-<name key="Field"  type="person" role="cmp">Field</name>
-<name key="Guiraud, Ernest" ref="https://muscat.rism.info/admin/people/30024115" type="person" role="cmp">Guiraud, Ernest</name>
-<name key="Roth, A."  type="person" role="cmp">Roth, A.</name>
-<name key="Chopin, Fryderyk Franciszek" ref="https://muscat.rism.info/admin/people/51160" type="person" role="cmp">Chopin, Fryderyk Franciszek</name>
-<name key="Alder, Ernest" ref="https://muscat.rism.info/admin/people/30071708" type="person" role="cmp">Alder, Ernest</name>
-<name key="Reinecke"  type="person" role="cmp">Reinecke</name>
-<name key="Gounod, Charles-François" ref="https://muscat.rism.info/admin/people/80479" type="person" role="cmp">Gounod, Charles-François</name>
-<name key="Jaques-Dalcroze, Emile  (dir.)" ref="https://muscat.rism.info/admin/people/109238" type="person" role="int">Jaques-Dalcroze, Emile  (dir.)</name>
-<name key="Société des concerts du nouvel orchestre"  type="person" role="int">Société des concerts du nouvel orchestre</name>
-<name key="Richard, Jane"  type="person" role="int">Richard, Jane</name>
-<name key="Loewensohn (Mlle)"  type="person" role="int">Loewensohn (Mlle)</name>
-<name key="Jaqcues (Mlle)"  type="person" role="int">Jaqcues (Mlle)</name>
-<name key="Prod'hom (Mlle)"  type="person" role="int">Prod'hom (Mlle)</name>
-<name key="Bron"  type="person" role="int">Bron</name>
-<name key="Legrandroy"  type="person" role="int">Legrandroy</name>
-<name key="Ferraris"  type="person" role="int">Ferraris</name>
-<name key="Marschall"  type="person" role="int">Marschall</name>
-<name key="Lang"  type="person" role="int">Lang</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg3_3_f001652_001.tif"/>
-<page><![CDATA[$s
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18860113'/>
+        <title>Deuxième concert donné par la Société des concerts du Nouvel Orchestre</title>
+        <placeName key='Genève, Conservatoire'/>
+        <name key='1885-1886' type='series'/>
+        <name key='Gluck, Christoph Willibald' ref='https://muscat.rism.info/admin/people/67338' type='person' role='cmp'>Gluck, Christoph Willibald</name>
+        <name key='Massenet, Jules' ref='https://muscat.rism.info/admin/people/84264' type='person' role='cmp'>Massenet, Jules</name>
+        <name key='Field' type='person' role='cmp'>Field</name>
+        <name key='Guiraud, Ernest' ref='https://muscat.rism.info/admin/people/30024115' type='person' role='cmp'>Guiraud, Ernest</name>
+        <name key='Roth, A.' type='person' role='cmp'>Roth, A.</name>
+        <name key='Chopin, Fryderyk Franciszek' ref='https://muscat.rism.info/admin/people/51160' type='person' role='cmp'>Chopin, Fryderyk Franciszek</name>
+        <name key='Alder, Ernest' ref='https://muscat.rism.info/admin/people/30071708' type='person' role='cmp'>Alder, Ernest</name>
+        <name key='Reinecke' type='person' role='cmp'>Reinecke</name>
+        <name key='Gounod, Charles-François' ref='https://muscat.rism.info/admin/people/80479' type='person' role='cmp'>Gounod, Charles-François</name>
+        <name key='Jaques-Dalcroze, Emile' ref='https://muscat.rism.info/admin/people/109238' type='person' role='int'>Jaques-Dalcroze, Emile</name>
+        <name key='Société des concerts du nouvel orchestre' type='person' role='int'>Société des concerts du nouvel orchestre</name>
+        <name key='Richard, Jane' type='person' role='int'>Richard, Jane</name>
+        <name key='Loewensohn (Mlle)' type='person' role='int'>Loewensohn (Mlle)</name>
+        <name key='Jaqcues (Mlle)' type='person' role='int'>Jaqcues (Mlle)</name>
+        <name key='Prod&apos;hom (Mlle)' type='person' role='int'>Prod'hom (Mlle)</name>
+        <name key='Bron' type='person' role='int'>Bron</name>
+        <name key='Legrandroy' type='person' role='int'>Legrandroy</name>
+        <name key='Ferraris' type='person' role='int'>Ferraris</name>
+        <name key='Marschall' type='person' role='int'>Marschall</name>
+        <name key='Lang' type='person' role='int'>Lang</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg3_3_f001652_001.tif'/>
+        <page>
+          <![CDATA[$s
 @…\JJNJW AN SSN SIS SS S SS SL
-
 GRANDE SALLE DU CONSERVATOIRE ê%
-
- 
-
 =m
-
 NNN DDN SN SN A SN SN SN SN S SS ISSN S SIS IS
-
 @
-
- 
-
- 
-
 Mercredi 15 Janvier 1886,à 8 h. précises
-
 DEUXIÈME CONCERT
-
 DONNÉ PAR LA
-
 SOCIÉTÉ DES CONCERTS DU NOUVEL ORCHESTRE
-
 SOUS LA
 Direction de M. E. JAQUES-DALCROZE
-
 AVEC LE BIENVEILLANT CONCOURS DE
-
 Mademoiselle Jane RICHARD, contralto
-
 Mademoiselle LEWENSOHN, soprano, élève de M. KETTEN
 Mesdemoiselles PROD’HOM et JAQUES
-
 pianistes
 Monsieur BRON, ténor
 Monsieur LEGRANDROY, baryton
-
 Pianos de concert des maisons ERARD et BROADWOOD
-
 PRIX DES PLAOES
-
 ﬁÉSERVÉES, 5 fRANGS. -— j°REMIÈRES. 3 f‘RANCS
-
 FALERIES, fRANC 1.50
-
- 
-
- 
-
 à ; ç , 5 ‘
 Ê Cartes à l’avance dans les magasins de musique et chez le concierge
 du Conservatoire.
 Places réservées chez M. Rorscxuy, Corraterie ÔË
-
 e KSN SS SS OD SL SS S SS SS S rr AN
 ——
-IMPR, DE LA TRIBUNE DE GENÈVE ;]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg3_3_f001652_002.tif"/>
-<page><![CDATA[DEUXIÈME CONCERT
-
+IMPR, DE LA TRIBUNE DE GENÈVE ;
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg3_3_f001652_002.tif'/>
+        <page>
+          <![CDATA[DEUXIÈME CONCERT
 Société des Concerts du Souvel Orchestre
-
- 
-
 PREMIÈRE fARTIE
-
 I. Suite d’orchestre, tirée d’Iiphigénie en
 Aulide …. -% * Gruce
 a) Air.
 b) Danse des esclaves.
 c) Grande Chacone.
-
 Iphigénie en Aulide, composés à Vienne vers 1772, est le premier
 opéra donné par Gluck à son arrivée à Paris ; la première représen-
 tation, qui eut lieu le :9 avril 1774, fait date dans l’histoire de
@@ -150,7 +131,6 @@ alors Dauphine, qui avait été son élève à Vienne, Gluek s’imposa
 d’emblée sur la scène de l’Opéra, et vit se former autour de lui
 le parti des Gluckistes, auquel les partisans de la musique italienne
 devaient, quelques années plus tard, opposer celui des Piccinistes.
-
 2. Fragments du2"° acte du Cid. . . . . MassENET.
 a) Air de l’Infante, chanté par M"
 Jane Richard.
@@ -159,70 +139,57 @@ b) Stances dé” Rodtigue, ehantées
 / Ÿ
 Nous sommes heureux Wêtre les premiers à offrir au pvblic gene-
 vois des fragments de cette œuvre dont le succès a été si retentissant
-
 _
-
 à Paris il y à quelques ssmaines, La partition du Càd semble marquer
-
- 
-
 i
-
-_]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg3_3_f001652_003.tif"/>
-<page><![CDATA[un temps d’arrêt dans les tendances novatrices de Massenet, qui s’est
+_
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg3_3_f001652_003.tif'/>
+        <page>
+          <![CDATA[un temps d’arrêt dans les tendances novatrices de Massenet, qui s’est
 particulièrement préoccupé cette fois de trouver des mélodies claires
 et facilement saisissables. L’air de l’Infante, créé par Mme Bosman,
 est une gracieuse inspiration qui contraste avec le caractère plutôt
 sEvère du reste de l’œuvre. Dans les Sfances de Rodrigue d’une cou-
 leur sombre bien en situation, le compositeur a conservé le texte
 même de Corneille. Elles sont chantées à l’Opéra par M. Jean de
-
 Reszké.
-
 3. a) Nocturne en si bémol. . . . . . Frerp.
 pour violon ( M. Ferraris ), flûte
 (M. Marschall), violoncelle (M. Lang),
 et quatuor.
-
 b) Entr’acte de Galante aventure. . . Guiraup.
-
 Le nom ds Field ést trôp connu pour qu’il soit nécessaire que
 nons parlions longuement de ce musicien. Rappelons saulement
 qu’il es* l’inventeur des élégies musicales connues sous le nom de
 Nocturnes. Celui en si bémol est orchestré par M. E. Jaques-Daleroze.
-
 Galante aventure est la dernière œuvre de Guiraud, représentée
 à l’Opéra-comique. La faiblesse dn livret à nui à son succès, mmais la
 partition renferme des morceaux charmants. Le spirituel entr’acte,
 orchestré avec une grande finesse, à sa place marquée au répertoire
 des concerts.
-
 PEUXIÈME Î’ARTIE
-
 W
 4. Ouverture Symphonique, (1"° audition.) A. Rorx
-
 M. Albert Roth, jeune compositeur vaudois, dirige actuellement à
 St-Pétersbourg les répétitions d’un opéra intitulé Der dreijährige
 Posten, dont, fidèles à notre but de produire des œuvres de musiciens
 suisses, nous donnons aujourd’hui l’ouverture, fort savante et d’uns
 facture très intéressante.
-
 4 ‘
 Y
-
 K
-
 5. Rondo. . . 100 7 CHOLmN
 pour ? pianos, exécuté par M"s
 Prod'hom el Jaques.
-
 ‘ l |
-yhmivn el ‘ U]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg3_3_f001652_004.tif"/>
-<page><![CDATA[. —— =
-
+yhmivn el ‘ U
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg3_3_f001652_004.tif'/>
+        <page>
+          <![CDATA[. —— =
 ) 6. Fragments du 3" acte du Cid. . . . . MAssENET, $
 a) Air de Don Diègue. Ë
 chanté par M. LeGrandRoy. ,
@@ -231,37 +198,32 @@ chanté par M" Læwensohn. /ilecux uxs
 c) Duo de Chimène ef Rodrique. )
 chanté par” M"* Læwensohn
 et M. Brôn.
-
 On retrouve dans le duo de Chimène et Rodrigue, morceau capital
 de l’ouvrage, les inspirations passionnées qui ont fait le succès d’Hé-
 rodiade et de Manon. Le rôle de Chimène a été spécialement écrit
 pour la grande tragédienne lyrique, Mme Fidés-Devriès.
-
 . a) Menuet (1° audition). . . . . . , E Arpgr.
 b) Entr’acte du Roi Manfred. . . . . REINECKE,
-
 Ernest Alder, jeune compositeur suisse, est l’auteur d’une foule de
 compositions gracieuses et distinguées pour piano, quatuor, violon,
 etc. Comme œuvres plus importantes citons Christophe Colomb,
 cantate exécutée à Stuttgarten 1874,et Gloria Victis, cantate héroïque
 exécutée à Paris en 1876.
-
 Reinecke est depuis longtemps le plus célèbre chef d’orchestre de
 l’Allemagne; il a contribué pour beaucoup à la réputation des con-
 certs du Gewandhaus de Leipzig, qu’il dirige depuis 25 ans. Comme
 compositeur il s’est surtout signalé dans ses œuvres pour piano, qui
 sont presque classiques.
-
 8 Prièredusoir ... ... 3" -  Gocyor.
 pour quatuor vocal, chantée par
-
 Myee Lænwensohn et Jane Richard,
 MM. Bron et LeGrandRoy, avec ac-
 compagnement de piano et harmo-
 nium.
-
-*]]></page>       
-        </p>
+*
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

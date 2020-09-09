@@ -1,354 +1,246 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>6me concert de l'abonnement<date when="18/12/1940"/></title>
-<series>1940-1941</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            6me concert de l'abonnement
+            <date when='18/12/1940'/>
+          </title>
+          <series>1940-1941</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F003063</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Baud-Bovy, S. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19401218"/>
-<title>6me concert de l'abonnement</title>
-<placeName key="Victoria Hall"/>
-<name key="1940-1941" type="series"/>
-<name key="Bach, Johann Sebastian" ref="https://muscat.rism.info/admin/people/2539" type="person" role="cmp">Bach, Johann Sebastian</name>
-<name key="Gagnebin, Henri" ref="https://muscat.rism.info/admin/people/30081182" type="person" role="cmp">Gagnebin, Henri</name>
-<name key="Baud-Bovy, Samuel  (dir.)" ref="https://muscat.rism.info/admin/people/30044099" type="person" role="int">Baud-Bovy, Samuel  (dir.)</name>
-<name key="Orchestre de la Suisse Romande" ref="https://muscat.rism.info/admin/people/50007615" type="person" role="int">Orchestre de la Suisse Romande</name>
-<name key="Société de chant sacré"  type="person" role="int">Société de chant sacré</name>
-<name key="Société de musique symphonique"  type="person" role="int">Société de musique symphonique</name>
-<name key="Andréossi, Violette"  type="person" role="int">Andréossi, Violette</name>
-<name key="Falk, Lina"  type="person" role="int">Falk, Lina</name>
-<name key="Cuénod, Hugues"  type="person" role="int">Cuénod, Hugues</name>
-<name key="Sandoz, Paul"  type="person" role="int">Sandoz, Paul</name>
-<name key="Schmidt, Eric"  type="person" role="int">Schmidt, Eric</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003063_001.tif"/>
-<page><![CDATA[ORCHESTRE
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19401218'/>
+        <title>6me concert de l'abonnement</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1940-1941' type='series'/>
+        <name key='Bach, Johann Sebastian' ref='https://muscat.rism.info/admin/people/2539' type='person' role='cmp'>Bach, Johann Sebastian</name>
+        <name key='Gagnebin, Henri' ref='https://muscat.rism.info/admin/people/30081182' type='person' role='cmp'>Gagnebin, Henri</name>
+        <name key='Baud-Bovy, Samuel' ref='https://muscat.rism.info/admin/people/30044099' type='person' role='int'>Baud-Bovy, Samuel</name>
+        <name key='Orchestre de la Suisse Romande' ref='https://muscat.rism.info/admin/people/50007615' type='person' role='int'>Orchestre de la Suisse Romande</name>
+        <name key='Société de chant sacré' type='person' role='int'>Société de chant sacré</name>
+        <name key='Société de musique symphonique' type='person' role='int'>Société de musique symphonique</name>
+        <name key='Andréossi, Violette' type='person' role='int'>Andréossi, Violette</name>
+        <name key='Falk, Lina' type='person' role='int'>Falk, Lina</name>
+        <name key='Cuénod, Hugues' type='person' role='int'>Cuénod, Hugues</name>
+        <name key='Sandoz, Paul' type='person' role='int'>Sandoz, Paul</name>
+        <name key='Schmidt, Eric' type='person' role='int'>Schmidt, Eric</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003063_001.tif'/>
+        <page>
+          <![CDATA[ORCHESTRE
 ï J |
-
 e — SUISSE
 ROMANDE
-
- 
-
 @
-
 |
-
 äË
-
 |
-
 J
-
 èj BEÉSION 10 40-41
-PROGRAMME]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003063_002.tif"/>
-<page><![CDATA[Tapis de prière « Hérat» 18"° siècle
-
+PROGRAMME
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003063_002.tif'/>
+        <page>
+          <![CDATA[Tapis de prière « Hérat» 18"° siècle
 .“,.….…{,_\“’ ex :;;uurxèw_… E UE E ETE e ‘ BJN
 E CO NNC S 3 pot =43 Sx ETE REN RS
 KOMENCHN REN DASAT IRRN X4
 8s SUS VNOEUENST v.>mw«.—u……u«m
-
 rrr
-
 cTS
-
 cd
-
 E
-
 Ln
 ===
-
- 
-
- 
-
- 
-
 Tapis d’°rienl An—ciens
-
-(Tél. 4.68.86) M. GARABEDIAN 6 rue de Saussure]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003063_003.tif"/>
-<page><![CDATA[CONSEIL DE FONDATION
+(Tél. 4.68.86) M. GARABEDIAN 6 rue de Saussure
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003063_003.tif'/>
+        <page>
+          <![CDATA[CONSEIL DE FONDATION
 (le 1’Orcl‘1estre c1e la Suisse Romande
-
 W,Üç\*‘
 Président : M. Faul LACHENAL, Genève.
 Vice-Président : M. le Dr Fred. BLANCHOD, Lausanne
 Secrétaire : M. René DOVAZ.
-
 Trésorier : M. Henri BROLLIET.
-
 Conseillers délégués :
-
 MM. Emile HEUBI, Lausanne; Pierre JACCOUD, Emile UNGER,
 Genève; Marcel BEZENÇON, Directeur de la Société Ro
 mande de Radiodiffusion ; Félix POMMIER, Directeur de
 la Société des Emissions Radio-Genève.
-
 M. GLOGG, Directeur général de la Société suisse de radio
 diffusion.
-
 Membres :
-
 MM. les représentants cantonaux : Conseiller d’Etat Edouard von
 STEIGER, Berne (Jura romand) ; Conseiller d’Etat Adrien
 LACHENAL, Genève; Conseiller d’Etat Joseph PILLER, Fri
 bourg; Conseiller communal Gérard BAUER, Neuchâtel:
 Conseiller d’Etat Cyrille PITTELOUD, Valais; Conseiller
 d’Etat Paul PERRET, Vaud.
-
 M. le Conseiller d’Etat Louis CASAI, MM. les Conseillers
 administratifs Jules PENEY et Marius NOUL, MM. Philippe
 ALBERT, Léopold BOISSIER, Alfred BOREL, André GUI
 NAND, Maxime HAISSLY, Emile JAQUES-DALCROZE,
 Alfred PELLIGOT, Maurice PICTET DE ROCHEMONT,,
 Marcel RAYMOND, Alfred VIDOUDEZ, à Genève.
-
 MM. Antoine VODOZ, Conseiller d’Etat, Marius AMANN, Conseil
 ler municipal, Jacques BERANGER, René BICKART, Roger
 CORREVON, Auguste MARGUERAT, Georges ROSSET,
 Henri STIERLIN-VALLON, à Lausanne ;
-
 Samuel GETAZ et E. ROSSIER-GEORG, à Vevey ; François
-
 ESSEIVA et le Dr Paul RYNCKI, à Fribourg; Claude DU
-
 PASQUIER, à Neuchâtel ;
-
 Tell PERRIN, à La Chaux-de-Fonds; Edmond BILLE et
-
 Gustave TURINI, à Sierre.
-
 Les délégués de l’Association genevoise et vaudoise des Amis de
 l’O.R., de la Société des Emissions Radio-Genève, de la
 Société Romande de Radiodiffusion, de la Commission des
-
 programmes de Sottens et des artistes-musiciens de l’Or
 chestre.
-
-ADMINISTRATION : 22, CORRATERIE, GENEVE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003063_004.tif"/>
-<page><![CDATA[DESC Î PADIC
-
+ADMINISTRATION : 22, CORRATERIE, GENEVE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003063_004.tif'/>
+        <page>
+          <![CDATA[DESC Î PADIC
 MANUFACTURE NATIONALE
-
 PAR DE CONSTANMES ET MINUTIEUSES EXPERIENICES
 PAR LEUR GRANDE QUALITÉ DE SONORITÉ
-
 A CONQUIS LE PRÉCIEUX ÉLOGE D'ÊTRE CHOISI PAR LES MUSICIENS
-
 SÉRIE “UNIVERSELLE’’ de Fr. 27O.— à Fr. 485.— RADIO-GRAMO
-
 Aoant de vous décider, senez les entendte chez
-
 LES AGENTS EXCLUSIFS POUR GENÈVE
-
 SAUTIER « JAEGER
-
 FUSTERIE GENEÈVE
 ANTENNES ANTIPARASITES - DÉPANNAGE
 SERVICE 1°" ORDRE - TOUTES MARQUES A CHOIX
-
 TOUTES RÉPARATIONS ET
 OIN TS (OUCUSSNERS MARCON' MISE AU POINT SCIENTIFIQUE
 e = —— —— e
-
 LE PIANO DE L'AVENIR
-
- 
-
 MINI-PIANO Résoud définitivement le problème du PIANO
 MODERNE - Dimentions réduites - Toucher précis et sonorité
 remarquable. Construit par Burger & Jacobi - Bienne
-
 EXCLUSIVEMENT: SAUTIER & JAEGEI GENÈVE
-
 Les premières marques
-
- 
-
- 
-
- 
-
-    
-
-  
-
 en smentz
-
 ÿ
 Y“
-
- 
-
 2 e rrc ns ns
-
- 
-
-. . G]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003063_005.tif"/>
-<page><![CDATA[Henri GAGNEBIN
-
+. . G
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003063_005.tif'/>
+        <page>
+          <![CDATA[Henri GAGNEBIN
 Directeur du Conservatoire de musique de Genève
 Auüteur de la partition du « Requiem des Vanités du Monde »
-
- 
-
 Samuel BAUD-BOVY
 Directeur de la Société de Chant Sacré,
-qui dirige le concert de ce soir]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003063_006.tif"/>
-<page><![CDATA[paris - house téléphone 2 33 70
-
+qui dirige le concert de ce soir
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003063_006.tif'/>
+        <page>
+          <![CDATA[paris - house téléphone 2 33 70
 paul daunay
-
 couturier
-
-5, rue des alpes]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003063_007.tif"/>
-<page><![CDATA[6"* concert ce l'abonnement
-
+5, rue des alpes
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003063_007.tif'/>
+        <page>
+          <![CDATA[6"* concert ce l'abonnement
 Mercredi 18 décembre 1940 à 20 h. 30
 VICTORIA-HALL
-
 sous la direction de
-
 Samuel BAUD-BOVY
-
 avec le concours des Chœurs de la
-
 Société de Chant Sacré
-
 et de la
 Société de Musique Symphonique
-
 Solistes :
-
 M"* Violette ANDRÉOSSI M'° Lina FALK
-
 soprano alto
-
 M. Hugues CUÉNOD M. Paul SANDOZ
-
 ténor baryton
-
 A l’orgue: M. Eric SCHMIDT
-
 Première panrtie
 1. ORATORIO DE NOEL (1'© et 4me parties) J.-S. BACH
-
 a) Cantate pour le premier jour de Noël.
 b) Cantate pour la Fête de la Circoncision.
-
 Deuxième prartie
-
 2. REQUIEM DES VANITES DU MONDE Henri GAGNEBIN
 Poème de Jules Baillods
-(1€ audition publique)]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003063_008.tif"/>
-<page><![CDATA[VIDOUDEZ
-
+(1€ audition publique)
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003063_008.tif'/>
+        <page>
+          <![CDATA[VIDOUDEZ
 LUTHIER DU CONSERVATOIRE
-
-   
-
 Téléphone
-
 Corraterie, 22
-
 4 4335
-
- 
-
- 
-
- 
-
-   
-
- 
-
-  
-   
- 
-
 Pour 068 (Î(l([0((llÆ
 une jolie idée
-
 de…
-
-  
-
 26, Corraterie
-
-   
-
 M'AITRE RU RESIÉE
-
 16, Rue de Rive
-
- 
-
- 
-
-- *]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003063_009.tif"/>
-<page><![CDATA[Nos Solistes
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
+- *
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003063_009.tif'/>
+        <page>
+          <![CDATA[Nos Solistes
 Mme Violette ANDREOSSI
-
 fit ses études complètes de musique et en particulier de violon au
 Conservatoire de Genève et y obtint son diplôme en 1918, dans la
 classe du maître Berber. Sur le conseil de la grande cantatrice Mme Bress-
@@ -362,9 +254,7 @@ de l'étranger, et en Suisse. Elle est devenue, pour notre région, l'inter-
 prète attitrée des grandes auditions musicales et l'une des vedettes de
 notre Radio. Depuis 1931, Mme Andréossi est professeur de chant au
 Conservatoire de Genève.
-
 Mile Lina FALK
-
 Née à Genève, Mille Falk fit ses études musicales dans sa ville
 natale ainsi qu'à Paris. Elle fut très remarquée dès ses débuts en 1922,
 dans les concerts symphoniques en Suisse, d'abord, puis en Belgique, aux
@@ -375,9 +265,7 @@ dans leurs programmes. De nombreuses manifestations religieuses firent
 encore appel à son talent. Par l'égale perfection de sa technique et de
 son style et par la beauté de son organe, Mille Falk s'impose comme
 l'interprète idéale de Bach.
-
 Paul SANDOZ
-
 Natif de la Chaux-de-Fonds, M. Paul Sandoz abandonna ses pre-
 mières études au Technicum pour se vouer complètement à la musique.
 Elève de Carl Rehfuss et de Georges Humbert à Neuchâtel, il débuta
@@ -387,9 +275,7 @@ de Lucerne. Son activité se partagea dès lors entre sa carrière théâtrale
 et une brillante participation à la vie musicale des concerts, tant en Suisse
 qu'à l’étranger. La Radio, ainsi que le Théâtre aux armées, ont aussi
 largement contribué à établir sa réputation.
-
 Hugues CUENOD
-
 Après des études au Conservatoire de Bâle, puis à Vienne, M. Cuénod
 commença sa carrière théâtrale sur différentes scènes de Paris et de
 Londres. puis au cours de trois tournées aux Etats-Unis avec Naïdia Bou-
@@ -397,141 +283,78 @@ langer. |l eut alors de fréquentes occasions de chanter avec les grands
 orchestres américains (Philadelphia, Boston Symphony, New-York Philarmo-
 nie, etc.). Dès son retour en Europe, M. Cuénod s'est spécialisé dans
 les auditions radiophoniques, qui lui valurent de nombreux engagements
-dans l'ancien et le nouveau monde.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003063_010.tif"/>
-<page><![CDATA[PAN e
-
+dans l'ancien et le nouveau monde.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003063_010.tif'/>
+        <page>
+          <![CDATA[PAN e
 Steinway & Sons, Pleyel, Feurich, Schiedmayer
 Wohlfahrt-Baby
-
 LOCATION
-
 ÉCHANGES
 , Passage du Terraillet, 20
 REPARATIONS 111es 08
-
- 
-
- 
-
- 
-
-  
-
- 
-
- 
-
 .fJ HORLOGERIE
-
 \X PHILIPPE BEGUIN
-
 2 96 GRAND QUAI, angle PLACE DU PORT
 8&\ tl:53432 . GENÈVE
-
- 
-
- 
-
-q]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003063_011.tif"/>
-<page><![CDATA[n bACHh
-
- 
-
+q
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003063_011.tif'/>
+        <page>
+          <![CDATA[n bACHh
 1689/ — 17750
-
- 
-
- 
-
- 
-
- 
-
- 
-
 ORATORIO DE NOEL
-
 ‘Oratorio de Noël fut écrit par Bach en 1734 et exécuté la
 l même année à St-Thomas et à St-Nicolas de Leipzig.
 b _ Des six cantates dont il se compose et qui étaient desti-
 nées chacune à l'un des jours de fête qui s'échelonnent de
 Noël à l'Epiphanie, la Première et la Quatrième seront don-
 nées ce soir intégralement pour la première fois à Genève.
-
 Première partie
 (pour le premier jour de la Fête de Noël)
-
 1. Jauchzet, frohlokket (Poussez des cris d'allégresse, ayez des
 regards joyeux).
-
 Chœur et orchestre.
-
 2. Es begab sich aber zu der Zeit (En ce temps-là parut un
 édit de César) (Luc |l 1-5)
-
 L'Evangéliste : M. Huqgues Cuénod
-
 3. Bereite dich, Zion (Sion, prépare-toi).
 Récit et air pour alto: Mlle Lina Falk.
-
 4. Wie sollich dich empfangen (Comment dois-je t'accueillir ?)
 Choral.
-
 5. Und sie gebar ihren ersten Sohn (Et elle enfanta son fils
 premier-né). (Luc |l 6-7)
-
 L'Evangéliste.
-
 6. Er ist auf Erden kommen arm (Il est venu pauvre sur terre).
-
 Duo pour soprano et basse: Mme V. Andréossi el
 M. P. Sandoz.
-
 7. Grosser Herr und starker Kônig (Grand Seigneur et Roi
 puissant).
-
 Air pour basse, avec trompette obligée: M. F. Bodet.
-
 8. Ach, mein herzliebes Jesulein (Petit Jésus cher à mon cœur).
-Choral.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003063_012.tif"/>
-<page><![CDATA[UNION
+Choral.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003063_012.tif'/>
+        <page>
+          <![CDATA[UNION
 DE
 BANQUES SUI
-
- 
-
- 
- 
-
 € €
 SS
-
 G EN E E
-
-Angle rue du Rhône et rue du Commerce]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003063_013.tif"/>
-<page><![CDATA[Jean Sébastien BACH
-
- 
-
+Angle rue du Rhône et rue du Commerce
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003063_013.tif'/>
+        <page>
+          <![CDATA[Jean Sébastien BACH
 (Suite)
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Deuxième partie
 (pour la Fête de la Circoncision)
-
 1. Fallt mit Danken, fallt mit Loben (Prosternez-vous avec des
 remerciements, prosternez-vous avec des louanges).
 Choral
@@ -551,607 +374,319 @@ ta gloire).
 Air pour lénor M. H. Cuénod
 7. Jesus richte mein Beginnen (Que Jésus règle mon commen-
 cement).
-
 Choral
-
- 
-
 En cas d’alerte aérienne, le concert n’est pas interrompu
 Si le concert se termine pendant une alerte, le public est
-
 prié de rester dans la salle jusqu’à ce que retentisse le signal
 de fin d’alerte.
-
- 
-
- 
-
- 
-
 CH!\NÏU (:OURS et LE(:()NS l)îl”(i(‘lllil'!’(‘\
-
 TECHNIQUE VOCALE, INTERPRETATION, ARTICULATION
-
 LINA FAUR
-
 Cll1l'…‘il]'lb, l)|(bt4‘S\(‘lll \llll. ail (‘H‘l\ï'l\.lî«\}ll' ‘(<l\.ll <ll' l;rll\t'Hl'\
-
- 
-
 CRÊTS DE CHAMPEL, 18 TÉL. 4.80.71
-Studio: RUE TŒPFFER, 21 rÉL. 5,24,79]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003063_014.tif"/>
-<page><![CDATA[LIBRAIRIE CIRCULANTE RICHARD
-
+Studio: RUE TŒPFFER, 21 rÉL. 5,24,79
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003063_014.tif'/>
+        <page>
+          <![CDATA[LIBRAIRIE CIRCULANTE RICHARD
 Livres, Revues et Journaux illustrés
-
 en français, anglais, allemand, italien
-
 13, rue Céard
-
 (à l'entresol)
-
- 
-
- 
-
- 
-
 CHANT …
 VIOLETTE ANDRÉOSSI
-
 CANTATRICE, PROFESSEUR AU CONSERVATOIRE DE GENÈVE
 MÉTHODE ITALIENNE - POSE DE VOIX - INTERPRÉTATION - PRÉPARATION AU
 RÉPERTOIRE LYRIQUE ET DE CONCERT FRANÇAIS, ITALIEN, ALLEMAND - COURS
-
 DE POSE DE VOIX POUR COMÉDIENS
-
 STUDIO: 16, BOULEVARD DES TRANCHÉES -  TÉLÉPHONE 4 66 80
-
- 
-
- 
-
- 
-
- 
-
- 
- 
- 
- 
- 
-  
- 
-
 PIANOS - HARMONIUMS - RADIOS
-
 GRAMOS DISQUES
-
 BRUCKNER-GUIGNARD
-
 Rue du Rhône, 98 (entresol) Tél. 5.04.80
 LOCATION
 VENTE
 EXPERTISES
 ACCORDS
 RÉPARATIONS
-
 Vtudic et Salle
-pour auditions, lecone, cauderies]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003063_015.tif"/>
-<page><![CDATA[Henri GÀGNEB|N l__‘_î:’;__.*'
-
- 
-
- 
-
- 
-
- 
-
- 
-
+pour auditions, lecone, cauderies
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003063_015.tif'/>
+        <page>
+          <![CDATA[Henri GÀGNEB|N l__‘_î:’;__.*'
 Requiem des Vanités du Monde
-
 Oratorio
-
 Texte de Jules BAILLODS
 Musique de Henri GAGNEBIN
-
- 
-
 Composé de 1938 à 1939, le Requiem des Vanités du Monde, dont
 c'est ce soir la première audition publique, fut créé au Studio de
 Radio-Genève en juin 1940 par Mme Andréossi et M. Sandoz, les
 Chœurs de la Société de Musique Symphonique (dir.: Albert Paychère)
 et _ l’Orchestre Radio Suisse Romande, sous la direction de Samuel
 Baud-Bovy.
-
 O mort, 6 nuit profonde et consolante et douce,
 des jardins de la terre où règne le silence.
-
 O mort, 6 grande nuit qui berce et qui console
 afin que nous dormions d'un sommeil éternel.
 O mort, 6 grande nuit qui berce et qui console,
 au jardin du silence et de l'oubli.
-
 Nous sommes les errants des pays de la terre,
-
 Nous sommes les errants de la sombre vallée,
-
 Nous sommes les chassés du paradis.
-
 Nous avons bâti des royaumes.
-
 ÎIs se sont brisés dans la poussière
-
 et nos rois sont morts dans leur tombeau.
-
 Nous avons jeté des ponts sur des rivières desséchées.
 Nos citadelles sont ruinées et nos tours se sont écroulées
 dans le vent rouge des batailles.
-
 La foudre a rompu nos murailles,
-
 abattu les temples et les dieux.
-
 Nous sommes les errants des pays de la terre
-
 et nous allons sans fin vers la sombre vallée
-
 où ne luit plus aucun soleil.
-
 Tu nous avais donné ton souffle impérissable.
 Tu nous avais donné tous les fruits du jardin
 de la terre et du ciel.
-
 Tu nous avais donné la vaillance et la force,
-
 la gloire et la jeunesse, durant toute l'éternité.
 Tu nous avais donné tout ce qu'on peut donner.
-
-*) Tous droits de reproduction, de traduction et de mise en musique réservés.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003063_016.tif"/>
-<page><![CDATA[LA PLUS IMPORTANTE SOCIÉTÉ ANONYME TOUS LES IMPRIMÉS EN
-
+*) Tous droits de reproduction, de traduction et de mise en musique réservés.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003063_016.tif'/>
+        <page>
+          <![CDATA[LA PLUS IMPORTANTE SOCIÉTÉ ANONYME TOUS LES IMPRIMÉS EN
 LITHOGRAPHIE TYPOGRAPHIE
 DE GENÈVE - SPÉ- BROCHURES * CATALOGUES
 CIALISTE DE L'AFFICHE REVUES * JOURNAUX
 ET OÙ PROCEÉDE CRÉATIONS * DESSINS
-
 OF FS E T Rcmuoien . 74 2on CELIACHRETS
-
- 
-
- 
-
- 
-
- 
-
 Enseignement de toutes les branches
 de la musique, sur des bases nouvelles
-
 Direction: YVE BUYSSENS d'éducation.
-
 EU ELAGUES PROFESSEURS
 Mmes A.-M. Guglielmetti, MM. Eng. Kreml, [Ch. Neufel,
 vivie Buyssens H. Honegger, Ed. Willems
 G. Depierre Al. Maeder, G. Deprez.
 Diction: Mme Camylle Hornung Rythmique: Mme Roger Vuataz
-
 Inscriptions au début de chaque mois au LYCÉE MUSICAL, rue Ch.-Giron, 9 — Tél. 2.33.96
 STUDIOS EN VILLE : PLACE DES BERGUES ET CERCLE DES ARTS ET DES LETTRES
-
- 
-
- 
-
 ECOLE FYFOUREG
-
 GENÈVE 4, Tour de l’Ile
-
 Sléno-dactylo
 Comptabilité
 Carcespondance
 L'angues
-
 Cours épéciaux de français pouzr élèves de langue étcangère
-
- 
-
- 
-
- 
-
-   
-
- 
-
 GRAND CAFÉ-RESTAURANT
-
 EVREQUE
-
 R. TISSOT
-
 SES MENUS RÉPUTÉS
 SA CAVE RENOMMÉE
-
-12, boul. du Théâtre - Tél. 40800]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003063_017.tif"/>
-<page><![CDATA[Henri GAGNEBIN
-
- 
-
- 
-
+12, boul. du Théâtre - Tél. 40800
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003063_017.tif'/>
+        <page>
+          <![CDATA[Henri GAGNEBIN
 (Suite)
-
- 
-
- 
-
- 
-
- 
-
 Nous avons méconnu le village natal,
-
 où les abeilles bourdonnaient dans les tilleuls
-
 Nous avons parcouru tous les chemins du monde
-
 et nous avons perdu notre corps et notre âme.
-
 Et nous avons connu tout ce qu'on peut connaître
-
 et nous avons connu la grande lassitude
-
 et nous étions vivants, mais plus morts que les morts
-
 Oh ! n'as-tu pas chargé nos fragiles épaules
-
 plus que nous ne pouvions en porter ici-bas ?
-
 Sur nos fronts n'as-tu pas mis plus d’ombre et de mort
 que notre pauvre joie n'en pouvait dissiper ?
-
 Tu nous avais donné ton souffle impérissable,
-
 et nous l’avons perdu dans le vent et la nuit.
-
 Tu nous avais donné ton amour éternel
-
 et nous avons perdu ton amour éternel
-
 Amour, tes rameaux verts entre mes mains brisés.
 Désir, o grande flamme sombre
-
 O mort, ô nuit profonde et consolante et douce
 O mort, 6 grande nuit qui berce et qui console
 afin que nous dormions du sommeil éternel,
 au jardin du silence et de l'oubli.
-
 O Dieu, je me sens encore argile morte, prise en
 tes mains, formée de tes doigts créateurs, animée
 soudain et vivante de ton souffle, que tu me
 donnas, Père, dans un baiser
-
 Ah ! pourquoi nous donner ton souffle et ton image
 et nous les retirer à la fois, d'un seul coup ?
-
 Ah ! pourquoi nous donner les trésors du royaume
 et nous laisser après plus pauvres que les pauvres ?
-
 Je montais de l'ombre vers Toi, grave, triste, inquiet,
 heureux. Ma nuit brillait comme un soleil ! Et voici,
 le soleil est mort. Tu m'as chassé du Paradis.
-
 Nous sommes les errants des pays de la terre
-
 et nous allons sans fin vers la sombre vallée
-
-où ne luit plus aucun soleil.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003063_018.tif"/>
-<page><![CDATA[DIRECTION ROMANDE:
-
+où ne luit plus aucun soleil.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003063_018.tif'/>
+        <page>
+          <![CDATA[DIRECTION ROMANDE:
 LONGEMALLE, !
 GENËVE
-
 ACCIDENTS
-
 Toutes assurances Accidents
 mespensahibie atile, atonodil actvct cHteabr
 5au 2E ’Ïhaëadée = /UOZ Corraterie, 7
-
- 
-
 RE ETE RE ETE E A E ”
-
- 
-
- 
-
 PIANOS
-
 VENTE - ÉCHANGE - LOCATION
 ACCORDS ET RÉPARATIONS
-
 RADIOS r A
-
 TÉLÉPHONE 2.36.51
-
- 
-
 FACILITÉS DE PAIEMENTS
-
- 
-
- 
-
 v S © N GF N.P V ©
-
 La PHARMACIE HAHN
-
 .- G. BRUN & SES FILS
 18, place Longemalle GENEVE Rue Croix-d'Or, 29
-
 est l’une des peincipales et plus ancienneë de Genève
-
- 
-
 Exécution soignée de prescriptions de tous les pays selon
 chaque pharmacopée. - Envois à domicile et par poste
-
 SPÉCIALITÉS (le plus gros stock) HOMOEOPATHIE
-
 PÉTROLE HAHN
-
-seule lotion efficace contre la chute des cheveux et les pellicules. Fr. 3.50 le flacon]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003063_019.tif"/>
-<page><![CDATA[Henri GAGNEBIN
-
- 
-
- 
-
- 
-
+seule lotion efficace contre la chute des cheveux et les pellicules. Fr. 3.50 le flacon
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003063_019.tif'/>
+        <page>
+          <![CDATA[Henri GAGNEBIN
 (Suite)
-
- 
-
- 
-
- 
-
- 
-
 Je vois une vallée encombrée d'ossements,
-
 aux maisons pleines d'ossements.
-
 Ossuaire du monde, débris de funérailles.
-
 Ossements secs ainsi que du bois mort.
-
 Couronnes de fleurs sèches mélées aux ossements.
-
 Voici les hommes de la terre, pour le dernier dénombrement.
 Seigneur, voici les Trônes et les Dominations,
-
 les armées de misère et de mort.
-
 Haut les épées ! Haut les bannières !
-
 Le vent de la colère les pousse jusqu'ici.
-
 Et voici les soldats de la dernière guerre.
 Ce sont les armées innombrables.
-
 Voici la vendange du monde et le sang rouge
 qui jaillit jusqu'au fond des cieux éternels.
-
 Le vent de la colère les pousse jusqu'ici.
 Un déluge de feu bat les villes maudites,
 Un déluge de mort bat les cités du monde.
 Voici les sept Chandeliers d'or,
-
 Voici les Grands Lions et l'Epée et le Livre.
 La faucille, comme l'éclair,
-
 et les cloches, tumultueuses, tonnent
-
 pour les funérailles du monde.
-
 Ce sont les armées innombrables.
-
 L'Eternel a brisé la verge des dominateurs.
-
 Les rois morts sont couchés, sans force ni couronne.
-
 Le vainqueur du monde est ici, couvert de pourriture,
 dans la profondeur de la fosse.
-
 lci reposent pour jamais ceux qui faisaient trembler la terre
 Ninive, Babylone, Sodome et Gomorrhe, poussière.
-
 Tous les grands de la terre sont couchés dans la tombe
-
 O terre, terre aimée, terre aux lourdes moissons,
-
 aux grands nuages blancs qui tremblent sur le fleuve
 Terre aux beaux arbres frais sous le vol des colombes,
 Ô terre, terre aimée.
-
 Amour, lève sur nous tes rameaux de jeunesse,
 car ils refleuriront dans mes mains éternelles.
 Une source fermée a jailli de mon sein.
-
 J'ai donné et j'ai possédé.
-
 J'ignorais mon destin et je sais à présent
 pourquoi je fus créée. Je dormais, je révais
-
 et je suis éveillée !
-
-Amour, lève sur nous tes rameaux de jeunesse.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003063_020.tif"/>
-<page><![CDATA[en es
-
+Amour, lève sur nous tes rameaux de jeunesse.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003063_020.tif'/>
+        <page>
+          <![CDATA[en es
 Agent général de PLEYEL S. À. Paris
-
 PIANOS DE TOUTES MARQUES
 LOCATION CLAVECIN ET STUDIO
-
 Radios
 PAILLARD - PHILIPS - TELEFUNKEN
-
 le plus grand choix en disques classiques
-
 Location d'amplificateurs pour soirées
-
 I MAISON
 perguer s.2.
-
 84, rue du Rhône
-
- 
-
- 
-
- 
-
-   
-
- 
-
 OR TÉLÉPHONE 4.66.57
 UBLICITÉ
-
 @. G. Geocge
-
 Photogeaphe
-
-1, rue de la Monnaie GENÈVE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003063_021.tif"/>
-<page><![CDATA[Henri GAGNEBIN
-
- 
-
- 
-
- 
-
+1, rue de la Monnaie GENÈVE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003063_021.tif'/>
+        <page>
+          <![CDATA[Henri GAGNEBIN
 (Suite)
-
- 
-
 |
 |
-
- 
-
- 
-
- 
-
- 
-
 La gloire et la richesse ont passé comme l’ombre.
 Amour, verse en la coupe le breuvage de Dieu.
 L'herbe se fane et la fleur tombe.
-
 Elle refleurira dans les vergers du ciel.
-
 Donne ta main qui mène aux jardins de lumière
 Donne ta main qui mène aux jardins éternels.
-
 Vanité, vanité, tout est vanité.
-
 La chair est comme l'herbe, sa grâce comme la fleur des champs.
 L'herbe sèche et la fleur se fane.
-
 Elle refleurira dans les vergers du ciel.
 Espérance, espérance.
-
 Vanité, vanité, toute vie est vanité
-
 O Dieu, pitié pour nous, pitié pour nous, Seigneur !
-
 Du fond de la fosse, nous t'appelons, pitié pour nous, Seigneur !
 Vois, mes lauriers sont morts.
-
 Vois, mes roses d'amour sont mortes.
-
 Mes arbres sont tombés dans les neiges d'hiver.
-
 Ma maison est abandonnée.
-
 Nous sommes les errants de la sombre vallée.
-
 Pitié pour nous, Seigneur !
-
 Voici le soir, reste avec nous.
-
 Tu rempliras la coupe et tu rompras le pain.
 Seigneur, aie pitié de nous.
-
 Seigneur, je suis debout comme tu m'as créé,
-
 tel un arbre vivant animé de ton souffle.
-
 L'argile absorbe ma faiblesse,
-
 Mais mon corps tout entier se tend vers ton soleil.
-
 Seigneur, voici nos mains qui sont tant fatiguées,
 Seigneur, voici nos fronts obscurcis de pensées.
-
 Nous ferons les labours dans les champs éternels.
 Seigneur, voici nos corps chargés de tant de peine.
 Nous irons moissonner dans les champs éternels.
-
 Seigneur, voici nos cœurs chargés de tant d'hivers.
-
 Laisse-nous revenir au printemps éternel.
-
 Courage, patience, espoir, en attendant le plus beau jour,
 le plus grand jour de notre vie.
-
-O Père, notre Père.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003063_022.tif"/>
-<page><![CDATA[haugunes ”
-
+O Père, notre Père.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003063_022.tif'/>
+        <page>
+          <![CDATA[haugunes ”
 Aeschbach -
-
- 
-
- 
-
- 
-
- 
-
 CAISSE HYPOTHÉCAIRE
 DU CANTON DE GENÈVE
-
 Instituée par la Constitution de 1847 - Molard, 2
-
 Prêts et crédits hypothécaires
 Certificats de dépôt
-
-livrers c epargne]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003063_023.tif"/>
-<page><![CDATA[Henri GAGNEBIN
-
+livrers c epargne
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003063_023.tif'/>
+        <page>
+          <![CDATA[Henri GAGNEBIN
 (Suite)
-
- 
-
-  
-
 Notre Père qui es au cieux,
 Notre Père.
 Que Ton nom soit sanctifié,
@@ -1167,205 +702,114 @@ Pardonne !
 Délivre-nous du mal.
 Seigneur, délivre-nous.
 Et de la mort. Amen.
-
 Tu nous avais donné ton image éternelle,
 Tu nous avais donné ton souffle impérissab!e
-
 O nuit, étends ton sommeil sur les jardins brisés,
 Ferme de ton silence les yeux et les corolles,
-
 Calme les flots battus du plus grand des naufrages,
 Abolis tous les bruits dans le battement sombre
-
 de tes si lentes ailes calmes,
-
 afin que nous dormions du sommeil éternel.
-
 Mais quand le jour viendra,
-
 quand nous nous lèverons, Seigneur,
-
 d'entre les morts,
-
 à l'appel des trompettes d'or
-
 qui sonneront une fanfare de lumière
-
 sur les ténèbres de la terre,
-
 quand nous nous lèverons, Seigneur,
-
 d'entre les morts — Espérance, espérance —
 Accueille-nous, Seigneur,
-
 reprends-nous tout entiers dans ta chair frémissante,
 reprends-nous tout entiers dans ton âme d'amour,
-
-accueille-nous vivants dans la vie éternelle.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003063_024.tif"/>
-<page><![CDATA[L'oterie de la
+accueille-nous vivants dans la vie éternelle.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003063_024.tif'/>
+        <page>
+          <![CDATA[L'oterie de la
 Chuisse CRomande
-
 au profit des œuvres de secours et d'utilité publique
-
 Tirages réguliers tous les 2 mois
-
 —— (pour les prochaines dates de tirage, consulter la presse) —
-
 Le billet: Fr. 5.— le ‘s de billet: Fr. T.—
-
 Secrétariat cantonal: GENÈVE - Passage du Terraillet 20 - Ch. post. |. 222
-
 v
 p sd cn
-
 —c ——l
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-, 27 4» e rs Lanci]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003063_025.tif"/>
-<page><![CDATA[Mercredi 25 décembre 1940 à 17 h. précises
+, 27 4» e rs Lanci
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003063_025.tif'/>
+        <page>
+          <![CDATA[Mercredi 25 décembre 1940 à 17 h. précises
 VICTORIA-HALL
-
 CONCERT de NOËL
-
 donné au bénéfice du
-
 Comité International de la Croix-Rouge
-
 par le
-
 CERCLE Jean-Sébastien BACH
 . et avec la collaboration de RÀD|O-GENÈVE
-
 Solistes :
-
 Mlle M. Dubuis, Mme M. L. Hauser et Mille M. Helbling
 MM. Ernest Bauer, E. Schlaefli, François Capoulade
-
 et
-
 l'ORCHESTRE DE LA SUISSE ROMANDE
-
 Direction :
-
 Francis BODET
-
 Oeuvres de HAENDEL et BACH (Magnificat)
-
- 
-
 Ouverture des portes à 16 h. 30. — Location chez Vidoudez,
 Corraterie, 22, à partir du 16 décembre.
-
 @ GRAND-THÉATRE DE GENÈVE
 Vendredi 17 janvier 1941
-
- 
-
 Sous la direction de Ernest ANSERMET
-
 PELLEAS ET MÉLISANDE
-
 Drame lyrique de Claude DEBUSSY
-
 }
 À
 |
 F
 Ï
 |
-|]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003063_026.tif"/>
-<page><![CDATA[Notre activité radiophonique
-
+|
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003063_026.tif'/>
+        <page>
+          <![CDATA[Notre activité radiophonique
 Vendredi 20 décembre, 12 h. 55. — Pour le centenaire de la naissance
 de Tchaïkowsky: sa 4me Symphonie (dir.: M. Paul Kletzki).
-
 Dimanche 22 décembre, 11 heures. — Transmission sur enregistrement de
 la deuxième partie du concert d'abonnement du 18 décembre.
-
 Mercredi 25 décembre, à 17 heures. — Transmission du concert donné
 avec la Société Bach (dir.: M. Francis Bodet).
-
 20 h. 30. — Emission de Noël : Histoire de la Naissance du Christ, de
 Schütz, avec les chœurs de la Soc. Symphonique (dir.: Richard
 Beck), Mme Benoit, MM. Cuénod et Lombard, solistes. — 2me par-
 tie: Cantate No 50, de J.-S. Bach. (Dir. E. Ansermet.)
-
 Dimanche 29 décembre, soir. — Véronique, opérette de Messager (dir.:
 Ed. Appia).
-
 Lundi 30 décembre, 20 heures. — Les Maîtres de la Valse.
-
 Mercredi 1er janvier, 20 h. 55, — Programme léger.
-
 Vendredi 3 janvier, 12 h. 35. — Programme varié (M. Appia).
-
 Dimanche 5 janvier, 11 heures. — Concert d'œuvres pour instruments à
-
 cordes (dir.: Lazslo Krausz).
-
 Lundi 6 janvier, soir… — La Serva padrona, de Pergolese (M. Baud-Bovy).
-
- 
-
 Mercredi 8 janvier, à 20 h. 30
 VICTORIA-HALL
-
 7" Concert ce l'Abonnement
-
 sous la direction de
-
 Franz von HOESSLIN
-
- 
-
 Oeuvres de WEBER, SCHUMANN, BERLIOZ
-
-£ocation chez Vidoudez, Corraterie, 22, Genève, à partir du jeudi 2 janvier]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003063_027.tif"/>
-<page><![CDATA[Café Restaurant
-
-   
-
+£ocation chez Vidoudez, Corraterie, 22, Genève, à partir du jeudi 2 janvier
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003063_027.tif'/>
+        <page>
+          <![CDATA[Café Restaurant
 International
-
 J. Uagnez
-
- 
-
 Tél. 4.07.29 21, Boul. Georges-Favon - Genève
-
- 
-
- 
-
- 
-
- 
-
- 
-
 PÉPINIÈRES BOCCARD FRÈRES
-
- 
-
- 
-
 ARBRES FRUITIERS
 ET D'ORNEMENT
 CONIFÈRES, ROSIERS
@@ -1373,46 +817,26 @@ PLANTES GRIMPANTES
 e
 PARCS … JARDINS
 EN N ;S
-
 Engrais et spécialités
-
 horticoles C.P. H.R.
-
-   
-
 Cèdre pleureur
-
- 
-
-  
-
-PETIT-SACONNEX … GENÈVE … TÉLÉPHONE 2 6115]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003063_028.tif"/>
-<page><![CDATA[f
+PETIT-SACONNEX … GENÈVE … TÉLÉPHONE 2 6115
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003063_028.tif'/>
+        <page>
+          <![CDATA[f
 f
 H
 Q
-
- 
-
 En 1785 (lêjà… | ï/(/(
-
 on 0/frait une montre… un l)ijou
-
- 
-
- 
-
- 
-
- 
-
- 
-
 VACHERON ë
 k cm X
-CONSTANTIN]]></page>       
-        </p>
+CONSTANTIN
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

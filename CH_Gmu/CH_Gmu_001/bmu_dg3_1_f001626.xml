@@ -1,89 +1,95 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Séance d'élèves du Conservatoire de musique<date when="06/12/1906"/></title>
-<series>1906-1907</series>
-<placeName>Salle de la Réformation</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Séance d'élèves du Conservatoire de musique
+            <date when='06/12/1906'/>
+          </title>
+          <series>1906-1907</series>
+          <placeName>Genève, Salle de la Réformation</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU DG3-1 F001626</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Lauber, J.</note>
+        <note>Ketten, L. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19061206"/>
-<title>Séance d'élèves du Conservatoire de musique</title>
-<placeName key="Salle de la Réformation"/>
-<name key="1906-1907" type="series"/>
-<name key="Lauber, Joseph"  type="person" role="cmp">Lauber, Joseph</name>
-<name key="Saint-Saëns, Camille" ref="https://muscat.rism.info/admin/people/76734" type="person" role="cmp">Saint-Saëns, Camille</name>
-<name key="Chopin, Fryderyk Franciszek" ref="https://muscat.rism.info/admin/people/51160" type="person" role="cmp">Chopin, Fryderyk Franciszek</name>
-<name key="Massenet, Jules" ref="https://muscat.rism.info/admin/people/84264" type="person" role="cmp">Massenet, Jules</name>
-<name key="Wieniawski, Henryk" ref="https://muscat.rism.info/admin/people/137176" type="person" role="cmp">Wieniawski, Henryk</name>
-<name key="Guiraud, Ernest" ref="https://muscat.rism.info/admin/people/30024115" type="person" role="cmp">Guiraud, Ernest</name>
-<name key="Gluck, Christoph Willibald" ref="https://muscat.rism.info/admin/people/67338" type="person" role="cmp">Gluck, Christoph Willibald</name>
-<name key="Mendelssohn Bartholdy, Felix" ref="https://muscat.rism.info/admin/people/88790" type="person" role="cmp">Mendelssohn Bartholdy, Felix</name>
-<name key="Lauber, Joseph"  type="person" role="int">Lauber, Joseph</name>
-<name key="Ketten, Léopold (dir.)"  type="person" role="int">Ketten, Léopold (dir.)</name>
-<name key="Woodard, Guy"  type="person" role="int">Woodard, Guy</name>
-<name key="Verdan, Adèle"  type="person" role="int">Verdan, Adèle</name>
-<name key="Aubert, Johnny"  type="person" role="int">Aubert, Johnny</name>
-<name key="Trosselli, Maurice"  type="person" role="int">Trosselli, Maurice</name>
-<name key="Weinmann, Rudolf"  type="person" role="int">Weinmann, Rudolf</name>
-<name key="Gautier, Noemi"  type="person" role="int">Gautier, Noemi</name>
-<name key="Janet, Lambert"  type="person" role="int">Janet, Lambert</name>
-<name key="Fischer, Olga (Mlle)"  type="person" role="int">Fischer, Olga (Mlle)</name>
-<name key="Sautier, Emma"  type="person" role="int">Sautier, Emma</name>
-<name key="Noirfalise, Christine (Mlle)"  type="person" role="int">Noirfalise, Christine (Mlle)</name>
-<name key="Culoz, Juliette"  type="person" role="int">Culoz, Juliette</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg3_1_f001626_001.tif"/>
-<page><![CDATA[,
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19061206'/>
+        <title>Séance d'élèves du Conservatoire de musique</title>
+        <placeName key='Genève, Salle de la Réformation'/>
+        <name key='1906-1907' type='series'/>
+        <name key='Lauber, Joseph' type='person' role='cmp'>Lauber, Joseph</name>
+        <name key='Saint-Saëns, Camille' ref='https://muscat.rism.info/admin/people/76734' type='person' role='cmp'>Saint-Saëns, Camille</name>
+        <name key='Chopin, Fryderyk Franciszek' ref='https://muscat.rism.info/admin/people/51160' type='person' role='cmp'>Chopin, Fryderyk Franciszek</name>
+        <name key='Massenet, Jules' ref='https://muscat.rism.info/admin/people/84264' type='person' role='cmp'>Massenet, Jules</name>
+        <name key='Wieniawski, Henryk' ref='https://muscat.rism.info/admin/people/137176' type='person' role='cmp'>Wieniawski, Henryk</name>
+        <name key='Guiraud, Ernest' ref='https://muscat.rism.info/admin/people/30024115' type='person' role='cmp'>Guiraud, Ernest</name>
+        <name key='Gluck, Christoph Willibald' ref='https://muscat.rism.info/admin/people/67338' type='person' role='cmp'>Gluck, Christoph Willibald</name>
+        <name key='Mendelssohn Bartholdy, Felix' ref='https://muscat.rism.info/admin/people/88790' type='person' role='cmp'>Mendelssohn Bartholdy, Felix</name>
+        <name key='Lauber, Joseph' type='person' role='int'>Lauber, Joseph</name>
+        <name key='Ketten, Léopold' type='person' role='int'>Ketten, Léopold</name>
+        <name key='Woodard, Guy' type='person' role='int'>Woodard, Guy</name>
+        <name key='Verdan, Adèle' type='person' role='int'>Verdan, Adèle</name>
+        <name key='Aubert, Johnny' type='person' role='int'>Aubert, Johnny</name>
+        <name key='Trosselli, Maurice' type='person' role='int'>Trosselli, Maurice</name>
+        <name key='Weinmann, Rudolf' type='person' role='int'>Weinmann, Rudolf</name>
+        <name key='Gautier, Noemi' type='person' role='int'>Gautier, Noemi</name>
+        <name key='Janet, Lambert' type='person' role='int'>Janet, Lambert</name>
+        <name key='Fischer, Olga (Mlle)' type='person' role='int'>Fischer, Olga (Mlle)</name>
+        <name key='Sautier, Emma' type='person' role='int'>Sautier, Emma</name>
+        <name key='Noirfalise, Christine (Mlle)' type='person' role='int'>Noirfalise, Christine (Mlle)</name>
+        <name key='Culoz, Juliette' type='person' role='int'>Culoz, Juliette</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg3_1_f001626_001.tif'/>
+        <page>
+          <![CDATA[,
 LA INEFORMATION
-
 p = p
-
 =—
-
 SÉANCE D'ÉLÈVES
-
 CONSERVATOIRE DE MUSIQUE
 Jeudi 6 Décembre 1906, à 2 heures
-
 —S SS—
-
 PROGRAMME
-
 Fantaisie pour un orchestre de violons . . . Joseph LAUBER.
 Violon solo obligé : M. Guy WooparD (Classe de
 virtuosité): Prof. M. MARTEAU.
@@ -99,10 +105,8 @@ M. Maurice TrosserL1 (2me Division).
 Prof. M. KETTEN.
 Deuxième Concerto (fragments) pour violon. . . Wienawsrry.
 a) Romance ; b) Allegro moderato alla zingara.
-
 M. Rudolf WEINMANN (Classe de virtuosité).
 Prof. M. MARTEAU.
-
 Duo de Sigurd pour mezzo-soprano et ténor. . . REYER.
 Mile Noemi GAUTIER (lre Division) et M. Lambert
 JANET (2me Division): Prof. M. KETTEN.
@@ -110,16 +114,16 @@ Aliegro de Concert poripanon 1 Comavp
 MIle Olga Fiscuer (Classe normale).
 Prof. M. Willy REHBERG.
 Air d’Orphée pour mezzo-soprano . . . . . - Grüer.
-
 Mlle Emma SAUTIER (1re Division).
 Prof. M. KETTEN.
-
 Chœurs des Fées, du Songe d’une Nuit d'Eté. . . MNDELSSONN.
 Solistes: MIlesChristine NorrrALIsE et Juliette CuLoz.
 Chantcs_par les élèves de Mme GUILLEMOT-THURINGER.
 de MM. DAm1, KErrEn, THorOLD. sous la direction de
-M. KETTEN.]]></page>       
-        </p>
+M. KETTEN.
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

@@ -1,87 +1,92 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert vocal et instrumental : hommage à la mémoire de F. Grast<date when="29/04/1871"/></title>
-<series>1870-1871</series>
-<placeName>Conservatoire</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert vocal et instrumental : hommage à la mémoire de F. Grast
+            <date when='29/04/1871'/>
+          </title>
+          <series>1870-1871</series>
+          <placeName>Genève, Conservatoire</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU DG3-3 F000714</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Senger, H. de (dir)</note>
+        <note>Date présumée</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18710429"/>
-<title>Concert vocal et instrumental : hommage à la mémoire de F. Grast</title>
-<placeName key="Conservatoire"/>
-<name key="1870-1871" type="series"/>
-<name key="Mozart, Wolfgang Amadeus" ref="https://muscat.rism.info/admin/people/115324" type="person" role="cmp">Mozart, Wolfgang Amadeus</name>
-<name key="Grast, Franz Gabriel" ref="https://muscat.rism.info/admin/people/30022423" type="person" role="cmp">Grast, Franz Gabriel</name>
-<name key="Kling, Henri" ref="https://muscat.rism.info/admin/people/30022454" type="person" role="cmp">Kling, Henri</name>
-<name key="Monnier, Marc" ref="https://muscat.rism.info/admin/people/113489" type="person" role="cmp">Monnier, Marc</name>
-<name key="Galloix, J. J."  type="person" role="cmp">Galloix, J. J.</name>
-<name key="Vieuxtemps, Henri" ref="https://muscat.rism.info/admin/people/142566" type="person" role="cmp">Vieuxtemps, Henri</name>
-<name key="Verdi, Giuseppe" ref="https://muscat.rism.info/admin/people/137994" type="person" role="cmp">Verdi, Giuseppe</name>
-<name key="Hugo, Victor" ref="https://muscat.rism.info/admin/people/106306" type="person" role="cmp">Hugo, Victor</name>
-<name key="Hiller"  type="person" role="cmp">Hiller</name>
-<name key="Berg"  type="person" role="cmp">Berg</name>
-<name key="Prince Gustave"  type="person" role="cmp">Prince Gustave</name>
-<name key="Senger, Franz Ludwig Hugo von  (dir.)" ref="https://muscat.rism.info/admin/people/30015297" type="person" role="int">Senger, Franz Ludwig Hugo von  (dir.)</name>
-<name key="Bernet-Richard (Mme)"  type="person" role="int">Bernet-Richard (Mme)</name>
-<name key="Ernst, Amélie"  type="person" role="int">Ernst, Amélie</name>
-<name key="Reymond, L."  type="person" role="int">Reymond, L.</name>
-<name key="Werner, Aug."  type="person" role="int">Werner, Aug.</name>
-<name key="Lang (Mme)"  type="person" role="int">Lang (Mme)</name>
-<name key="Lang (Mlle)"  type="person" role="int">Lang (Mlle)</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg3_3_f000714_001.tif"/>
-<page><![CDATA[SALLE DU CONSERVATOIRE
-
- 
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18710429'/>
+        <title>Concert vocal et instrumental : hommage à la mémoire de F. Grast</title>
+        <placeName key='Genève, Conservatoire'/>
+        <name key='1870-1871' type='series'/>
+        <name key='Mozart, Wolfgang Amadeus' ref='https://muscat.rism.info/admin/people/115324' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Grast, Franz Gabriel' ref='https://muscat.rism.info/admin/people/30022423' type='person' role='cmp'>Grast, Franz Gabriel</name>
+        <name key='Kling, Henri' ref='https://muscat.rism.info/admin/people/30022454' type='person' role='cmp'>Kling, Henri</name>
+        <name key='Monnier, Marc' ref='https://muscat.rism.info/admin/people/113489' type='person' role='cmp'>Monnier, Marc</name>
+        <name key='Galloix, J. J.' type='person' role='cmp'>Galloix, J. J.</name>
+        <name key='Vieuxtemps, Henri' ref='https://muscat.rism.info/admin/people/142566' type='person' role='cmp'>Vieuxtemps, Henri</name>
+        <name key='Verdi, Giuseppe' ref='https://muscat.rism.info/admin/people/137994' type='person' role='cmp'>Verdi, Giuseppe</name>
+        <name key='Hugo, Victor' ref='https://muscat.rism.info/admin/people/106306' type='person' role='cmp'>Hugo, Victor</name>
+        <name key='Hiller' type='person' role='cmp'>Hiller</name>
+        <name key='Berg' type='person' role='cmp'>Berg</name>
+        <name key='Prince Gustave' type='person' role='cmp'>Prince Gustave</name>
+        <name key='Senger, Franz Ludwig Hugo von' ref='https://muscat.rism.info/admin/people/30015297' type='person' role='int'>Senger, Franz Ludwig Hugo von</name>
+        <name key='Bernet-Richard (Mme)' type='person' role='int'>Bernet-Richard (Mme)</name>
+        <name key='Ernst, Amélie' type='person' role='int'>Ernst, Amélie</name>
+        <name key='Reymond, L.' type='person' role='int'>Reymond, L.</name>
+        <name key='Werner, Aug.' type='person' role='int'>Werner, Aug.</name>
+        <name key='Lang (Mme)' type='person' role='int'>Lang (Mme)</name>
+        <name key='Lang (Mlle)' type='person' role='int'>Lang (Mlle)</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg3_3_f000714_001.tif'/>
+        <page>
+          <![CDATA[SALLE DU CONSERVATOIRE
 ; 193 —
 SAMEDI 29 AVRIL 1871, A 8 HEURES DU SOIR “ “
-
 CONCERT VOCAL & INSTRUMENTAL
-
 HOMMAGE A LA MÉMOIRE DE F. GRAST, COMPOSITEUR
-
 SOUS LA DIRECTION DE
 M. HUGO DE SENGER
-
 —>
-
 PROGRAMME
-
 PREMIÈRE PARTIE
 . Adagio funèbre pour orchestre . . . MozAarr.
 . Héloïse, scène pour contralto et LhŒ\ll de femmes ar, les de
@@ -92,50 +97,33 @@ b) %W… 422 ——R
 récitées par M"° Amfrrr ERNST.
 5. Rêverie pour violon, exécutée par M. L* REYMOND . . . . ViruxTrmPs.
 - Ouverture des Vêpres siciliennes pour orchestre . . . . . . Vrrn
-
 SECONDE PARTIE
-
 5 Caïn, scène dramatique, récitée par M"° Amfrrr ERNST . . . Vicror Huco.
 } Andante symphonique pour orchestr q…(;Ÿ…«ﬁmœ Wmequ\ F. Grasn.
 Concerto pour piano avec accompagnement d’orchestre. . . , Hiuer.
-
 4) Andante espressivo, DN
 W Finale. } exécutés par M. Aug. WERNER.
-
 10. Hymne de J.-B. Rousseau, chœur m1xte et 5011s avee accom-
-
 - pagnement de p1ano et harmonium … £ I æ…\ F. GrasT.
 .. romances suédoises, chantées par M"c B e
 b) Im Rosenduft ) e C | PriNcr Gusrave.
-
 19 Bcrceau de mes aïeux, chœur mixte avec ÂÎ@E%”#/Z”& Æ‘ € P. Grasr.
-
 se 0 / Ïé£Îî‘ ?Ë«zﬂâe7‘æz% AVIÉE /
-
 PRIX DES PLACES :
 PLACES RÉSERVÉES, 5 FR. — PLACES NON RÉSERVÉES, 3 FR.
-
 NB. — On peut se procurer des billets chez tous les marchands de musique et le soir du Concert
-
 chez le Concaerge du Conservatoire auquel on peut également s’adresser dès ce jour pour les places
 réservées, ;
-
 Q)
-
 1 <L e Ns N © ‘9© ?,( f
-
- 
-
- 
-
 Genèvo — Imprimerie Vérésoff et Garrigues. ; 2
 _A / !u; Karic L/ aert CÎe (:2£’I 85 =- Ïl?/
-
 ; '—["/</Æ20/ZÆ/'--_ __-(‘?/)
 '% î ‘// CXLL {}l/171_(, e S 2 - e "—/;Î/,I'/‘/(;)”'b
-
-—.]]></page>       
-        </p>
+—.
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

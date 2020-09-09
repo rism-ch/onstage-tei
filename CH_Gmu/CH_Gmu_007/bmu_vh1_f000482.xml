@@ -1,81 +1,97 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Grand concert populaire donné par la société chorale Concordia et le choeur de dames Edelweiss<date when="02/02/1902"/></title>
-<series>1901-1902</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Grand concert populaire donné par la société chorale Concordia et le
+            choeur de dames Edelweiss
+            <date when='02/02/1902'/>
+          </title>
+          <series>1901-1902</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F000482</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Bergalonne, F. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19020202"/>
-<title>Grand concert populaire donné par la société chorale Concordia et le choeur de dames Edelweiss</title>
-<placeName key="Victoria Hall"/>
-<name key="1901-1902" type="series"/>
-<name key="Parès, Gabriël" ref="https://muscat.rism.info/admin/people/30024480" type="person" role="cmp">Parès, Gabriël</name>
-<name key="Huber, Hans" ref="https://muscat.rism.info/admin/people/103857" type="person" role="cmp">Huber, Hans</name>
-<name key="Chopin, Fryderyk Franciszek" ref="https://muscat.rism.info/admin/people/51160" type="person" role="cmp">Chopin, Fryderyk Franciszek</name>
-<name key="Mendelssohn Bartholdy, Felix" ref="https://muscat.rism.info/admin/people/88790" type="person" role="cmp">Mendelssohn Bartholdy, Felix</name>
-<name key="Podbertzky, Th."  type="person" role="cmp">Podbertzky, Th.</name>
-<name key="Bruneau"  type="person" role="cmp">Bruneau</name>
-<name key="Massenet, Jules" ref="https://muscat.rism.info/admin/people/84264" type="person" role="cmp">Massenet, Jules</name>
-<name key="Allier"  type="person" role="cmp">Allier</name>
-<name key="Labory"  type="person" role="cmp">Labory</name>
-<name key="Shehle, J.-G."  type="person" role="cmp">Shehle, J.-G.</name>
-<name key="Wieniawski, Henryk" ref="https://muscat.rism.info/admin/people/137176" type="person" role="cmp">Wieniawski, Henryk</name>
-<name key="Attenhofer, Carl" ref="https://muscat.rism.info/admin/people/30007424" type="person" role="cmp">Attenhofer, Carl</name>
-<name key="Saint-Saëns, Camille" ref="https://muscat.rism.info/admin/people/76734" type="person" role="cmp">Saint-Saëns, Camille</name>
-<name key="MacDowell, Edward" ref="https://muscat.rism.info/admin/people/41022394" type="person" role="cmp">MacDowell, Edward</name>
-<name key="Köllner, Eduard" ref="https://muscat.rism.info/admin/people/30025470" type="person" role="cmp">Köllner, Eduard</name>
-<name key="Meyerbeer, Giacomo" ref="https://muscat.rism.info/admin/people/725" type="person" role="cmp">Meyerbeer, Giacomo</name>
-<name key="Bergalonne, F. (dir.)"  type="person" role="int">Bergalonne, F. (dir.)</name>
-<name key="Concordia"  type="person" role="int">Concordia</name>
-<name key="Edelweiss"  type="person" role="int">Edelweiss</name>
-<name key="Corps de musique d'Elite (Fanfare genevoise)"  type="person" role="int">Corps de musique d'Elite (Fanfare genevoise)</name>
-<name key="Perrottet, Jeanne"  type="person" role="int">Perrottet, Jeanne</name>
-<name key="Faure, Marguerite"  type="person" role="int">Faure, Marguerite</name>
-<name key="Buess, Eugénie"  type="person" role="int">Buess, Eugénie</name>
-<name key="Schmidt, Emile"  type="person" role="int">Schmidt, Emile</name>
-<name key="Grandjean, S."  type="person" role="int">Grandjean, S.</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000482_001.tif"/>
-<page><![CDATA[T 129
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19020202'/>
+        <title>
+          Grand concert populaire donné par la société chorale Concordia et le
+          choeur de dames Edelweiss
+        </title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1901-1902' type='series'/>
+        <name key='Parès, Gabriël' ref='https://muscat.rism.info/admin/people/30024480' type='person' role='cmp'>Parès, Gabriël</name>
+        <name key='Huber, Hans' ref='https://muscat.rism.info/admin/people/103857' type='person' role='cmp'>Huber, Hans</name>
+        <name key='Chopin, Fryderyk Franciszek' ref='https://muscat.rism.info/admin/people/51160' type='person' role='cmp'>Chopin, Fryderyk Franciszek</name>
+        <name key='Mendelssohn Bartholdy, Felix' ref='https://muscat.rism.info/admin/people/88790' type='person' role='cmp'>Mendelssohn Bartholdy, Felix</name>
+        <name key='Podbertzky, Th.' type='person' role='cmp'>Podbertzky, Th.</name>
+        <name key='Bruneau' type='person' role='cmp'>Bruneau</name>
+        <name key='Massenet, Jules' ref='https://muscat.rism.info/admin/people/84264' type='person' role='cmp'>Massenet, Jules</name>
+        <name key='Allier' type='person' role='cmp'>Allier</name>
+        <name key='Labory' type='person' role='cmp'>Labory</name>
+        <name key='Shehle, J.-G.' type='person' role='cmp'>Shehle, J.-G.</name>
+        <name key='Wieniawski, Henryk' ref='https://muscat.rism.info/admin/people/137176' type='person' role='cmp'>Wieniawski, Henryk</name>
+        <name key='Attenhofer, Carl' ref='https://muscat.rism.info/admin/people/30007424' type='person' role='cmp'>Attenhofer, Carl</name>
+        <name key='Saint-Saëns, Camille' ref='https://muscat.rism.info/admin/people/76734' type='person' role='cmp'>Saint-Saëns, Camille</name>
+        <name key='MacDowell, Edward' ref='https://muscat.rism.info/admin/people/41022394' type='person' role='cmp'>MacDowell, Edward</name>
+        <name key='Köllner, Eduard' ref='https://muscat.rism.info/admin/people/30025470' type='person' role='cmp'>Köllner, Eduard</name>
+        <name key='Meyerbeer, Giacomo' ref='https://muscat.rism.info/admin/people/725' type='person' role='cmp'>Meyerbeer, Giacomo</name>
+        <name key='Bergalonne, F.' type='person' role='int'>Bergalonne, F.</name>
+        <name key='Concordia' type='person' role='int'>Concordia</name>
+        <name key='Edelweiss' type='person' role='int'>Edelweiss</name>
+        <name key='Corps de musique d&apos;Elite (Fanfare genevoise)' type='person' role='int'>Corps de musique d'Elite (Fanfare genevoise)</name>
+        <name key='Perrottet, Jeanne' type='person' role='int'>Perrottet, Jeanne</name>
+        <name key='Faure, Marguerite' type='person' role='int'>Faure, Marguerite</name>
+        <name key='Buess, Eugénie' type='person' role='int'>Buess, Eugénie</name>
+        <name key='Schmidt, Emile' type='person' role='int'>Schmidt, Emile</name>
+        <name key='Grandjean, S.' type='person' role='int'>Grandjean, S.</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000482_001.tif'/>
+        <page>
+          <![CDATA[T 129
 OÙ ("ÿ«:î ’É — q3 }_ù{(*‘:’” d 6=
 chh\:ä é …/«‘ ME OE MRE OOETS
 >Aÿ
-
 «s VICTORIA-HALL e
 <”ÎÊÎeÏ;Î‘n:uÎ;:Î} Dimanche 2 Février 1902 ‘… N Î/° g
 z ocC > 5
@@ -89,15 +105,7 @@ ${ O au bénéfice de leur Directeur M. RICHARD WISSMANN ÏI\U': f:
 l « KTF ARE GENEVOISE T n
 j V (MUSIQUE D'ÉLITE) ( e r
 -$’—_: sous la direction de M. F. BERGALONNE .|e :
-
 È M!e Jeanne PERROTET, Pianiste, Mme Marguerite FAURE, Cantatrice 
-
-     
-
- 
-
- 
-
 E
 “
 n >
@@ -152,21 +160,18 @@ i U 4 BUFFET AU REZ-DE-CHAUSSÉE » "f /
 E‘ E 20e
 1 e
 |
-
-  
-
 T O ° "r‘ p ‘—“"‘J(‘) cec e 5 \s 9- 0e © ° ()\‘;, 5
 2Q Ÿ = C% J'“'£* '{" /'\ « l q7‘0t({:7 226 Qÿ ( S ‘ï'ÿ Æ 4'-ﬁ"
-
 }7 -..,J, = « Ï" ‘c 4
 ”î‘ e ‘k &9 Îî"’ÎJNJ(> “" {>L?_)l._ _u'.,"°‘ E— M ',‘,}(" »
-
-e 709 “]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000482_002.tif"/>
-<page><![CDATA[Ê
+e 709 “
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000482_002.tif'/>
+        <page>
+          <![CDATA[Ê
 Î
 }
-
 3
 |
 |
@@ -175,7 +180,6 @@ e 709 “]]></page>
 J
 |
 |
-
 n
 |
 |
@@ -185,43 +189,31 @@ v
 1
 ‘
 ‘
-
 Damenchor «Edelweiss» und Mannerchor «(oncordia »
-
 + GENF —
-
 (GENF. Datum des Post tempels
-
 ll
-
 Wir beehren uns Ilnen das schon seit einiger Zeit in den Zeitungen publizirte
-
 Konzert
-
 von Sonntag den 2. Februar 1902, Nachmittags 2 ‘/» Uhr, in der Victoria-Hall
-
 in Erinnerung zu bringen.
-
 Dieses Konzert geben wir unter gefl. Mitwirkung der Fanfare Genevoise
 (Musique d’Élite), sowie méhreren bewährten und hervorragenden Künstlern Genls und
 Wird es an Abwechslung und Genuss in Programm nicht fehlen
-
 Wenn wir die Thätigkeit der beiden Vereine im verflossenen Jahre und die
 Erfolge bei unseren Auftritten in Betracht ziehen. so glauben wir Ihnen genücend
 Beweise geliefert zu haben, dass wir in unserin Direktor Herrn WISSMANM die richtive
 Kraft gefunden haben, eine Kraft die uns auf einen blühenden Zweig bringen wird
-
 Wir gelangen daher an Sie « Mitglieder und Gônner dieser beiden Vereine » mil
 der hôflichen Bitte unserm Herrn Direktor an seinem Ehrentage dureh den Besuch dieses
-
 Konzertes Ihre Sympathie zu bezeugen
-
 Mit Sängergruss und Handschlag
-
 Namens des Organisations-Comite :
 Der Präsident : Der Sekretär :
-Rod. E ZIMMERMANN-RFY. J. EGER.]]></page>       
-        </p>
+Rod. E ZIMMERMANN-RFY. J. EGER.
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

@@ -1,110 +1,92 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>2me concert donné par l'Harmonie nautique<date when="17/12/1922"/></title>
-<series>1922-1923</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            2me concert donné par l'Harmonie nautique
+            <date when='17/12/1922'/>
+          </title>
+          <series>1922-1923</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F001911</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Gabelles, G. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19221217"/>
-<title>2me concert donné par l'Harmonie nautique</title>
-<placeName key="Victoria Hall"/>
-<name key="1922-1923" type="series"/>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Scarlatti, Alessandro" ref="https://muscat.rism.info/admin/people/30002848" type="person" role="cmp">Scarlatti, Alessandro</name>
-<name key="Paisiello, Giovanni" ref="https://muscat.rism.info/admin/people/1874" type="person" role="cmp">Paisiello, Giovanni</name>
-<name key="Carrissimi, G."  type="person" role="cmp">Carrissimi, G.</name>
-<name key="Paderewski, Ignacy Jan" ref="https://muscat.rism.info/admin/people/30029943" type="person" role="cmp">Paderewski, Ignacy Jan</name>
-<name key="Debussy, Claude" ref="https://muscat.rism.info/admin/people/4338" type="person" role="cmp">Debussy, Claude</name>
-<name key="Moszkowski, Moritz" ref="https://muscat.rism.info/admin/people/94844" type="person" role="cmp">Moszkowski, Moritz</name>
-<name key="Chopin, Fryderyk Franciszek" ref="https://muscat.rism.info/admin/people/51160" type="person" role="cmp">Chopin, Fryderyk Franciszek</name>
-<name key="Costa"  type="person" role="cmp">Costa</name>
-<name key="Tosti"  type="person" role="cmp">Tosti</name>
-<name key="Capua, E. di"  type="person" role="cmp">Capua, E. di</name>
-<name key="Indy, Vincent d'" ref="https://muscat.rism.info/admin/people/114686" type="person" role="cmp">Indy, Vincent d'</name>
-<name key="Gabelles, Gustave  (dir.)" ref="https://muscat.rism.info/admin/people/30073762" type="person" role="int">Gabelles, Gustave  (dir.)</name>
-<name key="Harmonie Nautique"  type="person" role="int">Harmonie Nautique</name>
-<name key="Longobardi, Ada"  type="person" role="int">Longobardi, Ada</name>
-<name key="Longobardi, Alphonse"  type="person" role="int">Longobardi, Alphonse</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001911_001.tif"/>
-<page><![CDATA[mms pn
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19221217'/>
+        <title>2me concert donné par l'Harmonie nautique</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1922-1923' type='series'/>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Scarlatti, Alessandro' ref='https://muscat.rism.info/admin/people/30002848' type='person' role='cmp'>Scarlatti, Alessandro</name>
+        <name key='Paisiello, Giovanni' ref='https://muscat.rism.info/admin/people/1874' type='person' role='cmp'>Paisiello, Giovanni</name>
+        <name key='Carrissimi, G.' type='person' role='cmp'>Carrissimi, G.</name>
+        <name key='Paderewski, Ignacy Jan' ref='https://muscat.rism.info/admin/people/30029943' type='person' role='cmp'>Paderewski, Ignacy Jan</name>
+        <name key='Debussy, Claude' ref='https://muscat.rism.info/admin/people/4338' type='person' role='cmp'>Debussy, Claude</name>
+        <name key='Moszkowski, Moritz' ref='https://muscat.rism.info/admin/people/94844' type='person' role='cmp'>Moszkowski, Moritz</name>
+        <name key='Chopin, Fryderyk Franciszek' ref='https://muscat.rism.info/admin/people/51160' type='person' role='cmp'>Chopin, Fryderyk Franciszek</name>
+        <name key='Costa' type='person' role='cmp'>Costa</name>
+        <name key='Tosti' type='person' role='cmp'>Tosti</name>
+        <name key='Capua, E. di' type='person' role='cmp'>Capua, E. di</name>
+        <name key='Indy, Vincent d&apos;' ref='https://muscat.rism.info/admin/people/114686' type='person' role='cmp'>Indy, Vincent d'</name>
+        <name key='Gabelles, Gustave' ref='https://muscat.rism.info/admin/people/30073762' type='person' role='int'>Gabelles, Gustave</name>
+        <name key='Harmonie Nautique' type='person' role='int'>Harmonie Nautique</name>
+        <name key='Longobardi, Ada' type='person' role='int'>Longobardi, Ada</name>
+        <name key='Longobardi, Alphonse' type='person' role='int'>Longobardi, Alphonse</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001911_001.tif'/>
+        <page>
+          <![CDATA[mms pn
 On
-
 Ë des portes à ?\ ; e Î commencera
 g 14 heures &\ﬁ 1X : à 14h.45
-
 donné par
-
 L’HARMONIE NAUTIQUE
-
 HARMONIE MUNICIPALE DE LA VILLE DE GENÈVE
 Directeur: M. GUSTAVE GABELLES, Professeur au Conservatoire
-
 avec le concours de
-
- 
-
 =s
-
 —N
-
- 
-
 =3s S
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-      
-
- 
-
 Mme Ada LONGOBARDI M. Aiphonse LONGOBARDI l
 et de PIANISTE I
 CANTATRICE Professeur à l’Académie e Musique de Genève |
@@ -114,15 +96,12 @@ PROGRAMME |
 à 1 SETUDELCAMAMORTE . . . ° / !" A. Scarlatti fl
 B CHI VUOL LA ZINGARELLA. . . . . . . G. Paisiello
 C. VITTORIA, MIO CORE ! . . 1 05 Carrissimi
-
 Mme Ada LORGOBARDI.
 3. VARIATIONS ET FUGUE (Sur un thème original) Paderewsky
 M. Alphonse LONGOBARDI.
 PE SUITE .. C. Debussy
 a) En bateau. b) Cortege c) Menuet. d) Ballet.
-
 DEUXIÈME PARTIE
-
 S AIRS DABALÉET ; "! . . Moszkowsky
 a) Sarabande. b) Passe- pned c) Fantasmagone d') Minuetto.
 6. SCHERZO (op.19) . 1 Ch00IN
@@ -133,52 +112,31 @@ DEMAREEHIARO . 1111N 017N Tostf
 C) CARCIOFFOLA!I. . . 11 E 0/ Capua
 Mme Ada LOG©BARDŒ.
 8. LE CAMP DE WALLENSTEIN . . . . Vincent d’Indy
-
 (d’après la ballade de Schiller).
 MM, les membres non- -exéeutants nnt droit à 9n.wesvr an“ entation des coupons B, 901 0
-
 LOCATION à lAgence Ver0n ‘Grauer & C°, Passage du Terraillet
-
 TELÉPHONE STAND 31 64
-
- 
-
 Procurez-vous à [Ündaslrze CfCl/55€
 la montre Place du Molard, angle Croïxed'Or
-
 C 01’féb€î‘f, une de nos meilleures margues suisses ﬁ
-
- 
-
- 
-
- 
-
-Imp. CHAPUIS & BAUMEISTER, Coulouvrenière, 3, Genève]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001911_002.tif"/>
-<page><![CDATA[SOCIÉTÉ DE
-
+Imp. CHAPUIS & BAUMEISTER, Coulouvrenière, 3, Genève
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001911_002.tif'/>
+        <page>
+          <![CDATA[SOCIÉTÉ DE
 BANQUE SUISSE
-
 FONDÉE EN 1872
 Capital-actions et Réserves : 153 millions
-
 6-10, Corraterie - GENÈVE - Corraterie, 6-10
-
 CORNAVIN EAUX-VIVES
 10, Place de Cornavin 3, Place des Eaux-Vives
 PLAINPALAIS ÆAROUGE
 36, Rue de Carouge Rue du Marché
-
 TOUTES OPÉRATIONS DE BANQUE AUX MEILLEURES CONDITIONS
-
 .
 mtn céc t pesoee d E E S
-
- 
-
 OUVERTURE DE LÉONORE (No 3) Beethoven.
-
 Le l1er ventôse de l’an VI, on avait représenté à Paris un
 mélodrame de Bouilly, Léonore ou l’Amour conjugal, avec musique
 de Gaveaux. Paër eut l'idée de composer pour les Viennois un
@@ -191,67 +149,25 @@ cas le mot est joli. Ce qui est certain, c’est que le vertueux Beetho-
 ven, qui reprochait à Mozart d’avoir écrit un Don Juan, était
 tout heureux d’avoir à célébrer l’amour conjugal. Voici, en
 effet, le sujet de la pièce : Florestan est injustement détenu dans
-
- 
-
- 
-
- 
-
- 
-
 JARDIN ANGLAIS
-
 (Promenade du Lac)
-
 Pavillon de rafraîchissements tenu par M. L. FREY,
 restaurateur de la MAISON COMMUNALE DE PLAINPALAIS
-
- 
-
 Du 1" juin au 31 août
-
 É-CCONCERT
-
 ORCHESTRE SYMPHONIQUE
-
- 
-
 DE
-
- 
-
- 
-
- 
-
- 
-
- 
-
-  
-
- 
-
-se]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001911_003.tif"/>
-<page><![CDATA[Vétements pour Hommes
-
+se
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001911_003.tif'/>
+        <page>
+          <![CDATA[Vétements pour Hommes
 ®
-
-  
-  
-  
- 
-
 VÉTEMENTS |
 SUR MESURE |
 PRIX SANS CONCURRENCE |
-
 Fournisseurs de l’Harmonie Nautlique
-
- 
-
 un cachot où il va mourir de faim. Sa femme Léonore, se dé-
 guise en homme et se fait agréer comme serviteur du gedlier.
 | Elle arrive à sauver son mari et à faire condamner le gouver-
@@ -259,82 +175,40 @@ guise en homme et se fait agréer comme serviteur du gedlier.
 tan. Malheureusement cette histoire émouvante était fort gau-
 chement présentée, dans un style déplorable, sans talent et
 sans goût.
-
 L’ouverture de Léonore No 3 débute par la plainte si doulou-
 reuse de Florestan, qui se transforme peu à peu pour devenir
 — après l’appel des trompettes qui sonnent l’heure de la déli-
 vrance — un hymme de joie reconnaisante et sereine. Tout le
 drame se trouve par avance synthétisé dans cette admirable page.
-
- 
-
- 
-
 c l NÏ A Téléphone: Stand 902
 Télégramme: Cintra-Genève
 Vente et dégustation des Vins fins du Portugal et de l’Espagne
 Anglo-American Drinks - Spiritueux d’origine
-
 27, rue de la Confédération et Fusterie, 16 - Genève
-
- 
-
 CAFÉ-RESTAURANT
 CROIX-D'OR, 2 TÉL. STAND 34.62
-
 Choucroute extra toute l’année
-
- 
-
 Jeunes gens et Enfants “°\s _Î
-
 GRANDE BRASSERIE CENTRALE
-
- 
-
- 
-
- 
-
- 
-
 BIÈRES et VINS de première qualité | A. GSELL.
-
- 
-
-m. :°°°°°…°__j_.….__°°…_…_ L e N]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001911_004.tif"/>
-<page><![CDATA[]
-
- 
-
+m. :°°°°°…°__j_.….__°°…_…_ L e N
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001911_004.tif'/>
+        <page>
+          <![CDATA[]
 GARAGE CENTRAL
-
 5, Rue du Diorama, GENÈVE
-
- 
-
- 
-
- 
-
 Albert HUBERT, Prop. |
 Représentant des autos / ‘
-
 NAZZARO et CHENARD-WALCKER
-
 Grand atelier pour revisions
-
- 
-
 Claude DEBUSSY
-
 Claude Debussy est né à Saint-Germain-en-Laye le 22 août
 1862 el mort à Paris le 25 mars 1918. Ses œuvres sont le monu-
 ment immortel du génie le plus pur et le plus poétique, le
 plus hardi etle plus harmonieux qui ait depuis longtemps illustré
 la musique française.
-
 Musicien instruit, esprit curieux et délicat, artiste en toute
 chose, il a su comprendre la musique de Rameau comme celle
 de Moussorgski, la poésie des symbolistes comme la peinture
@@ -342,77 +216,25 @@ des impressionnistes, dont il rencontrait le plus notoires dans
 le salon initiatique de Stéphane Mallarmé. Pourtant il ne res-
 semble ni à Rameau ni à Moussorgski, et malgré le choix de
 certains sujets ou de certains titres, ne peut être affilié ni à la
-
- 
-
- 
-
- 
-
 banque Populaire Suisse
-
 1, Quai des Bergues  GENÈVE =— Place St-Gervais
-
 ACACIAS, 2, Route des Acacias, 2
 AGENCES : RIVE, 18, C"* Rive - Bd Helvétique, 28
-
 CAPITAL SOCIAL ET RÉSERVES : Fr. 118.000.000
-
 OUVERTURE DE CRÉDITS
 aux conditions les plus avantageuses
-
 COMPTES D’ÉPARGNE
-
 Escompte, Encaissement, Change, Coupons, Ordres de bourse, Lettres de Crédit
-
- 
-
- 
-
 —
-
- 
-
 (e]
-
- 
-
- 
-
-LS AN OIS D N ns EN]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001911_005.tif"/>
-<page><![CDATA["0
-
- 
-
+LS AN OIS D N ns EN
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001911_005.tif'/>
+        <page>
+          <![CDATA["0
 O|
-
- 
-
-    
-
- 
-
- 
-
- 
-
- 
-
- 
-
 pN
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Î Aimé KLING
 SE LUTHIER
 sA RUE DIDAY, 12 (Entresol)
@@ -450,104 +272,56 @@ Maillots en jersey coton, qualité extra
 forte, couleurs inaltérables, depuis fr. 4.75.
 Chaussures depuis fr. 16.75.
 TOUS LES SPORTS
-( -]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001911_006.tif"/>
-<page><![CDATA[w
-
- 
-
- 
-
- 
-
- 
-
+( -
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001911_006.tif'/>
+        <page>
+          <![CDATA[w
 Fleurs Taturelle
-
 Fleurs coupées
-
 Location de Plantes
 pour Bals et dSoirées
-
 Bouguets, Couronnes
-
 CSpécia/ité : avaux arfistiques
 Décoration de tables en Fleurs naturelles
-
 CHARLES FLEURIOT
-
 Corraterie, 26 VR Téléphone dtand 1815
-
- 
-
 LE CAMP DE WALLENSTEIN (V. d'Indy)
-
 Cette trilogie symphonique a été composée pour servir de
 préface et de commentaire musical aux trois poèmes dramatiques
 de Schiller sur Wallenstein, le Camp, les Piccolomini (Max et
 Thécla), la Mort de Wallenstein.
-
 De ces trois poèmes, le premier est un tableau pittoresque
 de l’armée impériale pendant la Guerre de Trente Ans, une
 description musicale de ces soudards ou, suivant l'expression
 de Schiller, de « ces bandes sauvages que peut seule diriger et
 discipliner la main de leur général, leur idole ».
-
 Après une exposition du thème guerrier en sol majeur par
 toute l’harmonie, les bois présentent (également en so/) une sorte
 de valse lente qui aboutit bientôt à un rythme de danse sau-
 vage d’une tonalité assez indécise.
-
- 
-
- 
-
 PARASOLS ET
 ABRIS POUR JARDINS
-
 L. CORMIER, Fabnicant
-
 GENÈVE, 6, Rte des ACACIAS
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Ÿ
 , |
 2
 Ë
-"î]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001911_007.tif"/>
-<page><![CDATA[es rrr
-
- 
-
- 
-
+"î
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001911_007.tif'/>
+        <page>
+          <![CDATA[es rrr
 J. Véron, Grauer & C
-
 22, rue du Mont-Blanc, 22 - GENÈVE
-
 Agence de location de Théâtres et Concerts
 20, Terraillet, 20
-
 Assurances de bagages et de voyage
 Billets de chemins de fer
 Passages pour tous pays
-
- 
-
- 
-
- 
-
 Suivent divers épisodes tirés de ces trois motifs. Puis un
 arrêt se produit dans le mouvement et les bassons, clarinette-
 basse et saxophones, exposent, à tours de rôle, un sujet fugué
@@ -556,84 +330,42 @@ au malencontreux sermon du capucin) qui, se répercutant à
 divers instruments, se trouve brusquement interrompu par la
 première apparition du thème de Wallenstein amenant la rentrée
 du thème guerrier dans des teintes plus radoucies.
-
 Les danses reprennent et conduisent, en s’animant graduel-
 lement, à un tumulte final qui n’est autre que la condensation du
 premier motif ; 1le morceau se termine par les quelques notes
 du thème de Wallenstein, jetées par les cuivres de sonorité
 claire, au milieu du fortissimo de l’harmonie
-
- 
-
- 
-
- 
-
- 
-
 Les cigarettes égyptiennes
-
- 
-
- 
-
 sont incontestablement les meilleures
-
 Demandez nos nouveauté Jlo 100 petit format
-
-et 130 grand format avec bout or]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001911_008.tif"/>
-<page><![CDATA[Avant de vous décider
+et 130 grand format avec bout or
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001911_008.tif'/>
+        <page>
+          <![CDATA[Avant de vous décider
 pour l’'achat d'’un
-
 FI4AV0O
-
 Visitez les m AgasiTs
-
 RÔLSCHY Frères
 04, Rue du Stañd, 604
-
 (A proximité immédiate de la poste)
-
- 
-
 AVIS
-
 Pour être reçu membre non-exécutant de l’'Harmonie Nautique,
 on peut s'inscrire tous les jours chez le Concierge du Victoria-Hall,
 ou par lettre adressée au Comité; le prix de la carte est de 8 fr.
 par an, et donne droit à deux entrées pour chaque concert donné
-
 par l’'Harmonie Nautique.
-
- 
-
- 
-
- 
-
- 
-
 APPAREILLAGE SANTAIRE =—=—=—=
 COUVERTURES METALLIQUES
-
 Louis Sruber
-
 2 bis, Boulevard James-Fazy, 2 bis
 Téléphone Mt-Blanc 37-29 GENÈVE Téléphone Mt-Blanc 37-29
-
 CHAMBRES DE BAINS et APPAREILS SANITAIRES
-
- 
-
- 
-
- 
-
- 
-
-©]]></page>       
-        </p>
+©
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

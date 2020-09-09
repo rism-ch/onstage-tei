@@ -1,314 +1,209 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert populaire donné par l'Orchestre de la Ville<date when="08/08/1886"/></title>
-<series>1885-1886</series>
-<placeName>Kiosque (Promenade des Bastions)</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert populaire donné par l'Orchestre de la Ville
+            <date when='08/08/1886'/>
+          </title>
+          <series>1885-1886</series>
+          <placeName>Genève, Kiosque (Promenade des Bastions)</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VG2-1 F002193</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Senger, H. de (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18860808"/>
-<title>Concert populaire donné par l'Orchestre de la Ville</title>
-<placeName key="Kiosque (Promenade des Bastions)"/>
-<name key="1885-1886" type="series"/>
-<name key="Suppè, Franz von" ref="https://muscat.rism.info/admin/people/138448" type="person" role="cmp">Suppè, Franz von</name>
-<name key="Flotow, Friedrich von" ref="https://muscat.rism.info/admin/people/63626" type="person" role="cmp">Flotow, Friedrich von</name>
-<name key="Rossini, Gioachino" ref="https://muscat.rism.info/admin/people/63766" type="person" role="cmp">Rossini, Gioachino</name>
-<name key="Schiffmacher"  type="person" role="cmp">Schiffmacher</name>
-<name key="Schmit, Gustave"  type="person" role="cmp">Schmit, Gustave</name>
-<name key="Verdi, Giuseppe" ref="https://muscat.rism.info/admin/people/137994" type="person" role="cmp">Verdi, Giuseppe</name>
-<name key="Arban, Jean-Baptiste" ref="https://muscat.rism.info/admin/people/31980" type="person" role="cmp">Arban, Jean-Baptiste</name>
-<name key="Heps"  type="person" role="cmp">Heps</name>
-<name key="Senger, Franz Ludwig Hugo von  (dir.)" ref="https://muscat.rism.info/admin/people/30015297" type="person" role="int">Senger, Franz Ludwig Hugo von  (dir.)</name>
-<name key="Orchestre de la Ville de Genève"  type="person" role="int">Orchestre de la Ville de Genève</name>
-<name key="Moog, Jean"  type="person" role="int">Moog, Jean</name>
-<name key="Brun, Jules"  type="person" role="int">Brun, Jules</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_1_f002193_001.tif"/>
-<page><![CDATA[Demandez toujours et partout
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18860808'/>
+        <title>Concert populaire donné par l'Orchestre de la Ville</title>
+        <placeName key='Genève, Kiosque (Promenade des Bastions)'/>
+        <name key='1885-1886' type='series'/>
+        <name key='Suppè, Franz von' ref='https://muscat.rism.info/admin/people/138448' type='person' role='cmp'>Suppè, Franz von</name>
+        <name key='Flotow, Friedrich von' ref='https://muscat.rism.info/admin/people/63626' type='person' role='cmp'>Flotow, Friedrich von</name>
+        <name key='Rossini, Gioachino' ref='https://muscat.rism.info/admin/people/63766' type='person' role='cmp'>Rossini, Gioachino</name>
+        <name key='Schiffmacher' type='person' role='cmp'>Schiffmacher</name>
+        <name key='Schmit, Gustave' type='person' role='cmp'>Schmit, Gustave</name>
+        <name key='Verdi, Giuseppe' ref='https://muscat.rism.info/admin/people/137994' type='person' role='cmp'>Verdi, Giuseppe</name>
+        <name key='Arban, Jean-Baptiste' ref='https://muscat.rism.info/admin/people/31980' type='person' role='cmp'>Arban, Jean-Baptiste</name>
+        <name key='Heps' type='person' role='cmp'>Heps</name>
+        <name key='Senger, Franz Ludwig Hugo von' ref='https://muscat.rism.info/admin/people/30015297' type='person' role='int'>Senger, Franz Ludwig Hugo von</name>
+        <name key='Orchestre de la Ville de Genève' type='person' role='int'>Orchestre de la Ville de Genève</name>
+        <name key='Moog, Jean' type='person' role='int'>Moog, Jean</name>
+        <name key='Brun, Jules' type='person' role='int'>Brun, Jules</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_1_f002193_001.tif'/>
+        <page>
+          <![CDATA[Demandez toujours et partout
 LE PLUS GRAND SUCCES DU JOUR
-
 B“NSD“ARW . 1 Renommee
-
 P‘OP"‘et‘…e Mme E. GAILLARD âVoir au dos le prix CIREà PARQUET(encaustiquesupérieur)
-
 etDirectrice
 Le seul à Genive où se trouvent à la ois et es apparcils seul et unique produit recommandable
-
 ° ; hs gemérales | des ; Z SS
 :Betsl(l:(l‘::lsels“rc::e:l;laelîdpëureÿu;:à;iîle et les avan- / IYGIÈNE, PROPRETE, RAPIDITÉ, ECONOMIE
-
 - tares de l’inmmersiom directe dans l’eau d'Arve. — Nn NN en vente chez tous les épiciers et droguistes
 Gr.mde salle de massage. Eleetrothérapie. Personnel attentifet expérimenté. ÛO?ZSO? N 2/(l tl0?Ls ; ur 1 V
 PISCINE publique, 20 c. — BAIV avec donche et linge, 50 € — El Il (}SÎ M E \ E “
-
 GRANDE DOUCHE, linge et frict. 1,25. --- BAIN TURC, 2 fr — BAIVde — = # __ .
 FUMIFATION, 2 fr. -- DOUCHE écossaise, 1.50, -- DOUCHE mitisée, 1.50, / 96, rue du RÎI()H(’, 96
 lHI\ de s0 n can conrante, Tôie, — DOUCHE entcerele av,friot. 1. Fournisseur des Administrations, Théâtres, Musées,
-
 CÏH\ÏBHS eonfortables dans la mmaisom même des : Hôtels. Pensions et Maisons bourgeoises de la Suisse el
 llaulä. =- CUISINE SOLGNÉE. == PRIX HODÉRÉS. 2 de l’étranger.
-
 OFFICIEL DES CONCERTS
-
 Ôc»v…c.& cuu
-
 par ps ‘ ‘ et les
-
 L’0RGHESTIŒœm\ILLF \ / 8 Es MUSTQUES CIVILES
-
 ; DE - ' é e À ET
-
 -=GEN',ÈWE_, - é d MILPFAHRES
-
 CJÏﬁ
-
 u°*‘
-
 e
-
 Saison 1886
-
 TENU PAR
-
 MM. ODER & FOURNIER
-
 "—"/{—\>v_ M/—\—-—
-
 lue du Monlt-Blanc, D
 Jours et heures
-
 des . .
 en faisant usage d’Alcool #
-
 de Menthe Americuine:#
 vG ‘Î N î€ E R T S rrrn * c'est un specifique sou-f
 I verain contreles crampes #
 ; Æ d'estomac, maux de cœur
 F R GMFN ; ÿ et de nerfs. — Hygiène, ÿ
 ])1n]…u-hœ Dn el 19 1|2 h. Ÿ =T A santé et toilette,
-
 ‘ 5 “Tacons fr 50 is k
 Fabr Î€lll€ de Chemises Lundi 8 112 heures e c f',.'z,1n',ÏÏ,ÏJÏÏ.Ï.Ï;_‘
-
 Mardi 4 heures et à 8 112 h. AN 9 drogueries et épicerien
 Le plus grand choix Mercredi 8 112 ll.p:lyalnt n ur
 - de Bas, Chaussettes, Cravattes Vendredi 8 12 h. ENS2, foiae | JULES LE COULTRE |
 Haute Nouveauté | OE ME O csNève |
-
 Se méfier des contre-Ë
-
- 
-
- 
-
- 
-
 |
 |
 |
 |
 |
 |
-
 |
-
 f
-
- 
-
- 
-
- 
-
- 
-
 {
-
 us
-
 e
-
 Ln
-
 SS
-
 Ë
-
 e
-
 &
-
 é
-
-146F S]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_1_f002193_002.tif"/>
-<page><![CDATA[KIOSQUE DES BASTIONS
-
- 
-
+146F S
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_1_f002193_002.tif'/>
+        <page>
+          <![CDATA[KIOSQUE DES BASTIONS
 H w
-
 Tous les jours à m
-
 q\;n Ï( ‘ ÏA
 | |
 | |
-
 A + ; *+*
-
 ===j à 2 francs (vin compris) —-s
-
- 
-
- Au Pays de la Revanche
+Au Pays de la Revanche
 ; par Îe Dr Rommet. Prix : 3 fr.
-
 , RHhL&TIO\;& SUR L'ASSASSINAT D'ALEXANDRE IL par le major
 ; 0ënnn Bey, Prix: 3 fr. 50.
-
 AU ’SAL\T—_BP *NARD EN TRICYCLE fr. 2 50
-
 THE SWISS HERAED = c|
-
 G0ne jaUTé K 20
 Galignants gilessenges ».
-
- vento à la librairio S'ER HP Æ RNE GP EZ EZ , 24, CORRATERIE.
-
- 
-
- 
-
- 
-
- 
-
- 
-
+vento à la librairio S'ER HP Æ RNE GP EZ EZ , 24, CORRATERIE.
 URNITURES GÉNÉRALES POUR LA
 ' PHÔTOGRAPHIE
-
 95 me du Stand, Genève
-
 pçsnl.auc génér al pour la Suisse des plaques sè-
 1 gélalino-bromure d'argent de M. Ed. Beernaerl
 Gand (Belgique). Dépôt du papier sensibilisé lLu-
 bjeclifs de toutes marques.
 Tu)usses à 3,6 (,L 7 foyers, ()hhuatcms
-
 I’mrl» ch
-
- 
-
 ÎSÇ Ïz?=Î.‘ ,RHONE’
-
- 
-
- 
-
 *>
 DIMANCHE 8 AOUT 1886, à 3 HEURES
-
 oncert populaire
-
- 
-
 DONNÉ PAR
-
 rchestre de la Ville
-
 Direction : M. TEUGO DE SENGER
-
 —— —— (> CIS IL E ADD E S——
-
 ROGRAMME:
-
 PIHû.\HÈHE PARTIE
-
 24s Boecaccio—marche Fr. DE SUPPL .
-
- 
-
 2  Martha, ouverture Tc E 'FLOTOW
-
 MANEÈGE
-
 Equitation pour dames et messieurs. Prome-
 nades accompagnées, Leçons de guides en tous
 genres. Pension, dressage, vente et achat de
 chevaux. TÉLÉPHONE
-
 Rue du Lémoom (Prs du Quai du Léman)
-
- 
-
 ‘ Bicÿcles
-
 COut
-
 en vente che7
-
 L()[ IS DLLAPBAZ
-
 6, rue de Saussure,
-l.ohangos, lh*purulions, l40mulon]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_1_f002193_003.tif"/>
-<page><![CDATA[—lul Q ‘iseau}" polka pour etites flûtea ‘ 4 Gustave 'Senmr , 1* hauds 32
+l.ohangos, lh*purulions, l40mulon
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_1_f002193_003.tif'/>
+        <page>
+          <![CDATA[—lul Q ‘iseau}" polka pour etites flûtea ‘ 4 Gustave 'Senmr , 1* hauds 32
 \ÆM Jean Moog et Jules Brun ; ; se R e IRs SIS É tonte é……lle., â 1‘—‘—.£f mîc€eä.e
 T > , \ 1 ‘ ÿ  Garantis ne donnant pas d’odeur.
-
 ; ; l,1ngeme 2 $ 7 Tra‘iata : sS _ 4 Vennr _ e , _ . Proproté CélÏnï‘xeS(}lllä‘l}'onte che:;
 | costume, 30 centimes. — 1 drap, 20 centimes. ‘ - | ‘ s% e 13. rue du Stand. Genève.
-
 4 servietté, 10 c. — 1 caleçon, 10 c. ; 8. Orangerie-polka ; « ARBAN
-
 - pour Dames
-
- 
-
- 
-
 Maison fondée en 1810 9. L’Alhrmbra, quadrille de concerts.; * ‘ Hrrs
 e ,
-
 ; Confiserie - Patisserie - Glaees
-
 CESOR | ROBBI & SILVESTER
-
 e R ; lPimanchc 8 Août, à S 12 heures du soh° Grand Concert GENÈVE, 15, rue du Rhône, 15, GENÈVE
 « Listillaleurs-liquoristes _ ; donné.par LA CÉCILIENNE CHOCOLATS ‘assortis - Grand choix de BONBONS fins
 16. rue Verdaine, IG ; sA T WENS fins ot Liqueurs de première marque, en bouteilles et au détail
@@ -319,74 +214,24 @@ MUSIQUE HONGROISE des TZIGANNES SAKOZY PRAIMRURES P BAES SS QIR ES RE
 À * \) / ; The, Café.au lait et Chocolat à la tasse
 IQU EURS FIN Lb SIROPS U l\ l‘ 1S En cas de force majeure le chef d’orcheste se réserye de modifier le programme. Spécialité de réglisses Cachon, Produits au gluten, Prospectus gratis,
 Cartonnagas riches, Fantaisies, Surprises, Hantes nonveautés,
-
- 
-
- 
-
 = 4
-
 ; Es SR se 29
 « s= \ 1 =
 >/‘ “Wÿ/+\+ (“'”*\_‘
-
 \
-
 losque des Bastions e 23 ÛEMENAGEMENTS Agence
-
 es ‘ ä\‘Ë«? PE Urg, a°‘Ë’Ë de
 r . ° pS| ‘$k J = | ë
 l'ous les soirs ‘ S /-IRIE %; Au1D TRANSPORTS
-
 petuo crr 12 ILLUMINATION 70
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 pour tous pays
-
 = — AN
-
- 
-
- 
-
- 
-
- 
-
- 
-
 N Par grande et petite vitesse. -- Camionnage et Agence en Nonane, -- Wagons
-
 ï , | capitonués, pour tous pays, voie de terre et fer pour la ville et la campagne
 $Ïe‘” 9 Tous les jours promenade au quhn des I.nslmns d'une jolie zmluu enfan- Œ\X/ ! »} pays, p
-
 — © tine tirée par des CHÈVRES. La promenade, chaque enfaut, 10 c. 4- S ZÈ EZ’ I? 7‘7 4 l ÎD
 R; .V °
 ; l" J Wélèphone = |, rue des Gares, 1. = Téléphone
-
 : ; de Genève Ë
 E l direction de M. F. Bergalonne avre , 7 ï à Î' RF Â\N r S Pour ce qui concerne les
 Avec le bienveillant concours de M. Etcen ; _FÂX" Ë b f\ UJ_\ CO 1 B'I L AÏ | r [
@@ -394,122 +239,65 @@ Avec le bienveillant concours de M. Etcen ; _FÂX" Ë b f\ UJ_\ CO 1 B'I L AÏ |
 ;“_l_l]uininañâmn du Édioque et
 LÎA 1Eisabrascnwnû des Efastions aux Î ? î ï l m @ Î l t r a h u @
 fiasmemmes dc Heongale È*®Ë R Ë«' yp g u p q dans le
-
 Programme officiel
-
 | PARFUNERIE & SATONAERIE Victor GUILLOT [ ".
 À l‘\L€êî CND # çe 26, vc des Olfemands, 26 KIOS(]UÔ'£BÀ»SÜOÏIS
-
 GLNÏî”‘?J .… ‘“‘°““‘Ï'”*" a / mande à Messieurs les Commerçants par son S'adresser à
 - BERNE, rue du Marché, 29 ;
 - TY (s p LN
 iames. ä;n:os;æ Eponges t ail scigné, prompl el ses prix moderés, V. GUILLOT
 . °52S ' ‘Î“ 217 26, rue des Allemands, 26, Genève
 Prix modérés ;
-
 donnè par la Société chorale la
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 És r‘c—& d n E
-
-es]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_1_f002193_004.tif"/>
-<page><![CDATA[AUX PLUS VASTES MAGASINS DE NOUVEAUTÉS
-
+es
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_1_f002193_004.tif'/>
+        <page>
+          <![CDATA[AUX PLUS VASTES MAGASINS DE NOUVEAUTÉS
 Confections pour Dames et Enfants. -- Tissus en tous genres
-
- 
-
 n
-
 À L'ESPERANCE à
-
 Maison Jaquemet et Mercier
-
 Bue du Mont-Elanc. 19 Ÿni( GEN EVE )… Square de Chantepoulet, 29î:
-
 Grande mise en vente FÏ \ l D}T q A IS Û Baisse de prix sur tous
 ï Ê 17 40 < les articles
-
 A E"ER(_?U Valeur réelle vendu x
 Mantille garnie dentelle, passementerie 21 s90
-
- 
-
 au dos
-
 ; en diagonale, garnie de den- | a8
 Mantille ” telle de jais 17 10=-
-
 ; satin soleil, garnie jais .Î‘
 Mantille 1 en 18 13-
-
 q sH, €N magnifique satin Radamès , _
 Nantille pure soie crois(e, garnie den- 42 34- î
-
 telle perlée
-
 wes en drap bouëlé, garnie dentelle et .
 v'isite passementerie perlée 26 20 ;
-
 re.s en tissu dentelle, garnie dentelle
 Visite et passementerie perlée 3 28 =
-
 "êe$ en cachemire double, garnie den-
 Visite telle et passementerie 35 26 2
-
 ‘18ÎÎO pour deuil e|::r(è)lfl)Ëthle, garnie 98 20 -
-
 CONTUMES POUR ENFANTY
-
 extra-avantageux —
-
 C'osturmes coutil pour garçons, depuis 5 —
 d'estumes coutil, biouse à plis et çeunture
 C'ostusmes magrËm,coutil nalté, qualté extra 12 — ;
 Esobes peéercale, pour enfants de £ à 5 ans 6.50
 ZModes percale, johs mouêles, pour enfants -
-
 de l à 5 ans
 Etobes masine, garnies lacets, pour enlants
-
 de 2 à 6 ans
 Etodbes Vichy et Zéplhiir, nouv. modèles
-
- 
-
- 
-
- 
-
- 
-
- 
-
 La Maison À PRSPERBANEE ayant pour prineipe de renouveler complètement ses assortiments pour chaque saison, #
 vendra dès ce jour, avec tn très grand rabais. tous les articles, tissus et confections restant de la saison de printemps.
-
 æ
 e
-
 BON —. SOLIDIIÉ == ÉLÉGANCE à
 L'Espérance ne craint ancune conourrence - L’Espérance ferme ses magasins le dimanche |
-
 L'IRIX DEs CONSOMMATIONS
-
 Bière, bock 20, Byrrh 30 ! Gentiane 50 | Bavaroise chocolat 50 » demi-bout. 150) » demi-hout. 1 —
 , canelte 40 Pippermint 40 | Bitter 30 » lait 40 ; Pommard.la bout.5 --- Dézaley, 1883, l
 Café 25 Punech 40 Amer Picon 40 ; Soda 45  Beaune, la bout. 5 ; bouteille 2 50
@@ -527,13 +315,11 @@ Malaga 50 Rhum 25 China-china 40 Fleury.labout. 250/ » demi-bout. 7157
 Marsala 50 Kirseh 25 | Anisetle de Bord. 50 Mouliu-à-vent,1 b.230  Villeneuve, la b. 2 — |
 Nérès 501 Kümmel 30 , Aniselte 30 |
 Porto GU 1 (Cassis 30 ; Sherry cobler 125 | Î
-
 9
-
- 
-
-p rrrl aicrbenst srr e prereéreel S P S]]></page>       
-        </p>
+p rrrl aicrbenst srr e prereéreel S P S
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

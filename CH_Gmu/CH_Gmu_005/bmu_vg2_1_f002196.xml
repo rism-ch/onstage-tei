@@ -1,126 +1,109 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Grand concert donné par l'Orchestre de la Ville<date when="12/08/1886"/></title>
-<series>1885-1886</series>
-<placeName>Hôtel Beau-Séjour</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Grand concert donné par l'Orchestre de la Ville
+            <date when='12/08/1886'/>
+          </title>
+          <series>1885-1886</series>
+          <placeName>Genève, Hôtel Beau-Séjour</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VG2-1 F002196</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Senger, H. de (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18860812"/>
-<title>Grand concert donné par l'Orchestre de la Ville</title>
-<placeName key="Hôtel Beau-Séjour"/>
-<name key="1885-1886" type="series"/>
-<name key="Michiels"  type="person" role="cmp">Michiels</name>
-<name key="Flotow, Friedrich von" ref="https://muscat.rism.info/admin/people/63626" type="person" role="cmp">Flotow, Friedrich von</name>
-<name key="Rossini, Gioachino" ref="https://muscat.rism.info/admin/people/63766" type="person" role="cmp">Rossini, Gioachino</name>
-<name key="Schiffmacher"  type="person" role="cmp">Schiffmacher</name>
-<name key="Strauß, Josef" ref="https://muscat.rism.info/admin/people/1628392" type="person" role="cmp">Strauß, Josef</name>
-<name key="Verdi, Giuseppe" ref="https://muscat.rism.info/admin/people/137994" type="person" role="cmp">Verdi, Giuseppe</name>
-<name key="Bilse, Benjamin" ref="https://muscat.rism.info/admin/people/18342" type="person" role="cmp">Bilse, Benjamin</name>
-<name key="Arban, Jean-Baptiste" ref="https://muscat.rism.info/admin/people/31980" type="person" role="cmp">Arban, Jean-Baptiste</name>
-<name key="Offenbach, Jacques" ref="https://muscat.rism.info/admin/people/111831" type="person" role="cmp">Offenbach, Jacques</name>
-<name key="Senger, Franz Ludwig Hugo von  (dir.)" ref="https://muscat.rism.info/admin/people/30015297" type="person" role="int">Senger, Franz Ludwig Hugo von  (dir.)</name>
-<name key="Orchestre de la Ville de Genève"  type="person" role="int">Orchestre de la Ville de Genève</name>
-<name key="Rey, Louis"  type="person" role="int">Rey, Louis</name>
-<name key="Richter"  type="person" role="int">Richter</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_1_f002196_001.tif"/>
-<page><![CDATA[28  .‘ ( |
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18860812'/>
+        <title>Grand concert donné par l'Orchestre de la Ville</title>
+        <placeName key='Genève, Hôtel Beau-Séjour'/>
+        <name key='1885-1886' type='series'/>
+        <name key='Michiels' type='person' role='cmp'>Michiels</name>
+        <name key='Flotow, Friedrich von' ref='https://muscat.rism.info/admin/people/63626' type='person' role='cmp'>Flotow, Friedrich von</name>
+        <name key='Rossini, Gioachino' ref='https://muscat.rism.info/admin/people/63766' type='person' role='cmp'>Rossini, Gioachino</name>
+        <name key='Schiffmacher' type='person' role='cmp'>Schiffmacher</name>
+        <name key='Strauß, Josef' ref='https://muscat.rism.info/admin/people/1628392' type='person' role='cmp'>Strauß, Josef</name>
+        <name key='Verdi, Giuseppe' ref='https://muscat.rism.info/admin/people/137994' type='person' role='cmp'>Verdi, Giuseppe</name>
+        <name key='Bilse, Benjamin' ref='https://muscat.rism.info/admin/people/18342' type='person' role='cmp'>Bilse, Benjamin</name>
+        <name key='Arban, Jean-Baptiste' ref='https://muscat.rism.info/admin/people/31980' type='person' role='cmp'>Arban, Jean-Baptiste</name>
+        <name key='Offenbach, Jacques' ref='https://muscat.rism.info/admin/people/111831' type='person' role='cmp'>Offenbach, Jacques</name>
+        <name key='Senger, Franz Ludwig Hugo von' ref='https://muscat.rism.info/admin/people/30015297' type='person' role='int'>Senger, Franz Ludwig Hugo von</name>
+        <name key='Orchestre de la Ville de Genève' type='person' role='int'>Orchestre de la Ville de Genève</name>
+        <name key='Rey, Louis' type='person' role='int'>Rey, Louis</name>
+        <name key='Richter' type='person' role='int'>Richter</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_1_f002196_001.tif'/>
+        <page>
+          <![CDATA[28  .‘ ( |
 l ' * Jeudi, 12 Août, à 8 heures du soir.
-
 û ;
-
 ü ONF BF AU-SHJOUR
-
 ÿ CHAMPEL
-
 RAND CONCERT
-
 E GÏJÀJ UNLEHL
-
 ÿ DONNÉ PAR
-
 l } ; ;
-
 | | L'ORCHESTRE DE LA VILLE, sous la direction de M. HUGO DE SENGER
 l | { |
-
 PROGRAMME
-
 A ; PREMIÈRE PARTIE
-
 | +
-
 I% |. Formose, marche militaire française. . . MicHIELs.
 4 2 Martha, ouverture. . . . . . . : . _ Frorow.
-
 “ ‘ ,
-
 4 J. Guillaume-Tell, duo du 1* acte. . . . Rossint.
-
 4 Retraite Mexicaine. .. . . . .. SCHIFFMACHER.
 , 5 Mein Lebenslauf, valsee . . . . . . Jos. STRAUSS.
 . SECONDE PARTIE
 q‘ c 6. Rigoletto, grande mosaïque. . . . . . VERDI.
-
 Â 7. Airs Silésiens, pour deux violons soli, BILSE.
 1 MM. Louis Rey et RicuTEr.
 Orangerie-Polka. . . . . . . .. ARBAN.
 9. Mosaïque sur des airsd’. . . . . OFFENBACH.
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Mluminations et feux d’artifice.
-
 £
-
-Genève. — Imprimerie Taponnier et Studer.]]></page>       
-        </p>
+Genève. — Imprimerie Taponnier et Studer.
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

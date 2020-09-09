@@ -1,199 +1,135 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>6me grand concert populaire<date when="18/03/1929"/></title>
-<series>1928-1929</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            6me grand concert populaire
+            <date when='18/03/1929'/>
+          </title>
+          <series>1928-1929</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002691</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Gabelles, G.</note>
+        <note>Piantoni, L. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19290318"/>
-<title>6me grand concert populaire</title>
-<placeName key="Victoria Hall"/>
-<name key="1928-1929" type="series"/>
-<name key="Fauchet, Paul"  type="person" role="cmp">Fauchet, Paul</name>
-<name key="Duparc, Henri" ref="https://muscat.rism.info/admin/people/41011746" type="person" role="cmp">Duparc, Henri</name>
-<name key="Mozart, Wolfgang Amadeus" ref="https://muscat.rism.info/admin/people/115324" type="person" role="cmp">Mozart, Wolfgang Amadeus</name>
-<name key="Ketten, Léopold"  type="person" role="cmp">Ketten, Léopold</name>
-<name key="Fauré, Gabriel" ref="https://muscat.rism.info/admin/people/41731" type="person" role="cmp">Fauré, Gabriel</name>
-<name key="Gretchaninof"  type="person" role="cmp">Gretchaninof</name>
-<name key="Strauss, Richard" ref="https://muscat.rism.info/admin/people/132111" type="person" role="cmp">Strauss, Richard</name>
-<name key="Piantoni, Louis"  type="person" role="cmp">Piantoni, Louis</name>
-<name key="Combe, E."  type="person" role="cmp">Combe, E.</name>
-<name key="North"  type="person" role="cmp">North</name>
-<name key="Goetz"  type="person" role="cmp">Goetz</name>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Gabelles, Gustave  (dir.)" ref="https://muscat.rism.info/admin/people/30073762" type="person" role="int">Gabelles, Gustave  (dir.)</name>
-<name key="Piantoni, Louis  (dir.)"  type="person" role="int">Piantoni, Louis  (dir.)</name>
-<name key="Harmonie Nautique"  type="person" role="int">Harmonie Nautique</name>
-<name key="Cercle choral"  type="person" role="int">Cercle choral</name>
-<name key="Renand, Maurice"  type="person" role="int">Renand, Maurice</name>
-<name key="Denizot, Charles"  type="person" role="int">Denizot, Charles</name>
-<name key="Lombard, Jospeh"  type="person" role="int">Lombard, Jospeh</name>
-<name key="Kunz, Alexandre"  type="person" role="int">Kunz, Alexandre</name>
-<name key="Pochon, Antony"  type="person" role="int">Pochon, Antony</name>
-<name key="Charrot, Fernand"  type="person" role="int">Charrot, Fernand</name>
-<name key="Piantoni (Mme)"  type="person" role="int">Piantoni (Mme)</name>
-<name key="Croset"  type="person" role="int">Croset</name>
-<name key="Hansotte, Maggy"  type="person" role="int">Hansotte, Maggy</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002691_001.tif"/>
-<page><![CDATA[SAISON 1928-1929
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19290318'/>
+        <title>6me grand concert populaire</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1928-1929' type='series'/>
+        <name key='Fauchet, Paul' type='person' role='cmp'>Fauchet, Paul</name>
+        <name key='Duparc, Henri' ref='https://muscat.rism.info/admin/people/41011746' type='person' role='cmp'>Duparc, Henri</name>
+        <name key='Mozart, Wolfgang Amadeus' ref='https://muscat.rism.info/admin/people/115324' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Ketten, Léopold' type='person' role='cmp'>Ketten, Léopold</name>
+        <name key='Fauré, Gabriel' ref='https://muscat.rism.info/admin/people/41731' type='person' role='cmp'>Fauré, Gabriel</name>
+        <name key='Gretchaninof' type='person' role='cmp'>Gretchaninof</name>
+        <name key='Strauss, Richard' ref='https://muscat.rism.info/admin/people/132111' type='person' role='cmp'>Strauss, Richard</name>
+        <name key='Piantoni, Louis' type='person' role='cmp'>Piantoni, Louis</name>
+        <name key='Combe, E.' type='person' role='cmp'>Combe, E.</name>
+        <name key='North' type='person' role='cmp'>North</name>
+        <name key='Goetz' type='person' role='cmp'>Goetz</name>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Gabelles, Gustave' ref='https://muscat.rism.info/admin/people/30073762' type='person' role='int'>Gabelles, Gustave</name>
+        <name key='Piantoni, Louis' type='person' role='int'>Piantoni, Louis</name>
+        <name key='Harmonie Nautique' type='person' role='int'>Harmonie Nautique</name>
+        <name key='Cercle choral' type='person' role='int'>Cercle choral</name>
+        <name key='Renand, Maurice' type='person' role='int'>Renand, Maurice</name>
+        <name key='Denizot, Charles' type='person' role='int'>Denizot, Charles</name>
+        <name key='Lombard, Jospeh' type='person' role='int'>Lombard, Jospeh</name>
+        <name key='Kunz, Alexandre' type='person' role='int'>Kunz, Alexandre</name>
+        <name key='Pochon, Antony' type='person' role='int'>Pochon, Antony</name>
+        <name key='Charrot, Fernand' type='person' role='int'>Charrot, Fernand</name>
+        <name key='Piantoni (Mme)' type='person' role='int'>Piantoni (Mme)</name>
+        <name key='Croset' type='person' role='int'>Croset</name>
+        <name key='Hansotte, Maggy' type='person' role='int'>Hansotte, Maggy</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002691_001.tif'/>
+        <page>
+          <![CDATA[SAISON 1928-1929
 . 1- PE SE
-
 6" Grand Concert Populaire
-
 organisé sous les auspices du
-
 Conseil Administratif de la Ville de Genève
-
 avee le bienveillant et gmcieux concours de
-
 L'Harmonie Nautique Le Cercle Choral
-
 (Harmonie Municipale) (Chorale Municipale)
-
 Dir. M. Gustiave Gabelles dir. M. Louis Pianfoni
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Chœur de Dames de l’Harmonie Nautique
-
 Mue Maurice RENAND M. Ch. DENIZOT M. Josenh LOMBARD
-
 Cantatrice Ténor Basse
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Programme
-
 Première partie Deuxième partie
 7. a) Hymne védique . Louis PIANTONI
-
 Chœur et quatuor solo et accompagnement de piano
-
 Ténors : MM. Charles DENIZOT et Alexandre KUNZ
 2. a) La Vague et la Cloche . . . . DuPaRC Basses: MM. Antony POCHON et Fernand CHARROT.
-
 b) L'Enlèvement au sérail . . . . MOZART AU PIANO : Mme PIANTONI et M. CROSET .
 M. J. LOMBARD b) Au Printemps. . . .  E. COMBE
 c) Renouveau .. .. . ... .. NorTmH
 d) Chanson à boire .
 4 Trois mélodies (Rencontre — LE CERCLE CHORAL
 Toujours — Adieu). . . . . . Gabriel FAURÉ
-
 u 15 VAND 8. Les MAITRES CHANTEURS
 5. Les Rêves (duo) . . . . . GRETCHANINOF (fragments du 3" acte) . . . . Richard WAGNER
-
 4 Prélude — Danse des apprentis — Chant du rêve — Marche
 Mme M. RENAND et M. J. LOMBARD des corporations — Entrée des Maîtres chanteurs,
-
 Soli, Chœurs et Orchestre (250 exécutants)
 Ténor : Ch. DENIZOT
-
 1. Ouverture p' orchestre d'harmonie Paul FAUCHET
-
 3, Marche orientale (1re audition) . . Léopold KETTEN
-
 Troisième partie
-
 6. Le Chevalier à la rose. . . . . . Richard STRAUSS
-
- 
-
 Le piano d’accompagnement sera tenu par M"* Maggy Hansotte
-
- 
-
 Pendant l’exécution des morceaux les portes seront fermées et le silence le plus absolu devra être observé. —
 Prière de ne pas faire les préparatifs de départ avant que le dernier morceau ne soit complètement exécuté,
-
 Victoria-Hall 7" Grand Concert Populaire
-
 e 71 ** Sociélés musicales ouvrières « solistes
-
 Prix : 25 cénlimes à toutes les places
-
 Imprimeries Populaires, Genève
-
-|]]></page>       
-        </p>
+|
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

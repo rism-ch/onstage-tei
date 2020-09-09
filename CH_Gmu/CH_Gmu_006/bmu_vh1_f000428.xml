@@ -1,127 +1,110 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par l'Harmonie nautique<date when="05/05/1899"/></title>
-<series>1898-1899</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par l'Harmonie nautique
+            <date when='05/05/1899'/>
+          </title>
+          <series>1898-1899</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F000428</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Bonade, L. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18990505"/>
-<title>Concert donné par l'Harmonie nautique</title>
-<placeName key="Victoria Hall"/>
-<name key="1898-1899" type="series"/>
-<name key="Ganne, Louis Gaston" ref="https://muscat.rism.info/admin/people/30025645" type="person" role="cmp">Ganne, Louis Gaston</name>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Gounod, Charles-François" ref="https://muscat.rism.info/admin/people/80479" type="person" role="cmp">Gounod, Charles-François</name>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Weber, Carl Maria von" ref="https://muscat.rism.info/admin/people/117485" type="person" role="cmp">Weber, Carl Maria von</name>
-<name key="Meyerbeer, Giacomo" ref="https://muscat.rism.info/admin/people/725" type="person" role="cmp">Meyerbeer, Giacomo</name>
-<name key="Gattermann"  type="person" role="cmp">Gattermann</name>
-<name key="Seigneux, G. de"  type="person" role="cmp">Seigneux, G. de</name>
-<name key="Giroud, Henri" ref="https://muscat.rism.info/admin/people/30022417" type="person" role="cmp">Giroud, Henri</name>
-<name key="Lalo, Edouard" ref="https://muscat.rism.info/admin/people/65446" type="person" role="cmp">Lalo, Edouard</name>
-<name key="Bonade, Louis (dir.)"  type="person" role="int">Bonade, Louis (dir.)</name>
-<name key="Harmonie Nautique"  type="person" role="int">Harmonie Nautique</name>
-<name key="Bonade (Mme)"  type="person" role="int">Bonade (Mme)</name>
-<name key="Zingg, S."  type="person" role="int">Zingg, S.</name>
-<name key="Mellet"  type="person" role="int">Mellet</name>
-<name key="Parès, G."  type="person" role="int">Parès, G.</name>
-<name key="Mattioli"  type="person" role="int">Mattioli</name>
-<name key="Bruneau-D'Arnault"  type="person" role="int">Bruneau-D'Arnault</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000428_001.tif"/>
-<page><![CDATA[A — * /o,Ÿa\ - —
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18990505'/>
+        <title>Concert donné par l'Harmonie nautique</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1898-1899' type='series'/>
+        <name key='Ganne, Louis Gaston' ref='https://muscat.rism.info/admin/people/30025645' type='person' role='cmp'>Ganne, Louis Gaston</name>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Gounod, Charles-François' ref='https://muscat.rism.info/admin/people/80479' type='person' role='cmp'>Gounod, Charles-François</name>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Weber, Carl Maria von' ref='https://muscat.rism.info/admin/people/117485' type='person' role='cmp'>Weber, Carl Maria von</name>
+        <name key='Meyerbeer, Giacomo' ref='https://muscat.rism.info/admin/people/725' type='person' role='cmp'>Meyerbeer, Giacomo</name>
+        <name key='Gattermann' type='person' role='cmp'>Gattermann</name>
+        <name key='Seigneux, G. de' type='person' role='cmp'>Seigneux, G. de</name>
+        <name key='Giroud, Henri' ref='https://muscat.rism.info/admin/people/30022417' type='person' role='cmp'>Giroud, Henri</name>
+        <name key='Lalo, Edouard' ref='https://muscat.rism.info/admin/people/65446' type='person' role='cmp'>Lalo, Edouard</name>
+        <name key='Bonade, Louis' type='person' role='int'>Bonade, Louis</name>
+        <name key='Harmonie Nautique' type='person' role='int'>Harmonie Nautique</name>
+        <name key='Bonade (Mme)' type='person' role='int'>Bonade (Mme)</name>
+        <name key='Zingg, S.' type='person' role='int'>Zingg, S.</name>
+        <name key='Mellet' type='person' role='int'>Mellet</name>
+        <name key='Parès, G.' type='person' role='int'>Parès, G.</name>
+        <name key='Mattioli' type='person' role='int'>Mattioli</name>
+        <name key='Bruneau-D&apos;Arnault' type='person' role='int'>Bruneau-D'Arnault</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000428_001.tif'/>
+        <page>
+          <![CDATA[A — * /o,Ÿa\ - —
 e OVO
-
 k
 Ô
 Ë
-
 A
-
- 
-
 @ » 9
 oes° ?
-
- 
-
 sE 4 —
-
 se mT A HI A TAL,
-
 —CGs cor s-
-
- 
-
 jes portes | 7517 E O ] On commencera à |
 rrrn 190 |*  Vendredi ÿ Mai 1899 | e heures I |
-
- 
-
 DONNÉ PAR
-
 L'HARMONIE NAUTIQUE DE GENÈVE
-
 au bénéfice de son directeur
-
 # M. LOUIS BONADE %
 avec le gracieux concours de
-
 M" L. BONADK et de M!e S. ZINGG, son élève.
-
- 
-
- 
-
 PRROSBAMANE
-
 \
 uu lne e Vs u
-
 PREMIÈRE PARTIE
-
 vemanche Grecque ... ... L. Ganne.
 9 Onverture de Béonore,n° 1.............…. Beethoven.
 3. Air de Mireille — M!e Zincc............…. Gounod.
 4. Air varié sur le Freyschütz, p' piston (Mellet) Weber.
-
 SECONDE PARTIE
-
 s. Entrée des Dieux au Walhalla, extr. de l’Or
 r e R. Wagner.
 6. Air du Mancenillier — M"© Boyane.....…. Meyerbeer.
@@ -130,29 +113,21 @@ r 0DN0 ponr nte et hautbois. ... .… ... Galtermann.
 Bmncnianm auo R H. Giroud.
 M""* BONADE ET M"* ZINGG.
 1O vermmredu RoidYs.........…......… Lalo.
-
 Le piano d’accompagement sera fenu par M. Bruneau-D’Arnault.
 PRIX DES PLACES : Loges, fauteuils de face et premier rang de la première Galerie
-
 (numérotés), 2 fr. — Rez-de-chaussée, et autres places de la première Galerie, 1 fr. —
-
 Seconde Galerie, 50 cent. — Cartes à l'avance de 9 à 6 h,, jusqu’au vendredi soir, au Victoria-Hall.
-
 MM, les membres non-exécutants ont droit d'entrée à ce concert sur présentation
-
 .du coupon n° 4 aux places du rez-de-chaussée et, moyennant un supplément de
-
 1 fr., aux places de première galerie numérotées.
 Prière de ne pas entrer pendant l'exécution des morceaux.
-
 BUFFET ZU REZ-DE-CHAUSSÉE
-
- 
-
 Æ E 19 M
 ÊÎ)£}<—-%Â O _g,————-—Ê—}-—D 2%
-O Geneve. — Imp. L.-F. Jarrys. '(‘\/5&W)' —Ë@ n>]]></page>       
-        </p>
+O Geneve. — Imp. L.-F. Jarrys. '(‘\/5&W)' —Ë@ n>
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

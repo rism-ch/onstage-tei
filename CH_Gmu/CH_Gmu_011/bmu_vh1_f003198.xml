@@ -1,80 +1,86 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Grand concert donné par les Cadets de Genève<date when="20/06/1942"/></title>
-<series>1941-1942</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Grand concert donné par les Cadets de Genève
+            <date when='20/06/1942'/>
+          </title>
+          <series>1941-1942</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F003198</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Helaerts (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19420620"/>
-<title>Grand concert donné par les Cadets de Genève</title>
-<placeName key="Victoria Hall"/>
-<name key="1941-1942" type="series"/>
-<name key="Duquesne, G."  type="person" role="cmp">Duquesne, G.</name>
-<name key="Rubin, F."  type="person" role="cmp">Rubin, F.</name>
-<name key="Champel"  type="person" role="cmp">Champel</name>
-<name key="Gottart"  type="person" role="cmp">Gottart</name>
-<name key="Gounod, Charles-François" ref="https://muscat.rism.info/admin/people/80479" type="person" role="cmp">Gounod, Charles-François</name>
-<name key="Boller, Carlo" ref="https://muscat.rism.info/admin/people/30081169" type="person" role="cmp">Boller, Carlo</name>
-<name key="Thity, A."  type="person" role="cmp">Thity, A.</name>
-<name key="Verdi, Giuseppe" ref="https://muscat.rism.info/admin/people/137994" type="person" role="cmp">Verdi, Giuseppe</name>
-<name key="Wangermée"  type="person" role="cmp">Wangermée</name>
-<name key="Oscheit"  type="person" role="cmp">Oscheit</name>
-<name key="Jakma"  type="person" role="cmp">Jakma</name>
-<name key="Helaerts (dir.)"  type="person" role="int">Helaerts (dir.)</name>
-<name key="Cadets de Genève"  type="person" role="int">Cadets de Genève</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003198_001.tif"/>
-<page><![CDATA[WVictacia Foall
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19420620'/>
+        <title>Grand concert donné par les Cadets de Genève</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1941-1942' type='series'/>
+        <name key='Duquesne, G.' type='person' role='cmp'>Duquesne, G.</name>
+        <name key='Rubin, F.' type='person' role='cmp'>Rubin, F.</name>
+        <name key='Champel' type='person' role='cmp'>Champel</name>
+        <name key='Gottart' type='person' role='cmp'>Gottart</name>
+        <name key='Gounod, Charles-François' ref='https://muscat.rism.info/admin/people/80479' type='person' role='cmp'>Gounod, Charles-François</name>
+        <name key='Boller, Carlo' ref='https://muscat.rism.info/admin/people/30081169' type='person' role='cmp'>Boller, Carlo</name>
+        <name key='Thity, A.' type='person' role='cmp'>Thity, A.</name>
+        <name key='Verdi, Giuseppe' ref='https://muscat.rism.info/admin/people/137994' type='person' role='cmp'>Verdi, Giuseppe</name>
+        <name key='Wangermée' type='person' role='cmp'>Wangermée</name>
+        <name key='Oscheit' type='person' role='cmp'>Oscheit</name>
+        <name key='Jakma' type='person' role='cmp'>Jakma</name>
+        <name key='Helaerts' type='person' role='int'>Helaerts</name>
+        <name key='Cadets de Genève' type='person' role='int'>Cadets de Genève</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003198_001.tif'/>
+        <page>
+          <![CDATA[WVictacia Foall
 Samedi 20 Juin 1942, à 20 h 45
-
 GRAND CONCERT
-
 donné par les
-
 Cadets de Genève
 sous la direction de M. HELAERTS
-
 1. prix du Conservatoire de Bruxelles
 Soliste à l’Orchestre Romand
-
 PROGRAMME
-
 77e Drésident .. . . < .. G. Duquesne
 2004 Miglons . .- .. . : «- J. Rubin
 3. HGorizon Champêtee ( Fantaisie ) Champel
@@ -87,21 +93,18 @@ G MDiuequei pas ? . . . - . . - Gotlart
 10. CMareche des Chassours . “Wangermée
 11. Foyeux Fluééards . . . . .  Osepeit
 reuesipal .. ,-4 <2 <" Jakma
-
 13. Remise du nouveau dzapeau.
-
 Dimanche 21 Juin 1942 Inauguration du drapeau
 Salle Communale de Plainpalais
-
 Grand cortège avec les Corps de Musique d'ELITE et de la
 SIRENE , morraine et parrain, et de nombreuses délégations.
-
 Départ à 14 h. précises du local : Ecole d'Horlogerie, Ter-
 reaux du Temple.
-
 Pour des raisons majeures, le Comité des Cadets n'a pas
-pu organiser cefte journée au Parc des Eaux-Vives. |l s'en excuse]]></page>       
-        </p>
+pu organiser cefte journée au Parc des Eaux-Vives. |l s'en excuse
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

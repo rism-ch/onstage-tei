@@ -1,73 +1,82 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par le Corps de musique d'Elite<date when="15/12/1918"/></title>
-<series>1918-1919</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par le Corps de musique d'Elite
+            <date when='15/12/1918'/>
+          </title>
+          <series>1918-1919</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F001245</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Romain, F. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19181215"/>
-<title>Concert donné par le Corps de musique d'Elite</title>
-<placeName key="Victoria Hall"/>
-<name key="1918-1919" type="series"/>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Händel, Georg Friedrich" ref="https://muscat.rism.info/admin/people/36552" type="person" role="cmp">Händel, Georg Friedrich</name>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Franck, César" ref="https://muscat.rism.info/admin/people/70009" type="person" role="cmp">Franck, César</name>
-<name key="Luigini, Alexandre" ref="https://muscat.rism.info/admin/people/30071428" type="person" role="cmp">Luigini, Alexandre</name>
-<name key="Pazzini"  type="person" role="cmp">Pazzini</name>
-<name key="Durand, A."  type="person" role="cmp">Durand, A.</name>
-<name key="Mozart, Wolfgang Amadeus" ref="https://muscat.rism.info/admin/people/115324" type="person" role="cmp">Mozart, Wolfgang Amadeus</name>
-<name key="Charpentier"  type="person" role="cmp">Charpentier</name>
-<name key="Romain, F. (dir.)"  type="person" role="int">Romain, F. (dir.)</name>
-<name key="Corps de musique d'Elite (Fanfare genevoise)"  type="person" role="int">Corps de musique d'Elite (Fanfare genevoise)</name>
-<name key="Viret, Rette"  type="person" role="int">Viret, Rette</name>
-<name key="Albisi, Abelardo"  type="person" role="int">Albisi, Abelardo</name>
-<name key="Ketten, Léopold"  type="person" role="int">Ketten, Léopold</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001245_001.tif"/>
-<page><![CDATA[» NBNS
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19181215'/>
+        <title>Concert donné par le Corps de musique d'Elite</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1918-1919' type='series'/>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Händel, Georg Friedrich' ref='https://muscat.rism.info/admin/people/36552' type='person' role='cmp'>Händel, Georg Friedrich</name>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Franck, César' ref='https://muscat.rism.info/admin/people/70009' type='person' role='cmp'>Franck, César</name>
+        <name key='Luigini, Alexandre' ref='https://muscat.rism.info/admin/people/30071428' type='person' role='cmp'>Luigini, Alexandre</name>
+        <name key='Pazzini' type='person' role='cmp'>Pazzini</name>
+        <name key='Durand, A.' type='person' role='cmp'>Durand, A.</name>
+        <name key='Mozart, Wolfgang Amadeus' ref='https://muscat.rism.info/admin/people/115324' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Charpentier' type='person' role='cmp'>Charpentier</name>
+        <name key='Romain, F.' type='person' role='int'>Romain, F.</name>
+        <name key='Corps de musique d&apos;Elite (Fanfare genevoise)' type='person' role='int'>Corps de musique d'Elite (Fanfare genevoise)</name>
+        <name key='Viret, Rette' type='person' role='int'>Viret, Rette</name>
+        <name key='Albisi, Abelardo' type='person' role='int'>Albisi, Abelardo</name>
+        <name key='Ketten, Léopold' type='person' role='int'>Ketten, Léopold</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001245_001.tif'/>
+        <page>
+          <![CDATA[» NBNS
 @@))00000009000000500000000000000000v000000000(@(P@)B)»0000000000000 00000000
 r. HIVN
-
- 
-
 |9000000000000000000000000000000060000000
-
 C
 0
 ©
@@ -111,63 +120,39 @@ o
 ©
 °
 0
-
 x VICTORIA-HALL —
 GENÈVE | ……À…………Çy
-
 On commencera
-
 % Ouverture des portes
 ORs = { à 2h.et demie
 /
-
 : à 1 h. trois quarts
-
 %
 ;
 ;
 }
 ! MS RLn
-
 DIMANCHE 15 DÉCEMBRE 1918
-
 CONCERT
-
 DONNÉ PAR LE CORPS DE
-
 MUSIQUE D'ÉLITE
 DIRECTION : F. ROMAIN #
-
 AVEC LE BIENVEILLANT CONCOURS DE
-
 M RETTE VIRET M.ABELARDO ALBISI
-
 CANTATRICE PREMIER FLUTISTE SOLO
 ÉLÈVE DE M. LE PROF. L. KETTEN DE L'ORCHESTRE ROMAND
-
 M. Léopoup KETTEN #
-
 PROFESSEUR SUPÉRIEUR AU CONSERVATOIRE
-
 Î@'OOOOOQOOOOOOQO°oaooaoaooOo'}nco?'}')'}"" m®© fà\(ê ®
-
-/N \]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001245_002.tif"/>
-<page><![CDATA[@ Victoria-Hall Piæ
-
+/N \
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001245_002.tif'/>
+        <page>
+          <![CDATA[@ Victoria-Hall Piæ
 ProOGY
 x
-
 PREMIÈRE PARTIE
-
- 
-
- 
-
- 
-
- 
-
 1. Ouverture du Tannhäuser.  agner
 (Elite)
 2. Sonate pour flûteet piano Hændel
@@ -191,36 +176,14 @@ S, = 20000000000000 &) 29000000000000000( (@ 00000000000000 000ff
 | 5) °ooc'î;.
 | 000000000000000000000 090000000000000000000000000 00000000 QOO O5/4E
 | _
-
- 
-
-00090000000000000000 099 Po]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001245_003.tif"/>
-<page><![CDATA[H
-
+00090000000000000000 099 Po
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001245_003.tif'/>
+        <page>
+          <![CDATA[H
 fE 9000000000 90000000000000000000
 ‘_ëcooc. 990000000000 0000000000000000000
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 |M90°900000000000000000000000000000000000000 æ
 lOOCIOOTÎ-"CC)OOOQOÛ"DCCOOCOC‘Ç5COOOCCÏ.(‘C2ÇDQCOÜOCLCÇOCQchQDQOO')JîünCf,2LQ4:'Ç'QQ 9000 9 9000 ;
 ° 00
@@ -238,38 +201,25 @@ p |
 | 7 B
 ‘ ‘
 |
-
 A MI MIE
 _s . S
-
- 
-
 9
 Æ °
 °
-
 .,
 (@
-
 Ë, DEUXIÈME PARTIE
-
- 
-
 € Ï
 6. La voix des cloches, rêverie.  Luigini | |
 (Blite) . . |
 7. La Ronde des Lutins, pour # |
 flüte et piano . . . . Pazzini : '
-
 Transcription par M. ALBISI ° | ;
 (M. À. Albisi et L. Ketten) ; | =
-
 Danse très en vogue au | e
 8. Chacone, KVjle es H. Durand G
-
 (Elite) ; e
 9. Grand air de la Reine de la
-
 Ï ° O
 | Nuit (Flâte enchantée) . . Mozart
 | (Me Vivet)
@@ -281,29 +231,12 @@ Danse très en vogue au | e
 hçTerr sière, 9.
 [‘.
 f Ô
-
 (90000000000000000 00c
 J
-
 29)000000000000000000 @&)00 909000000C . “
-
- 
-
- 
-
- 
-
- 
- 
-
 |
 Les coupons Nos 6 et 7 donnent droit à une entrée chaque et |
 moyennant suppl. de 1 fr. par personne aux places numérotées. HE
-
-  
-
-  
-
 |
 |
 |
@@ -321,54 +254,31 @@ lï
 }>
 !
 90000000000000000000000000000000000 |
-|]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001245_004.tif"/>
-<page><![CDATA[| / {Ëzzz/eazzx
-
+|
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001245_004.tif'/>
+        <page>
+          <![CDATA[| / {Ëzzz/eazzx
 9I $ S æ
 CÉCOCIIÔS .
 e
-
- 
-
-    
-  
- 
-
 /;/ v cleles ,
-
 CLO MCCEES
-
 e:\‘c'/Ë&;7% ;
-
 C z>zaË/zZtî
-
- 
-
- 
-
- 
-
- 
-
- 
-
 w
 !
 1
 1
 |
-
 Ÿ
-
 &
-
 1203> _
-
- 
-
-|]]></page>       
-        </p>
+|
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

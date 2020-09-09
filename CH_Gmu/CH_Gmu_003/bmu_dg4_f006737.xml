@@ -1,142 +1,130 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert du Conseil de paroisse donné par le Choeur paroissial : Au profit du temple restauré<date when="18/01/1925"/></title>
-<series>1924-1925</series>
-<placeName>Temple de Carouge</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert du Conseil de paroisse donné par le Choeur paroissial : Au
+            profit du temple restauré
+            <date when='18/01/1925'/>
+          </title>
+          <series>1924-1925</series>
+          <placeName>Genève, Temple de Carouge</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU DG4 F006737</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Kunz, A. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19250118"/>
-<title>Concert du Conseil de paroisse donné par le Choeur paroissial : Au profit du temple restauré</title>
-<placeName key="Temple de Carouge"/>
-<name key="1924-1925" type="series"/>
-<name key="Pachelbel"  type="person" role="cmp">Pachelbel</name>
-<name key="Mendelssohn Bartholdy, Felix" ref="https://muscat.rism.info/admin/people/88790" type="person" role="cmp">Mendelssohn Bartholdy, Felix</name>
-<name key="Händel, Georg Friedrich" ref="https://muscat.rism.info/admin/people/36552" type="person" role="cmp">Händel, Georg Friedrich</name>
-<name key="Hermann, J."  type="person" role="cmp">Hermann, J.</name>
-<name key="Fauré, Gabriel" ref="https://muscat.rism.info/admin/people/41731" type="person" role="cmp">Fauré, Gabriel</name>
-<name key="Openski, H."  type="person" role="cmp">Openski, H.</name>
-<name key="Locatelli"  type="person" role="cmp">Locatelli</name>
-<name key="Collection Faller"  type="person" role="cmp">Collection Faller</name>
-<name key="Franck, H."  type="person" role="cmp">Franck, H.</name>
-<name key="Sweelinck, Jan Pieterszoon" ref="https://muscat.rism.info/admin/people/30006120" type="person" role="cmp">Sweelinck, Jan Pieterszoon</name>
-<name key="Jongen, Joseph"  type="person" role="cmp">Jongen, Joseph</name>
-<name key="Kunz, Alex (dir.)"  type="person" role="int">Kunz, Alex (dir.)</name>
-<name key="Choeur Paroissial du temple de Carouge"  type="person" role="int">Choeur Paroissial du temple de Carouge</name>
-<name key="Quatuor Vocal"  type="person" role="int">Quatuor Vocal</name>
-<name key="Bouvier-Chavannes (Mme)"  type="person" role="int">Bouvier-Chavannes (Mme)</name>
-<name key="Christen, Ernest"  type="person" role="int">Christen, Ernest</name>
-<name key="Vuataz, Roger"  type="person" role="int">Vuataz, Roger</name>
-<name key="Barblan, Em."  type="person" role="int">Barblan, Em.</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f006737_001.tif"/>
-<page><![CDATA[U
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19250118'/>
+        <title>
+          Concert du Conseil de paroisse donné par le Choeur paroissial : Au
+          profit du temple restauré
+        </title>
+        <placeName key='Genève, Temple de Carouge'/>
+        <name key='1924-1925' type='series'/>
+        <name key='Pachelbel' type='person' role='cmp'>Pachelbel</name>
+        <name key='Mendelssohn Bartholdy, Felix' ref='https://muscat.rism.info/admin/people/88790' type='person' role='cmp'>Mendelssohn Bartholdy, Felix</name>
+        <name key='Händel, Georg Friedrich' ref='https://muscat.rism.info/admin/people/36552' type='person' role='cmp'>Händel, Georg Friedrich</name>
+        <name key='Hermann, J.' type='person' role='cmp'>Hermann, J.</name>
+        <name key='Fauré, Gabriel' ref='https://muscat.rism.info/admin/people/41731' type='person' role='cmp'>Fauré, Gabriel</name>
+        <name key='Openski, H.' type='person' role='cmp'>Openski, H.</name>
+        <name key='Locatelli' type='person' role='cmp'>Locatelli</name>
+        <name key='Collection Faller' type='person' role='cmp'>Collection Faller</name>
+        <name key='Franck, H.' type='person' role='cmp'>Franck, H.</name>
+        <name key='Sweelinck, Jan Pieterszoon' ref='https://muscat.rism.info/admin/people/30006120' type='person' role='cmp'>Sweelinck, Jan Pieterszoon</name>
+        <name key='Jongen, Joseph' type='person' role='cmp'>Jongen, Joseph</name>
+        <name key='Kunz, Alex' type='person' role='int'>Kunz, Alex</name>
+        <name key='Choeur Paroissial du temple de Carouge' type='person' role='int'>Choeur Paroissial du temple de Carouge</name>
+        <name key='Quatuor Vocal' type='person' role='int'>Quatuor Vocal</name>
+        <name key='Bouvier-Chavannes (Mme)' type='person' role='int'>Bouvier-Chavannes (Mme)</name>
+        <name key='Christen, Ernest' type='person' role='int'>Christen, Ernest</name>
+        <name key='Vuataz, Roger' type='person' role='int'>Vuataz, Roger</name>
+        <name key='Barblan, Em.' type='person' role='int'>Barblan, Em.</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f006737_001.tif'/>
+        <page>
+          <![CDATA[U
 6
 _
 L-
 4Ls
-
 TEMPLE PROTESTANT DE CAROUGE
-
- 
-
- 
-
 Dimanche 18 Janvier 1925
-
 à 20 heures et demie
-
 CONCERT DU CONSEIL DE PAROISSE
-
 au profit du Temple restauré
-
 donné par
-
 Ie Chœur Paroissial
-
 sous la direction de M. Alex. Kunz
-
 avec le bienveillant concours de
-
 M"* Bouvier-Chavannes et de M. Ernest Christen, violonistes
-
 Quatuor Vocal (M'* M. Gardy, S. Lagier; MM. L. Duret, Alex. Kunz)
 et de M. Roger Vuataz, organiste du Temple
-
 — 207
-
- PROGRAMME
-
+PROGRAMME
 PREMIÈRE PARTIE
-
 Prelde(remiuieur) poun orede . . .° . ° 4. .. ; - “Pachelbel.
 Deux/chœurs d'Elie, oratoriode . .. 11 ° 1 .. - Mendelssohn.
 Sonate en sol mineur, (op. 2, N° 8) pour deux violons et orgue,
-
 Andante, allegro energico. Largo, allegro confermezza . . . . Händel.
-
 Trois Noëls, pour quatuor vocal, a capella .
-
 a) Il est né le divin enfant (populaire) .
 Harmonisé par M1. Em. BARBLAN
-
 b) Si Dieu vient au monde, (XVII" siècle) .
-
 cadest Dieu, chrétiens, qu'il-faut bénin . . .. 42 , … d Herrmann.
 Cantique de Racine, pour chœur et orgue. . . . . - . . G. Fauré.
-
 DEUXIÈME PARTIE
-
 Noël polonais, pour chœur mixte . . . . 2 . . . . … H Openski.
 Sonate en ré mineur, pour deux violons et orgue. Largo, allegro
-
 Pace F orle b5:17641 1 11111 8 N Locatelli.
 Trois Noëls, pour quatuor vocal.
-
 es 1s Nn nN Collection- Faller.
 st n e 1 e - (tessinois).
 Cn Jesue-Christ gent nonsesauver!.- . . ; . 144 , ## H, Franck.
-
 Aujourd’hui, l’univers chante ! pour chœur mixte . . . . … Svweelinck.
-
 P Caqcep 1Ts 11 Joseph Jongen.
-
-Imp. Moret & Schneider Carouve]]></page>       
-        </p>
+Imp. Moret & Schneider Carouve
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

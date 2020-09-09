@@ -1,198 +1,134 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par le Corps de musique de Landwehr<date when="05/12/1909"/></title>
-<series>1909-1910</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par le Corps de musique de Landwehr
+            <date when='05/12/1909'/>
+          </title>
+          <series>1909-1910</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F001093</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Koch, L. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19091205"/>
-<title>Concert donné par le Corps de musique de Landwehr</title>
-<placeName key="Victoria Hall"/>
-<name key="1909-1910" type="series"/>
-<name key="Mendelssohn Bartholdy, Felix" ref="https://muscat.rism.info/admin/people/88790" type="person" role="cmp">Mendelssohn Bartholdy, Felix</name>
-<name key="Verdi, Giuseppe" ref="https://muscat.rism.info/admin/people/137994" type="person" role="cmp">Verdi, Giuseppe</name>
-<name key="Bruch, Max" ref="https://muscat.rism.info/admin/people/73090" type="person" role="cmp">Bruch, Max</name>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Watelle"  type="person" role="cmp">Watelle</name>
-<name key="Stavenhagen, Bernhard" ref="https://muscat.rism.info/admin/people/30075710" type="person" role="cmp">Stavenhagen, Bernhard</name>
-<name key="Chopin, Fryderyk Franciszek" ref="https://muscat.rism.info/admin/people/51160" type="person" role="cmp">Chopin, Fryderyk Franciszek</name>
-<name key="Fauré, Gabriel" ref="https://muscat.rism.info/admin/people/41731" type="person" role="cmp">Fauré, Gabriel</name>
-<name key="Machéz, T."  type="person" role="cmp">Machéz, T.</name>
-<name key="Wallace"  type="person" role="cmp">Wallace</name>
-<name key="Koch, Léonard (dir.)"  type="person" role="int">Koch, Léonard (dir.)</name>
-<name key="Corps de musique de Landwehr"  type="person" role="int">Corps de musique de Landwehr</name>
-<name key="Selten, Grete"  type="person" role="int">Selten, Grete</name>
-<name key="Choisy, Frank"  type="person" role="int">Choisy, Frank</name>
-<name key="Kursner, Fréd."  type="person" role="int">Kursner, Fréd.</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001093_001.tif"/>
-<page><![CDATA[|
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19091205'/>
+        <title>Concert donné par le Corps de musique de Landwehr</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1909-1910' type='series'/>
+        <name key='Mendelssohn Bartholdy, Felix' ref='https://muscat.rism.info/admin/people/88790' type='person' role='cmp'>Mendelssohn Bartholdy, Felix</name>
+        <name key='Verdi, Giuseppe' ref='https://muscat.rism.info/admin/people/137994' type='person' role='cmp'>Verdi, Giuseppe</name>
+        <name key='Bruch, Max' ref='https://muscat.rism.info/admin/people/73090' type='person' role='cmp'>Bruch, Max</name>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Watelle' type='person' role='cmp'>Watelle</name>
+        <name key='Stavenhagen, Bernhard' ref='https://muscat.rism.info/admin/people/30075710' type='person' role='cmp'>Stavenhagen, Bernhard</name>
+        <name key='Chopin, Fryderyk Franciszek' ref='https://muscat.rism.info/admin/people/51160' type='person' role='cmp'>Chopin, Fryderyk Franciszek</name>
+        <name key='Fauré, Gabriel' ref='https://muscat.rism.info/admin/people/41731' type='person' role='cmp'>Fauré, Gabriel</name>
+        <name key='Machéz, T.' type='person' role='cmp'>Machéz, T.</name>
+        <name key='Wallace' type='person' role='cmp'>Wallace</name>
+        <name key='Koch, Léonard' type='person' role='int'>Koch, Léonard</name>
+        <name key='Corps de musique de Landwehr' type='person' role='int'>Corps de musique de Landwehr</name>
+        <name key='Selten, Grete' type='person' role='int'>Selten, Grete</name>
+        <name key='Choisy, Frank' type='person' role='int'>Choisy, Frank</name>
+        <name key='Kursner, Fréd.' type='person' role='int'>Kursner, Fréd.</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001093_001.tif'/>
+        <page>
+          <![CDATA[|
 |
 |
 l
 |
 |
-
- 
-
-  
-
 6. a) Menuetto-scherzando (
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 x x
-
 x x* VICTORIA-HALL * *
-
- 
-  
-
- 
-
 Portes à 1 h.*/, DIMANCHE 5 DÉCEMBRE 1909 À 2 h. et demie
-
 E OONCER] €
-
 DONNÉ PAR LE
-
 Corps de Musique de Landwehr
-
 (HARMONIE MILITAIRE)
 sous la direction de MI. Léonard K OCH
-
 AVEC LE GRACIEUX CONCOURS DE
-
 Mle Grete SELTEN M. le Prof. Frank CHOISY
-
 PIANISTE VIOLONISTE-COMPOSITEUR
-
 M. Fréd. KURSNER
-
 PIANISTE-ACCOMPAGNATEUR
-
- 
-
 —— [o)
-
 e eu r A MM H .
-
 PREMIÈRE PARTIE
-
 1 Marché des Prêtres d’Athalie. . ... . …… .- … Mendelssofn,
 ahoncegdu Destin, ouverture. …. - —… 4- 01055 - G- Vérdt.
 P Concento emsormin, pour violon et pianro. . … . .. ! « . . : Maz Brüch.
 Allegro mordento. — Adagio. — Allegro energico.
 M. Frank CHOISY.
 4. Ein Albumblatt (Etude de Tristan et Iseulte), . . . . n 107 Magnen
-
 DEUXIÈME PARTIE
-
 5.  Fête Isiaque (Scènes égyptiennes). . . . 11e — Watelle.
-
 a. Danses sacrées ; b. Invocation ; c, Marche-Cortège,
-
 ! e 11e B. Stavenhagen.
-
 b) Scherzo en si min. _ / / $ Chopin.
 7. a) Berceuse ( ; E G. Fauré.
 b) Danse bohémienne en la min. / 0 ( T. Machéz.
 nn On 1 Wallace.
-
 Le piano d'accompagnement sera obligeamment tenu par M. KURSNER
 Piano offert par la Maison DUBACH & C (Sautier et Jæger, successeurs).
-
 —— >
-
 PRIX DES PLACES : Loges et Cordon de Première Galerie (numérotées), @ fr. ; Rez-de-Chaussée et Première Galerie
 (non numérotées), L fr.; 2”* Galerie, H> centimes. — Les enfants au-dessous de 10 ans patent demi-place.
 CARTES A L’'AVANCE au VICTORIA-HALL, rue Hornung.
 MM. les Membres d’Honneur, Honoraires et Amis visitants ont droit à 2 PLACES de Rez-de-Chaussée ou de 1" Galerle
 NON NUMÉROTÈES, sur présentation de leur carte de 1909. Chaque coupon est valable pour 1 PLACE NON NUMÉROTÉE.
 Moyennant un supplément de 1 fr., on peut réserver des places numérotées de loges ou 1re Galerie.
-
 COURS D ( ’HELEVHES — 5 francs par mois
 Sous la direction de M. L. KOCH, directeur du Corps de Musique.
 SOLFEGE, FLUTE, HAUTBOIS, CLARINETTE, SAXOPHONE, COR ET CUIVRES
-
 S'inscrire le Mardi et le Vendredi, dès 9 heures du soir, au local, Bâtiment Electoral (entrée du côté de la Plaine).
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-    
-
 "
-
- 
-
- 
-
- 
-
- 
-
-äiË IMPRIMERIE J. STUDER, GENÈVE]]></page>       
-        </p>
+äiË IMPRIMERIE J. STUDER, GENÈVE
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

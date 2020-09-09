@@ -1,60 +1,74 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert symphonique : Au bénéfice des réfugiés belges<date when="08/11/1914"/></title>
-<series>1914-1915</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert symphonique : Au bénéfice des réfugiés belges
+            <date when='08/11/1914'/>
+          </title>
+          <series>1914-1915</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F001191</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Doret, G. (dir)</note>
+        <note>Interprète incertain</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19141108"/>
-<title>Concert symphonique : Au bénéfice des réfugiés belges</title>
-<placeName key="Victoria Hall"/>
-<name key="1914-1915" type="series"/>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Händel, Georg Friedrich" ref="https://muscat.rism.info/admin/people/36552" type="person" role="cmp">Händel, Georg Friedrich</name>
-<name key="Duparc, Henri" ref="https://muscat.rism.info/admin/people/41011746" type="person" role="cmp">Duparc, Henri</name>
-<name key="Doret, Gustave  (dir.)" ref="https://muscat.rism.info/admin/people/3145724" type="person" role="int">Doret, Gustave  (dir.)</name>
-<name key="[Orchestre du théâtre?]"  type="person" role="int">[Orchestre du théâtre?]</name>
-<name key="Kufferath, M."  type="person" role="int">Kufferath, M.</name>
-<name key="Schelling, Ernest"  type="person" role="int">Schelling, Ernest</name>
-<name key="Cruz-Froehlich, de la"  type="person" role="int">Cruz-Froehlich, de la</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001191_001.tif"/>
-<page><![CDATA[ÿ AUy F) 44
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19141108'/>
+        <title>Concert symphonique : Au bénéfice des réfugiés belges</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1914-1915' type='series'/>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Händel, Georg Friedrich' ref='https://muscat.rism.info/admin/people/36552' type='person' role='cmp'>Händel, Georg Friedrich</name>
+        <name key='Duparc, Henri' ref='https://muscat.rism.info/admin/people/41011746' type='person' role='cmp'>Duparc, Henri</name>
+        <name key='Doret, Gustave' ref='https://muscat.rism.info/admin/people/3145724' type='person' role='int'>Doret, Gustave</name>
+        <name key='Orchestre du théâtre' type='person' role='int'>Orchestre du théâtre</name>
+        <name key='Kufferath, M.' type='person' role='int'>Kufferath, M.</name>
+        <name key='Schelling, Ernest' type='person' role='int'>Schelling, Ernest</name>
+        <name key='Cruz-Froehlich, de la' type='person' role='int'>Cruz-Froehlich, de la</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001191_001.tif'/>
+        <page>
+          <![CDATA[ÿ AUy F) 44
 l | ANDTEES, SSN
 S GENÈVE — VICTORIA HALL @
 p e 15 O …… E NN (
@@ -76,55 +90,26 @@ k// Sous la direction de M. Gustave DORET \_,
 . M. pe LA CRUZ-FROELICH.
 4. Aux Etoiles, nocturne pour Orchestre. . . . . .  Henn Duparc.
 S. Concerto en Mi Bémol . . 101100 L VAN BÉETHOVEN
-
 M. Ernest SCHELLING.
 PIANO STEINWAY AUX SOINS DE LA MAISON FŒTISCH, DE LAUSANNE
-
- 
-
 ( PRIX DES PLACES:
-
 REZ-DE-CHAUSSÉE : Loges, Fr.10— Parquet, Fr.6.—  Autres places, Fr. 2,— Podium, Fr. 1,—
-
 PREMIÈRE GALERIE : Fauteuils de face ler et 2me rangs, Fr. 5—  Fauteuils de balcon, 1" rang,
 Fr. 5— Autres places, Fr. 22— Fauteuils d'Orgues, Fr. 1.—
-
 ê DEUXIÈME GALERIE : Fauteuils, Fr. 0.50. ê
 ç‘\ TOUTES LES PLACES SONT NUMÉROTÉES %°
 3
-
 _ y
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 La location est ouverte au VICTORIA HALL, de 9 à 12 beures et de 2 à 6 beures
-
- 
-
- 
-
- 
-
 c
-
 - :/'/'W”'
-
-2]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001191_002.tif"/>
-<page><![CDATA[CHANT DE GUERRE
-
+2
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001191_002.tif'/>
+        <page>
+          <![CDATA[CHANT DE GUERRE
 de la fête d’Alexandre de Händel
-
 Horreur ! vengeance ! à lâches ennemis !
 Qu'ils meurent sous nos coups!
 À mort! À mort!
@@ -141,14 +126,12 @@ Dans leurs cœurs !
 Déesses, vengez-nous !
 Nous recourons à vous !
 À mort! À mort!
-
 Que leurs corps servent tous sans pitié, sans secours
 De pâture aux vautours !
 O déesses redoutables,
 Euménides implacables !
 Qu’ils meurent tous !
 Euménides! à nous! vengez-nous!
-
 Voyez errants, perdus par le chemin,
 Tous ces morts désolés, une torche à la main!
 Tous Grecs comme nous,
@@ -159,9 +142,10 @@ Ils errent dans la nuit!
 Privés de tombeaux,
 Nulle plainte, nul deuil n’éveille les échos.
 Sur leurs corps déchirés, s’acharnent les corbeaux.
-
-Horreur! vengeance ! etc.]]></page>       
-        </p>
+Horreur! vengeance ! etc.
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

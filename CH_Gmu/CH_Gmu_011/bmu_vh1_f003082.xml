@@ -1,64 +1,77 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert demusique française donnée par l'Harmonie la Lyre<date when="30/11/1941"/></title>
-<series>1941-1942</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert demusique française donnée par l'Harmonie la Lyre
+            <date when='30/11/1941'/>
+          </title>
+          <series>1941-1942</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F003082</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Closset, F. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19411130"/>
-<title>Concert demusique française donnée par l'Harmonie la Lyre</title>
-<placeName key="Victoria Hall"/>
-<name key="1941-1942" type="series"/>
-<name key="Saint-Saëns, Camille" ref="https://muscat.rism.info/admin/people/76734" type="person" role="cmp">Saint-Saëns, Camille</name>
-<name key="Lalo, Edouard" ref="https://muscat.rism.info/admin/people/65446" type="person" role="cmp">Lalo, Edouard</name>
-<name key="Indy, Vincent d'" ref="https://muscat.rism.info/admin/people/114686" type="person" role="cmp">Indy, Vincent d'</name>
-<name key="Gounod, Charles-François" ref="https://muscat.rism.info/admin/people/80479" type="person" role="cmp">Gounod, Charles-François</name>
-<name key="Ravel, Maurice" ref="https://muscat.rism.info/admin/people/30008498" type="person" role="cmp">Ravel, Maurice</name>
-<name key="Closset, Fernand (dir.)"  type="person" role="int">Closset, Fernand (dir.)</name>
-<name key="Harmonie la Lyre"  type="person" role="int">Harmonie la Lyre</name>
-<name key="Dufresne, G."  type="person" role="int">Dufresne, G.</name>
-<name key="Defago, Ed."  type="person" role="int">Defago, Ed.</name>
-<name key="Blanc, D."  type="person" role="int">Blanc, D.</name>
-<name key="Wehrli, A."  type="person" role="int">Wehrli, A.</name>
-<name key="Beckmans, G."  type="person" role="int">Beckmans, G.</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003082_001.tif"/>
-<page><![CDATA[Ç
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19411130'/>
+        <title>Concert demusique française donnée par l'Harmonie la Lyre</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1941-1942' type='series'/>
+        <name key='Saint-Saëns, Camille' ref='https://muscat.rism.info/admin/people/76734' type='person' role='cmp'>Saint-Saëns, Camille</name>
+        <name key='Lalo, Edouard' ref='https://muscat.rism.info/admin/people/65446' type='person' role='cmp'>Lalo, Edouard</name>
+        <name key='Indy, Vincent d&apos;' ref='https://muscat.rism.info/admin/people/114686' type='person' role='cmp'>Indy, Vincent d'</name>
+        <name key='Gounod, Charles-François' ref='https://muscat.rism.info/admin/people/80479' type='person' role='cmp'>Gounod, Charles-François</name>
+        <name key='Ravel, Maurice' ref='https://muscat.rism.info/admin/people/30008498' type='person' role='cmp'>Ravel, Maurice</name>
+        <name key='Closset, Fernand' type='person' role='int'>Closset, Fernand</name>
+        <name key='Harmonie la Lyre' type='person' role='int'>Harmonie la Lyre</name>
+        <name key='Dufresne, G.' type='person' role='int'>Dufresne, G.</name>
+        <name key='Defago, Ed.' type='person' role='int'>Defago, Ed.</name>
+        <name key='Blanc, D.' type='person' role='int'>Blanc, D.</name>
+        <name key='Wehrli, A.' type='person' role='int'>Wehrli, A.</name>
+        <name key='Beckmans, G.' type='person' role='int'>Beckmans, G.</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003082_001.tif'/>
+        <page>
+          <![CDATA[Ç
 |
 |
 l
@@ -66,53 +79,28 @@ l
 |
 #
 f
-
- 
-
 CONCERT
-
 DE MUSIQUE FRANÇAISE
-
 DON N É P AR
-
 L'HARMONIE LA LYRE
-
-   
-
 AVEC LE CONCOURS DE
-
 MME G, DUFRESNE
-
 DE L’'OPÉRA DE BORDEAUX
-
 MME ED, DEFAGO
-
 DU GD-THÉATRE DE GENÈVE
-
 MLE D. BLANC
-
 V A - NEHMRLIl
-
 DU GD-THÉATRE DE GENÉVE
-
 M. G. BECKMANS
-
 PE E 4
-
 O P É R A
-
-  
-
 VICTORIA-HALL
-
 © 2
-
- 
-
 # Programme 10 cent.
-
-30 NOVEMBRE 1941111N]]></page>       
-        </p>
+30 NOVEMBRE 1941111N
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

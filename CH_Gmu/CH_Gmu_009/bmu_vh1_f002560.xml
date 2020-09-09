@@ -1,281 +1,166 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert symphonique (Sixième de l'abonnement)<date when="17/12/1923"/></title>
-<series>1923-1924</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert symphonique (Sixième de l'abonnement)
+            <date when='17/12/1923'/>
+          </title>
+          <series>1923-1924</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002560</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Ansermet, E. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19231217"/>
-<title>Concert symphonique (Sixième de l'abonnement)</title>
-<placeName key="Victoria Hall"/>
-<name key="1923-1924" type="series"/>
-<name key="Debussy, Claude" ref="https://muscat.rism.info/admin/people/4338" type="person" role="cmp">Debussy, Claude</name>
-<name key="Stravinskij, Igor' Fëdorovič" ref="https://muscat.rism.info/admin/people/132137" type="person" role="cmp">Stravinskij, Igor' Fëdorovič</name>
-<name key="Ansermet, Ernest  (dir.)" ref="https://muscat.rism.info/admin/people/40219507" type="person" role="int">Ansermet, Ernest  (dir.)</name>
-<name key="Orchestre de la Suisse Romande" ref="https://muscat.rism.info/admin/people/50007615" type="person" role="int">Orchestre de la Suisse Romande</name>
-<name key="Société de musique symphonique"  type="person" role="int">Société de musique symphonique</name>
-<name key="Féart, Rose"  type="person" role="int">Féart, Rose</name>
-<name key="Bourquin (Mme)"  type="person" role="int">Bourquin (Mme)</name>
-<name key="Stoppani, de (Mme)"  type="person" role="int">Stoppani, de (Mme)</name>
-<name key="Borel (Mme)"  type="person" role="int">Borel (Mme)</name>
-<name key="Bornand (Mme)"  type="person" role="int">Bornand (Mme)</name>
-<name key="Christin (Mme)"  type="person" role="int">Christin (Mme)</name>
-<name key="Gachon (Mme)"  type="person" role="int">Gachon (Mme)</name>
-<name key="Grétillat (Mme)"  type="person" role="int">Grétillat (Mme)</name>
-<name key="Hartmann (Mme)"  type="person" role="int">Hartmann (Mme)</name>
-<name key="Luchaire (Mme)"  type="person" role="int">Luchaire (Mme)</name>
-<name key="Massit (Mlle)"  type="person" role="int">Massit (Mlle)</name>
-<name key="Pageot (Mme)"  type="person" role="int">Pageot (Mme)</name>
-<name key="Reyfer (Mme)"  type="person" role="int">Reyfer (Mme)</name>
-<name key="Robert (Mme)"  type="person" role="int">Robert (Mme)</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002560_001.tif"/>
-<page><![CDATA[GSF REZ
-
-      
-   
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19231217'/>
+        <title>Concert symphonique (Sixième de l'abonnement)</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1923-1924' type='series'/>
+        <name key='Debussy, Claude' ref='https://muscat.rism.info/admin/people/4338' type='person' role='cmp'>Debussy, Claude</name>
+        <name key='Stravinskij, Igor&apos; Fëdorovič' ref='https://muscat.rism.info/admin/people/132137' type='person' role='cmp'>Stravinskij, Igor' Fëdorovič</name>
+        <name key='Ansermet, Ernest' ref='https://muscat.rism.info/admin/people/40219507' type='person' role='int'>Ansermet, Ernest</name>
+        <name key='Orchestre de la Suisse Romande' ref='https://muscat.rism.info/admin/people/50007615' type='person' role='int'>Orchestre de la Suisse Romande</name>
+        <name key='Société de musique symphonique' type='person' role='int'>Société de musique symphonique</name>
+        <name key='Féart, Rose' type='person' role='int'>Féart, Rose</name>
+        <name key='Bourquin (Mme)' type='person' role='int'>Bourquin (Mme)</name>
+        <name key='Stoppani, de (Mme)' type='person' role='int'>Stoppani, de (Mme)</name>
+        <name key='Borel (Mme)' type='person' role='int'>Borel (Mme)</name>
+        <name key='Bornand (Mme)' type='person' role='int'>Bornand (Mme)</name>
+        <name key='Christin (Mme)' type='person' role='int'>Christin (Mme)</name>
+        <name key='Gachon (Mme)' type='person' role='int'>Gachon (Mme)</name>
+        <name key='Grétillat (Mme)' type='person' role='int'>Grétillat (Mme)</name>
+        <name key='Hartmann (Mme)' type='person' role='int'>Hartmann (Mme)</name>
+        <name key='Luchaire (Mme)' type='person' role='int'>Luchaire (Mme)</name>
+        <name key='Massit (Mlle)' type='person' role='int'>Massit (Mlle)</name>
+        <name key='Pageot (Mme)' type='person' role='int'>Pageot (Mme)</name>
+        <name key='Reyfer (Mme)' type='person' role='int'>Reyfer (Mme)</name>
+        <name key='Robert (Mme)' type='person' role='int'>Robert (Mme)</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002560_001.tif'/>
+        <page>
+          <![CDATA[GSF REZ
 e en p _ _
-
 ORCHESTRE DE LA SUISSE ROMANDE
-
- 
-
- 
-
-  
-
 VICTORIA-HALL
-
- 
- 
-  
-
-  
- 
-
 Lundi 17 décembre 1923, à 20 beures et demie
-
 CONCERT SYMPHONIQUE
-
 (Sixième de l’Abonnement)
-
 avec le concours de
-
 Mw Rose FÉART, de l’Opéra
 de M"* BOURQUIN et DE STOPPANI
-
-    
-       
- 
-
 et des Chœurs de la Société de Musique Symphonique
-
 (Direction : M. A. Paycnère)
-
-     
-     
- 
-
 PROGRAMME
 PREMIÈRE PARTIE
 1. LE MARTYRE DE ST-SÉBASTIEN,
-
 musique pour le mystère de Gabriele
 d’Annunzio C.-A. Debuos
-
-  
-     
- 
- 
-  
-
- 
- 
-  
-
 Vox sola }
-
 Vox cœlestis
-
 Anima Sebastiani
-
 Voix de la Vierge Erigone
-
 Les deux Jumeaux, M""°8 BOURQUIN et DE STOPPANI.
-
 Coryphées : M"° et M"'f BOREL, BORNAND, CHRISTIN,
 GACHON, GRETILLAT, HARTMANN, LUCHAIRE,
 MASSIT.[ PAGEOT, REYFER, ROBERT.
-
 Chœurs : LA SOCIÈTE DE MUSIQUE SYMPHONIQUE.
-
-  
-  
-
 M"" Rose FÉART.
-
-   
-  
-         
-    
- 
- 
-  
-
 DEUXIÈME PARTIE
-
 2 LE SACRE DU PRINTEMPS,
-
 tableaux de la Russie païenne, en deux
 paites e S Lgor Straxinoky
-
 Ces deux œuvres sont données en première audition.
-
- 
-    
-      
-    
- 
-
 L'Orchestre rentorcé (90 exécutants) et les chœurs sous la direction de
-
 M. Ernest ANSERMET
-
-       
-
 Le Concert commencera à 20 h. 30 et sera terminé vers 22 h. 45.
 La Dil‘ecﬁon se l‘éserve l(: (lr0ît
-
- 
- 
-
 d'apporter au programme toutes modifications que
 les circonstances pourraient lui imposer.
 Les portes seront rigoureusemenl ferméeo pendant l'exéculion Oes morceaux.
-
-  
- 
-       
-
 . ,
 Afrrom * ércéto-sn
-
-! JARRYS, GENÈVE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002560_002.tif"/>
-<page><![CDATA[AIMÉ KLING
-
+! JARRYS, GENÈVE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002560_002.tif'/>
+        <page>
+          <![CDATA[AIMÉ KLING
 LYTHIER-GENÈVE
 XI RVE DIDA Y XI
-
 VIOL ON =
 ALTO
 VIOI}
-
- 
-
- 
-
 //_f"
-
- 
-
 J'ANCIENS ET
 ///ÿl DERNES
-
- 
-
- 
-
-  
-
 SUISSES ET ÉTRANGERS
-
 Piaños pneumatiques
 ds Pianolas
-
 PIANOS ÉLECTRIQUES
-
 VENTE
 ÉCHANGE
 LOCATION
-
 Rouleaux de musique pour
 Pianolas et Pianos
 électriques
-
 KN£!ËEL BEÉROUD
-
 d
 Pue du Marche 20 753014 —
-
 élèbres PIANOS
-
 SŸEINWAV WELTE
-
 nt le ] de grands maî tels que :
-
 uni, Sta h.n,, ; rtc.
-
-  
-
 Spécialiste pour la rêparation des p1anolas et pianos électriques
-
- 
-
- 
-
-UNORSSONCINEIITESHANTUEOOCGEHNIS]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002560_003.tif"/>
-<page><![CDATA[ass
-
- 
-
+UNORSSONCINEIITESHANTUEOOCGEHNIS
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002560_003.tif'/>
+        <page>
+          <![CDATA[ass
 n .!L
-
- 
-
 Claude-Achille DEBUSSY
-
 Né à Saint-Germain en Laye en 1862, mort à Paris en 1918.
-
 LE MARTYRE DE SAINT-SÉBASTIEN
-
 Le Martyre de Saint Sébastien est un mystère composé en rythme
 français (ce sont les termes du poète) par Gabriele d’Annunzio,
 qui l’a dédié à Maurice Barrès. Ce mystère a été joué en premier
@@ -284,7 +169,6 @@ Claude Debussy ; pour les parties de cette musique exigeant une
 voix solo, il a été interprété alors, sous la direction Caplet, comme
 il va l’être aujourd’hui sous celle de M. Ansermet, par M"e Rose
 Féart.
-
 Dans une lettre du 6 février 1911, Claude Debussy conte l’aven-
 fure d'un voyage qu’il venait de faire à Budapest avec la même
 artiste. C’est là, dans un banquet organisé au terme de ses concerts,
@@ -310,90 +194,44 @@ quelques traits décisifs encore que discrets, mouvements d’âme ou
 de foule, et ces profonds accents par quoi se trahit, même à tempé-
 rature égale et malgré la communauté des racines mystiques, l’irré-
 ductible antagonisme des intuitions religieuses : Jésus, Adonis…
-
 Le mystère comporte à la scène, pour situer et figurer ses tableaux
 successifs, cinq « mansions » dont suivent les titres, avec un minimum
 d'indications plastiques ou dramatiques dans lesquelles s’ordonnera
 le texte chanté.
-
 I
-
 LA COUR DES LYS
-
 ’De ces lys, qui auront un rôle dans le mystère, on ne distingue
 d'abord que confusément les grandes gerbes candides, par sept
-arcades d’un portique ouvrant sur des jardins, au fond de la cour]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002560_004.tif"/>
-<page><![CDATA[M U S I QU E Par …{‘î:ﬁî{ d£î'îäÎestra
-
+arcades d’un portique ouvrant sur des jardins, au fond de la cour
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002560_004.tif'/>
+        <page>
+          <![CDATA[M U S I QU E Par …{‘î:ﬁî{ d£î'îäÎestra
 des œuvres jouées aux Concerts
-
 22, Corraterie, 22 de l'O. S.R
-
 Ces œuvres se trouvent également i’ñbonnement
-
 dans les différentes transcriptions à
-
 ROTSCHY FRÈRES
-
 Pour la Vente, l'Echange, la Réparation,
 l'Accord des
-
 I s'adresser au magasin,
 P A ]. J O S Rue du Stand, 64, 1°" étage
-
- 
-
- 
-
- 
-
- 
-
 MAISON GENEVOISE
-
 La Pharmacie HAHN
-
 M, succ.
-
 est l’une des plus anciennes de Genève
 Il existait déjà un apothicaire à Longemalle
 au temps de Philibert Berthelier
-
 Apothicaires de Longemalle depuis 1788
-
 Charles HAHN
 1839-1868
-
- 
-
 Henri-Albert GOSSE
 1788-1816
-
 Antoine CASTAN
 1818-1832
-
 Charles-G. HAHN
 1868-1897
-
-   
-   
-
- 
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 François BRAUN HAHN & BRUN
 1832-1838 "’OUR 1897-1902
 tes CHEVEUX
@@ -401,10 +239,12 @@ Exà%ull{on soignée dî pra%crlnﬂons Spécialités
 e tous pays, selon ehaque è (
 pharmacopée. Seul reméde efficace contre la chute des cheveux et pellieules Analyses
 Envoi a domicile et English spoken
-
-par poste Jacques-G. BRUN depuis 1902 Man spricht deutsch]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002560_005.tif"/>
-<page><![CDATA[dallee où donne audience Jules Andronique, préfet de l'empereur
+par poste Jacques-G. BRUN depuis 1902 Man spricht deutsch
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002560_005.tif'/>
+        <page>
+          <![CDATA[dallee où donne audience Jules Andronique, préfet de l'empereur
 Dioclétien. Podagre somnolent, accablé par la graisse, il siège avec
 son greffier et ses bourreaux sur une estrade hérissée d’engins de
 torture. En arrière, un autel de marbre consacré aux idoles. En
@@ -419,21 +259,17 @@ d’orgue du prélude, qui l’encadre d’un thème significatif : mélodie
 grave et douce, posée sur des accords parfaits, et résumant dans
 une image musicale de la Croix l’inspiration chrétienne de l’œuvre
 — in hoc signo vinces.
-
 LES JUMEAUX (pâles et enivrés, renversant la tête pour chanter vers le ciel)
-
 Frère, que sera-t-il le monde Je le pèse ; au delà de l’Ombre
 Allégé de tout notre amour ? Je le jette vers le Grand Jour.
 Dans mon âme ton cœur est lourd Frère, que sera-t-il le monde
 Comme la pierre dans la fronde. Allégé de tout notre amour ?
-
 J'étais plus doux que la colombe,
 Tu es plus fauve que l’autour.
 Toujours, jamais ! Jamais, toujours !
 Fer ne t’effraie, feu ne me dompte.
 Beau Christ, que serait-il le monde,
 Allègé de tout votre amour ?
-
 La foule des gentils accourus à l’audience réclame, exaspérée, le
 supplice des blasphémateurs, et prend à témoin Sébastien qui con-
 finue à garder le silence. Il ne le rompt qu’à l’instant où il voit
@@ -454,103 +290,55 @@ décoche son trait vers le ciel, le trait ne retombe pas : c’est le signe
 qu’il attendait d’en haut. « Je suis libre, s’écrie-t-il, je suis la Cible !
 Souvenez-vous de ce terrible espoir et que je serai digne de demander
 à Dieu des signes plus éclatants. » Alors ce n’est plus la foule qui
-Invoque son témoignage contre le Christ, mais pendant que son nom]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002560_006.tif"/>
-<page><![CDATA[DI TT
-
+Invoque son témoignage contre le Christ, mais pendant que son nom
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002560_006.tif'/>
+        <page>
+          <![CDATA[DI TT
 TI
-
 D TON
-
 TmT
-
- 
-
 S <1
 L 2
-
 D r t Tt
-
- 
-
 (RIN I TT TI TT III TT e u T
 E P E E E E E ETE
-
- 
-
- 
- 
- 
-
 P
-
-   
-
 Jl
 TTN ETE ETE RE EE TIRIN
 m TT
-
-  
-
-  
-
 SOCIÉTÉ DE
-
- 
-
-   
- 
-
 BANQUE SUISSE
-
 FONDÉE EN 1872
-
 CAPITAL-ACTIONS ET RÉSERVES :
-
 FRANCS
-
 153 MILLIONS
-
 Corraterie, 6 GENEVE Corraterie, 6
-
 CORNAVIN
-
 10. place de Cornavin
-
 PLAINPALAIS
-
 36, rue de Carouge
-
- 
-
 gromm q
 O C
 muuio u
-
 EAUX-VIVES
 3, pl. des Eaux-Vives
-
 CAROUGE
-
 11, rue du Marché
-
 Toutes opérations de Banque, de Bourse et de
 Change, aux meilleures conditions
-
 FAC LN
 I
 mmn
-
- 
-
 _
 ETE ETEF
-C U T T TN TUEN]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002560_007.tif"/>
-<page><![CDATA[Jlu =
-
- 
-
+C U T T TN TUEN
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002560_007.tif'/>
+        <page>
+          <![CDATA[Jlu =
 court comme un reproche sur les lèvres des archers consternés, c’est
 un chœur invisible qui proclame la vocation du saint et du martyr.
 On croit entendre, dit le poème, « derrière les appels des hommes
@@ -559,12 +347,9 @@ pace lointain, diffus dans l’immensité du miracle céleste », et voici
 en effet, construit par le musicien, ce merveilleux escalier d’appels
 mystiques qui s'élève des basses aux soprani comme pour inciter les
 anges mêmes à l’invocation du nom adorable :
-
 LE CHŒUR : Sébastien, Sébastien !
 IE SAINT : Mes frères, mes frères, j'entends le bruit des chaînes qui se brisent.
-
 LE CHŒUR : Sébastien, tu es témoin !
-
 Cependant sur la terre, un double miracle imprévu s’annonce par
 le grondement d’une multitude jubilante : « Miracle ! l’aveugle voit,
 miracle ! la muette parle », et c’est alors, avec son refrain davidien
@@ -580,44 +365,33 @@ plendir d’une candeur surnaturelle, et le saint qui, sur sa prairie
 de flamme, bondit plus haut que la flamme — « sept fois plus haut,
 je vous le dis » — le saint porte témoignage du « doux miracle »,
 que saluent les jumeaux par un double cri de lumière.
-
 LES JUMEAUX
-
 Hymnes, toute l’ombre s'efface.
 Dieu est et toujours sera Dieu !
 Celébrez son nom par le feu.
-
 Chantez les œuvres de sa grâce,
 Louez ses œuvres en tous lieux.
 Semez son nom mystérieux,
-
 Entraînés dans le vertige de la douleur et de l’allégresse, des
 femmes, des esclaves répètent l'hymne, pendant que le saint « danse
 sur l’ardeur des lys », et que les lys dressent toujours plus lumineux,
 dans l’entrecolonnement des martyrs, leurs éclatantes gerbes. Puis,
 quand se tait le dernier « je t'aime, Roi », c’est une « salutation
 séraphique » qui surmonte l'hymne terrestre.
-
 CHORUS SERAPHICUS
-
 Salut, 6 Lumière, Signe de victoire
 Lumière du monde, Et Palme de gloire
 Croix large et profonde, Et Arbre de vie,
-
 R x , ; ; ;
 Et comme ici s'évoque à l’orchestre, avec une majesté singulière,
 cette image musicale de la Croix que l’on a dite, « J'entends venir
-
- 
-
- 
-
- 
-
 u
-310 6008 C C C E 1 E 5 0 E E E C]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002560_008.tif"/>
-<page><![CDATA[un autre chant, murmure le saint, j'entends les sept luths éternels.
+310 6008 C C C E 1 E 5 0 E E E C
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002560_008.tif'/>
+        <page>
+          <![CDATA[un autre chant, murmure le saint, j'entends les sept luths éternels.
 Les lys font toute la lumière, ils font toute la mélodie. » À peine
 a-t-il parlé que la transfiguration s'accomplit, des sept hautes gerbes
 fleuries en sept lumières de la hiérarchie céleste. Les Séraphins
@@ -625,14 +399,11 @@ s’avancent dans les entrecolonnements, ils chantent, et l’immensité
 de leurs voix passant sur la foule prosternée « semble la porte
 ouverte du ciel » :
 LE CHŒUR
-
 Voici les sept Témoins de Dieu,
 Les Chefs de la Milice Ardente.
 Tout le ciel chante !
-
 Il
 LA CHAMBRE M AGIQUE
-
 Pour en faire pressentir les noirs enchantements, il suffit à Claude
 Debussy d’un bref prélude instrumental. On à observé que la scin-
 tillation polytonale de l’orchestre qu'il emploie ici avait, en 1g11,
@@ -659,30 +430,23 @@ délivra le suicide et qui, ressuscitée étoile, porte de constellation en
 constellation son épi d'or et ses larmes, c’est la mythologique
 Erigone et c'est sa chanson envolée, qui flotte sur ses pas comme
 un mourant écho, mais clair et cristallin, des rêves évanouis :
-
 LA VIERGE EFRIGONE
-
 Mon ombre m'était presque une aile
 Que je traînais dans la moisson.
-
 Et j'étais la Vierge, fidèle
-
 À mon ombre et à ma chanson.
-
 Je fauchais l'Epi de froment,
 Oublieuse de l’asphodèle ;
 Mon Âme, sous le ciel clément,
 Etait la sœur de l’hirondelle ;
-
 Comment ce fantôme ouvrirait-il au saint la porte qui les sépare ?
 C’est à lui de l’abattre. Il brandit un marteau, appelle à la res-
-
-   
-
-L]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002560_009.tif"/>
-<page><![CDATA[MEUEHNKSHESOONOSEREASPITGUPAZGAN
-
+L
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002560_009.tif'/>
+        <page>
+          <![CDATA[MEUEHNKSHESOONOSEREASPITGUPAZGAN
 cousse briseurs d’idoles, esclaves plus ou moins convertis, zélateurs,
 catéchumènes. Mais avec eux pénètrent une tourbe d’'affranchis,
 fidèles aux vieux cultes, et l'intendant du préfet Andronique. Quoi,
@@ -709,7 +473,6 @@ apparftient de révéler, en descellant la croix de ses bras, les em-
 preintes du divin Corps. « Voyez l’horreur de son supplice…, voyez
 la plaie de son côté, etc.» Et défaillante elle exhale en un grand
 soupir cet appel : « Seigneur Amour, voici ma vie ! »
-
 Au même instant, la porte étant close encore, un nouveau chant
 prend soudain son essor et plane au delà du seuil infranchissable.
 Ce n’est pas, abandonnée au vent comme une souple écharpe, la
@@ -718,15 +481,11 @@ tout style dans la grâce austère de ses lignes, grave parfois autant
 que douce, et singulièrement émouvante par l’accent de sa pureté
 presque désincarnée, c’est l’ineffable mélopée de la Vierge sans
 fache, mère du Sauveur.
-
 VOX CŒLESTIS
-
 Qui pleure mon enfant si doux, ; Voyez. Et dans ma chevelure
 Mon Lys fleuri dans la chair pure ? Tous les astres louent sa clarte !
 Il est tout clair sur mes genoux, Il éclaire de sa figure
-
 I] est sans tache et sans blessure. Ma tristesse et la nuit d'ête !
-
 Un soupir de l’orchestre (et comme un reflet lointain, dans cette
 nuif d'été, du tendre paradis de la Damoiselle Elue) : Voici tomber
 les chaînes d’or qui attachaient les sept magiciennes aux cippes où
@@ -735,17 +494,12 @@ frémissement des cordes basses, une clameur des cuivres, pendant
 que roulent sur leurs gonds volumineux les lourds vantaux de la
 porte d’airain ; enfin l’irruption d’une lumière éblouissante qui sur les
 ailes des harpes pénètre à travers l’orchestre entier : c’est la cham-
-
- 
-
- 
-
- 
-
-... s…o….x suussasenaus .. ….]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002560_010.tif"/>
-<page><![CDATA[----- PEONRAOURCHENNOSNELAEETENMRENDSESSSOU4UNE
-
+... s…o….x suussasenaus .. ….
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002560_010.tif'/>
+        <page>
+          <![CDATA[----- PEONRAOURCHENNOSNELAEETENMRENDSESSSOU4UNE
 bre magique apparaissant avec tous ses signes, ses cercles, ses orbes,
 ses simulacres et les figures animées de son Zodiaque. Mais qui
 maintenant conduit les planètes, qui gouverne l’espace infini? « On
@@ -757,11 +511,8 @@ se fait, l’entend encore; il l'écoute, noblement commentée dans
 l'orchestre, durant qu’il monte les degrés ; et le seuil franchi, ren-
 versant la tête, levant les yeux vers le Croissant, il s’abîme dans
 l’extase.
-
 III
-
 LE CONCILE DES FAUX DIEUX
-
 Ils abondent à tel point, dans la salle pentagonale où l'Auguste
 insftitua son laraire, que leur description occupe trois pages du texte
 en petits caractères destiné par le poète aux metteurs en scène. Le
@@ -774,7 +525,6 @@ l'empereur, toutes les bouches l’acclament. Derrière le siège insigne,
 au haut dossier orné de deux Victoires d’or, se tiennent neuf citha-
 rèdes grecs avec leur conducteur Euryale, attendant le signal du
 Tout-Puissant, Devant lui, muet, Sébastien.
-
 Arrêtant du geste les clameurs de la foule qui lui demande ven-
 geance contre les chrétiens, l'empereur, d'abord, semble se faire un
 plaisir de cajoler le bel Archer, son très aimé sagittaire à la cheve-
@@ -794,19 +544,17 @@ puis aggravant d’un blasphème contre Apollon-Soleil cette profes-
 sion sacrilège, ajoute : « Seul le Christ rayonne, l’Unique! » Pour
 le faire taire, et apaiser le tumulte des prêtres, l’'empereur déclanche
 ses musiciens :
-
 « Aveuglez l’impie ! Euryale, entonne l'hymne ! » et ils s’empres-
-sent de lui obéir :]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002560_011.tif"/>
-<page><![CDATA[EHESPCANUICEUSS SR OVMU TOSMAESCGHEE S SOCAAUOOSCENEDEOANEZOSSKEANOEUN P 1 5 1 E 1 S C0 5 C E R E
+sent de lui obéir :
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002560_011.tif'/>
+        <page>
+          <![CDATA[EHESPCANUICEUSS SR OVMU TOSMAESCGHEE S SOCAAUOOSCENEDEOANEZOSSKEANOEUN P 1 5 1 E 1 S C0 5 C E R E
 =
-
 LES CITHAREDES
-
 Paian, Lyre-d'or, Arc-d'argent, Beau Roi chevelu de lumière,
-
 Seigneur de Délos et de Sminthe, O Apollon…
-
 Î « Cessez ! » dit le Saint.. « Ecoutez l’autre lyre », et il se met à
 les adjurer au nom du Christ. Le scandale va croissant. « Egorgez-le »,
 crie l'empereur, puis voyant les sacrificateurs empressés à se changer
@@ -817,7 +565,6 @@ femmes de Byblos célèbrent la beauté de ce nouveau Seigneur,
 Seigneur des danses! » Mais alors le poète livre au musicien cette
 indication de scène qui lui inspire une des pages les plus profondes
 de leur commun ouvrage :
-
 « Par ses pas, ses gestes, des atlitudes, les aspecls de sa face doulou-
 ! reuse, l'angotsse Je ses paroles étouffées, le Confesseur exprime le haut
 drame du Fils de l’'Homme autour de la chlamyde étendue (dont il a
@@ -826,7 +573,6 @@ couvert sa cithare volontairement mutilée) comme autour d’une
 par les esprits de la musique », ensuite il se redresse, se fransfigure.
 | — « Avez-vous vu celui que J'aime ? l’avez-vous vu? 5 — et sa voix
 devient celle même de l'agonie sublime quand, dans un grand silence,
-
 ë
 à
 «
@@ -836,41 +582,27 @@ j "
 ‘
 Ë
 ;
-
- 
-
 mon âme est triste jusqu’à la mort… »
-
 | À cette symphonie de mystère et d’agonie vient s’opposer et tour
 à four se joindre (car toutes les mysfiques ont quelques racines
 communes) cefte plainte de deuil et d’amour que roucoulent, comme
 des colombes blessées, les femmes de Byblos pleurant leur dieu
 | androgyne, puis tout un chœur syrien sur lequel semble peser le
 | souffle lugubre d’une lointaine Asie desséchée :
-
 ! . LES FEMMES DE BYBLOS
 \
-
 Ah ! tu pleures le Bien-Aimé ! A
 Tu pleures l’Archer du Liban… Hélas ! tu pleures Adonis !
 O sœurs ! O frères ! ; O sœurs ! O frères !
-
 CHORUS SYRIACUS
-
 Helas ! Tu pleures Adonis ! Voyez le bel Adolescent
-
 Il se meurt, le bel Adonis… Couché dans la pourpre du sang,
-
 Il est mort, le bel Adonis… Donnez les baumes et l’encens,
 Femmes, pleurez ! Femmes, pleurez !
-
- 
-
 Quand le chœur s'éteint, une voix solitaire surgit des profondeurs,
 ; ; ; ;
 ayant, dit le poète « traversé toute la masse de la souffrance comme
 le souffle traverse le poumon » :
-
 =
 "
 =
@@ -970,29 +702,22 @@ u
 e
 =
 "
-
-  
-
-HHPROGHH]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002560_012.tif"/>
-<page><![CDATA[PHNEEAEROONENSASODSENSSERRUSENSENAGGHAAGUE sspoces
-
+HHPROGHH
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002560_012.tif'/>
+        <page>
+          <![CDATA[PHNEEAEROONENSASODSENSSERRUSENSENAGGHAAGUE sspoces
 VOX SOLA
-
 « Je souffre », gémit-il. « Ecoute !
 Je souffre. Qu'ai-je fait ? Je souffre
 Et je saigne. Le monde est rouge de mon tourment.
-
 cassseanssaszes
-
 Ah ! qu'ai-je fait ? Qui m'a frappé !
 . J'expire, je meurs, 6 Beaute,
 Je meurs, mais pour renaître impérissablement. »
-
 CHORUS syRIACUS : Adonis, Adonis, pleurez !
-
 LES FEMMES DE ByBLOS : Heélas, pleurez, pleurez !
-
 De nouveau le chœur s’éteint, et l’Archer haletant, éperdu, secoue
 sa chevelure comme pour en faire tomber des anémones vénéneuses.
 Est-ce bien lui-même qui se tient là ? Et qui est ce «lui même?» De
@@ -1007,21 +732,14 @@ falienne, mais de concision debussyste] : Ne pleurez plus ! » A
 l’accent si profondement chrétien de cette effusion s'oppose de-
 rechef, et plus énergiquement malgré sa langueur, celui de l'autre
 voix solitaire, subtil instrument de méprise mystique
-
 VOX SOLA
-
 Cessez, ô pleureuses ! Le monde Il renaît, il se renouvelle.
-
 Est lumière, tel qu'il l'annonce. O frère des saisons jumelles,
-
 Il renaît dieu, vierge et jeune homme, Debout ! La mort est immortelle,
 Le Florissant ! Dieu, par ton sang.
-
 LES FEMMES DE BYBLOS
-
 Le dieu, le dieu, voilà le dieu,
 Il est debout !
-
 Gagné par ce délire, l'empereur bondit, ivre de prodige et de
 création, car il ne doute pas de « déifier » son ami : « Tu es un dieu,
 je te fais dieu, moi le maître de l’ÜUnivers ». Ainsi s’'approche du
@@ -1033,38 +751,30 @@ déifié une des deux Victoires qui ornent le dossier de son siège, et
 s’abandonnant à sa démence — « tracez le temple, augures, annoncez
 l’étoile future au ciel romain ! » — il se délecte de l’orgie divine que
 déchaînent les Adoniastes et qu’évoquent les répons de ce double
-
 ChŒul‘ :
-
- 
-
 PUKRARDHONABERBAPETSSORFUNDOOSNHESDERMINARERNONHOBADHDSE an
-
-n]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002560_013.tif"/>
-<page><![CDATA[= auses scssscun
-
+n
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002560_013.tif'/>
+        <page>
+          <![CDATA[= auses scssscun
 LES ADONIASTES
-
 Io, Adoniastes ! Io, dénouez vos cheveux !
 O sœurs, 6 frères, exultez !
 Le Seigneur est ressuscité !
 Il conduit la danse des astres.
-
 Dénouez vos ceintures, femmes !
 Du noir Hadès où sont les Âmes
 Il nous revient le Bienheureux !
-
 Or un cri soudain et terrible éclate, un vrai cri de ressuscité qui
 domine et interrompt le chœur orgiastique, mais c’est la voix du
 Saint qui appelle son sauveur : « Jésus, Jésus, Jésus, à moi!» De
 toute la hauteur de ses bras il élève en l'air la Victoire d’or et la
 lance contre la mosaïque luisante, aux pieds de l’Auguste, qu’il
 maudit.
-
 IV
 LE LAURIER BLESSÉ
-
 Sur une colline ronde, les antiques lauriers du bois d’Apollon,
 que baigne le crépuscule. Leurs troncs, hérissés de feuilles aiguës
 comme des lances, forment une clairière où se voient les ruines d’un
@@ -1098,19 +808,15 @@ l'ombre du Crucifié s’étendra sur le laurier fatidique, jusqu’au der-
 nier soupir du saint. Celui-ci obtient enfin le supplice que depuis
 longtemps — «Je suis la Cible !» — 1l réclamait, et le premier dard
 qui l’atteint part sur ces mots :
-
- 
-
-eur]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002560_014.tif"/>
-<page><![CDATA[REDDGOSOESO/NSROREUAERSEOEUS
+eur
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002560_014.tif'/>
+        <page>
+          <![CDATA[REDDGOSOESO/NSROREUAERSEOEUS
 ü seux soscene sosu ssocanse Ceanegers
-
- 
-
 « Des profondeurs, des profondeurs
 J'appelle votre amour terrible ! »
-
 C'est au même instant que reprend le chœur des Adoniastes,
 montant par la colline à travers les lauriers, sans que les archers
 d'Emèse, maintenant en proie à une sorte de démence, s’arrêtent
@@ -1119,15 +825,12 @@ impatients : « Encore ! encore ! », jusqu'au suprême râle de sa gorge
 transpercée : « Amour éternel!» Puis, durant qu’ils appellent à
 grands cris leur bien-aimé expirant, le chant des Adoniastes s’ap-
 proche et s'’amplifie :
-
 CHORUS SYRIACUS
-
 Ah ! Ah ! hélas... hélas… Pleurez, 6 femmes de Syrie !
 Pleurez, 6 femmes de Syrie, Il va dans la pâle prairic,
 Criez : « Hélas ! ma Seigneurie ! » Toutes les fleurs se sont flétries,
 Toutes les fleurs se sont flétries, Criez, pleurez…
 Criez, pleurez.…
-
 Ici des cris se mêlent au chœur : « Prodige !» On n’entend bientôt
 plus que ce mot, et c'est un beau miracle en effet que celui du lau-
 rier blessé. Quand les femmes syriennes, tout en prolongeant leurs
@@ -1142,176 +845,114 @@ l’ordonnance funèbre une clarté de perle se répand dans la profon-
 deur du soir, semblable à celle qui précède le lever de la pleine
 lune. Plus sombre par contraste s’élève puis décroît l’ultime lamen-
 tation du chœur :
-
 CHORUS SYRIACUS
-
 Il descend vers les Noires Portes.
-
 Tout ce qui est beau, l'Hadès morne
-
 L'emporte. Renversez les torches,
 Eros ! pleurez !
-
 Mais dans le ciel du soir s’élargit la clarté insolite, un grand cri
 éclate qui interrompt la lamentation, l’ordonnance funèbre s'arrête
 devant on ne sait quel gouffre de lumière ineffable…
-
 V
 LE PARADIS
 Par la transition qu’on vient d’indiquer — objet du bref et péremp-
 toire Interlude debussyste — voici ouvertes à l’âme de Sébastien les
-
 portes du Paradis. Sans décrire ce séjour, sur lequel le poète ne
 semble pas renseigné de première main, on se borne à copier les
-
 ossee CT PEPE TT “esses
-
- 
-
- 
-
 AHUEENSREESEENOEMEDESRONEUEOSERRANSDANCESESDANNSEGSRSDOSEESNDERNOUESHEONESOEE
-
-©]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002560_015.tif"/>
-<page><![CDATA[|
+©
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002560_015.tif'/>
+        <page>
+          <![CDATA[|
 |
 Ï
 j
-
-  
-
- 
-
- 
-
 paroles offertes par lui au musicien et employées par celui-ci à
 construire son édifice lyrique : aérien palais dont l’équilibre est si
 prestigieusement calculé que l’on ne sait s’il faut admirer davantage
 la grâce ou la force de cette architecture, l’hellénique simplicité de
 son dessein ou la richesse intime — et en quelque manière grégo-
 rienne — de son émotion.
-
 CHORUS MARTYRUM CHORUS VIRGINUM
 Gloire ! sous nos armures Tu es loué. L'étoile
 Flamboyez, ô blessures ! De loin parle à l’étoile
 Qui est celui qui vient ? Et dit un nom : le tien.
 Le Lys de la cohorte. Dieu te couronne. Toute
-
 Sa tige est la plus forte. La nuit comme une goutte
 Louez le nom qu’il porte : A ton front est dissoute,
 Sébastien ! Sébastien.
-
 CHORUS APOSTOLORUM
-
 Tu es saint. Qui te nomme
-
 Verra le Fils de l'Homme
-
 (Sur son cœur Il te tient)
-
 Sourire de ta grâce.
-
 Jean t'a donné sa place.
-
 Tu boiras dans sa tasse,
 Sébastien.
-
 CHORUS ANGELORUM ANIMA SEBASTIANI
-
 Tu es beau. Prends six ailes Je viens, je monte, j'ai des ailes.
 D'Ange et viens dans l’échelle Tout est blanc. Mon sang est la manne
 Des Feux musiciens Qui blanchit le Désert de Sin.
-
 Chanter l’hymne nouvelle Je suis la goutte, l’étincelle
-
 Au Ciel qui se constelle Et le fétu. Je suis une âme,
-
 De tes plaies immortelles, Seigneur, une âme dans ton sein.
-
 Sébastien.
-
 CHORUS SANCTORUM OMNIUM
-
 Louez le Seigneur dans l'immensité de sa force.
 Louez le Seigneur sur le tympanon et sur l'orgue.
 Louez le Seigneur sur le sistre et sur la cymbale.
 Louez le Seigneur sur la flûte et sur la cithare.
-
 Alleluia.
 (Notice de M. Robert Goper.)
-
 ##
 Igor STRAWINSKY
-
 Né à Pétrograd le 23 mai/5 juin 188z.
-
 Le Sacre du Printemps, écrit en 1912-1913, est l’œuvre maîtresse
 de la première période de production de Strawinsky, l’aboutisse-
 ment de cette période dont les principaux jalons sont l’Oiseau de
-feu et Petrouchka. À ce moment la personnalité de Strawinsky]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002560_016.tif"/>
-<page><![CDATA[AVIDOUDEZ
-
+feu et Petrouchka. À ce moment la personnalité de Strawinsky
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002560_016.tif'/>
+        <page>
+          <![CDATA[AVIDOUDEZ
 LUTHIER DU CONSERVATOIRE
 4
-
-      
- 
-
- 
-
 Tout ce qui concerne
-
 le Violon :
-
 sa fabrication
-
 sa restauration
 l’Archet
-
 les Cordes et
 autres Accessoires
-
 Téléphone : .
-
 Stand 65-75
-
- 
-
- 
-
- 
-
- 
-
- 
-
 A …
 FABRIQUE D'HORLOGERIE
 VACHERON & CONSTANTIN
 GENÈVE .
-
 FONDÉE EN
 1785
-
-Marque de Fabrique]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002560_017.tif"/>
-<page><![CDATA[cherche à se manifester dans les données de la tradition musicale
+Marque de Fabrique
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002560_017.tif'/>
+        <page>
+          <![CDATA[cherche à se manifester dans les données de la tradition musicale
 classique. Le Sacre est le point extrême où le style de Strawinsky
 tient encore dans ces données. Après le Sacre, ce style impose un
 nouvel ordre des éléments musicaux où Strawinsky retrouve et
 resserre toujours plus, dans son esprit, la tradition.
-
 Comme l’Oiseau de feu et Petrouchka, le Sacre du Printempa fut
 conçu en vue d’un spectacle chorégraphique. Le sujet de l’œuvre est
 indiqué dans les déclarations suivantes que Strawinsky fit paraître
 à l’époque de sa création dans la gazette Montjote.
-
 « Avec le Sacre du Printemps, j'ai voulu exprimer la sublime montée
 de la nature qui se renouvelle : la montée totale, panique, de la sève
 universelle.
-
 « Dans le Prélude, avant le lever du rideau, jJ'ai confié à mon
 orchestre cette grande crainte qui pèse sur tout esprit sensible
 devant les choses en puissance, s'élargissant dans tout l’orchestre.
@@ -1319,7 +960,6 @@ C’est la sensation obscure et immense que toutes les choses ont à
 l’heure où la nature renouvelle ses formes; c’est le trouble vague
 et profond de la puberté universelle. À mon orchestration même et
 aux jeux mélodiques j'ai demandé de l’évoquer.
-
 « Tout le Prélude est basé sur un « mezzo forte » foujours égal.
 La mélodie s’y développe selon une ligne horizontale, que seule la
 masse des instruments, — le dynamisme intense de l’orchestre et
@@ -1329,7 +969,6 @@ nuent. Par conséquent, j'ai exclu de cette mélodie les cordes trop
 et leurs diminuendi, et j'ai mis au premier plan les bois, plus secs,
 plus nets, moins riches d’expression facile et par cela même plus
 émouvants à mon gré.
-
 « En somme, j'ai voulu exprimer dans le Prélude la crainte panique
 de la nature devant la beauté qui s'élève, une terreur sacrée devant
 le soleil de midi, une sorte de cri de Pan. Sa matière musicale
@@ -1337,7 +976,6 @@ elle-même se gonfle, grandit, se répand; chaque instrument est
 comme un bourgeon qui pousse sur l’écorce d’un arbre séculaire ; il
 fait partie d’un formidable ensemble. Et tout l’orchestre, tout cet
 ensemble doit avoir la signification du printemps qui naît.
-
 « Dans le premier tableau, des adolescents se montrent avec une
 vieille, très vieille femme, dont on ne connaît ni l’âge, ni le siècle,
 qui connaît les secrets de la Nature et apprend à ses fils la Pré-
@@ -1345,66 +983,42 @@ diction. Elle court, courbée sur la terre, ni femme, ni bête. Les
 adolescents auprès d’elle sont les Augures printaniers, qui marquent
 de leurs pas, sur place, le rythme du Printemps, le battement du
 pouls du Printemps.
-
 « Pendant ce temps, les adolescentes. viennent de la rivière. Elles
 composent de leur nombre une couronne qui se mêle à la couronne
 des garçons. Ce ne sont pas des êtres déjà formés. Leur sexe est
 unique et double comme celui de l’arbre. Ils se mélangent; mais
 dans leur rythme, on sent le cataclysme des groupes qui se forment.
 En effet, ils se divisent à gauche et à droite. C’est la forme qui se réalise,
-synthèse de rythmes ; et la chose formée produit un rythme nouveau.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002560_018.tif"/>
-<page><![CDATA[Orfèvrerie Boujon F rères
-
+synthèse de rythmes ; et la chose formée produit un rythme nouveau.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002560_018.tif'/>
+        <page>
+          <![CDATA[Orfèvrerie Boujon F rères
 Nouveaux magasins: — 37, Croix-d'Or, 37
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 p
-
 Le plus grond Âox
 de haussures de [u{ô.
 Æ Oule /O/D£O/b/€. J,Oor£.
-
 Déposrtaires des
 merlleures morqueô e
 du MOPOE.
-
 Énvor ou Cä OS3€E OO3
 Loule Lo Sursse.
-
 Jalons e£ Akelrers
 gpécioux pour Les y
 SMOUISUrES IUF Meiure.
-
-  
-     
-  
- 
- 
-     
-
 Chaussures
-
 SCHEURER SA.
 RUE DU RHONE 3
-
-Genève]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002560_019.tif"/>
-<page><![CDATA[« Les groupes se séparent et entrent en lutte ; les messagers vont
+Genève
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002560_019.tif'/>
+        <page>
+          <![CDATA[« Les groupes se séparent et entrent en lutte ; les messagers vont
 des uns aux autres et se querellent. C’est la définition des forces
 par la lutte, c’est-à-dire par le jeu.
-
 « Mais on entend l’arrivée d’un cortège. C’est le Saint qui arrive,
 le Sage, le Pontifex, le plus vieux du clan. Une grande terreur
 s’empare de tout le monde. Et le Sage donne la bénédiction à la
@@ -1413,7 +1027,6 @@ lui-même une seule chose avec le sol. Sa bénédiction est comme un
 signal de jaillissement rythmique. Tout le monde se couvre la tête
 et court en spirales, jaillissant sans cesse en grand nombre, comme
 les nouvelles énergies de la nature. C’est la danse de la Terre.
-
 « Le deuxième tableau commence par le jeu obscur des adoles-
 centes. Au début, un Prélude musical est basé sur le chant mysté-
 rieux qui accompagne les danses des jeunes filles. Celles-ci marquent
@@ -1421,20 +1034,16 @@ avec leurs rondes les signes où sera à la fin enfermée l’Elue, qui ne
 pourra plus en sortir. L’Elue est celle que le Printemps doit consa-
 crer, qui doit rendre au Printemps la force que la jeunesse lui a
 prise.
-
 « Les jeunes filles dansent autour de l’Elue immobile une sorte de
 glorification. Puis c’est la purification du sol et l’évocation des
 Ancêtres. Les Ancêtres se groupent autour de l’Elue qui commence
 à danser la danse sacrale.
-
 « Lorsqu’elle est sur le point de tomber épuisée, les Ancêtres
 l’aperçoivent, glissant vers elle comme des monstres rapaces, pour
 qu'elle ne touche pas le sol en tombant : ils l’enlèvent et la tendent
 vers le ciel.
-
 « Le cycle annuel des forces qui renaissent et retombent dans le
 giron de la nature est accompli dans les rythmes essentiels. »
-
 L'art de Strawinsky avait pour objectif, dans l’Oiseau de feu, le
 monde féerique ; dans Petrouckka, le monde humain ; le voici devant
 le monde cosmique, symbolisé dans le mysticisme de la Russie
@@ -1455,57 +1064,43 @@ frois flûtes (3° = piccolo 2°), une flâte-piccolo, une flûte-alto, quatre
 hautbois (4° = cor anglais 2°), un cor anglais, une clarinette-piccolo,
 trois clarinettes (38 — clarinette-basse 2°), une clarinette basse,
 quatre bassons (4° — contre-basson z°), un contre-basson, huit cors
-(7° et 8 — tubas ténors), une trompette piccolo en ré, quatre trom-]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002560_020.tif"/>
-<page><![CDATA[pettes (4* = trompette basse), trois trombones, deux tubas basses,
+(7° et 8 — tubas ténors), une trompette piccolo en ré, quatre trom-
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002560_020.tif'/>
+        <page>
+          <![CDATA[pettes (4* = trompette basse), trois trombones, deux tubas basses,
 timbales (deux exécutants), grosse caisse, tam-tam, triangle, cordes.
-
 C’est donc comme une simple « suite » musicale que se présente
 au concert cette œuvre, dont nous ne rappelons ici les morceaux
 successifs que pour en mieux orienter l’audition :
-
 Première partie : /’Adoralion de la terre.
-
 Introduction (cet accroissement progressif de la densité sonore,
 jusqu'à l’extrême).
-
 Les Augures printaniers. Danses des Adolescentes (le rythme premier
 qui va se dénombrant).
-
 Jeu du rapt (un 9/8 violent).
-
 Rondes printanières (précédé et suivi d’une mélodie comme sus-
 pendue, un mouvement tranquille s’esquisse, se nourrit et, aboutissant
 à sa plénitude, éclate).
-
 Jeux des cités rivales. La violence du « jeu du rapt » reparaît, les
 rythmes se heurtent, et déjà s’entend le :
-
 Corlège du Sage, autour duquel les rythmes différents s'échafaudent.
-
 Adoration de la terre (brusque arrêt. Quatre mesures sans mou-
 vement).
-
 Danse de la terre. Foisonnement du rythme sur une basse obstinée.
-
 Seconde partie : le Sacrifice.
-
 Introduction. Prélude musical d’expression mystique, bâti sur deux
 mofifs empruntés aux épisodes suivants.
-
 Cercles mystérieux des Aoolescentes. Dans un mouvement tranquille
 et régulier les rondes se déroulent (altos, puis clarinettes, etc.).
 Sursaut et après onze coups frappés :
-
 Glorification de l’Elue. Période de rythmes brisés, jets et brusques
 éclats de motifs abrupts.
-
 Evocalion des Ancêtres. Annoncé par un motif des timbales et basses,
 une sorte de chant rituel rythmique.
-
 Action rituelle Jes Ancêtres. Déroulement long et lent, lourd de
 mystère, de motifs rituels.
-
 Danse sacrale. Frénésie de l'Elue : une période en rythmes irré-
 guliers; une période en rythme régulier mais intermittent, comme
 haletant, et où s'abat par moments un motif implacable comme un
@@ -1514,11 +1109,11 @@ velle période où le rythme se concentre dans la batterie tandis que
 s’élève une sorte de clameur; coda où la première période se con-
 tinue et arrivée à saturation s’arrête net, comme s'’arrête le bruit
 de l’eau qui monte dans une fontaine lorsque le goulot est submergé.
-
 B A
-
-6]]></page>       
-        </p>
+6
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

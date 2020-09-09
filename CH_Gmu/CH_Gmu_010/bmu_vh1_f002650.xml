@@ -1,194 +1,131 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par le Corps de musique de Landwehr<date when="27/02/1927"/></title>
-<series>1926-1927</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par le Corps de musique de Landwehr
+            <date when='27/02/1927'/>
+          </title>
+          <series>1926-1927</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002650</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Hoogstoël, L. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19270227"/>
-<title>Concert donné par le Corps de musique de Landwehr</title>
-<placeName key="Victoria Hall"/>
-<name key="1926-1927" type="series"/>
-<name key="Weber, Carl Maria von" ref="https://muscat.rism.info/admin/people/117485" type="person" role="cmp">Weber, Carl Maria von</name>
-<name key="Lalo, Edouard" ref="https://muscat.rism.info/admin/people/65446" type="person" role="cmp">Lalo, Edouard</name>
-<name key="Berlioz, Hector" ref="https://muscat.rism.info/admin/people/13803" type="person" role="cmp">Berlioz, Hector</name>
-<name key="Vieuxtemps, Henri" ref="https://muscat.rism.info/admin/people/142566" type="person" role="cmp">Vieuxtemps, Henri</name>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Bizet, Georges" ref="https://muscat.rism.info/admin/people/20057" type="person" role="cmp">Bizet, Georges</name>
-<name key="Duparc, Henri" ref="https://muscat.rism.info/admin/people/41011746" type="person" role="cmp">Duparc, Henri</name>
-<name key="Falla, Manuel de" ref="https://muscat.rism.info/admin/people/30010920" type="person" role="cmp">Falla, Manuel de</name>
-<name key="Saint-Saëns, Camille" ref="https://muscat.rism.info/admin/people/76734" type="person" role="cmp">Saint-Saëns, Camille</name>
-<name key="Hoogstoël, Léon (dir.)"  type="person" role="int">Hoogstoël, Léon (dir.)</name>
-<name key="Corps de musique de Landwehr "  type="person" role="int">Corps de musique de Landwehr </name>
-<name key="Bornand, Marthe"  type="person" role="int">Bornand, Marthe</name>
-<name key="Neufeld, Chil"  type="person" role="int">Neufeld, Chil</name>
-<name key="Wend, Otto"  type="person" role="int">Wend, Otto</name>
-<name key="Milloud, Marcel"  type="person" role="int">Milloud, Marcel</name>
-<name key="Bretton"  type="person" role="int">Bretton</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002650_001.tif"/>
-<page><![CDATA[VICTORIA HALH
-
- 
-
- 
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19270227'/>
+        <title>Concert donné par le Corps de musique de Landwehr</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1926-1927' type='series'/>
+        <name key='Weber, Carl Maria von' ref='https://muscat.rism.info/admin/people/117485' type='person' role='cmp'>Weber, Carl Maria von</name>
+        <name key='Lalo, Edouard' ref='https://muscat.rism.info/admin/people/65446' type='person' role='cmp'>Lalo, Edouard</name>
+        <name key='Berlioz, Hector' ref='https://muscat.rism.info/admin/people/13803' type='person' role='cmp'>Berlioz, Hector</name>
+        <name key='Vieuxtemps, Henri' ref='https://muscat.rism.info/admin/people/142566' type='person' role='cmp'>Vieuxtemps, Henri</name>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Bizet, Georges' ref='https://muscat.rism.info/admin/people/20057' type='person' role='cmp'>Bizet, Georges</name>
+        <name key='Duparc, Henri' ref='https://muscat.rism.info/admin/people/41011746' type='person' role='cmp'>Duparc, Henri</name>
+        <name key='Falla, Manuel de' ref='https://muscat.rism.info/admin/people/30010920' type='person' role='cmp'>Falla, Manuel de</name>
+        <name key='Saint-Saëns, Camille' ref='https://muscat.rism.info/admin/people/76734' type='person' role='cmp'>Saint-Saëns, Camille</name>
+        <name key='Hoogstoël, Léon' type='person' role='int'>Hoogstoël, Léon</name>
+        <name key='Corps de musique de Landwehr ' type='person' role='int'>Corps de musique de Landwehr </name>
+        <name key='Bornand, Marthe' type='person' role='int'>Bornand, Marthe</name>
+        <name key='Neufeld, Chil' type='person' role='int'>Neufeld, Chil</name>
+        <name key='Wend, Otto' type='person' role='int'>Wend, Otto</name>
+        <name key='Milloud, Marcel' type='person' role='int'>Milloud, Marcel</name>
+        <name key='Bretton' type='person' role='int'>Bretton</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002650_001.tif'/>
+        <page>
+          <![CDATA[VICTORIA HALH
 Portes à 14 h.  Dimanche 27 Février 1927 Concert à 14 h. !/e
-
 se
-
 CONCERT
-
 Ol]ll(_ l) ar lt
-
 Corps de Musique de Landwehr
 (Harmonie Militaire)
 sous lfl (]ireCtioll (1(‘ M.. LéÛll HOOGSTOEL
-
 Premier Prix du Conservatoire de Paris. — Professeur au Conservatoire
-
 Avec le bienveillant et gracieux concours de
-
 Mlle Marthe Bornand M Cl]il Neufehl
-
 Cantatrice élève de M. Otto Wend Violoniste à l'O. S. R.
-
 Au piano d'accompagnement
 MM Otto Wen(l Gr Marcel Mi“io…l
-
 Professeurs au Conservatoire
-
 000000000000D000000000000000000000000000000000000000000000000000000000000000000000000
-
 GRANDE VENTE DE CHAUSSURES
-
- 
-
 Fr.
-
 J. BURGENER
-
 RUEP DU CENDRIER, 24 » ESCOMPTE 5°/o
-
 oooooo0o000000000000000000000000000000000000000D00DOD0ODOD00000
-
 Donoonononoooonoononoonnononooooonocooooononooononoononooonooooo0o0o000
-
- 
-
- 
-
- 
-
 o0ooooooc
-
- 
-
-Jc '""DDDDDDDDDDDDDDDDDÜDDUDDDDDDDUDUDDDUDDDÜUDDDDÜDÜDQDDUUUDDDDDDGDUGDDDDDÜÜ]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002650_002.tif"/>
-<page><![CDATA[.}'.- v ’_ D
-
- 
-
+Jc '""DDDDDDDDDDDDDDDDDÜDDUDDDDDDDUDUDDDUDDDÜUDDDDÜDÜDQDDUUUDDDDDDGDUGDDDDDÜÜ
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002650_002.tif'/>
+        <page>
+          <![CDATA[.}'.- v ’_ D
 EMANDEZ & BUVEZ
-
- 
- 
-
- 
-
 Prix modérés
-
 CAPE LYRIQUE rn
-
 Déjeuners et dîners, depuis 3 Fr. 50
 Cuisine soignée - Mets de brasserie
-
 Véritables bières de Munich et Pilsen - Cave renom-
-
 mée pour ses vins ouverts et en bouteilles
-
- 
- 
- 
- 
-  
-
 Prix modérés
-
- 
-
- 
-
 Fumez tous
-
 les
-
 délicieuses cigarettes
-
 SATO
-
 En vente partout!
-
- 
-
 Quelques
-
 Fleurs de
 ŸFJeuriof
 Fleuriste
-
 Corraterie, 26
 Tél. Stand 18.15
-
 Rue de Rive, 15
-
 Tél. Stand 32.67
-
 Genève
-
- 
-
-  
-  
-    
-  
-
 12, FÜ
 3
 PpROGI
@@ -203,254 +140,125 @@ Mlle M. BORNAND
 4. Ballade et Polonaise ... Vieuxfemps
 M. NEUFELD
 5. Tristan et Yseult
-
 {
-
 (prélude du 3me acte) Æ Wagner
 Cor Anglais, M. Bretton
-
 Entr’Acte 10 minutes
-
 MM. les Membres non exécutants ont c
-
 Les coupons N°° 1 et 2 donnent droit
-
 Loges et cordons de première galerie Fr. 2.20
 2me galerie Fr. 0.60 |
-
 Le Cadre rappelle que toute personné
-
 Le prix de la carte est de Fr. 5— par année. C#
 organisés par le Corps. On peut s'inscrire en tou
 de la Plaine, 4, au sous-sol ainsi qu'auprès de toÿ
 -@-
-
 K. WICKY, 45 rue «
-
- 
-
 J
 ë
-
-    
- 
-
 ï
-
-Atelier de réparaiion 
+Atelier de réparaiion
 Ë
 L
-
 ]
-
- 
-
- 
-
- 
-
 LE PERROQUET | Banque P
-
- 
-
 BAR de DÉGUSTATION 1 |uai tes Bereue
-
- 
-
 Agences: 2, Route de$Ib
-
 PLACE LONGEMALLE tique, 28 - @
-
- 
-
- 
-
- 
-
 Porto d’origine ‘“ Dow's”” - American Drinks Whisky,
-
 Apéritifs - Cocktails. Ouvert jusqu'à 1 heure du matin
-
 G-FN } V E . Capital social et
-
 Traite toutes opérations de
-Admission de nouvegs]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002650_003.tif"/>
-<page><![CDATA[v> ;
+Admission de nouvegs
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002650_003.tif'/>
+        <page>
+          <![CDATA[v> ;
 RES DE L’AV
-
- 
-
 ENIFR
-
- 
-
-  
-
-   
- 
-
 BALE
-
-  
-
- 
-
- 
-
 7€ensezÿrzemenîs pour Gestion de forfune.v
-
 Banque Commerciale
 de Bâle
-
 Fondée en 1863
-
 GENÈVE
 9-11, Place de la Fusterie
-
 ZURICH
-
- 
-
 DEUXIÈME PARTIE
-
 » L’arlésienne (1re suite d'orches.) G. Bizet
 a. Prélude, b. Minuetto
-
 ô f‘C. Adagietto, d. Carillon
-
 "La) Invifatfion au Voyage ... Duparc
-
 Êb) 2 Chansons popul. espagnoles M. de Falla
 Mlle M. BORNAND
-
 Occident et Orient .......…. Saint Saëns
-
 grande marche pour Harmonie Militaire
-
 t des pauvres compris).
 ( faire partie du Corps en qualité d'Ami Visitant
-
- 
-
 araîchers, rue Ecole-de-Médecine, 8,
-
 PLAINPALAIS
-
 Union Mutvelle Musicale
-
 18, Corraterie G BN
-
 Musique - Instruments
-
 Gramophones
 VENTE et LOCATION
-
 Bureau de Concerts
 Conférences
 Tournées Artistiques
 Studio et Piano
-
- 
-
- 
-
- 
-
 cJalon de Coïffure
-
 /)(JZII‘
-
 Dames et Messieurs
-
 IM. & NCE Habïs
 Rue du Port, %
-
 Coupe mode = Installation
 moderne = Shampooing et
 ondulation fr. 3.—
-
 Ondulation fr. 1.50
 Service soigné
-
 Membre de la Landwehr
 Téléphone Stand 12.27
-
- 
-
 Maire Suisse
 .l!êve - Place St-Gervais
-
 Sage-femme diplômée
-
 | Mme  Zeender-Hochstrasser
-
 {äcias - Boulevard Helvé-
 ide Rive, 18.
-
 ves: Fr. 119.000.000
-
 l& aux meilleures conditions
-
- 
-  
- 
-
 Pensionnaires
-
 Médecin
-
-  
- 
-
- 
-
 Place des Alpes GENÈVE (Mais. du Bar Maxim)
 Téléphone : Mont-Blanc 66.83
-
 Man spricht deutsch
-; Si parlà italiano]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002650_004.tif"/>
-<page><![CDATA[Grande Brasserie
+; Si parlà italiano
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002650_004.tif'/>
+        <page>
+          <![CDATA[Grande Brasserie
 Café du XX Siècle
-
 Pl. du Cirque, Tél. Stand 30-88
-
 Complètement transformé et agrandi, un des plus beaux établissements
-
 de Genève
-
- 
-
 5 QUALITES DE BIBRE
 Bière PILSEN, URQUELL, MUNICH. Spéciale blonde
 Blonde et brune AVENIR
-
- 
-
 APÉRITIFS DE MARQUE
 Lunch à Fr. 2-
-
 Menus fins s/ commande
 Grande Carte de Spécialités
 Tous les samedis Amourettes
-
 Dégustation des grands vins français
 JOLIES SALLES POUR SOCIÉTÉS
-
- 
-
- 
-
- 
-
 w  SUZE
-
 STIMULE L'APPÉTIT
-
 PI
-FACILITE LA DIGESTION]]></page>       
-        </p>
+FACILITE LA DIGESTION
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

@@ -1,125 +1,104 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par l'Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)<date when="27/02/1921"/></title>
-<series>1920-1921</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par l'Union instrumentale genevoise (Fanfare
+            municipale de la Ville de Genève)
+            <date when='27/02/1921'/>
+          </title>
+          <series>1920-1921</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002363</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Bodet, F. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19210227"/>
-<title>Concert donné par l'Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)</title>
-<placeName key="Victoria Hall"/>
-<name key="1920-1921" type="series"/>
-<name key="Berlioz, Hector" ref="https://muscat.rism.info/admin/people/13803" type="person" role="cmp">Berlioz, Hector</name>
-<name key="Rossini, Gioachino" ref="https://muscat.rism.info/admin/people/63766" type="person" role="cmp">Rossini, Gioachino</name>
-<name key="Delibes, Léo" ref="https://muscat.rism.info/admin/people/30016578" type="person" role="cmp">Delibes, Léo</name>
-<name key="Rameau, Jean-Philippe" ref="https://muscat.rism.info/admin/people/169730" type="person" role="cmp">Rameau, Jean-Philippe</name>
-<name key="Schubert, Franz" ref="https://muscat.rism.info/admin/people/111603" type="person" role="cmp">Schubert, Franz</name>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Liszt, Franz" ref="https://muscat.rism.info/admin/people/107196" type="person" role="cmp">Liszt, Franz</name>
-<name key="Offenbach, Jacques" ref="https://muscat.rism.info/admin/people/111831" type="person" role="cmp">Offenbach, Jacques</name>
-<name key="Bodet, Francis (dir.)"  type="person" role="int">Bodet, Francis (dir.)</name>
-<name key="Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)"  type="person" role="int">Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)</name>
-<name key="Aquila, Adeline"  type="person" role="int">Aquila, Adeline</name>
-<name key="Denizot, Charles"  type="person" role="int">Denizot, Charles</name>
-<name key="Lang, Elsy"  type="person" role="int">Lang, Elsy</name>
-<name key="Itrubi"  type="person" role="int">Itrubi</name>
-<name key="Gardon (Mme)"  type="person" role="int">Gardon (Mme)</name>
-<name key="Martinet"  type="person" role="int">Martinet</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002363_001.tif"/>
-<page><![CDATA[E RE3
-
- 
-
- 
-     
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19210227'/>
+        <title>
+          Concert donné par l'Union instrumentale genevoise (Fanfare municipale
+          de la Ville de Genève)
+        </title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1920-1921' type='series'/>
+        <name key='Berlioz, Hector' ref='https://muscat.rism.info/admin/people/13803' type='person' role='cmp'>Berlioz, Hector</name>
+        <name key='Rossini, Gioachino' ref='https://muscat.rism.info/admin/people/63766' type='person' role='cmp'>Rossini, Gioachino</name>
+        <name key='Delibes, Léo' ref='https://muscat.rism.info/admin/people/30016578' type='person' role='cmp'>Delibes, Léo</name>
+        <name key='Rameau, Jean-Philippe' ref='https://muscat.rism.info/admin/people/169730' type='person' role='cmp'>Rameau, Jean-Philippe</name>
+        <name key='Schubert, Franz' ref='https://muscat.rism.info/admin/people/111603' type='person' role='cmp'>Schubert, Franz</name>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Liszt, Franz' ref='https://muscat.rism.info/admin/people/107196' type='person' role='cmp'>Liszt, Franz</name>
+        <name key='Offenbach, Jacques' ref='https://muscat.rism.info/admin/people/111831' type='person' role='cmp'>Offenbach, Jacques</name>
+        <name key='Bodet, Francis' type='person' role='int'>Bodet, Francis</name>
+        <name key='Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)' type='person' role='int'>Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)</name>
+        <name key='Aquila, Adeline' type='person' role='int'>Aquila, Adeline</name>
+        <name key='Denizot, Charles' type='person' role='int'>Denizot, Charles</name>
+        <name key='Lang, Elsy' type='person' role='int'>Lang, Elsy</name>
+        <name key='Gardon (Mme)' type='person' role='int'>Gardon (Mme)</name>
+        <name key='Martinet, H.' type='person' role='int'>Martinet, H.</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002363_001.tif'/>
+        <page>
+          <![CDATA[E RE3
 ffffff -O
-
 VICTORIA-HALL |
-
- 
-
 é
-
 PORTES CONCERT
 'à 2 heures DIMANCHE 27 FÉVR[ER 1921 à 2 h. ‘/; précises
-
 v —-—> v
-
 5
 L'UNION INSTRUMENTALE CENEVOISE
-
 (FANFARE MUNICIPALE DE LA VILLE DE GENEVE)
-
 SOUS LA DIRECTION DE
-
 M. Francis BODET, Directeur
-
 1er Prix du Conservatoire national de Musique de Paris
-
- 
-
- 
-
- 
-
-   
-
 Avec le bienveillant concours de
-
 Mademoiselle Adeline AQUILA Monsieur Charles DENIZOT
-
 du”Grard-théâtre decBudapest. de l’Opéra de Nice.
-
 et de Mademoiselle Elsy LANG, pianiste
-
 élève de M. ITUREBII, Professeur au Conservatoire.
-
 - OE O
 D @FROGRAI”\/”\E 0
-
 PREMIÈRE PARTIE
-
- 
-
- 
-
 1. Marche troyenne . Berlioz.
 2. Cavatine du Barbier de Séville ; Rossini. //
 Chantée par M. DENIZOT. (Ô
@@ -136,82 +115,41 @@ Ml Elsy LANG.
 1. Duo du 3" acte des Contes d’Hoffmann Offenbach.
 Chanté par M'le AQUILA et M. DENIZOT.
 8. Sylvia (Sélection) Delibes.
-
 — —pac)e——
-
 Au piano : Madame (‘ARDON professeur de piano.
-
 MM. les Membres Honoraires et Passifs ont droit à deux places, sur présenfation de leur carte de 1921.
 lls peuvent se placer à n'importe quelles places, sauf aux Loges et Caﬂdon de Première Galerie,
-
 PRIX DES PLACES ; Cordon de Première, Galerie (places numérotées) Fr, 2.10 ; Rez-de-
 Chaussée et Première Galerie Fr. 1.10 ; Deuxième Galerie Fr, 0.60.
 Ç (Droit des pauvre compris)
 CARTES A L'AVANCE CHEZ LE CONCIERGE DU VICTORIA-HALL.
-
- 
-
- 
-
- 
-
 Les membres exécutants de l’Harmonie nautique, de la Musique de Landwehr et de la Musique d'Elite
 ont droit d’entrée sur présentation de leur carte de 1921.
-
- 
-
- 
-
- 
-
 )
-
 -
-
 °
-
 e
-
- 
-
- 
-
- 
-
 (MPRIMERIE J, STUDER, GENÈVE
-
 t e E
 0 (D 0 O ( oo 0 ( oo@o
-
-z]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002363_002.tif"/>
-<page><![CDATA[f
-
- 
-
- 
-
+z
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002363_002.tif'/>
+        <page>
+          <![CDATA[f
 —F
-
 UNION INSTRUMENTALE GENÉVOISE
-
 FANFARE MUNICIPALE DE LA VILLE DÉ-GENÈVE
 SOUS LA DIRECTION ARTISTIQUE DE _ M. CONSTANTIN BRUNI
-
 COURS D’ÉLÈVES —
 —— e COURS SUPÉRIEURS
-
 pour le Solfège et tous /es Jnstruments de cuivre, donnés
 par Monsieur Francis BODET, d'irecteur, premier prix
 de Cornet au Conservatoire de Paris, et par d’excellents
 professeurs, Pour renseignements et inscriptions, s'adresser
 au local des répétitions, Ecole primaire de Malagnou, le
 Lundi, entre & ‘/. et 9 heures ou soir.
-
- 
-
- 
-
 Les Membres Passifs on/ droit d'entrée pour deux
 personnes à tous les Concerts donnés par l’Union Instru-
 mentale Genevoise (Fanfare Municipale de la.Ville de
@@ -220,13 +158,10 @@ très avantageuses d fous les voyages organisés par la
 Société. Pour devenirMembre Passif, // suffit d’adres-
 ser sa demande par écrit au Crésorier, M. Albert LAMY.
 Bourg-de-Four, 11.  La cotisation annuelle est de 5 Fr.
-
- 
-
- 
-
-À]]></page>       
-        </p>
+À
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

@@ -1,85 +1,93 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Grand concert donné par l'Harmonie nautique : Au bénéfice des victimes de l'incendie des Grottes<date when="12/09/1888"/></title>
-<series>1887-1888</series>
-<placeName>Salle de la Réformation</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Grand concert donné par l'Harmonie nautique : Au bénéfice des
+            victimes de l'incendie des Grottes
+            <date when='12/09/1888'/>
+          </title>
+          <series>1887-1888</series>
+          <placeName>Genève, Salle de la Réformation</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU DG3-1 F001607</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Bonade, L. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18880912"/>
-<title>Grand concert donné par l'Harmonie nautique : Au bénéfice des victimes de l'incendie des Grottes</title>
-<placeName key="Salle de la Réformation"/>
-<name key="1887-1888" type="series"/>
-<name key="Weber, Carl Maria von" ref="https://muscat.rism.info/admin/people/117485" type="person" role="cmp">Weber, Carl Maria von</name>
-<name key="Massé, Victor" ref="https://muscat.rism.info/admin/people/84236" type="person" role="cmp">Massé, Victor</name>
-<name key="Joncières, V."  type="person" role="cmp">Joncières, V.</name>
-<name key="Gluck, Christoph Willibald" ref="https://muscat.rism.info/admin/people/67338" type="person" role="cmp">Gluck, Christoph Willibald</name>
-<name key="Willmers-Sellenick"  type="person" role="cmp">Willmers-Sellenick</name>
-<name key="Czibulka"  type="person" role="cmp">Czibulka</name>
-<name key="Duprato, Jules Laurent Anacharsis" ref="https://muscat.rism.info/admin/people/40219219" type="person" role="cmp">Duprato, Jules Laurent Anacharsis</name>
-<name key="Gounod, Charles-François" ref="https://muscat.rism.info/admin/people/80479" type="person" role="cmp">Gounod, Charles-François</name>
-<name key="Meyerbeer, Giacomo" ref="https://muscat.rism.info/admin/people/725" type="person" role="cmp">Meyerbeer, Giacomo</name>
-<name key="Bonade, Louis (dir.)"  type="person" role="int">Bonade, Louis (dir.)</name>
-<name key="Harmonie nautique de Genève"  type="person" role="int">Harmonie nautique de Genève</name>
-<name key="Bonade (Mme)"  type="person" role="int">Bonade (Mme)</name>
-<name key="Plomb, J. (Mlle)"  type="person" role="int">Plomb, J. (Mlle)</name>
-<name key="Bovet, H."  type="person" role="int">Bovet, H.</name>
-<name key="Carral"  type="person" role="int">Carral</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg3_1_f001607_001.tif"/>
-<page><![CDATA[SALLE DE LA RÉFORMATION
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18880912'/>
+        <title>
+          Grand concert donné par l'Harmonie nautique : Au bénéfice des victimes
+          de l'incendie des Grottes
+        </title>
+        <placeName key='Genève, Salle de la Réformation'/>
+        <name key='1887-1888' type='series'/>
+        <name key='Weber, Carl Maria von' ref='https://muscat.rism.info/admin/people/117485' type='person' role='cmp'>Weber, Carl Maria von</name>
+        <name key='Massé, Victor' ref='https://muscat.rism.info/admin/people/84236' type='person' role='cmp'>Massé, Victor</name>
+        <name key='Joncières, V.' type='person' role='cmp'>Joncières, V.</name>
+        <name key='Gluck, Christoph Willibald' ref='https://muscat.rism.info/admin/people/67338' type='person' role='cmp'>Gluck, Christoph Willibald</name>
+        <name key='Willmers-Sellenick' type='person' role='cmp'>Willmers-Sellenick</name>
+        <name key='Czibulka' type='person' role='cmp'>Czibulka</name>
+        <name key='Duprato, Jules Laurent Anacharsis' ref='https://muscat.rism.info/admin/people/40219219' type='person' role='cmp'>Duprato, Jules Laurent Anacharsis</name>
+        <name key='Gounod, Charles-François' ref='https://muscat.rism.info/admin/people/80479' type='person' role='cmp'>Gounod, Charles-François</name>
+        <name key='Meyerbeer, Giacomo' ref='https://muscat.rism.info/admin/people/725' type='person' role='cmp'>Meyerbeer, Giacomo</name>
+        <name key='Bonade, Louis' type='person' role='int'>Bonade, Louis</name>
+        <name key='Harmonie nautique de Genève' type='person' role='int'>Harmonie nautique de Genève</name>
+        <name key='Bonade (Mme)' type='person' role='int'>Bonade (Mme)</name>
+        <name key='Plomb, J. (Mlle)' type='person' role='int'>Plomb, J. (Mlle)</name>
+        <name key='Bovet, H.' type='person' role='int'>Bovet, H.</name>
+        <name key='Carral' type='person' role='int'>Carral</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg3_1_f001607_001.tif'/>
+        <page>
+          <![CDATA[SALLE DE LA RÉFORMATION
 Mercredi 12 Septembre 1888, à 8 heures et quart
-
 GRANI) CONCERT
-
 DONNÉE PAR
-
 L'ÉLVANIONTE ILADUTIDUE DE El
 sous la direction de M. Louis Bonade
-
 AU BÉNÉFICE DES VICTIMES DE L’INCENDIE DES GROTTES
-
 AVRC LE GRACIEUX CONCOURS DE
-
 MM L. BONADE - MHE J. PLOMB - M. H. BOVET
-
 RRSSRINNE =
-
 PREMIÈRE PARTIE
 Jubel-Ouverture, — Harmonix NaumiquEe, . C.-M. de Weber
 Romance, chantée par M“ J. Proms, . . . V. Massé
@@ -95,14 +103,10 @@ Duo de ,Philémon et Baucis,“ chanté par
 M“ J. Promr et M. H. Bover, . . . . Gounod
 Marche aux Flambeaux N° 3, — HARMONIE ,
 Nonmeur 1E JI(‘yM'/}P/‘1'K ,
-
 E e /\
-
 Le piano, offert gracieusement par la Maison Bron et Berguer, scra tenu par M-CARRAL.
-
 EIDII0E E— ——
 ps opuns paoncecas
-
 Réservées, 3 fr. - 1'° Galerie, 2 fr. - Parterre, 1 fr. - 2" Galerie, 50 cent.
 P e
 On peut se precurer des billels à l’avance chez M Frey & C*, magasin de musique, Corraterie;
@@ -110,22 +114,17 @@ M. VUaTaz, droguiste, à Coutance, et M SrALEr, papeterie, route de Carouge.
 Pour les places réservées, sidresser chez le Concierge de la salle de Ja Réformation.
 MM. les membres non exécutants sont priés de se munir de leur carte de sociétaire, qui
 leur donnera droit a l'entrée au Parterre.
-
 |
 /N S, X)
 GENÈVE. — IMPRIMERIE L-F JARRYS, RUE DE LA TREILLE. 4. r/f}‘,f}/J
 — J) %,
-
 N f
 rl
-
- 
-
- 
-
 m4 ON
-UI]]></page>       
-        </p>
+UI
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

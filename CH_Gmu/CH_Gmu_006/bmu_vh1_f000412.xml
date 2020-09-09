@@ -1,160 +1,127 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Grand concert donné par la fanfare genevoise (Musique d'Elite)<date when="20/02/1898"/></title>
-<series>1897-1898</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Grand concert donné par la fanfare genevoise (Musique d'Elite)
+            <date when='20/02/1898'/>
+          </title>
+          <series>1897-1898</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F000412</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Bergalonne, F. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18980220"/>
-<title>Grand concert donné par la fanfare genevoise (Musique d'Elite)</title>
-<placeName key="Victoria Hall"/>
-<name key="1897-1898" type="series"/>
-<name key="Wettge, Gustave" ref="https://muscat.rism.info/admin/people/30081063" type="person" role="cmp">Wettge, Gustave</name>
-<name key="Turine, Pierre-Joseph" ref="https://muscat.rism.info/admin/people/30072374" type="person" role="cmp">Turine, Pierre-Joseph</name>
-<name key="Delibes, Léo" ref="https://muscat.rism.info/admin/people/30016578" type="person" role="cmp">Delibes, Léo</name>
-<name key="Hérold, Ferdinand" ref="https://muscat.rism.info/admin/people/75095" type="person" role="cmp">Hérold, Ferdinand</name>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Weber, Carl Maria von" ref="https://muscat.rism.info/admin/people/117485" type="person" role="cmp">Weber, Carl Maria von</name>
-<name key="Sacchini, Antonio" ref="https://muscat.rism.info/admin/people/30002777" type="person" role="cmp">Sacchini, Antonio</name>
-<name key="Rubinštejn, Anton Grigor'evič" ref="https://muscat.rism.info/admin/people/30008504" type="person" role="cmp">Rubinštejn, Anton Grigor'evič</name>
-<name key="Baudonck, Louis-Joseph" ref="https://muscat.rism.info/admin/people/30073173" type="person" role="cmp">Baudonck, Louis-Joseph</name>
-<name key="Bergalonne, F. (dir.)"  type="person" role="int">Bergalonne, F. (dir.)</name>
-<name key="Corps de musique d'Elite (Fanfare genevoise)"  type="person" role="int">Corps de musique d'Elite (Fanfare genevoise)</name>
-<name key="Pernelle-Lossier (Mme)"  type="person" role="int">Pernelle-Lossier (Mme)</name>
-<name key="Besançon, J. (Mlle)"  type="person" role="int">Besançon, J. (Mlle)</name>
-<name key="Saxod, J."  type="person" role="int">Saxod, J.</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000412_001.tif"/>
-<page><![CDATA[VICTORIA A L \ çÎz d L
-
- 
-
- 
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18980220'/>
+        <title>Grand concert donné par la fanfare genevoise (Musique d'Elite)</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1897-1898' type='series'/>
+        <name key='Wettge, Gustave' ref='https://muscat.rism.info/admin/people/30081063' type='person' role='cmp'>Wettge, Gustave</name>
+        <name key='Turine, Pierre-Joseph' ref='https://muscat.rism.info/admin/people/30072374' type='person' role='cmp'>Turine, Pierre-Joseph</name>
+        <name key='Delibes, Léo' ref='https://muscat.rism.info/admin/people/30016578' type='person' role='cmp'>Delibes, Léo</name>
+        <name key='Hérold, Ferdinand' ref='https://muscat.rism.info/admin/people/75095' type='person' role='cmp'>Hérold, Ferdinand</name>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Weber, Carl Maria von' ref='https://muscat.rism.info/admin/people/117485' type='person' role='cmp'>Weber, Carl Maria von</name>
+        <name key='Sacchini, Antonio' ref='https://muscat.rism.info/admin/people/30002777' type='person' role='cmp'>Sacchini, Antonio</name>
+        <name key='Rubinštejn, Anton Grigor&apos;evič' ref='https://muscat.rism.info/admin/people/30008504' type='person' role='cmp'>Rubinštejn, Anton Grigor'evič</name>
+        <name key='Baudonck, Louis-Joseph' ref='https://muscat.rism.info/admin/people/30073173' type='person' role='cmp'>Baudonck, Louis-Joseph</name>
+        <name key='Bergalonne, F.' type='person' role='int'>Bergalonne, F.</name>
+        <name key='Corps de musique d&apos;Elite (Fanfare genevoise)' type='person' role='int'>Corps de musique d'Elite (Fanfare genevoise)</name>
+        <name key='Pernelle-Lossier (Mme)' type='person' role='int'>Pernelle-Lossier (Mme)</name>
+        <name key='Besançon, J. (Mlle)' type='person' role='int'>Besançon, J. (Mlle)</name>
+        <name key='Saxod, J.' type='person' role='int'>Saxod, J.</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000412_001.tif'/>
+        <page>
+          <![CDATA[VICTORIA A L \ çÎz d L
 ÜDunanclœ 20 J'u?‘uct 1898
-
 \!/
-
 Ouverture des portes d O C€ t On commencera
 m Grand G ncert ".
-
 S ù
-
- 
-
 DONNE PAR LA
-
 * FANFARE GENEVOISE *
-
 M >IOUE DELITE)
-
 SOUS LA DIRECTION DE M. F. BERGALONNE
-
 AVEC LE GRACIEUX CONCOURS DE
-
 M"° Pernelle Lossier * M'° J. Besançon |  M. J. Saxod
-
 Professeur de piano
-
- 
-
 Professeur de chant } Basse
 — > es __
-
 — PROGRAMME -
 I* PARTIE
 e peican Malleenon s1 T R - E NETTGE
-
 ME ranieonenures 11 1 E TUANE
-
 orandéaigdes Glochettes:de cLakrme» :.. … . : .. .… - Léo Deumes
 Mlle J. BESANÇON
-
 Duo du «Pré aux Clercsy . . 1E T e HERQOUU
 Mlle J. BESANÇON et M. J, SAXOD
 II* PARTIE
 . Ouverture d’«Oberony . . 1 reen
 . Grande Fantaisie sur l'Opéra « manoraese | 1 e
 . Air d’Oedipe à Colone » (1785) T 0 0N CHINI
-
 M. J. SAXOD
-
 MofovetduPrisonnier, romance . ... ... 1 2 21 .-> RUBINSTEIN
 Mlle J. BESANÇON
-
 Morehetdessineau ns | T— 1 e BAUDONCE
-
- 
-
 PIANO DE LA MAISON G. DUBACH & Cie.
 — = \ ——
-
 Prix des places: Loges, fauteuils de face et premier rang de la l'e galerie (numérotées) 2 fr.: Rez-de-chaussée et autres
 places de la ['e galerie 1 fr.; 2me galerie 50 cent.
-
 Cartes à l’avance aux adresses suivantes : Victoria-Hall ; Case de l'Oncle Tom, rue des Alpes, 7 ;
 M. Dussaix, rue du Marché, 17; MM. J. Béranger & Cie, rue du Rhône, 92.
-
- 
-
 MM. les membres HONORAIRES et PASSIFS de la Fanfare Genevoise ont droit à deux entrées à ce concert, sur présentation de leur carte, aux places du
 REZ-DE-CHAUSSÉE et moyennant un supplément de | fr. par place à celles de Ire GALERIE NUMÉROTÉES.
-
 BUFFET AU REZ-DE-CHAUSSÉE
-
- 
-
- 
-
 ,/;._ —— Prière de ne pas entrer pendant l’exécution des morceaux.
 E
-
 PS ÿ. e …
-
- 
-
 RERRNN NN NNN NNN RR E SON REN RESREN ER N REN HRS ORERRENRHHHEUEE
 MUN NNNRRNANUENN EU RE REN RENANNU NNN RRN RNNENANNENRENRENANARN UR NNN NNN NRANNN NNN NNN REN NNN NNN ETE OEN NNN GRN REN N SANN NNN REN URN REN N EUN EUN RR REN N REN UR ORN SNUKN N RUU NNUNENNE SEN N UE REN REN SREE NNNANANEN NNN N NENNNENNNRENENENURNRRNNNNNENENNENNNNNNANNSOHH HHN NANERNNNENNNHHNHHEE
-
- 
-
-l —/+\—" IMPRIMERIE DE LA C TRIBUNE DE GENEVE »]]></page>       
-        </p>
+l —/+\—" IMPRIMERIE DE LA C TRIBUNE DE GENEVE »
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

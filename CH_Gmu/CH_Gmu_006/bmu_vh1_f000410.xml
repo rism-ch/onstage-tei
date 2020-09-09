@@ -1,108 +1,101 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Grand concert organisé par la société chorale "La Muse"<date when="06/02/1898"/></title>
-<series>1897-1898</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Grand concert organisé par la société chorale "La Muse"
+            <date when='06/02/1898'/>
+          </title>
+          <series>1897-1898</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F000410</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Ketten, L.</note>
+        <note>Delaye, G. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18980206"/>
-<title>Grand concert organisé par la société chorale "La Muse"</title>
-<placeName key="Victoria Hall"/>
-<name key="1897-1898" type="series"/>
-<name key="Flotow, Friedrich von" ref="https://muscat.rism.info/admin/people/63626" type="person" role="cmp">Flotow, Friedrich von</name>
-<name key="Gounod, Charles-François" ref="https://muscat.rism.info/admin/people/80479" type="person" role="cmp">Gounod, Charles-François</name>
-<name key="Rillé, François-Anatole-Laurent de" ref="https://muscat.rism.info/admin/people/30017443" type="person" role="cmp">Rillé, François-Anatole-Laurent de</name>
-<name key="Massenet, Jules" ref="https://muscat.rism.info/admin/people/84264" type="person" role="cmp">Massenet, Jules</name>
-<name key="Luigini, Alexandre" ref="https://muscat.rism.info/admin/people/30071428" type="person" role="cmp">Luigini, Alexandre</name>
-<name key="Meyerbeer, Giacomo" ref="https://muscat.rism.info/admin/people/725" type="person" role="cmp">Meyerbeer, Giacomo</name>
-<name key="Diaz"  type="person" role="cmp">Diaz</name>
-<name key="Bizet, Georges" ref="https://muscat.rism.info/admin/people/20057" type="person" role="cmp">Bizet, Georges</name>
-<name key="Saint-Saëns, Camille" ref="https://muscat.rism.info/admin/people/76734" type="person" role="cmp">Saint-Saëns, Camille</name>
-<name key="Ketten, Léopold (dir.)"  type="person" role="int">Ketten, Léopold (dir.)</name>
-<name key="Delaye, Georges (dir.)"  type="person" role="int">Delaye, Georges (dir.)</name>
-<name key="La Muse"  type="person" role="int">La Muse</name>
-<name key="Corps de musique de Landwehr"  type="person" role="int">Corps de musique de Landwehr</name>
-<name key="Gavarry"  type="person" role="int">Gavarry</name>
-<name key="Vigouroux"  type="person" role="int">Vigouroux</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000410_001.tif"/>
-<page><![CDATA[es @ÎvJ $'îÏ%ËJŸ$ËÎ_ D5 0 e S mî{3
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18980206'/>
+        <title>Grand concert organisé par la société chorale "La Muse"</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1897-1898' type='series'/>
+        <name key='Flotow, Friedrich von' ref='https://muscat.rism.info/admin/people/63626' type='person' role='cmp'>Flotow, Friedrich von</name>
+        <name key='Gounod, Charles-François' ref='https://muscat.rism.info/admin/people/80479' type='person' role='cmp'>Gounod, Charles-François</name>
+        <name key='Rillé, François-Anatole-Laurent de' ref='https://muscat.rism.info/admin/people/30017443' type='person' role='cmp'>Rillé, François-Anatole-Laurent de</name>
+        <name key='Massenet, Jules' ref='https://muscat.rism.info/admin/people/84264' type='person' role='cmp'>Massenet, Jules</name>
+        <name key='Luigini, Alexandre' ref='https://muscat.rism.info/admin/people/30071428' type='person' role='cmp'>Luigini, Alexandre</name>
+        <name key='Meyerbeer, Giacomo' ref='https://muscat.rism.info/admin/people/725' type='person' role='cmp'>Meyerbeer, Giacomo</name>
+        <name key='Diaz' type='person' role='cmp'>Diaz</name>
+        <name key='Bizet, Georges' ref='https://muscat.rism.info/admin/people/20057' type='person' role='cmp'>Bizet, Georges</name>
+        <name key='Saint-Saëns, Camille' ref='https://muscat.rism.info/admin/people/76734' type='person' role='cmp'>Saint-Saëns, Camille</name>
+        <name key='Ketten, Léopold' type='person' role='int'>Ketten, Léopold</name>
+        <name key='Delaye, Georges' type='person' role='int'>Delaye, Georges</name>
+        <name key='La Muse' type='person' role='int'>La Muse</name>
+        <name key='Corps de musique de Landwehr' type='person' role='int'>Corps de musique de Landwehr</name>
+        <name key='Gavarry' type='person' role='int'>Gavarry</name>
+        <name key='Vigouroux' type='person' role='int'>Vigouroux</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000410_001.tif'/>
+        <page>
+          <![CDATA[es @ÎvJ $'îÏ%ËJŸ$ËÎ_ D5 0 e S mî{3
 UF CFUF T@FTE aü / %
-
 VICTORIA HALL f,
-
 Eren aprgs‘_“n;ﬁî DIMANCHE 6 FÉVRIER 1898 î…{üèë_û…Î
-
 ORGANISÉ PAR LA SOCIÉTÉ CHORALE
-
 , MUS.
-
 avec l'obligeant concours de M. LÉOPOLD KETTEN, qui a bien voulu se charger de la direction de cè concert.
 pDE
-
 M. GAVARRY, ténor, _ M. VIGOURO!X, baryton,
-
 des concerts Lamoureux et Colonne, | des concerts classiques de Marseille
 Elève de M. Candubert, de l’Opéra de Paris. ï Eléve de M. Boudouresque, de l’Opéra de Paris.
-
- 
-
- 
-
 ET
-
 CORPS DE MUSIQUE DE LANDWEHR
-
 Sous la direction de M. Georges Delaye.
-
 PROG&AMME
-
 Ouverture de Martha, Musique de Landwehy , FLOTOW.
-
 Invocation de Faust, M. Vijouroux ; . Gounop.
-
 Le Matin, chœur, La Muse . ; , ; . ; . LAURENT DE RILLÉ.
 Noël païen, M. Gavarry . sE E _ MASSENET .
-
 Nuit d’Orient, chœur, La Muse . ; HEs : - Énron.
-
 DEUXIÈME PARTIF
-
 Grand air de l’Africaine, M. Gavarry . . GCs . . Meyenpeen.
 Hymne à la nuit, double quatuor, La Muse E . …  LAURENT DE RILLÉ.
 Air de la Coupe du Roi de Thulé, M. Vigouroux . II
@@ -111,27 +104,23 @@ Fantaisie sur Sapho, Musique de Landwehr. . . . 0 ° mn
 . Les Titans, chœur, La Muse . . . se E . » … SAINT-SAËNS.
 Prix des places : Loges et premières numérotées : 2 fr.; autres places : 1 fr.
 Rez-de-chaussée 1 fr.; 2"°S galeries: 50 cent.
-
 On peut se procurer des cartes à l’avance auprès du concierge du Victoria-Hall, d> 9 heures du malin à 6 heures du soir
 jusqu’au Samedi 5 Février, ainsi qn’au local de la Société, brasserie Bonfantini, avenue du Mail. Pour les loges el premières
 galeries numérotées, s’adresser exclusivement au Vicloria-Hall.
-
 P E
-
 MM. les Membres passifs des deux Sociétés ont droit d’entrée au rez-de-chaussée sur présentalion de leur carte de 1898,
-
 et aux cordons de 1" galerie en payant un supplément de 1 fr.
 QX f\z
 x —0)éo—
 Choe tG
-
 Euffot au rezecdochausgsée.
 ) >
 Aox VQ ec PLO v(/ NPE ON
 —Hs J;‘gg {() Pq )ŒJ_‘ —03 7)_*Ï.}L‘- SEs r_z{( )F) —‘ 6\@ O, Q/‘ -Le-sne
-
-BEWÈVE < IMP. J. STUDER » D, AOMD-POINT DE PLAINPALAIS,]]></page>       
-        </p>
+BEWÈVE < IMP. J. STUDER » D, AOMD-POINT DE PLAINPALAIS,
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

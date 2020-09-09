@@ -1,161 +1,146 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par l'Harmonie nautique<date when="27/06/1907"/></title>
-<series>1906-1907</series>
-<placeName>Promenade du Lac (Jardin anglais)</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par l'Harmonie nautique
+            <date when='27/06/1907'/>
+          </title>
+          <series>1906-1907</series>
+          <placeName>Genève, Promenade du Lac (Jardin anglais)</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F001040</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Bonade, L. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19070627"/>
-<title>Concert donné par l'Harmonie nautique</title>
-<placeName key="Promenade du Lac (Jardin anglais)"/>
-<name key="1906-1907" type="series"/>
-<name key="Parès, Gabriël" ref="https://muscat.rism.info/admin/people/30024480" type="person" role="cmp">Parès, Gabriël</name>
-<name key="Dessane, L.-A."  type="person" role="cmp">Dessane, L.-A.</name>
-<name key="Arban, Jean-Baptiste" ref="https://muscat.rism.info/admin/people/31980" type="person" role="cmp">Arban, Jean-Baptiste</name>
-<name key="Franck, César" ref="https://muscat.rism.info/admin/people/70009" type="person" role="cmp">Franck, César</name>
-<name key="Gounod, Charles-François" ref="https://muscat.rism.info/admin/people/80479" type="person" role="cmp">Gounod, Charles-François</name>
-<name key="Logeart, G."  type="person" role="cmp">Logeart, G.</name>
-<name key="Demersmann"  type="person" role="cmp">Demersmann</name>
-<name key="Bonade, Louis (dir.)"  type="person" role="int">Bonade, Louis (dir.)</name>
-<name key="Harmonie Nautique"  type="person" role="int">Harmonie Nautique</name>
-<name key="Kaeser"  type="person" role="int">Kaeser</name>
-<name key="Rouge"  type="person" role="int">Rouge</name>
-<name key="Bertrand"  type="person" role="int">Bertrand</name>
-<name key="Fourmen"  type="person" role="int">Fourmen</name>
-<name key="Lickert"  type="person" role="int">Lickert</name>
-<name key="Cailler"  type="person" role="int">Cailler</name>
-<name key="Reutner"  type="person" role="int">Reutner</name>
-<name key="Mattei"  type="person" role="int">Mattei</name>
-<name key="Bauquis"  type="person" role="int">Bauquis</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001040_001.tif"/>
-<page><![CDATA[Jeudi 27 Juin 1907, à 8 heures et demie.
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19070627'/>
+        <title>Concert donné par l'Harmonie nautique</title>
+        <placeName key='Genève, Promenade du Lac (Jardin anglais)'/>
+        <name key='1906-1907' type='series'/>
+        <name key='Parès, Gabriël' ref='https://muscat.rism.info/admin/people/30024480' type='person' role='cmp'>Parès, Gabriël</name>
+        <name key='Dessane, L.-A.' type='person' role='cmp'>Dessane, L.-A.</name>
+        <name key='Arban, Jean-Baptiste' ref='https://muscat.rism.info/admin/people/31980' type='person' role='cmp'>Arban, Jean-Baptiste</name>
+        <name key='Franck, César' ref='https://muscat.rism.info/admin/people/70009' type='person' role='cmp'>Franck, César</name>
+        <name key='Gounod, Charles-François' ref='https://muscat.rism.info/admin/people/80479' type='person' role='cmp'>Gounod, Charles-François</name>
+        <name key='Logeart, G.' type='person' role='cmp'>Logeart, G.</name>
+        <name key='Demersmann' type='person' role='cmp'>Demersmann</name>
+        <name key='Bonade, Louis' type='person' role='int'>Bonade, Louis</name>
+        <name key='Harmonie Nautique' type='person' role='int'>Harmonie Nautique</name>
+        <name key='Kaeser' type='person' role='int'>Kaeser</name>
+        <name key='Rouge' type='person' role='int'>Rouge</name>
+        <name key='Bertrand' type='person' role='int'>Bertrand</name>
+        <name key='Fourmen' type='person' role='int'>Fourmen</name>
+        <name key='Lickert' type='person' role='int'>Lickert</name>
+        <name key='Cailler' type='person' role='int'>Cailler</name>
+        <name key='Reutner' type='person' role='int'>Reutner</name>
+        <name key='Mattei' type='person' role='int'>Mattei</name>
+        <name key='Bauquis' type='person' role='int'>Bauquis</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001040_001.tif'/>
+        <page>
+          <![CDATA[Jeudi 27 Juin 1907, à 8 heures et demie.
 e ce a—
-
 CONCERT &
-
 donné par
-
 LHAHMÛNIE NAUTIQUE DE GENÈVE
-
 sous la direction de
-
 M. LOUIS BONADHEH
-
 ——e—es —
-
 SSHAMAME
-
 w u
-
 R
-
 “
 PREMIÈRE PARTIE
-
 . Le Fringant, pas redoublé G. Parés.
-
 . Mercédès, ouverture _.-ÀA. Dessane.
-
 . Fantaisie pour piston Arban.
 . Le Chasseur maudit, poème symphonique C. Franck.
 SECONDE PARTIE
-
 . Petite symphonie pour flûte, hautbois,
 clarinette, cor et basson Ch. Gounod.
 1. Adagio et Allegretto. 3. Scherzo.
 2. Andante cantabile 4. Finale.
-
 MM. KÆSER, ROUGE, BERTRAND, FOURMEN, LICKERT,
 CAILLER, REUTNER, MATTEI, BAUQUIS.
-
 . Idylle champêtre pour hautbois G. Logeart.
 . Une Fête à Aranjuez, fantaisie espagnole. Demersmann.
-
 ——"w"ww—
-
 fRIX D'ENTRÉE ! 50 CENTIMES
-
 ——>
-
 MM. les membres non-exécutants ont droit d’entrée à ce concert
 sur présentation du coupon no 5,
-
 En cas de mauvais temps, le concert sera renvoyé au Vendredi 28 Juin,
-
 GENÈVE.-— IMP. JARRYS.
-
 AN
-
-k]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001040_002.tif"/>
-<page><![CDATA[LE CHASSEUR MAUDIT
-
+k
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001040_002.tif'/>
+        <page>
+          <![CDATA[LE CHASSEUR MAUDIT
 (Poème symphonique de César Franck.)
-
 C’était dimanche au matin; au loin retentissaient le son joyeux des
 cloches et les chants religieux de la foule… Sacrilège ! Le farouche comte
 du Rhin a sonné dans son cor. Hallo! Hallo! La chasse s’élance par les blés,
-
 les landes, les prairies. — Arrête, comte, je t'en prie, écoute les chants
 pieux. — Non… Hallo ! Hallo ! — Arrête, comte, je t'en supplie ; prends
 garde.… — Non…, — et la chevauchée se précipite comme un tourbillon.
-
 Soudain le comte est seul, son cheval ne veut plus avancer; il souffle
 dans son cor et le cor ne résonne plus… Une voix lugubre, implacable, le
 maudit : — Sacrilège, dit-elle, sois éternellement couru par l’enfer.
-
 Alors, les flammes jaillissent de toutes parts… Le comte, affolé de terreur,
 s’enfuit, toujours, toujours plus vite, poursuivi par une meute de démons…
 pendant le jour à travers les abîmes, à minuit à travers les airs…
-
 (D’après la ballade de BuUrGER.)
-
 AVIS. — Pour être reçu membre non-exécutant de l’Harmonie
 Nautique on peut s’inscrire tous les jours chez le Concierge
 Victoria-Hall ou par lettre adressée au Comité: le prix de
-
 du
 la carte
 est de 8 fr. par an et donne droit à deux entrées pour chaque
-concert donné par l’Harmonie Nautique.]]></page>       
-        </p>
+concert donné par l’Harmonie Nautique.
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

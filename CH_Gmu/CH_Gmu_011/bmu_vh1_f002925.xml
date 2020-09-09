@@ -1,342 +1,189 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Festival R. Wagner donné par l'Harmonie nautique<date when="03/04/1935"/></title>
-<series>1934-1935</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Festival R. Wagner donné par l'Harmonie nautique
+            <date when='03/04/1935'/>
+          </title>
+          <series>1934-1935</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002925</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Gabelles, G. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19350403"/>
-<title>Festival R. Wagner donné par l'Harmonie nautique</title>
-<placeName key="Victoria Hall"/>
-<name key="1934-1935" type="series"/>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Gabelles, Gustave  (dir.)" ref="https://muscat.rism.info/admin/people/30073762" type="person" role="int">Gabelles, Gustave  (dir.)</name>
-<name key="Harmonie Nautique"  type="person" role="int">Harmonie Nautique</name>
-<name key="Beckmans, Guy"  type="person" role="int">Beckmans, Guy</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002925_001.tif"/>
-<page><![CDATA[PROGRAMME OFFICIEL 1934 - 1935
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19350403'/>
+        <title>Festival R. Wagner donné par l'Harmonie nautique</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1934-1935' type='series'/>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Gabelles, Gustave' ref='https://muscat.rism.info/admin/people/30073762' type='person' role='int'>Gabelles, Gustave</name>
+        <name key='Harmonie Nautique' type='person' role='int'>Harmonie Nautique</name>
+        <name key='Beckmans, Guy' type='person' role='int'>Beckmans, Guy</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002925_001.tif'/>
+        <page>
+          <![CDATA[PROGRAMME OFFICIEL 1934 - 1935
 HELVÉTIA-ASSURANCES
 ACCIDENTS - RESPONSABILITÉ CIVILE
-
 S'adresser à G. MOISY, Inspecteur de la Compagnie
-Téléphone 52.250]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002925_002.tif"/>
-<page><![CDATA[ULU O TO OO OO DIUU UUQU IUUN UU UIU UO OIUU OIO IUU U QUU UU QU UUN U UOU I OO OT TT UU UOU OVO TT UOU U OIO OOIVUUTUOT TO OT UDON U UUN T TU I OOT TIOU OOUUOUUIOUT VUI TOUUVOUTIQUTOUTVOOU I OIUU I01
-
- 
-
+Téléphone 52.250
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002925_002.tif'/>
+        <page>
+          <![CDATA[ULU O TO OO OO DIUU UUQU IUUN UU UIU UO OIUU OIO IUU U QUU UU QU UUN U UOU I OO OT TT UU UOU OVO TT UOU U OIO OOIVUUTUOT TO OT UDON U UUN T TU I OOT TIOU OOUUOUUIOUT VUI TOUUVOUTIQUTOUTVOOU I OIUU I01
 <IUTUIHUNONQUTUOUOOVOUOU UOU UUOOOVUQU OVI QUUUOOIOUUITOOIIOOIIOUUTUUQU TIN N VI EUN S
-
 Toujours les
 dernières créations
 2141.50 19.50 16.50
 Modèles bottier faits à la main
 39.50 35-— 29.50
-
 uI lPâ1“ams âﬂ1âmssmrœ
-
-  
-
- 
-
- 
-
 Z. CON lPFEDERATI OII.7
-
- 
-
- 
-
 theque> postaux 13187
-
 SOONTINITTI TN T ETE TEI TEI
-
- 
-
 uuu TL
-
- 
-
 SOCIÉTÉ DE
-
 BANQUE SUISSE
-
 FONDÉE EN 1872
 Capital-actions et Réserves : Fr. 214 millions
-
 6-10, Corraterie - GENÈVE - Corraterie, 6-10
 CORNAVIN EAUX-VIVES
-
 Place des Eaux-Vives, 3
-
- 
-
 10, Place de Cornavin
-
 PLAINPALAIS CAROUGE
 36, Rue de Carouge Rue du Marché, 11
-
- 
-
 TOUTES OPÉRATIONS DE BANQUE AUX MEILLEURES CONDITIONS
-
- 
-
- 
-
 2LULUL LU U E QU DU UUUI UOU OOOUT UPV UOUN O OUOEQUIOOUUUUUU IUUVU OOI OIU VUOOOUNTITIITIIIO III*
-
 TU LU
-
 kiosque du jardin anglais
-
- 
-
- 
- 
-  
- 
- 
-   
-
 … L ms
-
 ses tHés concerts . amoretmamaeeenendenentanenanaunm,
 ses consommations
 ................................................................................................
-
 | son site incomparable
-
 en fiver salle communale de plainpalaïs
-
- 
-
- 
-
- 
-
 e r r e
-
 e
-
- 
-
 sN A E T,
-
 EU Lc A
-
 ; "
-
 ps ms C
-
 ph m ct
-
-d ct]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002925_003.tif"/>
-<page><![CDATA[Ouverture
+d ct
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002925_003.tif'/>
+        <page>
+          <![CDATA[Ouverture
 des portes à
 20 heures
-
- 
-
- 
-
- 
-
 VICTORIA-HALL
-
 ——
-
 IMNercredi 3 Aoril 1935
-
 On
 commencera à
-
- 
-
 20 h. 30
-
 Festival R. Wagner
-
 donné par
-
 L’HARMONTE NAUTIQUE
-
 HARMONIE MUNICIPALE DE LA VILLE DE GENÈVE
-
 Directeur: M. Gustave GABELLES
-
 avec le concours de
-
 M. Guy BECKMANS
 de l’Opéra
-
 A
 PROGRAMME
-
 1. PARSIFAL
-
 à) Enchantement du Vendredi-Saint
 b) Final du 1°" acte, scène du Saint-Graal
-
 2. La WALKYRIE
-
 Adieux de Wotan et incantation du feu
 M. Guy BECKMANS
-
 3. Le VAISSEAU FANTOME, ouverture
-
 4.  TRISTAN et ISOLDE
-
 Prélude et Mort
-
 G TANNHAUSER, romance de l’étoile
-
 M. Guy BECKMANS
-
 6. LOHENGRIN, marche des fiançailles
-
 /
 'Â%Â
-
 E
-
 PE S OE OEOE A OE AN —A
-
- 
-
 %
 [
 E
-
 LIBRAIRIE MURY
-
- 
-
 s9 Brd Georges-Favon, 12
-
 LIVRES NEUFS,, d’auteurs modernes, en collections bon marché :
-
 de fr. O.55 à 1.90
-
- 
-
 1500 Titres en magasin
-
- 
-
 Catalogues gratuits pour chaque collection
-
 S — —
 CH, PEZZOTTI Imprimeur, Rué du Prince, 10, Genèvé
-
 —0 455
-
-   
-
-==]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002925_004.tif"/>
-<page><![CDATA[MAISON FONDÉE EN 1825
-
+==
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002925_004.tif'/>
+        <page>
+          <![CDATA[MAISON FONDÉE EN 1825
 PIANOS GSEANOS
-
 DROITS-ET À QUEUE TOUTES MARQUES-TOUS PRIX
-
 K MMENSE  DISQUES
 K% SSORTIMENT || HisMasTersVoice
 N EUFS ET | COLUMBIA
 @ CCASIONS | BRUNSWICK
-
 S. AUTIER + JNEGER
-
 FUSTERIE 129 GENEVE
 ECHANGE — VENTE — LOCATION
 GARANTIE —- ESCOMPTE — CREDIT
-
 c- 5>
 e - = » =
-
- 
-
 RICHARD WAGNER
-
 Né à Leipzig le 28 mai 1813, mort à Venise le 13 février 1883
-
- 
-
 PARSIFAL
-
 C’est sur le théâtre de Bayreuth, dans ce cadre si parti-
 culier, si impressionnant, sur cette scène qui recouvre un
 orchestre invisible, devant cette salle plongée dans l'obsceurité,
@@ -344,51 +191,34 @@ en présence d’un public pénétré d’une sorte de ferveur reli-
 gieuse, que fut donnée, le 28 juillet 1882, la première repré-
 sentation de Parsifal. Wagner devait mourir bientôt après à
 Venise, le 13 Février 1883.
-
 Wagner connut la légende de Parsifal au moment où 1l
 conçut son Lohengrin: Lohengrin est le fils de Parsifal. Il avait
-
- 
-
- 
-
- 
-
 GRANDE BRASSERIE r
 CAFÉ u X X" SIÈCLE
-
 23, Boulevard Georges-Favon - GENÈVE
 A
-
 Bières de Munich - Pilsen-Urquell - Spéciale Bittrée - Brune et
 Blonde ordinaire - Apéritifs de marque - Dégustation des grands
 vins français - ttunch à fr. 3— et 3.50 - Grande carte de spécialités
 Tous les samedis ,, Amourettes ” - Menus fins sur commande
-Salle de Société]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002925_005.tif"/>
-<page><![CDATA[Au Dépôt général du Poisson du Lac Léman
-
+Salle de Société
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002925_005.tif'/>
+        <page>
+          <![CDATA[Au Dépôt général du Poisson du Lac Léman
 Maison fondée en 1848
-
 LUGRIN & C“ (S.A.)
-
 46, Rue du Rhône - GENÈVE
-
 Adr. télégr.: LUGRIN Co - GENÉVE - AUCUNE SUCCURSALE - Téléphone 48.266
 Volailles de Bresse - Gibiers de toutes provenances - Poissons du Lac
 Marée française - Huitres de Claires de Marennes
-
 Arrivages directs et journaliers
 Langoustes du parc de Camaret
 Comestibles de toutes espèces - Conserves des |Jres marques
-
 L'importance de 'a vente lui permet de ne jamais À
 constituer de stock et de garantir à sa clientèle la qualité et la fraîcheur de ses marchandises
-
 Expéditions en tous pays
-
- 
-
 songé, avant d’écrire Parsifal, à un Jésus de Nazarelh. puis à
 un drame bouddhiste, les Vainqueurs (1856). C'est au printemps
 1857 qu'il entendit, le jour du Vendredi-Saint, « ce soupir de
@@ -398,47 +228,28 @@ alors les vers où Gurnemanz explique à Parsifal le charme du
 Vendredi-Saint. C’était la première ébauche du nouveau drame.
 L'esquisse se précisa en 1865, le poème fut achevé en 1877 el
 la musique en 1882.
-
 La musique de Parsifal reflète cet apaisement religieux ;
 elle sonne à nos oreilles, après Trislan et la Tétralogie, d’un
 son tout nouveau ; et c’est une des plus étonnantes merveilles
 de l’art musical que ce long cantique d’actions de grâces par
 lequel Wagner clôt la série de ses chefs-d’œuvre.
-
- 
-
- 
-
 À L'ART FTLORAL
-
- 
-
 v Î
 Fleurise-Décorateur
-
 Téléphone 50.160 GENÈVE
-14, Cours de Rive, 14]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002925_006.tif"/>
-<page><![CDATA[Restaurant du Bare des Éaux-Vives
-
+14, Cours de Rive, 14
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002925_006.tif'/>
+        <page>
+          <![CDATA[Restaurant du Bare des Éaux-Vives
 Changement de propriétaire - Changement de prix
-
- 
-
 au restaurant : Menu à 3.50, 4.- et 5.- fr.
 à la brasserie: Plat du jour à 2.50 fr.
-
- 
-
 TOUS LES JOURS COÏINCERT ET DANSE
 APRÈS-MIDI DE 14 A 18 H.; SOIR DE 20 H.30 A 24 H.
-
 PRIX MODÉRÉS W. HAURI
-
- 
-
 Enchantement du Vendredi-Saint
-
 Après les rudes épreuves qu'il a traversées, Parsifal revient
 vers le Graal. Il rencontre Gurnemanz qui vieillit dans la
 douleur, auprès d’Amfortas, toujours accablé sous le poids du
@@ -450,199 +261,122 @@ Gurnemanz prend de l’eau dans le creux de sa main et la
 répand sur le front de Parsifal. Kundry verse un baume sur
 les pieds du héros, et les essuie de ses cheveux dénoués. Enfin
 Gurnemanz oint Parsifal élu du Ciel, roi du Graal.
-
 Alors Parsifal répand l’eau du baptême surla tète de Kundry.
-
- 
-
 » Cardinal«
-
 ONNOOOOHOOHowo«Œ«Œœ«Œœ&«Œ«O“Œ«q“û4dûŒuuaduadaaaaaaadaaau
-
 ses bières spéciales - fines - savoureuses
-
- 
-
-  
-
- 
-
 RANDON-FRIEDERICH S. A.
-
 Graisses alimentaires
-Première Maison Suisse & savonner Î e]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002925_007.tif"/>
-<page><![CDATA[BANQUE p PARIS ET pes PAYS-BAS
-
+Première Maison Suisse & savonner Î e
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002925_007.tif'/>
+        <page>
+          <![CDATA[BANQUE p PARIS ET pes PAYS-BAS
 PARIS
-
 AMSTERDAM - BRUXELLES - GENÈVE
-
 SUCCURSALE de GENÈVE 6, rue de Hollande
-
 TOUTES OPÉRATIONS DE BANQUE
-
- 
-
 ORDRES DE BOURSE Ouverture de Comptes en toutes monnaies
-
- 
-
 Puis, contemplant la forêt et la plaine qu’éclaire le soleil
 de midi, il se sent pénétré d’un charme ineffable, et Gurnemanz
 lui expliqüe « l’'enchantement du Vendredi-Saint. »
-
 LA WALKYRIE, scène finale du troisième acte. Adieux de Wotan et Incantation du feu
-
 Brünnhilde, la vierge guerrière, la fille préférée de Wotan,
 roi des Dieux, a désobéi à son père, qui lui avait interdit de
 protéger Siegmund, bien qu’il eût pour le jeune héros de pro-
 fonds sentiments d’affection. Elle à transgressé l’ordre, donné
 à contre-cœur; elle doit être punie de sa désobéissance
 héroïque.
-
 Le Dieu persiste dans son arrêt rigoureux; il la bannit
 pour touîiours de sa présence et, puisqu’elle s’est laissée do-
-
- 
-
- 
-
 MANUFACTURE GÉNÉRALE D'INSTRUMENTS DE MUSIQUE
-
 E" LYRIST
 PñOﬂ€5 9, Place du Combat - PARIS
 TROMPETTES
 Fournisseurs : BUGLES
 CORNETS
-
 des Artistes de la musique TROMBONES
-
 de la Garde Républicaine CORS
-
 et des Musiques militaires SAXHORNS
-
 Françaises et Etrangères TYMBALES
-
 St LOUIS 1904 MÉDAILLE DE BRONZE
 GENEVE 1927 MÉDAILLE D'OR
-
 Nos instruments se trouvent dans les bonnes maisons
-
-—— ——s = d’Instruments de Musique]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002925_008.tif"/>
-<page><![CDATA[Café - Brasserie International
+—— ——s = d’Instruments de Musique
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002925_008.tif'/>
+        <page>
+          <![CDATA[Café - Brasserie International
 Place du Cirgue GENÈVE Téléphone 40.729
-
 Æ fCÛa OnêT
-
 Consommations de 1 choix — DEUX BiLLARDS —
-
- 
-
 Spécialité de vins fins
 Restauration à toute heure Ouvert après les spectacles
-
- 
-
 miner par l'amour, c'est l'amour qui, désormais, fera d’elle
 son esclave.
-
 Elle le supplie alors de permettre qu’un obstacle terrible
 se dresse autour d’elle pendant le fatal sommeeil, afin que, seule,
 un mortel inaccessible à Ja crainte puisse s'assurer sa conquêle.
-
 Wotan, touché enfin par la vaillance de son enfant, «la
 fille de sa pensée », sent son cœur paternel se fondre devant
 tant de fierté dans la détresse. Il consent à exaucer son dernier
 vœu ; puis lui fait des tendres adieux.
-
 Enfin, il l'étend endormie sur un tertre et, frappant trois
 fois le roc de son pieu, il évoque Loge, le dieu du feu. Une
 flamme s'allume, grandit, formant un rempart inacessible
 autour de la vierge endormie.
-
- 
-
- 
-
- 
-
 Les Etablissements
-
 L. CORMIER
-
 sont les spécialistes
-
 du_ PARASOL pour JARDIN,
 des MEUBLES pour JARDIN
 et VÉRANDAS, en bois, en fer
 et bois, et tube d'acier chromé,
 en rotin:
-
 des TENTES de CAMPEMENT
-
- 
-
- 
-
- 
-
- 
-
 Rendez-leurs visite
-
-6 et 8, Rue des Caroubiers, Acacias, Genève, téléphone 45.012]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002925_009.tif"/>
-<page><![CDATA[VICTORIA-HALL
-
+6 et 8, Rue des Caroubiers, Acacias, Genève, téléphone 45.012
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002925_009.tif'/>
+        <page>
+          <![CDATA[VICTORIA-HALL
 le magnifique bâtiment construit à l'instigation de l'Harmonie Nautique par son
 généreux fondateur Monsieur D. F. P. Barton, ancien consul d'Angleterre, qui en
 fit don à la Ville de Genève en 1904.
-
 L'Harmonie Nautique devenue depuis : ,, Harmonie Municipale de la Ville
 de Genève “ occupe au rez-de-chaussée, les locaux qui ont été spécialement amé-
 nagés à son intention et dont la Ville lui laisse la jouissance conformément au vœu
 exprimé par le donateur
-
 cenpertz0us7
-
 … —
-
 L e
-
-La grande salle de concert]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002925_010.tif"/>
-<page><![CDATA[Pharmacie de l’Université
-
+La grande salle de concert
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002925_010.tif'/>
+        <page>
+          <![CDATA[Pharmacie de l’Université
 11, rue du Conseil-Général — GENÈVE — Téléphone 51.434
-
 D* À. TRAUB
-
 Pharmacien-chimiste
 Diplômé fédéral
-
 Pharmacie d'ordonnances-recom- | _ Les ordonnances pour les sociétés de
-
 mandée par le corps médical. secours mutuels, caisses de mala-
 Exécution scrupuleuse de toutes les dies, assurance scolaire, etc., sont
 ordonnances avec des produits de exécutées avec tous les soins voulus
-
 marque et chimiquement purs par
 un personnel scientifique et diplômé.
 Spécialités de tous les pays — Service à domicile
-
 HARMONIE NAUTIQUE
-
 MEMBRES DU COMITÉ :
-
 MM. G. MARTINET, président ; G. GABELLES, directeur ; J. LIcKERT et
 M. DÉPRAZ, vice-présidents ; Th. ENGEL, secrétaire ; À. SINGY, vice-secrétaire ;
 M. GALFRÈ, trésorier ; P. MURITH, vice-tresorier ; E. BURDET, bibliothécaire ;
 KurTr-REyNAUD et R. Gay, économes.
-
 MEMBRES EXÉCUTANTS (1934)
-
 Flûtes: MM. BLUM - CusIN - BREMER - SUTTER.
 Hautbois et cor anglais: MM. VEYRAT - ENGEL - PArNoT - Gycr.
 Petites clarinettes: MM. SANTANDRÉA - BURDET R.
@@ -652,141 +386,86 @@ CHATELAIN - BODOIRA - CHARLON - GABELLES fils - KUNz - BERGOIN
 BROILLAT - NUSSBAUM - BINET - VERMOT - OcHs - SORMANI
 GyseL - MicorTi - BARRI - GROPALLO - BECKER - DUPENLOUP.
 Clarinette basse: M. MARTIGNIER.
-
 TRANSPORTS FUNÈBRES
-
 Ancienne Maison MURITH, DUPARC & FERT Fondée en 1888
-
 A. MURITH s...
-
 GENÈVE - Siège Social : Rue des Chaudronniers, 16
-
 Téléph. 50.288 (Service permanent)
-
 Fabrique de Cercueils Automobiles Funéraires
-
 L’Administration se charge, sans aucun déplacement pour les
 familles, de toutes les démarches et formalités relatives aux
-
 Inhumations — Exhumations — Incinérations — Transports
-
 S1%ËÊSÏIËËÊ C E NTRA L' D E U l L__Jar?£ïëäîﬁ 16
-
-et taxées aux tarifs les plus bas fixés.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002925_011.tif"/>
-<page><![CDATA[INSTRUMENTS DE MUSIQUE ET ACCESSOIRES
-
+et taxées aux tarifs les plus bas fixés.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002925_011.tif'/>
+        <page>
+          <![CDATA[INSTRUMENTS DE MUSIQUE ET ACCESSOIRES
 — pour Fanfares, Harmonies, Orchestres de Jazz —
-
 KASPAR WICKY
 48, Rue des Maraïîchers = GENEVE - Téléphone No 53.112
-
 ©
 Atelier de réparations de 1 Ordre
-
 Maison ayant le plus grand assortiment en accessoires et le choix le plus varié en instruments
 des meilleures Marques, telles que :
-
 G. Leblanc - Couesnon & Cie - Antoine Courtois - H. Selmer - Cuénot, Dubouchet & Cie
 Thibouville-Lamy - J. Gras - Lyrist - Premier Londres - Leedy U. S. A.
-
 Fournisseur de l’Harmonie Nautique
-
- 
-
 Bassons : MM. Ch. FRANCOUAL - J. FRANCOUAL.
-
 Saxophones: MM. D'IVERNOIS - GONDRET - MARET - H. VANAT
 BERTRAND - GRIBI - PoUGATSCH - DEPOISIER - Gopio - BRUNET
 GANICHOT.
-
 Cors: MM. ZBINDEN - A. PiGUET - ReTscHisky - J. Boccarp
 TRACHSEL - BÉHAR - BERNASCHINA.
-
 Cornets à pistons et Bugles: MM. A. DuPonT - M. CHapuis - C. Droz
 L. ])FU(()LX - TMS(()M - .l. PIGUET - Bl JARD - Fourry
-
 Trompelles. \IM. I,. Btnm—.1 - MA…|—. - BAILL\ - SCRARAMUZZA
 MICHELINI.
-
 Trombones: MM. PioTTON - SinGy - Ch. MARTIN - MAITRE
 Marc PoRrTIER - MÜLLER.
 Barytons, Basses et Contrebassee: MM. GrEBER - Ducray
-
 M. MANDALLAZ - PONCIONI - REvor - BOssoN - REINHARDT - DALEX
 MONTILLARD - MOLINATTI - MAROCCO - MULLER - BLONDEL.
 Contrebasses à cordes:  MM. RICHTER - MAYER - KNUCHEL.
 Batterie: MM. KurT - DELOCHE - GRIEDER - DEsCOMBES - Gav.
-
- 
-
- 
-
 Pour voyager agréablement et sans soucis, adressez-vous à
-
 L'AGENCE
 C. BLENK & FERT
-
 1, Rue du Mont-Blanc, 1
 Angle Quai des Bergues
-
 GENÈVE
-
- 
-
 Tous les billets de chemins de fer et de passages maritimes
 aux conditions des tarifs
-
 CHÈQUES DE VOYAGEURS - BANQUE - CHANGE
-VOYAGES A FORFAIT]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002925_012.tif"/>
-<page><![CDATA[S 1FLdU 1IR
-
+VOYAGES A FORFAIT
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002925_012.tif'/>
+        <page>
+          <![CDATA[S 1FLdU 1IR
 d =aiMle1N
 G ENEVE
 La grande marque Suisse des
 Desserts fins
-
- 
-
 La Grande
-
- Boucherie du Molard
+Boucherie du Molard
 , |
-
- 
-
- 
-
- 
-
 ne vend que des marchandises
-
 de toute première qualité ï
-
- 
-
- 
-
-Spécialité d’AGNEAU DE PRÉ-SALÉ]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002925_013.tif"/>
-<page><![CDATA[ASSUREZ-VOUS CHEZ
-
+Spécialité d’AGNEAU DE PRÉ-SALÉ
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002925_013.tif'/>
+        <page>
+          <![CDATA[ASSUREZ-VOUS CHEZ
 ROCH & MARTINET
-
 TEÉRUE D'ITAIEE 1
-
 POUR TOUTES LES BRANCHES:
-
 Incendie — Accidents — Responsabilité civile — Vie
 Vol — Bris de glaces etc., etc.
-
 CONDITIONS LES MEILLEURES
-
- 
-
 Ouverture du VAISSEAU FANTOME
-
 La première représentation de cet opéra eu lieu au Théâtre
 de Dresde, le 2 Janvier 1843. L’ouverture nous jette en pleine
 mer et en pleine tempête. Le navire fantastique du Hollandais
@@ -797,129 +476,77 @@ vainement qu’il l’a lancée dans les tourbillons de la tempête :
 l'abime l’a rejetée à la surface des vagues. Dans l’espoir de
 briser son vaisseau maudit, il s’est rué contre les rocs et les
 écueils, mais ceux-ci l’ont épargné.
-
 Calme et paisible, un vaisseau passe à la portée du sien.
 On entend le chant des matelots qui, heureux et confiants se
-
- 
-
- 
-
 Pour la destruction infaillible des MITES ainsi que de tous les
 INSECTES PARASITES, vaporisez dans votre appartement
-
 …. OXY-FLI”
-
 l’extrait insecticide d’odeur agréagle et hygiénique, qui ne tache pas.
-
 Flacon !/, 1. Fr. 2,25 - Bidon ‘/, 1. Fr. 3.25 - Bidon 1 1. Fr. 5.50
-
 En vente partout, et au dépôt général :
-
 DROGUERIE R. SCHULÉ & FiLs
-
 30, Br4 Georges Favon, 4, Rue de Hesse
-(près de la place du Cirque)]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002925_014.tif"/>
-<page><![CDATA[Mon prochain
-
+(près de la place du Cirque)
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002925_014.tif'/>
+        <page>
+          <![CDATA[Mon prochain
 COMPLET
-
 Comme le précédent
-
-  
-   
-   
-     
-    
-   
-   
-   
-   
- 
- 
-
 Comme
 l'avant - dernier
-
 Comme le suivant
 Je l'achéterai
-
 Toujours
-
 à mon
-
 Tailleur
-
 Complets préparés de 35
 Complets sur mesures
-
-  
-
 @ q
 V
 O
 T1l
-3]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002925_015.tif"/>
-<page><![CDATA[La Centrale …
-
+3
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002925_015.tif'/>
+        <page>
+          <![CDATA[La Centrale …
 SEHEELOECEIEONEHOOOOOEOISOEOHEOCOHISEKOHEOEOHSOOOOEISEOVOOEOOEEOOCEDOEOOEOOAEOOSEOOOOOOVEOAVEOHOOEONEEONOCONEEOVOOEOVOOOOHEEOEEDVEOOVEOOOEEOOREEONEEON
-
 2, Croix d'Or, 2 GENÈVE
-
 Téléphone : 43.462
-
 Bières réputées
 Mets de Brasserie
-
 BILLARDS au 1ler Jean et Albert
-
- 
-
 réjouissent, de toucher aux rives de la patrie. Cette joie réveille
 la colère du Maudit et, dans son aveugle fureur, il lance de
 nouveau son navire sur les flots.
-
 Mais la mer s'apaise… une étoile brille au firmament,
 rayon furtif aussitôt disparu. Soudain, une lumière éclatante
 apparait. C’est une femme qui, de loin, appelle le malheureux.
 Devant cette voix qui l’attire, le vaisseau maudit s’abime,
 tandis que son maître se sent enlevé dans les bras de celle qui
 le délivre de sa malédiction.
-
 TRISTAN et ISEULT, Prélude
-
 « Une douloureuse tension de tous les sens vers un bon-
 « heur qui l’'épouvante à force d’être surhumain ; un désir qui
-
- 
-
 V ous (lésire: un PAPIER PEINT ?
-
 bien 1)03é’ 3 Adressez-vous à
-
 J. HUBOUX
 v
-
 Téléph. 53.084 GENÈVE
-
-9, Brd du Théâtre]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002925_016.tif"/>
-<page><![CDATA[Pour vos achats d MUSIQUE
+9, Brd du Théâtre
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002925_016.tif'/>
+        <page>
+          <![CDATA[Pour vos achats d MUSIQUE
 et Ae D I S Q U E S
-
 …. BEIN 0D
 Adressez-vous à MOTSCHY F"
-
 Maison (1€ confiance
-
 fulée . 965 * 22, Corraterie
-
- 
-
- 
-
 « se dévore soi-même dans le désespoir de sa vanité ; des efforts
 « cent fois trompés; des recrudescences d’amer espoir; des
 « bras affamés d’embrassements et qui retombent rompus de
@@ -932,43 +559,27 @@ fulée . 965 * 22, Corraterie
 « pénible lenteur pour se relever encore, et encore, et toujours,
 « le prélude sanglotant de Tristan et Iseult.
 LOHENGRIN, prélude du troisième acte
-
 Lohengrin, sixième opéra de Richard Wagner, composé
-
 en 1847, fut représenté pour la première fois à Weimar, sous
-
- 
-
- 
-
- 
-
 /
 .
-
 Fumez
-
-les cigarettes]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002925_017.tif"/>
-<page><![CDATA[Hôtel ELITE - Brasserie-Restaurant
-
+les cigarettes
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002925_017.tif'/>
+        <page>
+          <![CDATA[Hôtel ELITE - Brasserie-Restaurant
 PLACE LONGEMALLE - GENÈVE - PLACE LONGEMALLE
 Le plus récent, le plus moderne, en plein centre des affaires
-
 Chaque chambre avec Menus à fr. 3.50
 cabinet de toilette : Mets de Brasserie
-
 —— F,, 5— — Bières Feldschlôsschen
 VINS OUVERTS
-
 Téléph. 52.350 Prop.: E. Straumann-Mornand
-
- 
-
 la direction de Franz Liszt, le 19 août 1850, lors des fêtes
 données en cette ville pour l’inauguration de la statue de
 Herder.
-
 Le chevalier au cygne, héros mystérieux, a défait en
 combat singulier l’accusateur Telramund et, pour prix de la
 victoire, reçu le titre de protecteur de Brabant avec la main
@@ -979,25 +590,18 @@ son drame, à montrer sur le théâtre, «le bruit et les magni-
 licences des noces ». Ce morceau instrumental à plus de cent
 mesures, d'un mouvement vif. Comme l’a écrit Liszt, «il res-
 pire un air de fête et de noble réjouissance, et nous dépeint
-
- 
-
- 
-
 L’ancienne Maison
-
 Ern. Chevallier $. A.
-
 98, Rue du Rhône, 58
-
 Vous offre:
 pour la Ville et le voyage un sac cuir de vache
-
 couleur naturelle au prix extraordinaire de fr. 9.50
-
-Aucune succursale]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002925_018.tif"/>
-<page><![CDATA[msx | GALERIE G. LADOR
+Aucune succursale
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002925_018.tif'/>
+        <page>
+          <![CDATA[msx | GALERIE G. LADOR
 OE 25, Rue de la Croix-d'Or - Genève
 ENCADREMENTS
 = OBJETS D’'ART POUR CADEAUX
@@ -1007,48 +611,29 @@ STATUETTES ,àa Thé, à Café, à Sirop
 COFERE = ÊŒË à Bières, à Glaces
 BONBONNIÈRES
 seF5 CRISTAUX, PORCELAINES, CERAMIQUES, ETAINS
-
- 
-
- 
-
 les scènes de joie et de contentement qui ont suivi les rites
 du mariage chrétien. En l’écoutant, on se représente les pala-
 dins et leurs joutes, on croit reconnaître les signaux des tour-
 nois et les clairons annonçant les brillantes passes d’armes
 qui devaient illustrer les fêtes et les noces de si hauts et puis-
 sants seigneurs ».
-
 AVIS. — Les personnes qui désirent devenir « membres passifs » de
 l’Harmonie Nautique peuvent s’inscrire au Victoria-Hall ou à la Librairie
 Richard (80, rue du Rhône), et auprès des membres de la Société. La
-
 carte de «membre passif» donne droit à deux entrées pour chaque
-
 concert donné par l’Harmonie Nautique. Prix fr. 8 par année.
-
- 
-
- 
-
- 
-
 ANTHRACITES — HOUILLES — COKES
 AGGLOMÉRÉS —  BOIS
-
 JoHN BERTRAND
-
 Successeur
-
 des Fils de Ph. Girod
-
 4, Rue Prévost-Martin — GENÉVE — Téléphone N° 41.172
-
- 
-
-Passez vos commandes à CHARLES BERTRAND, membre exécutant]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002925_019.tif"/>
-<page><![CDATA[É | Buvez un
+Passez vos commandes à CHARLES BERTRAND, membre exécutant
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002925_019.tif'/>
+        <page>
+          <![CDATA[É | Buvez un
 [
 F ®
 {
@@ -1059,94 +644,56 @@ E |
 ‘ |||llllllll"llllll|l|llllllllllllll|||lll”ll|ll||||||||||llll|ll|llllllll"|l||||l||||lll|ll|lllll|llll|IlIllllllll|l|||lllllllllllllllllllllllllllllllllllll£
 Pour être servi rapidement Service régulier à domicile
 ; et bien, adressez-vous à la ville et banlieue
-
 BOULANGERIE-PATISSERIE DE PARIS
-
 GOLAY-MATZINGER
-
 Succ. de E. MATZINGER
 18, Bd. Georges-Favon - GENÈVE - Téléphone: 46.803
-
 Spécialités :
 Pains de régime - Pain de gluten pour diabétiques
-
 SJNNNNNNNNNNNNNNONOQHUORUNNNNONONNNNNNNOONNONONOOROHRONONNNONNRNNNNONNNONHURAHH HE
-
 shonnonnnonenenenonennnennnnntenenennntonnnninnonnnntnonononentntonentothetntnntt
-
 - llllllll|lllllllll|llllllllllllllllIlllllllllllllllllllllllllllllllllllll||lllllllllllllllllllllllllIllllllIllllllIllllIllllllllllIlllllllllllllllllllllllllll .
-
- 
-
- 
-
 Brasserie
-
 LANDOLT
-
 Etablissement de 1er ordre
 d’une ancienne renommée
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 MESSIEURS,
-
 L ‘ vos habits seront comme neufs.
 | Nettoyés et repassés par
 / { F. & E. BAECHLER Frères
-
-Teinturiers]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002925_020.tif"/>
-<page><![CDATA[MANUFACTURE ARTISTIQUE D'INSTRUMENTS DE MUSIQUE
+Teinturiers
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002925_020.tif'/>
+        <page>
+          <![CDATA[MANUFACTURE ARTISTIQUE D'INSTRUMENTS DE MUSIQUE
 \
-
 G. LEBLANC —
-
 70, Rue des Rigoles - PARIS |
 |
-
 Spécialité
 Flûtes - Hautbois
-
 Clarinettes - Bassons
-
 Nouveautés :
-
 Clarinette modèle (1933
 Alto
 Basse
 Contre-basse
-
 Quatuor complet clarinettes
 conçu et réalisé par la Maison
 permettant la formation de
 l’orchestre d’harmonie intégral
-
 Instruments parfaits
 et garantis
-
- 
-
 Représentant général pour la Suisse
-
 Kaspar Wicky
-
 GENÈVE
 ©
-
 48, Rue des Maraîchers
-Téléphone 53.122]]></page>       
-        </p>
+Téléphone 53.122
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

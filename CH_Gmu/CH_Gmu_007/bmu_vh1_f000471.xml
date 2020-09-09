@@ -1,168 +1,137 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par l'Harmonie nautique<date when="11/07/1901"/></title>
-<series>1900-1901</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par l'Harmonie nautique
+            <date when='11/07/1901'/>
+          </title>
+          <series>1900-1901</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F000471</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Bonade, L. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19010711"/>
-<title>Concert donné par l'Harmonie nautique</title>
-<placeName key="Victoria Hall"/>
-<name key="1900-1901" type="series"/>
-<name key="Lambert"  type="person" role="cmp">Lambert</name>
-<name key="Thomas, A."  type="person" role="cmp">Thomas, A.</name>
-<name key="Verdi, Giuseppe" ref="https://muscat.rism.info/admin/people/137994" type="person" role="cmp">Verdi, Giuseppe</name>
-<name key="Meyerbeer, Giacomo" ref="https://muscat.rism.info/admin/people/725" type="person" role="cmp">Meyerbeer, Giacomo</name>
-<name key="Rossini, Gioachino" ref="https://muscat.rism.info/admin/people/63766" type="person" role="cmp">Rossini, Gioachino</name>
-<name key="Jomaux, Ad." ref="https://muscat.rism.info/admin/people/30073907" type="person" role="cmp">Jomaux, Ad.</name>
-<name key="Liszt, Franz" ref="https://muscat.rism.info/admin/people/107196" type="person" role="cmp">Liszt, Franz</name>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Bonade, Louis  (dir.)"  type="person" role="int">Bonade, Louis  (dir.)</name>
-<name key="Harmonie Nautique"  type="person" role="int">Harmonie Nautique</name>
-<name key="Mattioli"  type="person" role="int">Mattioli</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000471_001.tif"/>
-<page><![CDATA[f
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19010711'/>
+        <title>Concert donné par l'Harmonie nautique</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1900-1901' type='series'/>
+        <name key='Lambert' type='person' role='cmp'>Lambert</name>
+        <name key='Thomas, A.' type='person' role='cmp'>Thomas, A.</name>
+        <name key='Verdi, Giuseppe' ref='https://muscat.rism.info/admin/people/137994' type='person' role='cmp'>Verdi, Giuseppe</name>
+        <name key='Meyerbeer, Giacomo' ref='https://muscat.rism.info/admin/people/725' type='person' role='cmp'>Meyerbeer, Giacomo</name>
+        <name key='Rossini, Gioachino' ref='https://muscat.rism.info/admin/people/63766' type='person' role='cmp'>Rossini, Gioachino</name>
+        <name key='Jomaux, Ad.' ref='https://muscat.rism.info/admin/people/30073907' type='person' role='cmp'>Jomaux, Ad.</name>
+        <name key='Liszt, Franz' ref='https://muscat.rism.info/admin/people/107196' type='person' role='cmp'>Liszt, Franz</name>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Bonade, Louis' type='person' role='int'>Bonade, Louis</name>
+        <name key='Harmonie Nautique' type='person' role='int'>Harmonie Nautique</name>
+        <name key='Mattioli' type='person' role='int'>Mattioli</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000471_001.tif'/>
+        <page>
+          <![CDATA[f
 —O3n
 r3 Ïu
-
 se
-
 PROMENADE DU LAC (JARDIN ANGLAIS)
-
- 
-
 Jeudi 11 Juillet 1901, à huit heures et demie.
-
 æ CONCERT s°
-
 DONNÉ PAR
-
 L’HARMONIE NAUTIQUE DE GENÈVE
-
 sous la direction de
-
 M. LOUIS BONADE
-
 é
 |
-
 —E e
-
 PRADGRKRN
-
 d r
-
- 
-
- 
-
 PREMIÈRE PARTIE
-
 . Allegro militaire Lamubert.
-
 . Ouverture de Raymond ou Le Secret de la
 A. Thomas.
-
 . I Lombardi, terzetto et final du 3° acte (Matlioli). G. Verdi.
-
 - Le Barbier de Séville, cavatine pour piston solo. Rossini.
 SECONDE PARTIE
-
 . Fantaisie sur Robert le Diable Meyerbeer.
-
 . L’Oiseau-Mouche, bluette pour petite flûte Ad. Jomaux.
-
 . XIV" Rhapsodie hongroise
-
 . Marche de Tannhäuser R. Wagner.
-
- 
-
- 
-
 )DRIX D'ENTRÉE : 50 CENTIMES
-
 MM. les membres non-exécutants ont droit d’entrée à ce concert
 sur présentation du coupon ne 5.
-
 En cas de mauvais temps, le concert sera renvoyé au lendemain.
-
-@ ‘:(/{(‘äl@\):‘(a H]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000471_002.tif"/>
-<page><![CDATA[N ® — ©Ÿ @ — G ’£
+@ ‘:(/{(‘äl@\):‘(a H
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000471_002.tif'/>
+        <page>
+          <![CDATA[N ® — ©Ÿ @ — G ’£
 t T EN 33x 0
-
 ñ À
 Cours d’Instruments
-
 |
 DE !
 Î
 |
-
 L'HARMONIE NAUTIQUE DE GENÈVE
-
 Directeur général : M. Louis Bonade. {
-
 |
 PROFESSEURS !
-
 Sb MM. FouURrMEN Clarinettes et saxophones.
 Avec PIFYRE.. 4. ... Cuivres.
-
 L. RouGEe Hautbois, cor anglais.
-
 G. MARTINET Flûte.
 BRUNEAU-D’ARNAULT ..Solfège.
-
 MaATTIOLI Cours de composition et d'orchestration.
-
 Prix du Cours : 5 fr. par mois.
-
 Les jeunes gens désireux de suivre ces cours peu-
 vent s’inscrire tous les jours, auprès du Concierge du
 Victoria-Hall.
-
- 
-
-.. — DIF x]]></page>       
-        </p>
+.. — DIF x
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

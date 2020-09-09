@@ -1,124 +1,109 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par l'Harmonie nautique<date when="15/04/1917"/></title>
-<series>1916-1917</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par l'Harmonie nautique
+            <date when='15/04/1917'/>
+          </title>
+          <series>1916-1917</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F001234</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Pieyre, A. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19170415"/>
-<title>Concert donné par l'Harmonie nautique</title>
-<placeName key="Victoria Hall"/>
-<name key="1916-1917" type="series"/>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Sarasate, Pablo de" ref="https://muscat.rism.info/admin/people/30019733" type="person" role="cmp">Sarasate, Pablo de</name>
-<name key="Boccherini, Luigi" ref="https://muscat.rism.info/admin/people/30000391" type="person" role="cmp">Boccherini, Luigi</name>
-<name key="Mozart, Wolfgang Amadeus" ref="https://muscat.rism.info/admin/people/115324" type="person" role="cmp">Mozart, Wolfgang Amadeus</name>
-<name key="Grétry, André-Ernest-Modeste" ref="https://muscat.rism.info/admin/people/83932" type="person" role="cmp">Grétry, André-Ernest-Modeste</name>
-<name key="Liszt, Franz" ref="https://muscat.rism.info/admin/people/107196" type="person" role="cmp">Liszt, Franz</name>
-<name key="Borodin, Alexandr Porfir'evič" ref="https://muscat.rism.info/admin/people/30015583" type="person" role="cmp">Borodin, Alexandr Porfir'evič</name>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Wieniawski, Henryk" ref="https://muscat.rism.info/admin/people/137176" type="person" role="cmp">Wieniawski, Henryk</name>
-<name key="Dvořák, Antonín" ref="https://muscat.rism.info/admin/people/26196" type="person" role="cmp">Dvořák, Antonín</name>
-<name key="Fauré, Gabriel" ref="https://muscat.rism.info/admin/people/41731" type="person" role="cmp">Fauré, Gabriel</name>
-<name key="Bruneau, Alfred" ref="https://muscat.rism.info/admin/people/78271" type="person" role="cmp">Bruneau, Alfred</name>
-<name key="Pieyre, Auguste (dir.)"  type="person" role="int">Pieyre, Auguste (dir.)</name>
-<name key="Harmonie Nautique"  type="person" role="int">Harmonie Nautique</name>
-<name key="Décompoix, Lucie"  type="person" role="int">Décompoix, Lucie</name>
-<name key="Sottiaux, Fernand"  type="person" role="int">Sottiaux, Fernand</name>
-<name key="Tasset"  type="person" role="int">Tasset</name>
-<name key="Mégevand, Jules"  type="person" role="int">Mégevand, Jules</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001234_001.tif"/>
-<page><![CDATA[c1T
-
- 
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19170415'/>
+        <title>Concert donné par l'Harmonie nautique</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1916-1917' type='series'/>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Sarasate, Pablo de' ref='https://muscat.rism.info/admin/people/30019733' type='person' role='cmp'>Sarasate, Pablo de</name>
+        <name key='Boccherini, Luigi' ref='https://muscat.rism.info/admin/people/30000391' type='person' role='cmp'>Boccherini, Luigi</name>
+        <name key='Mozart, Wolfgang Amadeus' ref='https://muscat.rism.info/admin/people/115324' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Grétry, André-Ernest-Modeste' ref='https://muscat.rism.info/admin/people/83932' type='person' role='cmp'>Grétry, André-Ernest-Modeste</name>
+        <name key='Liszt, Franz' ref='https://muscat.rism.info/admin/people/107196' type='person' role='cmp'>Liszt, Franz</name>
+        <name key='Borodin, Alexandr Porfir&apos;evič' ref='https://muscat.rism.info/admin/people/30015583' type='person' role='cmp'>Borodin, Alexandr Porfir'evič</name>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Wieniawski, Henryk' ref='https://muscat.rism.info/admin/people/137176' type='person' role='cmp'>Wieniawski, Henryk</name>
+        <name key='Dvořák, Antonín' ref='https://muscat.rism.info/admin/people/26196' type='person' role='cmp'>Dvořák, Antonín</name>
+        <name key='Fauré, Gabriel' ref='https://muscat.rism.info/admin/people/41731' type='person' role='cmp'>Fauré, Gabriel</name>
+        <name key='Bruneau, Alfred' ref='https://muscat.rism.info/admin/people/78271' type='person' role='cmp'>Bruneau, Alfred</name>
+        <name key='Pieyre, Auguste' type='person' role='int'>Pieyre, Auguste</name>
+        <name key='Harmonie Nautique' type='person' role='int'>Harmonie Nautique</name>
+        <name key='Décompoix, Lucie' type='person' role='int'>Décompoix, Lucie</name>
+        <name key='Sottiaux, Fernand' type='person' role='int'>Sottiaux, Fernand</name>
+        <name key='Tasset' type='person' role='int'>Tasset</name>
+        <name key='Mégevand, Jules' type='person' role='int'>Mégevand, Jules</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001234_001.tif'/>
+        <page>
+          <![CDATA[c1T
 ;
 !
-
- 
-
- 
-
 C
-
 en eo rs lA . F AT, I;
 v ds paris Dimanche 15 Avril 1917 On commoncor à
-
 à 1 heure 314'_,
 )NCERT
-
 On ©
 donné par
-
 l’Harmonie Nautique
-
 (HARMONIE MUNICIPALE DE LA VILLE DE GENÈVE)
 sous la direction de
-
 M. Ausguste PIXH YFF
-
 Professeur au Conservatoire
-
- 
-
-  
-
 avec le gracieux concours de
-
 M"° Lucie Décompoix … M. Fernand Sottiaux
-
- 
-
 Cantatrice. Violoniste, 1er prix du Conservatoire de Liège.
 6ex—émca
 Gs ‘ E
 — e PROGBAMME $ —-
 “
-
 PREMIÈRE PARTIF
 n OuvenruresdelSeonorennanr , 14 Beethoven
-
 useunenmesen 1111 e P. de Sarasate
-
 aemlesremo 1 e n Boccherini
 M. F. Sottiaux.
-
 D Von cœur sounires 021 0t0s en Mozart
 DElsaimandialo up 1 S Grétry
 Mlle Lucie Décompoix.
@@ -131,52 +116,42 @@ Dilluimponesker es Dvorak
 M. F. Sottiaux.
 An G es
 DNoreamouer 1 (
-
 Mlle Lucie Décompoix.
-
 8. L’Enfant m1 e Bruneau
 Au piano d'accompagnement : MM. Tasset et Jules Mégevand.
-
 Les Militaires internés et les Militaires suisses sont gracieusement invités à ce concert,
-
 PRIX DES PLACES : Loges el premier rang de la première Galerie (numérotés), 2 fr. Rez-de-chaussee
 et autres places de la première Galerie, 1 fv. Seconde Galerie, 50 cent.
-
 MM. les membres mon-exéeutants ont droit d'entrée à ce concert sur présentation du_ coupon
 nm° Z aux places du rez-de-chaussée el de la première galerie, à l'e rceplion du premier rang et des loges,
 auxquels ils ont droit moyennant un supplément de 1 fr. Les enfants au-dessous de dix ans paieront
 demi-place, — Il ne sera pas délivré de demi places pour la seconde galevie,
-
 Dès ce jour, cartes à l'avance de 9 à 6 h, au Victoria-Hall.
 Prière de ne pas entrer pendant l’execution des morceaux. — BUFFET au rez-de chaussée.
-Imprimerle H. Jarrys. Trellle, 4, Geneve VUN V P]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001234_002.tif"/>
-<page><![CDATA[Cours d’Instruments
-
+Imprimerle H. Jarrys. Trellle, 4, Geneve VUN V P
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001234_002.tif'/>
+        <page>
+          <![CDATA[Cours d’Instruments
 DE
-
 L’HARMONIE NAUTIQUE DE GENÈVE
-
 —— —apa——a ——
-
 Solfège — Cuivres — Clarinette — Saxophone Hautbois
 Cor anglais — Basson — Flûte.
-
 Directeur général : M. Aug. PIEYRE.
 Prix des cours de solfège, cuivres, clarimette, saxophone :
-
 5 fr. par mois.
-
 Les jeunes gens désireux de suivre ces cours peuvent s’inscrire tous
-
 les jours, de 11 heures à midi, auprès du Directeur, au Victoria-Hall.
-
 AVIS. — Pour être reçu membre non-exécutant de l’Harmonie
 Nautique on peut s’inscrire tous les jours chez le Concierge du
 Victoria-Hall ou par lettre adressée au Comité: le prix de la carte
 est de 8 fr. par an et donne droit à deux entrées pour chaque
-concert donné par l’Harmonie Nautique.]]></page>       
-        </p>
+concert donné par l’Harmonie Nautique.
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

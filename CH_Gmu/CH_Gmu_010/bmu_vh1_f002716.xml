@@ -1,230 +1,156 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>7me grand concert populaire<date when="27/03/1930"/></title>
-<series>1929-1930</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            7me grand concert populaire
+            <date when='27/03/1930'/>
+          </title>
+          <series>1929-1930</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002716</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Helaerts, G.</note>
+        <note>Kunz, A.</note>
+        <note>Karlen-Duret, E. [et al.] (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19300327"/>
-<title>7me grand concert populaire</title>
-<placeName key="Victoria Hall"/>
-<name key="1929-1930" type="series"/>
-<name key="Clérice, J."  type="person" role="cmp">Clérice, J.</name>
-<name key="Delmas"  type="person" role="cmp">Delmas</name>
-<name key="Popy, Francis" ref="https://muscat.rism.info/admin/people/30071122" type="person" role="cmp">Popy, Francis</name>
-<name key="Fehrmann, P."  type="person" role="cmp">Fehrmann, P.</name>
-<name key="Pierné, Gabriel" ref="https://muscat.rism.info/admin/people/18686" type="person" role="cmp">Pierné, Gabriel</name>
-<name key="Schubert, Franz" ref="https://muscat.rism.info/admin/people/111603" type="person" role="cmp">Schubert, Franz</name>
-<name key="Schumann, Robert" ref="https://muscat.rism.info/admin/people/131206" type="person" role="cmp">Schumann, Robert</name>
-<name key="Leidwai"  type="person" role="cmp">Leidwai</name>
-<name key="Corelli, Arcangelo" ref="https://muscat.rism.info/admin/people/30000734" type="person" role="cmp">Corelli, Arcangelo</name>
-<name key="Vuataz, Roger"  type="person" role="cmp">Vuataz, Roger</name>
-<name key="Fauré, Gabriel" ref="https://muscat.rism.info/admin/people/41731" type="person" role="cmp">Fauré, Gabriel</name>
-<name key="Furrer, Rich."  type="person" role="cmp">Furrer, Rich.</name>
-<name key="Meister, Gas."  type="person" role="cmp">Meister, Gas.</name>
-<name key="Büsser"  type="person" role="cmp">Büsser</name>
-<name key="Hug, F."  type="person" role="cmp">Hug, F.</name>
-<name key="Aeschbach, G."  type="person" role="cmp">Aeschbach, G.</name>
-<name key="Staz"  type="person" role="cmp">Staz</name>
-<name key="Helaerts, G. (dir.)"  type="person" role="int">Helaerts, G. (dir.)</name>
-<name key="Kunz, A. (dir.)"  type="person" role="int">Kunz, A. (dir.)</name>
-<name key="Faller, Albert (dir.)"  type="person" role="int">Faller, Albert (dir.)</name>
-<name key="Pochon (dir.)"  type="person" role="int">Pochon (dir.)</name>
-<name key="Karlen-Duret, E. (dir.)"  type="person" role="int">Karlen-Duret, E. (dir.)</name>
-<name key="La Lyre [de Genève]"  type="person" role="int">La Lyre [de Genève]</name>
-<name key="Freiheit"  type="person" role="int">Freiheit</name>
-<name key="Vorwärts"  type="person" role="int">Vorwärts</name>
-<name key="Union chorale du travail"  type="person" role="int">Union chorale du travail</name>
-<name key="Frohsinn"  type="person" role="int">Frohsinn</name>
-<name key="Helaerts, Henri"  type="person" role="int">Helaerts, Henri</name>
-<name key="Bodet (Mme)"  type="person" role="int">Bodet (Mme)</name>
-<name key="Vuataz, Roger"  type="person" role="int">Vuataz, Roger</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002716_001.tif"/>
-<page><![CDATA[r E        
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19300327'/>
+        <title>7me grand concert populaire</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1929-1930' type='series'/>
+        <name key='Clérice, J.' type='person' role='cmp'>Clérice, J.</name>
+        <name key='Delmas' type='person' role='cmp'>Delmas</name>
+        <name key='Popy, Francis' ref='https://muscat.rism.info/admin/people/30071122' type='person' role='cmp'>Popy, Francis</name>
+        <name key='Fehrmann, P.' type='person' role='cmp'>Fehrmann, P.</name>
+        <name key='Pierné, Gabriel' ref='https://muscat.rism.info/admin/people/18686' type='person' role='cmp'>Pierné, Gabriel</name>
+        <name key='Schubert, Franz' ref='https://muscat.rism.info/admin/people/111603' type='person' role='cmp'>Schubert, Franz</name>
+        <name key='Schumann, Robert' ref='https://muscat.rism.info/admin/people/131206' type='person' role='cmp'>Schumann, Robert</name>
+        <name key='Leidwai' type='person' role='cmp'>Leidwai</name>
+        <name key='Corelli, Arcangelo' ref='https://muscat.rism.info/admin/people/30000734' type='person' role='cmp'>Corelli, Arcangelo</name>
+        <name key='Vuataz, Roger' type='person' role='cmp'>Vuataz, Roger</name>
+        <name key='Fauré, Gabriel' ref='https://muscat.rism.info/admin/people/41731' type='person' role='cmp'>Fauré, Gabriel</name>
+        <name key='Furrer, Rich.' type='person' role='cmp'>Furrer, Rich.</name>
+        <name key='Meister, Gas.' type='person' role='cmp'>Meister, Gas.</name>
+        <name key='Büsser' type='person' role='cmp'>Büsser</name>
+        <name key='Hug, F.' type='person' role='cmp'>Hug, F.</name>
+        <name key='Aeschbach, G.' type='person' role='cmp'>Aeschbach, G.</name>
+        <name key='Staz' type='person' role='cmp'>Staz</name>
+        <name key='Helaerts, G.' type='person' role='int'>Helaerts, G.</name>
+        <name key='Kunz, A.' type='person' role='int'>Kunz, A.</name>
+        <name key='Faller, Albert' type='person' role='int'>Faller, Albert</name>
+        <name key='Pochon' type='person' role='int'>Pochon</name>
+        <name key='Karlen-Duret, E.' type='person' role='int'>Karlen-Duret, E.</name>
+        <name key='La Lyre de Genève' type='person' role='int'>La Lyre de Genève</name>
+        <name key='Freiheit' type='person' role='int'>Freiheit</name>
+        <name key='Vorwärts' type='person' role='int'>Vorwärts</name>
+        <name key='Union chorale du travail' type='person' role='int'>Union chorale du travail</name>
+        <name key='Frohsinn' type='person' role='int'>Frohsinn</name>
+        <name key='Helaerts, Henri' type='person' role='int'>Helaerts, Henri</name>
+        <name key='Bodet (Mme)' type='person' role='int'>Bodet (Mme)</name>
+        <name key='Vuataz, Roger' type='person' role='int'>Vuataz, Roger</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002716_001.tif'/>
+        <page>
+          <![CDATA[r E        
         </p>
     </body>
   </text>
 </TEI>
 RESRE ESL ESS â, RESRE
-
 @Üü©@ä<ä)@%äüëﬁ) a @%3Œää)@>ää)@ä@ü<
-
 ä% SIMS TM S n S 4K SPN A:{MN:—.
-
 | …ëä’ VILE DE Ss GENÈVE
-
- 
-
- 
-
- 
-
- 
-
- 
-
 VICTORIA-HALL SAISON 1929-1930
-
 Jeudi 27 Mars 1930
 à 20 h. 30
-
 1” Grand Goncert Poputaire
-
 —— Organisé sous les auspices du
-
 CONSEIL ADMINISTRATIF DE LA VILLE DE GENÈVE
-
- 
-
- 
-
- 
-
- 
-
 avec le bienveillant et gracieux concours de
-
 L'Harmonie “La Lyre”
-
 Direction : M. G. HELAERTS, professeur de musique
-
 À . °d9
 Männerchor “ Freiheit
 Direction : M. A. KUNZ, professeur au Conservatoire
-
 C ,,
 Frauenchor “ Vorwärts
 Direction : M”° Elisa KARLEN-DURET, prof. sup. au Conserv.
-
 Union Chorale du Travail
-
 Direction : M. Alb. FALLER, professeur de musique
-
 Sängerbund “Frohsinn ”
-
 Direction : M. POCHON, professeur de musique
-
- 
-
 M- Henri Helaerts, basson solo de l'Orch. Romand
-
 AA“‘e BOdQÎ, professeur de piano
-
 HE A RE A A RR CR R CIC
-
- 
-
 M. Roger Vuataz, cnpositeur.
-
 fera entendre au cours du Concert le nouvel instrument des
-
 Ondes musicales, de Maurice Martenot
-
 Instrument radio-électrique LE MARTENOT
 aux soins de la Maison Sautier & Iaeger
-
 ) 1E RORCE DE e
-
 CR
 S/ |
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Pendant l'exécution des morceaux, les portes seront fermées et le silence le plus
 absolu devra être observé, — Prière de ne pas faire les préparatifs de départ
 avant que le dernier morceau ne soit complètement exécuté.
-
- 
-
 ë44_
 RDN
-
- 
-
 LDIN
-
 CO E S E ETE RE
-
 DS el SID A D D A DS |
-
- 
-
-IMPRIMENIES POPULAIRES, GENÈVE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002716_002.tif"/>
-<page><![CDATA[[
-
- 
-
- 
- 
-
+IMPRIMENIES POPULAIRES, GENÈVE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002716_002.tif'/>
+        <page>
+          <![CDATA[[
 PROGRAMME
-
 PREMIÈRE PARTIE
-
 - MARGRHE ROMAINE ;; ° …… . J Crrrice
-
 (Arrang. G. Meister)
-
 . TIBÉRE, ouverture dramatique . - . . . . . - . . DELMas-PoPy
-
 ; (Arrang. J. Furgeot)
 Harmonie “ La Lyre”
-
 . TRUTZLIED, chœur d’ensemble . . . . . . . . . P. FEHRMANN
 “Freiheit ” et “Frohsinn”
 . SOLO DE CONCERT, pour basson . . . . . . . PIERNÉ
@@ -253,11 +179,12 @@ Sängerbund “ Frohsmn 2
 . WELTENFRIEDE, chœur d'ensemble. . . . . . . G. AESCHBACH
 “ Frohsinn ” et “ Freiheit ”
 . INTERMÈDE DRAMATIQUIE 4515 15 080 STAZ
-
-Harmonie “La Lyre”]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002716_003.tif"/>
-<page><![CDATA[Æ Le Martenot A
-
+Harmonie “La Lyre”
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002716_003.tif'/>
+        <page>
+          <![CDATA[Æ Le Martenot A
 Il y a du nouveau sous le soleil! En effet, depuis trente
 siècles l'ingénieuse industrie des civilisations successives n’a pu
 produire le son musical qu’au moyen de trois procédés dont
@@ -272,7 +199,6 @@ des savants, mais bien d’un instrument de musique doué d'une
 qualité de son supérieurement belle, d’une sensibilité miraculeuse,
 et qui obéit à la volonté de l’artiste, exprimant sa pensée, son
 émotion.
-
 L'auditeur est immédiatement saisi d’une impression de
 surnaturel. La sonorité qui sort de l’instrument est, en effet,
 soustraite aux conditions mécaniques de la production du son.
@@ -290,44 +216,34 @@ fait entendre qu’un son à la fois comme la voix humaine, comme
 la flûte oula clarinette, mais son étendue est considérable, compre-
 nant du grave à l'aigu tous les sons que notre oreille peut perce-
 voir.
-
 «Le Martenot », présenté pour la première fois en mai 1928,
 à l'Opéra de Paris, a connu, partout où son inventeur le fit
 entendre, un succès prodigieux. Fabriqué par la Manufacture
 de piano GAVEAU, à Paris, cet instrument étonnant offre dès
 maintenant par son perfectionnement des possibilités nouvelles à
 l'imagination des compositeurs.
-
-Roger VUATAZ.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002716_004.tif"/>
-<page><![CDATA[VICTORIA-HALE
+Roger VUATAZ.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002716_004.tif'/>
+        <page>
+          <![CDATA[VICTORIA-HALE
 Samedi 1e 14 Avril
-
 à 20 beures er demi
-
- 
-
 S Grancl C0ncert P
-
 P opulaire
-
 de la Ville de Genève
-
 avec le gracieux
-
 concours de la
-
 SOCIÉTÉ DE MUSIQUE
 SYMPHONIQUE
-
 Directeur :
-
 M. Alb. Paychère
-
 Professeur
-
-Le programme paraitra prochainement]]></page>       
-        </p>
+Le programme paraitra prochainement
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

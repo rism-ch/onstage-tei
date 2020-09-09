@@ -1,175 +1,170 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>La semaine à Genève<date when="24/12/1913"/></title>
-<series>1913-1914</series>
-<placeName>Genève</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            La semaine à Genève
+            <date when='24/12/1913'/>
+            <date when='31/12/1913'/>
+          </title>
+          <series>1913-1914</series>
+          <placeName>Genève</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU DG4 F003085</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Barras</note>
+        <note>Alénus (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19131224
-19131231"/>
-<title>La semaine à Genève</title>
-<placeName key="Genève"/>
-<name key="1913-1914" type="series"/>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Massenet, Jules" ref="https://muscat.rism.info/admin/people/84264" type="person" role="cmp">Massenet, Jules</name>
-<name key="Feydeau, Georges"  type="person" role="cmp">Feydeau, Georges</name>
-<name key="Audran, Edmond" ref="https://muscat.rism.info/admin/people/325213" type="person" role="cmp">Audran, Edmond</name>
-<name key="Boucheron"  type="person" role="cmp">Boucheron</name>
-<name key="Bach, Johann Sebastian" ref="https://muscat.rism.info/admin/people/2539" type="person" role="cmp">Bach, Johann Sebastian</name>
-<name key="Wolfrum"  type="person" role="cmp">Wolfrum</name>
-<name key="Daquin, Louis-Claude" ref="https://muscat.rism.info/admin/people/30013032" type="person" role="cmp">Daquin, Louis-Claude</name>
-<name key="Gevaert, François-Auguste" ref="https://muscat.rism.info/admin/people/60726" type="person" role="cmp">Gevaert, François-Auguste</name>
-<name key="Guilmant, Alexandre" ref="https://muscat.rism.info/admin/people/93077" type="person" role="cmp">Guilmant, Alexandre</name>
-<name key="Franck, Johann Wolfgang" ref="https://muscat.rism.info/admin/people/30005965" type="person" role="cmp">Franck, Johann Wolfgang</name>
-<name key="Franck, César" ref="https://muscat.rism.info/admin/people/70009" type="person" role="cmp">Franck, César</name>
-<name key="Leoncavallo, Ruggero" ref="https://muscat.rism.info/admin/people/30007109" type="person" role="cmp">Leoncavallo, Ruggero</name>
-<name key="Crosti, Eugène"  type="person" role="cmp">Crosti, Eugène</name>
-<name key="Willner, Alfred M." ref="https://muscat.rism.info/admin/people/405076" type="person" role="cmp">Willner, Alfred M.</name>
-<name key="Bodansky, Robert" ref="https://muscat.rism.info/admin/people/41009838" type="person" role="cmp">Bodansky, Robert</name>
-<name key="Lehár, Franz" ref="https://muscat.rism.info/admin/people/86827" type="person" role="cmp">Lehár, Franz</name>
-<name key="Flers, R. de"  type="person" role="cmp">Flers, R. de</name>
-<name key="Caillavet, A. de"  type="person" role="cmp">Caillavet, A. de</name>
-<name key="Bénédic, J."  type="person" role="cmp">Bénédic, J.</name>
-<name key="Morel, Ernest"  type="person" role="cmp">Morel, Ernest</name>
-<name key="Gounod, Charles-François" ref="https://muscat.rism.info/admin/people/80479" type="person" role="cmp">Gounod, Charles-François</name>
-<name key="Carré"  type="person" role="cmp">Carré</name>
-<name key="Barbier, J."  type="person" role="cmp">Barbier, J.</name>
-<name key="Rossini, Gioachino" ref="https://muscat.rism.info/admin/people/63766" type="person" role="cmp">Rossini, Gioachino</name>
-<name key="Blaze, Castil"  type="person" role="cmp">Blaze, Castil</name>
-<name key="Willy"  type="person" role="cmp">Willy</name>
-<name key="Raph"  type="person" role="cmp">Raph</name>
-<name key="Willner"  type="person" role="cmp">Willner</name>
-<name key="Grünbaum  Labiche, Eugène" ref="https://muscat.rism.info/admin/people/20002219" type="person" role="cmp">Grünbaum  Labiche, Eugène</name>
-<name key=""  type="person" role="cmp"></name>
-<name key="Sullivan"  type="person" role="int">Sullivan</name>
-<name key="Simard"  type="person" role="int">Simard</name>
-<name key="Varlèze"  type="person" role="int">Varlèze</name>
-<name key="Charmat"  type="person" role="int">Charmat</name>
-<name key="Dorska (Mme)"  type="person" role="int">Dorska (Mme)</name>
-<name key="Mahlet (Mme)"  type="person" role="int">Mahlet (Mme)</name>
-<name key="Martens (Mme)"  type="person" role="int">Martens (Mme)</name>
-<name key="Baumlé (Mme)"  type="person" role="int">Baumlé (Mme)</name>
-<name key="Cirque Rancy"  type="person" role="int">Cirque Rancy</name>
-<name key="Barras (dir.)"  type="person" role="int">Barras (dir.)</name>
-<name key="Alénus"  type="person" role="int">Alénus</name>
-<name key="Sullivan"  type="person" role="int">Sullivan</name>
-<name key="Simard"  type="person" role="int">Simard</name>
-<name key="Varlèze"  type="person" role="int">Varlèze</name>
-<name key="Mirès"  type="person" role="int">Mirès</name>
-<name key="Descombes"  type="person" role="int">Descombes</name>
-<name key="Charmat"  type="person" role="int">Charmat</name>
-<name key="Rudolf"  type="person" role="int">Rudolf</name>
-<name key="Flavien"  type="person" role="int">Flavien</name>
-<name key="Roussel, F."  type="person" role="int">Roussel, F.</name>
-<name key="Deheselle"  type="person" role="int">Deheselle</name>
-<name key="Saint-Germier (Mme)"  type="person" role="int">Saint-Germier (Mme)</name>
-<name key="Gavelle (Mme)"  type="person" role="int">Gavelle (Mme)</name>
-<name key="Kervan, A."  type="person" role="int">Kervan, A.</name>
-<name key="Mico"  type="person" role="int">Mico</name>
-<name key="Holtzer, Ch."  type="person" role="int">Holtzer, Ch.</name>
-<name key="Opalfvens (Mme)"  type="person" role="int">Opalfvens (Mme)</name>
-<name key="Schneider, A."  type="person" role="int">Schneider, A.</name>
-<name key="Hellen (Mme)"  type="person" role="int">Hellen (Mme)</name>
-<name key="Valdine (Mme)"  type="person" role="int">Valdine (Mme)</name>
-<name key="Barblan, Otto  (dir.)" ref="https://muscat.rism.info/admin/people/5298" type="person" role="int">Barblan, Otto  (dir.)</name>
-<name key="Carlita (Mme)"  type="person" role="int">Carlita (Mme)</name>
-<name key="Couderc (Mme)"  type="person" role="int">Couderc (Mme)</name>
-<name key="Sigaud"  type="person" role="int">Sigaud</name>
-<name key="Martinenq"  type="person" role="int">Martinenq</name>
-<name key="Lansac (dir.)"  type="person" role="int">Lansac (dir.)</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f003085_001.tif"/>
-<page><![CDATA[!.'lf
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19131224'/>
+        <date when='19131231'/>
+        <title>La semaine à Genève</title>
+        <placeName key='Genève'/>
+        <name key='1913-1914' type='series'/>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Massenet, Jules' ref='https://muscat.rism.info/admin/people/84264' type='person' role='cmp'>Massenet, Jules</name>
+        <name key='Feydeau, Georges' type='person' role='cmp'>Feydeau, Georges</name>
+        <name key='Audran, Edmond' ref='https://muscat.rism.info/admin/people/325213' type='person' role='cmp'>Audran, Edmond</name>
+        <name key='Boucheron' type='person' role='cmp'>Boucheron</name>
+        <name key='Bach, Johann Sebastian' ref='https://muscat.rism.info/admin/people/2539' type='person' role='cmp'>Bach, Johann Sebastian</name>
+        <name key='Wolfrum' type='person' role='cmp'>Wolfrum</name>
+        <name key='Daquin, Louis-Claude' ref='https://muscat.rism.info/admin/people/30013032' type='person' role='cmp'>Daquin, Louis-Claude</name>
+        <name key='Gevaert, François-Auguste' ref='https://muscat.rism.info/admin/people/60726' type='person' role='cmp'>Gevaert, François-Auguste</name>
+        <name key='Guilmant, Alexandre' ref='https://muscat.rism.info/admin/people/93077' type='person' role='cmp'>Guilmant, Alexandre</name>
+        <name key='Franck, Johann Wolfgang' ref='https://muscat.rism.info/admin/people/30005965' type='person' role='cmp'>Franck, Johann Wolfgang</name>
+        <name key='Franck, César' ref='https://muscat.rism.info/admin/people/70009' type='person' role='cmp'>Franck, César</name>
+        <name key='Leoncavallo, Ruggero' ref='https://muscat.rism.info/admin/people/30007109' type='person' role='cmp'>Leoncavallo, Ruggero</name>
+        <name key='Crosti, Eugène' type='person' role='cmp'>Crosti, Eugène</name>
+        <name key='Willner, Alfred M.' ref='https://muscat.rism.info/admin/people/405076' type='person' role='cmp'>Willner, Alfred M.</name>
+        <name key='Bodansky, Robert' ref='https://muscat.rism.info/admin/people/41009838' type='person' role='cmp'>Bodansky, Robert</name>
+        <name key='Lehár, Franz' ref='https://muscat.rism.info/admin/people/86827' type='person' role='cmp'>Lehár, Franz</name>
+        <name key='Flers, R. de' type='person' role='cmp'>Flers, R. de</name>
+        <name key='Caillavet, A. de' type='person' role='cmp'>Caillavet, A. de</name>
+        <name key='Bénédic, J.' type='person' role='cmp'>Bénédic, J.</name>
+        <name key='Morel, Ernest' type='person' role='cmp'>Morel, Ernest</name>
+        <name key='Gounod, Charles-François' ref='https://muscat.rism.info/admin/people/80479' type='person' role='cmp'>Gounod, Charles-François</name>
+        <name key='Carré' type='person' role='cmp'>Carré</name>
+        <name key='Barbier, J.' type='person' role='cmp'>Barbier, J.</name>
+        <name key='Rossini, Gioachino' ref='https://muscat.rism.info/admin/people/63766' type='person' role='cmp'>Rossini, Gioachino</name>
+        <name key='Blaze, Castil' type='person' role='cmp'>Blaze, Castil</name>
+        <name key='Willy' type='person' role='cmp'>Willy</name>
+        <name key='Raph' type='person' role='cmp'>Raph</name>
+        <name key='Willner' type='person' role='cmp'>Willner</name>
+        <name key='Grünbaum  Labiche, Eugène' ref='https://muscat.rism.info/admin/people/20002219' type='person' role='cmp'>Grünbaum Labiche, Eugène</name>
+        <name key='' type='person' role='cmp'/>
+        <name key='Sullivan' type='person' role='int'>Sullivan</name>
+        <name key='Simard' type='person' role='int'>Simard</name>
+        <name key='Varlèze' type='person' role='int'>Varlèze</name>
+        <name key='Charmat' type='person' role='int'>Charmat</name>
+        <name key='Dorska (Mme)' type='person' role='int'>Dorska (Mme)</name>
+        <name key='Mahlet (Mme)' type='person' role='int'>Mahlet (Mme)</name>
+        <name key='Martens (Mme)' type='person' role='int'>Martens (Mme)</name>
+        <name key='Baumlé (Mme)' type='person' role='int'>Baumlé (Mme)</name>
+        <name key='Cirque Rancy' type='person' role='int'>Cirque Rancy</name>
+        <name key='Barras' type='person' role='int'>Barras</name>
+        <name key='Alénus' type='person' role='int'>Alénus</name>
+        <name key='Sullivan' type='person' role='int'>Sullivan</name>
+        <name key='Simard' type='person' role='int'>Simard</name>
+        <name key='Varlèze' type='person' role='int'>Varlèze</name>
+        <name key='Mirès' type='person' role='int'>Mirès</name>
+        <name key='Descombes' type='person' role='int'>Descombes</name>
+        <name key='Charmat' type='person' role='int'>Charmat</name>
+        <name key='Rudolf' type='person' role='int'>Rudolf</name>
+        <name key='Flavien' type='person' role='int'>Flavien</name>
+        <name key='Roussel, F.' type='person' role='int'>Roussel, F.</name>
+        <name key='Deheselle' type='person' role='int'>Deheselle</name>
+        <name key='Saint-Germier (Mme)' type='person' role='int'>Saint-Germier (Mme)</name>
+        <name key='Gavelle (Mme)' type='person' role='int'>Gavelle (Mme)</name>
+        <name key='Kervan, A.' type='person' role='int'>Kervan, A.</name>
+        <name key='Mico' type='person' role='int'>Mico</name>
+        <name key='Holtzer, Ch.' type='person' role='int'>Holtzer, Ch.</name>
+        <name key='Opalfvens (Mme)' type='person' role='int'>Opalfvens (Mme)</name>
+        <name key='Schneider, A.' type='person' role='int'>Schneider, A.</name>
+        <name key='Hellen (Mme)' type='person' role='int'>Hellen (Mme)</name>
+        <name key='Valdine (Mme)' type='person' role='int'>Valdine (Mme)</name>
+        <name key='Barblan, Otto' ref='https://muscat.rism.info/admin/people/5298' type='person' role='int'>Barblan, Otto</name>
+        <name key='Carlita (Mme)' type='person' role='int'>Carlita (Mme)</name>
+        <name key='Couderc (Mme)' type='person' role='int'>Couderc (Mme)</name>
+        <name key='Sigaud' type='person' role='int'>Sigaud</name>
+        <name key='Martinenq' type='person' role='int'>Martinenq</name>
+        <name key='Lansac' type='person' role='int'>Lansac</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f003085_001.tif'/>
+        <page>
+          <![CDATA[!.'lf
 |
-
 se I n…….…m…, arjfit ”…”MHHMU{|}}NM|Wl| PE OI AT
 _Wﬁm "iﬂïW,, d :ﬂ '" l”” î|m
 e ec
-
 .“.....lmumm.!!!9…"”lîﬂllll…“…v |"Ëü""""m""“"”"l'…""'
 W
-
 ‘ …… ………‘ k / | !:{Ê:lÊ'I!Ë!Æÿ'!{[M -E Ï '":"‘::m:I.'ÏÏ!!Ifllﬂll“…'
 A G :…:n’ ""‘"”"Ü rus /
-
 st
 CT
-
 ‘ .: ml”l”l-'m:lluluu , l
 R %……nm……“| I| )
-
 ÿ (U 47000
 |“ mn …l| … . |ﬁ!i ll_ lä… ;u|«ii ï A }
-
 u …h,, u”lu uiul'ului,
-
 Tele
-
 UM lll ||l
-
 lulll|llllllllllllIlllllIlllllll'llIlll|Illllllllllillllllllll]lï
-
 Notre sympathique régisseur général et professeur de diction.
-
 (Ph. d'Art F-H. Jullien, Cours-de-hive 15, Genève)
-
 … T
-
 No 12-635.— Du 24 au 31 Deceml}re 1913 .|h
-
 Hl | U
 1 | Ns se
 ” fs
-
-LU mH J]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f003085_002.tif"/>
-<page><![CDATA[A propos des Fètes
+LU mH J
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f003085_002.tif'/>
+        <page>
+          <![CDATA[A propos des Fètes
 de Noël et de Nouvel-An
-
- 
-
- 
-
 C'est le moment de l'année'où l’on songe à faire plaisiv à ses
 amis et à y aller de son cad au, petit ou grand.
 Que ceux qui, rentiers, propriétaires et autres privilégiés par
-
 le sort, disras de largés ressources et qui, pour cette raison,
 ““'—*'Îc—çoi\eﬁlwrcux et attrayants catalogues des grandes
 maisons de l'étranger auxquelles ils seraient tentés de s'adres-
@@ -188,17 +183,10 @@ Genève il est facile de se rendre compte que nous n’exagérons
 rien et que des maisons de tous genres, choisies parmi les
 meilleures de la place, y figurent. Ne manquez pas, chers lec-
 teurs, de les honorer de votre bonne visite !
-
 U
-
 %‘
-
 La Semaine à Genève
-
- 
-
 Sait tout et se trouve partout
-
 renseigne le public d'une façon précise sur toutes les manifes-
 tations artistiques. musicales, littéraires, scientifiques, spor-
 tives, religieuses, sociales, politiques, etc. qui se succèdent à
@@ -209,69 +197,26 @@ Théâtrales, etc. La Semaine à Genève donne la liste des Cultes,
 des Assemblées de Sociétés, les heurses d’ouverture des Musées
 et Etablissements publics, ete. Elle tient lieu de Memento
 quotidien.
-
 Dans le but de compléter les renseignements qu'elle donne
 et d'être utile aux diverses sociétés intéressées, la Direction de
 La Semaine à Genève prie MM. les Présidents de celles-ci de
 lui faire teniv chaque semaine les renseignements nécessaires :
-
 26, Boulevard Georges-Favon, 20, à Genève
-
-  
-  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-   
-   
-   
-  
- 
-  
-   
-  
- 
- 
- 
- 
- 
- 
- 
-  
- 
-
-p]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f003085_003.tif"/>
-<page><![CDATA[559-7
-
- 
-
- 
-
+p
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f003085_003.tif'/>
+        <page>
+          <![CDATA[559-7
 Théâtres et Concerts.
-
 Bureaux à 7 heures !/2. — Rideau à 8 heures !/4.
 O DÊ D LOHENGRIN, opéra en 4 actes. Paroles fran-
-
 caises de Ch. Mutler. — Musique e Richard Wagner.
 DISTRIBUTION DE LOHENGRIN
 Lohengrin . . MM. Sullivan, Elsa Mmes Dorsha
 Frédéric Simard Ortrude Mahlet
 Le Roi Varlèse Pases Ç Martens,
 Le Héraut Charmat, © ( Baumle
-
 É Maison Communale de Plainpalais, rue de Caronge,
 CO N IÎDIIÎ (Tél. 61.20) — Bur. de location ouvert de 10 à 5h.
 Passage des Lions. (Téléphone 6195).
@@ -282,19 +227,14 @@ diverses et Omnia Cinéma Pathé (Voyez p. 18).
 ; Spectacle de Music-Hall. | ;
 ue de Carouge, à 8 heures !/2 représentalion.
 G‘,\S‘HQ Îﬂ ËÎK Location de 10 à 8 heures. — Téléphone n. 20-37.
-
 Un Fil à la Patte, vaudeville en 3 actes de Georges Feydeau.
-
 MERI IN Bd du Pont-d’Arve, ouvert de 10 à 12 h.… de 3 à
 AÊﬂN SK‘Ï"N(‘ RK 6 h. 1/>, de 8 h 1/g à minuit. — Orchestre. buffet.
-
 A 9 h. Réveillon de Noël à minuit illumination de l’arbre. —
 Chœurs, solos. — 2 h. grande farandole décorée : bataille de ser-
 pentins et confeltis
-
 MASQ 29, rue du Rhône. — Exposition permanente de
 l N tableaux.
-
 Les Cinémas permanents.
 Cinéma Excelsior, Corraterie. — Tous les jours, spectacle de 3 à 11 h.
 Instructif et divertissant. — Prix des places : 1,20, 0.80 et 0.50.
@@ -304,88 +244,44 @@ Cinéma Mont-Blanc. 11. Rue de Berne. — Spectacle tous les jours,
 de 2 h. 30 à 11 h. soir. — Places à fr. 0.80 0.50.
 Cinéma Central. 23, Rue de Chantepoulet. — Spectacle tous les jours,
 de 3 h. à 11 h. soir. — Places à fr. 1,20, 0,80, 0,50.
-
 Thé
 Juvez CEYLAN,STEINMANN ; paquets bleus FR. o,60
-
- 
-
 P.-L.-W. Hiver 1912-13. — Relations rapides entre Paris el
 Genève (Trains express, 1re et 2me classes: trains express [re, Zme e{ 3me
 classes voilures à Intercireulation).
-
 t/ler. Départl de Paris : 8 h. 20 (V. R. Paris-Dijon). — 21 h. 10 (1re, Qme,
 Jme classes. lils, salon. vagon-lils). Arrivée à Genève : 18 h. 49. - 7 h. 37
 Retour. Départ de Genève 12 h. 30 (V. R. Dijon-Paris). — 20 h. 15 (4re,
-
 2me el 3me classes. LS V Arniyéea Pans 9017015
-
- 
-
- 
-
 Café Restaurant
-
- 
-
 G. FRICK, propriétaire
 19, RUE PLANTAMOUR, 19 d u K ur sa al
-
 Nouvelle et jolie salle de restaurant entièrement neuve — Service de
 restauration à prix fixe Fr. 1,50, 2, 2,50 et à la carte. — Excellente
-
- 
-
- 
-
-cuisine ct vins de 1er choix — Soupers ,après les spectacles, ouvert jusqu’à 3 hèures.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f003085_004.tif"/>
-<page><![CDATA[LES MENAGERES PRATIQUES
-
+cuisine ct vins de 1er choix — Soupers ,après les spectacles, ouvert jusqu’à 3 hèures.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f003085_004.tif'/>
+        <page>
+          <![CDATA[LES MENAGERES PRATIQUES
 ne cuisent qu'avec
 T’A U TO-CUISEUX?
-
 Néofocarium Columba
-
 Grande économie de temps et d'argent. — Amélioration des aliments. — Commodite.
 Propreté. Excessivement pratique pour soins aux malades et enfants. —
 DEMANDEZ LE PROSPEEUS —{Ÿ——
-
 Seul fabricant : Marc SAUTER rue des Granges, GEVÈVE
-
- 
-
- 
-
 Ecole permanente de_…  Téléptont 511 VÊTEMENTS SUR MESURE
-
 en tous genres
-
 Sténﬂ'nactylngl‘aphie Hautes Nouveautés françaises et anglaises
 18, Avenue du Mail ALFRED AEBI
-
 Prochainement ouverture Marchand-Tailleur
-
 des nouveaux Cours © GENEVE - 51, rue du Stand - GENÈVE
 collectifs o o o o : ;
 Grand choix en Vêtements confectionnés provenant
-
 Enscription dès ce jour des meilleures fabriques suisses
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Pour nos abonnés du dehors
-
 Tableau de la Troupe
-
 Chef d’Orchestre. MM. Barras. Trial. MM. H. Roussel.
 Second chef. Alénus. Comique Deheselle.
 Régisseur général. J. Jacquin. _ Soprano dram. Mwes Dorska.
@@ -395,97 +291,48 @@ Ténor d. c. Mirès. Martens.
 Ténor léger. Descombes. Baumlé.
 Baryton opéra. Simard. Divette. À. Kervan.
 Baryton. Charmat. Duègne. Mico.
-
 Basse chantante. Rudolf. Maître ballet. Ch. Holtzer.
 Basse noble. Varlèze. Danseuse noble. Opalfvens.
 Seconde basse. Flavien. Danseuse. À. Schneider.
-
- 
-
 ; HORLOGERIE SOIGNÉE
 Traitement de la chevelure mm O es
-
 —— PAR LES MAsSAgES — Ë
 SUIVANT la MÉTHODE et avec les PRODUITS ZEnTGÏ.ER_ Frères
 NEVE
-
 de M"* C. PASCHE de Vevey Place Longemalle, 2, 1ex étage
-
 Élève à Genève :
 me Ch. BARBIER
 M A‘ DUGHABL;E Bue SI-O…‘S' 5 Successeur
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Vessie
-
 Maladies urinaires ‘’Peins
-
 Vous qui souffrez de ces organes ou de maladies secrètes, prostatites,
 douleurs et envies fréquentes d’uriner, pertes séminales, hémorrhoïdes,
 ete., demandez en expliquant votre mal à M. Bimpage, pharmacien.
 Genève, rue de Carouge, 13, détails sur les remèdes d’un célèbre spé-
 cialiste et les preuves que ces remèdes végétaux peuvent vous guérir
-complètement et rapidement.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f003085_005.tif"/>
-<page><![CDATA[5
+complètement et rapidement.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f003085_005.tif'/>
+        <page>
+          <![CDATA[5
 AF
-
 MERCREDI, 25 Décembre
-
 360-6 NOEL
-
-   
- 
-
-   
-
-   
-
 l/‘ ÿ
-
-  
-    
-
- 
-
- 
-
- 
-
 Théâtres et Concerts.
-
 Bureau à 7 heures !/2. — Rideau à 8 heures !/s.
 O DE DA MISS HELYETT, opérette en 3 actes de M.
 Boucheron. —Musique d’Audran.
 DISTRIBUTION DE MISS HELYETT
-
 Paul Landrin . . MM. Charmat. fetelyett. - Mmes Martens,
-
 Smithson . . Deheselle. Manuella es A. Kervan.
-
 Puycardas. . . ; Descombes Le senora e A Mico
-
 James . ; ; Roussel. Norette . . ; Valdine
-
 Baccarel. . S 4E Flavien | Ida : st Hellen.
 O lVI Ë D”Î— Maison Communale de Plainpalais, rue de Carouge.
-
 |_= (Tél. 61.20). — Burean de location ouvert de 10
 à 5 h., Passage des Lions (Tél. 6195). — 8 heures 1Ja.
-
 Reläche.
 A DO LLO (Cirque Rancy), 8 h. 1/2 : Représent. Attraction.
 diverses et Omnia Cinéma Pathé (Voyez p. 18).
@@ -509,77 +356,42 @@ Entrée par le péristyle de la cathédrale.
 Grand Salle de la Nouvelle Ecole des Pâquis (entrée rue du
 Môle), à 3 h. — Arbre de Noël organisé par le Cercle Alsacien-
 Lorrain de Genève.
-
 ŒSI NO ng [DD[ |2| ll:‘ Îl« \Ll       
         </p>
     </body>
   </text>
 </TEI>l”Îl'l':\l\l"‘l':“| ‘lf."ll:l:;‘\ nP—‘l\l illêllu\…P;“[ l;‘[l'”'.ll"1(lll.Î:
-
 crand Dal.
-
 3 h. — Arbre de Noël de l’Ecole imanche de
-
 3“.Œ([NÏDAŒ l‘l<]'\:1||g‘.‘llL;ilti‘uf(l'l’<\‘u;::llalil:'e. . ….
-
 E 8 h. — Arbre de Noël organisé par l’Evangélisa-
-
 DËf0QMA“ON lin:| l’u[mî:tlillfe.(l‘<]nlr::v l(i’llui'l‘l.… . ..
-
 MAISQN MGOS:Æ‘.:.|ræ du Rhône. — Exposilion permanente de
 tableaux.
-
 ä Les Cinémas permanents
 Cinéma Central. 23, Rue de Chantepoulet. — Speclacle tous les jours,
 de 3 h. à 11 h. soir. — Places à fr. 1.20, 0.80. 0,50.
 Cinéma Royal Biograph. 11. Rue du Marché. — Spectacle lous les
 Jours. de 3 h. à 11 h. soir. — Places à fr. 1,20. 0.80. 0.50.
-
 CIGARETTEs LAURENS
-
 Marques connues et de répulation mondiale :
-
- 
-
 Royal-Derby — Figaro — Kaiser — Hidalga — Darling
-= Tanagra — Prince de Monaco_ ——]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f003085_006.tif"/>
-<page><![CDATA[LAVAGE CHIMIQUE - TEINTURERIE
-
+= Tanagra — Prince de Monaco_ ——
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f003085_006.tif'/>
+        <page>
+          <![CDATA[LAVAGE CHIMIQUE - TEINTURERIE
 H. Hintermeister
 TERLINDEN & C“, Successeur
-
 5, Rue du Commerce — Rue Bonivard, 2
 Maison de tout premier ordre GDS SL Ouvrage très soigné
-
- 
-
- 
-
- 
-
- 
-
- 
-
 SIZ ee)
-
 GO
-
- 
-
 15, Place du Molard (à côté de la station des tramways) ——
-
- 
-
 Ë Maison recommandée
-
 O(s g@o
-
- 
-
 Les progrès du monstre.
-
 Le cinématographe continue la série de ses exploits. C’est à la médecine
 maintenant qu’il s’attaque. Un certain docteur Hirsch, de New-York,
 vient, paraît-il, d’inventer un appareil qui, par le moyen des rayons X,
@@ -587,17 +399,7 @@ permet d’enregistrer sur les films les mouvements du cœur et de tous les
 organes du corps humain ! Il y a de belles séances en perspective. Après
 tout, cela vaudra mieux que les scénarios stupides ou révoltants qui
 empoisonnent le çoût du public.
-
 (Le Monde Artiste, 48, rue Cambon, Paris.)
-
- 
-
- 
-
- 
-
- 
-
 {àm&bﬁxﬂâæ»NäbN&àw/ævmsæmâæwæawâbwâæ‘wævwäbwâä‘?bæ>ﬁëî
 % PADIF S and GENTFFEMEN S Ë
 î =11 9L;, Ê
@@ -608,50 +410,33 @@ $ é E Z
 ; SE P G 2
 % FHitchens et Keck %
 °â A e e % GENEVE |Ë
-
- 
-
- 
-
 SEs SS S Es S RS RS S S S TS HS E
 @l@@E}@Ê]Œ@ËIÏ]@IÈIIÏ|@@@[Ë]Œ@@@@@@@EÊMÏ!@IÏ]IË(ËŒIË@[ËI[Ëæ
-
- 
-
 Ël Installation de Gaz — Lumière et Sonneries éleciriques lË
 (=] IE (=]
 ;  A.BORNET &C" ;
 @\ , Rue et Place de Hollande et Rue du Stand, 59 f
 (m) PE
-
 Ë| CONCESSIONNAIRE DE LA VILLE DE GENÈVE -- GRAND CHOIX D’APPAREILS EN MAGASIN Ë
-
-ms]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f003085_007.tif"/>
-<page><![CDATA[JEUDI, 26 Décembre
-
+ms
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f003085_007.tif'/>
+        <page>
+          <![CDATA[JEUDI, 26 Décembre
 361-5 St Etienne.
-
- 
-
- 
-
 Théâtres et Concerts.
-
 Bureaux à 7 heures 1/9. — Rideau à 7 heures 3/4.
 O D E PAILLASSE, drame lyrique en 2 actes de Léon-
 cavallo. Traduction francaise de Eugène Crosti.
 DISTRIBUTION DE PAILLASSE
-
 Canior MM. Sullivan. Nedda. ‘ Mmes Dorska
 Tonio . : Rudolf. Peppe Thierry
 Sylvio. Charmat Paysans, Paysannes, Fidèles
 MIREILLE, opéra-comique en 3 acles et 4 tableaux, tiré du
 poème provencal de F. Mistral. Poème de M. Carré. — Musique
-
 de Ch. Gounod.
 DISTRIBUTION DE MIREILLE
-
 Vincent MM. Mires. | Mireille Mmes St-Germier
 Ourrias Simard | Taven. . Ë Mico
 Ramon Rudolf. Andreloun ; E Martens
@@ -661,10 +446,8 @@ Ambroise . . ° Flavien | Clémence ; Baumle
 5 h. Passage des Lions (Tél. 61.95). — 8 heures 19
 Matlinée et soirée : Le Grillon, comédie en 3 actes de Franc-
 mesnil. —- Musique de Massenel.
-
 A DO LL (Cirque Rancy), 8 b. /> : Représent. Attraclions
 diverses el Omnia Cinéma Pathé (Voyez p. 18).
-
 Speclacle de Music-Hall.
 Rue de Carouge, à 8 heures 1/2, représentation. —
 (ÊÈINQ Ïﬂ ËÏK Location de 10 à 8 heures. f/'l‘tîh'-!plmm‘ n. 20-37
@@ -673,127 +456,57 @@ Aﬂ[_nl SKA‘"Nù RIN Bd du Pont-d’Arve, ouvert de 10 à 12 h… de 3 à
 CAN K 6. 1/2,de 8 h. !/2 à minuit. Orchestre. buffet.
 2 h 30, malinée enfantine. — Arbre de Noël. — Attractions
 diverses. — Le soir l’établissement sera fermé.
-
 ŒSINO çDl[DD[ îî|g[f]l]«“|l::-…. Ë Al.hf'““ de Nni_'-l[ de I.l.‘::î“\l. '”ll“—
-
 DÉFORMATION 57025 cr e P
-
 MAiS°N M008 Î—Î9—tl‘=l*l* llllll\|{hmw. — Acluellement : Exposilion
 de tableaux.
-
 Les Cinémas permanents
-
 Cinéma Mont-Blanc, 11, ue de Berne. — Spectacle tous les Jours de
 2 b. 30 à 11 h. soir. — Places à 0.80, 0.50.
 Cinéma Central, 23. Rue de Chantepoulet. — Spectacle tous les jours
 de 3 h. à 11 h. soir. — Places à fr. 1,20, 0.80, 0,50.
 Thé
-
 Buvez CEYLAN STEINMANN ; paquels bleus FR. O,60
-
- 
-
 La Fabrique de Cigarettes égyptiennes
-
 ILAURENS
-
 est la plus importante d’Egypte.
-
 ECOLE plGlE Comptabilité, sténographie
-Dactylographle, Commerce, cte]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f003085_008.tif"/>
-<page><![CDATA[®Ë… —— — AN
-
+Dactylographle, Commerce, cte
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f003085_008.tif'/>
+        <page>
+          <![CDATA[®Ë… —— — AN
 DW>ZÛœ Ë>O>!Zæ
-
 Gw©œD & ®wm_Ë…
-
 …\Aæ
-
 e
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Grande Exposition de
-
 . JOUETS-ÉTRENNES
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 | £ ?=&8 Ë=— >Ëä…m DE NOËL
-f | e ân\]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f003085_009.tif"/>
-<page><![CDATA[PE
-
- 
-
+f | e ân\
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f003085_009.tif'/>
+        <page>
+          <![CDATA[PE
 8 bis
-
-  
- 
-
- 
-
- 
-   
- 
-  
-
 E
 =
-
 EF‘ŒS
 ; SS Æ
 e t I
-
 | 72 sŸ e
 Æ /| \ $ES BONNES ADRESSES ?ä ‘
 L;ng@ é>  ceneve ‘m
-
 —0
 , LA SEMAINE A GENÈVE PRÉSENTE
 2
 =h <
-
- 
-    
-
 Maisons recommandées classées par ordre professionnel
-
 Téléphone. , Voir pages.
 3122 ACADEMIE DE COIFFURE. Emile Bricage, 3, Rue des Allemands 15
 2246  AFFICHAGE. Société générale d’atfichage. 60. Rue du Stand
-
 ARCHITECTE, Ch. Engeels, 13, Boulevard des Philosophes 23
 1098 ARTS DÉCORATIFS. (Spécialités pour) B. Delarue. 38. R. du Marché 28
 50 BLANC. Maison Paisant-l’Huillier, 2, Rue Centrale. …. rr 10
@@ -801,13 +514,10 @@ ARCHITECTE, Ch. Engeels, 13, Boulevard des Philosophes 23
 4774 BRASSERIE Genevoise (Grande), Ed. Monnard. 42, Rue du Rhône 28
 6930  BROSSERIE. Emile Vetter, 43, Rue du Rhône ; E 20
 3894 CAISSE D’EPARGNE du-Canton de Genève. 8. Rue Petitot 20
-
 6757 CARROSSERIE AUTOMOBILE. Cortellini et Caut. 15-17. R. des Buis 6
-
 CHAPELLERIE. Mme Veuve Chalande. 3, Rue de Rive
 994 - CHOCOLATS. MIle C. Waneler, 15, Place du Molara ; = 6
 1795  CLICHÉS (Fabrique de) A. M. O. R. 2, Rue de la Muse ; 12
-
 5068 COIFFURE de Dames, Maison Marins. Passage des Lions
 COMBUSTIBLES (Commerce de) Ch. Noirfalise. 1. PI. Montbrillant. 9
 COUTELLERIE (Fabrique de) Forestier et Cie, à la Tour-de-lIle 28
@@ -815,43 +525,25 @@ CUISINE économique à gaz d’alcool et pétrole, Léchaud, 4, Molard 14
 DACTYLE OFFICE. Louis Dumont. 16, Rue d’Italie. rn 20
 DENTISTE. R. Wouters, Médecin-Dentiste. 4. Rue Imbert-Galloix
 (Place des Philosophes). Consultations de 9 à 12 et 2 à 5 lies
-
 7046 DROGUERIE. Grande Droguerie Internationale O. Vogtherr 30, Boule-
-
 vard Georges-Favon, 4, Rue de Hesse ... … s es
-
 ECOLE DE COMPTABILITÉ. Marius Perrin, prof. 16, Croix-d’Or ;
-
 5390  ECOLE DE CULTURE PHYSIQUE. J. Anex, prof. 4, Rue Sénebier 29
-
- 
-
 59 EPICERÏE. Maison Isaac Dunant et fils, 14, Rue des Allemands.... 27
 5471 EXPÉDITEURS. Natural Lecoultre & Cie, (S. A) 24, Grand-Quai . Bn
 2957 FOURRURES. A. Graupner-Nicolet, 2, Rue de la Croix-dOr.... …. 29
 D GARDE-MALADES (Société centrale mixte des) M. Solioz,3, R. Lévrier 18
-
 GLACES ET ENCADREMENTS. Bertossa Frères, 4, Rue du Port ... 27
 5221 HORLOGERIE Ch. Barbier. 2. Place Longemalle. 1er étage « 4
-
 2075 HORAIRES des chemins de fer, ete. Le Guide Mignon 17, R. Carouge 10-12
 191 IMPRIMERIE Eugène FROREISEN, 26. Boulev Georges-Favon..:.…
 2568 INSTALLATIONS SANITAIRES. Schneider & Cie. 40, R. Synagogue. 20
 7081 LABORATOIRE D’ANALYSES MÉDICALES, J-F. Muster, Docteur
-
 ès sciences, chimiste diplômé, 6. boulevard de la Tour.
 832  LAVAGE CHIMIQUE. Terlinden et Cie,5, R. du Commerce et Bonniv.2. 6
 5512 MANTEAUX IMPERMÉABLES, Louis Duchêne & Cie.
-
-   
-
-  
-  
-
 38. R. Stand 2
-
 MARCHAND TAILLEUR. Alftred Aebi. 51. Rue du Stand tn 4
-
 1912 MEUBLES (Fabrique de) M. Maspero, 9, Place des Eaux-Vives 26
 9it MODE. Mme J. Chanal, 25, Rue du Rhône …..__……_… ; 821
 2477 MUSIQUE ET INSTRUMENTS. Rotschy frères, 22, Corraterie … 2
@@ -859,10 +551,8 @@ MARCHAND TAILLEUR. Alftred Aebi. 51. Rue du Stand tn 4
 211 NOUVEAUTÉS. Grosch & Greiff, 23, 24, 25, Rue des Allemands 8
 PARAPLUIES. H. Renaud-Ducoster. 60. Rue du Rhône . 2
 PARFUMERIE. E. Rimmel Ltd. 91. Rue du Rhône. sTIS 23
-
 6707 PENSION D’ETRANGERS. Grotte d’Azur, P. Coppola, 8, R. Cloche 26
 1438  PÉDICURE-MANICURE. F. Vincent, 7. Rue du Mont-Blanc 28
-
 e 3
 344 RELIURE. Mare Sauter. Fabh. d’Auto-Cuiseur, 5, R. des Granges.…. 4
 3550 RESTAURANT. Léon Julien. 38, Rue du Rhône...…. PR e ;
@@ -874,156 +564,83 @@ e 3
 TAPISSIER, Ed. Oechslin, 3, Route de Chêne … 70
 6786  VÊTEMENTS. Burger-Kehl & Cie, 16, Fusterie et 27, R. des Allem.. 10
 5778 VINS ET SPIRITUEUX. Association Genevoise, 60, R. de Monthoux. 24
-
-#]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f003085_010.tif"/>
-<page><![CDATA[Bankverein Suisse
-
- 
-
- 
-
+#
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f003085_010.tif'/>
+        <page>
+          <![CDATA[Bankverein Suisse
 Fondé en 1872 CAPITAL . Fr. 82,000,000.—
 RESERVES »
-
 A partir du 9 DEDEMBRE COURANT,
-
 les Bureaux et Caïisse seront transférés :
-
 25,750,000.—
-
 Corraterie, 6
-
- 
-
- 
-
 Pédicure oo Manicure
-
 F. VINCENT
-
 Professeur, Aide-Chirurgien diplômé de la Faculté de
 Médecine
 Chirurgien-Pédicure et Manicure des Etablissements
 hydrothérapiques d’Evian et de Divonne
-
 1, Rue du on-Blanc à V
 - Téléph. 14 38 — G_ene 2
-
- 
-
- 
-
- 
-
- 
-
 Haute Mode
-
 Simone
-
 6, Rue du Rhône
-
 mél 66 02
-
 Genève
-
- 
-
- 
-
 VILLAGE DE CAMPINE
-
 LÉONARD MISONN
-
- 
-
 Fabrique de
-
 COËUTEÉÉFRIE
-
 À la Tour de Îl
-
 FORESTIER & C'° - GENÈVE
 ORFÉVRERIE CHRISTOFLE
-
 Articles de table en bi-métal
 ÉCECEE FOURNITURES POUR HOTELS
-
 ECEGCERBEERRE
-
 7
-&]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f003085_011.tif"/>
-<page><![CDATA[1
+&
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f003085_011.tif'/>
+        <page>
+          <![CDATA[1
 Ÿ
-
- 
-
- 
-
-  
-
- 
-
 —
-
 VENDREDI 27 décembre
-
 362-4 St-Jean, év.
-
- 
-
- 
-
 Théâtres et Concerts.
-
 Bureaux à 7 beures !/2. — Rideau à 8 heures 1/4.
 Création à Genève du grand succès de l’Apollo.
-
 LE COMTE DE LUX EMBOURG, opérelle à speclacle en
-
 3 actes de MM. A. Wilner et R. Bodansky. — Adaplation fran-
-
 caise de MM. . de Flers et A. de Caillavet. — Textes chantés de
-
 M. Jean Benédiec. — Musique de Franz Lehar.
-
 DISTRIBUTION DU COMTE DE LUXEMBOURG
-
 Le Prince Basil. MM. Roussel. Suzanne Didier Mnes A. Kervan
 Fern. de Luxembourg Charmat. Juliette. Martens
 Brissard ; ; Descombes Madeleine ; Baumle
 Palow.. Deheselle. Rita. Valdine
 Bibitch... Martinenq. Nelly. ; Couderc
 Le Concierge.. Sigaud. | Huguette ; Carlita
-
 ( :O M F D"Î Maison Communale de Plainpalais, rue de Carouge.
 l.= (Tél. 61.20) — Burcau de localion ouvert de 10
 à 5 h.. Passage des Lions (Tél. 6195) 8 heure. 1,2
-
 Le Grillon, comédie en 3 actes de Francmesnil. — Musique de
 Massenet.
-
 A DO LLO (Cirque Rancy), 8 h. 1/2 : Beprésent. Attractions
 diverses el Omnia Cinéma Pathé (Voyez p. 18).
-
 Rue de Carouge, à 8 heures 1/2. représentation. —
-
 (°AS‘N9 ÏHËÏ‘L Location de 10 à 8 heures. — Téléphone n. 20-37.
-
 Un Fil à la Patte. vaudeville en 3 acles de Georges Feydeau.
 MERI IN B4 du Pont-d’Arve, ouvert de 10 à 12 h., de 3 à
 A(ÈAN SKQ“N(‘ RK 6 h. 1/2, de 8 h. 1/2 à minuit. — Orchestre. buffet.
-
 Q 'r0DMA'”0 8 h. — Arbre de Noël organisé par l’Evangélisation
 E Populaire. — PIsces à 1 fr. et 0.50, chez les con-
-
 cierges de la Réformation et Salle Centrale.
-
 MA'SQ 29, rue du Rhône. — Exposition permanente de
 l N lableaux.
-
 Les Cinémas permanents
 Cinéma Excelsior. (Corraterie). — Tous les jours, spectacle de 3 à 114 h.
 du soir. Instractif el intéressant. — Prix à1,20, 0.80 et 0,50.
@@ -1031,162 +648,73 @@ Cinéma Royal Biograph, 11. rue du Marché. — Spectacle tous les
 jours de 3 h. à 11 h. soir. — Places à fr. 1,20, 0,80; 0.50.
 Cinéma Mont-Blanc, 11, Rue de Berne. — Spectacle tous les Jours de
 2 h. 30 à 11 h. soir. — Places à fr. 0.80, 0,50.
-
- 
-
 Cinéma Central, 23, Rue de Chantepoulet. — Spectacle tous les jours
 de 3 h. à 11 h. soir. — Places à fr. 1,20, 0,80, 0,50.
 Thé
-
 Buvez CEYLAN STEINMANN ; paquets bleus FR.O,60
-
- 
-
- 
-
- 
-
 Ehmmerue de Combustibles
-
 Ch. NOIRFALISE
 l Place Montbrillant, 1, GENÈVE
-
- 
-
- 
-
- 
-
- 
-
- 
-
 ÉCOLE PlGlER Leçons jour et soir.
-
-Situations d’avenir.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f003085_012.tif"/>
-<page><![CDATA[5 Parfumerie_ =—
-
+Situations d’avenir.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f003085_012.tif'/>
+        <page>
+          <![CDATA[5 Parfumerie_ =—
 se 4 10 03
-
- 
-
- 
-
 ®
 Articles de toilette et fantaisie %‘î 5' Rue dES ﬂllEﬂ1ñﬂdS. 5
 Cristallerie de Bohême e @ PR TT
 Baccarat D 8606 üE"EUE
-
 PRIX TRÉS AVANTAGEUX
-
 Maison Paisant-L'Huillier
-
 2, Rue Centrale, 2 GENÈVE
 Nouveautés % — Trousseaux el Layettes
-
 Grande MAISON DE BLANC
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 EX POSITIONS
-
 Afin de ne pas répéter à chaque jour, (sauf le dimanche où les heures
 changent) l’énumération des expositions permanentes, nous en donnons
 la liste complèle ici :
-
 Maison Moos. — Exposition permanente de lableaux, 29,r. du Rhône.
 Actuellement exposilion de F. Hodler et O. Vautier.
-
 Athénée. — L'Exposition permanente sera fermée pendant les Fêtes de
 Noël et du Nouvel-An.
-
 Musée Rath. — Le Musée sera fermé jusqu'au 9 janvier, le 10, exposi-
 tion de peinture de M. Rehfous.
-
 Le Guine Miomon © Méieur le mieux fait
-
 plus élégant, le plus léger 60
 SUISSE. FRANCE. ITALIE. ALLEMAGNE. AUTRICHE (Balgique. Angleterre). — EN VENTE PARTOUT C.
-
- 
-
- 
-
- 
-
- 
-
 IMMENSE CHOIX
-
 VÊTEMENTS MODERNES
-
 pour Hommes et enfants
 tout faits et sur mesure
-
- 
-
- 
-
- 
-
- 
-
-  
-
 ‘ se
 VOYEZ NOS ÉTALAGES
 1 A <%’o
 » |'l‘ &n Demandez notre catalogue illustré
 L C
 Ce $
-
- 
-
- 
-
 Burger-Kehl et C“
-
-16, PI. de la Fusterie - Rue des Allemands, 27 - GENÈVE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f003085_013.tif"/>
-<page><![CDATA[SAMEDI 28 Décembre
-
+16, PI. de la Fusterie - Rue des Allemands, 27 - GENÈVE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f003085_013.tif'/>
+        <page>
+          <![CDATA[SAMEDI 28 Décembre
 363-3 St Innocent
-
- 
-
 Théâtres et Concerts.
-
 O D Bureaux à 7 heures !/9. — Rideau à 8 heures !/4.
 ‘ E D LE COMTE DE LUX EMBOURG, opérelte
-
 à spectacle en 3 actes de MM. A. Wilner et R. Bodansky. — Adap-
 tation francaise de MM. R. de Flers et A. de Caillavet Textes
 chantés de J. Bénédie. — Musique de Franz Lehar. (Voir distribu-
-
 tion au vendredi).
-
 O IVl É Dl[— Maison Communale de Plainpalais, rue de Larouge.
 Ë — B3ureau de localion ouvert de 10 à 5 heures
-
 Passage des Lions (Téléphone 6195). — 8 heures 1/9.
 Le Grillon, comédie en 3 actes de Francmesnil. musique de
 Massenet.
-
 A DO LLO (Cirque lancy), 8 h. !/2 : Représent. Attractions
 diverses et Omnia Cinéma Pathé (Voyez p. 18).
 Çù ng uE Î Rue de Carouge à 8 heures 1/2, représenlation. —
@@ -1194,13 +722,9 @@ A\ = ËHË !L Location de 10 à 8 heures. — Téléphone n. 20-37.
 Un Fil à la Patte, vaudeville en 3 actes de Georges Feydeau.
 MERI SKQ'“Nû RIN Nouveau théâtre; soirée de représentation drama-
 çAN K tique, sous la direction de M. Lansac.
-
 Le Tour du Monde par un Gamin de Pavis d’Ernest Morel.
-
 ŸIHHUŸÏD…£ 8 h. — Arbre de Noël de l’Espoir
-
 Les Cinêmas permanents
-
 Cinéma Central. 23, rue de Chantepoulet. — Spectacle tous les jours,
 de 3 h. à 11 h. du soir. — Places à fr. 1.20, 0.80. 0,50.
 Cinéma Royal Biograph, 11, rue du Marché. — Spectacle tous les
@@ -1208,136 +732,58 @@ Jours de 3 h. à 11 h. soir. — Places à fr. 1,20. 0,80. 0.50.
 Cinéma Excelsior. Corraterie. — Tous les jours, spectacle de 3 à 11 h.
 du soir. Instructif et divertissant. — Prix à 1,.20, 0,80 et 0.50.
 Cinéma Mont-Blanc. 11. Rue de Berne. — Spectacle tous les jours,
-
 de 2 h. 30 à 11 h. soir. — Places à fr. 0.80. 0.50.
-
 Thô
 Buvez CEYLAN STEINMANN ; paquets bleus FR. Oo,60
-
 ru__-. 30, 32, Rue du Rhône © D Cm
-
 A l’occasion des Fêtes et avant inventaire
-
 Grande Vente Étrennes
 33010 DE RABAIS 330j0
-
 sur tous nos Articles
-
 Schweizer & C'e
-
 SOIERIES - BRODERIES - NOUVEAUTÉS
 LINGERIE fine - BONNETERIE fine
-
 F Occasions extraordinaires f
-
- 
-
 \.-—— 3A3N395 m—J
-
 r—- GENÈVE æ
-
-—— D @ | 2, Place de la Fusterie 8 D RE D]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f003085_014.tif"/>
-<page><![CDATA[A% VRTIONS Mn
-
+—— D @ | 2, Place de la Fusterie 8 D RE D
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f003085_014.tif'/>
+        <page>
+          <![CDATA[A% VRTIONS Mn
 ; “ MARS
-
 LAMPES ÉLECTRIQUES
-
- 
-
- 
-
 De Poche De Maison — De Ronde — De Vélo
 BATTERIES “ MARS "
-
 Les Meilleures — Les plus Durables
 BATONS LUMINEUX « EVER READY"
 DOUCHEUR ELECTRIQUE
-
 BOUILLOIRES} — THEIÈRES
 FERS A REPASSER ELECTRIQUES
-
 LE BOUILLEUR ÉLECTRIQUE
-
 DERNIÈRE INVENTION
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Lampe « MARS” & T =4
 de Maison En trois minutes, ébullition du liquide
-
- 
-
- 
-
- 
-
 A la Comédie
-
 Le Grillon sera encore joué cette semaine tous les soirs et dimanche
 en matinée 2 h. !/2 et en soirée. Le délicieux conte de Noël de Dickens
 est présenté dans un cadre exquis avec des costumes de l’époque et la
 plus jolie des musiques, c’est un spectacle rare et charmant.
-
 Pendant les fêtes du Nouvel-An à partir du 30 déc. une pièce follement
 gaie qui rappellera les joyeuses soirées de La Cagnotte de l’An passé. Le
 Chapeau de paille d’Italie le vaudeville le plus divertissant de l’immortel
 Labiche qui sera joué avec la musique et les costumes de l’époque ; tradi-
 tions du Palais Royal.
-
 Le Chapeau de paille d’Italie sera joué en matinée 2 h. ‘/2 et en soirée
 8 h. !/2 le 1e* le 2 et le 5 Janvier en soirée tous les autres jours de la
 semaine.
-
 ÉDITION DU GUIDE MIGNON
-
- 
-
 \ ‘ Suisse française et départe-
 LE PETIT GUIDE HOMAND gfn5;;;};ï‘;î_—gçgïghæ.
 g el son petit se
-
 format ns
 - Chemins de fer, bateaux, tramways, voitures postales - En vente partoul
-
- 
-
- 
-
- 
-
- 
-
- 
-
-   
-  
-
-  
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 ; Cl'CHE/ D lllU/ ÏRÀTIDH »
 æ E S B5 X
 R N
@@ -1345,39 +791,13 @@ R N
 » 5 MilLEURS CHicHÉS N
 À ETNRSS, LES MoiNS CHERS ù
 N B W LIVRÉS LE PLUS N
-9 Rue de la\ase _ 17-OG __RAPIDEMENT DE S]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f003085_015.tif"/>
-<page><![CDATA[DIMANCHE 29 Décembre
-
+9 Rue de la\ase _ 17-OG __RAPIDEMENT DE S
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f003085_015.tif'/>
+        <page>
+          <![CDATA[DIMANCHE 29 Décembre
 364-2 St Thomas év.
-
- 
-           
-   
-         
-   
-  
-   
-    
-   
-     
-   
-  
-   
- 
-  
-  
-    
-   
-   
-   
-  
-    
-
- 
-
- 
-
 Matinées
 DA Bureaux à 1 heures !/2. — Rideau à 2 heures !/4.
 FAUST, opéra en 5 acles et 9 tableaux de
@@ -1385,16 +805,12 @@ M. Carré el J. Barbier. — Musique de Ch. Gounod.
 DISTRIBUTION DE FAUST
 Faust. . ; MM. Mirès. Marguerite . Mmes Dorska
 Méphisto Rudolf Siebel Baumile
-
 Valentin . Charmat Dame Marthe. Mico.
-
 O lVl F Dl Maison Communale de Plainpalais, rue de Carouge.
 Ë (Tél. 61.20). — Bureau de location ouvert de 10 à
 d h., Passage des Lions (Tél. 6195).
-
 Le Grillon, comédie en 3 actes de Francmesnil Musique de
 Massenet.
-
 A DO LLO (Cirque Rancey), 2 h. !/2 : Représent. Altraclions
 diverses et Omnia Cinéma Pathé (Voyez p. 18).
 Spectacle de Musie-Hall.
@@ -1405,10 +821,8 @@ MERI SKA“Nû RIN Nouveau théâtre: soirée de représentation drama-
 CAN K tique, sous la direction de M. Lansac.
 Le Tour du Monde par un Gamin de Paris d’Ernest Morel.
 Salle de la Source, à 2 h. Arbre de la Science. organisé par la
-
 Libre-Pensée avec le concours du Groupe Mandoliniste et de l’ À ve-
 nir Musical.
-
 Les Cinémas permanents
 Cinéma Excelsior, Corraterie. — Tous les jours, spectacle de 3
 Instructif et divertissant. — Prix des places : 1,20, 0,80 et
@@ -1416,271 +830,149 @@ Cinéma Mont-Blanc. 11, Rue de Berne. — Spectacle tous les jours
 de 2 h. 30 à 11 h. soir. — Places à fr. 0,80 0.50.
 Cinéma Central. 23, Rue de Chantepoulet. Spectacle tous les jours
 de 3 h. à 11 h. soir. — Places à fr. 1,20. 0.80. 0.50.
-
 Cinéma Royal Biograph. 11, Rue du Marché. — Spectacle tous les
 Jours. de 3 à 11 h. soir. — Places à fr. 1,20. 0.80. 0.50.
 Thé
-
 Buvez CEYLAN,STEINMANN ; paquels bleus FR. O,60
-
- 
-
 P.-L.-M. — Algérie-Tunisie. Billets de voyages à ilinéraires fixes,
 Jre el 2 classes, délivrés à la sare de Paris-Lyon, ainsi que dans les
 principales gares siluées sur les ilinéraires. Certaînes combinaisons de ces
 voyages premettent de visiter non seulement l’Algérie et la Tunisie, mais
 encore des parties plus ou moins étendue de l’Italie et de l'Espagne.
-
 Voir la nomenclature complèle de ces voyages circulaires dans le Livret
 Guide Horaire P.-L.-M. en vente dans les gares, bureaux de ville, biblio-
 l||«’ït|ll€x‘: 0 fr. 60 ; envoi sur demande au Service Central de l’Exploita-
 tation, 20, boulevard Diderot, à Paris, contre 0 fr. 80 en timbres-poste.
-
- 
-
 Le frès gros suecès des Cigarettes
-
- 
-    
-
- 
-
 est uniquement dû à l’incomparable- qualité de ses tabacs
-Un seul module, avec ou sans bout or ETE 0,75 et 0_8:;]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f003085_016.tif"/>
-<page><![CDATA[à gaz d'alcool et de pétrole
+Un seul module, avec ou sans bout or ETE 0,75 et 0_8:;
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f003085_016.tif'/>
+        <page>
+          <![CDATA[à gaz d'alcool et de pétrole
 € € €
-
 Modèle
-
- 
-
 Nouveau
-
- 
-
-  
-
- 
-
 obo
-
-  
-
 Aucun danger
-
-  
-
 d’Explosion '[‘&
-
 f
-
-  
-
 æ,
-
 .°.
-
- 
-
- 
- 
-
- 
-
 Molard, 4 À. LÉCHÀUÜV c;ENEVE
-
 Renseiqnements.
-
- 
-
- 
-
 Les numéros des Tramways, Les tramways portent à l’avant et à l’ar-
 rière un gros numéro noir sur disque blance, éclairé la nuit. Voici à quelles
 lignes les numéros correspondent :
-
 1 Ceinture et Vollandes-Cornavin- 9 Genève - Vésenaz - Anières - Her-
 Rond-Point Plainpalais. mance.
-
 2 Pare des Eaux-Vives-Jonction-Pe- 10 Genève - Vésenaz - Corsier - Dou-
 tit-Lancy-Saint-Georges. vaine.
-
 3 Petit-Saconnex-Champel. 11 Genève-Vandœuvre-Jussy.
-
 4 Carouge-Pare Mont Re pos. 12 Carouge-Annemasse-Etrembières.
-
 5 Gare Cornavin-Gare Eaux-Vives. 13 Genève-Saint-Julien.
-
 6 Genève-Châtelaine-Veyrier. 14 Genève-Lancey.
-
 7 Genève-Ferney-Gex. 15 Genève-Chaney.
-
 8 Molard-Gare de Cornavin-Séche-
-
 ron-Versoix.
-
 Grranie EXPOSITION et MISE n VENTE
-
 de toutes les dernières nouveautés, en
-
 JEUX-JOUETS-POUPÉES
 ARTICLES FANTAISIES EN TOUS GENRES
-
 pour CADEAUX pratiques et ETRENNES utiles
 CATALOGYES ILLUSTRÉS, FRANCO SUR DEMANDE
-
 e OLD ENGLAND
-
 N.-B.— Pendant Décembre, nos Magasins resteront ouverts
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 les Jeudis, jusqu’à 7 heures du soir
-
- 
-
- 
-
 N TVS TR
-
 “ Parfümeufs, (‘mﬂeurs A Granda Magasins
-DEPOT PRINCIPAL “PHARMACIE KÆLBERER GENÈVE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f003085_017.tif"/>
-<page><![CDATA[DIMANCHE 29 Décembre
-
+DEPOT PRINCIPAL “PHARMACIE KÆLBERER GENÈVE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f003085_017.tif'/>
+        <page>
+          <![CDATA[DIMANCHE 29 Décembre
 64-2 St Thomas év: ;
-
- 
-
- 
-
- 
-
- 
-
 Théâtres et Concerts.
 D Bureaux à 7 heures !/2. — Rideau à 8 heures !/a.
 O DE LE BARBIER DE SEVILLE, opéra-comi-
 que en 4 actes d’après Beaumarchais par Castil Blaze. — Musique
 (le Mossini.
 DISTRIBUTION DU BARBIER DE SÉVILLE
-
 Almaviva MM. Mirès. Rosine . Mmes St-Germier.
 Figaro» 7 Charmat | Marceline. Mico.
 Basile .… - e Rudolf. Bertholo 7 Flavien
-
 PRINCESSES DOLLAR, opérette en 3 actes
 et % tableaux de MM. Willy et Raph, d’après Willner et Grünbaum.
-
 DISTRIBUTION DE LA PRINCESSES DOLLAR :
-
- 
-
 Fredy Wehrburg... MM. Charmat. | Alice.. c E Mmes Alice Kervan.
 Baron Jean.......…. Descombes. Daisy=# e e Martens.
 John Couder.… Roussel. | Olga.. e ; Gavelle,
 Toma rs 7 Deheselle, | Meg. 658 Baumle
-
 ( :O |Vl Ê Maison Communale de Plainpalais, rue de Carouge.
-
 (Tél. 61.20). Bureau de location ouvert de 10 à
-
 5 h., Passage des Lions (Tél. 6195) — 8 heures !/2, Représent.
-
 Le Grillon. comédie en 3 actes de Francmesnil. — Musique de
-
 Massenel.
-
 A DO LLO (Cirque Rancy), 8 h. 1/2 : Représent. Attractions
 diverses et Omnia Cinéma Pathé (Voyez) p. 18.
-
 Représentation de Music-Hall.
-
 Î liue de Carouge. 2 heures !/2. Représentation.
 (aAg N9 ÏHË“Œ Location de 10 à 8 heures. — Téléphone 28-37.
 Un Fil à la Patte. vaudeville en 3 actes de Georges Feydeau.
 MERI SKQ‘"Nû Rll‘ Nouveau théâtre, B4 Pon-d'Arve; soirée de repré-
 CAN K sentation dramatique sous la direct. de M. Lansac.
 Le Tour du Monde par un Gamin de Paris d’Ernest Morel
-
 Les Cinémas permanents
 Cinéma Excelsior. (lorraterie. — Tous les jours, spectacle de 3 à 11 h.
-
 Instruetif el divertissant. — Prix des places : 1,20, 0.80 et 0,50.
 Cinéma Mont-Blanc. 11, liue de Berne. — Speclacle tous les jours,
 de 2 h. 30, à 11 h. soir. — Places à fr, 1550544520250;
 Cinéma Central. 23, Rue de Chantepoulet. — Spectacle tous les jours,
-
 de 3 h. à 11 h. soir. — Places à fr. 1,20, 0.80, 0,50.
 Cinéma Royal Biograph. 11, Rue du Marché. — Spectacle tous les
 jours, de 3 h. à 11 h. soir. — Places à fr. 1,20, (.80, 0,50.
-
 Thé
 Buvez CEYLAN STEINMANN ; paquets bleus FR. O,60
-
- 
-
 Pour la Jeunesse... par la Jeunesse
-
 Le comité chargé de vendre la carte postale et le timbre pour récolter
 des fonds en faveur de la lutte contre ia tuberculose chez les enfants fait
 savoir que les œuvres suivantes sont désignées pour en bénéficier : colo-
 nies de vacance de Clairmont et des dispensaires ; enfants tuberculeux au
 Sanatorium de Clairmont ; école de plein air ; asile Dolfus ; Rayon de
 soleil. à
-
 Cette répartition dépendra cependant de la somme recueillie et pourra
-être ultérieurement modifiée.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f003085_018.tif"/>
-<page><![CDATA[Bloc-Notes de la Semaine
-
+être ultérieurement modifiée.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f003085_018.tif'/>
+        <page>
+          <![CDATA[Bloc-Notes de la Semaine
 Echos Litléraires
-
 M. Paul Lombard, fils du célèbre auteur de Byzance, « Jean
 Lombard » à qui Paris va faire les honneurs du marbre, publie
-
- 
-
 e
 ;
 Q
 .
 €
 Î
-
- 
-
 SOUS L’EPAULETTE, qui fut donnée avec succés aux Amis de l’Instruction.
 Les scènes principales. (Phot. G-L. Arlaud, Genève).
-
 son premier livre qui traite du « Théâtre de St-Georges de Bon-
 hélier et de l’avenir de l'art tragique». Le sujet est vaste el
 bien digne de retenir l’attention des lettrés. J'ajouterai encore
 qu’il est écrit avec sobriété et élégance
-
 SACHA-DERNHARDT.
-
- 
-
 -
 Ec0LE PIGIE Situation assurée
-après 3 mois d’études environ]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f003085_019.tif"/>
-<page><![CDATA[A la Comédie
-
+après 3 mois d’études environ
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f003085_019.tif'/>
+        <page>
+          <![CDATA[A la Comédie
 Une bonne demi-salle pour voir le dernier tour des Marionnettes,
 de Pierre Wolf. La critique genevoise, en général, s’est montrée
 un peu sévère pour le Cœur dispose et les Marionnettes. Il va
@@ -1696,7 +988,6 @@ une grande émotion d’art », J'ai entendu avec plaisir une de ces
 pièces faciles et agréables qui nous font sourire, tout en songeant,
 avec un peu d'amertume, que, malgré tout, nous ressemblons
 parfois aux pantins de M. Wolf.
-
 Bonne intv1'|n'él&l(inn. et je tiens à citer le beau et brillant
 Pierre Laurel, M. fys, un de Ferney de bonne allure. C/aude
 Marty, spirituel et gra-
@@ -1718,9 +1009,7 @@ sied, elle ne se trompe
 |npin!, car qu:uul on est
 gracieuse et qu’on est
 blonde!!!
-
 SACHA-BERNHARD
-
 N. |î.f—Nnus|>;n‘h-mns
 longuement du Grillon
 dans notre prochain ar-
@@ -1730,147 +1019,69 @@ le Théâtre /)/'/////////f/llt'.
 de MM. Jacques Cons-
 lant et Kmile Taponier,
 deux auteurs appréciés
-
- 
-
- 
-
- 
-
- 
-
 el \‘_\||||».‘l(||i:|upg, e e e e nc
 ù Mlle MARTENS, 2me dugason, dans les
 b ” Saltimbanques “ (Phol, F -H. Jullien)
 %%
-
- 
-
 æ
 ECOLB PlGlER Prépare rapidement au commerce,
-industrie, banque]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f003085_020.tif"/>
-<page><![CDATA[APOLLO-THÉATRE
-
+industrie, banque
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f003085_020.tif'/>
+        <page>
+          <![CDATA[APOLLO-THÉATRE
 CIRQUE RANCY — GENEVE
-
- 
-
- 
-
- 
-
- 
-
- 
-
 La Table Infernale de Romain NOISET
 AMELET, diseur — CAMELEAT, dans ses danses
-
 CINÉMA PATHÉ Frères 10 Nouveautés
 LE PORTRAIT DE L’AIMÉE
-
 PRIX l)l-lS_ PLACES: Loyes de face, Fr. 5,—. Loges de côté, Fr 4.—
 Fauteuils, Fr. 3,—. — Stalles, Fr. 3— Premières, Fr. 2,—. —
-
- 
-
 Secondes, Fr. 1,—. — Galeries, Fr. 0.50
 Matinee le jeudi et le dimanche à 3 henres — Les Vendredis, nouveau spectacle
-
 BOWLING, 4 istes 1 es atrenant à l'Apollo-Théâtre)
-
 Quelques Pourquoi
-
 Pourquoi, lorsqu’on dit d’un homme : àl est rond, est-ce comme si l’on
 disait de lui : / est carré ?
-
 Pourquoi dit-on de quelqu’un : Few un tel, alors qu’il s’est éteint ?
-
 Pourquoi l’action de chercher à prendre du gibier s’appelle-t-elle le
 chasser ?
-
 Pourquoi, pour avoir de l’argent devant soi, faut-il commencer par le
-
- 
-
- 
-
- 
-
 mettre de côté ?
-
 Pourquoi un bruit transpire-t-il avant d’avoir couru ?
-
 Pourquoi dit-on : Qui voit ses veines, voit ses peines, alors que c’est
 lorsqu’on n’a pas de veine qu’on a des peines ?
-
- 
-
 Société Centrale Mixte des Garde-Malades de Genève
-
 Chez M. SOLIOS — Rue Lévrier, 3 - Tél.22.22
-
 Gardes expérimentés et de toute confiance
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Chaussez-vous dans les Grands Magasins
-
 de1a PARKOS AMÉRICAN SHOE C
-
 Car sans les célèbres chaussures américaines
-
 SOROSIS, HANAN & RATIONAL
-
 { vous ne serez pas bien babille,
-
- 
-  
-  
-   
-  
-   
-
 Formes les plus modernes et des plus
 élégantes portées actuellement à New-
 York et à Paris.
-
 LES NOUVEAUTÉS POUR LA SAISON
-
 sont arrivées en grande variation
-
 10, CORRATERIE 25, RUE de RIVE
 Rayon pour Messieurs (7 vitrines)
 rez-de-chaussée ; pour
 Däamies, ter, ascenseur.
-
 Notre rayon Mercédès à 16 fr. 50 est
 des plus intéressants vu qu'il y à tou-
 tes les formes modernes
 Spécialités pour Tennis, Montagne, Golfing, etc.
-
 q
-se]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f003085_021.tif"/>
-<page><![CDATA[LUNDI 30 Décembre
-
+se
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f003085_021.tif'/>
+        <page>
+          <![CDATA[LUNDI 30 Décembre
 365-1 St Sabin
-
- 
-
- 
-
 Théâtres et Cencerts
-
 O DE Q A Relâche.
 M Ë "—:— Maison Communale de Plainpalais, rue de C arouge.
 (:O ËD — Bureau de location ouvert de 10 à 5 heures
@@ -1882,99 +1093,56 @@ Spectacle de Music-Hall.
 MER] IN B4 Pont-d’Arve. Nouveau théâtre ; soirée de repré-
 AŒAN SKQ“N(I RK senlation dramalique, sous la direct. de M. Lansac.
 Le Tour du Monde par un Gamin de Paris d’Ernest Morel.
-
 MA'SQ M 29, rue du Rhône. — Exposition permanente de
 l N tableaux.
-
 Les Cinémas permanents
 Cinéma Excelsior, Corraterie. — Tous les jours, spectacle de 3 à 11 h.
 Instructif et divertissant. — Prix des places : 1,20, 0,80 et 0.50.
 Cinéma Royal Biograph 11, Rue du Marché. — Spectacle tous les
 Jours, dé 3 h. à 11 h. soir. — Places à fr. 1.20. 0,80, 0,50.
-
 Cinéma Mont-Blanc. 11, Rue de Berne. — Spectacle tous les jours,
 de 3 h. à 14 h. du soir. — Places à fr. 0,80, 0,50.
 Cinéma Central. 23, Rue de Chantepoulet. — Spectacle tous les jours,
-
 de 2 h. 30 à 11 h. soir. — Places à fr. 1,20, 0,80, 0,50.
-
 Thé
 Buvez CEYLAN STEINMANN ; paquets bleus FR. O,60
-
- 
-
 Toujours Galants.i
-
 La scène se passe dans un omnibus, l’un des derniers. Un monsieur
 encore jeune — l’un des derniers aussi, probablement, capables d’une telle
 action — se lève de sa place, et, avec un sourire d'une galanterie désuète,
 offre son siège à trois dames qui sont debout sur la plateforme.
-
 La plus âgée de ces dames ? demanda-t-il…
-
 Les trois dames se regardent fixement dans le blanc des yeux..…. aucune
 ne consent à desserrer les dents…
-
 La scène dure une minute, et pourtant le vieux véhicule brinqueballe
 de tous côtés ; le soleil est d’une chaleur inaccoutumée…
-
 Vaillamment, aucune de ces dames ne veut céder, et le monsieur si
 galant regagne sa place, avec la satisfaction du devoir accompli.
-
- 
-
 Les nouvelles et délicieuses cigarettes
-
 KLONARIS
-
 obtiennent partout un succès phénoménal
-
 p 20 pièces en boîtes | avec bout e
 0'7" sans bout | métalliques décorées. | or 008')
-
 ECOLE pIGIER De Paris. —“Fondée en 1850.
-
- 
-
-54, Rue du Rhône]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f003085_022.tif"/>
-<page><![CDATA[CAISSE D’'ÉPARGNE
-
+54, Rue du Rhône
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f003085_022.tif'/>
+        <page>
+          <![CDATA[CAISSE D’'ÉPARGNE
 \ DU CANTON DE GENÈVE
-
- 
-
 s1000
-
 N À partir du 1°” janvier 1913, le maximum de O
 à l’avoir des déposants sera porteé de 5.000 à
 10.000 francs.
-
 Pendant l’annee 1913, le taux de l’intérêt sera de O
-
- 
-
- 
-
- 
-
 | Brosserie, Parfumerie, Savonnerie
-
 Emie VETTER
-
 Rue du Rhône, 43. GENÈVE TELEPHONE 6930
 GRAND ASSORTIMENT D'ARTICLES POUR ÉTRENNES
 Brosserie -- Parfumerie, -- Nécessaires divers. La Maison se recommande par son grand choix
 Garnitures -- Trousses de toilette. :: :: : 1 en marchandises de première qualité :: ::
-
- 
-
- 
-
 La musique en Allemagne pendant la saison 1911-1912.
-
- 
-
 Si l’on en croit M. Challier, de Giessen, un statisticien émérite, il y a
 eu en Allemagne, pendant cette saison, 2440 concerts organisés par 250
 impresarii. Le nombre des morceaux exécutés à ces concerts s’élève à
@@ -1983,41 +1151,18 @@ ces derniers, ce sont naturellement les Autrichiens qui occupent la pre-
 mière place : 136 auteurs, joués 4194 fois, puis viennent les Frunçais
 avec 98 auteurs, joués 899 fois. Voici des chiffres propresà redresser bien
 des idées erronées et préconçues
-
 (La Vie Musicale du 15 déc ).
-
- 
-
 Aimeudlement Décoration L. PAUTEX MELLIARD et C*
 Ed_ OECHSL|N Rue de la Croix-d'Or, :7
-
 3, Route de Chêne, 3. — GENÈVE _ Bonneterie pour Dames,
 ; ; ; Messieurs et Enfants
 Installations complètes d'appartements E
 et Villas 2 BAS et CHAUSSETTES
 Rideaux. Stores. Tentures. Sièges Sous-vêtements en crêpe de santé
 : et literie artistique et courante :: Rumpf, de Bâle
-
- 
-
- 
-
- 
-
- 
-
 ur. MERCEDÉS Peui cu Dactyle-Office
-
 La première crée avec tous les perfectionnements
-
 IG, Rue d’'Italie - GENEVE
-
- 
-
- 
-
- 
-
 Atelier moderne pour Réparations Téléphone 52-25
 et Nettoyages de Machines de toutes
 marques VENTE
@@ -2028,26 +1173,16 @@ Salles de bains - Installations ——
 Cabinats de toilette | | — complètes
 = Chauffe-Bains pours —
 à gaz et à charboa l'oau et le gaz
-
 Dépôt des Filtres Chamberland
 Anc. Maisons L. Trachsel & Cie, et Darier & Schneider
-
- 
-
- 
-
- 
-
-SCHNEIDER & C'é, Suer® 35 705 srr]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f003085_023.tif"/>
-<page><![CDATA[MARDI 31 décembre
-
+SCHNEIDER & C'é, Suer® 35 705 srr
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f003085_023.tif'/>
+        <page>
+          <![CDATA[MARDI 31 décembre
 366-0 St Sylvestre
-
- 
-
 Théâtres et Concerts.
-
 O DE DA Pas fixé.
 Maison Communale de Plainpalais. rue de Carouge.
 COMÊD"Î — Bureau de localion ouvert de 10 à 5 heures
@@ -2055,19 +1190,14 @@ Passage des Lions (Téléphone 6195). — 8 heures 1/9.
 Pas fixé. ; ,
 | A DO LLO (Cirque Rancy), 8 h. 1/2 : Représent. Attractions
 diverses et Omnia Cinéma Pathé (Voyez p. 18).
-
 Spectacle de Music-Hall.
 | MERI IN Bd du Pont-d’Arve, ouvert de 10 à 12 h., de 3 à
 | CAN SKA“N(] RK 6 h. 1/2. de 8 h. !/2 à minuit. — Orchestre, buffet.
-
 / ' Rue de Carouge à 8 heures !/2, représentation. —
 { (°AS‘N9 THËÏ!Œ Location de 10 à 8 heures. — Téléphone n. 20-37.
-
 Un fil à la Patte, vaudeville en 3 actes de Georges Feydeau.
-
 A‘ Q 29, 1‘ueÿdu Kkhône. — Exposition permanente de
 I N tableaux.
-
 | Les Cinémas permanents
 | Cinéma Excelsior, Corralerie. — Tous les jours, spectacle de 3 à 11 h.
 Ï du soir. Instructif el divertissant. — Prix à 1.20, 0.80 et 0.50.
@@ -2077,61 +1207,39 @@ Cinéma Mont-Blanc 11, rue de Berne. — Spectacle tous les jours,
 de 2 h. 30 à 11 h du soir. — Places à 0,80, 0,50.
 Thé
 Buvez CEYLAN STEINMANN ; paquets bleus FR. O,60
-
- 
-
 | Publicité Japonaise
-
 Les Japonais font de la publicité avec une fantaisie charmante.
-
 C’est ainsi qu’ils ne craignent pas d’appliquer à l’art de la réclame
 toute la poésie de leur imagination orientale.
-
 Les commerçants, pour frapper l’esprit de leur clientèle, ont recours
 aux métamorphoses les plus variées et les plus imprévues. Ils obtiennent de
 ; la sorte des combinaisons aussi pittoresques qu’originales.
-
 C’est ainsi qu’un mercier nippon annonce sur un prospectus : « Nos
 marchandises sont expédiées avec la rapidité du « boulet ».
-
 Voici, à présent, un ingénieux papetier qui appelle à son aide l’histoire
 naturelle: « Notre merveilleux papier solide comme la peau d’un éléphant ».
-
 Puis, c’est un épicier de Tokio qui emprunte à la psychologie des traits
 acérés et mordants bien propres à impressionner le public ; il proclame :
 « Notre vinaigre, qualité extra, est plus aigre que le fiel de la plus diabo-
 lique belle-mère ».
-
 Est-ce pour cela que le chiffre d’affaires du Japon s’accroît sans cesse ?
-
 —ÆODE 9fô TELEË 3.77
 . 7 CHANUE
-
 [ —— DERNIÈRES CRÉATIONS DE PARIS — \
-
- 
-
- 
-
 BCOLB PIGIER Enseignement rapide.
-Placement gratuit des élèves.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f003085_024.tif"/>
-<page><![CDATA[Corset Duchesse
-
+Placement gratuit des élèves.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f003085_024.tif'/>
+        <page>
+          <![CDATA[Corset Duchesse
 GENÈVE - 26, r. des Allemands - GENÈVE
 côté de la maison de soieries Badan & Co)
-
 MAISON DE PREMIER ORDRE
-
 Corsets sur mesures depuis 15 francs
 Corsets confectionnés depuis S francs
-
 Corsei « Le Doctoral»
-
 (création récente)
-
- 
-
 Ce corset, établi d’après les indications
 de docteurs spécialistes, est un corset
 sangle per fectionné, fait en une seule
@@ -2142,117 +1250,66 @@ Ce nouveau …odelc maintient les orudnu
 abdominaux à leur place normale ou les
 y ramène s’ils sont déplacés, amincit sans
 déformer, il est, par conséquent. salntaire.
-
- 
-
- 
-
 Le pms grand choix dans les dernières
 —— ctos @ Ps ==
-
- 
-
- 
-
- 
-
 Impolitesse polie.
-
 On disait à Louis XIV que lord Stair (alors ambassadeur d’Angleterre
 en France) était l'homme du monde qui entendait le mieux la politesse.
-
 — Je le verrai bien, fit le roi.
-
 Et un jour, comme on allait monter en voiture pour se rendre à une
 partie de chasse, le roi dit à lord Stair, qui lui présentait le bras : « Mon-
 tez, mylord ». Celui-ci, à la grande surprise des courtisans, ne se le fit
 pas dire deux fois ; et le roi convint de la vérité de ce qu’on avait dit,
 car, dans cette circonstance, la fine politesse était dans la prompte obéis-
 sance.
-
- 
-
 TRAVAUX EN TOUS GENRES — —>
 EXÉCUTION PROMPTE ET SOIGNÉE
-
 Imprimerie FRDREISEH
-
 Boul. Georges-Favon,
-
- 
-
- 
-
- 
-
- 
-
 — fs s== =s (s | =s E
-
 FOURRURES |
 À. Graqgner—Nico]ct
-
 Maison | 2, Rue de la Croix-d'Or
 à l’Entresol
-
- 
-
- 
-
- 
-
 recommandée
-
 PaREon GENÈVE
-
 grand choix
-
- 
-
 et ses —— Téléphone 29-57 —
 prix modérés. S- T0>
-
 $
-
 Glock d’Articles Confectionnés =
 — - A LIQUIDER AU PLUS BAS PRIX
-—— u=—=5=——=;=—1}= #]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f003085_025.tif"/>
-<page><![CDATA[Noël
-
+—— u=—=5=——=;=—1}= #
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f003085_025.tif'/>
+        <page>
+          <![CDATA[Noël
 Nuit de Noël, nuit de paix et de joie,
-
 C'est dans ton sein qu'un Sauveur nous est né
 Le cœur soumis qui marche dans ta voie,
 Humble et joyeux, n'est pas abandonné.
-
 O mon Sauveur, viens éclairer ma route !
 Viens me couvrir des ailes de la foi !
 Ouvre mon âme el dissipe mon doute ;
 Viens, je l'attends, et je me livre à loi !
-
 IMBERT-GALLOIX.
-
- 
-
- 
-
 A L’OCCASION DES FÊTES, la
 PARFUMERIE E. RIMMEL Lid
-
 61, Rue du Rhône. — GENÈVE
 désireuse de faire apprécier aux lecteurs de La
 Semaine à Genève l’excellence de ses produits,
 offre à tout acheteur, muni du présent numéro,
 outre le flacon-échantillon gratis(valeur Fr.1 ,25),
-un escompte exceptionnel de 5 °/o]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f003085_026.tif"/>
-<page><![CDATA[Le Comte de Luxembourg
-
+un escompte exceptionnel de 5 °/o
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f003085_026.tif'/>
+        <page>
+          <![CDATA[Le Comte de Luxembourg
 Operclte en 3 acles
 Livret de MM. Wilner et Bodansky adaptation de MM. de Flers et \. de Caillavet
 Musique de Franz Lehar
-
 Le Comte de Luxembourg, qui a été si favorablement accueilli a
 l’Apollo, n’en est pas à sa première victoire ; il a déjà fait son tour d’Eu-
 rope ; et même en allemand, l’été passé au cours d’une saison exotique, il
@@ -2260,17 +1317,14 @@ avait charmé les spectateurs parisiens. Présentée par M. Franck, direc-
 teur de l’apollo, dans des conditions exceptionnellement favorables, l’opé-
 rette de M. Franz Lehar résumait en elle tous les éléments d’attrait d’un
 vrai et durable succès.
-
 Les librettistes se sont acquittés au mieux de leur tâche. L’affabulation
 du Comte de Luxembourg est naïve et bon enfant, et en même temps assez
 bourrée de mouvement et de péripéties comiques pour qu’on puisse s’y
 divertir sincèrement
-
 Comme il sera facile de s’en rendre compte, les librettistes sont parve-
 nus à conserver à leurs trois actes un entrain sans cesse renouvelé, à
 éviter la monotonie et la longueur et à maintenir la pièce dans le ton
 d’une amusante comédie, même sans le secours de la musique.
-
 Or, la musique est ici un énorme adjuvant du succès. M. Franz Lehar
 a mis dans le Comte de Luxembourg, plus que dans la Veuve Joyeuse, de
 la verve, du tempérament, et surtout de la distinction. Rien de fade dans
@@ -2278,58 +1332,49 @@ ces trois actes, rien de cette fausse sensiblerie qui a nui à tant d’opérett
 Quant à l’écriture musicale de M. Lehar, elle brille par un soin rare, par
 une instrumentation originale, par une franchise de rythme, auxquels nous
 n’étions plus depuis bien longtemps accoumutés.
-
 Parmi les pages qui méritent d’être citées et retenues, je mentionnerais la
 romance parodique de Basilowit : « J’ai le cœur plein de l’amour de
 Suzanne », la mazurka d’entrée de Suzanne Didier, et la grande finale du
 1e" acte qui rappelle les ensembles d’Offenbach ou de Johann Strouss.
-
 Au second acte se trouve la bouffonne mazurka, «sRootsi-Pootsi », qui
 est comme le Mille être de ce pseudo Don Juan, la romance du gant et la
 fameuse valse qui, fredonnée d’abord à mi-voix, revient dans tout l’ouvrage
 comme un leitmotiv autour duquel gravite toute l’action musicale.
-
 Le trio marche du troisième acte est fort joliment venu. Bref, la plu-
 part des morceaux ont été redemandés le soir de la première ; ils le
 méritaient par leur grâce mélodique et l’imprévu de leur accent.
-
 se
-
 L’Alimentation rationnelle
-
 Notre confrère La Sentinelle de la Chaux-de-Fonds, organe quotidien des
 socialistes du Jura, dans sa chronique médicale, publie sur cet important
 sujet une étude fort bien faite due à la plume du D Robert-Tissot et qui
 débute ainsi :
-
 « La vie est un combat. Vivre, c’est lutter contre les forces immenses
 de la nature, c’est lutter contre les autres êtres, les infiniment petits
 notamment, c’est lutter aussi — et c’est bien malheureux — contre nos
 congénères, contre les autres hommes.
-
 Pour lutter, il faut de l’énergie et des armes Nos aliments nous four-
 nissent la première. Notre cerveau est notre arme principale. « Il est à
 l’homme ce que les griffes et les crocs sont à un lion » a dit Schopenhauer.
 Hâtons-nous d’ajouter, toutefois, qu’il peut devenir, en nous donnant les
 bons sentiments, la raison pour guides, le gran facteur de pacification et
 de bienveillance parmi les hommes.
-
 Nous demandons à nos aliments de nous donner le maximum d’énergie
 corporelle et cérébrale et d’occasionner le minimum d’usure. Ils doivent
-en outre nous mettre en train, être excitants ei toniques.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f003085_027.tif"/>
-<page><![CDATA[5 24 dis
-
+en outre nous mettre en train, être excitants ei toniques.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f003085_027.tif'/>
+        <page>
+          <![CDATA[5 24 dis
 Une lampe, pour brûler, a besoin d’huile et d’une mèche : il faut en
 outre l’allumer. L’allumette enflamme Phnile qui, par sa combustion,
 donne de l’énergie lnmineuse et calorifique. Pendant la combustion, la
 mèche se carbonise graduellement. Aun moment donné. il” faut la rem-
 placer.
-
 De même, dans l’organisme, des aliments en brûlant, libèrent de l’éner-
 gie. D’autres remplacent les parties usées, carbonisées. D’autres enfin
 excitent, c’est-à-dire allument les combustibles producteurs d’énergie
-
 Dans la suite de son étude, le Dr Robert Tissot passe en revue la
 valeur nutritive des divers aliments, Les données qn’elle contient sont
 celles qui ont actuellement cours dans la science. Elles sont basées sur
@@ -2338,327 +1383,156 @@ de système. Les données contenues dans cette étude, penvent être immé-
 diatement applicables et utiles à ceux qui rompant avec la routine,
 veulent tirer profit des recherches scientifiques et des indications précises
 qu’elles fournissent.
-
 Un cadeau réellement utile.
-
 C’est une jolie machine à coudre de la maison Otto Weber, Place
 Kléberg, dépositaire des fameuses machines à coudre Pfaff et Victoria
 vendues en toute confiance.
-
- 
-
 Les Machines à Coudre
 Achetez vos
 sont …PÊﬁF[F(E.I P!ETURIH :: BIJOUX ::
-
 sogue n
 et REPRISER = FHDTIQUEE
 Otto WEBER
-
 Pc r — Bn D. Pasmantier
-
 La Maison n’a pas de placier
 Les machines se recommandent d'elles-mêmes
-
- 
-
 Réparations
-
- 
-
 Transformations
-
 IMPRIMER|E FRUREISEN Echanges
-
 BoOULEVARD GEorGes-Favon. 26
-
 Établissement muni des derniers CORRATERIE, 5
-
 perfectionnements et possédant — (2me étage)=
-
 un matériel de tout premier ordre : Maison PAISANT-L HUILLIER
-
 lui permettant d'exécuter tous
-
 genres de travauxtrès rapidement T€le}’hone 52-28
-
- 
-
- 
-
- 
-
- 
-
 ÂMER ROYAUME
-
 Rivalisant avec les premières marques par
 ses qualités exquises, L’'AMER ROYAUME a
 conquis sa supériorité sur tous les apéritifs
-
 SEUL FagricauT Association ÊBnEVOiSB, 60, AUE DE MONTHOUX 62, GENÈVE, — Téléphone 5758
-
- 
-
- 
-
- 
-
- 
-
 ECOLE PIGlER Comptabilité, sténographie
-Dactylographle, Commerce, cte]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f003085_028.tif"/>
-<page><![CDATA[Z
-
- 
-
+Dactylographle, Commerce, cte
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f003085_028.tif'/>
+        <page><![CDATA[Z
 ln.m.….n. 2
 5
-
-LÉONARD MISONNE, A GILLY]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f003085_029.tif"/>
-<page><![CDATA[Histoire vraie
-
+LÉONARD MISONNE, A GILLY
+]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f003085_029.tif'/>
+        <page>
+          <![CDATA[Histoire vraie
 Q
-
 %O
 O petit Noël. ton histoire
 est si vieille, qu’on peut la croire.
-
 Un enfant qui naît pauvre et nu,
 le fait, las ! n’est que trop connu.
-
 Sur beaucoup d'autres aussi plane
 l'ombre des oreilles d’un âne.
-
 Se chauffer au souftfle d’un bœuf,
 le moyen est bon, mais pas neuft.
-
 Entrer ensuite dans la vie,
 y trouver la haine et l'envie ;
-
 les hommes à l’or accrochés,
 ainsi que le lierre aux rochers ;
-
 les femmes vaines et légères ;
 toutes les langues mensongères ;
-
 l'âme basse, le cœur étroit,
 l'esprit doutant plus qu'’il ne croit æ
-
 heurter à des portes fermées,
 n'étreindre en ses bras que fumées ;
-
 par ceux à qui l'on fait du bien
 se voir repousser comme un chien ;
-
 n'avoir seuil où le pied s’arrête,
 épaule où reposer sa tête ;
-
 Au jardin de Gethsémané,
 de Dieu même être abandonné 6
-
 innocent, payer pour les autres ;
 pouvoir dire: Ah ! les bons apôtres !
-
 et jusqu’'au bout porter sa croix.…
 Histoire vraie, hein ?
-
 Je vous crois !
-
-21 Décembre 1912]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f003085_030.tif"/>
-<page><![CDATA[RELIURE
-
- 
-
- 
-
+21 Décembre 1912
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f003085_030.tif'/>
+        <page>
+          <![CDATA[RELIURE
 Reliure ancienne et modernè
-
 Spécialité de reliure anglaise
-
 tncecrars1=e Maison J. Wuhrmann
-
 — TÉLÉPHONE 4668 —
 5, Rue Musy — GENEVE —  (Eaux-Vives)
 FABRIQUE DE CAHIERS ET REGISTRES
-
- 
-
- 
-
 GENEVE - Rue de la Cloche, 8 - GENEVE
-
 Cuisine française soignée -- Pension depuis 6 francs
 À 3 minutes de 1a Gare er du Débarcadère. Vue sur le Lac.
 Situation splendide. — Confort moderne. — Téléphone
 1dresse telegraphique : GROTTE AZUR GENEVE
-
 Pascal COPPOLIIA, propr.
-
 Grotte d’Azur -- Pension d’Étrangers
 l
-
 X
-
 P PPS PR A
-
 A
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 AVIS AUX FIANCÉS rs tere en
-
 Grands Magasins M. MASPÉRO
-
 9, Prace pes Eaux-Vives, 9, GENEVE
-
- 
-
 Vous y trouverez un grand choir :: PRIX MODÉRÉS — MEUBLES SUR COMMANDE ::
 de meubles riches et simples :: ATELIER :
 garantis sur faceture Rue de la Grenade 17, Eaux-Vives.
-
- 
-
- 
-
- 
-
 La Musique dominicale.
-
 Massenet était déjà prix de Rome, mais pas encore célèbre. Un violo-
 niste vint, un jour, proposer à sa signature les statuts d’une association
 musicale, dont on lui offrait la présidence.
-
 Nous nous proposons, disait l’envoyé, de nous réunir chaque diman-
 che pour nous divertir à faire de la musique.
-
 Le grand laborieux qu’était Massenet n’avait pas de temps à perdre :
-
 Mon ami, dit-il froidement, avez-vous jamais vu les charcutiers se
 réunir le dimanche avec le projet avoué de se divertir en faisant de la
 charcuterie /…
-
 Et Massenet ne fut pas président de l’Association.
-
 (Le Monde Artiste, 48, rue Cambon, Paris.)
-
- 
-
- 
-
- 
-
- 
-
-   
-
 Dﬁﬂ55
 ET
-
 n&55æup5
-
-    
- 
-
- 
-
 ENGLISH-
-SPOKEN. GENEVB .DEUTSCH]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f003085_031.tif"/>
-<page><![CDATA[GLACES ET ENCADREMENTS
-
+SPOKEN. GENEVB .DEUTSCH
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f003085_031.tif'/>
+        <page>
+          <![CDATA[GLACES ET ENCADREMENTS
 Cadres de styles Miroirs. Toilettes, Miroiteries. Vitrerie
 Vitraux. Ventilateurs. Stores. Plaques de propreté.
-
 BERTOSSA Frères rve au Port 4 GENÈVE
-
 PENSION-FAMILLE DE l ORDRE | Grandes chambres ensoleillées. — Dernier
 Mlle J Crlelaers confort. — Chauffage central. — Elec-
-
 p G e 11
 Institutrice-Diplémée tricité. |ynÏlylll.\. J<V>_ln vue sur le lac.
 A e V T 36 01 Sérieuses références. Situation tranquille.
-
 RESTAURANT DE LA POSTE 9455 ercmiane n
-
 Déjeuner Fr. 2.50 — Dîner Fr. 3
 Service à la carte (petits salons). — Cuisine française, — Cave renommée
-
-            
- 
-
 SS
-
-   
-    
- 
-   
-    
- 
- 
-   
-   
- 
- 
- 
-    
-   
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Romain Noiset à l’Apollo.
-
 À l’occasion des fêtes de Noël, l’Apollo à engagé une attraction vérita-
 blement sensationnelle qui dépasse en témérité tout ce que l’on a imaginé
 jusqu’à présent au Music-Hall. Romain Noiset, le célèbre recordman
-
 | cycliste et motocycliste se produira dans son numéro : La T'able Infer-
 nale, qui à remporté récemment un succès considérable aux Folies-Ber-
 gères de Paris.
-
 La partie d’attractions comprend encore le brillant chanteur Amelet,
 première vedette des principaux Music-Halls de Paris, et aussi Camelea,
 une gracieuse danseuse serpentine et lumineuse.
-
 Au cinéma comme toujours, nouveautés captivantes, parmi lesquelles :
-
 ’ Le Portrait de ? Aïmée, très pathétique film d’art, Le Sacrifice d’Ismaël,
 vue en couleurs, Max veut grandir, Pathé-Journal avec les dernières
 informations de la semaine, etc., etc.
-
 Il y aura deux matinées de ce programme de fêtes, mercredi 25 à
 l’occasion de la Noël, et jeudi 26 décembre.
-
- 
-
 z
 |
 |
@@ -2666,248 +1540,101 @@ z
 |
 |
 {
-
 L
 r
-
 OO=OO=)DO=OO=OOÆ
-
 Fruits pour Desserts
 au Jus
 pour Salades et pour Glaces
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Ananas, Pêches, Abricots, Poires,
 Fraises, Franboises, Cerises, Rei-
 ne-Claudes, Mirabelles, Myrtilles
-
 en litres, demi et quart
 Marques Suisses et de Californie
-
 ÉPICERIE FINE
-
 Maison Isaac DUNANT e Fis
-
 Fondée en 1823
 14, Rue des Allemands. — Téléphone 59
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 æoo=oo=>oo=oo=oo
-
 DO=OO=OO=OO=O o—“’oooe—0o0
-
-&]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f003085_032.tif"/>
-<page><![CDATA[Spécialité d’Articles pour_: —{——— È
-
+&
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f003085_032.tif'/>
+        <page>
+          <![CDATA[Spécialité d’Articles pour_: —{——— È
 firis Décoratifs = Métallopiastie = Pyrogravure Ë
-
 Sculpture - Modelage - Peinture et Dessin - Articles à décorer
 À— Bois - Métal - Cristallerie - Cabochons nacre, ete._ S
-
 E D l —— 38, Rue du Marché, GENÈVE
 ° e arue Journal L'Artisan Pratique ——
-
- 
-
- 
-
- 
-
 Ne Buvez comme à base d’écorces d’oranges
-
 APÉRITIF que L,amel‘ R0yaume et de pjantes aromatiques
-
- 
-
- 
-
- 
-
 Recoit de 9 à 10et6 à 7 h.
 la Journal
-
 \fFiuves Immobilières, Assurances
 Seul quotidien iilustré de la Suisse Expertises \etres. — Vérification
-
 RÉCLANEZ RÉCLAMEZ PARTOUT A B ( | Louis CHAMAY * "ééanoe n81
 1
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 LE SILENGE DES CYGNES
-
 Comme un collier de blancheur moite qui s’éparpilla dans le
 bassin, les cygnes flottent en leurs formes figées, taches de neige
 dans le miroitement des eaux.
-
 Leurs cous sveltes plongés sous la lyre des atles, ils vont,
 prêtres des extases mueltes et le poète les admire, voguant éper-
 dûment dans un rêve sans parole, car 1l songe qu'eux au moins
 auront à leur heure dernière, lorsque leur blancheur sera prés de
 s'effriter, la volupté de faire vibrer dans les golfes aériens une
-
 chanson harmonteuse et bleue.
 India Sullivan.
-
- 
-
 Grande Brasserie Genevoise "9**1;20i00 à vrix rixe 5 curte
-
 42, Rue du Rhône, 42 — CONCERT tous 1es JOURS à 8 h, 112
-
- 
-
- 
-
 SOCIÉTÉ GÉNÉRALE D'ÀFFICHAGE
 Siège Social: Genève, 6o, rue du Stand
-
 Succecursa!es et Agences à :
-
 Bâle, Berne, La Chaux-de-Fonds, Incerlaken Agen, Bayonne, Bordeaux, Cannes, Marseille
 Lausanne, Lucerne, Lugano, Neuchâtel, Zürich Menton, Montauban, Nice, Paris, Toulouse
-
-Afffehage sous toutes ses formes dans tous les pays]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f003085_033.tif"/>
-<page><![CDATA[|
+Afffehage sous toutes ses formes dans tous les pays
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f003085_033.tif'/>
+        <page>
+          <![CDATA[|
 !
 Ï
 Ï
 |
 i
-
- 
- 
- 
- 
-  
- 
- 
- 
- 
-  
- 
- 
-  
-  
- 
- 
-  
-
- 
-
-  
-
 H. Renaud-Ducoster
-
 60, Rue du Rhône, 60
-
- 
-
- 
-
 (en face de la Place du Lac)
-
- 
-
 —— GENÈVE ——
-
- 
-
 —>> —
-
 PARAPLUIES
 OMBRELLES
 ET CANNES
 DERMIÈRE MOUVEAUTE
 VIENNE ET PARIS ==
-
- 
- 
- 
- 
-
- 
-
- 
-
 Les maximes du parfait Journaliste.
-
 Avant de tremper ta plume dans ton encrier, songe au bien que tu
 pourras faire ou au mal que tu vas faire.
-
 Clrerche non ce qui divise, mais ce qui unit.
-
 La Presse doit être le Vrai au service du Bien.
-
- 
-
 PLUIE NE MOUILLE PAS
-
 quand on a su se pourvoir
 Q) des excellents manteaux_imperméables
-
 s, Sy
 de
-
 Louis DUCHÈNE & C°
-
 l… d8, rue du Stand prolongée, 38
-
 GENEÈVE
-
- 
-
- 
-
-  
-
- 
-
- 
-
 [ =
 ÉTABLISSEMENT MODERNE
 UNIQUE
-
 d'Exercices el d'Hygiène corporels
 Directeur : J. ANEX, professeur
 spécialiste diplômé
 de l’Université de Paris
-
 Exercices méthodiques, scientifi-
 ques complets. — Correction des
 mauvaises attitudes. — Amplia-
@@ -2915,47 +1642,26 @@ tion thoracique. — Traitement de
 l’embonpoint et de l’obésité. —
 Préparation aux Sports et à
 l’Armée.
-
 4, Rue Senebier — Téléph. 53-90
-
 Tout homme sage qui
 estime su santé ce qu’elle
 vaut doit s’attacher à con-
 naître lesmoyens de la con-
 server. HIPPOCRATE.
-
 ch
-k]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f003085_034.tif"/>
-<page><![CDATA[Crépe de Santé Bachmann
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
+k
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f003085_034.tif'/>
+        <page>
+          <![CDATA[Crépe de Santé Bachmann
 Sous-vétement élastique, spongieux
 idéal pour les personnes soucieuses
 de leur santé.
-
 RECOMMANDE PAR LES MÉDECINS
-
 se fait en soie, laine et fil d’Ecosse
-
- 
-
- 
-
 se
 AVANTAGES
-
 Le Crèpe de Santé Bachmann
 conserve au corps sa chaleur, sa
 sonplesse. Il maintient l’élégance des
@@ -2965,56 +1671,25 @@ de santé Bachmann est résistant à
 l’usage, facilement lavable et garanti
 irrétrécissable. Il est très recom-
 mandé pour tous genres de sports
-
- 
-
 Exigez cette marque
 sur étiquette rouge
-
 CRÉPEnE SANTÉ
-
 i BACHMANN
-
- 
-
- 
-
- 
-
 Dépôt spécial, Maison
-
 F.-J. ZUMTHOR
-
 —— MANUFACTURE DE BONNETERIE ET LAINAGES
-
- 
-
 = À LA TRICOTEUSE —
-
 18, Croix-d’Or (angle rue d’Enfer)
-
- 
-
- 
-
 Plume à réservoir
-
 La meilleure puntéts E
-
 Papeterie _B!‘ iquet & ÏÎS
-
-    
- 
-
- 
- 
-
-GENÈVE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f003085_035.tif"/>
-<page><![CDATA[Pardessus
-
+GENÈVE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f003085_035.tif'/>
+        <page>
+          <![CDATA[Pardessus
 ]LS ne peuvent être com-
-
 parés à aucun autre article
 similaire ; d'une coupe très
 ample et vraiment eélégante ;
@@ -3025,102 +1700,60 @@ et un choix de teintes abso-
 lument merveilleux, leur don-
 nant une supériorité incon-
 testable.
-
- 
-
- 
-
 Nos pardessus offrent
 le maximum de chaleur
 et de bien-être.
-
 DEPUIS
-
 29 à 140 fr.
-
- 
-
 Mopes MascuLInEs
-
 Grande Maison Spéciale
-
 A dler
 14, Croix-d’Or
 . 9
-
 Vacances du Nouvel-An.
-
 En conformité du règlement, les vacances du Nouvel-An sont fixées
 comme suit :
-
 Pour Içs Ecoles ménagères de Genève et de Carouge, l’Ecole profession-
 nelle de jeunes gens, l’FKcole des Arts et Métiers, l’Ecole secondaire et
 supérieure des Jeunes filles et le Collège, du mardi 24 décembre 1912 au
 vendredi 3Jlll{\‘l€[‘ inclusivement. La rentrée aura lieu le samedi 4 janvier.
-
 Pour les Ecoles enfantines et primaires de la Ville de Genève. de
 Cernugc,À de l'lainpalais, des Eaux-Vives, du Petit-Saconnex et de Lancy.
 du mardi 24 décembre 1912 au vendredi 3 janvier 1913 inclusivement :
 rentrée le samedi 4 janvier: '
-
 Dans les autres communes, les Ecoles enfantines, les Ecoles primaires
 et les lu‘cqles secondaires rurales auront congé les 24, 31 décembre 1912,
 ler et 2, Janvier 1913. Exception est faite pour les communes qui ont
 ;lemandv une modification dans la répartition des vacances d’été et d’au-
 omne.
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Crême Héliopolis
 Produit sans rival pou_rlzs soins de la peau
-
 HYGIENE DE LA PEAU — BEAUTÉ DU VISAGE
-
 Dépôt Général : 36, Rue du Marché
-Phärmacie F. BINDER GENÈVE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f003085_036.tif"/>
-<page><![CDATA[106
-
+Phärmacie F. BINDER GENÈVE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f003085_036.tif'/>
+        <page>
+          <![CDATA[106
 ADLER ‘
-
 i' '\r;
-
 …l UU
-
 2
-
 {\
-
- 
-
 "
 u… |
-
 "ll*
 M
-
 \H L ]
-
 M
-
 #
-
 r
-
 ’ '|‘
-
-‘h l | h]]></page>       
-        </p>
+‘h l | h
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

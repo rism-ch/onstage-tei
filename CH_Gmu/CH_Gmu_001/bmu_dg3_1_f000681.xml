@@ -1,82 +1,92 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Grand concert donné par Mlle Consuelo d'Astroc<date when="18/06/1879"/></title>
-<series>1878-1879</series>
-<placeName>Salle de la Réformation</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Grand concert donné par Mlle Consuelo d'Astroc
+            <date when='18/06/1879'/>
+          </title>
+          <series>1878-1879</series>
+          <placeName>Genève, Salle de la Réformation</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU DG3-1 F000681</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt> </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18790618"/>
-<title>Grand concert donné par Mlle Consuelo d'Astroc</title>
-<placeName key="Salle de la Réformation"/>
-<name key="1878-1879" type="series"/>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Gregh, Louis" ref="https://muscat.rism.info/admin/people/30071283" type="person" role="cmp">Gregh, Louis</name>
-<name key="Mercadante, Saverio  [et al.]" ref="https://muscat.rism.info/admin/people/89350" type="person" role="cmp">Mercadante, Saverio  [et al.]</name>
-<name key="D'Astroc, C."  type="person" role="int">D'Astroc, C.</name>
-<name key="Senger, Franz Ludwig Hugo von" ref="https://muscat.rism.info/admin/people/30015297" type="person" role="int">Senger, Franz Ludwig Hugo von</name>
-<name key="Heps [et al.]"  type="person" role="int">Heps [et al.]</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg3_1_f000681_001.tif"/>
-<page><![CDATA[SALLE DE LA RÉFORMATION
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18790618'/>
+        <title>Grand concert donné par Mlle Consuelo d'Astroc</title>
+        <placeName key='Genève, Salle de la Réformation'/>
+        <name key='1878-1879' type='series'/>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Gregh, Louis' ref='https://muscat.rism.info/admin/people/30071283' type='person' role='cmp'>Gregh, Louis</name>
+        <name key='Mercadante, Saverio' ref='https://muscat.rism.info/admin/people/89350' type='person' role='cmp'>Mercadante, Saverio</name>
+        <name key='Gottschalk, Louis Moreau' type='person' role='cmp'>Gottschalk, Louis Moreau</name>
+        <name key='Flotow, Friedrich von' type='person' role='cmp'>Flotow, Friedrich von</name>
+        <name key='Lefébure-Wély, Louis-James-Alfred' type='person' role='cmp'>Lefébure-Wély, Louis-James-Alfred</name>
+        <name key='Verdi, Giuseppe' type='person' role='cmp'>Verdi, Giuseppe</name>
+        <name key='Astroc, Consuelo d&apos;' type='person' role='cmp'>Astroc, Consuelo d'</name>
+        <name key='Astroc, Consuelo d&apos;' type='person' role='int'>Astroc, Consuelo d'</name>
+        <name key='Senger, Franz Ludwig Hugo von' ref='https://muscat.rism.info/admin/people/30015297' type='person' role='int'>Senger, Franz Ludwig Hugo von</name>
+        <name key='Heps' type='person' role='int'>Heps</name>
+        <name key='Desmazes' type='person' role='int'>Desmazes</name>
+        <name key='Blanchereau' type='person' role='int'>Blanchereau</name>
+        <name key='Bibès' type='person' role='int'>Bibès</name>
+        <name key='Kling' type='person' role='int'>Kling</name>
+        <name key='Naumann' type='person' role='int'>Naumann</name>
+        <name key='Gregh, Louis' type='person' role='int'>Gregh, Louis</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg3_1_f000681_001.tif'/>
+        <page>
+          <![CDATA[SALLE DE LA RÉFORMATION
 Ouverture des portes ; ; ; On commencera
 à 7 h. 12. Mercredi 18 Juin 1879 e n 107e
-
 DONNÉ PAR
-
 M* CONSUELO D'ASTROC
-
 Prima donna de l’Académie de New-York
-
 AVEC LE BIENVEILLANT CONCOURS DE
-
 NN M D, HU60 de SENGER, HEPS, DESMAZES, BLANCHEREAU, BIBËS, KTING, NAUMANN
-
 ET DU PIANISTE-COMPOSITEUR
-
 LOUIS GREGH, DE PARIS
-
 ——
-
 PROGRAMME
-
 PREMIÈRE PARTIE
-
 . Adagio et Rondo Allegro, tirés du Sextuor pour deux violons, alto, violoncelle
 et cors, MM. Heps, Desmazes, Blanchereau, Bibès, Kling et Naumann. . - BEETHOVEN.
 . a. Les Bergers (style Lonis XV) ; L
@@ -88,9 +98,7 @@ Mlle Consuelo d’ Astroc
 M. Louis Gregh.
 M'mancedeMannae n 1Ts t e 1 e es A FLOTOW:
 Mlle Consuelo d’Astroc.
-
 DEUXIÈME PARTIE
-
 . Premier duo symphonique, pour deux pianos. . . 1 THErpepRE:VVErN,
 MM. Al. D‘’* et Louis Gregh
 . Grand air du Somnambulisme, de l’opéra Macbeth . . . . . . . . . . VERDI,
@@ -98,17 +106,15 @@ Mlle Consuelo d'Astroc.
 » @. Pastorale Louis XV. ; ) ; J
 b. Les papillons (caprice imitatif) . e (nac Jamieur. JGREGEE
 L Stella mprompiu, composéet chanté par » - .. ; / -— ; ; , « - Mle n'Asmroc.
-
 PRIX _ÇDE___S PLACES
 Réservées numérotées, 5 fr. — lre GalÊiä*é,"fä fr. — Parterre, 4 fr. — 2re Galerie, 50 c.
-
 Les autres places chez tous les marchands de musique.
-
 Pour les places réservées, s’adresser à M. Velan, concierge de la Réformation. (
 A
-
-Genève.— (mp, A.-F, FALK.— B, Cons,-Gén,]]></page>       
-        </p>
+Genève.— (mp, A.-F, FALK.— B, Cons,-Gén,
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

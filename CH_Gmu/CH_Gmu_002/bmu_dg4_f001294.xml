@@ -1,132 +1,110 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title><date when="28/03/0018"/></title>
-<series>[18--?]</series>
-<placeName>Kursaal</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            <date when='28/03/1899'/>
+          </title>
+          <series>[18--?]</series>
+          <placeName>Genève, Kursaal</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU DG4 F001294</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Kling, H. (dir)</note>
+        <note>Date incertaine</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="00180328"/>
-<placeName key="Kursaal"/>
-<name key="[18--?]" type="series"/>
-<name key="Neumann"  type="person" role="cmp">Neumann</name>
-<name key="Mozart, Wolfgang Amadeus" ref="https://muscat.rism.info/admin/people/115324" type="person" role="cmp">Mozart, Wolfgang Amadeus</name>
-<name key="Verdi, Giuseppe" ref="https://muscat.rism.info/admin/people/137994" type="person" role="cmp">Verdi, Giuseppe</name>
-<name key="Kling, Henri" ref="https://muscat.rism.info/admin/people/30022454" type="person" role="cmp">Kling, Henri</name>
-<name key="Fuhrmann"  type="person" role="cmp">Fuhrmann</name>
-<name key="Trave"  type="person" role="cmp">Trave</name>
-<name key="Langey"  type="person" role="cmp">Langey</name>
-<name key="Métra, O."  type="person" role="cmp">Métra, O.</name>
-<name key="Corbin"  type="person" role="cmp">Corbin</name>
-<name key="Unrath"  type="person" role="cmp">Unrath</name>
-<name key="Kling, Henri  (dir.)" ref="https://muscat.rism.info/admin/people/30022454" type="person" role="int">Kling, Henri  (dir.)</name>
-<name key="Zig-Zag"  type="person" role="int">Zig-Zag</name>
-<name key="Laurvald"  type="person" role="int">Laurvald</name>
-<name key="Castagna"  type="person" role="int">Castagna</name>
-<name key="Frères Averino"  type="person" role="int">Frères Averino</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f001294_001.tif"/>
-<page><![CDATA[Ë ËWŒŒÊ/XŒPE& Ëääïﬁa{\ ŒŒPÆ&ZÆZZ—ZÆE@
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18990328'/>
+        <placeName key='Genève, Kursaal'/>
+        <name key='[18--?]' type='series'/>
+        <name key='Neumann' type='person' role='cmp'>Neumann</name>
+        <name key='Mozart, Wolfgang Amadeus' ref='https://muscat.rism.info/admin/people/115324' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Verdi, Giuseppe' ref='https://muscat.rism.info/admin/people/137994' type='person' role='cmp'>Verdi, Giuseppe</name>
+        <name key='Kling, Henri' ref='https://muscat.rism.info/admin/people/30022454' type='person' role='cmp'>Kling, Henri</name>
+        <name key='Fuhrmann' type='person' role='cmp'>Fuhrmann</name>
+        <name key='Trave' type='person' role='cmp'>Trave</name>
+        <name key='Langey' type='person' role='cmp'>Langey</name>
+        <name key='Métra, O.' type='person' role='cmp'>Métra, O.</name>
+        <name key='Corbin' type='person' role='cmp'>Corbin</name>
+        <name key='Unrath' type='person' role='cmp'>Unrath</name>
+        <name key='Kling, Henri' ref='https://muscat.rism.info/admin/people/30022454' type='person' role='int'>Kling, Henri</name>
+        <name key='Zig-Zag' type='person' role='int'>Zig-Zag</name>
+        <name key='Laurvald' type='person' role='int'>Laurvald</name>
+        <name key='Castagna' type='person' role='int'>Castagna</name>
+        <name key='Frères Averino' type='person' role='int'>Frères Averino</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f001294_001.tif'/>
+        <page>
+          <![CDATA[Ë ËWŒŒÊ/XŒPE& Ëääïﬁa{\ ŒŒPÆ&ZÆZZ—ZÆE@
 KURSAAL DE GENÈVE
-
 SOUS LE PATRONAGE DES PRINCIPAUX PROPRIÉTAIRES D’HOTELS DE GENÈVE
-
 ®
-
 SALON DE LECTURE
-
 SALLE
-
 DE
-
 ET DE Correspondance
-
 CONVERSATION Ys e E
 ps 0Mn nn e hitd e SREI RI RL RUU PRINCIPAUX JOURNAUX
-
 REVUES
-
 E TESEENRA
-
- 
-
- 
-
 —2
 =s
-
 Grand Café Glacier
-
 Qe
-
- 
-
- 
-
- 
-
 MERCREDI 28 MARS à B heures précises
-
 LES E%ïË@ " ËË/\@
-
 Célèbre Troupe de Mimes Chorégraphiques, Excentriques et Acrobatiques
-
 ‘ LAURVALD
-
 Des Ambassadeurs de Paris
-
 L’Homme protée
-
 LES FRÈRES AVERI
-
 Clowns eacentriques et acrobatiques
-
 ORCHESTRE sous la Direction de M. H KLING
 ORDRE DE SPECTAGCLE -
 PREMIÈRE PARTIE
-
 Les Bohémiens, Marche (Orchestre) . . . … n NEUMANN.
 Quveriure de Dom Juan-(Orchesiren 1 1 . Mozann.
 Rantaisionsuranigolenon(Orchestre». 1s 1N Nepvr.
 CA S T'A GIN A , ’Homme 1n'0tc‘a
-
 Les Naïades, Valse (Orchestre). . e H RTING.
-
 DEUX[EME PÂRF]E
 Brigade, Marche (Orchestre). . .  FUHRMANN.
 Pierrot aeronaute, Grände Paniamimés Ballet, à ‘ trucs, en 3 Tableauæ,
@@ -134,61 +112,37 @@ de MM. Averino, jouée par toute la Îwup: des ZIG-ZAG-.
 Polka des Drapeaux (Orchestre) . . P TRANE
 LA.URVALD duns ses c)r(([zun&
 Mandolina (Orchestre). . ; 2 /,. HANGEX
-
 TROIS[EME PAR’IIE
-
 Le Grand Mogol (Orchestre) . . . O. MÉTRA.
 TIes 3 P1errots, exereices acr ol;ailqun l”" les Freres Avemno.
 Les Enfants terribles;, Mazurka (Orchestre) . ; Ts * /CORBIN
 XEs A U Fe V ATILID, dans ses créations.
-
 A la su1te, Marche (Orchestre) . . 1 É UNRATHS
-
 DIMANCHE 1‘ 5 AVRIL
-
 GRAND SPECTACILE- BAI,
-
 PRIX DENTRÉE : 2 Franos
 A 1 HEURE DU MATIN
-
 LSA FARANDOLE PROVENCGAIL E
-
 e
-
 2
 Ë ESVES2Ee
-
 s°
 A
-
 e 1R
-
- 
-
- 
-
- 
-
 S——
-
 ®
 %
-
 %
-
 Emtree : 1 Fr. — Places réservées : 2 Fr.
-
 NOTA.—La Direction se réserve le droit d’apporter des changements au programme selon les besoins du service.
-
 Dansée dans la Grande Salle par toute la Troupe des ZIG-ZAG
 %% DÉBUTS E / Mademoiselle CASSIVI  DpéBUTs DE
-
 @
-
 ‘wal&w;
-
-,î‘è"à ,9-{,m lmpr (entrule Genevoise, XICR «]]></page>       
-        </p>
+,î‘è"à ,9-{,m lmpr (entrule Genevoise, XICR «
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

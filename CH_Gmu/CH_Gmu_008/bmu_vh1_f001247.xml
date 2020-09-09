@@ -1,130 +1,110 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert symphonique, 5me de l'abonnement<date when="11/01/1919"/></title>
-<series>1918-1919</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert symphonique, 5me de l'abonnement
+            <date when='11/01/1919'/>
+          </title>
+          <series>1918-1919</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F001247</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Ansermet, E. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19190111"/>
-<title>Concert symphonique, 5me de l'abonnement</title>
-<placeName key="Victoria Hall"/>
-<name key="1918-1919" type="series"/>
-<name key="Brahms, Johannes" ref="https://muscat.rism.info/admin/people/39914" type="person" role="cmp">Brahms, Johannes</name>
-<name key="MacDowell, Edward" ref="https://muscat.rism.info/admin/people/41022394" type="person" role="cmp">MacDowell, Edward</name>
-<name key="Balakirew, Mily-Alexandrovitch"  type="person" role="cmp">Balakirew, Mily-Alexandrovitch</name>
-<name key="Ansermet, Ernest  (dir.)" ref="https://muscat.rism.info/admin/people/40219507" type="person" role="int">Ansermet, Ernest  (dir.)</name>
-<name key="Orchestre de la Suisse Romande" ref="https://muscat.rism.info/admin/people/50007615" type="person" role="int">Orchestre de la Suisse Romande</name>
-<name key="Valmalète, Madeleine de"  type="person" role="int">Valmalète, Madeleine de</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001247_001.tif"/>
-<page><![CDATA[VICTORIA-MAIll - GENEVE
-
- 
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19190111'/>
+        <title>Concert symphonique, 5me de l'abonnement</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1918-1919' type='series'/>
+        <name key='Brahms, Johannes' ref='https://muscat.rism.info/admin/people/39914' type='person' role='cmp'>Brahms, Johannes</name>
+        <name key='MacDowell, Edward' ref='https://muscat.rism.info/admin/people/41022394' type='person' role='cmp'>MacDowell, Edward</name>
+        <name key='Balakirew, Mily-Alexandrovitch' type='person' role='cmp'>Balakirew, Mily-Alexandrovitch</name>
+        <name key='Ansermet, Ernest' ref='https://muscat.rism.info/admin/people/40219507' type='person' role='int'>Ansermet, Ernest</name>
+        <name key='Orchestre de la Suisse Romande' ref='https://muscat.rism.info/admin/people/50007615' type='person' role='int'>Orchestre de la Suisse Romande</name>
+        <name key='Valmalète, Madeleine de' type='person' role='int'>Valmalète, Madeleine de</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001247_001.tif'/>
+        <page>
+          <![CDATA[VICTORIA-MAIll - GENEVE
 SAMEDI 11 JANVIER 1919, à 8 heures 30
-
 SOCIÉTÉ DE L’'ORCHESTRE
-
 DE LA
-
 SUISSE ROMÀNDE
-
 CONCERT SYMPHONIQUE
-
 5ne DE L'ABONNEMENT
-
 Soliste: M'e Madeleine de VALMALÈTE, Pianiste
-
 PROGRAMME
-
 PREMIÈRE PARTIE
-
 1. SYMPHONIE n° 3, en f majeur . . « 1919 4 Brahms
 a) Allegro con brio. - b) Andante. - c) Poco alleg{ulto - d) Allegro.
-
 2. CONCERTO en ré mineur, op. 25, pour piano et orchestre. : MacDowell
 a) Larghetto calmato b) Presto giocoso c) Largo - Molfo allegro.
 Mlle de VALMALÈTE
 DEUXIÈME PARTIE
 SE IMAMAR poëme symphonique 2 1 Balshirew
 4. CONCERTO n° 2, en so/ mineur, pour piano et orchestre. . . MacDowell
-
 a) Andante sostenufo b) Allegro scherzando c) Presto.
 Mille de VALMALÈTE
-
 Piano Erard aux soins de M. Ch. Berguer
-
 L'Orchestre sera dirigé par M. Ernest ANSERMET
-
- 
-
 Aucun morceau ne sera répété, ni ajouté au programme.
-
- 
-
 La Direction se réserve le droit d'apporter au programme foutes modificafions que les
 circonsfances pourraienf lui imposer.
-
- 
-
 Location et renseignements chez MM. ROTSCHY frères
-
- 
-
- 
-
 RR RI O/25
-
- 
-
-Imp. Buloz & Jacquier, rue John-Grassef, 7 - Genève]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001247_002.tif"/>
-<page><![CDATA[Johannes BRAHMS
-
+Imp. Buloz & Jacquier, rue John-Grassef, 7 - Genève
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001247_002.tif'/>
+        <page>
+          <![CDATA[Johannes BRAHMS
 (1833-1897)
-
 L’auteur de làa Symphonié en fa, est né à Hambourg, où il reçut sa première
 éducation musicale de son père, qui était contre-bassiste à l’orchestre de là ville. Il
 résida ensuite tour à tour à Detmold : Zuwieh, Baden-Baden et surtont à Vienne où
 il revint souvent et mourut. Très jeune, il fut signalé à l’attention du monde musical
 par Robert Sehumann. La fortune lui fut donc souriante et dès l’apparition de son
 Requiem allemand, VAllemagne le plaçait au premier rang de ses musiciens.
-
 Son œuvre s’imposait d'autant plus à l’attention qu'elle s'opposait fortement à
 l’œuvre alors naissante de Richard Wagner. Tandis que Wagner s’efforçait de continuer
 l’art des maîtres anciens en le renouvelant et en lui ouvrant des voies nouvelles,
@@ -138,16 +118,11 @@ qu’une expression volontairé, consciente, demandant leur appui à des formes 
 et classiques, La musique dont Brahms anime les formes n’en porte pas moins la
 marque toujours reconnaissable de su personnalité, dans le clair-obseur, les teintes
 sombres de ses harmonies et de ses timbres, dans l’abondante figuration rythmique
-
 (le ses accompagnements, et dans le mode populaire qu'affeetionne souvent sa mélodie,
-
 Edward MacDowell
-
 (Né à Neu-York le 18 décembre 1861, mort à Neu-York le 23 Janvier 1908.)
-
 Concerto Ne 2
 en ré mineur, pour piano et orchestre
-
 Issu d’une famille d'origine irlandaise, Macdowell est le premier citoyen américain
 dont le nom reste inserit dans l’histoire de la musique. Après une première éducation
 musicale reçue aux Etats-Unis, il poursuivit des études de piano et de composition
@@ -161,99 +136,46 @@ c'est*une des rares œuvres de Macdoyell qui ne soit pas directement inspirée p
 un sujet poëtique, sauf le presto, qui évoque un épisode de Beaucoup de bruit pour
 pien de Shakespare. Sans s’imposer de forme arbitraire et conventionnelle, l'auteur
 sy abandonne à la musique pure, surtout dans le premier mouvement, et dans une
-
 forme personnelle donne libre cours à son invention pianistique.
-
- 
-
- 
-
- 
-
-  
-
 E e A e E d é é A SE
-
- 
-
 rrrc sS
-
- 
-
 e dn mn t cf uctidieuir
-
-HU 2.00 E n es e]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001247_003.tif"/>
-<page><![CDATA[ÏË;‘.&-‘—:—,-,
-
+HU 2.00 E n es e
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001247_003.tif'/>
+        <page>
+          <![CDATA[ÏË;‘.&-‘—:—,-,
 7
-
 PS
-
 P E
-
- 
-
 |
 |
 IF
 JË
-
 1
-
 }£:'
 Ë
-
 A Ge R
-
 En es
-
- 
-
 SSTIPES
-
 TN E TN T
-
 e
-
 ratpanaanet
-
 PIRIU
-
 v
-
- 
-
 rr
-
- 
-
 TEX
-
 SIF
-
 T
-
 cu
-
 c
-
 pais
-
 RESREN N
 1E ‘
-
- 
-
- 
-
- 
-
 Mily-Alexandrovitch BALAKIREW
 (1837-1910)
-
 THAMAR
-
 Celui en qui Glinka avait cru deviner son successeur, et qui fut l’aîné, et à certains
 égards le maître, des fameux «cinq» compositeurs russes, n’a laissé qu'un petit
 nombre d'œuvres, mais qui sont toutes extrêmement significatives et dé ln plus erande
@@ -261,52 +183,36 @@ richesse musicale. Son art se distingue, en cénéral, de celui de ses COmpagnon
 quelque chose de concentré et de réfléchi qui apparaît dans un certain souci de plé-
 nitude harmonique, de carrure rythmique, et par un équilibre formel extrèmement
 marqué.
-
 Le poème symphonique Thamar, dédié à Francois Liszt, n’est pas une illustration
 immédiate, mais s’inspire dans ses grandes lignes, d’un poème de Lermontov dont
 voici le résumé :
-
 «Dans l’étroit et brumeux défilé du Darial, où passe le fleuve Térek, s'élevait
 anciennement une tour qu’habitait Thamar, une reine.
-
 d’un ange ayant l’aspeet, d’un démon les pensées,
-
 cruelle, astucieuse, et divine à la fois.
-
 Cédant à une attraction invineible, le passant, fût-il œuerrier. pätre ou marchand, se
-
 rendait à son appel enchanteur et prenait part à la fête nocturne…
-
 Des cris passionnés dans l’ombre s'amassaient
-
 lKéveillant de l’éého les stridentes clameurs.
-
 «Mais à peine l’aube’ venait-elle dorer les cimes des montagnes, que ftout retombait
 dans un morne silénce, uniquement troublé par le mugissement des ondes bouillonnan-
 tes du Térek,-qui emportait vers la mer un corps inanimé… Alors, apparaissant aux
-
 fenêtres de la tour, une ombre blanche
-
 Envoyait un adieu de loin au bien aimé… »
-
 samedi 18 Janvier 1919
-
 CONCERT SYMPHONIQUE
 6" DE L'ABONNEMENT
-
 Soliste : Mre CHEMET, Violoniste
-
 PROGRAMME : Symphonie n° 2, en do, Sehwmann Symphonie espagnole,
-pour violon et orchestre, Lalo. — Ouverture du Vaisseau Fantôme, Wayner.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001247_004.tif"/>
-<page><![CDATA[Seconds Violons :
-
+pour violon et orchestre, Lalo. — Ouverture du Vaisseau Fantôme, Wayner.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001247_004.tif'/>
+        <page>
+          <![CDATA[Seconds Violons :
 Altos :
-
 Violoncelles: “
-
 Contrebasses :
-
 Flûtes :
 Hautbois :
 Clarinette :
@@ -315,101 +221,57 @@ Cor:
 Trompettes :
 Trombone :
 Timbales :
-
 Harpe :
-
 CHEEFS DE PURITRE
-
 DE L'ORCHESTRE DE LA SUISSE ROMANDE
-
 Premiers Violons: MM.
 MM.
 MM.
 MM.
 MM.
-
 M.
 M.
-
 M.
-
 ——"
-
 Closset, prof. au Conservatoire de (enève.
 Klein, des orchestres d'Amsferdam et Zuvich.
 Sabbatani, de la Seala de Milan.
-
 Lodi, de la Seala de Milen.
-
 Sottiaux, /er prix du Conserratoire de Liège.
 Albisi, de la Seala de Milan.
-
 Brandia, prof. au Conservatoire de Genève.
 Gasparini, du Quenn's Hall Orch. de Londres.
 Mazzoni, de lu Scala de Milan.
-
 Oliver, prof. au Conservatoire de Genève.
 Albisi. soliste de la Sealu de Milan.
-
 Nazzi, e prix du Conservatoire de Paris.
 Ronchi, soliste du Thédtre de Genes.
 Hénon, /e prix du Conservatoire de Paris.
 Lambert, /auréat du Conservatoire de Paris.
 Concone, du Thédtre Reggio de Taurin.
 Carette, 7er prix du Conservatoire de Paris.
-
 Giorgi, du Thédtre Costanzi de Rome.
-
 Mlle Laggé, e prix du Conservatoire de Paris.
-
 =
-
-  
- 
-
 e
-
- 
-
- 
-
- 
-
 4
 p=
 228
-#]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001247_005.tif"/>
-<page><![CDATA[&
-
+#
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001247_005.tif'/>
+        <page>
+          <![CDATA[&
 DOFRAST N D7 PRN V TSSS
 cD0 = =3>
-
- 
-
 E e P|AN OS
-
 (2, FUSTERIE (à côté de la Poste)
-
 PIANOS “ qucue Hour Vente et Location
-
 PI_ANOS D'OCCASION GARANTIS
 MAISON RECOMMANDÉE
-
- 
-
- 
-
- 
-
- 
-
 Établissements U.-H. HILTEBRAND & C°
-
 INGÉNIEURS CONSTRUCTEURS
-
- 
-
 3 =
 = =
 cs ®
@@ -424,122 +286,58 @@ _'°‘È' < m E
 s Q Z =
 =— v =
 v _
-
 —S
 = =
 5 =
-
 PARIS (IX“) GENEVE
-
 10, Rue Nouvelle (Rue de Clichy) 3, RUE CHAPONNIÈRE, 3
-
 ‘Téléphone 68-11
-
 Téléphone : Central 18-60
 Adresse télégr. Hiltebing-Genève
-
 Adresse télégr. Hiltebing-Paris
-
 Ne pas confondre notre maison avec des noms similaires
-
- 
-
- 
-
- 
-
-  
-
 oger
-
 GO Cn 15eN
 Cuu/uwc el C.ﬂ/z/‘ç‘ LO/2
-
 < 028 s—
 - Gp On , S
-5, ciues € Ô,z/—(.\ eé Ly:z.nhuz«.‘ des …‘zm/m]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001247_006.tif"/>
-<page><![CDATA[Ts
-
+5, ciues € Ô,z/—(.\ eé Ly:z.nhuz«.‘ des …‘zm/m
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001247_006.tif'/>
+        <page>
+          <![CDATA[Ts
 A Tx
 É =3 548 ;.°Â“Î..:—": = .
-
 ETE
-
- 
-
- 
-
- 
-
 SOCIÉTÉ DE
-
 BANQUE SUISSE
-
 FONDÉE EN 1872
 Capital-actions et réserves 110 millions
-
 AGENGE DES EAUX-VIVES 3, Place des Eaux-Vives ‘
 AGENGE DE PLAINPALAIS 36, Rue de Carouge (Angle Boul. du Pont-d'Arve)
-
 Genève - O, Corraterie
-
- 
-
- 
-
 Toutes opérations de Banque aux meilleures conditions
-
- 
-
 PIANOS
 C. Ybloux
-
 7, Fusterie Genève
-
- 
-
- 
-
 Rotschy “trères - Genève
-
 MUSIQUE ET INSTRUMENTS PIANOS ET HARMONIUMS
 VENTE ET ABONNEMENT
 Corraterie, 22 | Rue de Candolle, 8
-
 Vente, Location, Réparation
-
 Grand abonnement. - Choix considérable. - Conditions favorables.
-
- 
-
- 
-
- 
-
 La Banque de Denôts et de Grédit
-
 18, Rue de Hess - GENEVE - |0, Rue Diday
 reçoit actuellement de l'Atgent en Dépôt
-
 pour un an et au-delà au taux de B % l'an
-
- 
-
 | 14
 | |
 Js ‘ |
-
- 
-
- 
-
- 
-
- 
-
-t]]></page>       
-        </p>
+t
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

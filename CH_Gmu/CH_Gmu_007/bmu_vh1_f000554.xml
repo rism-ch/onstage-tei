@@ -1,186 +1,165 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par l'Harmonie nautique<date when="11/12/1904"/></title>
-<series>1904-1905</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par l'Harmonie nautique
+            <date when='11/12/1904'/>
+          </title>
+          <series>1904-1905</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F000554</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Bonade, L. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19041211"/>
-<title>Concert donné par l'Harmonie nautique</title>
-<placeName key="Victoria Hall"/>
-<name key="1904-1905" type="series"/>
-<name key="Bach, Johann Sebastian" ref="https://muscat.rism.info/admin/people/2539" type="person" role="cmp">Bach, Johann Sebastian</name>
-<name key="Liszt, Franz" ref="https://muscat.rism.info/admin/people/107196" type="person" role="cmp">Liszt, Franz</name>
-<name key="Diaz"  type="person" role="cmp">Diaz</name>
-<name key="Provinciali, E."  type="person" role="cmp">Provinciali, E.</name>
-<name key="Flotow, Friedrich von" ref="https://muscat.rism.info/admin/people/63626" type="person" role="cmp">Flotow, Friedrich von</name>
-<name key="Barblan, Otto" ref="https://muscat.rism.info/admin/people/5298" type="person" role="cmp">Barblan, Otto</name>
-<name key="Raff, Joachim" ref="https://muscat.rism.info/admin/people/32686" type="person" role="cmp">Raff, Joachim</name>
-<name key="Menzel"  type="person" role="cmp">Menzel</name>
-<name key="Meyerbeer, Giacomo" ref="https://muscat.rism.info/admin/people/725" type="person" role="cmp">Meyerbeer, Giacomo</name>
-<name key="Thomas, A."  type="person" role="cmp">Thomas, A.</name>
-<name key="Bonade, Louis  (dir.)"  type="person" role="int">Bonade, Louis  (dir.)</name>
-<name key="Harmonie Nautique"  type="person" role="int">Harmonie Nautique</name>
-<name key="Bonade (Mme)"  type="person" role="int">Bonade (Mme)</name>
-<name key="Fassin"  type="person" role="int">Fassin</name>
-<name key="Montillet, William" ref="https://muscat.rism.info/admin/people/30022909" type="person" role="int">Montillet, William</name>
-<name key="Roesgen (Mlle)"  type="person" role="int">Roesgen (Mlle)</name>
-<name key="Karren, L."  type="person" role="int">Karren, L.</name>
-<name key="Martinet, G."  type="person" role="int">Martinet, G.</name>
-<name key="Cailler, H."  type="person" role="int">Cailler, H.</name>
-<name key="Fourmen"  type="person" role="int">Fourmen</name>
-<name key="Rouge"  type="person" role="int">Rouge</name>
-<name key="Kaeser"  type="person" role="int">Kaeser</name>
-<name key="Mattei"  type="person" role="int">Mattei</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000554_001.tif"/>
-<page><![CDATA[* VICTORIA< HALL
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19041211'/>
+        <title>Concert donné par l'Harmonie nautique</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1904-1905' type='series'/>
+        <name key='Bach, Johann Sebastian' ref='https://muscat.rism.info/admin/people/2539' type='person' role='cmp'>Bach, Johann Sebastian</name>
+        <name key='Liszt, Franz' ref='https://muscat.rism.info/admin/people/107196' type='person' role='cmp'>Liszt, Franz</name>
+        <name key='Diaz' type='person' role='cmp'>Diaz</name>
+        <name key='Provinciali, E.' type='person' role='cmp'>Provinciali, E.</name>
+        <name key='Flotow, Friedrich von' ref='https://muscat.rism.info/admin/people/63626' type='person' role='cmp'>Flotow, Friedrich von</name>
+        <name key='Barblan, Otto' ref='https://muscat.rism.info/admin/people/5298' type='person' role='cmp'>Barblan, Otto</name>
+        <name key='Raff, Joachim' ref='https://muscat.rism.info/admin/people/32686' type='person' role='cmp'>Raff, Joachim</name>
+        <name key='Menzel' type='person' role='cmp'>Menzel</name>
+        <name key='Meyerbeer, Giacomo' ref='https://muscat.rism.info/admin/people/725' type='person' role='cmp'>Meyerbeer, Giacomo</name>
+        <name key='Thomas, A.' type='person' role='cmp'>Thomas, A.</name>
+        <name key='Bonade, Louis' type='person' role='int'>Bonade, Louis</name>
+        <name key='Harmonie Nautique' type='person' role='int'>Harmonie Nautique</name>
+        <name key='Bonade (Mme)' type='person' role='int'>Bonade (Mme)</name>
+        <name key='Fassin' type='person' role='int'>Fassin</name>
+        <name key='Montillet, William' ref='https://muscat.rism.info/admin/people/30022909' type='person' role='int'>Montillet, William</name>
+        <name key='Roesgen (Mlle)' type='person' role='int'>Roesgen (Mlle)</name>
+        <name key='Karren, L.' type='person' role='int'>Karren, L.</name>
+        <name key='Martinet, G.' type='person' role='int'>Martinet, G.</name>
+        <name key='Cailler, H.' type='person' role='int'>Cailler, H.</name>
+        <name key='Fourmen' type='person' role='int'>Fourmen</name>
+        <name key='Rouge' type='person' role='int'>Rouge</name>
+        <name key='Kaeser' type='person' role='int'>Kaeser</name>
+        <name key='Mattei' type='person' role='int'>Mattei</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000554_001.tif'/>
+        <page>
+          <![CDATA[* VICTORIA< HALL
 sn
-
 | Ouvertare de pors | Dimanche 11 Décembre 190% |
-
 à 1 heure 374
-
 DONNE PAR
-
 L'HARMONIE NAUTIQUE DE GENÈVE
-
 sous la direction de M. LOUIS BONADE
 avec le gracieux concours de
-
 M"" £. Bonade — MM. Fassin, ténor au Théâtre, et Montillet, organiste.
-
 ——>c —
-
 YRSSRANNE
-
 PREMIÈRE PARTIE
 . Toccata et Fugue en ré mineur
 M. MONTILLET.
 . Les Préludes
 . Air de la Coupe du Roi de Thulé
 M”° Bonape.
-
 . Danse villageoise, quatuor p* clarinette, hauthois, fâte et bassm Æ. Provinciali.
 MM. Fourmen, Bouce, KÆsER ET MaTTEe1, professeurs.
-
 . Air de Martha Flotow.
-
 M. Fassin,
 SECONDE PARTIE
-
 . d) Adagietto religioso
 b) Con moto
-
 M. MOoNTILLET.
 . a) Cavatine (L. Karren.) J. Raff.
 b) Doux Désir, duo pour flûte et cor Mengel.
 M. G. MARTINET ET H. CaiLLER.
-
 Scène et duo du 4° acte des Huguenots G. Meyerbeer.
 M"° Bonane, M. Fassin ET L'HARMONIE NAUTIQUE.
-
 Ouverture de l’opéra Mignon A. Thomas.
-
 O. Barblan.
-
 Accompagnateur : MIle RŒSGKN.
-
 Piano BLÜTHNER, gracieusement offert par la maison G. DupacH & Cie,
-
 PRIX DES PLACES : Loges et premier rang de la première Galerie (numérotés), 2 fr. —
 Rez-de-chaussée et autres places de la première Galerie, 1 fr. — Seconde Galerie, 50 cent.
 MM. les membres non-exécutants ont droit d'entrée à ce concert sur présentation
-
 des coupons n* 9 et 10 aux places du rez-de-chaussée et de la première galerie, « l’exception
-
 du premier rang et des loges, auxquels ils ont droit moyennant un supplément de 1 fr.
-
 Les enfants au-dessous de dix ans paieront demi-place. — Il ne sera pas délivré de demi-
-
 places pour la seconde galerie,
 Dès ce jour, cartes à l’avance de 9 à 6 h, au Victoria-Hall.
-
 Les membres exécutants des Corps de musique Landwehr, Elite et Fanfare Municipale
-
 ont droit a l'entrée de ce concert sur présentation de leur carte personnelle,
 Prière de ne pas entrer pendant l’exécution des morceaux, — BUFFET au rez-de-chaussée.
-
-Genéve, — Imp. L.-F. Jarrys. « Œ 6]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000554_002.tif"/>
-<page><![CDATA[Cours d’Instruments
-
+Genéve, — Imp. L.-F. Jarrys. « Œ 6
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000554_002.tif'/>
+        <page>
+          <![CDATA[Cours d’Instruments
 DE
-
 L'HARMONIE NAUTIQUE DE GENÈVE
-
 Directeur général : M. Louis Bonade.
 PROFESSEURS :
-
 MM* Fourmen.. ... Clarinettes et saxophones.
 AVGPIRYRE. 11.50 Cuivres.
 J. RoucE Hautbois, cor anglais.
 J. Kæsrr Flûte.
 FABBRI Solfège.
 Moremers .1 es Basson.
-
 x Prix des cours de solfège, cuivres, clarinettes, saxophones : %
 | 5 fr. par mois. |
 Les jeunes gens désireux de suivre ces cours peu- ‘
 vent s'inscrire tous les jours, auprès du Concierge du
 Victoria-Hall. |
 Ÿ
-
 e —— F * >;e
-
- 
-
 C TIPI GTG GSL GTG LI GGF
-
 AVIS. — Pour être recu membre non-exécutant de l’Harmonie
 Nautique on peut s’inscrire tous les jours chez le Concierge du
 Victoria-Hall ou par lettre adressée au Comité: le prix de la carte
 est de 8 fr. par an et donne droit à deux entrées pour chaque
 concert donné par l’Harmonie Nautique.
-
-AN Aararararararaachhrhrhchrhdach]]></page>       
-        </p>
+AN Aararararararaachhrhrhchrhdach
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

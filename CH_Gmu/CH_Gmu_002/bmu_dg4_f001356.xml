@@ -1,146 +1,116 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Coco ; Giroflé-Girofla<date when="20/07/1879"/></title>
-<series>1878-1879</series>
-<placeName>Plaine de Plainpalais</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Coco ; Giroflé-Girofla
+            <date when='20/07/1879'/>
+          </title>
+          <series>1878-1879</series>
+          <placeName>Genève, Plaine de Plainpalais</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU DG4 F001356</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt> </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18790720"/>
-<title>Coco ; Giroflé-Girofla</title>
-<placeName key="Plaine de Plainpalais"/>
-<name key="1878-1879" type="series"/>
-<name key="Clairville"  type="person" role="cmp">Clairville</name>
-<name key="Grangé"  type="person" role="cmp">Grangé</name>
-<name key="Delacour"  type="person" role="cmp">Delacour</name>
-<name key="Coedès"  type="person" role="cmp">Coedès</name>
-<name key="Verschneider"  type="person" role="cmp">Verschneider</name>
-<name key="Lecocq, Charles" ref="https://muscat.rism.info/admin/people/85756" type="person" role="cmp">Lecocq, Charles</name>
-<name key="Leterrier"  type="person" role="cmp">Leterrier</name>
-<name key="Vanloo"  type="person" role="cmp">Vanloo</name>
-<name key="Théâtre des Bouffes parisiens"  type="person" role="int">Théâtre des Bouffes parisiens</name>
-<name key="Grégoire (Mme)"  type="person" role="int">Grégoire (Mme)</name>
-<name key="Grégoire, Esther"  type="person" role="int">Grégoire, Esther</name>
-<name key="Grégoire, Joseph"  type="person" role="int">Grégoire, Joseph</name>
-<name key="Grégoire, Baptiste"  type="person" role="int">Grégoire, Baptiste</name>
-<name key="Mey, Cèline"  type="person" role="int">Mey, Cèline</name>
-<name key="Lyonel"  type="person" role="int">Lyonel</name>
-<name key="Spina (Mme)"  type="person" role="int">Spina (Mme)</name>
-<name key="Soyez"  type="person" role="int">Soyez</name>
-<name key="Ponsi"  type="person" role="int">Ponsi</name>
-<name key="Oscar"  type="person" role="int">Oscar</name>
-<name key="Marin"  type="person" role="int">Marin</name>
-<name key="Herbez"  type="person" role="int">Herbez</name>
-<name key="Fernand"  type="person" role="int">Fernand</name>
-<name key="Doze (Mme)"  type="person" role="int">Doze (Mme)</name>
-<name key="Eva"  type="person" role="int">Eva</name>
-<name key="Knott"  type="person" role="int">Knott</name>
-<name key="Clara"  type="person" role="int">Clara</name>
-<name key="Hortense (Mme)"  type="person" role="int">Hortense (Mme)</name>
-<name key="Élisa"  type="person" role="int">Élisa</name>
-<name key="Polidor"  type="person" role="int">Polidor</name>
-<name key="Agalé"  type="person" role="int">Agalé</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f001356_001.tif"/>
-<page><![CDATA[1 RUF nÎ, Ai‘lÂÉÈIANDÈ‘,',':‘:0 uîl äz .
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18790720'/>
+        <title>Coco ; Giroflé-Girofla</title>
+        <placeName key='Genève, Plaine de Plainpalais'/>
+        <name key='1878-1879' type='series'/>
+        <name key='Clairville' type='person' role='cmp'>Clairville</name>
+        <name key='Grangé' type='person' role='cmp'>Grangé</name>
+        <name key='Delacour' type='person' role='cmp'>Delacour</name>
+        <name key='Coedès' type='person' role='cmp'>Coedès</name>
+        <name key='Verschneider' type='person' role='cmp'>Verschneider</name>
+        <name key='Lecocq, Charles' ref='https://muscat.rism.info/admin/people/85756' type='person' role='cmp'>Lecocq, Charles</name>
+        <name key='Leterrier' type='person' role='cmp'>Leterrier</name>
+        <name key='Vanloo' type='person' role='cmp'>Vanloo</name>
+        <name key='Théâtre des Bouffes parisiens' type='person' role='int'>Théâtre des Bouffes parisiens</name>
+        <name key='Grégoire (Mme)' type='person' role='int'>Grégoire (Mme)</name>
+        <name key='Grégoire, Esther' type='person' role='int'>Grégoire, Esther</name>
+        <name key='Grégoire, Joseph' type='person' role='int'>Grégoire, Joseph</name>
+        <name key='Grégoire, Baptiste' type='person' role='int'>Grégoire, Baptiste</name>
+        <name key='Mey, Cèline' type='person' role='int'>Mey, Cèline</name>
+        <name key='Lyonel' type='person' role='int'>Lyonel</name>
+        <name key='Spina (Mme)' type='person' role='int'>Spina (Mme)</name>
+        <name key='Soyez' type='person' role='int'>Soyez</name>
+        <name key='Ponsi' type='person' role='int'>Ponsi</name>
+        <name key='Oscar' type='person' role='int'>Oscar</name>
+        <name key='Marin' type='person' role='int'>Marin</name>
+        <name key='Herbez' type='person' role='int'>Herbez</name>
+        <name key='Fernand' type='person' role='int'>Fernand</name>
+        <name key='Doze (Mme)' type='person' role='int'>Doze (Mme)</name>
+        <name key='Eva' type='person' role='int'>Eva</name>
+        <name key='Knott' type='person' role='int'>Knott</name>
+        <name key='Clara' type='person' role='int'>Clara</name>
+        <name key='Hortense (Mme)' type='person' role='int'>Hortense (Mme)</name>
+        <name key='Élisa' type='person' role='int'>Élisa</name>
+        <name key='Polidor' type='person' role='int'>Polidor</name>
+        <name key='Agalé' type='person' role='int'>Agalé</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f001356_001.tif'/>
+        <page>
+          <![CDATA[1 RUF nÎ, Ai‘lÂÉÈIANDÈ‘,',':‘:0 uîl äz .
 \ La plus ancienne maison de parfumerie de la Suisse et de Genève
 Dépôt d’articles des maisons Pinaud, Piver, @(kinson, Lubin, ‘ Gellé, Rowland,
 % Farina, Lohse, Ricqlès, Bully, Fay, Dicquemare, etc, etc.
-
 | ‘ Ï’rix_ fixe et réduit. — Marchandises de premier choix.
-
 THÉATRE DES BOUFFES PARISIENS A\MR
 PLAINE DE PLAINPALAIS ‘
-
-  
-  
- 
-
-  
-
- 
-
- 
-
-  
-
 Direction de Mme veuve GRÉGOIRE
-
- 
-
 REPRÉSENTATION DE JOUR
-
 À LA DEMANDE GÉNÉRALE
-
 A 2 HEURES 1/2 PRÉCISES
-
 COCc&
-
 = Opérelle bouffe, nouvelle, en 4 actes et 5 tableaux, de MM. Clairville, Grangé &
 et Delacour ; musique de MM. Clairville fils, Cœdès et Verschneider.
-
 Mi'le ESTHER GCRÉCOIRE
 Remplira le rôle de Sylvia de La Pimprenelle.
-
 Ê Aujourd’hui Dimanche 20 Juillet 21879
-
- 
- 
- 
-
-    
-
 M. JOSEPH GRÉGOIRE M. BAPTISTE GRÉGOIRE
 Remplira le rôle de Floridor. Remplira le rôle de Chamberlan
-
- 
-
- 
-
 Le soir, à 8 heures [/2
 Première représentation de
-
 Ë GIROFLE-GIROFLA ‘
-
- 
-
 Opéra bouffe en 3 actes, par MM. LETERRIER el VANLOO, %
 musique de CHARLES LECOCQ
-
 Dille CÉLINE MEW remplira le rôle de Giroflé-Girofia. S
 M. BAPTISTE — M. JOSEPH M. LYONEL Mme SPINA :
 Mourzouck Marasquin Boléro Aurore &n
@@ -150,28 +120,19 @@ teur, OscAR — Le notaire, Soyez. — Un danseur, MARIN. — Le garçon ©
 d’honneur, HERBEZ. — L’oncle, FERNAND.— Giroflé-Girofla, Mmes CÉLINE @,
 MEY. — Aurore, SPINA. — Paquita, Doze. — Pedro, ÉvAa — Gusmann, %}
 petit cousin, KNorr. — Fernando, petit cousin, CLARA. — Almanzor, Ë
-
 petit_ cousin, HORTENSE. — Juliano, pelit cousin. ELISA. — Antonio, petit
 cousin, PoLIDOR. — Léon, AcLAË Ë
-
 PRIX DES PLACES : |
-
 Loges d’avant-scène, 20 fr. (en location 21 fr.) — Loges de face, 15 fr, (en location 16 fr,)
 — Fauteuils d’orchestre, 3 fr. (en location 3 fr. 50 C.) — Premières, 2 fr. 50 c. (en loca- f
 tion 3 fr.) — Stalles numérotées, 2 fr. (en location 2 fr, 50 c.) — Parterre, 1 fr. 25 e, — Fﬂ
-
 , Deuxième galerie, 1 fr, — Troisième galerie 50 centimes. 97
-
 Le Bureau de location est ouvert tous les jours de 11 he du matin à 4 h. après-midi. ©
-
 CIPN IRI DE S
-
- 
-
- 
-
-p]]></page>       
-        </p>
+p
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

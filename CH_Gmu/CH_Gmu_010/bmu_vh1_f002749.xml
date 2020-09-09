@@ -1,74 +1,78 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>L'Orchestre philharmonique de Berlin<date when="11/05/1931"/></title>
-<series>1930-1931</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            L'Orchestre philharmonique de Berlin
+            <date when='11/05/1931'/>
+          </title>
+          <series>1930-1931</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002749</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Furtwängler, W. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19310511"/>
-<title>L'Orchestre philharmonique de Berlin</title>
-<placeName key="Victoria Hall"/>
-<name key="1930-1931" type="series"/>
-<name key="Bach, Johann Sebastian" ref="https://muscat.rism.info/admin/people/2539" type="person" role="cmp">Bach, Johann Sebastian</name>
-<name key="Schumann, Robert" ref="https://muscat.rism.info/admin/people/131206" type="person" role="cmp">Schumann, Robert</name>
-<name key="Strauss, Richard" ref="https://muscat.rism.info/admin/people/132111" type="person" role="cmp">Strauss, Richard</name>
-<name key="Berlioz, Hector" ref="https://muscat.rism.info/admin/people/13803" type="person" role="cmp">Berlioz, Hector</name>
-<name key="Furtwängler, Wilhelm  (dir.)" ref="https://muscat.rism.info/admin/people/88502" type="person" role="int">Furtwängler, Wilhelm  (dir.)</name>
-<name key="Orchestre philharmonique de Berlin"  type="person" role="int">Orchestre philharmonique de Berlin</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002749_001.tif"/>
-<page><![CDATA[VICTORIA-HALL - CENEVE
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19310511'/>
+        <title>L'Orchestre philharmonique de Berlin</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1930-1931' type='series'/>
+        <name key='Bach, Johann Sebastian' ref='https://muscat.rism.info/admin/people/2539' type='person' role='cmp'>Bach, Johann Sebastian</name>
+        <name key='Schumann, Robert' ref='https://muscat.rism.info/admin/people/131206' type='person' role='cmp'>Schumann, Robert</name>
+        <name key='Strauss, Richard' ref='https://muscat.rism.info/admin/people/132111' type='person' role='cmp'>Strauss, Richard</name>
+        <name key='Berlioz, Hector' ref='https://muscat.rism.info/admin/people/13803' type='person' role='cmp'>Berlioz, Hector</name>
+        <name key='Furtwängler, Wilhelm' ref='https://muscat.rism.info/admin/people/88502' type='person' role='int'>Furtwängler, Wilhelm</name>
+        <name key='Orchestre philharmonique de Berlin' type='person' role='int'>Orchestre philharmonique de Berlin</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002749_001.tif'/>
+        <page>
+          <![CDATA[VICTORIA-HALL - CENEVE
 Luncli 1E mai 1951 à 20 ]1(’lll'('à‘ et (1(’HÎ[Cj
-
 —
-
 L’ORCHESTRE
 PHILHARMONIQUE
-
 DE BERLIN
-
 95 exécutants sous la direction de
-
 Wilhelm FURTWANGLER
-
- 
-
 Ç
 |
 |
@@ -87,131 +91,72 @@ s
 Ë
 |
 (
-!]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002749_002.tif"/>
-<page><![CDATA[WilhelIm Furtwängler
-
+!
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002749_002.tif'/>
+        <page>
+          <![CDATA[WilhelIm Furtwängler
 le grand chef d’orehestre dirige
 exclusivement pour la
-
 “POLYDOR ”
-
 marque
-
 L'Orchestre Philharmonique de Berlin
-
- 
-
 chréscntation
-
 joue sur disques ** POLYDOR ” :
-
 > 66925. Le Songe d’une Nuit d’lîllé. ouverturer
 669:6. Le Songe d’une Nuit d’Eté, ouverture (Suîtc\. .
-
 AicidetlatSmitelentregmaçeum
-
 66935. Rosamunde, ballet..............2200 000000 00000000
-
 Afridetlatsuite eniramajçeun e
-
 95408. Lohengrin, prélude ..........20 02100s e 0 scc en ec 00es
-
 95410. Les équipées de Till l’Espiègle, poème symphon. .
-
 95411. Les équipées de Till l’Espiègle, poème s_vmphon..
-
 Prix par disque : fr: 8,75]
-
 LES DISQUES ‘“ POLYDOR ” soNT EN VENTE
 DANS TOUS LES BONS MAGASINS DE GRAMOPHONES
-
 générale : KAISER & C:e S. A., Berne. -
-
 Venle en gros
-
- 
-
 >
-
-  
-
 Mendelssobn
 Menoelssobn
-
 H(I (‘b
-
 Schubert
-
 Bd C/J
-
 Wagner
 Richard Slauco
-Richard Strausé]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002749_003.tif"/>
-<page><![CDATA[d
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
+Richard Strausé
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002749_003.tif'/>
+        <page>
+          <![CDATA[d
 NNN NNN AN AN S SS SL SS SN A AIN A AN TAATAA A A A T ASAAN A A SS A AIN A CAA A
-
 Progra mme”
-
- 
-
 CONCERTO BRANDEBOURGEOIS N° 3, en sol
 e Bach
 IIIL\)CUI‘ ....................
-
 SYMPHONIE N e d enireemineun S chumante
-
 Introduction - Allegro.
 Romance.
 Scherzo.
-
 Finale.
-
 PESSEQUIPÉES DEMIN L MEsPIrerr Strauss
-
 DANSE DES SHs 1T f
 Marche Hongroise de |l DAMNATION DE FAUST | *""
-
 &
-
 //t’ concerl commencera a 20 /). 35 /Hï"('l‘v'l':'.
-
-Les porles seronl rigoureusemenl fermees pendant l'exéculion Jes œuvres.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002749_004.tif"/>
-<page><![CDATA[NA A UNA A AAINIAS A INA A AN AN TIA AN A AIN AN NNN AN A AN A A NNN AN AN AN AN A SN
-
- 
-
+Les porles seronl rigoureusemenl fermees pendant l'exéculion Jes œuvres.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002749_004.tif'/>
+        <page>
+          <![CDATA[NA A UNA A AAINIAS A INA A AN AN TIA AN A AIN AN NNN AN A AN A A NNN AN AN AN AN A SN
 N A AN AN AN SS e T SS
-
- 
-
- 
-
 _
-
- 
-
 NAANANANNIA AIN AIN A
-
 TABLFAU DF LORCHESTRE
-
 PREMIERS VIOLONS :
-
 Simon Goldberg
 Wilfried Hanke
 Franz Veit
@@ -227,11 +172,8 @@ Rudolf Prick
 Richard Wolff
 Bernhard Alt
 Carl Hôfer
-
 Rolf Schræder
-
 SECONDS VIOLONS :
-
 Wolfgang Herold
 Alfred Hornoff
 Bruno Stenzel
@@ -246,50 +188,32 @@ Heinrich Semann
 Hans Bender
 Friedrich Schirbel
 D" Ahlgrimm
-
 ALTOS :
-
 Willh Hoôber
-
 Lorenz Hôber
 Walter Bengelsdorff
 Kurt Beckmann
 Kurt Oberländer
 Paul Stähr
-
 Paul Kursch
-
 pdosrs
-
 »
-
 ce
-
- 
-
 Reinhard Wolf
 Erich Bader
-
 Franz Busowski
-
 VIOLONCELLES :
-
 En e dn p es
-
 Prof. Nicolia Graudan
-
 Josef Schuster
 Hans Bottermund
 Felix Tschirn
 Fritz Lesse
-
 Fritz Mayer
 Ernst Fuhr
-
 W olfram Kleber
 Max Paulus
 Karl Rammelt
-
 CONTREBASSES :
 Lebrecht Gædicke
 Linus Wilhelm
@@ -297,88 +221,56 @@ Paul Pingel
 Arno Burkhardt
 Altred Krueger
 Hermann Menzel
-
 Alfred Streiber
-
 Gero Bodenstein
-
 HARPE :
 Otto Müller
-
 FLUTES :
-
 Albert Harzer
 Paul Bose
 Heinrich Breiden
 Friedrich Thomas
-
 HAUTBOIS :
-
 Gustav Kern
 Erich Venzke
 Herbert Wiese
-
 Heinrich Hanisch
-
- 
-
 9 M d e
-
 Ds e e e E eN
-
 pdeo es en p e
-
 e rrn en e pn en Qe deee ME E e OE SP e E ME E C PN
-
 CLARINETTES :
-
 Ernst Fischer
-
 Alfred Bürkner
 Oskar Audilet
 Herbert Gräfe
-
 BASSONS :
-
 Karl Leuschner
 Oskar Rothensteiner
 Heinrich Lieberum
 Walter Schemmel
-
 CORS :
-
 Max Zimolong
 Oscar Schumann
 Leonhard Thiersch
 Gustav Otto
 Georg Hedler
 Otto Hess
-
 TROMPETTES :
-
 Anton Schuldes
 Paul Spôrri
 Herbert Rotzoll
 Otto Feist
-
 TROMBONES :
-
 Ernst Heidrich
 Friedrich Quante
 Riehard Wilhelmy
-
 TUBA :
-
 Friedrich Hässler
-
 BATTERIE :
-
 Paul Kretschmer
 August Lohse
 Willi Schimmel
-
- 
-
 |
 %
 |
@@ -398,34 +290,14 @@ $
 Ë
 %
 %
-
 NNN OMN OSN
-
 Ï
-
- 
-
- 
-
- 
-
- 
-
 srrr
-
-  
-
-  
- 
-
- 
-
 TPFEATISS
-
- 
-
-AI]]></page>       
-        </p>
+AI
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

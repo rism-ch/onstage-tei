@@ -1,179 +1,149 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par le Corps de musique d'Elite (Fanfare genevoise)<date when="01/03/1908"/></title>
-<series>1907-1908</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par le Corps de musique d'Elite (Fanfare genevoise)
+            <date when='01/03/1908'/>
+          </title>
+          <series>1907-1908</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F001054</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Romain, F.</note>
+        <note>Vibert, J. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19080301"/>
-<title>Concert donné par le Corps de musique d'Elite (Fanfare genevoise)</title>
-<placeName key="Victoria Hall"/>
-<name key="1907-1908" type="series"/>
-<name key="Mozart, Wolfgang Amadeus" ref="https://muscat.rism.info/admin/people/115324" type="person" role="cmp">Mozart, Wolfgang Amadeus</name>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Reynaud"  type="person" role="cmp">Reynaud</name>
-<name key="Ritz, Jean"  type="person" role="cmp">Ritz, Jean</name>
-<name key="Rillé, François-Anatole-Laurent de" ref="https://muscat.rism.info/admin/people/30017443" type="person" role="cmp">Rillé, François-Anatole-Laurent de</name>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Delibes, Léo" ref="https://muscat.rism.info/admin/people/30016578" type="person" role="cmp">Delibes, Léo</name>
-<name key="Goublier"  type="person" role="cmp">Goublier</name>
-<name key="Signard"  type="person" role="cmp">Signard</name>
-<name key="Romain, F. (dir.)"  type="person" role="int">Romain, F. (dir.)</name>
-<name key="Vibert, Jules (dir.)"  type="person" role="int">Vibert, Jules (dir.)</name>
-<name key="Corps de musique d'Elite (Fanfare genevoise)"  type="person" role="int">Corps de musique d'Elite (Fanfare genevoise)</name>
-<name key="Union des amis chanteurs de Carouge"  type="person" role="int">Union des amis chanteurs de Carouge</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001054_001.tif"/>
-<page><![CDATA[PORTES à 1 3/, H
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19080301'/>
+        <title>Concert donné par le Corps de musique d'Elite (Fanfare genevoise)</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1907-1908' type='series'/>
+        <name key='Mozart, Wolfgang Amadeus' ref='https://muscat.rism.info/admin/people/115324' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Reynaud' type='person' role='cmp'>Reynaud</name>
+        <name key='Ritz, Jean' type='person' role='cmp'>Ritz, Jean</name>
+        <name key='Rillé, François-Anatole-Laurent de' ref='https://muscat.rism.info/admin/people/30017443' type='person' role='cmp'>Rillé, François-Anatole-Laurent de</name>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Delibes, Léo' ref='https://muscat.rism.info/admin/people/30016578' type='person' role='cmp'>Delibes, Léo</name>
+        <name key='Goublier' type='person' role='cmp'>Goublier</name>
+        <name key='Signard' type='person' role='cmp'>Signard</name>
+        <name key='Romain, F.' type='person' role='int'>Romain, F.</name>
+        <name key='Vibert, Jules' type='person' role='int'>Vibert, Jules</name>
+        <name key='Corps de musique d&apos;Elite (Fanfare genevoise)' type='person' role='int'>Corps de musique d'Elite (Fanfare genevoise)</name>
+        <name key='Union des amis chanteurs de Carouge' type='person' role='int'>Union des amis chanteurs de Carouge</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001054_001.tif'/>
+        <page>
+          <![CDATA[PORTES à 1 3/, H
 NECCEE E ce
-
 Dimanche 1er Mars 1908
 7 5
 ONCERT >
 æ PE
-
 DONNÉ PAR LE
-
 QORNPS DE MUSIQUE D'ÉLITE.-
-
 FANFARE GENEVOISE
 Sous la Dinection de M. F. ROMAIN
-
 AVEC LE BIENVEILLANT ET GRACIEUX CONCOURS DE LA SOCIÉTÉ CHORALE
-
 UNION DES AMIS CHANTEURS DE CAROUGE
-
 PREMIÈRE PARTIE
 ce meque — se S MOZART.
 . Andante de la Symphonie en ut mineur . . . . . . . . BEETHOVEN.
 3. Ah! vous dirai-je maman, fantaisie variée pour cornet solo . REYNAUD.
 a) Le dernier jour de Pompéi, chœur . . . . . . . . . JEAN RiTz.
-
 b)  Fête provençale, triple quatuor . . . . . . . . . . LAURENThERILLÉ
-
- 
-
 cs e PS ETE
-
 VOIR AU DOS LA DEUXIÈME PARTIE
-
- 
-
 SINGE MACHINES MAISON
-
 = SINCER | F MARTINGAY
-
 MASCHINEN
 Place du Molard
 SINGE MACCHINE
 A CUCIRE 40, Rue du Marché
-
 Les meilleures — Les plus simples fIN
 Les plus populaires n pc } , ,
 -==- lies Dernières Kcuveautés
-
 Conditions de paiement très avantayeuses
-
 Escompte au cqmpta.nt d€ la $ŒÎÔOÜ en
-
 EXPOSITIONS UNIVERSELLES
-
 S… | TMN CONFECINNN
-
 MILAN 1906
-
 Ÿ ; Ÿ “ sont en Magasin
 ÈOË Compagnie Singer
 Succursales à GENÈVE NOUVEAUX RAYONS DE LINGERIE
 13, Rue du Marché
-\Oﬂ 4, Rue Pécolat (en face de la Grande Poste) BIÆANC - RIDEAUX]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001054_002.tif"/>
-<page><![CDATA[e Lohengrin, entr'aete et chœur des fiançailles . ! . . . . . WAGNER.
+\Oﬂ 4, Rue Pécolat (en face de la Grande Poste) BIÆANC - RIDEAUX
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001054_002.tif'/>
+        <page>
+          <![CDATA[e Lohengrin, entr'aete et chœur des fiançailles . ! . . . . . WAGNER.
 . Lakmé, fantaisie 1s . LEO DELIBES.
 Sérénade de Gillotin (chorale et fanfare) ! . . . . . . … GOUBLIER.
-
 scrc e 80 STGNARD.
 ! .
-
 PRIX DES PLACES :
-
 Loges et premier rang de la première Galerie (numérotée), 2 fr.
 Rez-de-Chaussée et autres places de la première Galerie, 4 fr. — Secondes Galeries, 50 cent.
 Fartes à l’avance aux adresses suivantes ; VICTORIA-HALL ; CASE DE L'ONCLE TOM, rue Bonivard, 2 ;
-
 MM. J. BÉRANGER & Cie, rue du Rhône, 92 ; M. FIVAZ, Terrassière, 9.
-
 -—s
-
 ; Les cartes de Membres honoraires et de Membres passifs donnent droit à deux entrées, les coupons,
 Nos 1 et 2, chacun à une entrée.
-
 INSVSAS SS NS SS A NSSN
-
 @-  Les personnes désireuses de participer à la belle excursion projetée par le corps de
 « Musique d’Elite », à Barcelone (Espagne), du 16 au 22 avril 1908, trouveront des rensei-
 gnements complets et détaillés aux adresses ci-dessus. —#
-
 RE PGEN G MPE p q Dqrageqpage Mc pragpe p P pj up y y" p CEHVH U YU p A p CY JT GHP N
-
- 
-
- 
-
 IMPRIMERIE
-
 ﬁzzz; Éilbert & É
-
 Céléphone 2547 Grand’Rue, 40 - Genève
-
 JMPRESSIONS EN ÎOUS }3ENRES
-
- 
-
 %
-
 sL
-
- 
-
-L; Gilbert et Cle, Grand'Kue, 40, Gunève,]]></page>       
-        </p>
+L; Gilbert et Cle, Grand'Kue, 40, Gunève,
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

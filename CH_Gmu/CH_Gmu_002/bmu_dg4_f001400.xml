@@ -1,144 +1,120 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>La Belle Hélène<date when="26/07/1880"/></title>
-<series>1879-1880</series>
-<placeName>Coulouvrenière (Théâtre des Bouffes parisiens)</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            La Belle Hélène
+            <date when='26/07/1880'/>
+          </title>
+          <series>1879-1880</series>
+          <placeName>Genève, Coulouvrenière (Théâtre des Bouffes parisiens)</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU DG4 F001400</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt> </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18800726"/>
-<title>La Belle Hélène</title>
-<placeName key="Coulouvrenière (Théâtre des Bouffes parisiens)"/>
-<name key="1879-1880" type="series"/>
-<name key="Offenbach, Jacques" ref="https://muscat.rism.info/admin/people/111831" type="person" role="cmp">Offenbach, Jacques</name>
-<name key="Halévy, Ludovic" ref="https://muscat.rism.info/admin/people/40918" type="person" role="cmp">Halévy, Ludovic</name>
-<name key="Meilhac, Henri" ref="https://muscat.rism.info/admin/people/86908" type="person" role="cmp">Meilhac, Henri</name>
-<name key="Théâtre des Bouffes parisiens"  type="person" role="int">Théâtre des Bouffes parisiens</name>
-<name key="Paul Cadet-Grégoire (Mme)"  type="person" role="int">Paul Cadet-Grégoire (Mme)</name>
-<name key="Grégoire-Poyard, Cécile"  type="person" role="int">Grégoire-Poyard, Cécile</name>
-<name key="Grégoire, Joseph"  type="person" role="int">Grégoire, Joseph</name>
-<name key="Grégoire, Baptiste"  type="person" role="int">Grégoire, Baptiste</name>
-<name key="Grégoire, Victor"  type="person" role="int">Grégoire, Victor</name>
-<name key="Poyard, A."  type="person" role="int">Poyard, A.</name>
-<name key="Baron"  type="person" role="int">Baron</name>
-<name key="Huguenet"  type="person" role="int">Huguenet</name>
-<name key="Ruy"  type="person" role="int">Ruy</name>
-<name key="Morfer"  type="person" role="int">Morfer</name>
-<name key="Oscar"  type="person" role="int">Oscar</name>
-<name key="Delby (Mme)"  type="person" role="int">Delby (Mme)</name>
-<name key="Armand (Mme)"  type="person" role="int">Armand (Mme)</name>
-<name key="Blanche (Mme)"  type="person" role="int">Blanche (Mme)</name>
-<name key="Cristophe"  type="person" role="int">Cristophe</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f001400_001.tif"/>
-<page><![CDATA[C
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18800726'/>
+        <title>La Belle Hélène</title>
+        <placeName key='Genève, Coulouvrenière (Théâtre des Bouffes parisiens)'/>
+        <name key='1879-1880' type='series'/>
+        <name key='Offenbach, Jacques' ref='https://muscat.rism.info/admin/people/111831' type='person' role='cmp'>Offenbach, Jacques</name>
+        <name key='Halévy, Ludovic' ref='https://muscat.rism.info/admin/people/40918' type='person' role='cmp'>Halévy, Ludovic</name>
+        <name key='Meilhac, Henri' ref='https://muscat.rism.info/admin/people/86908' type='person' role='cmp'>Meilhac, Henri</name>
+        <name key='Théâtre des Bouffes parisiens' type='person' role='int'>Théâtre des Bouffes parisiens</name>
+        <name key='Paul Cadet-Grégoire (Mme)' type='person' role='int'>Paul Cadet-Grégoire (Mme)</name>
+        <name key='Grégoire-Poyard, Cécile' type='person' role='int'>Grégoire-Poyard, Cécile</name>
+        <name key='Grégoire, Joseph' type='person' role='int'>Grégoire, Joseph</name>
+        <name key='Grégoire, Baptiste' type='person' role='int'>Grégoire, Baptiste</name>
+        <name key='Grégoire, Victor' type='person' role='int'>Grégoire, Victor</name>
+        <name key='Poyard, A.' type='person' role='int'>Poyard, A.</name>
+        <name key='Baron' type='person' role='int'>Baron</name>
+        <name key='Huguenet' type='person' role='int'>Huguenet</name>
+        <name key='Ruy' type='person' role='int'>Ruy</name>
+        <name key='Morfer' type='person' role='int'>Morfer</name>
+        <name key='Oscar' type='person' role='int'>Oscar</name>
+        <name key='Delby (Mme)' type='person' role='int'>Delby (Mme)</name>
+        <name key='Armand (Mme)' type='person' role='int'>Armand (Mme)</name>
+        <name key='Blanche (Mme)' type='person' role='int'>Blanche (Mme)</name>
+        <name key='Cristophe' type='person' role='int'>Cristophe</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f001400_001.tif'/>
+        <page>
+          <![CDATA[C
 Ç. d
-
 }/\
 f
-
 —Annon0‘n du Théatré}des Bou
-
- 
-
- 
-
 THÉATRE DES BOUFFES PARISIENS
-
 STAND DE LA COULOUVRENIÈRE = (F) /400
-
 Direction de Mm Vve Paul CADET- GREGOIRE
 @
-
 GI
 Aujourd’hui … Huillet 1880
-
- 
-
 Pour les Représentations de
-
 M"* CÉCILE GRÉGOIRE-POYARD
-
 Une seule et unique Représentalion de
-
 ELLE HELEN
-
 Opéra-bouffe en 3 actes, par MM. MrILHAC et Lupovic HALÉVY,
 Musique de J. OFFENBACH.
-
 Mme CÉCILE GRÉGOIRE-POYARD
 remplira le rôle de la Belle Hélène
 M. Josepn GRÉGOIRE M. BapTisTe GRÉGOIRE M. Vicror GRÉGOIRE
-
 rôle de Paris rôle d’Agamemmon rôle de Ménélis
 M. A. POYARD remplira le rôle de Calchas
 DISTRIBUTION : Achille, MM. Baron. — Ajax premier, Huguenet. — Ajax
-
 second, Ruy. — Philocome, Morfer. — Euthyclès, Oscar. — Oreste,
-
 Mmes Delby. — Bacchis, Armand. — Lœna, Blunche. — Parthœnis,
 Christophe.
-
 Gardes, Esclaves, Princesses, Pleureuses d’adonis, Suivantes d’Hélène.
-
- 
-
- 
-
- 
-
 Costumes nouveaux. — Décors peints par M. GrAcomo BERTI.
-
 Ouverture des bureaux à 7 h. 1/2. — On commencera à 8 h. 1/2
-
 PRIX DES PLACES
-
 Loges d’avant-scène, 20 fr. (en location 21 fr.) — Loges de face, 15 fr. (en location 16 fr.
 « — Fauteuils d’orchestre, 3 fr. (en location 3 fr. 50 c.) — Premières, 2 fr. 50 c. (en location.
-
 b 3 fr.) — Stalles numérotées, 2 fr. (en location*2 fr. 50 c.) — Parterre, 1 fr. 25 e. — À
 % Deuxième galerie, 1 fr — Troisième galerie, 50 centimes. p) e
 e ESIESSI E MM{Œ]Œ)
-
- 
-
-bt en cristal de roche]]></page>       
-        </p>
+bt en cristal de roche
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

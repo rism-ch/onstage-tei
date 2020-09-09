@@ -1,80 +1,92 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Grand concert M. Théodore Ritter, Mlle Adélaïde Régis, M. Lasalle<date when="02/03/1880"/></title>
-<series>1879-1880</series>
-<placeName>Salle de la Réformation</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Grand concert M. Théodore Ritter, Mlle Adélaïde Régis, M. Lasalle
+            <date when='02/03/1880'/>
+          </title>
+          <series>1879-1880</series>
+          <placeName>Genève, Salle de la Réformation</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU DG3-1 F001565</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt> </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18800302"/>
-<title>Grand concert M. Théodore Ritter, Mlle Adélaïde Régis, M. Lasalle</title>
-<placeName key="Salle de la Réformation"/>
-<name key="1879-1880" type="series"/>
-<name key="Bach, Johann Sebastian" ref="https://muscat.rism.info/admin/people/2539" type="person" role="cmp">Bach, Johann Sebastian</name>
-<name key="Bizet, Georges" ref="https://muscat.rism.info/admin/people/20057" type="person" role="cmp">Bizet, Georges</name>
-<name key="Gounod, Charles-François  [et al.]" ref="https://muscat.rism.info/admin/people/80479" type="person" role="cmp">Gounod, Charles-François  [et al.]</name>
-<name key="Ritter, Théodore"  type="person" role="int">Ritter, Théodore</name>
-<name key="Régis, Adélaïde"  type="person" role="int">Régis, Adélaïde</name>
-<name key="Lasalle [et al.]"  type="person" role="int">Lasalle [et al.]</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg3_1_f001565_001.tif"/>
-<page><![CDATA[ﬁALLE D'ei é A ÎîÉFORMATION
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18800302'/>
+        <title>Grand concert M. Théodore Ritter, Mlle Adélaïde Régis, M. Lasalle</title>
+        <placeName key='Genève, Salle de la Réformation'/>
+        <name key='1879-1880' type='series'/>
+        <name key='Bach, Johann Sebastian' ref='https://muscat.rism.info/admin/people/2539' type='person' role='cmp'>Bach, Johann Sebastian</name>
+        <name key='Bizet, Georges' ref='https://muscat.rism.info/admin/people/20057' type='person' role='cmp'>Bizet, Georges</name>
+        <name key='Gounod, Charles-François' ref='https://muscat.rism.info/admin/people/80479' type='person' role='cmp'>Gounod, Charles-François</name>
+        <name key='Verdi, Giuseppe' type='person' role='cmp'>Verdi, Giuseppe</name>
+        <name key='Lorenzi' type='person' role='cmp'>Lorenzi</name>
+        <name key='Saint-Saëns, Camille' type='person' role='cmp'>Saint-Saëns, Camille</name>
+        <name key='Massenet, Jules' type='person' role='cmp'>Massenet, Jules</name>
+        <name key='Salomon, H.' type='person' role='cmp'>Salomon, H.</name>
+        <name key='Godefroy' type='person' role='cmp'>Godefroy</name>
+        <name key='Wagner, Richard' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Liszt, Franz' type='person' role='cmp'>Liszt, Franz</name>
+        <name key='Mendelssohn Bartholdy, Felix' type='person' role='cmp'>Mendelssohn Bartholdy, Felix</name>
+        <name key='Ritter, Théodore' type='person' role='int'>Ritter, Théodore</name>
+        <name key='Régis, Adélaïde' type='person' role='int'>Régis, Adélaïde</name>
+        <name key='Lasalle' type='person' role='int'>Lasalle</name>
+        <name key='Senger, Franz Ludwig Hugo von' type='person' role='int'>Senger, Franz Ludwig Hugo von</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg3_1_f001565_001.tif'/>
+        <page>
+          <![CDATA[ﬁALLE D'ei é A ÎîÉFORMATION
 —— 38E—2+— —0
-
 Mardi 2 Mars 1880, à & heures du soir
-
 1 OOONCE
 L lHropore RITIER
-
 PIANISTE
-
 M" ADÉLAIDE RÉGIS
-
 HARPISTE
-
 M. LASSALLE, BARYTON DE L'OPÉRA
-
 PROÔGRAMME :
 s(O Gavotte . » … 4 L CR 0 E . S. BacH.
 (b) Minuetto de lArlœmmc 11 BIZET
 (c) Entr’acte de Philémon
 exécutés par M. Théodore Rrvrer.
-
 Grand air de Nabuchodonosor . ë
 chanté par M. LASSALLE.
 Nocturne caractcmt1quç
@@ -82,23 +94,14 @@ exécuté par M"e A. Récrs.
 Danse Macabre (arrangée par M. RITTER)
 « Zig et zig et zig, la mort en cadence,
 « Fl';lpplll]t une tombe avec son Î.ll()l\_
-
 « La mort à minuit joue un air de danse,
 « Zig et zig et zag, sur son violon
-
- 
-
- 
-
 Gouxop.
 VERDI.
 LORENZI.
-
 SAINT-SAENS.
-
 M11\ ps1tt' t0ut 1u…p on quuttc 11 mndu
 On se pousse, on fuit, le coq a chanté !
-
 e par M. Théodore RiTTER.
 MasSENET.
 (0) Extase 1 —
@@ -113,27 +116,21 @@ chantée par M. Lassar LE.
 (a) L’Etoile du soir (Tannhæuser).
 (®) Scherzo du Songe d’une nuit d’été. . . .
 exécutés par M. Théodore RrTTER.
-
 H. SALOMON.
 GopEFroyY.
-
 MASSENET.
 WAGNER-LISZT.
 MENDELSSONN.
-
 Piano de Goncert envoye exprès de Paris par la Maison Plevel, ‘Wbl/fä‘r Gie
-
 M. HuGo DE SENGER tiendra le piano d’accompagnement.
-
 PRIX DES# PPACESY
-
 Parterre 3 fr.—Première galerie 5 fr.—Places réservées numérotées ro fr.— Deuxième galerie,
-
 Billets d’avance chez le Concierge de la Salle, chez Mmes Frry et Deresvaux, MM, Rorscay, Prokesen
 et BRON, MARTINET ct HUMBERT, marchands de musique. Pour les places réservées s’adresserä la Réformation
-
-Imprimerie Jules CAREY]]></page>       
-        </p>
+Imprimerie Jules CAREY
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

@@ -1,79 +1,91 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par Mme Olga Cezano<date when="28/01/1882"/></title>
-<series>1881-1882</series>
-<placeName>Salle de la Réformation</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par Mme Olga Cezano
+            <date when='28/01/1882'/>
+          </title>
+          <series>1881-1882</series>
+          <placeName>Genève, Salle de la Réformation</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU DG3-1 F001571</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Lévi, I. (dir)</note>
+        <note>Compositeur présumé</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18820128"/>
-<title>Concert donné par Mme Olga Cezano</title>
-<placeName key="Salle de la Réformation"/>
-<name key="1881-1882" type="series"/>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Liszt, Franz" ref="https://muscat.rism.info/admin/people/107196" type="person" role="cmp">Liszt, Franz</name>
-<name key="Neswadba, Wenzel  [et al.]" ref="https://muscat.rism.info/admin/people/30086058" type="person" role="cmp">Neswadba, Wenzel  [et al.]</name>
-<name key="Lévi, I. (dir.)"  type="person" role="int">Lévi, I. (dir.)</name>
-<name key="Orchestre du Kursaal de Montreux"  type="person" role="int">Orchestre du Kursaal de Montreux</name>
-<name key="Cezano, Olga"  type="person" role="int">Cezano, Olga</name>
-<name key="Renard"  type="person" role="int">Renard</name>
-<name key="Scheurnsthul  [et al.]"  type="person" role="int">Scheurnsthul  [et al.]</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg3_1_f001571_001.tif"/>
-<page><![CDATA[SALLE DE LA REFORMATION
-
- 
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18820128'/>
+        <title>Concert donné par Mme Olga Cezano</title>
+        <placeName key='Genève, Salle de la Réformation'/>
+        <name key='1881-1882' type='series'/>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Liszt, Franz' ref='https://muscat.rism.info/admin/people/107196' type='person' role='cmp'>Liszt, Franz</name>
+        <name key='Neswadba, Wenzel' ref='https://muscat.rism.info/admin/people/30086058' type='person' role='cmp'>Neswadba, Wenzel</name>
+        <name key='Rubinštejn, Anton Grigor&apos;evič' type='person' role='cmp'>Rubinštejn, Anton Grigor'evič</name>
+        <name key='Schumann, Robert' type='person' role='cmp'>Schumann, Robert</name>
+        <name key='Schubert, Franz' type='person' role='cmp'>Schubert, Franz</name>
+        <name key='Verdi, Giuseppe' type='person' role='cmp'>Verdi, Giuseppe</name>
+        <name key='Chopin, Fryderyk Franciszek' type='person' role='cmp'>Chopin, Fryderyk Franciszek</name>
+        <name key='Taubert, Wilhelm' type='person' role='cmp'>Taubert, Wilhelm</name>
+        <name key='Boccherini, Luigi' type='person' role='cmp'>Boccherini, Luigi</name>
+        <name key='Lévi, I.' type='person' role='int'>Lévi, I.</name>
+        <name key='Orchestre du Kursaal de Montreux' type='person' role='int'>Orchestre du Kursaal de Montreux</name>
+        <name key='Cezano, Olga' type='person' role='int'>Cezano, Olga</name>
+        <name key='Renard' type='person' role='int'>Renard</name>
+        <name key='Scheurnsthul' type='person' role='int'>Scheurnsthul</name>
+        <name key='Buddenhagen' type='person' role='int'>Buddenhagen</name>
+        <name key='Bierlich' type='person' role='int'>Bierlich</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg3_1_f001571_001.tif'/>
+        <page>
+          <![CDATA[SALLE DE LA REFORMATION
 Samedi 28 Janvier 1882, à 8 heures du soir
-
 CONCERT
-
 DONNÉ PAR M"°
-
 OLGA CEZANO
-
 AVEC LE CONCOURS DE
-
 L'ORCHESTRE DÙ KURSAAL DE MONTREUX
-
 sous la direction de M. I. LÉVI.
-
 PROGRAMME
-
 . Ouverture de Coriolan, par l’orchestre. . . . . . Beethoven.
 sp 1 R r 1 e n Lôsnt.
 M”° Olga Cezano.
@@ -94,29 +106,18 @@ M”° Olga Cezano.
 M"* Olga Cezano.
 N e
 PIANO D'ÉRARD
-
 PRIX DES PLACES
-
 Réservées numérotées de parquet, ‘B fr. — Première galerie, 3 fr.
 Parterre et Estrade, 1 Îr. — Deuxième galerie, 5O cent.
-
- 
-
 Billets d'avance dans les magasins de musique, chez MM. Prokesch et Bron,
 marchands de pianos, et chez le concierge de la Réformation.
-
 Îﬁ Pour les places réservées s’adresser exclusivement chez MlIle
-
- 
-
 rey, magasin de musique, à là Corraterie.
-
 &s
-
- 
-
-Amp. J. Carey]]></page>       
-        </p>
+Amp. J. Carey
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

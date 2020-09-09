@@ -1,199 +1,161 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Jubilé Léopold Ketten : A l'occasion de sa 40me année d'enseignement<date when="28/01/1917"/></title>
-<series>1916-1917</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Jubilé Léopold Ketten : A l'occasion de sa 40me année d'enseignement
+            <date when='28/01/1917'/>
+          </title>
+          <series>1916-1917</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F001228</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Romain, F.</note>
+        <note>Teissier, A. (dir)</note>
+        <note>Interprète présumé</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19170128"/>
-<title>Jubilé Léopold Ketten : A l'occasion de sa 40me année d'enseignement</title>
-<placeName key="Victoria Hall"/>
-<name key="1916-1917" type="series"/>
-<name key="Delibes, Léo" ref="https://muscat.rism.info/admin/people/30016578" type="person" role="cmp">Delibes, Léo</name>
-<name key="Kune"  type="person" role="cmp">Kune</name>
-<name key="Massenet, Jules" ref="https://muscat.rism.info/admin/people/84264" type="person" role="cmp">Massenet, Jules</name>
-<name key="Ketten, Léopold"  type="person" role="cmp">Ketten, Léopold</name>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Romain, F."  type="person" role="int">Romain, F.</name>
-<name key="Teissier, A. (dir.)"  type="person" role="int">Teissier, A. (dir.)</name>
-<name key="Corps de musique d'Elite"  type="person" role="int">Corps de musique d'Elite</name>
-<name key="[Union instrumentale genevoise] Fanfare municipale de la Ville de Genève"  type="person" role="int">[Union instrumentale genevoise] Fanfare municipale de la Ville de Genève</name>
-<name key="La Muse"  type="person" role="int">La Muse</name>
-<name key="Soïni, Rose."  type="person" role="int">Soïni, Rose.</name>
-<name key="Hilbert-Ketten (Mme)"  type="person" role="int">Hilbert-Ketten (Mme)</name>
-<name key="Servettaz, C. (Mlle)"  type="person" role="int">Servettaz, C. (Mlle)</name>
-<name key="Andina, L. (Mme)"  type="person" role="int">Andina, L. (Mme)</name>
-<name key="Decompoix, Lucie"  type="person" role="int">Decompoix, Lucie</name>
-<name key="Dutoit, G."  type="person" role="int">Dutoit, G.</name>
-<name key="Bertossa"  type="person" role="int">Bertossa</name>
-<name key="Hermann"  type="person" role="int">Hermann</name>
-<name key="L'Huillier, Ed."  type="person" role="int">L'Huillier, Ed.</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001228_001.tif"/>
-<page><![CDATA[Hetien
-
- 
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19170128'/>
+        <title>Jubilé Léopold Ketten : A l'occasion de sa 40me année d'enseignement</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1916-1917' type='series'/>
+        <name key='Delibes, Léo' ref='https://muscat.rism.info/admin/people/30016578' type='person' role='cmp'>Delibes, Léo</name>
+        <name key='Kune' type='person' role='cmp'>Kune</name>
+        <name key='Massenet, Jules' ref='https://muscat.rism.info/admin/people/84264' type='person' role='cmp'>Massenet, Jules</name>
+        <name key='Ketten, Léopold' type='person' role='cmp'>Ketten, Léopold</name>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Romain, F.' type='person' role='int'>Romain, F.</name>
+        <name key='Teissier, A.' type='person' role='int'>Teissier, A.</name>
+        <name key='Corps de musique d&apos;Elite' type='person' role='int'>Corps de musique d'Elite</name>
+        <name key='Union instrumentale genevoise Fanfare municipale de la Ville de Genève' type='person' role='int'>Union instrumentale genevoise Fanfare municipale de la Ville de Genève</name>
+        <name key='La Muse' type='person' role='int'>La Muse</name>
+        <name key='Soïni, Rose.' type='person' role='int'>Soïni, Rose.</name>
+        <name key='Hilbert-Ketten (Mme)' type='person' role='int'>Hilbert-Ketten (Mme)</name>
+        <name key='Servettaz, C. (Mlle)' type='person' role='int'>Servettaz, C. (Mlle)</name>
+        <name key='Andina, L. (Mme)' type='person' role='int'>Andina, L. (Mme)</name>
+        <name key='Decompoix, Lucie' type='person' role='int'>Decompoix, Lucie</name>
+        <name key='Dutoit, G.' type='person' role='int'>Dutoit, G.</name>
+        <name key='Bertossa' type='person' role='int'>Bertossa</name>
+        <name key='Hermann' type='person' role='int'>Hermann</name>
+        <name key='L&apos;Huillier, Ed.' type='person' role='int'>L'Huillier, Ed.</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001228_001.tif'/>
+        <page>
+          <![CDATA[Hetien
 ment
-
-   
-
 pN
-
 ïgne
-
 G 2 heures et demie
 KI
-
-   
-
 ‘enseig
-
 EOPOLD
-
 opold
-
 “
 de sa 4o"*° année d'e
 Dimanche 28 Janvier 1917
-
-  
-
 ÿ l'occasion
-
 197
-Victoria Xall]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001228_002.tif"/>
-<page><![CDATA[PROGRAMME DE LA MATINÉE
-
+Victoria Xall
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001228_002.tif'/>
+        <page>
+          <![CDATA[PROGRAMME DE LA MATINÉE
 — —“ —
-
 Musique d’honneur :
 CORPS DE MUSIQUE D'ÉLITE
-
 AVEC LE BIENVEILLANT CONCOURS DE LA
-
 Fanfare Municipale de la Ville de Genève
-
 Sous la direction de M. A. TEISSIER
-
 DE LA
-
 Société Chorale “La Muse'
-
 ET
-
 d'Artistes et Professeurs anciens élèves de M. le Professeur Léopold Ketten
-
 Mme Rose Soïni Mme Hilbert-Ketten Mlle C. Servettaz
 du Théâtre R 1l de La Haye Première chanteuse des Théâtres de Paris Professeur de Chant
 Mme L Andina Mlle Lucie Decompoix M. G. Dutoit M. Bertossa
 Cantatrice Cantatrice du Grand-Théâtre de Lvon Fér
-
 M. A. Hermann M. Ed. L’Huillier
-
 Diseur Violoniste
-
 (\ / . k/)
 Ç /\/// @ //a///‘(" c //('//(w
-
 A L’OCCASION DE SON JUBILE
-
 laitre, tu } x porter ta tête haute et fière, On t'honore aujourd’hui; tu ne f
-
 } LU l’as /'.('/] Mmerlle 'ÎL'\ 1MIS SON. NOMDOreux ; et lu sais qu'à (
 7 carrière, Les disciples des arts ne font rien à
 »
-
 Pour n 1UTaLs ) !
-
 nde Je na u \
-
 eur 2 } Ket 1 } } iné } y
-
 nl
-
 nanièr 1N
-
 T2 IER(N TI
-
-J]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001228_003.tif"/>
-<page><![CDATA[16.
-
+J
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001228_003.tif'/>
+        <page>
+          <![CDATA[16.
 17
 18.
-
 El ÆçüüÆ Hellen
-
- 
-
 PROGRAMME
-
 6.
-
- 
-
- 
-
 Fragments du Ballet de Coppélia
 Musique d’Elite.
-
 Sous la Forêt.
 La Muse.
-
 ALLOCUTIONS.
-
 Scènes pittoresques
 Musique d’Elite.
 Le Soir, chœur pour voix de femmes, et soli
-
 a) Air de ballet )
 b) Angelus J
-
 Dédié à M. Ferdinand Held, Directeur du Conservatoire.
 Blum,
 Hartmann,
-
 Soli (par ordre alphabétique) : M"* Birmelé. M"*
 Braillard-Verdan, Closset, Fatio-Rusillon, M"*
 Marguerite Montant, Rouilly, M”* Rose Soïni.
-
 Ouverture de Tannhauser
 Fanfare Municipale.
 Berceuse, pour violon (inédite)
@@ -205,60 +167,39 @@ Le beau pays des rêves, duo (inédit)
 M"* Rouilly et M. James Vautier.
 a ) Le vase brisé . ;
 ) En cueillant le cyclamen .
-
 Paroles de M. le Professeur Paul Brunct
 M"“ Decompoix.
-
 La nuit, duo (inédit)
-
 M"“ Hilbert-Ketten et M. Bertossa.
 Récitation .
-
 M. Hermann.
 a) J'ai pleuré en rêve (inédit)
 b) La captive.
-
 M”“ Rose Soïni.
 a) L’adieu (inédit)
 b) Dans les bois .
-
 VM"* Andina.
 a) Nunc et Semper (inédit).
 b) Ici-bas .
-
 M. Gustave Dutoit.
 a) Parlons d’autre chose (inédit)
 b) Ritournelle
-
 M"* Hilbert-Ketten.
 Trois choses .
-
 M"“ Rouilly.
 Duo des Fées (inédit)
-
 M"* Andina et Hilbert-Ketten.
 Symphonie d’oiseaux.
-
 (Par ordrc .1|pl11batu3uc) M" Chenevard, M"* Renaud et M”' Rounll)
 e Virtuosité (Classe Ketten) : M"* Brachard,
-
 et la Classe
 M" Closset, M“* Henry, Blanche Montant et Viret.
-
- 
-
 Au piano :
-
 Léo DEL1BEs.
-
 KUNE.
-
 MASSENET.
-
 Léopold KeTTEn.
-
 R. WAGNER.
-
 Léopold KETTEN
 » »
 » »
@@ -266,220 +207,113 @@ Léopold KETTEN
 » »
 » »
 » »
-
 Léopold KeTTE
-
 »
-
 »>
-
 »
-
 »
-
 »
-
 »
-
 »
-
 »
-
 M. le Professeur Léopold KETTEN.
-
 »
-
 »
-
 »
-
 »
-
 »
-
 »
-
 »
-
 »
-
 »
-
 »
-
- 
-
- 
-
- 
-
- 
-
-l]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001228_004.tif"/>
-<page><![CDATA[CORE
-
+l
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001228_004.tif'/>
+        <page><![CDATA[CORE
 M
-
-M L. Andina]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001228_005.tif"/>
-<page><![CDATA[{r
-
+M L. Andina
+]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001228_005.tif'/>
+        <page>
+          <![CDATA[{r
 Monsimewr LÉéorounp
-
 IKETTEN
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Dans Mignon
-
 Dans Faust
-
 Dans la Dame Blanche
-
- 
-
- 
-
- 
-
- 
-
 M.
-
 M
-
 COMITÉ D’'HONNEUR
-
 Président :
-
 BARTHOLONI,
-
 Jean, Président du Comité du
-
 Conservatoire de Musique de Genève.
-
 Membres d’honneur :
-
 BRET,
 Canton de Genève.
 COUGNARD, Marc,
-
 société de Chant du Conservatoire et Chapelle
-
 l’héodore, Chancelier de la République et
-
 Avocat, Président de a
-
 Ketten réunies.
 DUNANT, Gaston.
 FOURNIER, Ernest, Directeur de la Comédie.
 HENTSCH, Ernest,
-
 sanquier.
-
 3anquier.
-
 COMMISSION
-
 Hector BLOCH, Président.
 ; Capitaine GAVARD, Trésorier.
-
 ; proiesseur‘ P. BRUNET, professeur au Conser
-
 vatoire
-
 J. CHEVALON, artiste peintre.
-
 M.
-
 M.
-
 M.
-
 M"
-
 M.
-
 M.
-
 M.
-
 HELD, Ferdinand, Directeur du Conservatoire de
 Musique de Genève.
-
 PASCAL D’AIX,
 Genève.
-
 PETROWITEH,
 Genève,
-
 PICTET DE ROCHEMONT, Auguste.
-
 PICTET DE ROCHEMONT, Maurice.
-
 VARS, Eugène,
-
 Commerce Française, à Genève.
-
 Consul Général de France à
-
 Consul Général de Serbie à
-
 Président de la Chambre de
-
 le Capitaine ZOLLER, Commandant du Corps de
 Musique d’Elite.
-
 MALET, L.-H., Président de la Fanfare Municipale
-
 de la Ville de Genève.
-
 Le Comité Central Français de Secours à Genève.
-
 Le Comité du Corps de Musique d’Elite.
-
 EXÉCUTIVE
-
 M.
 M.
-
 A. HERMANN, de l’Instruction Mutuelle.
 VIRET,
-
 Muse. »
-
 la Société chorale
-
 Louis Président de
-
 \l.|
 M. JERDELET.
 C. GLINEUR.
-
 D
-
- 
-
- 
-
 À
-
-e]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001228_006.tif"/>
-<page><![CDATA[ÉOPOLD KETTEN naquit le 10 mai
+e
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001228_006.tif'/>
+        <page>
+          <![CDATA[ÉOPOLD KETTEN naquit le 10 mai
 Elève d’harmonie d’Ambroise
 S X 2 tait …ÜJ accom-
 ir au Conser
@@ -511,55 +345,41 @@ sa femn ses
 Mes nes Jacquini
 S u,
 \ Ï ]
-
 et l'Enfance du Christ. de Berlioz ; Marie
 Magdeleine, de Massenet ; Judas Macchabée.
 de Hændel ; la Veillée, de Jaques-Dalcroze ;
 la Légende de Sainte-Elisabeth. de Liszt,
 ete cle.
-
 Il fut un des principaux instigateurs de
 la fondation de l’Association des Musiciens
 de Genève, en 1803, institution de secours
 mutuels.
-
 Il s’est dévoué corps et âme à toutes les
 œuvres de bienfaisance, ne ménageant jamais
 ni son temps ni sa peine pour toutes les
 misères à secourir. Pendant trente-deux ans
 il s’est chargé de la fète de Noël à l’Asile de
 Bel-Air.
-
 C’est en 1909 que le Gouvernement français
 le fit Chevalier de la Légion d'Honneur ; cette
 décoration vint en rejoindre beaucoup d'autres
 qu’il a reçues de différents pays pour services
 rendus.
-
 Comme compositeur, il a beaucoup produit :
 deux volumes pour chant et piano ; diverses
 mélodies ; différentes œuvres pour
-
 autres
-
 piano seul, violon et piano, violoncelle, des
-
 \]\l«IUIHI‘\ chœurs et œuvres sym-
-
 duos, trios,
-
 phoniques.
 Doué d’une grande mémoire, il accompagne
 et transpose la plupart du temps par
-
 cœur. parle couramment quatre langues. La
-
 «1Ï‘\«WI‘.‘.
-
 musique ne l'a pas uniquement
 et il sait intéresser à tous les arts et à
 ] térature, son esprit vif est sans cesse en
-
 ite
 Cette jeunesse conservée après une carrière
 1nte inées d’enseigsnement, illustrée
@@ -570,13 +390,10 @@ que où les artistes prennent
 | nps d'apprendre leu l et
 s maitres d'a\ gete
 N
-
- 
-
- 
-
-—amemee]]></page>       
-        </p>
+—amemee
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

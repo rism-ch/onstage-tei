@@ -1,86 +1,90 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert<date when="15/07/1883"/></title>
-<series>1882-1883</series>
-<placeName>Kiosque (Promenade des Bastions)</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert
+            <date when='15/07/1883'/>
+          </title>
+          <series>1882-1883</series>
+          <placeName>Genève, Kiosque (Promenade des Bastions)</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VG2-1 F001983</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Senger, H. de (dir)</note>
+        <note>Date présumée</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18830715"/>
-<title>Concert</title>
-<placeName key="Kiosque (Promenade des Bastions)"/>
-<name key="1882-1883" type="series"/>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Wallace"  type="person" role="cmp">Wallace</name>
-<name key="Massenet, Jules" ref="https://muscat.rism.info/admin/people/84264" type="person" role="cmp">Massenet, Jules</name>
-<name key="Verdi, Giuseppe" ref="https://muscat.rism.info/admin/people/137994" type="person" role="cmp">Verdi, Giuseppe</name>
-<name key="Rossini, Gioachino" ref="https://muscat.rism.info/admin/people/63766" type="person" role="cmp">Rossini, Gioachino</name>
-<name key="Jullien"  type="person" role="cmp">Jullien</name>
-<name key="Labitzky, August" ref="https://muscat.rism.info/admin/people/354351" type="person" role="cmp">Labitzky, August</name>
-<name key="Meyerbeer, Giacomo" ref="https://muscat.rism.info/admin/people/725" type="person" role="cmp">Meyerbeer, Giacomo</name>
-<name key="Delibes, Léo" ref="https://muscat.rism.info/admin/people/30016578" type="person" role="cmp">Delibes, Léo</name>
-<name key="Senger, Franz Ludwig Hugo von  (dir.)" ref="https://muscat.rism.info/admin/people/30015297" type="person" role="int">Senger, Franz Ludwig Hugo von  (dir.)</name>
-<name key="Orchestre de la Ville de Genève"  type="person" role="int">Orchestre de la Ville de Genève</name>
-<name key="Moog, Jean"  type="person" role="int">Moog, Jean</name>
-<name key="Rey"  type="person" role="int">Rey</name>
-<name key="Kolster"  type="person" role="int">Kolster</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_1_f001983_001.tif"/>
-<page><![CDATA[Procramme officiel
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18830715'/>
+        <title>Concert</title>
+        <placeName key='Genève, Kiosque (Promenade des Bastions)'/>
+        <name key='1882-1883' type='series'/>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Wallace' type='person' role='cmp'>Wallace</name>
+        <name key='Massenet, Jules' ref='https://muscat.rism.info/admin/people/84264' type='person' role='cmp'>Massenet, Jules</name>
+        <name key='Verdi, Giuseppe' ref='https://muscat.rism.info/admin/people/137994' type='person' role='cmp'>Verdi, Giuseppe</name>
+        <name key='Rossini, Gioachino' ref='https://muscat.rism.info/admin/people/63766' type='person' role='cmp'>Rossini, Gioachino</name>
+        <name key='Jullien' type='person' role='cmp'>Jullien</name>
+        <name key='Labitzky, August' ref='https://muscat.rism.info/admin/people/354351' type='person' role='cmp'>Labitzky, August</name>
+        <name key='Meyerbeer, Giacomo' ref='https://muscat.rism.info/admin/people/725' type='person' role='cmp'>Meyerbeer, Giacomo</name>
+        <name key='Delibes, Léo' ref='https://muscat.rism.info/admin/people/30016578' type='person' role='cmp'>Delibes, Léo</name>
+        <name key='Senger, Franz Ludwig Hugo von' ref='https://muscat.rism.info/admin/people/30015297' type='person' role='int'>Senger, Franz Ludwig Hugo von</name>
+        <name key='Orchestre de la Ville de Genève' type='person' role='int'>Orchestre de la Ville de Genève</name>
+        <name key='Moog, Jean' type='person' role='int'>Moog, Jean</name>
+        <name key='Rey' type='person' role='int'>Rey</name>
+        <name key='Kolster' type='person' role='int'>Kolster</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_1_f001983_001.tif'/>
+        <page>
+          <![CDATA[Procramme officiel
 Dimanche 15 Juillet, à 8h 114
-
 Société civile de l'Orchestre de la Vil6
-
 Direction de M. HMugo de SENGER
-
- 
-
 PREMIÈRE PARTIE
-
 1. Marche de Rienzi. . . . - - WAGNER
-
 9. Ouverture de Maritana . . . . . WALLACE
 3. Sévillana de Dom Cézar de
-
 mazan ° …… . …. . . MASSENET
 4. Fantaiste sur la Traviata . . .  VurDI
-
 DEUXIÈME PARTIE
-
 5, Ouverture de Guillaume-Teli. . Mossini
 G. Le Rossigmol, valse . . . -
 Petite flûte solo : M. Jean Moog.
@@ -90,26 +94,19 @@ r 1 1 AUABTIZES
 8. Fantaisie sur l’Etoile du Nord … MEYERBEER
 9. Cortège de Bacchus (Ballet de
 01110101 A - T DENRES
-
 JULLIEN
-
- 
-
 En cas de force majeure, le Chof d'orchestre se réserve de moditier le
 programme.
-
- 
-
 CONCERTS AU KIOSQUE les Dimanches, Lundis,
-
 Mercredis et Vendredis, à 8 heures du soir.
 CONCERT CLASSIQUE. — Orchestre et Grandes
 Orgues, à la Cathédrale de St-Pierre, les Samedis à 4 h.
 Abonnements par feuille de Z0 conpons: fr. 7.50. S’adresser
 à l’entrée.
-
-—n]]></page>       
-        </p>
+—n
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

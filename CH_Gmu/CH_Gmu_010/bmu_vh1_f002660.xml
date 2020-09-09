@@ -1,271 +1,190 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Grand concert donné par l'Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)<date when="17/11/1927"/></title>
-<series>1927-1928</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Grand concert donné par l'Union instrumentale genevoise (Fanfare
+            municipale de la Ville de Genève)
+            <date when='17/11/1927'/>
+          </title>
+          <series>1927-1928</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002660</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Bodet, F. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19271117"/>
-<title>Grand concert donné par l'Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)</title>
-<placeName key="Victoria Hall"/>
-<name key="1927-1928" type="series"/>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Mozart, Wolfgang Amadeus" ref="https://muscat.rism.info/admin/people/115324" type="person" role="cmp">Mozart, Wolfgang Amadeus</name>
-<name key="Couperin, L."  type="person" role="cmp">Couperin, L.</name>
-<name key="Lalo, Edouard" ref="https://muscat.rism.info/admin/people/65446" type="person" role="cmp">Lalo, Edouard</name>
-<name key="Georges, Alexandre"  type="person" role="cmp">Georges, Alexandre</name>
-<name key="Rachmaninov, Sergej Vasil'evič" ref="https://muscat.rism.info/admin/people/32447" type="person" role="cmp">Rachmaninov, Sergej Vasil'evič</name>
-<name key="Fauré, Gabriel" ref="https://muscat.rism.info/admin/people/41731" type="person" role="cmp">Fauré, Gabriel</name>
-<name key="Debussy, Claude" ref="https://muscat.rism.info/admin/people/4338" type="person" role="cmp">Debussy, Claude</name>
-<name key="Wettge, Gustave" ref="https://muscat.rism.info/admin/people/30081063" type="person" role="cmp">Wettge, Gustave</name>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Bodet, Francis (dir.)"  type="person" role="int">Bodet, Francis (dir.)</name>
-<name key="Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)"  type="person" role="int">Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)</name>
-<name key="Closset (Mme)"  type="person" role="int">Closset (Mme)</name>
-<name key="Mule, Marcel"  type="person" role="int">Mule, Marcel</name>
-<name key="Gardon, Louise"  type="person" role="int">Gardon, Louise</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002660_001.tif"/>
-<page><![CDATA[rrr
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19271117'/>
+        <title>
+          Grand concert donné par l'Union instrumentale genevoise (Fanfare
+          municipale de la Ville de Genève)
+        </title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1927-1928' type='series'/>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Mozart, Wolfgang Amadeus' ref='https://muscat.rism.info/admin/people/115324' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Couperin, L.' type='person' role='cmp'>Couperin, L.</name>
+        <name key='Lalo, Edouard' ref='https://muscat.rism.info/admin/people/65446' type='person' role='cmp'>Lalo, Edouard</name>
+        <name key='Georges, Alexandre' type='person' role='cmp'>Georges, Alexandre</name>
+        <name key='Rachmaninov, Sergej Vasil&apos;evič' ref='https://muscat.rism.info/admin/people/32447' type='person' role='cmp'>Rachmaninov, Sergej Vasil'evič</name>
+        <name key='Fauré, Gabriel' ref='https://muscat.rism.info/admin/people/41731' type='person' role='cmp'>Fauré, Gabriel</name>
+        <name key='Debussy, Claude' ref='https://muscat.rism.info/admin/people/4338' type='person' role='cmp'>Debussy, Claude</name>
+        <name key='Wettge, Gustave' ref='https://muscat.rism.info/admin/people/30081063' type='person' role='cmp'>Wettge, Gustave</name>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Bodet, Francis' type='person' role='int'>Bodet, Francis</name>
+        <name key='Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)' type='person' role='int'>Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)</name>
+        <name key='Closset (Mme)' type='person' role='int'>Closset (Mme)</name>
+        <name key='Mule, Marcel' type='person' role='int'>Mule, Marcel</name>
+        <name key='Gardon, Louise' type='person' role='int'>Gardon, Louise</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002660_001.tif'/>
+        <page>
+          <![CDATA[rrr
 =
-
 Wlﬁ. v
-
 An
-
 7
 }
-
- 
-
- 
-
 VOYAGEZ... avec les arrangements spéciaux de
-
 l’Agence de Voyages
-
 BLENK, FERT & C:
-
 1, Rue du Mont-Blanc - Genève
-
 Plus d'ennuis. — Plus de soucis. «Meilleure utilisation du temps.
-
 C aux meilleures conditions S
 A R S nous louons les meilleurs C A R
-
- 
-
 —
-
 Jeudi 17 Novembre 1 927
-
 Portes à 20 heures V ! CTO Q
 , Fs RS “
 -©®
-
 PASFIALE T Corceredzo h 30
-
 147
-
 Grand Ç@HC(Ï1‘Ê
-
 DONNÉ PAR
-
 L'UNION INSTRUMENTALE GENEVOISE
-
 (Fanfare Municipale de la Ville de Genève)
 Sous la direction de M. Francis BODET
 Premier prix du Conservatoire national de musique de Paris
 AVEC LE CONCOURS DE
-
 M"* Fernand Closset M. Marcel Mule *
-
 Cantatrice Saxophoniste
 Soliste à la Musique de la Garde Républicaine
-
 Au Piano: Mme Louise Gardon
 Prix des places : Cordons de 1" galerie (place numérotée) fr. 2.10 ; Rez-
-
 de-chaussée cu galenie, tr. 4.10 25* galerie, îr. 0.60 (droit des
 pauvres compris). Bureau de location : Rotschy frères, Corraterie, 22.
-
- 
-
 Le 2° Concert de la Saison aura lieu le Mercredi 21 Mars, Salle de la Réfor-
 mation, avec le concours de Mme Camille BRUNNER, cantatrice et de la
 Société artistique féminine « Plainpalaisia ».
-
- 
-
- 
-
- 
-
- 
-
 Avant de faire vos achats en bicyclettes ou motos voyez les nouvelles
-
 Motos CLÉMENT et GLADIATOR
-
 Type n°350 c, c, 4 chevaux, moteur monocylindrique Jap, cadre double poutre armée
 en acier profilé et embouti breveté S. G. D. G., guidon inclinable 2 freins.à segments
 extensibles, commandes à la main et à pédale: 80 ou 90 km. à l’heure, 3 vilesses.
-
 et la grande nouveauté en bicyclettes
 “LA BERCEUSE ” Clément et Gladiator
-
 ainsi que tous les modèles de bicycletles
-
 J. HOFFMHNN3 mécanicien - constructeur
-
-Rue Michel-du-Crest, 11 — Genève - Plainpalais]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002660_002.tif"/>
-<page><![CDATA[Les bonnes chaussures
+Rue Michel-du-Crest, 11 — Genève - Plainpalais
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002660_002.tif'/>
+        <page>
+          <![CDATA[Les bonnes chaussures
 Les dernières nouveautés
 en beige, gris, tressés.
 Les jolis Richelieu
 pour hommes
-
- 
-
 S’achètent dans les
-
 Grands Magasins LUX S. A.
-
 GENÈVE —:: 20, Rue de la Confédération —:: GENÈVE
-
- 
-
- 
-
 Notice Historique sur la Fanfare Municipale
-
 pamperamr ut 11817210 2 e cr 2 OS
-
 Nous pensons intéresser les lecteurs de ce programme en rappelant q
 ici, avec quelques dates et quelques noms, les principaux événe- |
 ments qui marquèrent l’évolution de notre société, depuis sa
 création. û
-
 C’est en 1863 et sous la dénomination de « Société des Fanfares
 Militaires Genevoises» que notre actuelle Fanfare est portée sur
 les fonts batismaux. Messieurs Joseph Leclere et John Grasset en
 sont les premiers Président et Directeur. |
-
 Dès sa création, elle participe aux manifestations de la vie gene- |
 voise, étant « priée » par les autorités de prêter son concours,
 alors que les autres corps de musique étaient «commandés ». Lors
 d’une manifestation en 1867, la Société des Fanfares est à son tour
 «commandée». Mais les membres de la fanfare n'entendent pas
 abdiquer leur indépendance. C’est pourquoi la Société des Fanfares
-
- 
-
- 
-
 se constitue en société civile, sous la dénomination actuelle : H
-
 « UNION INSTRUMENTALE GENEVOISE »
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Ph. Aibert & Braschoss
-
 2, Rue du Rhône :-: GENÈVE 1- Place Bel Air
-
 l'ÉLÉPHONE STAND 3200
-
 Assurances. Régie d'Immeubles. Contentieux.
-
 Assurances de toutes branches, Vente et Achats d’Immeubles,
 Recouvrements, Liquidations, Prêts et Emprunts hypothécaires,
-Service Fiducaire et de Comptabilité]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002660_003.tif"/>
-<page><![CDATA[se e
-
- 
-
- 
-
+Service Fiducaire et de Comptabilité
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002660_003.tif'/>
+        <page>
+          <![CDATA[se e
 Fabrique Suisse d'Uniformes
 Eerne — GENEVE — Zurich
 2, Rue Petitot, 2
-
- 
-
 Equipements Militaires
 Culottes Equitation
 Vélements Civils et de Sports
 Casquettes
-
- 
-
 Atelier de Réparation
 d’Instruments de Musique
 Fanfares et Harmonies
-
 M.-pElDEL
-
 RUE GRENUS, 11
 au 1” étage
 Grand choix d'accessoires
 Fournitures et pièces détachées
 Cordes. etc.
-
- 
-
- 
-
- 
-
 Notice Historique
-
 (suile)
-
 Les années s’écoulent, heureuses parfois, difficiles souvent. De
 1868 à 1880, Bergalonne dirige l’Union avec un talent sans contéste.
 Sous sa  direction, l’Union lutte et vainc à Berne (1868),
@@ -278,77 +197,41 @@ Teissier qui se consacra corps et âÂme, durant seize années ( 1902-1917)
 à notre Société, et mourut subitement en plein concert. Bruni lui
 succéda et se révéla directeur de fanfare excellent, mais nous fut
 vite repris par le Théâtre.
-
 Tout au cours de sa route, l’Union eut surtout à lutter contre
 les difficultés financières, d’autant plus considérables pour une
 société de musique qu’elle cherche à progresser dans l’art, qui est
-
- 
-
 Pâtissier —-
 —— Traiteur =—
-
 E., MAGNIN, Succ.
-
 NOCES, BALS et SOIRÉES
-
- 
-
 Confiseur
-
 Café de la Liberté
-
 Emile GUIGNET
-
 J. MOUTHON
-
 C]Ï*lANTEPOU‘IJÈIT, L3
 Spécialité
-
 17, Grand’Rue, GENÈVE
-
 Plats froids et chauds
-
 en tous genres pour
-
 Casse-Croûtes — Banquets
-
- 
-
- 
-
- 
-
 BRASSERIE - RESTAURANT
-
 de Vins du Pays et du Valais
-Salle de Société pour 200 personnes]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002660_004.tif"/>
-<page><![CDATA[Agence Immobilière et Régie “La Rurale”
-
+Salle de Société pour 200 personnes
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002660_004.tif'/>
+        <page>
+          <![CDATA[Agence Immobilière et Régie “La Rurale”
 Alex. Livron, directeur
-
 4, Rue du Vieux-Collége - GENÈVE - Téléphone Stand 18.65
-
 Grand choix de propriétés, villas, chalets, terrains
 dans toutes les directions, pour tous les prix
 pas de frais préalables 3 == ps es
-
 Assurances, accidents, resp. civil, vie, vol incendie
-
 Agent général pour Genève de l’assurance des chevaux
 VOYAGES ET EMIGRATION: - —Ÿ{Ÿ—————
-
- 
-
- 
-
- 
-
 Notice Historique
-
 (suite)
-
 sa raison d'être (achat de musique, instruments, frais d’enseigne-
 ment, etc.) Il fallait donc que notre Union trouvât des appuis
 destinés à compléter le dévouement désintéressé de ses membres.
@@ -360,210 +243,99 @@ tes. Monsieur L.-H. Malet, énergique et distingué président pendant
 vingt ans, obtient en 1900, du Conseil Administratif, que notre
 Union soit élevée au rang de « Fanfare Municipale de la Ville de
 Genève ».
-
 Dès lors, l’histoire de notre Société est plus intimement liée
 encore qu'auparavent à l’histoire de notre pays, et nous pouvons
 dire sans trop de présomption que l’Union Instrumentale Genevoise,
 n’a pas démérité de son titre officiel.
-
 Actuellement, sous la présidence de M. Philippe Albert et la
-
- 
-
- 
-
 BUYVEZ
-
- 
-
 SALLE D'ATTENTE
 POUR JARDIN
 TIR VMERENDA nn
-
 AMER-PICON
-
 GEN È V E
-
 EXIGEZ-ILE VANNERIE EN TOUT GENRE
-
- 
-
 MiEBeFS EN 39NGE
-
 E. MARKI. Fy-
-
 1, Rue de la Fontaine (près Longemalle)
-
- 
-
- 
-
- 
-
 L T p ETE NN LSN CN QIEN
-
 N PE
-
 e
-
 e
-
 rs
-
 ozemen
-
 t
-
 #
-q]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002660_005.tif"/>
-<page><![CDATA[Seas
-
+q
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002660_005.tif'/>
+        <page>
+          <![CDATA[Seas
 v
 Y
-
- 
-
 PAPIERS PEINTS | Rod. Ë@Ë)Säﬂ”ﬂﬁﬂ
 J_-F_ UPONT MARCHAND-TAILLEUR
-
 Ë our civils et uniformes
 Rue du Stand prolongée, 40 P
-
 au 1” étage Tél. Stand 43.72
-
- 
-
- 
-
 Militaires, Hôtels, Sociétés, Sports
 Choix de plus de 5.000 dessins
 de toute fabrication
 pose irréprochable.
-
 RE UURES Pardt n praa mroen ME 7 e TREU PE
-
- 
-
 Rue Lévrier, 11 — GENÈVE
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 IF Décoration : Style : Nouveauté Téléphone Mt-BI. 37.93
 1
-
 !3.
-
 ©
-
 J . . .
-
 Îj Notice Historique
-
 ";; (suite)
-
 l
-
 5
-
 ‘ direction de Monsieur Francis Bodet (premier prix du Conservatoire
 de musique de Paris), notre Fanfare municipale consacre tous ses
 efforts au développement de la culture musicale de ses membres,
 Hé
-
 Ë guidée par le désir de faire apprécier, en tout désintéressement, à
-
 notre population tout entière, une musique saine et éducative.
 Notre société réalise également son but en étant toujours à l’entière
 disposition de nos Autorités pour toutes les manifestations de notre
 vie publique.
 C'’est ainsi que notre société’peut faire œuvre utile au point de
 vue social, en même temps qu’acte de patriotisme par son solide
-
- 
-
 attachement au pays et à ses institutions.
-
- 
-
 . RRN
-
 eqn sS
-
- 
-
- 
-
- 
-
-      
-
 ñ/
-
 A ,
-
 TAXI-CAB
-
 MARQUE
-
 À
 |
-
- 
-
 | Les meilleur marché
-
-léléphone : STAND 00.70]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002660_006.tif"/>
-<page><![CDATA[IN oubliez pas
-
+léléphone : STAND 00.70
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002660_006.tif'/>
+        <page>
+          <![CDATA[IN oubliez pas
 se trouvent
-
 MAISON DUCRET
-
 Transformations Recouvrages … Réparations
-
 Prix modérés 10 , aux membres
-
 messieurs Séjour de famille
-
 que les plus jolis parapluies er
 les cannes de 1 ordre
 et les cannes-parapluies
-
 McLe HOSCHEK, Succ.
 A13, Quai des Bergues
-
- 
-
-     
-  
-
 11, Florissant
-
- 
-
- 
-
- 
-
 Notice sur les œuvres figurant au programme
-
 Ludwig van Beethoven
 Né à Bonn le 16 décembre 1770, mort à Vienne le 26 mars 1827
-
 Ouverture d'Egmont
-
 C’est en 1810 que Beethoven composa la musique de scène pour
 le drame d'Egmont, où Gœthe met en scène la lutte des Pays-Bas
 contre la domination espagnole, symbolisée par l’héroïsme du comte
@@ -580,53 +352,30 @@ où se manifeste un rève d'amour et de liberté. Cet allegro terminé,
 quelques mesures calmes amènent une péroraison éclatante qui
 n’est autre que la symphonie triomphale par où conclut le drame :
 marche d’Egmont à l’échafaud et vision d’un avenir d'indépendance.
-
- 
-
- 
-
 ue
-
- 
-
 DIRSN D A N E E
-
 Toutes les ;Machines à Ecrire
-
 “UNDERWO0OD ”"
-
 Toutes les Machines à Calculer
-
 CMADAS” “MILLIONNAIRE”
 EOS” “ GARDNER ”
-
 MARIUS TROSSEELI, Rue du Stand;, 53
-
-ME SID cxoersshTres]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002660_007.tif"/>
-<page><![CDATA[MAISON D’EXPÉDITION ET DE COMMISSION
-
+ME SID cxoersshTres
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002660_007.tif'/>
+        <page>
+          <![CDATA[MAISON D’EXPÉDITION ET DE COMMISSION
 Fruits frais et secs
 Légumes et primeurs
-
 e C . A
-
 G Ë N Ë V E
 Téléph. Mont-Blanc 63-79 et 61-22
-
 Succursale à LAUSANNE : Gare du Flon RU 0 A O E
-
- 
-
- 
-
 Notice sur les œuvres fiqurant au programme (suite)
-
 Alexandre Georges
 né à Arras en 1850
-
 Tarass-Boulba
-
 Alexandre Georges est un liediste remarquable, immortalisé par
 ses célèbres chansons de Miarka ; élève de l’Ecole Niedermeyer, il
 s'est particulièrement consacré à la musique théâtrale dans laquelle
@@ -638,421 +387,213 @@ particulièrementoriginale du fameux roman de Gogol. Noustrouvons
 en outre le compositeur respectueux des traditions sans en être
 l'esclave, hardi et coloré mais simple et sans aucune des préciosités
 de l’art moderne. Tarass-Boulba peut être considéré comme le
-
 chef-d’œuvre du répertoire de nos fanfares.
-
- 
-
- 
-
- 
-
 C LsnyESTAURANT DUVN
 2, PLACE DU PORT ET RUE DU RHONE, 45
 (Près Jardin Anglais)
-
 GN
-
 BONNE CUISINE BOURGEOISE
 VINS SUISSES ET ETRANGERS
 LIQUEURS DE MARQUES
-
- 
-
 l'éléphone Stand 43-21 JOSEPHIGIONZAINI E 7077
 ; 1
 Ouvert Jusqu'à … heure du mn tous les jou ‘s !
-
-q éas e — ec d - A T A PS DE DU A RE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002660_008.tif"/>
-<page><![CDATA[QUÛ(
-
+q éas e — ec d - A T A PS DE DU A RE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002660_008.tif'/>
+        <page>
+          <![CDATA[QUÛ(
 en 07
-
 #leuriste
 artistique
-
- 
-
 ques Fleurs de
-
 Corraterie, 26 Rue de Rive, 15
-
 Ts
-
 Auditions
-
 et Devis Gratuits
-
-   
-
 Maison spécä
-
- 
-
 Dégustation -- Weinstube
-
 3 4>
 cB”
-
 =CINTRA=
-
 Wine & Liquor House
-
 —
-
 15, Confédération et Fusterie, 16
-
- 
-
 Xérès et Porto d’origine
-
- 
-
 Teinturerie Moderne
-
 Maison fondée en 1826
-
 BERNARD
-
 6, Plâce Jargonnant
 2,r. des Eaux-Vives - 58, r. de St-Jean
-
 GENEVE
-
- 
-
 PV XG CHINTTQUE
-
- 
-
- 
-
 Pro® ]{
-
 PREMIÈRE PARTIE
-
- 
-
 2
-
 1. Ouvcrturc (] Egmont. BceîllOveu %
 Transcrip. de F. Bodeä
-
 Union Instrumentale Ï
-
 _‘4
 A didomene= Mozart ')
-
 2.
 M"* Fernand CLOSSET À
-
 Ÿ
-
 3.  a) La Précieuse. T Couperﬁa‘_î
 1)) C]1:1nts russes E L:l10
 Orchestr. de F. Bodz:æ;»‘
-
 M. Marcel MULE n
-
 4- T1r1s»—B0u”)l MGXﬂHÜPÛ GGÛÏ'€6$
-
 Oeuvre originale pour ,*an are.
 Union Insuummtale
-
- 
-
- 
-
- 
-
- 
-
 INSTHUMENTS DE USIQUE
-
 pour Fanfare et Harmonie
-
 TUente
 “Pièces
-
 >Achat
 détachées
-
 Réparations
 edccessoires
-
 Kaspar Wicky
-
 Angle Rue Ecole-de-Médecine, 8
 Entrée rue des Maratchers, 48
-
 GENEÈEVE
-
- 
-
 DE BA} N
-
 FONDÉ}Ï;*Ï
-
-      
- 
- 
-
 S”
-
 Capital-Actions et R ;_,
 6, Corraterie GE|
 CORNAVIN EAUX-VIVES
-
 10, pl. de Cornavin 3, pl. des Eaux-Vives |
-Toutes opérations de Band#]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002660_009.tif"/>
-<page><![CDATA[=
+Toutes opérations de Band#
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002660_009.tif'/>
+        <page>
+          <![CDATA[=
 I
-
- 
-
 (
-
 *
 }
-
 (2
-: 
-
+:
 8
-
 |
 3{ PFadiodepuis 1g23, et possédant les meilleures
-
- 
-
 L : *.
 AUux meilleures conditions,
-
- 
-
 %ertain...
-
 der une Instailation parfaite,
 Il
-
 vous au
-
 | de la Haute-Ville
-
 2, Rue Etienne-Dumont
 . Stand 80.12 GENÈVE
-
- 
-
-   
-  
-
 _ "
-
 êces à Genène et dans toute la Suisse.
-
 M MH
-
 es
-
-    
-  
-
- 
-
- 
-
 DEUXIÈME. PARTIE
-
 Rachmaninow
-
 Prélude. . Z
 Transerip. de Gironce
-
 Union Instrumentale
-
 PHOTOGRAPHIE D'ART
-
 F=A, JULLIEN
-
 15,
-
- 
-
- 
-
 Éours de Rivé
-
 GN EVE
-
 Venez dîner avec vos amis
 au restanrant de
-
 l'Hôtel Richemond
-
 TERRASSE
-
 Déjeuner F.5 DînerF.6
 Afternoon-tea
-
 Repas de noces et grands dîners
-
 V. ARMLEDER
-
- 
-
 a) Nell
-
 . (:’ P‘IH!]‘(’Ï
 1)) ROIIIIUICC
-
 ; DC1)HS.S)’
 C) Gl‘(:Cll Dc]nlssy
 M"* Fernand CLOSSET ;
 Fantaisie variée Wctgc
 M. Marcel MULE
 Ouverturc (lc Tanllêiuser Wztgncr
-
 j Transcrip. de Tessier {
 ; .Hnon Instrumentale $
-
 M A r rrr e r A A rrr réramamencasrdérenamerpent |
-
 Buvez la
 Saint-Romain
 Source Parot
-
 eau minérale réputée, pour
 la table et le régime,
 gazeuse, naturelle,
-
- 
-
 : FPr. 153 millions
-
 E - Corraterie, 6
-
 PLAINPALAIS
-
 CAROUGE
 36, rue de Carouge
-
 r1, rue du Marché
-
- 
-
- 
-
 Maux de Pieds
-
 Douleurs, Brûlures, Engelures
 Transpiration. Cors, Durillons
-
 guéris par
-
 Sels de Romarin
-
 pour bains de pieds, la boîte Fr. 1.--
 D' BUMARTHERAY & C"
-10, r. du Mont-Blane-et toutes autres pharmacies]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002660_010.tif"/>
-<page><![CDATA[TAILLEUR- COUTURIER
-
+10, r. du Mont-Blane-et toutes autres pharmacies
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002660_010.tif'/>
+        <page>
+          <![CDATA[TAILLEUR- COUTURIER
 V. DON pP/|©
-
 Costunmie Fanclaléeurr
 Manteau Amazone
-
 GRAND'RUE, 29  TééPHoNne GENEÈVE
-
-   
-
- 
-
- 
-
 Rachmaninow
-
 Prélude
-
 Disciple de Rimsky-Korsakow, suivant le chemin tracé par Gla-
 zounow, Rachmaninow continue d'explorer les voies nouvelles
 ouvertes à l’art musical. Sa renommée a depuis longtemps déjà
 franchi les frontières.
-
 Pianiste distingué, c’est à son instrument qu’il consacra la majeure
 partie de ses aspirations.
-
 Le Prélude qui figure au programme est l’une des remarquables
 pièces de salon qui affirme toute la personnalité de son auteur.
-
 De par sa sonorité « orchestrale », cette œuvre s'adapte merveil-
-
 leusement aux sonorités de la fanfare.
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Mesdames…. ne pleurez plus,
-
 z
-
 si vous avez cassé un
 ebjetv d'arnt queleonquae
-
 CASTOLDI, 9, Rue de l’Hôtel-de-Ville
-
-vous ernénane =]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002660_011.tif"/>
-<page><![CDATA[Victor ÉouroIs |
-
+vous ernénane =
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002660_011.tif'/>
+        <page>
+          <![CDATA[Victor ÉouroIs |
 Rue Chantepoulet, 5/4- GEN ÈVE Max r RoGer OLAVET
-
 Maison de eonfrance fondée en 4884
-
- 
-
 CHAR@UTERTE
 D’'ÉLECTRICITÉ
-
 ADMINISTRATEURS
-
 6, Cours de Rive — Tél. Stand 11-30
-
 (En face de la Grande Poste)
-
 Service à domicile
 Toutes Spécialités . _ e
 Maison sérieuse, consciencieuse, et
-
 Télép. Mt-Blanc 28.82 plus, modérée dans ses prix
-
- 
-
- 
-
- 
-
 Richard Wagner (1813-18883)
-
 Ouverture de Tannhäuser
-
 Représenté pour la première fois le 10 octobre 1845 à Dresde,
 Tannhäuser éveilla, au débui, des critiques et des méfiances à cause
 de la nouveauté du caractère musical et dramatique. Aujourd’hui,
 malgré ses quatre-vingts ans d’existence, l’ouvrage jouit encore
 d'une pleine vitalité et passionne le public, tant par sa beauté musi-
 cale que par l’esprit élevé et l’idéalisme qui l’anime.
-
 L'ouverture, basée sur des éléments musicaux qui tiennent du
 drame, en rend l’esprit avec l'intimité expressive propre à l’art. Au
 « Thème des Pèlerins » grave. d’une austère douceur, puis, haletant,
@@ -1062,171 +603,87 @@ et d'éblouissantes couleurs’ instrumentales. Des accents d’une
 grande douceur rendent musicalement le sens de la flatterie de
 Vénus, puis le mouvement de l’orgie reprend avec une plus grande
 animation.
-
 Tout à coup le thème revient à la forme recueillie du début
 et s’étend, envahissant tout l’orchestre. Enfin, dans les accents des
 cuivres, l'hymme de la rédemption s’achève en une majesté
 triomphale.
-
- 
-
- 
-
 SOCMÉTÉ  GENEVOISE
-
- 
-
- 
-
- 
-
 CT r r
-
 Collections et devis
 sur demande, sans frais
 et sans engagement
-
- 
-
 PAPIERS Ï?EINTS
 LINOLEUMS
 ' Ancienne Maison P. PRICAM
-
 Auguste KELLER, succ.
-
- 
-
 Grand choix des premières fabriques
-
- 
-
 RJ ENVERSONNEX, 11
-
 les tepis, pa:llassons, toiles c'r(es
-
 SE E PE
-
 Téléphone Stend 0.283
-
-GENEVE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002660_012.tif"/>
-<page><![CDATA[rrs
-
+GENEVE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002660_012.tif'/>
+        <page>
+          <![CDATA[rrs
 Saxophone soprano : Georges Viani
-
 Saxophones alto :
-
 3 Ugo Viani, Kauf-
 imann.
-
 Saxophones ténor : Bohy, Cèlandroni
 Saxophones baryton : Buffat, Bættge
-
 Petits bugles : Gaillepand (soliste).
-
 Bugles solo : Annen (soliste), Emonet,
 F. Kister, Jaquard, Cheneval, Bon-
 nard, Excoffier, R. Kister, Carrel.
-
 1” bugles :Wolfram, Offredi, Lévy, Gap
 Moser, Lottaz, Schenk.
-
 2° bugles : Deluz, Delgrosso, Péguet.
-
 3* bugles :
 notti.
-
 Cr»rnel.y - Martinet (soliste), Vaudroz,
 Reubi, Jeanneret.
-
- 
-
 Refatti, Gianetti, Berti-
-
 Fanfare Municipale de
-
 la VWille de Genève
-
 CONSTITUTION DES REGISTRES
-
 Trompettes : Sciolli (soliste), Genet,
 Rochat, Magnin, Weber Félix.
-
 Cors : Mouchet (soliste), Kaiser, Gex,
 Weber Beat.
-
 Trombones : Thévenaz (soliste) Liaz,
 Junod, Bron, Bonola, Muriset.
-
 Alti: Oeschlin (soliste), Muller, Kess-
 ler, Grosfillier, Favre.
-
 Barytons : Pellet (soliste),
 Bussien, Gnädinger, Tachet.
-
 Gloor,
-
 Basses : Rippl (soliste), Vaucher, Tho-
 rion, Débarbouillet, Træsch, Chapon
 Magnin.
-
 Contrebasses : Detomasi, Gindrat, Mar-
 coni, Barberat, Clerc, Chessel.
 Timbales : Girardet.
-
 Batterie et accessoires : Etoupe, Ma'{er,
 Collomb, Chambaz, Vaihlé, Giudici.
-
- 
-
- 
-
- 
-
- 
-
 dOAILLERIE —  HORLOGERIE
-
- 
-
 Armand POCHELON
-
 Succes. de POCHLON Frères
-
- 
-
 32, Rue du Rhône - GÊNËVE - Fusterie, 2
-
- 
-
-PIERRES et PERLES précieuses]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002660_013.tif"/>
-<page><![CDATA[OUCHERIE VICTOR MARQUET
-
+PIERRES et PERLES précieuses
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002660_013.tif'/>
+        <page>
+          <![CDATA[OUCHERIE VICTOR MARQUET
 HALLE DE RIVE 11-12, côté Bd Hélvétique
-
 Spécialité d’agneaux de prés salés
 Viande de première qualité au plus bas prix
-
 Timbres jaunes de TéJéphone Maison de confiance
 l’Union commerciale Stand 60.25 Se recommande
-
 Prix spéciaux pour hôtels et pensions
 Service à domicile dans toutes les directions
-
- 
-
- 
-
- 
-
- 
-
- 
-
-       
-  
-
 |
 ’l ; Union Fanfare Municipale
 ©
@@ -1266,271 +723,138 @@ v
 # Z° Motocyclett
 v —" Motocyclettes
 Ë D0 T00
-G ‘, Tn e PEs c SP E 2355]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002660_014.tif"/>
-<page><![CDATA[OSSEMES EM TOUS GEMNES
-
+G ‘, Tn e PEs c SP E 2355
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002660_014.tif'/>
+        <page>
+          <![CDATA[OSSEMES EM TOUS GEMNES
 Déméloirs et Miroirs ;
 Articles pour l’entretien
 d’'appartements et d’hôtels ;
 Parllassons; Pinceaux; Eponges ;
 Peaux de daims.
-
- 
-
 Magasin et atelier :
 6, rue Winkelried
-
 F. SCHUBNELL
-
 Tél. Mt-BI. 20.73 Timbfes-escompte
-
- 
-
 Blanchisserie d’Arve
-
 Carouge
 Spécialité de ceni.
 linge au poids 0'85 le kg.
-
 Service à domicile
-
 Séchage en plein air
-
 H. NYDEGGER.
-
-   
-
-  
-
-  
-
 9
 q
 |
-
 |
 ;
 À
-
- 
-
- 
-
 Trombones, M. Joseph LIARD :
 M. MORIN
-
 Cours, Enseignement musical
-
 Professeurs : Cours de soliège, M. François KISTER ; Petits cuivres, M. Gabriel SCIOLLI ;
 Saxophones, M _ Pierre SANTANDRÉA ; Batterie-
-
 Commission Musicale composée de: MM. F. BODET, dir.; MARTINET ; F. KISTER;
 ANNEN: SCIOLLI: PELLET ; GIRARDET ; RIPPL; R. KISTER ; THÉVENAZ.
-
 TFN3
-
 La Fanfare Municipale a institué des cours gratuits pour
 l’enseignement du solfège et instruments. Ces cours sont donnés
 par les Professeurs de la Fanfare sous la direction de M. F. Bodet,
 directeur, 1 prix de cornet du Conservatoire de Paris. Il sont
 ouverts à tous les jeunes gens désireux de posséder une sérieuse
-
 instruction musicale.
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Entreprise générale
 d’Electricité
-
 Henri DUPRAZ
-
 SOCIÉTÉ ANONYMSE
 Concessionnaire de la Ville de Genève
-
 6, Rue de la Tour-Maîtresse - GENÈVE
 Téléphone Stand 25.49
-
 Compte de Chèques postaux I. 63%
-
- 
-
- 
-
 GRANDE MAISON DE BLANC
-
- 
-
 Calicoes
-
 14, Rue de Rive, 14
 - Angle Rue Verdaine -
-
-Toujours les prix les plus bas]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002660_015.tif"/>
-<page><![CDATA[T rr
-
- 
-
+Toujours les prix les plus bas
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002660_015.tif'/>
+        <page>
+          <![CDATA[T rr
 ETE O au e aPT
-
 E E ce
-
 RR VÉTSEIES P TIS
-
 T V
-
- 
-
 ÿ
 ;
 |
 |
 IÉ
 Ï
-
- 
-
-  
-  
-
- 
-
 V p)PISoU01FPR PRON
-
 Sage-femme diplômée
-
 Place du Port, 2 Téléphone Stand 42.16
 G EN È V E ' Arrêt des trams 1-2-5
-
 soins médicaux
 pensionnaires
 prix modérés
-
- 
-
 E
-
- 
-
-   
-
 1V1R 5 OM OE BEIN
-
 Officier
-
 Carte de Membre Passif
-
 Notre société, dans le but de permettre aux personnes qui lui
 portent intérêt de lui prèter leur appui moral et matériel, délivre des
 cartes de membres passifs aux prix annuel de 5 francs.
-
 Ces cartes peuvent être demandées auprès de chaque membre de
 la Société ou par lettre à M. J. Marconi, entrepreneur, rue Jean-
 Jaquet, 12, trésorier de la Fanfare.
-
- 
-
- 
-
- 
-
 E En e
-
- 
-
 PVM sUS ES
-
 Bes Wiüls de Ph. GCHROKED
-
 successeurs
-
 L 1D
-
 Maison fondée en 1850
-
- 
-
 %, Rue Prévost-Martin
-
 y e ; ivraisons loyales
-léléphone Stand 823 - - - Livré ; )_ÿ.ll(]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002660_016.tif"/>
-<page><![CDATA[Au Linoléum E. CIZ
-
+léléphone Stand 823 - - - Livré ; )_ÿ.ll(
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002660_016.tif'/>
+        <page>
+          <![CDATA[Au Linoléum E. CIZ
 2, Place Cornavin - 14, Chantepoulet
-
 Tous les linoléums, imprimé et inerusté
 Passages, Linoléum incrusté spéçial pour table - Pose soignée
-
 TOILES CIRÉES - PAPIERS PEINTS
-
 Collections modernes - Prix avantageux
-
 Paillassons, Nattes encadrées, Tissus pour meubles et tentures
-
 Téléphone Mont-Blane 25-14
-
- 
-
- 
-
 Avantages résultant de la Garte de Membre Passif
-
 Notre Société, dans le but de permettre aux personnes qui lui
 portent intérêt de lui prêter leur appui moral et matériel, délivre des
 cartes de membres passifs au prix annuel de 5 francs.
-
 Ces cartes peuvent être demandées auprès de chaque membre de
 la Société, ou, par lettre. à M. J. Marconi, entrepreneur, rue Jean-
 Jacquet, 12, trésorier de la Fanfare.
-
 La carte de Membre Passif de la Fanfare Municipale donne
 droit à deux entrées à chacun des concerts ou autres manifestations
 organisées par la Société, sauf décision exceptionnelle.
-
 D'autre part les membres passifs bénéficient, lors des voyages
 organisés par la Fanfare, de tous les avantages obtenus sur les con-
 ditions du voyage.
-
 Nous rappelons que notre Société organise, chaque année, au
 minimum 2 concerts au Victoria-Hall, 3 ou 4 au Jardin Anglais.
 Elle organise également très souvent des soirées avec bal, Arbre de
-
 Noël, etc.
-
- 
-
- 
-
- 
-
- 
-
- 
-
 CAFÉ-RESTAURANT CAFÉ EXTRA
 Mets de Brasserie — Plat du Jour
-
 Bière Warteck Bâle E. MAYERAT.
-
- 
-
- 
-
-  
- 
-
-Vn Es]]></page>       
-        </p>
+Vn Es
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

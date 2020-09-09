@@ -1,122 +1,107 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Grand concert donné par l'Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)<date when="23/02/1913"/></title>
-<series>1912-1913</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Grand concert donné par l'Union instrumentale genevoise (Fanfare
+            municipale de la Ville de Genève)
+            <date when='23/02/1913'/>
+          </title>
+          <series>1912-1913</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F001156</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Teissier, A. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19130223"/>
-<title>Grand concert donné par l'Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)</title>
-<placeName key="Victoria Hall"/>
-<name key="1912-1913" type="series"/>
-<name key="Doret, Gustave" ref="https://muscat.rism.info/admin/people/3145724" type="person" role="cmp">Doret, Gustave</name>
-<name key="Massenet, Jules" ref="https://muscat.rism.info/admin/people/84264" type="person" role="cmp">Massenet, Jules</name>
-<name key="Delibes, Léo" ref="https://muscat.rism.info/admin/people/30016578" type="person" role="cmp">Delibes, Léo</name>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Bizet, Georges" ref="https://muscat.rism.info/admin/people/20057" type="person" role="cmp">Bizet, Georges</name>
-<name key="Saint-Saëns, Camille" ref="https://muscat.rism.info/admin/people/76734" type="person" role="cmp">Saint-Saëns, Camille</name>
-<name key="Weber, Carl Maria von" ref="https://muscat.rism.info/admin/people/117485" type="person" role="cmp">Weber, Carl Maria von</name>
-<name key="Teissier, Auguste (dir.)"  type="person" role="int">Teissier, Auguste (dir.)</name>
-<name key="Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)"  type="person" role="int">Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)</name>
-<name key="Guy-Fontauzard (Mlle)"  type="person" role="int">Guy-Fontauzard (Mlle)</name>
-<name key="Dides, Etienne"  type="person" role="int">Dides, Etienne</name>
-<name key="Despesse, Hugo"  type="person" role="int">Despesse, Hugo</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001156_001.tif"/>
-<page><![CDATA[DINANCHE 25 FÉVRIER 1915
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19130223'/>
+        <title>
+          Grand concert donné par l'Union instrumentale genevoise (Fanfare
+          municipale de la Ville de Genève)
+        </title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1912-1913' type='series'/>
+        <name key='Doret, Gustave' ref='https://muscat.rism.info/admin/people/3145724' type='person' role='cmp'>Doret, Gustave</name>
+        <name key='Massenet, Jules' ref='https://muscat.rism.info/admin/people/84264' type='person' role='cmp'>Massenet, Jules</name>
+        <name key='Delibes, Léo' ref='https://muscat.rism.info/admin/people/30016578' type='person' role='cmp'>Delibes, Léo</name>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Bizet, Georges' ref='https://muscat.rism.info/admin/people/20057' type='person' role='cmp'>Bizet, Georges</name>
+        <name key='Saint-Saëns, Camille' ref='https://muscat.rism.info/admin/people/76734' type='person' role='cmp'>Saint-Saëns, Camille</name>
+        <name key='Weber, Carl Maria von' ref='https://muscat.rism.info/admin/people/117485' type='person' role='cmp'>Weber, Carl Maria von</name>
+        <name key='Teissier, Auguste' type='person' role='int'>Teissier, Auguste</name>
+        <name key='Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)' type='person' role='int'>Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)</name>
+        <name key='Guy-Fontauzard (Mlle)' type='person' role='int'>Guy-Fontauzard (Mlle)</name>
+        <name key='Dides, Etienne' type='person' role='int'>Dides, Etienne</name>
+        <name key='Despesse, Hugo' type='person' role='int'>Despesse, Hugo</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001156_001.tif'/>
+        <page>
+          <![CDATA[DINANCHE 25 FÉVRIER 1915
 r ( e t
-
 À GHAND CONCERT #
-
 DONNÉ PAR
-
 L'Union Justrumentale
-
 GENEVOISE
 ; @ Q TANFARE MUNICIPALE DE LA VILLE DE GENÈVE
-
- 
-
- 
-
 Sous la direction de M. Aug. TEISSIER
-
 avec le bienveillant concours de
-
 M Guyfontauzard M. Etienne Dides
-
 Elève de Mlle MORANGE BASSE CHANTANTE
-
- 
-
- 
-
 mmm t e t ,
 “ 5 ue
-
 Portes à 2 h. à 2!/, heures Portes à 2 h,
-
- 
-
- 
-
 \
 |
-
- 
-
- 
-
-ÿ;‘ Le piano d’âccompagnement sera tenu far M. HUGo DESPESSE. J]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001156_002.tif"/>
-<page><![CDATA[T#
-
+ÿ;‘ Le piano d’âccompagnement sera tenu far M. HUGo DESPESSE. J
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001156_002.tif'/>
+        <page>
+          <![CDATA[T#
 2.
-
 3
-
 4. Ouverture de Tannhäuser
-
 Premiére Partie
-
 Marche triomphale (Fête des Vignerons). . G.
-
 Inutile d’apprendre au lecteur ce qu'est la Fête des
 Vignerons ; célébrée à des intervalles indéterminés,
 mais toujours considérables, elle a, à chaque célébra-
@@ -130,7 +115,6 @@ et de la Patrie ; mais la fête de 1905 ne pourra guère
 diose et de l’art musical et chorégraphique. La Mar-
 che Triomphale est le début de la partition de Gus-
 tave Doret.
-
 Le succès qui accueillit Don Quichotte à sa pre-
 mière représentation à Monte-Carlo fut confirmé lors
 de son apparition au théâtre lyrique. Un livret alerte,
@@ -144,9 +128,7 @@ scène populaire d’introduction, pleine de couleuf et
 de mouvement endiablé et la gentille « canzone » de
 Dulcinée : « Quand la femme à vingt ans...», sont
 les pages exécutées aujourd’hui.
-
 Chantés par M"e GUYFONTAUZARD.
-
 Si l’on compare cette ouverture à celles qui l’ont
 précédée, le Vaisseau Fantôme et surtout Rienzi, on
 ne peut douter des progrès accomplis, ici l’imitation
@@ -154,36 +136,29 @@ de Weber ne trouve plus de place ; la personnalité
 de l’auteur se dégage pleinement. Les lignes générales
 ont une sûreté de contours et une richesse de coloris
 äu& le temps n’a pas altérées. C’est une symphonie
-
 ramatisée ou, pour mieux dire, le drame lui-même
 en raccourci. Le chant des pèlerins du 3we acte, d’une
 part, des fragments de la scène du Vénusberg, c'est-
 à-dire la pantomime infernale, le chant du chevalier
 et l’appel de la déesse, constituent les motifs typiques
 de cette ouverture.
-
 DORET.
-
 Don Quichotte, prélude, danse, chanson. . .  MAssENET.
-
 Babliau de Manor . | T Missenet
-
 | b. Air des Clochettes de Lakmé DELIBES.
-
-WAGNER.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001156_003.tif"/>
-<page><![CDATA[52
-
+WAGNER.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001156_003.tif'/>
+        <page>
+          <![CDATA[52
 Î2
-
 Deuxième Partie
-
 L'Arlésienne 9 e 1 A RVEt
 a) Prélude.
 b) Intermezzo.
 c) Carillon.
 d) Farandole.
-
 L'Arlésienne, mélodrame d’Alphonse Daudet, sym-
 phonies et chœurs de G. Bizet, fut représentée pour la
 première fois en octobre 1872. La musique en a été
@@ -196,15 +171,11 @@ du prélude d’ouverture. On y remarque l’«Inter-
 mezzo », le « Carillon » à l’allure pastorale, et la « Fa-
 randole », au cours de laquelle s’enchevêtre très heu-
 reusement la « Marche des Rois », jouée sur le mode
-
 majeur.
 à Lespas d'arnies du roi Jean Ÿ ; SanmS eN
 1165 La Cloche 9 9 SiiNn SEs
-
 Chantés par M. Etlenne DIDES,
-
 Le Roi des Génies (Ouveguren #. M CMN e
-
 Le « Roi des Génies » est l’ouverture de son opéra
 Rübezhal, tiré de la fameuse légende de Riübezhal, le
 génie des tisserands de Silésie, Ce morceau a dû
@@ -213,28 +184,23 @@ remaniement considérable, car tout y indique, dans
 sa forme définitive, la trace d’un esprit mûr, d’un ta-
 lent fait et le style en est fort beau. Moins connue
 que « Freyschutz », « Obéron », « Preciosa » et « Eu-
-
 ryanthe », cette ouverture n’en est pas moins digne
 des précédentes et son effet est merveilleux.
-
-Le piano d'accompagnement sera tenu par M. Huco DEsPESsE.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001156_004.tif"/>
-<page><![CDATA[ŒUVRES CLASSIQUES ET MODERNES
-
+Le piano d'accompagnement sera tenu par M. Huco DEsPESsE.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001156_004.tif'/>
+        <page>
+          <![CDATA[ŒUVRES CLASSIQUES ET MODERNES
 COMPOSANT LE RÉPERTOIRE DE LA
-
 FANFARE MUNICIPALE
-
 et exécutées aux précédents concerts
-
 — ce ——
 Ouverture des Francs-Juges.....…......... BERLIOZ.
 Marche de la Damnation de Faust......…... BErLiOz.
 Ouverture de Benvenuto Cellini.........…. BERLIOZ.
-
 M£ke au supp. de la Symphonie fantastique BERLIOZ.
 Andante et allegro de la Symphon.en wt min.  BEETHOVEN.
-
 Symphonie en u# majeur........….….…....... BEETHOVEN.
 Quverture de Prométhée.............….... BEETHOVEN.
 Ouverture-d'Egmant ... 1.4 100 BEETHOVEN.
@@ -267,17 +233,10 @@ Allegro de la Symphonie Pastorale......…. BEETHOVEN.
 Scènes pittonesques\ * u140 e e MASSENET.
 La Kornigane/(balledi 4 WiDoRr.
 Polonaisesss en 41N CHopIN.
-
- 
-
- 
-
- 
-
-   
-
-IMP, J, STUDER, GENÈVE]]></page>       
-        </p>
+IMP, J, STUDER, GENÈVE
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

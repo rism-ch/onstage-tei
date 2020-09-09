@@ -1,140 +1,125 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>La grande duchesse de Gérolstein<date when="23/07/1881"/></title>
-<series>1880-1881</series>
-<placeName>Coulouvrenière (Théâtre des Bouffes parisiens)</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            La grande duchesse de Gérolstein
+            <date when='23/07/1881'/>
+          </title>
+          <series>1880-1881</series>
+          <placeName>Genève, Coulouvrenière (Théâtre des Bouffes parisiens)</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU DG4 F001434</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt> </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18810723"/>
-<title>La grande duchesse de Gérolstein</title>
-<placeName key="Coulouvrenière (Théâtre des Bouffes parisiens)"/>
-<name key="1880-1881" type="series"/>
-<name key="Offenbach, Jacques" ref="https://muscat.rism.info/admin/people/111831" type="person" role="cmp">Offenbach, Jacques</name>
-<name key="Meilhac, Henri" ref="https://muscat.rism.info/admin/people/86908" type="person" role="cmp">Meilhac, Henri</name>
-<name key="Halévy, Ludovic" ref="https://muscat.rism.info/admin/people/40918" type="person" role="cmp">Halévy, Ludovic</name>
-<name key="Théâtre des Bouffes parisiens"  type="person" role="int">Théâtre des Bouffes parisiens</name>
-<name key="Cadet-Grégoire (Mme)"  type="person" role="int">Cadet-Grégoire (Mme)</name>
-<name key="Leuters (Mlle)"  type="person" role="int">Leuters (Mlle)</name>
-<name key="Achard, J."  type="person" role="int">Achard, J.</name>
-<name key="Grégoire, J."  type="person" role="int">Grégoire, J.</name>
-<name key="Grégoire, A."  type="person" role="int">Grégoire, A.</name>
-<name key="Roche"  type="person" role="int">Roche</name>
-<name key="Grégoire, V."  type="person" role="int">Grégoire, V.</name>
-<name key="Fernand"  type="person" role="int">Fernand</name>
-<name key="Desjardins, B."  type="person" role="int">Desjardins, B.</name>
-<name key="Polydor (Mme)"  type="person" role="int">Polydor (Mme)</name>
-<name key="Florentin (Mme)"  type="person" role="int">Florentin (Mme)</name>
-<name key="Nina"  type="person" role="int">Nina</name>
-<name key="Guérini (Mme)"  type="person" role="int">Guérini (Mme)</name>
-<name key="Kling (dir.)"  type="person" role="int">Kling (dir.)</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f001434_001.tif"/>
-<page><![CDATA[DES BOUFFES PARISIENS
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18810723'/>
+        <title>La grande duchesse de Gérolstein</title>
+        <placeName key='Genève, Coulouvrenière (Théâtre des Bouffes parisiens)'/>
+        <name key='1880-1881' type='series'/>
+        <name key='Offenbach, Jacques' ref='https://muscat.rism.info/admin/people/111831' type='person' role='cmp'>Offenbach, Jacques</name>
+        <name key='Meilhac, Henri' ref='https://muscat.rism.info/admin/people/86908' type='person' role='cmp'>Meilhac, Henri</name>
+        <name key='Halévy, Ludovic' ref='https://muscat.rism.info/admin/people/40918' type='person' role='cmp'>Halévy, Ludovic</name>
+        <name key='Théâtre des Bouffes parisiens' type='person' role='int'>Théâtre des Bouffes parisiens</name>
+        <name key='Cadet-Grégoire (Mme)' type='person' role='int'>Cadet-Grégoire (Mme)</name>
+        <name key='Leuters (Mlle)' type='person' role='int'>Leuters (Mlle)</name>
+        <name key='Achard, J.' type='person' role='int'>Achard, J.</name>
+        <name key='Grégoire, J.' type='person' role='int'>Grégoire, J.</name>
+        <name key='Grégoire, A.' type='person' role='int'>Grégoire, A.</name>
+        <name key='Roche' type='person' role='int'>Roche</name>
+        <name key='Grégoire, V.' type='person' role='int'>Grégoire, V.</name>
+        <name key='Fernand' type='person' role='int'>Fernand</name>
+        <name key='Desjardins, B.' type='person' role='int'>Desjardins, B.</name>
+        <name key='Polydor (Mme)' type='person' role='int'>Polydor (Mme)</name>
+        <name key='Florentin (Mme)' type='person' role='int'>Florentin (Mme)</name>
+        <name key='Nina' type='person' role='int'>Nina</name>
+        <name key='Guérini (Mme)' type='person' role='int'>Guérini (Mme)</name>
+        <name key='Kling' type='person' role='int'>Kling</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f001434_001.tif'/>
+        <page>
+          <![CDATA[DES BOUFFES PARISIENS
 Direction de Mme veuve CADET—GREGOÏRE P Rld8&U a 8 h /
-
 Au]0urd hnui Yan Qh9 24 J u111€t
 POUR LES DÉBUTS DE
-
 OD OO ON O TO SLD OL OLOLD LD L DLDL PL MIM d
-
 %É&yæ—)|Œ—‘/ …—;4>/Æ 9@<>K>Kâ‘< —Rx Æ%Œ>K'E”äf
-
 X" LEUTERS |
-
 , $KE}’{EËE)@Œ%Æ /Ê>4Œ%\ î7Ô“d æ>Æ/K=£ d>@—’ >Kdä( (
-
 SNLSSSNAS SZ V\Î
-
 NNN SS AN SS GSS
-
 ) Première chanteuse doperette en representatxons
-
 ps LS '
 euxiëémeé représentation de
-
 AMANDE-DECHESSE- DE GÉRAL
-
 Opéra boufle en 3 actes
-
 Par MM. H. MEILHAC ct L. HALËVY. — Musique de J. OFFENBACH
-
 __ M'® LEUTERS remplira le rôle de la Grande-Duchesse de Gérolstein
 M. J. ACHARD 1° comique, en attendant ses débuts, remphra le rôle du baron Grog
-
 Premier Acte Deuxième Acte
-
 LE CAMPEMENT } LE PALAIS DE LA GRANDE-DUCHESSE
-
 Troisième acte
-
 A U CANMTF
-
 PERSONNAGES :
-
 PUc s* 4 aga r MM. J. Grégoire | La Grande Duchesse. . . Mllc M. Leuters
 Le général OR 0 A. Grégoire | Wanda, paysanne . . .  Mmes B. Desjardins
 Peépuncéraa … ; Roche Irza, dame d'honneur . . Polydor
 RebaronPuek * ° . V. Grégoire | Amélie, » eN Florentin
 Le baron Grog (par compla1%anoe) J. Achard Olga, » e Nina
-
 __ Népomuc, aide-de-camp . . Fernand Katherine » ; ; Guérini
-
 Officiers, Seigneurs et Dames de la Cour, Demoiselles d’Honneur, Sol«latq Vivandières, Paysannes
 Augmentation de l’orchestre :
 Vinge-quatre musiciens sous la dèrection de M. KLING
-
 » PRIX DES PLACES
-
 ‘Loges d'avant-scène, 5 places, 20 fr. — Loges de face, 5 places, 15 fr. — Fauteuils d’orchestre,
 4 fr. — Stalles de parquet, 2 fr.— Premières, 2 fr. 50 — Parterre, 1 fr. 25, — Secondes, 1 fr.
 — Troisièmes, 50 cent.
-
- 
-
 Demain Lundi : LA GRANDE-DUCHESSE DE GÉROLSTEIN
 Mardi 25 Juillet : Reprise de la BELLE-HÉLÈNE, opéra bouffe en 3 ates
 Mme LEUTERS remplira le rôle de la BELLE HELENE
 I. F. A CF AF remplira celui de CALCHAS
 Au [”GWL”” Jour : m REINE INDIGO S,
-
-l()2"'. — Impr1morm Centrale Genevoise, Rhône, 52]]></page>       
-        </p>
+l()2"'. — Impr1morm Centrale Genevoise, Rhône, 52
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

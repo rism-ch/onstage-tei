@@ -1,522 +1,262 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par le Corps de musique de Landwehr<date when="28/11/1915"/></title>
-<series>1915-1916</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par le Corps de musique de Landwehr
+            <date when='28/11/1915'/>
+          </title>
+          <series>1915-1916</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F001208</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Koch, L. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19151128"/>
-<title>Concert donné par le Corps de musique de Landwehr</title>
-<placeName key="Victoria Hall"/>
-<name key="1915-1916" type="series"/>
-<name key="Cimarosa, Domenico" ref="https://muscat.rism.info/admin/people/52222" type="person" role="cmp">Cimarosa, Domenico</name>
-<name key="Luigini, Alexandre" ref="https://muscat.rism.info/admin/people/30071428" type="person" role="cmp">Luigini, Alexandre</name>
-<name key="Gluck, Christoph Willibald" ref="https://muscat.rism.info/admin/people/67338" type="person" role="cmp">Gluck, Christoph Willibald</name>
-<name key="Mendelssohn Bartholdy, Felix" ref="https://muscat.rism.info/admin/people/88790" type="person" role="cmp">Mendelssohn Bartholdy, Felix</name>
-<name key="Février, H."  type="person" role="cmp">Février, H.</name>
-<name key="Fassbaender, Peter" ref="https://muscat.rism.info/admin/people/30009001" type="person" role="cmp">Fassbaender, Peter</name>
-<name key="Debussy, Claude" ref="https://muscat.rism.info/admin/people/4338" type="person" role="cmp">Debussy, Claude</name>
-<name key="Massenet, Jules" ref="https://muscat.rism.info/admin/people/84264" type="person" role="cmp">Massenet, Jules</name>
-<name key="Bizet, Georges" ref="https://muscat.rism.info/admin/people/20057" type="person" role="cmp">Bizet, Georges</name>
-<name key="Tartini, Giuseppe" ref="https://muscat.rism.info/admin/people/162506" type="person" role="cmp">Tartini, Giuseppe</name>
-<name key="Kreisler, Fritz" ref="https://muscat.rism.info/admin/people/52067" type="person" role="cmp">Kreisler, Fritz</name>
-<name key="Koch, Léonard (dir.)"  type="person" role="int">Koch, Léonard (dir.)</name>
-<name key="Corps de musique de Landwehr"  type="person" role="int">Corps de musique de Landwehr</name>
-<name key="Comte (Mme)"  type="person" role="int">Comte (Mme)</name>
-<name key="Galascione, G."  type="person" role="int">Galascione, G.</name>
-<name key="Andreotti-Reymond, L. (Mme)"  type="person" role="int">Andreotti-Reymond, L. (Mme)</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001208_001.tif"/>
-<page><![CDATA[EUTS
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19151128'/>
+        <title>Concert donné par le Corps de musique de Landwehr</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1915-1916' type='series'/>
+        <name key='Cimarosa, Domenico' ref='https://muscat.rism.info/admin/people/52222' type='person' role='cmp'>Cimarosa, Domenico</name>
+        <name key='Luigini, Alexandre' ref='https://muscat.rism.info/admin/people/30071428' type='person' role='cmp'>Luigini, Alexandre</name>
+        <name key='Gluck, Christoph Willibald' ref='https://muscat.rism.info/admin/people/67338' type='person' role='cmp'>Gluck, Christoph Willibald</name>
+        <name key='Mendelssohn Bartholdy, Felix' ref='https://muscat.rism.info/admin/people/88790' type='person' role='cmp'>Mendelssohn Bartholdy, Felix</name>
+        <name key='Février, H.' type='person' role='cmp'>Février, H.</name>
+        <name key='Fassbaender, Peter' ref='https://muscat.rism.info/admin/people/30009001' type='person' role='cmp'>Fassbaender, Peter</name>
+        <name key='Debussy, Claude' ref='https://muscat.rism.info/admin/people/4338' type='person' role='cmp'>Debussy, Claude</name>
+        <name key='Massenet, Jules' ref='https://muscat.rism.info/admin/people/84264' type='person' role='cmp'>Massenet, Jules</name>
+        <name key='Bizet, Georges' ref='https://muscat.rism.info/admin/people/20057' type='person' role='cmp'>Bizet, Georges</name>
+        <name key='Tartini, Giuseppe' ref='https://muscat.rism.info/admin/people/162506' type='person' role='cmp'>Tartini, Giuseppe</name>
+        <name key='Kreisler, Fritz' ref='https://muscat.rism.info/admin/people/52067' type='person' role='cmp'>Kreisler, Fritz</name>
+        <name key='Koch, Léonard' type='person' role='int'>Koch, Léonard</name>
+        <name key='Corps de musique de Landwehr' type='person' role='int'>Corps de musique de Landwehr</name>
+        <name key='Comte (Mme)' type='person' role='int'>Comte (Mme)</name>
+        <name key='Galascione, G.' type='person' role='int'>Galascione, G.</name>
+        <name key='Andreotti-Reymond, L. (Mme)' type='person' role='int'>Andreotti-Reymond, L. (Mme)</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001208_001.tif'/>
+        <page>
+          <![CDATA[EUTS
 “ loIs-loI6 —
-
- 
-
- 
-
- 
-
- 
-
-       
-      
-  
-        
-      
-    
-    
- 
-   
-
-  
-    
-
 E
-
 “ DIMANCHE 28 NOVEMBRE 1915 — Concertà2h."h,
-
 CONC
-
 7 DONNÉ PARLE CORPS DE MUSIQUE DE LANDWEHR (Harmonie Militaire)
-
 sous la direction de M. Léonard KOCH, professeur au Conservatoire
-
- 
-
- 
-   
- 
-
- 
-
- 
-
- 
-
- 
-
-  
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Avec le bienveillant et gracieux Concours de
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 M" COMTE, Cantatrice M. G. GALASCIONE rn
 Elève de Mre Deylard-Lenoir des CoYcë?t£°£aî3!?à Paris ; 
 M" L. ANDREOTTI-REYMOND {
 Prof de pi Ê
 roftesseur e piano (_ü\(‘g
 DOCS Z [ Es
-
- 
-
- 
-
-    
- 
-
-      
-
- 
-
- 
-
- 
-
-       
-
- 
-
- 
-
- 
-
 ce
-
 (BRITISH TAILORS
-“ |@GENERAL DRAPERS &]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001208_002.tif"/>
-<page><![CDATA[BAZAR LYONNAIS Rue du Mont-Blanc,
-
+“ |@GENERAL DRAPERS &
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001208_002.tif'/>
+        <page>
+          <![CDATA[BAZAR LYONNAIS Rue du Mont-Blanc,
 O
-
 : VEND LE MEILLEUR MARCHÉ
-
- 
-
 BU
 D Fleurs Naturelles
-
 26 CORRHTERIE 26
-
 Grands assortiments de fleurs, cou-
 pées et plantes d'appartements
 Spécialités pour Sociétés
-
 Bouquets, Couronnes, Palmes
 * Téléphone 1076
-
 Maison Fritz Hirt|
-
 QS
-
 O—
 4-
-
- 
-
 Antoine Duparc
 VOITURIER
 Rue des Voisins, 7
 GENÈVE
-
 Specm/n‘e pour Mariages
 Téléphone 15 84
-
- 
-
 GRANDE
 BNASSERIE
 GENTRALE
-
 “ Albert GSELL
 Aue de la Croix-d'Or, 2
-
 Ouverte jusqu’à 2 h. du matin
 Téléphone 36 42
-
 Bière reputée suisse
-
 WARTECK brune et blonde
-
 Mets de Brasserie ‘
 Déjeuners et Dîners fr. 2.25
 Plat du jour fr. 1.50
 Vins et Liqueurs de marque
-
 JEUX JOUETS
-
 Cabochons
 Perles — Paillettes
-
 Au Paradis des Enfants
-
 Maison Dépommier, fondée en 1849
-
 F. PANNIER, succes.
-
 Rue des Allemands, 17
 GENÈVE
 TÉLÉPHONE
-
- 
-
- 
-
 mmn
-
 =
-
 t
-
 G=
-
- 
-
 ra
-
 5"
-
 S>SINCGER
-
 Les plus pratiques Les plus perfectionnées
-
 Preuves de leur supériorité
-
 Escompte au comptant — Payements faciles à termes
-
 Machines à l’essai
-
 Rue du Marché 3 Compagnie SINGER, Genève Rue Pécolat, 4
-
- 
-
- 
-
 \
-
 —
 f
-
 PROGRAMME
-
 @ @eC
 1. LE MARIAGE SECRET.
-
 Ouverture)
-
 2. ANDANTE
-
 3. Air d’'ALCESTE .
 (M'e COMTE)
-
 4. CONCERTO pour VIOLON
 (M. GALASCIONE)
-
 5. MONNA VANMA.
-
 (Fantaisie)
-
 Cimarosa
-
 Luigini
-
 Glüchk
-
 6. RHAPSODIE .
 7° Air de l'ENFANT PRODIGUE
-
 ”’ SAPHO (Tes vingt ans).
 (Mre COMTE)
-
 8. TRILLE DU DIABLE .
 (M. GALASCIONE)
-
 9. L’ARLÉSIENNE
-
 (2me suite d’orchestre)
 a) Prélude, b) Intermezzo, c) Menuet, d) Farandole.
-
 @e€e
-
 Debussy
-
 Massenet
-
 G. Bizet
-
 PRIX DES PLACES
-
 Loges et Fauteuils de balcon Fr. 2,
 autres places de Premières Galeries Fr. 1,
 Secondes Galeries Fr. 0.50
-
 MM. les Membres d'honneur,
 de la Carte de 1914.
-
 ou de fauteuils de balcon en
 Fr. 1.— par place.
-
- 
-
- 
-
 Rue Hornunge
-
 1
-
 Mendelsohn
-
 H. Février
-
 P. Fassbaender
-
 TARTINI- Kreister
-
 ; Parterrres et
-
 Les enfants au-dessous de 10 ans paient demi-place
-
 Membres honoraires et
 Amis visitants ont droit à deux entrées sur présentation
 IIs ont droit aux places de loges
 payant un supplément de
-
 Cartes à l’avance chez le Concierge du Victoria-Hall
-
 TF
-
- 
-
 Cours d Eleves sous la duectwn de M [ KOCH
-
- 
-
 Solfège, flûte, hauthois, clarinette, cor et cuivres
-
 Jnscriptions /ous les mardis et vendrechs des & h.!
 au local, École des Casemates.
-
 e e r rrr
-
 , du soir
-
 |
-
 —-—" —
-
 Il
 G-
 Il
 l
-
 C
-
- 
-
- 
-
 =Q}
-
- 
-
 | Lance-Beyerbach & C°
-
 kj ))Y)
-
 CAFÉ-BRASSERIE HATIONAL @
-
 Vis-à-vis du Bâtiment Electoral, d9\ Â.
 Bastions et du Grand-Théâtre
-
 GENEVE
-
 : Les plus populaires | Ed0uard S“I7b€l‘g€f |
- Grands Prix aux Expositions Univers. : |
+Grands Prix aux Expositions Univers. : |
 : Paris, St-Louis, Milan, Bruxelles, Turin
-
 Téléphone 866
-
 Salle de billard — Salle de sociétés
 Restauration
-
 Ouvert de 5 h.du mat.à 2 h.de la nuit
-
 Instruments de Musique
-
 Bois et Cuivre
-
 Réparations soignées
-
 de tous Instruments
-
 Flûtes, Clarinettes, Saxophones, etc
-
 Paul MARTIN
-
 Grands-Philosophes, 8
-
 Parluimerie
 DE BAY: (:°
-
 3, Rue des Allemands
-
 Nos Eaux de Cologne
-
 ne contenant que
 des Essences naturelles
 sont reconnues comme
 les plus hygiéniques
-
- 
-
 Litres à. Fr. 2.75
 3.25, 4.25, eitc.
-
- 
-
 FLEURS
-
 Confections en tous genres
-
 Spécialité pour Théâtres
 : Concerts et Soirées
-
- 
-
 12, Rue Diday, 12
 GENÈVE
-
-A]]></page>       
-        </p>
+A
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

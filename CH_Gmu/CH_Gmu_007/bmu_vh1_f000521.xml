@@ -1,188 +1,138 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Grands festivals  : Au profit des oeuvres genevoises et françaises de bienfaisance<date when="28/04/1903"/></title>
-<series>1902-1903</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Grands festivals : Au profit des oeuvres genevoises et françaises de
+            bienfaisance
+            <date when='28/04/1903'/>
+          </title>
+          <series>1902-1903</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F000521</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Parès, G. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19030428"/>
-<title>Grands festivals  : Au profit des oeuvres genevoises et françaises de bienfaisance</title>
-<placeName key="Victoria Hall"/>
-<name key="1902-1903" type="series"/>
-<name key="Weber, Carl Maria von" ref="https://muscat.rism.info/admin/people/117485" type="person" role="cmp">Weber, Carl Maria von</name>
-<name key="Reyer, Ernest" ref="https://muscat.rism.info/admin/people/46219" type="person" role="cmp">Reyer, Ernest</name>
-<name key="Meyerbeer, Giacomo" ref="https://muscat.rism.info/admin/people/725" type="person" role="cmp">Meyerbeer, Giacomo</name>
-<name key="Weber, Carl Maria von" ref="https://muscat.rism.info/admin/people/117485" type="person" role="cmp">Weber, Carl Maria von</name>
-<name key="Delibes, Léo" ref="https://muscat.rism.info/admin/people/30016578" type="person" role="cmp">Delibes, Léo</name>
-<name key="Massenet, Jules" ref="https://muscat.rism.info/admin/people/84264" type="person" role="cmp">Massenet, Jules</name>
-<name key="Gouvy, Louis-Théodore" ref="https://muscat.rism.info/admin/people/30021109" type="person" role="cmp">Gouvy, Louis-Théodore</name>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Mohr"  type="person" role="cmp">Mohr</name>
-<name key="Parès, Gabriël  (dir.)" ref="https://muscat.rism.info/admin/people/30024480" type="person" role="int">Parès, Gabriël  (dir.)</name>
-<name key="Musique de la garde républicaine [de Paris]"  type="person" role="int">Musique de la garde républicaine [de Paris]</name>
-<name key="Wallace, Georgette"  type="person" role="int">Wallace, Georgette</name>
-<name key="Laforgue"  type="person" role="int">Laforgue</name>
-<name key="Barthélemy"  type="person" role="int">Barthélemy</name>
-<name key="Griffon"  type="person" role="int">Griffon</name>
-<name key="Morfaux"  type="person" role="int">Morfaux</name>
-<name key="Couillaud"  type="person" role="int">Couillaud</name>
-<name key="Paradis"  type="person" role="int">Paradis</name>
-<name key="Leroy"  type="person" role="int">Leroy</name>
-<name key="Tavernier"  type="person" role="int">Tavernier</name>
-<name key="Landrin"  type="person" role="int">Landrin</name>
-<name key="Deblauvve"  type="person" role="int">Deblauvve</name>
-<name key="Détrain"  type="person" role="int">Détrain</name>
-<name key="Mazure"  type="person" role="int">Mazure</name>
-<name key="Bouillier"  type="person" role="int">Bouillier</name>
-<name key="Chabert"  type="person" role="int">Chabert</name>
-<name key="Paquot"  type="person" role="int">Paquot</name>
-<name key="Gaudard"  type="person" role="int">Gaudard</name>
-<name key="Lanoy"  type="person" role="int">Lanoy</name>
-<name key="Fontbonne"  type="person" role="int">Fontbonne</name>
-<name key="Vialet"  type="person" role="int">Vialet</name>
-<name key="Massart"  type="person" role="int">Massart</name>
-<name key="Couppas"  type="person" role="int">Couppas</name>
-<name key="Leruste"  type="person" role="int">Leruste</name>
-<name key="Courtade"  type="person" role="int">Courtade</name>
-<name key="Bruneau"  type="person" role="int">Bruneau</name>
-<name key="Pélissier"  type="person" role="int">Pélissier</name>
-<name key="Jacquemont"  type="person" role="int">Jacquemont</name>
-<name key="Ketten, L."  type="person" role="int">Ketten, L.</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000521_001.tif"/>
-<page><![CDATA[N
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19030428'/>
+        <title>
+          Grands festivals : Au profit des oeuvres genevoises et françaises de
+          bienfaisance
+        </title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1902-1903' type='series'/>
+        <name key='Weber, Carl Maria von' ref='https://muscat.rism.info/admin/people/117485' type='person' role='cmp'>Weber, Carl Maria von</name>
+        <name key='Reyer, Ernest' ref='https://muscat.rism.info/admin/people/46219' type='person' role='cmp'>Reyer, Ernest</name>
+        <name key='Meyerbeer, Giacomo' ref='https://muscat.rism.info/admin/people/725' type='person' role='cmp'>Meyerbeer, Giacomo</name>
+        <name key='Weber, Carl Maria von' ref='https://muscat.rism.info/admin/people/117485' type='person' role='cmp'>Weber, Carl Maria von</name>
+        <name key='Delibes, Léo' ref='https://muscat.rism.info/admin/people/30016578' type='person' role='cmp'>Delibes, Léo</name>
+        <name key='Massenet, Jules' ref='https://muscat.rism.info/admin/people/84264' type='person' role='cmp'>Massenet, Jules</name>
+        <name key='Gouvy, Louis-Théodore' ref='https://muscat.rism.info/admin/people/30021109' type='person' role='cmp'>Gouvy, Louis-Théodore</name>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Mohr' type='person' role='cmp'>Mohr</name>
+        <name key='Parès, Gabriël' ref='https://muscat.rism.info/admin/people/30024480' type='person' role='int'>Parès, Gabriël</name>
+        <name key='Musique de la garde républicaine de Paris' type='person' role='int'>Musique de la garde républicaine de Paris</name>
+        <name key='Wallace, Georgette' type='person' role='int'>Wallace, Georgette</name>
+        <name key='Laforgue' type='person' role='int'>Laforgue</name>
+        <name key='Barthélemy' type='person' role='int'>Barthélemy</name>
+        <name key='Griffon' type='person' role='int'>Griffon</name>
+        <name key='Morfaux' type='person' role='int'>Morfaux</name>
+        <name key='Couillaud' type='person' role='int'>Couillaud</name>
+        <name key='Paradis' type='person' role='int'>Paradis</name>
+        <name key='Leroy' type='person' role='int'>Leroy</name>
+        <name key='Tavernier' type='person' role='int'>Tavernier</name>
+        <name key='Landrin' type='person' role='int'>Landrin</name>
+        <name key='Deblauvve' type='person' role='int'>Deblauvve</name>
+        <name key='Détrain' type='person' role='int'>Détrain</name>
+        <name key='Mazure' type='person' role='int'>Mazure</name>
+        <name key='Bouillier' type='person' role='int'>Bouillier</name>
+        <name key='Chabert' type='person' role='int'>Chabert</name>
+        <name key='Paquot' type='person' role='int'>Paquot</name>
+        <name key='Gaudard' type='person' role='int'>Gaudard</name>
+        <name key='Lanoy' type='person' role='int'>Lanoy</name>
+        <name key='Fontbonne' type='person' role='int'>Fontbonne</name>
+        <name key='Vialet' type='person' role='int'>Vialet</name>
+        <name key='Massart' type='person' role='int'>Massart</name>
+        <name key='Couppas' type='person' role='int'>Couppas</name>
+        <name key='Leruste' type='person' role='int'>Leruste</name>
+        <name key='Courtade' type='person' role='int'>Courtade</name>
+        <name key='Bruneau' type='person' role='int'>Bruneau</name>
+        <name key='Pélissier' type='person' role='int'>Pélissier</name>
+        <name key='Jacquemont' type='person' role='int'>Jacquemont</name>
+        <name key='Ketten, L.' type='person' role='int'>Ketten, L.</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000521_001.tif'/>
+        <page>
+          <![CDATA[N
 N Consnlnt Cénérol de Trmanr
 CONSUIAT LyeNera € 71GNGE
-
- 
-
 Ê // :r / ue
-
 | @ | «
-
 1‘Ë‘ | / VICTORIA-HALL - GENEVE
-
 / | .
 |
-
-    
- 
-
- 
-
 ŒUVRES L
-
- 
-
 rENEVOISES ET FRANÇAISES
-
 BIENFAISANCE
-
 ;Ê é MUSWQUE DE LA
 ’ GARDE RÉPUBLICAINE té
-
 Sous la Direction de M. GABRIEL PARÈS
-
 AVEC LE GÉNÉREUX CONCOUR DF
-
 |
 |
 |
-
 ! Mademoisellle Gfcorgette Wallace
-
 = d
-— _‘Ï'f\/]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000521_002.tif"/>
-<page><![CDATA[s—
-
- 
-
+— _‘Ï'f\/
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000521_002.tif'/>
+        <page>
+          <![CDATA[s—
 -
-
 MARDI 28 AVRIL 1903, à 8 HEURES DU SOIR
-
- 
- 
-  
- 
-     
-  
-  
-  
-   
-  
- 
-  
- 
- 
-  
-   
-    
-  
- 
- 
-  
- 
- 
-  
- 
-  
-  
- 
-  
- 
-   
-  
- 
-  
-  
- 
-   
-   
-
 PROGRIMME
-
 se
-
 PREMIÈRE PARTIE
-
 1. Ouverture d'OBKRON .. ... 0 Wele |
 » MosaiquesurealŒquRDP 43> * . s. 2 E Reye” |
 Solistes: MM. LAFORGUE, bugle ; BARTHÉLEMY, g
@@ -190,13 +140,9 @@ GRIFFON, MORFAUX, COUILLAUD, trombones. .
 2. Air du PROPERTRK 110 E . . Meyerbeer.
 “ Mlle WALLACE
 4. ‘CONCERTINO, pour dix clarineties. x Wele
-
 MM. |’.\l\.\l\l\_ LEROY, TAVERNIER, LANDRIN,
 DEBLAUVVE, DÉTRAIN,. MAZURE, DBOUILLIER,
 CHABERT, PAQUOT.
-
- 
-
 B, CORTKGE DK B \L;IIl S(s Vr n 0 Nélives
 ç DEUXIÈME PARTIE
 ()V IAl‘IS l‘îl\’\vX\lllg cs A E e TU S / All//\‘\‘l'//('/_
@@ -217,13 +163,11 @@ minetles, deux cons et deux bassons. Gouvy.
 MM. FONTBONNE, GAUDARD, PARADIS, LEROY. $ 1
 VIALET. MASSART, COUPPAS et LERUSTE.
 8. a) Ain du MAGE /
-
 è 9 ph E Massenet.
 b I1KS AMOUREUSES »
 Mlle WALLACE.
 9. Allegretto schemzando de la SYMPHONIE
 EN T Beethoven.
-
 10. AIR \ \… T A , - Mol
 MM. GAUDARD, //HI///…/\ l ANOY, \«/…/;/æ…t( 1///u_
 COURTADE, (rompetle ; PARADIS, clarinette
@@ -231,17 +175,14 @@ LAFORGUE, bugle; BRUNEAU et PÉLISSIER, pelites
 clarinettes ; LAGHANAUD, cornel ; LERUSTE, sar-
 rusophone ; FONTBONNE et JACQUEMONT, pelites
 //ll/('\‘
-
 — —2 —— —0
-
 Le Piano d'accompagnement sera obligeamment tenu par M. le Prof. L. KETTEN.
-
-   
-
-Pjano à queue de la Maison Erard, aux soins de MM. Bron el Berguer]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000521_003.tif"/>
-<page><![CDATA[%
-
+Pjano à queue de la Maison Erard, aux soins de MM. Bron el Berguer
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000521_003.tif'/>
+        <page>
+          <![CDATA[%
 OUVERTURE D’OBÉRON. WI
 Cette page célèbre sert d’introduction au dernier opéra rit par We
 dont elle est à la fois la préface et la synthèse mu ile, exprima
@@ -259,13 +200,9 @@ des plus charmants spécimens de musique de danse frança IL
 dent. Donné à l'Opéra le 14 Juin 1876, ce petit chef-d’œu |
 d'esprit est resté au répertoir« Le Cortèé( de B ) l
 Ol pag«
-
 LES ERYNNIES ML A
-
 lLeconte de Lisle l’auteur des P barbares. à
-
 ON
-
 pu ante imitation des trois drame qui composent l'Orestie, la U
 \gamemnon, les Ï,//w'/r/«w‘l‘ et | Kuménidé ont été fondu
 mettant en scène le meurtre du chef de Hellène mmole à s«
@@ -273,15 +210,10 @@ par Clytemnestre et Egisthe, la vengeance que tire des coupable
 excité par.sa sœur Electre, et les remords du justicier parricic
 les Furiés
 Massenet à écrit pour ce drame un partition, œuvre d
-
 peut prendre rang parmi ses meilleures productions, On cé
-
 cupation de reproduire dans sa musique les caractère
-
 I'l1lr\‘ pour la scent«
-
 du drame
-
 L 1
 [111(
 ie d'Esch
@@ -291,37 +223,30 @@ on fils Orest(
 le poursulx pal
 a Jeun( e, UI
 ouvre la préoc-
-
 INtIQU6 Ol
-
 trou aussi beaucoup de couleur locale et un discret et ingénieux emploi d
 modes grecs, Massenet a tiré de sa partition plusieurs suites d’orchestre qui ont
 toujours le plus grand suécès au concert
 Allegretto scherzando de la Symphonie en fa. BEETHOVEN.
-
 Dans la huitième vmphonie de Beethoven (op. 98) l’andante traditionne
 est remplacé par un allegyetto scherzando plein de grâce et d’esprit. Di
 répliqu > mélodiques semblent Jouer et se poursuivre sous les accords détache
 qui l accompagnent. Une courté phrase, aux ingénieuses imitation pt ce
 contre-sujet et ramène le thème initial qui prend flin sur une strette piquant
-
 et Humoristique
-
-Reproduction interdite]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000521_004.tif"/>
-<page><![CDATA[/ Les Concerts de la Musique de la Garde Républicaine
-
+Reproduction interdite
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000521_004.tif'/>
+        <page>
+          <![CDATA[/ Les Concerts de la Musique de la Garde Républicaine
 e
 ——>
-
 Nous ne nous étions pas trop avancé en aftirmant qu’il n’existe nulle part
 urs qu'à Paris de musique d'harmonie comparable à celle de la Garde, en
 à celle-ci un succès énorme, ‘et à ses auditeurs une sensaftiont d’art
-
 » et profonde
-
 C’est ce qu’ont bien voulu reconnaitre les critiques les plus autorisés de là
-
 presse locale lont nous sommes heureux de citer les appréciations aussi
 enthousiastes que compé tentes
 Du Journal de Genèv C’est une vraie merveille que cette musique d’hau-
@@ -336,17 +261,8 @@ trop vantés d’avance ne procurent pas quelque désillusion. Cest pourtant le 
 qui s'est présenté hier au concert de la Garde républicaine. Le public s’attendait
 beaucoup et il a obtenu plus encore
 Une harmonie ainsi composée de lauréats du Conservatoire de Paris ne
-
 compte pas de rivale et elle l'a prouvé hier soir pour l'exécution impeccable
-
- 
-
- 
-
 d'un programme de choix
-
- 
-
 De la Sucisse Nous avons dit le succès triomphal du premier concert
 donné vendredi au Victoria-Hall, où pas une place n’était inoccupée. Ce fut
 inexprimablement heau et cette Musique de la Garde est bien la plus merveil-
@@ -355,48 +271,32 @@ de prodigieux, la perfection absolue à laquelle seul est capable d’atteindre 
 ensemble de soixante-dix-huit solistes, tous lauréats du Conservatoire de Paris,
 qui obéissent militairement à la baguette magique d’un chet comme M. Parès.
 Il n’y eut qu’un cvi dans la salle, un cri d’enthousiasme et d’admiration ».
-
 Du Courrier de Genève En résumé, làa phalange de M. Parès eù
 M, Francis Planté ont obtenu un triomphe dans le sens propre et naturel du
 mot. La Marseillaise écoutée debout par la salle, comme l’avait été l’Hymne
 national siisse, a été le couronnement de ce mémorable concert. On en parlera
 lonetemps à Genève
-
 Du Genevois. « On à beaucoup remarqué la manière de diriger aisée et sobre
 de M. G. Parès ; cet habile chef sait entrainer ou rétenir ses hommes, les lancer
 dans de formidables crescendos ou en obtenir des pianissimt à peine murmurés.
 Nuances, attaques, qualité de sons, tout était parfait et contribuait à une inter-
-
 prétation d’une précision et d’une clarté admirable ».
-
- 
-
- 
-
 « Quant à M. Francis Planté, c’est toujours l’artiste merveilleux, extraor-
 dinaire de clarté, d’expression, de virtuosité si apprécié des Genevois ».
-
 Notre éminent orsaniste Barblan, ni M. Gaudard, cor anglais, n’ont été
 oubliés dans les articles auxquels nous empruntons quelques brèves lignes.
-
 Rappelons en terminant deux touchants incidents de l'inoubliable festival
 où se manifesta l’art francais, fait de clarté, de proportions, de goût et de
 orâce : la remise, par les délégués en uniforme de nos musiques militaires,
 d’innombrables palmes et couronnes à M. Parès et le don d’une artistique
 bannière, aux armes de France et de Genève, qui rappellera à la Musique de
-
 la Garde notre sympathie et notre admiration. E. D.
-
 P.-S. — Les concerts de Dimanche et Lundi ont été le triomphe le plus grandiose.
-
- 
-
- 
-
 7
-
-Wohlgrath, éditeur. renève. Schautz & C', imprimeurs.]]></page>       
-        </p>
+Wohlgrath, éditeur. renève. Schautz & C', imprimeurs.
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

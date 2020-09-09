@@ -1,144 +1,115 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Grand concert donné par le Berner Männerchor<date when="04/07/1908"/></title>
-<series>1907-1908</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Grand concert donné par le Berner Männerchor
+            <date when='04/07/1908'/>
+          </title>
+          <series>1907-1908</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F001064</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Henzmann, E.</note>
+        <note>Pieyre, A. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19080704"/>
-<title>Grand concert donné par le Berner Männerchor</title>
-<placeName key="Victoria Hall"/>
-<name key="1907-1908" type="series"/>
-<name key="Meyerbeer, Giacomo" ref="https://muscat.rism.info/admin/people/725" type="person" role="cmp">Meyerbeer, Giacomo</name>
-<name key="Heinze, G.-A."  type="person" role="cmp">Heinze, G.-A.</name>
-<name key="Mozart, Wolfgang Amadeus" ref="https://muscat.rism.info/admin/people/115324" type="person" role="cmp">Mozart, Wolfgang Amadeus</name>
-<name key="Neubner, Ottmar"  type="person" role="cmp">Neubner, Ottmar</name>
-<name key="Donato, Baldissera" ref="https://muscat.rism.info/admin/people/318482" type="person" role="cmp">Donato, Baldissera</name>
-<name key="Jüngst, Hugo" ref="https://muscat.rism.info/admin/people/30022891" type="person" role="cmp">Jüngst, Hugo</name>
-<name key="Hegar, Friedrich" ref="https://muscat.rism.info/admin/people/57553" type="person" role="cmp">Hegar, Friedrich</name>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Brahms, Johannes" ref="https://muscat.rism.info/admin/people/39914" type="person" role="cmp">Brahms, Johannes</name>
-<name key="Bossi, Marco Enrico" ref="https://muscat.rism.info/admin/people/26961" type="person" role="cmp">Bossi, Marco Enrico</name>
-<name key="Bruch, Max" ref="https://muscat.rism.info/admin/people/73090" type="person" role="cmp">Bruch, Max</name>
-<name key="Barblan, Otto" ref="https://muscat.rism.info/admin/people/5298" type="person" role="cmp">Barblan, Otto</name>
-<name key="Henzmann, E. (dir.)"  type="person" role="int">Henzmann, E. (dir.)</name>
-<name key="Pieyre, Auguste (dir.)"  type="person" role="int">Pieyre, Auguste (dir.)</name>
-<name key="Berner Männerchor"  type="person" role="int">Berner Männerchor</name>
-<name key="Harmonie Nautique"  type="person" role="int">Harmonie Nautique</name>
-<name key="Welti-Herzog, Emilie"  type="person" role="int">Welti-Herzog, Emilie</name>
-<name key="Hügli, Ethel"  type="person" role="int">Hügli, Ethel</name>
-<name key="Widmann, B."  type="person" role="int">Widmann, B.</name>
-<name key="Cornelius, P."  type="person" role="int">Cornelius, P.</name>
-<name key="Montillet, William" ref="https://muscat.rism.info/admin/people/30022909" type="person" role="int">Montillet, William</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001064_001.tif"/>
-<page><![CDATA[SRS RE RE S EES T ESTES T E ESTES EN TENST EeTE
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19080704'/>
+        <title>Grand concert donné par le Berner Männerchor</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1907-1908' type='series'/>
+        <name key='Meyerbeer, Giacomo' ref='https://muscat.rism.info/admin/people/725' type='person' role='cmp'>Meyerbeer, Giacomo</name>
+        <name key='Heinze, G.-A.' type='person' role='cmp'>Heinze, G.-A.</name>
+        <name key='Mozart, Wolfgang Amadeus' ref='https://muscat.rism.info/admin/people/115324' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Neubner, Ottmar' type='person' role='cmp'>Neubner, Ottmar</name>
+        <name key='Donato, Baldissera' ref='https://muscat.rism.info/admin/people/318482' type='person' role='cmp'>Donato, Baldissera</name>
+        <name key='Jüngst, Hugo' ref='https://muscat.rism.info/admin/people/30022891' type='person' role='cmp'>Jüngst, Hugo</name>
+        <name key='Hegar, Friedrich' ref='https://muscat.rism.info/admin/people/57553' type='person' role='cmp'>Hegar, Friedrich</name>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Brahms, Johannes' ref='https://muscat.rism.info/admin/people/39914' type='person' role='cmp'>Brahms, Johannes</name>
+        <name key='Bossi, Marco Enrico' ref='https://muscat.rism.info/admin/people/26961' type='person' role='cmp'>Bossi, Marco Enrico</name>
+        <name key='Bruch, Max' ref='https://muscat.rism.info/admin/people/73090' type='person' role='cmp'>Bruch, Max</name>
+        <name key='Barblan, Otto' ref='https://muscat.rism.info/admin/people/5298' type='person' role='cmp'>Barblan, Otto</name>
+        <name key='Henzmann, E.' type='person' role='int'>Henzmann, E.</name>
+        <name key='Pieyre, Auguste' type='person' role='int'>Pieyre, Auguste</name>
+        <name key='Berner Männerchor' type='person' role='int'>Berner Männerchor</name>
+        <name key='Harmonie Nautique' type='person' role='int'>Harmonie Nautique</name>
+        <name key='Welti-Herzog, Emilie' type='person' role='int'>Welti-Herzog, Emilie</name>
+        <name key='Hügli, Ethel' type='person' role='int'>Hügli, Ethel</name>
+        <name key='Widmann, B.' type='person' role='int'>Widmann, B.</name>
+        <name key='Cornelius, P.' type='person' role='int'>Cornelius, P.</name>
+        <name key='Montillet, William' ref='https://muscat.rism.info/admin/people/30022909' type='person' role='int'>Montillet, William</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001064_001.tif'/>
+        <page>
+          <![CDATA[SRS RE RE S EES T ESTES T E ESTES EN TENST EeTE
 E NCANCAENEAENCEAQNDV ENF NLA SSN SN
-
 d
 2
 '{ _
-
 À
-
- 
-
- 
-
- 
-
 OD;
-
- 
-
- 
-
- 
-
- 
-
- 
-
 »>> VICTORIA-HALL GENÈVE scc
 SAMEDI 4 JUILLET, A 8 HEURES
 AU PROFIT DES COLONIES DE VACANCES DE LA VILLE DE GENÈVE
-
 GIAND CONCERT
-
 DONNÉ PAR LE
-
 BERNER MANNERCHOR
-
 170 chanteurs sous la direction de M. E. Henzmann
 Avec le concours de Mesdames
-
 E. WELTI-HERZOG ETHEL HÜGLI
-
 Soprano, première chanteuse de l’Opéra Royal de Berlin Mezzo-soprano, de Berne et de
-
 L’HARMONIE NAUTIQUE DE GENÈVE
-
 Sous la direction de M. Auguste Pieyre
 0F 0000 00
-
 PROGRAMME.
-
 PREMIÈRE PARTIE.
-
- 
-
- 
-
- 
-
 1. Schiller-Marsch . ; ; ; ; ; ; ; ; ë ; ; Giacomo Meyerbeer
 Harmonie Nautique.
-
 2. Sonntag auf dem Meer, Chœur a capella ; ; ; ; , ; G.-À. Heinze
-
 3. Air de Donna Anna de Don Juan ; ; ; ; ‘ À W.-A. Mozart
-
 Mme Emilie Welti-Herzog.
 4. Chants populaires étrangers pour chœur :
-
 a) Der Geächtete (grec) Ottomar Neubner
-
 b) Villanella alla Napolitana (Madrigal) ! . : ; ; Baldassare Donati
 (P. Cornelius, ges. von B. Widmann.)
 c) An die Heimat (portugais) . , ; ; ; ; ; ; Hugo Jlngst
@@ -149,10 +120,8 @@ DEUXIÈME PARTIE.
 7. Ouverture de Tannhäuser . ; ; ; ; ; ; , ; ; Rich. Wagner
 Harmonie Nautique.
 8. Air d’Eboli de Don Carlos . ; ; ; ; i ; ; . ; Gius. Verdi
-
 Mme Emilie Welti-Herzog.
 9. Chants populaires suisses pour chœur :
-
 a) Heimweh ; ; Ë ; ; ; ; ; Ë ? J. Heim
 b) Ihr Berge lebt wohl . ; ; ; ; ; ; ; ; G. Brunner
 10. a) Träume . ; ; : ; ; è ; ; ; ; ; ‘ Rich. Wagner
@@ -163,68 +132,39 @@ Mme Ethel Hügli.
 12. Cavatine de Rosine du Barbier de Séville ; ; ; ; ; G. Rossini
 Mme Emilie Welti-Herzog.
 13. Vaterlandshymne (Hymne à la Patrie, du Calvenfestspiel) ; ; Otto Barblan
-
 Pour Chœur et Orgue. Organiste: M. Wizliam Montillet.
-
 PRIX DES PLACES : Rez-de-chaussée : Loges, 4 francs. — Parquets, 3 fr. — Parterre et Pourtour,
 2 fr. 50. — Promenoir, 1 fr. 50. — Amphithéâtre, 1 fr. — Première galerie : Loges, 4 îfr. — Fauteuils de face,
 3 fr. — Fauteuils de balcpn, ler rang, 3 fr.; 2me et 3me rangs, 2 fr.; 4me rang, 1 fr. — Amphithéâtre
 et Orgue, 2 îfr. — Deuxième galerie: Balcon et Amphithéâtre, 1 fr. — Programme avec texte: 20 cts.
-
 2
-
 0d=—
-
 Dl
-
 ŒSs sA SSs Fs A SSs A SSs A Ss A ISS A sA SSs es
-
- 
-
- 
-
- 
-
- 
-
 =
-
 1F
-
- 
-
- 
-
- 
-
 UU 0D 0U
-
 IS SENTSSEANSS TS S EDEAS ETTSEATSASS
-
 La location est ouverte tous les jours, de 9 heures à midi et de 2 heures à 6 heures,
 au magasin de musique AD. HENN, 6 boulevard du Théâtre.
-
 Piano de concert Blüthner aux soins de MM. SAUTIER et JÆÆGER.
-
-e]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001064_002.tif"/>
-<page><![CDATA[Text der Lieder.
-
+e
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001064_002.tif'/>
+        <page>
+          <![CDATA[Text der Lieder.
 Sonntag auf dem Meere.
-
 Das Meer liegt glatt und atmet kaum in heisser Sonnenglut;
 Nur meine Barke weckt den Schaum der bläulich hellen Flut. —
 Sonst ist es still, kKein Windeshauch, kein ferner Ruderschlag;
 Denn Wind und Wellen feiern auch der Ruhe heil’gen Tag.
-
 Vom Felseneiland, bläulich fern, schaut still ein Kirchlein her,
 Das kündet jetzt den Dienst des Herrn mit Glockenklang ins Meer. —
 In seinem Kahn der Fischer kniet in frommer Andachtsruh’.
 Des Meeres fromme Welle zieht dem Felseneiland zu,
-
 Der Kahn, der jetzt kein Ruder schwenkt, er folgt demselben Drang,
 Die Wolken selbst zum Felsen lenkt, das tut im Meer der Klang.
-
 Arie der Donna Anna aus ,Don Juans.
 Recitativ,
 Ich grausam? O nein, Geliebter! Schwer wird’s auch mir,
@@ -238,29 +178,21 @@ Ja, du weisst es, dass ich dich liebe!
 Das mein Leben dir geweiht!
 Teurer, lass dein zärtlich Drängen,
 Dass vor Leid ich nicht vergehe.
-
 Lass, o lass mich hoffen, dass dem Sturme folge klarer Sonnenschein !
-
 Der Geächtete.
-
 Sang ein kleines Vôäglein ums frühe Morgenrot,
 Es sang so traurige Weisen,
 Die Liebe tut so weh!
-
 Ach, sein Nestlein, wie ist’s doch weit von hier,
 Die Flügel sind ihm gebrochen.
 Die Liebe tut so weh!
-
 Doch am späten Abend nehm’ ich die Waffen her
 Und schleich’ zu deinem Hause.
 Die Liebe tut so weh!
-
 Wissen môcht’ ich, wissen, warum ich fürchten sollt’
 Die Vettern und die Basen,
 Die Liebe tut so weh!
-
 Villanella alla Napolitana.
-
 Wenn wir hinauszieh’n am Frühlingssonntag,
 Singend unser Tanzlied,
 Dann hüpft das Herz den holden Mägdlein,
@@ -271,12 +203,8 @@ Schnell und schneller;
 Bub und Maid im Blütenkranze fliegt zum Tanze,
 Wenn das Lied so lockend anhebt:
 Tan, tan, tan, tan ta-ra la.
-
 Ist wo ein Mägdlein, das fern dem Tanz blieb,
 Weil der Liebste fern ist,
-
- 
-
 Dann vor der Heimkehr tônt ihr zum Ständchen
 Hoffnung unser Liedlein.
 Das tônt so süss:
@@ -291,85 +219,56 @@ Waldespfad und Woge,
 Dann grüsst noch einmal das Lied die Mondnacht,
 Zauber übt sein Hauch dann.
 Denn seht, o seht!
-
 Am Stromrand welch ein Reigen! d
 Wogenbräutchen,
-
 Elfenleutchen sind gepaart im Mondesglanze
 Froh zum Tanze,
-
 Nun ertônt’s wie Elfenmärlein :
-
 Tan, tan, tan, tan ta-ra la.
-
 An die Heimat.
-
 Wo des Duro Wellen fliessen,
 Liegt mein Heimatland San Miguel,
 Wie ein Wundergarten Gottes,
-
 Wie ein gold’nes Paradies.
-
 O du Heimat meiner Jugend,
-
 Dein gedenk’ ich voll Lust alle Zeit.
 All’ mein Sehnen, all’ mein Hoffen,
 Ach, wie liegst du so weit, so weit!
-
 Durch der Blätter grünes Dunkel
 Blüh’n Orangen traumverloren,
 Durch die Lüfte, süss berauschend,
 Zieht der Rosen Zauberduft !
-
 O du Heimat u.s. w.
-
 Môchte dich noch einmal schauen, .
 Mich an deiner Pracht berauschen,
-
 Unter deiner Sonne wandeln,
 Ruh’n in deiner Erde Schoss.
-
 O du Heimat u.s.w. Rich. Stecher.
-
 Arie (Fides) aus dem ,,Prophet'*.
-
 Recitativ,
-
 Ihr Baals Priester, Ihr!
-
 Wohin habt Ihr mich geführet ?
-
 Welche düst're Kerkergruft !
-
 Weh! Hier begräbt man mich!
-
 Indessen Berta Tod dem Sohne droht
-
 Meinem Sohn! Er ist’s nicht mehr.
-
 Weh! Er verleugnet die Mutter!
-
 So falle auf sein Haupt des Himmels Rachestrahl!
-
 Schlag ihn, der du an Kindeshaupt den Undank straft!
-
 Nein, nein, Gnade für ihn!
 Cavatine,
-
 O du, der mich verlassen, mein Herz entwaffnet ist’s!
-
-Die Mutter kann nicht hassen; leb’ wohl, leb’ wohl, mein Kind!]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001064_003.tif"/>
-<page><![CDATA[Die Mutter hat Vergeben nur für dich und Schmerz!
+Die Mutter kann nicht hassen; leb’ wohl, leb’ wohl, mein Kind!
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001064_003.tif'/>
+        <page>
+          <![CDATA[Die Mutter hat Vergeben nur für dich und Schmerz!
 Ich habe alles dir, ja alles hingegeben,
-
 So geb ich jetzt auch willig dir mein Leben.
-
 Nur glücklich sollst du sein, nur glücklich sein,
 Nimm mein Leben hin, ich harre deiner dort.
-
 Ja! dort jenseits harr’ ich dein.
-
 Arie.
 Wirf deines Lichts blitzenden Strahl in seine Seele,
 Der Wahrheit Glanz läut’re sein Herz von Schuld und Fehle!
@@ -379,16 +278,11 @@ Beschirmt ihn mit eurer Huld und Gnade!
 Von des Verbrechens grauendern Schlund lenket abwärts seinen Pfad.
 Ja! O Gott! Führe ihn in deinen Schoss zurück!
 Ja, so führe ich mein Kind in Gottes Retterhand zurück!
-
 Fides.
 Recitative.
 O prêtres de Baal, ou m’avez-vous conduite ?
 Quoi! les murs d’un cachot!
-
 g (‘l‘nn retient mes pas, quand de mon fils Berthe veut le trépas !
-
- 
-
 fils! Il ne l’est plus! il renia sa mère!
 Que sur son front coupable éclate ta colère ;
 Frappe, toi qui punis tous les enfants ingrats!
@@ -406,19 +300,13 @@ Comme un éclair, précipité dans son âme,
 Frappe mon fils, o vérité, de ta flamme!
 Qu’il soit dompté comme l’airain par le feu!
 Ah, céléste flamme touche enfin son âme.
-
 Sainte phalange, rends lui son ange ! Esprit divin, descends vainqueur ;
-
 ,
-
 Soldats et chevaux, ils sont tous
 [couchés
 Ou sur leurs fusils muets penchés :
-
 Roidis sur les lourds affûts,
-
 L’éclair de leurs mains ne part plus.
-
 Le Nord a pris et garde a jamais
 La courageuse armée,
 Les loups, les ours des lontaines forêts
@@ -427,184 +315,118 @@ O ciel boréal, seras-tu le seul
 Dont les enfants soient maudits ?
 Accorde, donc à tous les fils
 Au moins un doux linceul,
-
 F. V. Widmann.
-
 Sie starben und starrten, so Ross als
-
 Und lehnten am Feldgeschütz, [Mann
-
 Am schweigenden Rohr, das nicht mehr
 kann
-
 Entsenden den schmetternden Blitz.
-
 Endlos ihr Zug im stillen Revier
-
 Und jeder Regung bar.
-
 Aus Klüften lugte das Waldesgetier
-
 Und schaute die blasse Schar.
-
 O Himmel der Heimat, wie hart bist du!
-
 Hast deinen Sôhnen nur Fluch?
-
 Schenk ihnen zu der ew’gen Ruh’
-
 Ein weiches Leichentuch.
-
 Air de la princesse Eboli (Don Carlos).
-
 O don fatal et détesté,
-
 Présent du ciel en sa colère!
-
 O toi qui rends la femme fière!
 Je te maudis, o ma beauté!
 Tombez, tombez, larmes amères,
 Mes trahisons et mes forfaits,
 Mes souillures et mes misères
-
 Vous ne les laverez jamais !
-
 Adieu, reine, victime pure
-
 De mes déloyales et folles amours !
 Dans un couvent et sous la bure
 Je m’ensevelis pour toujours !
-
 Et Carlos! oui! demain peut-être
 Il tombera sous le fer sacré
-
 Ah! un jour me reste! je me sens re-
-
 Béni ce jour. Je le sauverai ! [naître!
-
 Heimweh.
-
 Wenn der Schnee von den Alpen niedertaut,
-
 Aus dem See blau der
-
 Himmel wiederschaut,
-
 Wenn die Glocken läuten von den Alpen her,
-
 Schau’ ich dort die liebe Heimat nimmermehr ?
-
 [: Liebe Heimat, teure
-
 Heimat,
-
 Schau’ ich dich wohl nimmermehr? :]
-
 Wo das Alphorn von Firn zu Firne klingt,
-
 Und der Gemsbock von Klipp’ zu Klippe springt,
-
 Wo der Adler kreiset überm Wolkenmeer,
-
 Schau’ ich dort u. s. w.
-
 Wo der Staubbach sich stürzet in die Kluft,
-
 Donners Zornhall von Fels zu Felsen ruft,
-
 Fern ertänt der Schlaglawinen wildes Heer,
-
 De tes rayôns perce son cœur
-
 Et du crime sous ses pas, l’abime noir ne s’ouvre pas!
-
 qu’il remonte au sein de Dieu !
 ramène mon enfant au Dieu sauveur !
-
 Les revenants de Tydal. — Totenvolk.
-
 Les sombres gorges des monts Tydal
 S’emplissent, quand vient minuit,
-
 De noirs bataillons qui de val en val
 Se glissent, flottant sans bruit.
-
 Ils vinrent jadis, soldats vainqueurs,
 Chercher le cruel frimas
-
 Dix milles braves, hardis lutteurs
 La mort marchait sur leurs pas,
-
 La mort, la voici dans le froid vent du
 Qui change en glaçons le sang [Nord
 Ils tombent gisant et chacun s’endort
 Leur souffle s’en va faiblissant.
-
 De l’ombre sort une main de fer
 Qui sur leurs fronts s’abat,
 Surpris sur l’invincible hiver
-
 Ils meurent sans combat,
-
 In Tydals Bergen und Schluchten viel,
 Da regt sich’s um Mitternacht
-
 Von reisigen Männern und Waffenspiel,
 Die Toten sind aufgewacht !
-
 Sie zogen, voreinst ein siegreich Heer,
 Durch starrende Wintersnot,
 Zehntausend Krieger in Waffen schwer
 Und alle zwang sie der Tod.
-
 Er kam mit dem rasenden heulenden
 Und wandelte Blut in Eis, [Nord
 Sie sanken dahin an des Weges Bord,
 Ihr Atem ward gar so leis,
-
 Vom Boden tappt eine Riesenfaust,
 Hart war ihr Griff und kalt,
-
 Das warme Leben drob ergraust,
-
 Als eisig sie’s umkrallt.
-
 Schau’ ich dort u.s. w.
-
 Wenn die Nacht sinkt und rings die Sterne glüh’n,
 Wenn der Tag winkt und Alpenrosen blüh’n,
 O mein Herz, mein Herz, was pochst du doch so
 Schau’ ich dort u.s.w, [schwer
-
 A. Schnezler.
-
 Ihr Berge, lebt wohl!
-
 Ihr Berge, lebt wohl, Ihr Hirten, lebt wohl,
-
 Ihr lispelnden Büsche, Ihr schallenden Lieder
 Du kühlende Frische, Wann hôr’ ich euch wieder
 [: Du rieselnder Quell! :] [Ë
-
 Noch denke ich so gerne
-
 Auf grünender Alp ? :]
-
 Mit Wehmut und mit Schmerzen
 An euch in weiter Ferne. Ruf’ ich: Ihr edlen Herzen,
-
 [: Ihr Berge, lebt wohl :] [; Ihr Hirten, lebt wohl :]
-
 Ihr Alpen, lebt wohl,
 Welch' liebliche Düfte,
 Welch’ kühlende Lüfte
 [: Umhauchten mich dort. :]
 Was habe ich empfunden !
 Nun sind sie hingeschwunden.
-[; Ihr Alpen, lebt wohl :]]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001064_004.tif"/>
-<page><![CDATA[Träume.
-
+[; Ihr Alpen, lebt wohl :]
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001064_004.tif'/>
+        <page>
+          <![CDATA[Träume.
 Sag'’, welch’ wunderbare Träume halten meinen Sinn umfangen,
 Dass sie nicht wie leere Schäume sind in ôdes Nichts vergangen ?
 Träume, die in jeder Stunde, jedem Tage schôner blüh’n,
@@ -616,51 +438,32 @@ Dass zu niegeahnter Wonne sie der neue Tag begrüsst,
 Dass sie wachsen, dass sie blühen, träumend spenden ihren Duft,
 Sanft an deiner Brust verglühen, und dann sinken in die Gruft.
 Wesendonck.
-
 Immer leiser wird mein Schlummer.
-
 Immer leiser wird mein Schlummer, nur wie Schleier liegt mein
 Kummer zitternd über mir.
-
 Oft im Traume häër’ ich dich, rufen drauss’ vor meiner T‘ür,
 Niemand wacht und ôffnet dir, ich erwach’ und weine bitterlich.
 Ja, ich werde sterben müssen,
-
 Eine And’re wirst du küssen, wenn ich bleich und kalt.
-
 Eh’ die Maienlüfte wehen, eh’ die Drossel singt im Wald:
 Willst du mich noch einmal sehen, komm’, o komme bald.
-
 Lingg.
-
 Serenata.
 ,Dove, dove scintillano“.
-
 Dove scintillano gli sguardi e le bellezze
 e dove hanno carezze,
-
 fiori di serra e musiche vibranti
-
 io vederti non vo .....
 la tra il lusso dei fieri e dei brillanti
 ritroyartinonso ° …
-
 La queta cameretta,
-
 nido dei nostri amori,
-
 ha ben altri splendori,
-
 era ben altra magica armonia,
-
 dove sei tutta mia!
-
 era ben altra magica armonia,
-
 dove sei tutta mia! Domenico Oliva.
-
 Vom Rhein.
-
 Wenn das Rheingold in der Sonne glüht
 Und im Blütenschmuck das Ufer lacht,
 Jede Welle gold’ne Funken sprüht,
@@ -677,15 +480,10 @@ Schiffe klein und gross wiegt des Rheines Schoss,
 Reisst das Herz von allen Sorgen los.
 In der Morgenglut wie im Abendschein
 O wie wonnig ruht sich’s am grünen Rhein!
-
 Scheitlin, Spri
-
 Glücklich, wer auf deiner Segensflur immer atmen
 darf, du heil’ger Rhein! i
 Doch auch glücklich, wem ein Kurzes nur deine
-
- 
-
 |
 Zauber blühen ins Herz hinein, [%
 Holde Sehnsucht schreibt tief sich ein und bleibt ‘ê
@@ -693,116 +491,76 @@ Dass es immer wieder zu dir treibt. H
 In der Morgenglut wie im Abendschein ;
 O wie wonnig ruht sich’s am grünen Rhein!
 Fr. Bodenstedt.
-
 Cavatine der Rosina aus ,Barbier von Sevilla“. ;
 ;
 Una voce, poco fa, Frag’ich mein beklomm’nes Herz, '
-
 Qui nel cor mi risuond ; Wer so süss es hat bewegt,
 Il mio cor ferito è già, Dass es in der Liebe Schmerz '
 E Lindor fù che il piago. Immer sehnender sich regt,
 Si, Lindoro mio sarà, Ja, dann heisst es: In dies Herz '
 Lo giurai, la vincerd. Hat Lindoro Brand gelegt. ;
-
 Il tutor ricuserà,
-
 Io l’ingegno aguzzerd,
 Alla fin s’accheterà
 E contenta io resterd.
 Si, Lindoro mio sarà,
 Lo giurai, la vincerd.
-
 Io sono docile, son rispettosa,
 Sono obbediente, dolce, amorosa,
 Mi lascio reggere,
-
 Mi fè guidar;
-
 Ma se mi toccano
-
 Dov'è il mio debole,
-
 Sard una vipera,
-
 E cento trappole.
-
 Prima di cedere,
-
 Fard giocar,
-
 Hymne à la Patrie!
-
 Terre des monts neigeux,
 Pour toi, jusques aux cieux
 Montent nos voix !
-
 Sur ton rempart sacré,
-
 De l’étentard paré,
-
 Brille en son champ pourpré,
 Ta blanche croix.
-
 Il vibre en tous les cœurs
 Le nom des grands vainqueurs
 Des anciens jours !
-
 Comme eux, en hommes droits,
 Contre l’assaut des rois
-
 Nous maintiendrons nos droits,
 Libres toujours.
-
 Suisse, vers tes glaciers
 Luit, en ses traits altiers,
-
 La liberté !
-
 Fiers comme nos aiïeux,
 Comme eux audacieux,
 Nous te jurons comme eux
 Fidélité!
-
 ng & Cie., Bern.
-
 Sagt der Vormund grämlich: Nein!
 Hat doch meine Liebe Mut;
 Mein Lindoro, und ich sein.
 Trotz’ ich der Gewalt und VN 1
 Mein Lindoro, ewig mein, "
 Er mir alles Glück und Gut!
-
- 
-
 Ich bin gehorsam,
-
 Bin so bescheiden.
-
 Ich lass” mich leiten,
-
 Ich gebe nach;
-
 Doch wenn man mich ärgern will,
 Wo ich verwundbar bin,
-
 Dann werd'ich bôs, sehr bôs u. wi
 Und tausend Schelmerei’n,
-
 Und tausend Neckerei’n,
-
 Hab’ ich alsdann im Sinn.
-
 — Vaterlandshymne !
-
 Heil dir, mein Schweizerland !
 Heil dir, frei Alpenland,
 Im Vôlkersturm!
 Weit in der Länder Kreis
 Leuchtet aus Nacht und Eis
 Dein Banner rot und weiss Ï
-
- 
-
 Vom Felsenturm. p
 Hôrt ihr das Heldenlied, |
 Tell heisst’s und Winkelried,
@@ -817,8 +575,10 @@ Den Sternen nah! |
 Frei wie dein Grund und Grat, æ
 Kühn wie der Väter Tat,
 Sei unser Schwur und Rat
-Helvetia ! Bühler & Luck.]]></page>       
-        </p>
+Helvetia ! Bühler & Luck.
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

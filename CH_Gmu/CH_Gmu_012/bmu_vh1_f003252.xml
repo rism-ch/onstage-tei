@@ -1,77 +1,85 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par l'Ecole sociale de musique<date when="25/11/1944"/></title>
-<series>1944-1945</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par l'Ecole sociale de musique
+            <date when='25/11/1944'/>
+          </title>
+          <series>1944-1945</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F003252</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Closset, F.</note>
+        <note>Gay, E. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19441125"/>
-<title>Concert donné par l'Ecole sociale de musique</title>
-<placeName key="Victoria Hall"/>
-<name key="1944-1945" type="series"/>
-<name key="Torelli, Giuseppe" ref="https://muscat.rism.info/admin/people/30003149" type="person" role="cmp">Torelli, Giuseppe</name>
-<name key="Scarlatti, Domenico" ref="https://muscat.rism.info/admin/people/30002849" type="person" role="cmp">Scarlatti, Domenico</name>
-<name key="Bach, Johann Sebastian" ref="https://muscat.rism.info/admin/people/2539" type="person" role="cmp">Bach, Johann Sebastian</name>
-<name key="Schubert, Franz" ref="https://muscat.rism.info/admin/people/111603" type="person" role="cmp">Schubert, Franz</name>
-<name key="Liszt, Franz" ref="https://muscat.rism.info/admin/people/107196" type="person" role="cmp">Liszt, Franz</name>
-<name key="Brahms, Johannes" ref="https://muscat.rism.info/admin/people/39914" type="person" role="cmp">Brahms, Johannes</name>
-<name key="Closset, Fernand (dir.)"  type="person" role="int">Closset, Fernand (dir.)</name>
-<name key="Gay, Elza (dir.)"  type="person" role="int">Gay, Elza (dir.)</name>
-<name key="École Sociale de Musique"  type="person" role="int">École Sociale de Musique</name>
-<name key="Hiltbrand, Louis"  type="person" role="int">Hiltbrand, Louis</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003252_001.tif"/>
-<page><![CDATA[\@@ag@amme]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003252_002.tif"/>
-<page><![CDATA[VOOOOOOOOO0O0OOOOOOOO900O008
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19441125'/>
+        <title>Concert donné par l'Ecole sociale de musique</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1944-1945' type='series'/>
+        <name key='Torelli, Giuseppe' ref='https://muscat.rism.info/admin/people/30003149' type='person' role='cmp'>Torelli, Giuseppe</name>
+        <name key='Scarlatti, Domenico' ref='https://muscat.rism.info/admin/people/30002849' type='person' role='cmp'>Scarlatti, Domenico</name>
+        <name key='Bach, Johann Sebastian' ref='https://muscat.rism.info/admin/people/2539' type='person' role='cmp'>Bach, Johann Sebastian</name>
+        <name key='Schubert, Franz' ref='https://muscat.rism.info/admin/people/111603' type='person' role='cmp'>Schubert, Franz</name>
+        <name key='Liszt, Franz' ref='https://muscat.rism.info/admin/people/107196' type='person' role='cmp'>Liszt, Franz</name>
+        <name key='Brahms, Johannes' ref='https://muscat.rism.info/admin/people/39914' type='person' role='cmp'>Brahms, Johannes</name>
+        <name key='Closset, Fernand' type='person' role='int'>Closset, Fernand</name>
+        <name key='Gay, Elza' type='person' role='int'>Gay, Elza</name>
+        <name key='École Sociale de Musique' type='person' role='int'>École Sociale de Musique</name>
+        <name key='Hiltbrand, Louis' type='person' role='int'>Hiltbrand, Louis</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003252_001.tif'/>
+        <page><![CDATA[\@@ag@amme
+]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003252_002.tif'/>
+        <page>
+          <![CDATA[VOOOOOOOOO0O0OOOOOOOO900O008
 Sqmedi 25» novembre 1944, à 20 h. 30, au Victoria-Hall
-
- 
-
 CONCERT
-
 donné par l’Ecole Sociale de Musique . |
-
 avec le gracieux concours de
 M. Fernand Closset, violoniste, directeur de l’E.S.M. >
 M. Louis Hiltbrand, pianiste, professeur à l’E.S.M.
-
 PROGRAMME
 I. Concerto pour orchestre à cordes Torelli
 Classe d’orchestre de l’E.S.M., dir. M. Fernand Closset
@@ -79,30 +87,24 @@ Classe d’orchestre de l’E.S.M., dir. M. Fernand Closset
 b) Toccata en mi mineur J.-B. Bach
 M. Louis Hiltbrand
 3. Concerto en la mineur pour violon et orchestre J. S. Bach
-
 M. Fernand Closset et la classe d’orchestre de l’E.S.M.
-
 direction Mlle Elza Gay
 ENTR'ACTE .
-
 4. Symphonie inachevée Schubert
 Corps d’harmonie de l’E.S.M., dir. M. Fernand Closset
-
 $. a) Funérailles
 b) Consolation Liszt
-
 c) Légende No 2
 M. Louis Hiltbrand
-
 6. Danses hongroises Nos 5 et 6 Brahms
 Corps d’harmonie de l’E.S.M., dir. M. Fernand Closset
-
-DO0000000000000090000900000]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003252_003.tif"/>
-<page><![CDATA[Quelques mots sur le programme de notre conceri au
-
+DO0000000000000090000900000
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003252_003.tif'/>
+        <page>
+          <![CDATA[Quelques mots sur le programme de notre conceri au
 Victoria-Hall
-
 Concerto pour orchestre à cordes de Torelli
 Guiseppe Torelli, né en 1660 à Vérone, est mort à Bologne en
 1708. C’était un violoniste italien fort célèbre. Ses Concerti
@@ -110,7 +112,6 @@ Grossi publiés après son décès sont d’une remarquable perfec-
 tion. On remarquera une certaine noblesse, grandeur dans les
 mouvements lents, et dans ceux qui sont vifs ; une science de
 l’écriture, une richesse dans le travail thématique.
-
 Sonate de D. Scarlatti
 Ce compositeur est né et mort à Naples (1685-1757), fût maître
 de Chapelle à St-Pierre de Rome, vécut la plupart du temps à
@@ -118,85 +119,64 @@ Lisbonne et à Madrid comme claveciniste de la cour. Ses sonates
 ne comportent, en général, qu’un seul morceau. Elles constituent
 un répertoire de pièces de tous styles, d’une merveilleuse variété.
 Toutes les richesses de la langue sonore s’y retrouvent.
-
 Toccata en mi mineur de J.S. Bach :
-
 Bach est né à Eisenach en 1685, mourut en 1750. Ce fut un pro-
 digieux génie ; son œuvre est immense, unique par ses inspira-
 tions et sa science.
-
 La toccata est une pièce écrite pour orgue, clavecin ou piano.
 Dans les temps anciens, elle était d’allure variée, mais de nos
 jours plus alerte. Celle-ci est un tryptique et la partie médiale
 une admirable fugue.
-
 Concerto en la mineur pour violon et orchestre de J. S. Bach :
-
 Bach a fait trois concerti pour violon. Celui dont il s’agit ici
 n’a peut-être pas l’ampleur de celui en mi majeur qu’Isaye dé-
 nommait « l’empereur des concerti » mais il est d’une forme gra-
 cieuse. La partie lente est un très beau dialogue entre les basses
 et le violon principal.
-
 Symphonie Inachevée de F. Schubert :
-
 Schubert est né en 1797 et mourut à Vienne en 1828. Sa vie fut
 courte et pauvre ; de grandes joies et de grandes douleurs la tra-
 versèrent. Sa facilité d’improvisation était incroyable. Il écrivit
 des lieder, des sonates, des impromptus, des messes, etc. La Sym-
-phonie Inachevée n’a jamais été dépassée. On peut dire que pos-]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003252_004.tif"/>
-<page><![CDATA[1=0
-
+phonie Inachevée n’a jamais été dépassée. On peut dire que pos-
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003252_004.tif'/>
+        <page>
+          <![CDATA[1=0
 A
 térieurement à Beethoven, rien. de plus beau et :profondément ;
 humain n’a été écrit. Elle date de 1822. L’invention mélodique |
 est la qualité et le don infaillibles de F. Schubert.
-
- 
-
 K
 k
-
 unérailles ; Consolations ; Légende No 2, de Fr. Liszt : ,
-
 Liszt est né en Hongrie en 1811, et mourut en 1886 à Bayreuth. ;
 Ce fut un virtuose du piano. Créateur du poème symphonique. ;
 Dans les « Funérailles », il fait entendre des cloches qui sonnent,
 bourdonnent, dominent tout. Elles semblent dire : tout est fini,
 fini, ceci avec le timbre même du désespoir.
-
 ‘ Les « Consolations > nous entourent d’une atmosphère de séré-
 nité, nous adressent un message d’espérance. p .
 La « Légende » peint un des miracles de St-François de Paule, Ë,
 traversant le détroit de Messine, à pied et d’un pas assuré, sur les [
 vagues tumultueuses de la mer, des bateliers n’ayant pas voulu f
 le prendre dans leur embarcation.
-
 e bteae én sl
-
- 
-
 Danses hongroises Nos 5 et 6 de J. Brahms :
-
 Brahms est né à Hambourg en 1833, mort à Vienne en 1897. On [
 l’a surnommé le « Continuateur'» de’ Béethoven. Ila, par excel- |
 lence, fait connaître les charmes profonds d’un art d’intimité,
 et son œuvre est considérable. Il écrivit des lieder, quintettes,
 quatuors, trios, sonates et pièces pour piano, etc.
-
 Nous avons choisi, pour clore ce concert, ces deux danses vi-
 vantes et rythmiques qui sont connues et aimées de tous.
-
 Fernand Closset.
-
- 
-
- 
-
 @
-ë]]></page>       
-        </p>
+ë
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

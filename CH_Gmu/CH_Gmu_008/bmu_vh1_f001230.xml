@@ -1,329 +1,176 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par le Corps de musique d'Elite<date when="04/03/1917"/></title>
-<series>1916-1917</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par le Corps de musique d'Elite
+            <date when='04/03/1917'/>
+          </title>
+          <series>1916-1917</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F001230</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Romain, F. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19170304"/>
-<title>Concert donné par le Corps de musique d'Elite</title>
-<placeName key="Victoria Hall"/>
-<name key="1916-1917" type="series"/>
-<name key="Mendelssohn Bartholdy, Felix" ref="https://muscat.rism.info/admin/people/88790" type="person" role="cmp">Mendelssohn Bartholdy, Felix</name>
-<name key="Gluck, Christoph Willibald" ref="https://muscat.rism.info/admin/people/67338" type="person" role="cmp">Gluck, Christoph Willibald</name>
-<name key="Verdi, Giuseppe" ref="https://muscat.rism.info/admin/people/137994" type="person" role="cmp">Verdi, Giuseppe</name>
-<name key="Mozart, Wolfgang Amadeus" ref="https://muscat.rism.info/admin/people/115324" type="person" role="cmp">Mozart, Wolfgang Amadeus</name>
-<name key="Paladilhe"  type="person" role="cmp">Paladilhe</name>
-<name key="Guiraud, Ernest" ref="https://muscat.rism.info/admin/people/30024115" type="person" role="cmp">Guiraud, Ernest</name>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Massenet, Jules" ref="https://muscat.rism.info/admin/people/84264" type="person" role="cmp">Massenet, Jules</name>
-<name key="Delibes, Léo" ref="https://muscat.rism.info/admin/people/30016578" type="person" role="cmp">Delibes, Léo</name>
-<name key="Sellenick"  type="person" role="cmp">Sellenick</name>
-<name key="Romain, F. (dir.)"  type="person" role="int">Romain, F. (dir.)</name>
-<name key="Corps de musique d'Elite (Fanfare genevoise)"  type="person" role="int">Corps de musique d'Elite (Fanfare genevoise)</name>
-<name key="Toromanoff (Mlle)"  type="person" role="int">Toromanoff (Mlle)</name>
-<name key="Farini"  type="person" role="int">Farini</name>
-<name key="Mossevelde, van"  type="person" role="int">Mossevelde, van</name>
-<name key="Ketten, Léopold"  type="person" role="int">Ketten, Léopold</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001230_001.tif"/>
-<page><![CDATA[Cl
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19170304'/>
+        <title>Concert donné par le Corps de musique d'Elite</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1916-1917' type='series'/>
+        <name key='Mendelssohn Bartholdy, Felix' ref='https://muscat.rism.info/admin/people/88790' type='person' role='cmp'>Mendelssohn Bartholdy, Felix</name>
+        <name key='Gluck, Christoph Willibald' ref='https://muscat.rism.info/admin/people/67338' type='person' role='cmp'>Gluck, Christoph Willibald</name>
+        <name key='Verdi, Giuseppe' ref='https://muscat.rism.info/admin/people/137994' type='person' role='cmp'>Verdi, Giuseppe</name>
+        <name key='Mozart, Wolfgang Amadeus' ref='https://muscat.rism.info/admin/people/115324' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Paladilhe' type='person' role='cmp'>Paladilhe</name>
+        <name key='Guiraud, Ernest' ref='https://muscat.rism.info/admin/people/30024115' type='person' role='cmp'>Guiraud, Ernest</name>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Massenet, Jules' ref='https://muscat.rism.info/admin/people/84264' type='person' role='cmp'>Massenet, Jules</name>
+        <name key='Delibes, Léo' ref='https://muscat.rism.info/admin/people/30016578' type='person' role='cmp'>Delibes, Léo</name>
+        <name key='Sellenick' type='person' role='cmp'>Sellenick</name>
+        <name key='Romain, F.' type='person' role='int'>Romain, F.</name>
+        <name key='Corps de musique d&apos;Elite (Fanfare genevoise)' type='person' role='int'>Corps de musique d'Elite (Fanfare genevoise)</name>
+        <name key='Toromanoff (Mlle)' type='person' role='int'>Toromanoff (Mlle)</name>
+        <name key='Farini' type='person' role='int'>Farini</name>
+        <name key='Mossevelde, van' type='person' role='int'>Mossevelde, van</name>
+        <name key='Ketten, Léopold' type='person' role='int'>Ketten, Léopold</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001230_001.tif'/>
+        <page>
+          <![CDATA[Cl
 Ë-' Ouverfure des portes G G EN EVE :. “ On commencera à ‘j
-
 : — à 1 h. frois quarts ; é e 9 Ê 5 2 h. et demie
-
 DIMANCHE 4 MARS 1917
-
 donné par le Corps de
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 QUE D’ÉLITE
-
 DirecTion : F°. ROMAIN *
-
 AVEC LE GRACIEUX CONCOURS DE
-
 M'° TOROMANOFF
-
 Soprano
 ÉLÈVE DE M. LE PROFESSEUR KETTEN
-
 M. FARINI e M. VAN MOSSEVELDE
-
 Ténor Baryton
-
 M. LéoroLip KETTEN *
 È Professeur supérieur au Conservatoire
 GI n
-
-IMF  LA SALLE SERA CHAUFFÉE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001230_002.tif"/>
-<page><![CDATA[ce
-
+IMF  LA SALLE SERA CHAUFFÉE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001230_002.tif'/>
+        <page>
+          <![CDATA[ce
 [ j.î
-
 (Çwwwwwwwwwwwwwwwwwwwwwwwwwm
-
- 
-
-  
-
- 
-
- 
-
 H
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-     
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-
 Prrtfot
-
 PREMIÈRE PARTIE
-
- 
-
 1. MÉLODIES ET FUGUE
 (Elite)
-
 2. Air d'IPHIGÉNIE EN AULIDE
 (M. Farini)
-
 3. RIGOLETTO
 (Elite)
-
 4. Grand air de la « Reine de la Nuit »
 FLUTE ENCHANTÉE
 (M" Toromanoff)
-
 5. Grand air de «PATRIE »
 (M. Van Mossevelde)
-
 6. DANSE PERSANE
 (Elite)
-
- 
-
 A
-
 Mendelssohn
 Glück
-
 Verdi
-
 Mozart
-
 Paladilhe
 e
-
 Guiraud
-
- 
-
- 
-
- 
-
- 
-
- 
-
-   
-    
-
- 
-
 / PRIX DES PLACES: Loges ct |
 1'e galerie (numérotés) 2 îr.
-
 \Pl;lCc Kléberg; Ed. Fivaz, Terrassière, 9.
-
 “ rang de la
 Rez-de-chaussée et
 autres places de l'“ galer. 1 Îr.; 2"° galerie, SO ct.
-
-Cartes à l'avance : Victoria-Hall; Case de l’Oncle Tom]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001230_003.tif"/>
-<page><![CDATA[| DEUXIÈME PARTIE
-
+Cartes à l'avance : Victoria-Hall; Case de l’Oncle Tom
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001230_003.tif'/>
+        <page>
+          <![CDATA[| DEUXIÈME PARTIE
 | 7. ALLEGRO de la 5“ SYMPHONIE
 | (Elite)
-
 |
 | 8 HYMNE A LA NATURE
 | (M. Farini)
-
 9. WERTHER
 (Elite)
-
 Toromanoff et M. Farini)
-
 |
 |
 | 10. Duo de « LAKMÉ » .
 |
 |
-
 11. CÉLÈBRE MARCHE INDIENNE
 (Elite)
-
 Beethoven
-
 Massenet
-
 Massenet
-
 Léo Delibes
-
 Sellenick
-
-   
-    
-   
-    
-
- 
-
- 
-
- 
-
- 
-
- 
-
 invités à ce concert.
-
 nent d
 nant supplément
-
- 
-
 A es
-
 Les Militaires suisses et internés sont gracieuse nunt\
-
 Les cartes de Membre honoraire et de Membre passif don
 roit à deux entrées, le coupon No 1 à une entrée et moyen-
 de 1 fr. par personne aux places numérotées,
-
-    
-    
-
- 
-
- 
-
-MEIER FRÈRES, IMPRIMEURS, GENÈVE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001230_004.tif"/>
-<page><![CDATA[a«/c '
-
-Vouveautés]]></page>       
-        </p>
+MEIER FRÈRES, IMPRIMEURS, GENÈVE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001230_004.tif'/>
+        <page><![CDATA[a«/c '
+Vouveautés
+]]></page>
+      </p>
     </body>
   </text>
 </TEI>

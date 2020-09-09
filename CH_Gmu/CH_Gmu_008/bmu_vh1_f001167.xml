@@ -1,124 +1,95 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Un seul grand concert Edouard Risler, avec le concours de Monsieur Edmond Clément<date when="27/10/1913"/></title>
-<series>1913-1914</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Un seul grand concert Edouard Risler, avec le concours de Monsieur
+            Edmond Clément
+            <date when='27/10/1913'/>
+          </title>
+          <series>1913-1914</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F001167</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt> </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19131027"/>
-<title>Un seul grand concert Edouard Risler, avec le concours de Monsieur Edmond Clément</title>
-<placeName key="Victoria Hall"/>
-<name key="1913-1914" type="series"/>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Berlioz, Hector" ref="https://muscat.rism.info/admin/people/13803" type="person" role="cmp">Berlioz, Hector</name>
-<name key="Saint-Saëns, Camille" ref="https://muscat.rism.info/admin/people/76734" type="person" role="cmp">Saint-Saëns, Camille</name>
-<name key="Duparc, Henri" ref="https://muscat.rism.info/admin/people/41011746" type="person" role="cmp">Duparc, Henri</name>
-<name key="Bruneau, Alfred" ref="https://muscat.rism.info/admin/people/78271" type="person" role="cmp">Bruneau, Alfred</name>
-<name key="Schubert, Franz" ref="https://muscat.rism.info/admin/people/111603" type="person" role="cmp">Schubert, Franz</name>
-<name key="Fauré, Gabriel" ref="https://muscat.rism.info/admin/people/41731" type="person" role="cmp">Fauré, Gabriel</name>
-<name key="Hué, Georges-Adolphe" ref="https://muscat.rism.info/admin/people/30073649" type="person" role="cmp">Hué, Georges-Adolphe</name>
-<name key="Debussy, Claude" ref="https://muscat.rism.info/admin/people/4338" type="person" role="cmp">Debussy, Claude</name>
-<name key="Massenet, Jules" ref="https://muscat.rism.info/admin/people/84264" type="person" role="cmp">Massenet, Jules</name>
-<name key="Granados"  type="person" role="cmp">Granados</name>
-<name key="Liszt, Franz" ref="https://muscat.rism.info/admin/people/107196" type="person" role="cmp">Liszt, Franz</name>
-<name key="Lully, Jean-Baptiste" ref="https://muscat.rism.info/admin/people/132446" type="person" role="cmp">Lully, Jean-Baptiste</name>
-<name key="Périlbou"  type="person" role="cmp">Périlbou</name>
-<name key="Weckerlin, Jean Baptiste" ref="https://muscat.rism.info/admin/people/118631" type="person" role="cmp">Weckerlin, Jean Baptiste</name>
-<name key="Tiersot, Julien" ref="https://muscat.rism.info/admin/people/30031078" type="person" role="cmp">Tiersot, Julien</name>
-<name key="Risler, Edouard"  type="person" role="int">Risler, Edouard</name>
-<name key="Clément, Edmond"  type="person" role="int">Clément, Edmond</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001167_001.tif"/>
-<page><![CDATA[VICTORIA-HALL — Lundi 27 Octobre
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19131027'/>
+        <title>
+          Un seul grand concert Edouard Risler, avec le concours de Monsieur
+          Edmond Clément
+        </title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1913-1914' type='series'/>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Berlioz, Hector' ref='https://muscat.rism.info/admin/people/13803' type='person' role='cmp'>Berlioz, Hector</name>
+        <name key='Saint-Saëns, Camille' ref='https://muscat.rism.info/admin/people/76734' type='person' role='cmp'>Saint-Saëns, Camille</name>
+        <name key='Duparc, Henri' ref='https://muscat.rism.info/admin/people/41011746' type='person' role='cmp'>Duparc, Henri</name>
+        <name key='Bruneau, Alfred' ref='https://muscat.rism.info/admin/people/78271' type='person' role='cmp'>Bruneau, Alfred</name>
+        <name key='Schubert, Franz' ref='https://muscat.rism.info/admin/people/111603' type='person' role='cmp'>Schubert, Franz</name>
+        <name key='Fauré, Gabriel' ref='https://muscat.rism.info/admin/people/41731' type='person' role='cmp'>Fauré, Gabriel</name>
+        <name key='Hué, Georges-Adolphe' ref='https://muscat.rism.info/admin/people/30073649' type='person' role='cmp'>Hué, Georges-Adolphe</name>
+        <name key='Debussy, Claude' ref='https://muscat.rism.info/admin/people/4338' type='person' role='cmp'>Debussy, Claude</name>
+        <name key='Massenet, Jules' ref='https://muscat.rism.info/admin/people/84264' type='person' role='cmp'>Massenet, Jules</name>
+        <name key='Granados' type='person' role='cmp'>Granados</name>
+        <name key='Liszt, Franz' ref='https://muscat.rism.info/admin/people/107196' type='person' role='cmp'>Liszt, Franz</name>
+        <name key='Lully, Jean-Baptiste' ref='https://muscat.rism.info/admin/people/132446' type='person' role='cmp'>Lully, Jean-Baptiste</name>
+        <name key='Périlbou' type='person' role='cmp'>Périlbou</name>
+        <name key='Weckerlin, Jean Baptiste' ref='https://muscat.rism.info/admin/people/118631' type='person' role='cmp'>Weckerlin, Jean Baptiste</name>
+        <name key='Tiersot, Julien' ref='https://muscat.rism.info/admin/people/30031078' type='person' role='cmp'>Tiersot, Julien</name>
+        <name key='Risler, Edouard' type='person' role='int'>Risler, Edouard</name>
+        <name key='Clément, Edmond' type='person' role='int'>Clément, Edmond</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001167_001.tif'/>
+        <page>
+          <![CDATA[VICTORIA-HALL — Lundi 27 Octobre
 à 8 heures et quart
-
- 
-
-  
- 
-  
-
 UN SEUL CONCERT
-
- 
-
-  
- 
-
- 
-
 EDOUARD
-
 * RISLER
-
 avec le concours de Monsieur
-
-  
-    
-   
-     
-      
-
 EDMOND
-
 CLÉMENT
-
 TÉNOR, de l’Opéra-Comique.
-
 J“Ü ….
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 PRIX DES PLACES : l
-
 |
 | ‘
 Rez-de-chaussée : Loges, 5 fr. - Parquets, 4 fr. - Parterre et
@@ -128,37 +99,27 @@ Rez-de-chaussée : Loges, 5 fr. - Parquets, 4 fr. - Parterre et
 1°" rang, 4 fr. - 2”° et 3" rangs, 2 fr. so, - asirano, T fr…-
 i Amphithéâtre, 2 fr. 5o. Deuxième galerie : Amphithéâtre
 et Balcon, 1“ rang, 1 fr. 5o, - Balcon, 2”* rang, 1 fr.
-
 La location est ouverte dès ce jour au ma
 boulevard du ‘l’héâtre, 6 (Téléphone sI
 à midi et de 2 heures à 6 heures.
-
- 
-
-  
- 
- 
-
 gasin de musique J. Montfort,
--08), tous les jours de 9 heures]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001167_002.tif"/>
-<page><![CDATA[PROGRAMME
-
+-08), tous les jours de 9 heures
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001167_002.tif'/>
+        <page>
+          <![CDATA[PROGRAMME
 1. Sonate en fa mineur(op. 17) Appassionata Becthoven
 I. Allegro assai et-Piu allegro.
 IL. Andante con moto (variations). | Bañe idterube
 I. Allegro ma non troppo. Presto, | P*NS Nterruption.
 M. Edouard RISLER.
-
 en n Berlioz
 DEpinadlanies ... 5110 Saint-Saëns
 D Minsodiimste ... Duparc
 d) Mignonrî‘e ...................... Bruneau
-
 M. Edmond CLÉMENT.
-
 3. Andante, menuet et final de la Fantaisie
-
 ce 1n Schubert
 40 Blair deEnne…. ... 1.5 / G. Fauré
 DEn des (iseaux ; 11121 Georges Hie
@@ -171,16 +132,14 @@ c) Rhapsodie n°e XI.............…. Liszt
 M. Edouard RISLER,
 6.4) Boisiépais ... 101 (146)  Lulli
 b) Guillot Martin.....… (1820) recueilli par _ PériZhou
-
 c) Menuet d’Exaudet … -(1880) » »  Weckerlin
-
 d) Les Filles de la Rochelle(1785) » » J. Tiersol
 M. Edmond CLÉMENT,
-
 —
-
-Piano ERARD aux soins de M. Ch. BERGUER.]]></page>       
-        </p>
+Piano ERARD aux soins de M. Ch. BERGUER.
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

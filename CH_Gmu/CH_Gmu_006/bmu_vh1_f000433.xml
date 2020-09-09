@@ -1,207 +1,143 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Grand concert par l'Harmonic-express des chemins de fer de l'est (Paris) : Au bénéfice de l'enfance abandonnée<date when="14/08/1899"/></title>
-<series>1898-1899</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Grand concert par l'Harmonic-express des chemins de fer de l'est
+            (Paris) : Au bénéfice de l'enfance abandonnée
+            <date when='14/08/1899'/>
+          </title>
+          <series>1898-1899</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F000433</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Lebeau, A. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18990814"/>
-<title>Grand concert par l'Harmonic-express des chemins de fer de l'est (Paris) : Au bénéfice de l'enfance abandonnée</title>
-<placeName key="Victoria Hall"/>
-<name key="1898-1899" type="series"/>
-<name key="Huguenin, Ch."  type="person" role="cmp">Huguenin, Ch.</name>
-<name key="Reyer, Ernest" ref="https://muscat.rism.info/admin/people/46219" type="person" role="cmp">Reyer, Ernest</name>
-<name key="Bériot, Charles-Auguste de" ref="https://muscat.rism.info/admin/people/13658" type="person" role="cmp">Bériot, Charles-Auguste de</name>
-<name key="Nachez"  type="person" role="cmp">Nachez</name>
-<name key="Massenet, Jules" ref="https://muscat.rism.info/admin/people/84264" type="person" role="cmp">Massenet, Jules</name>
-<name key="Flégier, Ange" ref="https://muscat.rism.info/admin/people/60438" type="person" role="cmp">Flégier, Ange</name>
-<name key="Bizet, Georges" ref="https://muscat.rism.info/admin/people/20057" type="person" role="cmp">Bizet, Georges</name>
-<name key="Rossini, Gioachino" ref="https://muscat.rism.info/admin/people/63766" type="person" role="cmp">Rossini, Gioachino</name>
-<name key="Brody"  type="person" role="cmp">Brody</name>
-<name key="Thomas, A."  type="person" role="cmp">Thomas, A.</name>
-<name key="Demersseman, Jules August" ref="https://muscat.rism.info/admin/people/30074036" type="person" role="cmp">Demersseman, Jules August</name>
-<name key="Gounod, Charles-François" ref="https://muscat.rism.info/admin/people/80479" type="person" role="cmp">Gounod, Charles-François</name>
-<name key="Goltermann"  type="person" role="cmp">Goltermann</name>
-<name key="Goens, Daniel van" ref="https://muscat.rism.info/admin/people/41007232" type="person" role="cmp">Goens, Daniel van</name>
-<name key="Strauß, Johann" ref="https://muscat.rism.info/admin/people/132082" type="person" role="cmp">Strauß, Johann</name>
-<name key="Lebeau, A. (dir.)"  type="person" role="int">Lebeau, A. (dir.)</name>
-<name key="Harmonic-Express des chemins de fer de l'est (Paris)"  type="person" role="int">Harmonic-Express des chemins de fer de l'est (Paris)</name>
-<name key="North"  type="person" role="int">North</name>
-<name key="Maillart"  type="person" role="int">Maillart</name>
-<name key="Magnus"  type="person" role="int">Magnus</name>
-<name key="Billa (Mlle)"  type="person" role="int">Billa (Mlle)</name>
-<name key="Voisin"  type="person" role="int">Voisin</name>
-<name key="Debucquet"  type="person" role="int">Debucquet</name>
-<name key="Chabrier"  type="person" role="int">Chabrier</name>
-<name key="Berthelier"  type="person" role="int">Berthelier</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000433_001.tif"/>
-<page><![CDATA[e 2
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18990814'/>
+        <title>
+          Grand concert par l'Harmonic-express des chemins de fer de l'est
+          (Paris) : Au bénéfice de l'enfance abandonnée
+        </title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1898-1899' type='series'/>
+        <name key='Huguenin, Ch.' type='person' role='cmp'>Huguenin, Ch.</name>
+        <name key='Reyer, Ernest' ref='https://muscat.rism.info/admin/people/46219' type='person' role='cmp'>Reyer, Ernest</name>
+        <name key='Bériot, Charles-Auguste de' ref='https://muscat.rism.info/admin/people/13658' type='person' role='cmp'>Bériot, Charles-Auguste de</name>
+        <name key='Nachez' type='person' role='cmp'>Nachez</name>
+        <name key='Massenet, Jules' ref='https://muscat.rism.info/admin/people/84264' type='person' role='cmp'>Massenet, Jules</name>
+        <name key='Flégier, Ange' ref='https://muscat.rism.info/admin/people/60438' type='person' role='cmp'>Flégier, Ange</name>
+        <name key='Bizet, Georges' ref='https://muscat.rism.info/admin/people/20057' type='person' role='cmp'>Bizet, Georges</name>
+        <name key='Rossini, Gioachino' ref='https://muscat.rism.info/admin/people/63766' type='person' role='cmp'>Rossini, Gioachino</name>
+        <name key='Brody' type='person' role='cmp'>Brody</name>
+        <name key='Thomas, A.' type='person' role='cmp'>Thomas, A.</name>
+        <name key='Demersseman, Jules August' ref='https://muscat.rism.info/admin/people/30074036' type='person' role='cmp'>Demersseman, Jules August</name>
+        <name key='Gounod, Charles-François' ref='https://muscat.rism.info/admin/people/80479' type='person' role='cmp'>Gounod, Charles-François</name>
+        <name key='Goltermann' type='person' role='cmp'>Goltermann</name>
+        <name key='Goens, Daniel van' ref='https://muscat.rism.info/admin/people/41007232' type='person' role='cmp'>Goens, Daniel van</name>
+        <name key='Strauß, Johann' ref='https://muscat.rism.info/admin/people/132082' type='person' role='cmp'>Strauß, Johann</name>
+        <name key='Lebeau, A.' type='person' role='int'>Lebeau, A.</name>
+        <name key='Harmonic-Express des chemins de fer de l&apos;est (Paris)' type='person' role='int'>Harmonic-Express des chemins de fer de l'est (Paris)</name>
+        <name key='North' type='person' role='int'>North</name>
+        <name key='Maillart' type='person' role='int'>Maillart</name>
+        <name key='Magnus' type='person' role='int'>Magnus</name>
+        <name key='Billa (Mlle)' type='person' role='int'>Billa (Mlle)</name>
+        <name key='Voisin' type='person' role='int'>Voisin</name>
+        <name key='Debucquet' type='person' role='int'>Debucquet</name>
+        <name key='Chabrier' type='person' role='int'>Chabrier</name>
+        <name key='Berthelier' type='person' role='int'>Berthelier</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000433_001.tif'/>
+        <page>
+          <![CDATA[e 2
 Qe 00e 0ye. 0o.e 90 94 @ > h ‘
-
 ‘/—
 oooo‘ooooo‘ôoo
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Ouverture des portes
 à 7 heures ‘
-
 GRAND CONCERT
-
 donné sous le patronage de M. le Consul général de France
 et de la Société des Intérêts de Oenève
-
 PAR
-
 Ll'HARMONIC-EXPRESS
-
 D CIFMINS DE FER DE T ES1I (PARIS)
-
 Orchestre et Chœurs, TOO fExécutants
-
- 
- 
-
 . A On commencera à
 Lundi 14 mNMoût 1899 SH ToRiE
-
- 
-
 Président-Directeur: M. A LEBEAU
-
 au benéfice de l’Enfance abandonnée
-
 —S
-
 x Programme #
-
 dre Partie
-
 1. Salut à Genève, chœur et orchestre . . . . . R A E (ODRTTINQUENENS
 2 Auridessiqura, M MAILLART ténor-.: . 1. 11 1155 p E ; REYER.
-
 3. a’) Andant ) )E BÉRIOT.
 t : ( M-MAGNUS, violoniste . U
-
 b) Danse tzigane ; ( NACHEFZ:
-
 4. Air d’Hérodiade, M"* BILLA, lauréat du Conservatoire de Paris . . . . L C IMASSPNET,
-
 ÿ. Stances, MM. VOISIN, ténor, et DEBUCQUET, violoncelliste . . . 1 r 00 1004 UPRGIENS
-
 paIifAnIésienne, fantaisie» orchestres-…. …. . - . .. F Ec Bizer.
 2 PRarue
-
 I OnventureiaeGUIlaumesTell, orchestre ... 2 — e 10000 E 6 Rossini.
-
 2. a’ Salut au Drapeau Fédéral / R rs « Bropy.
-
 b) France ! France ! $ 0L E e A E L O,
 >. Introduction et Variations sur le Carnaval de Venise, M. CHABRIER, flütiste . . . DEMERSSEMAN.
 cDiotdesVireille #Ms BIL EM MAILLART 1 1s ° GouNon:
-
 5. a) Allegro en lu mineur ) ( GOLTERMANN
 ; M. BERTHELIER, vi elliste. . ; f E 558 EM
-
 Sh Ç 1. BERTHELIER, violoncelliste ‘ ; VN e
-
 6. Le Beau Danube bleu, valse chantée, chœurs et orchestre . . . . 2 2 . . . Srrauss.
-
 Accompagnateur: M. NORTH
-
 e
 PRIX DES PLACES : Loges, fauteuils de face et premier rang de la première Galerie (numérotés),
 2 fr. — Rez-de-chaussée et autres places de la première Galerie, 1 fr. — Seconde Galerie, 50 cent.
-
 Cartes à l’avance de 9 à 6 h., jusqu’au lundi soir, au Vietoria-Hall (sans augmentation de prix).
-
 Prière de ne pas entrer pendant l'exécution des morceaux.
-
 & …
 ; « £  BUFFET AU REZ-DE-CHAUSSÉE + «
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-Imp. de la Tribune de Genève,]]></page>       
-        </p>
+Imp. de la Tribune de Genève,
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

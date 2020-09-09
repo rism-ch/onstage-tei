@@ -1,577 +1,341 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Audition d'élèves de l'Ondine genevoise<date when="10/03/1940"/></title>
-<series>1939-1940</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Audition d'élèves de l'Ondine genevoise
+            <date when='10/03/1940'/>
+          </title>
+          <series>1939-1940</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F003047</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Gabelles, G.</note>
+        <note>Boller, C.</note>
+        <note>Schmittler (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19400310"/>
-<title>Audition d'élèves de l'Ondine genevoise</title>
-<placeName key="Victoria Hall"/>
-<name key="1939-1940" type="series"/>
-<name key="Ménéchetti"  type="person" role="cmp">Ménéchetti</name>
-<name key="Bleger"  type="person" role="cmp">Bleger</name>
-<name key="Mina, Luis"  type="person" role="cmp">Mina, Luis</name>
-<name key="Yradier"  type="person" role="cmp">Yradier</name>
-<name key="Gaubert"  type="person" role="cmp">Gaubert</name>
-<name key="Pépin, A."  type="person" role="cmp">Pépin, A.</name>
-<name key="Cortapassi"  type="person" role="cmp">Cortapassi</name>
-<name key="Schubert, Franz" ref="https://muscat.rism.info/admin/people/111603" type="person" role="cmp">Schubert, Franz</name>
-<name key="Gadenne, G."  type="person" role="cmp">Gadenne, G.</name>
-<name key="Wittmann, G."  type="person" role="cmp">Wittmann, G.</name>
-<name key="Boller, Carlo"  type="person" role="cmp">Boller, Carlo</name>
-<name key="Pleyel"  type="person" role="cmp">Pleyel</name>
-<name key="Campagnoli"  type="person" role="cmp">Campagnoli</name>
-<name key="Romain, F."  type="person" role="cmp">Romain, F.</name>
-<name key="Gabelles, Gustave" ref="https://muscat.rism.info/admin/people/30073762" type="person" role="int">Gabelles, Gustave</name>
-<name key="Boller, Carlo (dir.)"  type="person" role="int">Boller, Carlo (dir.)</name>
-<name key="Schmittler (dir.)"  type="person" role="int">Schmittler (dir.)</name>
-<name key="Ondine genevoise"  type="person" role="int">Ondine genevoise</name>
-<name key="Chanteuses de la Colombière"  type="person" role="int">Chanteuses de la Colombière</name>
-<name key="Mandolinata de Genève"  type="person" role="int">Mandolinata de Genève</name>
-<name key="Dupont"  type="person" role="int">Dupont</name>
-<name key="Fantoli"  type="person" role="int">Fantoli</name>
-<name key="Oechslin"  type="person" role="int">Oechslin</name>
-<name key="Pittet"  type="person" role="int">Pittet</name>
-<name key="Knobloch"  type="person" role="int">Knobloch</name>
-<name key="Fehlbaum"  type="person" role="int">Fehlbaum</name>
-<name key="Bréchon"  type="person" role="int">Bréchon</name>
-<name key="Marthe"  type="person" role="int">Marthe</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003047_001.tif"/>
-<page><![CDATA[A
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19400310'/>
+        <title>Audition d'élèves de l'Ondine genevoise</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1939-1940' type='series'/>
+        <name key='Ménéchetti' type='person' role='cmp'>Ménéchetti</name>
+        <name key='Bleger' type='person' role='cmp'>Bleger</name>
+        <name key='Mina, Luis' type='person' role='cmp'>Mina, Luis</name>
+        <name key='Yradier' type='person' role='cmp'>Yradier</name>
+        <name key='Gaubert' type='person' role='cmp'>Gaubert</name>
+        <name key='Pépin, A.' type='person' role='cmp'>Pépin, A.</name>
+        <name key='Cortapassi' type='person' role='cmp'>Cortapassi</name>
+        <name key='Schubert, Franz' ref='https://muscat.rism.info/admin/people/111603' type='person' role='cmp'>Schubert, Franz</name>
+        <name key='Gadenne, G.' type='person' role='cmp'>Gadenne, G.</name>
+        <name key='Wittmann, G.' type='person' role='cmp'>Wittmann, G.</name>
+        <name key='Boller, Carlo' type='person' role='cmp'>Boller, Carlo</name>
+        <name key='Pleyel' type='person' role='cmp'>Pleyel</name>
+        <name key='Campagnoli' type='person' role='cmp'>Campagnoli</name>
+        <name key='Romain, F.' type='person' role='cmp'>Romain, F.</name>
+        <name key='Gabelles, Gustave' ref='https://muscat.rism.info/admin/people/30073762' type='person' role='int'>Gabelles, Gustave</name>
+        <name key='Boller, Carlo' type='person' role='int'>Boller, Carlo</name>
+        <name key='Schmittler' type='person' role='int'>Schmittler</name>
+        <name key='Ondine genevoise' type='person' role='int'>Ondine genevoise</name>
+        <name key='Chanteuses de la Colombière' type='person' role='int'>Chanteuses de la Colombière</name>
+        <name key='Mandolinata de Genève' type='person' role='int'>Mandolinata de Genève</name>
+        <name key='Dupont' type='person' role='int'>Dupont</name>
+        <name key='Fantoli' type='person' role='int'>Fantoli</name>
+        <name key='Oechslin' type='person' role='int'>Oechslin</name>
+        <name key='Pittet' type='person' role='int'>Pittet</name>
+        <name key='Knobloch' type='person' role='int'>Knobloch</name>
+        <name key='Fehlbaum' type='person' role='int'>Fehlbaum</name>
+        <name key='Bréchon' type='person' role='int'>Bréchon</name>
+        <name key='Marthe' type='person' role='int'>Marthe</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003047_001.tif'/>
+        <page><![CDATA[A
 y
-
 f
 —
-
-«]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003047_002.tif"/>
-<page><![CDATA[e 4 :w_: _
-
- 
-
+«
+]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003047_002.tif'/>
+        <page>
+          <![CDATA[e 4 :w_: _
 Café des Viticulteurs
 SPÉCIALITÉS
 Fondues
 Beelsteacks au fromage
-
 ,{ ambBon \«'ÎL"Ï’_» S eX‘Ï’J
-
 Muunce LARPIN
-
 A. Key
-
 9, Tour-Maîtresse Tél. 4.36.85
-
 Papiers Peints
 Linoléums
-
 Auguste KELLER
-
 11, rue Versonnex
 Téléphone 4.02.89
-
 Escompte aux membres de l'Ondine sur
 présentation de leur carte
-
- 
-
- 
-
 au HON IDIABLE
-
 Vêtements pour hommes
 Chemiserie -
-
 Spécialité d'article pour
-
 Bonneterie
 le travail
-
 G. BERENHEIM
 20, Coutance - Angle r. Grenus, 10
-
 CrTARLE
-
 3, RUE DE HESSE 3
-
 TÉLÉPHONE
-
 4.68.51
-
 e ,, … -
 PERMAN: =
-
- 
-
- 
-
 CHARCUTERIE
 DU PETIT-LANCY
-
 A. BRUNIER
-
 SAMEDI HALLE DE L'ILE
 CASE No 67
-
 MARCHANDISES DE ler CHOIX
-
 Membre ancien de l'Ondine
-
 Articles pour fumeurs
 Papeterie - Mercerie
-
 G. BALTZINGER
-
 AVENUE DES ORMEAUX
-
 PETLT=ÉANEY
 Tél. 4.56.33
 ‘E,V
-
 Membre ancien de l'Ondine
-
- 
-
- 
-
- 
-
 APPAREILS DE CHAUFFAGE
-
 Jean Detigat
-
 RUE DU ROVERAY, 16-18
 et RUE DU SIMPLON, 16
 EAUX-VIVES - Genève
 FOURNEAUX .LE RÊVE"
-
 Téléphone 4.40.76
 Membre de la Société
-
- 
-
- 
-
 Café-Brasserie
-
 , À la Renaissance ”
 J.-M. JACQUARD
 43, Route de Frontenex
 Téléphone 5.47.79
-
 GENEVE
-
 Jardin - Jeux de boules - Spécialité de fondues
 Membre passif de l'Ondine
-
- 
-
- 
-
 - Crasene n dn ts
-
 DE E
-
 en
-
 e
-
 RDN E SRS UE
-
 e p m OE O e
-
-e =]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003047_003.tif"/>
-<page><![CDATA[UNE ADRESSE
+e =
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003047_003.tif'/>
+        <page>
+          <![CDATA[UNE ADRESSE
 A RETENIR
-
 CAFÉ DES
 NATIONS
-
 31, rue de lu_ServeMe
 G E N E -V E
 Louis MERMILLIOD
-
 Membre actif de l'Ondine
-
- 
-
 ÊTRENNES !
-
 OFFREZ DES LIVRES
-
 C'EST UN
-
 CADEAU RAFFINÉ QUI CHARME
 ET QUI SÉDUIT
-
 Librairie
-
 A. MURY
-
- 
-
- 
-
- 
-
- 
-
- 
-
 C € GG
-
 LES CHANTEUSES DE LA COLOMBIÈRE
-
- 
-
 Les
 bonnes semences
 s'achètent chez
-
 LECERF
-
 5, RUE DU PRINCE
 HARICOTS SANS FIL
-
 , ;
 .)pta(;lf)…f: ;
-
- 
-
- 
-
-   
-  
-
 (%
 PHOTO et Nj5
 “ A
-
-  
- 
- 
-
 Ÿ
-
 PHOTO £ NATIONS -GENÈVE
-
 ROBERT FEHLMANN
-
-PLACE LONGEMALLE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003047_004.tif"/>
-<page><![CDATA[Lits et Sommier Lits d‘enfants
+PLACE LONGEMALLE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003047_004.tif'/>
+        <page>
+          <![CDATA[Lits et Sommier Lits d‘enfants
 Métallique Poussettes
-
 literie Charrettes
-
 Div m Meube we
-
 ..LITS PRIMEX”
-
 PAUL HIDBER
-
 16, RUE DE LAUSANNE, 16
-
 Tél. 2.43.00 - GENÈVE - Chèques post. |. 18
-
- 
-
- 
-
- 
-
 Tél. 5.31.12
-
 Un bon
 instrument
-
 ou une
-
 réparation
 bien faite
 KASPAR WICKY
-
 Rue des Maraîchers, 48 et rue de l'Ecole-de-Médecine, 8
 GENÈVE
-
- 
-
- 
-
- 
-
- 
-
- 
-
 1P1R O GR A M MHE
-
 PREMIÈRE PARTIE
-
 Batterie de tambours
-
 N
-
 Croix d’'Honneur (ouverture)
 (HARMONIE)
-
 3. Olona
-
 Paloma (fantaisie)
 (CORPS DE FLUTES)
-
 4 Quatuor pour grandes flûtes .
-
 Marche des Tirailleurs (avec tambours et clairons) .
-
 Ménéchetti
 Bleger
-
 Luis Mina
 Yradier
-
 Gaubert
-
 (Ondins : DUPONT, FANTOLI, CŒCHSLIN, PITTET)
-
 5. Salut à Aix
-
 Rusticanella (fantaisie)
 (CORPS DE FLUTES)
-
 6. Schubert (sélection) .
-
 À. Pépin
 Cortoposs:
-
 Schubert
-
 (HARMONIE) solistes : KNOBLOCH et FEHLBAUM
-
 I
-
- 
-
- 
-
 SOYEZ LES BIENVENUS à la
-
 Taverne de
 Saint - Jean
-
 MAISON DES BONNES CHOUCROUTES
-
 Membre d'honneur de la Société
-
- 
-
- 
-
- 
-
-Membres de l’Ondine ! Favorisez de vos ordres les maisons qui insèrent dans votre programme]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003047_005.tif"/>
-<page><![CDATA[FLEURS
-
+Membres de l’Ondine ! Favorisez de vos ordres les maisons qui insèrent dans votre programme
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003047_005.tif'/>
+        <page>
+          <![CDATA[FLEURS
 E. Lederrey
 HORTICULTEUR - FLEURISTE
 3, RUE FENDT (place Montbrillant)
 int 2.40.25
-
 Téléphone permar
-
 Membre actif de l'Ondine
-
- 
-
- 
-
- 
-
 ARTICLES DE VOYAGE
 SELLERIE - MAROQUINERIE
-
 Ern estMU LLER
-
 1, RUE DE LA TERTASSE
-
 f
-
 FN
-
 Membre actif de l'Ondine
-
- 
-
 DEUXIÈME PARTIE
-
 (AUDITION D'ÉLÈVES)
-
 7. Marche des Benjamins .
-
 (ÉLÈVES DÉBUTANTS DU CORPS DE FLUTES)
-
 œ
-
 Air varié pour deux cornets
 (Ondins :
-
 O
-
 BRÉCHON et MARTHE)
 10. Sous les Platanes
-
 Les Pommes de terre
-
 Le Pinson du bois
-
 Marion
-
 Près du Drapeau (fantaisie pour cla
-
 ror
-
 (par les Chanteuses de la Colombière)
-
 11 Andante, pour petites clarinette
-
 Andante et Variations, pour arande
-
 (Classe de M. Léon HOOGSTOEL)
-
 12. Fantaisie sur les Airs Suisses
 (Classe de M. M. CHAPUIS)
-
 clarinette ; »  Campagnoli
-
 F, Romain
-
 ENTR'ACTE 20 minutes
-
- 
-
- 
-
 EPICERIE-CHARCUTERIE |
 LAITERIE-PRIMEURS
-
 Laurent SOT TAS
-
 24, rue des Charmilles - GENÈVE
-
 c
 »pécialité de
-
 @,
-
 /
 larcuterie Vaudoise
-
 {U;HJJ'J" Q {'rVHJUC‘ 'J‘l JIH'}
 )MICILI TÉLÉPH
-
 N E 2.21.40
 Membre actif de l’'Ondine
-
- 
-
- 
-
- 
-
 AMEUBLEMENT
-
 5.&& Ï»ag&a&uc
-
 Magasin de vente: 2, RUE WINKELRIED
 Fabrique : 10, RUE DES ÉPINETTES
-
 QUALITEÉ, PRIX RÉDUITS
 GARANTIE AU CHAUFFAGE CENTRAI
-
 Membre actif de l'Ondine
-
- 
-
 Membre de l'Ondine ! Favorise
-
- 
-
-z de vos ordres les maisons qui insèrent dans votre programme]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003047_006.tif"/>
-<page><![CDATA[VF
-
+z de vos ordres les maisons qui insèrent dans votre programme
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003047_006.tif'/>
+        <page>
+          <![CDATA[VF
 “2185;7 PEPE
-
 y
-
- 
-
- 
-
 F. Cochet
-
 HORTICULTEUR-FLEURISTE
-
 [14
 ['a
 r
 ,
-
 Rue Jacques-Dalphin, 16
 CAROUGE - GENÈVE
 Téléphone 4.81.20
-
 Membre actif de l'Ondine
-
- 
-
- 
-
- 
-
 DENTAND
-
 TEINTURIER
-
 Ses nettoyages et teintures soignés
 Vêtements teints non déformés
 Rideaux, ameublements, etc.
@@ -583,335 +347,161 @@ Téléphone 4.39.68
 rue Pierre-Fatio, 4
 Téléphone 4.11.51
 rue du Conseil-Général, 5
-
- 
-
- 
-
- 
-
- 
-
 TROISIÈME PARTIE
 13. Batterie de tambours
-
 14.  Rigoletto (fantaisie)
 Le Rocher Fantôme .
-
 Verdi
 H. Staz (Macciochi)
-
 (Orchestre Mandolmatu de Geneve)
-
 15. Chanson Ecossaise
 Chanson Danoise
 Chanson Finlandaiseä
-
 Chanson Suisse
-
 chantées pour la première fois
-
 Carlo Boller
-
 (par les Chanteuses de la Colombière)
-
 16. Prière Patriotique
-
 (CHŒUR et HARMONIE 200 EXÉCUTANTS)
-
 Prix d'entrée fr. 0.60
-
 n - aques Paleroze
-
 (droits des pauvres compris)
-
- 
-
 MM. les membres honoraires, anciens, passifs et actifs ont droit à deux entrées gratuites sur
-
 presenlohon du coupon No 1
-
 Les inscriptions des nouveaux élèves sont reçues dès maintenant au local de l'Ondine
 Genevoise (Ecole des Casemates) tous les jours de 17 à 19 heures sauf le jeudi).
 Les élèves peuvent suivrent plusieurs cours et les instruments sont prêtés gratuitement.
-
 Prix des cours fr. 3.— par mois
-
 NNANOOAOOOOoHowwo«ŒŒIaWawWowIodadaIŒtadauaŒœaŒdddŒœauaŒaauauûuau
-
- 
-
-   
-
- 
-
 CAFÉ DE LA POSTE
 RUE DU STAND, 57
-
 -
 ;
-
 O. MATHEEU
-
 SALLE DE SOCIÉTÉS - BILLARD
 CONSOMMATIONS DE PREMIER CHOIX
 RESTAURATION DE BRASSERIE
-
 Combustibles
-
- 
-
- 
-
- 
-
 FREYRE
-
 Chêne-Bougeries
 Téléphone 4.94.20
-
 Membre actif de l'Ondine
-
 À
 f
 |
-
 À
-
- 
-
- 
-
-Membres de l’Ondine ! Favorisez de vos ordres les maisons qui insèrent dans votre programme]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003047_007.tif"/>
-<page><![CDATA[VOATEETE TAGAT UR
-
+Membres de l’Ondine ! Favorisez de vos ordres les maisons qui insèrent dans votre programme
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003047_007.tif'/>
+        <page>
+          <![CDATA[VOATEETE TAGAT UR
 ETE
-
- 
-
 D E e L r
-
 en
-
 MRE eTracqamré
-
 ME PN PE TVRE
-
- 
-
 DEN ù p
 1
-
 VINS EN GROS
-
 A-J. GARIN & C* S. À.
-
 RUE DU MIDI
 TERRASSIÈRE
 Vins blancs du Pays
 Beaujolais
-
 Bourgogne
 Téléphone 5.45.22
-
- 
-
 CYCLES ET MOTOS
-
 VENTE
 RÉPARATIONS
 FOURNITURES
-
 Georges BARONE
-
 Avenue du Plateau «St-Georges)
 Téléphone 4.69.15
 G ENÈVE
-
- 
-
- 
-
- 
-
 Pour vos fête
 ;
 Anniversaires et deuils
-
 Les fleurs de
-
 HIRT
-
 FLEURISTE-DÉCORATEUR
-
 14, Cours de Rive
-
 Î……;,r ine service
-
 10 y d'escompte aux membres de l'Ondine
-
 ATAR S.A.
-
 11, RUE DE LA DOLE
-
 TÉLÉPHONE 2 60 18
-
 IMPRIMERIE
 LITHOGRAPHIE
 O.F F SE
 ce se ES
-
- 
-
 ATAR S.A.
-
- 
-
- 
-
- 
-
 BOULANGERIE
-
 Ch‘%7
-
 Marcel
 Rue Tronchin, 28
-
 Téléphone 2.20.11
-
 Spécialité de ZIGOMARS
-
 BRA S SE RNE
-
 GENTRALE
-
 2 CR DO
-
 METS DE BRASSERIE
 BIÈRE CARDINAL
 Alfred JEAN
-
- 
-
- 
-
- 
-
 CAFÉ DES
 PÉËCHEURS
-
 3, Pl. de la Fusterie
-
 son Chôteau-Neuf cuvée réservée
-
 Lucien FROSSARD
-
- 
-
 Ant. CHOUET
-
 6, COUTANCE, 6
-
 TÉLÉPHONE 2 45 45
 Spécialité de pâtés froids
-
 Aspics de veau
-Galantines truffées]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003047_008.tif"/>
-<page><![CDATA[VERMOUTH
-
+Galantines truffées
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003047_008.tif'/>
+        <page>
+          <![CDATA[VERMOUTH
 MARTINI
-
 APÉRITIF
-
 ROSSI
-
 Voilà deux produits de marque et de qualité
-
- 
-
 CHARCUTERIE
-
 À. WAIGIILE
-
 10, rue du Temple
 Téléphone 2.44.91
-
 On porte à domicile
-
 Spécialité de pâtés froids et salés assortis
-
- 
-
- 
-
- 
-
- 
-
 Calendriers
 Tableaux-réclame
-
 Impressions à chaud,
 dorure et couleurs
 étoffes, cuirs, papiers,etc.
-
 ROSAY
-
 17,rue de l'Arquebuse
 Téléphone 4.66.69
-
 sur
-
 BRASSERIF
-
 J. PIDOUX-MONGE
-
 44, Rue Montchoisy, 44
 Eaux-Vives Genève
-
 CASSE-CROUTE
 CHARCUTERIE VAUDOISE
 SAUCISSONS
 Téléphone 5.48.27
 if de l'Ondine
-
 Membre poss
-
- 
-
- 
-
- 
-
- 
-
 BOULANGERIE
 PATISSERIE
-
 Matzinger Fils
-
 Spécialité d'Aliments au Gluten
-
 Rue de Rive, 15
 Téléphone 4.48.08
-
- 
-
 EXEGEZ
-
 DIIRN
-
 APÉRITIF SAIN #
-
- 
-
- 
-
- 
-
 GENÈVE
 Membre tif d
 ÀP€rr!:f à la G f' UISSOUD
@@ -920,25 +510,12 @@ gentiane 8 he _
 Spécialités de
 Vins blancs et
 Ne fatigue Beaujolais
-
 pas l'estomac
-
 Membre actif de l'Ondine
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-e]]></page>       
-        </p>
+e
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

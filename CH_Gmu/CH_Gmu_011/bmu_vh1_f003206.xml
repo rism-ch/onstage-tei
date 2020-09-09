@@ -1,120 +1,114 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert du Xe anniversaire de [l'Ecole sociale de musique]<date when="28/11/1942"/></title>
-<series>1942-1943</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert du Xe anniversaire de [l'Ecole sociale de musique]
+            <date when='28/11/1942'/>
+          </title>
+          <series>1942-1943</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F003206</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Koenig, H.</note>
+        <note>Haenel, W.</note>
+        <note>Adler, F. [et al.] (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19421128"/>
-<title>Concert du Xe anniversaire de [l'Ecole sociale de musique]</title>
-<placeName key="Victoria Hall"/>
-<name key="1942-1943" type="series"/>
-<name key="Corelli, Arcangelo" ref="https://muscat.rism.info/admin/people/30000734" type="person" role="cmp">Corelli, Arcangelo</name>
-<name key="Schubert, Franz" ref="https://muscat.rism.info/admin/people/111603" type="person" role="cmp">Schubert, Franz</name>
-<name key="Closset, Fernand"  type="person" role="cmp">Closset, Fernand</name>
-<name key="Arçon, Claude d'"  type="person" role="cmp">Arçon, Claude d'</name>
-<name key="Koenig, H. (dir.)"  type="person" role="int">Koenig, H. (dir.)</name>
-<name key="Adler, F. (dir.)"  type="person" role="int">Adler, F. (dir.)</name>
-<name key="Willems, E. (dir.)"  type="person" role="int">Willems, E. (dir.)</name>
-<name key="Haenel, W. (dir.)"  type="person" role="int">Haenel, W. (dir.)</name>
-<name key="Ecole sociale de musique"  type="person" role="int">Ecole sociale de musique</name>
-<name key="Cartel des chorales ouvrières"  type="person" role="int">Cartel des chorales ouvrières</name>
-<name key="Laederach, W."  type="person" role="int">Laederach, W.</name>
-<name key="Segesmann, J. (Mlle)"  type="person" role="int">Segesmann, J. (Mlle)</name>
-<name key="Métraux, J."  type="person" role="int">Métraux, J.</name>
-<name key="Gretillat, Nelly"  type="person" role="int">Gretillat, Nelly</name>
-<name key="Bernex, Armande"  type="person" role="int">Bernex, Armande</name>
-<name key="Magalli, Julien"  type="person" role="int">Magalli, Julien</name>
-<name key="Wehrli, Arthur"  type="person" role="int">Wehrli, Arthur</name>
-<name key="Tournier, Germaine"  type="person" role="int">Tournier, Germaine</name>
-<name key="Blanc-Garin, F. (Mlle)"  type="person" role="int">Blanc-Garin, F. (Mlle)</name>
-<name key="Naftule (Mlle)"  type="person" role="int">Naftule (Mlle)</name>
-<name key="Rudin"  type="person" role="int">Rudin</name>
-<name key="Cantova"  type="person" role="int">Cantova</name>
-<name key="Gerson"  type="person" role="int">Gerson</name>
-<name key="Barras"  type="person" role="int">Barras</name>
-<name key="Sängerbund Frohsinn"  type="person" role="int">Sängerbund Frohsinn</name>
-<name key="Männerchor Freiheit"  type="person" role="int">Männerchor Freiheit</name>
-<name key="Frauen- und Töchterchor Vorwärts"  type="person" role="int">Frauen- und Töchterchor Vorwärts</name>
-<name key="L'Avenir"  type="person" role="int">L'Avenir</name>
-<name key="Union Chorale du Travail"  type="person" role="int">Union Chorale du Travail</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003206_001.tif"/>
-<page><![CDATA[r d Oc e A CN E
-
- 
-
- 
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19421128'/>
+        <title>Concert du Xe anniversaire de [l'Ecole sociale de musique]</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1942-1943' type='series'/>
+        <name key='Corelli, Arcangelo' ref='https://muscat.rism.info/admin/people/30000734' type='person' role='cmp'>Corelli, Arcangelo</name>
+        <name key='Schubert, Franz' ref='https://muscat.rism.info/admin/people/111603' type='person' role='cmp'>Schubert, Franz</name>
+        <name key='Closset, Fernand' type='person' role='cmp'>Closset, Fernand</name>
+        <name key='Arçon, Claude d&apos;' type='person' role='cmp'>Arçon, Claude d'</name>
+        <name key='Koenig, H.' type='person' role='int'>Koenig, H.</name>
+        <name key='Adler, F.' type='person' role='int'>Adler, F.</name>
+        <name key='Willems, E.' type='person' role='int'>Willems, E.</name>
+        <name key='Haenel, W.' type='person' role='int'>Haenel, W.</name>
+        <name key='Ecole sociale de musique' type='person' role='int'>Ecole sociale de musique</name>
+        <name key='Cartel des chorales ouvrières' type='person' role='int'>Cartel des chorales ouvrières</name>
+        <name key='Laederach, W.' type='person' role='int'>Laederach, W.</name>
+        <name key='Segesmann, J. (Mlle)' type='person' role='int'>Segesmann, J. (Mlle)</name>
+        <name key='Métraux, J.' type='person' role='int'>Métraux, J.</name>
+        <name key='Gretillat, Nelly' type='person' role='int'>Gretillat, Nelly</name>
+        <name key='Bernex, Armande' type='person' role='int'>Bernex, Armande</name>
+        <name key='Magalli, Julien' type='person' role='int'>Magalli, Julien</name>
+        <name key='Wehrli, Arthur' type='person' role='int'>Wehrli, Arthur</name>
+        <name key='Tournier, Germaine' type='person' role='int'>Tournier, Germaine</name>
+        <name key='Blanc-Garin, F. (Mlle)' type='person' role='int'>Blanc-Garin, F. (Mlle)</name>
+        <name key='Naftule (Mlle)' type='person' role='int'>Naftule (Mlle)</name>
+        <name key='Rudin' type='person' role='int'>Rudin</name>
+        <name key='Cantova' type='person' role='int'>Cantova</name>
+        <name key='Gerson' type='person' role='int'>Gerson</name>
+        <name key='Barras' type='person' role='int'>Barras</name>
+        <name key='Sängerbund Frohsinn' type='person' role='int'>Sängerbund Frohsinn</name>
+        <name key='Männerchor Freiheit' type='person' role='int'>Männerchor Freiheit</name>
+        <name key='Frauen- und Töchterchor Vorwärts' type='person' role='int'>Frauen- und Töchterchor Vorwärts</name>
+        <name key='Chorale populaire l&apos;Avenir' type='person' role='int'>Chorale populaire l'Avenir</name>
+        <name key='Union Chorale du Travail' type='person' role='int'>Union Chorale du Travail</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003206_001.tif'/>
+        <page>
+          <![CDATA[r d Oc e A CN E
 e pc
-
 sc pn S
 Ô
-
 es E e c S e SF pl 6 C e En PR E Ct t e E S e
 0 e e v —— — —— SS— OE
-
- 
-
- 
-
 ÉCOLE SOCIALE DE MUSIQUE
 19932" 1940
-
 CONCERT
-
 0 IN N IVERSAIRE
-
 1R AUDITION DE
-
- 
-
 28 NOVEMBRE 1942
 VICTORIA - HALL
-
- 
-
- 
-
-PROGRAMME SOUVENIR]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003206_002.tif"/>
-<page><![CDATA[NOTICE AISTORQUE
-
+PROGRAMME SOUVENIR
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003206_002.tif'/>
+        <page>
+          <![CDATA[NOTICE AISTORQUE
 Le 30 septembre 1932, des membres d'organisations ouvrières décident la création
 d'une école populaire de musique ; ils constituent un comité provisoire que
 préside Albert Dupont et se mettent rapidement à l'ouvrage. Une semaine plus
@@ -123,18 +117,15 @@ Sociale de Musique. Les choses vont bon train et le lundi 16 octobre déjà, dan
 le local de l'Harmonie La Lyre, les cours commencent ; Monsieur Delaye, chargé
 de la direction de l'école, assure — avec quatre professeurs — l'enseignement
 (solfège et instruments de corps d'harmonie).
-
 Tous les groupements ouvriers de Genève accordent leur appui à la nouvelle
 institution. Le local de La Lyre se révèle trop exigu, la Ville de Genève concède
 alors des salles de l'Ecole du Grütli. Le 17 décembre, un peu plus de deux mois
 après sa fondation, l'école organise sa première fête de Noël, elle compte
 alors 117 élèves. :
-
 A fin 1932, le nouveau corps de musique adhère à la Fédération suisse des
 Musiques ouvrières et au Cartel genevois des sociétés ouvrières de délassement.
 En mars 1933, les Autorités municipales accordent une subvention, constamment
 renouvelée par la suite.
-
 Malgré les nombreuses difficultés de tous ordres qui assaillent les organisateurs,
 l'élan ne se ralentit pas et la deuxième année scolaire débute avec 200 élèves.
 Encouragé par le succès, le comité de l'E.S.M. avait mis au point au cours
@@ -142,69 +133,54 @@ Encouragé par le succès, le comité de l'E.S.M. avait mis au point au cours
 année, de nouveaux cours étaient ouverts, notamment ceux de piano et de violon.
 Chaque année enregistre de nouvelles améliorations, de nouveaux cours et
 l'augmentation de l'effectif des élèves.
-
 En juin 1935, l'école inaugure son drapeau.
-
 Le directeur Delaye démissionne en juillet 1936 ; Monsieur Fernand Closset est
 appelé à lui succéder. Sous son énergique impulsion, l‘E.S.M. fait de nouveaux
 progrès, son succès va croissant, ses élèves sont toujours plus nombreux ; les
 locaux de l'Ecole du Grütli deviennent insuffisants.
-
 Le début de l'année scolaire 1937-38 voit se fêter le Ve anniversaire de l'ins-
 titution et l'inauguration de ses nouveaux locaux, ceux de la rue Malatrex
 que l'école occupe encore actuellement.
-
 Au cours de 1937, l'E.S.M. s'était affilée à l'Union romande des Musiques
 ouvrières ; en février 1938 le Cercle des Amis de l'Ecole sociale de Musique
 était créé.
-
 Puis c'est la Fête des Musiques ouvrières romandes à Yverdon où le corps d'har-
 monie remporte un brillant succès ; c'est ensuite le magnifique voyage de jUîf_"
 1939 à l'Exposition nationale de Zurich.
-
 Le 12 avril 1940, l'E.S.M. donne au Victoria-Hall, au profit des Oeuvres sociales
 de l’Armée, son premier grand concert ; la même salle accueille encore nos
 jeunes musiciens en mai 1941 et mai 1942.
-
 En juillet 1940, Emile Métraux était appelé à la présidence de l'E.S.M.
-
 Dès septembre 1941, l‘Ecole et le Cercle des Amis de l'E.S.M. éditent le bul-
 letin mensuel L'Accord.
-
 En juillet 1942, Louis Soldini est désigné comme troisième président de l'institution.
 Voilà nos notes d'histoire.
-
 Aujourd'hui, l‘Ecole sociale de Musique fête le Xe anniversaire de sa fon-
 dation, fière des succès réalisés, heureuse d'être entourée de ses nombreux
 amis, impatiente de continuer avec ses 17 professeurs et ses 450 élèves sa
-marche en avant.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003206_003.tif"/>
-<page><![CDATA[PLO K 0VE
-
+marche en avant.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003206_003.tif'/>
+        <page>
+          <![CDATA[PLO K 0VE
 1 CONCERIO/GROSSONo8: ° A. Corelli
 (fatto per la notte di Natale (1712)
-
 violons solo: M. W. Laederach, Mile J. Segesmann
-
 violoncelle solo: M. J. Métraux
 Classe d'orchestre de l'E.S.M.
-
 25 SYMPHONIEINACHEVEE e Fr. Schubert
 a) Allegro moderato ; b) Andante con moto.
 Corps d'Harmonie de l'E.S.M.
-
 : VERS LA PAIX
-
 (Ad Pacem)
 Texte de M° Claude D'ARCON Musique de Fernand CLOSSET
-
 Fresque musicale en 4 parties
 l DFHS O AT ON NTA O VIE RENAIT
 !L NOUVEAU FLEAU N VERS PA PAIX
 Solistes :
 Mme Nelly GRETILLAT Mme Armande BERNEX
 M. Arthur WEHRLI M. Julien MAGALLI
-
 Récitante : Mme Germaine TOURNIER
 Chant:  Mlle F. BLANC-GARIN, Mme NAFTULE, MM. RUDIN,
 CANTOVA, GERSON, BARRAS
@@ -213,40 +189,32 @@ CARTEL DES CHORALES OUVRIERES :
 Sängerbund Frohsinn, dir. M. H. Kœnig.
 Männerchor Freiheit, dir M. W. Haenel. ,
 Frauen- & Täückterchor Vorwärts, dir. M. F. Adiler.
-
 Chorèle populaire «L'Avenir», dir. M. E. Willems.
 Union Chorale du Travail, dir. M. W. Haenel.
-
 et
-
 UN  GROUPE DE  DAMES
-CLASSE D'ORCHESTRE ET CORPS D'HARMONIE DE L'ESM.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003206_004.tif"/>
-<page><![CDATA[VERS 1
-
+CLASSE D'ORCHESTRE ET CORPS D'HARMONIE DE L'ESM.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003206_004.tif'/>
+        <page>
+          <![CDATA[VERS 1
 HAD À P4A C.E M }
 FRESQUE MUSICALE EN 4 PARTIES
-
 L'iDESOLATrON
 L LA VIE RENAIT
 IL NOUVEAU FLEAU
 IV VERS LA PAIX
-
 La Paix…. espoir de l'humanité entière et dont le monde anxieux
 attend_l'avènement ! La Paix.. c'est la vie ! Le travail ! le bonheur!
 Ce doit être le but suprême de l'homme ; c'est sous ce signe que
 l'Ecole Sociale de Musique a voulu placer la célébration de son
-
 Xme AN N 4V 1 ERS A R
-
 La première fresque rappelle les scènes tragiques de la guerre, celle
 p que rap giq g
-
 qu'on espère toujours être la dernière. Tout a été dévasté, anéanti !
 Hommes, femmes, vieillards et enfants, tous ont été dispersés, blessés
-
 ou tués. Dans la seconde fresque, on assiste à la reprise de
-
 l'existence normale, dans l’enthousiasme et la croyance que le spectre
 de la guerre a disparu pour toujours. On espère ! On rebâtit .. La
 vie reprend son cours dans la joie et l'espérance. X Ce n'était,
@@ -255,13 +223,13 @@ retour du fléau qui vient frapper à nouveau le monde en plein essor,
 et jette sur les hommes surpris l'effroi, la misère et la mort! X
 Mais l'espoir est tenace au cœur des humains. Plus de cris de détresse
 dans la dernière partie, remplie d'appels à la joie, au travail, au Bonheur!
-Une lueur brille à l’horizon et l'Hymne de la Paix éclate de tous côtés.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003206_005.tif"/>
-<page><![CDATA[2
+Une lueur brille à l’horizon et l'Hymne de la Paix éclate de tous côtés.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003206_005.tif'/>
+        <page><![CDATA[2
 2
-
 “
-
 [Éte]
 _
 cn
@@ -275,34 +243,24 @@ LÉef
 ©
 <
 @é
-=]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003206_006.tif"/>
-<page><![CDATA[SOCIÉTÉ SUISSE
+=
+]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003206_006.tif'/>
+        <page>
+          <![CDATA[SOCIÉTÉ SUISSE
 POUR L’ASSURANCE DU MOBILIER
-
 la plus ancienne sociélé suisse d'assurances - Société coopérative .
 fondée sur la mutualité en 1826
-
- 
-
 ASSURANCES
-
 Incendie - Vol - Dégats des eaux - Bris des glaces
-
 Agence génér. pr le canton de Genève
-
 ROBERT MEYER
-
 BUREAU NATIONAL D'ASSURANCES
-
 Rue Général Dufour, 11 Téléphone 4.82.88
-
- 
-
- 
-
-Imp. Grivet, Genève]]></page>       
-        </p>
+Imp. Grivet, Genève
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

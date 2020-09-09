@@ -1,132 +1,116 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Arbre de Noël<date when="27/12/1925"/></title>
-<series>1925-1926</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Arbre de Noël
+            <date when='27/12/1925'/>
+          </title>
+          <series>1925-1926</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002613</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Pochon, A. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19251227"/>
-<title>Arbre de Noël</title>
-<placeName key="Victoria Hall"/>
-<name key="1925-1926" type="series"/>
-<name key="Messager, André" ref="https://muscat.rism.info/admin/people/92078" type="person" role="cmp">Messager, André</name>
-<name key="Nadaud"  type="person" role="cmp">Nadaud</name>
-<name key="Weber, Carl Maria von" ref="https://muscat.rism.info/admin/people/117485" type="person" role="cmp">Weber, Carl Maria von</name>
-<name key="Gluck, Christoph Willibald" ref="https://muscat.rism.info/admin/people/67338" type="person" role="cmp">Gluck, Christoph Willibald</name>
-<name key="Magnani"  type="person" role="cmp">Magnani</name>
-<name key="Durand"  type="person" role="cmp">Durand</name>
-<name key="Adam, Adolphe" ref="https://muscat.rism.info/admin/people/689" type="person" role="cmp">Adam, Adolphe</name>
-<name key="Pochon, A. (dir.)"  type="person" role="int">Pochon, A. (dir.)</name>
-<name key="Harmonie Nautique "  type="person" role="int">Harmonie Nautique </name>
-<name key="Favre, Emile"  type="person" role="int">Favre, Emile</name>
-<name key="Lavillat"  type="person" role="int">Lavillat</name>
-<name key="Häfliger"  type="person" role="int">Häfliger</name>
-<name key="Painot"  type="person" role="int">Painot</name>
-<name key="Longobardi, A."  type="person" role="int">Longobardi, A.</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002613_001.tif"/>
-<page><![CDATA[lÊ]E—-*+äP&————»—«——&E—%—:——»—-—%ÆEË
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19251227'/>
+        <title>Arbre de Noël</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1925-1926' type='series'/>
+        <name key='Messager, André' ref='https://muscat.rism.info/admin/people/92078' type='person' role='cmp'>Messager, André</name>
+        <name key='Nadaud' type='person' role='cmp'>Nadaud</name>
+        <name key='Weber, Carl Maria von' ref='https://muscat.rism.info/admin/people/117485' type='person' role='cmp'>Weber, Carl Maria von</name>
+        <name key='Gluck, Christoph Willibald' ref='https://muscat.rism.info/admin/people/67338' type='person' role='cmp'>Gluck, Christoph Willibald</name>
+        <name key='Magnani' type='person' role='cmp'>Magnani</name>
+        <name key='Durand' type='person' role='cmp'>Durand</name>
+        <name key='Adam, Adolphe' ref='https://muscat.rism.info/admin/people/689' type='person' role='cmp'>Adam, Adolphe</name>
+        <name key='Pochon, A.' type='person' role='int'>Pochon, A.</name>
+        <name key='Harmonie Nautique ' type='person' role='int'>Harmonie Nautique </name>
+        <name key='Favre, Emile' type='person' role='int'>Favre, Emile</name>
+        <name key='Lavillat' type='person' role='int'>Lavillat</name>
+        <name key='Häfliger' type='person' role='int'>Häfliger</name>
+        <name key='Painot' type='person' role='int'>Painot</name>
+        <name key='Longobardi, A.' type='person' role='int'>Longobardi, A.</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002613_001.tif'/>
+        <page>
+          <![CDATA[lÊ]E—-*+äP&————»—«——&E—%—:——»—-—%ÆEË
 HARMONIE NAUTIQUE
-
 (Harmonie municipale de la Ville de Genève)
-
- 
-
 VICTORIA-HALL
-
 (Entrée par la porte de la rue Hornung)
-
 ——
-
 Dimanche 27 Décembre 1925, à 15 heures
-
 A eFs eF .… NOFEI,
-
 Organisé pour les membres exécutants et leurs familles
-
 —> t >
-
 PIRO G ? A MIMF
-
- 
-
 !. Orchestre. 4
 2. CINÉMA, films amusants.
-
 SnsHorntumio - . . . . . MESSAGER
-
 b) Les trois hussards . . . NADAUD
 M. Emile FAVRE .
-
- 
-
 4a/ L'Espérance . . . .- C. M. DE WEBER k
-
 DE Crepusecule . . . . Guück
 Chorale de l’H. N. sous la direction de M. A. POCHON
-
- 
-
 . Duo, pour clarinettes. . . . MAGNANI
 MM. LAVILLAT et HAFLIGER
-
 . Pastorale, pour hautbois,. . . DURAND
 M. PAINOT
-
 v
 m
 À
 A
-
 norre — . . . - … ‘ ADAM
 M. Emile FAVRE
 . IMlumination de l’arbre. l
-
 . Apparition de Challande.
-
 10.Distribution de lots et bonbons aux enfants.
-
 \
-
 AU piano : M. A. LONGOBARDI
-
-Professeur à l’Académie de Musique]]></page>       
-        </p>
+Professeur à l’Académie de Musique
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

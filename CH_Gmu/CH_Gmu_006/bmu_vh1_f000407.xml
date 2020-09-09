@@ -1,163 +1,148 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par la fanfare genevoise (Musique d'Elite)<date when="19/12/1897"/></title>
-<series>1897-1898</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par la fanfare genevoise (Musique d'Elite)
+            <date when='19/12/1897'/>
+          </title>
+          <series>1897-1898</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F000407</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Bergalonne, F. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18971219"/>
-<title>Concert donné par la fanfare genevoise (Musique d'Elite)</title>
-<placeName key="Victoria Hall"/>
-<name key="1897-1898" type="series"/>
-<name key="Vanremmoortel"  type="person" role="cmp">Vanremmoortel</name>
-<name key="Gillet"  type="person" role="cmp">Gillet</name>
-<name key="Reyer"  type="person" role="cmp">Reyer</name>
-<name key="Gounod, Charles-François" ref="https://muscat.rism.info/admin/people/80479" type="person" role="cmp">Gounod, Charles-François</name>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Saint-Saëns, Camille" ref="https://muscat.rism.info/admin/people/76734" type="person" role="cmp">Saint-Saëns, Camille</name>
-<name key="Flégier, Ange" ref="https://muscat.rism.info/admin/people/60438" type="person" role="cmp">Flégier, Ange</name>
-<name key="Turine, Pierre-Joseph" ref="https://muscat.rism.info/admin/people/30072374" type="person" role="cmp">Turine, Pierre-Joseph</name>
-<name key="Bergalonne, F. (dir.)"  type="person" role="int">Bergalonne, F. (dir.)</name>
-<name key="Corps de musique d'Elite (Fanfare genevoise)"  type="person" role="int">Corps de musique d'Elite (Fanfare genevoise)</name>
-<name key="Bonnet (Mme)"  type="person" role="int">Bonnet (Mme)</name>
-<name key="Henry, C."  type="person" role="int">Henry, C.</name>
-<name key="Ketten, Léopold"  type="person" role="int">Ketten, Léopold</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000407_001.tif"/>
-<page><![CDATA[e
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18971219'/>
+        <title>Concert donné par la fanfare genevoise (Musique d'Elite)</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1897-1898' type='series'/>
+        <name key='Vanremmoortel' type='person' role='cmp'>Vanremmoortel</name>
+        <name key='Gillet' type='person' role='cmp'>Gillet</name>
+        <name key='Reyer' type='person' role='cmp'>Reyer</name>
+        <name key='Gounod, Charles-François' ref='https://muscat.rism.info/admin/people/80479' type='person' role='cmp'>Gounod, Charles-François</name>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Saint-Saëns, Camille' ref='https://muscat.rism.info/admin/people/76734' type='person' role='cmp'>Saint-Saëns, Camille</name>
+        <name key='Flégier, Ange' ref='https://muscat.rism.info/admin/people/60438' type='person' role='cmp'>Flégier, Ange</name>
+        <name key='Turine, Pierre-Joseph' ref='https://muscat.rism.info/admin/people/30072374' type='person' role='cmp'>Turine, Pierre-Joseph</name>
+        <name key='Bergalonne, F.' type='person' role='int'>Bergalonne, F.</name>
+        <name key='Corps de musique d&apos;Elite (Fanfare genevoise)' type='person' role='int'>Corps de musique d'Elite (Fanfare genevoise)</name>
+        <name key='Bonnet (Mme)' type='person' role='int'>Bonnet (Mme)</name>
+        <name key='Henry, C.' type='person' role='int'>Henry, C.</name>
+        <name key='Ketten, Léopold' type='person' role='int'>Ketten, Léopold</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000407_001.tif'/>
+        <page>
+          <![CDATA[e
 ) 4
-
 @eieneHrs IrrAII
-
 —svue
 HSvueas
-
 Ouverture des portes Dimanche ]9 Décembre 1897 On commencera
-
 i à 2 fheures et demie
 à1 heure e;ïmm ce
-
 Grand Concert
-
 DONNÉ PAR LA
-
 FANFARE GENEVOISE
 | Æ; (MUSIQUE D'’ELITE)
-
 sous la direction de
-
 ]VX. f PERGALONNE
 aves le gracieux concours de
 Madame BONNET, Contralto
 de
 M. C. HENRY, Ténor
-
 et de
 M. L. KETTEN, Professeur
-
 au Conservatoire de Genève.
-
 @
-
 PRIX DES PLACES :
-
 Loges, fauteuils de face et premier rang
 de la 1re galerie (numérotées), 2 fr. —
 Rez-de-chaussée et autres places de la
 Ire galerie, 1 fr. — 2de galerie, 5o cent.
-
 Cartes à l’avance de 9 à 6 heures jus-
 qu’au samedi soir au VICTORIA HALL et
 aux adresses suivantes : CASE DE L’ONCLE
 Tom, rue des Alpes, 7 ; M. DussAIx, rue
 du Marché, 17, et MM. BÉRANGER & Co,
 rue du Rhône, 92,
-
 MM. les membres honoraires et passifs de la
 Fanfare Genevoise ont droit d'entrée à ce concert sur
 présentation de leur carte, aux places du rez-de-
-
 chaussée et, moyennant un supplément de 1 fr,
 aux places de première galerie numérotées,
-
 ,
-VOIR LE PROGRAMME CI-CONTRE ds]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000407_002.tif"/>
-<page><![CDATA[ﬂ.
+VOIR LE PROGRAMME CI-CONTRE ds
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000407_002.tif'/>
+        <page>
+          <![CDATA[ﬂ.
 Ë@ QÇ;Æ%ÆÎ“A TIR À
 â É
-
 PREMIÈRE PARTIE
-
 . Grande marche solennelle .. Vanremoortel.
 . Loin du Bal, intermezzo
 . Air de Sigurd
-
 M. C. HENRY
-
 . Sapho, grand air
-
 Madame BONNET
-
 DEUXIÈME PARTIE
-
 . Fantaisie sur l’opéra Lohengrin.... R. Wagner.
-
 . Samson et Dalila, stances Saint-Saëns.
 Madame BONNET
-
 “Stances …. Flégier.
 M. O. HENRY
-
 8. Mosaïque sur l’opéra Tannhäuser . R. Wagner.
 9. En liesse, allegro militaire Turine.
-
 % ÊvËË
-
 —
-
 PIANO GRACIEUSEMENT OFFERT PAR LA Maison & Dupacu & ©°
-
 BUFFET AU REZ-DE-CHAUSSÉE
 Prière de ne pas entrer pendant l'exécution des morceaux
-
-GENÈVE, — IMP. L.-P. JARRYS,]]></page>       
-        </p>
+GENÈVE, — IMP. L.-P. JARRYS,
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

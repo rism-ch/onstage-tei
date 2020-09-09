@@ -1,136 +1,107 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Programme des concerts donnés à Lausanne et Genève par l'Orchestre de la Scalal de Milan<date when="26/06/1924"/></title>
-<series>1923-1924</series>
-<placeName>Victoria Hall ; Cathédrale de Lausanne</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Programme des concerts donnés à Lausanne et Genève par l'Orchestre
+            de la Scalal de Milan
+            <date when='26/06/1924'/>
+            <date when='27/06/1924'/>
+          </title>
+          <series>1923-1924</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <placeName>Lausanne, Cathédrale</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F001923</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Toscanini, A. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19240626
-19240627"/>
-<title>Programme des concerts donnés à Lausanne et Genève par l'Orchestre de la Scalal de Milan</title>
-<placeName key="Victoria Hall ; Cathédrale de Lausanne"/>
-<name key="1923-1924" type="series"/>
-<name key="Respighi, Ottorino" ref="https://muscat.rism.info/admin/people/45355" type="person" role="cmp">Respighi, Ottorino</name>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Sabata, Victor de Martucci, Giuseppe" ref="https://muscat.rism.info/admin/people/81815" type="person" role="cmp">Sabata, Victor de Martucci, Giuseppe</name>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Rossini, Gioachino" ref="https://muscat.rism.info/admin/people/63766" type="person" role="cmp">Rossini, Gioachino</name>
-<name key="Brahms, Johannes" ref="https://muscat.rism.info/admin/people/39914" type="person" role="cmp">Brahms, Johannes</name>
-<name key="Toscanini, Arturo  (dir.)" ref="https://muscat.rism.info/admin/people/40206031" type="person" role="int">Toscanini, Arturo  (dir.)</name>
-<name key="Orchestre de la Scala de Milan"  type="person" role="int">Orchestre de la Scala de Milan</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001923_001.tif"/>
-<page><![CDATA[;
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19240626'/>
+        <date when='19240627'/>
+        <title>
+          Programme des concerts donnés à Lausanne et Genève par l'Orchestre de
+          la Scalal de Milan
+        </title>
+        <placeName key='Genève, Victoria Hall'/>
+        <placeName key='Lausanne, Cathédrale'/>
+        <name key='1923-1924' type='series'/>
+        <name key='Respighi, Ottorino' ref='https://muscat.rism.info/admin/people/45355' type='person' role='cmp'>Respighi, Ottorino</name>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Sabata, Victor de Martucci, Giuseppe' ref='https://muscat.rism.info/admin/people/81815' type='person' role='cmp'>Sabata, Victor de Martucci, Giuseppe</name>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Rossini, Gioachino' ref='https://muscat.rism.info/admin/people/63766' type='person' role='cmp'>Rossini, Gioachino</name>
+        <name key='Brahms, Johannes' ref='https://muscat.rism.info/admin/people/39914' type='person' role='cmp'>Brahms, Johannes</name>
+        <name key='Toscanini, Arturo' ref='https://muscat.rism.info/admin/people/40206031' type='person' role='int'>Toscanini, Arturo</name>
+        <name key='Orchestre de la Scala de Milan' type='person' role='int'>Orchestre de la Scala de Milan</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001923_001.tif'/>
+        <page>
+          <![CDATA[;
 ! / l
-
- 
-
- 
-
- 
-
 (3!-——.-—<—-—-—»«—-—-———--——-—»———«+«*—>——%+«—*-——--—«--——-—q——p—-——«--——--—«--——--—<——>———..—-——-
-
- 
-
 PROCRAMMF DES CONCERTS
-
 DONNÉS A
-
 LAUSANNE ET GENÈVE
-
 PAR
-
 mé©OR CCHFSIRE
-
 DE LA
-
 SCALA DE MILAN
-
 sous la direction QU MAËSTRO
-
 R TEURO
 TOSCANINI
-
- 
-
 Lausanne : 23 et 24 Juin 1924
-
 y \ e s. à
 Genève : 26 et 27 JUn 1924
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Q—.——..—+——««u«-—«—+—-——-«.—-——.—+«-—«-—-—«—* u 4 S 4e p oe4e 04e u- -pur mn "04- D4 -pu u4 04 Cn6e Cpûe mNue D04: Nh -phe cp Irde ue pn cu Srde 40 cpée cuu "e4e Dde cp
-
- 
-
- 
-
 E E E E e e A E e e A e A r E e e
-
- 
-
- 
-
- 
-
- 
-
-1. JARRYS, GENÊVE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001923_002.tif"/>
-<page><![CDATA[/:'o) Ë}l = \‘â‘{'l , Ë Z —
+1. JARRYS, GENÊVE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001923_002.tif'/>
+        <page>
+          <![CDATA[/:'o) Ë}l = \‘â‘{'l , Ë Z —
 S IESS SS ISS AN PS NN NN 7
-
 Agencc suissc (lC C0nccrts E1‘ncst STAMM
-
 % TeRYILE H
-
 N'épargnant ni peine ni dépenses, l'Agence Ernest Stamm a réussi à
 organiser pour la Suisse, une tournée qui, au point de vue artistique,
 représente un évènement rare. Ceux qui ont eu le bonheur d'assister à
@@ -142,13 +113,9 @@ due aux efforts personnels de M. Stamm et à l’entremise de M. ie
 Dr Dall’Acqua, ancien membre de l'Orchestre de la Scala. Cettë occa-
 sion ne se présentera peut-être plus jamais, ;#ssi faut-il espérer que le
 public en comprendra l'importance et fera au célèbre orchestre et à son
-
 chef génial l’accueil qui leur est dû.
-
 A!L «\‘L 4‘
-
 P…ëî1‘…ïîîmo de la T'ournée
-
 16 juin 1924 : Zurich, Tonhalle, à 20 h. 15.
 17 juin 1924 : Zurich, Tonhalle, à 20 h. 15.
 Dans le cadre des Fêtes internalionales de Muvique.
@@ -162,35 +129,30 @@ Dans le cadre des Fêtes internalionales de Muvique.
 27 juin 1924 : Genève, Victoria-Hall, à 20 h. 5o.
 La veille de la Fête des Fleurs.
 29 juin 1924 : Bâle, Grande Salle de Musique, à 20 h. 15.
-
 30 juin 1924 : Zurich, Tonhalle, à 20 h. 15.
-
- 
-
 x ‘ S eN XaŸ # ra) XaŸ (29) Xa (09) Xa (85) Va2” 083 SAT 28
 (æ) Xa (æ) l,æ, Il\.)%l\) (æ) (æ) (æ), ( y‘â@{:\q (æ),
-IRIORIRIKNGRS IRORORIRE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001923_003.tif"/>
-<page><![CDATA[mmc t FN PIU SE SS
+IRIORIRIKNGRS IRORORIRE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001923_003.tif'/>
+        <page><![CDATA[mmc t FN PIU SE SS
 N E SS SUS I NU
-PS ÊS E FAN FUS SEN EN]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001923_004.tif"/>
-<page><![CDATA[Arturo TOS CANINI ;
-
+PS ÊS E FAN FUS SEN EN
+]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001923_004.tif'/>
+        <page>
+          <![CDATA[Arturo TOS CANINI ;
 À la veille de la tournée du célèbre orchestre de la Scala sous la direction d’Arturo
 Toscanini en Suisse, il est tout indiqué d’esquisser en quelques mots la carrière et la
 situation «1u\mxupc dans le moux ement î||l(*l‘ll;\liuﬂ.‘tl de la musique le grand chef d'or-
 chestre. Né en 1867, à Parme, il suit dès l'âge de neuf ans, les cours de l'Ecole royale
 de musique de sa ville natale. Servi par des dons extraordinaires, doué d'une volonté de
-
 l‘Cl' el ll‘Ull .ll‘llL‘lll ({("\il‘ (l‘.ll‘l‘i       
         </p>
     </body>
   </text>
 </TEI>(‘l', lL' iL'llllL‘ L‘lL\L progresse l"«lpidL‘[]l(‘l]l (Llﬂ.\ lCS (l(lS$€$
-
-     
-
 de violoncelle. En mai 18 , il fait ses débuts en pub]i( comme violoncellist » et provoque
 l‘L"ltlllllt'lllt‘lll lÏ«\l‘ sa lll.lllil‘.‘l\‘ (l(' k“l'i‘__‘t'l‘ un .'llll)ll/Ïll‘ et un \‘(‘/71‘/',:(7 (l(‘ sa ÇUÏÎ]IÙ05i1î\‘Ï]. Il
 …u…|…'|lg.‘\it là sa future activité de chef d'orchestre. En iuÎn de la même année 1l
@@ -221,7 +183,6 @@ pensée des maîtres 1l ouvre à la foule des horizons nouveaux sur les classiqu
 romantiques. Une exécution inoubliable de la Neuvième Symphkonie semblait devoir
 marquer l'apogée de sa carrière et cependant depuis, combien d'incomparables manifes-
 tations du 1>lus gr.uul art, son génîc n'a-t-il pas vivifiées !
-
 Quel évènement extraordinaire qu'un concert de l'orchestre de la Scala dirigé par
 Toscanini. Dès la première mesure, chaque musicien semble hypnotisé et complètement
 dominé par la volonté du chef. Rien ne peut rivaliser avec la précision de cet ensemble,
@@ -230,100 +191,56 @@ saurait dire, où toute fausse sentimentalité est bannie. Ne s'abandonnant pas 
 recherches d'effets exagérés de nuances ou de, timbres Toscanini ne communique à son
 auditoire que le frisson de la vérité. L'admirable chef interprète les classiques et les
 modernes avec le même bonheur, fouillant châque œuvre jusque dans les moindres détails
-
 et tenant, avec une puissance irrésistible, l'auditeur sous le charme de sa baguette.
-
 * Avec utilisation de la biographie de G. Casperini.
-
 EN
-
- 
-
- 
- 
-
 e
-
-. |]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001923_005.tif"/>
-<page><![CDATA[Arturo TOSCANINI]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001923_006.tif"/>
-<page><![CDATA[= o‘\ aäro)‘ ) ":o)‘ :o,
+. |
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001923_005.tif'/>
+        <page><![CDATA[Arturo TOSCANINI
+]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001923_006.tif'/>
+        <page>
+          <![CDATA[= o‘\ aäro)‘ ) ":o)‘ :o,
 Ï©€ Ïæ* Ëî«\ 2 PNZ 7 \‘J \*“" \‘J/ 1S 7 ‘@
-
-   
-   
- 
-  
-   
-    
-  
- 
-   
-  
-     
-  
-   
-   
-   
-   
-   
- 
-       
-
 PROGRAMMES
-
 POUR
-
 LAUSANNE e GENÈVE
-
 1. ANTICHE DANZE E ARIE, deuxième suite .. …. 0. /:&Z',"ï:.[/.".”
 SSEMIPFIONI ns entamimen Beethoven .
-
 .\Ht'*__‘ln con brio - Andante con moto
-
 Skl\'l/l‘, .\llt'glt> > .\H«‘\__‘lU /I
 ÉNVIENTUS,; [m(‘…u .\_       
         </p>
     </body>
   </text>
 </TEI>111|11…11i«]110 (1 «…Ul/tinn) - V. de Sabala
-
 _\ll<‘gl’«» illllH'lllt'\l' - Moderato molto
 \ndante sostenutissimo - Piu mosso e vivace.
-
 \Ht‘È_'l‘\l e \i\.\k'
 O NOMNURNO
-
 b) NOVELETTA | GS auditions) - G. Martucei
 2E VIVIE !
-
 SREIN CRA CN S ISN PS BU R. W'agner
-
- 
-
 1. ©Ouverture du BARBIER DE SEVILELE, ; P3 um
-
 3 SYMUPIFIONNE m° 95, en @ majeur … ° Brabms
 .\varn non troppo - .\n|.\ëi\» non troppo. .
-
 .\H('È'l‘<'ll«» ;_;l‘.l/inw» - _\Hr—__w’u con \‘\i|‘iln.
 3. ENGCHANTEMENT DU VENDREDI-SAINT,
 de\RAORSIFE es R. Wagner
 AODESYRON AIN ESEDPROME O. Respighi
-
 Andante mosso - Vivo.
-
 Allegro moderato - Andante.
-
 5. Ouverture de RRONORPME 1E e Beethoven
-
-DHOHOKOHOMOKOHOKOMOMOKOMOHE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001923_007.tif"/>
-<page><![CDATA[Ottorino RESPIGHI
-
+DHOHOKOHOMOKOHOKOMOMOKOMOHE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001923_007.tif'/>
+        <page>
+          <![CDATA[Ottorino RESPIGHI
 A ,
-
 Ottorino Respighi est Bolonais de naissance, âgé de trente-cinq ans.
 Son père l’initia à l’'étude de la musique et du piano. Entré au Lycée
 musical de Bologne en 1892, il y étudia avec Sarti, Torchi et Martucci,
@@ -336,7 +253,6 @@ Ste-Cécile à Rome. Dans les « Fontaines de Rome », l’auteur à voulu expri
 mer les sensations et visions que lu1 suggérèrent quatre fontaines à Rome,
 contemplées à l’heure où leur caractère s'harmonise le mieux avec le paysage
 environnant et où leur beauté paraît la plus suggestive à qui les voit.
-
 La première partie du poème, inspiré par la fontaine de «Valle Giulia»,
 évoque un paysage pastoral, des troupeaux de moutons passent dans la
 brume fraîche et humide d’une aube romaine. Soudain, des appels de
@@ -345,7 +261,6 @@ le commencement de la deuxième partie, la fontaine de « Triton». C'’est
 comme un appel joyeux auquel accourent des bandes de naïades et de
 tritons se poursuivant et commençant une danse effrénée dans les eaux
 Jaillissantes.
-
 Un thème solennel apparaît dans les ondes sonores, c'est la fontaine
 de «Trevi», à midi. Le thème solennel, passant des bois aux cuivres,
 devient triomphal. Résonnent des fanfares ; sur la surface brillante des
@@ -356,16 +271,13 @@ de la «Villa Medici» au coucher du soleil, s’annonce par un thème mélanco-
 lique se détachant sur un léger gazouillis d’oiseaux. L'air est rempli des
 vibrations des cloches, du gazouillement des oiseaux et du frissonnement
 des feuillages. Puis tout se calme dans le silence de la nuit.
-
 ANTICHE DANZE F ARIE
-
 Cette deuxième suite, ainsi que la première, est composée d’airs et de
 danses écrites originalement pour le luth. Respighi en a fait un tout
 transcrit librement pour un ensemble orchestral approprié, conservant
 toutes les caractéristiques de l’harmonie propre à l’époque et à la nature
 de ces morceaux, où l’on se permettait maintes libertés considérées comme
 des fautes par les théoriciens.
-
 Fabrizio Caroso de Sermoneta est l’auteur d’un des plus anciens traités
 de danses « Il Ballarino ». Oscar Chilesotti écrit : « Les détails biographi-
 ques sur lui manquent ; nous savons seulement qu'il naquit vers 1531,
@@ -377,20 +289,20 @@ pour que Torquato Tasso l’ait célébré dans son sonnet lit-on dans l’ou-
 vrage ci-dessus mentionné ». Le présent ballet (à 2 4) est écrit à la louange
 de la sérénissime M" Christine Lorraine de Médicis, grande-duchesse de
 Toscane. La gaillarde était une danse marquée en groupes ternaires très
-en vogue au XVvI° siècle ; le saltarello, une danse au mouvement rapide,]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001923_008.tif"/>
-<page><![CDATA[en 3/8 ou en 6/8, qui au même siëcle suivait toujours la pavane ; le
+en vogue au XVvI° siècle ; le saltarello, une danse au mouvement rapide,
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001923_008.tif'/>
+        <page>
+          <![CDATA[en 3/8 ou en 6/8, qui au même siëcle suivait toujours la pavane ; le
 canario ou canarie une danse très courte, en faveur à l’époque de
 Louis XIV, analogue à la gigue ; elle sert de coda au saltarello. Ces
 trois danses se suivent en forme de variations.
-
 Jean-Baptiste Besardo (Besard ou Besarde) naquit à Besançon, pro-
 bablement en 1567; 1l fut luthiste et compositeur pour le luth d’une
 grande valeur.
-
 [l publia un Thesaurus barmonicus, Hovus partus, un traité de luth et plu-
 sieurs franscriptions pour le luth.
-
 La danse rustique transcrite par O. Respighi est un branle de village,
 ancienne danse française de mouvement modéré et à rythme binaire,
 Deux compositions de différents auteurs (un auteur incertain et Marin
@@ -399,17 +311,14 @@ numéro de la présente suite. Il débute par les « Campanae parienses » de
 l'auteur incertain (les cloches de Paris, extrait du novus partus de Besard
 par Oscar Chilesotti), vient ensuite un air de Mersenne et l’on a enfin
 une reprise des « Campanae parienses ».
-
 Bernardo Gianoncelli, dit le « Bernardello », vécut entre la fin du xvi°
 et le milieu du xvu* siècle ; il a laissé diverses compositions pour le luth
 publiées à Venise, en 1650, par sa veuve Lucrezia Gianoncelli. La ber-
 gamasque est une frès ancienne danse italienne, en mesure binaire et de
 caractère très animé ; celle que l’on tro…ï dans la présente suite est
 construite sur une basso ostinalo, Francesco MANTICA.
-
 Victor de SABATA
 JUVENTUS, poème symphonique.
-
 Victor de Sabata, dans ce poème, exécuté aux concerts de 1919, chante
 la jeunesse dans sa vitalité exhubérante, dans son impétuosité, dans sa
 force. Il chante son ardent désir de conquête et de domination et cepen-
@@ -423,9 +332,7 @@ artiste, joignant à la solide technique d’un compositeur moderne, un don
 d’équilibre d’autant plus remarquable que les jeunes ont tendance à
 chercher le compliqué et l’extravagant, Actuellement de Sabata travaille
 à un opéra : « Lisistrata ».
-
 Giuseppe MARTUCEI
-
 Giuseppe Martucci, nommé en 1886 directeur du Conservatoire de
 Bologne, après une brillante carrière de virtuose, resta à la tête de cette
 institution jusqu’en 1902, la portant à un haut degré de prospérité, Depuis,
@@ -435,8 +342,10 @@ entre autres, deux séries de lieder, de nombreuses œuvres pour le piano,
 des sonates pour violon, pour violoncelle, des quatuors ainsi qu’un quintette
 pour cordes et piano. Ses œuvres principales sont un concerto pour piano
 et orchestre, deux symphonies qui se trouvent aux programmes des
-concerts milanais ef un oratorio : « Samiele».]]></page>       
-        </p>
+concerts milanais ef un oratorio : « Samiele».
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

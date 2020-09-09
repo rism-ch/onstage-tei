@@ -1,102 +1,99 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Grand concert donné par la société civile de l'Orchestre de la Ville de Genève<date when="05/07/1882"/></title>
-<series>1881-1882</series>
-<placeName>[Kiosque (Promenade des Bastions) ?]</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Grand concert donné par la société civile de l'Orchestre de la Ville
+            de Genève
+            <date when='05/07/1882'/>
+          </title>
+          <series>1881-1882</series>
+          <placeName>Genève, Kiosque (Promenade des Bastions)</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VG2-1 F000917</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>[Senger, H. de ?] (dir)</note>
+        <note>Lieu incertain</note>
+        <note>Interprète incertain</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18820705"/>
-<title>Grand concert donné par la société civile de l'Orchestre de la Ville de Genève</title>
-<placeName key="[Kiosque (Promenade des Bastions) ?]"/>
-<name key="1881-1882" type="series"/>
-<name key="Lachner"  type="person" role="cmp">Lachner</name>
-<name key="Meyerbeer, Giacomo" ref="https://muscat.rism.info/admin/people/725" type="person" role="cmp">Meyerbeer, Giacomo</name>
-<name key="Michaëlis"  type="person" role="cmp">Michaëlis</name>
-<name key="Lumbye, Hans Christian" ref="https://muscat.rism.info/admin/people/132458" type="person" role="cmp">Lumbye, Hans Christian</name>
-<name key="Mollenhauer, Eduard" ref="https://muscat.rism.info/admin/people/30015862" type="person" role="cmp">Mollenhauer, Eduard</name>
-<name key="Kreutzer"  type="person" role="cmp">Kreutzer</name>
-<name key="Strauß, Johann" ref="https://muscat.rism.info/admin/people/132082" type="person" role="cmp">Strauß, Johann</name>
-<name key="Hérold"  type="person" role="cmp">Hérold</name>
-<name key="Desormes, Louis César" ref="https://muscat.rism.info/admin/people/30016650" type="person" role="cmp">Desormes, Louis César</name>
-<name key="Gounod, Charles-François" ref="https://muscat.rism.info/admin/people/80479" type="person" role="cmp">Gounod, Charles-François</name>
-<name key="[Senger, Franz Ludwig Hugo von  ?] (dir.)" ref="https://muscat.rism.info/admin/people/30015297" type="person" role="int">[Senger, Franz Ludwig Hugo von  ?] (dir.)</name>
-<name key="Orchestre de la Ville de Genève"  type="person" role="int">Orchestre de la Ville de Genève</name>
-<name key="Moog, J."  type="person" role="int">Moog, J.</name>
-<name key="Graeter, Ferd."  type="person" role="int">Graeter, Ferd.</name>
-<name key="Rey, L."  type="person" role="int">Rey, L.</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_1_f000917_001.tif"/>
-<page><![CDATA[- PRIX : 10 Cent.
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18820705'/>
+        <title>Grand concert donné par la société civile de l'Orchestre de la Ville de Genève</title>
+        <placeName key='Genève, Kiosque (Promenade des Bastions)'/>
+        <name key='1881-1882' type='series'/>
+        <name key='Lachner' type='person' role='cmp'>Lachner</name>
+        <name key='Meyerbeer, Giacomo' ref='https://muscat.rism.info/admin/people/725' type='person' role='cmp'>Meyerbeer, Giacomo</name>
+        <name key='Michaëlis' type='person' role='cmp'>Michaëlis</name>
+        <name key='Lumbye, Hans Christian' ref='https://muscat.rism.info/admin/people/132458' type='person' role='cmp'>Lumbye, Hans Christian</name>
+        <name key='Mollenhauer, Eduard' ref='https://muscat.rism.info/admin/people/30015862' type='person' role='cmp'>Mollenhauer, Eduard</name>
+        <name key='Kreutzer' type='person' role='cmp'>Kreutzer</name>
+        <name key='Strauß, Johann' ref='https://muscat.rism.info/admin/people/132082' type='person' role='cmp'>Strauß, Johann</name>
+        <name key='Hérold' type='person' role='cmp'>Hérold</name>
+        <name key='Desormes, Louis César' ref='https://muscat.rism.info/admin/people/30016650' type='person' role='cmp'>Desormes, Louis César</name>
+        <name key='Gounod, Charles-François' ref='https://muscat.rism.info/admin/people/80479' type='person' role='cmp'>Gounod, Charles-François</name>
+        <name key='Senger, Franz Ludwig Hugo von' ref='https://muscat.rism.info/admin/people/30015297' type='person' role='int'>Senger, Franz Ludwig Hugo von</name>
+        <name key='Orchestre de la Ville de Genève' type='person' role='int'>Orchestre de la Ville de Genève</name>
+        <name key='Moog, J.' type='person' role='int'>Moog, J.</name>
+        <name key='Graeter, Ferd.' type='person' role='int'>Graeter, Ferd.</name>
+        <name key='Rey, L.' type='person' role='int'>Rey, L.</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_1_f000917_001.tif'/>
+        <page>
+          <![CDATA[- PRIX : 10 Cent.
 v —— —
-
 KIOSQUE DES BASTIONS °@î
 c
-
- 
-
- 
-
 Mercredi 5 Juillet 1882, à 8 h. du soir
-
 GRAND CONCERT
-
 donné par la Société civile de Ç
-
 L'NGHESTRE de l VILLE de GENÈVE
-
 PROGRAMME
-
 PREMIÈRE PARTIE
-
 1. Ouverture de Turandot ; LACHNER
-
 2 Pantaisie sur les Huguenots . MEYERBEER
-
 3. Patrouille Turque (redem.) MrcHAËLIS
-
 4. Traumbilder. ? 10 LuUmByE
 ‘Zither-solo : M. Ferd. Græter
-
 5. Rossignol, polka MOLLENHAUER
-
 Petite flüte solo : M Ê M(fog
-
 DEUXIÈME PARTIE
 6. Une Nuit à Grenade A |
 7. Historiettes de la forêt de Vienne,
@@ -105,58 +102,36 @@ valse, Zither-solo * M. F. Græter
 (redem.). Violon solo : M L. Rey
 9. Sérénade des Mandolines. .
 0. Saltarello 1 audition)
-
 KRETZER
 STRAUSS
-
 HÉROLD
 DESORMESs
 GouNoD
-
 = -56
-
 ENTRÉE : 50 Centimes ®{“J
-
 Carte d'abonnement Ppour toute la saison : 5 francg À/Ï
 On s’abonne dans tous les magasins de musique & 7
-
 (c
-
 O N
 4. «W«——\Qÿa&Ê@"{3 >
 U%
-
-   
-
 SL 2 e Es sT-R ,
-
 = _ HEAd. E CHOHA ,
-
- 
-
 8S DE L'APRÈS-MIDI
-
 , . e
 bs 2 5 é E
 F ÿ-
 Ë
 —
 PREMIÈRE PARTIE
-
 1. Ouverture de Turandot, Laclmer.ÿ
-
 2. Fantaisie sur Les Huguenots, Meyerbeer,
-
 3. Patrouille turque (redemandée), Michaëlis,
-
 4. Traumbilder, Rn Lumbye.
-
 Zither solo M. Ferd. GRÆTFR. ;
 0. Rossignol, polka, Mollenhauer.
-
 Petite Flûte solo M. J. Mooc.
 SECONDE PARTIE
-
 6. Une Nuit à Grenade, Ouverture, Kreutzer.
 Historiettes de la Forêt de Vienne,
 V. alse,_ Zither solo M. GRÆTER, Strauss.
@@ -164,22 +139,17 @@ V. alse,_ Zither solo M. GRÆTER, Strauss.
 (redemane), Violon solo M. Rry,
 9. Sérénade des Mandolines,
 10. Saltarello (Are audition),
-
 <I
-
 Desormes.
 Gounod,
-
 Imprime JD Jarrys, rue de la Tr@ifle.
-
 lercredis : Prix CINQ francs.
-
 de musique.
-
 Ç
-
-La]]></page>       
-        </p>
+La
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

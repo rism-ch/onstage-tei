@@ -1,152 +1,119 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par l'Harmonie nautique<date when="20/12/1909"/></title>
-<series>1909-1910</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par l'Harmonie nautique
+            <date when='20/12/1909'/>
+          </title>
+          <series>1909-1910</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F001095</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Pieyre (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19091220"/>
-<title>Concert donné par l'Harmonie nautique</title>
-<placeName key="Victoria Hall"/>
-<name key="1909-1910" type="series"/>
-<name key="Parès, Gabriël" ref="https://muscat.rism.info/admin/people/30024480" type="person" role="cmp">Parès, Gabriël</name>
-<name key="Grieg, Edvard" ref="https://muscat.rism.info/admin/people/84066" type="person" role="cmp">Grieg, Edvard</name>
-<name key="Saint-Saëns, Camille" ref="https://muscat.rism.info/admin/people/76734" type="person" role="cmp">Saint-Saëns, Camille</name>
-<name key="Schubert, Franz" ref="https://muscat.rism.info/admin/people/111603" type="person" role="cmp">Schubert, Franz</name>
-<name key="Nardini, Pietro" ref="https://muscat.rism.info/admin/people/89002" type="person" role="cmp">Nardini, Pietro</name>
-<name key="Vivaldi, Antonio" ref="https://muscat.rism.info/admin/people/30003267" type="person" role="cmp">Vivaldi, Antonio</name>
-<name key="Liszt, Franz" ref="https://muscat.rism.info/admin/people/107196" type="person" role="cmp">Liszt, Franz</name>
-<name key="Pieyre (dir.)"  type="person" role="int">Pieyre (dir.)</name>
-<name key="Harmonie Nautique"  type="person" role="int">Harmonie Nautique</name>
-<name key="Rey, Louis"  type="person" role="int">Rey, Louis</name>
-<name key="Lauber, Joseph"  type="person" role="int">Lauber, Joseph</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001095_001.tif"/>
-<page><![CDATA[UNION POUR
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19091220'/>
+        <title>Concert donné par l'Harmonie nautique</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1909-1910' type='series'/>
+        <name key='Parès, Gabriël' ref='https://muscat.rism.info/admin/people/30024480' type='person' role='cmp'>Parès, Gabriël</name>
+        <name key='Grieg, Edvard' ref='https://muscat.rism.info/admin/people/84066' type='person' role='cmp'>Grieg, Edvard</name>
+        <name key='Saint-Saëns, Camille' ref='https://muscat.rism.info/admin/people/76734' type='person' role='cmp'>Saint-Saëns, Camille</name>
+        <name key='Schubert, Franz' ref='https://muscat.rism.info/admin/people/111603' type='person' role='cmp'>Schubert, Franz</name>
+        <name key='Nardini, Pietro' ref='https://muscat.rism.info/admin/people/89002' type='person' role='cmp'>Nardini, Pietro</name>
+        <name key='Vivaldi, Antonio' ref='https://muscat.rism.info/admin/people/30003267' type='person' role='cmp'>Vivaldi, Antonio</name>
+        <name key='Liszt, Franz' ref='https://muscat.rism.info/admin/people/107196' type='person' role='cmp'>Liszt, Franz</name>
+        <name key='Pieyre' type='person' role='int'>Pieyre</name>
+        <name key='Harmonie Nautique' type='person' role='int'>Harmonie Nautique</name>
+        <name key='Rey, Louis' type='person' role='int'>Rey, Louis</name>
+        <name key='Lauber, Joseph' type='person' role='int'>Lauber, Joseph</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001095_001.tif'/>
+        <page>
+          <![CDATA[UNION POUR
 L'ART SOCIAL
-
- 
- 
-
 YIUTORHIA-HATLA
-
-  
-
 |
 | +
-
 Sous la direction de M. Preyrr
-
- 
-
 AVEC LE CONCOURS
-
 Louis REY
-
 1* Violon solo
-
 Pianiste
-
 de l’Orchestre du Théâtre. Prof. au Conserv
 PROGRAMME
 ['° PARTIE
 I. Allégro militaire .
 Harmonie Nautique.
 P
-
 . Sonate pour piano et violon.. …
 àa) [mtroduction ; Allegro vivace
 Allegretto ; «) Allegro animato.
-
 MM. Lauber ct Rey.
-
 b
-
- 
-
 . La Jeunesse d’Hercule (poème symphonique
 Harmonie Nautique.
-
 7 mé
-
 PARTIE
 . Andante de la Symphonie inachevée.…
 Harmonie Nautique,
-
 @ larchetto.….. …
-
 O
-
 . XIVme Rapsodie hongroise
 Harmonie Nautique.
-
- 
-
- 
-
- 
-
- 
-
 Lundi 20 décembre, a 8 h. Y4
-
 OIR SIEDO SE E ISSOMSO
-
-  
-
 l
-
 J'Harmonie Mautique
-
 Joseph LAUBER
-
 atoire,
-
 Parès.
-
 - Grieg.
 1843-1808
 (Norvégien)
-
 Saint-Saëns
 Hé en 1835
 (Ecole française)
-
 Schubert.
 1797-1828
 (Ecole allemante)
@@ -156,28 +123,20 @@ Schubert.
 1675-1743
 (Ecole Italienne)
 Liszt.
-
 1811-1886
 (Hongrois)
-
 | Piano Bluthner de la Maison Sautier et Jæger.
-
 E(ntrée : 25 centimes
-
 LES PORTE
-
 pendant
-
- 
-
 liL‘\
-
 > SERONT l:lî}ÿNi_lîb,S
-
-l’exécution]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001095_002.tif"/>
-<page><![CDATA[Cami"e Sﬂiñt'SﬂëﬂS, né à Paris en 1835, le plus grand
-
+l’exécution
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001095_002.tif'/>
+        <page>
+          <![CDATA[Cami"e Sﬂiñt'SﬂëﬂS, né à Paris en 1835, le plus grand
 des musiciens français contempo-
 rains. Ses premiers succès furent des triomphes de pianiste, puis
 il acquit rapidement une haute réputation de savant organiste et
@@ -185,7 +144,6 @@ de compositeur d’une rare fécondité. Il a écrit dans tous les
 genres avec une égale facilité et toutes ses œuvres, toujours
 d'une distinction parfaite, revêtent, par la pureté de leur forme.
 les tendances classiques de leur auteur.
-
 Saint-Saëns a écrit un certain nombre d'opéras dont Samson
 et Dalila, Henry VII1, Ascanio, etc.. sont les plus connus ; puis
 plusieurs symphonies, dont une avec orgue, des poèmes sympho-
@@ -195,45 +153,37 @@ concertos pour piano, pour violon, un pour violoncelle, de nom-
 breuses œuvres pour piano, des messes. des oratorios, et une
 quantité de mélodies. Sa facilité d’écriture qui tient du prodige
 promet encore de nombreuses œuvres.
-
 Les poèmes symphoniques de Saint-Saëns dénotent chez leur
 auteur une grande richesse ‘d'imagination, alliéé à une science
 parfaite de la couleur orchestrale. Sans être le moins du monde
 les chefs-d'œuvre de Saint-Saëns, ce sont ces poèmes qui, les pre-
 miers, ont porté et répandu à l'étranger le nom du maître fran-
 çais. La Femnesse d'Hercule estl'œuvre 50, en voici la légende :
-
 La fable raconte qu'à son entrée dans la vie, Hercule vit
 < s'ouvrir devant lui deux routes : celle du plaisir et celle de la
 « vertu.
-
 Insensible aux séductions des Nymphes et des Bacchantes, le
 héros s'engage dans la voie des luttes et des combats, au bout
 de laquelle il entrevoit à travers les flammes du bûcher, la ré-
 compense de l'immortalité.
-
 ws
-
 Boirées en préparation :
 JANVIER
 CE QUE DIT LA MUSIQUE : Trois causeries de M. Joseph LAuBkr
-
 avec démonstrations au piano.
-
 [. La musique que j’aime,
 II. De la mélodie.
 IIT. De l’interprétation,
-
 L’ENFANT : Trois causeries consacrées à l’Enfant, avec musique, dé-
 clamations et projections lumineuses,
 I. L’Enfant dans la poésie.
 IL. L'Enfant dans la peinture, par M'le CACHEUX, Professeur à l'Ecole
 privée des Beaux-Arts
-
 I. L’Enfant dans la musique, par M. Joseph LAuBer.
-
-MS SS SEME SE SSOSHSE ME SSN]]></page>       
-        </p>
+MS SS SEME SE SSOSHSE ME SSN
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

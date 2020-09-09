@@ -1,137 +1,105 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Un seul concert donné par l'Orchestre philharmonique de Berlin<date when="10/05/1924"/></title>
-<series>1923-1924</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Un seul concert donné par l'Orchestre philharmonique de Berlin
+            <date when='10/05/1924'/>
+          </title>
+          <series>1923-1924</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002572</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Furtwängler, W. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19240510"/>
-<title>Un seul concert donné par l'Orchestre philharmonique de Berlin</title>
-<placeName key="Victoria Hall"/>
-<name key="1923-1924" type="series"/>
-<name key="Händel, Georg Friedrich" ref="https://muscat.rism.info/admin/people/36552" type="person" role="cmp">Händel, Georg Friedrich</name>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Strauss, Richard" ref="https://muscat.rism.info/admin/people/132111" type="person" role="cmp">Strauss, Richard</name>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Furtwängler, Wilhelm  (dir.)" ref="https://muscat.rism.info/admin/people/88502" type="person" role="int">Furtwängler, Wilhelm  (dir.)</name>
-<name key="Orchestre philharmonique de Berlin"  type="person" role="int">Orchestre philharmonique de Berlin</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002572_001.tif"/>
-<page><![CDATA[BeTS
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19240510'/>
+        <title>Un seul concert donné par l'Orchestre philharmonique de Berlin</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1923-1924' type='series'/>
+        <name key='Händel, Georg Friedrich' ref='https://muscat.rism.info/admin/people/36552' type='person' role='cmp'>Händel, Georg Friedrich</name>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Strauss, Richard' ref='https://muscat.rism.info/admin/people/132111' type='person' role='cmp'>Strauss, Richard</name>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Furtwängler, Wilhelm' ref='https://muscat.rism.info/admin/people/88502' type='person' role='int'>Furtwängler, Wilhelm</name>
+        <name key='Orchestre philharmonique de Berlin' type='person' role='int'>Orchestre philharmonique de Berlin</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002572_001.tif'/>
+        <page>
+          <![CDATA[BeTS
 VICTORIA-HALL
-
 Samedi 10 mai 1924
-
- 
-
- 
-
- 
-
- 
-
- 
-
 à 20 heures :èf_ demie
-
 UN SEUL CONCERT
-
 L’Orchestre ,
 Philharmonique de Berlin
-
 (99 MUSICIENS)
-
- 
-
- 
-
- 
-
- 
-
 SOUS LA DIRECTION DE
-
 OS
-
 Wilhelm Furtwängler _
-
 .
-
 PROGRAMME *
 . ... VH rndel ®
 SYMPHONIE N° 5 en ut &
-
 mineur <4 Beethoven
 Allegro con brio. ; 7 ?
 Andante con moto.
 Scherzo, allegro.
 Allegro.
-
 . 7 5ER ; Strauss
 - R. Wagner
-
- 
-
- 
-
 PRIX DES PLACES : Rez
-
 -de-chaussée : Loges, ro fr.: Parquet, 7 et-9 fr. : Parterre, 8'fr.; Pourtour, 71es
 Promenoir, 5 fr.; Amphithéâtre, 5 fr.; Podium, 4 fr, — jre Galerie : Loges, 10 fr.
 face, 7, 8 et 9 fr.; Balcon, 3, DLS r: Amphithéâtre, 6 fr.
 * Balcon, 3 et 4 fr.: Amphithéâtre, 4 fr. ‘
-
 “ Location chez MM. ROTSCHY Frères, Lagasin de musiqùe, Corraterie, 22.
-
- 
-
- 
-
 ; Fauteuils
 ; Qrgue, 4 fr. — ge Galerie ; ;
-
- 
-
- 
-
 ;
-“AGENCE DEyCONCERT&LE. STAMM, ZURICH]]></page>       
-        </p>
+“AGENCE DEyCONCERT&LE. STAMM, ZURICH
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

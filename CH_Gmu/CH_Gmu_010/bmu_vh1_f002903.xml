@@ -1,409 +1,215 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Grand concert populaire donné par la l'Union instrumentale genevoise (Musique [Fanfare] municipale de la Ville de Genève)<date when="04/03/1934"/></title>
-<series>1933-1934</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Grand concert populaire donné par la l'Union instrumentale genevoise
+            (Musique [Fanfare] municipale de la Ville de Genève)
+            <date when='04/03/1934'/>
+          </title>
+          <series>1933-1934</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002903</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Bodet, F. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19340304"/>
-<title>Grand concert populaire donné par la l'Union instrumentale genevoise (Musique [Fanfare] municipale de la Ville de Genève)</title>
-<placeName key="Victoria Hall"/>
-<name key="1933-1934" type="series"/>
-<name key="Roesgen-Champion, Marg."  type="person" role="cmp">Roesgen-Champion, Marg.</name>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Saint-Saëns, Camille" ref="https://muscat.rism.info/admin/people/76734" type="person" role="cmp">Saint-Saëns, Camille</name>
-<name key="Ropartz, Joseph Guy" ref="https://muscat.rism.info/admin/people/61362" type="person" role="cmp">Ropartz, Joseph Guy</name>
-<name key="Meyerbeer, Giacomo" ref="https://muscat.rism.info/admin/people/725" type="person" role="cmp">Meyerbeer, Giacomo</name>
-<name key="Grovlez, G."  type="person" role="cmp">Grovlez, G.</name>
-<name key="Senaillé, Jean-Baptiste" ref="https://muscat.rism.info/admin/people/30012011" type="person" role="cmp">Senaillé, Jean-Baptiste</name>
-<name key="Luigini, Alexandre" ref="https://muscat.rism.info/admin/people/30071428" type="person" role="cmp">Luigini, Alexandre</name>
-<name key="Strauß, Johann" ref="https://muscat.rism.info/admin/people/132082" type="person" role="cmp">Strauß, Johann</name>
-<name key="Bodet, Francis (dir.)"  type="person" role="int">Bodet, Francis (dir.)</name>
-<name key="Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)"  type="person" role="int">Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)</name>
-<name key="Helaerts, Henri"  type="person" role="int">Helaerts, Henri</name>
-<name key="Bodet (Mme)"  type="person" role="int">Bodet (Mme)</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002903_001.tif"/>
-<page><![CDATA[H
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19340304'/>
+        <title>
+          Grand concert populaire donné par la l'Union instrumentale genevoise
+          (Musique [Fanfare] municipale de la Ville de Genève)
+        </title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1933-1934' type='series'/>
+        <name key='Roesgen-Champion, Marg.' type='person' role='cmp'>Roesgen-Champion, Marg.</name>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Saint-Saëns, Camille' ref='https://muscat.rism.info/admin/people/76734' type='person' role='cmp'>Saint-Saëns, Camille</name>
+        <name key='Ropartz, Joseph Guy' ref='https://muscat.rism.info/admin/people/61362' type='person' role='cmp'>Ropartz, Joseph Guy</name>
+        <name key='Meyerbeer, Giacomo' ref='https://muscat.rism.info/admin/people/725' type='person' role='cmp'>Meyerbeer, Giacomo</name>
+        <name key='Grovlez, G.' type='person' role='cmp'>Grovlez, G.</name>
+        <name key='Senaillé, Jean-Baptiste' ref='https://muscat.rism.info/admin/people/30012011' type='person' role='cmp'>Senaillé, Jean-Baptiste</name>
+        <name key='Luigini, Alexandre' ref='https://muscat.rism.info/admin/people/30071428' type='person' role='cmp'>Luigini, Alexandre</name>
+        <name key='Strauß, Johann' ref='https://muscat.rism.info/admin/people/132082' type='person' role='cmp'>Strauß, Johann</name>
+        <name key='Bodet, Francis' type='person' role='int'>Bodet, Francis</name>
+        <name key='Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)' type='person' role='int'>Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)</name>
+        <name key='Helaerts, Henri' type='person' role='int'>Helaerts, Henri</name>
+        <name key='Bodet (Mme)' type='person' role='int'>Bodet (Mme)</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002903_001.tif'/>
+        <page>
+          <![CDATA[H
 À
-
- 
-
- 
-
-   
-
- 
-
- 
-
- 
-
 @
-
 e
 @
-
 VICTORIA-HALL
-
 OO
-
- 
-
 Dimanche 4 Mars 1934, à 14 h. 45
-
 Porfes à 14 heures
-
 = LHAND CONCERT POPULAIRE Z
-
 donné par la
-
 N
-
 N
-
- 
-
 Musique Municipale de la Ville de Genève
-
 (Union Instrumentale Genevoise)
-
 sous la direction de M.
-
 FRANCIS BOIDIET
-
 Premier Prix du Conservatoire national de musique de Paris
-
 27e
 CL
-
 avec le concours de
-
 M. Henri Helaerts Mrme F. Bodet
-
 ler Prix du Conservatoire de Bruxelles Professeur de piano
 Basson solo de l'Orchestre de la Suisse Romande ‘
-
- 
-
- 
-
 Prix des places : Fr. 0.30 (Droits des pauvres compris)
-
 « % ® = Ü
-
- 
-
- 
-
- 
-
- 
-
 ;
-
- 
-
 se
-
- 
-
- 
-
 S'É DE BANQUE SUISSE
-
 Capital et Réserves : Fr. 214 millions
-
 6, Corraterie - GENÈVE - Corraterie, 6
-
 Cormavin Eaux-Vives Plaïmpalais Carouge
-
 NOTRE BUREAU DE CHANGE EN GARE CORNAVIN
 est ouvert tous les jours, dimanches compris, de 7 heures à 22 heures sans interruption
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-IMPR, EUG, MEVER, GENÈVE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002903_002.tif"/>
-<page><![CDATA[Pianos Harmoniums
-
+IMPR, EUG, MEVER, GENÈVE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002903_002.tif'/>
+        <page>
+          <![CDATA[Pianos Harmoniums
 F. GUIGNARD
-
 BRUCKNER-GUIGNARD, Successeur
 102, Rue du Rhône - Rue d'Italie, 4
-
 Gramos T.S.F. Disques
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 F.-H, Jullien, phot
-
 Musique Municipale de fa Ville de Genève
-
 (Union Instrumentale Genevoise)
-
- 
-
- 
-
- 
-
 / Teinturerie Moderne
 ,F Maisop fondée
-
 N
-
 .
 6.PLACE JARGONNANT
 8.R.des EAUX-VIVES SBR.de S* JEAN
 .
-
 GENEÈVE #
-
-    
-  
-   
-
- 
-
- 
-
- 
-
 Hs
-
 |
-|]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002903_003.tif"/>
-<page><![CDATA[Grande Brasserie
-
+|
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002903_003.tif'/>
+        <page>
+          <![CDATA[Grande Brasserie
 et GAFÉ DU XXee SIÈGLE
-
 23, Boul. Georges-Favon -  GENÈVE
-
 Ses bières
 Ses vins de choix
 Sa cuisine soignée
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Cirovegna.C* 0 Fabrie Genève I
-
- 
-
- 
-
 Memlrres Execulanfs
-
 Saxophones soprano : Georges Viani, Reck,
-
 » alfo : Brasier ( sol) Duvrllurd Bertholat, Meyer,
 » ‘ fénor : Célandroni, Rosenberg, Meynet, Bessat.
 ) baryton : Buffat, Viani, Bættge, Jaggi.
-
 Petit bugle : Gaillepand.
-
 Bugles solo : Annen, Emonet, F. Kister, Joly, Offredi, Grivel, Wolfram, Cheneval,
 Bonnard, Carrel.
-
 lers Bugles : Gap, Lévy, Schenk, Moser, Sacchi, E. Tauss, Lottaz, Moret, Schubauer,
 (‘:alaroth Gallay,
-
 211°$ bugles ; Deluz, Refatti, Hartmann.
-
 3mes bugles : Dupuis, Gloor, Henriod.
-
 Cornets : Vaudroz, R. Tauss, Rochat, Arnoux, Gonoyan.
 Trompeftfes : Sciolli, Weber, F., Rochat, Rosenberg,Veuillet,
-
 Cors : Mouchet, Kaiser, Weber, B., Métert, Alfonso.
-
 Trombones : Thévenaz, Dechamboux, Junod, Ricolmo, Radice, Python, Duffey.
 Alti: Dupraz, Vallet, Gonoyan.
-
 Baryfons : Pellet, Gloor, Tachet, Bussien, Pédronin, Gnädinger,
 Basses : Ripp!, Vaucher, Débarbouillet, Combes, Bessat, Raval,
 Confrebasses : Marconi, Gindrat, Reubi, Barberat, Chapon, Tornay,
 Timbales : Girardet.
-
 Batteries ef accessoires : Chambaz, Giudici, Genillard, Neer,
-
 Tambours de marche : Gauthier, Chapuis, Letanche, Crivelli, ‘hierstein, Nanche
 Wiedmer, Lancoud, Kaim, Morier, Hægen, P., Hœgen, T
-
 @@®@@@@@@@@@@@@@@@@@@@@@@@g
-
 Dh Alberf & Braschoss
-
 @
 - @
 9, Rue de la Confédération - GENÈVE - Passage des Lions @
 Téléphone 43.334 @
-
 Assurances - Régie d’Immeubles @
-
 @
-
 ©
-
 Location de villas et terrains - Assurances de toutes branches
 Vente et achat d’immeubles - Prêts'et emprunts hypothécaires
-
 @@@@@@@
-
 @
-
 @@@@@@@@@@@@Ê@@@@@@@@@@@@
-
-.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002903_004.tif"/>
-<page><![CDATA[NAS
-
+.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002903_004.tif'/>
+        <page>
+          <![CDATA[NAS
 La voiture en vogue
-
- 
-
- 
-
 Ses incomparables
 6 et 8 cylindres
-
- 
-
- 
-
 PERROT, PUVAL & Cie
 Genève
-
 ETE PIAI
-
 Avec bonne garantie
-
 RADIO - GRAN
-
 HIS MASTER«"
-
 SAUTIER |
-
 — FUS“!
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Flewriste d’Art
-
 FLEURIÛT
-
 Corraterie, 26
 Rue de Rive, 15
-
- 
-
- 
-
- 
-
 lmprimerie
-
 Euqène Meyer
 Rue de [a}rouqe, 48 bis
-
 £enève
-
- 
-
- 
-
- 
-
 @ OIRREJ HODONEAAAEIN
-
 E
-
 X
 <
 Ë
@@ -412,29 +218,18 @@ e
 X
 (
 I
-
 ]P]R@Gr]Ë‘
-
 Première partie
-
- 
-
 Marg. Roesgen Champion
 R. Wagner
-
 1. Marche milifaire. .
-
 2. Ouverfture de Rienzi....
 Musique Municipale
-
 3. Sonate pr basson et piano (. Saint-Saëns
 M. Henri Helaerfs et Mme F. Bodet I
-
 |
-
 (Suite |
 Guy Ropartz |
-
 4. Dimanche breton
 d'orchestre).........….
 a) À l’église
@@ -442,158 +237,75 @@ b) Au cimetière
 c) La procession
 d) La danse
 Musique Municipale
-
 e
 -III-Û-IÛ-@Ï
-
- 
-
- 
-
 En ças de
-
 BRULURES
 Utilisez le
-
 BAUME DU CHALET
-
- 
-
 Fr. 1.50 le tube
-
- 
-
- 
-
 Grand Caïé du Com%
-
- 
-
- 
-
- 
-
 Toujours fidèle au principe qui fait sa /
 sert avec soin des consommations d
 premier choix aux priz les plus bas.
-
-Ouvert après minuit]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002903_005.tif"/>
-<page><![CDATA[MOS #w#e05.
-
+Ouvert après minuit
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002903_005.tif'/>
+        <page>
+          <![CDATA[MOS #w#e05.
 w Payements faciles
-
 auäs - DISQUES
-
 COLUMBIA
-
 ! JAEGER
-
 131ËIE - es
-
- 
-
-  
-
 Ï
 AMMIE
-
 Deuxième partie
-
 ï 5 q
-
 Marche aux flambeaux N°3 Meyerheer
 Musique Municipale
-
 .yÏÿa) Sicilienne et allegro
 giocoso en t. Groviez
-
 / b) Allegro spirito.. .. .… J. B. Senaillé
 | M. Henri Helaerts ef Mme F Bodef
-
 Fele araber X . A Luigini
 » Les roses du Midi, valse. J. Slrauss
-
 ;E-II-I-III-
-
 “
-
 Musique Municipale
-
- 
-
 Photographie d'Art
-
 et Industrielle
-
 F.-H. Jullien
-
 15, Cours-de-Rive
-
 GENÈVE
-
 Téléphone 41.524
-
- 
-
 IËŒËË SSNOOONEINEAES
-
- 
-
 Rod. REBSAMEN
-
 MARCHAND-TAILLEUR
 pour civils et uniformes
-
 Militaires - Hôtels
 Sociétés - Sports
-
 Rue Lévrier, 11 - Genève
 Téléphone 23.793
-
- 
-
- 
-
 Demandez partout
-
 GINTHA
-
 le PORTO Supérieur
-
- 
-
- 
-
- 
-
 nerce et du Molard
-
- 
-
 | nmmée.
 ut
-
-   
-
- 
-
- 
-
 “ Téléphone
 24.527
-
 Fernand ETIENNE
-
 OPTICIEN
-
 2, Rue Winkelried, 2
-
 (A côté de l’Hôtel des Bergues)
-
-Notre jumelle-prisme 8 fois avec éfui 55 fr.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002903_006.tif"/>
-<page><![CDATA[9 =— O
+Notre jumelle-prisme 8 fois avec éfui 55 fr.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002903_006.tif'/>
+        <page>
+          <![CDATA[9 =— O
 Ferblanterie - Zinguerie - Plomberie
 Ë Installations sanitaires
 q l
@@ -641,78 +353,58 @@ u. [ u
 N u
 ; 2
 :----.--.-...----..-.-.-.---..--.--...-..-....-...---.
-
-104]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002903_007.tif"/>
-<page><![CDATA[Ë
+104
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002903_007.tif'/>
+        <page>
+          <![CDATA[Ë
 y
 }
 !
 ÿ
-
- 
-
 Achetez et faites réparer tous vos
-
 # Instruments de Musique et Accessoires
-
 F
 ue chez
-
 uN , ® ( @ _ Q / w
-
 : KOFMANN & ENGEL
 uu 10, Tour-Maîtresse. — Téléphone 42.405 — GENÈVE
 :: BAISSE GÉNÉRALE DE PRIX LU E
-
-    
-
- 
-
 J. Guy Ropartz
 Ne à Guingamp (Côtes du Nord) le 15 Juin 1864
-
 Dimanche breton
-
 N° 4. — ÀA l’église. — C'est dimanche… en plein soleil, par les larges
 routes poudreuses, ou par les chemins creux, sous le couvert des branches entre-
 lacées, les paysans d'Arvor, ceux de la côte et ceux de l'intérieur des terres, sonit
 venus au bourg voisin. Leur foule emplit la vieille église et voici monter vers
 Dieu, du cœur ému de ces simples, la prière naïve et fervente.
-
 N° Z. — Au cimetière. — Le cimetière enclot l'Eglise. Au sortir de
 la messe, suivant la très ancienne et si touchante coutume, les Bretons, gardiens
 dévots du culte des morts, s'agenouillent sur les tombes de leurs proches et
 murmurent un De Profundis.
-
 N° 3. — La procession. — La cloche tinte au campanile ajouré.…
 C'est la fin des vêpres.. La procession sort de l'Eglise au chant des cantiques
 bretons et lentement déroule son cortège à fravers les rues du bourg.… Et lorsque
 la foule des croyants s'est de nouveau agenouillée sur les dalles de granit du
 sancftuaire, par les portes restées ouvertes s'envolent par instants les saintes
 liturgies, tandis que la cloche egrène ses derniers tintements au campanile ajouré…
-
 N° 4. — La danse. — Ft maintenant, sur la place qu'ombragent des
 chênes trois fois séculaires, dansez, jeunes gars et Jeunes filles, dansez au son des
 binious et des bombardes, dansez les passe-pieds et les Jabadaos…
-
 Giacomo Meyerbeer
 Neé à Berlin le 5 septembre 17g1, mort à Paris le 2 mai 1864
-
 Marche aux flambeaux No 3
-
 La plus caractéristique des quatre marches, écrites originalement pour
 musique d'harmonie à l'occasion des mariages du roi de Bavière”et des princesses
 Charlotte et Anna de Prusse.
-
- 
-
 Plaïs BOUJON. Fères
-
-3 bis. Rue de Rive. GENÈVE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002903_008.tif"/>
-<page><![CDATA[]]></page>       
-        </p>
+3 bis. Rue de Rive. GENÈVE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002903_008.tif'/>
+        <page><![CDATA[]]></page>
+      </p>
     </body>
   </text>
 </TEI>

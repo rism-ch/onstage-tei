@@ -1,194 +1,142 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Grand concert : Au bénéfice des incendiés du canton des Grisons<date when="14/02/1897"/></title>
-<series>1896-1897</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Grand concert : Au bénéfice des incendiés du canton des Grisons
+            <date when='14/02/1897'/>
+          </title>
+          <series>1896-1897</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F000392</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Bonade, L.</note>
+        <note>Boo</note>
+        <note>Bratschi [et al.] (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18970214"/>
-<title>Grand concert : Au bénéfice des incendiés du canton des Grisons</title>
-<placeName key="Victoria Hall"/>
-<name key="1896-1897" type="series"/>
-<name key="Meyerbeer, Giacomo" ref="https://muscat.rism.info/admin/people/725" type="person" role="cmp">Meyerbeer, Giacomo</name>
-<name key="Attenhofer"  type="person" role="cmp">Attenhofer</name>
-<name key="Weber, F. R."  type="person" role="cmp">Weber, F. R.</name>
-<name key="Ecker, Karl" ref="https://muscat.rism.info/admin/people/30015088" type="person" role="cmp">Ecker, Karl</name>
-<name key="Zwyssig, Alberik" ref="https://muscat.rism.info/admin/people/30003427" type="person" role="cmp">Zwyssig, Alberik</name>
-<name key="Hoiler, Jean"  type="person" role="cmp">Hoiler, Jean</name>
-<name key="Naegeli"  type="person" role="cmp">Naegeli</name>
-<name key="Moehring"  type="person" role="cmp">Moehring</name>
-<name key="Baumgartner"  type="person" role="cmp">Baumgartner</name>
-<name key="Pilvestre"  type="person" role="cmp">Pilvestre</name>
-<name key="Bonade, Louis (dir.)"  type="person" role="int">Bonade, Louis (dir.)</name>
-<name key="Boo (dir.)"  type="person" role="int">Boo (dir.)</name>
-<name key="Bratschi (dir.)"  type="person" role="int">Bratschi (dir.)</name>
-<name key="Barblan, Otto  (dir.)" ref="https://muscat.rism.info/admin/people/5298" type="person" role="int">Barblan, Otto  (dir.)</name>
-<name key="Harmonie Nautique"  type="person" role="int">Harmonie Nautique</name>
-<name key="Liederkranz"  type="person" role="int">Liederkranz</name>
-<name key="Concordia"  type="person" role="int">Concordia</name>
-<name key="Frohsinn"  type="person" role="int">Frohsinn</name>
-<name key="Deutsch-Schweizer-Verein"  type="person" role="int">Deutsch-Schweizer-Verein</name>
-<name key="Gruetli"  type="person" role="int">Gruetli</name>
-<name key="Bonade (Mme)"  type="person" role="int">Bonade (Mme)</name>
-<name key="Kling, Henri" ref="https://muscat.rism.info/admin/people/30022454" type="person" role="int">Kling, Henri</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000392_001.tif"/>
-<page><![CDATA[\E’\‘\ )
-
- 
-
- 
-
- 
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18970214'/>
+        <title>Grand concert : Au bénéfice des incendiés du canton des Grisons</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1896-1897' type='series'/>
+        <name key='Meyerbeer, Giacomo' ref='https://muscat.rism.info/admin/people/725' type='person' role='cmp'>Meyerbeer, Giacomo</name>
+        <name key='Attenhofer' type='person' role='cmp'>Attenhofer</name>
+        <name key='Weber, F. R.' type='person' role='cmp'>Weber, F. R.</name>
+        <name key='Ecker, Karl' ref='https://muscat.rism.info/admin/people/30015088' type='person' role='cmp'>Ecker, Karl</name>
+        <name key='Zwyssig, Alberik' ref='https://muscat.rism.info/admin/people/30003427' type='person' role='cmp'>Zwyssig, Alberik</name>
+        <name key='Hoiler, Jean' type='person' role='cmp'>Hoiler, Jean</name>
+        <name key='Naegeli' type='person' role='cmp'>Naegeli</name>
+        <name key='Moehring' type='person' role='cmp'>Moehring</name>
+        <name key='Baumgartner' type='person' role='cmp'>Baumgartner</name>
+        <name key='Pilvestre' type='person' role='cmp'>Pilvestre</name>
+        <name key='Bonade, Louis' type='person' role='int'>Bonade, Louis</name>
+        <name key='Boo' type='person' role='int'>Boo</name>
+        <name key='Bratschi' type='person' role='int'>Bratschi</name>
+        <name key='Barblan, Otto' ref='https://muscat.rism.info/admin/people/5298' type='person' role='int'>Barblan, Otto</name>
+        <name key='Harmonie Nautique' type='person' role='int'>Harmonie Nautique</name>
+        <name key='Liederkranz' type='person' role='int'>Liederkranz</name>
+        <name key='Concordia' type='person' role='int'>Concordia</name>
+        <name key='Frohsinn' type='person' role='int'>Frohsinn</name>
+        <name key='Deutsch-Schweizer-Verein' type='person' role='int'>Deutsch-Schweizer-Verein</name>
+        <name key='Gruetli' type='person' role='int'>Gruetli</name>
+        <name key='Bonade (Mme)' type='person' role='int'>Bonade (Mme)</name>
+        <name key='Kling, Henri' ref='https://muscat.rism.info/admin/people/30022454' type='person' role='int'>Kling, Henri</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000392_001.tif'/>
+        <page>
+          <![CDATA[\E’\‘\ )
 D MÀNCHE I F= VR‘IEÊ’ A 2h H.
-
 @_rand (Concert
-
 AU BENEFICE DES INCENDIES
 du Canton des Grisons
 ORGANISÉ PAR LE COMITÉ DE SECOURS
-
 davec lL‘ LGT'acleux n
-
 Mme BONADE, cantatrice
-
 7 de l’HARMONIE NAUTIQUE
-
 et des Sociétés Chorales
-
 ﬁi@@]Q FL(PGDZ. ŒOÛCŒFÀiÜ. çl“Olï Silî[‘l
-
- 
-
- 
-
- 
-
 [JQUÏSCk (SC]']W Verem Cl f“l'L f“]"
-
 +
-
 300 Exécutants
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-‘Ï|l]!l'ulll"l‘lt'\ Réunies, Haussmann & Zœllner, Genève, rue du Mont-Blan]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000392_002.tif"/>
-<page><![CDATA[PREMIERE PARTIE
-
-  
- 
-
-  
- 
-  
-  
-
+‘Ï|l]!l'ulll"l‘lt'\ Réunies, Haussmann & Zœllner, Genève, rue du Mont-Blan
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000392_002.tif'/>
+        <page>
+          <![CDATA[PREMIERE PARTIE
 . Marche aux flambeaux, Harmonie Nautique 5
-
 (Dir. M. L. Bonade) . . MEVYERBEER Z
-
 2. Das weisse Kreuz im rothen Feld, l'rohsinn 3
-
 (Dir. M. Boo). . ATTENHOFER E
-
 3. Mi Wunsch, Deutsch-Schweizer-Verein (Dir. M. BRATSCHI) F. R. WEBER ë
-
 | 4. Air de «Robert le Diable», Madame Borade ° MEYPRERER ë
 s. Rheinsage, Liederkranz (Dir. M. Barblan) . . . 1 GR FOKRER °
-
 6. Cantique Suisse, Sociétés chorales réunies (Dir. M. Barblan) . . ZWYSSIG
-
 DEUXIEME PARTIE
-
 0000000000
-
 O
 —
 Ï
-
 =
-
 Ï
-
 {
 ;
 ÿ
 Z
 w
-
 | .
 000000000000
 kt
-
- 
-
- 
-
-—0 Vimeahainis uus N Nhn AIN An rmnmn]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000392_003.tif"/>
-<page><![CDATA[o 000
-
+—0 Vimeahainis uus N Nhn AIN An rmnmn
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000392_003.tif'/>
+        <page>
+          <![CDATA[o 000
 O
-
 900000000000 000
-
 900000000000
-
 000000
-
 9000
-
- 
-
 t I = ;
 3. Invocation à ls Vierge, poésie de Thé ophile Gautier, M" Bonade JEAN HOILER
 9. Der L10htscl.gfer. œutléDir e . N ÆGELI
@@ -198,119 +146,74 @@ t I = ;
 . Idylle bretonne, duo pour Clarinette et Hautbois, Harmonie Nau-
 tique (Dir. M. Bonade) . . PILVESTRE
 . Hymne Suisse, Harmonie Nautique et les Sociétés chorales réunies
-
 (l>ll . Bonade) .
-
 Friz des Places-
-
 Loges, Fauteuils de face et fer rang de la Première Galerie, numéroté, 2 Frs.
-
 Rez-de-Chaussée et autres places de Première Galerie, 1 Fr.
 Deuxième Galerie, 50 centimes
-
 —
-
 On peut se procurer des cartes à l’avance chez MM. BRON & BERGUER.
 M: HENN, M. ROTSCHY, Corraterie; M HAÆRING, rue du Marché. 20:
 M. O. WEBER, rue de Carouge, 48: M. SCHÆDELI, rue Berthelier.
 M. FRIETSCH, B4 James-Fazy, 3, et des billets numérotés de ro h. à 1anE
-
 jusqu'à samedi soir au Victoria-Hall
-
- 
-
- 
-
- 
-
-0000000000 000000000000000060000000000000000000 0000N]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000392_004.tif"/>
-<page><![CDATA[CEDEOPE RORPROEETE TT
+0000000000 000000000000000060000000000000000000 0000N
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000392_004.tif'/>
+        <page>
+          <![CDATA[CEDEOPE RORPROEETE TT
 r e DE reasee e p
-
- 
-
 éES )
-
 £
-
 >
-
 GENEVE
 H
-
 »J
-
 J
-
 CUNICS
 (ministrations
 BROGHA
-
 —
-
 JPERPOS
-
 1eS
-
 f
 \‘V
 D
-
 1I
-
 WY_Y_WVV L
 ESRVM IS
-
 ——
 S
-
 Î
-
 (
-
 >
 N
 Rue du Mont-Blanc, 3
 TOUS GENRES
-
 imeries
 7Œ
-
 &
-
 hnpr
-
 pour
-
 ILLUSTRATIC
-
 aux
-
 l'av
-
 T
 Î
-
- 
-
 [N
-ATELIERS DE RELIURE ET]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000392_005.tif"/>
-<page><![CDATA[909000000000 0000000000 000
+ATELIERS DE RELIURE ET
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000392_005.tif'/>
+        <page>
+          <![CDATA[909000000000 0000000000 000
 —
 c
-
- 
-
 14 Février
-
 000000000060
-
 > ROGRAMME —
-
 PREMIERE PARTIE
-
 r. Marche aux flambeaux, Harmonie Nautique
 (Dir. M. L. Bonade) . . MEVERBEER
 2. Das weisse Kreuz im rothen Feld, F’rohsinn
@@ -319,11 +222,8 @@ r. Marche aux flambeaux, Harmonie Nautique
 4. Air de « Robert le Diable», Madame Bonade ° MFYyFRBPER
 Rheimnsage, liederkranz (Dir. M. Barblan) . . . . ; — . . : « /CARL ECKER
 . Cantique Suisse, Sociétés chorales réunies (Dir. M. Barblan) . . ZWYSSIG
-
 900000000000 0000000000N 000
-
 DEUXIEME PARTIE ‘
-
 . Fantaisie sur les «<Contes d’Hoffmann>, Harmonie Nautique
 (Dir. M. Bonade) . . OFFENBACH
 8. Invocation à l; Vierge, poésie de Théophile Gautier, M”"° Borade JEAN HOILER
@@ -334,56 +234,35 @@ b) O mein Heimatland ÿ 2 BAUMGARTNER
 tique (Dir. M. Bonade) . . PILVESTRE
 . Hymne Suisse, Harmonie Nautique et les Sociétés chorales réunies
 ((Dir. M. Bonade) .
-
 PFPrizs des Bilaces:
-
 £oge_ç, Fauteuils de face et fer rang de la Première Galerie, numéroté, 2 Frs.
 Rez-de-Chaussée et autres places de Première Galerie, 1 Fr.
-
 oo0000000000000000000000O0000O000O0000000000000000 0000
-
 oo
-
 Deuxième Galerie, 50 centimes
-
 (e)
-
 —
-
 On peut se procurer des cartes à l’avance chez MM. BRON & BERGUER.
 M. HENN, M. ROTSCHY, Corraterie: MH ÆRING, rue du Marché, 20:
 M. O. WERBER, rue de Carouge, 48: M. SCHÆDELI, rue Berthelier, 3:
 M. FRIETSCH, B4 James-Fazy, 3, et des billets numérotés de 10 h. à 4 h.
-
 jusqu'à samedi soir au Victoria-Hall.
-
 oo000000000
-
 °
-
- 
-
 000000
-
- 
-
 °
 oNE
 ofe
-
- 
-
 p
 o00000000000000000000000000000000000O000000O000O0O0O0O0O0O0O0O0O0O0O00000000O0O0O00O0O
-
 o000000600000000000000 000000000000 00000000000 900000000000
-
 »00000 0C 0000
 AN = = psOGS
 - 9
-
-°]]></page>       
-        </p>
+°
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

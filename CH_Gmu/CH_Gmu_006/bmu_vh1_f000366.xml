@@ -1,192 +1,149 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Grand concert en dehors de l'abonnement<date when="28/03/1896"/></title>
-<series>1895-1896</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Grand concert en dehors de l'abonnement
+            <date when='28/03/1896'/>
+          </title>
+          <series>1895-1896</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F000366</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Rehberg, W. (dir)</note>
+        <note>Interprète incertain</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18960328"/>
-<title>Grand concert en dehors de l'abonnement</title>
-<placeName key="Victoria Hall"/>
-<name key="1895-1896" type="series"/>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Grieg, Edvard" ref="https://muscat.rism.info/admin/people/84066" type="person" role="cmp">Grieg, Edvard</name>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Chopin, Fryderyk Franciszek" ref="https://muscat.rism.info/admin/people/51160" type="person" role="cmp">Chopin, Fryderyk Franciszek</name>
-<name key="Schubert, Franz" ref="https://muscat.rism.info/admin/people/111603" type="person" role="cmp">Schubert, Franz</name>
-<name key="Händel, Georg Friedrich" ref="https://muscat.rism.info/admin/people/36552" type="person" role="cmp">Händel, Georg Friedrich</name>
-<name key="Liszt, Franz" ref="https://muscat.rism.info/admin/people/107196" type="person" role="cmp">Liszt, Franz</name>
-<name key="Rehberg, Willy  (dir.)" ref="https://muscat.rism.info/admin/people/39565" type="person" role="int">Rehberg, Willy  (dir.)</name>
-<name key="[Orchestre du théâtre ?]"  type="person" role="int">[Orchestre du théâtre ?]</name>
-<name key="Carreno, Teresa"  type="person" role="int">Carreno, Teresa</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000366_001.tif"/>
-<page><![CDATA[2 u
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18960328'/>
+        <title>Grand concert en dehors de l'abonnement</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1895-1896' type='series'/>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Grieg, Edvard' ref='https://muscat.rism.info/admin/people/84066' type='person' role='cmp'>Grieg, Edvard</name>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Chopin, Fryderyk Franciszek' ref='https://muscat.rism.info/admin/people/51160' type='person' role='cmp'>Chopin, Fryderyk Franciszek</name>
+        <name key='Schubert, Franz' ref='https://muscat.rism.info/admin/people/111603' type='person' role='cmp'>Schubert, Franz</name>
+        <name key='Händel, Georg Friedrich' ref='https://muscat.rism.info/admin/people/36552' type='person' role='cmp'>Händel, Georg Friedrich</name>
+        <name key='Liszt, Franz' ref='https://muscat.rism.info/admin/people/107196' type='person' role='cmp'>Liszt, Franz</name>
+        <name key='Rehberg, Willy' ref='https://muscat.rism.info/admin/people/39565' type='person' role='int'>Rehberg, Willy</name>
+        <name key='Orchestre du théâtre' type='person' role='int'>Orchestre du théâtre</name>
+        <name key='Carreno, Teresa' type='person' role='int'>Carreno, Teresa</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000366_001.tif'/>
+        <page>
+          <![CDATA[2 u
 E
 (
 ,
 E
 H
-
- 
-
-   
- 
-
-  
-
 PRIX : 230 centimes.
 OE É0 0— __ »
-
- 
-
 /n>
-
- 
-
- 
-
- 
-
 VICTORIAÊI—IALL — GENÉÈVE
-
 COMITÉ DES CONCERTS D’ABONNEMENT
-
- 
-
 Q£zmeaé 26 G\Mlars 7896, & KhurÉ heures />zéozbes.
-
 GRAND CONCERT
-
 EN DEHORS DE L'ABONNEMENT
 avec le concours de
-
 M- TERESA CARRENO, pianiste.
-
 — s<4 PROGRAMME J—
-
 PREMIÈRE PARTIE
-
 T SYMEHOIEn° y en mmenr 41e Beethoven.
 a) Allegro con brio. — b) Andante con moto. — c) Allegro. —
 d) Finale (allegro).
 2 GCONCERT® pour pianoét orchestre :........:..…, Grieg.
-
 Mme CARRENO.
 SECONDE PARTIE
-
 E dadegaiOnENGRIN .1 Wagner.
-
 n ROND mn en Beethoven.
 RIMEN A Schubert.
 OVON 1 es Chopin.
-
 Mme CARRENO.
-
 s. AIR (lento et allegro moderato) du Concerto grosso en
 ré mineur, pour instruments à cordes ...........…. Hændel.
-
 6. FANTAISIE HONGROISE pour piano et orchestre.. .. Liszt
-
 Mme CARRENO.
 0 Onvertnrede BANNHAUSBR 110 Wagner.
 ——" ”
 ORCHESTRE SOUS LA DIRECTION DE M. WILLY REHBERG
-
 çÆJE -ÊONCERT COMMENCERA À 8 HEURES PRÉCISES
 Piano de concert Bechstein.
-
 Les personnes qui arrivent en retard sont instamment priées de ne pas entrer pendant l’exéention d’un morceau,
-
 n e e t
-
 è
 ;
-
 ppts se =4
-
- 
-
 8+0+610-6-6-6-616-6-618
-
- 
-
- 
-
 D E E E E R T A T T TS E
-
 GENÈVE. — IMPR. L.-F, JARRYS, TREILLE, 4.
-
- 
-
-6.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000366_002.tif"/>
-<page><![CDATA[2 PROGRAMME OFFICIEL
-
+6.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000366_002.tif'/>
+        <page>
+          <![CDATA[2 PROGRAMME OFFICIEL
 TT S
-
 Mrme TERESA CARRENO
-
 Teresa Carreno est née à Caracas (Venezuela), le 22 décembre 1853, et
 montra de bonne heure des dispositions exceptionnelles pour la musique.
 Elle étudia le piano à New-York, sous la direction de Maurice Gottschalk,
 puis à Paris, en 1867, avec Mathias, un élève de Chopin.
-
 De retour en Amérique, elle fit, pendant plusieurs années, des tournées
 de concerts qui lui valurent de véritables triomphes. Sa réputation en
 Europe date de 1889 et de ses débuts à Berlin, où son jeu fit sensation.
 Hans de Bülow l’appela : «la pianiste la plus intéressante du temps pré-
 sent». Depuis lors, M"* Carreno s’est fait entendre dans toutes les villes
 principales et toujours avec le plus grand succès.
-
 On se souvient à Genève de son interprétation magistrale du concerto
 de Grieg, le 6 décembre 1890; le Comité a cru répondre au désir des
 dilettantes de notre ville, en demandant à M"* Carreno de rejouer cette
 œuvre originale qui convient si bien à son tempérament artistique.
-
 M"* Carreno a été engagée à Vienne spécialement pour exécuter ce
 concerto au Festival Grieg du 24 mars, dirigé par le célèbre compositeur
 norwégien.
-
 SYMPHONIE EN UT MINEUR
 de Beethoven.
-
 La cinquième symphonie de Beethoven, dont les premières esquisses datent de 1800-
 1801 et de 1804-1805, fut en grande partie composée en 1807 et exécutée pour la pre-
 mière fois à Vienne au théâtre « An der Wien », le 22 décembre 1808, dans un concert
@@ -194,7 +151,6 @@ composé uniquement d’œuvres du maître, toutes premières auditions. C'étai
 phonies en ut mineur et pastorale, deux trios instrumentaux, la fantaisie chorale, un concerto
 de piano joué par l’auteur, et deux fragments de la messe d’Eisenstadt. La longueur exces-
 sive de ce programme et un froid sibérien firent de cette soirée un fiasco lamentable.
-
 La symphonie en ut mineur marque un pas décisif dans la manière du maître : c’est la
 première œuvre où sa personnalité apparaisse affranchie de toute influence, où son génie
 et son imagination se déploient en complète liberté. Aussi la forme symphonique est-elle
@@ -204,29 +160,21 @@ dans une géniale transition, le scherzo s’enchaîne au finale. C’est dans c
 la première fois, Beethoven se sert de l’instrument cher à nos symphonistes fin de siècle,
 le contrebasson, et emploie les trois trombones, de même que pour la première fois aussi
 certains instruments jusqu’alors accessoires, comme la contrebasse et les timbales, jouent
-
 un rôle individuel.
-
 « C’est ainsi que le Destin frappe à la porte » a dit Beethover pour indiquer le carac-
 tère dominant de cette symphonie. Terrible toc-toc, en effet, que ces deux coups frappés
 fortissimo par les cordes et les clarinettes au début de l’allegro con brio, ces trois croches
 et cette blanche mystique, en deux mesures de quatre notes (thème pris, d’après Czerny,
-
-à]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000366_003.tif"/>
-<page><![CDATA[/
+à
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000366_003.tif'/>
+        <page>
+          <![CDATA[/
 l
-
- 
-
 DES CONCERTS D ABONNEMENT 3
-
 A A A A A AN S S S A SS S SS SS SS SS SLs
-
- 
-
 ‘ A A A S A A A A A As
-
 au chant du loriot) formant à elles seules l’idée-mère de ce mouvement fameux et dont
 | le développement thématique a fait école. De cette petite graine est sorti l’arbre superbe
 | aux débordantes frondaisons. Ce premier allegro, où l’antique fatum se dresse menaçant,
@@ -236,16 +184,13 @@ conçu. L’âme angoissée du maître s’y révolte et s’y exaspère, luttan
 semblent implorer les noires suppliantes des violons et des clarinettes, n’a pas, dans le
 développement du morceau, l’importance capitale du premier, qui domine toute cette
 géniale psychologie musicale.
-
 L’andante coi moto avec sa phrase réveusement triste des altos et violoncelles à l’unisson,
 | est comme un baume appliqué sur les souffrances qu’exprimait le mouvement précédent.
-
 je thème est suivi d’une mélodie confiée aux instruments à vent, qui revient trois fois
 simplement répétée, et produit par cette répétition même une impression profonde, tandis
 que le motif principal est exquisement varié et brodé. Cet andante, l’un des plus inspirés
 { de Beethoven, contient de nombreuses curiosités harmoniques dans le détail desquelles
 nous ne saurions entrer ici.
-
 Dans le scherzo se retrouvent l’agitation et les sombres pensées du premier mouvement.
 Un voile mystérieux plane sur le morceau ; interrogations anxieuses, appels menaçants,
 il n’y a rien là des coquetteries rhythmiques et des piquants babillages du scherzo de
@@ -263,11 +208,8 @@ après cette magistrale transition, entonnant la fulgurante marche du finale, da
 magnifigne explosion de sonorités. Ces fanfares triomphales, d’une simplicité et d’une
 | banalité voulues, ne tendent à exprimer qu’une chose, la joie et l’enthousiasme, et
 l’œuvre s’achève dans une éclatante apothéose,
-
 | PRÉLUDE DE « LOHENGRIN »
-
 | de Richard Wagner.
-
 | Ce prélude, page unique en son genre, nous enlève par les harmonies extatiques du
 | Saint-Graal dans une région céleste. Aux premières mesures des violons qui chantent
 | pianissimo ce thème mystique dans les notes les plus aiguës de leur registre, il semble que
@@ -278,23 +220,20 @@ elle descend peu à peu avec le thème religieux d’une sonorité grandissante 
 terrestres pour s’immerger dans un océan de feu, où elle se révèle tout entière dans la
 splendeur de son amour surhumain ; comment, après ce rayonnement intense et rapide,
 | elle se retire avec une noble mélancolie et un adieu d’indicible tristesse dans l’éther inacces-
-sible, d’où elle est venue, et où elle retourne à jamais : voilà ce que le langage parlé se]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000366_004.tif"/>
-<page><![CDATA[e
-
+sible, d’où elle est venue, et où elle retourne à jamais : voilà ce que le langage parlé se
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000366_004.tif'/>
+        <page>
+          <![CDATA[e
 ;
-
- 
-
 4 PROGRAMME OFFICIEL
-
 refuse à rendre et ce que nous fait éprouver ce prélude d’une force et d’une beauté trans-
 cendantes. Il respire l’Amour dans l’Eternel, il brûle de la passion de l’Infini. Il manifeste
 en quelque sorte la puissance invisible et supérieure qui plane sur toute l’action sans sy
 méler. Par lui, dirait-on, le musicien a voulu dévoiler à notre sentiment l’essence même
 du Saint- Graal. Si nous l’écoutons dans cette pensée, sa mystique harmonie se traduit à
 nos yeux par une vision :
-
 L'initié de Montsalvat est en prière dans un des hauts vallons de sa montagne. Son
 regard ravi, animé d’un désir supra-terrestre, fixe l’azur du ciel. Dans ses profondeurs
 lumineuses, le subtil éther se condense en une nuée imperceptible qui fascine le regard.
@@ -312,13 +251,9 @@ azurées. Elle a confié à la garde d’un pur le vase sacré, la source d’am
 sur la terre. Mais l’auguste phalange, laissant dans le vallon son haleine embaumée, avec
 l’inextinguible regret de sa présence, remonte au ciel plus vite qu’elle n’était descendue,
 et s’efface sous le voile de l’azur, au loin, au loin, dans la lumière éthérée.
-
 (EpouaRD ScHurÉ, Le Drame musical.)
-
 OUVERTURE DE « TANNHAUSER »
-
 de Richard Wagner.
-
 Cette ouverture est plus qu’un prélude, elle est le drame lui-même en raccourci. La
 symphonie dramatisée y est poussée aux dernières limites du pittoresque. Tout se meut,
 tout agit, tout fait image et contraste dans ce tableau ardent. — Une troupe de pèlerins
@@ -338,8 +273,10 @@ murmure des airs, qui semblait le gémissement d’âmes damnées, se change en 
 ondoiement, et lorsqu’enfin le soleil se lève, lorsque le cantique éclate dans son auguste
 magnificence, cet ondoiement devient le ruissellement d’une joie sublime. Le triomphe
 de l’Esprit est le salut pour tous. La montagne maudite est délivrée, son peuple purifié
-se joint à l’hymne rédempteur. (EpovaRrD Scuvré, Le Drame musical.)]]></page>       
-        </p>
+se joint à l’hymne rédempteur. (EpovaRrD Scuvré, Le Drame musical.)
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

@@ -1,117 +1,113 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Le petit duc<date when="21/05/1881"/></title>
-<series>1880-1881</series>
-<placeName>[Coulouvrenière ?] Théâtre des Bouffes [parisiens]</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Le petit duc
+            <date when='21/05/1881'/>
+            <date when='23/05/1881'/>
+          </title>
+          <series>1880-1881</series>
+          <placeName>Genève, Coulouvrenière (Théâtre des Bouffes parisiens)</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU DG4 F001424</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Lieu incertain</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18810521
-18810523"/>
-<title>Le petit duc</title>
-<placeName key="[Coulouvrenière ?] Théâtre des Bouffes [parisiens]"/>
-<name key="1880-1881" type="series"/>
-<name key="Lecocq, Charles" ref="https://muscat.rism.info/admin/people/85756" type="person" role="cmp">Lecocq, Charles</name>
-<name key="Meilhac, Henri" ref="https://muscat.rism.info/admin/people/86908" type="person" role="cmp">Meilhac, Henri</name>
-<name key="Halévy, Ludovic" ref="https://muscat.rism.info/admin/people/40918" type="person" role="cmp">Halévy, Ludovic</name>
-<name key="Théâtre des Bouffes"  type="person" role="int">Théâtre des Bouffes</name>
-<name key="Sichel (Mme)"  type="person" role="int">Sichel (Mme)</name>
-<name key="Grégoire, Baptiste"  type="person" role="int">Grégoire, Baptiste</name>
-<name key="Grégoire, Victor"  type="person" role="int">Grégoire, Victor</name>
-<name key="Roche"  type="person" role="int">Roche</name>
-<name key="Grégoire, Alphonse"  type="person" role="int">Grégoire, Alphonse</name>
-<name key="Florentin"  type="person" role="int">Florentin</name>
-<name key="Fernand"  type="person" role="int">Fernand</name>
-<name key="Homberg"  type="person" role="int">Homberg</name>
-<name key="Estiot"  type="person" role="int">Estiot</name>
-<name key="Montvaillant"  type="person" role="int">Montvaillant</name>
-<name key="Frédéric"  type="person" role="int">Frédéric</name>
-<name key="Spina (Mme)"  type="person" role="int">Spina (Mme)</name>
-<name key="Ariani (Mlle)"  type="person" role="int">Ariani (Mlle)</name>
-<name key="Eva"  type="person" role="int">Eva</name>
-<name key="Théo (Mme)"  type="person" role="int">Théo (Mme)</name>
-<name key="Polydor (Mme)"  type="person" role="int">Polydor (Mme)</name>
-<name key="Florentin (Mme)"  type="person" role="int">Florentin (Mme)</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f001424_001.tif"/>
-<page><![CDATA[Tt
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18810521'/>
+        <date when='18810523'/>
+        <title>Le petit duc</title>
+        <placeName key='Genève, Coulouvrenière (Théâtre des Bouffes parisiens)'/>
+        <name key='1880-1881' type='series'/>
+        <name key='Lecocq, Charles' ref='https://muscat.rism.info/admin/people/85756' type='person' role='cmp'>Lecocq, Charles</name>
+        <name key='Meilhac, Henri' ref='https://muscat.rism.info/admin/people/86908' type='person' role='cmp'>Meilhac, Henri</name>
+        <name key='Halévy, Ludovic' ref='https://muscat.rism.info/admin/people/40918' type='person' role='cmp'>Halévy, Ludovic</name>
+        <name key='Théâtre des Bouffes' type='person' role='int'>Théâtre des Bouffes</name>
+        <name key='Sichel (Mme)' type='person' role='int'>Sichel (Mme)</name>
+        <name key='Grégoire, Baptiste' type='person' role='int'>Grégoire, Baptiste</name>
+        <name key='Grégoire, Victor' type='person' role='int'>Grégoire, Victor</name>
+        <name key='Roche' type='person' role='int'>Roche</name>
+        <name key='Grégoire, Alphonse' type='person' role='int'>Grégoire, Alphonse</name>
+        <name key='Florentin' type='person' role='int'>Florentin</name>
+        <name key='Fernand' type='person' role='int'>Fernand</name>
+        <name key='Homberg' type='person' role='int'>Homberg</name>
+        <name key='Estiot' type='person' role='int'>Estiot</name>
+        <name key='Montvaillant' type='person' role='int'>Montvaillant</name>
+        <name key='Frédéric' type='person' role='int'>Frédéric</name>
+        <name key='Spina (Mme)' type='person' role='int'>Spina (Mme)</name>
+        <name key='Ariani (Mlle)' type='person' role='int'>Ariani (Mlle)</name>
+        <name key='Eva' type='person' role='int'>Eva</name>
+        <name key='Théo (Mme)' type='person' role='int'>Théo (Mme)</name>
+        <name key='Polydor (Mme)' type='person' role='int'>Polydor (Mme)</name>
+        <name key='Florentin (Mme)' type='person' role='int'>Florentin (Mme)</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f001424_001.tif'/>
+        <page>
+          <![CDATA[Tt
 ea}
 eJ'
 83
-
 n F 277 ;Ï. - * - cLF
-
 9  Apprq % G c AU.ET&
-
 ä L> , par 4 CCËÎIs A S é } par nombre de
-
 commission que le| , dl 1U 2S
-
 Fns de toutes valeurs de santé. SW @. docteurs,
 ÿ'ous coupons pour les m
-
 [i FINANCIERS. _— Cet excellent savon de toilette est bien snpérieur à tous |
 s frais aux émissions. les savons au goudron seul. Il dissipe toutes les impuretés #
 Remboursement des du teint et procure à la peau une fraicheur, une souplesse etÿ
 s-lesvaleurs. — Liste|:ffiune blancheur incomparables. Ë
-
 més. — Chèques sur| # 80 c. /e morceau de 100 gr. (enveloppe chamois).
-
 ï_“.“,”
 4
 _
-
 —Æ
-
 dépôt central de spec
 Au détail: dans tout
-
 ,
-
 gros et détail: Burkel frères.
-
 bonnes drogueries de la Suisse et 9
-
- 
-
 Cie. À. Genevois
 du Molard. —
-
 =
 e
 ®
@@ -119,47 +115,29 @@ e
 c
 ®
 >
-
 RD
-
 T ns u-
 Samedi, 21, Dimanche 22 et Lundi 23 Mai 1881
 POUR LES REPRÉSENTATIONS DE Mrre SICHEL
-
 E PETIT DUC
-
- 
-
- 
-
- 
-
- 
-
 Opéra-comique en 3 actes, paroles de Henri Mezlhac et L. Halévy.
 - Musique de Charles Lecocq.
-
 Mme SICHEL remplira le rôle du PETIT DUC, qu’elle a créë au théâtre des
 » , ‘ Célestins de Lyon.
-
 M. Baptiste GrÉGoIrE remplira le rôle de Montlandry.
-
 Distribution. De Montlandry, MM. Baptiste Grégoire. Frimousse, Victor Grégoire. De
 Navailles, Roche. Bernard, Alphonse Grégoire. De Thannevitle, Florentin De Champvallon,
 Fernand; De Mérignac, Homberg..De Montchevrier, Estiot. De Nancey, Montvaillant: Un offi:
 vcier, Frédéric. Le duac de Parthenay, Mmes Szchel. Diane de Château-Lansac, Spina. La du-
 chesse.de Parthenay; Mlles Arianz. Roger, Eva. Gérard, Théo. Julien, Polydor. Gaston, Flo-
-
 / 7Ênt:{n Mlle de Laroche-Tonnerre, Polydor. La Sous-Directrice, Théo. Mlle de Champlatré,
 rédéric,
-
 ‘1*acte -L’Œil de Bœuf au château de Versailles. --- 27 acte: Le Pen-
 sionnat des Demoiselles nobles de Eunéville. —- 3" acte: Le Camp.
-
- 
-
-Bureaux à 7 h. 112. — Rideaun à 8 h. 06]]></page>       
-        </p>
+Bureaux à 7 h. 112. — Rideaun à 8 h. 06
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

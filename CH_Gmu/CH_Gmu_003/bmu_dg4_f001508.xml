@@ -1,142 +1,123 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Un seul grand concert donné par Madame Bilbaut-Vauchelet, ...<date when="31/10/1885"/></title>
-<series>1885-1886</series>
-<placeName>Bâtiment électoral</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Un seul grand concert donné par Madame Bilbaut-Vauchelet, ...
+            <date when='31/10/1885'/>
+          </title>
+          <series>1885-1886</series>
+          <placeName>Genève, Bâtiment électoral</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU DG4 F001508</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt> </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18851031"/>
-<title>Un seul grand concert donné par Madame Bilbaut-Vauchelet, ...</title>
-<placeName key="Bâtiment électoral"/>
-<name key="1885-1886" type="series"/>
-<name key="Gounod, Charles-François" ref="https://muscat.rism.info/admin/people/80479" type="person" role="cmp">Gounod, Charles-François</name>
-<name key="Paladilhe"  type="person" role="cmp">Paladilhe</name>
-<name key="Bizet, Georges" ref="https://muscat.rism.info/admin/people/20057" type="person" role="cmp">Bizet, Georges</name>
-<name key="Thomé, Francis" ref="https://muscat.rism.info/admin/people/30018799" type="person" role="cmp">Thomé, Francis</name>
-<name key="Marietti"  type="person" role="cmp">Marietti</name>
-<name key="Godard, Benjamin" ref="https://muscat.rism.info/admin/people/30016713" type="person" role="cmp">Godard, Benjamin</name>
-<name key="Schumann, Robert" ref="https://muscat.rism.info/admin/people/131206" type="person" role="cmp">Schumann, Robert</name>
-<name key="Meyerbeer, Giacomo" ref="https://muscat.rism.info/admin/people/725" type="person" role="cmp">Meyerbeer, Giacomo</name>
-<name key="Leloir"  type="person" role="cmp">Leloir</name>
-<name key="Bilbaut-Vauchelet (Mme)"  type="person" role="int">Bilbaut-Vauchelet (Mme)</name>
-<name key="Godard, Magdeleine"  type="person" role="int">Godard, Magdeleine</name>
-<name key="Nicot, Ch."  type="person" role="int">Nicot, Ch.</name>
-<name key="Piotsi"  type="person" role="int">Piotsi</name>
-<name key="Delmas"  type="person" role="int">Delmas</name>
-<name key="Mierys, Berthe"  type="person" role="int">Mierys, Berthe</name>
-<name key="Petit-Mangin"  type="person" role="int">Petit-Mangin</name>
-<name key="Arone, Armand"  type="person" role="int">Arone, Armand</name>
-<name key="Mangin"  type="person" role="int">Mangin</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f001508_001.tif"/>
-<page><![CDATA[BATIMENT ÉLECTORAL
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18851031'/>
+        <title>Un seul grand concert donné par Madame Bilbaut-Vauchelet, ...</title>
+        <placeName key='Genève, Bâtiment électoral'/>
+        <name key='1885-1886' type='series'/>
+        <name key='Gounod, Charles-François' ref='https://muscat.rism.info/admin/people/80479' type='person' role='cmp'>Gounod, Charles-François</name>
+        <name key='Paladilhe' type='person' role='cmp'>Paladilhe</name>
+        <name key='Bizet, Georges' ref='https://muscat.rism.info/admin/people/20057' type='person' role='cmp'>Bizet, Georges</name>
+        <name key='Thomé, Francis' ref='https://muscat.rism.info/admin/people/30018799' type='person' role='cmp'>Thomé, Francis</name>
+        <name key='Marietti' type='person' role='cmp'>Marietti</name>
+        <name key='Godard, Benjamin' ref='https://muscat.rism.info/admin/people/30016713' type='person' role='cmp'>Godard, Benjamin</name>
+        <name key='Schumann, Robert' ref='https://muscat.rism.info/admin/people/131206' type='person' role='cmp'>Schumann, Robert</name>
+        <name key='Meyerbeer, Giacomo' ref='https://muscat.rism.info/admin/people/725' type='person' role='cmp'>Meyerbeer, Giacomo</name>
+        <name key='Leloir' type='person' role='cmp'>Leloir</name>
+        <name key='Bilbaut-Vauchelet (Mme)' type='person' role='int'>Bilbaut-Vauchelet (Mme)</name>
+        <name key='Godard, Magdeleine' type='person' role='int'>Godard, Magdeleine</name>
+        <name key='Nicot, Ch.' type='person' role='int'>Nicot, Ch.</name>
+        <name key='Piotsi' type='person' role='int'>Piotsi</name>
+        <name key='Delmas' type='person' role='int'>Delmas</name>
+        <name key='Mierys, Berthe' type='person' role='int'>Mierys, Berthe</name>
+        <name key='Petit-Mangin' type='person' role='int'>Petit-Mangin</name>
+        <name key='Arone, Armand' type='person' role='int'>Arone, Armand</name>
+        <name key='Mangin' type='person' role='int'>Mangin</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f001508_001.tif'/>
+        <page>
+          <![CDATA[BATIMENT ÉLECTORAL
 Impresario : M. MICHEL.
-
 Bureaux à 7 h. 1}2. SAMEDI 51 OCTÛBRE 1885 Concert à 8 heures.
 UN SEUL
-
 GRAND CONCERT
-
 DoNxNÉ PAR MADAME
-
 BILBAUT-VAUCHELET
-
 De l’Opéra-Comique
 M" Magdeleine GODARD M. Ch. NICOT
-
 Violoniste des Concerts de Paris De l’Opéra-Comique
-
 M.PIOTSI  M. DELMAS — Mlle Bervue MIERYS = M. PETIT-MANGIN
-
 Th.-Lyrique Lauréat du Conserv. de Paris Du Vaudeville De l’Odéon.
 M. Armand ARONE Accompagnateur.
-
 GËAND 'lÎBŒ@ FlÏNAL DE FAUST
-
 (SCÈNE DE LA PRISON), Gounop
 M”° BILBAUT-VAUCHELET M. PIOTSI M. DELMAS
-
 Air de Suzanne, PALADILHE | A Andante Religioso,
-
 B. Pizzicato,
 M. NICOT, M"“ Magdeleine GODARD.
-
 Air de la Jolie Fille de Perth, ZE: Unieves 1E MarIerTI
 M. DELMAS. M. PIOTSI.
 Le Crucifix, duo, J. FAURE
 MM. DELMAS & PIOTSI.
-
 Grand Air du PRÉ AUX CLERCS (Hinor)
-
 M"“ BILBAUT-VAUCHELET. — Solo de Violon par M"° Magdeleine GODARD.
-
 : THomk
-
 A. Canzonetta, B. GopArD J A. Couplets de Vulcain (Philémon et Baum) GouNoD
-
 B. FRêverie, SCHUMANN B. Air de Chasse (Pardon de Ploërmel), . . MEYERBEFR
 M'° Magdeleine GODARD. M. DELMAS.
-
 Philémon et Baucis, duo, , GouNoD Cavatine de Faust, Gounop
 M”° BILBAUT-VAUCHELET & M. NICOT. … M. PIOTSI,
-
 Chez 1e Docteur
 Saynète inédite en UN acte, de M. LELOIR, de la Comédie-Française.
 Jouée par M"° Berthe MIÉRYS & M. MANGIN.
-
- 
-
 OrprE. — Chez le Docteur. — Concert.
-
- 
-
 PRIX Î)ES PLACES : Réservées, 6 fr. — Premières, 3 fr. 50. — Secondes, 1 fr. 50
-
 On peut se procurer des billets dans les principaux magasins de musique.
-
- 
-
- 
-
-GENÈVE. - IMPRIMERIE L.-F. JARRYS.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f001508_002.tif"/>
-<page><![CDATA[Qui ne se souvient des débuts éclatants
+GENÈVE. - IMPRIMERIE L.-F. JARRYS.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f001508_002.tif'/>
+        <page>
+          <![CDATA[Qui ne se souvient des débuts éclatants
 .de Madame-BILBAUT-VAUCHELET, dans
 Isabelle du Pré àugc Glercs, à l'Opéra-Comi-
 que en 1877? — Ce fut un triomphe pour
@@ -144,12 +125,10 @@ la débutante, triomphe constaté à l’unani-
 mité par toute la presse et qui ne fit que
 grandir avec les nouvelles apparitions de
 “ l’éminenté cantatrice.
-
 Madame BILBAUT-VAUCHELET est à
 cette heure dans la plénitude de son talent
 et l’une de nos étoiles de première gran-
 deur.
-
 A l’'Opéra-Comique, elle à partagé avec
 Mesdames Carvalho et Isaac le privilège
 d’attirer la foule, de la captiver et de la re-
@@ -160,36 +139,22 @@ Nuit de la Flüte Enchantée, de Mozart, Ma-
 _ dame BILBAUT-VAUCHELET y conquit
 tous les suffrages, lors de cette reprise en
 1879, "
-
 Entrée fort jeune au Conservatoire de
 Paris, elle y suivit les cours de M. Saint-
 Yves Bax pour le chant et de M. Ponchard
 pour l’Opéra-comique.
-
 En 1875 elle remportait le premier prix
 de chant. ‘ -
-
 Bien conseillée par des amis véritables
 et sérieux, elle ne voulut pas. aborder de
 suite le théâtre et préféra travailler encore
 afin de ne débuter que dans la plénitude de
 ses moyens; elle retourna done à Douai, sa
-
- 
-
- 
-
- 
-
- 
-
 5 ÎSaucl,dc
-
 ville natale, et entra comme professeur à
 l’Académie. C’est là que M. Carvalho, direc-
 teur de l’Opéra-Comique, alla la chercher
 pour la faire débuter dans le'Pré aux Clercs.
-
 Nous avons relaté plus haut le triomphe
 qu’elle obtint à ce début. — Depuis il n’y
 eut plus pour la grande artiste qu’une suite
@@ -200,7 +165,6 @@ Paladilhe qu’elle créa, Benjamin de Joseph,
 Jean de Nivelle, Michaëla de Carmen, furent
 autant de soirées triomphales pour Madame
 BILBAUT-VAUCHELET.
-
 Sollicitée maintes fois de se faire entendre
 dans les grandes villes de France et de
 l’Étranger, Mme BILBAUT-VAUCHELET,
@@ -216,18 +180,15 @@ violoniste dont la célébrité est acquise,
 Nicot, le chanteur exquis de l’Opéra-Comi-
 que, puis de M. Delmas, lauréat du Conser-
 vatoire de Paris, dont les débuts à l’Opéra
-
 faites.
-
 | promettent un succès au moins égal à celui
-
 de Duc, son camarade de classe, enfin de
 M. Piotsi, un fort ténor qui a été longtemps
-
 | applaudi au Théâtre-Lyrique.
-
-C A Es3]]></page>       
-        </p>
+C A Es3
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

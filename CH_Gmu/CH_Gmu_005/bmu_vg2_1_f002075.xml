@@ -1,147 +1,121 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par C. Foerster<date when="23/02/1884"/></title>
-<series>1883-1884</series>
-<placeName>Salle de la Réformation</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par C. Foerster
+            <date when='23/02/1884'/>
+          </title>
+          <series>1883-1884</series>
+          <placeName>Genève, Salle de la Réformation</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VG2-1 F002075</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Senger, H. de (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18840223"/>
-<title>Concert donné par C. Foerster</title>
-<placeName key="Salle de la Réformation"/>
-<name key="1883-1884" type="series"/>
-<name key="Mendelssohn Bartholdy, Felix" ref="https://muscat.rism.info/admin/people/88790" type="person" role="cmp">Mendelssohn Bartholdy, Felix</name>
-<name key="Chopin, Fryderyk Franciszek" ref="https://muscat.rism.info/admin/people/51160" type="person" role="cmp">Chopin, Fryderyk Franciszek</name>
-<name key="Haydn, Joseph" ref="https://muscat.rism.info/admin/people/55803" type="person" role="cmp">Haydn, Joseph</name>
-<name key="Reinhold"  type="person" role="cmp">Reinhold</name>
-<name key="Rubinštejn, Anton Grigor'evič" ref="https://muscat.rism.info/admin/people/30008504" type="person" role="cmp">Rubinštejn, Anton Grigor'evič</name>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Liszt, Franz" ref="https://muscat.rism.info/admin/people/107196" type="person" role="cmp">Liszt, Franz</name>
-<name key="Klosé, F."  type="person" role="cmp">Klosé, F.</name>
-<name key="Rossini, Gioachino" ref="https://muscat.rism.info/admin/people/63766" type="person" role="cmp">Rossini, Gioachino</name>
-<name key="Senger, Franz Ludwig Hugo von  (dir.)" ref="https://muscat.rism.info/admin/people/30015297" type="person" role="int">Senger, Franz Ludwig Hugo von  (dir.)</name>
-<name key="Orchestre de la Ville de Genève"  type="person" role="int">Orchestre de la Ville de Genève</name>
-<name key="Foerster, C."  type="person" role="int">Foerster, C.</name>
-<name key="Bartkowska, C."  type="person" role="int">Bartkowska, C.</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_1_f002075_001.tif"/>
-<page><![CDATA[d S e pro E ;
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18840223'/>
+        <title>Concert donné par C. Foerster</title>
+        <placeName key='Genève, Salle de la Réformation'/>
+        <name key='1883-1884' type='series'/>
+        <name key='Mendelssohn Bartholdy, Felix' ref='https://muscat.rism.info/admin/people/88790' type='person' role='cmp'>Mendelssohn Bartholdy, Felix</name>
+        <name key='Chopin, Fryderyk Franciszek' ref='https://muscat.rism.info/admin/people/51160' type='person' role='cmp'>Chopin, Fryderyk Franciszek</name>
+        <name key='Haydn, Joseph' ref='https://muscat.rism.info/admin/people/55803' type='person' role='cmp'>Haydn, Joseph</name>
+        <name key='Reinhold' type='person' role='cmp'>Reinhold</name>
+        <name key='Rubinštejn, Anton Grigor&apos;evič' ref='https://muscat.rism.info/admin/people/30008504' type='person' role='cmp'>Rubinštejn, Anton Grigor'evič</name>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Liszt, Franz' ref='https://muscat.rism.info/admin/people/107196' type='person' role='cmp'>Liszt, Franz</name>
+        <name key='Klosé, F.' type='person' role='cmp'>Klosé, F.</name>
+        <name key='Rossini, Gioachino' ref='https://muscat.rism.info/admin/people/63766' type='person' role='cmp'>Rossini, Gioachino</name>
+        <name key='Senger, Franz Ludwig Hugo von' ref='https://muscat.rism.info/admin/people/30015297' type='person' role='int'>Senger, Franz Ludwig Hugo von</name>
+        <name key='Orchestre de la Ville de Genève' type='person' role='int'>Orchestre de la Ville de Genève</name>
+        <name key='Foerster, C.' type='person' role='int'>Foerster, C.</name>
+        <name key='Bartkowska, C.' type='person' role='int'>Bartkowska, C.</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_1_f002075_001.tif'/>
+        <page>
+          <![CDATA[d S e pro E ;
 _ PEN _ PI S M OE SSN —
-
 îâ
-
- 
-
- 
-
 cnc e
-
 L pc e — e N
-
 se
-
- 
-
 SALLE DE LA RÉFORMATION
-
 18S4, À HUIT HEURES DU SOIR,
-
 : CONCERT
-
 DONNÉ PAR
-
 C. FŒCRSTER
-
 AVEC LE GRACIEUX CONCOURS DE
-
 M" C. BARTHOWS;"  FKA
-
 CANTATRICE
-
 | ETDE L'ORCHESTRE DE LA VILLY DE CENÈVE
-
 Sous la direction de M. H. DE SENGER.
-
 —2"
-
 PROGRAMME :
-
 Ouverture d’Athalie, (Orchestre de la Ville de Genève),
 Concerto (en mi min.), avec accompagnement d’Orchestre, M. C. Fœrsrrer, Chopin.
-
 Mendelssohn.
-
 Air de La Création (accompagnement d’Orchestre), MIle C. BarTKowsKA, Haydn.
 Keinhold.
-
 ’ M. C. FŒRSTFR, . E ; ; ; ; Rubinstein.
 \) V e e 1 t e
-
 F'. Klosé.
-
 a) Impromptu,
 b) Romance en mi b.,
 c) La Fileuse,
 Loreley, poëme symphonique pour Orchestre,
 Grand air de Sémiramis (accompagnt d’Orchestre), Mlle C. BArrkoswka, Rossini.
-
 Fantaisie Hongroise (accompagnement d’Orchestre), M. C Fœnsrrr, = Liszl.
-
 Le Plano à queue ALIQUOT-BLUTHNER, sort de ln Nlulison DUBACH et COLILEN.
-
 —L" wD33 2———
 . PRIX DES BILLETS :
 Places réservées el numérotées, 5 fr. - 4"° Galerie, 2 fr. - Parterre, 1 fr. - 2"° Galerie, 50 cent.
-
 —— SS e P ——
-
 Les billets se trouvent dans tous les magasins de musique et chez le Concierge de la salle de la Réformation.
 29
-
- 
-
- 
-
 Pour les places réservées, s’adresser exclusivement au magasin de M. liotschy, Corraterie, 22
-
- 
-
-Genève. — Imprimerie J-D. Jarrys.]]></page>       
-        </p>
+Genève. — Imprimerie J-D. Jarrys.
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

@@ -1,326 +1,247 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné en l'honneur de M. Willy Rehberg<date when="29/05/1907"/></title>
-<series>1906-1907</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné en l'honneur de M. Willy Rehberg
+            <date when='29/05/1907'/>
+          </title>
+          <series>1906-1907</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F001037</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Pochon (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19070529"/>
-<title>Concert donné en l'honneur de M. Willy Rehberg</title>
-<placeName key="Victoria Hall"/>
-<name key="1906-1907" type="series"/>
-<name key="Naegeli"  type="person" role="cmp">Naegeli</name>
-<name key="Keller, E."  type="person" role="cmp">Keller, E.</name>
-<name key="Zöllner, Carl Friedrich" ref="https://muscat.rism.info/admin/people/101792" type="person" role="cmp">Zöllner, Carl Friedrich</name>
-<name key="Rehberg, Willy" ref="https://muscat.rism.info/admin/people/39565" type="person" role="cmp">Rehberg, Willy</name>
-<name key="Händel, Georg Friedrich" ref="https://muscat.rism.info/admin/people/36552" type="person" role="cmp">Händel, Georg Friedrich</name>
-<name key="Georges, Alex."  type="person" role="cmp">Georges, Alex.</name>
-<name key="Chaminade, Cécile" ref="https://muscat.rism.info/admin/people/30016699" type="person" role="cmp">Chaminade, Cécile</name>
-<name key="Mozart, Wolfgang Amadeus" ref="https://muscat.rism.info/admin/people/115324" type="person" role="cmp">Mozart, Wolfgang Amadeus</name>
-<name key="Mohr, Theodor" ref="https://muscat.rism.info/admin/people/30022908" type="person" role="cmp">Mohr, Theodor</name>
-<name key="Tschirch"  type="person" role="cmp">Tschirch</name>
-<name key="Sohneeberger"  type="person" role="cmp">Sohneeberger</name>
-<name key="Chansarel, René"  type="person" role="cmp">Chansarel, René</name>
-<name key="Jemain, J."  type="person" role="cmp">Jemain, J.</name>
-<name key="Aubert, Louis"  type="person" role="cmp">Aubert, Louis</name>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Pochon (dir.)"  type="person" role="int">Pochon (dir.)</name>
-<name key="La Concordia"  type="person" role="int">La Concordia</name>
-<name key="Rehberg, Willy" ref="https://muscat.rism.info/admin/people/39565" type="person" role="int">Rehberg, Willy</name>
-<name key="Debogis-Bohy (Mme)"  type="person" role="int">Debogis-Bohy (Mme)</name>
-<name key="Rey, Louis"  type="person" role="int">Rey, Louis</name>
-<name key="Collins (Mlle)"  type="person" role="int">Collins (Mlle)</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001037_001.tif"/>
-<page><![CDATA[; f UNION POUR
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19070529'/>
+        <title>Concert donné en l'honneur de M. Willy Rehberg</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1906-1907' type='series'/>
+        <name key='Naegeli' type='person' role='cmp'>Naegeli</name>
+        <name key='Keller, E.' type='person' role='cmp'>Keller, E.</name>
+        <name key='Zöllner, Carl Friedrich' ref='https://muscat.rism.info/admin/people/101792' type='person' role='cmp'>Zöllner, Carl Friedrich</name>
+        <name key='Rehberg, Willy' ref='https://muscat.rism.info/admin/people/39565' type='person' role='cmp'>Rehberg, Willy</name>
+        <name key='Händel, Georg Friedrich' ref='https://muscat.rism.info/admin/people/36552' type='person' role='cmp'>Händel, Georg Friedrich</name>
+        <name key='Georges, Alex.' type='person' role='cmp'>Georges, Alex.</name>
+        <name key='Chaminade, Cécile' ref='https://muscat.rism.info/admin/people/30016699' type='person' role='cmp'>Chaminade, Cécile</name>
+        <name key='Mozart, Wolfgang Amadeus' ref='https://muscat.rism.info/admin/people/115324' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Mohr, Theodor' ref='https://muscat.rism.info/admin/people/30022908' type='person' role='cmp'>Mohr, Theodor</name>
+        <name key='Tschirch' type='person' role='cmp'>Tschirch</name>
+        <name key='Sohneeberger' type='person' role='cmp'>Sohneeberger</name>
+        <name key='Chansarel, René' type='person' role='cmp'>Chansarel, René</name>
+        <name key='Jemain, J.' type='person' role='cmp'>Jemain, J.</name>
+        <name key='Aubert, Louis' type='person' role='cmp'>Aubert, Louis</name>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Pochon' type='person' role='int'>Pochon</name>
+        <name key='La Concordia' type='person' role='int'>La Concordia</name>
+        <name key='Rehberg, Willy' ref='https://muscat.rism.info/admin/people/39565' type='person' role='int'>Rehberg, Willy</name>
+        <name key='Debogis-Bohy (Mme)' type='person' role='int'>Debogis-Bohy (Mme)</name>
+        <name key='Rey, Louis' type='person' role='int'>Rey, Louis</name>
+        <name key='Collins (Mlle)' type='person' role='int'>Collins (Mlle)</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001037_001.tif'/>
+        <page>
+          <![CDATA[; f UNION POUR
 ‘ L’ART SOCIAL Mercredi 29 Mai, 8 h. 15
-
 |
-
 | SERILE E E ID IV ILE
 H ! VICOTOREA-=IHAINLIL
 | L
 |
-
 Concert donné en l’honneur de M.
-
 e WILLY REHBERG
-
 MEMBRE FONDATEUR DE L’ART SoCIAL
-
 avec le gracieux concours de
-
 Mrie DEBOGIS-BOHY M. LOUIS REY
 Cantatrice . Violoniste
-
 Chœur d’élèves de M.le profr LÉOPOLD KETTEN
 CONCORDIA
-
 sous la dircction de M. Pochon
-
 2E
-
 PROGRAMME
 Der Lichtschôpfer . . . - - Nageli.
-
 Frühling wird es docheinmal - . . . — EKeller
 Das Lied vom Rheinwein. . . . - - Zülner.
-
 Chœur d'hommes (Concordia).
-
 Sonate, pour piano et violon . . - . Willy Rehberg.
 MM. Willy Rehberg et Louis Rey.
-
 Amadigi (Air de « Melissa ») . . - - Hendel.
 Madame Debogis-Bohy.
-
 Fées et Etoiles . . . » - AMex. Georges.
-
 Chœur ae femmes et solo (MVe Collins).
 Capricciog . e Chaminade
-
 Meaet …s mit
 M. Louis Rey.
-
 DieitleimatamiRheis m Théodore Mohr.
 Immer, immer sing’ ich wieder . . . - Tschirch.
 MelendeWinkeimed Sohneeberger.
-
 Chœur d’hommes (Concordia).
 Komance R 2 Nn Chansarel.
 Fenconree se Jemain.
-
 cecregaveur 11 N iuis Kabert
 Madame Debogis-Bohy.
-
 Chœur de Rienzi . . . … ; - - Wagner.
-
 Chœur de femmes et solo (MNe Rueff).
-
-Piano de Concert Blüthner aux soins de MM. Sautier & Jæger.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001037_002.tif"/>
-<page><![CDATA[Récir :
-
+Piano de Concert Blüthner aux soins de MM. Sautier & Jæger.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001037_002.tif'/>
+        <page>
+          <![CDATA[Récir :
 Hélas ! tu me repousses et m’abandonnes.
 Dieux grands ! dois-je taire ma peine
 Cruel, cœur sans foi ni pitié, laisse-moi,
 Cède au désir qui se consume et nous sépare
 Sois libre et ne crains pas mes maléfices,
 Tes jours me sont sacrés.
-
 Ah ! si triste, si _ misérable, pourrais-je frap
-
-  
-
 à dans
-
- 
-
 per celui qui prit ma vie, alors que dé,
 mon sein l’amour supplie pour l’ingrat qui
-
 m'outrage ?
-
 Amadigi.
-
- 
-
 Air de Melissa.)
-
 AIR :
-
 Ah! eruel amant ! par toi trahie, pleure une
 âme aimante et douce, pleine encore d’espoirs
 en fleurs, chaude encore de l’aube ardente de
 ton amour.
-
 Ah ! parjure ! peux-tu, sans remords, voir
 l’angoisse qui m’accable ?... Et pourtant, d’un
 rêve ému, d’un cœur ardent tu l’aimas, cet
 amour banni de toi !
-
 Mais, hautaine en ma détresse, je veux ca-
 cher à tous ma colère et la honte qui souffre
 en moi. Ne crains pas de vains reproches ! Non,
-
- 
-
 non, fière encore en ma détresse, je veux €s
-
 cher cette honte qui souffre en moi .
-
 Romance.
-
 Silence ineffable de l’heure,
-
 Où le eœur aimant sur un eœur
 Se laisse en aller et s’endort
 Sur un cœur aimant qui l’adore !
 Musique tendre des paroles,
-
 Comme un sanglot de rossignols,
-
 Si tendre qu’on voudrait mourir
 Sur la bouche qui les soupire !
 L’ivresse ardente de la vie
-
 Fait défaillir l’amant ravi,
-
 Et l’on n’entend battre qu’un cœur,
 '
-
 Musique et silence de Phevre !
-
 ’aul Bourget.
-
 Rencontre.
-
 Gente fillette, frais lutin,
-
 Quand on à le regard mutin
-
 Et pour bouche une fleur éclose,
 La vie apparaît gai chemin,
-
 Si long qu’on n’en voit pas la fin,
-
 Et vivre est la plus douce chose !
-
 N’en croyez rien, beau cavalier,
 Et que Dieu vous ouvre un sentier
 A l’abri des soucis moroses :
-
 A demeurer mon prisonnier,
 Vous cesseriez de m'envier :
-
 Il est des épines aux roses !
-
 — Docteur en jupon de satin,
 Pressé d’aceuser le destin,
 Votre réponse est par trop sage,
 Et je puis, sans être devin,
-
 Dire que serre votre main
-
-  
-
 Sous la dentelle du corsage
-
 Vous rougissez, la belle entant
 Votre ecœur maudit le passant
 Qui sait votre peine secrète :
-
 Ce que vous serrez tendrement,
-
 C’est un billet, billet d’amant ! .
-
 Vous voulez done souffrir, fillette ?
-
 Paul Hugounet.
-
 Secret aveu.
-
 Les vierges fleurs, ouvrant leurs minces corsets
 verts,
-
 Se roulaient dans l’amour du soleil, noncha-
 lentes
-
 Elles disaient : « Qui done a parfumé tes vers?»
-
 Mais je n’ai pas voulu me confesser aux plantes.
-
 La lune miroitait sur le crêpe des flots
 Comme un collier d’argent sur un torse de veuve.
 L’eau chantait : « Vers qui done descendent tes
-
 sanglots ? »
-
 Mais je n’ai pas voulu répondre aux voix du
 fleuve.
-
- 
-
 Les astres clignotaient dans jun brouillard
 subtil,
 Pareils à des regards souriants sous les voiles ;
-
 Leurs yeux interrogeaient: « De quels yeux
-
- 
-
 révent-ils
-
 Mais je n’ai pas voulu te nommer aux étoiles,
-
 Car j'ai fermé ma lèvre et mon cœur aux
 aveux ;
-
 Et doive mon secret me peser plus encore,
-
 Je saurai le garder pour toi seule, et je veux
-
 Que rien ne sache au monde à quel point je t'a-
 dore.
-
-Edmond Haraucourt]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001037_003.tif"/>
-<page><![CDATA[41413
-
+Edmond Haraucourt
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001037_003.tif'/>
+        <page>
+          <![CDATA[41413
 ; . Photograph. FUESLIN-RiGAUD
-
- 
-
 WILLY REHBEREG
-
 PIANISTE VIRTUOSE
 <Ancien professeur au Conservatoire de Genève
 Professeur au Conservatoire de Frankfort
-
 M. WirLy RERBERG, fondateur de l’Union pour l’Art Social
 à Genève, a voulu que l’art fût mis à la portée de tous et ne
 restât pas le privilège d’une classe, Il a ainsi rendu à l’art et à la
 démocratie un service dont la population genevoise lui est pro-
-
-fondément reconnaissante.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001037_004.tif"/>
-<page><![CDATA[—… u ORs E e e ns]]></page>       
-        </p>
+fondément reconnaissante.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001037_004.tif'/>
+        <page><![CDATA[—… u ORs E e e ns
+]]></page>
+      </p>
     </body>
   </text>
 </TEI>

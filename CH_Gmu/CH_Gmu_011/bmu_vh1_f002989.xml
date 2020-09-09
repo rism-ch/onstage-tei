@@ -1,58 +1,69 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>10me et dernier concert de l'abonnement<date when="17/03/1937"/></title>
-<series>1936-1937</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            10me et dernier concert de l'abonnement
+            <date when='17/03/1937'/>
+          </title>
+          <series>1936-1937</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002989</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Hoesslin, F. von (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19370317"/>
-<title>10me et dernier concert de l'abonnement</title>
-<placeName key="Victoria Hall"/>
-<name key="1936-1937" type="series"/>
-<name key="Brahms, Johannes" ref="https://muscat.rism.info/admin/people/39914" type="person" role="cmp">Brahms, Johannes</name>
-<name key="Bruckner, Anton" ref="https://muscat.rism.info/admin/people/73272" type="person" role="cmp">Bruckner, Anton</name>
-<name key="Hoesslin, Franz von (dir.)"  type="person" role="int">Hoesslin, Franz von (dir.)</name>
-<name key="Orchestre de la Suisse Romande" ref="https://muscat.rism.info/admin/people/50007615" type="person" role="int">Orchestre de la Suisse Romande</name>
-<name key="Szigeti, Jospeh"  type="person" role="int">Szigeti, Jospeh</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002989_001.tif"/>
-<page><![CDATA[DO RFICIE-L
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19370317'/>
+        <title>10me et dernier concert de l'abonnement</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1936-1937' type='series'/>
+        <name key='Brahms, Johannes' ref='https://muscat.rism.info/admin/people/39914' type='person' role='cmp'>Brahms, Johannes</name>
+        <name key='Bruckner, Anton' ref='https://muscat.rism.info/admin/people/73272' type='person' role='cmp'>Bruckner, Anton</name>
+        <name key='Hoesslin, Franz von' type='person' role='int'>Hoesslin, Franz von</name>
+        <name key='Orchestre de la Suisse Romande' ref='https://muscat.rism.info/admin/people/50007615' type='person' role='int'>Orchestre de la Suisse Romande</name>
+        <name key='Szigeti, Jospeh' type='person' role='int'>Szigeti, Jospeh</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002989_001.tif'/>
+        <page><![CDATA[DO RFICIE-L
 _
 =
 =
@@ -61,93 +72,63 @@ _
 O
 O
 &
-&]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002989_002.tif"/>
-<page><![CDATA[VIDOUDEZ
-
+&
+]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002989_002.tif'/>
+        <page>
+          <![CDATA[VIDOUDEZ
 LUTHIER DU CONSERVATOIRE
-
-   
-
 Y/ RUE GÉNÉRAL DUFOUR 22.
 * GENÈVE
-
 Successeur des magasins de musique
-
 Notschy Frèéres et Naville & C”
-
 Corraterie, 22
-
 MUSIQUE - ABONNEMENT
 jusqu'à nouvel avis,
-
-chez Naville & C°, Passage des Lions]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002989_003.tif"/>
-<page><![CDATA[plus belles et meilleures encore…
-
+chez Naville & C°, Passage des Lions
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002989_003.tif'/>
+        <page>
+          <![CDATA[plus belles et meilleures encore…
 LES NOUVELLES
-
 RENAULT
-
 CR EN D/RE S
-
 CELTAQUATRE : 745 / 34 CV
-
 PRIMAQUATRE : 12,115/ 49 CV
-
 VIVAQUATRE: 1215/ 49 CV
 CN NEDERE S
-
 VIVA GRAND SPORT : 20,80/100 CV
-
 VIVASTELLA: 2080/100 CV
 C ENDRE S
-
 NERVA G"" SPORT : 27,7h/130 CV
 NERVASTELLA : 27,74/130 CV
-
 la gamme la plus complète au meilleur prix
-
 S. À. pour la vente des Automobiles RENAULT en Suisse. SÉCHERON-GENÈVE
-
 Agence exclusive pour Genève et le Canton de Vaud, jusqu’à Nyon
-
-GARAGES DES NATIONS, 20, rue de Lausanne, GENÈVE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002989_004.tif"/>
-<page><![CDATA[Columbia
-
+GARAGES DES NATIONS, 20, rue de Lausanne, GENÈVE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002989_004.tif'/>
+        <page>
+          <![CDATA[Columbia
 orda;
 !
-
 f
-
- 
-
 MAGIC NOTES
-
 TRADE-MARK
-
 Disques Nouveautés
-
- 
-
 SYMPHONIE N° 2, EN RÉ MAJEUR (Beethoven)......…. LX 586-89 Fr. 8.80
 Orch. Philharmonique de Londres, Dir. Th. Beecham.
 QUATUOR N° 14, EN RÉ MINEUR (Schubert)......... LX 590-93
-
 (La jeune fille et la Mort).
 Quatuor Roth.
-
 Disques de Emmanuel Feuermann, Violoncelliste
-
 CONCERTO EN RE MAJEUR, POUR VIOLONCELLE
 (Haydn), avec Orchestre symphonique, Londres ..... LX 472-75 Fr. 8.80
 SONATE N° 1, EN MI MINEUR, POUR PIANO ET
-
 VIOLONCETPE (Pranmis)e LX 404-06 Fr. 8.80
-
 (Au piano : Théo van der Pas).
-
 Disques de Joseph Szigeti, Violoniste
 CONCERTO POUR VIOLON ET ORCHESTRE (Brahms) L 2265-69 Fr. 8.80
 Avec le Halle Orchestra, Manchester.
@@ -155,131 +136,99 @@ CONCERTO POUR VIOLON et ORCHESTRE (Beethoven) LX 174-78 Fr. 8.80
 avec l'Orch. Philharmonique, Londres, (Dir Bruno Walter).
 CONCERTO EN RÉ MINEUR, Pr VIOLON et ORCHESTRE
 (Prokofieff), avec l’Orchestre Philharmonique, Londres LX 433-35 Fr. 8.80
-
 CONCERTO No 4, EN RÉ MAJEUR, POUR VIOLON ET
 ORCHESTRE (Mozart) avec l’Orchestre Philharmo-
 nique-vgéondres e e LX 386-88 Fr. 8.80
-
 Km vente dans tous les bons magasins de imusique
-
 Représentation générale des J11u}/u’.l Columbia, Pathé et Todeal :
-PIANOHAUS JECKLIN, ZURICH.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002989_005.tif"/>
-<page><![CDATA[ASSOCIATION
+PIANOHAUS JECKLIN, ZURICH.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002989_005.tif'/>
+        <page>
+          <![CDATA[ASSOCIATION
 | DES
 AMIS DE L'ORCHESTRE ROMAND
-
 Comuté de l'Aveociation :
 MM. Pierre JACCOUD, Président ;
 Henri BROLLIET, Vice-président ;
 ; . Charles BABEL, Secrétaire ;
 Frédéric-H. WANNER, Trésorier ,
-
 MM. Léopold BOISSIER, Alfred BOREL, Emile BRUNSCHWIG,
 Renc  DOVAZ Jean DUCHOSAT, Fours JULTÉÉERAT,
 D1 E. von KOEHLER, Frank MARTIN, Félix POMMIER,
 Emile UNGER.
-
 L'Association des Amis de l’Orchestre Romand rappelle qu’elle
 a pour objet d’apporter à l’Orchestre Romand un appui moral et
 financier
-
 | a) en faisant en sa faveur une active propagande ;
-
 b) en mettant à sa disposition le produit des contributions de ses
 membres, ainsi que les dons et legs spéciaux qui pourraient lui
 être faits dans ce but.
-
 | . c) en réalisant un contact plus étroit entre les musiciens et le
-
 public.
-
 Pour répondre à un désir formulé par l’Association des Amis de
 l'O. R, des répétitions publiques auront lieu la veille de certains
 concerts. Au cours de ces répétitions, dont l’accès sera réservé
 aux Abonnés et aux Amis de l’Orchestre Romand, des œuvres
 | nouvelles ou marquantes inscrites au programme du prochain concert
 seront exécutées et commentées.
-
 On peut devenir membre de l’Association des Amis de O R.
 en s'inscrivant auprès d'un des Membres du Comité ou au Bureau
 de location, Magasin de Musique Sautier et Jaeger, pl Fusterie, 12.
-
 La cotisation annuelle minimum est de Fr. 5. — Toutejois, tout
-montant supérieur sera reçu avec reconnaissance,]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002989_006.tif"/>
-<page><![CDATA[]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002989_007.tif"/>
-<page><![CDATA[Mercredi 17 mars 1937, à 20 h. et demie
-
+montant supérieur sera reçu avec reconnaissance,
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002989_006.tif'/>
+        <page><![CDATA[]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002989_007.tif'/>
+        <page>
+          <![CDATA[Mercredi 17 mars 1937, à 20 h. et demie
 Au Victoria-Hall
-
 CONCERT D'ABONNEMENT
-
 Ë
 ä
 î
-
 Soliste : Monsieur
-
 Joseph SZIGETI
-
 VIOLONISTE
-
 PROGRAMME
-
 PREMIERE PARTIE
-
 CONCERTO en ré majeur, pour violon
 Eumtehesires ... ... J. Brabma
-
 a) Allegro non troppo (cadence de Joackim).
-
 b) Adagio.
-
 c) Allegro glocoso, ma non troppo vivace.
 Soliole ; M. SZIGETI.
-
 DEUXIEME PARTIE
-
 SYMPHONIE N° z en mi majeur...… À. Bruckner
-
 a) Allegro moderato. - b) Adagio.
 ; c) Scherzo. - 0) Finale.
-
 L'orchestre sera dirigé par M.
-
 Franz von H(ESSLEIN
-
- 
-
 ASSOCIATION DE L’O RCHESTRE R OMAND
-
 |
-
-— ——> =—=-—=-—=—==—=]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002989_008.tif"/>
-<page><![CDATA[ALBERT
-
+— ——> =—=-—=-—=—==—=
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002989_008.tif'/>
+        <page>
+          <![CDATA[ALBERT
 DUMÛNT
-
 PAPIERS PEINTS
-
 BOULEVARD HELVÉTIQUE, (9
-
 GENEÈVE
-
-TOUS LES GENRES e TOUS lES PRIX]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002989_009.tif"/>
-<page><![CDATA[SSLIN
-
+TOUS LES GENRES e TOUS lES PRIX
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002989_009.tif'/>
+        <page><![CDATA[SSLIN
 JF
-
- 
-
-FRANZ VON HC]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002989_010.tif"/>
-<page><![CDATA[m”
+FRANZ VON HC
+]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002989_010.tif'/>
+        <page><![CDATA[m”
 —-
 c
 V
@@ -289,22 +238,16 @@ V
 O
 >
 ”
-
 F. E BAECHLER FRÈRES
-
 teinturiers
-
-GENEVE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002989_011.tif"/>
-<page><![CDATA[JOHANNES BRAHMS
+GENEVE
+]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002989_011.tif'/>
+        <page>
+          <![CDATA[JOHANNES BRAHMS
 Né à Hambourg le 7mai 1833, mort à Vienne le 3 avril 1897.
-
 CONCERTO en ré majeur, pour violon et orchestre, op. DE
-
 E Concerto est une des œuvres les plus intéressantes et
-
-  
-
 les plus importantes qui aient été ecrites pour le violon
 au cours du siècle‘ dernier. Il est, a-t-on dit, le fruit
 de l’amitié qui unissait Brahms et Joachin. Cette œu-
@@ -319,10 +262,8 @@ raison, une « Symphonie avec violon principal ». Les traits et
 les passages techniques y sont à tel point fondus dans le tissu
 symphonique et font si bien corps avec le reste que l’intérêt
 musical de l’œuvre n’en souffre pas un instant.
-
 Dans son ouvrage sur Brahms, un de ses biographes, J.-A.
 Fuller-Maitland écrit ce qui suit à propos du Concerto de violon :
-
 « Brahms revient ici à l’ancienne forme du concerto, dont il
 expose largement le matériel, dans le premier mouvement, avant
 l'entrée de l’instrument soliste. Le deuxième thème, pizzxicato,
@@ -337,55 +278,32 @@ reprenne pas cette mélodie d’une grande beauté. Au contraire,
 tous les passages soli proéminents contrastent vigoureusement
 avec elle, ou forment une simple figure d'accompagnement d’octa-
 ves descendantes. L'épilogue de ce mouvement est de nature
-romantique: le violon débute par des syncopes qui évoquent des]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002989_012.tif"/>
-<page><![CDATA[RUE DU RHONE 102 QUE D'ITALIE 4
-
+romantique: le violon débute par des syncopes qui évoquent des
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002989_012.tif'/>
+        <page>
+          <![CDATA[RUE DU RHONE 102 QUE D'ITALIE 4
 DPUCIËEGNADD
-
- 
-
- 
-
 (M |RADIO
 | CRAMODHONES
-
- 
-
- 
-
 DIS QUES f
-
- 
-
- 
-
- 
-
- 
-
 RAVYVI|ITA|I E E Z
-
 GARAGE MÉTROPOLE
-
 Théo SARBACH S. À.
-
 BéGSE D (R, N
 RE TEPHONE 4% % * 022
 Le plus centrai - Ouvert jour et nuit
-
 A G E N C E
-
 Hudson - Terraplane- Standard
-
 Réparations soignées - Toutes fournitures
-
 A MI!ILCAR
-
-Stock pièces détachées d'origine]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002989_013.tif"/>
-<page><![CDATA[JOSEPH SZIGETI
-
+Stock pièces détachées d'origine
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002989_013.tif'/>
+        <page>
+          <![CDATA[JOSEPH SZIGETI
 sanglots et s’élève peu à peu sur des figures en arpèges. Le
 Finale, allegro giocoso, à un caractère hongrois indéniable. Au
 thème principal fortement rythmé, s'oppose un motif en octaves
@@ -394,7 +312,6 @@ polyphonique de l’instrument soliste, dont le caractère majestueux
 se transmet peu à peu au quatuor et à tout l’orchestre. La cadence
 de ce mouvement, qui n'est ici qu’une simple fioriture, ramène
 le motif principal et conduit à’ la strette finale.
-
 « L'influence de Joachim se retrouve dans beaucoup d’œuvres
 de Brahms. Chaque note que le maître écrivit pour le violon
 qu'il s'agisse de musique de chambre ou d’orchestre a été con-
@@ -405,89 +322,47 @@ excellait. C’est d’ailleurs à Joachim que revient le mérite d’avoir
 aidé Brahms à choisir sa véritable voie, en attirant sur lui l’atten-
 tion de Schumann. Joachim resta pendant de longues années
 l'unique exécutant du Concerto, à cause des difficultés du dernier
-mouvement, »]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002989_014.tif"/>
-<page><![CDATA[Coutes combinaisons d’'assurances
-
- 
-
+mouvement, »
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002989_014.tif'/>
+        <page>
+          <![CDATA[Coutes combinaisons d’'assurances
 _Accidents - Responsabilité civile . u
 Maladie '
-
 LONGEMALLE, 1
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Pianos e
 ﬁ£nrza neïfel
-
 anc® Robert Kneifel-Béroud
-
- 
-
-Passage des Lions, 4]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002989_015.tif"/>
-<page><![CDATA[ANTON BRUCKNER]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002989_016.tif"/>
-<page><![CDATA[LOUT à
-
+Passage des Lions, 4
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002989_015.tif'/>
+        <page><![CDATA[ANTON BRUCKNER
+]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002989_016.tif'/>
+        <page>
+          <![CDATA[LOUT à
 Ktc NiSs 11N
 à 1 ,
-
- 
-
- 
-
- 
-
- 
-
 Cuisine par le gaz et ÉLECTRICITÉ
-
 l’électricité - Force motrice
-
 Installations sanitaires EAU T GAZ
 - Eclairage moderne - TÉLÊPHONE
-
 Ep. MAGNENAT & C“
-
 Concessionnaires des Services 28’ Rue dU MOﬂt-Blanc, 28
-
 Industriels de Genève et de
 l'Office fédéral du téléphone GENÈVE
-
- 
-
- 
-
- 
-
-   
-    
- 
-
 GENEVYE
-
 Angle nue Céard — rue Croix d'Or
-
- 
- 
-
 La maison de confiance qui chausse
-
-impeccablement toute la famille.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002989_017.tif"/>
-<page><![CDATA[ANTON BRUCKNER
+impeccablement toute la famille.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002989_017.tif'/>
+        <page>
+          <![CDATA[ANTON BRUCKNER
 1824-1896
-
 y TUs nous nous éloignons de l'époque à laquelle ont été
 k écrites les œuvres d’un grand musicien, plus nous
 sommes à même de pouvoir les juger sainement.
@@ -495,19 +370,13 @@ Depuis la mort d’Anton Bruckner, la lutte a cessé
 ucttc lutte qui, jadis, se poursuivait avec tant d ‘apreté et d'achar
 nement en Allemagne et en Autriche et qui fut menée avec
 tant de parti pris, grâce au mot d’ordre parti de Vienne.
-
 On sait avec quelle vivacité on chercha à opposer Anton
 Bruckner à Johannès Brahms: comme d'habitude, on voulut
-
- 
-
 établir une comparaison entre deux fortes personnalités qu'on
 n'aurait jamais dû mettre en parallèle. Car, chacun de ces
 grands compositeurs possédait une haute individualité qui lui
 était propre.
-
 En réalité, c’était une sorte d'opposition, de rivalité entre
-
 l’'Allemagne du Nord et l’Allemagne du Sud, qui se trouvait
 personnifiée dans la différence d'esthétique de ces deux maîtres.
 Brahms est le représentant de l’école de la « forme », de la
@@ -525,31 +394,29 @@ qui aient pu écrire, en leur donnant un développement, des mou
 vements lents. Peut-être Bruckner était-il même supérieur en
 cela à Brahms, et c’est à juste titre qu’on a pu le nommer le
 « Maître de l’Adagio ».
-
 La biographie de Bruckner est très simple. Né le 4 septembre
 1824, à Ansfelden, près de Linz, en Autriche, fils d’un maître
 d'école de village, il reçut les premières notions de musique de
-
-son père; après la mort de celui-ci, en 1837, 1l entra comme]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002989_018.tif"/>
-<page><![CDATA[Achetez au
-
+son père; après la mort de celui-ci, en 1837, 1l entra comme
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002989_018.tif'/>
+        <page>
+          <![CDATA[Achetez au
 COMPTOIR ves TISSUS
-
 HN ROUEAE VOHN KO KREFN OVO RAROEORROOEREARHOEOEENNE ON
 MOLARD GENEVE ENTRÉE LIBRE
-
 [a maison
 qui simpose
-
 _ parsonassortiment | e
-
 Fanases 915
 Fantaisres lanc
-
-Trousseau - Ameublement]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002989_019.tif"/>
-<page><![CDATA[enfant de chœur chez les Augustins de Saint-Florian d'Ebelsberg,
+Trousseau - Ameublement
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002989_019.tif'/>
+        <page>
+          <![CDATA[enfant de chœur chez les Augustins de Saint-Florian d'Ebelsberg,
 y prit des leçons d’orgue et d’harmonie, tout en faisant ses
 études pour être à son tour maître d'école. Il exerça ce dernier
 emploi à Windhag, où il dut, pour un salaire mensuel de deux
@@ -571,7 +438,6 @@ fut nommé organiste de l’église Saint-Etienne, à Vienne, et pro
 fesseur d’orgue et d’harmonie au Conservatoire. Plus tard, en
 1875, il entra comme «lecteur sur la théorie musicale», à
 l’Université.
-
 C’est de Vienne que se répandit en Allemagne la renommée de
 Bruckner comme compositeur. Le public accueillit avec faveur
 ses  grandes compositions, notamment ses trois premières
@@ -582,7 +448,6 @@ tav Mahler que revient le mérite d’avoir fait connaître les
 œuvres de Bruckner. Le maître qui, sans relâche, avait travaillé,
 sans s'inquiéter du bruit mené autour de lui et contre, lui, s'étei
 gnit à Vienne, le 11 octobre 1896.
-
 Anton Bruckner ne commença guère à être connu que dans
 sa cinquantième année: dix ans après, il était célèbre: cas tout
 à fait rare dans l’histoire des musiciens. Le nombre de ses
@@ -590,72 +455,45 @@ sa cinquantième année: dix ans après, il était célèbre: cas tout
 toutes de la plus haute importance et de la plus haute
 valeur. Le Dr Louis nous montre que l’œuvre véritable du
 maître, ce sont ses 0 Symphonies. Bruckner est, croyons-nous, le
-
-plus grand symphoniste que nous ayons eu depuis Beethoven.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002989_020.tif"/>
-<page><![CDATA[BI UTHNER
+plus grand symphoniste que nous ayons eu depuis Beethoven.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002989_020.tif'/>
+        <page>
+          <![CDATA[BI UTHNER
 STEINWAY & SONS
 GAVEAU
 PÉEVvElE
 SCHMIDT -FLOHR
-
 RÉPARATIONS FAITES PAR NOS
 SPÉCIALISTES
-
 AGENTSRÉEGIONAUX DE
-
-  
-
 SÎEINWAY&SONS
-
 PIANOS
-
- 
-
 ÉCHANG V TPRANSLoRn 10GN 1ON
-
 NGENTS  REGIONAUX DE
-
 MARCON W (LONDRES)
 DESO Curich)
 S. A B A
-
 Bl PENNOPHON E
-
 Toutes marques en  démonstration
 SERVICE TECHNIQUE DE 1°» ORDRE
-
- 
-
- 
-
- 
-
- 
-
- 
-
 RADIOS
-
 ANTENNE ANTIPARASITES - AMPLIFICATEURS
-
 DISQUES ET ACCORDÉONS
-
 1836 - 7 novembre 1936
-
 GENE VE _ ——
-
 W 12, FUSTERIE MAISON CENTENAIRE
-
 LES NOUVEAUTÉS présentées par des grands spécialistes
-
-vous permettra d'acheter à de bonnes conditions]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002989_021.tif"/>
-<page><![CDATA[Dans le domaine de la musique religieuse, il écrivit également
+vous permettra d'acheter à de bonnes conditions
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002989_021.tif'/>
+        <page>
+          <![CDATA[Dans le domaine de la musique religieuse, il écrivit également
 Trois messes, un Ave Maria, plusieurs motets, un Te Deum et
 le Psaume 150. Ajoutons à ces œuvres deux chœurs pour
 voix d'hommes et orchestre et plusieurs compositions à capella.
-
 Bruckner était un véritable artiste, une âme noble et généreuse.
 Il ne se souciait en rien du succès probable de ses œuvres, ni
 même de savoir si elles seraient exécutées. Son talent se déve
@@ -663,31 +501,26 @@ loppa lentement: il travaillait sans hâte, laissant mûrir peu à
 peu ses 1dées musicales et, retouchant, corrigeant, modifiant
 ce qu'il avait écrit. C’était un artiste probe et scrupuleux, digne
 de servir de modèle aux jeunes compositeurs.
-
 Bruckner était, à l’orgue, un improvisateur merveilleux. Il fut
 très applaudi à Nancy, à Paris, où Gounod vint l’entendre, à
 Londres, etc. Comme professeur, il se montrait très sévère sur
 l'application des règles du contrepoint. Parmi ses élèves, citons :
 Mottl, Mikisch, Mahler, Emil Paur, Friedrich Klose, Jaques
 Dalcroze, etc.
-
 Son admiration pour les œuvres de Wagner, qu’il manifestait
 ouvertement, lui causa de nombreuses inimitiés parmi ses col
 lègues et même dans son entourage. Il ne manquait pas d’aller
 assister aux représentations de Bayreuth.
-
 Bruckner était d’allure simple; il menait une vie retirée et
 très modeste. Son aspect fut, toute sa vie, celui d’un brave
 maître d’école de village autrichien, dévôt et timide. Il était
 d’un abord charmant, très cordial et gardait une fidèle amitié à
 ceux qui l'avaient obligé.
-
 C’était un croyant, et il avait gardé jusque dans sa vieillesse
 la foi naïve et absolue de l’enfance: très catholique, mais en
 même temps très tolérant. C’est dans ce sentiment de naïve
 reconnaissance envers le Créateur qu'il écrivit sur la partition
 de sa dernière Symphonie: « Dédiée au Bon Dieu ».
-
 De même, Bruckner aimait religieusement son art: la musique
 était pour lui une « révélation », un « mystère », l’entrée dans
 le monde divin des sons. Il professait une admiration absolue
@@ -697,42 +530,37 @@ Schubert. Elle n’ouvre nullement une nouvelle période musicale;
 elle clôt plutôt la période classique. En elle se reflète une âme
 de grand artiste, et l’une des personnalités musicales les plus
 grandes et les plus hautes de notre histoire musicale moderne.
-
-(Extrait du Courrier musical du 1er mars 1906.)]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002989_022.tif"/>
-<page><![CDATA[AIR FRANCE
-
+(Extrait du Courrier musical du 1er mars 1906.)
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002989_022.tif'/>
+        <page>
+          <![CDATA[AIR FRANCE
 RÉSEAU AÉRIEN MONDIAL
-
 EUROPE
 AFRIQUE
 AMÉRIQUE p v SUD
 ORIENT
 EXTRÉME-ORIENT
-
 RAPIDITÉ - CONFORT - SÉCURITÉ
-
 —
 —
 |
 réqire
-
 Outre les avantages d'une grande rapidité, les avions de
 la Compagnie AIR FRANCE offrent, par leur installation
-
 luxueuse, le plus grand confort à leurs passagers.
-
 Les appareils de la Compagnie AIR FRANCE
 assurent des liaisons aériennes entre tous les pays
 d'Europe, de l'Afrique du Nord, de l'Extrême-Orient
-
 et de l'Amérique du Sud.
-
 lls parcourent journellement une distance de
-
-410.000 kilomêtres.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002989_023.tif"/>
-<page><![CDATA[Les symphonies de Bruckner sont animées d’un esprit fort
+410.000 kilomêtres.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002989_023.tif'/>
+        <page>
+          <![CDATA[Les symphonies de Bruckner sont animées d’un esprit fort
 différent de celui de la symphonie beethovenienne, esprit qui
 tlent à sa nature personnelle et à sa formation. Bruckner ap-
 partenait très profondément à sa race et au milieu de sa naissance
@@ -756,7 +584,6 @@ bert), sa forme n'’est pas, elle-même, dynamique, elle ne fait
 qu'ordonner le déroulement et la succession de pures images
 musicales, qui ont leur dynamisme propre, que l’auditeur ne
 percevra que s’il s’attache lui-même à ces images.
-
 La VIIe Symphonie, en mi majeur, a écrit William Ritter, fer
 vent admirateur de Bruckner, est dédié au roi Louis II de Bavière.
 Le maître y travailla de 1881 à 1883, achevant le premier
@@ -772,44 +599,30 @@ nuth, Dresde, avec Schuch,  Amsterdam, avec de Lange,
 apprennent à la connaître et, dès lors, c’estâ après le IVe, la
 plus souvent jouée. Ce fut peut-être la seule fois de sa vie que
 Bruckner, grâce à elle, connut un certain succès à Vienne, et
-l'Adagio désarma même Hanslick. Aujourd'hui, nous trouvons]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002989_024.tif"/>
-<page><![CDATA[Cie
-
+l'Adagio désarma même Hanslick. Aujourd'hui, nous trouvons
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002989_024.tif'/>
+        <page>
+          <![CDATA[Cie
 T RED-PUBLICITE 154|
-
 DEMANDEZ-NOUS UNE OFFRE DE DÉMONSTRATION GRATUITE DE :
 MARCONI - INGELEN - POINT BLEU - PAILLARD - PHILIPS - TELEFUNKEN - ere.
-
 SOIT POUR APPAREILS DE RADIO, TELÉDIFFUSION OU COMBINES RADIO-TÉLEDIFFUSION
-
 Demandez nous une offre pour nos différents départements représentés par le cliché ci-dessus
-
 RADIO-ÉLECTRO ;
-
 GALERIES CENTRALES A. ROSSET & C TÉLÉPHONE 54.343
-
 Escompte au comptant - Vente à tempérament - Location et échange - Installation, réparation
-
 Assurance par abonnement pour lampes de radio et réparations avec
-
 compte épargne-
-
- 
-
- 
-
- 
-
 e e
-—]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002989_025.tif"/>
-<page><![CDATA[A tous les amz°s (l€ [)OI‘C/1€SÏI‘C R()Iîl(l!l(/
-
- 
-
+—
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002989_025.tif'/>
+        <page>
+          <![CDATA[A tous les amz°s (l€ [)OI‘C/1€SÏI‘C R()Iîl(l!l(/
 SIGNEZ LA PÉTITION
-
 lancée par l’Association des Amis de l'O. R. et
 l'Association Symphonique d’Amateurs pour deman-
 der aux Autorités cantonales et municipales de bien
@@ -818,7 +631,6 @@ définitivement l'existence à Genève de l'Orchestre
 Romand et son activité permanente, à l'exemple de
 ce qui existe à Berne, Bâle et Zurich pour leurs
 orchestres.
-
 Il est anormal que chaque année les mêmes ques-
 tions se représentent aussi angoissantes et que,
 finalement, nos musiciens ne reçoivent des salaires,
@@ -826,7 +638,6 @@ déja fortement diminués, que pendant 6 mois de
 l'année. À ce compte-là, les meilleurs d’entre eux
 partiront infailliblement vers des cieux plus cléments
 et ce sera fini de notre orchestre.
-
 Genève se doit, par son rang dans le monde, de
 faire honneur à sa renommée artistique, en assu-
 rant l’existence permanente de son
@@ -834,21 +645,20 @@ orchestre, dont la valeur est le fruit de 18 années
 d'actmite Pilélerdoin à - pour venir en aide au
 tourisme, à l'industrie hôtelière, et au commerce
 genevois qui, tous, y trouveront leur profit.
-
 Il faut que la question soit résolue en vue de
 la nouvelle saison et pour les années qui
 vont suivre, par l'établissement d’'un statut définitif.
-
 Signez donc sans retard la pétition déposée aux
 ;1drcsses Suivants :
 Bureau des Intérêls Je Genève, place Jdes Berques,
 Maison Sau/ùv'-./my}:'l', ptanos, place Fusterie,
 Maison Vidoudez, musique, Corralerie, 22,
-
-Véron-Grauer e3 Cic, rue Ou Mont-Blane, 22,]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002989_026.tif"/>
-<page><![CDATA[que c'est dommage !
-
+Véron-Grauer e3 Cic, rue Ou Mont-Blane, 22,
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002989_026.tif'/>
+        <page>
+          <![CDATA[que c'est dommage !
 Peut-être aurait-elle, plus que la IIIe en-
 core. droit à cette épithète de wagnérienne, puisque la hantise
 de la fin de Wagner, avant et après la catastrophe du 13 fu-
@@ -876,118 +686,74 @@ en conclusion de la symphonie entière. L'unité de l’œuvre devient
 de plus en plus stricte. Si le thème unique n'est pas encore le
 pivot de toute la machine, du moins en forme-t-il le pôle ma-
 gnétique.
-
- 
-
- 
-
-    
-
 rrz
-
 d é C
-
- 
-
-5 e]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002989_027.tif"/>
-<page><![CDATA[Comme l’'an passé, les musiciens de Genève tiennent à terminer
+5 e
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002989_027.tif'/>
+        <page>
+          <![CDATA[Comme l’'an passé, les musiciens de Genève tiennent à terminer
 la saison musicale sur une note d'humour et de gaité, en vous
 invitant à assister à la
-
 SOIRÉE
-
 _ organisée par le Musica Football-Club, à la
 SALLE DES AMIS DE L'INSTRUCTION
 le samedi 20 mars 1937 à 20 h. 45
-
 AU PROGRAMME
-
 La nouvelle revue de Terval
 La Ruée Vers l’Art
 3 actes de fou-rire
-
 avec tous les artistes, qui firent votre joie dans la fameuse
-
 revue de l'année dernière KARR-ROSSERIES
-
 Après le spectacle
-
 GRAND BAUL
-
 En Blanc..…hes et Noir…es
-
 4 ORCHESTRES
-
 l BOB ENGEL
 ME C0 MRE
-
 ICASIN’HOTl l GRACIOUS GIRLS I l CRISTEN l
-
- 
-
- 
-
 Billets au prix unique de Frs. 2.30 ‘droit des pauvres compris)
 en vente chez Sautier et Jæger, pianos. Fusterie
-
 Le bénéfice de la Soirée sera affecté à la Caisse Assurance Vieillesse du
-Syndicat des Musiciens,]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002989_028.tif"/>
-<page><![CDATA[]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002989_029.tif"/>
-<page><![CDATA[— ns
-
+Syndicat des Musiciens,
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002989_028.tif'/>
+        <page><![CDATA[]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002989_029.tif'/>
+        <page>
+          <![CDATA[— ns
 mamecc es
-
- 
-
 î
 f
 Ï
 |
-
- 
-
 t ts c
-
- 
-
- 
-
 Hos manteaux ont un
-
 cachet d'élégance sportive
-
 el sont vendus depuis 59 fr.
-
 USPORTS
-
-S.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002989_030.tif"/>
-<page><![CDATA[SOCIÉTÉ DE
-
+S.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002989_030.tif'/>
+        <page>
+          <![CDATA[SOCIÉTÉ DE
 BANQUE SUISSE
-
 FONDEE EN 1872
-
 Capital-action et réserves, Fr. 193.000.000
-
 GENÈVE
-
 2, RUE DE LA CONFEDERATION, 2
-
 PLAINPALAIS EAUX : VIVES
 CORNAVIN CAROUGE
-
 Nos bureaux de change
-
 GARE DE CORNAVIN ET GARE DES EAUX-VIVES
-
 sont ouverts tous les jours, dimanches compris
-
-Imp. Grivet, Genève]]></page>       
-        </p>
+Imp. Grivet, Genève
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

@@ -1,74 +1,78 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title><date when="21/05/1882"/></title>
-<series>1881-1882</series>
-<placeName>Jardin anglais</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            <date when='21/05/1882'/>
+          </title>
+          <series>1881-1882</series>
+          <placeName>Genève, Jardin anglais</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VG2-1 F000906</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>[Senger, H. de ?] (dir)</note>
+        <note>Date présumée</note>
+        <note>Interprète incertain</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18820521"/>
-<placeName key="Jardin anglais"/>
-<name key="1881-1882" type="series"/>
-<name key="Faust"  type="person" role="cmp">Faust</name>
-<name key="Metra"  type="person" role="cmp">Metra</name>
-<name key="Hérold"  type="person" role="cmp">Hérold</name>
-<name key="Waldteufel"  type="person" role="cmp">Waldteufel</name>
-<name key="[Senger, Franz Ludwig Hugo von  ?] (dir.)" ref="https://muscat.rism.info/admin/people/30015297" type="person" role="int">[Senger, Franz Ludwig Hugo von  ?] (dir.)</name>
-<name key="[Orchestre de la Ville de Genève ?]"  type="person" role="int">[Orchestre de la Ville de Genève ?]</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_1_f000906_001.tif"/>
-<page><![CDATA[Ç
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18820521'/>
+        <placeName key='Genève, Jardin anglais'/>
+        <name key='1881-1882' type='series'/>
+        <name key='Faust' type='person' role='cmp'>Faust</name>
+        <name key='Metra' type='person' role='cmp'>Metra</name>
+        <name key='Hérold' type='person' role='cmp'>Hérold</name>
+        <name key='Waldteufel' type='person' role='cmp'>Waldteufel</name>
+        <name key='Senger, Franz Ludwig Hugo von' ref='https://muscat.rism.info/admin/people/30015297' type='person' role='int'>Senger, Franz Ludwig Hugo von</name>
+        <name key='Orchestre de la Ville de Genève' type='person' role='int'>Orchestre de la Ville de Genève</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_1_f000906_001.tif'/>
+        <page><![CDATA[Ç
 ;
 ,
-
 e .
-
 Æ
-
 v
-
-  
-  
-
- 
-
-u .]]></page>       
-        </p>
+u .
+]]></page>
+      </p>
     </body>
   </text>
 </TEI>

@@ -1,128 +1,107 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert populaire<date when="14/03/1933"/></title>
-<series>1932-1933</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert populaire
+            <date when='14/03/1933'/>
+          </title>
+          <series>1932-1933</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002884</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Gabelles, G.</note>
+        <note>Pochon, A. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19330314"/>
-<title>Concert populaire</title>
-<placeName key="Victoria Hall"/>
-<name key="1932-1933" type="series"/>
-<name key="Saint-Saëns, Camille" ref="https://muscat.rism.info/admin/people/76734" type="person" role="cmp">Saint-Saëns, Camille</name>
-<name key="Messager, André" ref="https://muscat.rism.info/admin/people/92078" type="person" role="cmp">Messager, André</name>
-<name key="Rhené-Baton"  type="person" role="cmp">Rhené-Baton</name>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Smetana, Bedřich" ref="https://muscat.rism.info/admin/people/144306" type="person" role="cmp">Smetana, Bedřich</name>
-<name key="Grieg, Edvard" ref="https://muscat.rism.info/admin/people/84066" type="person" role="cmp">Grieg, Edvard</name>
-<name key="Veit, Václav" ref="https://muscat.rism.info/admin/people/137732" type="person" role="cmp">Veit, Václav</name>
-<name key="Mascagni, Pietro" ref="https://muscat.rism.info/admin/people/84056" type="person" role="cmp">Mascagni, Pietro</name>
-<name key="Berlioz, Hector" ref="https://muscat.rism.info/admin/people/13803" type="person" role="cmp">Berlioz, Hector</name>
-<name key="Rossini, Gioachino" ref="https://muscat.rism.info/admin/people/63766" type="person" role="cmp">Rossini, Gioachino</name>
-<name key="Orth"  type="person" role="cmp">Orth</name>
-<name key="Gabelles, Gustave  (dir.)" ref="https://muscat.rism.info/admin/people/30073762" type="person" role="int">Gabelles, Gustave  (dir.)</name>
-<name key="Pochon, Ant. (dir.)"  type="person" role="int">Pochon, Ant. (dir.)</name>
-<name key="Harmonie Nautique"  type="person" role="int">Harmonie Nautique</name>
-<name key="[Société] chorale des Eaux-Vives"  type="person" role="int">[Société] chorale des Eaux-Vives</name>
-<name key="Pageot, Marthe"  type="person" role="int">Pageot, Marthe</name>
-<name key="Bavaud, Alexandre"  type="person" role="int">Bavaud, Alexandre</name>
-<name key="Piotton, J."  type="person" role="int">Piotton, J.</name>
-<name key="Lombard, G."  type="person" role="int">Lombard, G.</name>
-<name key="Veyrat, E."  type="person" role="int">Veyrat, E.</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002884_001.tif"/>
-<page><![CDATA[\
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19330314'/>
+        <title>Concert populaire</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1932-1933' type='series'/>
+        <name key='Saint-Saëns, Camille' ref='https://muscat.rism.info/admin/people/76734' type='person' role='cmp'>Saint-Saëns, Camille</name>
+        <name key='Messager, André' ref='https://muscat.rism.info/admin/people/92078' type='person' role='cmp'>Messager, André</name>
+        <name key='Rhené-Baton' type='person' role='cmp'>Rhené-Baton</name>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Smetana, Bedřich' ref='https://muscat.rism.info/admin/people/144306' type='person' role='cmp'>Smetana, Bedřich</name>
+        <name key='Grieg, Edvard' ref='https://muscat.rism.info/admin/people/84066' type='person' role='cmp'>Grieg, Edvard</name>
+        <name key='Veit, Václav' ref='https://muscat.rism.info/admin/people/137732' type='person' role='cmp'>Veit, Václav</name>
+        <name key='Mascagni, Pietro' ref='https://muscat.rism.info/admin/people/84056' type='person' role='cmp'>Mascagni, Pietro</name>
+        <name key='Berlioz, Hector' ref='https://muscat.rism.info/admin/people/13803' type='person' role='cmp'>Berlioz, Hector</name>
+        <name key='Rossini, Gioachino' ref='https://muscat.rism.info/admin/people/63766' type='person' role='cmp'>Rossini, Gioachino</name>
+        <name key='Orth' type='person' role='cmp'>Orth</name>
+        <name key='Gabelles, Gustave' ref='https://muscat.rism.info/admin/people/30073762' type='person' role='int'>Gabelles, Gustave</name>
+        <name key='Pochon, Ant.' type='person' role='int'>Pochon, Ant.</name>
+        <name key='Harmonie Nautique' type='person' role='int'>Harmonie Nautique</name>
+        <name key='Société chorale des Eaux-Vives' type='person' role='int'>Société chorale des Eaux-Vives</name>
+        <name key='Pageot, Marthe' type='person' role='int'>Pageot, Marthe</name>
+        <name key='Bavaud, Alexandre' type='person' role='int'>Bavaud, Alexandre</name>
+        <name key='Piotton, J.' type='person' role='int'>Piotton, J.</name>
+        <name key='Lombard, G.' type='person' role='int'>Lombard, G.</name>
+        <name key='Veyrat, E.' type='person' role='int'>Veyrat, E.</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002884_001.tif'/>
+        <page>
+          <![CDATA[\
 \—‘Èl‘
 É
-
 OE DE DEDEN
-
 VILLE DE GENÈVE
 Saison 1932-1933
-
- 
-
- 
-
-   
-
- 
-
- 
-
- 
-
- 
-
 ue
-
- 
-
- 
-
 ‘Jl; sERVICE  DES sSPECTACLKES ET CONCERS
-
 â .
-
 | Mardi 14 Mars 1933, à 20 h. 30
-
 , CONCERT POPULAIR
-
 b. | organisé par le Conseil Administratif de la Ville de Genève
 ‘l avec le gracieux concours de
 ; L’Harmonie Nautique (Harmonie municipale) | La Chorale des Eaux-Vives
-
 Chef: M. Gustave GABELLES Chef: M. Ant POCHON
 et de
-
 Mre Marthe PAGEOT M. Alexandre BAVAUD
-
 cantatrice baryton
 prix de virtuosité du Conservatoire
-
 PROGRAMME
 PREMIÈRE PARTIE 5 Hommage ; ; . Smetana
 6
-
- 
-
- 
-
 1. Marche héroïque … Saint-Saëns - La nouvelle patrie  E. Grieg
 t b 1 MEU Pisiton) (baryton solo: M. G. Lombard)
 l romDone solo : - J. Flotton f
@@ -138,32 +117,13 @@ a) Air d’Elisabeth. (cor anglais: M. E. Veyrat)
 b) C (chant et orchestre) M. Alex. Bavaud.
 ») Ouverture. 12. Dans un magasin d’horlogerie . Orth
 Harmonie Nautique. |
-
 Harmonie Nautique.
-
- 
-
- 
-
 Les portes seront rigoureusement fermées pendant l’exécution des morceaux.
-
- 
-
- 
-
- 
-
-    
-
- 
-
- 
-
- 
-
 Al RE [
-DIOAPO A OO A TO A SO SS]]></page>       
-        </p>
+DIOAPO A OO A TO A SO SS
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

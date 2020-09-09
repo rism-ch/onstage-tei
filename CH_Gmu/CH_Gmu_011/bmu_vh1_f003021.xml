@@ -1,195 +1,146 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>7me concert de l'abonnement<date when="11/01/1939"/></title>
-<series>1938-1939</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            7me concert de l'abonnement
+            <date when='11/01/1939'/>
+          </title>
+          <series>1938-1939</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F003021</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Hoesslin, F. von (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19390111"/>
-<title>7me concert de l'abonnement</title>
-<placeName key="Victoria Hall"/>
-<name key="1938-1939" type="series"/>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Hoesslin, Franz von (dir.)"  type="person" role="int">Hoesslin, Franz von (dir.)</name>
-<name key="Orchestre de la Suisse Romande" ref="https://muscat.rism.info/admin/people/50007615" type="person" role="int">Orchestre de la Suisse Romande</name>
-<name key="Aubert, Johnny"  type="person" role="int">Aubert, Johnny</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003021_001.tif"/>
-<page><![CDATA[l ORCHESTR
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19390111'/>
+        <title>7me concert de l'abonnement</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1938-1939' type='series'/>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Hoesslin, Franz von' type='person' role='int'>Hoesslin, Franz von</name>
+        <name key='Orchestre de la Suisse Romande' ref='https://muscat.rism.info/admin/people/50007615' type='person' role='int'>Orchestre de la Suisse Romande</name>
+        <name key='Aubert, Johnny' type='person' role='int'>Aubert, Johnny</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003021_001.tif'/>
+        <page><![CDATA[l ORCHESTR
 |
-
-    
-    
-
- 
-
- 
-
- 
-
 .
-
-  
-
-SUISSE ROMANDE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003021_002.tif"/>
-<page><![CDATA[Genève
-
+SUISSE ROMANDE
+]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003021_002.tif'/>
+        <page>
+          <![CDATA[Genève
 11, rue de la Dôle
-
 S. À. ATAR,
-
- 
-
- 
-
 vF ŒŒ F
-
- 
-
- 
-
- 
-
 Imprimerie . Lithographie
 Offset . Clichés
 Affiches . Musique
-
- 
-
-  
-
- 
-
- 
-
-    
- 
-
 RUE DU RHONE, 98 (Entresol)
-
 RADIO
-
 GRAMOPHONES
-IDN OUINEES ,]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003021_003.tif"/>
-<page><![CDATA[Conseil (le Fonclation (1@
+IDN OUINEES ,
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003021_003.tif'/>
+        <page>
+          <![CDATA[Conseil (le Fonclation (1@
 1’Orcluestre (]€ la Suisse Romanclc
-
- 
-
 Président : M. Paul LACHENAL, Genève.
 Vice-Président : M. Dr Frédéric BLANCHOD, Lausanne.
 Secrétaire : M. René DOVAZ.
-
 Trésorier : M. Henri BROLLIET.
-
 Conseillers délégués :
-
 MM. Pierre JACCOUD, Genève. Emile HEUBI, Lausanne.
 Emile UNGER, Genève. Félix POMMIER, Dir. de la
 Société des Emissions Radio-Genève. Le Directeur de la-
 Société romande de Radiodiffusion.
-
 Membres :
-
 Un Représentant de chacun des Gouvernements cantonaux de Genève,
-
 Deux
 Deux
 Deux
 Deux
 Le Di
-
 Vaud, Neuchâtel, Berne (pour le Jura de langue française),
 Fribourg, Valais.
-
 Représentants du Conseil administratif de la Ville de Genève.
 Représentants du Conseil municipal de la Ville de Lausanne.
 Délégués de l’Association genevoise des Amis de l'O. R.
 Délégués de l’Association vaudoise des Amis de l'O.R.
 recteur général de la Sociét: suisse de Radiodiffusion.
-
 Un délégué de la Société des Emissions Radio-Genève.
-
 MM.
-
 MM.
-
 » de la Société romande de Radiodiffusion.
-
 » de la Commission des programmes de Sottens.
-
 » des artistes-musiciens de l'Orchestre.
-
 Conseiller d’Etat Louis CASAI, MM. les Conseillers admi
 nistratifs Jules PENEY et Marius NOUL, MM. Philippe
 ALBERT, Léopold BOISSIER, Alfred BOREL, André GUI-
 NAND, Maxime HAISSLY, E. JAQUES-DALCROZE, Alfred
 PELLIGOT, Maurice PICTET de ROCHEMONT, Marcel
 RAYMOND, Alfred VIDOUDEZ, à Genève ;
-
 Jacques BERANGER, René BICKART, Roger CORREVON,
 Auguste MARGUERAT, J- NICATI de LUZE, Georges
 ROSSET, Henri STIERLIN-VALLON, à Lausanne ;
-
 Samuel GETAZ et E. ROSSIER-GEORG, à Vevey, François
 ESSEIVA et D' Paul RYNCKI, à Fribourg, Claude Du
 PASQUIER, à Neuchâtel, Tell PERRIN, La Chaux-de-Fonds,
 Edmond BILLE et Gustave TURINI, à Sierre.
-
 Aoministration :
-
 Administrateur-Délégué : MM. Alfred VIDOUDEZ.
-
 Secrétaire : Ernest GIOVANNA.
-Directeur-Chef d'orchestre : Ernest ANSERMET]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003021_004.tif"/>
-<page><![CDATA[GEE MU
-
+Directeur-Chef d'orchestre : Ernest ANSERMET
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003021_004.tif'/>
+        <page>
+          <![CDATA[GEE MU
 Dir. Yve BUYSSENS
-
 Enseignement donné par des professeurs de tout
 premier ordre, sur des bases nouvelles d’éducation
-
 QUELQUES PROFESSEURS :
-
 Messieurs François Capoulade et Henri Honegger, solistes de l'Orchestre
 Romand; présideront à l'organisation des classes de violon et violoncelle.
 Monsieur Engelbert Kreml, lauréat du concours Schumann 1937 et directeur
@@ -201,177 +152,126 @@ sation sur des bases auditives; Monsieur Al. Maeder enseignera l’orgue.
 Monsieur Georges Desprez, diplôme belge, dirigera une classe de Jazz
 artistique pour un et deux pianos et Madame Camylle Hornung, auteur
 de pièces radiophoniques donnera des cours de diction.
-
 INSCRIPTIONS AU DEBUT DE CHAQUE MOIS
-
 Demandez le programme détaillé auprès du
-
 LYCÉE MUSICAL - Rue Charles-Giron. 9
-Réception de 5 à 7 heures. Tél. 2 33 96]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003021_005.tif"/>
-<page><![CDATA[ASSOCIATION DES AMIS DE L'ORCHESTRE ROMAND
-
+Réception de 5 à 7 heures. Tél. 2 33 96
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003021_005.tif'/>
+        <page>
+          <![CDATA[ASSOCIATION DES AMIS DE L'ORCHESTRE ROMAND
 Comité :
 MM. Pierre JACCOUD, Président ;
 Henri BROLLIET, Vice-président ;
 Charles BABEL, T”résorier ;
 Edmond MARTIN-ACHARD, Secrétaire.
-
 WM. Léopold BOISSIER, Alfred BOREL, Emile BRUNSCHWIG,
 René DOVAZ, Jean DUCHOSAL, Dr Maurice GILBERT,
 Frank MARTIN, Félix POMMIER, Emile UNGER, Charles
 ZANELLO.
-
 L’Association des Amis de l’Orchestre Romand a été créée dans
 l'idée d’apporter à l’institution de l’orchestre un appui moral et
 financier :
-
 a) en faisant en sa faveur une active propagande ;
-
 b) en mettant à sa disposition le produit des contributions de ses
 membres, ainsi que les dons et legs spéciaux qui pourraient lui
 être faits.
-
 C'est par l’organe des Amis de l’Orchestre Romand que s’est
 opérée la jonction des ressources publiques et des ressources radio-
 phoniques en vue d’agrandir et de stabiliser notre orchestre.
-
 C'est d’eux que dépend le maintien de l’état actuel des choses.
 Les Amis de l'Orchestre Romand représentent l’apport du public et
 la voix du public devant les autorités et les institutions radiopho-
 niques, dans l’œuvre commune de l’orchestre.
-
 Si vous voulez le maintien du grand Orchestre de la Suisse
 Romande.
-
 Si vous désirez aussi le maintien des con:erts d'abonnement.
-
 Adhérez aux Amis de l'O. R. et souscrirez un abonnement
 aux 12 concerts de la saison 1938-1939.
-
- 
-
 On peut devenir membre de l’Association des Amis de l’Or-
 chestre Romand, en s’inscrivant auprès d'um des Membres du
 Comité ou au Bureau de location de l'O.S.R., Magasin de musique
 Vidoudez, Corraterie, 22.
-
 La cotisation annuelle minimum est de Fr. 5—. Toutefois,
 lout montant supérieur sera reçu avec recomtaissance.
-
 COMPTE DE CHEQUES POSTAUX I. 6870
-
 L E UE
-
-19 B° HELVETIQUE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003021_006.tif"/>
-<page><![CDATA[Denirs
-
- 
-
+19 B° HELVETIQUE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003021_006.tif'/>
+        <page>
+          <![CDATA[Denirs
 ÂO/ montres les /7//0//X
-
 de
 GOLAY fil « SITAHL €
 AI fils & A e
 Place des H(‘l‘çill(‘!
 @G FN ° r
 - sonf renüies nour leurs
-bienfacture, qualile, Goul € prix.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003021_007.tif"/>
-<page><![CDATA[Ï ==s s== sA Ss
+bienfacture, qualile, Goul € prix.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003021_007.tif'/>
+        <page>
+          <![CDATA[Ï ==s s== sA Ss
 |
 ! ;
-
 | Orchestre de la Suisse Romande
-
- 
-
 VICTORIA-HALL
-
 ——Fs SS
-
 srrmnecees
 —
 p
-
 Mercrcc/z 11 Janvier 1959, à 20 /1 50 Îﬂ
-
 l Æ
 Ï
-
 e m
-
 7" Concert de l’'Abonnement
-
 |
-
 Ë
-
 Direction
-
 FRANZ VON HCŒŒSSL.IN
-
 m SOÏISŒ‘ ;
-
 Æ JOHNNY AUBERT
 |
 }
-
 PIANISTE
-
-  
-
 B s.
 ——
 =—
 —
-
 —
-
 Œ P/'()31'0 mme o//f<‘fc[
 )
-
- 
-
-50 centimes]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003021_008.tif"/>
-<page><![CDATA[>, rue des Alpes
-
- 
-
+50 centimes
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003021_008.tif'/>
+        <page>
+          <![CDATA[>, rue des Alpes
 paris-ll(‘use téléphone 23370
-
 paul daunay
-
-   
-
 couturier
-
-à genève]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003021_009.tif"/>
-<page><![CDATA[PROGRAMME
-
+à genève
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003021_009.tif'/>
+        <page>
+          <![CDATA[PROGRAMME
 Première partie
-
 |. Ouverture et airs de ballet de Prométhée
-
 Ouverture - Allegro vivace - Adagio, andante
 quasi allegretto - Allegro con brio - Adagio,
-
 . allegro - Finale.
-
 2. Concerto n° 5, en mi bémol ...
 Pour piano et orchestre.
-
 a) Allegro ;
 b) Adagio un poco mosso - attaca :
 c) Rondo (allegro).
-
 M. Johnny AUBERT
-
 Deuxième panrtie
-
 3. Symphonie n° 6, en (a ma|. (Pastorale)
 a) Allegro ma non troppo (Impressions heu-
 reuses à l’arrivée à la campagne).
@@ -380,98 +280,60 @@ ruisseau).
 . . c) Allegro (Fête villageoise). - Allegro (Orage).
 | d) Allegretto (Chant des bergers. - Sentiments
 de reconnaissance après l’orage).
-
- 
-
- 
-
 19 B° HELVETIQUE
-
 f nuno L
-
 Beethoven
-
 Piano de cancent Schmidt-Flohn aux aoins de la Maison Keller
-
- 
-
 i
 !
-«]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003021_010.tif"/>
-<page><![CDATA[PIANOS
-
+«
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003021_010.tif'/>
+        <page>
+          <![CDATA[PIANOS
 VENTE - ÉCHANGE - LOCATION
 ACCORDS ET RÉPARATIONS
-
 RADIOS
-
 FACILITÉS DE PAIEMENTS
-
-    
-
 H.WEBER
-
 Bd.James Fazy.11.
-
 TÉLÉPHONE 2.36.51
-
- 
-
- 
-
- 
-
- 
-
 PRh
-
 Cité, 8 —  Corraterie, 9
-
 ME E
 LIVRES
-
 neufs et d'occasion
-
 A l'occasion de l'agrandissement de notre
 BIBLIOTHEQUE CIRCULANTE
 nous offrons un abonnement de 3 mois pour le
-
-prix exceptionnel de 5 francs]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003021_011.tif"/>
-<page><![CDATA[Louis van BEETHOVEN
+prix exceptionnel de 5 francs
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003021_011.tif'/>
+        <page>
+          <![CDATA[Louis van BEETHOVEN
 Né à Bonn le 16 décembre 1770, mort à Vienne le 26 mars 1827.
-
 Musique du ballet PROMETHEE, op. 43.
-
 e ballet « Gli Uomini di Prometheo », composé en 1800,
-
 est la première œuvre scénique de Beethoven. Le scénario
-
 ‘eb avait été fourni par un chorégraphe célèbre, nommé
-
 Salvatore Vigano. Le sujet: Dieu ou génie du feu, créateur de
-
 la race humaine, personnification du génie de l'homme, repré-
-
 senté en tableaux chorégraphiques, conformément à la mytho-
 logie grecque.
-
 Vigano jeta les yeux sur Beethoven pour composer la musique
 de son ballet, en quoi, certes, il fit preuve de goût et de
 clairvoyance.
-
 L'original paraît avoir été écrit pour le clavecin (Bello serio
 per il clavecimbalo o pianoforte) et il est dédié à S. A. la
 princesse Lichnowsky, née comtesse Thun.
-
 La première représentation eut lieu au Burg-Theater de
 Vienne, le 28 mars 1801. L'œuvre obtint tout d'abord un vif
 succès, malgré les discussions provoquées entre musiciens par
 le début de l'Ouverture, et l’opposition désormais affirmée des
 scolastiques. Succès sans lendemain, puisque l’œuvre ne fut
 jamais reprise durant la vie de Beethoven.
-
 À ce ballet se rattache une petite anecdote qui semblerait
 prouver que Joseph Haydn n'avait pas gardé, pour le talent
 de Beethoven l'estime qu'il lui avait accordée jadis. Quelque
@@ -483,61 +345,40 @@ tions », lui dit-il d'un petit air dégagé, c'est gentil, et ça m'a
 plu tout à fait. — Ah ! cher papa, répondit Beethoven en jouant
 sur les mots, je suis encore bien loin de la « Création ». — C'est
 vrai, MOn garçon, répliqua le vieux maître, et je doute fort
-que vous y arriviez jamais ».]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003021_012.tif"/>
-<page><![CDATA[UTHIER
-
+que vous y arriviez jamais ».
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003021_012.tif'/>
+        <page>
+          <![CDATA[UTHIER
 LOGATION
 EGHANGES
 RÉPARATIONS
-
 L
 ï
 N
 4, - —rmaee
-
- 
-
 1°" étage Tél. 4 11 24
 VIOLONS - ALTOS - VIOLONCELLES
 CONTREBASSES
-
 Archets, Cordes, Etuis, Housses
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 ACCIDENTS
-
 Tautes comlinaidons d'atéurances
 Accidents - Responsalilite cinile
 “Maladie
-
-LONGEMALLE, |]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003021_013.tif"/>
-<page><![CDATA[|
+LONGEMALLE, |
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003021_013.tif'/>
+        <page>
+          <![CDATA[|
 |
 Ï
 /
 |
 Ï
 Ï
-
- 
-
- 
-
 CONCERTO Ne 5, en mi bémol.
-
 ' eethoven a écrit cinq concertos pour le piano. Mozart en a
 F composé une vingtaine. Ils étaient tous les deux pianistes,
 et comme tels, des virtuoses fort remarquables. Tous
@@ -552,7 +393,6 @@ pas être toujours suffisant, puisqu'un pianiste réputé comme
 Clémenti, pour qui Beethoven avait une estime particulière, avait
 jugé bon de s'associer à un éditeur anglais, et, tout en donnant
 des concerts sur le continent, « voyageait pour la maison ».
-
 Par profession, Beethoven était un pianiste et un compositeur;
 un peu, aussi, chef d'orchestre, avec plus de conviction que de
 savoir-faire. Pour faire une carrière fructueuse en qualité de chef
@@ -567,7 +407,6 @@ des principaux théâtres de Vienne: mais il ne reçut même pas
 de réponse. Plus tard, il ambitionna plus modestement le seul
 titre honorifique de Kapellmeister de la cour, qui ne lui fut
 pas davantage accordé.
-
 Restait, comme suprême ressource, son talent de pianiste.
 Beethoven était bien décidé à l'exploiter. Il avait beaucoup
 travaillé le piano dans sa jeunesse, et il produisait en général
@@ -577,47 +416,27 @@ Beethoven le calme, la délicatesse, le fini, qui caractérisaient la
 manière du maître de Salzbourg; mais par une plus grande
 force, par le feu d'une expression « parlante », il saisissait l'au-
 diteur. Ses improvisations, sans avoir le développement réfléchi
-et conséquent de celles de Mozart, étaient un torrent d'idées]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003021_014.tif"/>
-<page><![CDATA[UNION
+et conséquent de celles de Mozart, étaient un torrent d'idées
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003021_014.tif'/>
+        <page>
+          <![CDATA[UNION
 DE
 BANQUES SUISSES
-
- 
-
 G E N E y F
-
 Angle rue du Rhône et rue du Commerce
-
- 
-
- 
-
- 
-
- 
- 
-  
-
- 
-
-é t]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003021_015.tif"/>
-<page><![CDATA[Ac
-
+é t
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003021_015.tif'/>
+        <page>
+          <![CDATA[Ac
 e E e
-
 es se
 7 Sn A SE
-
 — rr
-
 E
-
- 
-
- 
-
 originales. Ce sont ces improvisations — partie obligée des
 concerts de pianistes en ce temps — qui surtout remplissaient
 d'admiration et d'étonnement ses contemporains. Qui n'a pas
@@ -625,7 +444,6 @@ entendu Beethoven, dit l'un d'eux, ne sait ce que c'est improviser.
 Dans l'exécution de la chose écrite, de ses propres compositions,
 entre autres, il était plus inégal, un jour plein de feu et d'expres-
 sion, le lendemain capricieux et peu correct, jusqu'à la confusion.
-
 Son talent de pianiste et d'improvisateur n'a pas peu contri-
 bué à lui ouvrir la porte des grands salons viennois, et à
 conquérir la faveur du public. II joue souvent dans des concerts;
@@ -640,7 +458,6 @@ orchestre et chœur, joués tous les deux en 1808 dans un
 concert aussi mémorable par l'importance de son programme
 entièrement nouveau — les Vme et VIme Symphonies, entre
 autres — que par sa longueur et les défaillances de l'exécution.
-
 L'année suivante, en 1809, Beethoven acheva son cinquième
 et dernier Concerto, celui en mi bémol. Mais il ne le joua pas
 lui-même, si ce n'est en séance privée, chez l'Archiduc Rodolphe.
@@ -650,7 +467,6 @@ toire, que celui-ci, écrit un journaliste, « eut peine à se contenter
 de la façon usuelle de témoigner sa reconnaissance et sa joie ».
 Par contre, lorsque, en 1812, Czerny joua ce même concerto
 dans un concert de bienfaisance, à Vienne, il n'eut aucun succès.
-
 Cette œuvre a toute l'ampleur, toute la profondeur de
 pensée d'une symphonie. Après un point d'orgue de l'instrument
 solo, entrecoupé d'accords frappés par les masses instrumen-
@@ -660,35 +476,23 @@ l'orchestre un splendide dialogue où jamais l’'un n'est sacrifié
 à l'autre. L'adagio en si majeur est un chant d'amour d'une
 suavité enchanteresse; le rondo, avec lequel il s'enchaîne, est,
 au contraire, une œuvre bouillonnante de sève, d'audace, un
-chant de victoire et de triomphe.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003021_016.tif"/>
-<page><![CDATA[VIDOUDEZ
-
+chant de victoire et de triomphe.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003021_016.tif'/>
+        <page>
+          <![CDATA[VIDOUDEZ
 LUTHIER OU CONSERVATOIRE
-
-    
-
- 
-
-   
-
 Corraterie, 22
 Téléphone 1>5
-
- 
-
- 
-
- 
-
- 
-
 La salle de démonstration du «Service de l'Electricité de Genève»,
 au Pont de la Machine, où un personnel qualifié se tient cons- ç
-tamment à la disposition du public. Téléphone 4 13 00. |]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003021_017.tif"/>
-<page><![CDATA[SYMPHONIE Ne 6, en fa majeur (Pastorale)
-
+tamment à la disposition du public. Téléphone 4 13 00. |
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003021_017.tif'/>
+        <page>
+          <![CDATA[SYMPHONIE Ne 6, en fa majeur (Pastorale)
 u printemps 1808, Beethoven, suivant son habitude, quitta
 ‘ la ville et vint passer la belle saison à la campagne
 4= près de Vienne, dans le village d'Heiligenstadt, où il
@@ -701,21 +505,16 @@ vignes. Ce fut sous ces impressions directes qu'il composa la
 « Symphonie pastorale », écrite toute entière à cette époque
 et dans ce lieu, et exécutée à Vienne pour la première fois
 à la fin de la même année, le 22 décembre 1808.
-
 Plusireurs années après le composition de la « Symphonie
 partorale », un jour qu'il se promenait dans cette même vallée,
 Beethoven sentant les anciens souvenirs se réveiller en lui,
 nota au crayon, sur une feuille de papier à musique, ces quelques
 lignes trouvées parmi ses manuscrits :
-
 « Sur le Kahlenberg — 1815 — fin septembre.
-
 « Tout-Puissant ! — Dans les bois je suis heureux — heureux
 dans les bois — où chaque arbre parle — par Toi.
-
 « O Dieu, quelle splendeur ! Dans cette forêt, sur les collines,
 — c'est le calme, — le calme pour te servir.
-
 Très peu descriptive, cette symphonie est toute de sentiment.
 Au milieu de cette belle nature c'est encore l'homme, c'est
 Beethoven, comme dans ses autres symphonies, que nous re-
@@ -725,197 +524,84 @@ et fort belle idylle: « Sinfonia Pastorella ». À tous égards, elle
 mérite son nom de pastorale. Elle est faite autrement, d'un
 autre style et non seulement d'un autre sentiment, que celle,
 par exemple, en ut mineur, sa contemporaine. Elle est moins
-concentrée, moins active, pour ainsi dire, que la Ve; on n'y]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003021_018.tif"/>
-<page><![CDATA[b
-
+concentrée, moins active, pour ainsi dire, que la Ve; on n'y
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003021_018.tif'/>
+        <page>
+          <![CDATA[b
 VIOLONCELLE - MË»IQUE D'ENSEMBLE
 Franz WALTER
-
 Z° violoncelle-soilo de l’O.R.
 Professeur au Conservatoire
-
 Rue de l’Université, 5 Tél. 4 87 70
-
 QUELQUES PROFESSEURS RECOMMANDÉS...
-
- 
-
 VIOLON - MUSIQUE D'ENSEMBLE
 Marcel Clerc
-
 Violoniste Soliste de concerts
-
 ÉDUCATION NOUVELLE ET RATIONNELLE
-
 3, rue des Vollandes — Tél. 45861
-
- 
-
- 
-
 N
-
 GUY BECKMANS
-
 de l'Opéra
 POSE de la VOIX - MISE en SCENE
-
 Bd Georges-Favon, 3 Tél. 4 91 91
-
 _
 Louise Gardon
-
 Pose de la voix - Accompagnement
 Répertoire
-
 Bd Georges-Favon,3 Tél. 4 91 91
-
- 
-
- 
-
 , .
 Henée Depiere
 Professeur diplômé
-
 ENSEIGNEÈMENT DU VIOLON
 ET PÉDAGOGIE DES DÉBUTS
-
- 
-
- 
-
 Rue de la Tour-Maîtresse; 2 Tél. 861 71
-
- 
-
- 
-
 ECOLE ARTISTIQUE DE MUSIQUE k
 (Fondée en 1902)
-
 Louis PIANTONI
-
 Directeur
-
 TOUTES les BRANCHES de la MUSIQUE
 PROFESSEURS DIPLOMES
-
 ECOLE p EDINS - e
 MAINTIEN, ÉDUCATION
-
 EuGÈNE REVUZ
-
 PROFESSEUR
-
 RUE DU RHONE, 61 TEL. 4 59 19
-
- 
-
- 
-
- 
-
 Rue du Conseil-Général, 10
-
 CHANT - DICTION - DÉCLAMATION LYRIQUE 6
-
 vddrien Hroment
 Technicien spécialiste de la voix parlée et ‘
 de la voix chantee
-
- 
-
 Ex-artiste du Théâtre du Palais-Roya], à Paris
 Professeur supérieur de chant au Conservatoire
 de La Chaux-de-Fonds
-
 30, rue de Contamines Tel. 4 27 67
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Henry LANCE
-
 PROFESSEUR
 Ecole de Culture physique
 et Mnssage
-
 Rue du Rhône, 61 Tel. 4 74 65
-
- 
-
- 
-
- 
-
- 
-
 Albert REHFOUS | *
-
 Violoniste
 Directeur de l'Académie de Musique
-
 a repris ses cours et leçons particulières
-
 Rue du Jeu-de-lArc, 7
-
 Ses nombreuses années passées à Paris, sous la
 directlon de son maître MARSICK lui ont permis de
 former d'excellents élèves à la grande école du vioion
-
- 
-
 Voir en 2"° page : LYCÉE MUSICAL.
-
-     
- 
-    
-    
-  
-  
-  
-   
-   
-  
-     
-   
-    
-  
-
- 
- 
-
- 
-
 rrr" t
-
-   
-
 sE
-
-E E R r n e SE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003021_019.tif"/>
-<page><![CDATA[E E E e r e
-
+E E R r n e SE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003021_019.tif'/>
+        <page>
+          <![CDATA[E E E e r e
 w
-
 t
-
 PUN TTE D TT
-
- 
-
- 
-
 trouve pas, comme dans celle-ci, cette déduction d'une logique
 opiniâtre qui tend de tous ses efforts vers son but. Elle s'étale
 au contraire avec une tranquille complaisance. D'un sentiment
@@ -944,7 +630,6 @@ plient, se superposent, s'entrecroisent: sons filés, trilles, arpèges,
 vocalises, gammes, le tout sur le houle légère et harmonieuse
 des basses qui, presque d'un bout à l'autre, forme le-fond
 mouvant de ce ravissant concert.
-
 C'est dans le trio du scherzo, une danse à deux temps,
 rustique et pesante, que Beethoven introduit les trompettes.
 Avec une sage économie, il réserve ses moyens pour l'effet du
@@ -956,23 +641,17 @@ accent de pathétique effroi, marqué dès le début par le ré
 bémol des basses: en un clin d'œil la scène où s'ébattaient
 joyeusement les campagnards s'est vidée, et l'on ne perçoit plus
 qu‘un angoissant silence. — La tempête s'apaise, on sait avec
-quelle douceur, sur ce motif qui l’avait annoncée, mais qui,]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003021_020.tif"/>
-<page><![CDATA[Ces PiÀNOS de belle sanorité d'hanmanisent à
-
- 
-
+quelle douceur, sur ce motif qui l’avait annoncée, mais qui,
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003021_020.tif'/>
+        <page>
+          <![CDATA[Ces PiÀNOS de belle sanorité d'hanmanisent à
 merweille aux medures réduites du fame maderne
-
 @ Mos excludivités e
-
 , MINI-PIANO “ BURGER-JACOBI
 M ENWUEUVS CV EU
-
 STEINWAY & SONS . PLEYEL .  BLÜTHNER
-
- 
-
 LOCATION RÉPARATIONS
 ÉCHANGE ACCORDS |
 RAIDIOIS
@@ -980,258 +659,138 @@ MARCONI
 et 119
 0N
 DE S>s 0Q .ﬂ
-
 LA GLOIRE DE LA RADIO
-
 Candtruction et qualité doncre incomparalle-
-
 Justallations antinarasites « J'emvice de 1”" ordre
-
 DISGULES
-
 CLASSIQUES et NOUVEAUTÉS
-
 e &
 ŒW FUSTERIE W
-
-Maison Centenaire]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003021_021.tif"/>
-<page><![CDATA[ecehcet
-
+Maison Centenaire
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003021_021.tif'/>
+        <page>
+          <![CDATA[ecehcet
 | @
-
- 
-
- 
-
 maintenant, se courbe et s'étend comme un arc-en-ciel; le
 chalumeau et les cors, répétant à l'envi un motif agreste, intro-
 duisent le chant qui forme le thème principal de la dernière
 partie: allegretto; chant de reconnaissance, qui sans interruption
 et sans hâte déroule, en les variant, ses tranquilles périodes.
-
 Peu à peu, Beethoven se ressaisit; à ce ton de jubilation
 un peu exaltée, romantique, succédera celui d’un bonheur plus
-
 paisible du thème définitif.
-
-  
-
 Hercredi 25 Janvier 1939, à 20 h. 30
-
 au GRAND-THÉATRE
-
 8"“Concert de l’Abonnement
-
 = | S J
 sous la direction de
-
 Ernest Ansermer
-
 Ç n
 polisie :
-
 dino FRANCESCATTI
-
 violoniste
-
 u programme :
-
 1. Ouverture Ne 2 (1'°© audition)........…. Lars-Eric Larsson.
 2. Suite provençale (1'° audition) ......…. Darius Milhaud.
 3. Le Nouvel Age, symphonie concertante. |. Markevitch.
-
 (1'€ audition)
 4. Concerto en ré majeur, pour violon et orch. Brahms.
 Ouverture des Maîtres-Chanteurs....…. Wagner.
-
 Un
-
 Localion chez Vidoudez lulhier, Corralerie, 22,
-
-a parlur du vendredi 20 janvier.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003021_022.tif"/>
-<page><![CDATA[Pares . Jardins . Tenuiïis ARBRES FRUITIERS et
-
+a parlur du vendredi 20 janvier.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003021_022.tif'/>
+        <page>
+          <![CDATA[Pares . Jardins . Tenuiïis ARBRES FRUITIERS et
 D’ORNEMENT
-
- 
-
- 
-
 CONIFÈRES - ROSIERS
 PLANTES GRIMPANTES et VIVACES
-
 Engrais et spéci.Jité> horticoles
-
 CB HR
-
 _1 Cn-__’l‘âis gl‘nev0;5 d€ notre
 fabrication :
 HUMENGRAIS
-
 engrais organique spécial pour
 pelouses, etc.
-
 ROBURGINE
-
 indispensable aux jardins
-
 SPÉCIAL-MARAICHER
-
- 
-
 selon les formules des meilleurs
 une de nos créations spécialistes
-
 PÉPINIÈRES SPÉCIAL-ROSIER
-
 fortement magnesien
-
 EË @ @ @ Æ ]Ë Ë LE SARTROL
-
 puissant désinfectant pour
-
 IÊ\ R IE R IE & traitements d’hiver
-
 L'HYPNOL
-
 G E N E V E TEL 26| (5 PET|T'SACÛNNEX insecticide parfaitement dosé
-
- 
-
- 
-
- 
-
- 
-
 pour
-
-  
-  
-
 Vos Vêétements
 Vos Rideaux et Tapis…
-
 un nettoyage, une teinture
-
 de
-
 F.:E.BAECHLER
-
 teinturiers FRÈRES
-
-   
-
-   
- 
-
 Usine : S4, rue de Lausanne GENÈVE
-
-Magasins en ville]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003021_023.tif"/>
-<page><![CDATA[VICTORIA-HALL - GENEVE
-
+Magasins en ville
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003021_023.tif'/>
+        <page>
+          <![CDATA[VICTORIA-HALL - GENEVE
 MERCREDI 18 JANVIER 1939
-
 à 20 heures 30
-
 ConcertMozart
-
 donné par la
-
 SOCIÉTÉ DE CHANT SACRE
-
 sous la direction de
-
 Samuel BAUD-BOVY
-
 avec le concours de :
-
 Mesdames Messieurs
-
 Violette ANDRÉOSSI | Georges CATHELAT
-
 soprano ténor
-
 Nelly GRÉTILLAT Félix LŒFFEL
-
 alto basse
-
 M'e JU|ia BRATSCH', organiste
-
 et de |’
-
 ORCHESTRE DE LA SUISSE ROMANDE
-
 u programme :
 Th8…OS, roi d’Egypl‘6 (1"° audition)
-
 et le
-
 REQUIEM
-
 PRIX DES PLACES : Fr. 1.50 à 5— (droit des pauvres compris),
 Location chez Sautier-Jaeger, Fusterie 12 (tél, 4 21 24) et le soir à l’entrée,
-
- 
-
-Bureau de concerts ; M. Casetti-Giovanna, 16, bd des Tranchées, tél. 5 29 52]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003021_024.tif"/>
-<page><![CDATA[Djelrs u
-
+Bureau de concerts ; M. Casetti-Giovanna, 16, bd des Tranchées, tél. 5 29 52
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003021_024.tif'/>
+        <page>
+          <![CDATA[Djelrs u
 CASABLANCA “ s=#5 ü ‘
 ("nfä‘ﬂ'h MAROC M"Wm : omb- ,;ﬂ…ÔLGER!E Wago
-
 Marseille et Êaporüzdz [°'Aﬁwæ du'ﬂm=d
-
 CÂaqwz , BOtrains de voyageurs y aboutisrent. ou en partent-
 Cfaque Œm 40 paqu.zËoüa en partent ou y aboutissent
-
-  
- 
- 
-
- 
-
- 
-
 £œ1&bcmmd@,ﬁ@1æﬁuæaﬁœænﬁô
-
 Ôept cent mille voyageurs
 à destination ou en provenance
 de £'Afmque du Tord
-
- 
- 
-
 Pour tous vos Voyages
 vÂdiesser-vous à l Agence
-
 J. VERON, GRAUER & C° S.À.
-
 GENÉVE
-
- 
-
- 
-  
-   
-
- 
-
-e]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003021_025.tif"/>
-<page><![CDATA[Le soliste du prochain Concert d'Abonnement
+e
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003021_025.tif'/>
+        <page>
+          <![CDATA[Le soliste du prochain Concert d'Abonnement
 25 janvier, GRAND THÉATRE
-
 Zino FRANCESCATTI, violoniste
-
- 
-
- 
-
 Elève de son père, qui fut lui-même élève de Bazzini et
 Sivori, Francescatti paraît avoir hérité des secrets de l'extra-
 ordinaire virtuosité du grand Paganini. À cinq ans, il joua pour
@@ -1246,75 +805,53 @@ cescatti prêta son concours à toutes les grandes Associations
 symphoniques de Paris, de la province et de l'étranger. En
 Suisse, chaque nouvelle apparition fut pour lui l’occasion d'un
 succès sans cesse grandissant qui le classe aujourd'hui au premier
-rang des maîtres de l'archet.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003021_026.tif"/>
-<page><![CDATA[Grand Théâtre de Genève
+rang des maîtres de l'archet.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003021_026.tif'/>
+        <page>
+          <![CDATA[Grand Théâtre de Genève
 SOCIÉTÉ ROMANDE DE SPECTACLES
-
 Vendredi 20 janvier 1939
 Bureau à 19 h. 45 Rideau à 20 h. 15
-
 Une seule reprédentation de
-
 Pelléas « Mélisande
-
 Drame lyrique en 5 actes et 12 tableaux, de M. Mæterlinck
 Musique de Claude DEBUSSY
-
 “
-
 ©
 Delléas : Mélisande :
 M. Georges CATHELAT M'" Jane ROLLAND
 de l’Opéra-Comique de l’Opéra-Comique
 Geneviève : Golaud : Lrkel :
-
 M'° Madeleine Vhita  M.Etcheverry M. Gusiaïe Dutoit
 Yniold : M° Lise Bratschi … Le médecin : M. René Chambaz
-
 Orchestre de la Suisse Romande
-
 sous la direction de Monsieur
-
 Ernest ANSERMET
-
- 
-
 Prix des places : 1 à 9 fr. (droit des pauvres comptis).
-
 Location dès vendredi 13 janvier, tous les jours sauf le dimanche,
-de 10 h. à 12 h. 15 et de 13 h. 30 à 17 h. (Téléphone 5.00.00).]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003021_027.tif"/>
-<page><![CDATA[Pianos
+de 10 h. à 12 h. 15 et de 13 h. 30 à 17 h. (Téléphone 5.00.00).
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003021_027.tif'/>
+        <page>
+          <![CDATA[Pianos
 %nna <%)8Ïf€[
-
 anc‘ Robert Kneifel-Béroud
-
- 
-
 4, Passage des Lions (Entresol)
-
- 
-
- 
-
- 
-
- 
-
- 
-
 A (R TT TT
-
 “ CHAUDIÈRE À GAZ
-
 ‘ -POUR VOTRE VILLA VOTRE APPARTEMENT (
 ( MU A EU 2 L
 VISITEZ 4 EXPOSIÏION PERMANENTE DU SERVICE DU GAZ AU PY DE LA MACHINE
-A CLMU]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003021_028.tif"/>
-<page><![CDATA[IMP. E.-P. GRIVET, GENÈVE.]]></page>       
-        </p>
+A CLMU
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003021_028.tif'/>
+        <page><![CDATA[IMP. E.-P. GRIVET, GENÈVE.
+]]></page>
+      </p>
     </body>
   </text>
 </TEI>

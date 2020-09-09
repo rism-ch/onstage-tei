@@ -1,70 +1,80 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Trois séances de musique de chambre<date when="18/12/1890"/></title>
-<series>1890-1891</series>
-<placeName>Casino de Saint-Pierre</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Trois séances de musique de chambre
+            <date when='18/12/1890'/>
+            <date when='29/01/1891'/>
+          </title>
+          <series>1890-1891</series>
+          <placeName>Genève, Casino de Saint-Pierre</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU DG4 F001550</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt> </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18901218
-18910129"/>
-<title>Trois séances de musique de chambre</title>
-<placeName key="Casino de Saint-Pierre"/>
-<name key="1890-1891" type="series"/>
-<name key="Mozart, Wolfgang Amadeus" ref="https://muscat.rism.info/admin/people/115324" type="person" role="cmp">Mozart, Wolfgang Amadeus</name>
-<name key="Grieg, Edvard" ref="https://muscat.rism.info/admin/people/84066" type="person" role="cmp">Grieg, Edvard</name>
-<name key="Franck, César" ref="https://muscat.rism.info/admin/people/70009" type="person" role="cmp">Franck, César</name>
-<name key="Mendelssohn Bartholdy, Felix" ref="https://muscat.rism.info/admin/people/88790" type="person" role="cmp">Mendelssohn Bartholdy, Felix</name>
-<name key="Boccherini, Luigi" ref="https://muscat.rism.info/admin/people/30000391" type="person" role="cmp">Boccherini, Luigi</name>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Vivaldi, Antonio" ref="https://muscat.rism.info/admin/people/30003267" type="person" role="cmp">Vivaldi, Antonio</name>
-<name key="Schubert, Franz" ref="https://muscat.rism.info/admin/people/111603" type="person" role="cmp">Schubert, Franz</name>
-<name key="Quatuor Louis Rey"  type="person" role="int">Quatuor Louis Rey</name>
-<name key="Ysaÿe, Théophile"  type="person" role="int">Ysaÿe, Théophile</name>
-<name key="Holzmann"  type="person" role="int">Holzmann</name>
-<name key="Rey, Émile"  type="person" role="int">Rey, Émile</name>
-<name key="Rey, Louis"  type="person" role="int">Rey, Louis</name>
-<name key="Montobbio"  type="person" role="int">Montobbio</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f001550_001.tif"/>
-<page><![CDATA[@
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18901218'/>
+        <date when='18910129'/>
+        <title>Trois séances de musique de chambre</title>
+        <placeName key='Genève, Casino de Saint-Pierre'/>
+        <name key='1890-1891' type='series'/>
+        <name key='Mozart, Wolfgang Amadeus' ref='https://muscat.rism.info/admin/people/115324' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Grieg, Edvard' ref='https://muscat.rism.info/admin/people/84066' type='person' role='cmp'>Grieg, Edvard</name>
+        <name key='Franck, César' ref='https://muscat.rism.info/admin/people/70009' type='person' role='cmp'>Franck, César</name>
+        <name key='Mendelssohn Bartholdy, Felix' ref='https://muscat.rism.info/admin/people/88790' type='person' role='cmp'>Mendelssohn Bartholdy, Felix</name>
+        <name key='Boccherini, Luigi' ref='https://muscat.rism.info/admin/people/30000391' type='person' role='cmp'>Boccherini, Luigi</name>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Vivaldi, Antonio' ref='https://muscat.rism.info/admin/people/30003267' type='person' role='cmp'>Vivaldi, Antonio</name>
+        <name key='Schubert, Franz' ref='https://muscat.rism.info/admin/people/111603' type='person' role='cmp'>Schubert, Franz</name>
+        <name key='Quatuor Louis Rey' type='person' role='int'>Quatuor Louis Rey</name>
+        <name key='Ysaÿe, Théophile' type='person' role='int'>Ysaÿe, Théophile</name>
+        <name key='Holzmann' type='person' role='int'>Holzmann</name>
+        <name key='Rey, Émile' type='person' role='int'>Rey, Émile</name>
+        <name key='Rey, Louis' type='person' role='int'>Rey, Louis</name>
+        <name key='Montobbio' type='person' role='int'>Montobbio</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f001550_001.tif'/>
+        <page>
+          <![CDATA[@
 m0 _ exn ,, > n9 , e 9 … SON OMN … CON 0 … 2ON 0 _ e É
-
 ê
 Â
 ;
@@ -95,11 +105,9 @@ $
 I
 %æ
 ï
-
 X
 #
 %
-
 ï
 ï
 4
@@ -114,107 +122,59 @@ X
 ÿ
 X
 Ÿ
-
 OD OON OON
-
 eAHno … e An
-
- 
-
 Qe en
-
 Exs e 0 cO M0 _ e OD MC‘°\«; A HO ,(c‘…î >. 2ON e APH0 )
 e u— S— D T— D— ><—«%>%*<4>><——H><« M<—ä< æ ><————>
-
 el
 @SINO DF S"INT-PIEFRRE }
-
 TROIS SEANCES
-
 MUSIQUE DE CHAMBRE
-
 DONNÉES PAR LE
-
 QE TU OR POUIS REY
-
 (Cinquième année)
-
- 
-
- 
-
 mQ e
-
 Îl>ê-»$<“Ê;<Ï»>< a-<«à—%
-
 ROPUTTSQET " 6
-
 sp
-
 QT TSEOY
-
 a7
-
 AVEC LE CONCOURS DE M.
-
 THKOPHILE YSAYE
 PIANISTE
-
 M. LOUIS RÉY M, HOLZMANN
-
 Premier Violon Violoncelle
-
 Professeur à l’Académie de Musique Professeur à l'Académie de Musique
-
 PS
-
 <«ae«a<—a<ﬁa<«‘ e se A SS SE SS SE m E
 pTTeap” — seap”
-
 TQSTOHET TTQEE
-
 M. ÉMILE REY — M. MONTOBBIO
-
 Second Violon Alto
 Professeur À l'Académie de Musique De l'Orchestre de la Ville
-
 d
-
 O
-
 B ps
 Première Séance : le Jeudi 18 Décembre à % h.
-
 Deuxième Séance : le Jeudi 15 Janvier à % h.
 Troisième Séance : le Jeudi 239 Janvier à 4 h.
-
 W'î «
-
 Prix de l’'abonnement pour 3 séances …… 10 ”.
 Entrée pour une seule séance
 On trouve des billets chez Mlle FREY, magasin de musique, Corraterie, chez
 MM. BRON et BERGUER, Corraterie, et les jours de concert au Casino de
 Saint-Pierre.
-
- 
-
- 
-
- 
-
- 
-
 L e e E E E E E A A PE '3
-PITEQTT QE SS TOREST QE SE e SE 0D]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f001550_002.tif"/>
-<page><![CDATA[|“/('(/(// 18 “Décembre 1890
-
+PITEQTT QE SS TOREST QE SE e SE 0D
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f001550_002.tif'/>
+        <page>
+          <![CDATA[|“/('(/(// 18 “Décembre 1890
 PREMIÈRE SEANCE
-
 —>
-
 PROGRAMME
-
 ! Quatuor, n° 12. en sol majeur, pour
 instruments à cordes ......- Ë
 a) alleoro vwivace assai, b) menuetto
@@ -231,40 +191,29 @@ I. Quinquette en fa mineur, pour
 deux violons, alto et violoncelle. — César FRANK.
 a)moltomoderato quasi lento,b)allegro
 c) lento, con molto sentimento,
-
 d) allegro non troppo ma con fuoco.
-
 — >> x——
-
 Piano de concert ERARD aux soins de MM. BRON et BERGUER
-
 On est instamment prié de ne pas entrer per
 des morceaux.
-
 W. A. MozartT.
-
 adant l’exécution
-
-   
-
 |
-|]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f001550_003.tif"/>
-<page><![CDATA[SJeudi 15 Jfanvier 1891
-
+|
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f001550_003.tif'/>
+        <page>
+          <![CDATA[SJeudi 15 Jfanvier 1891
 DEUXIÈME SÉANCE
-
 PROGRAMME
-
 [. Quatuor, n° 4, en mi mineur, pour
 instruments à cordes...... :..... -.  MENDELSSOHN.-
 a) allegro assai appassionata, b) sherzo
 allegro di molto, c) andante, d) presto
 agitato.
-
 I. Sonate, pour violoncelle......… ; BOCHERINI.
 M. HOLZMANN.
-
 I. Quatuor en mi bémol pour piano,
 VIOIOMAItOnVIoIONncell e BEETHOVEN.
 a) grave, b) allegro na non troppo,
@@ -272,21 +221,18 @@ c) andante cantabile, d) rondo allegro
 ma non troppo
 MM. mh: YSAYF, ° REY, HOLZ-
 MANN, MONTOBBIO.
-
 ——e-
-
 Piano de concert ERARD aux soins de MM. BRON et BERGUER
-
 On est instamment prié de ne pas entrer pendant l’exécution
-des morceaux.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f001550_004.tif"/>
-<page><![CDATA[Jeudi 29 Janvier 1891
-
+des morceaux.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f001550_004.tif'/>
+        <page>
+          <![CDATA[Jeudi 29 Janvier 1891
 TROISIÈME SÉANCE
-
 e S
 PROGRAMME
-
 Quatuor n° 11, en fa mineur, pour
 instruments à cordes .. BPETHOVEN
 a) Allegro con brio b) Allegretto, ma
@@ -302,21 +248,18 @@ violor( et violoncelle...... F. ScHUBERT.
 a) Allegro moderato. b) Andante un
 motto. c) Scherzo allegro. d) Rondo
 allegro vivace.
-
 MM. T.YSAYE, L REY. HOLZMANN:
-
 e —
-
 Piano de concert FRARD aux soins de MM. BRON et BERGUER
-
 Ou est instamment prié de ne pas entrer pendant l’exécution
 des morceaux.
-
 N.-B. — Une quatrième séance de musique de chambre moderne,
 allemande, française, russe, sera gracieusement offerte aux
 abonnés. Cette séance aura lieu au mois de février 1891. Une
-affiche ultérieure en indiquera la date.]]></page>       
-        </p>
+affiche ultérieure en indiquera la date.
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

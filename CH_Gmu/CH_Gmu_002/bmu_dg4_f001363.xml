@@ -1,126 +1,117 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Les brigands<date when="11/09/1879"/></title>
-<series>1878-1879</series>
-<placeName>Plaine de Plainpalais</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Les brigands
+            <date when='11/09/1879'/>
+          </title>
+          <series>1878-1879</series>
+          <placeName>Genève, Plaine de Plainpalais</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU DG4 F001363</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Interprète incertain</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18790911"/>
-<title>Les brigands</title>
-<placeName key="Plaine de Plainpalais"/>
-<name key="1878-1879" type="series"/>
-<name key="Offenbach, Jacques" ref="https://muscat.rism.info/admin/people/111831" type="person" role="cmp">Offenbach, Jacques</name>
-<name key="Meilhac, Henri" ref="https://muscat.rism.info/admin/people/86908" type="person" role="cmp">Meilhac, Henri</name>
-<name key="Halévy, Ludovic" ref="https://muscat.rism.info/admin/people/40918" type="person" role="cmp">Halévy, Ludovic</name>
-<name key="Théâtre de Bouffes parisiens"  type="person" role="int">Théâtre de Bouffes parisiens</name>
-<name key="Grégoire, E."  type="person" role="int">Grégoire, E.</name>
-<name key="Grégoire (Mme)"  type="person" role="int">Grégoire (Mme)</name>
-<name key="[Grégoire ?] , Baptiste"  type="person" role="int">[Grégoire ?] , Baptiste</name>
-<name key="[Grégoire ?] , Joseph"  type="person" role="int">[Grégoire ?] , Joseph</name>
-<name key="Lyonel"  type="person" role="int">Lyonel</name>
-<name key="Baron"  type="person" role="int">Baron</name>
-<name key="Ponsi"  type="person" role="int">Ponsi</name>
-<name key="Bertholet"  type="person" role="int">Bertholet</name>
-<name key="Oscar"  type="person" role="int">Oscar</name>
-<name key="Polydor"  type="person" role="int">Polydor</name>
-<name key="Fernand"  type="person" role="int">Fernand</name>
-<name key="Lestrez"  type="person" role="int">Lestrez</name>
-<name key="Gaetan"  type="person" role="int">Gaetan</name>
-<name key="Herbez"  type="person" role="int">Herbez</name>
-<name key="Louise"  type="person" role="int">Louise</name>
-<name key="Spina (Mme)"  type="person" role="int">Spina (Mme)</name>
-<name key="Doze (Mme)"  type="person" role="int">Doze (Mme)</name>
-<name key="Knott"  type="person" role="int">Knott</name>
-<name key="Hortense (Mme)"  type="person" role="int">Hortense (Mme)</name>
-<name key="Clara"  type="person" role="int">Clara</name>
-<name key="Élisa"  type="person" role="int">Élisa</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f001363_001.tif"/>
-<page><![CDATA[- PLAINE DE PLAINŸAI
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18790911'/>
+        <title>Les brigands</title>
+        <placeName key='Genève, Plaine de Plainpalais'/>
+        <name key='1878-1879' type='series'/>
+        <name key='Offenbach, Jacques' ref='https://muscat.rism.info/admin/people/111831' type='person' role='cmp'>Offenbach, Jacques</name>
+        <name key='Meilhac, Henri' ref='https://muscat.rism.info/admin/people/86908' type='person' role='cmp'>Meilhac, Henri</name>
+        <name key='Halévy, Ludovic' ref='https://muscat.rism.info/admin/people/40918' type='person' role='cmp'>Halévy, Ludovic</name>
+        <name key='Théâtre de Bouffes parisiens' type='person' role='int'>Théâtre de Bouffes parisiens</name>
+        <name key='Grégoire, E.' type='person' role='int'>Grégoire, E.</name>
+        <name key='Grégoire (Mme)' type='person' role='int'>Grégoire (Mme)</name>
+        <name key='Grégoire  , Baptiste' type='person' role='int'>Grégoire , Baptiste</name>
+        <name key='Grégoire  , Joseph' type='person' role='int'>Grégoire , Joseph</name>
+        <name key='Lyonel' type='person' role='int'>Lyonel</name>
+        <name key='Baron' type='person' role='int'>Baron</name>
+        <name key='Ponsi' type='person' role='int'>Ponsi</name>
+        <name key='Bertholet' type='person' role='int'>Bertholet</name>
+        <name key='Oscar' type='person' role='int'>Oscar</name>
+        <name key='Polydor' type='person' role='int'>Polydor</name>
+        <name key='Fernand' type='person' role='int'>Fernand</name>
+        <name key='Lestrez' type='person' role='int'>Lestrez</name>
+        <name key='Gaetan' type='person' role='int'>Gaetan</name>
+        <name key='Herbez' type='person' role='int'>Herbez</name>
+        <name key='Louise' type='person' role='int'>Louise</name>
+        <name key='Spina (Mme)' type='person' role='int'>Spina (Mme)</name>
+        <name key='Doze (Mme)' type='person' role='int'>Doze (Mme)</name>
+        <name key='Knott' type='person' role='int'>Knott</name>
+        <name key='Hortense (Mme)' type='person' role='int'>Hortense (Mme)</name>
+        <name key='Clara' type='person' role='int'>Clara</name>
+        <name key='Élisa' type='person' role='int'>Élisa</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f001363_001.tif'/>
+        <page>
+          <![CDATA[- PLAINE DE PLAINŸAI
 7".Di,iËe‘Ctibn de Mme veuve GREGOIRE (109e rep.)
-
 e
-
 «
-
- 
-
 SEME
-
 - Aujourd’hui Jeudi 19 Septembre 2879
-
 1778 °3
-
 2
-
 | HUITIÈME REPRÉSENTATION DE T 24977
-
 LES BRIGANDS
-
 'îl'
-
 P
-
 % - Opéra bouffe en 3 actes, par MM, MpILHAG el HALÉVY,
 é
-
 Nar n
 p
-
 IN =
-
 q
-
 ——s
-
 UN>
-
 musique de J. OFFiENBACH.
-
 Néile ESPHER GRÉGONRLE
 remplira le rôle de Fiorella.
-
 M. BAPTISTE. M. JOSEPH. M. LYONEL.
 rôle d’Antonio, le caissier.  rôle de Falsacappa. rôle de Piétro.
-
 “ Distribution : Falsacappa, chef de brigands, MM. JosepH _— Piétro, son
 confident, sous-chef, LYoNEL — Anlonio, caissier du dnc de Mantoue,
- Barmisre. — Le comte de Gloria Cassis, ambassadeur de Grenade, BARON
+Barmisre. — Le comte de Gloria Cassis, ambassadeur de Grenade, BARON
 — Le baron de Campotasso, grand écuyer du duc de Mantoue, Ponst —
 Le chef des carabiniers, BERTHOLET. — Domino, brigand, OscAR. — Barba-
 vano, brigand, PoLynoR. — Carmagnola, brigand, FERNAND. — Le précep-
@@ -130,65 +121,39 @@ duc de Mantoue, SPINA. — La princesse de Grenade, Doze. — Adolphe de
 Valadolid, page de la princesse, KNOTT. -— Zerlina, DozE. — Frasqui-
 nella, HOrTENSE. — La duchesse Cicinella, CLARA. —La marquise, ELISA.
 Carabiniers, Seigneurs de la cour de Grenade etde Mantoue, Brigands, etc.
-
 IQ/
-
- 
-
 CHIS
-
 Ü
-
 ENSQUUME
-
 Ÿ}\ .(@.5{_‘/ FN
-
 Ouverture des burcaux à 7 h. 314 — On commencera à 8 heures 114
-
- 
-
- 
-
 à
-
 L’Administration des Bouffes-Parisiens a l’honveur de prévenir le public
-
 ; qu’elle vient de traiter avec Mlle Célime Nrey pour 5 représentations qui
-
 auront lieu aux dates suivantes : Samedi 13, La Petite Mariée; dimanche
-
 44, La Princesse de Trébizonde; \vndi 45, Madame l’Archiduc ; mardi 16
 La Périchole ; jeudi 18, Giroflé-Girofla.
-
 E
-
 m
-
 Vendredi 19 et Samedi 20, Le ibroit du Seigæeur.
-
- 
-
 PREIX DES PLACES :
-
 Loges d’avant-scène, 20 fr. (en location 21 fr.) — Loges de face, 15 fv. (en location 16 fr,)
 —- Fauteuils d’orchestre, 3 fr. (en location 3 fr. 50 e.) — Premières, ? fr. 50 c. (en loca-
 tion 3 fr.) — Stalles numérotées, 2 {r. (en location 2 fr. 50 e.) — Parterre, | fr. 25 c, —
 Denxième galerie, 1 fr. — Troisième galerie 50 centimes. ;
-
 n\l
 9
-
 — € —
 "—,—°J       
         </p>
     </body>
   </text>
 </TEI>
-
 Le Bureau de location est ouvert tous les jours de 11 h: du matin à 4 h, après-midi,
-
-$ MS CAMES GQ3 30 cn IA3)MENS ) HD]]></page>       
-        </p>
+$ MS CAMES GQ3 30 cn IA3)MENS ) HD
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

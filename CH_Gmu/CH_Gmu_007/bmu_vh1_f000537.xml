@@ -1,73 +1,83 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par le Corps de musique d'Elite (Fanfare genevoise)<date when="14/02/1904"/></title>
-<series>1903-1904</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par le Corps de musique d'Elite (Fanfare genevoise)
+            <date when='14/02/1904'/>
+          </title>
+          <series>1903-1904</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F000537</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Bergalonne, F. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19040214"/>
-<title>Concert donné par le Corps de musique d'Elite (Fanfare genevoise)</title>
-<placeName key="Victoria Hall"/>
-<name key="1903-1904" type="series"/>
-<name key="Furgeot"  type="person" role="cmp">Furgeot</name>
-<name key="Canivez"  type="person" role="cmp">Canivez</name>
-<name key="Delibes, Léo" ref="https://muscat.rism.info/admin/people/30016578" type="person" role="cmp">Delibes, Léo</name>
-<name key="Granier"  type="person" role="cmp">Granier</name>
-<name key="Léoncavallo"  type="person" role="cmp">Léoncavallo</name>
-<name key="Turine, Pierre-Joseph" ref="https://muscat.rism.info/admin/people/30072374" type="person" role="cmp">Turine, Pierre-Joseph</name>
-<name key="Gounod, Charles-François" ref="https://muscat.rism.info/admin/people/80479" type="person" role="cmp">Gounod, Charles-François</name>
-<name key="Tratten"  type="person" role="cmp">Tratten</name>
-<name key="Allier"  type="person" role="cmp">Allier</name>
-<name key="Bergalonne, F. (dir.)"  type="person" role="int">Bergalonne, F. (dir.)</name>
-<name key="Corps de musique d'Elite (Fanfare genevoise)"  type="person" role="int">Corps de musique d'Elite (Fanfare genevoise)</name>
-<name key="Bogis, de (Mme)"  type="person" role="int">Bogis, de (Mme)</name>
-<name key="Martinet, G."  type="person" role="int">Martinet, G.</name>
-<name key="Martinet, J."  type="person" role="int">Martinet, J.</name>
-<name key="Ketten, L."  type="person" role="int">Ketten, L.</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000537_001.tif"/>
-<page><![CDATA[d
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19040214'/>
+        <title>Concert donné par le Corps de musique d'Elite (Fanfare genevoise)</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1903-1904' type='series'/>
+        <name key='Furgeot' type='person' role='cmp'>Furgeot</name>
+        <name key='Canivez' type='person' role='cmp'>Canivez</name>
+        <name key='Delibes, Léo' ref='https://muscat.rism.info/admin/people/30016578' type='person' role='cmp'>Delibes, Léo</name>
+        <name key='Granier' type='person' role='cmp'>Granier</name>
+        <name key='Léoncavallo' type='person' role='cmp'>Léoncavallo</name>
+        <name key='Turine, Pierre-Joseph' ref='https://muscat.rism.info/admin/people/30072374' type='person' role='cmp'>Turine, Pierre-Joseph</name>
+        <name key='Gounod, Charles-François' ref='https://muscat.rism.info/admin/people/80479' type='person' role='cmp'>Gounod, Charles-François</name>
+        <name key='Tratten' type='person' role='cmp'>Tratten</name>
+        <name key='Allier' type='person' role='cmp'>Allier</name>
+        <name key='Bergalonne, F.' type='person' role='int'>Bergalonne, F.</name>
+        <name key='Corps de musique d&apos;Elite (Fanfare genevoise)' type='person' role='int'>Corps de musique d'Elite (Fanfare genevoise)</name>
+        <name key='Bogis, de (Mme)' type='person' role='int'>Bogis, de (Mme)</name>
+        <name key='Martinet, G.' type='person' role='int'>Martinet, G.</name>
+        <name key='Martinet, J.' type='person' role='int'>Martinet, J.</name>
+        <name key='Ketten, L.' type='person' role='int'>Ketten, L.</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000537_001.tif'/>
+        <page>
+          <![CDATA[d
 B% Portes à 1°/,h. XE
-
 DONNÉ PAR LE
-
 CORPS DE MUSIQUE D'ELITE
-
 (EÉANFARE GENEVOISE)
 SOR> P* PDIRF@ENTON DHM F BERGATONNE
 AVEC LE GRACIEUX CONCOURS DE
@@ -75,248 +85,123 @@ Mme DE BOGIS M. G. MARTINET M. J. MARTINET
 Soprano Flutiste Ténor
 M. L. KETTEN
 Professeur supérieur au Conservatoire
-
 +e-4+o
 PREMIÈRE PARTIE
-
 ISS EUIRADESENBPANTS<DE TROUPEE e Evhoron.
 ENNDEEN SREE NUPHALR 10 4 1 SQOANIVRZ.
 AIRANEENENT, (Mue DE Bocrs) 11e 0 rae: ch bs e e BÉCEDEMTANESE
 O ETE E rn n T 0 GRANER
 PIU OR PSh TONO NN TO
-
 DEUXIÈME PARTIE
 PRN CO GOV e e N Turae
 DU@O DN MIRFILLE (M" pp Bocis et M: J. MArTineT). - . * . … Gouxvop.
 O pout e (M G MArTINET) 01 T TR ATIEN.
 ETEn 10e - ALMER.
 Piano offert par la Maison G. Dubach & C
-
 e e rrr
-
 PRIX DES PLACES: Loges et premier rang de la première Galerie (numérotées), fr. ,— Rez-de-Chaussée
 et autres places de la première Galerie, fr. 1.— Seconde Galerie, fr. 0.50.
 Carles à l’avance aux adresses suivantes ; VICTORIA-HALL : CASE DE L'ONCLE TOM, rue Bonivard, 2 ;
 MM. J. BÉRANGER & Cie, rue du Rhône, 92; M. FIVAZ, Terrassière, 9
-
 MM. les membres honoraires et passifs de la « Musique d’Elite » (Fanfare Genevoise), ont droit à deux entrées à ce
 concert sur présentation de leur curte, uux places du vez-de-chaussée, el moyennant un supplément de
 | franc par place à celles de première Galerie numérotées.
-
 BUFFET AU REZ-DE-CHAUSSÉE
-
 CT AS D8
-
 MM, les membres exécutants des Corps de Musique de Landwehr, Harmonie Nautique, Union Instrumentale Genevoise,
 ont droit d'entrée à ce concert sur présentaiion de leur carte 1904
-
 . \£.\.5\.“.\_.\.m.ä.\.ë\.'ä\.‘>\.î\.‘\_.\ sS…
 >> >eeesuuaaao >>s
 Imprimerie Lours GirBkrr & Cie, Suce, de ScHaurz & Ci
-Reproduction interdite. Kditeurs des Programmes-Concerts de la Musique d’Elite Voir au verso.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000537_002.tif"/>
-<page><![CDATA[N'exigez en faisant vos achats que
-
+Reproduction interdite. Kditeurs des Programmes-Concerts de la Musique d’Elite Voir au verso.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000537_002.tif'/>
+        <page>
+          <![CDATA[N'exigez en faisant vos achats que
 bhd CINDRES GSCOMPTE ROUGLS
-
 DE L'A SOCIÉTÉ FRANÇAISE
-
 O, ÉRue ou Rbône et Rue
-
 qui possède le plus grand choix et donne
 les plus belles primes
-
 E
-
 BON À DÉTACHER
 ;_ Toute personne qui se présentera dans nos magasins avec ce
 bon, pour réclamer un carnet collectionneur, recevra
-
 20 TIMBRES GRATIS
-
 ë‘I’calie, 1
 ;
-
- 
-
 LALAÜ LAETÊ à la VIANDE
-
 en poudre et en pastilles comprimées de
-
 ; P. BRANDT
-
 pharmacien-chimiste
 A GENÈVE
-
- 
-
 est le meilleur aliment, le p'us riche et le
 plus facile à digérer, de goût agréable et
 ne constipant jamais.
-
 Spécialement recommandé (luns
 loutes les afjections de l’estomac et des
 intestins, afjections dé I/l/l({l}l/l …r//u
 où €//1…/u/lu\ (phtisie), aux convales
 cents dans lalimentalion infantile et
 pour les nourrices.
-
 DÉPOT GÉNÉRAI,
-
 Rue Verdame 15, Genève
-
 Dans les Pharmacies, Droguenes et Epiceries fines
-
 PHARMACIE P. BRANDT
-
- 
-
-     
-
-   
-
-   
- 
- 
-
 O z{:{îI,ﬁm_ Û.l °*‘—*‘ M£
 ; C OITSSS sîP\£““" ,. .… ‘… n
-
- 
-
- 
-
 ATELIER DÉ RELIURE
-
 ET ENCÀDREMENTS
-
 F SCHINDLER
-
 20, Grand-Perron, 20
-
- 
-
 Registres sur Commande
-
- 
-
 CARTONNAGES
-
 RELIURE SIMPLE et de LUXE
-
- 
-
 TRAVAIL SOIGNÉ
-
 PRIX MODÉREÉS
-
- 
-
- 
-
 | Téléphone 3994
-
- 
-
 Équipages de Luxe
-
 pour noces
-
 VOITURES DE TOUS GENRES
-
 MIICITEL FRIVT
-
 VOITURIER
-
 Ïî£’
-
 ue des Chaudronniers, 16
 GENÈVE
-
- 
-
 Liocations de Ghevaux
-
 au mois et à l’année.
-
- 
-
 Snécialité de Pâtés Froids
-
 PREMIER CHOIX
-
- 
-
 Assortiment de Pièces Froides
-
 À. CORNACHON
-
- 
-
- 
-
 CHARCUTIER
 7, Cours de Rive, 7
 EN FPACE DE LA HALLE
 /Î\
 Geneve
-
 TÉLÉPHONE 1269
-
 SALÉ SUISSE
-
 Jambon de Berne, Saucisson de Lyon
 Restaurant
 L, PERRET
-
 26, Rue de l'Arquebuse, 26
 GENEVE
 Victoria-Hall
-
 T ix0 S
 aÿe
-
- 
-
 derrière le
-
- 
-
- 
-
 TC RE
-
 DINERS A LA CARTE
 et à pmx fixe
-
 SALONS POUR NOCES El BANQUETS
-
 Gabinets Barticuliers
-
- 
-
 CAVE DE 1" GCGHOIX
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Ouvert après les Spectacles
-
- 
-
-|]]></page>       
-        </p>
+|
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

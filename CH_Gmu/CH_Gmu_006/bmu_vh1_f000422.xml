@@ -1,171 +1,135 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par l'Harmonie nautique<date when="05/02/1899"/></title>
-<series>1898-1899</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par l'Harmonie nautique
+            <date when='05/02/1899'/>
+          </title>
+          <series>1898-1899</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F000422</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Bonade, L. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18990205"/>
-<title>Concert donné par l'Harmonie nautique</title>
-<placeName key="Victoria Hall"/>
-<name key="1898-1899" type="series"/>
-<name key="Nicolai, Otto" ref="https://muscat.rism.info/admin/people/100329" type="person" role="cmp">Nicolai, Otto</name>
-<name key="Widor, Charles-Marie" ref="https://muscat.rism.info/admin/people/135158" type="person" role="cmp">Widor, Charles-Marie</name>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Thomas, A."  type="person" role="cmp">Thomas, A.</name>
-<name key="Weber, Carl Maria von" ref="https://muscat.rism.info/admin/people/117485" type="person" role="cmp">Weber, Carl Maria von</name>
-<name key="Brahms, Johannes" ref="https://muscat.rism.info/admin/people/39914" type="person" role="cmp">Brahms, Johannes</name>
-<name key="Chopin, Fryderyk Franciszek" ref="https://muscat.rism.info/admin/people/51160" type="person" role="cmp">Chopin, Fryderyk Franciszek</name>
-<name key="Liszt, Franz" ref="https://muscat.rism.info/admin/people/107196" type="person" role="cmp">Liszt, Franz</name>
-<name key="Bonade, Louis (dir.)"  type="person" role="int">Bonade, Louis (dir.)</name>
-<name key="Harmonie Nautique"  type="person" role="int">Harmonie Nautique</name>
-<name key="Buisson, Nancy"  type="person" role="int">Buisson, Nancy</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000422_001.tif"/>
-<page><![CDATA[Ÿ
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18990205'/>
+        <title>Concert donné par l'Harmonie nautique</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1898-1899' type='series'/>
+        <name key='Nicolai, Otto' ref='https://muscat.rism.info/admin/people/100329' type='person' role='cmp'>Nicolai, Otto</name>
+        <name key='Widor, Charles-Marie' ref='https://muscat.rism.info/admin/people/135158' type='person' role='cmp'>Widor, Charles-Marie</name>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Thomas, A.' type='person' role='cmp'>Thomas, A.</name>
+        <name key='Weber, Carl Maria von' ref='https://muscat.rism.info/admin/people/117485' type='person' role='cmp'>Weber, Carl Maria von</name>
+        <name key='Brahms, Johannes' ref='https://muscat.rism.info/admin/people/39914' type='person' role='cmp'>Brahms, Johannes</name>
+        <name key='Chopin, Fryderyk Franciszek' ref='https://muscat.rism.info/admin/people/51160' type='person' role='cmp'>Chopin, Fryderyk Franciszek</name>
+        <name key='Liszt, Franz' ref='https://muscat.rism.info/admin/people/107196' type='person' role='cmp'>Liszt, Franz</name>
+        <name key='Bonade, Louis' type='person' role='int'>Bonade, Louis</name>
+        <name key='Harmonie Nautique' type='person' role='int'>Harmonie Nautique</name>
+        <name key='Buisson, Nancy' type='person' role='int'>Buisson, Nancy</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000422_001.tif'/>
+        <page>
+          <![CDATA[Ÿ
 ä1
-
 '(( 1
-
 .
-
 [°…”… e P°“"“l - Dimanche 5 Février 1899
-
 PRIX DES PLACES :
-
 (O —
-
- 
-
 'euORITA-HALI
-
 ——s
-
 On commencera à
 2 heures 172.
-
 é CONCERT æ
-
 DONNE PAR
-
 à 1 heure 172.
-
 L
-
 L'HARMONIE NAUTIQUE DE GENÈVE
-
 avec le gracieux concours de
-
 Mlle Nancy BUISSON, Pianiste
-
 (ÉLÈVE DE M. A. DE GREEF)
-
 ct d’un Orchestre composé d’Artistes et Amateurs
-
 sous la direction de M. LOUIS BONADE
-
- 
-
 SR RN N R,
-
 ‘<m “uuw R r um
-
 PREMIÈRE PARTIE
-
 1. Ouverture des Joyeuses Commères de Windsor O. N'colai.
 2. La Korrigane, ballet (redemandé) ... C.-M. Widoi
 3. Cinquième Concerto, en 77 bémol, pour piano
-
 et grand orchestre -— Mile Nancy BUISsoN., .… . L.van Beethoven.
-
 SECONDE PARTIE
 — 4. Fantaisie sur Mlgﬂ0ﬂ E e A. Thomas.
-
 5. Récit et Polonaise du Deuxième Concerto pour
-
 codnenen(redemane s1.11 10en C.-M. de Weber
 6. a) Nocturne ........…. / ( Chopin.
-
 Mile NAncy Buisson. 4 _
 b) Tarentelle ... \ Liszt.
-
 7. Danses Hongroises n°° 5 et 6 (redemandées) . J. Brahms.
-
 Piano à queue Blüthner, aux soins de MM. A.-G. Dubach & Ce
-
 Loges, fauteuils de face et premier rang de la première Galerie
 (numérotés), 2 fr. — Rez-de-chaussée, et autres places de la première Galerie, 1 fr. —
 Seconde Galerie, 50 cent. — Cartes à l’avance de 9 à 6 h,, jusqu’au samedi soir, au Victoria-Hall.
-
 MM. les membres non-exéeutants ont droit d'entrée à ce toncert sur présentalion
-
 du coupon n° L aux places du rez-de-chaussée et, moyennant un supplément de
-
 fr., aux places de première galerie numérotées,
-
- 
-
 Prière de ne pas entrer pendant l’exécution des morceaux.
 BUFFET AU REZ-DE-CHAUSSÉE
 ns AA e
 » e
-
- 
-
 Genêve, — Imp, L.-F, Jarrys.
-
 . °ÿK . ———1(6
 » e =C
 — é> 25
-
 TO SS
-
- 
-
 W
 ï
-
 /r —C./
-
 —-
-
-JL»]]></page>       
-        </p>
+JL»
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

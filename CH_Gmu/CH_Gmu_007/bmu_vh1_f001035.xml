@@ -1,92 +1,85 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Un seul grand concert donné par le célèbre Orchestre Kaim de Munich<date when="03/05/1907"/></title>
-<series>1906-1907</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Un seul grand concert donné par le célèbre Orchestre Kaim de Munich
+            <date when='03/05/1907'/>
+          </title>
+          <series>1906-1907</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F001035</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Schnéevoigt, G. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19070503"/>
-<title>Un seul grand concert donné par le célèbre Orchestre Kaim de Munich</title>
-<placeName key="Victoria Hall"/>
-<name key="1906-1907" type="series"/>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Čajkovskij, Pëtr Il'ič" ref="https://muscat.rism.info/admin/people/144048" type="person" role="cmp">Čajkovskij, Pëtr Il'ič</name>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Strauss, Richard" ref="https://muscat.rism.info/admin/people/132111" type="person" role="cmp">Strauss, Richard</name>
-<name key="Schnéevoigt, Georges (dir.)"  type="person" role="int">Schnéevoigt, Georges (dir.)</name>
-<name key="Orchestre Kaim de Munich"  type="person" role="int">Orchestre Kaim de Munich</name>
-<name key="Marteau, Henri" ref="https://muscat.rism.info/admin/people/30044195" type="person" role="int">Marteau, Henri</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001035_001.tif"/>
-<page><![CDATA[Victoria-Hail, Genève
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19070503'/>
+        <title>Un seul grand concert donné par le célèbre Orchestre Kaim de Munich</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1906-1907' type='series'/>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Čajkovskij, Pëtr Il&apos;ič' ref='https://muscat.rism.info/admin/people/144048' type='person' role='cmp'>Čajkovskij, Pëtr Il'ič</name>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Strauss, Richard' ref='https://muscat.rism.info/admin/people/132111' type='person' role='cmp'>Strauss, Richard</name>
+        <name key='Schnéevoigt, Georges' type='person' role='int'>Schnéevoigt, Georges</name>
+        <name key='Orchestre Kaim de Munich' type='person' role='int'>Orchestre Kaim de Munich</name>
+        <name key='Marteau, Henri' ref='https://muscat.rism.info/admin/people/30044195' type='person' role='int'>Marteau, Henri</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001035_001.tif'/>
+        <page>
+          <![CDATA[Victoria-Hail, Genève
 v
-
- 
-
 Vendredi 3 mai 1907, à 8'/, h. du soir.
-
 p e
-
 UN SEUL GRAND CONCERT
-
 donné par le célèbre
-
 * UNoicothe AIN
-
 DE MUNICH
-
 TO musiciens sous la direction de
 n ,
 Monsieur GEORGES SCHNÉEVOIGT
-
- 
-
- 
-
- 
-
- 
-
 avec le concours de
 & M. HENRI MARTEAU
 _ O
-
 lä7 PROGRAMME
 . Prélude des ,Maîtres chanteurs“ . Wagner.
 ïÿ . Symphonie Pathétique . . . . . Tschaikowsky
@@ -96,34 +89,15 @@ b) Allegro con grazia ;
 À Q d) Adagio lamentoso.
 3. Concerto pour violon . . . . . Beecthoven.
 (& ÿ avec accompagnement d’orchestre (M. H. MARTEAU)
-
 Don Juan, poème pour grand or-
-
 enestes ° " ° SUS
 é
-
 @Œm@@@j
-
 LAUSANNE, IMP. À, PETTER
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-J]]></page>       
-        </p>
+J
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

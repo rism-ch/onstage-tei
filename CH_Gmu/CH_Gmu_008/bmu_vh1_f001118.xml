@@ -1,254 +1,140 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par le Corps de musique d'Elite<date when="19/03/1911"/></title>
-<series>1910-1911</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par le Corps de musique d'Elite
+            <date when='19/03/1911'/>
+          </title>
+          <series>1910-1911</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F001118</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Romain, F. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19110319"/>
-<title>Concert donné par le Corps de musique d'Elite</title>
-<placeName key="Victoria Hall"/>
-<name key="1910-1911" type="series"/>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Verdi, Giuseppe" ref="https://muscat.rism.info/admin/people/137994" type="person" role="cmp">Verdi, Giuseppe</name>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Paisiello, Giovanni" ref="https://muscat.rism.info/admin/people/1874" type="person" role="cmp">Paisiello, Giovanni</name>
-<name key="Vidal, Paul" ref="https://muscat.rism.info/admin/people/140775" type="person" role="cmp">Vidal, Paul</name>
-<name key="Rossini, Gioachino" ref="https://muscat.rism.info/admin/people/63766" type="person" role="cmp">Rossini, Gioachino</name>
-<name key="Puccini, Giacomo" ref="https://muscat.rism.info/admin/people/30921" type="person" role="cmp">Puccini, Giacomo</name>
-<name key="Gounod, Charles-François" ref="https://muscat.rism.info/admin/people/80479" type="person" role="cmp">Gounod, Charles-François</name>
-<name key="Romain, F. (dir.)"  type="person" role="int">Romain, F. (dir.)</name>
-<name key="Corps de musique d'Elite (Fanfare genevoise)"  type="person" role="int">Corps de musique d'Elite (Fanfare genevoise)</name>
-<name key="Rouilly (Mlle)"  type="person" role="int">Rouilly (Mlle)</name>
-<name key="Denizot, Charles"  type="person" role="int">Denizot, Charles</name>
-<name key="Ketten, Léopold"  type="person" role="int">Ketten, Léopold</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001118_001.tif"/>
-<page><![CDATA[|
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19110319'/>
+        <title>Concert donné par le Corps de musique d'Elite</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1910-1911' type='series'/>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Verdi, Giuseppe' ref='https://muscat.rism.info/admin/people/137994' type='person' role='cmp'>Verdi, Giuseppe</name>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Paisiello, Giovanni' ref='https://muscat.rism.info/admin/people/1874' type='person' role='cmp'>Paisiello, Giovanni</name>
+        <name key='Vidal, Paul' ref='https://muscat.rism.info/admin/people/140775' type='person' role='cmp'>Vidal, Paul</name>
+        <name key='Rossini, Gioachino' ref='https://muscat.rism.info/admin/people/63766' type='person' role='cmp'>Rossini, Gioachino</name>
+        <name key='Puccini, Giacomo' ref='https://muscat.rism.info/admin/people/30921' type='person' role='cmp'>Puccini, Giacomo</name>
+        <name key='Gounod, Charles-François' ref='https://muscat.rism.info/admin/people/80479' type='person' role='cmp'>Gounod, Charles-François</name>
+        <name key='Romain, F.' type='person' role='int'>Romain, F.</name>
+        <name key='Corps de musique d&apos;Elite (Fanfare genevoise)' type='person' role='int'>Corps de musique d'Elite (Fanfare genevoise)</name>
+        <name key='Rouilly (Mlle)' type='person' role='int'>Rouilly (Mlle)</name>
+        <name key='Denizot, Charles' type='person' role='int'>Denizot, Charles</name>
+        <name key='Ketten, Léopold' type='person' role='int'>Ketten, Léopold</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001118_001.tif'/>
+        <page>
+          <![CDATA[|
 !
 ñ
-
 |
 Al
 l
-
- 
-
 €‘}—/1/1/“"\ 3
-
- 
-
- 
-
- 
-
 VICTORIA-HALL
-
- 
-
 |
-
- 
-
- 
-
 X
-
 — Portrs 1 H. 3/4, — — — ConcerT 2 H. 2 —
-
 DIMANCHE 19 MARS 1911
-
- 
-
- 
-
- 
-
- 
-
- 
-
 I
 H
 u
-
 |
 [
 |
 |
 Ë,
-
 |
-
 |
-
 [
-
- 
-
- 
-
- 
-
 44
-
- 
-
- 
-
 î DONNÉ PAR LE
-
 Gores DE MUSIQUE D’ÉLITE
 Direction : F. ROMAIN
-
 avec-le gracieux concodrs de
-
 Mlle ROUILEY % M. Gharles DENIZOT
-
 Contralto Ténor
-
 Élèves de M. L. KETTEN
-
 et de M. Léopbold KETT EN
-
 Professeur supérieur au Conservatoire
-
 \ se
-
 PRIX DES PLACES :
 Loges et premier rang de la première galerie (numérotées). 2 fr.
 Rez-de-chaussée et autres places de la 1'° galerie :
 érenitelcalenea e e 01 0,50 cts
-
 Caries à l’avance : Vicroria-Harr; Case DE T’ONCLE Tom, Place Kléberg ;
 M. Sommer, rue du Rhône, 92; M. E. Frvaz, Terrassière, 9.
-
- 
-
 Les Cartes de Membre Honoraire et de Membre Passif donnent droit à
 deuæ entrées. Les coupons N° 1 et 2 chacun à ume entrée. — Les enfants
 au-dessous de 10 ans paieront demi-place, excepté pour la 2me galerie,
-
- 
-
 GRANDE BRASSERIE CENTRALE
-
 Rue de la Croix-d’Or, 2
-
 Bières blondes réputées : WARTECK & FURSTEN BERG
-
 S Bière de Munich « LOEVENBRAU » &
-
 B. ÎM@ﬁS de Brasserie —  RESTAURANT — C filtre extra fin
-
 Albert GSELL.
-
-Imp. F. Plantard, Eaux-Vives, — Genève,]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001118_002.tif"/>
-<page><![CDATA[PREMIÈRE PARTIE
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-  
-    
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
- 
-   
-   
-     
-
+Imp. F. Plantard, Eaux-Vives, — Genève,
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001118_002.tif'/>
+        <page>
+          <![CDATA[PREMIÈRE PARTIE
 Rendez-vous à la
-
 62, Rue du Rhône, 62 — GENÈVE
 Bières de Pilsen, de Munich et du Pays
-
 »
-
 Se recommande : G. DURR.
-
 A LA SORTIE DES CONCERTS
-
 « Grande Brasserie DURR= _
-
 Mets de Brasserie -— Ouvert jusqu’à 2 h. {
-
 1. Ouverture de Prométhée 3 BEETHOVEN.
 2. Récit et Air des Vêpres Siciliennes, M. DENIZOT VERDI. [
 3. Sélection sur , La Walkyrie “ . ‘ WAGNER. ä
@@ -266,174 +152,111 @@ Mets de Brasserie -— Ouvert jusqu’à 2 h. {
 Piano offert par la Maison Sautier & Jæger.
 v3 ;'
 | N|Ü f î%ﬂ W @
-]]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001118_003.tif"/>
-<page><![CDATA[pour la Vente el la Location à lrix Moiérés
+]
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001118_003.tif'/>
+        <page>
+          <![CDATA[pour la Vente el la Location à lrix Moiérés
 Facilités de Payements — Maison de Confiance
-
- 
-
 ;
-
 , (
 * 2% Chaussures "Salamandre
 Ë : Ê sont supérieures à toutes les autres marques de ce genre
 Î qMA"” -— Prix Unique E6—
-
 * MODERNE i\\
-
 È% ÉLÉGANT SOLIDE
-
 Lg AESCHBACH, American Shoe House
-
 'Ë — 6, RUE DU RHONE, 6
-
 l
-
 .Ë;‘<ESTAURANT # CHESNISERTE #
 14
-
 | 5 L M000RE| Emile F
-
 Ê_ 7, Rue du P0rt Rue du Prince, & ml IQ ”)âä
 I Ç; se Rue de }Ïÿl a _.\,îÎÎn aie. 3
 ,Ï RESTAURATION A TOUTE HEURE PE 5
-
 Ë 0P R Fie Spécialité de Chemises sur Mesure
-
 Ÿ Cuiine Bumaise … égas de Famite | c0 ns e
 :Ê Ancienne Maison DUBACH & Cie' _Maison fondée en 1825
 f 72, ,>/ace de la fusfer!e au 2me
-
 I ;
-
 L
-
 $
-
 | _ brand Commercé de PIANUS ét HARMONIUNS
 Il E
-
 … Omion Artistique - @cneu)e
 20, Rue Général-Dufour
 Î‘ Fabrique et Réparation de tous Instruments de Musique
 Seule Maison ayant un spécialiste
-
 E pour Saxophones, Clarinettes, Flûtes, etc.
-
-RE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001118_004.tif"/>
-<page><![CDATA[À
-
+RE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001118_004.tif'/>
+        <page>
+          <![CDATA[À
 ä@ëäâ@@ä@@ä@ä@@@@äää&@@@@ÿ
-
- 
-
 e acaull
 ——
-
 TAILLEUR
-
 1, Rue du Vieux-Collège, (Maison du Grenier-à-blé)
-
 DRAPERIES ANGLAISE ET FRANÇAISE
-
 Coupe irréprochable
-
 ——
-
 Coupe irréprochable
-
- 
-
 Aux HALLES de GENÈVE
-
 33, Rue de la Croix-d’Or
-
 CHARLES M GŒEÉ
-
 Tissus et Soldes en tous genres
-
 IMMENSE CHOIX IMPRESSIONS DE MULHOUSE
 Voir les étalages
-
 Café-Brasserie de la MEIrnpule.
-
 96, Rue du Rhône, 96
 (vis-à-vis du Jardin Anglais)
-
 Céléphone 55-50
-
 Véritable Bière de Munich
-
 PSCHORR-BRAU
 —« et Bières du Pays » —
-
 METs DE BRASSERIE
-
 Emile RAGINE
-
 Salles de Sociétés -
-
- 
-
 H, MULLER
 17, Bd- James-Fazy, 17
 TOURNAGE sur BOIS
 en tous genres
 Tabourets de piano >
-
 —-—  Casiers à Musique
 " Etagènes, eve: —
 BOULES POUR JEUX DE BOULES ET DE QUILLES
-
 HorcoGerie — Bijourerie |
-
 D'" Beuret
-
 GENÈVE — 21, Rive, 21 — GENÈVE |
-
 Grand choix dans tous les articies —
 FAGCILITES DE PAIEMENTS
 . Achais d'or et d'arçent
 RÉPARATIONS SOIGNÉES ><>< PRIX TRÈS MODÉ®
-
- 
-
 - A la Cité Ouvrière
-
 À, SECHET-B0 330N
-
 2, Rue du Port - GENÈVE
-
 Tissus divers et Confections
 Spécialités de Vêtements
 pour tous métiers
-
- 
-
 Vins Fins et Ordinaires
 Étrangers et du Pays
 …>= en Fûts et en Bouteilles -
-
 90, Rue du Rhône, 90 ;
 A côté de l’Agence COOK. -
-
 CHAMPAGNES, LIQUEURS de MARQUES et SPIRITUEUX
-
 !
-
 Téléphone 36-33. — |
-
 4 d tésia)
 - éelime e mmms se 2 r e
-
 CRSE E TS IIE C SIS
-
 98
-
-Charles MÆDER |]]></page>       
-        </p>
+Charles MÆDER |
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

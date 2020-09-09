@@ -1,66 +1,79 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par l'Harmonie nautique<date when="04/12/1927"/></title>
-<series>1927-1928</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par l'Harmonie nautique
+            <date when='04/12/1927'/>
+          </title>
+          <series>1927-1928</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002664</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Gabelles, G. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19271204"/>
-<title>Concert donné par l'Harmonie nautique</title>
-<placeName key="Victoria Hall"/>
-<name key="1927-1928" type="series"/>
-<name key="Doret, Gustave" ref="https://muscat.rism.info/admin/people/3145724" type="person" role="cmp">Doret, Gustave</name>
-<name key="Grieg, Edvard" ref="https://muscat.rism.info/admin/people/84066" type="person" role="cmp">Grieg, Edvard</name>
-<name key="Baton, Rhené"  type="person" role="cmp">Baton, Rhené</name>
-<name key="Büsser, Henri"  type="person" role="cmp">Büsser, Henri</name>
-<name key="Liszt, Franz" ref="https://muscat.rism.info/admin/people/107196" type="person" role="cmp">Liszt, Franz</name>
-<name key="Franck, César" ref="https://muscat.rism.info/admin/people/70009" type="person" role="cmp">Franck, César</name>
-<name key="Gabelles, Gustave  (dir.)" ref="https://muscat.rism.info/admin/people/30073762" type="person" role="int">Gabelles, Gustave  (dir.)</name>
-<name key="Harmonie Nautique"  type="person" role="int">Harmonie Nautique</name>
-<name key="Servettaz, Céline"  type="person" role="int">Servettaz, Céline</name>
-<name key="Karr, Isidore"  type="person" role="int">Karr, Isidore</name>
-<name key="Schnaidt, Paul"  type="person" role="int">Schnaidt, Paul</name>
-<name key="Clerc-Roesgen (Mme)"  type="person" role="int">Clerc-Roesgen (Mme)</name>
-<name key="Veyrat, E."  type="person" role="int">Veyrat, E.</name>
-<name key="Dépraz, M."  type="person" role="int">Dépraz, M.</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002664_001.tif"/>
-<page><![CDATA[=}
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19271204'/>
+        <title>Concert donné par l'Harmonie nautique</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1927-1928' type='series'/>
+        <name key='Doret, Gustave' ref='https://muscat.rism.info/admin/people/3145724' type='person' role='cmp'>Doret, Gustave</name>
+        <name key='Grieg, Edvard' ref='https://muscat.rism.info/admin/people/84066' type='person' role='cmp'>Grieg, Edvard</name>
+        <name key='Baton, Rhené' type='person' role='cmp'>Baton, Rhené</name>
+        <name key='Büsser, Henri' type='person' role='cmp'>Büsser, Henri</name>
+        <name key='Liszt, Franz' ref='https://muscat.rism.info/admin/people/107196' type='person' role='cmp'>Liszt, Franz</name>
+        <name key='Franck, César' ref='https://muscat.rism.info/admin/people/70009' type='person' role='cmp'>Franck, César</name>
+        <name key='Gabelles, Gustave' ref='https://muscat.rism.info/admin/people/30073762' type='person' role='int'>Gabelles, Gustave</name>
+        <name key='Harmonie Nautique' type='person' role='int'>Harmonie Nautique</name>
+        <name key='Servettaz, Céline' type='person' role='int'>Servettaz, Céline</name>
+        <name key='Karr, Isidore' type='person' role='int'>Karr, Isidore</name>
+        <name key='Schnaidt, Paul' type='person' role='int'>Schnaidt, Paul</name>
+        <name key='Clerc-Roesgen (Mme)' type='person' role='int'>Clerc-Roesgen (Mme)</name>
+        <name key='Veyrat, E.' type='person' role='int'>Veyrat, E.</name>
+        <name key='Dépraz, M.' type='person' role='int'>Dépraz, M.</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002664_001.tif'/>
+        <page>
+          <![CDATA[=}
 VICTORIA HALL
 Ouverture m On
 e Dimanche 4 Décembre 1927 r
@@ -98,38 +111,22 @@ Au piano daccompä_&rËrÏ7ékîÿ Mme Clerc-Ræsgen
 Piano de concert PLEYEL aux soins de la Maison Ch. BERGUER
 CIGARETTES
 , HOHS concouns
-
-Imp. CHAPUIS & BAUMEISTER, Rue du Stand, 417, Genève]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002664_002.tif"/>
-<page><![CDATA[RESTAURANT =— TEA-ROOM
-
+Imp. CHAPUIS & BAUMEISTER, Rue du Stand, 417, Genève
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002664_002.tif'/>
+        <page>
+          <![CDATA[RESTAURANT =— TEA-ROOM
 ROLFO
-
 20, Rue du Marché - GENÈVE - Téléphone: Stand 72.11
-
- 
-
- 
-
 Maison de premier ordre au centre des affaires
-
- 
-
- 
-
 LUNCH à fr. 3.50 et 4.50 TEA-ROOM
 à 6 h.
 DINER » »1 ° ; 5 ° CONCERT DE 4 à 6
-
 Grand choix de Pâtisserie
-
- 
-
 CONCERTO POUR PIANO EN LA M/NEUR (Edward Grieg)
-
 Le Concerto de Grieg, en /a mineur (op. 16), fut exécuté à Paris pour la
 première fois aux Concerts Pasdeloup, en 1877, par M. de Bériot.
-
 Voici en quels termes M. Camille Bellaigue apprécie cette œuvre : « Les
 idées en sont nettes, arrêtées, et l’orchestration légère, assortie à la grâce
 mélancolique de la pensée, semble un voile jeté sur elle pour la faire
@@ -142,31 +139,21 @@ débute par un motif joyeux et spirituel. Puis, à un certain moment, l’a/legr
 s’interrompt, s’entr’ouvre pour livrer passage à un chant plus lent, sorte de
 mélopée rêveuse et caressante. M. Grieg aime à couper ainsi un morceau
 par une échappée de fantaisie. »
-
- 
-
- 
-
- 
-
 SOCIÉTÉ DE
-
 BANQUE SUISSE
-
 FONDÉE EN 1872
 Cap1tal-actuons et Réserves : 155 millions
-
 6-10, Corraterie - GENÈVE - Corraterie, 6-10
-
 CORNAVIN EAUX-VIVES
 10, Place de Cornavin 3, Place des Eaux-Vives
 PLAINPALAIS CAROUGE
-
 36, Rue de Carouge 11, Rue du Marché
-
-TOUTES OPÉRATIONS DE BANQUE AUX MEILLEURES CONDITIONS]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002664_003.tif"/>
-<page><![CDATA[e
+TOUTES OPÉRATIONS DE BANQUE AUX MEILLEURES CONDITIONS
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002664_003.tif'/>
+        <page>
+          <![CDATA[e
 D
 VICTORIA-HALL
 l ouverure | 1 on
@@ -211,39 +198,27 @@ Les membres passifs ont droit d’entrée sur présentation des coupons Nos 9 et
 CIGARETTES
 23 GRANDS PRJ_X  T- concouns
 @ [
-
- 
-
- 
-
-Imp CHAPUIS & BAUMEISTEK. Rue du Stand, 17, Genève]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002664_004.tif"/>
-<page><![CDATA[]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002664_005.tif"/>
-<page><![CDATA[disques, le gramophone est devenu l’ami des musiciens.
-
+Imp CHAPUIS & BAUMEISTEK. Rue du Stand, 17, Genève
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002664_004.tif'/>
+        <page><![CDATA[]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002664_005.tif'/>
+        <page>
+          <![CDATA[disques, le gramophone est devenu l’ami des musiciens.
 A JUPITER
-
 4 RUE DU RHONE TÉLÉPHONE
 GENÈVE
-
 La plus ancienne et la plus importante maison de Gramophones
 et de disques.
-
 APPAREILS ET DISQUES
 DE TOUTES LES MEILLEURES MARQUES
-
 L’appareil VIVA-TONAL COLUMBIA est l’appareil idéal
-
 pour la musique classique. COLUMBIA et VOIX DE SON
-
 MAITRE les meilleurs disques artistiques. APEX les meilleurs
 disques de danse.
-
 Facilités de paiement sur désir.
-
 TROISIÈME RAPSODIE HONGROISE (Liszt)
-
 Si les rapsodies hongroises pour le piano n’occupent pas un des
 premiers rangs dans l’œuvre de Liszt, du moins ont-elles acquis une
 étonnante faveur auprès du public. « Par le mot rapsodie, écrit Liszt
@@ -260,530 +235,287 @@ de la valeur d’un titre doublement équivoque, on saisit du moins l’inten-
 tion maîtresse de Liszt, qui est de nous émerveiller et de nous amuser
 tour à tour par les rythmes, les sonorités et les mélodies dont son enfance
 fut bercée, dont son imagination d’artiste ne cessa plus tard de s’enchanter
-
 Grâce à ses nombreux perfectionnements et aux merveilleux enregistrements de
-
-   
-
- 
-
- 
-
- 
-
- 
-
 Îèl"?du
-
-inal]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002664_006.tif"/>
-<page><![CDATA[Pe
-
+inal
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002664_006.tif'/>
+        <page>
+          <![CDATA[Pe
 PEF E
-
 A SIS PRÈTE
-
 es
-
 RePsES és
-
- 
-
 BANQUE
 POPULAIRE SUISSE
-
 PLACE SAINT-GERVAIS Fondée en 1869 1, QUAI DES BERGUES
-
 AGENCES : 18, COURS DE RIVE
 2, ROUTE DES ACACIAS
-
 GENEÈEVE
-
- 
-
- 
-
 Çapital et réserves : fr. 125.000.000
-
- 
-
- 
-
 Dispose du réseau de succursales
 le plus étendu en Suisse
-
 Correspondants dans tous les cen- Organisée pour toutes opérations de
 tres importants du monde entier banque aux meilleures conditions
-
- 
-
- 
-
 comme d’un rêve — rève d’une vie plus libre, plus fantaisiste et plus
 passionnée, où ses aspirations romantiques trouvaient leur pleine
 satisfaction.
-
 SYMPHONIE EN R£ M/NEUR (César Franck)
-
 La Symphonie en ré mineur est justement l’un des ouvrages les plus
 importants qu’ait produits l’école française dans le domaine symphonique.
 Si elle n’a pas certaines qualités de finesse et d’esprit, elle a du moins les
 mérites prisés le plus pour eux-mêmes : la science de composition, la
 solidité de facture, l’ampleur et l’idéalité.
-
 Cette œuvre, dans ses grandes lignes, a conservé les divisions
 caractéristiques de la symphonie classique, mais les développements sont
 d’une plus grande liberté.
-
 Le premier morceau commence par une introduction lente et grave
 dont le dessin initial, en s'animant, devient le thème de l’Allegro. Après
 une brève exposition de ce mouvement, le Lento est repris, dans un autre
 ton, et se relie de nouveau à l’Allegro non troppo qui, définitivement établi,
 forme la partie principale du morceau. Trois principaux thèmes, dans la
-
- 
-
- 
-
 TAVERNE DE
-
 BRASSERIE-RESTAURANT
-
-   
-
 La plus belle, la plus grande Brasserie de Genève
 ÉTABLISSEMENT DE PREMIER ORDRE
 Grande Terrasse - Salle de Société
 Téléphone : MB. 45.39
-
 Se recommande Même maison
-
 A. ANDEREGG Brasserie Genevoise
-
- 
-
 É e dn sGC
-
 és mts
-
-ccn cn e]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002664_007.tif"/>
-<page><![CDATA[ËÎ‘
-
- 
-
- 
-
- 
-
+ccn cn e
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002664_007.tif'/>
+        <page>
+          <![CDATA[ËÎ‘
 î Au Dépôt général du Poisson du Lac Léman
-
 Maison fondée en 1848
-
 LUGRIN & Cie (s.a.)
-
 46, Rue du Rhône, 46 - Genève
-
 Adr. télégr.: LUGRIN-GENÈVE - AUCUNE SUCCURSALE - Téléphone: Stand 2100
-
 Volailles de Bresse - Gibiers de toutes provenances
 | Poissons du Lac
 } Marée française - Huitres de Claires de Marennes
 Arrivages directs et journaliers
 Langoustes du parc de Camaret
 Comestibles de toutes espèces - Conserves des fres marques
-
 L’importance de la vente lui permet de ne jamais
 constituer de stock et de garantir à sa clientèle la qualité et la fraîcheur de ses marchandises
-
 Expéditions en tous pays
-
- 
-
- 
-
- 
-
 l Buvez un
 |
-
 AMER PICON
-
- 
-
- 
-
 |
 i Exigez-le
 i
-
 BISCUITS
-
 PERNOT
-
 | - GENÈVE
 5) grande marque TT [
-Desserts fms []]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002664_008.tif"/>
-<page><![CDATA[Hamn DEVRED-VÉTEMENTS |
-
+Desserts fms [
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002664_008.tif'/>
+        <page>
+          <![CDATA[Hamn DEVRED-VÉTEMENTS |
 Place St-Gervas:s GENEVE — Rue de Coutance
-
 La plus grande spécialité pour hommes, jeunes gens et enfants
-
 VISITEZ COMPAREZ
 SES MAGASINS U SES MARCHANDISES
 à qualités égales 0 à façons égales
-
 MEILLEUR MARCHÉ QUE PARTOUT AILLEURS
-
- 
-
 HARMONIE NAUTIQUE
-
 MEMBRES DU COMITÉ :
 MM. G. MARTINET, président ; G. GABELLES, directeur ; J. LICKERT et
 E. LEUTÉ, vice-présidents ; A. PORTIER, secrétaire ; P. MURITH, vice-
 secrétaire ; M. GALFRÈ, trésorier ; F CHAPUIS, vice-trésorier ; E. BURDET,
 bibliothécaire ; M. DEPRAZ et J. VIBERT, économes.
-
 MEMBRES EXÉCUTANTS (1927)
-
 Flûtes : MM. BLum - Baup - COULOMB - ZWEIGERT - SEIDEL.
 LEVY - STOCKBURGER.
-
 Hautbois et cor anglais: MM. VEYRAT - ENGEL - GyaI - PAINOT.
-
 Petites clarinettes : MM. SANTANDRÉA - BÉBOUX.
-
 Clarinettes: MM. DéPRAZ - PORTIER - CHAPUIS - Roy - RIEUNAUD
 MURITH - PEZZOTTI - DUCRET - SCHWITZGUÉBEL - Ed. VANAT
 HÆrLIGER - ZiBAcH - RorH - GYSIN - NONNEMANN - MARTI
-
- 
-
- 
-
- 
-
 GRANDE BRASSERIE CENTRALE
-
 CAFÉ-RESTAURANT
 CROIX-D'OR, 2 TÉL. STAND 34.62
-
- 
-
 Déjeuners et Dîners -  Choucroute extra toute l’année
-
 BIÈRES WARTECK de Bâle
 et VINS de première qualité |
-
 E. MAYERAT
-5]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002664_009.tif"/>
-<page><![CDATA[U€1(1UÊS fleurs
-
+5
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002664_009.tif'/>
+        <page>
+          <![CDATA[U€1(1UÊS fleurs
 de
-
 E . T RIO,
-
 RUE DE RIVE, 15 ﬂeuriste artistique
-
- 
-
- 
-
 Membres exécutants (suite)
 VANBIANCHI - MÉDA - BURDET - BEssoN - LUDIN - BERGOIN
 BoporRA - CHATELAIN - GABELLES fils - MARTIGNIER - VIGNA
 BuscH.…
-
 Clarinette basse : M. Moisy.
-
 Bassons : MM. FRANCOUAL Ch. - FRANCOUAL J. - LANCOUX.
-
 Saxophones : MM. D’IvERNOIS - GONDRET - PEDRONI - BôscH
 MARET - VANAT H. - CLÉMENT - RoyBIN.
-
 Cornets à pistons : MM. DuPonT - M. CHaPurs - DROz - SCHMIED
 DEcroux L. - TRISCONI - SIGNORINI.
-
 Bugles : MM. Poncion1 - GuyoT - REvor - REISSER.
-
 Trompettes : MM. E. BurpeT - CoLomBo - RossET - MAIRE.
-
 Cors : MM. RisToR1 - PIGUET - GAy - MARTIN R. - RETSsCHINSKY
 BoccaRD J. - BINEATI - ZBINDEN.
-
 Trombones : MM. Sinay - ProrTroN - G. MARTIN - MAITRE - RocH
 Marc PoRTIER.
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Randor - Friederick
-
 à SA. ©
 FABRIQUE A CHÊNE-BOURG
-
- 
-
- 
-
 Graleees eurfines pour usages oullnaires : Lessives - Cristaux de soude
-
 Encaustiques
 Oleo! - Alpina - - ile - Uni
 eol - Alpina - Nostras - Etoile - Union Cires, Cierges, Bougies de Noël
-
 Savons de ménage :
-
 Bougies :
 Souris - Lyre - Vénus - Chêne - Alpa
-
-Couronne - Brillant - Diamant - Vénus]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002664_010.tif"/>
-<page><![CDATA[SRN e
-
+Couronne - Brillant - Diamant - Vénus
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002664_010.tif'/>
+        <page>
+          <![CDATA[SRN e
 Va p 1n
-
 RESRE 452
-
-   
-
- 
-
- 
-
 MUSIQUE.. .
-
 cl:ls>i(1uC et moch—ne \ . . .
 Grand choix pour piano, v1010n et c1\aut
-
 16, Corraterie Méthodes - Partitions
-
 l'ÉLÉPHONE : STAND 0.685 Littérature musicale
-
 VENTE ET ABONNEMENT
-
 AC(‘CSSO;I‘CS (11\‘CI'$
 [\llt‘i€llllt‘ Méli$0Ll CHOUET & GADEN
-
 Aifred PÉNARD, Successeur
-
- 
-  
-     
-    
- 
-
- 
-
 Membres exécutants (sui/e)
-
 Barylons, Basses et contre-basses: MM. GREBER - DONZÉ - VIBERT
 BALESTRA - D'OLIVEIRA - CHOUARD - OMARINI - MOLINATTI
 MONTILLARD - VOUMARD - THOMMEN - ABREZOL.
-
 Contre-basses à cordes: MM. RICHTER - MAYER - KNUCHEL.
-
 Batterie : MM. KurT - DELOCHE - DESCOMBES - GRIEDER.
-
- 
-
 AVIS. — Les personnes qui désirent devenir « Membres
 passifs » de l’Harmonie Nautique peuvent s’inscrire au Vic-
 toria Hall ou à la Librairie Richard (80, rue du Rhône), et
 auprès des membres de la Société. — La carte de « membre
 passif » donne droit à deux entrées pour chaque concert donné
 par l’Harmonie Nautique.
-
- 
-
 l’0ur les coHrs d’élèves, s’adresser à M. G. Gabelles,
 directeur, au Victoria-Hall, de 11 à 12 h. 30. — Télép. St. 53.28.
-
- 
-
- 
-
- 
-
 TRANSPORTS FUN ÉBRES
-
 Ancienne Maison MURITH, DUPARC & FERT $ __—-— _ Fondée en 1888
-
 A. MURITH s.a.
-
 GENEÈVE - siège Social : Rue des Chaudronniers, 16
-
 Téléph. Stand 121 Service permanent
-
 Fabrique de Cercueils Automobiles Funéraires
-
 L’Administration se charge, sans aucun déplacement pour les
 familles, de toutes les démarches et formalités relatives aux
-
 inhumations —  Exhumations — Incinérations —  Transports
-
-vortuares CENTRAL-DEUIL sves-ras,16]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002664_011.tif"/>
-<page><![CDATA[CLARINETTES, FLUTES, HAUTBOIS
-
+vortuares CENTRAL-DEUIL sves-ras,16
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002664_011.tif'/>
+        <page>
+          <![CDATA[CLARINETTES, FLUTES, HAUTBOIS
 de la maison
-
 LEBLANC
-
 DE PARIS
 ont été appréciés par tous les connaisseurs
 à l'Exposition de la Musique
 à Genève
-
- 
-
- 
-
 contexture desquels on remarque en maint endroit l’emploi de ce chro-
 matique si particulier au génie de César Franck, s’y développent tour à
 tour. Puis le thème de l’introduction lente intervient une dernière fois,
 traité en canon, avec toutes les forces de l’orchestre ; enfin l’Allegro
 s'impose définitivement ; sa reprise conduit rapidement à la conclusion.
-
 La deuxième partie tient lieu à la fois d’andante et de scherzo. Un chant
 d’un caractère doux est présenté par le cor anglais, que soutiennent des
 accords pincés. Après quelques développements et l’énoncé d’un nouveau
 thème, les clarinettes, font entendre un dessin animé, d’aspect en quelque
 sorte fantastique. À la fin, ce dessin et le chant du cor anglais se combinent
 et se superposent.
-
 Le finale, succédant à deux morceaux appartenant aux sombres
 tonalités de ré mineur et de si bémol mineur, éclate en ré majeur. Des
 thèmes d’allure triomphale sont lancés par les instruments les plus sonores.
 Bientôt, des phrases des morceaux précédents sont rappelées : elles se
 combinent entre elles, puis, avec les nouveaux thèmes, aboutissent enfin
-
 à une coda formée des principaux motifs du premier mouvement mêlés au
 motif initia] du finale.
-
- 
-
- 
-
 64, Rue du Stand, 64 (ler étage)
-
 n Œ] à” O coûte cher,
-
 entretenez-le soïgneusement
-
-   
-
 CPour le faire accorder, netfoyer
 ou réparer, féléphonez Ôt, 42.75
-
-%Ï ô CÆ g frères]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002664_012.tif"/>
-<page><![CDATA[S ME S E P 0P> p T
-
- 
-
- 
-
+%Ï ô CÆ g frères
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002664_012.tif'/>
+        <page>
+          <![CDATA[S ME S E P 0P> p T
 Pour voyager agréablement et sans soucis, adressez-vous à
-
 L'AGENCE
-
 C. BLENK, FERT & Co
-
 1, Rue du Mont-Blanc, 1
 Angle Quai des Bergues
-
 GENEVE
-
- 
-
 Tous les billets de chemins de fer et de passages
 maritimes aux conditions des tarifs
-
 CHÈQUES DE VOYAGEURS = BANQUE = CHANGE
 VOYAGES A FORFAIT
-
- 
-
 Ecrite dans les derniers temps de sa carrière, la Symphonie en ré
 mineur valut à César Franck un suprème honneur; elle fut exécutée pour la
 première fois au Conservatoire, le 17 février 1889 : tardif hommage rendu
 par la Société des Concerts au maître qui, méritant l’admiration de tous,
 n'avait guère, jusque-là, connu que l’estime de quelques-uns.
-
 RÉDEMPTION (César Franck)
 Air de l’Archange
-
 Rédemption est, dans l’ordre chronologique, le deuxième des oratorios
 composés par César Franck, les trois R, pourrait-on dire, Ruth, Rédemption,
 Rébecca. Il fut exécuté pour la première fois le jeudi saint, 10 avril 1873,
 sous la direction de M. Edouard Colonne, à l’'Odéon, où se donnaient les
 séances du « Concert National » qui devait un peu plus tard devenir l’ « Asso-
 ciation Artistique ».
-
 Rédemption comprend deux parties, la première consacrée aux temps
 anciens, la seconde aux temps nouveaux. L’air de l’Archange qui figure au
 programme de ce jour précède dans la partition le grand chœur qui termine
 la première partie. En voici les paroles :
-
- 
-
- 
-
- 
-
 ;s SKIEURS ….
-
 nos rayons sont au complet. Ne faites
 aucun achat avant de les avoir visités.
-
-  
- 
-
- 
-
 SKS complets en frêne suisse
 ler CHOIX
-
 Enfants, la paire dep. 07.— — Adultes 24.50
-
 Delacroixriche
-
-57, Rue du Rhône - GENÈVE - Grand-Quai, 38]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002664_013.tif"/>
-<page><![CDATA[Œourgao;‘ va=t-on au
-
+57, Rue du Rhône - GENÈVE - Grand-Quai, 38
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002664_013.tif'/>
+        <page>
+          <![CDATA[Œourgao;‘ va=t-on au
 XX" SIEÈCLE?
-
 Pour sa bière de “ Munich double maltée”,
 sa  Spéciale-blonde (Avenir), sa véritable
 “ Pilsen-Urquell”. Ses vins de Jussy 1 choix
 et Villeneuve extra. Ses apéritifs de marque.
 Son excellente cuisine. Sa magnifique terrasse
-
- 
-
 Les rois dont vous vantez la gloire,
 Tous les dieux que vous adorez,
 Ont des palais au seuil d’ivoire,
-
 Et l’univers se relève
 Quand Jésus vers lui descend.
 Le riche, autrefois superbe,
-
 Des temples aux faites dorés.
 Mais leur majesté misérable
 Hier pour toujours s’écroula.
@@ -795,92 +527,49 @@ Est le berceau d’un nouveau monde,  Avousla paix divine etl’extase profonde 
 Sauvé par un Dieu triomphant. Cette crèche où dort cet enfant
 Le passé n’est plus qu’un rêve, Est le berceau d’un nouveau monde,
 Le mal s’enfuit impuissant, Sauvé par un Dieu triomphant.
-
 Va laisser, ouvrant la main,
 Tomber la meilleure gerbe
 Pour le pauvre en son chemin.
 Et, sur des œuvres bénies.
-
 Les peuples toujours penchés,
-
- 
-
- 
-
- 
-
- 
-
 Toutes fournitures pour
-
 la Couture
 la Broderie
 le Tricot
-
 BAS - CHAUSSETTES - GANTS
 SOUS-VÊTEMENTS ÉLÉGANTS
-
 Les meilleures qualités au plus bas prix
-
 “E Guarces WEBER, PLice KLÉBERG
-
-—#]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002664_014.tif"/>
-<page><![CDATA[275 ETE TS
-
- 
-
- 
-
+—#
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002664_014.tif'/>
+        <page>
+          <![CDATA[275 ETE TS
 @
-
 Musique Prior et Librairie circulante
 sont transiérés à la “Petite Corraterie ”
-
 Fr. 15.— par an ou fr. 2.50 par mois
 pour un livre ou trois cahiers de musique
 échangeables tous les jours
-
 Nouveautés littéraires et musicales dès parution. Tarif postal spécial.
-
 Catalogue à disposition.
-
 Cité, 16: Vente, achat et échange de livres anciens et modernes
-
- 
-
 DIMANCHE 14 FÉVRIER 1928
-
 Sestival de musique italienne
-
 avec le concours de
-
 Mme L. BARASSI, Mile PRINCIPE et de M. LONGOBARDI
-
- 
-
- 
-
 Au dessert un
 Cointreau Liqueur
 s’impose
 Cointreau S. A. R. L, Angers
 Ch. BRUCHON, Agent générat pour la Suisse - GENÈVE
-
- 
-
- 
-
- 
-
- 
-
 Fn TS p en es e ra e sA tc e
-
 d SS— S E r
-
-Q p TLRS TT T]]></page>       
-        </p>
+Q p TLRS TT T
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

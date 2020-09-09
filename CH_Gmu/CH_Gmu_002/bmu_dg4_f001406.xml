@@ -1,355 +1,273 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Trois séances de musique classique par M. E.-M. Delaborde<date when="25/11/1880"/></title>
-<series>1880-1881</series>
-<placeName>Casino de Saint-Pierre</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Trois séances de musique classique par M. E.-M. Delaborde
+            <date when='25/11/1880'/>
+            <date when='29/11/1880'/>
+          </title>
+          <series>1880-1881</series>
+          <placeName>Genève, Casino de Saint-Pierre</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU DG4 F001406</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt> </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18801125
-18801129"/>
-<title>Trois séances de musique classique par M. E.-M. Delaborde</title>
-<placeName key="Casino de Saint-Pierre"/>
-<name key="1880-1881" type="series"/>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Weber, Carl Maria von" ref="https://muscat.rism.info/admin/people/117485" type="person" role="cmp">Weber, Carl Maria von</name>
-<name key="Mendelssohn Bartholdy, Felix" ref="https://muscat.rism.info/admin/people/88790" type="person" role="cmp">Mendelssohn Bartholdy, Felix</name>
-<name key="Mozart, Wolfgang Amadeus" ref="https://muscat.rism.info/admin/people/115324" type="person" role="cmp">Mozart, Wolfgang Amadeus</name>
-<name key="Schubert, Franz" ref="https://muscat.rism.info/admin/people/111603" type="person" role="cmp">Schubert, Franz</name>
-<name key="Bach, Johann Sebastian" ref="https://muscat.rism.info/admin/people/2539" type="person" role="cmp">Bach, Johann Sebastian</name>
-<name key="Chopin, Fryderyk Franciszek" ref="https://muscat.rism.info/admin/people/51160" type="person" role="cmp">Chopin, Fryderyk Franciszek</name>
-<name key="Schumann, Robert" ref="https://muscat.rism.info/admin/people/131206" type="person" role="cmp">Schumann, Robert</name>
-<name key="Gluck, Christoph Willibald" ref="https://muscat.rism.info/admin/people/67338" type="person" role="cmp">Gluck, Christoph Willibald</name>
-<name key="Alkan, Charles Valentin" ref="https://muscat.rism.info/admin/people/1071" type="person" role="cmp">Alkan, Charles Valentin</name>
-<name key="Heller, Stephen" ref="https://muscat.rism.info/admin/people/69272" type="person" role="cmp">Heller, Stephen</name>
-<name key="Brahms, Johannes" ref="https://muscat.rism.info/admin/people/39914" type="person" role="cmp">Brahms, Johannes</name>
-<name key="Henselt, Adolph von" ref="https://muscat.rism.info/admin/people/72737" type="person" role="cmp">Henselt, Adolph von</name>
-<name key="Saint-Saëns, Camille" ref="https://muscat.rism.info/admin/people/76734" type="person" role="cmp">Saint-Saëns, Camille</name>
-<name key="Liszt, Franz" ref="https://muscat.rism.info/admin/people/107196" type="person" role="cmp">Liszt, Franz</name>
-<name key="Kessler"  type="person" role="cmp">Kessler</name>
-<name key="Taubert, Wilhelm" ref="https://muscat.rism.info/admin/people/124431" type="person" role="cmp">Taubert, Wilhelm</name>
-<name key="Dubois, Th."  type="person" role="cmp">Dubois, Th.</name>
-<name key="Massenet, Jules" ref="https://muscat.rism.info/admin/people/84264" type="person" role="cmp">Massenet, Jules</name>
-<name key="Widor"  type="person" role="cmp">Widor</name>
-<name key="Marmontel, Antoine-François   Delaborde, Eraïm Miriam {RISM:30076988}" ref="https://muscat.rism.info/admin/people/20001897" type="person" role="cmp">Marmontel, Antoine-François   Delaborde, Eraïm Miriam {RISM:30076988}</name>
-<name key="Bizet, Georges" ref="https://muscat.rism.info/admin/people/20057" type="person" role="cmp">Bizet, Georges</name>
-<name key="Delaborde, Eraïm Miriam" ref="https://muscat.rism.info/admin/people/30076988" type="person" role="int">Delaborde, Eraïm Miriam</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f001406_001.tif"/>
-<page><![CDATA[“®Æ 14æ
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18801125'/>
+        <date when='18801129'/>
+        <title>Trois séances de musique classique par M. E.-M. Delaborde</title>
+        <placeName key='Genève, Casino de Saint-Pierre'/>
+        <name key='1880-1881' type='series'/>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Weber, Carl Maria von' ref='https://muscat.rism.info/admin/people/117485' type='person' role='cmp'>Weber, Carl Maria von</name>
+        <name key='Mendelssohn Bartholdy, Felix' ref='https://muscat.rism.info/admin/people/88790' type='person' role='cmp'>Mendelssohn Bartholdy, Felix</name>
+        <name key='Mozart, Wolfgang Amadeus' ref='https://muscat.rism.info/admin/people/115324' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Schubert, Franz' ref='https://muscat.rism.info/admin/people/111603' type='person' role='cmp'>Schubert, Franz</name>
+        <name key='Bach, Johann Sebastian' ref='https://muscat.rism.info/admin/people/2539' type='person' role='cmp'>Bach, Johann Sebastian</name>
+        <name key='Chopin, Fryderyk Franciszek' ref='https://muscat.rism.info/admin/people/51160' type='person' role='cmp'>Chopin, Fryderyk Franciszek</name>
+        <name key='Schumann, Robert' ref='https://muscat.rism.info/admin/people/131206' type='person' role='cmp'>Schumann, Robert</name>
+        <name key='Gluck, Christoph Willibald' ref='https://muscat.rism.info/admin/people/67338' type='person' role='cmp'>Gluck, Christoph Willibald</name>
+        <name key='Alkan, Charles Valentin' ref='https://muscat.rism.info/admin/people/1071' type='person' role='cmp'>Alkan, Charles Valentin</name>
+        <name key='Heller, Stephen' ref='https://muscat.rism.info/admin/people/69272' type='person' role='cmp'>Heller, Stephen</name>
+        <name key='Brahms, Johannes' ref='https://muscat.rism.info/admin/people/39914' type='person' role='cmp'>Brahms, Johannes</name>
+        <name key='Henselt, Adolph von' ref='https://muscat.rism.info/admin/people/72737' type='person' role='cmp'>Henselt, Adolph von</name>
+        <name key='Saint-Saëns, Camille' ref='https://muscat.rism.info/admin/people/76734' type='person' role='cmp'>Saint-Saëns, Camille</name>
+        <name key='Liszt, Franz' ref='https://muscat.rism.info/admin/people/107196' type='person' role='cmp'>Liszt, Franz</name>
+        <name key='Kessler' type='person' role='cmp'>Kessler</name>
+        <name key='Taubert, Wilhelm' ref='https://muscat.rism.info/admin/people/124431' type='person' role='cmp'>Taubert, Wilhelm</name>
+        <name key='Dubois, Th.' type='person' role='cmp'>Dubois, Th.</name>
+        <name key='Massenet, Jules' ref='https://muscat.rism.info/admin/people/84264' type='person' role='cmp'>Massenet, Jules</name>
+        <name key='Widor' type='person' role='cmp'>Widor</name>
+        <name key='Marmontel, Antoine-François   Delaborde, Eraïm Miriam {RISM:30076988}' ref='https://muscat.rism.info/admin/people/20001897' type='person' role='cmp'>Marmontel, Antoine-François Delaborde, Eraïm Miriam {RISM:30076988}</name>
+        <name key='Bizet, Georges' ref='https://muscat.rism.info/admin/people/20057' type='person' role='cmp'>Bizet, Georges</name>
+        <name key='Delaborde, Eraïm Miriam' ref='https://muscat.rism.info/admin/people/30076988' type='person' role='int'>Delaborde, Eraïm Miriam</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f001406_001.tif'/>
+        <page>
+          <![CDATA[“®Æ 14æ
 f
-
 GRANDE SALLE DU CASINO DE SMPTERRE
-
 TROIS SÉANCES D'INTERPRÉTATION
-
 DE
-
 MS lOUE CLASSIQUE
-
 PAR M.
-
 Professeur au Conservatoire de Paris
-
 —0 — e G ——
-
 4" SÉANCE
-
 Jeudi 25 Novembre 1880, à 8 heures du soir
-
 E> ER O G FR /A VÆ 1VE EZ
 Sonate en si bémol, Op. 22 BEETHOVEN.
 Allegro, Adagio, Minuetto, Rondo.
 II.  Allegro de l’Op. 53
 IL. Sonata appassionata, Allegro de l'Op. 57.
-
 1V. Sonate Op. 101
 Allegretto, Vivace, Adagio, Allegro. . ..
-
 V.  Allegro de l’Op. 106
-
 VI. Sonate Op. 441
 Maëstoso, Adagio, l’istesso tempo . . - -
-
 VII. 32 Variations en ut mineur
-
 VIIL. Transcription du Menuet du Septuor.
-
 PIANO DE CONCERT DE LA MAISON ÉRARD.
-
 Abonnements et Billets d'avance chez les Marchands de musique.
-
 S’adresser chez M!le FREY et M. ROSTSCHY, à la Corraterie,
-
-pour les abonnements avec places réservées.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f001406_002.tif"/>
-<page><![CDATA[1
+pour les abonnements avec places réservées.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f001406_002.tif'/>
+        <page>
+          <![CDATA[1
 2"° SÉANCE
-
 Samedi 27 Novembre 1880, à 8 heures du soir
-
 > E O G FR A ME RE E
-
 à Allegro appassionato. .
 b Rondo. p
-
 de la Sonate en la bémol/.
-
 LS Sonate Op:6 9.35 - 9 217 50 MENDELSSOHN.
 Allegretto, Minuetto, Andante e recitativo,
 Finale.
-
 a Allegro en fa, Op. 6 . . U
 byAndante Op. 111.:. , .. à « s4 MOZART-
 c Allegro en la mineur, id. . .
-
 a Impromtu en ut mineur . ue E
 b'Scherzo dela 102e Sonate . ! . ° . SCHUBERT.
 c Rondo Op. 420. . . . en
 d Allegro du Concerto Italien. . . . J. S. BACH.
-
 a Ballade en sol mineur.
-
 beEtudesou 0 4 31
-
 c Etude en ut dièze , . 24930
-
 BREAC OM CN e nCE SE 1 … … … CHOPIN.
 e Nocturne T.
-
 f Mazurka.
-
 g Scherzo en si bemol mu;em
-
 a Menuet en mi bémol . . r MOZART.
 Transcription par C.-V. ALKAN.
 b Adieu Op. 82 ... - SCHUMANN
 ec Ghœur et Danse des Scythes hn74 GLUCK.
 d’ Iplugeme en Tauride. Transcription par
 C.-V. ALKAN.
-
 PRIX DES PLACES :
 Entrée, 3 francs. — Places réservées, 5 francs.
 Abonnement d’entrée aux trois séances. . . . . _ 8 fr.
-
 Abonement, avec place réservée numérotée, pour
-Js roiE e ances E e en en 1 MO fr.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f001406_003.tif"/>
-<page><![CDATA[[ à
-
+Js roiE e ances E e en en 1 MO fr.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f001406_003.tif'/>
+        <page>
+          <![CDATA[[ à
 ,__
 n SS
-
 1V. ;
 ' (
-
 (a
-
 à
-
 V. b
 C
-
 d
-
 a
-
 VI. b
-
 =c
-
 ;
 3" SÉANCE
-
 Lundi 29 Novembre 1880, à 8 heures du soir
-
 P> E O G E A M ME
-
 ï Romances s
-
 Adagio Op.
 Etude d’apr
 Nocturne .
 Polonaises
 Etude .
-
 Air de Ballet. .
-
 Prélude
-
 N° 4 des Mômeaux de Salon 4
-
 Andante Op.1.
 Etude Op. 2
-
 I. Etudes Symphoniques Op. 13.
-
 No du 4°* Recueil de chants p. piano
 Petit Canon Op. 65.
 ; CGaprice sur la Truite de Schubert )
 Couplets de Gaspard (Dans les bois) {
-
 \
 (
 S«…
-
 ans paroles .
-
 Scherzetto de Symphonie.
-
 Transcrit par E. M.
-
 Valse en fa .
 Largo de la 2°
-
 ; Valse en lu bé
-
 sonate. .
 mol .
-
 F'inale de la 2° sonate . .
-
 D0 14 ce
 ès Paganini. . .
-
 DELABORDE.
-
 S’adresser
-
 Maître Martin
-
 VII.{ b Menuet de 1Arhs1enné .
-
 Transcrit par B.
-
 M. DELABORDR.
-
 c CGarmen (morceau de concert par K. M. Deleborde).
-
 )
-
 |
-
 a Petite Marche V111ageoise de 1’Op
-
 î
-
 SCHUMANN-
-
 C. V. ALKAN.
 STEPHEN HELLER
-
 MENDELSSOHN.
-
 J. BRAHMS.
 HENSELT.
-
 C. SAINT-SAENS-
 LISZT-
-
 KESSLER-
-
 TAUBERT.
-
 TH. DUBOIS,
-
 J. MASSENET.
 WIDOR.
-
 A. MARMONTEL.
-
 CHOPIN-
-
 E. M. DELABORDE
 G. BIZET-
-
 Abonnenients et Billets d’avance chez les Marchands de musique.
-
 chez M!le FREY et M. ROSTSCHY, à la Corraterie.
-
 rour les abonnements avec places numérotées.
 F
-
- 
-
 Lyon. — Impr.
-
-Be'lon, rue de la République, 33.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f001406_004.tif"/>
-<page><![CDATA[M
-
+Be'lon, rue de la République, 33.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f001406_004.tif'/>
+        <page>
+          <![CDATA[M
 Prochainement, M, E.-M. DELABORDE, professeur au Conser-
 vatoire de Paris, viendra donner trois Auditions de Piano.
-
 Ces séances, dites d’interprétation de Musique classique, se
 recommandent, par leur ensemble aussi bien que par le choix des
 Œuvres et des Auteurs, à toutes les personnes qui aiment la musique
 des grands Maîtres, ou qui cultivent le piano.
-
 L’examen des programmes ci-joints, que j'ai l’honneur de vous
 soumettre, démontre suffisamment l’importance et l’intérêt artistique
 qu’offrent ces séances.
-
 En outre du plaisir que l’on peut avoir à écouter un grand
 Artiste, dont il n’est pas nécessaire de faire l’éloge, ces Auditions
 permettent d’entendre interpréter les Œuvres classiques, de diverses
 époques, par un professeur emérite, interprète modèle et observateur
 rigoureusement fidèle des vraies traditions.
-
 On pourrait peut-être appeler ces séances : Lecons d’interprétation
 de Musique classique.
-
 I[ est à remarquer aussi que la composition des programmes
 constitue un résumé en quelque sorte historique de la musique
 ancienne et moderne.
-
 J’ose espérer que ces Séances, intéressantes à tous les points de
 vue, et d’une utilité particulièrement pratique et ‘instructive, auront
 la faveur de vous plaire et que vous les honorerez de votre présence.
-
 Des abonnements à prix réduits sont établis pour les trois
 Séances.
-
 Agréez, M , l’assurance de mon profond respect.
-
 ALLIOD.
-
-7. lS‘. I/-_ Po]]></page>       
-        </p>
+7. lS‘. I/-_ Po
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

@@ -1,142 +1,125 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Grand concert du concours national suisse d'accordéons<date when="04/04/1942"/></title>
-<series>1941-1942</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Grand concert du concours national suisse d'accordéons
+            <date when='04/04/1942'/>
+          </title>
+          <series>1941-1942</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F003193</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Burkhardt, R.</note>
+        <note>Baur, H.</note>
+        <note>Bühlmann, H. [et al.] (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19420404"/>
-<title>Grand concert du concours national suisse d'accordéons</title>
-<placeName key="Victoria Hall"/>
-<name key="1941-1942" type="series"/>
-<name key="Lacroix, Fernand"  type="person" role="cmp">Lacroix, Fernand</name>
-<name key="Schüpbach"  type="person" role="cmp">Schüpbach</name>
-<name key="Schaub"  type="person" role="cmp">Schaub</name>
-<name key="Wild"  type="person" role="cmp">Wild</name>
-<name key="Demellayer"  type="person" role="cmp">Demellayer</name>
-<name key="Walser"  type="person" role="cmp">Walser</name>
-<name key="Offenbach, Jacques" ref="https://muscat.rism.info/admin/people/111831" type="person" role="cmp">Offenbach, Jacques</name>
-<name key="Suppè, Franz von" ref="https://muscat.rism.info/admin/people/138448" type="person" role="cmp">Suppè, Franz von</name>
-<name key="Burkhardt, Roger (dir.)"  type="person" role="int">Burkhardt, Roger (dir.)</name>
-<name key="Baur, Hermann (dir.)"  type="person" role="int">Baur, Hermann (dir.)</name>
-<name key="Bühlmann, Harry (dir.)"  type="person" role="int">Bühlmann, Harry (dir.)</name>
-<name key="Lacroix, Fernand"  type="person" role="int">Lacroix, Fernand</name>
-<name key="Echo-Club accordéoniste mixte"  type="person" role="int">Echo-Club accordéoniste mixte</name>
-<name key="Vereinigung Winterthurer Handharmonikaspieler"  type="person" role="int">Vereinigung Winterthurer Handharmonikaspieler</name>
-<name key="Handharmonika-Orchester (Lucerne)"  type="person" role="int">Handharmonika-Orchester (Lucerne)</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003193_001.tif"/>
-<page><![CDATA[%
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19420404'/>
+        <title>Grand concert du concours national suisse d'accordéons</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1941-1942' type='series'/>
+        <name key='Lacroix, Fernand' type='person' role='cmp'>Lacroix, Fernand</name>
+        <name key='Schüpbach' type='person' role='cmp'>Schüpbach</name>
+        <name key='Schaub' type='person' role='cmp'>Schaub</name>
+        <name key='Wild' type='person' role='cmp'>Wild</name>
+        <name key='Demellayer' type='person' role='cmp'>Demellayer</name>
+        <name key='Walser' type='person' role='cmp'>Walser</name>
+        <name key='Offenbach, Jacques' ref='https://muscat.rism.info/admin/people/111831' type='person' role='cmp'>Offenbach, Jacques</name>
+        <name key='Suppè, Franz von' ref='https://muscat.rism.info/admin/people/138448' type='person' role='cmp'>Suppè, Franz von</name>
+        <name key='Burkhardt, Roger' type='person' role='int'>Burkhardt, Roger</name>
+        <name key='Baur, Hermann' type='person' role='int'>Baur, Hermann</name>
+        <name key='Bühlmann, Harry' type='person' role='int'>Bühlmann, Harry</name>
+        <name key='Lacroix, Fernand' type='person' role='int'>Lacroix, Fernand</name>
+        <name key='Echo-Club accordéoniste mixte' type='person' role='int'>Echo-Club accordéoniste mixte</name>
+        <name key='Vereinigung Winterthurer Handharmonikaspieler' type='person' role='int'>Vereinigung Winterthurer Handharmonikaspieler</name>
+        <name key='Handharmonika-Orchester (Lucerne)' type='person' role='int'>Handharmonika-Orchester (Lucerne)</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003193_001.tif'/>
+        <page>
+          <![CDATA[%
 F
 |
 f
 '
 Ï
 /
-
 Z,
-
 J.
-
 | VICTORIA - HALL - GENÈVE
-
 Samedi 4 avril 1942, à 20 h. 30
 Portes à 19 h. 30
-
 Grand Concert
-
 du Concours National Suisse d’Accordéons
-
 PROGRAMME
-
 Echo—Club Accordéoniste Mixte, Genève
-
 Direction ; M. Roger Burkhardt
-
 ‘a) El Pazo, paso doble … . s; - E PERILE
 b) Le moulin dans la forét, morceau de genre Schüpbach
 c) Les Tziganes, ouverture ; ; ; ; Schaub
-
 Vereinigung Winterthurer Handharmonikaspieler
-
 Direction : M. Hermann Baur
-
 a) Notre Suisse, marche . Z ; ; . Wild
-
 D ” Mmerkose. boston ; ; ; ù Demellayer
-
 c) Sonnengold, valse de concert. 2 . ë Schaub
 ENTR’ACTE
-
 Handharmonika-Orchester, Luzern
-
 Direction: M. Harry Bühlmann
-
 a) Régiment 13, marche . . Ÿ ; Walser
 b)  Orphée aux Enters, ouver lure . ; ; Offenbach
 c) Cavallerie Légère, ouverture . ; ; Suppé
-
 Allocution de M. Jean Breton, prés/dent du Comité d'organisation
-
 Hymne accordéoniste, musique de F. Lacroix, paroles de Mérault,
 avec plus de 300 exécutants.
-
 Direction : M. Fernand Lacroix
-
- 
-
- 
-
 Ecole Genevoise d'Accordéon
-
 G. DEMELLAYER,[ proiesseur
-
 le spécialiste du diatonique
-
 Place de la Fusterie, 10
 (Benseignements de 16 à 19 h. 15, mercredi et samedi exceptés
-
- 
-
- 
-
-l]]></page>       
-        </p>
+l
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

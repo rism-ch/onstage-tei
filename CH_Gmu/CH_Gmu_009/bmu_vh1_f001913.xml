@@ -1,236 +1,174 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Arbre de Noël<date when="24/12/1922"/></title>
-<series>1922-1923</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Arbre de Noël
+            <date when='24/12/1922'/>
+          </title>
+          <series>1922-1923</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F001913</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt> </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19221224"/>
-<title>Arbre de Noël</title>
-<placeName key="Victoria Hall"/>
-<name key="1922-1923" type="series"/>
-<name key="Saint-Saëns, Camille" ref="https://muscat.rism.info/admin/people/76734" type="person" role="cmp">Saint-Saëns, Camille</name>
-<name key="Massenet, Jules" ref="https://muscat.rism.info/admin/people/84264" type="person" role="cmp">Massenet, Jules</name>
-<name key="Bonis"  type="person" role="cmp">Bonis</name>
-<name key="Maillart"  type="person" role="cmp">Maillart</name>
-<name key="Wieniawski, Henryk" ref="https://muscat.rism.info/admin/people/137176" type="person" role="cmp">Wieniawski, Henryk</name>
-<name key="Sezbold"  type="person" role="cmp">Sezbold</name>
-<name key="Botrel, Théodore" ref="https://muscat.rism.info/admin/people/27019" type="person" role="cmp">Botrel, Théodore</name>
-<name key="Harmonie N autique"  type="person" role="int">Harmonie N autique</name>
-<name key="Trachsel (Mlle)"  type="person" role="int">Trachsel (Mlle)</name>
-<name key="Vigny, Georges"  type="person" role="int">Vigny, Georges</name>
-<name key="Santandréa"  type="person" role="int">Santandréa</name>
-<name key="Cornu (Mlle)"  type="person" role="int">Cornu (Mlle)</name>
-<name key="Hugonnet, R."  type="person" role="int">Hugonnet, R.</name>
-<name key="Cornamusaz"  type="person" role="int">Cornamusaz</name>
-<name key="Ganzorn, Lilly"  type="person" role="int">Ganzorn, Lilly</name>
-<name key="Piguet, R. (Mlle)"  type="person" role="int">Piguet, R. (Mlle)</name>
-<name key="Le Roy, Josine"  type="person" role="int">Le Roy, Josine</name>
-<name key="Martin"  type="person" role="int">Martin</name>
-<name key="Maulet"  type="person" role="int">Maulet</name>
-<name key="Pezzotti (Mme)"  type="person" role="int">Pezzotti (Mme)</name>
-<name key="Barbey"  type="person" role="int">Barbey</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001913_001.tif"/>
-<page><![CDATA[QUE
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19221224'/>
+        <title>Arbre de Noël</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1922-1923' type='series'/>
+        <name key='Saint-Saëns, Camille' ref='https://muscat.rism.info/admin/people/76734' type='person' role='cmp'>Saint-Saëns, Camille</name>
+        <name key='Massenet, Jules' ref='https://muscat.rism.info/admin/people/84264' type='person' role='cmp'>Massenet, Jules</name>
+        <name key='Bonis' type='person' role='cmp'>Bonis</name>
+        <name key='Maillart' type='person' role='cmp'>Maillart</name>
+        <name key='Wieniawski, Henryk' ref='https://muscat.rism.info/admin/people/137176' type='person' role='cmp'>Wieniawski, Henryk</name>
+        <name key='Sezbold' type='person' role='cmp'>Sezbold</name>
+        <name key='Botrel, Théodore' ref='https://muscat.rism.info/admin/people/27019' type='person' role='cmp'>Botrel, Théodore</name>
+        <name key='Harmonie N autique' type='person' role='int'>Harmonie N autique</name>
+        <name key='Trachsel (Mlle)' type='person' role='int'>Trachsel (Mlle)</name>
+        <name key='Vigny, Georges' type='person' role='int'>Vigny, Georges</name>
+        <name key='Santandréa' type='person' role='int'>Santandréa</name>
+        <name key='Cornu (Mlle)' type='person' role='int'>Cornu (Mlle)</name>
+        <name key='Hugonnet, R.' type='person' role='int'>Hugonnet, R.</name>
+        <name key='Cornamusaz' type='person' role='int'>Cornamusaz</name>
+        <name key='Ganzorn, Lilly' type='person' role='int'>Ganzorn, Lilly</name>
+        <name key='Piguet, R. (Mlle)' type='person' role='int'>Piguet, R. (Mlle)</name>
+        <name key='Le Roy, Josine' type='person' role='int'>Le Roy, Josine</name>
+        <name key='Martin' type='person' role='int'>Martin</name>
+        <name key='Maulet' type='person' role='int'>Maulet</name>
+        <name key='Pezzotti (Mme)' type='person' role='int'>Pezzotti (Mme)</name>
+        <name key='Barbey' type='person' role='int'>Barbey</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001913_001.tif'/>
+        <page>
+          <![CDATA[QUE
 (Harmonie Municipale de la Ville de Genève)
-
 Pp5 É0 e rr 77D 05c m pc sC0
-
- 
-
 VICTORIA HALL
 (entrêe par ]a porte c!e la rue H(n*ﬁun3‘}
 e
-
 Dimanche 24 Décembre 1922
-
 à 3 lleures précises
-
 ARBRE de NOÉL
-
 organisé pour les
-
 Meml;res exécutants et leurs familles
-
 Œ_PROGRAMME î
-
 ORCHESTRE.
-
 AIR DE SAMSON ET DALILA . . . SAIN'T-SAENS.
 MLLE TRACHSEL,
-
 QUINTETTE pour clarinettes Ppar les élèves de M, Santandreu.
-
 ULGENDEDELA SAUGK …. - MASSENET.
 M. Georces VIGNY
-
 NOËL PASTORAL . . . se 19415 4 BONIS)
 MLLE TRACHSEL.
-
 ILLUMINATION DE L’ARBRE.
 APPARITION DE CHALANDE.
 THÉATRE GUIGNOI.
 ORCHESTRE.
-
 DISTRIBUTION des LOTS et BONBONS AUX ENFANTS,.
-
-GUNÈVE » 1MP, J, DESHUSSES]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001913_002.tif"/>
-<page><![CDATA[; és ;
+GUNÈVE » 1MP, J, DESHUSSES
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001913_002.tif'/>
+        <page>
+          <![CDATA[; és ;
 (@)
 $
-
 A Z }1. (]ll SOiI‘
 SOUPER FACULTATIF
-
 Jans 1es Petitcs sallcs, servi par M E VIGNY
-
- 
-
 BŒUF BOURGUIGNON
 AUX CHAMPIGNONS
-
 POMMES MAITRE D'HOTEL
 VOLAILLE DE BRESSE
 SALADE DE SAISON
-
 DESSERT ASSORTI
-
 =
-
 P)ix 5 _fI‘CUICS
-{avec une c]emi—lmuteille P(ll‘ 12e1‘sonne)]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001913_003.tif"/>
-<page><![CDATA[m
-
+{avec une c]emi—lmuteille P(ll‘ 12e1‘sonne)
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001913_003.tif'/>
+        <page>
+          <![CDATA[m
 A e E
-
 E d rr e r
-
 3>
-
- 
-
 r aranree
-
 ms rs
-
 REn LS
-
 ME ARITE
-
- 
-
 — 0V7ad
-
 2230
-
- 
-
- 
-
- 
-
-  
-
 SOII‘€€ (1€ NO€1 1922
-
 à 8 ]yeure.s et (]ﬂmm
-
- 
-
 I‘)
-
 À
-
 jep PROGRAMME yygt
-
 227 2J p pj r fn es en fn -h
-
 Orc]1estre.
-
 » JEAN-MARIE
-
 Pièce en vers d'’André Theuriet
 Thérèse : M"* CORNU — Jean-Marie : M. R. HUGONNET — Joël : M. CORNAMUSAZ
-
 s?
-
 Air varié pour Clarinette et Orchestre.
 M. SANTANDREA
-
 4 Les Dragons de Villars . . «  MAILLART.
-
 MME BARBEY-MEYER
-
 a) Mazur]ca . . ‘ ( ; . WIENNIAWSKY.
-
 L) SaLotière ; i ; ; ; ; SEZBOLD.
-
 POUR VIOLON : MLE Litty GANZORN
 AU PIANO : McLe R. PIGUET
-
 6. Cl1ansons _/rançaises.
-
 MLLE Josine LE Roy .
-
 7 Presttthttahon amusante par M BarLcy
-
 et un groupe (1 artistes (113t…3ues
-
 sr
-
 « HLEUR D'AJONC
-
 Opérette bretonne de Th, Botrel
-
 Anna Le Hello ; M"* PEZZOTTI — Corentin : M, MAULET
 Gaston de la Rue : M, MARTIN
-
-  
-
- 
-
- 
-
-225 h* 30 o dansera !l.….]]></page>       
-        </p>
+225 h* 30 o dansera !l.….
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

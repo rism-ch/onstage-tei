@@ -1,94 +1,91 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Passion selon Saint-Jean<date when="15/04/1899"/></title>
-<series>1898-1899</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Passion selon Saint-Jean
+            <date when='15/04/1899'/>
+          </title>
+          <series>1898-1899</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F000427</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Barblan, O. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18990415"/>
-<title>Passion selon Saint-Jean</title>
-<placeName key="Victoria Hall"/>
-<name key="1898-1899" type="series"/>
-<name key="Bach, Johann Sebastian" ref="https://muscat.rism.info/admin/people/2539" type="person" role="cmp">Bach, Johann Sebastian</name>
-<name key="Barblan, Otto  (dir.)" ref="https://muscat.rism.info/admin/people/5298" type="person" role="int">Barblan, Otto  (dir.)</name>
-<name key="Société de chant sacré"  type="person" role="int">Société de chant sacré</name>
-<name key="Bonade (Mme)"  type="person" role="int">Bonade (Mme)</name>
-<name key="Troyon"  type="person" role="int">Troyon</name>
-<name key="Sentein"  type="person" role="int">Sentein</name>
-<name key="B., Ch."  type="person" role="int">B., Ch.</name>
-<name key="Saxod"  type="person" role="int">Saxod</name>
-<name key="Ferraris, G."  type="person" role="int">Ferraris, G.</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000427_001.tif"/>
-<page><![CDATA[XE L
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18990415'/>
+        <title>Passion selon Saint-Jean</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1898-1899' type='series'/>
+        <name key='Bach, Johann Sebastian' ref='https://muscat.rism.info/admin/people/2539' type='person' role='cmp'>Bach, Johann Sebastian</name>
+        <name key='Barblan, Otto' ref='https://muscat.rism.info/admin/people/5298' type='person' role='int'>Barblan, Otto</name>
+        <name key='Société de chant sacré' type='person' role='int'>Société de chant sacré</name>
+        <name key='Bonade (Mme)' type='person' role='int'>Bonade (Mme)</name>
+        <name key='Troyon' type='person' role='int'>Troyon</name>
+        <name key='Sentein' type='person' role='int'>Sentein</name>
+        <name key='B., Ch.' type='person' role='int'>B., Ch.</name>
+        <name key='Saxod' type='person' role='int'>Saxod</name>
+        <name key='Ferraris, G.' type='person' role='int'>Ferraris, G.</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000427_001.tif'/>
+        <page>
+          <![CDATA[XE L
 Prix : 20 centimes.
-
 QŸæmea@' 75 Quul 7899, à & heures du soïr.
-
 ——mrov-—
-
 Première audition de la
-
 Passion selon S Jean
-
 #,.-5.,. P> /CEZ
 4724)
 pour soli, chœurns, onchestre et ongue
-
 exécutée par la
-
 Société de Chant Sacré
 sous la direction de M. Otto BARBLAN
-
 avec le concours de
-
 Mre BONADEK, soprano — Ch. B**, contralto
-
 et de
-
 MM. TROYON, ténor — SENTKIN, basse — SAXOD, basse
-
 v n
 __ MVs
-
- 
-
 o°
 °
 o
@@ -138,10 +135,8 @@ o
 °
 O
 ©
-
 L’«©RGL‘E SERA TENU PAR M â Ê‘ERRARXS
 ——c
-
 PRIX DES PLACES — Rez-de-chaussée : Loges d’angle, 6 fr. — Loges de côté,
 5 fr. — Pourtour, 4 fr. — Parquet, 4 fr. — Parterre, 3 fr. — Promenoir, 3fr, —
 Amphithéâtre, 2 fr. 5o. — Fre Galerie : Loges, 6 fr. — Fauteuils de face, premier et
@@ -149,200 +144,113 @@ deuxième rang, 5 fr.; autres rangs, 4 fr. — Fauteuils de côté, premier rang
 ‘ autres rangs, 3 fr. — Amphithéâtre, 3 fr. — Fauteuils d’orgue, 2 fr. — IIe Galerie :
 ; Fauteuils, premier rang, 2 fr.; autres rangs, 1 fr. — Amphithéâtre, 2 fr.
 D
-
 La location est ouverte dès ce jour chez MM. Rotschy et fils, Corraterie.
-
 3; N.B. — Les places pourront être retenues par correspondance, à l’exelusion du téléphone,
-
 Les portes resteront fermées pendant l'exécution des morceaux,
-
- 
-
 Ÿ
 Tramways à la sortie pour Annemasse, Carouge, Champel et Petit-Saconnex.
 Ÿ C4 T4 CTN
 Z s, C st
 V|L||L|T|Ÿ|%|%
-
 k//v/v,,«['u DON NNN NNN SPN N SON N TD EN T E PEPE PEPE E E e
-
- 
-
 0005600000
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-Genève, — /mp. L,-F, Verrys.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000427_002.tif"/>
-<page><![CDATA[. 18
-
+Genève, — /mp. L,-F, Verrys.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000427_002.tif'/>
+        <page>
+          <![CDATA[. 18
 LA PASSION SELON SAINT JEAN
-
 La traduction de la Passion selon saint Jean, due à M. Ed. Mercier, est une adaptation,
 aussi précise que possible, des valeurs syllabiques de la langue française aux valeurs
 rythmiques de la musique de J.-S. Bach. Au point de vue de la littéralité, le résultat est
 plus que satisfaisant. Du reste, le texte biblique est exactement appliqué dans tous les
 récits. Les chorals, pour être présentés en des vers bien venus, ne s’écartent en rien du
 sens primitif et conservent, traduits, leur austère et sublime élévation.
-
 L’exécution du drame sacré fait naître chez l’auditeur une émotion recueillie, qui va ;
 augmentant d’intensité tandis que se présentent à lui ces scènes si douloureusement
 poignantes.
-
 Le premier chœur, qui s’enchaîne à un court prélude de dix-huit mesures, est une
 magnification du Christ ; l’avant-dernier, un requiem d’une bienfaisante sérénité, laisse |
 deviner l’éternelle existence, exaltée dans les vers du dernier choral. |
-
 Entre ces deux morceaux, d’une facture différant du reste de la partition, se déroule
 le drame proprement dit, dont suit un abrégé du texte : ;
-
 PREMIÈRE PARTIE
-
 PRÉLUDE ET CHŒUR .Christ notre Maître.….
-
 EVANGÉLISTE. .. ... .Puis Jésus vint au Cédron aînsi que ses disciples..….
 Jésus............Qui cherchez-vous ?
-
 EvANG........... ls lui dirent ces mots :
-
 CHŒUR ............Jésus de Nazareth !
 EvaNG.............Et Jésus leur dit :
-
 Jésusms . Cestimoi |
-
 EvanG.............Or Judas qui le livrait était du nombre.…….
 Jésus... .. Qui cherchez-vous ?
-
 EvANG........ ... Ils répondirent :
-
 CHŒUR ........... .Jésus de Nazareth !
-
 EvaNG.. .Et Jésus répondit :
-
- 
-
 Jésus..............C’est moi, je l’ai dit, si c’est moi que vous cherchez.….
 CHORAL............O grand amour, amour incomparable..…. —
 EvANG.............C’était pour que cette parole fut accomplie.….
-
 Jésus............. Rentre au fourreau ton épée. Ne me faut-il pas boire la coupe……
 CHORAL........ .. .Qu’ici-bas comme au ciel, Seigneur, — Ta volonté se fasse.….
 EvANG............Alors le tribun et la cohorte et les huissiers des Juifs.….
-
 AIR (alto).. .Mon doux Maître se laissant charger de chaînes.…….
 EvANG..... Simon Pierre accompagné d’un disciple avait suivi Jésus..…
 SERVANTE .. N’es-tu pas un disciple de cet homme ?
-
 EVANG: 140540 U Edit
-
 PIERRE.............Moi jamais !
-
 EvanG.............Les serviteurs, les huissiers du Grand-Prêtre.…….
 Jésus..............Tu sais qu’à tous j’ai toujours parlé ouvertement..…….
-
 EVvANG S 44 .… . Lorsqu’il entendit un tel discours..….
-
 SERVITEUR......... .Est-ce ainsi qu’au Prêtre tu dois répondre ?
 EvANG.............Et Jésus répondant lui dit :
-
- 
-
 Jésus.............Si j'ai mal parlé, montre-moi ce que j’ai dit de mal…. n
 CHORAL.......... .. Quelle est la main cruelle, — L’audace criminelle..….
 EvANG............Puis Anne le fit envoyer lié au Grand-Prêtre Caïphe.….
-
- 
- 
-
-#]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000427_003.tif"/>
-<page><![CDATA[CHŒUR ............N’es-tu pas un de ses disciples ?
+#
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000427_003.tif'/>
+        <page>
+          <![CDATA[CHŒUR ............N’es-tu pas un de ses disciples ?
 EvANG.............Mais il le nia en disant :
 PIERRE............Moi, jamais !
 EvANG............. Un huissier du Grand-Pontife.….
 SERVITEUR..........N’étais-tu pas dans le jardin avec lui ?
-
 EVANG.............De nouveau Simon-Pierre le nia, en cet instant le coq chanta.…….
 Aur (ténor).........Ah ! Seigneur où dois-je aller, où trouverai-je grâce ?
 CHORAL.........…. .Pierre dans sa lâcheté. — Renia son Maître.
-
 DEUXIÈME PARTIE
-
 CHORAL............Christ qui nous donna la paix — N’était pas coupable.
 EvaNG.............Ensuite ils conduisirent Jésus de chez Caïphe au prétoire
 PILATE ... ... De quelle iniquité accusez-vous cet homme ?
 EVANG.....4.....Et les Juifs répondirent ces mots :
-
 CHŒUR ............Si cet homme n’était pas coupable.…….
 EvANG.............Alors Pilate leur dit :
-
 PILATE.......... . Vous-mêmes prenez-le et jugez-le selon votre loi !
 Evanc ° Les Juifs répondirent ces mots :
-
 CHŒUR ............La loi défend de mettre à mort personne……
 EvANG............C’était afin que s'accomplit ce que Jésus avait dit.….
 PILATE.:...........Es-tu le Roi des Juifs ?
-
 EvANG..….......Jésus lui répondit :
-
 Jésus e 2 Est-ce toi qui le demandes ou bien d’autres te l’ont-il dit?..….
 EvANG.......... Pilate lui répondit :
-
 PILATE............ . Suis-je donc Juif ? Ton peuple et les chefs des prêtres.….
 EvANG.............Jésus lui répondit :
-
 Jésus 4 Mon règne n’est point d’ici-bas..…
 CHORAL............O Roi des Cieux, comment pourrai-je taire
 EvANG ... Alors Pilate lui dit :
-
 PILATE ... .. En vérité es-tu roi ?
 EVANG........…..Et Jésus répondit :
-
 Jésus t u le dis, je suis un roi. Je suis venu au monde.……
 EVANG............Et Pilate lui dit :
-
 PILATE...0;-e, ... .La vérité ?
-
 EvAaNG / Sn 01 » Ayant dit ces paroles, il alla de nouveau vers les Juifs..….
 PILATE........... Je ne trouve aucun crime en lui, mais comme toujours..….
 EVANG............Alors ils crièrent de nouveau et dirent :
-
 CHœur .. Non pas lui, mais bien Barrabas.
-
 EvANG............Or Barrabas était un brigand. Pilat prit Jésus..….
-
 AIR (basse) ... . .Pécheur angoissé, regarde vers ton Maître.….
-
 ATRo(ténon p Regarde et vois ce corps couvert de blessures.…….
 EvVANG............Puis les soldats tressérent une couronne d’épines
 CHŒUR ........ .. Roi-des Juifs, reçois nos hommages !
@@ -350,25 +258,21 @@ EVANG....…........Et tous l’accablaient d’outrages..….
 PILATES 664 sé«. . Voici, je vous l’amène dehors.…….
 EVANG 4% 44.144 , Alors Jésus sortit, le front ceint d’épines
 PILATE .. 10 Stnos 4 Peuple, voici l’homme.
-
 EVANG . 6 <» 20h tdu 1 4 Maib quand les chefs des prêtres
 CHŒUR .......#... .Crucifie !
-EVANG.........., .Pilate alors lui dit :]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000427_004.tif"/>
-<page><![CDATA[PILATE... . . « « + »» » ». Prenez-le vous-mêmes, crucifiez-le...…
+EVANG.........., .Pilate alors lui dit :
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000427_004.tif'/>
+        <page>
+          <![CDATA[PILATE... . . « « + »» » ». Prenez-le vous-mêmes, crucifiez-le...…
 EVANG.............Les Juifs répondirent ces mots :
-
 CHŒUR ... . ++......Nous avons une loi, selon cette loi, il doit mourrir….
-
 EVANG .. . « « » » + » « » » . Quand Pilate eut entendu ces mots, sa crainte s’en accrüt..….
 PILATE ............D?’où es-tu donc ?
-
 EVANG...........Mais Jésus ne lui répondit rien. Alors Pilate lui dit :
-
 PILATE .6.<.......Tu ne me réponds'rien ?..….
-
 EvVANG...........Jésus lui répondit :
-
 JÉSUS .............Sur moi tu n’aurais pas de pouvoir.….
 EvANG.............Dès ce moment Pilate aurait voulu relâcher Jésus. 4
 CHORAL...........,Seigneur par ta captivité. — Tu vins briser nos chaînes.…... \U
@@ -376,20 +280,13 @@ EVANG............. Mais les Juifs criant encore lui dirent : *
 CHŒUR ............Si tu oses le relâcher, tu n’es pas ami de César, .tu le renies..….
 EVANG . « « « » + » « » « » ». Quand Pilate eut entendu cela, il amena Jésus au dehors...
 PILATE.....…........Voyez, voici votre Roi.
-
 EVANG. . . …… .. Mais ils crièrent :
-
 CHŒUR .....++s++.. Qu’il soit crucifié…
-
 EVANG «.....»<... t Pilate leur:dit «
-
 PILATE......+...+..Votre Roi, faut-il le mettre à mort ?
-
 EVANG ...+.++.»»»..Les chefs des prêtres lui répondirent :
-
 CHŒUR .......... .. Luijamais n’eut de royaume, nous ne reconnaissons que César..….
 EVANG .............Alors il livra Jésus aux Juifs afin qu’il soit crucifié...
-
 Air (basse et chœur). Viens, âme angoissée et sort de ton séjour de tristesse.….
 EvANG............Et là il fut mis en croix, et avec lui deux autres à ses côtés..…
 CHŒUR «.+..+.+....N’écris pas Roi des Juifs, mais écris que lui-même.……. ;
@@ -399,55 +296,37 @@ CHORAL........»...Que sans cesse en mon âme. — Ton nom, ta croix, Seigneur..
 EVANG ... Alors les soldats quand ils l’eurent crucifié prirent ses habits.….
 CHŒUR ............Gardons-nous de la détruire, tirons au sort lequel des nôtres.….
 EVANG.............Cela eut lieu pour que s’accomplit là parole.…….
-
 JÉSUS ... Vois, femme, voilà ton fils.
-
 EVANG . » . » + se »+» .. Puis il dit à son disciple: Æ
 JÉSUS .. 4—— —— — 0. Bftoi.s. Voilà ta mérel
-
 CHORAL.......... . Jésus garde sur la croix, — Sa douceur entière.….
 EvANG ... « ... Dès cette heure il la prit chez lui..….
-
 JÉSUS . es 00n 1 5 A SON EN
-
 EvANG............. Un vase était là plein de vinaigre.…..
-
 Jésus ... ... .. Tout est accompli ! ’
-
 AIr (alto)..+. ... . Tout est accompli, c’est là pour l’îme tourmentée..….
 EvAnG.............Et, baissant la tête il expira.
-
 Air (basse et chœur) O mon Sauveur, mon cœur t’implore..….
 EvAnG.............Et tout à coup le voile du temple se déchira….
-
 Ar (ténor).........Mon cœur ! regarde, le monde entier gémit et souffre.….
 AIR (soprano).......Ah ! verse, mon âme, des larmes amères sur ton Maitre.….
 EvanG...........Alors les Juifs craignant de voir les corps rester en croix..…….
 CxoraL............Fais, Jésus, divin Sauveur. — Par ton saint martyre.…..
 EvANG............Alors, s’adressant à Pilate, Joseph d’Arimathée..….
 CHŒœur ............Repose en paix, À Sainte dépouille.….
-CHORAL.:..........Reçois mon âme dans ton sein..….]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000427_test_1.tif"/>
-<page><![CDATA[F
+CHORAL.:..........Reçois mon âme dans ton sein..….
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000427_test_1.tif'/>
+        <page>
+          <![CDATA[F
 | , l
 ; ii Prix : 20 centimes.
 |‘I
 E
-
-    
-  
-   
-  
-
 2 S ATNA
 _ kyä_y_j‘{ 40 \Î_\_‘\_Àïj( _>_j‘, , >æ\ä:. , - e
-
 “ ©
-
- 
-
-    
-
 Z (\s
 VICTORIA-HALL — GENÈVE 4
 8 ;Ç
@@ -456,13 +335,6 @@ Samedi 75 QŒuuil 7899, à & heures du soïr. }Ç
 1 "
 Première audition de la J
 }
-
- 
-
- 
-
- 
-
 *[8 %
 Ë 4x ; (
 J( Société de Chant Sacré /
@@ -473,7 +345,6 @@ e fn ; >
 NE E Mr« BONADE, soprano — Ch. B**, contralto ‘ ,
 ; Ë V/, et de Ï\,
 %/8|  MM. YROYON, ténor — SEKNTKIN, basse — SAXOD, basse |*
-
 5 ——,/*<ïj”_}"\æ—— ïÇ
 ; = Ç
 | \a 1YDRGUE SERA TENU PAR M Ü. Pennanis Èä
@@ -481,88 +352,38 @@ sr d u es ue Ÿ
 4e Z \b‘
 (  PRIX DES PLACES — Rez-de-chaussée : Loges d’angle, 6 fr. — Loges de côté, ÿ
 ; 5 fr. — Pourtour, 4 fr. — Parquet, 4 fr. — Parterre, 3 fr. — Promenoir, 3fr,— /
-
 Amphithéâtre, 2 fr. 5o. — Ire Galerie : Loges, 6 fr. — Fauteuils de face, premier et ÿ;
 ÿ./ deuxième rang, 5 fr.; autres rangs, 4 fr. — Fauteuils de côté, premier rang, 5 fr.; \ë(
 ‘ autres rangs, 3 fr. — Amphithéâtre, 3 fr. — Fauteuils d’orgue, 2 fr. — IIe Galerie :
 ; Fauteuils, premier rang, 2 fr.; autres rangs, 1 fr. — Amphithéâtre, 2 fr. Ë
 » Ü
-
 La location est ouverte dès ce jour chez MM. Rotschy et fils, Corraterie.
-
 u “ “
 0000
-
 00
-
 c00000
-
 3; N.B. — Les places pourront être retenues par correspondance, à l’exclusion du téléphone, {
-
- 
-
 \
 Les portes resteront fermées pendant l'exécution des morceaux, }
 MOLLLLOLLAL |
-
 e
-
 '\gç Tramways à la sortie pour Annemasse, Carouge, Champel et Petit-Saconnex. N
 114 4C U C 44 N
 \s< cm « ( 5 £
-
 18189 |L|6||6|2|0|e|e[2[% lh
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 OION T TEIN AN ON TN ON TPEDIN A TPE PS AIN E £
 Genève, — Imp. L.-F, Verrys. b
-
- 
-
- 
-
 æ
-
 /
 &
-
 ...i &
-
 *
-.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000427_test_2.tif"/>
-<page><![CDATA[n
+.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000427_test_2.tif'/>
+        <page>
+          <![CDATA[n
 Ü
 =
 2
@@ -578,95 +399,50 @@ O
 ©
 e
 es
-
 e ÉTNA RN L
 @Æ .- 0 — S ...«\>,\_?j__,f B
-
 Prix : 20 centimes.
-
 ex
 T =
-
 ; ?
 RIA-HALL —- GENEVE
-
 Quril 7899, à & heures du soir.
 d e
-
 emière audition de la
-
 ] selo
-
 =. / CIEZ
 Ud724)
 chœurs, onchesire et ongue
-
 exécutée par la
-
 de Chant Sacré
 direction de M. Otto BARBLAN
-
 avec le concours de
-
 DH, soprano — Ch. B***, contralto
 et de
-
 r — SENTEIN, basss — SAXOD, basse
-
 —. .f"",’r'\——'”'
-
 ——
-
 us
 SERA TENU PAR M @. Fenranis
-
 Rez-de-chaussée : Loges d’angle, 6 fr. — Loges de côté,
 ’arquet, 4 fr. — Parterre, 3 fr. — Promenoir, 3 fr. —
 re Galerie : Loges, 6 fr. — Fauteuils de face, premier et
 ; rangs, 4 fr. — Fauteuils de côté, premier rang, 5 fr.;
 ithéâtre, 3 fr. — Fauteuils d’orgue, 2 fr. — IIe Galerie :
 .; autres rangs, 1 fr. — Amphithéâtre, 2 fr.
-
- 
-
 dès ce jour chez MM. Rotschy et fils, Corraterie.
-
 tre retenues par correspondance, à l’exclusion du téléphone.
 ont fermées pendant l'exécution des morceaux,
-
 ir Annemasse, Carouge, Champel et Petit-Saconnex.
 A A én AJ “n \ A
-
 e
 sn ? sm ( 92 t
 16 197197 1211 M
-
 VNT S
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-Genève, — Imp. L,-F, Verrys.]]></page>       
-        </p>
+Genève, — Imp. L,-F, Verrys.
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

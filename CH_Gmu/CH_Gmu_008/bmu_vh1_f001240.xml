@@ -1,89 +1,92 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert symphonique, 1er de l'abonnement<date when="30/11/1918"/></title>
-<series>1918-1919</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert symphonique, 1er de l'abonnement
+            <date when='30/11/1918'/>
+          </title>
+          <series>1918-1919</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F001240</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Ansermet, E. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19181130"/>
-<title>Concert symphonique, 1er de l'abonnement</title>
-<placeName key="Victoria Hall"/>
-<name key="1918-1919" type="series"/>
-<name key="Händel, Georg Friedrich" ref="https://muscat.rism.info/admin/people/36552" type="person" role="cmp">Händel, Georg Friedrich</name>
-<name key="Mozart, Wolfgang Amadeus" ref="https://muscat.rism.info/admin/people/115324" type="person" role="cmp">Mozart, Wolfgang Amadeus</name>
-<name key="Benner"  type="person" role="cmp">Benner</name>
-<name key="Jaques-Dalcroze, Emile" ref="https://muscat.rism.info/admin/people/109238" type="person" role="cmp">Jaques-Dalcroze, Emile</name>
-<name key="Rimskij-Korsakov, Nikolaj Andreevič" ref="https://muscat.rism.info/admin/people/55357" type="person" role="cmp">Rimskij-Korsakov, Nikolaj Andreevič</name>
-<name key="Ansermet, Ernest  (dir.)" ref="https://muscat.rism.info/admin/people/40219507" type="person" role="int">Ansermet, Ernest  (dir.)</name>
-<name key="Orchestre de la Suisse Romande" ref="https://muscat.rism.info/admin/people/50007615" type="person" role="int">Orchestre de la Suisse Romande</name>
-<name key="Debogis-Bohy (Mme)"  type="person" role="int">Debogis-Bohy (Mme)</name>
-<name key="Closset"  type="person" role="int">Closset</name>
-<name key="Sabbatani"  type="person" role="int">Sabbatani</name>
-<name key="Soffiaux"  type="person" role="int">Soffiaux</name>
-<name key="Albisi"  type="person" role="int">Albisi</name>
-<name key="Brandia"  type="person" role="int">Brandia</name>
-<name key="Mazzoni"  type="person" role="int">Mazzoni</name>
-<name key="Nazzi"  type="person" role="int">Nazzi</name>
-<name key="Bellenger"  type="person" role="int">Bellenger</name>
-<name key="Pommier"  type="person" role="int">Pommier</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001240_001.tif"/>
-<page><![CDATA[\/XGTO.ÊX}\"HÂbh - GENEVE
-
- 
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19181130'/>
+        <title>Concert symphonique, 1er de l'abonnement</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1918-1919' type='series'/>
+        <name key='Händel, Georg Friedrich' ref='https://muscat.rism.info/admin/people/36552' type='person' role='cmp'>Händel, Georg Friedrich</name>
+        <name key='Mozart, Wolfgang Amadeus' ref='https://muscat.rism.info/admin/people/115324' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Benner' type='person' role='cmp'>Benner</name>
+        <name key='Jaques-Dalcroze, Emile' ref='https://muscat.rism.info/admin/people/109238' type='person' role='cmp'>Jaques-Dalcroze, Emile</name>
+        <name key='Rimskij-Korsakov, Nikolaj Andreevič' ref='https://muscat.rism.info/admin/people/55357' type='person' role='cmp'>Rimskij-Korsakov, Nikolaj Andreevič</name>
+        <name key='Ansermet, Ernest' ref='https://muscat.rism.info/admin/people/40219507' type='person' role='int'>Ansermet, Ernest</name>
+        <name key='Orchestre de la Suisse Romande' ref='https://muscat.rism.info/admin/people/50007615' type='person' role='int'>Orchestre de la Suisse Romande</name>
+        <name key='Debogis-Bohy (Mme)' type='person' role='int'>Debogis-Bohy (Mme)</name>
+        <name key='Closset' type='person' role='int'>Closset</name>
+        <name key='Sabbatani' type='person' role='int'>Sabbatani</name>
+        <name key='Soffiaux' type='person' role='int'>Soffiaux</name>
+        <name key='Albisi' type='person' role='int'>Albisi</name>
+        <name key='Brandia' type='person' role='int'>Brandia</name>
+        <name key='Mazzoni' type='person' role='int'>Mazzoni</name>
+        <name key='Nazzi' type='person' role='int'>Nazzi</name>
+        <name key='Bellenger' type='person' role='int'>Bellenger</name>
+        <name key='Pommier' type='person' role='int'>Pommier</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001240_001.tif'/>
+        <page>
+          <![CDATA[\/XGTO.ÊX}\"HÂbh - GENEVE
 SAMEDI 30 NOVEMBRE 1918, à 8 heures 30
-
 9 E 1l'ORCHESTRE
-
 DE LA
-
 SUISSE ROMANDE
 CONCERT SYMPHONIQUE
-
 1°° DE L’'ABONNEMENT
 Soliste: M"° DEBOGIS-BOHY, Cantatrice
-
 PROGRAMME
-
 ( PREMIÈRE PARTIE
 . CONCERTO GROSSO en si bémol, op. 3n 1. … . . - Haendel
-
 Allegro moderato. - Largo. - Allegro.
 Concertino : Cordes: MM. Closset, Sabbatani, Soffiaux, Albisi, Brandia, Mazzoni
 Hautbois : Nazzi ef Bellenger.
@@ -92,60 +95,38 @@ Piano : Pommier.
 - Mme DEBOGIS-BOHY
 : SYMPHONIE en ré majeur (K. V. 504). . . 21 2 1. Mozart
 a) Adagio. - Allegro. - b) Andante. - c) Presto.
-
 DEUXIÈME PARTIE
 . a) NOX (des Poèmes de la Mer) 1'€ auditon . . — . - - Benner
-
 b) RONDE PRINTÀNIERE, pour- chant et orchastre . / € Jaques-Dalcroze
 Me DEBOGIS-BOHY
-
 ; SHEHERÀZADÏË suife \vnlphonlquç d'après Les Mille et une Nuils Rimsky-Korsakow
 a) La mer ef le vaisseau de Sindbad.
 b) Le récit du Prince Kalender.
 c) Le jeune Prince et la Princesse.
 d) Fête à Bazdad, - La mer. - Le vaisseau sombre sur un
 écueil présenfanf l’aspect d’un guerrier d’airain,
-
 Violon solo: M. Closset.
-
 Orchestre sous la direction de M' Ernest ANSERMET
-
- 
-
 Aucun morceau ne sera répété, ni ajouté au programme.
-
 La Direction se réserve le droit d’apporter au programme foutes modifications que les
 circonsfances pourraienf lui imposer.
-
- 
-
 Location et renseignements chez MM. ROTSCHY frères
-
- 
-
- 
-
 PRIX: Fr. 0.25
-
 Imp. Buloz & Jacquier, rue John-Grasset, 7 - Genève
-
-“]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001240_002.tif"/>
-<page><![CDATA[Air de Nitocris, de “ Balthazar ”
-
+“
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001240_002.tif'/>
+        <page>
+          <![CDATA[Air de Nitocris, de “ Balthazar ”
 G.-F. HÆNDEL.
-
 Récit.
-
 Ah! tout empire humain a même destinée. -— Paible comme
 l'enfant, et comme lui craintif, il hésite d’abord et tend des bras
 tremblants, implorant l’aide des Etats voisins qu'il rève de détruire.
-
 - Puis, vient la soif du sceptre, des richesses; c'est lheure des
-
 conquêtes… -— Alors, fier et puissant, sur tous, il veut régner en
 maitre. — Rien ne l’arrête; il va, ravage, dévaste, sème l'effroi… —
-
 Enfin, l’âge est venu; trop vaste et las, il porte dans ses flanes la
 menace prochaine: orgueil, luxure, corruption, perfidie; tous les
 signes des sûres décadences où tombent les empires! —— L'heure
@@ -153,9 +134,7 @@ est proche… déjà un peuple attend, prêt à frapper; moment fatal ! il
 vole à la curée… — Le viel arbre est à terre, sans feuilles, sans
 sève, brisé! — Hélas! plus il ne verdira! — Et glorieux, l’Etat
 vainqueur triomphe. — Et c'est la même grandeur, fragile et vaine,
-
 Air.
-
 O Dieu! toi seul vraiment es grand! ton règne seul ne passe pas!
 — Sur l’infini s’etend ton sceptre juste et fort ; l’aube éternelle brille
 en Toi. -— Et par les monts, et par les mers, depuis toujours ta loi
@@ -168,66 +147,22 @@ passe pas; et sur les monts, et sur les mers, s'étend ton sceptre
 juste et fort. — Les trônes tombent, les gloires passent, et le Temps
 fuit: rien n’est durable, non, rien, rien que Toi seul, à Dieu, Dieu
 orand !
-
 —— -
-
- 
-
- 
-
- 
-
-  
- 
-
 SPEN A pn
-
- 
-
 v us p e crcn n'actseule rr rr dn à
-
 LS
-
 d
-
- 
-
- 
-
 RIRN
-
- 
-
- 
-
- 
-
- 
-
- 
-
 CO p ce sÉ es VS
-
- 
-
-sr]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001240_003.tif"/>
-<page><![CDATA[Pn 7
-
+sr
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001240_003.tif'/>
+        <page>
+          <![CDATA[Pn 7
 FROpE SUS
-
- 
-
- 
-
 nn 5 MOF AT
-
- 
-
 A RESRE AN PU RFF BT
-
- 
-
 ë
 #
 z
@@ -235,100 +170,76 @@ z
 2
 #
 ;
-
 Ê
 > “
-
 à
 E
 ë-
-
-  
-
 NOX
-
 P. Benner.
-
 Sur la pente des monts les brises apaisées
 Inclinent au sommeil les arbres onduleux,
 L’oiseau silencieux s’endort dans les rosées.
-
 Et l’étoile a doré l’écume des flots bleux.
-
 Aux contours des ravins, sur les hauteurs sauvag'es,
 Une molle vapeur efface les chemins,
-
 La Lune tristement baigne ses noirs feuillages,
 L’oreille n’entend plus les murmures humains.
 Mais sur le sable au loin chante la mer divine,
 Et des hautes forêts gémit la grande voix.
-
 Et l’air sonore, aux cieux que la nuit illumine.
 Porte le chant des mers et le soupir des bois.
 Sur la pente des monts, les bises apaisées
 Inclinent au sommeil les arbres onduleux.
-
-Leconte de Lisle.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001240_004.tif"/>
-<page><![CDATA[RONDE PRINTANIÈRE
-
-  
-  
-
+Leconte de Lisle.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001240_004.tif'/>
+        <page>
+          <![CDATA[RONDE PRINTANIÈRE
 Bigolette, bigolin, Mai danse sur le chemin — Ma main tremble
 dans ta main, Mon cœur saute comme une chevrette.
-
 As-tu vu rosir les roses et les églantines? Tout autour des fleurs
 écloses, s’enivrant de leur haleine, Tournent les phalènes.
-
 Bigolette, bigolin, Mai danse.…. etc.
-
 O tes yeux de jeune roi, comme ils brillent, éomme ils rient — Sur
 tes tendres lèvres closes, Je sais lire tant de choses, tant d’amour
 et tant de foi.
-
 Saute, cœur joyeux ! Sur les prés hier neigeux — Où soufflait, sifflait
 la bise — Mai fait fleurir les cerises, les cerises rouges.
-
 Dans le bleu du ciel s’envolent rires frais et chansons folles,
 Et sur l’aile des alouettes, nos désirs, dans l’air qui les fouette,
 Montent là-haut, plus haut encor! ;
-
 Le printemps, sur les prés d’or fait germer la jeune graine, Ma
 main tremble dans ta main — Mon amant, il n’est plus souci, ni
 peine, Où l’amour nous mène.
-
 Nicolas RIMSKY-KORSAKOW
 Tiekwin, 1844. — Pétrograd, 1908.
-
 Schéhérazade.
-
 . On sait qu’après Glinka et Dargomijski, c’est au groupe des Cinq
 que la musique russe doit essentiellement son avènement.
-
 De ces Cinq, Rimsky-Korsakow a été le plus fécond, le plus consi-
 dérable quant à l’influence et à l’activité. Esprit rigoureux, lucide, et
 d’une probité à toute épreuve, il ne tarda pas à devenir le maître le
 plus autorisé de la Russie musicale. Sa probité intellectuelle se retrouve
 dlans son art sans retouche, dans son orchestre surtout, si parfaitement
 naturel et juste. Elle conduit avec une maîtrise sans défaillance un goût
-raffiné du coloris harmonique et orchestral et une fantaisie généreuse.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001240_005.tif"/>
-<page><![CDATA[Detoutes ses œuvres, Shéhérazade est celle, sans doute, où se complètent
+raffiné du coloris harmonique et orchestral et une fantaisie généreuse.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001240_005.tif'/>
+        <page>
+          <![CDATA[Detoutes ses œuvres, Shéhérazade est celle, sans doute, où se complètent
 le plus heureusement ces dons divers.
-
 Inspirée par les contes des Mille et une nuits, il est inutile d’y chercher
 une traduction musicale minutieuse des récits indiqués par les sous-titres.
 Elle parle à là façon des contes de fée, par l’enchaînement des images
 et les caprices de la fantaisie.
-
 La sultane Sehéhérazade
 légendaire princesse, intelligente et belle, dont la verve et l’imagination
 surent endormir la cruauté de son époux et maître, le sultan
 Schahriar, pendant mille et une nuits. On sait que ce tyran avait cou-
-
 - est-il besoin de le rappeler — est la
-
 tume persuadé de la nature fausse et infidèle des femmes — de faire
 mourir ses épouses successives, sitôt la première nuit des noces. Or,
 Schéhérazade entreprit, pour échapper à ce malheureux sort, de conter
@@ -336,7 +247,6 @@ Schéhérazade entreprit, pour échapper à ce malheureux sort, de conter
 suite à la prochaine nuit. Piquant et enflammant ainsi la euriosité
 charmée du barbare, elle parvint. au bout des mille et une nuits, à lui
 faire renoncer à tout projet sanguinaire.
-
 Ce sont les péripéties de ces longs récits qui sont contenus dans les
 quatre morceaux de la suite symphonique. On y verra intervenir sans
 cesse deux éléments exposés au début de l’œuvre : un thème vigoureux
@@ -344,28 +254,22 @@ et âpre, qui symbolise sans doute le sultan Schahriar, et une mélodie
 de violon, ondulante et souple comme Sehéhérazade elle-même. Ces
 deux éléments sont les personnages sans cesse présents aux péripéties
 des quatre récits essentiels ; le sujet des récits amène les thèmes acces-
-
 soires et justifie le style ou le tour de chaque morceau.
-
 Samedi 7 Décembre 1918
-
 CONCERT SYŸYMPHONIQUE
 2n DE L'ABONNEMENT
-
 A la mémoire de CLAUDE DEBUSSY
 Orchestre renforcé
-
 PROGRAMME : Prélude de Saint-Sebastien. — La Mer (5 esquisses
-symphoniques), — Prélude à l’Après-midi d’un faune. — Ibéria.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001240_006.tif"/>
-<page><![CDATA[MM.
-
+symphoniques), — Prélude à l’Après-midi d’un faune. — Ibéria.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001240_006.tif'/>
+        <page>
+          <![CDATA[MM.
 MM.
-
 MM.
-
 Violons
-
 Closset
 Klein
 Pirard
@@ -376,7 +280,6 @@ Verzin
 Rewinzon
 Welti
 Wawrzin
-
 Sabbatani
 Lodi
 Massarenti
@@ -385,102 +288,67 @@ Lasek
 Lüthold
 Maggini
 Paris
-
 Altos
-
 Soitiaux
 Albisi, G.
 Challand
 Goemans
 Ebels
 Tolayan
-
 Violoncelles
-
 Brandia
 Gasparini
 Manderfield
 Amstad
 Guignard
 Buenzod
-
 LISTE DES- MEMBRES
-
 DE LORCHESTRE DE LA SUISSE ROMANDE
-
 Contrebasses
-
 MM. Mazzoni
 Oliver
 Macioce
 Motta
 Rouge
-
 Flûtes
-
 MM. Albisi, A.
 Culot, Eug.
 Bretton, E.
-
 Hautbois
-
 MM. Nazzi
 Bellenger
 Bretton, H.
-
 Clarinettes
-
 MM. Ronchi
 Severino
-
 Bassons
-
 MM. Hénon
 Doursoum
-
 Cors
-
 MM. Lambert
 Albini
 Culot, G.
 Wullschleger
-
- 
-
- 
-
- 
-
 Trompettes
-
 MM Concone
 Beauthier
-
 Trombones
 MM. Carette
-
 Westphal
-
 Lyard
-
 Tuba
 M. van Esch
-
 Timbales
-
 M. Giorgi
-
 Batterie
-
 M. Scharfenberg
-
 Harpe
 M(‘|lt‘ Laggc
-
 Piaïio Célesta
-
-M. Pommier]]></page>       
-        </p>
+M. Pommier
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

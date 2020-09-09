@@ -1,221 +1,198 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>XLIVme fête de l'Association des musiciens suisses<date when="29/05/1943"/></title>
-<series>1942-1943</series>
-<placeName>Conservatoire ; Grand Théâtre ; Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            XLIVme fête de l'Association des musiciens suisses
+            <date when='29/05/1943'/>
+            <date when='30/05/1943'/>
+          </title>
+          <series>1942-1943</series>
+          <placeName>Genève, Conservatoire</placeName>
+          <placeName>Genève, Grand Théâtre</placeName>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F003223</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Martin, F.</note>
+        <note>Ansermet, E.</note>
+        <note>Baud-Bovy, S. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19430529
-19430530"/>
-<title>XLIVme fête de l'Association des musiciens suisses</title>
-<placeName key="Conservatoire ; Grand Théâtre ; Victoria Hall"/>
-<name key="1942-1943" type="series"/>
-<name key="Chaix, Charles"  type="person" role="cmp">Chaix, Charles</name>
-<name key="Schoeck, Othmar"  type="person" role="cmp">Schoeck, Othmar</name>
-<name key="Reichel, Bernard"  type="person" role="cmp">Reichel, Bernard</name>
-<name key="Jenny, Albert"  type="person" role="cmp">Jenny, Albert</name>
-<name key="Wittelsbach, Rudolf"  type="person" role="cmp">Wittelsbach, Rudolf</name>
-<name key="Marescotti, André François" ref="https://muscat.rism.info/admin/people/30043850" type="person" role="cmp">Marescotti, André François</name>
-<name key="Oboussier, Robert" ref="https://muscat.rism.info/admin/people/30018739" type="person" role="cmp">Oboussier, Robert</name>
-<name key="Burkhard, Willy" ref="https://muscat.rism.info/admin/people/30015938" type="person" role="cmp">Burkhard, Willy</name>
-<name key="Gagnebin, Henri" ref="https://muscat.rism.info/admin/people/30081182" type="person" role="cmp">Gagnebin, Henri</name>
-<name key="Zehnder, Max"  type="person" role="cmp">Zehnder, Max</name>
-<name key="Honegger, Arthur" ref="https://muscat.rism.info/admin/people/464584" type="person" role="cmp">Honegger, Arthur</name>
-<name key="Martin, Frank"  type="person" role="int">Martin, Frank</name>
-<name key="Ansermet, Ernest" ref="https://muscat.rism.info/admin/people/40219507" type="person" role="int">Ansermet, Ernest</name>
-<name key="Baud-Bovy, Samuel  (dir.)" ref="https://muscat.rism.info/admin/people/30044099" type="person" role="int">Baud-Bovy, Samuel  (dir.)</name>
-<name key="Orchestre de la Suisse Romande" ref="https://muscat.rism.info/admin/people/50007615" type="person" role="int">Orchestre de la Suisse Romande</name>
-<name key="Société de chant sacré"  type="person" role="int">Société de chant sacré</name>
-<name key="Société Symphonique"  type="person" role="int">Société Symphonique</name>
-<name key="Quatuor Honegger"  type="person" role="int">Quatuor Honegger</name>
-<name key="Morel, L."  type="person" role="int">Morel, L.</name>
-<name key="Fahrni, H."  type="person" role="int">Fahrni, H.</name>
-<name key="Brun, F."  type="person" role="int">Brun, F.</name>
-<name key="Andreossi, Violette"  type="person" role="int">Andreossi, Violette</name>
-<name key="Dubuis, Madeleine"  type="person" role="int">Dubuis, Madeleine</name>
-<name key="Fahrni, Hélène"  type="person" role="int">Fahrni, Hélène</name>
-<name key="Falk, Lina"  type="person" role="int">Falk, Lina</name>
-<name key="Grétillat, Nelly"  type="person" role="int">Grétillat, Nelly</name>
-<name key="Morel, Lottie"  type="person" role="int">Morel, Lottie</name>
-<name key="Rossiaud, Doris"  type="person" role="int">Rossiaud, Doris</name>
-<name key="Bodet"  type="person" role="int">Bodet</name>
-<name key="Brun, Fritz"  type="person" role="int">Brun, Fritz</name>
-<name key="Frey, Walter"  type="person" role="int">Frey, Walter</name>
-<name key="Fryba, Hans"  type="person" role="int">Fryba, Hans</name>
-<name key="Goehring, Jean"  type="person" role="int">Goehring, Jean</name>
-<name key="Krausz, Laszlo"  type="person" role="int">Krausz, Laszlo</name>
-<name key="Minkof"  type="person" role="int">Minkof</name>
-<name key="Morley"  type="person" role="int">Morley</name>
-<name key="Pasquier, Paul"  type="person" role="int">Pasquier, Paul</name>
-<name key="Sandoz, Paul"  type="person" role="int">Sandoz, Paul</name>
-<name key="Segon, Pierre"  type="person" role="int">Segon, Pierre</name>
-<name key="Appia, Edmond"  type="person" role="int">Appia, Edmond</name>
-<name key="Bornand, Suzanne"  type="person" role="int">Bornand, Suzanne</name>
-<name key="Cherechewsky"  type="person" role="int">Cherechewsky</name>
-<name key="Honegger, Henri"  type="person" role="int">Honegger, Henri</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003223_001.tif"/>
-<page><![CDATA[Cliche Z'mmer-Meylan prêté par l’Assoclation des Intérêts de Genève
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19430529'/>
+        <date when='19430530'/>
+        <title>XLIVme fête de l'Association des musiciens suisses</title>
+        <placeName key='Genève, Conservatoire'/>
+        <placeName key='Genève, Grand Théâtre'/>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1942-1943' type='series'/>
+        <name key='Chaix, Charles' type='person' role='cmp'>Chaix, Charles</name>
+        <name key='Schoeck, Othmar' type='person' role='cmp'>Schoeck, Othmar</name>
+        <name key='Reichel, Bernard' type='person' role='cmp'>Reichel, Bernard</name>
+        <name key='Jenny, Albert' type='person' role='cmp'>Jenny, Albert</name>
+        <name key='Wittelsbach, Rudolf' type='person' role='cmp'>Wittelsbach, Rudolf</name>
+        <name key='Marescotti, André François' ref='https://muscat.rism.info/admin/people/30043850' type='person' role='cmp'>Marescotti, André François</name>
+        <name key='Oboussier, Robert' ref='https://muscat.rism.info/admin/people/30018739' type='person' role='cmp'>Oboussier, Robert</name>
+        <name key='Burkhard, Willy' ref='https://muscat.rism.info/admin/people/30015938' type='person' role='cmp'>Burkhard, Willy</name>
+        <name key='Gagnebin, Henri' ref='https://muscat.rism.info/admin/people/30081182' type='person' role='cmp'>Gagnebin, Henri</name>
+        <name key='Zehnder, Max' type='person' role='cmp'>Zehnder, Max</name>
+        <name key='Honegger, Arthur' ref='https://muscat.rism.info/admin/people/464584' type='person' role='cmp'>Honegger, Arthur</name>
+        <name key='Martin, Frank' type='person' role='int'>Martin, Frank</name>
+        <name key='Ansermet, Ernest' ref='https://muscat.rism.info/admin/people/40219507' type='person' role='int'>Ansermet, Ernest</name>
+        <name key='Baud-Bovy, Samuel' ref='https://muscat.rism.info/admin/people/30044099' type='person' role='int'>Baud-Bovy, Samuel</name>
+        <name key='Orchestre de la Suisse Romande' ref='https://muscat.rism.info/admin/people/50007615' type='person' role='int'>Orchestre de la Suisse Romande</name>
+        <name key='Société de chant sacré' type='person' role='int'>Société de chant sacré</name>
+        <name key='Société Symphonique' type='person' role='int'>Société Symphonique</name>
+        <name key='Quatuor Honegger' type='person' role='int'>Quatuor Honegger</name>
+        <name key='Morel, L.' type='person' role='int'>Morel, L.</name>
+        <name key='Fahrni, H.' type='person' role='int'>Fahrni, H.</name>
+        <name key='Brun, F.' type='person' role='int'>Brun, F.</name>
+        <name key='Andreossi, Violette' type='person' role='int'>Andreossi, Violette</name>
+        <name key='Dubuis, Madeleine' type='person' role='int'>Dubuis, Madeleine</name>
+        <name key='Fahrni, Hélène' type='person' role='int'>Fahrni, Hélène</name>
+        <name key='Falk, Lina' type='person' role='int'>Falk, Lina</name>
+        <name key='Grétillat, Nelly' type='person' role='int'>Grétillat, Nelly</name>
+        <name key='Morel, Lottie' type='person' role='int'>Morel, Lottie</name>
+        <name key='Rossiaud, Doris' type='person' role='int'>Rossiaud, Doris</name>
+        <name key='Bodet' type='person' role='int'>Bodet</name>
+        <name key='Brun, Fritz' type='person' role='int'>Brun, Fritz</name>
+        <name key='Frey, Walter' type='person' role='int'>Frey, Walter</name>
+        <name key='Fryba, Hans' type='person' role='int'>Fryba, Hans</name>
+        <name key='Goehring, Jean' type='person' role='int'>Goehring, Jean</name>
+        <name key='Krausz, Laszlo' type='person' role='int'>Krausz, Laszlo</name>
+        <name key='Minkof' type='person' role='int'>Minkof</name>
+        <name key='Morley' type='person' role='int'>Morley</name>
+        <name key='Pasquier, Paul' type='person' role='int'>Pasquier, Paul</name>
+        <name key='Sandoz, Paul' type='person' role='int'>Sandoz, Paul</name>
+        <name key='Segon, Pierre' type='person' role='int'>Segon, Pierre</name>
+        <name key='Appia, Edmond' type='person' role='int'>Appia, Edmond</name>
+        <name key='Bornand, Suzanne' type='person' role='int'>Bornand, Suzanne</name>
+        <name key='Cherechewsky' type='person' role='int'>Cherechewsky</name>
+        <name key='Honegger, Henri' type='person' role='int'>Honegger, Henri</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003223_001.tif'/>
+        <page>
+          <![CDATA[Cliche Z'mmer-Meylan prêté par l’Assoclation des Intérêts de Genève
 XLIVre FÊTE
-
 DE
-
 P 0@ATON DES
-MUSISIENS SUISSES]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003223_002.tif"/>
-<page><![CDATA[CAINSE HVMOTHEU AIN
-
+MUSISIENS SUISSES
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003223_002.tif'/>
+        <page>
+          <![CDATA[CAINSE HVMOTHEU AIN
 » |
-
 LIIOON u1IHl
 DL CANTON DE GEAEN
-
 =. MOLARD. 2
-
 Prêts et crédits hypothécaires
-
 Certificats de dépots
-
 Livrets d’épargne
-
- 
-
- 
-
- 
-
- 
-
 Ce programme est publié par les EDITIONS HENN
-Publicité J. BOIMOND]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003223_003.tif"/>
-<page><![CDATA[ASSOCIATION DES MUSICIENS SUISSES
-
+Publicité J. BOIMOND
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003223_003.tif'/>
+        <page>
+          <![CDATA[ASSOCIATION DES MUSICIENS SUISSES
 XLIV" FÊTE
-
 (]€ 1’Association (1€S MUSiCiCHS SUiSSCS
-
 à Genève les 29 et 50 mai 1943
-
 Prêsidence J,lmnneur de l,A PVIEN SE
-
 MM. DI‘. VO]LIII&I‘ ANDREAE
 Carl VOGLER
-
 Comité tle l’A M. $.
-
 MM. Frank MARTIN, Président
 Paul SACHER, Vice-Président
 Jean BINET, Secrétaire
 Waltee SCHULTHESS, Trésorier
 Luc BALMER
 Willy BURKHARD
-Leopoldo CASELLA]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003223_004.tif"/>
-<page><![CDATA[Banque de Paris
+Leopoldo CASELLA
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003223_004.tif'/>
+        <page>
+          <![CDATA[Banque de Paris
 et des Pays-Bas
-
 Succursale
-
 de Genève :
-
 Rue de Hollande
 Angle rue Petitot
-
 Reçoit les souscriptions
-
 à toute émission publique
-
 Conservation et gérance de titres
 Exécution d'ordres de bourse
 Opérations de change
 Crédits
-
 documentaires
-
- 
-
- 
-
 4 r E e e En é mt 2504 ts
-—]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003223_005.tif"/>
-<page><![CDATA[Comité d’honneur:
-
+—
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003223_005.tif'/>
+        <page>
+          <![CDATA[Comité d’honneur:
 MM. Henrico CELIO, président de la Confédération,
-
 Philippe ETTER, conseiller fédéral,
-
 Adrien LACHENAL, président du Conseil d’'Etat,
-
 Paul GUERCHET, président du Grand Conseil,
-
 Henri SCHOENAU, prés. du Conseil administratif,
-
 Marius NOUL, conseiller administratif,
-
 Humbert SESIANO, président du Conseil municipal,
-
 Alfred-W. GLOGG, directeur général du service de
 la Radiodiffusion suisse.
-
 ‘ Robert BORY, président du Conservatoire,
 } °3 Paul LACHENAL, président du Conseil de Fondation
-
 de l’OSR,
-
 Maurice PICTET DE ROCHEMONT, 1er président
 fondateur de l'OSR,
-
 { Gustave DORET, membre correspondant de l’Ins-
 titut de France,
-
 Otto BARBLAN, Dr. h. c,,
-
 Emilé JAQUES-DALCROZE, Dr. h. c,
-
 Joseph LAUBER, Dr. h. c.…
-
 TEMPLETON STRONG.
-
 Comité d’organisation :
-
 MM. Edouard Vipoupez, Président,
 Henri GAGNEBIN, Vice-président,
 | _© Paul BraTscHI, Secrétaire,
@@ -226,184 +203,93 @@ Charles BREITENBUCHER, Pierre Jaccoup, A.-F. Ma-
 RESCOTTI, Frank MARTIN, À. MARTIN-ACHARD, A. PAy-
 CHÈRE, Louis PIANTONI, Félix POMMIER, Emile UNGER,
 Alfred VIDOUDEZ.
-
 °
-Secrétaire générale: Mlle Marcelle GALOPIN]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003223_006.tif"/>
-<page><![CDATA[_—
-
+Secrétaire générale: Mlle Marcelle GALOPIN
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003223_006.tif'/>
+        <page>
+          <![CDATA[_—
 PARASOLS - CHAISES -
 TABLES
-
 Fer et jonc .ä‘/ \
 M. Bormand
-
 FAUTEUILS
-
- 
-
 Cours de Rive, 8 Téléphone 4.98.07
 GENEVE
-
- 
-
- 
-
- 
-
 EME
-
 DEILA
-
 MOn .
 COMPLIQUÉE
-
- 
-
- 
-
- 
-
- 
-
- 
-
 LA RÉSIDEN C
-
 ROUTE DE FLORISSANT
-
 HOTEL - BAR - RFUR N
 GRANDS ET PETITS SALONS POUR RECEPTIONS
 G. E. LUSSY, Directeur
-
- 
-
- 
-
- 
-
- 
-
-    
- 
-
 ë
 ={
 f
-
 e Gm crcn É2
-—]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003223_007.tif"/>
-<page><![CDATA[Compositeurs
-
+—
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003223_007.tif'/>
+        <page>
+          <![CDATA[Compositeurs
 des œuvres figurant aux programmes:
-
 Willy BuUrKHARD, Charles CHarx, Henri GAGNEBIN, Ar-
-
 thur HoNEGGER, Albert JENNY, André-François MARESCOTTI,
-
 Robert OroussiEr, Bernard ReicHer, Othmar SCHOECK,
 Rudolf WirrerspacH, Max ZEHNDER
-
 Exécutants:
-
 | »
-
 Mmes Violette ANDREOSSI, Madeleine DuBvis, Hélène FAHRNI,
 Lina FALK, Nelly GrÉTILLAT, Lottie MoOREL, Doris
 RossiAUD.
-
 MM. Boper, Dr. Fritz Brun, Walter Frey, Hans FryBA,
 Jean GoEHRING, Laszlo KrAusz, MINkor, MoOnrLEyY,
 Paul PASQUIER, Paul SANDoZ, Pierre SEGOND.
-
 Le QUATUOR HONEGGER
-
 M. Edmond AprIA (remplaçant Mme Blanche HONEGGER,
 empéchée), Mlle Suzanne BOoRNAND,
 MM. CuerecHEwsky, Henri HONEGGER
-
 L'ORCHESTRE DE LA SUISSE ROMANDE
-
 Direction : Ernes( ANSERMET
-
 La SOCIETE DE CHANT SACRE
-
 Direction: S. BAaup-Bovy
-
 Le CHŒUR de la SOCIETE SYMPHONIQUE
-
 Direction: Jean DuUPÉRIER
-
-O]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003223_008.tif"/>
-<page><![CDATA[X
-
+O
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003223_008.tif'/>
+        <page>
+          <![CDATA[X
 LA CIGARETTE CLASSIQUE ET DE CLASSE
-
- 
-
- 
-
- 
-
- 
-
- 
-
 VIDOUDEZ
-
 LUTHIER DU CONSERVATOIRE
-
 Corraterie, 22
 Téléphone 4.43.35
-
- 
-
- 
-
- 
-
- 
-
- 
-
 UNION SUISSE
-
 COMPAGNIE GÉNÉRALE D'ASSURANCES
-
 Fondée en 1887
-
 Siège Social et Direction :
-
 Rue de la Fontaine, 1 GENEVE . — Téléphone 4.72.44
-
- 
-
- 
-
- 
-
 ‘
 :
 “.
 ;
-
 r p e rrr O SO> cr e 200 mm e rr é
-
- 
-
-—x]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003223_009.tif"/>
-<page><![CDATA[enève
-
+—x
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003223_009.tif'/>
+        <page>
+          <![CDATA[enève
 SdlU6
-
 l€S MmMUSICIENS SUISSÉS
-
 our la troisième fois, Genève a l'honneur d'accueillir
 les musiciens suisses.
-
 La première fois, en 1901, notre Association faisait ses
 premiers pas. Elle était encore dans l'euphorie de sa belle
 jeunesse et voyait luire les espoirs illimités du siècle qui
@@ -416,7 +302,6 @@ Dalcroze. Véritable manifeste, cet article proclamait l'exis-
 tence d’une école musicale suisse, en jace du scepticisme
 des uns, du snobisme des autres ou de l'indifférence des
 troisièmes.
-
 Et la fête elle-même, qui eut lieu les 22, 23 et 24 juin,
 prouva péremptoirement la vitalité de cette jeune école,
 comme on prouve le mouvement en marchant, par des con-
@@ -427,44 +312,28 @@ tave Doret, le Concerto de piano e{f un octuor de Joseph
 Lauber, la symphonie en fa, de Volkmar Andreae, l’ou-
 verture de Simplicius et une sonate de violoncelle, de Hans
 Huber, des mélodies de Pierre Maurice, ete., ete.
-
 Beau printemps de l’'A. M. S., riche de promesses dont
-beaucoup furent tenues.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003223_010.tif"/>
-<page><![CDATA[CAISSE D'ÉPARGNE DE GENÈVE
-
+beaucoup furent tenues.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003223_010.tif'/>
+        <page>
+          <![CDATA[CAISSE D'ÉPARGNE DE GENÈVE
 4, CORRATERIE, 4
-
- 
-
 FONDEE EN JO16
-
 Montant des dépôts et réserves: 130 millions
 ‘Nombre des déposants: 110.000
-
 La Caisse d'Epargne est un refuge pour les capitaux les plus
 modestes
-
- 
-
 Discrétion absolue
-
- 
-
- 
-
- 
-
- 
-
- 
-
 APRES LE SPECTACLE
 RENDEZ-VOUS
-
-CAFÉ LYRIQUE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003223_011.tif"/>
-<page><![CDATA[1923. Autre ambiance. La querre mondiale avait pris
+CAFÉ LYRIQUE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003223_011.tif'/>
+        <page>
+          <![CDATA[1923. Autre ambiance. La querre mondiale avait pris
 fin quatre ans auparavant. Une musique nouvelle, auda-
 cieuse, provocante même, débridée et révolutionnaire, re-
 vendiquait ses droits et excitait les passions du public des
@@ -479,473 +348,308 @@ mait l’audace de la nouvelle école. Mais les discussions
 étaient âpres et un certain malaise régnait. En définitive,
 l’A. M. S. ne se refusa pas, par la suite, à ouvrir ses portes
 à la jeunesse turbulente, et elle eut raison.
-
 1943. Les luttes se sont apaisées. Les compositeurs ac-
 tuels sont plus préoccupés de réalisations solides que de
 nouveautés à tout prix.
-
 En pleine époque d’une querre horrible, nous avons
 l’'immense privilège de nous réunir dans une atmosphère de
 paix et de bienveillance mutuelle.
-
 Puisse la 44me fête de l'A. M. S. se dérouler dans la
 joie d’une confraternité heureuse el laisser à tous les par-
 ticipants le meilleur souvenir.
-
 Musiciens suisses, soyez les bienvenus à Genève.
-
-Henri GAGNEBIN.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003223_012.tif"/>
-<page><![CDATA[M 0 t La maison
-
+Henri GAGNEBIN.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003223_012.tif'/>
+        <page>
+          <![CDATA[M 0 t La maison
 =V UN GADRE AGGUEILLANT
-
-     
-
- 
-
- 
-
- 
-
- 
-
- 
-
 h de stule
-
 ÛS f Grison
-
 3I RUE OU RWONE GENÈVE èn \’ÛQIIQ
-
 à Genève
-
 BRASSERIE
-
 TEA-ROOM |
 CABARET !
 ORCHESTRE CHRISTEN | _
 Concert de 16 à 18 heures -  Soirée dansante dès 21 h. îli
 e
 2.Piace du Lac . Genève (
-
-CMaison de peemiez acdee]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003223_013.tif"/>
-<page><![CDATA[Pro gramme général
-
+CMaison de peemiez acdee
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003223_013.tif'/>
+        <page>
+          <![CDATA[Pro gramme général
 Samedi 29 mai
-
 15 heures :  Concert de musique de chambre, salle du
 Conservatoire de musique.
 A l’issue du concert : Visite de la biblio-
 thèque du Conservatoire.
-
 . »> 17 h 15
-
 Réception par le Conseil d’Etat de la Répu-
 blique et Canton de Genève et le Conseil
 administratif de la Ville de Genève au Fover
 du Grand Théâtre.
-
 20 heures :  Concert symphonique au Grand-Théâtre.
-
 22 heures : Soirée récréative à la Salle des Rois. 22. rue
 du Stand.
-
 Dimanche 30 mai
-
 10 heures :  Assemblée générale de l’Association des Mu-
 siciens suisses, salle du Grand Conseil. Hôtel
-
 de Ville.
-
 -® 12-h35307 Promenade en bateau, déjeuner à bord, ou
 pique-nique. Embarcadère Jardin Anglais.
-
- 
-
 Lo/ha0E Concert pour chœur et orchestre au Victoria-
 Hall.
 LIEU DE RENDEZ-VOUS TREFFPUNKT
-
 CAFÉ LYRIQUE
-
 A côté du CONSERVATOIRE et du GRAND-THÉATRE
-
- 
-
- 
-
-11]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003223_014.tif"/>
-<page><![CDATA[MAGASINS DE VENTES : °
-
+11
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003223_014.tif'/>
+        <page>
+          <![CDATA[MAGASINS DE VENTES : °
 GENÈVE : GALLOPIN & Cie, 17, rue du Rhône
-ZURICH : Horlogerie SOLVIL, Bahnhofstr. 52]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003223_015.tif"/>
-<page><![CDATA[ONCERT DE MUSIQUE DE CHAMBRE
-
+ZURICH : Horlogerie SOLVIL, Bahnhofstr. 52
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003223_015.tif'/>
+        <page>
+          <![CDATA[ONCERT DE MUSIQUE DE CHAMBRE
 \ Samedi 20 ll]3i, à 15 heures
-
 onservatoire de Musique
-
-     
-
- 
-
- 
-
- 
-
- 
-
 IREL et le Quatuor HOoNEGGER
-
 PIA (en remplacement de Mme
 ger, empéchée), Mlle Suzanne
 CHERECHEWSKY et Henri Ho-
-
 ([TR'ACTE DE DIX MINUTES
-
 KINDES TOD Othmar SCHŒCK
 'EIER \
 WANDERSMANN
-
 ahrni, soprano.
 e Dr. Fritz Brun.
-
 1x violons, alto, saxophone
 >, trombone, contrebasse et
 Bernard REICHEL
-
 1termède — Finale.
-
 le Juliette Fert, MM. Jean
 aszlo Krausz, Il ans Fryba,
 odet, Morley, Mlle Doris
-
 ‘rank MARTIN.
-
 ' IMIDT-FLOHR (Berne) aux soins de la Maison
 “”" é dÏeu;— SAUTIER et JAEGER
 /zaufemerzf
-
-a/1/10 clée/ 13]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003223_016.tif"/>
-<page><![CDATA['/zaufem_e/zz‘
-
+a/1/10 clée/ 13
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003223_016.tif'/>
+        <page>
+          <![CDATA['/zaufem_e/zz‘
 apyn véctée/
-
- 
-
 MAASINS DE VENTES :
 GENÈVE : GALLOPIN & Cie, 17, ue du hu.
 ZURICH : Horlogerie SOLVIL, Bahnhofstr. 52 ‘ %É )
-
-12]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003223_017.tif"/>
-<page><![CDATA[|
+12
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003223_017.tif'/>
+        <page>
+          <![CDATA[|
 |
 E
 |
 |
 Ï
 :î
-
- 
-
 CONCERT DE MUSIQUE DE CHAMBRE
-
 Sâﬁl€(]i 20 1113i, à 15 l‘l€lerS
-
 Salle (lu Conservatoire (1€ Musique
-
 1. QUINTETTE pour piano, deux violons, alto et
 MION CEe T t 4 N Clianles: CHANX
 Lent, modéré - Animé - Lent, assez animé, lent
 Mme Lottie MoreL el le Quatuor HONEGGER
-
 M. Edmond ApriA (en remplacement de Mme
 Blanche Honegger, empéchée), Mlle Suzanne
 BoRNAND, MM. CHERECHEWSKY et Henri Ho-
 NEGGER.
-
 ENTR’'ACTE DE DIX MINUTES
-
 2. a) NACHKLANG
-
 b) IM HERBSTE /
-
 c) DER KRANKE
-
 d) AUF MEINES KINDES TOD Otlhimar SCHŒCK
 e) FRUEHLINGSFEIER
-
 f) NACHTLIED \
-
 g) DER FROHE WANDERSMANN
 Mme Hélène Fahrni, soprano.
 Au piano: M. le Dr. Fritz Brun.
-
 OCTUOR pour deux violons, alto, saxophone
 ténor, trompette, trombone, contrebasse et
 VOU0e e — — oBernard REICHEL
 Ouverture Intermède — Finale.
-
 Exécutants: Mlle Juliette Fert, MM. Jean
 Gœhring, Laszlo Krausz, Hans Fryba,
 Minkof, Bodet, Morley, Mlle Doris
 Rossiaud.
-
 Direction: M. Frank MARTIN.
-
 Piano de concert SCHMIDT-FLOHR (Bernec) aux soins de la Maison
-SAUTIER et JAEGER]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003223_018.tif"/>
-<page><![CDATA[]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003223_019.tif"/>
-<page><![CDATA[CO Fh IT SYMPHONIQUE
-
+SAUTIER et JAEGER
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003223_018.tif'/>
+        <page><![CDATA[]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003223_019.tif'/>
+        <page>
+          <![CDATA[CO Fh IT SYMPHONIQUE
 Samedi 209 mai, à 20 heures
-
 au Gran(l-—-Théâtre
-
 Orchestre de la Suisse Romande
-
 sous Ia Jir(‘ction (l(' son Cllcf
-
 M. ERNEST ANSERMET
-
 1. MUSIQUE SYMPHONIQUE px orchestr 1/bert JENNY
-
 2. CONCERTO, pour piano et orchestre. . Rudolf WITTELSBACH
 Allegro Andante ((hème et variations
-
 Allegro molto.
 M. Walter FrEy
 3. PREMIER CONCERT CAROUGEOIS pour
 OTCIESITEA T ÀA H MARESCOTTI
-
 Prélude — Sarabande — Musette Grigue
-
 ENTR’ACTE DE 15 MINUTES
-
 4.  ANTIGONE, Récitatif - Air - I'f[r”_l,i:'_ d'après
 Sophocle, pour contralto et orchestre — Robert OBOUSSIER
-
 Mlle Lina FALK
-
 9.  LAUPEN-SUITE, pour orchestre . . . Wily BURKHARD
 Prélude Marche Musique de table
 Intermezzo — Choral — La bataille — Mu-
 sique funèbre Carillon de paix.
-
-Piano STEINWAY, aux soins de la Maison SAUTIER et JAEGER]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003223_020.tif"/>
-<page><![CDATA[L
-
- 
-
+Piano STEINWAY, aux soins de la Maison SAUTIER et JAEGER
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003223_020.tif'/>
+        <page>
+          <![CDATA[L
 Depuis quatre générations, la Fabrique Burger et Jacobi
 | jouit de la confiance des musiciens suisses. Elle les
 | remercie sincèrement de cette bienveillance qui l'encourage
-
 dans ses efforts constants vers la recherche de la perfection
-
 AGENTS OFFICIELS A GENÈVE : SAUTIER-JAEGER
-
- 
-
- 
-
- 
-
- 
-
- 
-
 P IA N OS
-
 dignés
 SCHMIDT - FLOHR
 BURGER - JACOBI
 STEINWAY & SONS
 BLUTHNER
 PLEYEL -GAVEAU
-
 sont la pectection
-
 DEPOSITAIRES OFFICIELS
 DES PIANOS DE CONCERT
-
 (SENS SAUTIER-JAEGER
-
 EXPERTS
-
 GFN EV E US ER
-Fondé en 1830]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003223_021.tif"/>
-<page><![CDATA[CONGERT POUR CHŒUR ET ORCHESTRE
+Fondé en 1830
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003223_021.tif'/>
+        <page>
+          <![CDATA[CONGERT POUR CHŒUR ET ORCHESTRE
 Dimanche 30 mai, à 16 h. 30
-
 | au Victoria—Hall
-
 Direction :
 SAMUEL BAUD-BOVY
 ERNEST ANSERMET
-
 ’. . Hycciie concours de
-
 l’Orchestre de la Suisse Romande
 La Société de Chant Sacré
-
 Le Chœur de la Société Symphonique
-
 1. REQUIEM DES VANITES DU MONDE. . ‘Henri GAGNEBIN
 Oratorio pour soli, chœur, orchestre et orque
 Mme Violette Andréossi, soprano, M. Paul
-
 Sandoz, baryton, M. Pierre Segond, orga
 niste. Direction : M. S. BAup-Bovy
-
 ENTR’'ACTE DE 15 MINUTES
-
 2 MEDIAVIIEA pour k onchesire ZEHNDER
-
 2 PAEDANSERDES MORMS T Arthur HONEGGER
-
 Pour soli, chœur, orchestre et Orgue
-
 Mle Madeleine Dubuis, soprano, Mm Nelly
-
 Grétillat, contralto, M. Paul Sandoz. ba-
-
 ryton, M. Paul Pasquier, récitant, M. Pierre
 ; Segond, organiste. - Direction: M. Ernest
-ANSERMET]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003223_022.tif"/>
-<page><![CDATA[CONSERVATOIRE DE LAUSANNE
-
+ANSERMET
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003223_022.tif'/>
+        <page>
+          <![CDATA[CONSERVATOIRE DE LAUSANNE
 Rue du Midi 6 et 8
-
- 
-
 SUBVENTIONNE PAR L'ETAT ET LA VILLE
-
 Direction : Alfred Pochon
-
- 
-
- 
-
-   
-
 L’Hôtel des Bergues
 à Genève
-
 L'AMPHITRYON
-
 PLACE DES BERGUES
-
 Le vrai bon
-
 Restaurant de ville
-
 distingué et pas
 cher
-
 Le Bar
 Rendez-vous
 pour l'apéritif
 en musique
-
- 
-
- 
-
- 
-
 ACADÉMIE
 D'ARTS
 APPLIQUÉS
-
 P'RÉOMEN ADE DUN
-
- 
-
 [. L’ACADÉMIE - ÉCOLE D’ART
-
- 
-
 dans le cadre de ses ateliers profes-
-
 sionnels, fonde tout son système péda-
-
 gogique sur un enseignement essentiel-
 lement pratique
-
 Même programme aux cours du soir.
-
 2. L’ACADÉMIE - FOYER CULTUREL
-
- 
-
 organise des expositions, des conférences
 et réunit les membres du Cercle Reflets.
-
 3. L'ACADÉMIE - ATELIERS PROFESSIONNELS
-
- 
-
 comprend  les départements suivants :
-
 Dessin  publicitaire, dessin de mode,
-
 sculp'ure, ensemblier-décorateur, photo-
-graphie, rédaction publicitaire.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003223_023.tif"/>
-<page><![CDATA[Ocnest Ansecmetl
-
+graphie, rédaction publicitaire.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003223_023.tif'/>
+        <page>
+          <![CDATA[Ocnest Ansecmetl
 Chet d'orchestre
 de l'Orchestre de la Suisse tomande
-
- 
-
 S. Baud-Bovy
-
 Ditecteur
-
-de la Sociélé de Chant Sacté]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003223_024.tif"/>
-<page><![CDATA[ANSERMET - BÉGUELIN - BLANCHET - BOLLER
+de la Sociélé de Chant Sacté
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003223_024.tif'/>
+        <page>
+          <![CDATA[ANSERMET - BÉGUELIN - BLANCHET - BOLLER
 BOVET - DENFREAZ - DO CFN
 HAENNI - HEMMERLNG - HONEGGER
 JAQUES-DALCROZE - KAELIN - LAUBER
 MARTIN - MICHE - PANTILLON - SALA
 SENGER - STIERLIN-VALLON
-
- 
-
 EDITIONS FŒTISCH
-
-LAUSANNE v En]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003223_025.tif"/>
-<page><![CDATA[n
-
- 
-
+LAUSANNE v En
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003223_025.tif'/>
+        <page>
+          <![CDATA[n
 CHARLES CHAIX
-
 QUINTETTE op. 11, pour piano, deux violons,
 alto et violoncelle
-
 I. Lent, modéré. — II. Animé. — III. Lent, assez animé, lent.
-
 Exécutants : Mme Lottie MOREL, le QUATUOR HONEGGER
 M. Edmond APPIA (en remplacement de Mme Blanche
 HONEGGER, empéchée), Mlle Suzanne BORNAND, MM.
 Léon CHERECHEWSKY et Henri HONEGGER.
-
 Né à Paris en 1885, Charles Chaix com-
 mença ses études à l’école Niedermeyer. Dès
 1904, il entra au Conservatoire de Genève et
@@ -961,62 +665,50 @@ professeur de cours semblables au Conserva-
 toire national de musique de Lyon. Cette acti-
 vité pédagogique se manifeste encore par la
 publication d’un traité pratique d’harmonie,
-
 Eléments d’écriture musicale
-
 Ses principales œuvres sont, pour orches-
 tre: Scherzo, 1re Symphonie en ré, 2e Symphonie en ut : pour orchestre,
 chœur et soli: Poème funèbre ; pour chant et piano: Les Chants du
 pigeonnier ; pour orgue: Six chorals figurés
-
 Le caractère dominant le premier mouvement du Quintette est la
 sérénité, malgré quelques épisodes très rythmés et plus sombres. Le
 thème général, esquissé dans l’introduction, n’acquiert sa forme défi-
 nitive qu’au cours du développement, avant de se superposer au thème
 modéré, dans la réexposition.
-
 Le deuxième mouvement est un grand scherzo de caractère pas-
 toral, avec son trio en forme de musette, d’allure populaire.
-
 Le troisième mouvement est précédé d’une assez longue introduction
 où l’esquisse du premier thème, d’une expression dramatique, dialogue
 avec un rappel des thèmes antérieurs; presque tout ce mouvement
 est d’un caractère sombre et passionné, jusqu'à ce que la péroraison
 ramène la sérénité initiale, par son retour du thème général, traité en
 exposition de fugue, accompagnée par des arpèges du piano.
-
-21]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003223_026.tif"/>
-<page><![CDATA[L'ATELIER DE LUTHERIE
+21
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003223_026.tif'/>
+        <page>
+          <![CDATA[L'ATELIER DE LUTHERIE
 J E Us
-
 renommé Jepuis de longues années
 pour la facture de superl>es violons
-
 est un (lêpartement spécial du
-
 Pianohaus Jec]clin
-
 Grande et intéressante collection
 tÏinstruments cÏanciens maîtres (les
 écoles italienne, allemande
-
 et frança1se
-
 Pianoluaus
-
 JECKLIN
-
-Pfauen - Zürich]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003223_027.tif"/>
-<page><![CDATA[OTHMAR SCHOFCK
-
+Pfauen - Zürich
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003223_027.tif'/>
+        <page>
+          <![CDATA[OTHMAR SCHOFCK
 SEPT LIEDER pour soprano et piano
-
 Exécutante : Mlle Hélène FAHRNI
-
 Au piano : Dr. Fritz BRUN
-
 Othmar Schœck, issu d’une famille bâ-
 loise, né à Brunnen (Schwyz) en 1886. Suivant
 le désir de son père, l’artiste peintre Alfred
@@ -1038,216 +730,140 @@ une activité continue de directeur de chorales, d’accompagnateur et de
 chef d’orchestre. Depuis 1917, Schœck assume la direction des concerts
 symphoniques de St-Gall. L’Université de Zurich rendit hommage à
 l’artiste en le nommant Dr. h. c. ès lettres en 1928.
-
- 
-
 NACHKLANG
-
 Lust'ge Vôgel in dem Wald,
 Singt, so lang es grün, Frisch durch Lust und Not,
 Ach ! wer weiss, wie bald, wie bald Wandelt’ alles, und ich stand
 Alles muss verblühn ! Müd‘ im Abendrot.
-
 Und kaum ging ich über Land,
-
 Sah ich’s doch vom Berge einst Und die Lüfte wehen kalt.
 Glänzen überall, Uebers falbe Grün,
-
 Wusste kaum, warum du weinst, Vôglein, euer Abschied hallt
 fromme Nachtigall. Kôännt ich mit euch ziehn !
-
 EICHENDORFF.
 IM HERBSTE
-
 Seid gegrüsst mit Frühlingswonne, Ahnest du, o Seele, wieder
-
 Blauer Himmel, goldne Sonne !
 Drüben auch aus Gartenhallen
 Häôr ich frohe Saiten schallen.
-
 Sanfte, süsse Frühlingslieder ?
 Sieh umher die falben Bäume
 Ach, es waren holde Träume.
-
-UnLAND.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003223_028.tif"/>
-<page><![CDATA[CONSERVATOIRE DE MUSIQUE DE GENÈVE
-
+UnLAND.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003223_028.tif'/>
+        <page>
+          <![CDATA[CONSERVATOIRE DE MUSIQUE DE GENÈVE
 Fondation Bartholoni, 1835
 LE PLUS ANCIEN
 El L’'UN DES PLUS IMPORTANTS CONSERVATOIRES DE SUISSE
 Toutes les branches de la musique
-
 Déclamation - Ballet classique - CINEMA - Certificats spéciaux
 Diplômes profjessionnels - Prix de virtuosité
 Directeur : Henri Gagnebin
 Pour tous renseignements, s’adresser au secrétariat, place Neuve, Genève.
-
- 
-
- 
-
- 
-
 SCHMIDT-FLOHR a.c.
-
 BERNE
-
 FABRIQUE SUISSE DE PIANOS
 DROITS — A QUEUE DE TOUS STYLES
 PIANOS DE CONCERT
 FONDE EN 1830
-
 La traditionnelle bienfacture suisse
 alliée à leur richesse sonore les place
 au premier rang des pianos
-
 Sont joués par: BLANCARD, AUBERT, BAUD, CHERIDJIAN,
 CASADESUS, PERRET, SERKIN, TURCZINSKI
-
 AGENTS POUR GENEVE: S AUTIER - JAEGER
-
- 
-
- 
-
- 
-
- 
-
 GONSERVATOIRE DE MUSIQUE DE NEUCHATEL
-
 Sous les auspices du Département de l’Instruction publique
 Direction : Ernest Bauer
-
 ENSEIGNEMENT, DE LA MUSIQUE
 POUR PROFESSIONNELS ET AMATEURS
-
 Entrée en tout temps.  Renseignements au secrétariat. Tél. 5.20.53
-BEAUX-ARTS 28 et FAUBOURG DU LAC 33]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003223_029.tif"/>
-<page><![CDATA[DER KRANKE
-
+BEAUX-ARTS 28 et FAUBOURG DU LAC 33
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003223_029.tif'/>
+        <page>
+          <![CDATA[DER KRANKE
 Soll ich dich denn nun verlassen,
 Erde, heitres Vaterhaus ?
-
 Herzlich‘ Lieben, mütig’ Hassen,
 Ist denn aller, alles aus ?
-
 Vor dem Fenster durch die Linden
 Spielt es wie ein linder Gruss,
 Lüfte, wollt ihr mit verkünden,
 Dass ich bald hinunter muss ?
-
 AUF MEINES
-
 Von fern die Uhren schlagen,
 Ss ist schon tiefe Nacht,
-
 Die Lampe brennt so düster,
 Dein Bettlein ist gemacht.
-
 Es ist, als müsstest leise
 Du klopfen an die Tür,
 Du hättst dich nur verirret.
 Und kämst nun müd zurück.
-
 Liebe, ferne, blaue Hügel,
-
 Stiller Fluss im Talesgrün,
-
 Ach, wie oft wünscht ich mir Flügel
 über euch hinweg zu ziehn !
-
 Da sich jetzt die Flügel dehnen,
-
 Schaur ich in mich selbst zurück,
-
 Und ein unbeschreiblich Sehnen
-
 Zieht mich zu der Welt zurück.
 EICHENDOR 1
-
 KINDES TOD
-
 Die Winde nur noch gehen
 Wehklagend um das Haus,
 Wir sitzen einsam drinne
 Und lauschen oft hinaus.
-
 Wir armen, armen Toren !
-
 Wir irren ja im Graus
-
 Des Dunkels noch verloren
-
 Du fandst dich längst nach Haus
-
 EICHENDORFF.
-
 FRUEHLINGSFEIER
-
 Süsser goldner Frühlingstag !
 Inniges Entzücken !
-
 Wenn mir je ein Lied gelang,
 Soll’t es heut nicht glücken ?
-
 Doch warum in dieser Zeit
 An die Arbeit treten ?
 Frühling ist ein hohes Fest ;
-
 Lasst mich ruhn und beten !
-
 UHLAND.
-
 NACHTLIEPD
-
 Vergangen ist der lichte Tag,
-
 Von ferne kommt der Glockenschlag;
-
 So reist die Zeit die ganze Nacht,
 Nimmt manchen mit, der’s nicht gedacht.
-
 Wo ist nun hin die bunte Lust,
 Des Freundes Trost und treue Brust.
 Des Weibes süsser Augenschein ?
 Will keiner mit mir munter sein ?
-
 Das nun so stille auf der Welt,
 Ziehn Wolken einsam übers Feld,
 Und Feld und Baum besprechen sich,
 O Menschenkind ! was schauert dich ?
-
 Wie weit die falsche Welt auch sei,
 Bleibt mir doch einer nur getreu,
-
 Der mit mir weint, der mit mir wacht,
 Wenn ich nur recht an ihn gedacht.
-
 Frisch auf denn, liebe Nachtigall,
 Du Wasserfall mit hellem Schall !
 Gott loben wollen wir vereint.
-
 Biss dass der lichte Morgen scheint !
-
 EICHENDORFF.
-
 DER FROHE WANDERSMANN
-
 Wem Gott will rechte Gunst erweisen.
 Den schickt er in die weite Welt;
 Dem will er seine Wunder weisen
-
 In Berg und Wald und Strom und Feld
-
 Die Trägen, die zu Hause liegen,
 Erquicket nicht das Morgenrot ;
-
 Sie wissen nur von Kinderwiegen,
 Von Sorgen, Last und Not um Brot.
-
 Die Bächlein von den Bergen springen,
 Die Lerchen schwirren hoch vor Lust,
 Was sollt’ ich nicht mit ihnen singen
@@ -1256,37 +872,21 @@ Den lieben Gott lass ich nur walten;
 Der Bächlein, Lerchen, Wald und Feld
 Und Erd’ und Himmel will erhalten,
 Hat auch mein’ Sach aufs best’ bestellt !
-
-EICHENDORFF.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003223_030.tif"/>
-<page><![CDATA[Pour une layette de qualité
-
+EICHENDORFF.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003223_030.tif'/>
+        <page>
+          <![CDATA[Pour une layette de qualité
 DURUZ
-
 Téléphone 4.09.10 Croix-d'Or, 3
-
 Spécialités d'acticles pouc bébés
-
- 
-
- 
-
- 
-
 LE CONSOMMATEUR
 soucieux de ses INTERETS fait
 ses ACHATS à la
-
 CCOPÉRATIVE
-
- 
-
- 
-
 Auberge de l’Or du Rhône
-
 ,\€3 La terrine de l’'Auberge à la gelée au Sherry.
-
 Ÿ°       
         </p>
     </body>
@@ -1294,49 +894,24 @@ Auberge de l’Or du Rhône
 </TEI>\ Le châteaubriand grillé sur sarments de vigne.
 $:æ\ Le poulet à la broche au charbon de bois.
 $ Les crêpes « SUZETTE» au Curaçao Bols.
-
 SES SALLES POUR REPAS DE NOCE ET COMITE
 L. Grandjean Rue du Stand, 46 Téléph. 4.55.76
-
- 
-
- 
-
- 
-
- 
-
- 
-
 M'acheter pas de Jrigo
-
 SANS CONSULTER
-
 BORNET S. A.
-
 ÉVEGTRIGME* 64x A — TEPONE
 Rue de Rive, 8 GENEVE Tél. 5.02.50
-
- 
-
- 
-
- 
-
- 
-
-Cï]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003223_031.tif"/>
-<page><![CDATA[BERNARD REICHEL
-
+Cï
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003223_031.tif'/>
+        <page>
+          <![CDATA[BERNARD REICHEL
 OCTUOR pour deux violons, allo, saxophone ténor,
-
 trompette, trombone, contrebasse et piano
-
 Exécutants : Mlle Juliette FERT, MM. Jean GOHRING, Laszlo
 KRAUSZ, MINKOF, BODET. MORLEY, Hans FRYBA, el
 Mlle Doris ROSSIAUD.
-
 Né à Neuchâtel en 1901, Bernard Reichel
 fit ses études d’orgue et de composition d’abord
 au Locle, avec Charles Faller, puis à Neuchâtel
@@ -1353,73 +928,43 @@ tre); pour chœur et orgue ou orchestre : La
 Vision d'Ezéchiel, Récit de Noël, Messe, Mu-
 sique pour la Passion, Cantate de Noël, Priè-
 res latines.
-
- 
-
 L'Octuor, pour 2 violons, alto, saxophone ténor, trompette, trom-
 bone, contrebasse et piano, se compose de trois mouvements :
-
 | . 1lo  Une ouverture, dont le thème initial rythme de marche bien
 caractérisé — revient périodiquement sur les divers degrés de la tonalité
 de ré. D’autres motifs secondaires donnent lieu à des développements
 plus ou moins étendus.
-
 20 Intermède, C’est d’abord une cantilène confiée à l’alto. Plus
 tard, le trombone introduit un thème assez austère, qui, repris par les
 cordes, mène au point culminant du morceau. La trompette, jusqu’alors
 silencieuse, reprend la cantilène du début.
-
 , 3o_ Finale. En ré, comme l’Ouverture alors que l’'Intermède
 reposait sur si bémol le Finale est bâti sur un rythme de danse. Après
-
 | divers développements dans lesquels apparaît fréquemment un petit
-
 | enchaînement harmonique en tierces mineures, le thème initial. répété
-
 }
-
 )
-
 Ï
-
-plusieurs fois, amène la conclusion en ré majeur.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003223_032.tif"/>
-<page><![CDATA[Gonservatoire de Musique de Bâle
-
+plusieurs fois, amène la conclusion en ré majeur.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003223_032.tif'/>
+        <page>
+          <![CDATA[Gonservatoire de Musique de Bâle
 Direction : Hans Münch
-
 DISRÉFICHTE N OIN
-
 Toutes les branches de la musique,
 de la rythmique et de la gymnastique
-
 d'OPERA et d COMEDIE
-
 Séminaire suisse de projesseurs de chant et de musique
 (Diplôme de l’Etat
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Pour paraître en Juillet 1943 aux
-
 Éditions du Siècle Musical
-
 16, boul. Hélvétique, à Genève :
-
 QUINTETTE
-
 pour
 deux violons, alto, violoncelle et
 piano, par
-
 Charles CHAIX
 (Opus 11)
 Une souscription est ouverte pour
@@ -1430,30 +975,15 @@ versant le montant ci-dessus in-
 diqué au compte de chèques pos-
 taux 1.4036, Editions du Siècle
 Musical à Genève.
-
 Du même auteur :
-
 — MREN TS
 E'éments d'Ecriture musicale
-
 (Traité d'harmonie) Fr 12,—
 Chants du Pigeonnier, recueil
-
 de: 4 mélodies pour chant
-
 éts piano .> Fr. 5—
-
- 
-
- 
-
- 
-
- 
-
 Membres de l’Association des Musiciens suisses dont les
 œuvres sont publiées par les Editions HENN, à Genève :
-
 Jean Apothéloz — Jean Binet — Emile-R. Blanchet —
 Charles Chaix — Gustave Doret — Jean Dupérier
 Henri Gagnebin — Walter Geiser — Emile Jaques-
@@ -1461,15 +991,15 @@ Dalcroze — Joseph Lauber — André-F. Marescotti
 Frank Martin — Pierre Maurice — Alexandre Mottu
 Fernande Peyrot — Ernest Rôäthlisberg — Eric Schmidt
 Charles Schneider — Walter Schulthess — Templeton
-Strong — Roger Vuataz.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003223_033.tif"/>
-<page><![CDATA[ALBERT JENNY
-
+Strong — Roger Vuataz.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003223_033.tif'/>
+        <page>
+          <![CDATA[ALBERT JENNY
 MUSIQUE SYMPHONIQUE pour orchestre
-
 Exécutants: L’ORCHESTRE DE LA SUISSE ROMANDE
 Direction : Ernest ANSERMET
-
 Né le 24 septembre 1912 à Soleure, Jenny
 y fit ses études musicales avec Max Kaemp-
 fert, les poursuivit au Conservatoire de Berne,
@@ -1491,9 +1021,6 @@ et piano, frio à cordes, quatuor à cordes. Pour orchestre: Scherzo, Mu-
 sique symphonique, Suite pour instruments à vent, Ouverture pour une
 comédie, Concertos pour violoncelle et pour hautbois. Diverses fan-
 taisies pour orgue.
-
- 
-
 La « musique symphonique » inscrite au programme fut composée
 en 1941-1942; son instrumentation vise à la clarté et à la transpa-
 rence en éliminant toute doublure inutile; elle ne se refuse pas à
@@ -1504,24 +1031,19 @@ mouvementée et combative, à la dure lumière du jour, l’adagio est un
 hymne à la nuit sombre et mystérieuse. Il ne faut voir toutefois dans
 cette conception et dans la forme rien d’autre qu’une pensée musicale,
 que ne lie aucun programme.
-
- 
-
 ÉDITIONS HENN Vient de partaïîtee
 MUSIQUE D’AUTREFOIS
 INTERPRÉTATION D’AUJOURD'HUI
-
-par Alfred POCHON]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003223_034.tif"/>
-<page><![CDATA[RUDOLF WITTELSBACH
-
+par Alfred POCHON
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003223_034.tif'/>
+        <page>
+          <![CDATA[RUDOLF WITTELSBACH
 CONCERTO pour piano et orchestre
-
 Allegro Andante (Thème et variations Allegro molto
-
 Exécutants: M. Walter FREY et l’Orchestre de la Suisse romande.
 Direction: E. ANSERMET
-
 = Rudolf Wittelsbach est né à Constanti-
 nople le 30 avril 1902. Après des études de
 droit aux universités de Zurich et de Berlin,
@@ -1532,18 +1054,13 @@ où il fut élève de Schnabel pour le piano, et
 de Hindemith pour la composition. Actuel-
 lement, il est professeur au Conservatoire de
 Zurich.
-
 Oeuvres: 3 poèmes de Baudelaire pour
 contralto, cor anglais et clarinette basse :
 Quatuor pour piano, clarinette, trompette el
 basson ; Sonate pour piano ; Cantate pour
 contralto et piano; Concertino et Divertis-
 sement pour orchestre de chambre; un ballet.
-
- 
-
 Au sujet de ce Concerlo, l’auteur s’exprime en ces termes :
-
 Le problème que je m’étais posé dans mon concerto était de
 trouver une matière sonore qui, tout en s’écartant parfois de la ca-
 dence traditionnelle, ne manquât ni de spontanéité ni de cohésion. En ce
@@ -1554,25 +1071,21 @@ assez important. Quant au côté mélodique, j'ai essayé d’atteindre à
 l’unité du style par l’étroite parenté des thèmes, qui dérivent tous de
 quelques motifs faisant partie du thème principal du premier mou-
 vement. »
-
- 
-
 Paraïtzant peachainement : Demnächét ecécheinen :
 Gaspard FRITZ S|nf:ma : ä z= :ä| Bartitions
 » N° 6 en si bémol â,t parä'est
 A.-E.-M GRETRY Concerto pour flûte et orch, | d’orchestre
 » » » Réduction pour flûte et piano.
-Editions HENN, Genève]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003223_035.tif"/>
-<page><![CDATA[ANDRE-FRANÇOIS MARESCOTTI
-
+Editions HENN, Genève
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003223_035.tif'/>
+        <page>
+          <![CDATA[ANDRE-FRANÇOIS MARESCOTTI
 1< CONCERT CAROUGEOIS pour orchestre
-
 Prélude — Sarabande Musette Gigue.
-
 Exécutants: L’ORCHESTRE DE LA SUISSE ROMANDE
 ; Direction E. ANSERMET
-
 Né à Carouge (Genève) en 1902, A.-F.
 Marescotti fit ses études au Conservatoire de
 Genève, où il fut l’élève d’Alexandre Mottu
@@ -1581,7 +1094,6 @@ position) et de Joseph Lauber (instrumenta-
 tion), puis reçut à Paris les conseils de Ro-
 ger Ducasse. Maître de chapelle à St-Joseph
 et professeur au Conservatoire.
-
 Compositions: pour chœurs mixtes: 8 Noëls
 et 3 Chants savoysiens: pour piano: 2 séries
 d'Esquisses, 2 Suites, Fantasque ; Harpe :
@@ -1590,102 +1102,65 @@ lude au Grand Meaulnes, Aubade; pour la
 scène: Où l’Etoile s’arrêta; pour chant: 3
 mélodies sur des poèmes de Frantz Tous-
 saint, etc.
-
 Prélude, d’un caractère âpre, est construit avec deux éléments-
 cellules qui s’amplifient en une progression aboutissant à un tutti de
 mouvement très rythmé.
-
 , Sarabande emprunte au Prélude son motif initial qui, par des
 dispositions polyphoniques, enveloppera une mélodie qui chante avec
 continuité et souplesse dans un caractère grave et passionné.
-
 Musette. Badinage tour à tour sai et mélancolique d’un thème de
 rythme binaire et ternaire, se développe par une berceuse et un trio
 de caractère scherzando.
-
 ; Gigue, vive et colorée, oppose constamment ses périodes rythmiques
 inégales (mouvement de gigue) à une construction mélodique indépen-
 dante, pour se terminer par un prestissimo à 2/4.
-
- 
-
 ÉDITIONS HENN Vient de paraïtre
 FORNEROD (A.) Le voyage de printemps / T
-PIANTONI (L.) Le galant jardinier N udéle E]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003223_036.tif"/>
-<page><![CDATA[MATÉRIELS D'ORCHESTRE EN LOCATION
-
+PIANTONI (L.) Le galant jardinier N udéle E
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003223_036.tif'/>
+        <page>
+          <![CDATA[MATÉRIELS D'ORCHESTRE EN LOCATION
 ÉDITIONS HENN -
-
 GENÈVE
-
- 
-
- 
-
 Oeuvres pour orchestre
-
 Balmer (Luc)
-
 Binet (Jean)
-
 Bizet (Georges)
-
 Chaix (Charles)
 »
-
 David (Karl-F.)
 »
 Dupérier (Jean)
 »
-
 Fornerod (Aloys)
-
 Gagnebin (Henri)
-
 »
-
 Hemmerling (Carlo)
 Lauber (Joseph)
 Marescotti (A.-F.)
 Martin (Frank)
-
 »
-
 »
-
 »
 Polignac (A. de)
 Templeton-Strong
-
 »
-
 »
-
 »
-
 »
 Vuataz (Roger)
-
 »
-
 »
-
 »
-
 »
-
 »
-
 »
-
 Wissmer (Pierre)
 »
-
 Les ouvrages précédés d'une * sont également en vente.
-
 GRAND ORCHESTRE
-
 Variations sur un thème de Haendel (28 minutes).
 Danses. (15 m.)
 Chants du Rhin, 5 pièces orch. par Eugen Huber.
@@ -1724,18 +1199,17 @@ Suite symphonique.
 Triptyque. (16 min.)
 La vie et les métiers du Péléponèse. (27 min.)
 Le Beau dimanche, Suite de ballet. (23 min.)
-Symphonie. (18 min.)]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003223_037.tif"/>
-<page><![CDATA[ROBERT OBOUSSIER
-
+Symphonie. (18 min.)
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003223_037.tif'/>
+        <page>
+          <![CDATA[ROBERT OBOUSSIER
 ANTIGONE
-
 Récitatif — Air — Elégie, d’après Sophocle,
 pour contralto et orchestre
-
 Exécutants: Mlle Lina FALK, et l’Orchestre de la Suisse romande
 Direction: E. ANSERMET
-
 Robert Oboussier, originaire de Lausanne,
 né à Anvers (Belgique) en 1900. Etudes mu-
 sicales au Conservatoire de Zurich (V. An-
@@ -1748,7 +1222,6 @@ sier est actuellement fixé à Zurich; il y as-
 sume la direction des Archives centrales de
 musique suisse et collabore au journal « Die
 Tat », comme critique musical.
-
 Ouvrages principaux: Trilogia sacra, can-
 tate pour soli, chœuts, orchestre et orgue sur
 un texte tiré du « Livre d’heures » de R. M.
@@ -1756,39 +1229,27 @@ Rilke; Suite en ut pour orchestre; Concerto
 pour piano et orchestre, Symphonie; 3 airs
 sur des poésies de Klopstock pour soprano léger, hautbois et clavecin :
 Sonata brevis pour violon et piano; 25 abréviations pour piano.
-
- 
-
 L’Antigone, datant de 1938-1939, réunit sous forme de f[ragment
 lyrique les trois points culminants de la tragédie de Sophocle: la contre-
 accusation d’Antigone, sa profession de foi et ses adieux à la vie.
-
 19 RÉCITATIF
-
 O loi cruelle ! Ni l'Olympe tout-puissant
-
 Ni la Justice souterraine n’ont jamais
-
 Soumis les hommes aux rigueurs d’un tel décret.
 Glorieux mortel, tu oses défier les dieux !
-
 Te crois-tu maître des divines lois des immortels
 En méprisant leur pouvoir sacré ?
-
 Car telles lois nous viennent, immuables droits,
-
 De nos ancêtres et d’un âge mystérieux.
-
 Jamais la crainte des humains ne permettra
-
 Qu'’au tribunal des dieux un juste blâme me condamne.
-
-9c]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003223_038.tif"/>
-<page><![CDATA[20 Arr
-
+9c
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003223_038.tif'/>
+        <page>
+          <![CDATA[20 Arr
 Jamais la haine, seul l’amour me conduira.
-
 20 ErÉgIE
 Ah ! Voyez-moi, concitoyens de Thèbe, Innocente, j'expie le crime d’autrui ‘
 On veut me séparer Dans l’éternelle nuit des morts. 4
@@ -1810,41 +1271,27 @@ Source limpide, plaine Et vous, guerriers de mon père, voyez !
 Des gais ébats de ma jeunesse, On me mène au trépas, moi, fille des rois !
 Soyez témoins, soyez juges Soyez mes juges, jugez mon tort :
 De ma détresse et de mon chagrin. D’avoir sanctifié un saint usage.
-
 Version française de l’auteur.)
-
- 
-
 ÊDIT_IONS H'ENIN
-
 CVient de pacaiteze
-
 LUTHER POËTE ET MUSICIEN
-
 par A
-
 Charles SCHNEIDER
 Privat-docent à l’Université de Neuchâtel
-
 Un valume de 212 pages avec la musique de la vetsion
-
-aciginale de nombze de péaumes]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003223_039.tif"/>
-<page><![CDATA[ï
+aciginale de nombze de péaumes
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003223_039.tif'/>
+        <page>
+          <![CDATA[ï
 »
-
-  
-
 WILLY BURKHARD
-
 LAUPEN, suite pour orchestre
-
 Prélude — Marche Musique de table Intermezzo Choral
 La Bataille Musique funèbre Carillon de paix.
-
 Exécutants: L’ORCHESTRE DE LA SUISSE ROMANDE
 Direction: Ernest ANSERMET
-
 Né en 1900 à Leubringen, près de Bienne,
 et élevé à Berne, Burkhard fit ses études
 musicales à Berne, Leipzig, Munich et Paris.
@@ -1853,7 +1300,6 @@ au Conservatoire de cette ville en 1928;- ül
 passa de 1932 à 1937 à Davos. Il est établi
 actuellement à Zurich, où il enseigne les bran-
 ches théoriques au Conservatoire.
-
 Oeuvres récentes: Op. 57, Hymnus pour
 orchestre (1939); op. 60, Concerto pour vio-
 loncelle et orchestre à cordes (1940; op. 61,
@@ -1868,9 +1314,6 @@ Oratorio (1940-1941); op. 63, Der Sonntag, Cantate pour voix moyenne
 et trio avec piano (1941); op. 64, Magnificat, pour soprano et orgue
 (1942); op. 65, Christi Leidensverkündiqung, pour ténor solo, petit
 chœur mixte et orgue; op. 66, Sonate pour piano (1942).
-
- 
-
 À Laupen, en juin 1339, les Bernois battirent une forte armée de
 ('l1ÿ       
         </p>
@@ -1878,160 +1321,106 @@ chœur mixte et orgue; op. 66, Sonate pour piano (1942).
   </text>
 </TEI>;1_lltT5 qui voulait la ruine de Berne. Les divers morceaux de cette
 suite illustrent librement ce fait historique.
-
 0 La Suite Laupen fut composée en 1940 ; elle est tirée de la musique
 écrite un an auparavant pour l’évocation radiophonique de « Laupen
 1939 », (Hans Rych), commandée par Radio-Berne. Les morceaux 1 et 2
 ?…ll restés identiques, tandis que les autres furent plus ou moins trans-
-ormés.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003223_040.tif"/>
-<page><![CDATA[Binet (Jean)
+ormés.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003223_040.tif'/>
+        <page>
+          <![CDATA[Binet (Jean)
 »
 »
-
 »
 Fritz (Gaspard)
 Gagnebin (Henri)
 Jaques-Dalcroze (E.)
 Martin (Frank)
 Vuataz (Roger)
-
 »
-
 »
-
 »
-
 »
-
 »
-
 Ansermei (Ernest)
 Balmer (Luc)
 Binet (Jean)
 Luily (!-B. de)
 Pergclesi (G.-B.)
-
 Vuataz (Roger)
-
 Dupérier (lean}
 Martin (Frank)
 »
 Merasce (J. de)
 Wissmer (Pierre)
-
 Binet (Jean)
-
 Saint-Georges
-
 Templeton-Strong
 »
-
 Wissmer (Pierre)
-
 Gagnebin (Henri)
 Templeton-Strong
 »
 »
-
 EDITIONS
-
 Les ouvrages précédés d'une * sont également en vente.
-
- 
-
 HENN, GiENEVE
-
 ORCHESTRE REDUIT
-
 Concertino.
-
 Cartes postales, suite. (14 minutes)
-
 Country dances (suite d'anciennes danses an-
 glaises).
-
 * Suite d'airs et danses populaires suisses.
-
 Symphonies.
-
 Suite pour les instruments d'orchestre. (13 m.)
-
 Six danses romandes.
-
 Danse de la peur. (13 min.)
-
 Marche du cortège de Provence.
-
 Marche rhapsodique savoisienne.
-
 Deux pièces brèves. (7 min.)
-
 Petit concert. (15 min.)
-
 Suite sur des thèmes populaires anciens. (12 min.)
-
 Offrande musicale (de J.-S. Bach). (50 min.)
-
 ORCHESTRE A CORDES
-
 * Concertino No 3 de Pergolesi. (13 minutes.)
-
 Sinfonische Suite. (24 min.)
-
 Trois pièces. (21 min.)
-
 Passacaille, extr. d'Armide.
-
 * Concerto No 3 en la mineur; arr. par Ernest
 Ansermet. (13 min.)
-
 2me Suite sur des thèmes popul. anciens. (17 m.)
-
 PIANO ET ORCHESTRE
-
 Résonance.
-
 Ballade. (15 minutes.)
-
 Concerto. (17 min.)
-
 Divertissement sur une chanson d'enfants.
 Concerto. (18 min.)
-
 VIOLON ET ORCHESTRE
-
 * Divertissement. (22 minutes.)
 Concerto.
-
 * Americana, deux petits poèmes.
 * Une vie d'artiste, poème. (11 min.)
 Concerto. (19 min.)
-
 VIOLONCELLE ET ORCHESTRE
-
 Concerto. (20 min.)
-
 * Elégie.
-
 * Pollainiana, suite de 5 morceaux. (28 minutes.)
-* Suite. (28 min.)]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003223_041.tif"/>
-<page><![CDATA[HENRI GAGNEBIN
-
+* Suite. (28 min.)
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003223_041.tif'/>
+        <page>
+          <![CDATA[HENRI GAGNEBIN
 REQUIEM DES VANITES DU MONDE
-
 pour soprano et baryton, chœur mixte, orchestre et orgue.
-
 Texte de Jules BAILLODS
-
 P ä u ;
 Exécutants: Mme Violette ANDREOSSI,. soprano, M. Paul SAN-
-
 DOZ, baryton, la Société de Chant Sacré, le Chœur de la
 Société symphonique, M. Pierre SEGOND. orsaniste
 Direction : M. S. BAUD-BOVY.
-
 Henri Gagnebin est né à Liége, en 1886, de
 parents suisses. Il a fait ses études musi-
 cales à Lausanne, Berlin, au Conservatoire
@@ -2050,234 +1439,155 @@ symphoniques d’après Hodler, deux orato-
 rios : Sainf François d’Assise et Requiem
 des Vanités du monde, de nombreuses pièces
 instrumentales et vocales,
-
 O mort, 6 nuit profonde et consolante et douce,
-
 des jardins de la terre où règne le silence.
-
 O mort, 6 grande nuit qui berce et qui console
-
 afin que nous dormions d’un sommeil éternel.
-
 O mort, à grande nuit qui berce et qui console,
 au jardin du silence et de l’oubli.
-
 Nous sommes les errants des pays de la terre,
-
 Nous sommes les errants de la sombre vallée.
-
 Nous sommes les chassés du paradis.
-
 Nous avons bâti des royaumes.
-
 Ils se sont brisés dans la poussière
-
 et nos rois sont morts dans leur tombeau.
-
 Nous avons jeté des ponts sur des rivières desséchées,
-
 Nos citadelles sont ruinées et nos tours se sont écroulées
-dans le vent rouge des batailles.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003223_042.tif"/>
-<page><![CDATA[La foudre a rompu nos murailles,
+dans le vent rouge des batailles.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003223_042.tif'/>
+        <page>
+          <![CDATA[La foudre a rompu nos murailles,
 abattu les temples et les dieux.
 Nous sommes les errants des pays de la terre
-
 et nous allons sans fin vers la sombre vallée
-
 où ne luit plus aucun soleil.
-
 Tu nous avais donné ton souffle impérissable.
-
 Tu nous avais donné tous les fruits du jardin
-
 de la terre et du ciel. ;
-
 Tu nous avais donné la vaillance et la force,
-
 la gloire et la jeunesse, durant toute l’éternité.
-
 Tu nous avais donné tout ce qu'on peut donner.
-
 Nous avons méconnu le village natal,
-
 où les abeilles bourdo@naient dans les tilleuls.
-
 Nous avons parcouru tous les chemins du monde
-
 et nous avons perdu notre corps et notre âme.
-
 Et nous avons connu tout ce qu'on peut connaître
-
 et nous avons connu la grande lassitude
-
 et nous étions vivants, mais plus morts que les morts.
-
 Oh ! n’as-tu pas chargé nos fragiles épaules
-
 plus que nous ne pouvions en porter ici-bas ?
-
 Sur nos fronts n'as-tu pas mis plus d’ombre et de mort
-
 que notre pauvre joie n'en pouvait dissiper ? -
 Tu nous avais donné ton souffle impérissable,
-
 et nous l’avons perdu dans le vent et la nuit.
-
 Tu nous avais donné ton amour éternel
-
 et nous avons perdu ton amour éternel.
-
 Amour, tes rameaux verts entre mes mains brisés.
 Désir, o grande flamme sombre.
-
 O mort, à nuit profonde et consolante et douce.
 O mort, 6 grande nuit qui berce et qui console
 afin que nous dormions du sommeil éternel,
-
 au jardin du silence et de l’oubli.
-
 O Dieu, je me sens encore argile morte, prise en
 tes mains, formée de tes doigts créateurs, animée
 soudain et vivante de ton souffle, que tu me
 donnas, Père, dans un baiser.
-
 Ah ! pourquoi nous donner ton souffle et ton image
 et nous les retirer à la fois, d’un seul coup ?
-
 Ah ! pourquoi nous donner les trésors du royaume
 et nous laisser après plus pauvres que les pauvres ?
-
 Je montais de l'ombre vers Toi, grave, triste, inquiet,
-
 heureux. Ma nuit brillait comme un soleil ! Et voici,
-
 le soleil est mort. Tu m’as chassé du Paradis. Cæ
 Nous sommes les errants des pays de la terre ;
 et nous allons sans fin vers la sombre vallée
-
 où ne luit plus aucun soleil.
-
 Il
-
 Je vois une vallée encombrée d’ossements,
 aux maisons pleines d'ossements.
 Ossuaire du monde, débris de funérailles.
 Ossements secs ainsi que du bois mort.
 Couronnes de fleurs sèches mêlées aux ossements.
-
 Voici les hommes de la terre pour le dernier dénombrement.
-Seigneur, voici les Trônes et Tles Dominations,]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003223_043.tif"/>
-<page><![CDATA[les armées de misère et de mort.
-
+Seigneur, voici les Trônes et Tles Dominations,
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003223_043.tif'/>
+        <page>
+          <![CDATA[les armées de misère et de mort.
 Haut les épées ! Haut les bannières !
-
 Le vent de la colère les pousse jusqu’ici.
 Et voici les soldats de la dernière guerre.
 Ce sont les armées innombrables.
-
 Voici la vendange du monde et le sang rouge
 qui jaillit jusquau fond des cieux éternels.
 Le vent de la colère les pousse jusqu'ici.
 Un déluge de feu bat les villes maudites,
 Un déluge de mort bat les cités du monde.
 Voici les sept Chandeliers d’or,
-
 Voici les Grands Lions et l’Epée et le Livre.
 La faucille, comme l’éclair,
-
 et les cloches, tumultueuses, tonnent
-
 pour les funérailles du monde.
-
 Ce sont les armées innombrables.
-
 L'Eternel a brisé la verge des dominateurs.
-
 Les rois morts sont couchés, sans force ni couronne.
-
 Le vainqueur du monde est ici, couvert de pourriture,
-
 dans la profondeur de la fosse.
-
 Ici reposent pour jamais ceux qui faisaient trembler la terre.
 Ninive, Babylone, Sodome et Gomorrhe, poussière.
-
 Tous les grands de la terre sont couchés dans la tombe.
-
 O terre, terre aimée, terre aux lourdes moissons,
-
 aux grands nuages blancs qui tremblent sur le fleuve.
 Terre aux beaux arbres frais sous le vol des colombes.
 Ô terre, terre aimée.
-
 Amour, lève sur nous tes rameaux de jeunesse,
 car ils refleuriront dans mes mains éternelles.
 Une source fermée a jailli de mon sein.
-
 J'ai donné et j’ai possédé.
-
 J'ignorais mon destin et je sais à présent
 pourquoi je fus créée. Je dormaïs, je rêvais
-
 et je suis éveillée !
-
 Amour, lève sur nous tes rameaux de jeunesse.
 La gloire et la richesse ont passé comme l’ombre.
 Amour, verse en la coupe le breuvage de Dieu.
 L'herbe se fane et la fleur tombe.
-
 Elle refleurira dans les vergers du ciel.
-
 Donne ta main qui mène aux jardins de lumière.
 Donne ta main qui mène aux jardins éternels.
-
 Vanité, vanité, tout est vanité.
 La chair est comme l’herbe. sa grâce comme la fleur des champs.
 L’herbe sèche et la fleur se fane.
-
 Elle refleurira dans les vergers du ciel.
 Espérance, espérance.
-
 Vanité, vanité, toute vie est vanité.
-
 O Dieu, pitié pour nous, pitié pour nous, Seigneur !
-
 Du fond de la fosse, nous t'appelons, pitié pour nous, Seigneur !
 Vois, mes lauriers sont morts.
-
 Vois, mes roses d’amour sont mortes.
-
 Mes arbres sont tombés dans les neiges d’hiver.
-
 Ma maison est abandonnée.
-
 Nous sommes les errants de la sombre vallée.
-
-Pitié pour nous, Seigneur !]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003223_044.tif"/>
-<page><![CDATA[Voici le soir, reste avec nous.
+Pitié pour nous, Seigneur !
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003223_044.tif'/>
+        <page>
+          <![CDATA[Voici le soir, reste avec nous.
 Tu rempliras la coupe et tu rompras le pain.
 Seigneur, aie pitié de nous.
-
 Seigneur, je suis debout comme tu m'’as créé,
-
 tel un arbre vivant animé de ton souffle.
-
 L’argile absorbe ma faiblesse,
-
 Mais mon corps tout entier se tend vers ton soleil.
-
 Seigneur, voici nos mains qui sont tant fatiguées,
 Seigneur, voici nos fronts obscurcis de pensées.
-
 Nous ferons les labours dans les champs éternels.
 Seigneur, voici nos corps chargés de tant de peine.
 Nous irons moissonner dans les champs éternels.
-
 Seigneur, voici nos cœurs chargés de tant d’hivers.
-
 Laisse-nous revenir au printemps éternel.
 Courage, patience, espoir, en attendant le plus beau jour,
 le plus grand jour de notre vie.
@@ -2299,46 +1609,33 @@ Seigneur, délivre-nous.
 Et de la mort. Amen.
 Tu nous avais donné ton image éternelle,
 Tu nous avais donné ton souffle impérissable.
-
 III
-
 O nuit, étends ton sommeil sur les jardins brisés,
 Ferme de ton silence les yeux et les corolles,
-
 Calme les flots battus du plus grand des naufrages,
 Abolis tous les bruits dans le battement sombre
 de tes si lentes ailes calmes,
-
 afin que nous dormions du sommeil éternel.
-
 Mais quand le jour viendra,
-
 quand nous nous lèverons, Seigneur,
-
 d’entre les morts,
-
 à l’appel des trompettes d’or
-
 qui sonneront une fanfare de lumière
-
 sur les ténèbres de la terre,
-
 quand nous nous lèverons, Seigneur,
-
 d’entre les morts — Espérance, espérance —
 Accueille-nous, Seigneur,
-
 reprends-nous tout entiers dans ta chair frémissante,
 reprends-nous tout entiers dans ton âme d’amour,
-accueille-nous vivants dans la vie éternelle.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003223_045.tif"/>
-<page><![CDATA[MAX ZFEHNDER
-
+accueille-nous vivants dans la vie éternelle.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003223_045.tif'/>
+        <page>
+          <![CDATA[MAX ZFEHNDER
 MEDIA VITA, pour orchestre
-
 Exécutants: L’ORCHESTRE DE LA SUISSE ROMANDE
 Direction: Ernest ANSERMET
-
 Né en 1901 à Turgi (Argovie) Max Zehn-
 der fit ses études musicales au Conservatoire
 de Zurich, de 1923 à 1926. Il y fut l’élève
@@ -2352,41 +1649,33 @@ chœurs à Bienne, Brugg et Zurich. Depuis
 1931, il enseigne le chant, la musique, le vio-
 lon et la musique pédagogique au séminaire
 pédagogique de Mariaberg près Rohrschach,
-
 St-Gall.
 Parmi ses œuvres, citons: T'erzinen, pour
 alto et orchestre de chambre; 5 Lieder sur
-
 Ê des poèmes de Stefan Georges; Trio à cordes
 en ré mineur; Lieder, d’après des textes de R.-M. Rilke et Manfred
 Hausmann ; Psaume 150. pour chœur mixte, cuivres, timbales et orgue ;
 Prélude et Chaconne pour orchestre à cordes
-
 _ La composition pour orchestre Media vita fut composée en 1942.
 Elle comprend trois parties dont chacune forme en soi un tout.
-
 No1. Allegro au rythme martelé, revêt la forme classique de la
 sonate. Deux motifs contrastés et le motif principal (bois) d’une courte
 introduction mènent à l’exposition du choral « Media vita in morte
 sumus ». Un fugato et une redite du choral précèdent une courte re-
 prise.
-
 No 2. Morceau court, dans le caractère d’un lied. Une mélodie con-
 tenue, exposée d’abord fragmentairement par le cor anglais, se trans-
 forme plusieurs fois, interrompue par de petits intermèdes confiés
 aux bois élevés, pour s’éteindre doucement.
-
 No 3. Une courte introduction, dont le motif est emprunté au fugato
-de la première partie, conduit à une Passacaille au thème à sept temps.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003223_046.tif"/>
-<page><![CDATA[E DI T-IONS
-
+de la première partie, conduit à une Passacaille au thème à sept temps.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003223_046.tif'/>
+        <page>
+          <![CDATA[E DI T-IONS
 HENN, -GENEV'E
-
- 
-
 INSTRUMENTS A VENT AVEC ORCHESTRE
-
 Gagnebin (Henri)
 Grétry (A.)
 Lebrun (Ch.-Aug.)
@@ -2394,131 +1683,87 @@ Martin (Frank)
 Vuataz (Roger)
 »
 »
-
 »
-
 Andante et allegro (clarinette). (5 minutes.)
 Concerto pour flûte.
-
 Concerto (Hautbois).
-
 Ballade (saxophone). (13 min.)
-
 Nocturne et danse (saxophone). (7 m. 30)
 Nocturne héroïque (trompette). (6 m. 30)
 Impromptu (saxophone).
-
 Promenade et poursuite (basson).
-
 OEUVRES POUR SOLI, CHOEUR ET ORCHESTRE
-
 Binet (Jean)
-
 »
 Chaix (Charles)
 Dom David et
-
 G. de Lioncourt
-
 Fornerod (Aloys)
 Gagnebin (Henri)
-
 »
-
 Jaques-Dalcroze (E.)
-
 Lauber (Joseph)
 Martin (Frank)
 »
 Maurice (Pierre)
 Meyer (Charles)
-
 Molit:r (P. Valentin)
-
 (1637-1715)
-
 Scarlatti (Alessandro)
-
 Sérieyx
 Templeton-Strong
-
 Vuataz (Roger)
-
 Gluck
-
 Grétry
-
 Pileur (Georges)
 Rousseau (J.-J.)
-
 Les ouvrages précédés d'une * sont également en vente.
-
 Ode à Diane et Apollon (Ch. m.). Texte latin.
 Ode à Sextus. (Ch. m.) Texte latin.
 Poème funèbre. (Ch. m.) Texte latin.
-
 * Le Mystère de l'Emmanuel. (Ch. m.)
-
 Elaine. (Ch. h.)
-
 Saint-François d'Assise. (Ch. m.) (70 minutes.)
 Requiem des vanités du monde. (Ch. m.) (45 min.)
 Le Joli jeu des saisons. (Ch. m. Ch. d'enfants.)
 Te Deum. (Ch. m.) (50 min.)
-
 La Nique à Satan. (Ch. m. et Ch. h.)
-
 Les Dithyrambes. (Ch. m.) (60 min.)
-
 Gorm Grymme. (Ch. m.)
-
 Nicolas de Flue. Ch. m.). Textes all. et français.
 Ode génethliaque au berceau du Christ. (Ch. m.)
-
 Le Martyre de Sainte Ursule. (Ch. f.) (70 min.)
-
 Nazareth. (Ch. f.)
-
 Le Moulin abandonné (ch. m.) Textes français
 et allemand. (20 min.)
-
 Abraham. (Ch. m.)
-
 CHANT ET ORCHESTRE
-
 Mélodies de D'Arba, Jean Binet, Gustave Doret,
 Henri Gagnebin, E. Jaques-Dalcroze, Pierre
 Maurice, Templeton-Strong, Roger Vuataz,
 Pierre Wissmer, etc.
-
 Duos de E. Jaques-Dalcroze.
-
 (Demander le catalogue spécial.)
-
 OUVRAGES LYRIQUES
-
 L'Arbre enchanté, opéra comique en 3 actes.
 Richard Cœur-de-Lion, opéra comique en 3 actes.
 Marengo, comédie musicale.
-
-Le Devin du village, intermède en 1 acte.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003223_047.tif"/>
-<page><![CDATA[ARTHUR HONEGGER
-
+Le Devin du village, intermède en 1 acte.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003223_047.tif'/>
+        <page>
+          <![CDATA[ARTHUR HONEGGER
 LA DANSE DES MORTS
 Texte de Paul CLAUDEL
-
 pour soli de soprano, contralto et baryton, un récitant, chœur mixte,
 orchestre et orgue.
-
 Exécutants: Mlle Madeleine DUBUIS, Mme Nelly GRETILLAT,
 MM. Paul SANDOZ, Paul PASQUIER Pierre SEGOND, la
 Société de Chant Sacré (direction: S. BAUD-BOVY), le
 Chœur de la Société symphonique, et l’Orchestre de 1s
 Suisse romande.
-
 Direction: Ernest ANSERMET
-
 Arthur Honegger est né le 10 mars 1892
 au Havre, de parents suisses. Etudes de 1907
 à 1909 au Conservatoire de Zurich, sa ville
@@ -2537,11 +1782,7 @@ sique de chambre, musique symphonique et
 dramatique. La biographie de Honesger par
 Willy Tappolet donne les renseignements les plus complels sur son
 œuvre.
-
- 
-
 * * *
-
 En mai 1938, à la première audition à Bâle de la Jeanne d’Arc,
 Paul Claudel, auteur du livret, se rendit dans cette ville et eut l’occa-
 sion d’y visiter le Musée historique, dans l’ancienne Eglise des Cordeliers.
@@ -2551,283 +1792,186 @@ placement du square appelé actuellement « Totentanz ». On y distingue
 une succession de personnages un roi, un cardinal, un bourgeois, une
 dame de qualité, un mendiant, etc. que la mort invite à la Danse ma-
 cabre.
-
 Claudet eut alors l’idée de composer pour Arthur Honegger un
-poème développant les prophéties que sur ce thème contiennent les]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003223_048.tif"/>
-<page><![CDATA[Saintes Ecritures. En trois jours le texte fut achevé et en trois semaines,
+poème développant les prophéties que sur ce thème contiennent les
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003223_048.tif'/>
+        <page>
+          <![CDATA[Saintes Ecritures. En trois jours le texte fut achevé et en trois semaines,
 paraîl-il, Arthur Honegger avait écrit sa partition.
-
 La Danse des Morts est une sorte de Cantate dont le texte est
 tantôt déclamé, tantôt chanté par les voix solistes ou le chœur. Il suffit
 au poète Paul Claudel pour exprimer sa vision de réunir dans un certain
 ordre, certains textes de la Bible empruntés d’abord aux Prophétes
 d’Israël: Ezéchiel, Job, puis au Nouveau Testament et l’œuvre accomplit
 sa forme en cinq étapes
-
 I. DIALOGUE
-
 Après une sorte de roulement de tonnerre prolongé, le récitant
 raconte la vision du Prophète: « La main de Dieu s’est posée sur moi
 et elle m’a emmené en esprit et il m’a laissé au milieu d’une vaste plaine
 qui était remplie d’océans…
-
 Le chœur commente au fur et à mesure le récit :
-
 Souviens-toi, homme, que tu es poussière et que tu retourneras en
 poussière !
-
 Dieu dit : que les eaux qui sont sous le Ciel se rassemblent en un seul
 lieu et que l’« Aride » apparaisse !
-
 Et il en fut ainsi.
-
 Aux paroles du Prophète: « Fils de l’'Homme penses-tu que ces os
 vivent ? » le chœur répond: je répondis: « Seigneur mon Dieu vous le
 savez. Je crois que mon Rédempteur vit et que de nouveau je serai
 enveloppé de ma peau. Et il arrivera que dans ma chair je verrai mon
 Sauveur.
-
 Alors, sur la suite du récit prophétique se fait sentir à l’orchestre
 le mouvement mystérieux qui prépare la danse macabre, sur ces mots:
 « Et l'esprit entra en eux et ils devinrent vivants… Et ils tinrent sur
 leurs pieds.…. C’était une armée extrêmement nombreuse », elle éclate.
-
 II. DANSE DES MORTS
-
 Tandis qu'un groupe choral scande ces paroles :
-
 Souviens-toi homme que tu es poussière Et l’esprit est plus que la Achair
 Souviens-toi homme que tu es esprit Et l’œil est plus que le visage
 Et la chair est plus que le vêtement Et l’amour est plus que la mort
-
 l'orchestre fait sentir le mouvement de la fantastique danse. Peu à peu
 les voix s’y mêlent faisant entendre dans une progression puissante
 toutes sortes de refrains populaires :
-
 Sur le pont du tombeau Dansons la carmagnole
-
 On y dans’ dans’ y danse Vive le son du clairon
-
 Sur le pont du tombeau Entrez dans la danse
-
 Tout le monde y danse en rond Voyez comme on danse
 Dansons la carmagnole Sautez, dansez
-
 Vive le son, vive le son Embrassez qui vous voudrez.
-
 Ce morceau terminé, la plus extraordinaire danse macabre, sans
 doute, qui ait été écrite en musique, suit un Lamento.
-
-44]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003223_049.tif"/>
-<page><![CDATA[III. LAMENTO
-
+44
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003223_049.tif'/>
+        <page>
+          <![CDATA[III. LAMENTO
 Sur une marche harmonique qui, avec une sensibilité nouvelle, évo-
 que les procédés de Bach, le violon-solo et le baryton-solo dialoguent :
-
 Souviens-toi de moi, Seigneur, parce que je suis poussière
-
 Et que je retournerai en poussière
-
 Et Vous, ayez pitié de moi, Vous du moins qui Vous disiez mes amis
-
 Parce que la main du Seigneur m’a touché.
-
 Mes os se sont desséchés comme du bois
-
 Et il ne me reste plus que des dents autour de la bouche.
-
 Qui est l'homme pour que tu le magnifies et pour que vous lui
 attachiez votre cœur ?
-
 Tu le visites au point du jour et l’épreuve commence pour lui aussitôt
-
 Jusques à quand sera-ce que Tu oublies de m’épargner
-
 Et que Tu ne me laisses pas le temps que j’avale ma salive ?
-
 Ma vie est comme le vent qui souffle et ma substance devant Toi
 est comme rien
-
 L’homme né de la femme et qui vit si peu
-
 Tu vois de quelles misères, Seigneur, il est rempli !
-
 Il s’élève comme une fleur et aussitôt il est brisé,
-
 Il fuit comme l’ombre et jamais il ne demeure dans le même état
-
 Et c'est sur un individu de cette espèce que tu juges digne de Toi
-
 D’ouvrir les yeux et de l’amener devant Toi en jugement !
-
 Et il est vrai que j'ai péché
-
 Qui peut faire pur quelque chose né d’une semence qui ne l’est pas ?
-
 Toi seul qui as fixé le nombre de ses mois
-
 Et constitué devant lui un terme qu’il ne saurait dépasser.
-
 Retirez-vous de lui un peu qu’il ait repos
-
 Et que lui arrive enfin comme à un mercenaire le jour désiré
-
 Car je sais que mon Rédempteur vit
-
 Et au dernier jour je me relèverai de la terre et de nouveau je
 serai enveloppé de ma peau
-
 Et dans ma propre chair je verrai ce Dieu qui est mon Sauveur.
-
 IV
-
 A ce Lamento qui s’est terminé par le rappel d’un choral entendu
 déjà dans la première partie et devant revenir dans la conclusion de
 l’œuvre, succède un chœur de sanglots. Ces sanglots du chœur ponctuent
 une sorte de choral :
-
 « Ante quam vadam et non revertar ad terram tenebro sam et o
 pertam mortis caligine ubi nullus ordo sed sempiternus horror in
 habitat. »
-
 Ces paroles terminent le chapitre de Job où celui-ci dit Après
 toutes les épreuves que l’Eternel m’a envoyées, qu’IIl me donne un peu
 de relâche « avant que je m’en aille pour n’en plus revenir au séjour
 des morts où règne une horreur éternelle…
-
 V. LA REPONSE DE DIEU
-
 Après un nouveau grondement de tonnerre, Dieu répond :
 J'EXISTE.
 Voici, je vais ouvrir vos Tombeaux et je vous ferai sortir de vos
-sépulcres et je vous emmènerai dans la terre d’Israël.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003223_050.tif"/>
-<page><![CDATA[Le grondement de tonnerre s’est affaibli et c’est maintenant :
-
+sépulcres et je vous emmènerai dans la terre d’Israël.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003223_050.tif'/>
+        <page>
+          <![CDATA[Le grondement de tonnerre s’est affaibli et c’est maintenant :
 VI. L’'ESPERANCE DANS LA CROIX
-
 Dialogue entre le soprano-solo et l’alto-solo qu’interrompt le chœur
-
 puis le baryton-solo :
-
 Quelles sont ces plaies au milieu de tes mains et de tes pieds et
-
 quelle est cette ouverture à ton côté ?
 Mon Fils je t’ai donné mon cœur et j'attends que tu me donnes le tien
-
 Ouvrez-vous portes éternelles. Et c’est vous qu'on appelait le
-
 lointain et l’inaccessible.
 Est-ce qu’une mère oublie son enfant ? Et quand elle l’oublierait
 moi je ne l’oublierais pas, dit le Seigneur.
 oi que je suis. doux et humble de cœur.
-
 Apprenez de m
 soyez Un en Moi
-
 Afin que je sois Un en vous et que vous
-
 Comme Mon Père et Moi nous sommes Un
-
 Parce que Un est nécessaire.
-
 Prends un morceau de bois et écris dessus :Juda !
-
 Et un autre morceau de bois et écris dessus dessus: Ephraïm !
-
 Et cela fait une Croix et je m’étendrai dessus car je ne suis pas
 venu dissoudre et diviser mais remplir.
-
 Au chœur monte alors une sorte de choral :
-
 Je prendrai les enfants d’Israël
-
 Bt je les rassemblerai de toutes parts
-
 Et je les ramènerai dans leur Pays
-
 Et je ferai d'eux une seule nation
-
 que suit de nouveau le roulement de tonnerre sur lequel les voix à
 l’unisson font entendre ces paroles :
-
 Ego Dominus Sanctificator Israel cum fuerit
-
 in medio eorum in perpetuum.
 anctificateur d’Israël à perpétuité.Î»
-
 Et scient gentes quia
 sanctificatio mea
 (Et sachez que je suis le Seigneur s
-
 VIL AFFIRMATION
-
 C'est une déclamation du
-
 Cette « Affirmation » finale est brève.
 a débuté.
-
 chœur symétrique à celle par laquelle l’œuvre
-
 Souviens-toi, homme, que tu es pierre
 Et sur cette pierre je bâtirai mon Eglise
 Et les portes de l’enfer ne prévaudront pas contre elle.
-
 oles ramène dans une lumière
 vocalise du soprano-solo,
 ison, dans sa brièveté, est
 le musicien qui
-
 Mais la répétition des premières par
 nouvelle le choral rédempteur, que suit une
 comme le cri de l’âme délivrée. Cette pérora
 d’une telle qualité musicale qu'’elle suffirait à classer
 l’a conçue. C’est la signature d’un Maître.
-
 æ o
-
-N]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003223_051.tif"/>
-<page><![CDATA[f
+N
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003223_051.tif'/>
+        <page>
+          <![CDATA[f
 1
 |
 [
-
- 
-
- 
-
- 
-
-   
-
 LOTERIEROMANDE
-
 (2 GROS LOTS DE Frs.25.000.)
-
- 
-
- 
-
- 
-
- 
-
 EDAIT OIN S FENNT  GENEVE
-
 OUVRAGES D'ENSEIGNEMENT POUR LE PIANO
-
 Berdenis Les premières leçons de p'ano, motho<h destinée
 van Berlekom (M.) à développer intuitivement, chez l'enfant, le
 sentiment de la musique.
 Duvernoy (J.-B.) Le Guide du lecteur.
 Fornerod (A.) Gammes.
 Merkel (Gustav) 12 Petites Etudes faciles.
-
 EXTRAIT DU CATALOGUE DE PIANO A DEUX MAINS
-
 Blanchet (E.-R.) Dix nouvelles études
 Demierre (F.) Images, suite (facile).
 Fornerod (A.) Deux pièces: 1. Air. — 2. Guitare.
@@ -2841,39 +1985,27 @@ Piantoni (Louis) Le Galant jardinier, suite.
 Templeton-Strong Pro Juventute, dix petits morceaux pour la jeu-
 nesse (aule)
 » Onze Miniatures (assez facile).
-» Douze Petites Esquisses (assez facile).]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003223_052.tif"/>
-<page><![CDATA[su urrr
-
+» Douze Petites Esquisses (assez facile).
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003223_052.tif'/>
+        <page>
+          <![CDATA[su urrr
 {1
 [
-
- 
- 
-
 “î ueq en). 3
 mm —uni-vnsres) f/ 5
-
 } EsF
 ( — |
-
 TH BAE SUN
-
 Capital-Actions et Réserves: Fr. 195 MILLIONS
-
- 
-
 2, RUE DE LA CONFÉDÉRATION, 2
 GENÈVE
-
 CORNAVIN — EAUX-VIVES — PLAINPALAIS — CAROUGE
-
- 
-
- 
-
-Imp. Qrivet, Genère]]></page>       
-        </p>
+Imp. Qrivet, Genère
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

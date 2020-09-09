@@ -1,150 +1,114 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Audition annuelle de l'Ondine genevoise<date when="29/03/1942"/></title>
-<series>1941-1942</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Audition annuelle de l'Ondine genevoise
+            <date when='29/03/1942'/>
+          </title>
+          <series>1941-1942</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F003192</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Gabelles, G. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19420329"/>
-<title>Audition annuelle de l'Ondine genevoise</title>
-<placeName key="Victoria Hall"/>
-<name key="1941-1942" type="series"/>
-<name key="Gabelles, Gustave" ref="https://muscat.rism.info/admin/people/30073762" type="person" role="cmp">Gabelles, Gustave</name>
-<name key="Farigoul, Joseph Marie" ref="https://muscat.rism.info/admin/people/30072697" type="person" role="cmp">Farigoul, Joseph Marie</name>
-<name key="Gessert"  type="person" role="cmp">Gessert</name>
-<name key="Marie, Gabriel" ref="https://muscat.rism.info/admin/people/30071322" type="person" role="cmp">Marie, Gabriel</name>
-<name key="Schubert, Franz" ref="https://muscat.rism.info/admin/people/111603" type="person" role="cmp">Schubert, Franz</name>
-<name key="Pépin, A."  type="person" role="cmp">Pépin, A.</name>
-<name key="Padilla, A."  type="person" role="cmp">Padilla, A.</name>
-<name key="Mozart, Wolfgang Amadeus" ref="https://muscat.rism.info/admin/people/115324" type="person" role="cmp">Mozart, Wolfgang Amadeus</name>
-<name key="Boller, Carlo" ref="https://muscat.rism.info/admin/people/30081169" type="person" role="cmp">Boller, Carlo</name>
-<name key="Reybert"  type="person" role="cmp">Reybert</name>
-<name key="Campagnoli"  type="person" role="cmp">Campagnoli</name>
-<name key="Klosé"  type="person" role="cmp">Klosé</name>
-<name key="Genin"  type="person" role="cmp">Genin</name>
-<name key="Millot"  type="person" role="cmp">Millot</name>
-<name key="Gabelles, Gustave  (dir.)" ref="https://muscat.rism.info/admin/people/30073762" type="person" role="int">Gabelles, Gustave  (dir.)</name>
-<name key="Ondine genevoise"  type="person" role="int">Ondine genevoise</name>
-<name key="Chanteuses de la Colombière"  type="person" role="int">Chanteuses de la Colombière</name>
-<name key="Boller, C. (Mlle)"  type="person" role="int">Boller, C. (Mlle)</name>
-<name key="Favre"  type="person" role="int">Favre</name>
-<name key="Soler"  type="person" role="int">Soler</name>
-<name key="Oechslin, E."  type="person" role="int">Oechslin, E.</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003192_001.tif"/>
-<page><![CDATA[VICTORIA-HALL
-
- 
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19420329'/>
+        <title>Audition annuelle de l'Ondine genevoise</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1941-1942' type='series'/>
+        <name key='Gabelles, Gustave' ref='https://muscat.rism.info/admin/people/30073762' type='person' role='cmp'>Gabelles, Gustave</name>
+        <name key='Farigoul, Joseph Marie' ref='https://muscat.rism.info/admin/people/30072697' type='person' role='cmp'>Farigoul, Joseph Marie</name>
+        <name key='Gessert' type='person' role='cmp'>Gessert</name>
+        <name key='Marie, Gabriel' ref='https://muscat.rism.info/admin/people/30071322' type='person' role='cmp'>Marie, Gabriel</name>
+        <name key='Schubert, Franz' ref='https://muscat.rism.info/admin/people/111603' type='person' role='cmp'>Schubert, Franz</name>
+        <name key='Pépin, A.' type='person' role='cmp'>Pépin, A.</name>
+        <name key='Padilla, A.' type='person' role='cmp'>Padilla, A.</name>
+        <name key='Mozart, Wolfgang Amadeus' ref='https://muscat.rism.info/admin/people/115324' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Boller, Carlo' ref='https://muscat.rism.info/admin/people/30081169' type='person' role='cmp'>Boller, Carlo</name>
+        <name key='Reybert' type='person' role='cmp'>Reybert</name>
+        <name key='Campagnoli' type='person' role='cmp'>Campagnoli</name>
+        <name key='Klosé' type='person' role='cmp'>Klosé</name>
+        <name key='Genin' type='person' role='cmp'>Genin</name>
+        <name key='Millot' type='person' role='cmp'>Millot</name>
+        <name key='Gabelles, Gustave' ref='https://muscat.rism.info/admin/people/30073762' type='person' role='int'>Gabelles, Gustave</name>
+        <name key='Ondine genevoise' type='person' role='int'>Ondine genevoise</name>
+        <name key='Chanteuses de la Colombière' type='person' role='int'>Chanteuses de la Colombière</name>
+        <name key='Boller, C. (Mlle)' type='person' role='int'>Boller, C. (Mlle)</name>
+        <name key='Favre' type='person' role='int'>Favre</name>
+        <name key='Soler' type='person' role='int'>Soler</name>
+        <name key='Oechslin, E.' type='person' role='int'>Oechslin, E.</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003192_001.tif'/>
+        <page>
+          <![CDATA[VICTORIA-HALL
 Portes : 14 h. Dimanche 29 Mars 1942 Rideau : 14 h. 45
-
 AUDITION
 ANNUELLE
-
 L'ONDINE GENEVOISE
-
 Ecole de Musique fondée en 1891
 Directeur: M. Gustave GABELLES
-
 avec le bienveillant concours des
-
 CHANTEUSES DE LA COLOMBIÈRE
-
 sous la direction de M. C. BOLLER
-
- 
-
 +
-
 PRIX D’ENTRÉE : Fr. 0.60
-
 E
-
- 
-
- 
-
 [o] Ëäâ@äääâ@äæâäääâäâæ &s
-
-  
-
 Pour un bon ins-
 trument de musi-
 que ou une répa-
 ration bien falte
-
 ÆAdressez-vous chez
-
 Kaspar Wicky
-
 ue Ecole-de-Médecine, 8
 Téléphone 5,31.12
-
 Fournisseur de l’Ondine
-
- 
-
- 
-
- 
-
- 
-
-Prix du Programme : Fr. 0.20]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003192_002.tif"/>
-<page><![CDATA[L
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
+Prix du Programme : Fr. 0.20
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003192_002.tif'/>
+        <page>
+          <![CDATA[L
 E. Lederrey 51, rue du Stand, 51
 HORTICULTEUR-FLEURISTE
 Spécialité de
@@ -177,354 +141,190 @@ COLOGNY TÉLÉPHONE 2.60.18
 PE e LITHOGRAPHIE
 CAKES ET FLUTES AU SEL (e}- [7 |r -S$ Js 1T
 Membre actif de l'Ondine CLICH ÉS
-
- 
-
- 
-
- 
-
- 
-
 Si vous avez des tickets,
 n’oubliez pas que
-
 A. BOVEY livre bien BOIS et CHARBONS
-
 Fort-Barreau, 27
-
 Membre actif de l’Ondine
-
 Téléphone 2.31.32
-
- 
-
- 
-
 r
-
- 
-
 En cas d’alerte de la D.A.P., le public est instamment prié
 de ne pas quitter la salle
-
 C
-
 N
 10X
-
 >)
 t
-
 =
 c
-
- 
-
 * ë,
-r e T]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003192_003.tif"/>
-<page><![CDATA[LES SERVICES
-
+r e T
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003192_003.tif'/>
+        <page>
+          <![CDATA[LES SERVICES
 BLENK & ]F‘]ERT
-
 1, Rue du Mont-Blanc Genève
 jouissent de la plus haute renommée pour
-
 TOUT CE QUI CONCERNE LE VOYAGE!
 Faites appel à eux pour n'importe quel déplacement
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 PROGRAMME
-
 IPJRIEMHÈIRIE PAURIMNOE
 Batterie de tambours
-
 a) Autour du Monde . . . . > cCR OADEllES
 b) Souvenir de St-Rome, fantæsne PE Farigoul
-
-  
-
 (Carillon, Marche nuptiale, Bénédiction, Fëte)
 (HARMONIE)
 a)Retraite-marche . . . !: . .!. . « Gessert
 b) Sérénade badine . . . . . . . . .  Gabriel Marie
-
 (CORPS DE FLUTES)
-
 Momenomusicae e  Schuber
 (HARMONIE)
-
 akGaliretour 1 1 A Pépin
-
 b)eSuccésidesParisn TS n d Padiilia
 (CORPS DE FLUTES)
-
 a) L’Alphabet . . . ts ha)- cA Eu 000 MMOZATE
-
 ‘b) Cela file avec le temps 1 ME Cprio BOUEE
-
-  
-
 c) Rossignolet du bois . . se »
 d) Les jeunes filles du Val d’ lllœz E E »
-
 e) Aveva gli occhineri . . An »
 (CHANTEUSES DE LA COLOMBIÈRE)
-
 ENTR'ACTE 20 MINUTES
-
 {e]
-
- 
-
 Combustibles FREY Chêne-Bougeries
 Téléphone 4.94.20 Membre actif de l’Ondine
 Les bonnes semences
-
 s’achètent chez L E c E R F
-
 5, rue du Prince Spécialité : Marïcots sans fils
-
- 
-
- 
-
- 
-
 S3+———————
 o) do}
-
-l'1]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003192_004.tif"/>
-<page><![CDATA[P. MANTILLERI s.A.
+l'1
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003192_004.tif'/>
+        <page>
+          <![CDATA[P. MANTILLERI s.A.
 E SE
-
 Rue de la Navigation, 39
 Téléphone 2.26.74
 Charbons et Boïs
-
 TOUTES FORMALITÉS AUPRÈS DE
 L'OFFICE DE GUERRE
-
 AU CLIVIA
 FLEURS ,.ZÉ"
-
 2.55.96
 Bella-Anchisi
-
 Rue de
 St-Jean, 92
-
 Les plus belles confections florales
 Couronnes naturelles et artificielles
 Toujours des fleurs fraîches
-
 Sacs dames
 Porte-monnale
 Sacs Commissions
-
 Ernest Muller
-
 1, Rue de la Tertasse
 RÉPARATIONS ENTOUS GENRES
 Membre actif de l’Ondine
-
 «
-
 (
 «
-
 (o]
 «
-
- 
-
 Café des Viticulteurs
-
 Spécialités: Fondues
 Beefsteacks au fromage
 Jambon vaudois extra
-
 Maurice LARPIN
 Anc. A. Reymond
-
 9, Tour-Maîtresse … Tél. 4.36.85
-
 A. BARBIERI
-
 Rue du Cendrier, 10
-
 Sacs de montagne - Musettes - Sacs
 à provisions - Sacs à main pr dames
 Porte-monnaie - Porte-feuilles
 Serviettes d’écoliers et voyageurs
-
 Membre actif de l'Ondine
-
 Pour une meilleure récolte
-
 semez les graines d’Elite du
-
 COMPTOIR GRAINIER
-
 Place de la Fusterie, 8
-
 Suceursale : Bd Georges-Favon, 16
 Tél. 4,36.31 Service à domicile
-
 »ÆAcheter au Comptoir Grainier
 C’est récolter à pleins paniers“
-
- 
-
 BOUCHERIE
-
 HA. Levrat
-
 Rue CAROLINE, 6 - ACACIAS - Tél. 4.09.13
-
 Viande de 1er choix
 ON PORTE A DOMICILE
-
 Membre actif de l'Ondine
-
 Appareiis de Chauffage
-
 JEAN PETIGAT
-
 FOURNEAUX ,LE RÊVE”
-
 Rue du Roveray, 16-18
-
 et rue du Simplon, 16
-
 Eaux-Vives. Tél. 4.40.76
 Membre actif de l’Ondine
-
- 
-
- 
-
- 
-
 Grand choix de livres
 d’étrennes en tous genres
-
 à la
-
 Librairie _ Mury
-
- 
-
 Vins en Gros
-
 A-0, GARIN & G 0.4
-
 Rue du Midi - Terrassière
-
 12, Boulevard Georges-Favon |J_'| Téléphone 5.45.22
-[e]]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003192_005.tif"/>
-<page><![CDATA[o]
-
+[e]
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003192_005.tif'/>
+        <page>
+          <![CDATA[o]
 Oj
-
 BOULANGERIE -PATISSERIE
-
 MATZINGER FILS
-
 Rue de Rive, 15 GENÈVE Téléphone 4.48.08
-
 Spécialité d’aliments au gluten
 Membre actif de l'Ondine
-
- 
-
- 
-
 IDIFUNIDÈMNE 1PAURIMOE
-
 Batterie de tambours
-
- 
-
 aleQuarantenaire . … Reybert
-
 b) PotpourriNo1 . . m. Hrrang de M. Chapuis
 (COURS D'INSTRUMENTS DE CUIVRE ET CLAIRONS)
-
 a) Thème et variations. . . . . . . . .  Campagnoli
 (GROUPE DE CLARINETTES)
-
 b) Duo concertant . . . Klosé
-
 (POUR SAXOPHONES : ONDINS FHVRE ET SOLER)
-
 Le Carnaval de Venise. . e Genin
 (POUR GRANDE FLUTE : ONDIN E. OECHSLIN)
-
 ajAuvieuxpays. ° -; ° ° , Caroyrolen
-
 DigRoselidé - ” É e A S CR A )
-
 d) En passant par la Lorraine. n RE »
 (CHANTEUSES DE LA COLOMBIÈRE)
-
 Le Briscard . « 224 /Mi/lot,
 (HARMONIE, TAMBOURS ET CLRIRONS)
-
 Les inscriptions des nouveaux élèves sont reçues dès maintenant au
 local de l’Ondine Genevoise (Ecole des Casemates), tous les jours de
 17 à 19 heures, sauf le jeudi.
-
 Les élèves peuvent suivre plusieurs cours et les instruments sont
-
 » — prêlés gratuitement. Prix pour plusieurs cours : Fr. 3.— par mois
 GË6£GGËOË%ËËJËQÊËQËO@ŒÈÛEÙ%ËŒËËÆ
-
 c)Lecœurdusoldat. R TIS TS » Ë
-
- 
-
 Soyez les bienvenus à la
-
 TAVERNE DE ST-JEAN
-
-MAISON DES BONNES CHOUCROUTES de l’Ondine]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003192_006.tif"/>
-<page><![CDATA[—
+MAISON DES BONNES CHOUCROUTES de l’Ondine
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003192_006.tif'/>
+        <page>
+          <![CDATA[—
 Joi
 LSs
-
- 
-
- 
-
- 
-
 O
-
 ï
 J
-
- 
-
 [
-
- 
-
 [e] (@]
 ‘ I
 BOULANGERIE AU
@@ -578,13 +378,10 @@ Rue J.-Dalphin, 16  Tél. 4.81.20 5
 HORTICULTEUR | À. ROSAY
 FLEURISTE 17, rue de l’Arquebuse
 Membre actif de l’Ondine TÉLÉPHONE 4.66.69
-
- 
-
- 
-
-[ok]]></page>       
-        </p>
+[ok
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

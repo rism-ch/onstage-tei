@@ -1,180 +1,132 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Quatrième concert classique<date when="28/02/1885"/></title>
-<series>1884-1885</series>
-<placeName>Grand Théâtre</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Quatrième concert classique
+            <date when='28/02/1885'/>
+          </title>
+          <series>1884-1885</series>
+          <placeName>Genève, Grand Théâtre</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VG2-1 F002095</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Senger, H. de (dir)</note>
+        <note>Interprète incertain</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18850228"/>
-<title>Quatrième concert classique</title>
-<placeName key="Grand Théâtre"/>
-<name key="1884-1885" type="series"/>
-<name key="Händel, Georg Friedrich" ref="https://muscat.rism.info/admin/people/36552" type="person" role="cmp">Händel, Georg Friedrich</name>
-<name key="Popper, David" ref="https://muscat.rism.info/admin/people/27091" type="person" role="cmp">Popper, David</name>
-<name key="Rossini, Gioachino" ref="https://muscat.rism.info/admin/people/63766" type="person" role="cmp">Rossini, Gioachino</name>
-<name key="Schubert, Franz" ref="https://muscat.rism.info/admin/people/111603" type="person" role="cmp">Schubert, Franz</name>
-<name key="Gluck, Christoph Willibald" ref="https://muscat.rism.info/admin/people/67338" type="person" role="cmp">Gluck, Christoph Willibald</name>
-<name key="Schumann, Robert" ref="https://muscat.rism.info/admin/people/131206" type="person" role="cmp">Schumann, Robert</name>
-<name key="David, Félicien" ref="https://muscat.rism.info/admin/people/3813" type="person" role="cmp">David, Félicien</name>
-<name key="Bordier, Jules"  type="person" role="cmp">Bordier, Jules</name>
-<name key="Rubinštejn, Anton Grigor'evič" ref="https://muscat.rism.info/admin/people/30008504" type="person" role="cmp">Rubinštejn, Anton Grigor'evič</name>
-<name key="Meyerbeer, Giacomo" ref="https://muscat.rism.info/admin/people/725" type="person" role="cmp">Meyerbeer, Giacomo</name>
-<name key="Senger, Franz Ludwig Hugo von  (dir.)" ref="https://muscat.rism.info/admin/people/30015297" type="person" role="int">Senger, Franz Ludwig Hugo von  (dir.)</name>
-<name key="[Orchestre de la Ville de Genève ?]"  type="person" role="int">[Orchestre de la Ville de Genève ?]</name>
-<name key="Popper, David" ref="https://muscat.rism.info/admin/people/27091" type="person" role="int">Popper, David</name>
-<name key="Arnaud, Félicie"  type="person" role="int">Arnaud, Félicie</name>
-<name key="Ketten, Léopold"  type="person" role="int">Ketten, Léopold</name>
-<name key="Rey, Louis"  type="person" role="int">Rey, Louis</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_1_f002095_001.tif"/>
-<page><![CDATA[“GRAND THÉATRE DE GENÈVE. - SOCIÉTÉ DES CONCERTS “
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18850228'/>
+        <title>Quatrième concert classique</title>
+        <placeName key='Genève, Grand Théâtre'/>
+        <name key='1884-1885' type='series'/>
+        <name key='Händel, Georg Friedrich' ref='https://muscat.rism.info/admin/people/36552' type='person' role='cmp'>Händel, Georg Friedrich</name>
+        <name key='Popper, David' ref='https://muscat.rism.info/admin/people/27091' type='person' role='cmp'>Popper, David</name>
+        <name key='Rossini, Gioachino' ref='https://muscat.rism.info/admin/people/63766' type='person' role='cmp'>Rossini, Gioachino</name>
+        <name key='Schubert, Franz' ref='https://muscat.rism.info/admin/people/111603' type='person' role='cmp'>Schubert, Franz</name>
+        <name key='Gluck, Christoph Willibald' ref='https://muscat.rism.info/admin/people/67338' type='person' role='cmp'>Gluck, Christoph Willibald</name>
+        <name key='Schumann, Robert' ref='https://muscat.rism.info/admin/people/131206' type='person' role='cmp'>Schumann, Robert</name>
+        <name key='David, Félicien' ref='https://muscat.rism.info/admin/people/3813' type='person' role='cmp'>David, Félicien</name>
+        <name key='Bordier, Jules' type='person' role='cmp'>Bordier, Jules</name>
+        <name key='Rubinštejn, Anton Grigor&apos;evič' ref='https://muscat.rism.info/admin/people/30008504' type='person' role='cmp'>Rubinštejn, Anton Grigor'evič</name>
+        <name key='Meyerbeer, Giacomo' ref='https://muscat.rism.info/admin/people/725' type='person' role='cmp'>Meyerbeer, Giacomo</name>
+        <name key='Senger, Franz Ludwig Hugo von' ref='https://muscat.rism.info/admin/people/30015297' type='person' role='int'>Senger, Franz Ludwig Hugo von</name>
+        <name key='Orchestre de la Ville de Genève' type='person' role='int'>Orchestre de la Ville de Genève</name>
+        <name key='Popper, David' ref='https://muscat.rism.info/admin/people/27091' type='person' role='int'>Popper, David</name>
+        <name key='Arnaud, Félicie' type='person' role='int'>Arnaud, Félicie</name>
+        <name key='Ketten, Léopold' type='person' role='int'>Ketten, Léopold</name>
+        <name key='Rey, Louis' type='person' role='int'>Rey, Louis</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_1_f002095_001.tif'/>
+        <page>
+          <![CDATA[“GRAND THÉATRE DE GENÈVE. - SOCIÉTÉ DES CONCERTS “
 SAMEDEI 28 FÉVRIER 1SSE, à $ heures précises,
-
 | QUATRIÈME CONCERT CLASSIQUE
 OI ER
-
 L’Orchestre, de 60 Musiciens, sera dirigé par M. HUGO DE SENGER.
 Le piano d'accompagnement sera tenu par M. Léopoild KETTEN.
-
 AVEC LE CONCOURS DE DAVID
-
 ET DE
 FÉILICIE ARNAUD
-
 Première Chanteuse du Grand Théâtre de Genève
-
- 
-
 PREMIÈRE PARTIE
-
 duvennregne lOratoro c'Esther, » . . s. . » 4 . . Hændel
 DanslaÿNorer, suite d'Orchestre, . . … .… David Popper
-
 avec solo de Violoncelle par M. Davin POPPER.
-
 A) Entrée; - B) Ronde; - c) Fleur d’Automne; - p) Danse des Elfes.
 Air de « Sémiramis, » chanté par Mlle FéLicIE ArNaup, . . .  Rossini
 ppiomierenenenmiageur 1s st 1 1 Pr Schudert
-
 DEUXIÈME PARTIE
-
 Pnavonne delkOpéra « Alceste, ». . . . . ... . .- Gluck
 A) Rêverie,. Tt tn Schumonn :
 BAChanson du Rouet . . . . . . David Popper *
-
 pour Violoncelle, par M. Davin POPPER. 4
 Chanson du Mysoli, chantée par Mlle FéLIcIE ARNAUD, . , . — Félicien David #
 Canzonetta, pour Violon, avec accompagnement d’Orchestre,â‘. Jules Bordier 8
-
 Ÿ
-
 le solo de Violon par M. Louis Rey.
-
 A) Mélodie,.
-
 B) Carnaval Espagnol,î . .
 pour Violoncelle, par M. Davin POPPER.
 Grande polonaise de la Tragédie « Struensée, » . . . . .  Meyerbeer
-
 Piano de la Maison ÉRARD, aux soins de MM. Bron et BERGUER.
-
 AVIS. — On est instamment prié de ne pas entrer pendant l’exécution des morceaux. 700008
-
 ; Prix des places restant en dehors des abonnements : Parterre, 2 fr., location, 2 fr. 50 (sous réserve d’augmentation de la location, dans des
-
 ; c1rœnstanc:æsrsp(-ciales. — Parterre debout, 2 fr. — Strapontins 12 Galerie, 4 fr. — Loges de face, 2" Galerie, 2 fr., location, 2 fr. 50. — À
-
 Loges_ de côté, 2M Galerie, 1 fr. 25., location, 4 fr. 50. — Stalles numérotées, 3° Galerie, 4 fr. 50., location, 4 fr. 60. — Avant-scène, 3Me .
-
 Galerie, 1 fr._ 50., location, 4 fr. 60. — Galerie, 3M€, 75 c, location, 85 c. — Le Bureau de lecation est ouvert au Théâtre, tous les jours de ‘
 la semaine où à lieu le Concert, de 11 h à 4 heures.
-
 RNubinstein
 David Popper
-
- 
-
- 
-
- 
-
 £ "
 ur
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-   
- 
-
- 
-
 Genève. — Imprimerie J-D. Jarrys.
-
 Xx
-
- 
-
- 
-
 E e mmn
-
 | | \ /‘rmaä) @ÛÏO n
 x
-
 R
-
-ut]]></page>       
-        </p>
+ut
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

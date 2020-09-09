@@ -1,66 +1,79 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Les saltimbanques ; Le beau Dunois<date when="03/03/1881"/></title>
-<series>1880-1881</series>
-<placeName>[Coulouvrenière ?] Théâtre des Bouffes</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Les saltimbanques ; Le beau Dunois
+            <date when='03/03/1881'/>
+          </title>
+          <series>1880-1881</series>
+          <placeName>Genève, Coulouvrenière (Théâtre des Bouffes parisiens)</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU DG4 F001411</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Lieu incertain</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18810303"/>
-<title>Les saltimbanques ; Le beau Dunois</title>
-<placeName key="[Coulouvrenière ?] Théâtre des Bouffes"/>
-<name key="1880-1881" type="series"/>
-<name key="Dumersan, Théophile Marion" ref="https://muscat.rism.info/admin/people/24732" type="person" role="cmp">Dumersan, Théophile Marion</name>
-<name key="Darin"  type="person" role="cmp">Darin</name>
-<name key="Lecocq, Charles" ref="https://muscat.rism.info/admin/people/85756" type="person" role="cmp">Lecocq, Charles</name>
-<name key="Grégoire, Alph."  type="person" role="int">Grégoire, Alph.</name>
-<name key="Grégoire, V."  type="person" role="int">Grégoire, V.</name>
-<name key="Martins, Louis"  type="person" role="int">Martins, Louis</name>
-<name key="Chauvière"  type="person" role="int">Chauvière</name>
-<name key="Grégoire, J."  type="person" role="int">Grégoire, J.</name>
-<name key="Marcelli"  type="person" role="int">Marcelli</name>
-<name key="Bonnet, H."  type="person" role="int">Bonnet, H.</name>
-<name key="Linartre"  type="person" role="int">Linartre</name>
-<name key="Marie (Mme)"  type="person" role="int">Marie (Mme)</name>
-<name key="Ferreau, A. (Mme)"  type="person" role="int">Ferreau, A. (Mme)</name>
-<name key="Guérini (Mlle)"  type="person" role="int">Guérini (Mlle)</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f001411_001.tif"/>
-<page><![CDATA[cÉRS, = A S E . ESRIUEN PRN 2E p
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18810303'/>
+        <title>Les saltimbanques ; Le beau Dunois</title>
+        <placeName key='Genève, Coulouvrenière (Théâtre des Bouffes parisiens)'/>
+        <name key='1880-1881' type='series'/>
+        <name key='Dumersan, Théophile Marion' ref='https://muscat.rism.info/admin/people/24732' type='person' role='cmp'>Dumersan, Théophile Marion</name>
+        <name key='Darin' type='person' role='cmp'>Darin</name>
+        <name key='Lecocq, Charles' ref='https://muscat.rism.info/admin/people/85756' type='person' role='cmp'>Lecocq, Charles</name>
+        <name key='Grégoire, Alph.' type='person' role='int'>Grégoire, Alph.</name>
+        <name key='Grégoire, V.' type='person' role='int'>Grégoire, V.</name>
+        <name key='Martins, Louis' type='person' role='int'>Martins, Louis</name>
+        <name key='Chauvière' type='person' role='int'>Chauvière</name>
+        <name key='Grégoire, J.' type='person' role='int'>Grégoire, J.</name>
+        <name key='Marcelli' type='person' role='int'>Marcelli</name>
+        <name key='Bonnet, H.' type='person' role='int'>Bonnet, H.</name>
+        <name key='Linartre' type='person' role='int'>Linartre</name>
+        <name key='Marie (Mme)' type='person' role='int'>Marie (Mme)</name>
+        <name key='Ferreau, A. (Mme)' type='person' role='int'>Ferreau, A. (Mme)</name>
+        <name key='Guérini (Mlle)' type='person' role='int'>Guérini (Mlle)</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f001411_001.tif'/>
+        <page>
+          <![CDATA[cÉRS, = A S E . ESRIUEN PRN 2E p
 —— 1 ; _ Société anonyme, Capital : VINGT M|LL|0Ns;® du 4A
 )Ï" URANT BÜÊ ’ SIEÈGE SOUIAL: à Paris, 16, rue Le Peletier”
 BUNAI ; & rr r es r f- ,
@@ -75,40 +88,25 @@ u UR|CE — Libération de titres. — Versements sur titres. — Remboursement 
 WIUDICIAIRE de tous les tirages et des numéros sortis et non réclam és. — Chèques sur
 Paris et la Province.
 Fhône, 11
-
- 
-
 9 D eu C A EDRE HS DEs HECGDUTESENESS
-
 H Jeudi 3 Mars 1881, à 8 h.
-
- 
-
- 
-
 LES
-
 ALTIMBANQUES
-
 e
 Comédie-Parade-Opérette en 3 actes, par MM. Dumersan et Darin.
-
 PERSONNAGES : Bilboquet, saltimbanque, M. Alph. Grégoire. Gringalet, paillasse, »
 4 V. Grégoire. Ducantal, capitaliste, Louis Martins. Sosthène, fils de Ducantal, Chauvière.
 @ÿ Rigolo, J. Grégoire. Samson, Marcelli. Le maire, H. Bonnet: Un gendarme, Linartre,
 Atala, femme sauvage, Mme Marie. Zéphirine, A. Ferreau. Me Rondon, M. Guérini.
 [9 Figuration. Paysans. Paysannes.
-
 lLE BEAU DUNOIS
-
 Opérette. Musique de Ch. Lecocq.
-
- 
-
 PERSONNAGES : Le chevalier Dunois. MM. J. Grégoire. Lahire, son frère d’armes,
 V. Grégoire. Caprican, majordome de Lahire, Alph. Grégoire. Loyse, femme de Lahire,
-M"es A. Ferreau. Odette, jeune villageoise, Marie. Chœurs et figuration.]]></page>       
-        </p>
+M"es A. Ferreau. Odette, jeune villageoise, Marie. Chœurs et figuration.
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

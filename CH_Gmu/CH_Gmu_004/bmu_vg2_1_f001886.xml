@@ -1,120 +1,97 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Dixième et dernier concert donné par la Société civile de l'Orchestre de la Ville de Genève : Au bénéfice de M. Hugo de Senger<date when="07/04/1883"/></title>
-<series>1882-1883</series>
-<placeName>Grand Théâtre</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Dixième et dernier concert donné par la Société civile de
+            l'Orchestre de la Ville de Genève : Au bénéfice de M. Hugo de Senger
+            <date when='07/04/1883'/>
+          </title>
+          <series>1882-1883</series>
+          <placeName>Genève, Grand Théâtre</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VG2-1 F001886</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Senger, H. de (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18830407"/>
-<title>Dixième et dernier concert donné par la Société civile de l'Orchestre de la Ville de Genève : Au bénéfice de M. Hugo de Senger</title>
-<placeName key="Grand Théâtre"/>
-<name key="1882-1883" type="series"/>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Chopin, Fryderyk Franciszek" ref="https://muscat.rism.info/admin/people/51160" type="person" role="cmp">Chopin, Fryderyk Franciszek</name>
-<name key="Massenet, Jules" ref="https://muscat.rism.info/admin/people/84264" type="person" role="cmp">Massenet, Jules</name>
-<name key="Ketten, L."  type="person" role="cmp">Ketten, L.</name>
-<name key="Liszt, Franz" ref="https://muscat.rism.info/admin/people/107196" type="person" role="cmp">Liszt, Franz</name>
-<name key="Verdi, Giuseppe" ref="https://muscat.rism.info/admin/people/137994" type="person" role="cmp">Verdi, Giuseppe</name>
-<name key="Litolff, Henry" ref="https://muscat.rism.info/admin/people/109316" type="person" role="cmp">Litolff, Henry</name>
-<name key="Senger, Franz Ludwig Hugo von  (dir.)" ref="https://muscat.rism.info/admin/people/30015297" type="person" role="int">Senger, Franz Ludwig Hugo von  (dir.)</name>
-<name key="Orchestre de la Ville de Genève"  type="person" role="int">Orchestre de la Ville de Genève</name>
-<name key="Leslino (Mlle)"  type="person" role="int">Leslino (Mlle)</name>
-<name key="Laurier, Julie"  type="person" role="int">Laurier, Julie</name>
-<name key="Harndorff"  type="person" role="int">Harndorff</name>
-<name key="Provesi, Luigi"  type="person" role="int">Provesi, Luigi</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_1_f001886_001.tif"/>
-<page><![CDATA[=m
-
-  
-
-      
-    
-
-   
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18830407'/>
+        <title>
+          Dixième et dernier concert donné par la Société civile de l'Orchestre
+          de la Ville de Genève : Au bénéfice de M. Hugo de Senger
+        </title>
+        <placeName key='Genève, Grand Théâtre'/>
+        <name key='1882-1883' type='series'/>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Chopin, Fryderyk Franciszek' ref='https://muscat.rism.info/admin/people/51160' type='person' role='cmp'>Chopin, Fryderyk Franciszek</name>
+        <name key='Massenet, Jules' ref='https://muscat.rism.info/admin/people/84264' type='person' role='cmp'>Massenet, Jules</name>
+        <name key='Ketten, L.' type='person' role='cmp'>Ketten, L.</name>
+        <name key='Liszt, Franz' ref='https://muscat.rism.info/admin/people/107196' type='person' role='cmp'>Liszt, Franz</name>
+        <name key='Verdi, Giuseppe' ref='https://muscat.rism.info/admin/people/137994' type='person' role='cmp'>Verdi, Giuseppe</name>
+        <name key='Litolff, Henry' ref='https://muscat.rism.info/admin/people/109316' type='person' role='cmp'>Litolff, Henry</name>
+        <name key='Senger, Franz Ludwig Hugo von' ref='https://muscat.rism.info/admin/people/30015297' type='person' role='int'>Senger, Franz Ludwig Hugo von</name>
+        <name key='Orchestre de la Ville de Genève' type='person' role='int'>Orchestre de la Ville de Genève</name>
+        <name key='Leslino (Mlle)' type='person' role='int'>Leslino (Mlle)</name>
+        <name key='Laurier, Julie' type='person' role='int'>Laurier, Julie</name>
+        <name key='Harndorff' type='person' role='int'>Harndorff</name>
+        <name key='Provesi, Luigi' type='person' role='int'>Provesi, Luigi</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_1_f001886_001.tif'/>
+        <page>
+          <![CDATA[=m
 SA1VIEDI 7 AVRIL 1883
 DIXIÈME ET
-
- DERNIER CONCERT
-
+DERNIER CONCERT
 DONNÉ PAR LA SOCIÉTÉ CIVILE DE
 L’'ORCHESTRE DE LA VILLE DE GENÈVE
-
 &0 BÉNÉFICE DE M. HUGO DE SENCER
-
 AVEC L’OBLIGEANT CONCOURS DE
-
 \" LESLINO
-
 DE LOPÉRA
 ET DE
-
 Ml JUIL_IE LAURIER
-
 Pianiste, Lauréat du Conservatoire royal de Dresde.
-
 p OE
-
- 
-
 PROGRAMME
-
 PREMIÈRE PARTIE
-
 cn On héroiqne, 101 es S Beethoven.
 A) Allegro con brio. - B) Marcia funebre. - c) Scherzo. - b) Finale.
 DEUXIÈME PARTIE
@@ -127,71 +104,28 @@ A) Canzone d’Otello, - B) Gondoliera, pour piano, exécutés par Mhe J. Laurin
 Bécitatif et grand air de « I Lombardi, » avec accompagnement d’Orchestre, Verdi.
 Chantés par Mlle LEsLINO.
 1. Ouverture de la Tragédie de « Robespierre, » (demandée) . . . . Litol/f.
-
 Le KPiano «l’accmnpagncmcnt sera tenu par M. Luigi PROVESI.
-
- 
-
 ES( y A 7
-
 PRIX DES PLACES POUR CE CONCERT:
-
 |;quteu1ls de balcon et Loges, 4 fr.; location, # fr. 50.- Fauteuils d’orchestre et Parquet, 5 fr.;location, 3 fr. 50. - Parterre, 4 fr. 50 ; localion, 21r.
 Kme Galerie, 4 fr.: .3 location, 1 f| 25, - I1N° Galerie, 505 location, 75c, - Bureau de location ouvert tous les jours, au l‘h«4lre detta4h.
-
 SE t 00 S
-
 Ouverture des Bureaux à 7 heures et demie. -- On commencera à 8 heuves précises.
-
 Genève. — Imprimerie J-D. Jarrys. —
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 ﬂ"“ 'vﬂW‘
-
-      
-
 se
 p d e
-
 -
 5
-
- 
-
 ”
-
 E
-
 E
-
 p
-
 en
-—2c es> k]]></page>       
-        </p>
+—2c es> k
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

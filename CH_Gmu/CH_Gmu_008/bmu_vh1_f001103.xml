@@ -1,120 +1,105 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par l'Harmonie nautique<date when="13/03/1910"/></title>
-<series>1909-1910</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par l'Harmonie nautique
+            <date when='13/03/1910'/>
+          </title>
+          <series>1909-1910</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F001103</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Pieyre, A. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19100313"/>
-<title>Concert donné par l'Harmonie nautique</title>
-<placeName key="Victoria Hall"/>
-<name key="1909-1910" type="series"/>
-<name key="Mozart, Wolfgang Amadeus" ref="https://muscat.rism.info/admin/people/115324" type="person" role="cmp">Mozart, Wolfgang Amadeus</name>
-<name key="Vieuxtemps, Henri" ref="https://muscat.rism.info/admin/people/142566" type="person" role="cmp">Vieuxtemps, Henri</name>
-<name key="Indy, Vincent d'" ref="https://muscat.rism.info/admin/people/114686" type="person" role="cmp">Indy, Vincent d'</name>
-<name key="Choisy, Frank"  type="person" role="cmp">Choisy, Frank</name>
-<name key="Chopin, Fryderyk Franciszek" ref="https://muscat.rism.info/admin/people/51160" type="person" role="cmp">Chopin, Fryderyk Franciszek</name>
-<name key="Sarasate, Pablo de" ref="https://muscat.rism.info/admin/people/30019733" type="person" role="cmp">Sarasate, Pablo de</name>
-<name key="Hubay, Jenő" ref="https://muscat.rism.info/admin/people/103720" type="person" role="cmp">Hubay, Jenő</name>
-<name key="Ponchielli, Amilcare" ref="https://muscat.rism.info/admin/people/1653417" type="person" role="cmp">Ponchielli, Amilcare</name>
-<name key="Bruneau, Alfred" ref="https://muscat.rism.info/admin/people/78271" type="person" role="cmp">Bruneau, Alfred</name>
-<name key="Händel, Georg Friedrich" ref="https://muscat.rism.info/admin/people/36552" type="person" role="cmp">Händel, Georg Friedrich</name>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Pieyre, Auguste (dir.)"  type="person" role="int">Pieyre, Auguste (dir.)</name>
-<name key="Harmonie Nautique"  type="person" role="int">Harmonie Nautique</name>
-<name key="Choisy, Frank"  type="person" role="int">Choisy, Frank</name>
-<name key="Hansotte, Marcel"  type="person" role="int">Hansotte, Marcel</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001103_001.tif"/>
-<page><![CDATA[= F UEN %>
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19100313'/>
+        <title>Concert donné par l'Harmonie nautique</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1909-1910' type='series'/>
+        <name key='Mozart, Wolfgang Amadeus' ref='https://muscat.rism.info/admin/people/115324' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Vieuxtemps, Henri' ref='https://muscat.rism.info/admin/people/142566' type='person' role='cmp'>Vieuxtemps, Henri</name>
+        <name key='Indy, Vincent d&apos;' ref='https://muscat.rism.info/admin/people/114686' type='person' role='cmp'>Indy, Vincent d'</name>
+        <name key='Choisy, Frank' type='person' role='cmp'>Choisy, Frank</name>
+        <name key='Chopin, Fryderyk Franciszek' ref='https://muscat.rism.info/admin/people/51160' type='person' role='cmp'>Chopin, Fryderyk Franciszek</name>
+        <name key='Sarasate, Pablo de' ref='https://muscat.rism.info/admin/people/30019733' type='person' role='cmp'>Sarasate, Pablo de</name>
+        <name key='Hubay, Jenő' ref='https://muscat.rism.info/admin/people/103720' type='person' role='cmp'>Hubay, Jenő</name>
+        <name key='Ponchielli, Amilcare' ref='https://muscat.rism.info/admin/people/1653417' type='person' role='cmp'>Ponchielli, Amilcare</name>
+        <name key='Bruneau, Alfred' ref='https://muscat.rism.info/admin/people/78271' type='person' role='cmp'>Bruneau, Alfred</name>
+        <name key='Händel, Georg Friedrich' ref='https://muscat.rism.info/admin/people/36552' type='person' role='cmp'>Händel, Georg Friedrich</name>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Pieyre, Auguste' type='person' role='int'>Pieyre, Auguste</name>
+        <name key='Harmonie Nautique' type='person' role='int'>Harmonie Nautique</name>
+        <name key='Choisy, Frank' type='person' role='int'>Choisy, Frank</name>
+        <name key='Hansotte, Marcel' type='person' role='int'>Hansotte, Marcel</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001103_001.tif'/>
+        <page>
+          <![CDATA[= F UEN %>
 ABPÉ) @gﬁ”"’@ HLN EN D MO
-
- 
-
 « VICTORIA—-HALL %
-
 rrr | Dimanche 13 Mars 190 e* |
-
 e LCONCERT @ €
-
 S
-
-    
-
 donné par À
-
 L'HARMONIE NAUTIQUE DE GENÈVE ‘
-
 sous la direction de
 M. Aususte PIEYEE
 Professeur au Conservatoire
 avec le gracieux concours de
-
 M. le professeur Frank CHOISY, violoniste - compositeur
 et de M. Marcel HANSOTTE, planiste.
-
 1918 DG R Æ 17 177 15
-
 \ll<l-\îllÏ'lll' PARTIE
 , r. Ouverture de Don Juan °Ÿ. . 0 E Morat
-
 = 5 .
 âê 2. Adagio religioso du 4" Concerto en é mineur,
 ) paurevoionm ° 1 en nemnps
-
 M. Frank CHOISY, avce accompagnement de l’Harmonie Nautique.
 Septuor (chanson et danses), pour flûte, hautbois,
-
- 
-
- 
-
 O
-
 v
-
 7
 &
-
- 
-
- 
-
 deux clarinettes, cor et deux bassons . . - Pincent d’'Indy
 \ MM. G. Martinet, Lickert, Mennet, Cailler, Matteï et Bauquis.
 )> nn n m Prank Choisy ;
@@ -129,13 +114,8 @@ accompagnement de piano. . . . > > lélgl
 @ Le premier violon par Madame Frank CHOISY.
 ‘<ÊÎ} 8. Grande ‘fantaisie sur Siegfried . . 1R un
 Ç Piano BLÜTHNER, gracieusement offert par la Maison SAUTIER & JÆGER.
-
 mt 3
-
 PRIX DES PLACES : Loges el premier rang de la premiêre Galerie (numérolés) 2 r.
-
-      
-
 S Itez-de
 Çr\ chausséé el autres places de la première Galerie, t fr Seconde Galerie, 50 cont.
 \ MM. les membres non-exécutants ont droit d'entrée à ce concert sur présentation du coupon
@@ -146,64 +126,51 @@ L_£îÿ 5 Dès ce jour, cartes à l’avance de 9 à 6 h, au Victoria-Hall.
 Ÿ Prière de ne pas entrer pendant l'exécntion des morceaux, BUFFET au rez-de chausséo
 7538 e F e
 m Es * ® % :h,é ? "U"ç:’ ’ *$
-mprimerle H. Jarrys, Treille, 4. Genève Ds v P @N]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001103_002.tif"/>
-<page><![CDATA[N@ _oe, oy
+mprimerle H. Jarrys, Treille, 4. Genève Ds v P @N
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001103_002.tif'/>
+        <page>
+          <![CDATA[N@ _oe, oy
 5 Fte —> —H * >3 @
 yn LN
 } ,
-
 Cours d’Instruments
-
 L'HARMONIE NAUTIQUE DE GENÈVE |
-
 PROFESSEURS !
-
 MM. Avc. Piryre, directenr . Cuivres.
-
 FOURMEN. .. . . .. . . - . larinettes, saxophones, solfège.
 >Î Marrnr . 1 Hautbois, coranglais, basson.
 Ï Nascmaux .. .. Solfège.
 J sr FIûte.
-
 | Prix des cours e solfège, cuivres, clurinettes, saxophones :
-
 5 fr. par mois. *
-
 Les jeunes gens désireux de suivre ces cours peu-
 vent s'inscrire tous les jours, auprès du Conci
-
 erge du
 Victoria-Hall.
-
 Ÿ Ÿ
 LH— R e y T e X6
 7 /,\ÀÀ\ . N
-
 C LI p paa p PL IOIM3
-
 AVIS. lPour être recu membre non-exécutant de l’H
 Nautique on peut s’inscrire tous les Jours chez le
 Victoria-Hall ou par lettre adressée au Comité; le
-
 armonie
 Concierge du
 prix de la carte
 st de 8 fr. par an et donne droit à deux entrée
-
 S pour chaque
 concert donné par l’Harmonie Nautique.
-
 PI AI GI O F p p d
-
 Y
 V
-
 <<O
-
 [
-)]]></page>       
-        </p>
+)
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

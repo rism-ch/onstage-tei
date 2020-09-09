@@ -1,141 +1,111 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert<date when="23/09/1883"/></title>
-<series>1882-1883</series>
-<placeName>Kiosque (Promenade des Bastions)</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert
+            <date when='23/09/1883'/>
+          </title>
+          <series>1882-1883</series>
+          <placeName>Genève, Kiosque (Promenade des Bastions)</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VG2-1 F002062</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Senger, H. de (dir)</note>
+        <note>Date présumée</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18830923"/>
-<title>Concert</title>
-<placeName key="Kiosque (Promenade des Bastions)"/>
-<name key="1882-1883" type="series"/>
-<name key="Zikoff"  type="person" role="cmp">Zikoff</name>
-<name key="Stasny, Ludwig" ref="https://muscat.rism.info/admin/people/30007998" type="person" role="cmp">Stasny, Ludwig</name>
-<name key="Massenet, Jules" ref="https://muscat.rism.info/admin/people/84264" type="person" role="cmp">Massenet, Jules</name>
-<name key="Meyerbeer, Giacomo" ref="https://muscat.rism.info/admin/people/725" type="person" role="cmp">Meyerbeer, Giacomo</name>
-<name key="Pedrotti, Carlo" ref="https://muscat.rism.info/admin/people/30015632" type="person" role="cmp">Pedrotti, Carlo</name>
-<name key="Werner"  type="person" role="cmp">Werner</name>
-<name key="Jullien"  type="person" role="cmp">Jullien</name>
-<name key="Thomas, A."  type="person" role="cmp">Thomas, A.</name>
-<name key="Fahrbach"  type="person" role="cmp">Fahrbach</name>
-<name key="Senger, Franz Ludwig Hugo von  (dir.)" ref="https://muscat.rism.info/admin/people/30015297" type="person" role="int">Senger, Franz Ludwig Hugo von  (dir.)</name>
-<name key="Orchestre de la Ville de Genève"  type="person" role="int">Orchestre de la Ville de Genève</name>
-<name key="Moog, Jean"  type="person" role="int">Moog, Jean</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_1_f002062_001.tif"/>
-<page><![CDATA[CONCERT 6x
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18830923'/>
+        <title>Concert</title>
+        <placeName key='Genève, Kiosque (Promenade des Bastions)'/>
+        <name key='1882-1883' type='series'/>
+        <name key='Zikoff' type='person' role='cmp'>Zikoff</name>
+        <name key='Stasny, Ludwig' ref='https://muscat.rism.info/admin/people/30007998' type='person' role='cmp'>Stasny, Ludwig</name>
+        <name key='Massenet, Jules' ref='https://muscat.rism.info/admin/people/84264' type='person' role='cmp'>Massenet, Jules</name>
+        <name key='Meyerbeer, Giacomo' ref='https://muscat.rism.info/admin/people/725' type='person' role='cmp'>Meyerbeer, Giacomo</name>
+        <name key='Pedrotti, Carlo' ref='https://muscat.rism.info/admin/people/30015632' type='person' role='cmp'>Pedrotti, Carlo</name>
+        <name key='Werner' type='person' role='cmp'>Werner</name>
+        <name key='Jullien' type='person' role='cmp'>Jullien</name>
+        <name key='Thomas, A.' type='person' role='cmp'>Thomas, A.</name>
+        <name key='Fahrbach' type='person' role='cmp'>Fahrbach</name>
+        <name key='Senger, Franz Ludwig Hugo von' ref='https://muscat.rism.info/admin/people/30015297' type='person' role='int'>Senger, Franz Ludwig Hugo von</name>
+        <name key='Orchestre de la Ville de Genève' type='person' role='int'>Orchestre de la Ville de Genève</name>
+        <name key='Moog, Jean' type='person' role='int'>Moog, Jean</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_1_f002062_001.tif'/>
+        <page>
+          <![CDATA[CONCERT 6x
 Programme officiel
-
 Dimanche 23 Septembre, à 8 h.
-
 Socété cvile de V'orchestre de n Vill
-
 Direction de M. Hugo de SENGER
-
 PREMIÈRE PARTIE % R
 1. Krakoviac, marche ! . . . .  ZIKOFF |
 . Bapageno, polka . . . . . .  STASNY { ;
 3. Sévillana de on Cézar de Ba- ‘
 zam . MAssENET ©
-
- 
-
- 
-
 N
-
 4. Fantaisie sur l'Etoile du Nord. _MEYERBEER
-
-  
-
 DEUXIÈME PARTIE
-
-   
-    
-    
-   
-     
-
 5. Les Masques, ouverture. PrproTTI
 6. Introduection et Gavotte . . WERNER
 7. Le Rossigmol, valse, petite flüte,
-
 Mmelem Mooc ts JorrieN
 8. Fantaisie sur Migmom . . . . A. THoMas
 AMetraite. ... .. . . … , FAHRBAOH
-
-        
-     
-  
-     
-     
- 
-      
-
 En cas de force majeure, le Chef @‘’orchestre se réserve de modifier le
 programme.
-
- 
-
 ABONNEMENTS par 20 coupons : fr. 7.50. S’adresser
 à l’entrée.
-
- 
- 
-
 CONCERTS AU KIOSQUE les Dimanches, Lundis,
 Mercredis et Vendredis, à 8 heures du soir. CLOTURE :
 26 septembre.
-
 SAISON PD’HIVER :
 fer Concert : 179 Novembre.
-
 >6666068836
 . 0 /
-
-  
-
-    
-
-      
-
-t1mes 2R 4 Imp ÎfË'u.ne]]></page>       
-        </p>
+t1mes 2R 4 Imp ÎfË'u.ne
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

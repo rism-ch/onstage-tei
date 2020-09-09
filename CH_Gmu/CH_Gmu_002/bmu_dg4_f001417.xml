@@ -1,144 +1,125 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Grand concert populaire donné par J. Vanderoost<date when="24/04/1881"/></title>
-<series>1880-1881</series>
-<placeName>Bâtiment électoral</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Grand concert populaire donné par J. Vanderoost
+            <date when='24/04/1881'/>
+          </title>
+          <series>1880-1881</series>
+          <placeName>Genève, Bâtiment électoral</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU DG4 F001417</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Bonade, L. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18810424"/>
-<title>Grand concert populaire donné par J. Vanderoost</title>
-<placeName key="Bâtiment électoral"/>
-<name key="1880-1881" type="series"/>
-<name key="Gürtner"  type="person" role="cmp">Gürtner</name>
-<name key="Verroust"  type="person" role="cmp">Verroust</name>
-<name key="Flotow, Friedrich von" ref="https://muscat.rism.info/admin/people/63626" type="person" role="cmp">Flotow, Friedrich von</name>
-<name key="Bizet, Georges" ref="https://muscat.rism.info/admin/people/20057" type="person" role="cmp">Bizet, Georges</name>
-<name key="Gounod, Charles-François" ref="https://muscat.rism.info/admin/people/80479" type="person" role="cmp">Gounod, Charles-François</name>
-<name key="Christophe"  type="person" role="cmp">Christophe</name>
-<name key="Rossini, Gioachino" ref="https://muscat.rism.info/admin/people/63766" type="person" role="cmp">Rossini, Gioachino</name>
-<name key="Bourgeois"  type="person" role="cmp">Bourgeois</name>
-<name key="Verroust"  type="person" role="cmp">Verroust</name>
-<name key="Rode"  type="person" role="cmp">Rode</name>
-<name key="Leroux"  type="person" role="cmp">Leroux</name>
-<name key="Bonade, Louis (dir.)"  type="person" role="int">Bonade, Louis (dir.)</name>
-<name key="Corps de musique de Landwehr"  type="person" role="int">Corps de musique de Landwehr</name>
-<name key="Vanderoost, J."  type="person" role="int">Vanderoost, J.</name>
-<name key="Redouté (Mme)"  type="person" role="int">Redouté (Mme)</name>
-<name key="Grave, de"  type="person" role="int">Grave, de</name>
-<name key="Bas, de"  type="person" role="int">Bas, de</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f001417_001.tif"/>
-<page><![CDATA[BATIMENT ELECTORAL
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18810424'/>
+        <title>Grand concert populaire donné par J. Vanderoost</title>
+        <placeName key='Genève, Bâtiment électoral'/>
+        <name key='1880-1881' type='series'/>
+        <name key='Gürtner' type='person' role='cmp'>Gürtner</name>
+        <name key='Verroust' type='person' role='cmp'>Verroust</name>
+        <name key='Flotow, Friedrich von' ref='https://muscat.rism.info/admin/people/63626' type='person' role='cmp'>Flotow, Friedrich von</name>
+        <name key='Bizet, Georges' ref='https://muscat.rism.info/admin/people/20057' type='person' role='cmp'>Bizet, Georges</name>
+        <name key='Gounod, Charles-François' ref='https://muscat.rism.info/admin/people/80479' type='person' role='cmp'>Gounod, Charles-François</name>
+        <name key='Christophe' type='person' role='cmp'>Christophe</name>
+        <name key='Rossini, Gioachino' ref='https://muscat.rism.info/admin/people/63766' type='person' role='cmp'>Rossini, Gioachino</name>
+        <name key='Bourgeois' type='person' role='cmp'>Bourgeois</name>
+        <name key='Verroust' type='person' role='cmp'>Verroust</name>
+        <name key='Rode' type='person' role='cmp'>Rode</name>
+        <name key='Leroux' type='person' role='cmp'>Leroux</name>
+        <name key='Bonade, Louis' type='person' role='int'>Bonade, Louis</name>
+        <name key='Corps de musique de Landwehr' type='person' role='int'>Corps de musique de Landwehr</name>
+        <name key='Vanderoost, J.' type='person' role='int'>Vanderoost, J.</name>
+        <name key='Redouté (Mme)' type='person' role='int'>Redouté (Mme)</name>
+        <name key='Grave, de' type='person' role='int'>Grave, de</name>
+        <name key='Bas, de' type='person' role='int'>Bas, de</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f001417_001.tif'/>
+        <page>
+          <![CDATA[BATIMENT ELECTORAL
 Dimanche 24 Avril 1881, à 3 heures uprès midi
 GRAND
-
 CONCERT POPULAIRE
-
 DONNÉ PAR
-
 J. VANDEROOST
-
 HAUTBOIS-SQL OE PERIX - TU"TONSERVEATOIRE DE BIRU R ELES
 AVEC LE GRA6AF;1JX CONCOURS DE
-
 ManemorseuLe REDOUTE
-
 ET DE
-
 M. DE GRAVE
-
 du-Garand. Théâtre…
-
 M LOUIS RONADE
-
 Professeur-au-Conservatoire
-
- 
-
- 
-
- 
-
- 
-
 ET DU
-
 @©RPS DE MUSIQUE DE LANDWEHR
-
 Sous la direction de M. L. BONADE
-
 SSD
-
 PROGRAMME
-
 PREMIÈRE PARTIE
-
 Le Roi des mers Allegro militaire . . V1 1 GUADNER.
 Fantaisie sur Don Pasquale, exécutée par J. Vanderoost . . . … VERROUST.
 Couplets du Porther (chanson à boirey—ehantés par M. de Grave. /û Zescae1 . —Rkopo—
 Aix de Cinq Mars,-chanté par M"e Redouté e VM GOUNOD.
 Les Petits Oiseaux, air varié pour smcophone (1re audition), exécuté par
-
 M. L. Bonade etla Musiquemdeanawenmt 11010 CnRISTOPOR
-
 DEUXIÈME PARTIE
-
 0uverturu de Guiilaume Tell (à la demande générale) par la u%1quo de Landwehr Rossint.
 La Manola, bolero (redemandé), chanté par M. de Grave . . A à BOURGFOIS.
 Air varié sur un thème original, exécuté par J. Vanderoost . . . . . . . VERROUST.
 Variations de Rode (en 1t41xen), chantœs nareMieRedouter. 431.440 RODE:
-
 Le Lyonnais, pas redoublé . . E 11 A EEROUX
-
 Le Piamo d’accompagnement sera tenu par M. DE B4asS
 e e
-
 PRIX D'ENTRÉE : 50 CENTIMES -— PLACES RÉSERVÉES : 1 FRANC
-
 \
 |
 |
 On peut se procurer des billets chez M. J. Lecoultre, droguiste, Coutance, 18; Mwe Leibbrand,
 rue du Rhône, 29, et à l’entrée du Concert.
-
-Genève, — Imp. A-F. Falk-Grasset, Conseil-Général, 8.]]></page>       
-        </p>
+Genève, — Imp. A-F. Falk-Grasset, Conseil-Général, 8.
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

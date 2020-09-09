@@ -1,231 +1,134 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>5me grand concert populaire<date when="08/03/1926"/></title>
-<series>1925-1926</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            5me grand concert populaire
+            <date when='08/03/1926'/>
+          </title>
+          <series>1925-1926</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002623</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Welsch, M.</note>
+        <note>Hoogstoël, L. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19260308"/>
-<title>5me grand concert populaire</title>
-<placeName key="Victoria Hall"/>
-<name key="1925-1926" type="series"/>
-<name key="Parès, Gabriël" ref="https://muscat.rism.info/admin/people/30024480" type="person" role="cmp">Parès, Gabriël</name>
-<name key="Ropartz, Joseph Guy" ref="https://muscat.rism.info/admin/people/61362" type="person" role="cmp">Ropartz, Joseph Guy</name>
-<name key="Esclavy"  type="person" role="cmp">Esclavy</name>
-<name key="Bizet, Georges" ref="https://muscat.rism.info/admin/people/20057" type="person" role="cmp">Bizet, Georges</name>
-<name key="Diaz"  type="person" role="cmp">Diaz</name>
-<name key="Gounod, Charles-François" ref="https://muscat.rism.info/admin/people/80479" type="person" role="cmp">Gounod, Charles-François</name>
-<name key="Georges, Alexadre"  type="person" role="cmp">Georges, Alexadre</name>
-<name key="Lalo, Edouard" ref="https://muscat.rism.info/admin/people/65446" type="person" role="cmp">Lalo, Edouard</name>
-<name key="Guiraud, Ernest" ref="https://muscat.rism.info/admin/people/30024115" type="person" role="cmp">Guiraud, Ernest</name>
-<name key="Isouard, Nicolas" ref="https://muscat.rism.info/admin/people/30001597" type="person" role="cmp">Isouard, Nicolas</name>
-<name key="Jaques-Dalcroze, Emile" ref="https://muscat.rism.info/admin/people/109238" type="person" role="cmp">Jaques-Dalcroze, Emile</name>
-<name key="Massé, Victor" ref="https://muscat.rism.info/admin/people/84236" type="person" role="cmp">Massé, Victor</name>
-<name key="Rachmaninov, Sergej Vasil'evič" ref="https://muscat.rism.info/admin/people/32447" type="person" role="cmp">Rachmaninov, Sergej Vasil'evič</name>
-<name key="Chabrier, Emmanuel" ref="https://muscat.rism.info/admin/people/48553" type="person" role="cmp">Chabrier, Emmanuel</name>
-<name key="Welsch, Marcel (dir.)"  type="person" role="int">Welsch, Marcel (dir.)</name>
-<name key="Hoogstoël, L. (dir.)"  type="person" role="int">Hoogstoël, L. (dir.)</name>
-<name key="Corps de musique d'Elite"  type="person" role="int">Corps de musique d'Elite</name>
-<name key="Corps de musique de Landwehr"  type="person" role="int">Corps de musique de Landwehr</name>
-<name key="Sterlin, Paul"  type="person" role="int">Sterlin, Paul</name>
-<name key="Bonnaud, Pierre"  type="person" role="int">Bonnaud, Pierre</name>
-<name key="Grisi-Sterlin, Ginette"  type="person" role="int">Grisi-Sterlin, Ginette</name>
-<name key="Fillion, R."  type="person" role="int">Fillion, R.</name>
-<name key="Bretton, H."  type="person" role="int">Bretton, H.</name>
-<name key="Kramer, Ch.-A."  type="person" role="int">Kramer, Ch.-A.</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002623_001.tif"/>
-<page><![CDATA[E
-
- 
-
- 
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19260308'/>
+        <title>5me grand concert populaire</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1925-1926' type='series'/>
+        <name key='Parès, Gabriël' ref='https://muscat.rism.info/admin/people/30024480' type='person' role='cmp'>Parès, Gabriël</name>
+        <name key='Ropartz, Joseph Guy' ref='https://muscat.rism.info/admin/people/61362' type='person' role='cmp'>Ropartz, Joseph Guy</name>
+        <name key='Esclavy' type='person' role='cmp'>Esclavy</name>
+        <name key='Bizet, Georges' ref='https://muscat.rism.info/admin/people/20057' type='person' role='cmp'>Bizet, Georges</name>
+        <name key='Diaz' type='person' role='cmp'>Diaz</name>
+        <name key='Gounod, Charles-François' ref='https://muscat.rism.info/admin/people/80479' type='person' role='cmp'>Gounod, Charles-François</name>
+        <name key='Georges, Alexadre' type='person' role='cmp'>Georges, Alexadre</name>
+        <name key='Lalo, Edouard' ref='https://muscat.rism.info/admin/people/65446' type='person' role='cmp'>Lalo, Edouard</name>
+        <name key='Guiraud, Ernest' ref='https://muscat.rism.info/admin/people/30024115' type='person' role='cmp'>Guiraud, Ernest</name>
+        <name key='Isouard, Nicolas' ref='https://muscat.rism.info/admin/people/30001597' type='person' role='cmp'>Isouard, Nicolas</name>
+        <name key='Jaques-Dalcroze, Emile' ref='https://muscat.rism.info/admin/people/109238' type='person' role='cmp'>Jaques-Dalcroze, Emile</name>
+        <name key='Massé, Victor' ref='https://muscat.rism.info/admin/people/84236' type='person' role='cmp'>Massé, Victor</name>
+        <name key='Rachmaninov, Sergej Vasil&apos;evič' ref='https://muscat.rism.info/admin/people/32447' type='person' role='cmp'>Rachmaninov, Sergej Vasil'evič</name>
+        <name key='Chabrier, Emmanuel' ref='https://muscat.rism.info/admin/people/48553' type='person' role='cmp'>Chabrier, Emmanuel</name>
+        <name key='Welsch, Marcel' type='person' role='int'>Welsch, Marcel</name>
+        <name key='Hoogstoël, L.' type='person' role='int'>Hoogstoël, L.</name>
+        <name key='Corps de musique d&apos;Elite' type='person' role='int'>Corps de musique d'Elite</name>
+        <name key='Corps de musique de Landwehr' type='person' role='int'>Corps de musique de Landwehr</name>
+        <name key='Sterlin, Paul' type='person' role='int'>Sterlin, Paul</name>
+        <name key='Bonnaud, Pierre' type='person' role='int'>Bonnaud, Pierre</name>
+        <name key='Grisi-Sterlin, Ginette' type='person' role='int'>Grisi-Sterlin, Ginette</name>
+        <name key='Fillion, R.' type='person' role='int'>Fillion, R.</name>
+        <name key='Bretton, H.' type='person' role='int'>Bretton, H.</name>
+        <name key='Kramer, Ch.-A.' type='person' role='int'>Kramer, Ch.-A.</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002623_001.tif'/>
+        <page>
+          <![CDATA[E
 Z |
-
- 
-
- 
-
- 
-
- 
-
- 
-
 VILLE DE
-
 VICTORIA-HALL
-
 Lundi 8 Mars, à
-
- 
-
- 
-
- 
-
- 
-
 SAISON 1925-1926
-
- 
-
- 
-
 20 h. 30 (8 h. 30)
-
 5” Grand Concert Populaire
-
 ORGANISÉ PAR LE
-
 CONSEIL ADMINISTRATIF DE LA VILLE DE GENÈVE
-
 AVEC LE BIENVEILLANT ET GRACIEUX CONCOURS DE
-
- 
-
- 
-
 Là Musique d'ELITÉ
-
 Sous la direction de M. Marcel Welsch
-
- 
-
 _J
-
- 
-
- 
-
- 
-
 [5]
-
- 
-
- 
-
 La MUSIQUE ve LANDUVEHR
-
 Sous là direction de M. L. Hoogstoël
-
- 
-
- 
-
- 
-
 =
-
- 
-
- 
-
- 
-
 M. Paut STEALIN
-
 du Grand-Théâtre
-
- 
-
- 
-
- 
-
 IM. Plerre BONNAUD
-
 du Grand-Théâtre
-
- 
-
- 
-
- 
-
- 
-
 M”° Ginette GRISI-STERLIN,
-
 du Grand-Théâtre
 de Nancy
-
- 
-
- 
-
 PROGRAMME
-
 PREMIÈRE PARTIE
-
 1. Marche de Fête
-
 2échoratr. .1
 MUSIQUE D'ÉLITE
-
 G. PARÈs
 Guy-ROPARTZ
-
 3. Ll'Heure douce ... EscLAVYy
 M. P. STERLIN
-
 4. Carmen (air du 3me acte)p . BIZET
 Mme G. GRISI-STERLIN
-
 5., Benvenuto Cellini (Arioso) ... Diaz
 M. P. BONNAUD
-
 6. Roméo et Juliette (O GOUNOD
-
 Mme G. GRISI-STERLIN et M. P. STERLIN
-
 7. Tarass Boulba chez les Co-
 sagues, ... ...
 MUSIQUE D'ÉLITE
-
 Alex, GEORGES
-
- 
-
 SECONDE PARTIE
-
 8 Le Roi d’Ys (Ouverture) .. LALO
 Clarinette solo : M. R. Fillion
 Cor anglais : M. H. Bretton
@@ -239,35 +142,17 @@ M. P. STERLIN
 Mme G. GRISI-STERLIN et M. P. BONNAUD
 13 Prélade ... RACHMANINOFF
 14, Espana (Rapsodie).......…. E. CHABRIER
-
 MUSIQUE DE LANDWEHR
-
 Le piano d’accompagnement sera tenu par M. Ch.-A. KRAMER
-
- 
-
- 
-
 (e]
-
 SSF
-
- 
-
 Les porfes seront fermées pendant l’exécution des morceaux
-
 e
-
- 
-
- 
-
 L
-
- 
-
-IMPAIMERIE POPULAINE GENÈVE]]></page>       
-        </p>
+IMPAIMERIE POPULAINE GENÈVE
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

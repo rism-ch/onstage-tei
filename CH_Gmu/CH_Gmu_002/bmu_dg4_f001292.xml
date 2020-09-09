@@ -1,119 +1,128 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Dix soirées de musique symphonique<date when="27/11/1878"/></title>
-<series>[18--?]</series>
-<placeName>Casino [de Saint-Pierre ?]</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Dix soirées de musique symphonique
+            <date when='27/11/1878'/>
+          </title>
+          <series>[18--?]</series>
+          <placeName>Genève, Casino de Saint-Pierre</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU DG4 F001292</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Senger, H. de (dir)</note>
+        <note>Lieu incertain</note>
+        <note>Date présumée</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="1878112718790409"/>
-<title>Dix soirées de musique symphonique</title>
-<placeName key="Casino [de Saint-Pierre ?]"/>
-<name key="[18--?]" type="series"/>
-<name key="Bach, Johann Sebastian" ref="https://muscat.rism.info/admin/people/2539" type="person" role="cmp">Bach, Johann Sebastian</name>
-<name key="Händel, Georg Friedrich" ref="https://muscat.rism.info/admin/people/36552" type="person" role="cmp">Händel, Georg Friedrich</name>
-<name key="Haydn, Joseph" ref="https://muscat.rism.info/admin/people/55803" type="person" role="cmp">Haydn, Joseph</name>
-<name key="Piccinni, Niccolò" ref="https://muscat.rism.info/admin/people/17950" type="person" role="cmp">Piccinni, Niccolò</name>
-<name key="Gluck, Christoph Willibald" ref="https://muscat.rism.info/admin/people/67338" type="person" role="cmp">Gluck, Christoph Willibald</name>
-<name key="Mozart, Wolfgang Amadeus" ref="https://muscat.rism.info/admin/people/115324" type="person" role="cmp">Mozart, Wolfgang Amadeus</name>
-<name key="Cherubini, Luigi" ref="https://muscat.rism.info/admin/people/50253" type="person" role="cmp">Cherubini, Luigi</name>
-<name key="Schubert, Franz" ref="https://muscat.rism.info/admin/people/111603" type="person" role="cmp">Schubert, Franz</name>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Weber, Carl Maria von" ref="https://muscat.rism.info/admin/people/117485" type="person" role="cmp">Weber, Carl Maria von</name>
-<name key="Spontini, Gaspare" ref="https://muscat.rism.info/admin/people/149551" type="person" role="cmp">Spontini, Gaspare</name>
-<name key="Spohr, Louis" ref="https://muscat.rism.info/admin/people/149499" type="person" role="cmp">Spohr, Louis</name>
-<name key="Gade"  type="person" role="cmp">Gade</name>
-<name key="David, F."  type="person" role="cmp">David, F.</name>
-<name key="Mendelssohn Bartholdy, Felix" ref="https://muscat.rism.info/admin/people/88790" type="person" role="cmp">Mendelssohn Bartholdy, Felix</name>
-<name key="Brahms, Johannes" ref="https://muscat.rism.info/admin/people/39914" type="person" role="cmp">Brahms, Johannes</name>
-<name key="Rubinštejn, Anton Grigor'evič" ref="https://muscat.rism.info/admin/people/30008504" type="person" role="cmp">Rubinštejn, Anton Grigor'evič</name>
-<name key="Schumann, Robert" ref="https://muscat.rism.info/admin/people/131206" type="person" role="cmp">Schumann, Robert</name>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Liszt, Franz" ref="https://muscat.rism.info/admin/people/107196" type="person" role="cmp">Liszt, Franz</name>
-<name key="Berlioz, Hector" ref="https://muscat.rism.info/admin/people/13803" type="person" role="cmp">Berlioz, Hector</name>
-<name key="Glinka, Michail Ivanovič" ref="https://muscat.rism.info/admin/people/479437" type="person" role="cmp">Glinka, Michail Ivanovič</name>
-<name key="Gevaërt"  type="person" role="cmp">Gevaërt</name>
-<name key="Gounod, Charles-François" ref="https://muscat.rism.info/admin/people/80479" type="person" role="cmp">Gounod, Charles-François</name>
-<name key="Bennett"  type="person" role="cmp">Bennett</name>
-<name key="Saint-Saëns, Camille" ref="https://muscat.rism.info/admin/people/76734" type="person" role="cmp">Saint-Saëns, Camille</name>
-<name key="Souweine"  type="person" role="cmp">Souweine</name>
-<name key="Ponchielli"  type="person" role="cmp">Ponchielli</name>
-<name key="Massenet"  type="person" role="cmp">Massenet</name>
-<name key="Raff"  type="person" role="cmp">Raff</name>
-<name key="Senger, Franz Ludwig Hugo von  (dir.)" ref="https://muscat.rism.info/admin/people/30015297" type="person" role="int">Senger, Franz Ludwig Hugo von  (dir.)</name>
-<name key="Orchestre de la Ville de Genève"  type="person" role="int">Orchestre de la Ville de Genève</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f001292_001.tif"/>
-<page><![CDATA[A S heures du soir
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18781127'/>
+        <title>Dix soirées de musique symphonique</title>
+        <placeName key='Genève, Casino de Saint-Pierre'/>
+        <name key='[18--?]' type='series'/>
+        <name key='Bach, Johann Sebastian' ref='https://muscat.rism.info/admin/people/2539' type='person' role='cmp'>Bach, Johann Sebastian</name>
+        <name key='Händel, Georg Friedrich' ref='https://muscat.rism.info/admin/people/36552' type='person' role='cmp'>Händel, Georg Friedrich</name>
+        <name key='Haydn, Joseph' ref='https://muscat.rism.info/admin/people/55803' type='person' role='cmp'>Haydn, Joseph</name>
+        <name key='Piccinni, Niccolò' ref='https://muscat.rism.info/admin/people/17950' type='person' role='cmp'>Piccinni, Niccolò</name>
+        <name key='Gluck, Christoph Willibald' ref='https://muscat.rism.info/admin/people/67338' type='person' role='cmp'>Gluck, Christoph Willibald</name>
+        <name key='Mozart, Wolfgang Amadeus' ref='https://muscat.rism.info/admin/people/115324' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Cherubini, Luigi' ref='https://muscat.rism.info/admin/people/50253' type='person' role='cmp'>Cherubini, Luigi</name>
+        <name key='Schubert, Franz' ref='https://muscat.rism.info/admin/people/111603' type='person' role='cmp'>Schubert, Franz</name>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Weber, Carl Maria von' ref='https://muscat.rism.info/admin/people/117485' type='person' role='cmp'>Weber, Carl Maria von</name>
+        <name key='Spontini, Gaspare' ref='https://muscat.rism.info/admin/people/149551' type='person' role='cmp'>Spontini, Gaspare</name>
+        <name key='Spohr, Louis' ref='https://muscat.rism.info/admin/people/149499' type='person' role='cmp'>Spohr, Louis</name>
+        <name key='Gade' type='person' role='cmp'>Gade</name>
+        <name key='David, F.' type='person' role='cmp'>David, F.</name>
+        <name key='Mendelssohn Bartholdy, Felix' ref='https://muscat.rism.info/admin/people/88790' type='person' role='cmp'>Mendelssohn Bartholdy, Felix</name>
+        <name key='Brahms, Johannes' ref='https://muscat.rism.info/admin/people/39914' type='person' role='cmp'>Brahms, Johannes</name>
+        <name key='Rubinštejn, Anton Grigor&apos;evič' ref='https://muscat.rism.info/admin/people/30008504' type='person' role='cmp'>Rubinštejn, Anton Grigor'evič</name>
+        <name key='Schumann, Robert' ref='https://muscat.rism.info/admin/people/131206' type='person' role='cmp'>Schumann, Robert</name>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Liszt, Franz' ref='https://muscat.rism.info/admin/people/107196' type='person' role='cmp'>Liszt, Franz</name>
+        <name key='Berlioz, Hector' ref='https://muscat.rism.info/admin/people/13803' type='person' role='cmp'>Berlioz, Hector</name>
+        <name key='Glinka, Michail Ivanovič' ref='https://muscat.rism.info/admin/people/479437' type='person' role='cmp'>Glinka, Michail Ivanovič</name>
+        <name key='Gevaërt' type='person' role='cmp'>Gevaërt</name>
+        <name key='Gounod, Charles-François' ref='https://muscat.rism.info/admin/people/80479' type='person' role='cmp'>Gounod, Charles-François</name>
+        <name key='Bennett' type='person' role='cmp'>Bennett</name>
+        <name key='Saint-Saëns, Camille' ref='https://muscat.rism.info/admin/people/76734' type='person' role='cmp'>Saint-Saëns, Camille</name>
+        <name key='Souweine' type='person' role='cmp'>Souweine</name>
+        <name key='Ponchielli' type='person' role='cmp'>Ponchielli</name>
+        <name key='Massenet' type='person' role='cmp'>Massenet</name>
+        <name key='Raff' type='person' role='cmp'>Raff</name>
+        <name key='Senger, Franz Ludwig Hugo von' ref='https://muscat.rism.info/admin/people/30015297' type='person' role='int'>Senger, Franz Ludwig Hugo von</name>
+        <name key='Orchestre de la Ville de Genève' type='person' role='int'>Orchestre de la Ville de Genève</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f001292_001.tif'/>
+        <page>
+          <![CDATA[A S heures du soir
 DLX SUIRERS DH MUSIQUE Y 1 MIRE
 données par l'ORCHESTRE DE LA ViLL e (s
 Sous la direction de M. HUGO DE SENGER
-
 À5 |
 J
-
 ; L = Mercredi 27 novemiire VI. … Mercredi 12 février.
 Bach. Hændel Haydn. Brahms. Rubinstein. £chumann.
 _ IL. — Mercredi 4 décembre. VIL. — Mercredi 26 février
 199|Piccini. Gluck, Mozart Wagner. Liszt. Berlioz.
-
 E TI, — Mercredi 18 décembre. VIIL. Mercredi 12 mars .
 #aherubini. Schubert. Beethoven. Glinka, Gevaëst. Gounod.
 “ Z IV — Mercredi 15 janvier. IX Mercredi 26 mars,
 > __ Spontini. Spohr. Bennett. Saint-Saëns. Souweine.
 V°— Mercredi 29 jamvier. X, — Mercredi 9 avril.
 F. David. Men delssohn. Ponchielli. Massenet. Raîf.
-
 En plus de ces dix soirées, il y aura un grand Concert dè clôtnre, dont la date sera publiée
-
 Ultérieurement, dans lequel on ‘entendra, cntre autres, la neuvième Symphonie, avec soli et M
 Wsbœurs, de Beethoven, et dout l’entrée sera libte pour les abonués,
-
 L’abonnement à ces dix soirées, plus le concert de clôture, est de 25 francs pour lès placesré.
 servées numérotées (soit une réduction de 20 francs £ur l’ensemble des concerts), et de 15 franes
 isoit une réduction de 12 franes) pour les autres, places.. Les abonnements aux places réservées
-
 | emen chez le concierge du Casino, où l’on peut choisir sa plac
 sur le plan de la salie. e
 , Les autres plac>s sont également en vente chez le concierge du Casino et dans tous les maga-
 s de musique de la ville. ; u.
-B. — Les cartes d’abonnement pour n'importe quelle place me somt pas nominatives.”]]></page>       
-        </p>
+B. — Les cartes d’abonnement pour n'importe quelle place me somt pas nominatives.”
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

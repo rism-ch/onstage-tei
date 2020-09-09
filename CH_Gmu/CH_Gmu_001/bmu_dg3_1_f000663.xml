@@ -1,89 +1,91 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert populaire vocal et instrumental donné par M. Kling<date when="09/12/1871"/></title>
-<series>1871-1872</series>
-<placeName>Salle de la Réformation</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert populaire vocal et instrumental donné par M. Kling
+            <date when='09/12/1871'/>
+          </title>
+          <series>1871-1872</series>
+          <placeName>Genève, Salle de la Réformation</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU DG3-1 F000663</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Kling (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18711209"/>
-<title>Concert populaire vocal et instrumental donné par M. Kling</title>
-<placeName key="Salle de la Réformation"/>
-<name key="1871-1872" type="series"/>
-<name key="Kling, Henri" ref="https://muscat.rism.info/admin/people/30022454" type="person" role="cmp">Kling, Henri</name>
-<name key="Demersemann"  type="person" role="cmp">Demersemann</name>
-<name key="Dancla, Charles" ref="https://muscat.rism.info/admin/people/2155" type="person" role="cmp">Dancla, Charles</name>
-<name key="Mozart, Wolfgang Amadeus" ref="https://muscat.rism.info/admin/people/115324" type="person" role="cmp">Mozart, Wolfgang Amadeus</name>
-<name key="Kling, Henri" ref="https://muscat.rism.info/admin/people/30022454" type="person" role="cmp">Kling, Henri</name>
-<name key="Kling, Henri  (dir.)" ref="https://muscat.rism.info/admin/people/30022454" type="person" role="int">Kling, Henri  (dir.)</name>
-<name key="Choeur mixte"  type="person" role="int">Choeur mixte</name>
-<name key="Orchestre du théâtre"  type="person" role="int">Orchestre du théâtre</name>
-<name key="Bergalonne"  type="person" role="int">Bergalonne</name>
-<name key="Senger, Franz Ludwig Hugo von" ref="https://muscat.rism.info/admin/people/30015297" type="person" role="int">Senger, Franz Ludwig Hugo von</name>
-<name key="Garin"  type="person" role="int">Garin</name>
-<name key="Brivadi"  type="person" role="int">Brivadi</name>
-<name key="Lefebvre"  type="person" role="int">Lefebvre</name>
-<name key="Mennk-Lévy"  type="person" role="int">Mennk-Lévy</name>
-<name key="Borelli"  type="person" role="int">Borelli</name>
-<name key="Wetzel"  type="person" role="int">Wetzel</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg3_1_f000663_001.tif"/>
-<page><![CDATA[SALLE DE LA RÉFORMATION
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18711209'/>
+        <title>Concert populaire vocal et instrumental donné par M. Kling</title>
+        <placeName key='Genève, Salle de la Réformation'/>
+        <name key='1871-1872' type='series'/>
+        <name key='Kling, Henri' ref='https://muscat.rism.info/admin/people/30022454' type='person' role='cmp'>Kling, Henri</name>
+        <name key='Demersemann' type='person' role='cmp'>Demersemann</name>
+        <name key='Dancla, Charles' ref='https://muscat.rism.info/admin/people/2155' type='person' role='cmp'>Dancla, Charles</name>
+        <name key='Mozart, Wolfgang Amadeus' ref='https://muscat.rism.info/admin/people/115324' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Kling, Henri' ref='https://muscat.rism.info/admin/people/30022454' type='person' role='cmp'>Kling, Henri</name>
+        <name key='Kling, Henri' ref='https://muscat.rism.info/admin/people/30022454' type='person' role='int'>Kling, Henri</name>
+        <name key='Choeur mixte' type='person' role='int'>Choeur mixte</name>
+        <name key='Orchestre du théâtre' type='person' role='int'>Orchestre du théâtre</name>
+        <name key='Bergalonne' type='person' role='int'>Bergalonne</name>
+        <name key='Senger, Franz Ludwig Hugo von' ref='https://muscat.rism.info/admin/people/30015297' type='person' role='int'>Senger, Franz Ludwig Hugo von</name>
+        <name key='Garin' type='person' role='int'>Garin</name>
+        <name key='Brivadi' type='person' role='int'>Brivadi</name>
+        <name key='Lefebvre' type='person' role='int'>Lefebvre</name>
+        <name key='Mennk-Lévy' type='person' role='int'>Mennk-Lévy</name>
+        <name key='Borelli' type='person' role='int'>Borelli</name>
+        <name key='Wetzel' type='person' role='int'>Wetzel</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg3_1_f000663_001.tif'/>
+        <page>
+          <![CDATA[SALLE DE LA RÉFORMATION
 Samedi D RDécembre 183 1, à 8 heures d soir
-
 CONCERT POPULAIR
-
 VOCAL LD INSTRACHEUTAL
-
 DONNÉ PAR
-
 AVEC LE BIENVEILLANT CONCOURS
-
 D’UN CHŒUR MIXTE, — DE L’ORCHESTRE DU THÉATRE
-
 DE
 MM. BERGALONNE, Huco p£ Sencer, Garin, Brivanr, Leresvre, Mennk-Lévy,
 BorerL1, WerzeL, & DE PLUSIEURS AMATEURS DISTINGUÉS DE GENÈVE.
-
- 
-
 ©
-
 Ouverture caractéristique de « MARIE STUART, » tragédie de Schiller,
 pour Orchestre, r L 4
 FANTAISIE sur un thême de Ch0pm, pour ﬂute avec accompagnement
@@ -91,42 +93,32 @@ de piano, exécutée par MM. Brivani & H. DE SEnGER,. . . Demersemann.
 QUANDO CORPUS, chœur mixte sans accompagnt du « STABAT MATER, » Kling.
 SYMPHONIE CONCERTANTE pour deux violons, avec accompagnement de
 piano, exécutée par MM. BERGALONNE, GARIN & H. DE SENGER, — Dancla.
-
 Kling.
-
 Première exécution du célèbre DIVERTIMENTO en ré majeur, pour deux
 violons, alto, violoneelle et deux cors, exécuté par MM. GARIN,
 LEFEBVRE, BORELLI, MENNK-LÉvy, WETzEL & Kuina, . . .  Mozart.
-
 Allegro, Menuet, Adagio, Rondo Allegro.
-
 Entr’acte du 3e acte de l’opéra « LA REINE BERTHE, » exécuté par tous
 les instruments à cordes,. . “
-
 7 Introduct10n et Pastorale du 1er acte dc lopua « l Â RM\‘E* BERTHR, »
 R pour soli” chœur et orchestre (paroles de J. Mutmauser),. . Kling.
 FeteZetan el M. KLING dirigera lui-même l’exécution’ de ses œuvres.
-
 7/ /Ÿ(”;l((
-
 Kling.
-
 PRAX DES PLACES
-
 Places réservées et numérotées, A"° galerie de face, 5 Fr. — (Grande porte du côté des Eaux-Vives).
 Premières galeries latéralee. . . . . . . & » — (Porte du Concierge et porte du lac).
 Tn 1 O 1 — (Grande‘porte du'coté des Eaux-Vives).
 Deuxième galerie 50 centimes. — (Porte du concierge).
 On pourra se procurer des billets chez tous les marchands de musique ; chez M. Menz, libraire, place du Molard, 2; MM. Grosset et
 Trembley, libraires, Corraterie, 4; M. Held-Gœtz, marchand de tabac, Cours de Rive, 5; et chez le Concierge de la salle de la Réforma-
-
 tion, auquel on pourra également s’adresser pour les places réservées et numérotées.
-
 N.B. Le public est instamment prié de ne pas troubler l’exécution du dernier morceau par, des préparatifs
 de départ avant la fin du Concert.
-
-Cenève. - Imprimerie J.-D. Jarrys, rue de la Treille, 4,]]></page>       
-        </p>
+Cenève. - Imprimerie J.-D. Jarrys, rue de la Treille, 4,
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

@@ -1,141 +1,127 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par l'Harmonie nautique<date when="11/12/1898"/></title>
-<series>1898-1899</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par l'Harmonie nautique
+            <date when='11/12/1898'/>
+          </title>
+          <series>1898-1899</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F000421</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Bonade, L. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18981211"/>
-<title>Concert donné par l'Harmonie nautique</title>
-<placeName key="Victoria Hall"/>
-<name key="1898-1899" type="series"/>
-<name key="Lortzing, Albert" ref="https://muscat.rism.info/admin/people/122656" type="person" role="cmp">Lortzing, Albert</name>
-<name key="Weber, Carl Maria von" ref="https://muscat.rism.info/admin/people/117485" type="person" role="cmp">Weber, Carl Maria von</name>
-<name key="Holmès"  type="person" role="cmp">Holmès</name>
-<name key="Haydn, Joseph" ref="https://muscat.rism.info/admin/people/55803" type="person" role="cmp">Haydn, Joseph</name>
-<name key="Gluck, Christoph Willibald" ref="https://muscat.rism.info/admin/people/67338" type="person" role="cmp">Gluck, Christoph Willibald</name>
-<name key="Saint-Saëns, Camille" ref="https://muscat.rism.info/admin/people/76734" type="person" role="cmp">Saint-Saëns, Camille</name>
-<name key="Brahms, Johannes" ref="https://muscat.rism.info/admin/people/39914" type="person" role="cmp">Brahms, Johannes</name>
-<name key="Massenet, Jules" ref="https://muscat.rism.info/admin/people/84264" type="person" role="cmp">Massenet, Jules</name>
-<name key="Widor, Charles-Marie" ref="https://muscat.rism.info/admin/people/135158" type="person" role="cmp">Widor, Charles-Marie</name>
-<name key="Gounod, Charles-François" ref="https://muscat.rism.info/admin/people/80479" type="person" role="cmp">Gounod, Charles-François</name>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Liszt, Franz" ref="https://muscat.rism.info/admin/people/107196" type="person" role="cmp">Liszt, Franz</name>
-<name key="Schubert, Franz" ref="https://muscat.rism.info/admin/people/111603" type="person" role="cmp">Schubert, Franz</name>
-<name key="Arban, Jean-Baptiste" ref="https://muscat.rism.info/admin/people/31980" type="person" role="cmp">Arban, Jean-Baptiste</name>
-<name key="Bonade, Louis  (dir.)"  type="person" role="int">Bonade, Louis  (dir.)</name>
-<name key="Harmonie Nautique"  type="person" role="int">Harmonie Nautique</name>
-<name key="Selva, Blanche"  type="person" role="int">Selva, Blanche</name>
-<name key="R. (Mlle)"  type="person" role="int">R. (Mlle)</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000421_001.tif"/>
-<page><![CDATA[A
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18981211'/>
+        <title>Concert donné par l'Harmonie nautique</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1898-1899' type='series'/>
+        <name key='Lortzing, Albert' ref='https://muscat.rism.info/admin/people/122656' type='person' role='cmp'>Lortzing, Albert</name>
+        <name key='Weber, Carl Maria von' ref='https://muscat.rism.info/admin/people/117485' type='person' role='cmp'>Weber, Carl Maria von</name>
+        <name key='Holmès' type='person' role='cmp'>Holmès</name>
+        <name key='Haydn, Joseph' ref='https://muscat.rism.info/admin/people/55803' type='person' role='cmp'>Haydn, Joseph</name>
+        <name key='Gluck, Christoph Willibald' ref='https://muscat.rism.info/admin/people/67338' type='person' role='cmp'>Gluck, Christoph Willibald</name>
+        <name key='Saint-Saëns, Camille' ref='https://muscat.rism.info/admin/people/76734' type='person' role='cmp'>Saint-Saëns, Camille</name>
+        <name key='Brahms, Johannes' ref='https://muscat.rism.info/admin/people/39914' type='person' role='cmp'>Brahms, Johannes</name>
+        <name key='Massenet, Jules' ref='https://muscat.rism.info/admin/people/84264' type='person' role='cmp'>Massenet, Jules</name>
+        <name key='Widor, Charles-Marie' ref='https://muscat.rism.info/admin/people/135158' type='person' role='cmp'>Widor, Charles-Marie</name>
+        <name key='Gounod, Charles-François' ref='https://muscat.rism.info/admin/people/80479' type='person' role='cmp'>Gounod, Charles-François</name>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Liszt, Franz' ref='https://muscat.rism.info/admin/people/107196' type='person' role='cmp'>Liszt, Franz</name>
+        <name key='Schubert, Franz' ref='https://muscat.rism.info/admin/people/111603' type='person' role='cmp'>Schubert, Franz</name>
+        <name key='Arban, Jean-Baptiste' ref='https://muscat.rism.info/admin/people/31980' type='person' role='cmp'>Arban, Jean-Baptiste</name>
+        <name key='Bonade, Louis' type='person' role='int'>Bonade, Louis</name>
+        <name key='Harmonie Nautique' type='person' role='int'>Harmonie Nautique</name>
+        <name key='Selva, Blanche' type='person' role='int'>Selva, Blanche</name>
+        <name key='R. (Mlle)' type='person' role='int'>R. (Mlle)</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000421_001.tif'/>
+        <page>
+          <![CDATA[A
 G — ”.—BQM‘
 n16eS
 S TO HI A-FIAIT: N
 ——s S- /]‘%
 = E | 0 a à Js
 e f Dimanche 11 Décembre 1898 ÆÎÊËËÎËÎLx
-
 DONNE PAR
-
 L'HARMONIE NAUTIQUE DE GENÈVE
-
 sous la direction de M. LOUIS BONADE
-
 avec le bienveillant concours de
 Mlle Blanche SELVA, Pianiste
 et M'e A* R, Soprano, Elève de M" Bonade
-
- 
-
- 
-
 PROSBAMNE *
-
 PREMIÈRE PARTIE st
 alrodmedouveriie, .....….22 510000 Lortzing. %} Ù \r_f
 2. Récit et Polonaise du 2” Concerto pour clarinette. C.-M. de Weber. OM©
 DeBerceusee MUR es Holmès. ; }9“
 4. a) Menuçt ....... A Per Serva / Haydn: 0 4
-
 D) Caprice sar des airs d'Alceste | | Glucl-Saint-Saëns:
-
 5. Danses Hongroises n° 5et6 .............….… Brahms.
-
 SECONDE PARTIE
 cCalelcanlones ns À « J. Massenet.
 r ÉaiKomiganepallet 311en an se e C-M. Widor.
-
 8. Air des bijoux de l’opéra Faust — M"* R###, Gounod.
-
 9. a) Chœnr de Fileuses duVaisseau-Fantôme)_ Ms Spr \.\Ë Iè. Wagner-Liszt.
 b) Marche Hongroise ......…....… | 71 Schubert-Liszt.
-
 - 10. Mazurka de Concert pour piston.........…..…. Arban.
-
 Piano à queue Blüthner, aux soins de MM. A.-G@. Dubach 5 Ce
-
 La série de coupons ayant été exceptionnellement épuisée, MM. les membres non- À
 executants auront droit à DEUX entrées à ce concert sur la présentation de leur ‘
 reçu de cotisation de 1898. Y
 PRIX DES PLACES : Loges, fauteuils de face et premier rang de la première Galerie @Ÿ
-
 (}1umérot?s‘), .Æ “'.: — Rez-de-chaussée, et autres places de la première Galerie, 1 fà. —
 Seconde Galerie, 50 cent. — Cartes à l’avance de 9 à 6 h,, jusqu’au samedi soir, au Victoria-Hall. °£äïj
-
- 
-
- 
-
- 
-
 Prière de ne pas entrer pendant l’exécution des morceaux.
-
 BUFFET AU REZ-DE-CHAUSSÉE S/“‘Eà
 ' .E( es 3 .@ÿ@_______@-—%—)——î 224
 } =— Genéve. — Imp. L.-F, Jarrys. {%‘ÿ P> $@jä a
 =- N
-
 R0EE
-
-À E]]></page>       
-        </p>
+À E
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

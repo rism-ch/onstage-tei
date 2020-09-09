@@ -1,82 +1,91 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Grand concert de l'Orchestre de M. Aug. Koch de Munich<date when="16/12/1873"/></title>
-<series>1873?</series>
-<placeName>Brasserie Treiber et Eypper</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Grand concert de l'Orchestre de M. Aug. Koch de Munich
+            <date when='16/12/1873'/>
+          </title>
+          <series>1873?</series>
+          <placeName>Genève, Brasserie Treiber et Eypper</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU DG4 F000654</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Koch, A. (dir)</note>
+        <note>Date présumée</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18731216"/>
-<title>Grand concert de l'Orchestre de M. Aug. Koch de Munich</title>
-<placeName key="Brasserie Treiber et Eypper"/>
-<name key="1873?" type="series"/>
-<name key="Strauß, Johann" ref="https://muscat.rism.info/admin/people/132082" type="person" role="cmp">Strauß, Johann</name>
-<name key="Rossini, Gioachino" ref="https://muscat.rism.info/admin/people/63766" type="person" role="cmp">Rossini, Gioachino</name>
-<name key="Koch, Aug."  type="person" role="cmp">Koch, Aug.</name>
-<name key="Doppler"  type="person" role="cmp">Doppler</name>
-<name key="Bach, Johann Sebastian" ref="https://muscat.rism.info/admin/people/2539" type="person" role="cmp">Bach, Johann Sebastian</name>
-<name key="Conradi"  type="person" role="cmp">Conradi</name>
-<name key="Auber, Daniel-François-Esprit" ref="https://muscat.rism.info/admin/people/38000" type="person" role="cmp">Auber, Daniel-François-Esprit</name>
-<name key="Lanner"  type="person" role="cmp">Lanner</name>
-<name key="Stasny"  type="person" role="cmp">Stasny</name>
-<name key="Koch, Aug. (dir.)"  type="person" role="int">Koch, Aug. (dir.)</name>
-<name key="Orchestre de M. Aug. Koch de Muinch"  type="person" role="int">Orchestre de M. Aug. Koch de Muinch</name>
-<name key="Burg"  type="person" role="int">Burg</name>
-<name key="Oberlein"  type="person" role="int">Oberlein</name>
-<name key="Insbrucker"  type="person" role="int">Insbrucker</name>
-<name key="Monschau"  type="person" role="int">Monschau</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f000654_001.tif"/>
-<page><![CDATA[AUJOURD'HUI MARDI
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18731216'/>
+        <title>Grand concert de l'Orchestre de M. Aug. Koch de Munich</title>
+        <placeName key='Genève, Brasserie Treiber et Eypper'/>
+        <name key='1873?' type='series'/>
+        <name key='Strauß, Johann' ref='https://muscat.rism.info/admin/people/132082' type='person' role='cmp'>Strauß, Johann</name>
+        <name key='Rossini, Gioachino' ref='https://muscat.rism.info/admin/people/63766' type='person' role='cmp'>Rossini, Gioachino</name>
+        <name key='Koch, Aug.' type='person' role='cmp'>Koch, Aug.</name>
+        <name key='Doppler' type='person' role='cmp'>Doppler</name>
+        <name key='Bach, Johann Sebastian' ref='https://muscat.rism.info/admin/people/2539' type='person' role='cmp'>Bach, Johann Sebastian</name>
+        <name key='Conradi' type='person' role='cmp'>Conradi</name>
+        <name key='Auber, Daniel-François-Esprit' ref='https://muscat.rism.info/admin/people/38000' type='person' role='cmp'>Auber, Daniel-François-Esprit</name>
+        <name key='Lanner' type='person' role='cmp'>Lanner</name>
+        <name key='Stasny' type='person' role='cmp'>Stasny</name>
+        <name key='Koch, Aug.' type='person' role='int'>Koch, Aug.</name>
+        <name key='Orchestre de M. Aug. Koch de Muinch' type='person' role='int'>Orchestre de M. Aug. Koch de Muinch</name>
+        <name key='Burg' type='person' role='int'>Burg</name>
+        <name key='Oberlein' type='person' role='int'>Oberlein</name>
+        <name key='Insbrucker' type='person' role='int'>Insbrucker</name>
+        <name key='Monschau' type='person' role='int'>Monschau</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f000654_001.tif'/>
+        <page>
+          <![CDATA[AUJOURD'HUI MARDI
 Brasserie Treiber & Eypper
-
 - GNANU LUN
-
 ÙE L'ORCHESTRE DE M. AUG. KOCH DF MUNICH
 —B0os>
-
 PREMIÈRE PARTIE
 “indigoemaiche ° 10 1n » Job. STrauss.
 . Ouverture de l’opéra «Sémiramis»: . . . . , Rossin.,
 . Historiet(e de la forêt de Vienne, valsge . . L © .lnh. STRAUSS.
 4. Aiv de concert de l’opéra «le Barbier de Séville »
 (Solo pour Clarinette. exécuté par M. Pury) . Rossini.
-
 DEUXIÈME PARTIT
 9. Sur demande : Quadrille des Pompiers . . . Ang. Koct.
 j. L'Oiseau des bois, Idylle (Solo pour Flûte, exécuté
@@ -84,23 +93,21 @@ R OLn e T 7 Dorrier.
 . Méditation (Solo pour Marpe, exécuté par M. Ins-
 ue N R 1S Baair,
 - Offenbachiana, grand pot-pouri . L = ». - #-ZO0NRADI.
-
 TROISIÈME PARTIE
 - Ouverture de l’opéra «Fra Diavolo» . . . . . Aupre.
 oLosiniotes vase 11e E Taaen
 . Bonne nuit, cœur chéri, chanson (Solo pour Trom-
 bone, exéenté par M. Monschau) . . . . Apr.
 axuschhemaka N 1 0 S E maans.
-
 On commencera à 8 heures. — Entrée 1 fr.
-
 DEMAIN MERCREDI
 CONCEMRT D'ADIEE
 à la Brasserie Treiber & Eypper.
-
 C 1N
-TS éontre = 1mp. Proter 0s Pary]]></page>       
-        </p>
+TS éontre = 1mp. Proter 0s Pary
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

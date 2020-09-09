@@ -1,190 +1,148 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Grand concert de gala donné par l'Union instrumentale genevoise (Musique [Fanfare] municipale de la Ville de Genève) : A l'occasion du 70me anniversaire de sa fondation<date when="03/03/1933"/></title>
-<series>1932-1933</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Grand concert de gala donné par l'Union instrumentale genevoise
+            (Musique [Fanfare] municipale de la Ville de Genève) : A l'occasion
+            du 70me anniversaire de sa fondation
+            <date when='03/03/1933'/>
+          </title>
+          <series>1932-1933</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002974</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Bodet, F. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19330303"/>
-<title>Grand concert de gala donné par l'Union instrumentale genevoise (Musique [Fanfare] municipale de la Ville de Genève) : A l'occasion du 70me anniversaire de sa fondation</title>
-<placeName key="Victoria Hall"/>
-<name key="1932-1933" type="series"/>
-<name key="Widor, Charles-Marie" ref="https://muscat.rism.info/admin/people/135158" type="person" role="cmp">Widor, Charles-Marie</name>
-<name key="Huber, H."  type="person" role="cmp">Huber, H.</name>
-<name key="Rougnon, P."  type="person" role="cmp">Rougnon, P.</name>
-<name key="Vidal, Paul" ref="https://muscat.rism.info/admin/people/140775" type="person" role="cmp">Vidal, Paul</name>
-<name key="Taeye, Alex. de"  type="person" role="cmp">Taeye, Alex. de</name>
-<name key="Leu, F."  type="person" role="cmp">Leu, F.</name>
-<name key="Haüg, G."  type="person" role="cmp">Haüg, G.</name>
-<name key="Georges, Alex."  type="person" role="cmp">Georges, Alex.</name>
-<name key="Delmas, Marc"  type="person" role="cmp">Delmas, Marc</name>
-<name key="Bodet, Francis (dir.)"  type="person" role="int">Bodet, Francis (dir.)</name>
-<name key="Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)"  type="person" role="int">Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)</name>
-<name key="Liederkranz-Concordia"  type="person" role="int">Liederkranz-Concordia</name>
-<name key="Wehrli, A."  type="person" role="int">Wehrli, A.</name>
-<name key="Reichel, Bernard"  type="person" role="int">Reichel, Bernard</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002974_001.tif"/>
-<page><![CDATA[VICTORIA Verdeaf 3 Mars 1933 H||
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19330303'/>
+        <title>
+          Grand concert de gala donné par l'Union instrumentale genevoise
+          (Musique [Fanfare] municipale de la Ville de Genève) : A l'occasion du
+          70me anniversaire de sa fondation
+        </title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1932-1933' type='series'/>
+        <name key='Widor, Charles-Marie' ref='https://muscat.rism.info/admin/people/135158' type='person' role='cmp'>Widor, Charles-Marie</name>
+        <name key='Huber, H.' type='person' role='cmp'>Huber, H.</name>
+        <name key='Rougnon, P.' type='person' role='cmp'>Rougnon, P.</name>
+        <name key='Vidal, Paul' ref='https://muscat.rism.info/admin/people/140775' type='person' role='cmp'>Vidal, Paul</name>
+        <name key='Taeye, Alex. de' type='person' role='cmp'>Taeye, Alex. de</name>
+        <name key='Leu, F.' type='person' role='cmp'>Leu, F.</name>
+        <name key='Haüg, G.' type='person' role='cmp'>Haüg, G.</name>
+        <name key='Georges, Alex.' type='person' role='cmp'>Georges, Alex.</name>
+        <name key='Delmas, Marc' type='person' role='cmp'>Delmas, Marc</name>
+        <name key='Bodet, Francis' type='person' role='int'>Bodet, Francis</name>
+        <name key='Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)' type='person' role='int'>Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)</name>
+        <name key='Liederkranz-Concordia' type='person' role='int'>Liederkranz-Concordia</name>
+        <name key='Wehrli, A.' type='person' role='int'>Wehrli, A.</name>
+        <name key='Reichel, Bernard' type='person' role='int'>Reichel, Bernard</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002974_001.tif'/>
+        <page>
+          <![CDATA[VICTORIA Verdeaf 3 Mars 1933 H||
 HALL a 20n 80 l…
-
 bnan Covcenr ne bnx
-
 donné par
-
- 
-
- 
-
- 
-
- 
-
-   
-
 Il Musîque Municîpale (le |a V|"e qlo Dénère H
-
 llll (UNION INSTRUMENTALE GENEVOISE) …l
-
 à l'occasion du
 …l 70me Anniversaire de sa Fondation |…
-
 sous la direction de 7n
 I… Monsieur FRANCIS BODET H||
-
 Premier Prix du Conservatoire de Paris
-
- 
-
 ll" avec le concours de |ll|
-
 l… Monneur A Wan‘li M0nsmur “ornar«' l‘l(lu‘lml l…
-
 TÉNOR ORGANISTE
-
 "" Socîéfé cl10rale Lîetlerl«ran1-[oncor«lin …l
-
 (Directeur : Monsieur ALEX. KUNZ)
-
- 
-
- 
-
- 
-
 Prix : Fr. 0.20.
-
-IMPR, EUG, MEYER, GENÈVF]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002974_002.tif"/>
-<page><![CDATA[Président :
-
+IMPR, EUG, MEYER, GENÈVF
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002974_002.tif'/>
+        <page>
+          <![CDATA[Président :
 Vice-Président :
-
 l'résorier :
 Vice-Trésorier :
 Decréfaire :
-
 Vice-Secréfaires :
-
 ln es achit
 Muller Henri
 Albert Philippe
 Marconi Jérôme
-
-  
-
- 
-
 Cheneval Joseph
 Ripp! Maurice
 Débarbouillet Emile
-
 Bussien Ruben
-
 Mafteriel ;
-
 Equipement :
-
 Gap Henri
 Vaucher Edouard
-
 Monnier Fernand
-
 Giudici Marcel
-
 Bibliothèque :
-
 Carrière Edouard
-
 Buffat Robert
 Offredi Jean
-
 Economaft :
-
 Deluz Georses
-
 Weber Beal
-
 Direction :
-
 Bodet Francis
-
 tommîssîon Musîcale
-
 Directeur :
 Direcleur-adjoint :
-
 Professeur de sollège :
-
 Cornef solo :
 Saxophone solo :
 Bugle solo ;
-
 Cor solo :
 lrombone solo :
 Petif bugle solo :
 Basse solo :
 Barylon solo :
-
 Premier timbalier :
-
- 
-
 Bodet Francis
 Sciolli Gabriel
 KKister François
@@ -196,117 +154,67 @@ Thévenaz Fernand
 Gaillepand Paul
 Kippl Maurice
 Pellet Emile
-
-Girardet Georces]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002974_003.tif"/>
-<page><![CDATA[PROGRAMME
-
+Girardet Georces
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002974_003.tif'/>
+        <page>
+          <![CDATA[PROGRAMME
 aue
-
 l] e |I fi
 remiere fartie
-
 17 ()ll\’(‘l[lll(' hîump]l.‘tlr
-
 Ch. M. Widor
-
 pour orgue, cors, l|u>…]wllr , trombones et tambou1
-
 P l,:| nuit (l(' St».'('.‘lll
-
 Li1'll('l l\l.lll/-(—llll\ Ol A]l.\
-
 Â‘ll\i1lll«' Â\nni« i.…]«'
-
 4 ; lu)ll M('li()llll“ (‘:xnt.nh'
-
 pour chœur et fanfar
-
 Sm'0mlo l'nrliv
-
 2 1
 ». AS( lll‘l:ll
-
 .\ll\illlll' A\‘lllli( ilLll('
-
 ) .|) A l.| (.llllt"lll.lld‘ Sl Etienne
 l>) l".l(:
-
 l,il'4ll‘l l\l.lYl/-(‘lllll ordia
-
 (‘:niHnn\ (]'4‘\ll<>i\
-
 N
-
 II1IH\ II1I/H'/'
-
 ) lJ.Ïlnt'wlu ‘n'|l|)lt‘(l'v:|nl.li\ix* ll(:llr-l-lllll') E l{'lll}'l"ll!
-
 P. Vidal
-
 /l /4’\ 1/A‘ ’Iv.u'\‘t'
-
 I“. I,l'll
-
 G- II:l{i3
-
 /‘ /l'\. (l‘l'1|l'\v\x;q
-
 M. Wehrli et la .\\|*il|\|t' Munic i|m|u‘
-
 e
-
 ll\llllll' a l.l lllll\ifllll'
-
 pou1 chœur et fanfare
-
-1H ar I)«*/w.: S]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002974_004.tif"/>
-<page><![CDATA[Président :
+1H ar I)«*/w.: S
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002974_004.tif'/>
+        <page>
+          <![CDATA[Président :
 Vice-Président :
 Trésorier :
 Vice-Trésorier :
 Secréfaire :
-
 Vice-Secrétaire :
-
 Président :
 Vice-Président :
 Secrélaire :
-
 Trésorier :
-
- 
-
 Membres adjoints :
-
 [0milê (|9 la [aîsse «]e Secours
-
-  
-   
-  
-  
-  
-  
- 
- 
- 
- 
- 
-   
-  
- 
-
 Cheneval Joseph
 Dellet Emile
 Girardet Georges
 Buffat Robert
 Thévenaz Fernand
-
 Bæœlige Emile
-
 [0mi!é qles Anciens
-
 Ecuer Joseph
 Melwed Oftfo
 Gaudet Félix
@@ -317,59 +225,45 @@ Giupone Archange
 Maier Edouard
 Desaudenzi Louis
 Armand Léon
-
-Chomély Jean]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002974_005.tif"/>
-<page><![CDATA[Meeres Exéculanls
-
- 
-
+Chomély Jean
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002974_005.tif'/>
+        <page>
+          <![CDATA[Meeres Exéculanls
 Saxophones soprano : Georges Viani, Reck.
-
 » alto : Brasier (sol.), Duvillard, Bertholal.
 ) ténor: Célandroni, Rosenberg, Meynel.
 ) baryton : Buffat, Viani, Bœttge, Jaggi.
-
 Petit bugle : Gaillepand.
-
 Bugles solo : Annen, Emonet, F. Kister, Joly, Offredi, Grivel,
 Wolfram, Cheneval, Bonnard.
-
 1ers Bugles : Gap, Lévy, Schenk, Moser, Sacchi, . Tauss, »
 R. Tauss, Lottaz, Moret.
-
 2mes bugles : Deluz, Refatti, Haab, Galarotli.
-
 3mes bugles : Hartmann, Dupuis.
-
 Cornets : Vaudroz, Rochat, Arnoux, Gonoyan
-
 Trompettes : Sciolli, Weber F., Rochat E., Barlh, Rosenberg
 Cors : Mouchet, Kaiser, Weber B., Mélerl, Alfonso
-
 Trombones : Thévenaz, Liaz, Junod, Dechamboux, Radice,
 Pylhon, Ricolmo.
-
 Alti: Dupraz, Vallet, Gonoyan.
 Barytons : Pellel, Gloor, Tachet, Bussien, Pédronin, Gnädinger
-
 Basses : Rippl, Vaucher, Débarbouillet, Thorion, Combes,
 Bessat.
-
 Contrebasses : Marconi, Gindrat, Reubi, Barberat, Chapon,
 Tornavy.
-
 Timbales : Girardel.
-
 Batterie et accessoires : Chambaz, Giudici, Etoupe, Genillard,
 Vaililé.
-
 Tambours de marche : Gauthier. Chapuis, Letanche, Crivell,
 Thierstein, Nanche, Wiedmer, Lancoud, Kaim. Morier,
-Hœgen P., Hœgen L.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002974_006.tif"/>
-<page><![CDATA[]]></page>       
-        </p>
+Hœgen P., Hœgen L.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002974_006.tif'/>
+        <page><![CDATA[]]></page>
+      </p>
     </body>
   </text>
 </TEI>

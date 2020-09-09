@@ -1,62 +1,73 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Orchestre philharmonique de Berlin<date when="17/05/1932"/></title>
-<series>1931-1932</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Orchestre philharmonique de Berlin
+            <date when='17/05/1932'/>
+          </title>
+          <series>1931-1932</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002863</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Furtwängler, W. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19320517"/>
-<title>Orchestre philharmonique de Berlin</title>
-<placeName key="Victoria Hall"/>
-<name key="1931-1932" type="series"/>
-<name key="Haydn, Joseph" ref="https://muscat.rism.info/admin/people/55803" type="person" role="cmp">Haydn, Joseph</name>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Furtwängler, Wilhelm  (dir.)" ref="https://muscat.rism.info/admin/people/88502" type="person" role="int">Furtwängler, Wilhelm  (dir.)</name>
-<name key="Orchestre philharmonique de Berlin"  type="person" role="int">Orchestre philharmonique de Berlin</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002863_001.tif"/>
-<page><![CDATA[RÉFORMATION
- VICTORIA -HALE
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19320517'/>
+        <title>Orchestre philharmonique de Berlin</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1931-1932' type='series'/>
+        <name key='Haydn, Joseph' ref='https://muscat.rism.info/admin/people/55803' type='person' role='cmp'>Haydn, Joseph</name>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Furtwängler, Wilhelm' ref='https://muscat.rism.info/admin/people/88502' type='person' role='int'>Furtwängler, Wilhelm</name>
+        <name key='Orchestre philharmonique de Berlin' type='person' role='int'>Orchestre philharmonique de Berlin</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002863_001.tif'/>
+        <page>
+          <![CDATA[RÉFORMATION
+VICTORIA -HALE
 G&RAND-THÉATRE
-
 CONSERVATOIRE
-
 à
 n
 ‘
@@ -65,244 +76,149 @@ q
 ë
 2
 #
-
 {_£_'Z r evtairés,
-
 —
 ce
-
 ”
-
 Èt
-
 > #
-
 c F
-
 t
 Es Î_;"
-
 f
-#]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002863_002.tif"/>
-<page><![CDATA[; e Evrmer RE E A A R RI ETE A Z
+#
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002863_002.tif'/>
+        <page>
+          <![CDATA[; e Evrmer RE E A A R RI ETE A Z
 ‘ p. aû v > ç f J T
 ï
 J
-
- 
-
- 
-
- 
-
- 
-
 c=I _
 = |
 _ ;
 -—
-
 @.
-
 .
-
-ce]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002863_003.tif"/>
-<page><![CDATA[HOTEL-PENSION PEYRAUD
-
+ce
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002863_003.tif'/>
+        <page>
+          <![CDATA[HOTEL-PENSION PEYRAUD
 AVENUE DES BOSQUETS, 7 —  SERVETTE
-
 Tram N° 3 : Arrêt Poterie
-
 Maison de famille de 1* ordre. Villa tranquille et
 très ensoleillée à 5 minutes de la gare, 15 minutes de
 la S. D. N. et du B. !|. T. Tout confort moderne.
-
- 
-
- 
-
 Cuisine soignée. — Parc. — GARAGE. — Boxes
-
 Séjour idéal en foutes Saisons — Ca/rphone » 94432 Es e
-
 )32
-
 En raison de nombreuses demandes, le programme lN
-
 sera modifié comme suit :
-
 1. SYMPHONIE en sol malelrn° 89 ... .… Haydn
 Adagio.
 Larghetto.
 Menuetto - Allegretto.
-
- 
-
 Finale - Allegro con spirito. E
 2. Prélude et Mort d’Yseult de TRISTAN ET YSEULT Wagner auss
 oven
-
 3. SYMPHONIE n° 7, en la maeur 4s Beethoven
-
 neufs ou d’occasion, vous les acheterez aux meilleures
 conditions en nous demandant de vous ouvrir
 un compte en argent français…
-
 Toute la Musique
 Tous les Disques
-
 PRIOR &
-
 J
 |
 |
-
-l]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002863_004.tif"/>
-<page><![CDATA[FAVHER & HFIE/S
-
+l
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002863_004.tif'/>
+        <page><![CDATA[FAVHER & HFIE/S
 110, RUE DU RBHONE, 110
-
- 
-
 rr t
-
-É10 RR É rrr t rs]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002863_005.tif"/>
-<page><![CDATA[HOTEL-PENSION PEYRAUD
-
+É10 RR É rrr t rs
+]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002863_005.tif'/>
+        <page>
+          <![CDATA[HOTEL-PENSION PEYRAUD
 AVENUE DES BOSQUETS, 7 —  SSERVETTE |
-
 Tram N° 3 : Arrêt Poterie
-
- 
-
 Maison de famille de 1" ordre. Villa tranquille et
 très ensoleillée à 5 minutes de la gare, 15 minutes de
 la S. D. N. et du B. |. T. Tout confort moderne.
-
- 
-
- 
-
 Cuisine soignée. — Parc. — GARAGE. — Boxes
 Séjour idéal en toutes saisons Téléphone : 24.432 P é
 VICTORIA -HALL Mardi 17 mai 1932
-
- 
-
 à 20 h. et demie
-
 ORCHESTRE PHILHARMONIQUE DE BERLIN
-
 sous la direction de
-
 M. WILHELM FURTWÂÀNGLER
-
- 
-
- 
-
 PREMIERE PARTIE
-
 1Ouventure duÿfrREISEHUTZ t Weber
 2. Fragments symphoniques de ROMEO ET JULIETTE...… Berlioz
-
 a) Scène d’amour
 b) La Reine Mab ou la Fée des songes (Scherzo)
-
 3 DONFUDANT e 1 ” R. Strauss
-
 Entr'acte
-
 DEUXIÈME PARTIE
-
 4 aIMPHONIE n 7 enlaemaieu Beethoven
-
 a) Poco sostenuto e vivace
 b) Allegretto
-
 c) Presto
-
 d) Allegro con brio
-
 Tous les livres...
-
 neufs ou d’occasion, vous les acheterez aux meilleures
 conditions en nous demandant de vous ouvrir
 un compte en argent français… |
-
 Toute la Musique
 Tous les Disques
-
 PRIOR &s
-
-— 1 —]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002863_006.tif"/>
-<page><![CDATA[Depuis l’époque des Paganini
+— 1 —
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002863_006.tif'/>
+        <page>
+          <![CDATA[Depuis l’époque des Paganini
 les plus grands artistes du monde
-
 jouent  exclusivement les
-
 CORDES PINASTRO
-
- 
-  
-  
-  
-
 . CLA VECIN
-
 représentation -
-
 . - exclusivité
 principale
-
 BERGUER
-
 Rue Petitôt, 11 et Rue du Rhône, ?
-
 — 2 —
-
 …
-
-°]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002863_007.tif"/>
-<page><![CDATA[yr Sautier & Jaeger
-
+°
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002863_007.tif'/>
+        <page>
+          <![CDATA[yr Sautier & Jaeger
 2RU SE REs 12
-
 PIANOS
 BLUTHNER — GAVEAU
- GRAMOS BUN 2RU COET
+GRAMOS BUN 2RU COET
 | | DISQUES
 Toutes marques et à tous prix
 T. S. F.
-
- 
-
 | | AMPLIFICATEURS
 l HIS MASTER'S VOICE
-
- 
-
- 
-
 LES MEILLEURES MONTRES
 LES PLUS BEAUX BIJOUX
-
-. BASZANGER :: ;V"]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002863_008.tif"/>
-<page><![CDATA[Ë
+. BASZANGER :: ;V"
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002863_008.tif'/>
+        <page>
+          <![CDATA[Ë
 E
-
- 
-
- 
-    
-
 Les instruments «His Master's Voice» - gra-
 mophones, radio-gramophones et appareils
 de T. S. F. — sont faits pour le connaisseur.
@@ -311,33 +227,7 @@ Du modèle portatif au. radio-gramophone
 “ ques il y a une distinction commune: la
 \î{yperfecîion dans la sonorité.  Une dé-
 lmonstrction, sans aucun engagement
-
 pour vous, vous en donnera la preuve.
-
- 
-
-   
- 
-   
- 
- 
- 
- 
-       
- 
- 
- 
- 
- 
- 
- 
- 
-  
- 
- 
-    
- 
-
 Les ;maîtres les plus célèbres ont confié
 la reproduction de leur art à «His Master’s
 Voice». Vous pourrez inviter chez vous quand
@@ -350,50 +240,26 @@ Le disque de 30 cm est fixé maintenant
 à frs. 9.—, le disque de 25 cm a été
 réduit à frs. 6.75. Demandez le cata
 logue chez votre fournisseur habituel
-
-  
-
- 
-
 E e
 m CRL ETE N O C
-
 tn
-
 ue
-
-sr]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002863_009.tif"/>
-<page><![CDATA[e
-
- 
-
+sr
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002863_009.tif'/>
+        <page>
+          <![CDATA[e
 … a jupiter
-
- 
-
 DISQUES
-
 4, Rue du Rhône, 4
 His Master’s Voice - Columbia
 Polydor - Philips - Telefunken
-
 ÿ GRAMOS
-
- 
-
 American - Bosech - Apex
-
- 
-
- 
-
 Membres
-
 Premiers violons :
-
 Simon Goldberg *
-
 Wilfried Hanke *
 Franz Veit.
 Aloïs Ederer.
@@ -408,115 +274,70 @@ Rudolf Prick.
 Richard Wolff.
 Bernhard Alt.
 Carl Hôfer.
-
 Richard Graupner.
-
 * Premier violon
-
 RADIO
-
 de l’Orchestre Philharmonique
-
- 
-
 de Berlin
-
 Seconds violons : Reinhard Wolf.
 Wolfgang Herold. Walter Bengelsdorff
 .\l[|'çll Hornoff. Kurt Beckmann.
 Bruno Stenzel. Kurt Oberländer.
 Werner Lehmann. Paul Stähr.
 Hermann Mücke. Paul Kursch.
-
 Fritz Peppermüller. Lorenz Hôber.
 Hugo Deumler. Erich Bader.
-
 Karl Schôngarth. Franz Busowski.
 Dr. Kurt Heinemanu.
-
 Franz Kellner. Violoncelles :
 Heinrich Semann. PRN CI E 1
-
 Friedrich Schirbel,
-
 Dr. Ahlgrimm.
-
 Willi Britze. el
 Alti : Etitz 1
 Willi Hôber.
-
 solo. ** Violoncelle solo.
-
 LES MEILLEURES MONTRES
 LES PLUS BEAUX BIJOUX
-
 BASZANGER
-
 Josef Schuster **
-
 Hans Bottermund **,
-
 l’schirn.
-
 J€Sse.
-
 Pritz Mayer.
-
 6,rue du Rhône
-GENEÈËÈVE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002863_010.tif"/>
-<page><![CDATA[ALBERT
-
+GENEÈËÈVE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002863_010.tif'/>
+        <page>
+          <![CDATA[ALBERT
 DUMONT
-
 0014 4L RE
-
 BOULEVARD HELVÉTIQUE, 19
-
 GENEÈVE
-
- 
-
-   
- 
- 
-  
-      
- 
-
 RUE DU DHONE 102 RUE D'ITALIE 4
-
 M RADIO
 GRAMOPHONES
 SIDISQUES e
-
 e |
 ACCORDS © RÉPARATIONS e EXPERTISES
-VENTE © POGCATION e ÉCHANGE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002863_011.tif"/>
-<page><![CDATA[==
-
+VENTE © POGCATION e ÉCHANGE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002863_011.tif'/>
+        <page>
+          <![CDATA[==
 | FOUS TROUVEREZ CHEZ
-
 ROTSCHY Frères
-
- 
-
- 
-
 les
-
 CORRATERIE, 22
-
 PARTITIONS petit format
 de BEETHOVEN pour suivre au concert
-
 Membres de l’Orchestre Philharmonique de Berlin (suire)
-
 Ernst Fuhr.
 Wolfram Kleber.
 Max Paulus.
-
 Karl Rammelt.
 Contrebasses :
 Lebrecht Gædecke.
@@ -528,24 +349,16 @@ Hermann Menzel.
 Alfred Streiber.
 Gero Bodenstein.
 //z!)‘/»(' ;
-
 Otto Müller.
 Flütes :
-
 Albert Harzer.
 Paul Bose.
 Friedrich Thomas.
 Heinrich Breiden.
-
 LES MEILLEURES MONTRES
 LES PLUS
-
 BASZANGE
-
- 
-
 Hautbois :
-
 Gustav Kern.
 Erich Venzke.
 Herbert Wiese.
@@ -557,241 +370,145 @@ Oskar Audilet.
 Herbert Gräfe.
 Hermann Fischer.
 Bassons :
-
 Karl Leuschner.
-
 Oskar Rothensteiner.
-
 Heinrich Lieberum.
 Walter Schemmell.
 Cors :
-
 Gustav Otto.
-
 Max Zimolong.
-
 Leonhard Tiersch.
 Gceorg Hedler,
 Otto Hess,
-
 Crompettes :
 Anton Schuldes.
 Paul Spôrri.
 Herbert Rotzoll.
 Otto Feist.
 Crombones :
-
 Ernst Heidrich.
 Friedrich Quante.
 Richard Wilhelmy.
 Cuba :
-
 Friedrich Hässler.
 Cimbales et batterie :
 Paul Kretschmer.
 August Lohse.
 Willi_ Schimmel.
-
 BEAUX BIJOUX
-
 6, rue du Rhône
 GENÈVE
-
-!]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002863_012.tif"/>
-<page><![CDATA[es
-
+!
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002863_012.tif'/>
+        <page>
+          <![CDATA[es
 stitréai tn
-
 PARFUMS
-
 PRODUITS DE BEAUTE
-
 Tout ce qui intéresse la femme,
 pour son hygiène, sa grâce et sa beauté.
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Pboto G.-L. Manuel frères. PARIS
 L'avis |ll(ll(‘l€ll\ d’une éléQ;…tc artiste _ parisienne
 >
-
 (_Blzmcllc MONTEL) <"
-
 Si la vie n'est faite que de secret, celui de la Beaute
 n’est pas impénétrable ; certains lont dechiffré el
 vous offrent le fruit de leurs recherches.
-
 CORYSE-SALÔME
-
 CRÉATEUR DE LA VENTE DES PARFUMS AU POIDS
-
 LAUSANNE PARIS GENÈVE
 4, Grand-Pont 8, |)1. de l'()Pém 9, 1>l. Fuisterie
-
-en }]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002863_013.tif"/>
-<page><![CDATA[=0
-
- 
-
- 
-
- 
-
+en }
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002863_013.tif'/>
+        <page>
+          <![CDATA[=0
 Îl | S e —d h * 1
-
 ; i vous désirez acheter, |
-
 ji faire réparer ou accorder un P l A N o ;
 HARMONIUM |
-
 E allez en toute confiance chez
-
 .i'— C. BRUCKNER
-
 ' 3, Grand-RUe (Entreso!
-
 | TRAVAIL TRÈS SOIGNE
-
 Ë TÉLÉPHONE 45.930 PRIX MODÉRES
-
 | SEUIN
-
 Hector BERLIOZ
-
 | Né à La Côte-Saint-André (Isère) en 1803, mort à Paris en 18609.
 ï >
-
 Les fragments inscrits au programme sont extraits de la seconde partie de cette sympho-
-
 nie dramatique.
-
 La scène d’amour est le deuxième de ces morceaux symphoniques, et aussi celui que Ber
-
 lioz préférais à toutes ses autres œuvres. Les sous-titres inscrits par l'auteur dans sa partition:
-
 « Nuit sereine… Le Jardin de Capulet silencieux et déserl Les jeunes Capulel
 sorlant de la fête ont\passé en chantant les réminiscences de la musique du bal » dispensent
 de toute analyse.
-
 Le second fragment : La Reine Mab ou La Fée des Songes est le scherzo de cette sym-
 phonie.
-
 Dans un prestissimo aux sonorités légères, Berlioz nous montre la Reine Mab, la fée fan
 tasque qui trouble la cervelle des amoureux, conduite dans son char microscopique par l’insecte
 des nuits d’été et lancée au galop, au galop de ses chevaux atomes. Puis vient un mouvement
 plus lent, dllegrello, et le premier mouvement reprend de plus en plus rapide. L’étrange galopée
-
 se précipite et la fée des songes disparaît soudain dans un sifflement de petites flûtes,
-
- 
-
 LES MEILLEURES MONTRES
 LES PLUS BEAUX BIJOUX|Ù
-
 |
 BASZANGER :- . ;;
-| ; GENÈVE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002863_014.tif"/>
-<page><![CDATA[HITCHENS
-
+| ; GENÈVE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002863_014.tif'/>
+        <page>
+          <![CDATA[HITCHENS
 TA OR
-
- 
-
 Dames et Messieurs
 MAISON ANGLAISE | ORDRE
-
 Ville
 Equitation
-
 ) 4
 Sport & .
 G E N E VF
 5, Passage des Lions
-
 BAS - GANTS - TRICOTS DE LUXE
-
 Sous-vêtements êlêg‘a nts
-
 seulement les bonnes qualités, W
-
 vendues très bon marché chez PLACE WLÉBERG
-
 AU BAS DE CHANTEPOULEF Œ
-
- 
-
 VENTE ET ACHAT D'IMMEUBLES
 PLACEMENTS DE CAPITAUX
-
 AG EN C E IMM O PR 1 nl R E
-
 1 SÉSIANO & LENOIR
-
 | 8, Boulevard Georges-Favon, 8 — Genève
-
-.. 1 E N __i |]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002863_015.tif"/>
-<page><![CDATA[;
+.. 1 E N __i |
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002863_015.tif'/>
+        <page>
+          <![CDATA[;
 ;
 f
 ;
-
 r
-
 W
 #
-
- 
-
- 
-
- 
-
 P1IANSO-5
-
 VENTE - ÉCHANGE - LOCATION - ACCORD |!
-
- 
-
- 
-
 Ëd:da…eÊFÈzfä GRAMOPHONES - DISQUES - T. S. F.
-
- 
-
 ! Téléphone 23.651 Facilités de “DBaïement ‘
-
- 
-
 Louis van BEETHOVEN
-
 Né à Bonn, le 16 décembre 1770, mort à Vienne, le 26 mars 1827
-
 On a voulu voir dans la symphonie en /a des intentions descriptives et pittoresques; on
 @ même formulé un argument explicatif d’après lequel chacune des parties de la symphonie
 constituerait un épisode d’une noce villageoise. Rien ne saurait justifier une telle appréciation :
 la description est-rare dans l’œuvre de Beethoven et la symphonie pastorale doit être considérée
 comme un cas unique et isolé.
-
 Innombrables sont d’ailleurs les interprétations auxquelles ont donné lieu les différents
 mouvements de la symphonie en /a.
-
 La plus célèbre de ces interprétations, celle qui est devenue pour ainsi dire classique
 aujourd’hui, a été donnée par Wagner, dans son Œuvre d’art de l’Avenir.
-
 Cette symphonie, dit-il, est l’Apothéose de la Danse elle-même; elle est la danse dans son
 essence supérieure, l’action bienheureuse des mouvements du corps incorporés en même temps
 à la musique. Mélodie et harmonie s’enchaînent sur les pas moëlleux du rythme comme à de
@@ -800,110 +517,70 @@ douce et élastique docilité, forme la ronde svelte et voluptueuse, presque sou
 pour laquelle retentit çà et là, tantôt aimable, tantôt hardie, tantôt sérieuse, tantôt abandonnée,
 tantôt sensuelle, tantôt hurlante de joie, de mélodie immortelle, jusqu’au moment où, dans un
 supréme tourbillon de plaisir, un baiser de joie scelle l’embrassement final.
-
 seut 200s Kerai0 À. CASANELLI D'ISTRIA
-
- 
-
- 
-
 |
-
 gacle |
 | Après . rendez“’oîî Œuﬁet |
-
 ine
 Chez ÜQ‘Î}Î
-
- 
-
-11]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002863_016.tif"/>
-<page><![CDATA[—
-
- 
-
+11
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002863_016.tif'/>
+        <page>
+          <![CDATA[—
 POSTES DE CHOIX
 OWINE@2L”
-
 POSTE RÉCEPTEUR 5 LAMPES
 AVEC HAUT-PARLEUR ÉLECTRO-DYNAMIQUE
-
 Reproduction pure et ample.
 Toutes les longueurs d’ondes de 200-2000 m.
 Elimination de Sottens sur quelques mm.
 Cadran indicateur illuminé avec inscription
-
 directe des longueurs d’ondes en m.
-
 UN SEUL BOUTON DE REGLAGE
-
 L’appareil le plus intéressant
 actuellement sur le marché.
-
 Prix complet avec lampes : Fr. BO9O."
-
 AU
-
 GRAN
-
 ‘f‘“Î'
-
 ‘“‘c.,.___
-
-(O]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002863_017.tif"/>
-<page><![CDATA[DÉGUSTATION WEINSTUBE
-
-  
-
+(O
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002863_017.tif'/>
+        <page>
+          <![CDATA[DÉGUSTATION WEINSTUBE
 “ XÉRÉS PORTO CAVIAR FRAIS
-
 ANGLO- FOIE GRAS
 AMERICAN
-
 DRINKSs — SANDWICHS
 CAFÉ - THÉ =
 INFUSIONS HUITRES
-
 15, Rue de la Confédération
 16, Place Fusterie
-
- 
-
 WINE, LIQUOR & COFFEE HOUSE
-
 Ouvert jusqu’à une heure du matin
-
- 
-
- 
-
 ë E 7 bc
 jres Sl As Ls tn
 EN Dn t P É e 03e
-
 E P N ex*
-
 e ts ,
 e Æes *
 en A
-
 ds
 e
-
 ds es
-L e]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002863_018.tif"/>
-<page><![CDATA[; t - —
+L e
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002863_018.tif'/>
+        <page><![CDATA[; t - —
 E IRN SE E E
-
-  
-
-  
-
-p]]></page>       
-        </p>
+p
+]]></page>
+      </p>
     </body>
   </text>
 </TEI>

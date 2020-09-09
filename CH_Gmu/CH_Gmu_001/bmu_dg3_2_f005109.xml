@@ -1,83 +1,85 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert d'orgue de M. Otto Barblan<date when="30/09/1925"/></title>
-<series>1925-1926</series>
-<placeName>Cathédrale de Saint-Pierre</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert d'orgue de M. Otto Barblan
+            <date when='30/09/1925'/>
+          </title>
+          <series>1925-1926</series>
+          <placeName>Genève, Cathédrale de Saint-Pierre</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU DG3-2 F005109</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Date présumée</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19250930"/>
-<title>Concert d'orgue de M. Otto Barblan</title>
-<placeName key="Cathédrale de Saint-Pierre"/>
-<name key="1925-1926" type="series"/>
-<name key="Couperin, F."  type="person" role="cmp">Couperin, F.</name>
-<name key="Joachim"  type="person" role="cmp">Joachim</name>
-<name key="Brahms, Johannes" ref="https://muscat.rism.info/admin/people/39914" type="person" role="cmp">Brahms, Johannes</name>
-<name key="Bach, Johann Sebastian" ref="https://muscat.rism.info/admin/people/2539" type="person" role="cmp">Bach, Johann Sebastian</name>
-<name key="Händel, Georg Friedrich" ref="https://muscat.rism.info/admin/people/36552" type="person" role="cmp">Händel, Georg Friedrich</name>
-<name key="Barblan, Otto" ref="https://muscat.rism.info/admin/people/5298" type="person" role="int">Barblan, Otto</name>
-<name key="Chautems-Demon (Mme)"  type="person" role="int">Chautems-Demon (Mme)</name>
-<name key="Demont, Julia"  type="person" role="int">Demont, Julia</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg3_2_f005109_001.tif"/>
-<page><![CDATA[CATHÉDF
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19250930'/>
+        <title>Concert d'orgue de M. Otto Barblan</title>
+        <placeName key='Genève, Cathédrale de Saint-Pierre'/>
+        <name key='1925-1926' type='series'/>
+        <name key='Couperin, F.' type='person' role='cmp'>Couperin, F.</name>
+        <name key='Joachim' type='person' role='cmp'>Joachim</name>
+        <name key='Brahms, Johannes' ref='https://muscat.rism.info/admin/people/39914' type='person' role='cmp'>Brahms, Johannes</name>
+        <name key='Bach, Johann Sebastian' ref='https://muscat.rism.info/admin/people/2539' type='person' role='cmp'>Bach, Johann Sebastian</name>
+        <name key='Händel, Georg Friedrich' ref='https://muscat.rism.info/admin/people/36552' type='person' role='cmp'>Händel, Georg Friedrich</name>
+        <name key='Barblan, Otto' ref='https://muscat.rism.info/admin/people/5298' type='person' role='int'>Barblan, Otto</name>
+        <name key='Chautems-Demon (Mme)' type='person' role='int'>Chautems-Demon (Mme)</name>
+        <name key='Demont, Julia' type='person' role='int'>Demont, Julia</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg3_2_f005109_001.tif'/>
+        <page>
+          <![CDATA[CATHÉDF
 C0ncert ÆOr gue
-
 de M. Ottc BARBLAN
 Tous les Mercredis et Samedis à 8 h, 30 (20 h. 80) jusqu'à fin septembre
-
 (SSE)
 Dix-neuvième concert: Mercredi 30 Septembre
-
 PROGRAMME
 Qasancissa 1 n 11 - = 4- F Couperin.
 Diubenedicuise e 1 1 1 (16821708)
-
 Adagio du Concerto en soù . . . . . . - Joachim.
 M"* CHAUTEMS-DEMON , violoniste.
-
- 
-
- 
-
 Prélude sur le Choral « D’un arbre séculaire »
 Air «Sans toi point de salut» extr. de la Can-
-
 (Noël) (op. 122, n° 8, œuvre posthume). . J. Brahms.
 Air «Et mon esprit se réjouit en Dieu» extrait
 duecMiaemiicatsaes * ° - - - . Séb. Bach:
@@ -86,32 +88,20 @@ Con moto maestoso (op. 21, n° 4). . . . - Otto Barblan.
 Chantduësor t — 1 . — - Schimann-loachim.
 M"* CHAUTEMS-DEMONT.
 tate n° 103 (« Vous pleurerez ») 1 audition. Séb. Bach.
-
 M“ DEMONT, partie de violon obligé par M"*
 CHAUTEMS.
-
 Siciliano et Finale du Concerto en ré mineur pourorgue. Haendel.
-
- 
-
- 
-
 Entrée : 1 fr. 7O (droit des pauvres inclus)
-
 On peut se procnrer des billets dans les magasins de musique, chez
 MM. Véron, Grauer et C", passage du Terraillet, dans les hôtels, chez le con-
 cierge de la Cathédrale et à l’entrée.
-
 Le prochain et dernier concert de la saison aura lieu Samedi prochain,
 3 octobre, à 8 h. 30(20 h. 30), avec le concours de M"* Tatianoff, mezz0-soprano
 professeur de chant et du Petit-Chœur, sous la direction de M. Barblan.
-
- 
-
- 
-
-SEN BISs]]></page>       
-        </p>
+SEN BISs
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

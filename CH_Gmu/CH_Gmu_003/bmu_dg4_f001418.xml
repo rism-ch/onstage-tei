@@ -1,142 +1,124 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Les cloches de Corneville<date when="06/05/1881"/></title>
-<series>1880-1881</series>
-<placeName>Coulouvrenière (Théâtre des Bouffes parisiens)</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Les cloches de Corneville
+            <date when='06/05/1881'/>
+          </title>
+          <series>1880-1881</series>
+          <placeName>Genève, Coulouvrenière (Théâtre des Bouffes parisiens)</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU DG4 F001418</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Date présumée</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18810506"/>
-<title>Les cloches de Corneville</title>
-<placeName key="Coulouvrenière (Théâtre des Bouffes parisiens)"/>
-<name key="1880-1881" type="series"/>
-<name key="Planquette, Robert" ref="https://muscat.rism.info/admin/people/390912" type="person" role="cmp">Planquette, Robert</name>
-<name key="Clairville" ref="https://muscat.rism.info/admin/people/30077912" type="person" role="cmp">Clairville</name>
-<name key="Gabet, Ch."  type="person" role="cmp">Gabet, Ch.</name>
-<name key="Théâtre des Bouffes parisiens"  type="person" role="int">Théâtre des Bouffes parisiens</name>
-<name key="Cadet-Grégoire (Mme)"  type="person" role="int">Cadet-Grégoire (Mme)</name>
-<name key="Sichel (Mme)"  type="person" role="int">Sichel (Mme)</name>
-<name key="Grégoire, Baptiste"  type="person" role="int">Grégoire, Baptiste</name>
-<name key="Grégoire, Joseph"  type="person" role="int">Grégoire, Joseph</name>
-<name key="Duchaussoy"  type="person" role="int">Duchaussoy</name>
-<name key="Grégoire, Victor"  type="person" role="int">Grégoire, Victor</name>
-<name key="Grégoire, Alphonse"  type="person" role="int">Grégoire, Alphonse</name>
-<name key="Estiot"  type="person" role="int">Estiot</name>
-<name key="Roche"  type="person" role="int">Roche</name>
-<name key="Henri"  type="person" role="int">Henri</name>
-<name key="Desjardins (Mme)"  type="person" role="int">Desjardins (Mme)</name>
-<name key="Spina (Mme)"  type="person" role="int">Spina (Mme)</name>
-<name key="Ariani (Mme)"  type="person" role="int">Ariani (Mme)</name>
-<name key="Théo (Mme)"  type="person" role="int">Théo (Mme)</name>
-<name key="Eva"  type="person" role="int">Eva</name>
-<name key="Guérini (Mme)"  type="person" role="int">Guérini (Mme)</name>
-<name key="Polydor (Mme)"  type="person" role="int">Polydor (Mme)</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f001418_001.tif"/>
-<page><![CDATA[A væ%%%—æ@%ëæ:ä@æ% ‘wæÆ%æ%æ
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18810506'/>
+        <title>Les cloches de Corneville</title>
+        <placeName key='Genève, Coulouvrenière (Théâtre des Bouffes parisiens)'/>
+        <name key='1880-1881' type='series'/>
+        <name key='Planquette, Robert' ref='https://muscat.rism.info/admin/people/390912' type='person' role='cmp'>Planquette, Robert</name>
+        <name key='Clairville' ref='https://muscat.rism.info/admin/people/30077912' type='person' role='cmp'>Clairville</name>
+        <name key='Gabet, Ch.' type='person' role='cmp'>Gabet, Ch.</name>
+        <name key='Théâtre des Bouffes parisiens' type='person' role='int'>Théâtre des Bouffes parisiens</name>
+        <name key='Cadet-Grégoire (Mme)' type='person' role='int'>Cadet-Grégoire (Mme)</name>
+        <name key='Sichel (Mme)' type='person' role='int'>Sichel (Mme)</name>
+        <name key='Grégoire, Baptiste' type='person' role='int'>Grégoire, Baptiste</name>
+        <name key='Grégoire, Joseph' type='person' role='int'>Grégoire, Joseph</name>
+        <name key='Duchaussoy' type='person' role='int'>Duchaussoy</name>
+        <name key='Grégoire, Victor' type='person' role='int'>Grégoire, Victor</name>
+        <name key='Grégoire, Alphonse' type='person' role='int'>Grégoire, Alphonse</name>
+        <name key='Estiot' type='person' role='int'>Estiot</name>
+        <name key='Roche' type='person' role='int'>Roche</name>
+        <name key='Henri' type='person' role='int'>Henri</name>
+        <name key='Desjardins (Mme)' type='person' role='int'>Desjardins (Mme)</name>
+        <name key='Spina (Mme)' type='person' role='int'>Spina (Mme)</name>
+        <name key='Ariani (Mme)' type='person' role='int'>Ariani (Mme)</name>
+        <name key='Théo (Mme)' type='person' role='int'>Théo (Mme)</name>
+        <name key='Eva' type='person' role='int'>Eva</name>
+        <name key='Guérini (Mme)' type='person' role='int'>Guérini (Mme)</name>
+        <name key='Polydor (Mme)' type='person' role='int'>Polydor (Mme)</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f001418_001.tif'/>
+        <page>
+          <![CDATA[A væ%%%—æ@%ëæ:ä@æ% ‘wæÆ%æ%æ
 | A LA COULOUVRENIÈRE
-
- 
-
 DES - BOUFFES PARISIENS.
-
 Direction de Mme veuve Paul (‘ADET— GBL‘FOIRE
-
- 
-
 POUR LES REPRÉSENTATIONS DE
-
 M" SICFHEI,
-
 Première chanteuse
-
 y3
-
 N m
-
 \
 —
-
 OFIESC-SR6
-
 DERNIÈRE REPRÉSENTATION DE
 LES
-
 LOC
-
 4 DE
 Ûpélà -Comique en 3 actes et 4 tableaux, par MM. CLAIRVILLE et Ch. GABKT.
-
 Musique de Robert PL’\NQUFTT[
-
 M'e SICHEL remplira le rôle de SERPOLETTE.
 M. Baptiste GRÉGOIRE remplira le rôle du MARQUIS.
-
 @
 =
-
 Es
-
 Gaspard ° . - ; MM Joseph Grégoire. Germamnen t 1/ Mmes Desjandins,
 GP Marquis * 4. - ‘ Baptiste Grégoire, , Serpolette. .. . , . ! : Sichel.
 Grénichenx — _ Duchaussoy. DManeuresae 1s 0 Spina,.
 alepaill ; A Victor Grégoire. JEano t 1N « Ariani.
 emrapellionn ; . Aiphonse/Grégoire:;|Gertrude .. 14 1. Théo.
-
 C faction Estiot. BUZANTES étécr C1N e 1S Eva.
 e omnande 1 Roche, Carnémne we Guérini.
 N G1‘1ppardm L 78 0 ' Henri. WMarguerite 44s 4 Polydor.
-
 Payﬁans Paysanne% Ga1de—(‘hampeüe Matelots, Mousses, Cochers, Domœt1quos Servantes
-
 P_BlX DES PLACES Loges d’avant-scène, 5 places, 25 fr. — Loges ds face, 5 places, 20 fr. —
-
 Fauteuils d’ oxcluslre 4 fr. — Stalles de parquet, 3 fr. — Premières, 3 fr.— Parterre, 1 fr. 50,
 Secondes, 1 fr. 25. — Troisièmes, 75 cent.
-
 Le Bureau de Location est ouvert de 10 heures à 3 heures au Tréât e des Bouffes.
-
- 
-
 Demain Samedi 7 Mai : L_A_ CANTIINIÈRE
 %%%%Œè%ﬁèﬁ@@%%â@@&ﬁ…îâﬁ
-
 531 — Imprimerie Centrale Genevoise, Rhône, 52
-
 $
 ï
 9
@@ -144,8 +126,10 @@ $
 %
 Ë
 (
-)]]></page>       
-        </p>
+)
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

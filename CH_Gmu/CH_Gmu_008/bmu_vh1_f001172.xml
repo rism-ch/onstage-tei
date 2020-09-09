@@ -1,182 +1,124 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par le Corps de musique de Landwehr<date when="30/11/1913"/></title>
-<series>1913-1914</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par le Corps de musique de Landwehr
+            <date when='30/11/1913'/>
+          </title>
+          <series>1913-1914</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F001172</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Koch, L. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19131130"/>
-<title>Concert donné par le Corps de musique de Landwehr</title>
-<placeName key="Victoria Hall"/>
-<name key="1913-1914" type="series"/>
-<name key="Tinel, Edgar" ref="https://muscat.rism.info/admin/people/30017136" type="person" role="cmp">Tinel, Edgar</name>
-<name key="Schubert, Franz" ref="https://muscat.rism.info/admin/people/111603" type="person" role="cmp">Schubert, Franz</name>
-<name key="Reyer, Ernest" ref="https://muscat.rism.info/admin/people/46219" type="person" role="cmp">Reyer, Ernest</name>
-<name key="Saint-Saëns, Camille" ref="https://muscat.rism.info/admin/people/76734" type="person" role="cmp">Saint-Saëns, Camille</name>
-<name key="Weber, Carl Maria von" ref="https://muscat.rism.info/admin/people/117485" type="person" role="cmp">Weber, Carl Maria von</name>
-<name key="Kessels"  type="person" role="cmp">Kessels</name>
-<name key="Wieniawski, Henryk" ref="https://muscat.rism.info/admin/people/137176" type="person" role="cmp">Wieniawski, Henryk</name>
-<name key="Gluck, Christoph Willibald" ref="https://muscat.rism.info/admin/people/67338" type="person" role="cmp">Gluck, Christoph Willibald</name>
-<name key="Popy, Francis" ref="https://muscat.rism.info/admin/people/30071122" type="person" role="cmp">Popy, Francis</name>
-<name key="Koch, Léonard (dir.)"  type="person" role="int">Koch, Léonard (dir.)</name>
-<name key="Corps de musique de Landwehr"  type="person" role="int">Corps de musique de Landwehr</name>
-<name key="Beck-Vidoli, Assunta"  type="person" role="int">Beck-Vidoli, Assunta</name>
-<name key="Wuilleumier, H. (Mlle)"  type="person" role="int">Wuilleumier, H. (Mlle)</name>
-<name key="Meignier (Mlle)"  type="person" role="int">Meignier (Mlle)</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001172_001.tif"/>
-<page><![CDATA[_
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19131130'/>
+        <title>Concert donné par le Corps de musique de Landwehr</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1913-1914' type='series'/>
+        <name key='Tinel, Edgar' ref='https://muscat.rism.info/admin/people/30017136' type='person' role='cmp'>Tinel, Edgar</name>
+        <name key='Schubert, Franz' ref='https://muscat.rism.info/admin/people/111603' type='person' role='cmp'>Schubert, Franz</name>
+        <name key='Reyer, Ernest' ref='https://muscat.rism.info/admin/people/46219' type='person' role='cmp'>Reyer, Ernest</name>
+        <name key='Saint-Saëns, Camille' ref='https://muscat.rism.info/admin/people/76734' type='person' role='cmp'>Saint-Saëns, Camille</name>
+        <name key='Weber, Carl Maria von' ref='https://muscat.rism.info/admin/people/117485' type='person' role='cmp'>Weber, Carl Maria von</name>
+        <name key='Kessels' type='person' role='cmp'>Kessels</name>
+        <name key='Wieniawski, Henryk' ref='https://muscat.rism.info/admin/people/137176' type='person' role='cmp'>Wieniawski, Henryk</name>
+        <name key='Gluck, Christoph Willibald' ref='https://muscat.rism.info/admin/people/67338' type='person' role='cmp'>Gluck, Christoph Willibald</name>
+        <name key='Popy, Francis' ref='https://muscat.rism.info/admin/people/30071122' type='person' role='cmp'>Popy, Francis</name>
+        <name key='Koch, Léonard' type='person' role='int'>Koch, Léonard</name>
+        <name key='Corps de musique de Landwehr' type='person' role='int'>Corps de musique de Landwehr</name>
+        <name key='Beck-Vidoli, Assunta' type='person' role='int'>Beck-Vidoli, Assunta</name>
+        <name key='Wuilleumier, H. (Mlle)' type='person' role='int'>Wuilleumier, H. (Mlle)</name>
+        <name key='Meignier (Mlle)' type='person' role='int'>Meignier (Mlle)</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001172_001.tif'/>
+        <page>
+          <![CDATA[_
 T ETE
 ; A
-
 *
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 REN É 5
 SS : JEAE RU S 7
 &  VICTORIA-HALL 622458 = Dimanche 50 Hovembre 1915 @
-
 Portes à 1 h. */4 R à 2 h. '/» précises
-
 DONNÉ PAR LE
-
 Gorps pe MUSIQUE ve L\ANDWEHR
-
 (HARMONIE MILITAIRE)
 Sous la direction de M. Léomard KOCH, Professeur au Conservatoire
-
 avec le gracieux concours de
-
 M"* ASSUNTA BECK-VIDOLI M'° H, WUILLEUMIER
-
 Soprano-dramatique @ Violoniste
 (Elève de M"< LACROIX-RABANY) (Elève de M. Fernand CLOSSET)
-
 000e
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 PREMIÈRE PARTIE
-
- 
-
 Klokke Roeland, marche (extrait de la cantate « La Cloche de Roland »4 EOTINEER
 Eonteongenues 11n A e SCmOERT
 maidnde sigura (Mes Beck-Vido) 3 .… . . . 2 L 1 - / … Rever.
 Hayanaiee L uileumen 11 1 0 1 E C SanT S ens
 tn danavase ts 1 OM p en
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 DEUXIÈME PARTIE
-
 Ouverture Romantique (Imposée au Concours de Musique, Genève 1890) . . KesseEzs.
 se nn N ps
 ds RV 1m 1 N Givde
 Suue, Balles, . ; . . . F, Popy.
-
 a) Entrée mazurka ; b) Pizzicati; c) Valse lente: d) Largo ; e) Final galop.
 LE PIANO D'ACCOMPAGNEMENT SERA OBLIGEAMMENT TENU PAR M:Le MEIGNIER
-
 PRIX DES PLACES : Loges et Cordon de 1 Galerie numérotées, 2 Fr.;
 Rez-de-Chaussée et 1 Galerie (non numérotées), 1 Fr.; 2”* Galerie, 50 ct.
 Les enfants au-dessous de 10 ans paient demi-place. — Cartes à l'avance au Victoria-Hall, rue Hornung.
-
 MM. les Membres d'Honneur, Honoraires et Amis visitants ont droit à 2 places de Rez-de-Chaussée ou de !* Galerie
 non numérotées sur présentation de leur carte de 1913. — Les coupons 9 et 10 sont valables pour une place non
 numérotée. — Moyennant un supplément de 1 Fr., on peut réserver des places numérotées de loges ou de 11e Galerie.
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 COURS D’ÉLÈVES — 5 fr. par mois
-
 Sous la direction de M. L. KOCH, directeur du Corps de Musique.
-
 SOLFÈGE. FLUTE, HAUTBOIS, CLARINETTE, SAXOPHONE, COR ET CUIVRES
 S’inscrire les Mardi et Vendredi, dès 8 heures du soir, au local, Ecole des Casemates.
-
 Vnfl
 SHIMD
-
-\®]]></page>       
-        </p>
+\®
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

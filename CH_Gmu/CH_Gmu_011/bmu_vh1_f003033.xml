@@ -1,628 +1,350 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Grand concert donné par l'Union accordéoniste mixte de Genève<date when="26/04/1939"/></title>
-<series>1938-1939</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Grand concert donné par l'Union accordéoniste mixte de Genève
+            <date when='26/04/1939'/>
+          </title>
+          <series>1938-1939</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F003033</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Endris, W.</note>
+        <note>Held, Ch. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19390426"/>
-<title>Grand concert donné par l'Union accordéoniste mixte de Genève</title>
-<placeName key="Victoria Hall"/>
-<name key="1938-1939" type="series"/>
-<name key="Endris, W."  type="person" role="cmp">Endris, W.</name>
-<name key="Baumann"  type="person" role="cmp">Baumann</name>
-<name key="Schubert, Franz" ref="https://muscat.rism.info/admin/people/111603" type="person" role="cmp">Schubert, Franz</name>
-<name key="Fellmann"  type="person" role="cmp">Fellmann</name>
-<name key="Schmalz"  type="person" role="cmp">Schmalz</name>
-<name key="Grolimund"  type="person" role="cmp">Grolimund</name>
-<name key="Gardoni"  type="person" role="cmp">Gardoni</name>
-<name key="Verdi, Giuseppe" ref="https://muscat.rism.info/admin/people/137994" type="person" role="cmp">Verdi, Giuseppe</name>
-<name key="Strauss"  type="person" role="cmp">Strauss</name>
-<name key="Endris, W. (dir.)"  type="person" role="int">Endris, W. (dir.)</name>
-<name key="Held, Ch. (dir.)"  type="person" role="int">Held, Ch. (dir.)</name>
-<name key="Union accordéoniste mixte de Genève"  type="person" role="int">Union accordéoniste mixte de Genève</name>
-<name key="Jodlerclub Alphüttli"  type="person" role="int">Jodlerclub Alphüttli</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003033_001.tif"/>
-<page><![CDATA[MERCREDI XX 4V) | Portes 20 h.
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19390426'/>
+        <title>Grand concert donné par l'Union accordéoniste mixte de Genève</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1938-1939' type='series'/>
+        <name key='Endris, W.' type='person' role='cmp'>Endris, W.</name>
+        <name key='Baumann' type='person' role='cmp'>Baumann</name>
+        <name key='Schubert, Franz' ref='https://muscat.rism.info/admin/people/111603' type='person' role='cmp'>Schubert, Franz</name>
+        <name key='Fellmann' type='person' role='cmp'>Fellmann</name>
+        <name key='Schmalz' type='person' role='cmp'>Schmalz</name>
+        <name key='Grolimund' type='person' role='cmp'>Grolimund</name>
+        <name key='Gardoni' type='person' role='cmp'>Gardoni</name>
+        <name key='Verdi, Giuseppe' ref='https://muscat.rism.info/admin/people/137994' type='person' role='cmp'>Verdi, Giuseppe</name>
+        <name key='Strauss' type='person' role='cmp'>Strauss</name>
+        <name key='Endris, W.' type='person' role='int'>Endris, W.</name>
+        <name key='Held, Ch.' type='person' role='int'>Held, Ch.</name>
+        <name key='Union accordéoniste mixte de Genève' type='person' role='int'>Union accordéoniste mixte de Genève</name>
+        <name key='Jodlerclub Alphüttli' type='person' role='int'>Jodlerclub Alphüttli</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003033_001.tif'/>
+        <page>
+          <![CDATA[MERCREDI XX 4V) | Portes 20 h.
 26 AVRIL E —s
 | « Concert 20 h. 30
-
- 
-
 Gr]3A\l\ JD
-
 i C@NCERT 0
-
- 
-
- 
-
- 
-
 DONNÉ PAR
-
 L’UNION ACCORDÉONISTE MIXTE
-
 DE GENÈVE
 DIRECTION W. ENDRIS
-
- 
-
 avec le gracieux concours du
-
 JODLER CLUB ALP-HÜTTLI
-
 Direction Ch HELD
-
- 
-
- 
-
- 
-
 Programme 20 centimes.
-
- 
-
- 
-
- 
-
- 
-
-Imprimerie de la Gare - P, Jaquet]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003033_002.tif"/>
-<page><![CDATA[A ME ÎU BILIE MIENTC
+Imprimerie de la Gare - P, Jaquet
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003033_002.tif'/>
+        <page>
+          <![CDATA[A ME ÎU BILIE MIENTC
 SIÈGES - RIDEAUX - TENTURES - LITERIE
-
 Fous €
-
 TAPISSIER-DÉCORATEUR
-
 Travail soigné - Prix modérés
-
 25, RUE PIERRE FATIO - GENÈVE - Téléph. 5 06 63
 Membre actif
 en
-
- 
-
 L'Union Accozdéoniste Mixte de Genève,
 remercie chaleuzeusement les Maisons dont les
 annonces figurent suz ce programme et les re-
 commande au public pouz tous leuzs achats.
-
 | Au Tailleur | CAFÉ CHABLAISIEN
 M, Schwarzbourg Rue du Lac
-
- 
-
- 
-
 Messieurs
 Pour vos CHAPEAUX, adressez-vous chez
-
 G. 1FF IR IRIRICIUI
-
 GRAND’IRUBE, 25
-
 Réparations et transformations. - Chapeaux faits et sur
 mesure. -  Repassage des chapeaux à tous moments.
-
 Travail soigné - Prix modérés
-
- 
-
- 
-
 AU PUBLIC ©
-
 0000000
 14, Bd. James-Fazy Ses meilleurs crus
 C 2000000
 Grand choix de DRAPERIES =
 1re qualité Joseph Rosatlb
 | Prix modérés. Membre acÈîf
-
- 
-
- 
-
- 
-
 CL r amessaue ué se gaee mm
-
- 
-
- 
-
 é én ts sk
-
- 
-
- 
-
-t RE M m]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003033_003.tif"/>
-<page><![CDATA[2 -
-
- 
-
- 
-
-   
-
+t RE M m
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003033_003.tif'/>
+        <page>
+          <![CDATA[2 -
 vous offre le plus grand choix
-
 d'Accordéons des |" marques :
-
- 
-
- 
-
 RANCO GUGLIELMO-VERCELLI
 RUFFINA GIOVANNI-VERCELLI
 MASSONI RENATO - STRADELLA
-
-  
-
-  
-
 à des prix sans concurrence.
-
-  
-
 Facilités de paiement.
-
- 
-
 e
-
 PIROG/IRAMMIUE
-
 PREMIÈRE PARTIE
-
 1. BLEU et BLANC
-
 Marche — Ensemble.
-
 de W. Endris.
-
- 
-
 2. UN MATIN PRÈS D'UN MOULIN DE CAMPAGNE
-
 Grand Orchestre Fantaisie de Baumann.
-
- 
-
- 
-
- 
-
 VERMOUTH EN CAS DE DÉCÈS,
 M A R Tl N l avisez de suite
 Téléphonez 5 02 88
 APÉRITIF POMPES FUNÈBRES
-
 A. Murith S.A.
-
 ou Central-Deuil
 Bd. James-Fazy Téléphone 2 40 90
-
 Couronnes mortuaires
 Service permanent
-
 ROSSI
-
 Voilà deux produits de marque
-
-et de qualité !]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003033_004.tif"/>
-<page><![CDATA[F. Debonneville
-
+et de qualité !
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003033_004.tif'/>
+        <page>
+          <![CDATA[F. Debonneville
 BOULANGER - -PATISSIER
-
 Spécialités :
-
 27, Rue de Carouge
-
 Vacherins glacés- -
-
 Charlotte
 Tourte au kirsch de Zoug
 Petits fours — — —
 Nouilles aux œufs -
-
 russe
-
 - GENÈVE - Télép. 4 81 59
-
 Service à domicile
-
- 
-
- 
-
 PIROGIRAMMIER
-
 PREMIERE PARTIE (Suite)
-
 3. a) PRINTEMPS
-
 b) AEMMITALER ALPUFFAHRT
-
 de Fellmann.
-
 de Schmalz.
-
 Jodler Club Alp-Hüttli
-
 4. AIRS DE BLANCHE-NEIGE
-
 Juniors
-
 Pot pourri arr. de W. Endris. +
-
- 
-
- 
-
 Pour la vie à Bon Marché
-
 …,…plcerie BAPRIX
-
 NNN
 4,Rue des Charmilles
-
 Vend BON et BON MARCHÉ
-
 CHOLHOOTO AN ONNELANAANANAANHH NNN
-
- 
-
- 
-
 Boulangene Pâtussene
-
 R.FURRER
-
 12, Rue Chauvet
-
 s000000
-
 Téléphone 2 46 51
-
-Membre actif]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003033_005.tif"/>
-<page><![CDATA[soutenez les Viticulteurs Genevois
-
+Membre actif
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003033_005.tif'/>
+        <page>
+          <![CDATA[soutenez les Viticulteurs Genevois
 en buvant les excellents vins de la
-
 Cave du Mandement
 DE SATIGNY
-
 En vente dans les bons établissements
-
- 
-
 PIROGIRAMMHE
-
 PREMIÈRE PARTIE Suite
-
 5. SÉRÉNADE N° 1
-
 Ensemble
-
 de Schubert.
-
 ENTTIRACTIE
-
 La scène est fleurie par M. LOUIS GILLIAND
-
- 
-
 °
-
 Tout près du local
-
 des Accordéonistes
 RUE AMI LULLIN
-
 Vous trouverez BON ACCUEIL
-
 au Gafé des Jardins
-
 4, COUIRS IDIE RIKIVIE
 L. KNECHT Serecommande
-
 LOUIS GILLIAND
-
 HORTICULTEUR
-
 Rue des Moraines, 10 - Carouge
 (Près du Cimetière)
-
- 
-
 Plantes vertes et fleuries
 Téléphone 489 61
-
- 
-
- 
-
 ÉLECTRICITÉ
-
 L. FORNEY
-
 8, Rue du Simplon
 Se recommande pour tous travaux
 Grand choix en lustrerie, lam-
 pes portatives, jers à repas-
-
 ser, Aspirateurs à poussière,
 Membre actit
-
- 
-
 Salon de Coiffure
-
 POUR MESSIEURS
-
 Eugène Bald
-
 8, Rue du Pont-Neuf - CAROUGE
-
- 
-
 Coupe de cheveux
 Shampoings
-
-Travail prompt et soigné.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003033_006.tif"/>
-<page><![CDATA[Aux 10.000 Chemises
-
+Travail prompt et soigné.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003033_006.tif'/>
+        <page>
+          <![CDATA[Aux 10.000 Chemises
 Rue de Rive, 6
-
 CHEMISES SUR MESURE ET
 CONFECTIONNEES
 SOUS-VÊTEMENTS - PYJAMAS
-
 Téléphone 506 20
-
 Escompte 5 °/o Timbres jaunes
-
- 
-
 BOUCHERIE
 v HOTE
 E. JACCARD-MARGOT, suc.
-
 Bd. St.-Georges, 2
-
- 
-
 Viande de 1 choix
-
- 
-
 Téléphone 4 44 15
-
- 
-
- 
-
 PIROG1IRAMMINE
-
 DEUXIÈME PARTIE
-
 6. a) DER GEISSHIRT
-
 b) ALPFAHRT
-
 de Grolimund.
 de Fellmann.
-
 Jodler Club Alp-Hüttli
-
 e
-
- 
-
 Æ4TR\À
-
-     
-
 Lh
 î_\ —
-
 Fabri
-
 cçation
 Suisse
 Fr. 245.--
-
 ©O.Bachmamnm — Passage des Lions - Téléphone 4 76 42
-
 ® :
-
- 
-
- 
-
 La Centrale”
-
 NIHINIIHIIJIH KON CANALNAAAANDANNAANAONAHNANNNN
 CROIX-D’OR, 2
-
 Mets de brasserie
 Bière du Cardinal
-
- 
-
 JEAN et BOCCARD
-
- 
-
- 
-
 Eug. PEILLONNEX
-
 22, Rue des Sources
 (PLAINPALAIS)
-
- 
-
 Manufacture de Casquettes
-
- 
-
 Spécialité de
-Casquettes d’uniformes]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003033_007.tif"/>
-<page><![CDATA[f (.h
-
- 
-
+Casquettes d’uniformes
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003033_007.tif'/>
+        <page>
+          <![CDATA[f (.h
 LE PLUS GRAND CHOIX en CHAUSSURES
 Pour Dames, Messieurs et Enfants
-
-   
-
 Aux PRIX les PLUS AVANTAGEUX 68
-
 Chaussures KURT H - Genève
 |, Cours de Rive - 6, Croix-d'Or - 7, Confédération
-
- 
-
 PIROG1RAMMIOE
-
 DEUXIÈME PARTIE (Suite
-
 1. VALSE A VARIATION de Gardoni
-
 Solo par W. ENDRIS
-
 8. QUATUOR DE RIGOLETTO de Verdi
-
 Orchestre
-
- 
-
 MUHLSTEIN
-
 16, RUE DE LA CONFÉDÉRATION
-
 habille à la perfection pour la Ville et la Montagne
-
- 
-
- 
-
 Epuration à vapear LA MAISON
-
 Au CygnÎdu Nord Pl…‘!‘ l?snrlîlil!!uersr:harÊ):‘sA'
-
 , aux meilleures conditions
 Albert Schutzlé
-
 Rue de la Navigation, 39
 Boulevard Carl-Vogt, 16
 2, Rue John-Grasset Vétedkoue" uR
-
-Téléphone 431 33 Service rapide de détail Escompte 6 ©/0]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003033_008.tif"/>
-<page><![CDATA[Ed. EGGER-TROGER
+Téléphone 431 33 Service rapide de détail Escompte 6 ©/0
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003033_008.tif'/>
+        <page>
+          <![CDATA[Ed. EGGER-TROGER
 Spécialités :
 SES GRILLADES,
 SES POULETS A LA BROCHE.
-
 SAMEDI SOIR
 BAL DIMANCHE après-midi et soir.
-
 Orchestre ENDRIS
-
 AUBERGE de CHATELAINE
-
- 
-
 JEU DE QUILILES MODERNIE
-
- 
-
 Ensemble
-
 PIROGIRAMMIOE
 DEUXIÈME PARTIE (Suite:
 9. BOUQUET DE VALSE de Strauss
 Ensemble
-
 |
 À
 |
 {
 |
-
 10. SAMBRE ET MEUSE Marche arr. de W. Endris
-
- 
-
 Meschbach
-
 G, 1RUVE DU RMRHONKE
-
 CHAUSSE BIEN
 ET BON MARCHÉ
-
- 
-
-  
-
 IDEPUIS FR. 595.--
-
- 
-
-A. DEMONT - 22, Bd. Helvétique]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003033_009.tif"/>
-<page><![CDATA[i
+A. DEMONT - 22, Bd. Helvétique
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003033_009.tif'/>
+        <page>
+          <![CDATA[i
 ;
 |
 ;
@@ -630,242 +352,117 @@ A. DEMONT - 22, Bd. Helvétique]]></page>
 |
 Ï
 ;
-
- 
-
 »
-
- 
-
- 
-
 Boucherie
 A. Rickenbach
-
 Maison de confiance
-
 Atelier de Réparations
-
 Bicyclettes luxe Standard-Jaguar
 et diverses marques
-
 ACCESSOIRES - ECHANGE
-
 J. JENNY
-
 CHATELAINE - Tél. 214 82
-
- 
-
 Rue Bonivard, 8 - GENÈVE - Tél. 2 27 18
-
 Bœuf - Veau - Mouton - Porc
-
 Viande de ler choix On porte à domicile
-
- 
-
- 
-
 Union Accordéoniste Mixte de Genève
-
 MEMBRES D’'HONNEUR
-
 Madame Yvonne HUMAIR
 Monsieur Frank PENSEYRES
 Madame Aimée CLOCHET
-
 DIRECTEUR
 Professeur Willy ENDRIS
-
 COMITÉ
-
 Président : William HUMAIR, 8, Pré Cartelier.
-
- 
-
 Vice-Président :
-
 Secrétaire :
-
 Vice-Secrétaire :
-
 Trésorier :
-
 Vice-Trésorier :
-
 Econome ;
-
 Adjoint ;
-
 »
-
 Porte-Drapeau ;
-
 Suppléant ;
-
 Albert SCHILD
-
 Edouard DEBONNEVILLE, 5, Rue du Belvédère.
 Paul CHAPPUIS.
-
 Ernest SENFTEN, 57, Chemin des Sports.
 Madame Elsa MOREL.
-
 François GUARNORI.
-
 Edmond STEFFEN
-
 Francis WURSCH.
-
 Albert SCHILD.
-
 Henri FAUCHEZ.
-
 VÉRIFICATEURS DES COMPTES
-
 Suppléant ;
-
 M. M. VIRET et CLOCHET.
 Madame Louisa BURKARD.
-
- 
-
 Café-Brasserie Louis DESSUET
-
 62, Rue du Grand-Pré —
-
 GENÈVE Téléphone 2 41 67
-
- 
-
- 
-
 GRAND JARDIN OMBRAGÉ
-
 Jeu de quilles moderne Jeux de boules
-
-Vins du pays et étrangers de premier choix Casse-croûte]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003033_010.tif"/>
-<page><![CDATA[i
-
- 
-
- 
-
+Vins du pays et étrangers de premier choix Casse-croûte
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003033_010.tif'/>
+        <page>
+          <![CDATA[i
 JUTOLINE BOULANGERIE
-
 PASTILLES PATISSERIE
 pour la gorge CONFISERIE
-
 L'étui 050cen: | ROBERT
-
 La nouvelle ù
 boîte métal de 16, Rue des Eaux-Vives
-
 luxe à Fr. 1 Téléphone 5 01 14
-
- 
-
- 
-
- 
-
 COMMISSAIRES:
-
 GRAND ORCHESTRE :
 (Répétitions le jeudi à 20 h. 15)
 Madame Louisa BURKARD.
-
 GROUPE CHROMATIQUE ET DIATONIQUE SENIOR :
 (Répétitions le mercredi à 20 h. 15.)
 Monsieur Willlam HUMAIR.
-
 ORCHESTRE JUNIOR:
 (Répétitions le vendredi à 17 h. 30.)
 Madame F. GUARNORI.
-
 GROUPE CHROMATIQUE ET DIATONIQUE JUNIOR :
 (Répétitions le mercredi à 17 h. 30.)
 Madame Elsa MOREL.
-
 Commissaire - suppléante :
 Madame Aimée CLOCHET.
-
- 
-
 La BOUCHERIE CHEVALINE
-
 des Eaux - Vives
 6 RUE DU SIMPLON
-
 Vend Bon… et Bon Marché
-
 @
-
- 
-
 CYCLES — PNEUMATIQUES — ACCESSOIRES
-
- 
-
- 
-
- 
-
 ROGER BOURGUIGNON
-
 2, RUE GRENUS — GENÈVE
-
 Réparations soignées Prix modérés
-
- 
-
- 
-
- 
-
 /
 |
 i
-|]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003033_011.tif"/>
-<page><![CDATA[mms
-
+|
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003033_011.tif'/>
+        <page>
+          <![CDATA[mms
 PS RE A
-
- 
-
- 
-
- 
-
 ©
-
 Pour bien manger à LAUSANNE
 allez au
-
 Café-Restaurant du Transit
 ILAUSANNIE
-
 0. SCHERRER, _— Av. du Simplon, 14
 Téléphone 3 48 46 (Sous-Gare)
-
- 
-
 Vins de choix —  Bonne cuisine
-
 Plat du jour 1.20 Plat Poulet 1.80
-
- 
-
 00c00000
-
 Historique de l'Union Accordéoniste Mixte
 de Genève
-
 oo°®ooo
-
 4 L'UNION ACCORDÉONISTE MIXTE DE
 GENÈVE, fondée le 12 Septembre 1934, fêtera cet
 automne son cinquième anniversaire. Elle prend de
@@ -877,122 +474,73 @@ déons à Lausanne. En mai 1936, l'Orchestre Sénior
 obtient le 1* prix et l’Orchestre Junior le 2 prix au
 1 Concours Fédéral d'accordéons à la Chaux-de-Fonds
 En juin de la même année, elle inaugure son drapeau.
-
 L'U.A.M. publie son Bulletin Mensuel depuis
 février 1935,
-
- 
-
- 
-
- 
-
 SALON DE COIFFURE
 DAMES ET MESSIEURS
 Permanente dernier système
 Maison Pierre Thorimbert
 9, Rue du Belvédère — Téléphone 25375
-
-Travail soigné Prix modérés]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003033_012.tif"/>
-<page><![CDATA[Transports Automobiles
-
+Travail soigné Prix modérés
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003033_012.tif'/>
+        <page>
+          <![CDATA[Transports Automobiles
 JULES BABEL
-
 Membre actif
-
 48, Rue du XXXI Décembre
 Téléphone 4 90 78
-
 CYCLISTES.…. * à
 rappelez-vous que c’est
-
 CASEYS à Garouge
-
 QuI CONSTRUIT le MIEUX de GENEVE S
 - 16, Rue du Marché \
 CAROUGE
-
- 
-
 TAILLEUR
-
 Atelier spécial de réparations
-
 et transformations. Repassage.
 et retournage. Travail soigné.
-
 Prix modérés.
-
 “ MAGASINÙ
-
 RUE DE CAROUGE, 16|
-
 CAFE du JURA
 Wn .
 49, Rüe des Eau‘x—Vive$ T
 ‘ Speczalzte ; ;
 FONDUES et BIFTECKS
 au FROMAGE '
-
 Membre act1f
-
- 
-
 109000
-
 DRAPS COTON ECRU
 Dim. 150 x 220 cm
-
 la pièce Fr. 1.90 net
-
 A. GRAS & C° s..
-
 Coutance,5 -  GENÈVE
-
 Epicerie - Vins et quueurs
-
 Spécialité de Pâtes de Naples
-
 J. Mo- Costabella
-
 Rue du Pont-Neuf, 6
 Téléphone 466ﬁ1
 BEURRE - FROMAGE
 SALAMI 1* CcHOIX ls
-
- 
-
 Condor
-
- MOTOCYCLETTES
-
+MOTOCYCLETTES
 Bicyclettes des Connaisseurs
-
 M. DURAND
-
 Rue des Grottes, 18
 Téléphone 26320
-
- 
-
 Tabacs - Cigares - Papeterie;îr
 Articles de Pêche 18
-
 2000000
-
 L THUILLARD
-
 -38, Rue de Lausanne E
 GENEVE '
-
- 
-
- 
-
 APÉRITIF à la GENTIANE |
-E Ne fahgue pas lestomac]]></page>       
-        </p>
+E Ne fahgue pas lestomac
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

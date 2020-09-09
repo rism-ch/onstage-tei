@@ -1,83 +1,87 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Grande soirée musicale et littéraire<date when="04/12/1870"/></title>
-<series>1870-1871</series>
-<placeName>Stand de Carouge</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Grande soirée musicale et littéraire
+            <date when='04/12/1870'/>
+          </title>
+          <series>1870-1871</series>
+          <placeName>Genève, Stand de Carouge</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU DG4 F005578</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Grasset (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18701204"/>
-<title>Grande soirée musicale et littéraire</title>
-<placeName key="Stand de Carouge"/>
-<name key="1870-1871" type="series"/>
-<name key="Weber, Carl Maria von" ref="https://muscat.rism.info/admin/people/117485" type="person" role="cmp">Weber, Carl Maria von</name>
-<name key="Rossini, Gioachino" ref="https://muscat.rism.info/admin/people/63766" type="person" role="cmp">Rossini, Gioachino</name>
-<name key="Bellini, Vincenzo" ref="https://muscat.rism.info/admin/people/11648" type="person" role="cmp">Bellini, Vincenzo</name>
-<name key="Auber, Daniel-François-Esprit" ref="https://muscat.rism.info/admin/people/38000" type="person" role="cmp">Auber, Daniel-François-Esprit</name>
-<name key="Grasset (dir.)"  type="person" role="int">Grasset (dir.)</name>
-<name key="La Grégorienne"  type="person" role="int">La Grégorienne</name>
-<name key="La Concorde"  type="person" role="int">La Concorde</name>
-<name key="Gavaris"  type="person" role="int">Gavaris</name>
-<name key="Roch"  type="person" role="int">Roch</name>
-<name key="Campagna"  type="person" role="int">Campagna</name>
-<name key="Cadet"  type="person" role="int">Cadet</name>
-<name key="Demond, Antony"  type="person" role="int">Demond, Antony</name>
-<name key="Toussaint"  type="person" role="int">Toussaint</name>
-<name key="Meylan, A."  type="person" role="int">Meylan, A.</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f005578_001.tif"/>
-<page><![CDATA[ŸD DE CAROUGE
-
- 
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18701204'/>
+        <title>Grande soirée musicale et littéraire</title>
+        <placeName key='Genève, Stand de Carouge'/>
+        <name key='1870-1871' type='series'/>
+        <name key='Weber, Carl Maria von' ref='https://muscat.rism.info/admin/people/117485' type='person' role='cmp'>Weber, Carl Maria von</name>
+        <name key='Rossini, Gioachino' ref='https://muscat.rism.info/admin/people/63766' type='person' role='cmp'>Rossini, Gioachino</name>
+        <name key='Bellini, Vincenzo' ref='https://muscat.rism.info/admin/people/11648' type='person' role='cmp'>Bellini, Vincenzo</name>
+        <name key='Auber, Daniel-François-Esprit' ref='https://muscat.rism.info/admin/people/38000' type='person' role='cmp'>Auber, Daniel-François-Esprit</name>
+        <name key='Grasset' type='person' role='int'>Grasset</name>
+        <name key='La Grégorienne' type='person' role='int'>La Grégorienne</name>
+        <name key='La Concorde' type='person' role='int'>La Concorde</name>
+        <name key='Gavaris' type='person' role='int'>Gavaris</name>
+        <name key='Roch' type='person' role='int'>Roch</name>
+        <name key='Campagna' type='person' role='int'>Campagna</name>
+        <name key='Cadet' type='person' role='int'>Cadet</name>
+        <name key='Demond, Antony' type='person' role='int'>Demond, Antony</name>
+        <name key='Toussaint' type='person' role='int'>Toussaint</name>
+        <name key='Meylan, A.' type='person' role='int'>Meylan, A.</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f005578_001.tif'/>
+        <page>
+          <![CDATA[ŸD DE CAROUGE
 écembre 1870
-
 SOIRÉE
-
 MUSICALE ET - LITTERAIRE
-
 AU BÉNÉFICE
-
 des Militaires de lâ commune de Carouge, faisant partie du BATAILLON S4,
 actuellement au service fédéral.
-
 PROGRAMME:
 : PRLM[ERL RARTIE
-
 _ 1° Morceau d’ harmonie exécuté par ünc Fanfaré genevoise sous la direction de M. GRASSET.
 Prologue composé et récité par M GMWHS
 3° CHOUR : Où s’en vont les rêves? Par la Société « La Grégorienne. »
@@ -86,27 +90,23 @@ ke Grand air de Joseph, chanté par. M. Reck Me £MQ
 M. CAmPAGNA. Webur
 6 Le Baptéme de mon Fieu. Chausonnette comique, par M. Hauler cade
 1° Les Cochinchinoises. Vaudeville en un acte, Par la Société : « La Concorde. » 1»®|LG(}I )
-
 DlSTRJBUTION — Antony Demond, médecin. — Estelle, jeune veuve. — Toussaint,
 jardinier, — Honorine, femme de chambre.
-
 Æ<‘QJ/”QW KFémaeve D ﬂ///æuï/a{
 DEUXIÈME PARTIE
-
 8> Mercomt-déhermonis_parcte-entare-de-Garouge, brskation kecauiesun melte)
 9° CHOEUR : La Dame du Lac. Par la Société « La Grégorienne. » - î%‘:
 109 Grand air de Giralda. par M. A. Mrvvan. d
 11° Grande fantaisie pour piano el v10|0n sur la Sommambule, par MV F. L. et M. Cam-
-
 PAGNA. F KbçÙ au
 12° Ma Femme et mon Parapluie. Vaudcvull; en un acte. Par la Société : « La Concorde. »
-
 DISTRIBUTION. — Coquardon, renti lrène, sa fille. — Serinet, accordeur de
 pianos. — B Ubocage, entrepreneur de concerts en
 plem vent. —M0M0Né; neveu de Coquardon.
-
-K%M‘KMM‘B& [R“q q 4» .]]></page>       
-        </p>
+K%M‘KMM‘B& [R“q q 4» .
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

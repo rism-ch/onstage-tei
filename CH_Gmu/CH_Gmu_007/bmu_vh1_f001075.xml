@@ -1,115 +1,102 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par le Corps de musique de Landwehr<date when="28/02/1909"/></title>
-<series>1908-1909</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par le Corps de musique de Landwehr
+            <date when='28/02/1909'/>
+          </title>
+          <series>1908-1909</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F001075</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Koch, L. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19090228"/>
-<title>Concert donné par le Corps de musique de Landwehr</title>
-<placeName key="Victoria Hall"/>
-<name key="1908-1909" type="series"/>
-<name key="Stoupan"  type="person" role="cmp">Stoupan</name>
-<name key="Bach, E."  type="person" role="cmp">Bach, E.</name>
-<name key="Dubois, Théodore" ref="https://muscat.rism.info/admin/people/30016588" type="person" role="cmp">Dubois, Théodore</name>
-<name key="Saint-Saëns, Camille" ref="https://muscat.rism.info/admin/people/76734" type="person" role="cmp">Saint-Saëns, Camille</name>
-<name key="Leroux, X."  type="person" role="cmp">Leroux, X.</name>
-<name key="Lalo, Edouard" ref="https://muscat.rism.info/admin/people/65446" type="person" role="cmp">Lalo, Edouard</name>
-<name key="Bizet, Georges" ref="https://muscat.rism.info/admin/people/20057" type="person" role="cmp">Bizet, Georges</name>
-<name key="Sinding"  type="person" role="cmp">Sinding</name>
-<name key="Popper, David" ref="https://muscat.rism.info/admin/people/27091" type="person" role="cmp">Popper, David</name>
-<name key="Sarasate, Pablo de" ref="https://muscat.rism.info/admin/people/30019733" type="person" role="cmp">Sarasate, Pablo de</name>
-<name key="Trémisot"  type="person" role="cmp">Trémisot</name>
-<name key="Gluck, Christoph Willibald" ref="https://muscat.rism.info/admin/people/67338" type="person" role="cmp">Gluck, Christoph Willibald</name>
-<name key="Spohr, Louis" ref="https://muscat.rism.info/admin/people/149499" type="person" role="cmp">Spohr, Louis</name>
-<name key="Koch, Léonard (dir.)"  type="person" role="int">Koch, Léonard (dir.)</name>
-<name key="Corps de musique de Landwehr"  type="person" role="int">Corps de musique de Landwehr</name>
-<name key="Leschaud, Renée"  type="person" role="int">Leschaud, Renée</name>
-<name key="Darier, J.-M."  type="person" role="int">Darier, J.-M.</name>
-<name key="Wend, Otto"  type="person" role="int">Wend, Otto</name>
-<name key="Saxod"  type="person" role="int">Saxod</name>
-<name key="Fillion"  type="person" role="int">Fillion</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001075_001.tif"/>
-<page><![CDATA[T
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19090228'/>
+        <title>Concert donné par le Corps de musique de Landwehr</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1908-1909' type='series'/>
+        <name key='Stoupan' type='person' role='cmp'>Stoupan</name>
+        <name key='Bach, E.' type='person' role='cmp'>Bach, E.</name>
+        <name key='Dubois, Théodore' ref='https://muscat.rism.info/admin/people/30016588' type='person' role='cmp'>Dubois, Théodore</name>
+        <name key='Saint-Saëns, Camille' ref='https://muscat.rism.info/admin/people/76734' type='person' role='cmp'>Saint-Saëns, Camille</name>
+        <name key='Leroux, X.' type='person' role='cmp'>Leroux, X.</name>
+        <name key='Lalo, Edouard' ref='https://muscat.rism.info/admin/people/65446' type='person' role='cmp'>Lalo, Edouard</name>
+        <name key='Bizet, Georges' ref='https://muscat.rism.info/admin/people/20057' type='person' role='cmp'>Bizet, Georges</name>
+        <name key='Sinding' type='person' role='cmp'>Sinding</name>
+        <name key='Popper, David' ref='https://muscat.rism.info/admin/people/27091' type='person' role='cmp'>Popper, David</name>
+        <name key='Sarasate, Pablo de' ref='https://muscat.rism.info/admin/people/30019733' type='person' role='cmp'>Sarasate, Pablo de</name>
+        <name key='Trémisot' type='person' role='cmp'>Trémisot</name>
+        <name key='Gluck, Christoph Willibald' ref='https://muscat.rism.info/admin/people/67338' type='person' role='cmp'>Gluck, Christoph Willibald</name>
+        <name key='Spohr, Louis' ref='https://muscat.rism.info/admin/people/149499' type='person' role='cmp'>Spohr, Louis</name>
+        <name key='Koch, Léonard' type='person' role='int'>Koch, Léonard</name>
+        <name key='Corps de musique de Landwehr' type='person' role='int'>Corps de musique de Landwehr</name>
+        <name key='Leschaud, Renée' type='person' role='int'>Leschaud, Renée</name>
+        <name key='Darier, J.-M.' type='person' role='int'>Darier, J.-M.</name>
+        <name key='Wend, Otto' type='person' role='int'>Wend, Otto</name>
+        <name key='Saxod' type='person' role='int'>Saxod</name>
+        <name key='Fillion' type='person' role='int'>Fillion</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001075_001.tif'/>
+        <page>
+          <![CDATA[T
 ; se
-
-  
-
- 
-
- 
-
 VICTORIA-HALLU
-
 Portes à 1 h. °/, DIMANGHE 28 FÉVRIER 1909 Concert à 2 h. ! 2
-
 CON
-
 DONNÉ PAR LE
-
 CORPS DE MUSIQUE DE LANDWEHWR
-
 HARMONIE MILITAIRE
-
 sous-la direction d M. Léonard KOCH
-
 AVEC LE GRACIEUX CONCOURS DE
-
 M'e Renée LESCHAUD M. J.-M. DARIER
-
 MEZZO-SOPRANO VIOLONISTE
 (Elève de M. le Professeur L. KETTEN)
-
 M. Otto WEND
-
 Professeur au Conservatoire.
-
 E
-
- 
-
- 
-
 c—- PROGRAMME &
-
 PREMIÈRE PARTIE
-
 E tunalda onvenunre deconcours. . . 2 2 20 S Stoupan.
 2. a) Souvenir de jeunesse arrangé par M. L. KOCH (Flüte, M. SAXOD ; Saxop.M. FILLION) . n Bach
 Détroisipotites pièces …. ... 12 4 22 Q Th. Dubois. Ÿ
@@ -131,37 +118,23 @@ e ts e N Trémisot.
 UruidiEurydice. (Orphée), . ... . ; … , .. Gluck.
 M" LESCHAUD
 P Jesondaouverure dramatique ; . ... … = 11e L. Spohr.
-
 LE PIANO SERA OBLIGEAMMENT TENU PAR M. LE PROF. WEND.
-
 PIANO DE CONCERT BLUTHNER PRÉTÉ GRACIEUSEMENT PAR MM, SAUTIER ET JÆGER
-
 e S = ——
-
 PRIX DES PLACES : Loges et cordon de Première Galerie (numérotés), @ fr. ; Rez-de-chaussée et Première Galerie
 (non numérotées), 1 fr.; 2”" Galerie, HO centimes. — Les enfants au-dessous de 10 ans paient demi-place.
-
 / CARTES A L'AVANCE au VICTORIA-HALL, rue Hornung.
-
 MM. les Membres d’Honneur, Honoraires et Amis visitanis ont droit à 2 PLACES de Rez-de-Chaussée ou de 1"* Galerie
 NON NUMÉROTÉES, sur présentation de leur carte de 1909, Chaque coupon est valable pour 1 PLACE NON NUMÉROTÉE,
 Moyennant un supplément de 4 fr., on peut réserver des places numérotées de loges ou 1re Galerie.
-
- 
-
- 
-
 COURS D DÉnèÈvEs — S francs par mois æ
-
- 
-
 Sous la direction de M. L. KOCH, directeur du Corps de Musique.
 SOLFEGE, FLUTE, HAUTBOIS, CLARINETTE, SAXOPHONE, COR ET CUIVRES
-
 & S'inserire le Mardi et le Vendredi, dès 9 heures du soir, au local, Bâtiment Electoral (entrée du côté de la Plaine). J
-
-IMPRIMERIE J. STUDER, GENÈVE,]]></page>       
-        </p>
+IMPRIMERIE J. STUDER, GENÈVE,
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

@@ -1,151 +1,155 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Grand concert donné par l'Orchestre Mandolinata de Genève : A l'occasion du 50me anniversaire de sa fondation<date when="02/09/1943"/></title>
-<series>1943-1944</series>
-<placeName>Victoria Hall ; Promenade du Lac ; Radio-Genève ; Théâtre Pitoëff (Salle communale de Plainpalais)</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Grand concert donné par l'Orchestre Mandolinata de Genève : A
+            l'occasion du 50me anniversaire de sa fondation
+            <date when='02/09/1943'/>
+            <date when='30/10/1943'/>
+          </title>
+          <series>1943-1944</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <placeName>Genève, Promenade du Lac</placeName>
+          <placeName>Genève, Radio-Genève</placeName>
+          <placeName>Genève, Théâtre Pitoëff (Salle communale de Plainpalais)</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F003227</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Gabelles, G.</note>
+        <note>Pépin, A.</note>
+        <note>Biava, L. [et al.] (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19430902
-19431030"/>
-<title>Grand concert donné par l'Orchestre Mandolinata de Genève : A l'occasion du 50me anniversaire de sa fondation</title>
-<placeName key="Victoria Hall ; Promenade du Lac ; Radio-Genève ; Théâtre Pitoëff (Salle communale de Plainpalais)"/>
-<name key="1943-1944" type="series"/>
-<name key="Viroux"  type="person" role="cmp">Viroux</name>
-<name key="Collomb"  type="person" role="cmp">Collomb</name>
-<name key="Machiocchi, M."  type="person" role="cmp">Machiocchi, M.</name>
-<name key="Salvetti, S."  type="person" role="cmp">Salvetti, S.</name>
-<name key="Miceli, G."  type="person" role="cmp">Miceli, G.</name>
-<name key="Domenico, G."  type="person" role="cmp">Domenico, G.</name>
-<name key="Haydn, Joseph" ref="https://muscat.rism.info/admin/people/55803" type="person" role="cmp">Haydn, Joseph</name>
-<name key="Boieldieu, Adrien" ref="https://muscat.rism.info/admin/people/23607" type="person" role="cmp">Boieldieu, Adrien</name>
-<name key="Chabrier, Emmanuel" ref="https://muscat.rism.info/admin/people/48553" type="person" role="cmp">Chabrier, Emmanuel</name>
-<name key="Bracco, C.-A."  type="person" role="cmp">Bracco, C.-A.</name>
-<name key="Mühlmann, W."  type="person" role="cmp">Mühlmann, W.</name>
-<name key="Dovaz, J."  type="person" role="cmp">Dovaz, J.</name>
-<name key="Silvestri"  type="person" role="cmp">Silvestri</name>
-<name key="Mozart, Wolfgang Amadeus" ref="https://muscat.rism.info/admin/people/115324" type="person" role="cmp">Mozart, Wolfgang Amadeus</name>
-<name key="Hermann, A."  type="person" role="cmp">Hermann, A.</name>
-<name key="Felber"  type="person" role="cmp">Felber</name>
-<name key="Link"  type="person" role="cmp">Link</name>
-<name key="Zurfluh"  type="person" role="cmp">Zurfluh</name>
-<name key="Verdi, Giuseppe" ref="https://muscat.rism.info/admin/people/137994" type="person" role="cmp">Verdi, Giuseppe</name>
-<name key="Alfieri, A."  type="person" role="cmp">Alfieri, A.</name>
-<name key="Bouillon, P."  type="person" role="cmp">Bouillon, P.</name>
-<name key="Machiocchi, M."  type="person" role="cmp">Machiocchi, M.</name>
-<name key="Curtis, E. de"  type="person" role="cmp">Curtis, E. de</name>
-<name key="Crescenzo, V. de"  type="person" role="cmp">Crescenzo, V. de</name>
-<name key="Keler-Béla"  type="person" role="cmp">Keler-Béla</name>
-<name key="Gabelles, G. (dir.)"  type="person" role="int">Gabelles, G. (dir.)</name>
-<name key="Pépin, A. (dir.)"  type="person" role="int">Pépin, A. (dir.)</name>
-<name key="Biava, L. (dir.)"  type="person" role="int">Biava, L. (dir.)</name>
-<name key="Mühlmann, W. (dir.)"  type="person" role="int">Mühlmann, W. (dir.)</name>
-<name key="Dovaz, J. (dir.)"  type="person" role="int">Dovaz, J. (dir.)</name>
-<name key="Orchestre Mandolinata de Genève"  type="person" role="int">Orchestre Mandolinata de Genève</name>
-<name key="Estudiantina Lausannoise Choralia"  type="person" role="int">Estudiantina Lausannoise Choralia</name>
-<name key="Estudiantina Eaux-Vivienne"  type="person" role="int">Estudiantina Eaux-Vivienne</name>
-<name key="Ondine genevoise"  type="person" role="int">Ondine genevoise</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003227_001.tif"/>
-<page><![CDATA[rs — v rr D A S
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19430902'/>
+        <date when='19431030'/>
+        <title>
+          Grand concert donné par l'Orchestre Mandolinata de Genève : A
+          l'occasion du 50me anniversaire de sa fondation
+        </title>
+        <placeName key='Genève, Victoria Hall'/>
+        <placeName key='Genève, Promenade du Lac'/>
+        <placeName key='Genève, Radio-Genève'/>
+        <placeName key='Genève, Théâtre Pitoëff (Salle communale de Plainpalais)'/>
+        <name key='1943-1944' type='series'/>
+        <name key='Viroux' type='person' role='cmp'>Viroux</name>
+        <name key='Collomb' type='person' role='cmp'>Collomb</name>
+        <name key='Machiocchi, M.' type='person' role='cmp'>Machiocchi, M.</name>
+        <name key='Salvetti, S.' type='person' role='cmp'>Salvetti, S.</name>
+        <name key='Miceli, G.' type='person' role='cmp'>Miceli, G.</name>
+        <name key='Domenico, G.' type='person' role='cmp'>Domenico, G.</name>
+        <name key='Haydn, Joseph' ref='https://muscat.rism.info/admin/people/55803' type='person' role='cmp'>Haydn, Joseph</name>
+        <name key='Boieldieu, Adrien' ref='https://muscat.rism.info/admin/people/23607' type='person' role='cmp'>Boieldieu, Adrien</name>
+        <name key='Chabrier, Emmanuel' ref='https://muscat.rism.info/admin/people/48553' type='person' role='cmp'>Chabrier, Emmanuel</name>
+        <name key='Bracco, C.-A.' type='person' role='cmp'>Bracco, C.-A.</name>
+        <name key='Mühlmann, W.' type='person' role='cmp'>Mühlmann, W.</name>
+        <name key='Dovaz, J.' type='person' role='cmp'>Dovaz, J.</name>
+        <name key='Silvestri' type='person' role='cmp'>Silvestri</name>
+        <name key='Mozart, Wolfgang Amadeus' ref='https://muscat.rism.info/admin/people/115324' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Hermann, A.' type='person' role='cmp'>Hermann, A.</name>
+        <name key='Felber' type='person' role='cmp'>Felber</name>
+        <name key='Link' type='person' role='cmp'>Link</name>
+        <name key='Zurfluh' type='person' role='cmp'>Zurfluh</name>
+        <name key='Verdi, Giuseppe' ref='https://muscat.rism.info/admin/people/137994' type='person' role='cmp'>Verdi, Giuseppe</name>
+        <name key='Alfieri, A.' type='person' role='cmp'>Alfieri, A.</name>
+        <name key='Bouillon, P.' type='person' role='cmp'>Bouillon, P.</name>
+        <name key='Machiocchi, M.' type='person' role='cmp'>Machiocchi, M.</name>
+        <name key='Curtis, E. de' type='person' role='cmp'>Curtis, E. de</name>
+        <name key='Crescenzo, V. de' type='person' role='cmp'>Crescenzo, V. de</name>
+        <name key='Keler-Béla' type='person' role='cmp'>Keler-Béla</name>
+        <name key='Gabelles, G.' type='person' role='int'>Gabelles, G.</name>
+        <name key='Pépin, A.' type='person' role='int'>Pépin, A.</name>
+        <name key='Biava, L.' type='person' role='int'>Biava, L.</name>
+        <name key='Mühlmann, W.' type='person' role='int'>Mühlmann, W.</name>
+        <name key='Dovaz, J.' type='person' role='int'>Dovaz, J.</name>
+        <name key='Orchestre Mandolinata de Genève' type='person' role='int'>Orchestre Mandolinata de Genève</name>
+        <name key='Estudiantina Lausannoise Choralia' type='person' role='int'>Estudiantina Lausannoise Choralia</name>
+        <name key='Estudiantina Eaux-Vivienne' type='person' role='int'>Estudiantina Eaux-Vivienne</name>
+        <name key='Ondine genevoise' type='person' role='int'>Ondine genevoise</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003227_001.tif'/>
+        <page>
+          <![CDATA[rs — v rr D A S
 Samedi 30 octobre 1943  VICTORIA-HALL _ a20h.15 portes à 19h.45
-
 GRAND CONCERT
-
 donné par
-
 l’Orchestre Mandolinata de Genève
-
 à l’occasion du 50"° Anniversaire de sa fondation
 avec le concours de
-
- 
-
 l’Estudiantina Lausannoise Choralia
 l’Estudiantina Eaux-Vivienne
 et de l’Ondine Genevoise (Ecole de musique)
-
- 
-
 PROGRAMME
 1re partie
 1 Beaucairois ; ... 401 0 Viroux
 avec clairons et tambours. Direct. G. Gabelles
 Aibonnealiure 3°n 1n ü Collomb
-
 corps de flûtes. Direct. À. Pépin
 Ondine Genevoise
-
 ZEloindu pays, ouverture 14e M. Machiocchi
 Poëésicraipestre eN » S. Salvetti
-
 Estudiantina Eaux-Vivienne
 Direction : L. Biava
-
 .3. serenade =11 1s n Qe G. Miceli
-
 Murmurede,la.Mers:: 11 A S. Salvetti
 Estudiantina Lausannoise Choralia
 Direction : W. Mühlmann, professeur
 sirsymphonie en sol.…. ... G. Domenico
 Andante de la symphonie N° 6 (La Surprise). . . . . . Haydn
-
 Orchestre Mandolinata de Genève
 Direction : J. Dovaz
-
 ENTR’ACTE 15 MINUTES
-
-Pendant l’exécution, les portes seront fermées]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003227_002.tif"/>
-<page><![CDATA[2me partie
-
+Pendant l’exécution, les portes seront fermées
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003227_002.tif'/>
+        <page>
+          <![CDATA[2me partie
 cu hète au villagçeivoisin 1T Boïeldieu
-
 Espana .1 Chabrier
 Corps de flûtes
-
 Ondine Genevoise
-
 ° Matidolinistesaucongrés C.-À. Bracco
-
 Estudiantina Choralia et Orchestre Mandolinata
 Direction : J. Dovaz
-
 1 4à) Boléro sévillan*...…. , W. Mühlmann ‘
 b)iRève,et Réalité …… m J. Dovaz . p
 mêmes Sociétés, direction W. Mühlmann à
@@ -153,93 +157,62 @@ SSérenade/d’autrefoiss TT Silvestri
 Soliste : M. H. CAVAGLIANI, mandoliniste
 accompagné par l’O.M.
 Sl Qietdu Cairese *. mm Mozart
-
 Estudiantina Choralia et Orchestre Mandolinata
 Direction : A. Barbiéri
-
 10. Couronne d’or, ouverture. .. ... ... A. Hermann-Machiocchi
 Choralia, Eaux-Vivienne et Mandolinata
 Direction : J. Dovaz
 r*äf) w
 6 novembre —  SALLE DE Ll’'UNION — _ Rte de Lyon 20
-
- 
-
 SOIRÉE FAMILIÈRE e
-
 Repas - Distribution des récompenses
-
 Revue du 50”"° Anniversaire
-
 de D. Cacciabue
 W;F\—’
-
-SAUTERIE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003227_003.tif"/>
-<page><![CDATA[Festivités du 50"° Anniversaire de !’
-
+SAUTERIE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003227_003.tif'/>
+        <page>
+          <![CDATA[Festivités du 50"° Anniversaire de !’
 ORCHESTRE MANDOLINATA
-
 de GENÈVE
 Directeur : J. Dovaz
-
 G
 1893 1943
-
 2 septembre - Concert à la Promenade du Lac
-
- 
-
- 
-
 llorenzia;marches 3111 Felber
 Pl ysistratai(Vers.luisanti 1 Link
 J Gavotten.. *.* J. Dovaz
 21 Morena,bolero …. —. …. .… …… L ETE Zurfluh
 5. Trois chansons tessinoises
 (par les « ALLEGRI TICINESI »)
-
 c% Rigoletton st Verdi
 7 Marchesdusjapiléxde OM J. Dovaz
-
 8 octobre - Studio de Radio-Genève à 21 h. 25
 1 Rimembranzeandaluse … . . À. Alfieri
 2 Voiniduipays ouvenure s1 M Machiocon
 3 Milena} czardase * P. Bouillon-Machiocchi
-
 Au micro : Interwiew de M. A. Persiaux,
 président du Comité d'organisation.
-
- 
-
 9 octobre - Salle Communale de Plainpalais
 _ . à 20 h. 30 très précises
-
 SOIRÉE-FESTIVAL
-
 avec le concours des Sociétés :
-
 ORCHESTRE MANDOLINISTE MIXTE « ESTUDIANTINA » DE BIENNE
 Directeur : G. Tettamanti
-
 ; ESTUDIANTINA LAUSANNOISE CHORALIA
 Directeur : W. Mühlmann.
-
 ESTUDIANTINA EAUX-VIVIENNE DE GENÈVE
 Directeur : L. Biava.
-
-et de M. Ed. GRUET, baryton]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003227_004.tif"/>
-<page><![CDATA[=
-
+et de M. Ed. GRUET, baryton
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003227_004.tif'/>
+        <page>
+          <![CDATA[=
 g
-
- 
-
- 
-
 PROGRAMME
-
 e |
 f
 Les Bibelots da Diable . .1 1114 N M. Machiocchi
@@ -259,29 +232,22 @@ Murmure de'lamer ... :...:..%5 2 S. Salvetti ;
 Estudiantina Lausannoise Choralia.
 Humoresque. . : ... .1 A. Dvorak
 Rigoletto .* . 151000 G. Verdi
-
 Orchestre Mandolinata de Genève.
-
 à 23 heures: BAL conduit par Jack VORSEY
-
 10 octobre - Salle Communale de Plainpalais
-
 10 h. 30 Réunion des Délégués des Sociétés mandolinistes .
 11 h. 30 Apéritif-Concert. ‘
 12 h. 15 Repas officiel (3 coupons).
-
 MENU
-
 Rizotto chipolata
 Osso buco
 Pommes mousseline
 Salade
 Glace
-
- 
-
-Fr. 5.— plus service, sans vin 1]]></page>       
-        </p>
+Fr. 5.— plus service, sans vin 1
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

@@ -1,194 +1,129 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert symphonique (Septième de l'abonnement)<date when="24/01/1920"/></title>
-<series>1919-1920</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert symphonique (Septième de l'abonnement)
+            <date when='24/01/1920'/>
+          </title>
+          <series>1919-1920</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002332</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Ansermet, E. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19200124"/>
-<title>Concert symphonique (Septième de l'abonnement)</title>
-<placeName key="Victoria Hall"/>
-<name key="1919-1920" type="series"/>
-<name key="Schubert, Franz" ref="https://muscat.rism.info/admin/people/111603" type="person" role="cmp">Schubert, Franz</name>
-<name key="Malipiero, Francesco"  type="person" role="cmp">Malipiero, Francesco</name>
-<name key="Jaques-Dalcroze, Emile" ref="https://muscat.rism.info/admin/people/109238" type="person" role="cmp">Jaques-Dalcroze, Emile</name>
-<name key="Ravel, Maurice" ref="https://muscat.rism.info/admin/people/30008498" type="person" role="cmp">Ravel, Maurice</name>
-<name key="Ansermet, Ernest  (dir.)" ref="https://muscat.rism.info/admin/people/40219507" type="person" role="int">Ansermet, Ernest  (dir.)</name>
-<name key="Orchestre de la Suisse Romande" ref="https://muscat.rism.info/admin/people/50007615" type="person" role="int">Orchestre de la Suisse Romande</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002332_001.tif"/>
-<page><![CDATA[\
-
- 
-
- 
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19200124'/>
+        <title>Concert symphonique (Septième de l'abonnement)</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1919-1920' type='series'/>
+        <name key='Schubert, Franz' ref='https://muscat.rism.info/admin/people/111603' type='person' role='cmp'>Schubert, Franz</name>
+        <name key='Malipiero, Francesco' type='person' role='cmp'>Malipiero, Francesco</name>
+        <name key='Jaques-Dalcroze, Emile' ref='https://muscat.rism.info/admin/people/109238' type='person' role='cmp'>Jaques-Dalcroze, Emile</name>
+        <name key='Ravel, Maurice' ref='https://muscat.rism.info/admin/people/30008498' type='person' role='cmp'>Ravel, Maurice</name>
+        <name key='Ansermet, Ernest' ref='https://muscat.rism.info/admin/people/40219507' type='person' role='int'>Ansermet, Ernest</name>
+        <name key='Orchestre de la Suisse Romande' ref='https://muscat.rism.info/admin/people/50007615' type='person' role='int'>Orchestre de la Suisse Romande</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002332_001.tif'/>
+        <page>
+          <![CDATA[\
 Saïson 1919-1920
-
 ISSE ROMANDE
-
 DE LA
-
- 
-
- 
-
 PROGRAMME OFFICIEL
-
 |
 |
 R
 *
 ‘
 %
-
-‘ ORCHESTRE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002332_002.tif"/>
-<page><![CDATA[| Maebmes à Goudve
-
+‘ ORCHESTRE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002332_002.tif'/>
+        <page>
+          <![CDATA[| Maebmes à Goudve
 cmc
-
- 
-
- 
-
 SINGER
-
 Compagnie '81nger ‘de New-York
-
 Direction pour la Suisse : ; MAISONS DE VENTE
-
- 
-
 ‘ ; S EN GENÈVE :
 2, rue Michel-Roset - GENÈVE ‘ Corraterie, 15 — rue Pécolat, 3
-
- 
-
- 
-
 !
-
- 
-
 ‘ ont en magasin, pour la vente, les PARTITIÔNS D’'ORCHESTRE,
-
 Luthier du Conservatoire et de l’Orchestre de la Suisse romande.
-
 22, vue Général-Jufour - GENÈVE
-
- 
-
 Spécialistè pour tout ce qui concerne les 4instrumenfs à cordes,
-
 Cordes justes à bout jaune et noir.
 Les mellleures qnu existent. ;
 — Instmuments anciens
-
 MUSIQUE er INSTRUMENTS
-
 ROTSCHY FRÈRES
-
 22, Corraterie — _GENE‘VE
-
- 
-
 4
 \
-
 petit format, de toutes les œuvres jouées dans les concerts
 d’abonnement, pour autant qu’elles ont été publiées.
-
 ABONNEMENT très bien assorti, complété de toutes les œuvres md1quées au
 programme des concerts d' 1bonncment Condmons très fav orwbles ;
-
- 
-
- 
-
- 
-
- 
-
 w
-
 SEc ; À
 en ds ct cr e In rr e É rrr e LS u L pas A æ c pgprciene 540050 0= e E 00
 E S OE S ETE RE E E uE 8>
-
- 
-
 k p 2 f m p p e n rc uc
-
 ï ! Q
 ks s,
 0000
-
-   
-
 DEDE RE r ms
-
 à
 cs sp sp
-
 cS z
-
 ds d
-esse m]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002332_003.tif"/>
-<page><![CDATA[L d d RE t
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
+esse m
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002332_003.tif'/>
+        <page>
+          <![CDATA[L d d RE t
 ORCHESTRE DE LA SUISSE ROMANDE
 VICTORIA-HALL
 Samedi 24 janvier 1920, à 8 heures et demie
@@ -199,15 +134,10 @@ PROGRAMME ;
 - a) Andante. - Allegro ma non troppo. è
 b) Andante con moto. H l
 H ;
-
 c) Scherzo.
-
 0) Finale. Allegro vivace.
-
 DEUXIÈME PARTIE
-
 . IMPRESSIONI DAL VERO (1"“ aud.) Malipiero ;
-
 a) Il Capîne£‘o. ’*
 b) Il Picchio. À ë
 c\ 1 Chis. _ (
@@ -219,24 +149,19 @@ TALES (1"° audition) Ravel
 L'orchestre sera dirigé par
 M. ERNEST ANSERMET
 Le Concert commencera à 8 h. 30 très précises et sera terminé à 10 h. 15. ,
-
 PEN ° . ,
 Aucun morceau ne sera répété ni ajoulé au programme.
-
 La direction se réserve le droit d'apporter au programme foutes modifications que
-
 les circonstances pourraient lui imposer.
-
 Les porles seronl fermées pendanl l’exéculion Oes morceaux,
-
-H, Jarrys, Gonèvo]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002332_004.tif"/>
-<page><![CDATA[Franz SCHUBERT
-
+H, Jarrys, Gonèvo
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002332_004.tif'/>
+        <page>
+          <![CDATA[Franz SCHUBERT
 Ne à Lichtenthal, près Vienne, le 31 janvier 1797.
-
 Mort à Vienne, le 19 novembre 1828.
-
 Le musicien qu’une courte maladie enlevait à son art, à Vienne,
 le 19 novembre 1828, à l’âge de trente et un ans, était une des
 natures d'homme les plus adorables que le monde aif connues, un
@@ -254,7 +179,6 @@ les soins nécessaires ; sans doute aussi, tout n’est-il pas d’égale
 valeur. Il n’en reste pas moins que la musique y a déposé quelaues-
 uns de ses plus authentiques accents, y a fait entendre quelques-uns
 de ses plus purs appels. ‘
-
 Célèbre en son vivant par quelques-uns de ses lieder, on ne peut
 dire que ce fut là une justice complète qui lui ait été rendue. Partiel-
 lement méconnu par le public de son temps, il le fut plus encore par
@@ -265,11 +189,9 @@ garde à lui. Ce n’est que plusieurs années après sa mort, et parti-
 culièrement grâce à la découverte de certaines œuvres instrumentales
 restées inédites, que tout le sens de l’œuvre de Schubert devait être
 révélé.
-
 En 1859 se trouvant à Vienne, et ayant été faire un pélerinage
 auprès de la tombe de Schubert, Schumann eut l’idée d’aller faire
 visite à Ferdinand Schubert, frère aîné de Franz.
-
 « Il me connaissait, écrivit-il, pour la vénération que j'avais pour son frère. Il
 me raconta et me fit voir bien des choses. Enfin il me montra aussi quelques-unes
 des compositions de Franz Schubert qui restaient encore dans ses mains. Le tré-
@@ -284,25 +206,8 @@ rien entendre, ou presque rien de ses grandes compositions instrumentales. Qui
 sait jusqu'à quand encore cette symphonie serait restée dans la poussière et
 l'obscurité si je ne m'étais pas aussitôt entendu avec Ferdinand Schubert pour
 l'envoyer à Leipzig à la Direction des Concerts du Gewandhaus ou à celui qui
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 {
-
 S E O à E r e
-
-  
-
 Ë
 Ï
 Ë
@@ -313,7 +218,6 @@ R
 Ë
 E
 *q
-
 Ë
 :
 5
@@ -323,46 +227,20 @@ S
 5
 Ê
 $
-é]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002332_005.tif"/>
-<page><![CDATA[GP RNEE tn RE rc CEI
-
+é
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002332_005.tif'/>
+        <page>
+          <![CDATA[GP RNEE tn RE rc CEI
 p
-
- 
-
- 
-
 F SE ETE EN E
-
 é e RR T TT
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 les conduit (Mendelssohn), à l’artiste dont le regard pénétrant, habitué à distinguer
 les momdres germes de beauté naissante, n’aurait pas de peine à reconnaître la
 beauté rayonnante de cette œuvre. Ainsi fut fait. La symphonie fut envoyée à
 Leipzig, elle y fut entendue (22 mars 1839), comprise, rejouée, et bientôt admirée
 presque par tous. »
-
 La partition que Schumann eut entre les mains portait la date de
 mars 1828; elle datait donc de quelques mois avant la mort de
 Schubert. « Celui qui ne connaît pas cette symphonie, dit encore
@@ -396,7 +274,6 @@ de valses. Et le finale, avec son élan formidable, rappellera encore
 ce mot de Schumann : « Qu'il est bienfaisant, ce sentiment de richesse
 qu’on éprouve partout dans cette symphonie, tandis qu’avec d’autres
 musiciens on doit craindre à tout instant qu'ils ne soient à court… »
-
 Inutile donc de chercher à cette œuvre un sens dramatique qu'’elle
 ne comporte pas. Pour qu’elle nous parle comme elle le doit, il suffit
 que nofre imagination veille, attentive au flot d’images tour à tour
@@ -405,19 +282,13 @@ réelles et fabuleuses, qu'’elle nous apporte. — « O imagination,
 l’artiste et le savant! O bien que si peu connaissent et honorent,
 reste au milieu de nous, pour nous préserver des fausses lumières,
 des spectres trompeurs qui n’onf ni chair ni sang. »
-
 “j f e
-
- 
-
- 
-
- 
-
-;]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002332_006.tif"/>
-<page><![CDATA[Francesco MALIPIERO
-
+;
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002332_006.tif'/>
+        <page>
+          <![CDATA[Francesco MALIPIERO
 Né à Venise, le 18 mars 1882, G.-Francesco Malipiero appar-
 tient à une famille de musiciens. Une existence assez dramatique et
 semée d’aventures l’empêche de recevoir dès son jeune âge une édu-
@@ -447,13 +318,11 @@ des contes d’Edgar Poe. Le monde musical attend avec le plus vif
 intérêt la première représentation de sa dernière œuvre, qui est des-
 tinée à la scène, mais d’une conception dramatique tout à fait origi-
 nale, et qui a pour titre : Selle Canzont.
-
 La première série des Impressioni dal Vero (Tmpressions d'après nalure) inscrite
 à notre programme, a été couronnée, en même temps que trois autres œuvres de
 Malipiero, au « Concours national de musique de Rome », en 1915. Ce sont des
 pages d’un musicien encore jeune, mais spontané, non encore soumis à une influ-
 ence exclusive et qui se laisse aller, sans tendance réfléchie, à la musique.
-
 Dans une étude importante sur Malipiero (Jfercure de France du 15 mai 1919)
 M. H. Prunières écrit de cette œuvre : « Ce sont trois études, ou pour mieux dire,
 trois portraits d’oiseaux. Le premier mouvement : capinero, évoque le chant de la
@@ -466,189 +335,73 @@ est un nocturne plein de poésie et de recueillement. On jugerait mal ces « imp
 sions d’après nature » en leur attribuant des tendances à la description réaliste
 et objective. L'artiste.… cherche à susciter dans l'esprit des auditeurs l'impression
 musicale qu’il a lui-même, un jour, ressentie, en écoutant les confidences des
-
 frondaisons peuplées d'oiseaux. »
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 e =s
-
 p dn
-
-p3 R E ..\.w! c]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002332_007.tif"/>
-<page><![CDATA[PR A SI
-
+p3 R E ..\.w! c
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002332_007.tif'/>
+        <page>
+          <![CDATA[PR A SI
 *
-
 0506 SE
-
- 
-
- 
-
- 
-
 PIANOS
-
 VENTE ET LOCATION
-
 12, FUSTERIE, 12 TÉLÉPHONE 21.24
-
 La Banque de Dépôts et de Crédit
-
 I8, Rue de Hesss - GENEÈVE - 10, Rue Diday
-
- 
-
 reçoit actuellement de l'ARGENT EN DÉPÔT
-
 à des conditions très avantageuses.
-
 M" Charces BERGUER
-
 Successeur de Louis BRON et Charles BERGUER.
 11, rue Petitot - GENÈVWE - 3, rue du Grütli
-
 Maison genevoise fondée en 1830.
 TÉLÉPHONE 164 L 29e Compte-chèques I. 1920
 REPRÉSENTANT DES FABRIQUES
 ERARD, PLEYEL, BECHSTEIN, STEINWAY & SONS, SCHIEDMAYER
 PIANOFORTEFABRIK, BURGER & JACOBI, SCHMIEDT-FLOR, RORDAY, ESTEY.
 Vente, Locations, Accords, Réparations, Transports.
-
 DROGUFRIE MODERNE
-
 Croix-d’Or, 233 — GENÈVE — Téléphone 64 -99
-
- 
-
- 
-
- 
-
 La seule droguerie moderne à Genève.
 Nos produits s’imposent par leur qualité !
 Service à domicil. CASTELLA FRÈRES.
-
- 
-
- 
-
- 
-
 — 5 —
-
- 
-
- 
-
- 
-
 “
-S = —- Ëä]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002332_008.tif"/>
-<page><![CDATA[Une Rénovation
-
- 
-
+S = —- Ëä
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002332_008.tif'/>
+        <page>
+          <![CDATA[Une Rénovation
 dans l'industrie électrique :
-
 Les appareils de chauffage
-
 Hiltus ”
-
 qui vont sortir
-
- 
-
 des Etablissements U. H. Hiltebrand & C'
-
 à Carouge-Genève.
-
- 
-
 En vente chez les principaux électriciens-concessionnaires.
-
- 
-
 III
-
- 
-
- 
-
 Sachet de 60 grammes
 (6 œufs) 1 fr. 90.
-
 Sachet de 120 grammes
 (12 œufs) 3 fr. 80.
-
 Mode d’emploi sur chaque sachet.
 En vente dans toutes les bonnes
-
 maisons d'alime ntation.
-
- 
-
- 
-
- 
-
 RAAARAAAAAR
-
- 
-
- 
-
- 
-
- 
-
- 
-
 nn p m A
-
 RE
-
- 
-
-e]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002332_009.tif"/>
-<page><![CDATA[P r
-
- 
-
+e
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002332_009.tif'/>
+        <page>
+          <![CDATA[P r
 RESRE EU E uT
-
 T d ETE SR TT DR ETE E E E I
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Emile JAQUES-DALCROZE
-
 On sait que toute l’activité de Jaques-Dalcroze est orientée vers
 la recherche, la découverte et le développement des possibilités
 expressives de la danse. L’an dernier, l’Orchestre de la Suisse
@@ -664,10 +417,8 @@ fère donné et d’une expression simple, réduisant les moyens expres-
 sifs à l'essentiel, et où la virtuosité rythmique de Jaques-Dalcroze
 n’est plus, elle aussi, qu’un moyen paraissant tfout spontané et
 nafurel.
-
 44
 Maurice RAVEL
-
 La notoriété acquise ces dernières années par ce compositeur qui,
 après bien des luttes, a pris la place de premier plan qu’il méritait
 dans l’école française contemporaine, nous dispense de revenir sur
@@ -696,171 +447,99 @@ l’esprit de ces petits morceaux à la fois précieux et légers, que ces
 mots d’Henri de Régnier que l’auteur a mis en épigraphe à son
 @uz‘_tie : « Le plaisir délicieux et toujours nouveau d’une occupation
 inufile.… »
-
- 
-
 çä%—_ 2
 e
 ==
 F es = mm __ä
-e]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002332_010.tif"/>
-<page><![CDATA[— — ——
+e
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002332_010.tif'/>
+        <page>
+          <![CDATA[— — ——
 x
-
 Dimanche'25 janvier 1920, à 3 beures -- Salle Communale de Plainpalais
-
 XI" CONCERT POPULAIRE
 sous la direction de M. E. ANSERMET
-
 Œluvres de Mozarr, Rameav, Bacu, Laro, n'Inpy et Borrmann.
-
- 
-
 Mardi 27 janvier 1920 — Salle Ou Conservatoire
-
- 
-
 II SÉANCE DE MUSIQUE DE CHAMBRE
-
 QUINTETTE de /ozart. -- OCTETTE de Schubert,
 MM. Closset, Pommer, Sottiaux, de Sanctis, Oliver, Hoogstoel, Dennes,
 de Beir, Scheiwein et Matthes.
-
 AVIS
-
 Le Comité de direction informe MM. les abonnés et habitués
 des Concerts que, contrairement à ce qui a été affirmé par le critique
 musical de Za Suisse, M. Al. M., dans son compte rendu du Concert
 du 10 janvier, le Concerro BRANDEBOURGEOIS de Bach et la Surre de
 Rameau n’ont pas été joués par tout l'orchestre, mais à effectif
 réduit, soit :
-
 1. Le Concerro BraNDEBOURGEOIS (la partie polyphonique et
 l’Adagio jusqu'à sa conclusion), quatre premiers violons, quatre
 seconds, trois altos, deux violoncelles, deux contrebasses.
-
 2. La SurrE de Rameau, huit premiers violons, six seconds,
 quatre altos, quatre violoncelles, deux contrebasses.
-
- 
-
- 
-
 VICTORIA-HALL
-
- 
-
 Samedi 31 janvier, à & heures et demie
-
 CONCERT EXTRAORDINAÏIRE
-
 (en dehors de l’abonnement)
-
 avec le concours du
-
 CHOEUR MIXTE DE ZURICH
-
 Chœurs et Orchestre : 350 exécutants
-
 sous la direction de
-
 M. le D* V. ANDREÆ
-
 pSS RS
 - rrr cm
-
- 
-
 — 8 —
-
 "4
-
 ce
 SRE
-
 p
-
 ;
-
- 
-
- 
-
- 
-
- 
-
 *
-
 ä
 n
 -j
 q
 3
 Ë
-
 TN
-
-4]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002332_011.tif"/>
-<page><![CDATA[$ \\\\“lllllllllllllllllllllllïll……ﬂlll… Mn TT
+4
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002332_011.tif'/>
+        <page>
+          <![CDATA[$ \\\\“lllllllllllllllllllllllïll……ﬂlll… Mn TT
 S
-
 S
 N
 S
 1>
-
 llll…lllllllllllllllÙlﬂMllül]lllﬂ……l!lllillllllllllllllllllllﬂl……llll…ll“lll…l…ﬂllll““ﬂﬂ" mmm
-
-    
-  
-    
-
-  
-  
-     
-     
-     
-         
-
- 
-
 U
 //////
-
- 
-
 COSTUMES-
 PARDE SSUS
-
 lotours Ç
 les dernières
 @reéalons.
-
 Notre Spécialité:
 Vêtements An glaxs
 pour la Vil ;
 | et 1ës Sports
-
 Ë
 Ÿ
-
 e ;
 in
 Ë
-
-   
-
-e]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002332_012.tif"/>
-<page><![CDATA[090
-
- 
-
-£ Jarrys Genèvo]]></page>       
-        </p>
+e
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002332_012.tif'/>
+        <page><![CDATA[090
+£ Jarrys Genèvo
+]]></page>
+      </p>
     </body>
   </text>
 </TEI>

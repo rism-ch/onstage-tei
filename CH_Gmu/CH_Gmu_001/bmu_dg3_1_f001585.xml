@@ -1,85 +1,92 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Grand concert d'adieu <date when="23/06/1884"/></title>
-<series>1883-1884</series>
-<placeName>Salle de la Réformation</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Grand concert d'adieu 
+            <date when='23/06/1884'/>
+          </title>
+          <series>1883-1884</series>
+          <placeName>Genève, Salle de la Réformation</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU DG3-1 F001585</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Morini, A. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18840623"/>
-<title>Grand concert d'adieu </title>
-<placeName key="Salle de la Réformation"/>
-<name key="1883-1884" type="series"/>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Donizetti, Gaetano" ref="https://muscat.rism.info/admin/people/18064" type="person" role="cmp">Donizetti, Gaetano</name>
-<name key="Flotow [et al.]"  type="person" role="cmp">Flotow [et al.]</name>
-<name key="Morini, A. (dir.)"  type="person" role="int">Morini, A. (dir.)</name>
-<name key="Ferni, C."  type="person" role="int">Ferni, C.</name>
-<name key="Pattini, R."  type="person" role="int">Pattini, R.</name>
-<name key="Bettini, A. [et al.]"  type="person" role="int">Bettini, A. [et al.]</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg3_1_f001585_001.tif"/>
-<page><![CDATA[DE DONIZETÏI — Linda de Chamounix « Duo pour soprano et basse». . Mlle Parrin1 et M. GRAZIOSI.
-
- 
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18840623'/>
+        <title>Grand concert d'adieu </title>
+        <placeName key='Genève, Salle de la Réformation'/>
+        <name key='1883-1884' type='series'/>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Donizetti, Gaetano' ref='https://muscat.rism.info/admin/people/18064' type='person' role='cmp'>Donizetti, Gaetano</name>
+        <name key='Flotow, Friedrich von' type='person' role='cmp'>Flotow, Friedrich von</name>
+        <name key='Verdi, Giuseppe' type='person' role='cmp'>Verdi, Giuseppe</name>
+        <name key='Blangini, Felice' type='person' role='cmp'>Blangini, Felice</name>
+        <name key='Schubert, Franz' type='person' role='cmp'>Schubert, Franz</name>
+        <name key='Aromatari, Edoardo' type='person' role='cmp'>Aromatari, Edoardo</name>
+        <name key='Scuderi' type='person' role='cmp'>Scuderi</name>
+        <name key='Gounod, Charles-François' type='person' role='cmp'>Gounod, Charles-François</name>
+        <name key='Mendelssohn Bartholdy, Felix' type='person' role='cmp'>Mendelssohn Bartholdy, Felix</name>
+        <name key='Morini, Arturo' type='person' role='int'>Morini, Arturo</name>
+        <name key='Ferni, Caroline' type='person' role='int'>Ferni, Caroline</name>
+        <name key='Pattini, Raphaela' type='person' role='int'>Pattini, Raphaela</name>
+        <name key='Bettini, Alexandre' type='person' role='int'>Bettini, Alexandre</name>
+        <name key='Graziosi, Philippe' type='person' role='int'>Graziosi, Philippe</name>
+        <name key='Aromatari, Edoardo' type='person' role='int'>Aromatari, Edoardo</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg3_1_f001585_001.tif'/>
+        <page>
+          <![CDATA[DE DONIZETÏI — Linda de Chamounix « Duo pour soprano et basse». . Mlle Parrin1 et M. GRAZIOSI.
 j
-
- 
-
 SALLE DE LA RÉFORMATION
-
 ANNS NNN SS SSN SS SSN SS SSN S S SS S LILOL E P <N x Bn G=10 0 Î E RE
-
 E DISN NNN IN NNN
-
 —'ÎLÜNDI 28 JÜIN se A 8, HEURES DU SOR
 A l_A DEMANDE GENERAL.E
-
 ND CONCEBT D'ADIEU
-
 SOUS LA DIRECTION DE
-
 M ARTURO MORINI
-
 AVEC LE CONCOURS DES ARTISTES
-
 !
-
 ;
 Z
 Ë
@@ -97,26 +104,17 @@ $
 }
 #
 i
-
 M. BETTINI ALEXANDRE ténor — M. CRAZIOSI PHILIPPE, basse chantante
 -M. AROMATARI EDOARDO, pianiste et compositeur
 A S A A A EN S A A A A A A
-
 PROGRAMME :
-
 PREMIERE PRs
-
 BEETHOVEN — Romance en fa majeur pour violon et piano. . . . . MmeFernrn: et M. AROMATARI.
 DONIZETTI — Le Philtre « duo pour ténor et basse » . . . . . . Mrs BerrINt et GrazIosI.
-
 . FLOTOW — Martha « Romance poursoprano» . . . . . . . . . Mlle ParTIN1.
-
 . — VERDI — Don Carlos « Grand air pour basse » e 61000 N OR A 71081
-
 . _ BLANGINI — Duettino pour soprano et ténor . . . . . 2 2.5 MIle ParrIn1 et M. BETTINI,
-
 SECONDE PARTIE
-
 f a(F. SCHUBERT — Moment musical u q. | M.E. À
 117800 Sh T
 3. 4«=V!ERDI*»—«DO“ Æarlôs“« Grand air du-Voile pour soprano ». Ÿ . . . Mme C. Fernt.
@@ -124,35 +122,22 @@ f a(F. SCHUBERT — Moment musical u q. | M.E. À
 | >.  GOUNOD — Valse pour soprano (à la demande) . . . Mlle ParriNT.
 '6 MENDELSSOHN — Adagçio et Rondeau du Concert en mi mineur pour
 violon et p 11 1 Mime Henni ct M ATOMATART.
-
 A
-
 Le piano sera tenu par M. AROMATARI
-
 … Prixæ des places : Réservées, 5 fr. — Première Galerie, 2 fr.— Parterre, 1 fr.— Deuxième Galerie, 50 cent.
-
 Entree pour Parterre et Réservées pa1 la grande facade ; première et deuxième Galeries, rue du Rhône
-
 E TGOATOTOTERAITONTESATOV Û
-
 °.
 es t
 "‘\v\"
-
 FOVE S NTONE S NNTOYS
-
- 
-
 LS — { OLNSNNL S
-
 N, B. — Le concert sera terminé vers 10 heures.
-
- 
-
 Ÿ reox
-
-ÆW*ŒW*MY&@—&W@#ŒW*&@—&**Œ@"'Ï ,]]></page>       
-        </p>
+ÆW*ŒW*MY&@—&W@#ŒW*&@—&**Œ@"'Ï ,
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

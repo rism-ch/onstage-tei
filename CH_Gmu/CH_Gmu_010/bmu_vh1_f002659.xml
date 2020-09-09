@@ -1,253 +1,135 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>1er grand concert populaire<date when="24/10/1927"/></title>
-<series>1927-1928</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            1er grand concert populaire
+            <date when='24/10/1927'/>
+          </title>
+          <series>1927-1928</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002659</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Gabelles, G. </note>
+        <note>Pochon, A. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19271024"/>
-<title>1er grand concert populaire</title>
-<placeName key="Victoria Hall"/>
-<name key="1927-1928" type="series"/>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Heinrich"  type="person" role="cmp">Heinrich</name>
-<name key="Gabelles, Gustave  (dir.)" ref="https://muscat.rism.info/admin/people/30073762" type="person" role="int">Gabelles, Gustave  (dir.)</name>
-<name key="Pochon, A. (dir.)"  type="person" role="int">Pochon, A. (dir.)</name>
-<name key="Harmonie Nautique "  type="person" role="int">Harmonie Nautique </name>
-<name key="Concordia"  type="person" role="int">Concordia</name>
-<name key="Fleutet, Elsa"  type="person" role="int">Fleutet, Elsa</name>
-<name key="Wehrli, Arthur"  type="person" role="int">Wehrli, Arthur</name>
-<name key="Charrot, Fernand"  type="person" role="int">Charrot, Fernand</name>
-<name key="Zumsteg, Hélène"  type="person" role="int">Zumsteg, Hélène</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002659_001.tif"/>
-<page><![CDATA[|
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19271024'/>
+        <title>1er grand concert populaire</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1927-1928' type='series'/>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Heinrich' type='person' role='cmp'>Heinrich</name>
+        <name key='Gabelles, Gustave' ref='https://muscat.rism.info/admin/people/30073762' type='person' role='int'>Gabelles, Gustave</name>
+        <name key='Pochon, A.' type='person' role='int'>Pochon, A.</name>
+        <name key='Harmonie Nautique ' type='person' role='int'>Harmonie Nautique </name>
+        <name key='Concordia' type='person' role='int'>Concordia</name>
+        <name key='Fleutet, Elsa' type='person' role='int'>Fleutet, Elsa</name>
+        <name key='Wehrli, Arthur' type='person' role='int'>Wehrli, Arthur</name>
+        <name key='Charrot, Fernand' type='person' role='int'>Charrot, Fernand</name>
+        <name key='Zumsteg, Hélène' type='person' role='int'>Zumsteg, Hélène</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002659_001.tif'/>
+        <page>
+          <![CDATA[|
 î
 |
 |
-
- 
-
- 
-
- 
-
-  
-
 r
 '\
-
- 
-
- 
-
- 
-
 VILLE DE
-
 VICTORIA-HALL
-
- 
-
- 
-
- 
-
- 
-
 & Æ
-
- 
-
 GENÈVER”"
-
 ' v
 SAISON 192 7_—1 928
-
- 
-
 Lundi 24 Octobre, à 20 h. 30 (8 h. 30)
-
 f* Grand Concert Populaire
-
 ORGANISÉ PAR LE
-
 CONSEIL ADMINISTRATIF DE LA VILLE DE GENÈVE
-
 AVEC LE BIENVEILLANT ET GRACIEUX CONCOURS DE
-
- 
- 
-
 A
-
- 
-
- 
-
- 
-
 E
-
 L’Harmonie Nautique (Harmonie Municivale)
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
- 
-   
- 
-
- 
-
 Directeur : M. G. Gabelles
-
- 
-
- 
-
- 
-
 La Société Chorale GOIIGOI‘CIÏH
 L Diecteur: M. A. Pochon __
-
- 
-
- 
-
 IN" Etsa FLEUTET
-
 CANTATRICE
-
- 
-
- 
-
- 
-
 M. Artnur WEHRLI
-
 TÉNOR
-
 m. fEfllﬂﬂﬂ cunnnm
-
 BASSE
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 et d’un Chœur de Dames
-
- 
-
- 
-
 PROGRAMME
-
 PREMIÈRE PARTIE
-
 1. Ouverture du Vaisseau fantôme . WAGNER
 2. Tristan et Iseult (duo du 2e acte) . Id.
-
 Mme Elsa Fleutet et M. A. Wehrli
 (avec accompagnement d'orchestre)
-
 3. Parsifal(scène des Chevaliers du Graal) Id.
-
 MM. F. Charrot et A. Wehrli
 Chœur mixte et orchestre (230 exécutants)
-
 Pendant l’exécution des morceaux
 être observé. Prière de ne pas faire les
 complètement exécuté,
-
- 
-
- 
-
 les portes seront fermées et le silence le plus absolu devra
 préparatifs de départ avant que le dernier morceau ne soit
-
 SECONDE PARTIE
 4. Chœur des fileuses ......... WAGNER
-
 (Chœur de Dames)
 Au piano ; Mlle Hélène Zumsteg
-
 5, Das Hildebrandlied . . (Chant du 13c siècle)
-
 6. Geistesfluten.............. FIEINRICH
 (Concordia)
 TROISIÈME PARTIE
 7, Prélude de Lohengrin..... ... WAGNER
 8. Sélection sur Siegfried ..... ... Id.
-
 Ténor : M. A. Wehrli
-
- 
-
- 
-
- 
-
 F] = [e]
-
- 
-
-[5]]]></page>       
-        </p>
+[5]
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

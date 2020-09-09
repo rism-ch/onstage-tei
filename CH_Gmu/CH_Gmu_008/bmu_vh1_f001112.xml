@@ -1,108 +1,104 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par l'Harmonie nautique<date when="15/01/1911"/></title>
-<series>1910-1911</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par l'Harmonie nautique
+            <date when='15/01/1911'/>
+          </title>
+          <series>1910-1911</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F001112</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Pieyre, A. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19110115"/>
-<title>Concert donné par l'Harmonie nautique</title>
-<placeName key="Victoria Hall"/>
-<name key="1910-1911" type="series"/>
-<name key="Boellmann"  type="person" role="cmp">Boellmann</name>
-<name key="Schumann, Robert" ref="https://muscat.rism.info/admin/people/131206" type="person" role="cmp">Schumann, Robert</name>
-<name key="Saint-Saëns, Camille" ref="https://muscat.rism.info/admin/people/76734" type="person" role="cmp">Saint-Saëns, Camille</name>
-<name key="Indy, Vincent d'" ref="https://muscat.rism.info/admin/people/114686" type="person" role="cmp">Indy, Vincent d'</name>
-<name key="Gigout, Eugène" ref="https://muscat.rism.info/admin/people/62831" type="person" role="cmp">Gigout, Eugène</name>
-<name key="Bruneau, Alfred" ref="https://muscat.rism.info/admin/people/78271" type="person" role="cmp">Bruneau, Alfred</name>
-<name key="Brahms, Johannes" ref="https://muscat.rism.info/admin/people/39914" type="person" role="cmp">Brahms, Johannes</name>
-<name key="Fuchs, E."  type="person" role="cmp">Fuchs, E.</name>
-<name key="Bizet, Georges" ref="https://muscat.rism.info/admin/people/20057" type="person" role="cmp">Bizet, Georges</name>
-<name key="Pieyre, Auguste (dir.)"  type="person" role="int">Pieyre, Auguste (dir.)</name>
-<name key="Harmonie Nautique"  type="person" role="int">Harmonie Nautique</name>
-<name key="Blattner, Jeanne"  type="person" role="int">Blattner, Jeanne</name>
-<name key="Bastard, William"  type="person" role="int">Bastard, William</name>
-<name key="Möller, Marguerite"  type="person" role="int">Möller, Marguerite</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001112_001.tif"/>
-<page><![CDATA[d VICTORIA - HALL %
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19110115'/>
+        <title>Concert donné par l'Harmonie nautique</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1910-1911' type='series'/>
+        <name key='Boellmann' type='person' role='cmp'>Boellmann</name>
+        <name key='Schumann, Robert' ref='https://muscat.rism.info/admin/people/131206' type='person' role='cmp'>Schumann, Robert</name>
+        <name key='Saint-Saëns, Camille' ref='https://muscat.rism.info/admin/people/76734' type='person' role='cmp'>Saint-Saëns, Camille</name>
+        <name key='Indy, Vincent d&apos;' ref='https://muscat.rism.info/admin/people/114686' type='person' role='cmp'>Indy, Vincent d'</name>
+        <name key='Gigout, Eugène' ref='https://muscat.rism.info/admin/people/62831' type='person' role='cmp'>Gigout, Eugène</name>
+        <name key='Bruneau, Alfred' ref='https://muscat.rism.info/admin/people/78271' type='person' role='cmp'>Bruneau, Alfred</name>
+        <name key='Brahms, Johannes' ref='https://muscat.rism.info/admin/people/39914' type='person' role='cmp'>Brahms, Johannes</name>
+        <name key='Fuchs, E.' type='person' role='cmp'>Fuchs, E.</name>
+        <name key='Bizet, Georges' ref='https://muscat.rism.info/admin/people/20057' type='person' role='cmp'>Bizet, Georges</name>
+        <name key='Pieyre, Auguste' type='person' role='int'>Pieyre, Auguste</name>
+        <name key='Harmonie Nautique' type='person' role='int'>Harmonie Nautique</name>
+        <name key='Blattner, Jeanne' type='person' role='int'>Blattner, Jeanne</name>
+        <name key='Bastard, William' type='person' role='int'>Bastard, William</name>
+        <name key='Möller, Marguerite' type='person' role='int'>Möller, Marguerite</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001112_001.tif'/>
+        <page>
+          <![CDATA[d VICTORIA - HALL %
 cuu d ut | Dimanche 15 Janvier 190 | smm
-
 sé CONCERT æ
-
 donné par
-
- L'HARMONIE NAUTIQUE DE GENÈVE
-
+L'HARMONIE NAUTIQUE DE GENÈVE
 sous la direction de
-
 M. Aususte PIEYRE
-
 Professeur au Conservatoire
-
 b€‘_\—).
 S
-
 BQ
-
 avec le gracieux concours de
-
 M"* Jeanne BLATTNER M. William BASTARD
-
 Mezzo-Soprano. Organiste.
 ——
 PREMIÈRE PARTIE
 SUN COTMRIQUE pourorue. ; . Bællmann.
-
 @) Choral et Menuet gothique.— b) Prière à Notre-Dame.
 c) Toccata.
-
 ENANEREP onvemme 111n Schumann.
 . Andante de la SYMPHONIE avec orgue . . . . . . . . Saint-Saëns,
 PadesANSONEBIEDAEIES 1 — Saint-Sarns.
-
 (Samson recherchant ma présence.…)
 M"° Jeanne BLATTNER.
 . LE CAMP DE WALLENSTEIN, poème symphonique . . Vincent d’Indy.
-
 GRn3
-
 DEUXIÈME PARTIE
 6. TOCCATA pour orgue. 01e s1 E Girout
 abrelutes déEMENRFANTERO 71s Bruneau.
@@ -112,59 +108,44 @@ M"* Jeanne BLATTNER. ;
 Ë L’ARLÉSIENNE, suiterdionchésue # e Bizet.
 «) Allegro deciso. — b) Intermezzo. — «) Minuetto.
 d) Adagietto. — e) Carillon. — f) Farandole,
-
 Au piano : Mlle Marguerite MÔLLER, professeur de piano.
-
 Piano BLÜTHNER, gracieusement offert par la Maison SAUTIER & JÆGER,
-
 ——
-
 PRIX DES PLACES : Loges et premier rang de la première Galerie (numérotés), 2 fr. — Rez-de-
 ,chaussée el autres places de la première Galerie, 1 fr. — Seconde Galerie, 50 cent,
-
 ä
 MM les membres non-exéeutants ont droit d’entrée à ce concert sur présentation du coupon
-
 n° L aux places du rez-de-chaussée el de la première galerie. à l'exception du premier vang et |
 des loges, auxquels ils ont droït moyennant un supplément de 1 fr. — Les enfants au dessous de
 dix ans paicront demi-place, — Il ne sera pas délivré de demi places pour la seconde galevie,
 ; , se « A A $
 Dès ce jour, cartes à l'avance de 9 à 6 h., au Victoria-Hall. £î‘ÿ
 Prière de ne pas entrer pendant l'exécution des morceaux. — BUFFET au rez-de-chaussée.
-
 ANF
-
 E3 És LR D Éo AOSTE L Îs HO D
-
 @
-
 c
 @
 "
-
 N
-
 $7E
 b
 a)
-
 5
-
 {@)
-
 4
 u£
 ‘’mprimerie H- Jarrys, Treille, & Geneve T. s.
-
-V.e P.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001112_002.tif"/>
-<page><![CDATA[Le Camp de Wallenstein.
-
+V.e P.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001112_002.tif'/>
+        <page>
+          <![CDATA[Le Camp de Wallenstein.
 Après une exposition du thème guerrier en sol majeur par toute
 l’harmonie, les bois présentent (également en sol) une sorte de valse
 lente qui aboutit bientôt à un rythme de danse sauvage d’une tonalité
 assez indécise.
-
 Suivent divers épisodes tirés de ces trois motifs. Puis un arrêt se
 produit dans le mouvement et les bassons, clarinette-basse et saxo-
 phones, exposent, à tour de rôle, un sujet fugué d’une allure grotes-
@@ -173,49 +154,36 @@ du capucin) qui, se répercutant à divers instruments, se trouve brus-
 quement interrompu par la première apparition du thème de Wallen-
 stein amenant la rentrée du thème guerrier dans des teintes plus
 radoucies.
-
 Les danses reprennent et conduisent, en s’animant graduellement,
 à un tumulte final qui n’est autre que la condensation du premier
 motif; le morceau se termine par les quelques notes du thème de
 Wallenstein, jetées par les cuivres de sonorité claire, au milieu du
 fortissimo de l’harmonie.
-
 e X 2Ï4 > è—>%
 N
 * Cours d’Instruments w
-
- 
-
 DE
-
 L'HARMONIE NAUTI
-
 QUE DE GENÈVR
-
 —E DE
 Solfège —- Cuivres — Clarinette — Saxophone — Hautbois
 Cor anglais — Basson — Flûte.
 Directeur général : M. Aug. PIEYRE.
-
 Prix des cours de solfège, cuivres, clarinettes, saxophones :
 5 fr. par mois.
-
 Les jeunes gens désireux de suivre ces cours peuvent
-
 sS’inscrire tous les jours, de 11 heures à midi, auprès du
-
 e 1 Inotinnia (,
 $ Directeur, au Victoria-Hall. $
 - Ï‘à}g“i\.
-
- 
-
 AVIS. — Pour être recu membre non-exécutant de l’Harmonie
 Nautique on peut s’inscrire tous les Jjours chez le Concierge du
 Victoria-Hall ou par lettre adressée au Comité; le prix de la carte
 est de 8 fr. par an et donne droit à deux entrées pour chaque
-concert donné par l’Harmonie Nautique.]]></page>       
-        </p>
+concert donné par l’Harmonie Nautique.
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

@@ -1,80 +1,93 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Grand concert symphonique donné par l'Orchestre Colonne (du cercle d'Aix-les-Bains)<date when="30/09/1884"/></title>
-<series>1883-1884</series>
-<placeName>Salle de la Réformation</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Grand concert symphonique donné par l'Orchestre Colonne (du cercle
+            d'Aix-les-Bains)
+            <date when='30/09/1884'/>
+          </title>
+          <series>1883-1884</series>
+          <placeName>Genève, Salle de la Réformation</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU DG3-1 F001586</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Colonne, E. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18840930"/>
-<title>Grand concert symphonique donné par l'Orchestre Colonne (du cercle d'Aix-les-Bains)</title>
-<placeName key="Salle de la Réformation"/>
-<name key="1883-1884" type="series"/>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Berlioz, Hector" ref="https://muscat.rism.info/admin/people/13803" type="person" role="cmp">Berlioz, Hector</name>
-<name key="Massenet, Jules  [et al.]" ref="https://muscat.rism.info/admin/people/84264" type="person" role="cmp">Massenet, Jules  [et al.]</name>
-<name key="Colonne, E. (dir.)"  type="person" role="int">Colonne, E. (dir.)</name>
-<name key="Orchestre Colonne (du cercle d'Aix-les-Bains)"  type="person" role="int">Orchestre Colonne (du cercle d'Aix-les-Bains)</name>
-<name key="Ferni"  type="person" role="int">Ferni</name>
-<name key="Oudshoorn"  type="person" role="int">Oudshoorn</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg3_1_f001586_001.tif"/>
-<page><![CDATA[SALLE DE LA RÉFORMATION
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18840930'/>
+        <title>
+          Grand concert symphonique donné par l'Orchestre Colonne (du cercle
+          d'Aix-les-Bains)
+        </title>
+        <placeName key='Genève, Salle de la Réformation'/>
+        <name key='1883-1884' type='series'/>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Berlioz, Hector' ref='https://muscat.rism.info/admin/people/13803' type='person' role='cmp'>Berlioz, Hector</name>
+        <name key='Massenet, Jules' ref='https://muscat.rism.info/admin/people/84264' type='person' role='cmp'>Massenet, Jules</name>
+        <name key='Saint-Saëns, Camille' type='person' role='cmp'>Saint-Saëns, Camille</name>
+        <name key='Chopin, Fryderyk Franciszek' type='person' role='cmp'>Chopin, Fryderyk Franciszek</name>
+        <name key='Beethoven, Ludwig van' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Bizet, Georges' type='person' role='cmp'>Bizet, Georges</name>
+        <name key='Lully, Jean-Baptiste' type='person' role='cmp'>Lully, Jean-Baptiste</name>
+        <name key='Delibes, Léo' type='person' role='cmp'>Delibes, Léo</name>
+        <name key='Colonne, Edouard' type='person' role='int'>Colonne, Edouard</name>
+        <name key='Orchestre Colonne (du cercle d&apos;Aix-les-Bains)' type='person' role='int'>Orchestre Colonne (du cercle d'Aix-les-Bains)</name>
+        <name key='Ferni' type='person' role='int'>Ferni</name>
+        <name key='Oudshoorn' type='person' role='int'>Oudshoorn</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg3_1_f001586_001.tif'/>
+        <page>
+          <![CDATA[SALLE DE LA RÉFORMATION
 Mardi 30 Septembre 1884, à S h. du soir
 GRAND
-
 Concert Spmphonique
-
 DONNÉ PAR
-
 L'ORCHESTRE COLONNE
-
 (DU CERCLE D’AIX-LES BAINS)
 SOUS LA DIRECTION DE
-
 ED. COLLOONNE
-
 DES CONCERTS DU CHATELET
-
 Violon-Solo: M. FERNIL — Violoncelle-Solo: M. OUDSHOORN
-
 ——>
-
 PROGRAMME
 PREMIÈRE PARTIE
 1 Ouverturedu Lonnhduser . . . 2 . ; . . ; WAGNER.
@@ -84,11 +97,8 @@ PREMIÈRE PARTIE
 dN T- S SAINT-SATNS,
 I. Introduction. — Entrée des clans.
 IL. 1dylle écossaise.
-
 IIL. Danse de la Gypsy. »
-
 IV. Gigue et Final.
-
 1° Marche funèbre . P CHOPIN.
 pDp pérémade(CUps t . 1n 118 A Bebrhoven
 I. Marche.
@@ -104,41 +114,25 @@ r ; AN WN A CaAaNvLeE
 , 4 La Damnation de Faust . T s; BERLIOZ.
 I. Valse des Sylphes.
 IL. Marche hongroise.
-
- 
-
 sà
-
- 
-
- 
-
 —42—63-—2
-
 3 MASSENET.
-
 DEUXIÈME PARTIE
-
 1c
 ) 0
 q
-
 GENÈVE. — IMPR. ANGLAISE, PLACE BEL-AIR, l
-
 Places réservées (milieu duPnteue) 10 fr. — Premières 5 fr.
 Parterre 3 f£ p ÏS_gçoÿqdes 50 cent.
-
 , BGF S’adresser pour les places réservées chez Mlle FREY, mag. de musique, Corraterie, 16, $
 pour les autres places chez tous les marchands de musique etchez le concierge-de la Salle
 de la Réformation.
-
 SS SSN SS SSSA SN A UU
-
- 
-
 sè> 6a_ 668" 4a-ca- 7303 R
-Tramways pour Chêne et Jarouge à la sortie. ;]]></page>       
-        </p>
+Tramways pour Chêne et Jarouge à la sortie. ;
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

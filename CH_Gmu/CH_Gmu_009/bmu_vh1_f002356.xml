@@ -1,158 +1,130 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par le Corps de musique de Landwehr<date when="28/11/1920"/></title>
-<series>1920-1921</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par le Corps de musique de Landwehr
+            <date when='28/11/1920'/>
+          </title>
+          <series>1920-1921</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002356</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Hoogstoël, L. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19201128"/>
-<title>Concert donné par le Corps de musique de Landwehr</title>
-<placeName key="Victoria Hall"/>
-<name key="1920-1921" type="series"/>
-<name key="Chabrier, Emmanuel" ref="https://muscat.rism.info/admin/people/48553" type="person" role="cmp">Chabrier, Emmanuel</name>
-<name key="Gluck, Christoph Willibald" ref="https://muscat.rism.info/admin/people/67338" type="person" role="cmp">Gluck, Christoph Willibald</name>
-<name key="Mozart, Wolfgang Amadeus" ref="https://muscat.rism.info/admin/people/115324" type="person" role="cmp">Mozart, Wolfgang Amadeus</name>
-<name key="Bruneau, Alfred" ref="https://muscat.rism.info/admin/people/78271" type="person" role="cmp">Bruneau, Alfred</name>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Debussy, Claude" ref="https://muscat.rism.info/admin/people/4338" type="person" role="cmp">Debussy, Claude</name>
-<name key="Massenet, Jules" ref="https://muscat.rism.info/admin/people/84264" type="person" role="cmp">Massenet, Jules</name>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Hoogstoël, Léon (dir.)"  type="person" role="int">Hoogstoël, Léon (dir.)</name>
-<name key="Corps de musique de Landwehr"  type="person" role="int">Corps de musique de Landwehr</name>
-<name key="Biarga, E. (Mme)"  type="person" role="int">Biarga, E. (Mme)</name>
-<name key="Piantoni, Louis"  type="person" role="int">Piantoni, Louis</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002356_001.tif"/>
-<page><![CDATA[UBLICITÉ attire… la chentele seule la qualute la re’uent
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19201128'/>
+        <title>Concert donné par le Corps de musique de Landwehr</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1920-1921' type='series'/>
+        <name key='Chabrier, Emmanuel' ref='https://muscat.rism.info/admin/people/48553' type='person' role='cmp'>Chabrier, Emmanuel</name>
+        <name key='Gluck, Christoph Willibald' ref='https://muscat.rism.info/admin/people/67338' type='person' role='cmp'>Gluck, Christoph Willibald</name>
+        <name key='Mozart, Wolfgang Amadeus' ref='https://muscat.rism.info/admin/people/115324' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Bruneau, Alfred' ref='https://muscat.rism.info/admin/people/78271' type='person' role='cmp'>Bruneau, Alfred</name>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Debussy, Claude' ref='https://muscat.rism.info/admin/people/4338' type='person' role='cmp'>Debussy, Claude</name>
+        <name key='Massenet, Jules' ref='https://muscat.rism.info/admin/people/84264' type='person' role='cmp'>Massenet, Jules</name>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Hoogstoël, Léon' type='person' role='int'>Hoogstoël, Léon</name>
+        <name key='Corps de musique de Landwehr' type='person' role='int'>Corps de musique de Landwehr</name>
+        <name key='Biarga, E. (Mme)' type='person' role='int'>Biarga, E. (Mme)</name>
+        <name key='Piantoni, Louis' type='person' role='int'>Piantoni, Louis</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002356_001.tif'/>
+        <page>
+          <![CDATA[UBLICITÉ attire… la chentele seule la qualute la re’uent
 "-Faltes"'vos achats en 0haussures à
-
 LÀ RATIONNELLE S. .
-
 25, RUE DE RIVE, 25 v
 Où Vous pouvez avoir actuellement EN RÉCLAME des Bottines , B/—\LLY ;
 pour Hommes à Fr. 39.50 et des Bottines et Souliers bas pour Dames à
 partir de Fr. 18— dans les petites pointures.
-
 ;
-
- 
-
- 
-
- 
-
- 
-
 P’ROGRAMME
 =
 PREMIÈRE PARTIE
-
 1. Marche joyeuse … . _ _ , 008 204 A
 . à) Air d’Alceste (Mre BIÀRCÀ) . JE 27 e 1n
 b) Air de Chérubin (Mc BIARGA) e C 000 e AN
 . L'Affaque du Moulin, suite d'orchestre Brunneau
 a) Prélude et Lied; h) La Guerre, la Foret, c) Les ancaulles au
 - Moulin.
-
 (Entr'acte 10 minutes)
 SECONDE PARTINE
-
 . L'Enchantement du Vendredi-Saint é A SRE e E RT AN VOD
 0 de lia (Mre BIARGA) : . 42 100 2404 é Dépussy
 b) Grand air de Manon (Mn« B[ÀI\UÀ) e d e Mas n
-
 n O rure 1 11 1 01 00 D Becthoven
-
 Le piano d’accompagnement sera obligeamment tenu par M. Ie Professeur LOUIS PIANTONI
-
 PRIX DES PLACES (droit des pauvres compris) : Loges et Cordons de première galerie, 2.10 ; Parferres et Premières
 galeries non-numérotées, 1.10 ; Deuxièmes galeries, 0.60. Les enfanfs au-dessous de 10 ans pa|enl demi-place. — MM.
 les membres non-exécufants ont droif à deux enfrées sur présenfation de leur carte de 1920; supplément pour Loges ef Cor——
 - dons de galerie, 1 fr.
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 > | A N O Maison SAUTIER & JAEGER
 " à
-
-eJpécialité de Pianos en Loocation]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002356_002.tif"/>
-<page><![CDATA[....................................................
-
+eJpécialité de Pianos en Loocation
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002356_002.tif'/>
+        <page>
+          <![CDATA[....................................................
 VICTORIA-HALL
-
 5 Dmanche 28 Nov. 1920 72
-
 Conœrl:
-
 Ëulms « Musiues LaW3ﬁr
-
 (HARMONIE MILITAIRE)
 Oous la direction de
 IN. Léon Hoogstoël
 . Léon 00g5ioe
 |H‘UŸ‘O‘»U(,‘HI‘ au C()f1‘â(‘l‘\/xlh)ll‘l‘,
-
 avec le bjenveilfant concours
-
 DE MADAME
-
 E. BIARGA
-
 Cantatrice
-
 GN®)
-
-Û]]></page>       
-        </p>
+Û
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

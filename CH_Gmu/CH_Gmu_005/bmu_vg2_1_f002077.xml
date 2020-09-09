@@ -1,122 +1,120 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Neuvième concert donné par la Société civile de l'Orchestre de la Ville de Genève : Au bénéfice des artistes de l'Orchestre<date when="15/03/1884"/></title>
-<series>1883-1884</series>
-<placeName>Grand Théâtre</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Neuvième concert donné par la Société civile de l'Orchestre de la
+            Ville de Genève : Au bénéfice des artistes de l'Orchestre
+            <date when='15/03/1884'/>
+          </title>
+          <series>1883-1884</series>
+          <placeName>Genève, Grand Théâtre</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VG2-1 F002077</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Senger, H. de (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18840315"/>
-<title>Neuvième concert donné par la Société civile de l'Orchestre de la Ville de Genève : Au bénéfice des artistes de l'Orchestre</title>
-<placeName key="Grand Théâtre"/>
-<name key="1883-1884" type="series"/>
-<name key="Svendsen"  type="person" role="cmp">Svendsen</name>
-<name key="Gluck, Christoph Willibald" ref="https://muscat.rism.info/admin/people/67338" type="person" role="cmp">Gluck, Christoph Willibald</name>
-<name key="Mendelssohn Bartholdy, Felix" ref="https://muscat.rism.info/admin/people/88790" type="person" role="cmp">Mendelssohn Bartholdy, Felix</name>
-<name key="Massenet, Jules" ref="https://muscat.rism.info/admin/people/84264" type="person" role="cmp">Massenet, Jules</name>
-<name key="Ketten, Léopold"  type="person" role="cmp">Ketten, Léopold</name>
-<name key="Delibes, Léo" ref="https://muscat.rism.info/admin/people/30016578" type="person" role="cmp">Delibes, Léo</name>
-<name key="Martini, Giovanni Battista" ref="https://muscat.rism.info/admin/people/30002105" type="person" role="cmp">Martini, Giovanni Battista</name>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Senger, Franz Ludwig Hugo von  (dir.)" ref="https://muscat.rism.info/admin/people/30015297" type="person" role="int">Senger, Franz Ludwig Hugo von  (dir.)</name>
-<name key="Orchestre de la Ville de Genève"  type="person" role="int">Orchestre de la Ville de Genève</name>
-<name key="Strassi (Mme)"  type="person" role="int">Strassi (Mme)</name>
-<name key="Ketten, Léopold"  type="person" role="int">Ketten, Léopold</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_1_f002077_001.tif"/>
-<page><![CDATA[AND THÉÂTRE DE GENÈVE
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18840315'/>
+        <title>
+          Neuvième concert donné par la Société civile de l'Orchestre de la
+          Ville de Genève : Au bénéfice des artistes de l'Orchestre
+        </title>
+        <placeName key='Genève, Grand Théâtre'/>
+        <name key='1883-1884' type='series'/>
+        <name key='Svendsen' type='person' role='cmp'>Svendsen</name>
+        <name key='Gluck, Christoph Willibald' ref='https://muscat.rism.info/admin/people/67338' type='person' role='cmp'>Gluck, Christoph Willibald</name>
+        <name key='Mendelssohn Bartholdy, Felix' ref='https://muscat.rism.info/admin/people/88790' type='person' role='cmp'>Mendelssohn Bartholdy, Felix</name>
+        <name key='Massenet, Jules' ref='https://muscat.rism.info/admin/people/84264' type='person' role='cmp'>Massenet, Jules</name>
+        <name key='Ketten, Léopold' type='person' role='cmp'>Ketten, Léopold</name>
+        <name key='Delibes, Léo' ref='https://muscat.rism.info/admin/people/30016578' type='person' role='cmp'>Delibes, Léo</name>
+        <name key='Martini, Giovanni Battista' ref='https://muscat.rism.info/admin/people/30002105' type='person' role='cmp'>Martini, Giovanni Battista</name>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Senger, Franz Ludwig Hugo von' ref='https://muscat.rism.info/admin/people/30015297' type='person' role='int'>Senger, Franz Ludwig Hugo von</name>
+        <name key='Orchestre de la Ville de Genève' type='person' role='int'>Orchestre de la Ville de Genève</name>
+        <name key='Strassi (Mme)' type='person' role='int'>Strassi (Mme)</name>
+        <name key='Ketten, Léopold' type='person' role='int'>Ketten, Léopold</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_1_f002077_001.tif'/>
+        <page>
+          <![CDATA[AND THÉÂTRE DE GENÈVE
 15 MARSs 1884
 NEUVIÈME
-
 _ CONCERT
 L'ORCHISTRE DE LA VILLE DE CRNÈVE
-
 AVEC LE BIENVEILLANT CONCOURS DE
-
 M STRASSI | M. L. KETTEN
-
 Première chanteuse de Grand Opéra | Professeur supérieur au Conservatoire
-
 du Thédtre de Genève. | de Genève.
 AU BÉNÉFICE
-
 DES ARTISTES DE L'’ORCHESTRE
-
 p
-
 > 8> b Æ H° Z Ean En @
-
 ‘ PREMIÈRE PARTIE
 Symphonie en ré majeur (1"* audition) . . . . . . . . . + . « , , … SWENDSEN.
 a) Allegro molto. c) Allegretto scherzando.
 b) Andante. d) Finale : Maestoso et Allegro assai con fuoco.
 Grand air d’Eurydice, d'Orphée, chanté par Mre Strassi . . . . .. U UUCK.
-
 DEUXIÈME PARTIE
 Canzonetta pour instruments à cordes (demandee) . . . . . . . . . . MENDELSSOHN.
-
 a) Les enfants. E MASSENET.
-
 b) Ritournelle (demandée) é . e A e N e O EN
 Ballade et Thème slave varié de Coppélia. .. . . . . . . . . . . . Lfo DELIBES.
 Plaisir d’amour, romance chantée par Mme Strassi . . . . UE MARTINI.
 Ouverture de Rienzi. . e E sE WAGNER.
-
 L'Orchestre sera dirigé par M. HUGO de SENGER
-
 Portes et Bureaux à 7 112 h. — On commencera à 8 h. très précises
-
 21e dixième et dernier concert, au bénéfice de M. H. de SENGER,
 e 5 est renvoyé au samedi 5 Avril 1884
-
- 
-
 A ce
-
 es plgee}i — Baignoires d’avant-scène, 5 fr.. location, 6 fr. — Baignoires de pourtour, 5 fr.… location 6 fr.
 v auteuils d’orchestre et de Parquet, 3 fr., location 3 fr. 50. — Parterre 2 fr., location 2 fr. 50. — Strapon-
 _ ms et places debont, 2 fr. — Loge centrale, 7 fr., location 8 fr. Loges de face à salon, 7 fr. Location 8 fr.
 © face sans salon, 6 fr., location 7 fr, — Premières de côté et Fauteils de balcons, & fr., location 5 fr.
 pontins, 4 fr.— Avant-scène zme galerie, Loges de face et Fauteuils de balcons, 2 fr., location 2 fr. 50.
 »1 fr. 25, location, 1 fr. 50. — Strapontins, 1 fr. Ÿ. — Avant-scène 3me galerie, Stalles
-
-aterle de côté, 75 c, location 85 centimes.]]></page>       
-        </p>
+aterle de côté, 75 c, location 85 centimes.
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

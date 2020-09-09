@@ -1,131 +1,118 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Grand concert donné par le pianiste Léon Delafosse<date when="08/12/1900"/></title>
-<series>1900-1901</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Grand concert donné par le pianiste Léon Delafosse
+            <date when='08/12/1900'/>
+          </title>
+          <series>1900-1901</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F000453</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Doret, G. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19001208"/>
-<title>Grand concert donné par le pianiste Léon Delafosse</title>
-<placeName key="Victoria Hall"/>
-<name key="1900-1901" type="series"/>
-<name key="Weber, Carl Maria von" ref="https://muscat.rism.info/admin/people/117485" type="person" role="cmp">Weber, Carl Maria von</name>
-<name key="Delafosse, Léon"  type="person" role="cmp">Delafosse, Léon</name>
-<name key="Rameau, Jean-Philippe" ref="https://muscat.rism.info/admin/people/169730" type="person" role="cmp">Rameau, Jean-Philippe</name>
-<name key="Mendelssohn Bartholdy, Felix" ref="https://muscat.rism.info/admin/people/88790" type="person" role="cmp">Mendelssohn Bartholdy, Felix</name>
-<name key="Scarlatti"  type="person" role="cmp">Scarlatti</name>
-<name key="Bach, Johann Sebastian" ref="https://muscat.rism.info/admin/people/2539" type="person" role="cmp">Bach, Johann Sebastian</name>
-<name key="Chopin, Fryderyk Franciszek" ref="https://muscat.rism.info/admin/people/51160" type="person" role="cmp">Chopin, Fryderyk Franciszek</name>
-<name key="Liszt, Franz" ref="https://muscat.rism.info/admin/people/107196" type="person" role="cmp">Liszt, Franz</name>
-<name key="Strauß, Johann" ref="https://muscat.rism.info/admin/people/132082" type="person" role="cmp">Strauß, Johann</name>
-<name key="Tausig, Carl" ref="https://muscat.rism.info/admin/people/125619" type="person" role="cmp">Tausig, Carl</name>
-<name key="Saint-Saëns, Camille" ref="https://muscat.rism.info/admin/people/76734" type="person" role="cmp">Saint-Saëns, Camille</name>
-<name key="Doret, Gustave  (dir.)" ref="https://muscat.rism.info/admin/people/3145724" type="person" role="int">Doret, Gustave  (dir.)</name>
-<name key="Orchestre des concerts d'abonnement"  type="person" role="int">Orchestre des concerts d'abonnement</name>
-<name key="Delafosse, Léon"  type="person" role="int">Delafosse, Léon</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000453_001.tif"/>
-<page><![CDATA[3
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19001208'/>
+        <title>Grand concert donné par le pianiste Léon Delafosse</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1900-1901' type='series'/>
+        <name key='Weber, Carl Maria von' ref='https://muscat.rism.info/admin/people/117485' type='person' role='cmp'>Weber, Carl Maria von</name>
+        <name key='Delafosse, Léon' type='person' role='cmp'>Delafosse, Léon</name>
+        <name key='Rameau, Jean-Philippe' ref='https://muscat.rism.info/admin/people/169730' type='person' role='cmp'>Rameau, Jean-Philippe</name>
+        <name key='Mendelssohn Bartholdy, Felix' ref='https://muscat.rism.info/admin/people/88790' type='person' role='cmp'>Mendelssohn Bartholdy, Felix</name>
+        <name key='Scarlatti' type='person' role='cmp'>Scarlatti</name>
+        <name key='Bach, Johann Sebastian' ref='https://muscat.rism.info/admin/people/2539' type='person' role='cmp'>Bach, Johann Sebastian</name>
+        <name key='Chopin, Fryderyk Franciszek' ref='https://muscat.rism.info/admin/people/51160' type='person' role='cmp'>Chopin, Fryderyk Franciszek</name>
+        <name key='Liszt, Franz' ref='https://muscat.rism.info/admin/people/107196' type='person' role='cmp'>Liszt, Franz</name>
+        <name key='Strauß, Johann' ref='https://muscat.rism.info/admin/people/132082' type='person' role='cmp'>Strauß, Johann</name>
+        <name key='Tausig, Carl' ref='https://muscat.rism.info/admin/people/125619' type='person' role='cmp'>Tausig, Carl</name>
+        <name key='Saint-Saëns, Camille' ref='https://muscat.rism.info/admin/people/76734' type='person' role='cmp'>Saint-Saëns, Camille</name>
+        <name key='Doret, Gustave' ref='https://muscat.rism.info/admin/people/3145724' type='person' role='int'>Doret, Gustave</name>
+        <name key='Orchestre des concerts d&apos;abonnement' type='person' role='int'>Orchestre des concerts d'abonnement</name>
+        <name key='Delafosse, Léon' type='person' role='int'>Delafosse, Léon</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000453_001.tif'/>
+        <page>
+          <![CDATA[3
 1
 l
-
- 
-
-   
-
 0SRL r A
-
 VICTORIA HALL
-
 Samedz & _)ecembre 1900, à & heures et demie du soir
-
 * GRAND CONCERT *
-
 donné par LE PIANISTE
-
 EON DELAFOSSE
-
 AVEC LE CONCOURS DE
-
 / L’Orchestre des Concerts d’Abonnement
 b_,/ OUS LA DIRECTION DI
-
 M: GUSTAM D DOR-HT
-
 " Programme
-
- 
-
 (.\
 Al Ouverture d’Æuryanthe (l'Orchestre) . . . - WEBER.
 2. Fantaisie. . ‘ ; IÉON DEILAFOSSI
 M. Léon DELAFOSSE el lOnhcslu
-
 3. Rigaudon de Dardanus (l’Orchestre) . . . … RAMEAU.
-
 4 a) Romance sans paroles . _ ; . MENDELSSOHN.
 P t | R SCARLATTI.
 e e ; BAcH.
-
 ; M Ctapoonas 1 7 CHOPIN.
 . e) Nocturne. . . 4 4 e . JIETSZ1
 f) Valse-caprice . . T STRAUSS-TAUSIG.
 M. Léon DELA1—OBbt
 D. Marche héroïque (l’Orchestre, . . . 1 _ - SAINT-SAËNS.
-
 Piano de Concert Erard aux soins de MM. Bron et Berquer
-
 p - —-
-
 Prix des places :
-
 Rez-de-chaussée : Loges, 7 fr. -— Parquet, 6 fr.— Parterre, 4, … Pourtour, 4 fr. — fAmphithéâtre, 2 fr. — Promenoir, e
-
 Première galerie : Loges, 7 fr. — Fauteuils de face et balcon 1er rang, 5 fr. -— Balcon 2me et 3me rangs, 3 fr. -
 Balcon kme rang, 2 jr. - - fAmphithéâtre et orgue, 3 fr.
-
 Deuxième galerie : Amphithéâtre, 2 fr. —— Balcon 1er rang, 2 jr. -— Balcon 2me et 3me rangs, 1 fr
-
 La location est ouverte chez M. HENN, magasin de lllll\l(|ll( et d’instruments, Corraterie. 14
 de 9 heures à m|(l| et de 2 à 6 heures.
-
-Les places peuvent être relenues par correspondance,]]></page>       
-        </p>
+Les places peuvent être relenues par correspondance,
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

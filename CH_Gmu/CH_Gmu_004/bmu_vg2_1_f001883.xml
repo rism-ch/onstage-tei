@@ -1,122 +1,108 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Septième concert donné par la Société civile de l'Orchestre de la Ville de Genève<date when="17/02/1883"/></title>
-<series>1882-1883</series>
-<placeName>Grand Théâtre</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Septième concert donné par la Société civile de l'Orchestre de la
+            Ville de Genève
+            <date when='17/02/1883'/>
+          </title>
+          <series>1882-1883</series>
+          <placeName>Genève, Grand Théâtre</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VG2-1 F001883</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Senger, H. de (dir)</note>
+        <note>Compositeur présumé</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18830217"/>
-<title>Septième concert donné par la Société civile de l'Orchestre de la Ville de Genève</title>
-<placeName key="Grand Théâtre"/>
-<name key="1882-1883" type="series"/>
-<name key="Mozart, Wolfgang Amadeus" ref="https://muscat.rism.info/admin/people/115324" type="person" role="cmp">Mozart, Wolfgang Amadeus</name>
-<name key="Litolff, Henry" ref="https://muscat.rism.info/admin/people/109316" type="person" role="cmp">Litolff, Henry</name>
-<name key="Bériot, Ch. de"  type="person" role="cmp">Bériot, Ch. de</name>
-<name key="Schubert, Franz" ref="https://muscat.rism.info/admin/people/111603" type="person" role="cmp">Schubert, Franz</name>
-<name key="Massenet, Jules" ref="https://muscat.rism.info/admin/people/84264" type="person" role="cmp">Massenet, Jules</name>
-<name key="Fauré, Gabriel" ref="https://muscat.rism.info/admin/people/41731" type="person" role="cmp">Fauré, Gabriel</name>
-<name key="Rubinštejn, Anton Grigor'evič" ref="https://muscat.rism.info/admin/people/30008504" type="person" role="cmp">Rubinštejn, Anton Grigor'evič</name>
-<name key="Chopin, Fryderyk Franciszek" ref="https://muscat.rism.info/admin/people/51160" type="person" role="cmp">Chopin, Fryderyk Franciszek</name>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Brahms, Johannes" ref="https://muscat.rism.info/admin/people/39914" type="person" role="cmp">Brahms, Johannes</name>
-<name key="Senger, Franz Ludwig Hugo von  (dir.)" ref="https://muscat.rism.info/admin/people/30015297" type="person" role="int">Senger, Franz Ludwig Hugo von  (dir.)</name>
-<name key="Orchestre de la Ville de Genève"  type="person" role="int">Orchestre de la Ville de Genève</name>
-<name key="Haering, Julia"  type="person" role="int">Haering, Julia</name>
-<name key="Breitner, Louis"  type="person" role="int">Breitner, Louis</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_1_f001883_001.tif"/>
-<page><![CDATA[47 T ETE SE E rr PE A R RE SIEOA MA S 12 SEN P UE Dairete
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18830217'/>
+        <title>
+          Septième concert donné par la Société civile de l'Orchestre de la
+          Ville de Genève
+        </title>
+        <placeName key='Genève, Grand Théâtre'/>
+        <name key='1882-1883' type='series'/>
+        <name key='Mozart, Wolfgang Amadeus' ref='https://muscat.rism.info/admin/people/115324' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Litolff, Henry' ref='https://muscat.rism.info/admin/people/109316' type='person' role='cmp'>Litolff, Henry</name>
+        <name key='Bériot, Ch. de' type='person' role='cmp'>Bériot, Ch. de</name>
+        <name key='Schubert, Franz' ref='https://muscat.rism.info/admin/people/111603' type='person' role='cmp'>Schubert, Franz</name>
+        <name key='Massenet, Jules' ref='https://muscat.rism.info/admin/people/84264' type='person' role='cmp'>Massenet, Jules</name>
+        <name key='Fauré, Gabriel' ref='https://muscat.rism.info/admin/people/41731' type='person' role='cmp'>Fauré, Gabriel</name>
+        <name key='Rubinštejn, Anton Grigor&apos;evič' ref='https://muscat.rism.info/admin/people/30008504' type='person' role='cmp'>Rubinštejn, Anton Grigor'evič</name>
+        <name key='Chopin, Fryderyk Franciszek' ref='https://muscat.rism.info/admin/people/51160' type='person' role='cmp'>Chopin, Fryderyk Franciszek</name>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Brahms, Johannes' ref='https://muscat.rism.info/admin/people/39914' type='person' role='cmp'>Brahms, Johannes</name>
+        <name key='Senger, Franz Ludwig Hugo von' ref='https://muscat.rism.info/admin/people/30015297' type='person' role='int'>Senger, Franz Ludwig Hugo von</name>
+        <name key='Orchestre de la Ville de Genève' type='person' role='int'>Orchestre de la Ville de Genève</name>
+        <name key='Haering, Julia' type='person' role='int'>Haering, Julia</name>
+        <name key='Breitner, Louis' type='person' role='int'>Breitner, Louis</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_1_f001883_001.tif'/>
+        <page>
+          <![CDATA[47 T ETE SE E rr PE A R RE SIEOA MA S 12 SEN P UE Dairete
 ç-ä :
-
 Fauteuils de balcor
 Jjme Galerie,
-
- 
-
- 
-
- 
-
 D THEATRE DE GENEVE
-
- 
-
- 
-
- 
-
 SAMEDI 17 FEVRIER 1883
-
 1E CONCERT
-
 DONNÉ PAR LA SOCIÉTÉ CIVILE DE
-
 “ SEPTIÈI
-
 LORGHESTBË DE LA VILLE DE GENÈVE
-
 AVEC LE CONCOURS DE
-
 ML JULIA HÆARIING
-
 CANTATRICE
-
 M. KLOUIS BREITNER
-
 a) Berceuse,
 b) Étude, .
-
 c) Barcarolle, .
-
 d) Marche turque, ,
 pour piano, exécutées par M L0u15 BREITNF R
-
 Danses hongroises, Nos 5 et 6,
-
 —S S——
 PIANO ENVOYÉ PAR LA MAISON ÉRARD, DE PARIS.
-
 L’Orchestre sera dirigé par M. HUGO DE SENGER.
-
 PIANISTE
 ——>>
-
 PROGRAMME :
 PREMIÈRE PARTIE
 Ouverture des « Noces de Figaro, » .
@@ -124,129 +110,43 @@ Cinquième Concerto symphonique,
 d'Orchestre, exécuté par M. Louis BREITNE Zn
 Grand air intercalé dans « L’Élisire d’Amore, » avec
 d'Orchestre, chanté par Mle Julia HÆRING,
-
 pour piano, avec accompagnement
-
 DEUXIÈME PARTIE
-
 Symphonie en si mineur, inachevée (redemandée),
 a) Allegro moderato.
 . à) Sonnet,. ;
 b) Alleluia’ d’Amour, PEs
 chantés par Mlle Julia HÆRING
-
 b) Andante con moto.
-
- 
-
 Mozart.
-
 Litolff.
-
 accompagnement
-
 Ch. de Bériot.
-
 Schubert.
-
 Muassenet.
 Faure.
-
 Rubinstein.
 Chopin.
 Rubinstein.
 Beethoven.
-
 Brahms.
-
 Les trois autres Concerts auront lieu les Samedis 3, 17 et 31 Mars.
-
 PRIX DES PLACES
-
 1 et Loges, 4 fr; location, 4 fr. 50. - F
 1 fr; location, 4 fr. 25. - [[ 1me Galerie,
-
 Ouverture des
-
- 
-
 POUR CE CONCERT:
-
 auteuils d’ ()rchc…e«tParqud 3 fr; location, 5 fr. 50.
 50 c; location, 75 c. - Bureau de louatmn ouvert tous
-
 Bureaux à 7 heures et demie.
-
 - Parterre, 4 fr. 50s location, 2 fr, -
-
 les jours, au Nwalm 44> /h.
 -- On commencera à 8 heures précises.
-
- 
-
 Genève.- —- Imprimerie J-D, Jarrys.
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-   
-    
-   
-   
-  
-   
- 
- 
-  
-  
-  
-  
-   
-   
-  
-  
-  
-   
-   
-    
- 
-  
-  
-     
-   
- 
-
-‘]]></page>       
-        </p>
+‘
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

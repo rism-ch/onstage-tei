@@ -1,139 +1,125 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Examens des classes de virtuosité de piano et trompette<date when="19/06/1929"/></title>
-<series>1928-1929</series>
-<placeName>Conservatoire</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Examens des classes de virtuosité de piano et trompette
+            <date when='19/06/1929'/>
+            <date when='20/06/1929'/>
+          </title>
+          <series>1928-1929</series>
+          <placeName>Genève, Conservatoire</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002965</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Closset, F. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19290619
-19290620"/>
-<title>Examens des classes de virtuosité de piano et trompette</title>
-<placeName key="Conservatoire"/>
-<name key="1928-1929" type="series"/>
-<name key="Bach, Johann Sebastian" ref="https://muscat.rism.info/admin/people/2539" type="person" role="cmp">Bach, Johann Sebastian</name>
-<name key="Galuppi, B."  type="person" role="cmp">Galuppi, B.</name>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Chopin, Fryderyk Franciszek" ref="https://muscat.rism.info/admin/people/51160" type="person" role="cmp">Chopin, Fryderyk Franciszek</name>
-<name key="Chabrier, Emmanuel" ref="https://muscat.rism.info/admin/people/48553" type="person" role="cmp">Chabrier, Emmanuel</name>
-<name key="Vivaldi, Antonio" ref="https://muscat.rism.info/admin/people/30003267" type="person" role="cmp">Vivaldi, Antonio</name>
-<name key="Scarlatti, Domenico" ref="https://muscat.rism.info/admin/people/30002849" type="person" role="cmp">Scarlatti, Domenico</name>
-<name key="Liszt, Franz" ref="https://muscat.rism.info/admin/people/107196" type="person" role="cmp">Liszt, Franz</name>
-<name key="Schumann, Robert" ref="https://muscat.rism.info/admin/people/131206" type="person" role="cmp">Schumann, Robert</name>
-<name key="Debussy, Claude" ref="https://muscat.rism.info/admin/people/4338" type="person" role="cmp">Debussy, Claude</name>
-<name key="Couperin, François" ref="https://muscat.rism.info/admin/people/30000757" type="person" role="cmp">Couperin, François</name>
-<name key="Mozart, Wolfgang Amadeus" ref="https://muscat.rism.info/admin/people/115324" type="person" role="cmp">Mozart, Wolfgang Amadeus</name>
-<name key="Balakirew, Mili"  type="person" role="cmp">Balakirew, Mili</name>
-<name key="Closset, Fernand (dir.)"  type="person" role="int">Closset, Fernand (dir.)</name>
-<name key="Orchestre de la Suisse Romande" ref="https://muscat.rism.info/admin/people/50007615" type="person" role="int">Orchestre de la Suisse Romande</name>
-<name key="Hess, Valentine"  type="person" role="int">Hess, Valentine</name>
-<name key="Saron, Rosy"  type="person" role="int">Saron, Rosy</name>
-<name key="Squarise, Eugène"  type="person" role="int">Squarise, Eugène</name>
-<name key="Engelberger, Annie"  type="person" role="int">Engelberger, Annie</name>
-<name key="Colombo, Marcel"  type="person" role="int">Colombo, Marcel</name>
-<name key="Bernard, Georges"  type="person" role="int">Bernard, Georges</name>
-<name key="Chéridjian, Nina"  type="person" role="int">Chéridjian, Nina</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002965_001.tif"/>
-<page><![CDATA[\ CONSERVATOIRE DE MUSIQUE DE GENEVE
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19290619'/>
+        <date when='19290620'/>
+        <title>Examens des classes de virtuosité de piano et trompette</title>
+        <placeName key='Genève, Conservatoire'/>
+        <name key='1928-1929' type='series'/>
+        <name key='Bach, Johann Sebastian' ref='https://muscat.rism.info/admin/people/2539' type='person' role='cmp'>Bach, Johann Sebastian</name>
+        <name key='Galuppi, B.' type='person' role='cmp'>Galuppi, B.</name>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Chopin, Fryderyk Franciszek' ref='https://muscat.rism.info/admin/people/51160' type='person' role='cmp'>Chopin, Fryderyk Franciszek</name>
+        <name key='Chabrier, Emmanuel' ref='https://muscat.rism.info/admin/people/48553' type='person' role='cmp'>Chabrier, Emmanuel</name>
+        <name key='Vivaldi, Antonio' ref='https://muscat.rism.info/admin/people/30003267' type='person' role='cmp'>Vivaldi, Antonio</name>
+        <name key='Scarlatti, Domenico' ref='https://muscat.rism.info/admin/people/30002849' type='person' role='cmp'>Scarlatti, Domenico</name>
+        <name key='Liszt, Franz' ref='https://muscat.rism.info/admin/people/107196' type='person' role='cmp'>Liszt, Franz</name>
+        <name key='Schumann, Robert' ref='https://muscat.rism.info/admin/people/131206' type='person' role='cmp'>Schumann, Robert</name>
+        <name key='Debussy, Claude' ref='https://muscat.rism.info/admin/people/4338' type='person' role='cmp'>Debussy, Claude</name>
+        <name key='Couperin, François' ref='https://muscat.rism.info/admin/people/30000757' type='person' role='cmp'>Couperin, François</name>
+        <name key='Mozart, Wolfgang Amadeus' ref='https://muscat.rism.info/admin/people/115324' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Balakirew, Mili' type='person' role='cmp'>Balakirew, Mili</name>
+        <name key='Closset, Fernand' type='person' role='int'>Closset, Fernand</name>
+        <name key='Orchestre de la Suisse Romande' ref='https://muscat.rism.info/admin/people/50007615' type='person' role='int'>Orchestre de la Suisse Romande</name>
+        <name key='Hess, Valentine' type='person' role='int'>Hess, Valentine</name>
+        <name key='Saron, Rosy' type='person' role='int'>Saron, Rosy</name>
+        <name key='Squarise, Eugène' type='person' role='int'>Squarise, Eugène</name>
+        <name key='Engelberger, Annie' type='person' role='int'>Engelberger, Annie</name>
+        <name key='Colombo, Marcel' type='person' role='int'>Colombo, Marcel</name>
+        <name key='Bernard, Georges' type='person' role='int'>Bernard, Georges</name>
+        <name key='Chéridjian, Nina' type='person' role='int'>Chéridjian, Nina</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002965_001.tif'/>
+        <page>
+          <![CDATA[\ CONSERVATOIRE DE MUSIQUE DE GENEVE
 }f ‘ - EXERCICE 1928-1929
-
 —— _
-
- 
-
- 
-
 EXAMENS
 /*  CLASSES DE VIRTUOSITE
-
 | PIANO ET TROMPETTE
-
- 
-
 |
-
- 
-
 | | P.
-
 » CHÉRIDIIAN-CHARREY
 » SCHNELL-CHOSSAT
 Jokbuny AUBERT
-
 Alesandre MOTTU
-
 Oscar SCHULZ
-
 Alfeed DUPONT
-
-E]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002965_002.tif"/>
-<page><![CDATA[Mercredi 19 juin
-
+E
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002965_002.tif'/>
+        <page>
+          <![CDATA[Mercredi 19 juin
 14 h. 3o. PIANO #* (Séance publique).
-
 Mlle Valentine HESS (Classe de MMe Schnell-Chossat).
-
 I PANRAT T A en u/ mineur 1N at0e A e e e 0 J.-S. Back
 Symphonie - Allemande - Courante - Sarabande - Rondeau -
 Caprice.
-
 rs OIN A enyré-majçeurs n es B. Galuppi
 Adagio - Allegro - Largo maestoso - Gigue.
-
 SDVONATE op 110 en (2Lemobimaçeun - 11N L. van Beethoven
 Moderato cantabile - Allegro molto - Adagio, ma non troppo, Fugua.
-
 A BAUIAIEenssol imineders u S A … F. Chopin
-
 5. BOURRÉE PANTASOUPE TTN E. Chabrier
-
 (Dans une précédente séance de musique de chambre, tenant lieu d'examen, Mlle Hess a
 exécute le Quatuor en mi bémol, de Schumann).
-
 Mercredi 19 juin
-
 PIANO #* (Séance publique).
 Mlle ROSy SARON (Classe de M. Oscar Schulz).
-
 15/h. 50.
-
 e paeID. 1E À. Vivaloi
 # (RANTAISIFER T RUGUE en la mineur <1 A … J.-S. Bach
 ON TT … D. Scarlalti
@@ -141,324 +127,187 @@ AMSONATE lenéutnnajeur op S3n n A E I L. van Beethoven
 Allegro con brio - Introduzione - Rondo.
 RODPeT e es e ES F. Liszt
 R. Schamann
-
 6. ÉTUDES SYMPHONIQUES  op15.°°**
-
 (Dans une précédente séance de musique de chambre, tenant lieu d’examen, M!e Saron a
 exécuté 1'A]lcgro du Trio en si bémol, de Schubert).
-
 Mercredi 19 juin
-
 PIANO #* (Séance publique).
 M. Eugène SQUARISE (Classe de M. Alexandre Mottu).
-
 16 h. 50.
-
 VAROCENV en rémaçeur e n J.-S. Bach
 2S ONANNE eN reemajçeurnse … D. Scarlatti
 se SONSI en 2h mineur, ope tnx 1 ns L. van Beethoven
-
 Maestoso - Allegro con brio ed appassionato - Arietta, Adagio
 molto simplice e cantabile.
-
 4. FANTAISIE en /a mn 111e F. Chopin
 C. Debusoy
-
 sGETOCEAMA e
-
 (Dans une précédente séance de musique de chambre, tenant lieu. d'examen, M. Squarise
 a exécuté les Variations du Trio en u/ mineur, op. 1, n° 3, de Beethoven).
-
 & A l'examen éliminatoire, chaque élève de piano a présenté un répertoire comprenant quatre
-
 pîèccs anciennes, une grande pièce de ].-S. Bach, une sonate de Beethoven, quatre pièccs
-
 romantiques ou modernes, deux pièces de bravoure.
-
- 
-
 17 h°504
-
 1.
 2. ÉTUDE » ;
 3. CONCERTINO (Concours du Cont
-
 18 heures.
-
-  
-
 Merc
-
 TROMPETI
-
-   
- 
-
 |
-
 ARIA de la CANTATE DE L'AS#
-
- 
-
- 
-
 Mercred
-
 TROMPEPH Eî
-
 £
 X
-
 A
 .‘
-
 Merc_ﬁ%*
 #
-
- 
-
- 
-
- 
-
- 
-
 -— r x4.
-
 20 h. 3o. EXAMEN AVIN
 (Séance pubÏî€
-
 Direction M. 'Ë‘
-
 1. CONCERTO en ré mineur--..- % ;
 Allegro. ll
-
 Mle Valentine HESS. ë
-
 . CONCERTO M 3 op 57 en utä
 “
-
 4.
-
 S
-
 Allegro.
-
 Mle Annie ENGELBERGER. f
-
 2
-
 CONCERTO en /a mineur, op. 5
 a) Allegro moderato.
-
 Mlle Rosy SARON.
-
 b) Intermezzo et allegro. ;
 Mlie Nina CHÉRIDJIAN. £ )Ù
 CONCERTO en /a majeur ...-.* |
-
 M. Eugène SQUARISE. _
 SUITE en ré, op. 24, pour trompdïtj
 Menvet. ;
-
 M. Marcel COLOMBO.
 CONCERTO N° 2, en ol mineur ‘
-
 Andante sostenuto.
-
 M. Georges BERNAND.
-
 . -CONCERTO en mi bémol ... %
-
 M. André CASANELLI d’Istria
-
 ——>
 À
-
 LA SÉANCE AVEC ORh
-
 Prix des places : #
-
 En location chez le concierge dÿi.….
-
 =1
-
 |
 #
-
 c
 5
-;]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002965_003.tif"/>
-<page><![CDATA[ut
-
+;
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002965_003.tif'/>
+        <page>
+          <![CDATA[ut
 :j Îw}r
-
 5
-
 - juin
-
 E
-
 :S‘%‘;Ï%ce publique).
-
 e Ï       
         </p>
     </body>
   </text>
 </TEI>Ë.Èupont) ;
 -
-
 J.-S. Bach
-
- 
-
 H)RCHESTRE
-
 t payante).
-
 d CLOSSET
-
 W.-A. Mozart
-
 1- RE L. van Beethoven
 .................. R. Schumann
-
 7, Liszt
-
 .................. V. d'Inody
 .. C. Saint-Saëns
-
 *. Didzt
-
 #:STRE EST PAYANTE
 imes (droils en sus),
-
 @iservatoire, à partir du 10 juin.
-
- 
-
- 
-
 Jeudi 20 juin
-
 PIANO (Examen à huis-clos).
-
 10 heures.
-
 PIANO #* (Séance publique).
 M. Georges BERNAND (Classe de M. Johnny Aubert).
-
 10 h. 30.
-
 1 PRÉEFUDE FIRFUGUE enla’mineur « < <ata- e> mue en J.-S. Bacb
-
 2. SŒUR MONIQUE, rondeau........5.2005000 01000000 ure F. Couperin
-
 3. SONATE en _/n majeur, op- 5.1 . d upe sd e pn PalEe Ax L. van Beetboven
 In tempo d'un Menuetto - .\Hcglcllu
-
 Y ONDINE 1.1 N C. Debuosy
-
 5 MERHISTOWELSE u5k 0 F. Liszt
-
 (l)2il\* une pr(w(-dcntc seance dk' lllll\i(lll(‘ (‘L‘ Cl){ll!llll‘c, tenant liL‘u \l'(‘X{lHlL‘ﬂ, .\ Bcrnand a
-
 exécuté l’Âchln vivace du Quinlctlc de la /’Ill‘/:‘, (‘(' Schubert).
-
 Jeudi 20 juin
-
 PIANO #* (Séance publique).
 M. André CASANELLI d’ISTRIA (Classe de Mme (‘h(|Ï«|ii.…-Cll.\l‘l‘t‘_\ }
-
 lÔ h 30.
-
 0 PRÉÉUDE/FIMFUGUE en [amineun … J.-S. Back
-
 # (RONDO enréfmajeur. 5100s dda t e 0L E W.-A. Mozarl
-
 S S CONAT Essens/a, 1mine 0n mOP007 200120 riésmueetctecaete n dn L. van Beetboven
 Assai allegro - Andante con moto - Allegro ma non troppo.
-
 4 RATRADE en* /audineur 1- 4452 0006 E F. Chopin
-
 SAISTVAMEN .… B C00 0 E Mili Balakirew
-
 (Dans une pr(—c(—rlonlr séance de nnniq…— de chambre, tenant lieu d'examen, M. Casanelli a
-
 exécuté les Variations du Quinlt'llc de la Truile, de Schubert).
-
 Jeudi 20 juin
-
 108n 50. PIANO # (Séance publique).
-
 M!'e Nina CHÈRIDJIAN (Classe de Mme Lh(—rïdiîun—Cl\;\l‘l‘L‘_       
         </p>
     </body>
   </text>
 </TEI>k)
-
 1 TOCCATA en-/é imseurx. - J.-S, Bach
-
 2 SONATE en Ju bémolmaeur nn W.-A. Mozarl
 Allcgl’() ")‘l(i(’l'[lt() - .\"ll:ln‘l‘ amoroso - R()n(](‘.
 S AsONAIPenya maeur opan7 L. van Beethoven
-
 Assai allegro -
 4 RÉFLETSIDANSEGEN U 1T G,
 ÉTUDES SIMPHONIOUPS fop. 16 R.
-
 Andante con moto - /\llcgrn ma non troppo-.
 Debusay
-
 Schumann
-
 (Dan«; une préu’—rlcntc St"£lnCC (,lc IllLl%î(lllL‘ (lL‘ l‘ll{\llll)l't‘. tenant HL‘\l d'cxàmcn. ;\;‘lll: Cll(‘ri(liî(ln a
-
 exécuté lÙ\llcgro du Qu.‘\ll…l' en sol mineur, de A“nzarl).
-
-T. SV 3R6]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002965_004.tif"/>
-<page><![CDATA[Jeudi 20 juin
-
+T. SV 3R6
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002965_004.tif'/>
+        <page>
+          <![CDATA[Jeudi 20 juin
 17 h. 3o. PIANO #* (Séance publique).
-
 Mlle Annie ENGELBERGER (Classe de M Johnny Aubert).
-
 1. FANTAISIE CHROMATIQUE ET FUGUE ... J.-S. Bach
-
 S IAITBCRO GOMFUOCO 9.11 D. Scarlatti
-
 Z SONATE en tbé maeur op: 139 .N L. van Beethoven
 Allegro con brio - Introduzione, Rondo
-
 A NOCTURNE lenihfiniueer . 1111 F. Chopin
-
 RHARSODIE N° 4s F. Liszt
-
 (Dans une précédente séance de musique de chambre, tenant lieu d’examen, Mlle Engelberger
-
 a exécuté le Quintette de la Truite, de Schubert).
-
 Jeudi 20 juin
-
 20 h. 3o. PIANO (Séance publique).
-
 PRIX SCHUMANN fondé par M. Robert BORY.
-
 Pièce de concours pour l’année 1929 :
-
 ÉTUDES SYMPHONIQUES, op. 15.
-
 Le concours est ouvert à tous les élèves du Conservatoire de Genèvé ayant obtenu le diplôme ou
-
 ‘ G : e p e
 le prix de virtuosité au cours des douze années précédentes, ains1 qu à tous les plamstes
-
 suisses âges de moins de trente ans.
-
-Piano de Concert PLEYEL, de la Maison Ch. Berguer, Genève.]]></page>       
-        </p>
+Piano de Concert PLEYEL, de la Maison Ch. Berguer, Genève.
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

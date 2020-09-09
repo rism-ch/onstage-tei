@@ -1,62 +1,77 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title><date when="03/09/1882"/></title>
-<series>1881-1882</series>
-<placeName>[Kiosque (Promenade des Bastions) ?]</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            <date when='03/09/1882'/>
+          </title>
+          <series>1881-1882</series>
+          <placeName>Genève, Kiosque (Promenade des Bastions)</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VG2-1 F000959</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>[Rey, L.?] (dir)</note>
+        <note>Lieu incertain</note>
+        <note>Date incertaine</note>
+        <note>Interprète incertain</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18820903"/>
-<placeName key="[Kiosque (Promenade des Bastions) ?]"/>
-<name key="1881-1882" type="series"/>
-<name key="Verdi, Giuseppe" ref="https://muscat.rism.info/admin/people/137994" type="person" role="cmp">Verdi, Giuseppe</name>
-<name key="Blanchereau"  type="person" role="cmp">Blanchereau</name>
-<name key="Bizet, Georges" ref="https://muscat.rism.info/admin/people/20057" type="person" role="cmp">Bizet, Georges</name>
-<name key="Litolff, Henry" ref="https://muscat.rism.info/admin/people/109316" type="person" role="cmp">Litolff, Henry</name>
-<name key="Thomas, A."  type="person" role="cmp">Thomas, A.</name>
-<name key="Génin"  type="person" role="cmp">Génin</name>
-<name key="Strauss"  type="person" role="cmp">Strauss</name>
-<name key="[Rey, L.?] (dir.)"  type="person" role="int">[Rey, L.?] (dir.)</name>
-<name key="[Orchestre de la Ville de Genève?]"  type="person" role="int">[Orchestre de la Ville de Genève?]</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_1_f000959_001.tif"/>
-<page><![CDATA[an
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18820903'/>
+        <placeName key='Genève, Kiosque (Promenade des Bastions)'/>
+        <name key='1881-1882' type='series'/>
+        <name key='Verdi, Giuseppe' ref='https://muscat.rism.info/admin/people/137994' type='person' role='cmp'>Verdi, Giuseppe</name>
+        <name key='Blanchereau' type='person' role='cmp'>Blanchereau</name>
+        <name key='Bizet, Georges' ref='https://muscat.rism.info/admin/people/20057' type='person' role='cmp'>Bizet, Georges</name>
+        <name key='Litolff, Henry' ref='https://muscat.rism.info/admin/people/109316' type='person' role='cmp'>Litolff, Henry</name>
+        <name key='Thomas, A.' type='person' role='cmp'>Thomas, A.</name>
+        <name key='Génin' type='person' role='cmp'>Génin</name>
+        <name key='Strauss' type='person' role='cmp'>Strauss</name>
+        <name key='Rey, L.' type='person' role='int'>Rey, L.</name>
+        <name key='Orchestre de la Ville de Genève' type='person' role='int'>Orchestre de la Ville de Genève</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_1_f000959_001.tif'/>
+        <page>
+          <![CDATA[an
 Ÿ Les Bords du Léman, valse,.  Blanchereau.
- L’Arlésienne, suite d’orchestre, Bizet. - _
+L’Arlésienne, suite d’orchestre, Bizet. - _
 A) Prélude. | C) Adagietto.
 # — B) Minuetto. | D) Carillon.
 SECONDE PARTIE f,
@@ -67,13 +82,11 @@ Maximilien Robespierre, ouverture, Litol/f.
 | Quadrille sur des Airs français, Strauss.
 F ; ©
 Z
-
- 
-
 65 _ Imprim® J.-D. Jarrys, rue de la Treille.
-
-e e é e TT R RE QU V]]></page>       
-        </p>
+e e é e TT R RE QU V
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

@@ -1,137 +1,105 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par l'Harmonie nautique<date when="02/03/1941"/></title>
-<series>1940-1941</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par l'Harmonie nautique
+            <date when='02/03/1941'/>
+          </title>
+          <series>1940-1941</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F003068</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Santandréa, P. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19410302"/>
-<title>Concert donné par l'Harmonie nautique</title>
-<placeName key="Victoria Hall"/>
-<name key="1940-1941" type="series"/>
-<name key="Weber, Carl Maria von" ref="https://muscat.rism.info/admin/people/117485" type="person" role="cmp">Weber, Carl Maria von</name>
-<name key="Rimskij-Korsakov, Nikolaj Andreevič" ref="https://muscat.rism.info/admin/people/55357" type="person" role="cmp">Rimskij-Korsakov, Nikolaj Andreevič</name>
-<name key="Borodin, Alexandr Porfir'evič" ref="https://muscat.rism.info/admin/people/30015583" type="person" role="cmp">Borodin, Alexandr Porfir'evič</name>
-<name key="Musorgskij, Modest Petrovič" ref="https://muscat.rism.info/admin/people/30019183" type="person" role="cmp">Musorgskij, Modest Petrovič</name>
-<name key="Ropartz, Joseph Guy" ref="https://muscat.rism.info/admin/people/61362" type="person" role="cmp">Ropartz, Joseph Guy</name>
-<name key="Séverac, Déodat de" ref="https://muscat.rism.info/admin/people/30005280" type="person" role="cmp">Séverac, Déodat de</name>
-<name key="Chabrier, Emmanuel" ref="https://muscat.rism.info/admin/people/48553" type="person" role="cmp">Chabrier, Emmanuel</name>
-<name key="Santandréa, Pierre (dir.)"  type="person" role="int">Santandréa, Pierre (dir.)</name>
-<name key="Harmonie Nautique"  type="person" role="int">Harmonie Nautique</name>
-<name key="Marignac, Jeanne-Marie de"  type="person" role="int">Marignac, Jeanne-Marie de</name>
-<name key="Mégevand, Denise"  type="person" role="int">Mégevand, Denise</name>
-<name key="Gyssler, Berthe"  type="person" role="int">Gyssler, Berthe</name>
-<name key="Wend, Otto"  type="person" role="int">Wend, Otto</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003068_001.tif"/>
-<page><![CDATA[PROGRAMME OFFICIEL 1941-1942
-
- 
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19410302'/>
+        <title>Concert donné par l'Harmonie nautique</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1940-1941' type='series'/>
+        <name key='Weber, Carl Maria von' ref='https://muscat.rism.info/admin/people/117485' type='person' role='cmp'>Weber, Carl Maria von</name>
+        <name key='Rimskij-Korsakov, Nikolaj Andreevič' ref='https://muscat.rism.info/admin/people/55357' type='person' role='cmp'>Rimskij-Korsakov, Nikolaj Andreevič</name>
+        <name key='Borodin, Alexandr Porfir&apos;evič' ref='https://muscat.rism.info/admin/people/30015583' type='person' role='cmp'>Borodin, Alexandr Porfir'evič</name>
+        <name key='Musorgskij, Modest Petrovič' ref='https://muscat.rism.info/admin/people/30019183' type='person' role='cmp'>Musorgskij, Modest Petrovič</name>
+        <name key='Ropartz, Joseph Guy' ref='https://muscat.rism.info/admin/people/61362' type='person' role='cmp'>Ropartz, Joseph Guy</name>
+        <name key='Séverac, Déodat de' ref='https://muscat.rism.info/admin/people/30005280' type='person' role='cmp'>Séverac, Déodat de</name>
+        <name key='Chabrier, Emmanuel' ref='https://muscat.rism.info/admin/people/48553' type='person' role='cmp'>Chabrier, Emmanuel</name>
+        <name key='Santandréa, Pierre' type='person' role='int'>Santandréa, Pierre</name>
+        <name key='Harmonie Nautique' type='person' role='int'>Harmonie Nautique</name>
+        <name key='Marignac, Jeanne-Marie de' type='person' role='int'>Marignac, Jeanne-Marie de</name>
+        <name key='Mégevand, Denise' type='person' role='int'>Mégevand, Denise</name>
+        <name key='Gyssler, Berthe' type='person' role='int'>Gyssler, Berthe</name>
+        <name key='Wend, Otto' type='person' role='int'>Wend, Otto</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003068_001.tif'/>
+        <page>
+          <![CDATA[PROGRAMME OFFICIEL 1941-1942
 | | HARMONIE
 NAUTIQUE
-
 HARMONIE MUNICIPALE DE LA VILLE DE GENÈVE
-
 =
-
- 
-
- 
-
 Gaston MOISY
-
 Agent de la WINTERTHOUR Compagnie d'Assurance
 TOUTES ASSURANCES
-
- 
-
- 
-
 GENÈVE - 6, Rue du Centre - Téléphones : Appart. 4 31 42 - Bur. 4 82 88
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 |
-|]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003068_002.tif"/>
-<page><![CDATA[SOCIÉTÉ DE
-
+|
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003068_002.tif'/>
+        <page>
+          <![CDATA[SOCIÉTÉ DE
 BANQUE SUISSE
-
 FONDÉE EN 1872
 Capital actions et Réserves : Fr. 194 millions
-
 2, Rue de la Confédération - GENÈVE - Rue de la Confédération, 2
-
 CORNAVIN © EAUX-VIVES
 10, Place de Cornavin Place des Eaux-Vives, 3
 PLAINPALAIS CAROUGE
 36, Rue de Carouge Rue du Marché, 11
-
 TOUTES LES OPÉRATIONS DE BANQUE AUX MEILLEURES CONDITIONS
-
- 
-
- 
-
 DEVDED
-
 ‘ La maison du vêlement
-
 GENÈVE LAUSANNE
-
- 
-
- 
-
- 
-
 La Centrale ?*
 de lire toujours renouvelé par
 î—ë.çÏfË: 'Ê2" Genève le choix de la
@@ -139,237 +107,104 @@ Bières spéciales du Cardinal W
 Mets de Brasserie M
 BILLARDS au 1er GENÈVE
 Alfred JEAN 12, Boul. Georges Favon - Tél. 4.40.42
-
- 
-
- 
-
- 
-
- 
-
-   
-
- 
-
 PIANOS, RADIOS
-
 ÉCHANGE DERNIÈRES NOUVEAUTÉS
 LOCATION
 RÉPARATIONS DIS Q UE S
-
 SERVICE TECHNIQUE DE |er ORDRE
-
 Sautier « Jaeger
-
-FUSTERIE, 12]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003068_003.tif"/>
-<page><![CDATA[VICTORIA-HALL
-
- 
-
- 
-
- 
-
+FUSTERIE, 12
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003068_003.tif'/>
+        <page>
+          <![CDATA[VICTORIA-HALL
 PE > e)
 ds ds Dimanche 2 Mars 1941 ééritienthra h
 14 h. 30 15 heures
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 CONCERT
-
 donné par
-
 L’HARMONIE NAUTIQUE
-
 HARMONIE MUNICIPALE DE LA VILLE DE GENÈVE
-
 avec le gracieux concours de
-
 M'® Jeanne-Marie de Marignac et Deniss Mégevand
-
 HARPISTES
-
 et de Maiame Berthe Gyssler, Cantatrice
-
 Au piano M. le Professeur Otto Wend
-
 A
 T OBERONouveriture 111 Woter
 2. a) Gavotte (Gluck). b) 4 Préludes (Marcel Tournier).
-
 c) Gavotte fantastique (Pœnitz).
-
 d) Feux follets. - Patrouille (Hasselmans).
-
 Mesdemoiselles J.-M. de Marignac et Denise Mégevand,.
-
 3 CAPRICCIOESPARGO TT Rimsky - Korsakow
-
 4. HANTAR, “ Les Délices du Pouvoir “ 1120 Rimsy-Korsakow
 DANS LES STEPPES DE L’ASIE CENTRALE . . Borodine
-
 6. a) Trepak, extrait des “ Chants et Danses de la Mort“  Moussorgski
 ballgpleut: ;;;n Quy-Ropantz
 c) Chanson pour le petit cheval . . . . . . Déodat de Séverac
-
 Madame B. Gyssler. - Au piano : M. Otto Wend.
 MEsPAN M rapsodieer e ChAPNER
-
 Le concert sera dirigé par
-
 M. Pierre SANTANDREA
-
 Premier Prix d’excellence du Conservatoire de Paris
-
- 
-
 AVIS. - En cas d'alerte aérienne le Concert n’est pas interrompu. Si le
 concert se termine pendant l’alerte, le public doit rester dans le bâtiment
-
 jusqu’au signal de fin d’alerte. - Les contrevenants s’exposent à des sanctions
-pénales.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003068_004.tif"/>
-<page><![CDATA[Kaspar WICK Y
-
+pénales.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003068_004.tif'/>
+        <page>
+          <![CDATA[Kaspar WICK Y
 Rue des Maraîchers, 48
-
 Le spécialiste des
-
 instruments à vent et à percussion
 Atelier de réparations de ler ordre
-
- 
-
 Tél. 5.81.12 Membre passif
-
-   
- 
-  
-   
-
- 
-
- 
-
- 
-
 BRASSERIE DU XX"° SIÈCLE
-
- 
-
 Restauration à toute heure — Vins de l1er choix
 Les membres de la Nautique seront les bienvenus
 Boulevard Georges Favon, 23 E. ULDRY, propriétaire
-
- 
-
- 
-
 OBÉRON, ouverture, Weber
-
 Weber fut parmi les compositeurs les plus caractéristiques
 d’une époque, le précurseur direct de Wagner.
-
 Né en 1786, mort en 1826, Weber sert de transition entre
 les classiques et les modernes. Il est à remarquer que, comme
 Mozart, il mourut extrèmement jeune, mais lorsqu'’il s’éteignit,
 à peine âgé de quarante ans, il avait donné toute sa mesure
 et laissé aux générations suivantes des modèles impérissables
 par leur mélodie ardente et leur juste accent dramatique.
-
 La première réprésentation d'Obéron fut donnée le
 12 avril 1826, à Londres, avec un éclat incomparable, on bissa
 l’ouverture, Weber fut rappelé avec des ovations frénétiques
 du public londonien.
-
- 
-
 AUX NAISSANCES, BAPTÊMES, FIANÇAILLES,
 MARIAGES, ANNIVERSAIRES, DEUILS e
-
 r,Ges fleurs e HIRT
-
 Artiste - fleuriste
-
- 
-
-        
-  
-
 12 ;
 DON
 VS Ÿ
-
 =
-
 AYS
 Q
 A
-
-  
- 
-
- 
- 
-
 font foujours plaisir
-
-     
-
 COURS DE RIVE, 14 TÉLÉPH. 5.01.69
-
- 
-
- 
-
-t F I]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003068_005.tif"/>
-<page><![CDATA[La Grande Boucherie du Molard
-
+t F I
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003068_005.tif'/>
+        <page>
+          <![CDATA[La Grande Boucherie du Molard
 ne vend que des marchandises de toute première qualité
-
- 
-
- 
-
 Spécialité d'AGNEAU DE PRÉ-SALÉ
-
- 
-
- 
-
 Téléphone 4.73.84 _ 41.73.85
-
- 
-
- 
-
- 
-
 @ 66
 99 Cardimal “ 1 vonre
-
 ÉCHEOLELOLILOKCKOOEOEOOKOOOOOOHOOOOOONCOOEOOEOOOKOEOOKOOOVEODIKKOHDONSEOOO OOOEOOOKOEOOKEOOOOEOOEOWOOOEOOEOOOONEOOIOU bière
-
- 
-
 CAPRICCIO ESPAGNOL, Rimsky-Korsakow
-
 Cet ouvrage, qui porte le numéro d’op. 34, fut exécuté
 pour la première fois à Saint-Pétersbourg, le 31 octobre 1887,
 par l’orchestre de l'Opéra russe, sous la direction de l'auteur,
@@ -378,229 +213,116 @@ les thèmes, d’origine espagnole, ont recu l’enluminure instru-
 mentale d’un maître coloriste, et constituent trois tableaux de
 genre à l’éclat un peu factice, mais curieux, en somme, et
 ingénieusement travaillés.
-
 Le premier intitulé Alborada (vivo e strepitoso, 2/4), offre
 un motif brillant et mouvementé, sous deux aspects ; au début,
 par tout l’orchestre, à la fin, par la clarinette solo, entre ces
-
 Qualité
 Glégance
-
 Son marché
-
 eschbac
-
-6, Rue du Rhône]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003068_006.tif"/>
-<page><![CDATA[ys
-
- 
-
- 
-
- 
-
+6, Rue du Rhône
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003068_006.tif'/>
+        <page>
+          <![CDATA[ys
 CSÎ vous avez
-
 un cadeaux à faire,
-
 un anniversaire à souhaiter ; C
-
 rendez visite aux ,__/ p
 p
-
- 
-
 Etablissements S TH
-
 L.CORMIFR _—
-
 8, Rue des Caroubiers
 Acacias-Genève 25
 Téléphone 4.62.37
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 vous y trouverez les meilleurs prix
-
 C SS IRR
-
- 
-
- 
-
- 
-
 deux parties s’encadre, sous le nom de Variazioni, une sorte
 de sérénade à 3/8.
-
 Le second porte le titre bizarre de Scena et canto gitano
 (Allegretto 6/8), il présente cette particularité que les instru-
 ments y exécutent à tour de rôle des points d'orgue, ou
 passages traités librement sans rigueur de mesure: d'abord,
 les quatre cors et deux trompettes, puis la clarinette solo et
 la flûte.
-
 Le troisième est un fandango «asturiano » à 3/4, où repa-
 raît la tonalité initiale de la majeur, car les divers épisodes
 se succèdent sans interruption, comme si les trois parties ne
 formaient qu’un seul et unique morceau.
-
- 
-
- 
-
 Ses jolies fleurs «> Ses cadeaux artistiques
-
- 
-
 26, CORRATERIF 16, RUE DE RIVE {
-
- 
-
-   
-  
-        
- 
-  
-    
-   
- 
- 
- 
- 
-   
- 
-    
-  
-   
-
-ps EN E]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003068_007.tif"/>
-<page><![CDATA[VICTORIA-HALL
-
+ps EN E
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003068_007.tif'/>
+        <page>
+          <![CDATA[VICTORIA-HALL
 le magnifique bâtiment construit à l'instigation de l'Harmonie Nautique par son
 généreux fondateur Monsieur D. F. P. Barton, ancien consul d'Angleterre, qui en
 fit don à la Ville de Genève en 1904.
-
 L'Harmonie Nautique devenue depuis: » Harmonie Municipale de la Ville
 de Genève “ occupe au rez-de-chaussée, les locaux qui ont été spécialement amé-
 nagés à son intention et dont la Ville lui laisse la jouissance conformément au vœu
-
 exprimé par le donateur.
-
- 
-
-La grande salle de concert]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003068_008.tif"/>
-<page><![CDATA[HARMONIE NAUTIQUE
-
+La grande salle de concert
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003068_008.tif'/>
+        <page>
+          <![CDATA[HARMONIE NAUTIQUE
 Président d’Honneur : M. George MARTINET.
-
 MEMBRES DU COMITÉ :
-
 MM. V. MAERKY, président ; E. BurDET et M! DÉPRAZ, vice-présidents ;
 Th. ENGEL, secrétaire; Max MARTI, vice-secrétaire; M. GALFRÈ, trésorier ;
 Ch. Kurr-REynNAuD, vice-trésorier; A. SiNay, bibliothécaire; R. Gay et
 O. GREBER, économes.
-
 Directeur : M. PIERRE SANTANDREA
-
 MEMBRES EXÉCUTANTS (1940-1941)
-
 Flûtes: MM. BLUM - STOCKBURGER - PIFFARETTI.
 Hautbois: MM. VEYRAT - ENnGEL - PAINOT - GrGy.
 Petites clarinettes: MM. Rorx - OcHs - KELLER.
-
 Clarinettes: MM. VErmoT - RieuNnAaUD - DucreT - MARTI
 CHATELAIN - CHARLON - DuPAanLoUP - NicoLET - PuUGIN
 SORMANI - STAUFFER - DOSSAN - GROPALLO - ORGELET - MULLER
 OsSMANN - BECKER - GENTILE- SCHREINER- SIMONIN-COURVOISIER
 MUHLESTEIN - KurATL1 - RocHAT - Fivaz - WERMUTH
 BErLARDI - DAMAY - PERRET - PERRIN - Orso - Rosa.
-
 Clarinettes basses: MM. A. PORTIER - NUSSBAUM.
 Bassons: MM. Charles FraNcouaL - Jules FRANCOUAL.
 Saxophones: MM. GONDRET - BERTRAND - BARBIER - DEPOISIER
-
 GANICHOT - MAGNI - Gopio - - BozzerTI1 - GoLAY - FAVET.
 Cornets: MM. DuronT - Cxapuis - Triscon - DÉTRUCHE
 PORTMANN - DE SANCTIS.
 Bugles: MM. FROIDEVAUX - PERRET - BarrLy - INDERMUHLE
-
 BRUNIER - KNOBLOCH.
-
 Trompettes: MM. BurpET - DEcroux - CHEVALLEY - BEZZOLA
 MICHELINI - SCARAMUZZA.
-
 Cors: MM. 7ZBINDEN - PiaurT - Rerscuisxy - TRACHSEL
 BERNASCHINA.
-
 Trombones : MM. PIOTTON - MARTIN - MAITRE - Marc PORTIER
 Henri MurrEr - Ricormo - CAZZANIGA.
-
 Barytons: MM. GREBER - MANDALLAZ - DÉLÉTRAZ - HOFFMANN.
-
 Basses et Contrebasses: Poncion!1 - DALEX - VÈRONÈSE - BLONDEL
 Charles Murrer - Marius HEnry - Charles DUMOULIN - Jean
 DUMOULIN - DENTZ - MOLINATTI - MAROCCO.
-
 Contrebasses à cordes: MM. RICHTER - MAYER - KNUCHEL.
-Batterie: MM. KurT-REyNAUD - DESCOMBES - GAY - YERSIN.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003068_009.tif"/>
-<page><![CDATA[) @
-
- 
-
+Batterie: MM. KurT-REyNAUD - DESCOMBES - GAY - YERSIN.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003068_009.tif'/>
+        <page>
+          <![CDATA[) @
 Naville & C”
-
 Livres - Papeterie
-
- 
-
- 
-
- 
-
- 
-
 Pour toutes réparations
-
- 
-
 et transformations
-
 L 4
-
 Û ;
 I, de Carrosserie
-
- 
-
 L. RICHARD éiérhone 24809 - GEnÈve
-
- 
-
- 
-
 DANS LES STEPPES DE L’ASIE CENTRALE, Borodine
-
 Exquisse symphonique
-
 Dans le silence des steppes sablonneuses de l’Asie centrale
 retentit le premier refrain d’une chanson paisible russe. On
 entend aussi les sons mélancoliques des chants de l’Orient;
@@ -612,65 +334,31 @@ La caravane s’avance toujours. Les chants des Russes et ceux
 des indigènes se confondent dans la même harmonie, leurs
 refrains se font entendre longtemps dans le désert et finissent
 par se perdre dans le lointain.
-
- 
-
- 
-
 TRANSPORTS FUNÈEBRES
-
 A. MURITH s.
-
 GENÈVE - SIÈGE socIAL: RUE DES CHAUDRONNIERS, 16
 TÉLÉPH. 5 O2 88 (SERVICE PERMANENT)
-
- 
-
 FABRIQUE DE CERCUEILS AUTOMOBILES FUNÉRAIRES
-
 L’Administration se charge, sans aucun déplacement pour les
 familles, de toutes les démarches et formalités relatives aux
-
 Inhumations — Exhumations —  Incinérations — Transports
-
 COURONNES
-
-MORTUAIRES CENTRAL-DEUIL 252E2S 1s]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003068_010.tif"/>
-<page><![CDATA[Îfne adresse à retenir
-
+MORTUAIRES CENTRAL-DEUIL 252E2S 1s
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003068_010.tif'/>
+        <page>
+          <![CDATA[Îfne adresse à retenir
 GALLAND & MERMINOD S.A.
-
 | TAILLEURS
-
 RUE DE LA CROIX-D'OR, 12 - TÉLÉPHONE 43066 - GENÈVE
 INembres passifs
-
- 
-
- 
-
- 
-
- 
-
 JOHN VACHOUX & Fis
-
 HORTICULTEURS-FLEURISTES
 e
-
 Entretien et décoration de tombes — Bouquets et couronnes sur commande
-
- 
-
 TÉLÉPHONE No 51194 SAINT-GEORGES
-
- 
-
- 
-
 ESPANA, rapsodie, Æ. Chabrier
-
 C’est avec cette Rapsodie pour orchestre que Chabrier
 conquit la faveur du public. - Elle est restée jusqu'à nos jours
 son œuvre la plus populaire. Elle fut exécutée pour la
@@ -680,122 +368,60 @@ chœurs. Ce fut le premier contact du compositeur avec le
 grand public; il était alors âgé de quarante-deux ans déjà,
 car Chabrier n’était pas musicien de profession, il l'était, par
 contre, magnifiquement par grâce de nature.
-
- 
-
 Cours d’élèves pour tous instruments
-
- 
-
- 
-
- 
-
 e
 =—"
-
 grave
-
- 
-
 ROTO-SADAG:
-
- 
-
 mluste s…
 imprime
-
 EN TYPOGRAPHIE - EN HÉLIOGRAVURE
-SÉCHERON œ GENÈVE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003068_011.tif"/>
-<page><![CDATA[Toute la musique
-
+SÉCHERON œ GENÈVE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003068_011.tif'/>
+        <page>
+          <![CDATA[Toute la musique
 — Tous les 1ivres neufs et Joccasion
-
 PRIOR î —— Corraterie, 9
-
- 
-
- 
-
 Amer-Picon
-
 L'apéritif sain et agréable
-
- 
-
- 
-
 ORFEVRERIE ARGENT ET MÉTAL ARGENTÉ
 BIJOUTERIE - JOAILLERIE
-
 M. IMHOF
-
 Grand choix - prix très modérés 4, PASSAGE DES LIONS
 Télëphone 4.45,17 GE N Èv E
-
- 
-
- 
-
- 
-
- 
-
 Voyez
-
 La Potinië
-
 JARDIN ANGLAIS
-
 REMOR ® VÉRANDA CHAUFFÉE
-
 GLACIER - TEA-ROOM OUVERT TOUTE L’'ANNÉE
-
- 
-
- 
-
- 
-
- 
-
 Café-Brasserie International
 @lace du Cirgue - GENÈVE - Téléphone %.07.29
-
 L WAGNER
-
 Bonne cave - Consommations de 1er choix
-
 Restauration à toute heure NOUVELLE SALLE DE
-
 RESTAURATION ET SOCIÉTÉ
-
- 
-
- 
-
-Ouvert après les spectacles]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003068_012.tif"/>
-<page><![CDATA[WINTERTHOUR
-
+Ouvert après les spectacles
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003068_012.tif'/>
+        <page>
+          <![CDATA[WINTERTHOUR
 Société Suisse d’Assurance contre les Accidents
-
 ASSURE
 TOUTES LES PROFESSIONS
 AUX MEILLEURES CONDITIONS
-
 Responsabilité civile
 Accidents - Maladie
 Casco - Val
-
 v
-
 Robert MEYER
-
 AGENT GÉNÉRAL
-11, RUE GÉNÉRAL DUFOUR - GENÈVE]]></page>       
-        </p>
+11, RUE GÉNÉRAL DUFOUR - GENÈVE
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

@@ -1,508 +1,300 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Grandes fêtes fribourgeoises par le Cercle fribourgeois de Genève<date when="13/08/1921"/></title>
-<series>1920-1921</series>
-<placeName>Promenade des Bastions ; Parc des Eaux-Vives</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Grandes fêtes fribourgeoises par le Cercle fribourgeois de Genève
+            <date when='13/08/1921'/>
+            <date when='14/08/1921'/>
+          </title>
+          <series>1920-1921</series>
+          <placeName>Genève, Promenade des Bastions</placeName>
+          <placeName>Genève, Parc des Eaux-Vives</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002366</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Canivez, L. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19210813
-19210814"/>
-<title>Grandes fêtes fribourgeoises par le Cercle fribourgeois de Genève</title>
-<placeName key="Promenade des Bastions ; Parc des Eaux-Vives"/>
-<name key="1920-1921" type="series"/>
-<name key="Canivez, L."  type="person" role="cmp">Canivez, L.</name>
-<name key="Mozart, Wolfgang Amadeus" ref="https://muscat.rism.info/admin/people/115324" type="person" role="cmp">Mozart, Wolfgang Amadeus</name>
-<name key="Delibes, Léo" ref="https://muscat.rism.info/admin/people/30016578" type="person" role="cmp">Delibes, Léo</name>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Berlioz, Hector" ref="https://muscat.rism.info/admin/people/13803" type="person" role="cmp">Berlioz, Hector</name>
-<name key="Siedler"  type="person" role="cmp">Siedler</name>
-<name key="Romsberg-Allier"  type="person" role="cmp">Romsberg-Allier</name>
-<name key="Vollstedt"  type="person" role="cmp">Vollstedt</name>
-<name key="Andrieu"  type="person" role="cmp">Andrieu</name>
-<name key="Michiels"  type="person" role="cmp">Michiels</name>
-<name key="Verdi, Giuseppe" ref="https://muscat.rism.info/admin/people/137994" type="person" role="cmp">Verdi, Giuseppe</name>
-<name key="Popy, Francis" ref="https://muscat.rism.info/admin/people/30071122" type="person" role="cmp">Popy, Francis</name>
-<name key="Canivez, L. (dir.)"  type="person" role="int">Canivez, L. (dir.)</name>
-<name key="Musique de Landwehr de Fribourg"  type="person" role="int">Musique de Landwehr de Fribourg</name>
-<name key="Corps de musique de Landwehr"  type="person" role="int">Corps de musique de Landwehr</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002366_001.tif"/>
-<page><![CDATA[des 13 et 14 Août organisées en l’honneur de l’arrivée à Genève de la
-
- 
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19210813'/>
+        <date when='19210814'/>
+        <title>Grandes fêtes fribourgeoises par le Cercle fribourgeois de Genève</title>
+        <placeName key='Genève, Promenade des Bastions'/>
+        <placeName key='Genève, Parc des Eaux-Vives'/>
+        <name key='1920-1921' type='series'/>
+        <name key='Canivez, L.' type='person' role='cmp'>Canivez, L.</name>
+        <name key='Mozart, Wolfgang Amadeus' ref='https://muscat.rism.info/admin/people/115324' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Delibes, Léo' ref='https://muscat.rism.info/admin/people/30016578' type='person' role='cmp'>Delibes, Léo</name>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Berlioz, Hector' ref='https://muscat.rism.info/admin/people/13803' type='person' role='cmp'>Berlioz, Hector</name>
+        <name key='Siedler' type='person' role='cmp'>Siedler</name>
+        <name key='Romsberg-Allier' type='person' role='cmp'>Romsberg-Allier</name>
+        <name key='Vollstedt' type='person' role='cmp'>Vollstedt</name>
+        <name key='Andrieu' type='person' role='cmp'>Andrieu</name>
+        <name key='Michiels' type='person' role='cmp'>Michiels</name>
+        <name key='Verdi, Giuseppe' ref='https://muscat.rism.info/admin/people/137994' type='person' role='cmp'>Verdi, Giuseppe</name>
+        <name key='Popy, Francis' ref='https://muscat.rism.info/admin/people/30071122' type='person' role='cmp'>Popy, Francis</name>
+        <name key='Canivez, L.' type='person' role='int'>Canivez, L.</name>
+        <name key='Musique de Landwehr de Fribourg' type='person' role='int'>Musique de Landwehr de Fribourg</name>
+        <name key='Corps de musique de Landwehr' type='person' role='int'>Corps de musique de Landwehr</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002366_001.tif'/>
+        <page>
+          <![CDATA[des 13 et 14 Août organisées en l’honneur de l’arrivée à Genève de la
 ? Fribourgeois
-
-   
-
 s$ _'\".'ÂJ—’
-
 Musique de Landwehr de F r1bourg
-
 Harmonie militaire de 80 exécutants sous la direction de M. le professeur CANIVEZ
-
 Officier d'Académie, Chevalier de l’Ordre de la Couronne Belge
-
 par le
-
 L
 8
-
 CERCLE FRIBOURGEOIS DE GENEVE
-
 avec le précieux concours dela
-
 MUSIQUE DE LANDWEHR DE GENÈVE
-
 Sous la présidence d’honneur de M. le
-
- 
-
 Dégustez les
-
 BIE‘HES
-
 CHRDINHh
 FRIBOURG
-
- 
-
 A L A As
-
 Brasserie *
-
 Genevoise
 Chantepoulet
-
 veste la sournce réputée
 des bières de
 Munich et de Bâle
-
- 
-
 e……æ A
 Programme de la Réception
-
 SAMEDI 13 AOUT
-
 à 17 heures 40 : à la Gare de Cornavin
-
 Réception officielle de la Musique de Landwebr
 de Fribourg, accompagnée de Magistrats, par le
 Cercle Fribourgeois et le Corps de Musique
 de Landwebr de Genève, les délégations des
 Corps de Musique et les Sociétés de Genève.
-
 Cortège par la Ville. — Arrêts aux monuments
 National et Philibert Berthelier. Discours.
-
 HOTEL DU JURA
 Souper de la Musique de Landwebr de Fribourg.
 À 20 heures °/, :
 Promenade des Bastions
-
 (En cas de mauvais temps
-
 au VICTORIA-HALL)
-
 GRAND GONCERT
-
 donné par la
-
 Landwehr de Fribourg
-
 “ (Voir le programme page 2)
-
 e e e e e E
-
 À 19 heures J, :
-
 Conseiller fédéral Musy ;
 ä
-
 HOTEL
-
 Fouring & Balance
-
 GENÈVE
-
 Cuisine renommée
-
 Chambres depuis 4 fr.
-
 VIQUERAT, propriétaire
-
- 
-
 TEINTURERIE - LAVABH CHINIQUE
-
 Frausse & C'°
-
 9, Quai des Bergues
 Usine à Saint-Jean, 53
-
- 
-
 Deuil en 24 heures
-
 Téléphone 54-36
-
- 
-
- 
-
 11, Boulevard du Pont-d’Arve
-
- 
-
 CHARBO NS
-
- 
-
- 
-
 COMBUSTIBLES
-
 H Schônenweid
-
 Chantier et Bureau: Rue de l’École, 15
-
 TI BO IS
-
 TÉLÉPHONE 92.73
-
- 
-
 Association Genevoise
 pour le commerce des Vins et Spirifueux en gros
-
 Rue de Lausanne, 74-76
-
 GENÈVE
 TÉLÉPHONE 57-78
-
 AAANAAAAAAAAA AODDED SDN AAL
-
- 
-
 Vins ; SÎr@p@ Spîrûtueux
-
 —s r
-
- 
-
- 
-
-|]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002366_002.tif"/>
-<page><![CDATA[Œalé-Resfaurant
+|
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002366_002.tif'/>
+        <page>
+          <![CDATA[Œalé-Resfaurant
 du Igf-d'Eau
-
 | PHILIPONA & MORET
 GENEVE - Rue de l’Ecole, 34
-
 =>8————
-
 | Repas à prix fixe à 2 fr. 50
 ‘ vin compris, à toute heure
 | …
-
 | Service à la carte
-
 |
-
 | Consommations de 1°" choix
 Vins des Grands Crûs
-
- 
-
 MINES de CHARLERO!
-
 Pierre Mantilleri
-
 Charhons belges de première qualifé aux mellleures condifions
 Service rapide de défail.
-
- 
-
 Prix spéciaux par vagon complet.
-
- 
-
 Rue de la Navigation, 39 Téléphone 58-29
-
 rrrs rarperma t” D iques fros mt en S
-
 CONCERT DU 13 AOUT 1921
-
 Programme :
-
- 
-
 1. Souvenir de Genève, grande
-
- 
-
 CCN
 SPÉCIALITÉ
-
 CHARCUTERIE
 VAUDOISE
-
 Halle des Pâquis
-
 houis OLIVIER
-
 EYSINS sur Nyon
 =KN HMNAMNN
-
- 
-
 SERRURERIE
-
 en tous gennes
-
 J.Navette
-
 - Rue de St-Jean, 55
 GENÈVE
 T1n
-
 Petits travaux
 Réparations
 Soudure autogène
 Régie
-
- 
-
 marches M3 .1 L. CANIVEZ
 2. Ouverture de la F/âte enchan-
-
 Lée 4 MOZART
 3. Le Roi s'amuse, scène du bal,
-
 suite d’orchestre . L. DELIBES
-
 . Gaillarde
-
 . Pavane.
-
 . Scène du Bouquet.
 . Lesquercarde.
-
 . Madrigal.
-
 . Passepied.
-
 . Final.
-
 SOU R ON —
-
 mouvement de la
-
 4. Premier
 Sympbonie N° 1. P BEETHOVEN
 S. Les Francs-Juges, ouverture BERLIOZ
 6. Ranz des Vaches, arrangé par SIEDLER
 Prix d'entrée :
-
 Pour les Bastions,de O fr. 60 (droit des pauvres
 compris).
-
 Pour le Victoria-Fall, en cas de mauvais temps,
 loges et fauteuils de 1"° galerie, 2 fr.10 —
 Parterre, promenoirs, 2"° et 3ne rangs de
-
 @n
 w
-
 1X0  galeries, 18 fr. 10 Secondes galeries,
 0 fr. 60.
-
 Au Victoria-Hall, les enfants au dessous de 10 ans
 paieront demi-tarif à toutes les places.
-
 'AfK_
-
- 
-
- 
-
 CAFÉ-BRASSERIE
 —— Raymond Moullet =-
-
 4, rue Rousseau, 4
-
- 
-
 Spécialité de vins rouge et blanc
-
 Gafé
 Vautois
-
 Rue des Alpes, 16
 GENÈVE
-
- 
-
- 
-
 À
 Se recommande ‘
-
 Ed. GENOUD, tenancier
-
- 
-
 ALIMENTATION DE ST-JEAN |
-
 N° V* 5. Magnerat
-
 Rue St-Jean, 54 - GENÈVE -
-
 Epicerie fine et comestibles |
 Vins fins et liqueurs |
-
 |
-
 F |
-
 Oeufs - Beurre - Fromages «l
 Charcuterie de campagne
-
 Service à domicile
 * + + , |
-
 Téléphone 72-42
-
- 
-
- 
-
 Vinsde _
 Ghampagne
 Vins fins
 en bouteilles
-
 Fréd. NAVAZZA
-
 5 - Rue Versonnex - S
 TÉLÉPHONE 8-72
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-r ,]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002366_003.tif"/>
-<page><![CDATA[Gafé Niquille
-
+r ,
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002366_003.tif'/>
+        <page>
+          <![CDATA[Gafé Niquille
 ï
-
 | 6, Place Grenus, 6
-
 SEN
-
 …
 2Ls
 J Consommations
-
 de premier choix
-
 ] Î:.Î\Û
-
 J‘ Restauration
 à toute heure
-
 |
 |
-
 |
-
 - Hôtel-Hesfaurant
-
 - des Voyageurs
-
 \ be plus près de la Gare
 | Dîners à pnix fixe
-
 Restauration —
 — à tfoute heure
-
 |
 Vins de premier choix
 Cuisine soignée
-
 « EXCOFFIGR & TROMBERT
-
- 
-
 Galé-Brasserie
 de l'HELVÉTIE
-
 Rue de Monthoux
-
 ce3
-
 Se recommande :
-
 M. BOVET
-
- 
-
 DIMANCHE 14 AOUT 1921
 à midi précis :
 ; au Restaurant de l’Arquebuse, rue du Stand, 36,
@@ -517,285 +309,139 @@ au Restaurant de l’Arquebuse, jusqu’au jeudi
 —— —> 25 6
 à
 w
-
- 
-
 Vitrerie - Encadrements
 =. …… Stores — =—s
-
 B. SIMONI
-
 GENÈVE - Rue St-Jean, 52 «- GENÈVE
 “HHI[I"
-
 Téléphone 74-41
-
 fn A d n p Rn afoigias S
-
 Téléphone 74-41
-
- 
-
 Droguerie
-
 F
-
 en gros |
-
- 
-
 Produits çhimiqﬂéâ;-
-
 E LOI
 3 =- Rue Versonnex = 3
-
 GENÈVE
-
- 
-
 Grande
 Fête Fribourgeoise
-
 avec le concours de la
-
 Musique de Landwehr de Fribourg
 (Voir programme ci-contre, page 4)
-
 Ouverture de la Fête à 14 heures !
-
 Demandez
-
 GRANDE
 GRUYÈRE
-
- 
-
- 
-
 JEUX DIVERS
-
 Grande Tombola Américaine.
 Roue de la Bonne Fortune.
-
 Nombreux et beaux prix
-
 D PIOO( DEN A
 Amateurs des bonnes Bieres
 et Mets de Brasserie soignés
-
 rendez-vous général
-
 Brasserie Bernoise
 Rue du Mont-Blanc
-
 En face de l’Hôtel des Postes
-
- 
-
- 
-
- 
-
- 
-
 Gafé-Brasserie
-
 PORT-FRANC
-
 49, rue de Lausanne, 49
-
 |
-
 Se recommande : |
-
-M"* V" Michel]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002366_004.tif"/>
-<page><![CDATA[In 10 J. GHAPERDN Fabrique —
+M"* V" Michel
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002366_004.tif'/>
+        <page>
+          <![CDATA[In 10 J. GHAPERDN Fabrique —
 Gafé dgla darine e ue e fous Ss
 GENÈVE
-
 14, rue Rousseau, 14
-
 | Joseph ULDRY
-
- 
-
 Vins de premier choix
-
 Restauration
-
- 
-
 LINGERIE
 BONNETERIE
 MERGFRIE
 NOUVEAUTÉS
-
 | M'Golay
-
 Ï Rue de Saint=Jean, 58
 Ï
-
- 
-
- 
-
 "seas
 Prix modérés
-
 - Fribourgeois!
-
- 
-
 | N’oubliez pas d’aller
-
 les Glaces
-
 « M ROLFO
-
 ‘ Quai des Bergues
-
 déguster
-
- 
-
- 
-
 BÛIS el GHARBÛNS
-
 GENÈVE - 33, rue de Lausanne - GENÈVE
-
 TÉLÉPHONE 79-36
-
- 
-
 Buffet tenu par M. MONNARD
 Tarif affiché.
-
- 
-
 Garage pour autos, motos, vélos.
 Tramways : lignes N°5 2, 9 et 10.
 Mouettes ; Pâquis Parc des Eaux-Vives.
-
 ——
-
 CONGERT POPULAIRE OÙ 14 AOUT 1
-
 Programme
-
 1. Marche des Dollars.. ROMSBERG - ALLIER
-
 2. Mon Idôle, valse..... VOLLSTEDT
-
 3. Plaisirs d'Eté, scènes
-
 descriptives .....….
-
 1. Le matin
 2. Sur la pelouse
 3. Idylle
 4. Au bord de l'eau
 5. Sous la tonnelle
 6. Farandole
-
 4. Czardas N° 1
 . Fantaisie sur Aïda.
 6. Pleurs d'amour, valse
 vZISames. . ....
 7. Les bords de la libre
 Sarine, pas redoublé  SIEDLER
-
 ANDRIEU
-
 MICHIELS
 VERDI
-
 n
-
 Entrée libre
-
 La Fête aura lieu au Parc des Eaux-Vives par
-
 S SEN PS RE PE A A
 n'importe quel temps.
-
 Gafe de la Servette
-
 J. ROUILLER
-
 Bière de St«Jean : : Vins rouge et blanc
 de Ire qualité
-
- 
-
 ARRÊT DU TRAM
-
 TINGUEhY
 & JACCARD
-
 GENÈVE
 13 - Rue Coutau - 13
 PRIX MODÉRÉS
 Travail soigné
-
 - Réparations
-
- 
-
- 
-
 Boucherie
-
 JEAN LAUPER
-
 6, rue Pradier, 6
-
 el
-
 55, Halle des Päquis, 55
-
 TÉLÉPHONE 3-32
-
- 
-
- 
-
 Au
 Petit Soldeur
-
 38, Boulevard
 du Pont-d’Arve
-
 DEBEAUMONT
-
 Fournitures pour margotons
 et loteries amérieaines
-
- 
-
- 
-
 IMPRIMERIE ST-GERVAIS S.A,, GENÈVE
-
- 
-
- 
-
- 
-
 P r E 367
-
- 
-
- 
-
- 
-
- 
-
-e]]></page>       
-        </p>
+e
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

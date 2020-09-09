@@ -1,113 +1,105 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné gracieuseument par M. Fernand Closset, M. B. Brandia, M. R. Gugolz et Mme Nicolaïew-Leschaud : Au bénéfice de l'aide sanitaire au peuple de la République espagnole<date when="22/09/1936"/></title>
-<series>1935-1936</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné gracieuseument par M. Fernand Closset, M. B. Brandia,
+            M. R. Gugolz et Mme Nicolaïew-Leschaud : Au bénéfice de l'aide
+            sanitaire au peuple de la République espagnole
+            <date when='22/09/1936'/>
+          </title>
+          <series>1935-1936</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002956</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Closset, F. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19360922"/>
-<title>Concert donné gracieuseument par M. Fernand Closset, M. B. Brandia, M. R. Gugolz et Mme Nicolaïew-Leschaud : Au bénéfice de l'aide sanitaire au peuple de la République espagnole</title>
-<placeName key="Victoria Hall"/>
-<name key="1935-1936" type="series"/>
-<name key="Mozart, Wolfgang Amadeus" ref="https://muscat.rism.info/admin/people/115324" type="person" role="cmp">Mozart, Wolfgang Amadeus</name>
-<name key="Brahms, Johannes" ref="https://muscat.rism.info/admin/people/39914" type="person" role="cmp">Brahms, Johannes</name>
-<name key="Schubert, Franz" ref="https://muscat.rism.info/admin/people/111603" type="person" role="cmp">Schubert, Franz</name>
-<name key="Kreisler"  type="person" role="cmp">Kreisler</name>
-<name key="Strauss"  type="person" role="cmp">Strauss</name>
-<name key="Musorgskij, Modest Petrovič" ref="https://muscat.rism.info/admin/people/30019183" type="person" role="cmp">Musorgskij, Modest Petrovič</name>
-<name key="Bach, Johann Sebastian" ref="https://muscat.rism.info/admin/people/2539" type="person" role="cmp">Bach, Johann Sebastian</name>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Pierné, Gabriel" ref="https://muscat.rism.info/admin/people/18686" type="person" role="cmp">Pierné, Gabriel</name>
-<name key="Sarasate, Pablo de" ref="https://muscat.rism.info/admin/people/30019733" type="person" role="cmp">Sarasate, Pablo de</name>
-<name key="Closset, Fernand (dir.)"  type="person" role="int">Closset, Fernand (dir.)</name>
-<name key="Ecole sociale de musique"  type="person" role="int">Ecole sociale de musique</name>
-<name key="Brandia, B."  type="person" role="int">Brandia, B.</name>
-<name key="Gugolz, Robert"  type="person" role="int">Gugolz, Robert</name>
-<name key="Nicolaïew-Leschaud (Mme)"  type="person" role="int">Nicolaïew-Leschaud (Mme)</name>
-<name key="Biéler, Hélène"  type="person" role="int">Biéler, Hélène</name>
-<name key="Fraissinet, J. (Mlle)"  type="person" role="int">Fraissinet, J. (Mlle)</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002956_001.tif"/>
-<page><![CDATA[Mardi 22 septembre 1936
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19360922'/>
+        <title>
+          Concert donné gracieuseument par M. Fernand Closset, M. B. Brandia, M.
+          R. Gugolz et Mme Nicolaïew-Leschaud : Au bénéfice de l'aide sanitaire
+          au peuple de la République espagnole
+        </title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1935-1936' type='series'/>
+        <name key='Mozart, Wolfgang Amadeus' ref='https://muscat.rism.info/admin/people/115324' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Brahms, Johannes' ref='https://muscat.rism.info/admin/people/39914' type='person' role='cmp'>Brahms, Johannes</name>
+        <name key='Schubert, Franz' ref='https://muscat.rism.info/admin/people/111603' type='person' role='cmp'>Schubert, Franz</name>
+        <name key='Kreisler' type='person' role='cmp'>Kreisler</name>
+        <name key='Strauss' type='person' role='cmp'>Strauss</name>
+        <name key='Musorgskij, Modest Petrovič' ref='https://muscat.rism.info/admin/people/30019183' type='person' role='cmp'>Musorgskij, Modest Petrovič</name>
+        <name key='Bach, Johann Sebastian' ref='https://muscat.rism.info/admin/people/2539' type='person' role='cmp'>Bach, Johann Sebastian</name>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Pierné, Gabriel' ref='https://muscat.rism.info/admin/people/18686' type='person' role='cmp'>Pierné, Gabriel</name>
+        <name key='Sarasate, Pablo de' ref='https://muscat.rism.info/admin/people/30019733' type='person' role='cmp'>Sarasate, Pablo de</name>
+        <name key='Closset, Fernand' type='person' role='int'>Closset, Fernand</name>
+        <name key='Ecole sociale de musique' type='person' role='int'>Ecole sociale de musique</name>
+        <name key='Brandia, B.' type='person' role='int'>Brandia, B.</name>
+        <name key='Gugolz, Robert' type='person' role='int'>Gugolz, Robert</name>
+        <name key='Nicolaïew-Leschaud (Mme)' type='person' role='int'>Nicolaïew-Leschaud (Mme)</name>
+        <name key='Biéler, Hélène' type='person' role='int'>Biéler, Hélène</name>
+        <name key='Fraissinet, J. (Mlle)' type='person' role='int'>Fraissinet, J. (Mlle)</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002956_001.tif'/>
+        <page>
+          <![CDATA[Mardi 22 septembre 1936
 RT
-
- 
-
- 
-
-    
-  
-   
- 
-
 donné gracieusement par
-
 /V\ Remanar C OSSET
-
 violoniste
 ï Direc’reur de l'Ecole Sociale de Musique
-
 ‘BRÀNDIA M. R GUGOLZ
-
 clarinettiste
-
 M”‘e NICOLAIEW—LESCHAUD
-
 cantatrice
 Professeurs de l'Ecole Sociale de Musique
-
 siano d'accompagnement : M''e Hélène BIÉLER, professeur à l'Ecole Sociale de Musique,
 p « ; et Mlle J, FRAISSINET
-
 &
 PROGRAMME
-
 Andanie el menuef de Don Juan Mozart 5 a)Arloso..,. ... 7 Bacn
 JHarmome de l’Ecole Sociale de Musique. b) Asturiana, mélodie espagnole X
 0 Dmedtuon M Fernand Closset. c) Granadina, mélod. espagnole X
-
- 
-
- 
-
- 
-
 , ; M. B. Brandia (au piano Mlle H, Biéler).
 a) Valse 1101 / - < , Brahms 6. Trio en ut mineur, 1°’ mouve-
 u b) Wleger_nlled_ 0 . , Sehubert ment . . ; ; . … Beethoven
@@ -124,29 +116,14 @@ c6 ;
 9. Airs bohémiens . . . . . . Sarasate
 n ; ENTR ACTE M, Fernand Closset.
 ds E LUE T Prix du programme: 10 centimes
-
- 
-
- 
-
 nn ce
-
 IMPRIMERIES POPULAIRES, GENÈVE
-
- 
-
- 
-
- 
-
- 
-
- 
-
 &
 34
-6]]></page>       
-        </p>
+6
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

@@ -1,93 +1,87 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par l'Harmonie nautique<date when="31/07/1895"/></title>
-<series>1894-1895</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par l'Harmonie nautique
+            <date when='31/07/1895'/>
+          </title>
+          <series>1894-1895</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F000355</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Bonade, L. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18950731"/>
-<title>Concert donné par l'Harmonie nautique</title>
-<placeName key="Victoria Hall"/>
-<name key="1894-1895" type="series"/>
-<name key="Nicolai, Otto" ref="https://muscat.rism.info/admin/people/100329" type="person" role="cmp">Nicolai, Otto</name>
-<name key="Thomas, A."  type="person" role="cmp">Thomas, A.</name>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Reyer, E."  type="person" role="cmp">Reyer, E.</name>
-<name key="Diaz"  type="person" role="cmp">Diaz</name>
-<name key="Donjon"  type="person" role="cmp">Donjon</name>
-<name key="Delibes, Léo" ref="https://muscat.rism.info/admin/people/30016578" type="person" role="cmp">Delibes, Léo</name>
-<name key="Bonade, Louis (dir.)"  type="person" role="int">Bonade, Louis (dir.)</name>
-<name key="Harmonie Nautique"  type="person" role="int">Harmonie Nautique</name>
-<name key="Van Laer"  type="person" role="int">Van Laer</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000355_001.tif"/>
-<page><![CDATA[Ë
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18950731'/>
+        <title>Concert donné par l'Harmonie nautique</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1894-1895' type='series'/>
+        <name key='Nicolai, Otto' ref='https://muscat.rism.info/admin/people/100329' type='person' role='cmp'>Nicolai, Otto</name>
+        <name key='Thomas, A.' type='person' role='cmp'>Thomas, A.</name>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Reyer, E.' type='person' role='cmp'>Reyer, E.</name>
+        <name key='Diaz' type='person' role='cmp'>Diaz</name>
+        <name key='Donjon' type='person' role='cmp'>Donjon</name>
+        <name key='Delibes, Léo' ref='https://muscat.rism.info/admin/people/30016578' type='person' role='cmp'>Delibes, Léo</name>
+        <name key='Bonade, Louis' type='person' role='int'>Bonade, Louis</name>
+        <name key='Harmonie Nautique' type='person' role='int'>Harmonie Nautique</name>
+        <name key='Van Laer' type='person' role='int'>Van Laer</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000355_001.tif'/>
+        <page>
+          <![CDATA[Ë
 J
-
- 
-
- 
-
 VICTORIA-HALL
-
 Mercredi 31 Juillet 1895, à huit heures et demie du soir
-
 é CONCERT 59
-
- 
-
- 
-
 DONNÉ PAR
-
 L'HARMONIE NAUTIQUE DE GENÈVE
-
 sous la direction de M. LOUIS BONADE
 avec le gracieux concours de
 M ÿ AN IXAER, baryton.
-
 0
-
 PROGRAMME
-
 PREMIÈRE  PARTIE
-
 r. Ouverture des Joyeuses Commères de Windsor . N'colaï.
 2. Fantaisie sur Le Caïd À. Thomas.
 3. Romance de l’Étoile (Tannhäuser) R. Wagner.
@@ -100,28 +94,23 @@ M. VAN Larr.
 . Ballet de Sylvia Léo Delibes.
 a) Les Chasseresses. -— b) Valse lente. - c) Pizzicati. —
 d) Cortège de Bacchus.
-
 GRAND ÉCLAIRAGE ÉLECTRIQUE DE LA SALLE
-
 PRIX D'ENTRÉE : Rez-de-Chaussée, 1 fr. — Première Galerie, 2 fr.
 Seconde Galerie, 50 cent.
 On peut se procurer des cartes à l'avance de 10 heures à % heures jusqu'au Mardi soir
 au Victoria-Hall.
-
 MM. les membres non-exécutants ont droit d’entrée à ce concert sur présentalion
 du coupon n° 5 aux places du rez-de-chaussée el, moyennant un supplément de
 1 fr., aux places de Ppremière galerie.
-
 SS
-
 BUFFET au rez-de-chaussée tenu par M. Désarnod, confiseur.
-
 AN
 ° })% %
-
 Geneve, — /mp. L.-F. Jarrys,
-.]]></page>       
-        </p>
+.
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

@@ -1,107 +1,93 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par l'Harmonie nautique<date when="24/04/1904"/></title>
-<series>1903-1904</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par l'Harmonie nautique
+            <date when='24/04/1904'/>
+          </title>
+          <series>1903-1904</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F000547</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Bonade, L. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19040424"/>
-<title>Concert donné par l'Harmonie nautique</title>
-<placeName key="Victoria Hall"/>
-<name key="1903-1904" type="series"/>
-<name key="Bastia, Charles"  type="person" role="cmp">Bastia, Charles</name>
-<name key="Nicolaï, C."  type="person" role="cmp">Nicolaï, C.</name>
-<name key="Attenhofer, Carl" ref="https://muscat.rism.info/admin/people/30007424" type="person" role="cmp">Attenhofer, Carl</name>
-<name key="Heim, H."  type="person" role="cmp">Heim, H.</name>
-<name key="Klosé, H."  type="person" role="cmp">Klosé, H.</name>
-<name key="Billeter, A."  type="person" role="cmp">Billeter, A.</name>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Pirouelle"  type="person" role="cmp">Pirouelle</name>
-<name key="Bonade, Louis (dir.)"  type="person" role="int">Bonade, Louis (dir.)</name>
-<name key="Harmonie Nautique"  type="person" role="int">Harmonie Nautique</name>
-<name key="Liederkranz"  type="person" role="int">Liederkranz</name>
-<name key="Grandjean"  type="person" role="int">Grandjean</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000547_001.tif"/>
-<page><![CDATA[é> —s TP
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19040424'/>
+        <title>Concert donné par l'Harmonie nautique</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1903-1904' type='series'/>
+        <name key='Bastia, Charles' type='person' role='cmp'>Bastia, Charles</name>
+        <name key='Nicolaï, C.' type='person' role='cmp'>Nicolaï, C.</name>
+        <name key='Attenhofer, Carl' ref='https://muscat.rism.info/admin/people/30007424' type='person' role='cmp'>Attenhofer, Carl</name>
+        <name key='Heim, H.' type='person' role='cmp'>Heim, H.</name>
+        <name key='Klosé, H.' type='person' role='cmp'>Klosé, H.</name>
+        <name key='Billeter, A.' type='person' role='cmp'>Billeter, A.</name>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Pirouelle' type='person' role='cmp'>Pirouelle</name>
+        <name key='Bonade, Louis' type='person' role='int'>Bonade, Louis</name>
+        <name key='Harmonie Nautique' type='person' role='int'>Harmonie Nautique</name>
+        <name key='Liederkranz' type='person' role='int'>Liederkranz</name>
+        <name key='Grandjean' type='person' role='int'>Grandjean</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000547_001.tif'/>
+        <page>
+          <![CDATA[é> —s TP
 G,
 « VICTORIA-HALL® ÀÎ@
-
 —ES D—
-
-   
-
- 
-
 à 1 heures 314. ; 42»}1€F11‘f58 112.
-
- 
-
- 
-
 ‘Â Ouverture des portes »imauche 24 âVril ]904, Wôîîmmencem à Q$
-
- 
-
 DONNE PAR
-
 L'HARMONIE NAUTIQUE DE GENÈVE
-
 sous la direction de
-
 M. LDOUIS BONADE
-
 avec le gracieux concours de la Société chorale
-
 m'I'EDERtFRiLRtANZÆ
 (Directeur : M. R. WISSMANN)
-
 —>c ce —
-
 YRSSRANMNME
-
 4
 É A
-
- 
-
- 
-
 PREMIÈRE PARTIE e1©
 1. Vienne-Exposition, allegro militaire.........…. Charles Bastia. £
 2. Ouverture des Joyeuses Commères de Windsor. C. Nicolaï. oAG
@@ -114,62 +100,37 @@ mengdesimo e À Billeter.
 6. Fantaisie sur Robert le Diable ... Meyerbeer,
 7- Matrosenchor, tiré de l’opéra Der Fliegende
 Holländer, chœur avec accompagnement de
-
 en e R. Wagner.
 (e)
-
 8. Emma-Livry, polka (solo exécnté par DIX clarinettes) .. .. Pirouelle.
 Accompagnateur : M. GRAND/JKAN.
-
 Piano BLÜTHNER, gracieusement offert par la maison G. DupacH & Cie,
-
- 
-
 PRIX DES PLACES : Loges et premier rang de la première Galerie (numérotés), 2 fr, —
 Rez-de-chaussée et autres places de la première Galerie, 1 fr. — Seconde Galerie, 50 cent.
-
 du coupon n° 4 aux places du rez-de-chaussée et de la première galerie, à l'exception
-
- 
-
 f MM. les membres non-exéeutants ont droit d’entrée à ce concert sur présentation )\
 \ du premier rang et des loges, auxquels ils ont droit moyennant un supplément de 1 fr.
-
 / Les enfants au-dessous de dix ans paieront demi-place. — Il ne sera pas délivré de demi
-
 © J ë Ï ©
 : places pour la seconde galerie.
 | Les membres (Q'r:"ru{riul.s‘yr[w.x‘ Corps de musique Landwehy, Elite et Fanfare Municipale ë
 ont droit à l'entrée de ce concert sur présentation de leur carte personnelle,
-
 ; Dès ce jour, cartes à l’avance de 9 à 6 h., au Victoria-Hall.
-
 ] Prière de ne pas entrer pendant l’exécution des morceaux. BUFFET au rez-de-chaussée,
-
 €
-
 ON
 ”—>:ÈËÇÎ
-
 &.
-
- 
-
- 
-
 -
-
 LU ORE-
 E— Genève. — Imp. L.-F. Jarrys. :.(ä?&, ):, —31@© J8
-v]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000547_002.tif"/>
-<page><![CDATA[\ X
+v
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000547_002.tif'/>
+        <page>
+          <![CDATA[\ X
 . » e > -
-
- 
-
- 
-
 Ÿ)'Î_A
 } }
 Cours d’Instruments
@@ -196,13 +157,12 @@ H 5 fr. par mois. ‘
 ; % %
 TT —D —>0
 | Àe QO O
-
 —
-
 e « pl ps
-
-é m r]]></page>       
-        </p>
+é m r
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

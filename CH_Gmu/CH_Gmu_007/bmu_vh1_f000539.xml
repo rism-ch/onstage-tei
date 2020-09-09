@@ -1,111 +1,99 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Un seul grand concert donné par l'Orchestre des concerts lamoureux<date when="29/02/1904"/></title>
-<series>1903-1904</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Un seul grand concert donné par l'Orchestre des concerts lamoureux
+            <date when='29/02/1904'/>
+          </title>
+          <series>1903-1904</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F000539</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Chevillard, C. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19040229"/>
-<title>Un seul grand concert donné par l'Orchestre des concerts lamoureux</title>
-<placeName key="Victoria Hall"/>
-<name key="1903-1904" type="series"/>
-<name key="Berlioz, Hector" ref="https://muscat.rism.info/admin/people/13803" type="person" role="cmp">Berlioz, Hector</name>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Chevillard, C. (dir.)"  type="person" role="int">Chevillard, C. (dir.)</name>
-<name key="Orchestre Lamoureux"  type="person" role="int">Orchestre Lamoureux</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000539_001.tif"/>
-<page><![CDATA[& VICTORIA< HALL %* GENÈYE %
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19040229'/>
+        <title>Un seul grand concert donné par l'Orchestre des concerts lamoureux</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1903-1904' type='series'/>
+        <name key='Berlioz, Hector' ref='https://muscat.rism.info/admin/people/13803' type='person' role='cmp'>Berlioz, Hector</name>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Chevillard, C.' type='person' role='int'>Chevillard, C.</name>
+        <name key='Orchestre Lamoureux' type='person' role='int'>Orchestre Lamoureux</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000539_001.tif'/>
+        <page>
+          <![CDATA[& VICTORIA< HALL %* GENÈYE %
 I— I—— 550050555605 3
-
 Iundi 29 Février 1904, à 8 h. et demie
-
 — ——> © —
-
 UN SEUL GRAND CONCERT
-
 donné par
-
 L’Orchestre des ù w œ =
 v t Concerts Lamoureux
-
 (8O EXÉCUTANTS)
-
 sous la direction de
-
 €. Chevillard
-
 ns e A SOCGCRAMM E — ——"
 PREMIÈRE PARTIE
-
- 
-
- 
-
 Ouverture de Benvenuto Cellini H. Berlioz.
 Symphonie en 1 mineur, n° 5 L. van Beethoven.
 a) Allegro con brio. — b) Andante con moto. — c) Allegro et Finale.
-
 a) Prélude , ; es
 b) Mort d’Yseult | Tristan et Yseult R. Wagner.
-
 )
-
 )
-
 Ouverture de Tannhäuser R. Wagner.
 DEUXIÈME PARTIE
 Roméo et Juliette H. Berlioz.
-
 a) Ile partie. Roméo seul — Tristesse — Concert et bal —
 Grande fête chez Capulet.
-
 b) IlIe partie. Scène d’amour.
-
 c) IVe partie. La reine Mab ou la Fée des Songes (Scherzo).
-
 Ouverture de Léonore, n° 3. L. van Beethoven.
 H. Berlioz.
-
 —0c —
-
 PRIX DES PLACES
 REZ-DE-CHAUSSÉE : Loges, 8 fr. — Parquets, 7 f, — Parterre et Pourtour, 5 fr. —
 Promenoir, 4 fr, — Amphithéâtre, 3 fr. .
@@ -113,100 +101,69 @@ PREMIÈRE GALERIE : Loges, 8 fr. — Fauteuils de face, 1°" et 27e rangs, 6 fr.
 d fr. — Fanteuils de balcon, 1° rang, 0 fr.; 2”° et 8"° rangs, 4 fr.; 4 rang, 2 fr. — Amphi-
 théâtre, 4 fr.
 DEUXIÈME GALERIE : Amphithéâtre et Fauteuils de balcon, 1°" rang, à fr.; autres rangs, 2 fr,
-
 La location est ouverte tous les jours, de 9 heures à midi ct de 2 à G heures, chez M. HENN,
-
 6, boulevard du Théâtre, à Genève. — Les places peuvent être retenues par correspondance en
 joignant le montant à la demande. Il ne sera pas envoyé de places contre remboursement.
-
 Programme analytiqu B.a=0.centimes.
-
 5 = == Ps 15 Es e D e 6 e -
-DIRECTION DE CONCERTS ÂAp, HENN, Genève eproduction interdite]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000539_002.tif"/>
-<page><![CDATA[DE GES H T ESA T A SS OS É SSS
-
+DIRECTION DE CONCERTS ÂAp, HENN, Genève eproduction interdite
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000539_002.tif'/>
+        <page>
+          <![CDATA[DE GES H T ESA T A SS OS É SSS
 1. Ouverture de Benvenuto Cellini....................… Berlioz.
-
 Benvenuto Cellini a été donné pour la première fois à l’Académie royale de musique,
 le 3 septembre 1838. Ce fut, selon la propre expression de Berlioz, <une chute écla-
 tante ». Aujourd’hui, cet opéra est au répertoire d’un certain nombre de théâtres
 allemands, notamment ceux de Weimar et de Carlsruhe, mais il n’a jamais été repris
 sur un théâtre parisien.
-
 2. Cinquième symphonie en ## mineur ........12202m- Beethoven.
 @) Allegro con brio.
 b) Andante con moto.
 c) Allegro et Finale.
-
 La Cinquième symphonie est, d'après Berlioz, « la première dans laquelle Beethoven
 ait donné carrière à sa vaste imagination, sans prendre pour guide ou pour appui une
 pensée étrangère ».
-
 La Symphonie en ut mineur, dit l'auteur de la Damnation de Faust, nous paraît
 émaner directement et uniquement du génie de Beethoven ; c’est sa pensée intime qu’il
-
 y va développer, ses douleurs secrètes, ses douleurs concentrées, ses rêveries pleines.
-
 d’un accablement si triste, ses visions nocturnes, ses élans d’enthousiasme en fourniront
 le sujet, et les formes de la mélodie, de l’harmonie, du rythme et de l’instrumentation
 s’y montreront aussi essentiellement individuelles et neuves que douées de puissance et
 de noblesse.
-
 Il est certain que la Symphonie en ut mineur est une des créations de Beethoven où
 se marque le mieux son individualité. Cela est d’autant plus remarquable que cette
 œuvre superbe n’est nullement le fruit d’une génération spontanée. Aucune symphonie
 du maître n’a été élaborée plus lentement et d’une manière moins suivie.
-
 Des esquisses du premier morceau de l’andante et du scherzo se rencontrent dans les
 carnets du maître, datés de 1800 à 1801.
-
 On a conservé également des feuilles volantes qui prouvent qu’il travaillait à cette
 symphonie à l’époque où il s’occupait de Fidelio et du Concerto de piano en sol, c'est-à-
 dire de 1804 à 1806. En cette dernière année, il la délaissa pour s’oceuper exclusivement
 de la Quatrième symphonie; il la reprit ensuite vers le commencement de 1807, l’em-
 porta dans ses cartons pour y travailler à Bade, où il alla séjourner vers les premiers
-
 jours du mois d’avril de cette année, puis, au mois de juillet, il alla l’achever à Heili- _
-
 genstadt.
 C’est là également qu’il termina, dans la solitude et le recueillement, sa première
 Messe, celle en ut, commandée par le prince Esterhazy pour sa chapelle.
 (Victor WiLpEr, Beethoven, sa vie, son œuvre.)
-
 4
-
 >. Préludo et Mort d Yseut … —. .… E Wagner.
-
 La légende de Tristan et Yseult est empruntée au cycle des mythes français du
 moyen-âge.
-
 Tristan est un chevalier breton, neveu du roi de Cornouailles. Son oncle l’envoie en
 Irlande demander pour lui la main de la belle Yseult. Il remplit sa tâche en chevalier
 loyal et ramène la flancée sur son navire.
-
-    
-
-<]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000539_003.tif"/>
-<page><![CDATA[CR A l D e
-
- 
-
+<
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000539_003.tif'/>
+        <page>
+          <![CDATA[CR A l D e
 ecpamdehiaiee GRD
-
 ps nl
-
- 
-
 A T p pn en rrd p ds
-
- 
-
- 
-
-  
-
 Déjà ils touchent aux côtes de Cornouailles lorsque les deux jeunes gens s’aperçoivent
 qu’ils ont reçu l’un pour l’autre un amour profond et inextinguible. Mais Tristan ne
 veut pas trahir la mission sacrée qu’il a reçue et Yseult ne veut pas renoncer à l’ar-
@@ -218,24 +175,19 @@ circule dans leurs veines et les force à trahir le secret de leurs cœurs. Eper
 Tristan et Yseult se jettent dans les bras l’un de l’autre, au moment où l’on annonce
 l’arrivée du roi Mark, venu au-devant de sa fiancée. Le motif principal du prélude est
 emprunté à la scène du philtre.
-
 Au deuxième acte, Tristan et Yseult se font surprendre par le roi Mark, prévenu de
 la trahison de sa femme par le traître Mélot. Tristan, désireux de mourir, provoque
 Mélot qui tire son épée et frappe le héros d’un coup mortel.
-
 Au troisième acte, Tristan agonise dans son château de Cornouailles. Il n’attend,
 pour fermer les yeux à la lumière, que de voir une dernière fois Yseult. Elle arrive
 enfin ; il se précipite dans ses bras et meurt. Au même instant survient le roi Mark
 apportant un pardon généreux mais tardif. Avec l’aide des seigneurs qui l’accom-
 pagnent, il force l’entrée du château. Kourwenal, l’écuyer fidèle de Tristan, est tué.
-
 Insensible aux péripéties de cette scène tragique, Yseult s'est laissée tomber sur le
 corps inanimé de son amant. Lorsqu’elle se relève, son âme s’est déjà détachée de la
 terre et c'est d’un regard extasié qu’elle semble suivre dans l’espace l’image de Tristan
 transfiguré, avec lequel elle aspire se confondre pour l’éternité.
-
 eOnverirenuexrannhäaser <… .. Wagner.
-
 Au début, l’orchestre chante le Cuntique des Pèlerins. Lies voix se rapprochent, s’en-
 flent dans un élan puissant et s’éloignent. — Crépuscule ; derniers échos du cantique.
 — Dans les ombres de la nuit, on voit se dessiner des apparitions fantastiques. Un
@@ -247,13 +199,10 @@ lui et lui montre ses mystérieuses merveilles. Des cris de joie sauvage répond
 chant, Emportées par le délire de l’ivresse, les Bacchantes enlacent Tannhäuser dans
 leur ronde furieuse et le jettent dans les bras de Vénus qui l’entraîne dans les profon-
 de urs inaccessibles de l’empire du Néant. La troupe sauvage disparaît et la tempête
-
 .1palsP brusquement. Un bruit léger et plaintif continue pourtant à planer dans l’espace…
 — Mais déjà l’aube blanchit l’horizon. Dans le lointain on entend s’éveiller la mv]udn‘
 du cantique. A mesure que les voix se rapprochent et que la clarté du jour fait reculer
-
 — Attiré par le charme, on voit paraître
-
 les ténèbres de la nuit, les vibrations aériennes, qui ressemblaient tout à l’heure à la dou-
 loureuse lamentation des damnés, prennent peu à peu l’accent de la joie. Lorsqu’enfin
 le soleil surgit et que le Cantique des Pèlerins s’élève comme un chant de délivrance,
@@ -261,14 +210,16 @@ elles se répandent en nappes sonores où l’on sent vibrer le ravissement de l
 siasme. C’est l’Hymne du Venusberg, racheté de l’antique malédiction, qui s’enlace au
 cantique divin Iui-même. Ainsi toutes les forces de la vie entonnent le Chant de la
 Rédemption et les deux éléments, jusqu’ici séparés, l’esprit et la matière, Dieu et la
-Nature, s’embrassent et s’unissent dans le baiser sacré de l’amour.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000539_004.tif"/>
-<page><![CDATA[5. Roméo et Juliette........................... Hector Berlios.
+Nature, s’embrassent et s’unissent dans le baiser sacré de l’amour.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000539_004.tif'/>
+        <page>
+          <![CDATA[5. Roméo et Juliette........................... Hector Berlios.
 « (Deuxième partie). Roméo seul. — Tristesse. — Concert et bal. — Grande fête chez
 Capulet.
 b (Troisième partie). Scène d’amour.
 c (Quatrième Ppartie). — La reine Mab ou la Fée des Songes (Scherzo).
-
 Roméo seul promène sa rêverie autour du palais des Capulets. Dévoré d’amour, il
 conte sa plainte à la nuit qui tombe, et les instruments disent toutes les souffrances,
 toutes les violentes secousses de son âme, mieux que sa parole même ne saurait le
@@ -278,29 +229,21 @@ voilé ; c'est le bruit lointain de la fête qui commence. Roméo l’écoute et
 tirent ; peu à peu il se rapproche, il entre dans la splendide salle inondée de lumière et
 alors éclate à son oreille une ivresse de gaîté, une magnificence de joie, telles qu’aucune
 âme d'artiste n’en a jamais connues depuis Véronèse...
-
 Roméo n’a pu prendre part à tant de gaîté; on a entendu les accents de son déses-
 poir d'amour se mêler un instant aux éclats joyeux du bal.
-
 Dans la longue et sombre plainte des altos, qui sans cesse semble devoir s’éteindre
 sous l’accablement et sans cesse retrouve un aliment nouveau dans les profondeurs
 toujours agitées de l’amour, nous reconnaissons la sauvage douleur de Roméo.
-
 Pourtant une voix d’espoir s’est fait entendre, les sons doux et voilés es cors ont
 ébauché ce chant divin où l’amour ne 1'espî1‘e plus que le bonheur.
-
 Le scherzo de la reine Mab est un épisode et comme une oasis où l’âÂme se repose
 avec joie après ces grandes émotions. La merveilleuse délicatesse du tissu mélodique,
 l’originalité de la fantaisie, les piquantes combinaisons de timbres et rythmes, ont
 séduit jusqu’aux adversaires les plus déclarés de Berlioz.
-
 (DE MassouGNESs, Berlioz, son œuvre.)
-
 La symphonie dramatique de Roméo et Juliette fut exécutée, pour la première fois,
 sous la direction de l’auteur, à la salle du Conservatoire, le 24 novembre 1839.
-
 6. Ouverture de Léonore (Fidelio n° 3) .............. Beethoven.
-
 On connaît quatre ouvertures de l'opéra Léonore-Fidelio. Les trois premières sont
 en ut majeur, la quatrième est en mi majeur. Le n° 1 n’a jamais servi de prélude à
 l’ouvrage; il n’est pas absolument certain même que cette pièce symphonique ait été
@@ -316,11 +259,11 @@ qui doit délivrer Florestan. » Bien que pour la reprise de son opéra, en 1814
 ait écrit une quatrième ouverture, celle en mi majeur, c’est généralement le n° 3 que
 l’on exécute aujourd’hui en Allemagne et qui paraît destiné à servir de péristyle
 définitif à l’'œuvre dramatique du maître.
-
 GENEVE. — IMP, L. JARRYS ET FILS
-
-CESATESTÉEE DR SS RF SS É SS]]></page>       
-        </p>
+CESATESTÉEE DR SS RF SS É SS
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

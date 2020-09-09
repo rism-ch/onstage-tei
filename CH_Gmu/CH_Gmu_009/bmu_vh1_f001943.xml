@@ -1,165 +1,147 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par le Corps de musique d'Elite<date when="05/12/1926"/></title>
-<series>1926-1927</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par le Corps de musique d'Elite
+            <date when='05/12/1926'/>
+          </title>
+          <series>1926-1927</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F001943</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Welsch, M.</note>
+        <note>Dovaz, J. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19261205"/>
-<title>Concert donné par le Corps de musique d'Elite</title>
-<placeName key="Victoria Hall"/>
-<name key="1926-1927" type="series"/>
-<name key="Massenet, Jules" ref="https://muscat.rism.info/admin/people/84264" type="person" role="cmp">Massenet, Jules</name>
-<name key="Laparra, R."  type="person" role="cmp">Laparra, R.</name>
-<name key="Haydn, Joseph" ref="https://muscat.rism.info/admin/people/55803" type="person" role="cmp">Haydn, Joseph</name>
-<name key="Mozart, Wolfgang Amadeus" ref="https://muscat.rism.info/admin/people/115324" type="person" role="cmp">Mozart, Wolfgang Amadeus</name>
-<name key="Couperin, François" ref="https://muscat.rism.info/admin/people/30000757" type="person" role="cmp">Couperin, François</name>
-<name key="Grieg, Edvard" ref="https://muscat.rism.info/admin/people/84066" type="person" role="cmp">Grieg, Edvard</name>
-<name key="Weber, Carl Maria von" ref="https://muscat.rism.info/admin/people/117485" type="person" role="cmp">Weber, Carl Maria von</name>
-<name key="Schumann, Robert" ref="https://muscat.rism.info/admin/people/131206" type="person" role="cmp">Schumann, Robert</name>
-<name key="Parès, Gabriël" ref="https://muscat.rism.info/admin/people/30024480" type="person" role="cmp">Parès, Gabriël</name>
-<name key="Welsch, Marcel (dir.)"  type="person" role="int">Welsch, Marcel (dir.)</name>
-<name key="Dovaz, Jules (dir.)"  type="person" role="int">Dovaz, Jules (dir.)</name>
-<name key="Corps de musique d'Elite"  type="person" role="int">Corps de musique d'Elite</name>
-<name key="La Mandolinata de Genève"  type="person" role="int">La Mandolinata de Genève</name>
-<name key="Hasler, Suzanne"  type="person" role="int">Hasler, Suzanne</name>
-<name key="Soravia, Thérèse"  type="person" role="int">Soravia, Thérèse</name>
-<name key="Santandréa, Pierre"  type="person" role="int">Santandréa, Pierre</name>
-<name key="Bauer"  type="person" role="int">Bauer</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001943_001.tif"/>
-<page><![CDATA[VICTORIA HALL
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19261205'/>
+        <title>Concert donné par le Corps de musique d'Elite</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1926-1927' type='series'/>
+        <name key='Massenet, Jules' ref='https://muscat.rism.info/admin/people/84264' type='person' role='cmp'>Massenet, Jules</name>
+        <name key='Laparra, R.' type='person' role='cmp'>Laparra, R.</name>
+        <name key='Haydn, Joseph' ref='https://muscat.rism.info/admin/people/55803' type='person' role='cmp'>Haydn, Joseph</name>
+        <name key='Mozart, Wolfgang Amadeus' ref='https://muscat.rism.info/admin/people/115324' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Couperin, François' ref='https://muscat.rism.info/admin/people/30000757' type='person' role='cmp'>Couperin, François</name>
+        <name key='Grieg, Edvard' ref='https://muscat.rism.info/admin/people/84066' type='person' role='cmp'>Grieg, Edvard</name>
+        <name key='Weber, Carl Maria von' ref='https://muscat.rism.info/admin/people/117485' type='person' role='cmp'>Weber, Carl Maria von</name>
+        <name key='Schumann, Robert' ref='https://muscat.rism.info/admin/people/131206' type='person' role='cmp'>Schumann, Robert</name>
+        <name key='Parès, Gabriël' ref='https://muscat.rism.info/admin/people/30024480' type='person' role='cmp'>Parès, Gabriël</name>
+        <name key='Welsch, Marcel' type='person' role='int'>Welsch, Marcel</name>
+        <name key='Dovaz, Jules' type='person' role='int'>Dovaz, Jules</name>
+        <name key='Corps de musique d&apos;Elite' type='person' role='int'>Corps de musique d'Elite</name>
+        <name key='La Mandolinata de Genève' type='person' role='int'>La Mandolinata de Genève</name>
+        <name key='Hasler, Suzanne' type='person' role='int'>Hasler, Suzanne</name>
+        <name key='Soravia, Thérèse' type='person' role='int'>Soravia, Thérèse</name>
+        <name key='Santandréa, Pierre' type='person' role='int'>Santandréa, Pierre</name>
+        <name key='Bauer' type='person' role='int'>Bauer</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001943_001.tif'/>
+        <page>
+          <![CDATA[VICTORIA HALL
 Portes à 14 h. 15 Concert à 14 h. 4
-
-  
-
 DIMANCHE 5 DÉCEMBRE 1926
-
 C ERI
-
 DONNÉ PAR LE CORPS DE
-
 MUSIQUE D'ÉLITE
-
 SOUS LA DIRECTION DE
 Monsieur MARC tL WVELSCH
-
 Premier prix du Conservat p
 avec le bienveillant concours de
-
 LA MANDOLINATA GENEVOISE
 Direction : M. Jule DOVAZ
-
 M'!* Suzanne HASLER s1 Thérèse SORAVIA
-
 Cantatrice Profe u Conservatoire de Genève
 MI. Pierre SANTANDRÉA
-
 Clarinettiste, 1°" Prix d’exce e du ( € e d P et
 Profe eur au ( servat e de Genèv
-
 PRIX DES PLACES
 L()I/(’S el rang de la 1'° galerie (numérotées) Fr. 2.20. Rez-de
 chaussée et autres places de 1" galerie Fr. 1,10. 2”* galerie GO cts
-
 .:. Cartes à l’avance : Victoria-Hall, J. FIVAZ, Terr e, 9, et À. AUGIER, Av. du Mail, 20
-
 Les cartes de Membres honoraires et r exécutants donnent droit à 2 entrées
-
- 
-
 (le coupon r e entrée
-
 et, moyennant supplément d ] # 1X T € mé tée
-
- 
-
- 
-
 Tous les billets de Chemins de fer aux conditions des tarifs
-
 Emission sans f…p, des billets circulaires suisses 45 jours
-
 L UNCT DE VOYAGES
-
 C BLENK, FERT & C*
-
 Demandez notre programme ; GRANDS VOYAGES ET CROISIÈRES 1926-27
-E E E SRS RE D T R E A TT TT TT S]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001943_002.tif"/>
-<page><![CDATA[RELATION
-
+E E E SRS RE D T R E A TT TT TT S
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001943_002.tif'/>
+        <page>
+          <![CDATA[RELATION
 Genève, ville internationale, la capitale des nations,
 comme se plaisent à l’appeler certains journalistes, devient de
 plus en plus cosmopolite et de mème que ses rues, voire des
 quartiers entiers se modernisent, les mœurs, les coutumes
 anciennes genevoises tendent à disparaître.
-
 Parmi les institutions les plus évocatrices du temps passé
 nos musiques militaires sont à noter spécialement. Le corps de
 Musique d’Elite issu de la musique du contingent instituée en
 1859 totalise aujourd’hui 87 années d’existence; parmi les
 articles de la loi du 3 avril 1839 concernant les corps de
-
- 
-
 CORPS DE MI Ë ELIT 10to . Jullien
-
 Musique nous relevons : « L'art. ole l’habillement avec
 sabre. ponpon blanc, contre-épaulel t cordelières blan
 ches» ce qui constitue encer tuellement l’équipement de
 l’Elite, l'ancien shako et la tunique à s ayant été moder-
 nisés.
-
 Notre corps a passé, depuis sa fondation, par des phases
 alternativement difficiles ou réjouissantes ; s« ipogée au point
 de vue du nombre et de sa force musicale fut certainement
 atteinte en l’année 1912 sous la direction de Francois Romain
 et nombre de nos anciens se rappellent encore le concert
 impeccable donné à la Tonhalle de Zurich lors de notre pas-
-
 sage pendant le voyage Berne, Zurich, Munich
 La période de guerre a sérieusement anémié les-sociétés de
-
-Musique en général et nous n'avons pas échappé à la règle ; le]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001943_003.tif"/>
-<page><![CDATA[à
+Musique en général et nous n'avons pas échappé à la règle ; le
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001943_003.tif'/>
+        <page>
+          <![CDATA[à
 IE_‘
 | CAFÉ-BRASSERIE
 | R rant du XX" Siècl
@@ -183,7 +165,6 @@ générale, dont 1( X19ENC( lail sentir loujou :|:1\:|||l;1}_{4'_
 étänt donné les nombreus« manifestations n cales aux-
 f|ll“]Ï< 1l est convié da ] l’é e, el | ) 1a ;a ;«"»([ll.ll
 v acqurert de ce fail.
-
 Notre société. sans toute perd1 le sO rractère popu
 laire, elle reste la fanfare aux marches ent nantes que de
 nombreux amis accompa tlo I( épétitions marchantes,
@@ -193,13 +174,11 @@ notre directeur et nos coll es ! du renouvellement du
 repertoire, que de tro1 p O v ’adaptant à notre ins-
 trumentation. Cette dernière e modifi \lement et nos
 moyens financiers très restreints sont seuls la cause d’une évo-
-
 ) lution lente dans ce domain Nous avons vu x|…lh'l‘«lr|mis
 quelque (ro1 an diminuer l’allocation cantonale, mesure
 que nos autorités ont dû nrendre leur corns défendant dans
 l’intérêt cénéral el que nou: ouhaitons voir se rapporter
 bientôl
-
 \run .|*|'\-. u,‘|1| mentant no re OUTCC 4||lll'ï\ll.‘lul" Il hllll
 tout le dévonement et tout | ésimfér ement de (|…*lr{…'ä—
 uns de nos dirigeants pour mener à bien une tâche ardue et
@@ -209,114 +188,63 @@ concours que nous anprécions à sa Jeur et dont nous les
 remercion [ ncérem [ ! nrofitons de :“H'(‘ll\i()l‘
 nDonr nrier nos l le ] | e renorter à l’article
 suivant donnant ! ( Ï ) \ notre corps et les
-avantages en résullant comme membre non exécutant]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001943_004.tif"/>
-<page><![CDATA[AUX PRIX DE FABRIQUES
-
- 
-
+avantages en résullant comme membre non exécutant
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001943_004.tif'/>
+        <page>
+          <![CDATA[AUX PRIX DE FABRIQUES
 Trousseaux A. GRAS & Cie Layettes
 5, Rue Coutance, 5 GENÈVE Téléph. Mt-BI. 43-18
 Nos articles réciame
 Ë Chemise percale avec 2 faux-cols la pièce Fr.590 — Chaussettes, coton couleur la paire Fr. 0.95
 Bretelle, qualité forte . . la paire » 1.90 — Régate, soie, grand choix . depuis » 0.95
-
 Timbres escompte de l’Union Commerciale
-
 Ln 1000 Cheiss
-
 Rue de Rive, 6
 ue
 de Garouge, 19
-
- 
-
 VICTORIA HALL - DIMAË
-
 Horeceneeenecnnee en en crrrc cnc CCC C OEN CCN CULILITUITOI M
-
 PROCA
-
- 
-
- 
-
- 
-
 Chemises sur mesures et confectionnées
 bravates - Faux-Cols
-
 Sous-Vêtement
-
 l PREMIÈRE PARTIE
 # S% timbres jaunes
-
- 
-
 . Ouverture du roi de , }
 LGahore :. . : — Massenelt {
 . Rythmes Espagnols. . R.Laparra.
 Razar ue
 ” P l .7rüdes Saisons. . . J. Haydn.
 C10 NOTA NURe E e E
-
 pour clarinette et orgue. ;
 M. P. Santandréa et M"* Thérèse Soravia ;
-
 . a) 2”° Concert Royal Couperin.
 b) L’Oie du Caire . . Mozart. i
-
 |, Rue de la Fontaine
-
 M> JANOTTI
-
 Mandolinata Genevoise. Ë
 $e recommande aux membres de là Ç PE (,CC…,,‘,JQ….g|
 société pour fous jouets f
 Articles de Ménage, Fêtes, etc. Prix
 spéciaux pour sociélés
-
- 
-
 ENTRE LA PREMIÈRE ET LA DEUXIEME Pî
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 29
 0
-
 Ÿ
 î
 $
 É9 , ‘Û.5‘ï
-
-E]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001943_005.tif"/>
-<page><![CDATA[n CIMETIÈRE
+E
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001943_005.tif'/>
+        <page>
+          <![CDATA[n CIMETIÈRE
 DAFE DE GENEV M lerand-Quai, 20
 Vins ouverts réputés, grande variét
 Bière : Suisse - Pilsen-Munich
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Boignées dans caveau moderne - Au restaurant
 Menus et carte
 :ÎÈep::>. sur commande Tous mets de Brasserie
@@ -350,112 +278,56 @@ e â
 f, ENTR’ACTE DE QUINZE MINUTES sife L l Q U E U R
 .-'—<.V. . . . . , . .. . .. . . ... .À'..
 ‘!î:ä.‘…-._ pren n e mt e te e Eate à Hetes es DIGESTIVE
-
-   
-   
-   
-   
-   
-  
-  
-   
-   
-   
-   
-  
- 
-
- 
-
- 
-
- 
-
- 
-
 sAI
-
-, ETE Voile£æs]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001943_006.tif"/>
-<page><![CDATA[sOD TON
-
+, ETE Voile£æs
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001943_006.tif'/>
+        <page>
+          <![CDATA[sOD TON
 FORE 5TltR & Ci
-
 Fabrique de Coutellerie
 s p H e
 (()Utcllg1:p de ldl)lL
-
 REPRESENTANTS Orf
 Métal an
-
-  
-
 (IF\ =V
-
 DPECIAILE staurants
-
 Acier Inoxidable
 > CHRISTOFLE, à Pari
-
 glais
-
 Re
-
 sions et
-
 s
-
 Tableau des membres exécutants
-
 ppel, Hen
-
 Busehi, (
 Migliett
-
 Sa
-
 Hostettler Chau
-
 pl \ dolph
-
 Kuhni, 1
 sA
-
 Brandt CI S ] rirod, Mauris Lou
-
 Juturlel
-
 l’issot
-
 yual
-
 lll\l \l
-
 POMPES FUNEBRES 0FFICIELLES
-
 Rue de l’'Hôte -Ville, 5 Ï »ermanent) Std 885
 Dispensent ‘ le toutes démarehes
 pénible l ment d’un dée
 Tarifs les plus recl…ts
-
 Automobiles funéraires
-
 tous pays
-
 Formalités gratuites
 Transports pour
-
 ZINGUERIE
-
 FERBLANTERIE ë PLOM,BEB!E n
-
 Jl FËVAZ . l‘.:)..\"ll‘ç'l‘l‘:lSﬁiÇïlc
-
 | » le cl le bains N ts R
 CUISINIERI \ (.\?. ‘ Tx RÉVI
-
 Fac le paiere Téléphone: Stand 13.55
-
 l "
 | Ë
 ’
@@ -464,31 +336,17 @@ fre(
 v
 >
 ï
-
-   
-
 E E
-
- 
-
-| 1l]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001943_007.tif"/>
-<page><![CDATA[Nos membres non exécutants
-
- 
-
- 
-
+| 1l
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001943_007.tif'/>
+        <page>
+          <![CDATA[Nos membres non exécutants
 Ecole
-
 de Musique
-
- 
-
 PHOTOGRAPHIE D'ART
-
 111N
-
 |
 | ,
 15> COI ; \
@@ -496,16 +354,14 @@ PHOTOGRAPHIE D'ART
 Poses d'Enfan Porlra \rlislique
 / Î
 / Lravaux en qenr«
-
- 
-
-léléphone S]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001943_008.tif"/>
-<page><![CDATA[MASSENET
-
+léléphone S
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001943_008.tif'/>
+        <page>
+          <![CDATA[MASSENET
 Jules Massenet (1842-1912), a été un des fournisseurs les
 plus abondants et les plus applaudis du théâtre contemporain.
-
 Très galant homme, d’une courtoisie affectée, aimant les
 compliments, comme les coquettes les friandises ; tellement
 impressionable qu'’il n’assistait presque jamais à la première
@@ -528,37 +384,29 @@ tion, sans s’atlarder aux menues choses de la roule : en un
 mot l'intelligence dramalique, première qualité du musicien de
 théâtre. En second lieu, un sens très vif de la vie passionnelle,
 de l’amour, de là grâce féminine.
-
 La vie de Massenet commenca par quelques épreuves, el
-
 dut, pendant quelques années, se résigner à des besognes
 ingrales et obscures (il tint le triansle dans l’orchestre du
 Gymnase, et fut chargé des timbales dans celui du Théâtre-
 Lyrique). En 1865, le grand prix de Kome vint ajouler une
 haute récompense à toutes celles qu'il avait recueillies comme
-
 élève du Conservatoire, aux prix de piano, d’harmonie, de
-
 fugue, et attirer sur lui les premiers sourires de lè 1 forlune. .
 Le Roi de Lahore est la première grande œuvre qui pos
-
 pularisa le nom du jeune maître auprès du orand public. C'est
-
 le 27 avril 1877, qu'elle fut représentée à l’Opéra pour la pres
-
 mière fois. D'après COMBARIEUX.
-
 MATÉRIAUX de CONSTRUCTION
-
 ERNEST KUHNI
-
 4, Rue du Nant GE NEVE Rue du Nant, 4
 SPÉCIALITÉS DU BATIMENT
 CARREAUX POUR DALLAGES ET REVÊTEMENTS
 en Ciment Mosaïque de Marbre - Grès fins - Faïences
 Granit du Tessin - Grès de Prévondavaux - Briques L en terre cuite
-SIKA IGAS IGOL]]></page>       
-        </p>
+SIKA IGAS IGOL
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

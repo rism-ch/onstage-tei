@@ -1,153 +1,124 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par l'Harmonie nautique<date when="29/06/1926"/></title>
-<series>1925-1926</series>
-<placeName>Jardin anglais</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par l'Harmonie nautique
+            <date when='29/06/1926'/>
+          </title>
+          <series>1925-1926</series>
+          <placeName>Genève, Jardin anglais</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002626</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Gabelles, G. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19260629"/>
-<title>Concert donné par l'Harmonie nautique</title>
-<placeName key="Jardin anglais"/>
-<name key="1925-1926" type="series"/>
-<name key="Weber, Carl Maria von" ref="https://muscat.rism.info/admin/people/117485" type="person" role="cmp">Weber, Carl Maria von</name>
-<name key="Eilenberg, Richard" ref="https://muscat.rism.info/admin/people/42284" type="person" role="cmp">Eilenberg, Richard</name>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Humperdinck, Engelbert" ref="https://muscat.rism.info/admin/people/107032" type="person" role="cmp">Humperdinck, Engelbert</name>
-<name key="Lalo, Edouard" ref="https://muscat.rism.info/admin/people/65446" type="person" role="cmp">Lalo, Edouard</name>
-<name key="Mascagni"  type="person" role="cmp">Mascagni</name>
-<name key="Massenet, Jules" ref="https://muscat.rism.info/admin/people/84264" type="person" role="cmp">Massenet, Jules</name>
-<name key="Delibes, Léo" ref="https://muscat.rism.info/admin/people/30016578" type="person" role="cmp">Delibes, Léo</name>
-<name key="Gabelles, Gustave  (dir.)" ref="https://muscat.rism.info/admin/people/30073762" type="person" role="int">Gabelles, Gustave  (dir.)</name>
-<name key="Harmonie Nautique "  type="person" role="int">Harmonie Nautique </name>
-<name key="Daly (Mlle)"  type="person" role="int">Daly (Mlle)</name>
-<name key="Trosselli, M."  type="person" role="int">Trosselli, M.</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002626_001.tif"/>
-<page><![CDATA[JARDIN ANGLAIS (Promenade du Lac)
-
- 
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19260629'/>
+        <title>Concert donné par l'Harmonie nautique</title>
+        <placeName key='Genève, Jardin anglais'/>
+        <name key='1925-1926' type='series'/>
+        <name key='Weber, Carl Maria von' ref='https://muscat.rism.info/admin/people/117485' type='person' role='cmp'>Weber, Carl Maria von</name>
+        <name key='Eilenberg, Richard' ref='https://muscat.rism.info/admin/people/42284' type='person' role='cmp'>Eilenberg, Richard</name>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Humperdinck, Engelbert' ref='https://muscat.rism.info/admin/people/107032' type='person' role='cmp'>Humperdinck, Engelbert</name>
+        <name key='Lalo, Edouard' ref='https://muscat.rism.info/admin/people/65446' type='person' role='cmp'>Lalo, Edouard</name>
+        <name key='Mascagni' type='person' role='cmp'>Mascagni</name>
+        <name key='Massenet, Jules' ref='https://muscat.rism.info/admin/people/84264' type='person' role='cmp'>Massenet, Jules</name>
+        <name key='Delibes, Léo' ref='https://muscat.rism.info/admin/people/30016578' type='person' role='cmp'>Delibes, Léo</name>
+        <name key='Gabelles, Gustave' ref='https://muscat.rism.info/admin/people/30073762' type='person' role='int'>Gabelles, Gustave</name>
+        <name key='Harmonie Nautique ' type='person' role='int'>Harmonie Nautique </name>
+        <name key='Daly (Mlle)' type='person' role='int'>Daly (Mlle)</name>
+        <name key='Trosselli, M.' type='person' role='int'>Trosselli, M.</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002626_001.tif'/>
+        <page>
+          <![CDATA[JARDIN ANGLAIS (Promenade du Lac)
 Mardi 29 Juin 1926, à 20 heures 30
-
 CON CIEIRTE
-
 donné par
-
 L’HARMONIE N AUTIQUE
-
 (HARMONIE MUNICIPALE DE LA VILLE DE GENEVE)
 DIRECTEUR: M. Gustave GABELLES
-
 avec le bienveillant concours de
-
 MILLE M. DALY M. M. TROSSELLI
 Soprano Ténor
 Elèves de M. le Professeur BECKMANS
-
 PIROGRAM ME
-
 Première Partie
 PVU diOBERON 111 1 11 Weber
 ÉESSGNOMES .. . . . . . Eïilenberg
-
 LA WALKYRIE (Chant du Printemps) . . . Wagner
 M. M. TROSSELLI
-
 LE MIRACLE (suite d’orchestre). . . . . . Flumperdinck
-
 Deuxième Partie
-
 RHAPSODIE NORVÉGIENNE .. . . . . Lälo
-
 Andantino — Presto
 Air de CAVALLERIA RUSTICANA . . .. Mascagni
 Mile M. DALY
-
 Dn Massenet
 Mlie M. DALY et M. M. TROSSELLI
-
 Balendens y 1 L. Delibes
-
 Chasseresses — Valse lente — Pizzicati — Cortège de Bacchus
-
- 
-
- 
-
 Entrée: 60 centimes (droits des pauvres compris)
 MM. les membres non-exécutants ont droit d'enirée sur présentation du coupon No 5
-
 Le prochain concert aura lieu le mercredi 14 juillet
-
 CIGARETTES
-
 LAURENS
-
 23 SGRANDS PRIX ° HORS CONCOURS
-
- 
-
-Imp Cuapvis & GavmeisTen. Rue du Stand, 17, Genève]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002626_002.tif"/>
-<page><![CDATA[Vêtements pour Hommes, Jeunes-gens et Enfants
-
+Imp Cuapvis & GavmeisTen. Rue du Stand, 17, Genève
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002626_002.tif'/>
+        <page>
+          <![CDATA[Vêtements pour Hommes, Jeunes-gens et Enfants
 A SAINT-GERVAIS
-
 1, rue de Coutance - PLACE St-GERVAIS - 2, rue Vallin
-
- 
-
 Maison de confiance ne vendant que des
 Marchandises de toute première qualité aux prix les plus bas
-
- 
-
 Chapellerie -  Chemiserie -  Bonneterie
-
 VÉTEMENTS SUR MESURE
-
 Le meilleur tissu - La meilleure coupe - Le meilleur marché
 PRÉVOT & Cie
-
- 
-
 Ouverture d’OBÉRON / Weber)
-
 Au cours de l’année 1824, Weber reçut deux propositions relatives à
 la composition d’un ouvrage dramatique. L’une émanait du chevalier de
 Cussy, représentant le directeur de l’Opéra de Paris, l’autre de Charles
@@ -158,7 +129,6 @@ plus 220 livres par concert), Weber n’était pas riche; les chefs-d’œuvre
 qu’il avait créés n’avaient pu lui procurer qu’une modeste aisance. Il crut
 done voir, sous forme de guinées, la fortune assurer le sort de sa femme
 et de ses enfants ; il accepta.
-
 Deux sujets le tentaient; Faust et Oberon. Il renonça au premier,
 quand il apprit que Spohr le traitait, et choisit définitivement le second.
 « Celivret est tiré d’un ancien poème français, Huon de Bordeaux, chanson
@@ -166,63 +136,29 @@ de geste en dix mille vers. Cette chanson qui appartient au cycle Charle-
 magne, retrace l’histoire d’un chevalier qui va chercher des aventures en
 Orient et qui, dans le cours de sa merveilleuse carrière, est protégé par
 Auberon, le roi des nains: l’auteur est anonyme, il écrivait au XII° siècle.
-
- 
-
- 
-
- 
-
- 
-
 Œourguoi va-t-on au
-
 XX"" SIÈCLE ?
-
 Pour sa bière de “ Munich double maltée”,
 sa Spéciale-blonde (Avenir), sa véritable
 “ Pilsen-Urquell”’. Ses vins de Jussy 1°" choix
 et Villeneuve extra. Ses apéritifs de marque.
 Son excellente cuisine. Sa magnifique terrasse
-
- 
-
- 
-
- 
-
-!]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002626_003.tif"/>
-<page><![CDATA[BANQUE
+!
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002626_003.tif'/>
+        <page>
+          <![CDATA[BANQUE
 POPULAIRE SUISSE
-
 PLACE SAINT-GERVAIS Fondée en 1869 1, QUAI DES BERGUES
-
 AGENCES : 18, COURS DE RIVE
 2, ROUTE DES ACACIAS
-
 GEN EÈEVE
-
- 
-
- 
-
- 
-
 Capital et réserves : Fr. 119.000.0000
-
- 
-
- 
-
 Dispose du réseau de succursales
 le plus étendu en Suisse
-
 Correspondants dans tous les cen- Organisée pour toutes opérations de
 tres importants du monde entier banque aux meilleures conditions
-
- 
-
 Au XVe siècle, on fit de son poème une version en prose, laquelle, en 1778,
 fut rajeunie par M. de Tressan. Le poème allemand de Wieland est calqué
 sur cette dernière imitation ; il eut un peu de succès en Allemagne; mais
@@ -234,55 +170,35 @@ Sotheby. Weber qui, pour remplir consciencieusement son engagement,
 avait appris l’anglais, agréa le livret et plus tard le fit traduire sous ses
 yeux en allemand, par son ami Carl Winckler, plus connu sous le pseudo-
 nyme de Théodore Hell. »
-
 Avec sa facilité d’inspiration, son ardeur au travail et sa sûreté de
 plume, Weber écrivit toute la partition, sans parler d’autres compositions
 intermédiaires, en l’espace de quatorze mois. Les premières notes furent
 tracées à Dresde, le 23 janvier 1825, et sur le manuscrit de l’ouverture on
 lit à la fin : « Achevée (à Londres), le 9 avril 1826, à 11 heures 3/ du soir,
 et avec elle tout l’opéra d’Oberon. Soli Deo Gloria! »
-
 L’ouvrage fut représenté pour la première fois au théâtre de Covent-
-
- 
-
- 
-
- 
-
 Au dessert un
 Cointreau Liqueur
 s’impose
-
 Cointreau Veuve et Fils, Angers
-
-CH. BRUCHON, Agent générat pour la Suisse - GENÈVE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002626_004.tif"/>
-<page><![CDATA[SOCIÉTÉ DE
-
+CH. BRUCHON, Agent générat pour la Suisse - GENÈVE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002626_004.tif'/>
+        <page>
+          <![CDATA[SOCIÉTÉ DE
 BANQUE SUISSE
-
 FONDÉE EN 1872 ——
 Capital-actions et Réserves : 153 millions
-
 6-10, Corraterie - GENÈVE - Corraterie, 6-10
-
 CORNAVIN EAUX-VIVES
 10, Place de Cornavin 3, Place des Eaux-Vives
 PLAINPALAIS CAROUGE
-
 36, Rue de Carouge | 11, Rue du Marché
-
 TOUTES OPÉRATIONS DE BANQUE AUX MEILLEURES CONDITIONS
-
- 
-
- 
-
 Garden, le 12 avril 1826, et accueilli par le public avec un véritable
 enthousiasme. L’udmirable ouverture eut, ainsi que deux autres morceaux
 les honneurs du bis.
-
 Elle débute, on le sait, de façon poétique et simple, par les trois notes
 que sonne le cor magique d’Oberon. À cet appel mystérieux s’enchaîne un
 Andante sostenuto plein de charme et préparant le premier motif. «C’est,
@@ -292,323 +208,167 @@ d’un sentiment exquis et profond, est rattaché au premier par un travail
 ingénieux et piquant. La péroraison, fougueuse et pleine d’éclat achève
 cette magnifique introduction d’un poème où le jeu des passions se
 combine avec l’esprit chevaleresque du moyen âge. »
-
 Suivant le procédé dont Webera tiré un parti génial, l’ouverture
 d’Oberon est construite avec des matériaux empruntés à l’opéra même ; on
 peut rappeler ici notamment que le thème principal de l’Allegro con fuoco
 accompagne le quatuor du deuxième acte (n° 11 de la partition). Elle égale
 en beauté, si même elle ne les surpasse, ses deux aînées, les ouvertures de
 Freyschütz et d’Euryanthe. (Suite page 9}
-
- 
-
- 
-
- 
-
- 
-
 Toutes fournitures pour la couture
 la BRODERIE et le TRICOT
-
 BONNETERIE de soie, fil, laine et coton
-
 ROBES, JUMPERS, BAS, CHAUSSETTES, GANTS, SOUS-VÊTEMENTS
 POUR DAMES ET ENFANTS
-
 Les meilleures qualités aux plus bas prix chez
-
 Charles WEBER, Place Kléberg
-
- 
-
- 
-
- 
-
- 
-
 n éc r
-
 d t r e
-
 - ,
-u t t P 7]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002626_005.tif"/>
-<page><![CDATA[MACHINE A ECRIRE
+u t t P 7
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002626_005.tif'/>
+        <page>
+          <![CDATA[MACHINE A ECRIRE
 AMÉRICAINE
-
 Vente Gchange Location
-
 Ü{e'paraﬁon de fous systèmes
-
 G. Pozzi
-
 Tour de l’Ile, 4 Genève
-
 Concessionnaire
-
 des produits originaux “ ÿos!"
-
- 
-
 Buvez un
-
 AMER PICON
-
 Exigez-le
-
- 
-
- 
-
- 
-
 BISCUITS
-
 r =a4A (IN
-
 GENEÈVE
-
 E grande marque SIN N4
-Desserts hns .]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002626_006.tif"/>
-<page><![CDATA[TT ﬁ]
-
+Desserts hns .
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002626_006.tif'/>
+        <page>
+          <![CDATA[TT ﬁ]
 Pour voyager agréablement et sans soucis, adressez-vous à .
-
 PAGENCSE
-
 C. BLENK, FERT & C*
-
 1, Rue du Mont-Blanc, 1
 Angle Quai des Bergues
-
 «
-
 GENEMVE
-
- 
-
 Tous les billets de chemins de fer et de passages
 maritimes aux conditions des tarifs
-
 CHÈQUES DE VOYAGEURS - BANQUE - CHANGE
-
 VOYAGES A FORFAIT ô
-
- 
-
 HARMONIE NAUTIQUE
-
 MEMBRES DU COMITÉ :
 MM. G. MARTINET, président ; G. GABELLES, directeur ; J. LICKERT et
-
 E. LEUTÉ, vice-présidents ; A. PORTIER, secrétarre ; P. MURITH, vice-
-
 secrétaire ; M. GALFRE, trésorier ; F CHAPUIS, vice-trésorier ; E. BURDET,
-
 bibliothécaire ; M. DEPRAZ et J. VIBERT, économes.
 MEMBRES EXÉCUTANTS (1926)
-
 Flûtes : MM. BLuM - Baup - COULOMB - ZWEIGART - SEIDEL.
-
 Hautbois et cor anglais: MM. VEYRAT - ENGEL - Gyar - PAINOT.
-
 Petites clarinettes : MM. SANTANDRÉA - BÉBOUX.
-
 Clarinettes: MM. DÉéPRAZ - MENNET - PORTIER - CHAPUIS - Roy
 Rieunaup - MurirH - Przzonnmi - Gairay - DucRrET
 ScuwizGuÉBEL - LAviLLAT - HÆrLIGER - ZiBACH - KELLER
 NONNEMANN - VANAT - SANFILIPPO - MARTI - VANBIANCHI
 Rorn - Gysrin - MÉpa - Burper - Besson.
-
- 
-
- 
-
- 
-
 GRANDE BRASSERIE CENTRALE
-
 CAFÉ-RESTAURANT
 CROIX-D'OR, 2 TÉL. STAND 34.62
 Déjeuners et Dîners -  Choucroûte extra toute l’année
-
 BIÈRES WARTECK de Bâle
 et VINS de première qualité
-
 E, MAYERAT
-
- 
-
- 
-
- 
-
- 
-
-se es nn =—]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002626_007.tif"/>
-<page><![CDATA[?È
+se es nn =—
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002626_007.tif'/>
+        <page>
+          <![CDATA[?È
 OUELOUES FPLEURS
-
 Z leuriol
-
 GENEÈE YIE
 26, Corraterie, 26 Hue de Rive 15
-
 @ Célep. S 18.15 Célep. SL 32.67
-
- 
-
 Membres exécutants (sui/e)
-
 Clarinettes basses : MM. RAMONDETTI - Moisy.
-
 Bassons : MM. PORTIER - FRANCOUAL H. - FrancouaL J.
-
 Saxophones : MM. D’IvERNOIS - GONDRET - PEDRONI - BôscH
 VANAT - MOIEN - CLÉMENT - RoyBIN.
-
 Cornets à pistons : MM. DuPoNT - CHaPuIs - SOLIER - Droz
 VOLTOLINI M. - DEcROUX L. - SCHMIED - TRISCONI.
-
 Bugles : MM. Poncion1 - Guyor - REvoL - LANIER - SIGNORINI.
-
 Trompettes : MM. BURDET - ENGEL - ROssET - MAIRE.
-
 Cors : MM. RisTor: - CAILLER - PiGuET - Gay - MarmiN R.
 RETCHITZKY - BoccARD J. - BIGNATI.
-
 Trombones : MM. Sinay - Prorron - MARTIN - MAITRE - Roch.
-
 Barytons, Basses et contre-basses : MM. GREBER - VIBERT
 DEFRANCESCO - BALESTRA - D’OLIVEIRA - CHOUARD - OMARINI
 MOLINATTI - BoCCARD - MONTILLARD.
-
- 
-
 Au Dépôt général du Poisson du Lac Léman
-
 Maison fondée en 1848
-
 LUGRIN & Cie (s.a.)
-
 46, Rue du Rhône, 46 - Genève
-
 Adr. télégr.: LUGRIN-GENÈVE - AUCUNE SUCCURSALE - Téléphone: Stand 2100
-
 Volaiiles de Bresse - Gibiers de toutes provenances
 Poissons du Lac
 Marée française - HMuitres de Claires de Marennes
 Arrivages directs et journaliers
 Langoustes du pare de Camaret
 Comestibies de toutes espèces - (Conserves des jres marques
-
 L’importance de la vente lui permet de ne jamais
 constituer de stock et de garantir à sa clientèle la qualité et la fraîcheur de ses marchandises
-
 Expéditions en tous pays
-
- 
-
- 
-
- 
-
- 
-
-#g=-————————_ — rrr ——]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002626_008.tif"/>
-<page><![CDATA[TRANSPORTS FUNÈBRES
-
+#g=-————————_ — rrr ——
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002626_008.tif'/>
+        <page>
+          <![CDATA[TRANSPORTS FUNÈBRES
 Ancienne Maison MURITH, DUPARC & FERT —-—  Fondée en 1888
-
 A. MURITH s.
-
 GENÈVE - Siège Social : Rue des Chaudronmers, 16
-
 Téléph. Stand 121 Service permanent
-
 Fabrique de, Cercueils Automobiles Funéraires
-
 L’Administration se charge, sans aucun déplacement pour les
 familles, de toutes les démarches et formalités relatives aux
-
 Inhumations —  Exhumations —  Incinérations —  Transports
-
 vortuares CENTRAL-DEUIL 7576.16
-
- 
-
 Membres exécutants (suz/e)
-
 Contre-basses à cordes : MM. RICHTER - MAYER - RiccIOLI.
 Batterie : MM. KuuT - Derocnue - L. TRÈMÈGE - Ch. TRÈMÈGE
 DESCOMBES.
-
- 
-
 AVIS. — Les personnes qui désirent devenir « Membres
 passifs » de l’Harmonie Nautique peuvent s’inscrire au Vic-
 toria Hall ou à la Librairie Richard (80, rue du Rhône), et
 auprès des membres de la Société. — La carte de « membre
 passif » donne droit à deux entrées pour chaque concert donné
 par‘ l’Harmonie Nautique.
-
- 
-
 Pour les cours d’élèves. s'adresser à M. G. Gabelles,
 directeur, au Victoria-Hall, de 11 à 12 h. 30. — Télép. St. 53.28.
-
- 
-
- 
-
- 
-
 B
-
 Randor - Friederick
-
 s1 iISIA «
 FABRIQUE A CHÊNE-BOURG
-
- 
-
- 
-
 Gralsses surfines pour usages oulinaires : Lessives - Cristaux de soude
 Encaustiques
-
 Oleol - Alpina - Nostras - Etoile - Union Cires, Cierges, Bougies de Noël
-
 Savons de ménage : Bougies :
-
 Souris - Lyre - Vénus - Chène - Alpa | Couronne - Brillant - Diamant - Vénus
-
-  
-
- 
-
- 
-
- 
-
-—{a)]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002626_009.tif"/>
-<page><![CDATA[CAFÉ DU COMMERCE
+—{a)
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002626_009.tif'/>
+        <page>
+          <![CDATA[CAFÉ DU COMMERCE
 elu Jolaré
-
 Dégustation réputée
-
 cFortoe Quinfo Do <Sabor
-
- 
-
 LA WALKYRIE, Chant du Printemps (Wagner)
-
 Wotan, sous le nom de Walse, a engendré un couple humain, Siegmund
 et Sieglinde. Siegmund a mené une vie de terribles aventures ; il à grandi
 dans les combats, trempé son corps et son âme aux plus dures épreuves.
@@ -624,51 +384,28 @@ clarté de la lune enveloppe de ses rayons mystérieux les deux amants.
 Siegmund attire Sieglinde et la contraint de s’asseoir à son côté : et, dans
 un transport d’enthousiasme en face de cette superbe nuit de printemps,
 il chante un hymne ardent au Renouveau et à l’Amour !
-
- 
-
- 
-
- 
-
 Union Mutuelle Musicale
 18, Corratere G. FITYV T. st 1853
-
 9
-
 Bureau de Concerts
 Location - Organisation
-
 Musique - Instruments
 Grand Choix
-
-—— Studio et Piano à disposition —]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002626_010.tif"/>
-<page><![CDATA[Faites tous vos achats de
-
+—— Studio et Piano à disposition —
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002626_010.tif'/>
+        <page>
+          <![CDATA[Faites tous vos achats de
 MUSIQUE
-
 et ACCESSOIRES ae GRAMOPHONES
 et DISQUES
-
 chez
-
 ROTSC H Y FRÈRES, Corraterie, 22
-
- 
-
- 
-
- 
-
- 
-
 LE MIRACLE (Æ. Humperdinck)
-
 Humperdinek est né à Siegburg sur le Rhin le 1er septembre 1854.
 Elève du conservatoire de Cologne, après avoir obtenu la bourse de la
 fondation Mozart (1876) il obtint encore les prix Mendelssohn et Meyerbeer.
-
 Humperdinck voyagea pendant un certain temps ; de 1885 à 1887,
 professeur au Conservatoire de Barcelone, il vécut de nouveau à Cologne ;
 il professa depuis 1890 au Conservatoire de Francfort et fut nommé en
@@ -680,45 +417,29 @@ laires en Allemagne, dont l’auteur a su faire un usage aussi habile que fré-
 quent. Sans remporter un succès égal à celui de Hænsel et Gretel son mystère
 LE MIRACLE, qui fut exécuté pour la première fois à Londres en 1911, a
 retenu l’attention du monde musical.
-
 Nous donnons ce jour les cinq fragments suivants: 1. Prélude. 2. Proces-
 sion et danses des nains. 3. Scène du banquet. 4. Marche de l’armée ;
-Hymme funèbre. 5. Fêéte de Noël.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002626_011.tif"/>
-<page><![CDATA[é es L e
-
+Hymme funèbre. 5. Fêéte de Noël.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002626_011.tif'/>
+        <page>
+          <![CDATA[é es L e
 e S E RESRE p PE
-
 mj
-
- 
-
- 
-
- 
-
 d
 Darasol THoderne
-
 1, Rue de la Croix-d'Or (angle Molard)
-
 FABRIQUE :
 13, Place des Eaux-Vives (angle Terrassière)
-
 laison de premier ordre
 fondée en 1906
-
 Si parla italano — Man spricht deutsch — English spoken
-
- 
-
 RHAPSODIE NORVÉGIENNE (La/o)
-
 Le 8 février 1874 Sarasate fut acclamé au Châtelet dans le Concerto de
 violon de Lalo. Le 7 février 1875 la Symphonie Espagnole, dédiée à
 Sarasate, était accueillie avec une faveur marquée par le public des
 Concerts Colonne.
-
 Encouragé par le souvenir de ces deux succès, Lalo écrivit une
 Fantaisie Norvégienne pour violon et orchestre que Sarasate joua beaucoup
 en Allemagne. L’œuvre se divisait en trois parties : un Allegro, un Andante
@@ -728,96 +449,53 @@ Rhapsodie est écrite pour l’orchestre, sans soliste ; elle n’a plus l’all
 d’un concerto, au sens moderne du mot. Le premier mouvement de la
 Rhapsodie est emprunté entièrement à la Fantaisie sans grandes modifi-
 cations ; l’instrumentation seule est refaite. Le deuxième mouvement de
-
- 
-
- 
-
- 
-
 3 O Dégâts d'eau
-
 Succursale pour la Suisse française :
-
-     
- 
-  
-  
-
 12, Rue de Hesse - GENÈVE - TéL. < Stand 57
-
 Gaston MOISY, Insp., rue du Centre, 26
-
-Membre de l’Harmonie Nautique]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002626_012.tif"/>
-<page><![CDATA[RAUBER FRÈRES
-
+Membre de l’Harmonie Nautique
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002626_012.tif'/>
+        <page>
+          <![CDATA[RAUBER FRÈRES
 Grand’Rue, 50 MONTREUX Téléphone 1062
 Instruments de Musique
-
 Cuivres et bois
 ATELIERS DE RÉPARATIONS AVEC OUTILLAGE MODERNE DE PRÉCISION
-
 Spécialistes renommés
 pour saxophones, clarinettes, flûtes, hautbois et bassons de tous systèmes
-
 CATALOGUE ET PRIX-COURANT GRATIS ET FRANCO SUR DEMANDE
-
 Instruments des premières marques françaises au prix de fabrique en argent
 français au change au cours du jour
-
- 
-
 la Rhapsodie avec son thème incisif coupé, de quatre en quatre mesures,
 par des accords violents est une inspiration nouvelle — et très heureuse —
 de Lalo. Un souvenir de l’Andante de la Fantaisie apparaît dans l’épisode
 central.
-
 La première audition de la Rhapsodie Norvégienne eut lieu à la Société
-
 Nationale de Musique, le 20 avril 1879. L’œuvre fut publiée à Berlin,
 en 1880.
-
 SYLVIA (L. Delibes)
-
 Sylvia ou la Nymphe de Diane fut donné à l’Opéra de Paris en 1876 et
 consacra définitivement la réputation de l’auteur de Coppélia, de La Source
 et d’autres œuvres gaies, légères et gracieuses. Citons : Jean de Nivelle,
 Lakmé, Kassia et une série d’opérettes. L. Delibes avait succédé en 1881 à
 Réber, comme professeur de composition au Conservatoire de Paris.
-
- 
-
- 
-
- 
-
 Fréd. AMSTUTZ
-
 57, Rue du Stand - Téléphone : Stand 12.73
-
 Habille chic Dames et Messieurs
-
 Haute Nouveauté
 Coupe parfaite
-
- 
-
- 
-
 eN
-
- 
-
 TATER
-
 e
-
 X
 f
 {
-f]]></page>       
-        </p>
+f
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

@@ -1,116 +1,103 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Grand concert populaire<date when="28/01/1924"/></title>
-<series>1923-1924</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Grand concert populaire
+            <date when='28/01/1924'/>
+          </title>
+          <series>1923-1924</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002563</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Bodet, F.</note>
+        <note>Hoogstoël, L. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19240128"/>
-<title>Grand concert populaire</title>
-<placeName key="Victoria Hall"/>
-<name key="1923-1924" type="series"/>
-<name key="Ropartz, Joseph Guy" ref="https://muscat.rism.info/admin/people/61362" type="person" role="cmp">Ropartz, Joseph Guy</name>
-<name key="Parès, Gabriël" ref="https://muscat.rism.info/admin/people/30024480" type="person" role="cmp">Parès, Gabriël</name>
-<name key="Bizet, Georges" ref="https://muscat.rism.info/admin/people/20057" type="person" role="cmp">Bizet, Georges</name>
-<name key="Saint-Saëns, Camille" ref="https://muscat.rism.info/admin/people/76734" type="person" role="cmp">Saint-Saëns, Camille</name>
-<name key="Rimskij-Korsakov, Nikolaj Andreevič" ref="https://muscat.rism.info/admin/people/55357" type="person" role="cmp">Rimskij-Korsakov, Nikolaj Andreevič</name>
-<name key="Cimarosa, Domenico" ref="https://muscat.rism.info/admin/people/52222" type="person" role="cmp">Cimarosa, Domenico</name>
-<name key="Schumann, Robert" ref="https://muscat.rism.info/admin/people/131206" type="person" role="cmp">Schumann, Robert</name>
-<name key="Čajkovskij, Pëtr Il'ič" ref="https://muscat.rism.info/admin/people/144048" type="person" role="cmp">Čajkovskij, Pëtr Il'ič</name>
-<name key="Massenet, Jules" ref="https://muscat.rism.info/admin/people/84264" type="person" role="cmp">Massenet, Jules</name>
-<name key="Ansermet, Ernest" ref="https://muscat.rism.info/admin/people/40219507" type="person" role="cmp">Ansermet, Ernest</name>
-<name key="Bodet, Francis (dir.)"  type="person" role="int">Bodet, Francis (dir.)</name>
-<name key="Hoogstoël, Léon (dir.)"  type="person" role="int">Hoogstoël, Léon (dir.)</name>
-<name key="Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)"  type="person" role="int">Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)</name>
-<name key="Corps de musique de Landwehr"  type="person" role="int">Corps de musique de Landwehr</name>
-<name key="Swetska, de (Mme)"  type="person" role="int">Swetska, de (Mme)</name>
-<name key="Dupin, H."  type="person" role="int">Dupin, H.</name>
-<name key="Zbinden (Mme)"  type="person" role="int">Zbinden (Mme)</name>
-<name key="Fillion"  type="person" role="int">Fillion</name>
-<name key="Marcel"  type="person" role="int">Marcel</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002563_001.tif"/>
-<page><![CDATA[£undÂ' 28 jânw‘er 1924, à 20 heures et demie (8 h. 30)
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19240128'/>
+        <title>Grand concert populaire</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1923-1924' type='series'/>
+        <name key='Ropartz, Joseph Guy' ref='https://muscat.rism.info/admin/people/61362' type='person' role='cmp'>Ropartz, Joseph Guy</name>
+        <name key='Parès, Gabriël' ref='https://muscat.rism.info/admin/people/30024480' type='person' role='cmp'>Parès, Gabriël</name>
+        <name key='Bizet, Georges' ref='https://muscat.rism.info/admin/people/20057' type='person' role='cmp'>Bizet, Georges</name>
+        <name key='Saint-Saëns, Camille' ref='https://muscat.rism.info/admin/people/76734' type='person' role='cmp'>Saint-Saëns, Camille</name>
+        <name key='Rimskij-Korsakov, Nikolaj Andreevič' ref='https://muscat.rism.info/admin/people/55357' type='person' role='cmp'>Rimskij-Korsakov, Nikolaj Andreevič</name>
+        <name key='Cimarosa, Domenico' ref='https://muscat.rism.info/admin/people/52222' type='person' role='cmp'>Cimarosa, Domenico</name>
+        <name key='Schumann, Robert' ref='https://muscat.rism.info/admin/people/131206' type='person' role='cmp'>Schumann, Robert</name>
+        <name key='Čajkovskij, Pëtr Il&apos;ič' ref='https://muscat.rism.info/admin/people/144048' type='person' role='cmp'>Čajkovskij, Pëtr Il'ič</name>
+        <name key='Massenet, Jules' ref='https://muscat.rism.info/admin/people/84264' type='person' role='cmp'>Massenet, Jules</name>
+        <name key='Ansermet, Ernest' ref='https://muscat.rism.info/admin/people/40219507' type='person' role='cmp'>Ansermet, Ernest</name>
+        <name key='Bodet, Francis' type='person' role='int'>Bodet, Francis</name>
+        <name key='Hoogstoël, Léon' type='person' role='int'>Hoogstoël, Léon</name>
+        <name key='Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)' type='person' role='int'>Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)</name>
+        <name key='Corps de musique de Landwehr' type='person' role='int'>Corps de musique de Landwehr</name>
+        <name key='Swetska, de (Mme)' type='person' role='int'>Swetska, de (Mme)</name>
+        <name key='Dupin, H.' type='person' role='int'>Dupin, H.</name>
+        <name key='Zbinden (Mme)' type='person' role='int'>Zbinden (Mme)</name>
+        <name key='Fillion' type='person' role='int'>Fillion</name>
+        <name key='Marcel' type='person' role='int'>Marcel</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002563_001.tif'/>
+        <page>
+          <![CDATA[£undÂ' 28 jânw‘er 1924, à 20 heures et demie (8 h. 30)
 VICTOR 1- -HAIL
-
 Grand Concert Populaire
-
 offert par le
 CONSEIL ADMINISTRATIF DE LA VILLE DE GENÈVE
 avec le concours gracieux !de
 La Fanfare Municipale de la Ville de Genève
 (UNION INSTRUMENTALE GENEVOISE)
-
 Direction : M. Francis BODET
-
 1° prix du Conservatoire nalional de musique de Paris
-
- 
-
- 
-
 ° Q
 Le Corps de Musique de Landwehr J
 (HARMONIE MILITAIRE) Ç
-
 Direction : M. Ltox HOOGSTOËL, Professeur au Conservatoire
-
 M" DE SWETSKA M. H. DUPIN
-
 DJU GREAND -THÉATRE
-
 Au piano d'accompagnement : M"°® ZBINDEN, pianiste du Grand-Théâtre
-
- 
-
 roe n S VINTE
-
 PREMIÈRE PARTIE
-
- 
-
- 
-
- 
-
- 
-
 E DE DE KORRIGANS......1 S Guy-Ropartz
 2. JOUR DE FÊTE (Scènes somantiques .. .. G. Paréès
 FANFARE MUNICIPALE. Q
@@ -135,15 +122,13 @@ c) Sous les Tilleuls, (Clarinelte : M, Fillion. - Saxophone : M, Maret.)
 d) Dimanche soir.
 REn E. Ansermet
 CORPS DE MUSIQUE DE LANDWEHR. ,
-
 SS
-
 Œ
-
 Les portes seront fermées pendant l’exécution des morceaux,
-
-d]]></page>       
-        </p>
+d
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

@@ -1,369 +1,212 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Grand concert gratuit<date when="29/12/1942"/></title>
-<series>1942-1943</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Grand concert gratuit
+            <date when='29/12/1942'/>
+          </title>
+          <series>1942-1943</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F003212</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Santandréa, P.</note>
+        <note>Denizot, Ch. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19421229"/>
-<title>Grand concert gratuit</title>
-<placeName key="Victoria Hall"/>
-<name key="1942-1943" type="series"/>
-<name key="Verdi, Giuseppe" ref="https://muscat.rism.info/admin/people/137994" type="person" role="cmp">Verdi, Giuseppe</name>
-<name key="Mérault, A."  type="person" role="cmp">Mérault, A.</name>
-<name key="Grieg, Edvard" ref="https://muscat.rism.info/admin/people/84066" type="person" role="cmp">Grieg, Edvard</name>
-<name key="Poot, M."  type="person" role="cmp">Poot, M.</name>
-<name key="Miche, P."  type="person" role="cmp">Miche, P.</name>
-<name key="Boller, Carlo"  type="person" role="cmp">Boller, Carlo</name>
-<name key="Delibes, Léo" ref="https://muscat.rism.info/admin/people/30016578" type="person" role="cmp">Delibes, Léo</name>
-<name key="Bovet, J."  type="person" role="cmp">Bovet, J.</name>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Schubert, Franz" ref="https://muscat.rism.info/admin/people/111603" type="person" role="cmp">Schubert, Franz</name>
-<name key="Fauré, Gabriel" ref="https://muscat.rism.info/admin/people/41731" type="person" role="cmp">Fauré, Gabriel</name>
-<name key="Moszkowski, Moritz" ref="https://muscat.rism.info/admin/people/94844" type="person" role="cmp">Moszkowski, Moritz</name>
-<name key="Santandrea, Pierre"  type="person" role="int">Santandrea, Pierre</name>
-<name key="Denizot, Charles (dir.)"  type="person" role="int">Denizot, Charles (dir.)</name>
-<name key="Harmonie Nautique"  type="person" role="int">Harmonie Nautique</name>
-<name key="Société Chorale des Eaux-Vives"  type="person" role="int">Société Chorale des Eaux-Vives</name>
-<name key="Jonin-Lazarelli (Mme)"  type="person" role="int">Jonin-Lazarelli (Mme)</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003212_001.tif"/>
-<page><![CDATA[p O e t
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19421229'/>
+        <title>Grand concert gratuit</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1942-1943' type='series'/>
+        <name key='Verdi, Giuseppe' ref='https://muscat.rism.info/admin/people/137994' type='person' role='cmp'>Verdi, Giuseppe</name>
+        <name key='Mérault, A.' type='person' role='cmp'>Mérault, A.</name>
+        <name key='Grieg, Edvard' ref='https://muscat.rism.info/admin/people/84066' type='person' role='cmp'>Grieg, Edvard</name>
+        <name key='Poot, M.' type='person' role='cmp'>Poot, M.</name>
+        <name key='Miche, P.' type='person' role='cmp'>Miche, P.</name>
+        <name key='Boller, Carlo' type='person' role='cmp'>Boller, Carlo</name>
+        <name key='Delibes, Léo' ref='https://muscat.rism.info/admin/people/30016578' type='person' role='cmp'>Delibes, Léo</name>
+        <name key='Bovet, J.' type='person' role='cmp'>Bovet, J.</name>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Schubert, Franz' ref='https://muscat.rism.info/admin/people/111603' type='person' role='cmp'>Schubert, Franz</name>
+        <name key='Fauré, Gabriel' ref='https://muscat.rism.info/admin/people/41731' type='person' role='cmp'>Fauré, Gabriel</name>
+        <name key='Moszkowski, Moritz' ref='https://muscat.rism.info/admin/people/94844' type='person' role='cmp'>Moszkowski, Moritz</name>
+        <name key='Santandrea, Pierre' type='person' role='int'>Santandrea, Pierre</name>
+        <name key='Denizot, Charles' type='person' role='int'>Denizot, Charles</name>
+        <name key='Harmonie Nautique' type='person' role='int'>Harmonie Nautique</name>
+        <name key='Société Chorale des Eaux-Vives' type='person' role='int'>Société Chorale des Eaux-Vives</name>
+        <name key='Jonin-Lazarelli (Mme)' type='person' role='int'>Jonin-Lazarelli (Mme)</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003212_001.tif'/>
+        <page>
+          <![CDATA[p O e t
 —ES
-
 rrs es 00
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 \l 1EIEIE 1D)JE, CGENIEVE
-
- 
-
 VICTORIA-HALL
-
 Mardi 29 décembre 1942
-
 Grand Concert Gratuit
-
 ORGANISÉ PAR LA VILLE DE GENÈVE
-
- 
-
 avec le gracieux concours de
-
 l’Harmonie Nautique
 (Harmonie Municipale)
-
 Directeur : M. Pierre SANTANDREA
 et de
 La Société Chorale des Eaux-Vives
-
 et son Chœur de Dames
 Directeur : M. Charles DENIZOT
-
- 
-
- 
-
- 
-
 CAISSE D'ÉPARGNE
-
 DE GENEÈVE
-
 GARANTIE Réserves et dépôts
 PAR L’'ÉTAT ‘ 120.000.000
 Dépôts de 1 à 20.000
 RE> COUPONS — RENTES VIAGÈRES
-
-Corraterie, 4]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003212_002.tif"/>
-<page><![CDATA[Un bon Laitier
-
+Corraterie, 4
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003212_002.tif'/>
+        <page>
+          <![CDATA[Un bon Laitier
 tient à votre disposition
-
 les produits de qualité des
 LAITERIES RÉUNIES :
-
- 
-
- 
-
- 
-
 EXTINCTEURS !A MOUSSE
-
 SICLI
-
 VENTE ET LOCATION
-
 Fonctionnent sans aucune manoeuvre
 et sans bruit ni fumée, ne dégagent
 aucun gaz toxique.
-
 Rechargés, entretenus
 et vérifiés gratuitement
-
 TÉLÉPH. 4.47.20
 4, rue Petitot GENÈVE
-
- 
-
- 
-
 Maison fondée en 1842
-
 Rue des Battoirs, 3
 Tél. 4.59.52 et 4.44.75
-
- 
-
- 
-
 FERBLANTERIE, PLOMBERIE
 ZINGUERIE
-
 Installations sanitaires
-
 EAU & GAZ
-
 L. ARPEIN
-
 Maison fondée en 1843
-
 TÉLÉPHONE 2.26.27
 2, Place Grenus GENÈVE
-
 DIRSN BIL
-
 l
-
- 
-
- 
-
 _ LECTRICITE
-
- 
-
 WINTERTHOUR
-
 Société Suisse d’Assurance
 contre les Accidents
-
 AGENT GÉNÉRAL
-
 ROBERT MEYER
-
 11, Rue Général-Dufour, 11
-
-RUE DU RHONE*+ 23]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003212_003.tif"/>
-<page><![CDATA[Laines suisses
-
+RUE DU RHONE*+ 23
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003212_003.tif'/>
+        <page>
+          <![CDATA[Laines suisses
 DURUZ
-
 Le plus grand choix
-
 Les meilleures qualités
-
 CROIX-D’OR, 3
-
- 
-
- 
-
 L’HEURE
-
 Dans toutes les heures qui se succèdent,
 il y en aune qui sera décisive, C’est celle
 où vous signerezune police d’assurance-
 vie. Votre heure sera notre heure!
 Consultez-nous
-
 LA SUISSE
-
 Assurances sur la vie
-
 MÉTROZ & PERRIER
-
 Agents généraux :-: 60, rue du Rhône
-
- 
-
 PROGRAMME
-
 PREMIÈRE PARTIE
-
 1. Les Vépres siciliennes (ouverture)
-
 e
-
 Harmonies Nautiques
-
 a) Sur l’eau
 b) Un peu de bise
-
 c) Cygnes et mouettes
-
 3. Peer Gynt (deuxième suite).
-
 a) La Plainte d’Ingrid
 b) Danse arabe
-
 c) Orage
-
 d) Chanson de Solvejg
-
 4. Dionysos, Bacchanale
-
 HARMONIE NAUTIQUE
-
 VERDI
-
 A. MÉRAULT
-
 GRIEG
-
 M. POOT
-
- 
-
- 
-
 COMPTOIR DES TISSUS
-
 MOLARD
-
- 
-
 GENÈVE
-
 Le spécialiste le plus
-
 umportant de la contrée
-
- 
-
- 
-
 BORLOZ
-
 Acheteur patenté
-
 VIEUX
 BIJOUX
-
 VIEILLE
 ARGENTERIE
-
 Rue de l’Arquebuse, 25 - Tél. 5.21.20
-
- 
-
-Editions et publicité : Ferd. DRUZ, 1 Z, avenue Henri-Bunant]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003212_004.tif"/>
-<page><![CDATA[G
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
+Editions et publicité : Ferd. DRUZ, 1 Z, avenue Henri-Bunant
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003212_004.tif'/>
+        <page><![CDATA[G
 RSAL
-
- 
-
- 
-
- 
-
 EV
-
- 
-
- 
-
 ——
-
- 
-
- 
-
-CHEZ E BON 0R 0N]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003212_005.tif"/>
-<page><![CDATA[(
-
+CHEZ E BON 0R 0N
+]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003212_005.tif'/>
+        <page>
+          <![CDATA[(
 W
-
 SUISSE ROMANDE
-
 Au profit des Œuvres de secours
 f et d’utilité publique
-
- 
-
- 
-
- 
-
 DEUXIÈME PARTIE
-
 c Letbelkileutage * 4- 77 PMICHE
 CY eux PRayss.. .>. ° Girro BOUPER
 ETE GONATES EN AG Es O DEPMIBES
@@ -375,236 +218,103 @@ Chœur de Dames
 Ï I CartIquetdeakacmes C Brrep RAURD
 ; Chœur mixte
 Ï . SOCIÉTÉ CHORALE DES EAUX-VIVES
-
 Au piano : Mme JONIN-LAZARELLI, professeur
-
 Pour faciliter la digestion, prenez après les repas
-
 4-6 PASTILLES VICHY-ETAT
-
 préparées avec le sel naturel des sources.
 Indispensables pour les Fumeurs sont les
 délicieuses
-
 SURPASTILLES VICHY-ETAT
-
 saturées de Sel naturel, fortement aromatisées,
 présentation pratique.
-
 Exigez sur chaque boîte le disque bleu VICHY-ETAT.
-
 b
 (
 =
 e
 S
 N
-
 LE BON APÉRITIF
-
- 
-
-ÿ Editions et publicité : Ferd. DRUZ, 1 Z, avenue Henri-Dunant]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003212_006.tif"/>
-<page><![CDATA[Prêts
-
+ÿ Editions et publicité : Ferd. DRUZ, 1 Z, avenue Henri-Dunant
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003212_006.tif'/>
+        <page>
+          <![CDATA[Prêts
 Disposant de capitaux, nous pré-
 tons rapidement de fr. 400.— à
 à fr. 2000.—, remboursables par
 acomptes, aux personnes à trai-
 traitements fixes
-
 GESTION et CONTROLE S.A.
-
 Service de Crédits
 CORRATERIE, 10 - GENÈVE
-
-   
-
- 
-
-    
-
- 
-
 Edmond HESS & FILS
-
 Constructeurs
-
 10, rue de Carouge - GENÈVE
 TELEPHONE 4.63.77
-
 Succursale à Annemasse (Hte-Savoie)
 TÉLÉPHONE 40
-
 TOUS TRAVAUX EN FER
-
 CHARPENTE, SERRURERIE, FERRONNERIE
 BRONZE D’ART, PROFILS SPECIAUX
 ANTICORODAL, etc.
-
- 
-
- 
-
- 
-
 12. Six airs de ballet .
-
 a) Entr'acte d') Intermezzo
 b) Sarabande
-
 c) Passe-pied f) Minuetto
-
 HARMONIE NAUTIQUE
-
 e) Fantasmagorie
-
 13. Zannhauser (Marche du 2”* acte)
-
 &
-
 TROISIÈME PARTIE
-
 MOSZKOWSKY
-
 RicHarp WAGNER
-
 Chœur mixte de la SOCIÉTÉ CHORALE DES EAUX-VIVES
 et HARMONIE NAUTIQUE
-
 ©
-
 E SE e e t
-
- 
-
- 
-
 PETLULT E N
 RR E SEN 74
-
- 
-
- 
-
- 
-
 JARDINS - TENNIS
 TRAVAUX PUBLICS
-
 L. JACQUET
-
 GENEÈVE
-
- 
-
- 
-
- 
-
- 
-
 Ediitons et publicité : Ferd. DRUZ, 12, avenue Henri-Dunant
-
- 
- 
-     
-    
-  
-     
-   
- 
-   
-  
-  
-   
-  
-  
-  
- 
- 
- 
-   
-
 mT
-
- 
-
 ETE
-
 PE
-
-É EU A ME E]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003212_007.tif"/>
-<page><![CDATA[SOCIÉTÉ ANONYME R
+É EU A ME E
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003212_007.tif'/>
+        <page>
+          <![CDATA[SOCIÉTÉ ANONYME R
 VICTOR OLIVET | K44/KA LUE
-
 ENTREPRISE DE BATIMENTS
-
 ET TRAVAUX PUBLICS PEHNUD fl lS
 38, Rue du Nant
-
 GENÈVE
 Téléphone 5.43.72
-
- 
-
 LIQUEUR D'ANIS
-
- 
-
- 
-
- 
-
 PAPIERS PEINTS | | A.M.P.E.R.A.
-
- 
-
- 
-
 MAISON ÊQUIPEMQENT
-
 ; “ « FECTRIQUE
-
 Fornasari - Esquivillon POUR AUTOS
 GENEVE @
-
 9, boul. Georges-Favon, 9
-
 Accumulateurs Geinoz
 TéLÉPHONE 28.32 35, rue des Bains _ Téléphone 4.58.26
-
- 
-
- 
-
 FERBLANTERIE
 LARVEGO |**;77:
 S EAU
 GAZ
 CARRELAGE ET
-
 REVÊTEMENTS V" Henri HENNY à Fils
-
 ; Installations sanitaires
 Boul. Salnt_Georges’ 24 6, rue Ph.-Plantamour, 6
-
 Téléph. 4.46.57 GENÈVE - Téléph. 2.37.89
-
- 
-
- 
-
- 
-
- 
-
- 
-
 102
-
 VI ERDE 144 }3 GENÈVE
 ;
 JV*“       
@@ -612,78 +322,39 @@ JV*“
     </body>
   </text>
 </TEI>\«..—y# Ë
-
 POMPES FUNÈBRES OFFICIELLES
-
 DE LA VILLE DE GENÈVE
-
 (Cité, Eaux-Vives, Petit-Saconnex, Plainpalais, Carouge et Laney)
-
 Téléphone permanent 4.32.85 5, rue de l’Hôtel-de-Ville
-
 au ler
-
- 
-
-Editions et publicité : Ferd. DRUZ, 12, avenue Henri-Dunant]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003212_008.tif"/>
-<page><![CDATA[Constructions Tubulaires S. À. - Genève
-
+Editions et publicité : Ferd. DRUZ, 12, avenue Henri-Dunant
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003212_008.tif'/>
+        <page>
+          <![CDATA[Constructions Tubulaires S. À. - Genève
 17, route de Saint-Julien - Téléphone 4.77.78
-
- 
-
 mettra sur pied tous les aménagements dont vous pouvez
 avoir besoin pour fêtes, cortèges, manifestations sportives,
 expositions, etc., etc.
 Tribunes, Podiums, Scènes, Décors, Théâtres, Cantines, Tours de
 signalisation, Passerelles, etc.
-
- 
-
- 
-
 Caisse hypothécaire
-
 du Canton de Genève
-
 Instituée par la Constitution de 1847 Molard, 2
-
 Prêts et crédits hypothécaires
 Certificats de dépôt
-
 [ivrets d'épargne
-
- 
-
- 
-
- 
-
 Albert Schmidt
-
 GYPSERIE - PEINTURE
-
 RÉPARE BIEN LES f…',L ses achals à la
-
 APPARTEMENTS
-
 ‘ (COPÉRATIVE
-
 BOURG-DE-FOUR, 7
-
- 
-
- 
-
- 
-
- 
-
- 
-
-Imprimerie Gutenberg (Rigaud,fGriessen & Cie) 14, rue de Hollande]]></page>       
-        </p>
+Imprimerie Gutenberg (Rigaud,fGriessen & Cie) 14, rue de Hollande
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

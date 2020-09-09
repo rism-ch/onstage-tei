@@ -1,85 +1,95 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Grand concert donné par M. Fritz Blumer<date when="16/01/1886"/></title>
-<series>1885-1886</series>
-<placeName>Salle de la Réformation</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Grand concert donné par M. Fritz Blumer
+            <date when='16/01/1886'/>
+          </title>
+          <series>1885-1886</series>
+          <placeName>Genève, Salle de la Réformation</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU DG3-1 F001592</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt> </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18860116"/>
-<title>Grand concert donné par M. Fritz Blumer</title>
-<placeName key="Salle de la Réformation"/>
-<name key="1885-1886" type="series"/>
-<name key="Rubinštejn, Anton Grigor'evič" ref="https://muscat.rism.info/admin/people/30008504" type="person" role="cmp">Rubinštejn, Anton Grigor'evič</name>
-<name key="Lachner, Ignaz" ref="https://muscat.rism.info/admin/people/64574" type="person" role="cmp">Lachner, Ignaz</name>
-<name key="Scarlatti [et al.]"  type="person" role="cmp">Scarlatti [et al.]</name>
-<name key="Blumer, F."  type="person" role="int">Blumer, F.</name>
-<name key="Haering, J."  type="person" role="int">Haering, J.</name>
-<name key="Sternberg [et al.]"  type="person" role="int">Sternberg [et al.]</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg3_1_f001592_001.tif"/>
-<page><![CDATA[SALLE DE LA RÉFORMATION
-
- 
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18860116'/>
+        <title>Grand concert donné par M. Fritz Blumer</title>
+        <placeName key='Genève, Salle de la Réformation'/>
+        <name key='1885-1886' type='series'/>
+        <name key='Rubinštejn, Anton Grigor&apos;evič' ref='https://muscat.rism.info/admin/people/30008504' type='person' role='cmp'>Rubinštejn, Anton Grigor'evič</name>
+        <name key='Lachner, Ignaz' ref='https://muscat.rism.info/admin/people/64574' type='person' role='cmp'>Lachner, Ignaz</name>
+        <name key='Scarlatti, Domenico' type='person' role='cmp'>Scarlatti, Domenico</name>
+        <name key='Bach, Johann Sebastian' type='person' role='cmp'>Bach, Johann Sebastian</name>
+        <name key='Schubert, Franz' type='person' role='cmp'>Schubert, Franz</name>
+        <name key='Liszt, Franz' type='person' role='cmp'>Liszt, Franz</name>
+        <name key='Massenet, Jules' type='person' role='cmp'>Massenet, Jules</name>
+        <name key='Henselt, Adolph von' type='person' role='cmp'>Henselt, Adolph von</name>
+        <name key='Chopin, Fryderyk Franciszek' type='person' role='cmp'>Chopin, Fryderyk Franciszek</name>
+        <name key='Raff, Joachim' type='person' role='cmp'>Raff, Joachim</name>
+        <name key='Godard' type='person' role='cmp'>Godard</name>
+        <name key='Grieg, Edvard' type='person' role='cmp'>Grieg, Edvard</name>
+        <name key='Moszkowski, Moritz' type='person' role='cmp'>Moszkowski, Moritz</name>
+        <name key='Padussohn' type='person' role='cmp'>Padussohn</name>
+        <name key='Bizet, Georges' type='person' role='cmp'>Bizet, Georges</name>
+        <name key='Schumann, Robert' type='person' role='cmp'>Schumann, Robert</name>
+        <name key='Blumer, Fritz' type='person' role='int'>Blumer, Fritz</name>
+        <name key='Haering, Julia' type='person' role='int'>Haering, Julia</name>
+        <name key='Sternberg' type='person' role='int'>Sternberg</name>
+        <name key='Harndorff' type='person' role='int'>Harndorff</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg3_1_f001592_001.tif'/>
+        <page>
+          <![CDATA[SALLE DE LA RÉFORMATION
 | SAMEDI 16 JANVIER 1886, A HUIT HEURES DU SOIR,
-
 | G@RAND CONCERT
-
 DONNÉ. PAR
-
 M. FRITZ BLUMER
-
 PIANISTE
 AVEC LE BIENVEILLANT CONCOURS DE
 M JULIA HÆERIIING
-
 Cantatrice
-
 | m. STERNBERG, Violoniste, -- NM. HARNDORFF, Violoncelliste.
-
 — UE e
-
 PROGRAMME :
-
 PREMIÈRE PARTIE
-
- 
-
 1, ‘Trio en sol min., pour piano, (% D) Valse-Caprice, . . . - Schudbert-Liszt
 violon et violoncelle, . . . Rubinsteim 13 Scène et air du « Cid, » / . Massenet
 Allegro con fuoco. Adagio. Scherzo. (De cet affreux combat, je sors
@@ -87,46 +97,23 @@ Allegro. Finale. | l’âme brisée.)
 2. A) Prélude et Toccata, . . Ign. Lachner . A) Études, . : . . « . . Henselt-Chopin
 B) Sonate (Pastorale), . . . Scarlatti B) Aux bords d’une source,. Liszt
 c) Gavotte,. . . . . . . Bach-St-Saëns | c) Valse-Caprice, . . . . Raff
-
 DEUXIÈME PARTIE
-
 A) Te souviens-tu, . . . . Godaurd 6. c) XIII° Rhapsodie hongroise, Liszt
-
 B) Le Fils des Asra, . . . Iubinsteim 162 Absence m 110 Birei
 C'iJotaume, / . ... . . QGrieg B) Nuit de Mai, . . . . . Schumann
 A) Menuet,. . . . . . . Moszkowsky 8. a) Romance du concerto en mi min, Chopin
 B) Canon-Scherzo, . . . . Padussolm B) Polonaise en mi maj, . . Liszt
-
 a—
-
 Grand Piano ÉRARD, aux soins de MM. BRON et BERGUER.
-
 : PRIX DES PLACES:
-
 Réservées, 5 fr. --- 1"* Galeries, 2 fr. --- Parterre, 1 fr. --- 2“* Galeries, 50 cent.
-
- 
-
- 
-
- 
-
- 
-
- 
-
 On peut se procurer des billets à l’avance. dans tous les magasins de musique. — Pour les places réservées,
 s’adresser à MM. BRON et BERGUER, Corraterie, 15.
 r
-
- 
-
- 
-
- 
-
-Imprimé L.-F. Jarrys, rue de la Treille. Xx]]></page>       
-        </p>
+Imprimé L.-F. Jarrys, rue de la Treille. Xx
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

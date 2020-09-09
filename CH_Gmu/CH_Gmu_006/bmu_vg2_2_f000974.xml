@@ -1,1097 +1,594 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concerts d'été<date when="21/06/1921"/></title>
-<series>1920-1921</series>
-<placeName>Théâtre Pitoëff (Salle communale de Plainpalais) ; Jardin anglais ; Salle de la Réformation</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concerts d'été
+            <date when='21/06/1921'/>
+            <date when='25/06/1921'/>
+          </title>
+          <series>1920-1921</series>
+          <placeName>Genève, Théâtre Pitoëff (Salle communale de Plainpalais)</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VG2-2 F000974</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Fouilloux, G.</note>
+        <note>Dupérier, J. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19210621
-19210625"/>
-<title>Concerts d'été</title>
-<placeName key="Théâtre Pitoëff (Salle communale de Plainpalais) ; Jardin anglais ; Salle de la Réformation"/>
-<name key="1920-1921" type="series"/>
-<name key="Mozart, Wolfgang Amadeus" ref="https://muscat.rism.info/admin/people/115324" type="person" role="cmp">Mozart, Wolfgang Amadeus</name>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Bizet, Georges" ref="https://muscat.rism.info/admin/people/20057" type="person" role="cmp">Bizet, Georges</name>
-<name key="Massenet, Jules" ref="https://muscat.rism.info/admin/people/84264" type="person" role="cmp">Massenet, Jules</name>
-<name key="Litolff, Henry" ref="https://muscat.rism.info/admin/people/109316" type="person" role="cmp">Litolff, Henry</name>
-<name key="Weber, Carl Maria von" ref="https://muscat.rism.info/admin/people/117485" type="person" role="cmp">Weber, Carl Maria von</name>
-<name key="Saint-Saëns, Camille" ref="https://muscat.rism.info/admin/people/76734" type="person" role="cmp">Saint-Saëns, Camille</name>
-<name key="Auber, Daniel-François-Esprit" ref="https://muscat.rism.info/admin/people/38000" type="person" role="cmp">Auber, Daniel-François-Esprit</name>
-<name key="Rameau, Jean-Philippe" ref="https://muscat.rism.info/admin/people/169730" type="person" role="cmp">Rameau, Jean-Philippe</name>
-<name key="Schubert, Franz" ref="https://muscat.rism.info/admin/people/111603" type="person" role="cmp">Schubert, Franz</name>
-<name key="Berlioz, Hector" ref="https://muscat.rism.info/admin/people/13803" type="person" role="cmp">Berlioz, Hector</name>
-<name key="Fouilloux, Georges (dir.)"  type="person" role="int">Fouilloux, Georges (dir.)</name>
-<name key="Dupérier, Jean (dir.)"  type="person" role="int">Dupérier, Jean (dir.)</name>
-<name key="Société des Concerts d'Été"  type="person" role="int">Société des Concerts d'Été</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_2_f000974_001.tif"/>
-<page><![CDATA[. 6cœÏe es Gôncerfs El
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19210621'/>
+        <date when='19210625'/>
+        <title>Concerts d'été</title>
+        <placeName key='Genève, Théâtre Pitoëff (Salle communale de Plainpalais)'/>
+        <name key='1920-1921' type='series'/>
+        <name key='Mozart, Wolfgang Amadeus' ref='https://muscat.rism.info/admin/people/115324' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Bizet, Georges' ref='https://muscat.rism.info/admin/people/20057' type='person' role='cmp'>Bizet, Georges</name>
+        <name key='Massenet, Jules' ref='https://muscat.rism.info/admin/people/84264' type='person' role='cmp'>Massenet, Jules</name>
+        <name key='Litolff, Henry' ref='https://muscat.rism.info/admin/people/109316' type='person' role='cmp'>Litolff, Henry</name>
+        <name key='Weber, Carl Maria von' ref='https://muscat.rism.info/admin/people/117485' type='person' role='cmp'>Weber, Carl Maria von</name>
+        <name key='Saint-Saëns, Camille' ref='https://muscat.rism.info/admin/people/76734' type='person' role='cmp'>Saint-Saëns, Camille</name>
+        <name key='Auber, Daniel-François-Esprit' ref='https://muscat.rism.info/admin/people/38000' type='person' role='cmp'>Auber, Daniel-François-Esprit</name>
+        <name key='Rameau, Jean-Philippe' ref='https://muscat.rism.info/admin/people/169730' type='person' role='cmp'>Rameau, Jean-Philippe</name>
+        <name key='Schubert, Franz' ref='https://muscat.rism.info/admin/people/111603' type='person' role='cmp'>Schubert, Franz</name>
+        <name key='Berlioz, Hector' ref='https://muscat.rism.info/admin/people/13803' type='person' role='cmp'>Berlioz, Hector</name>
+        <name key='Fouilloux, Georges' type='person' role='int'>Fouilloux, Georges</name>
+        <name key='Dupérier, Jean' type='person' role='int'>Dupérier, Jean</name>
+        <name key='Société des Concerts d&apos;Été' type='person' role='int'>Société des Concerts d'Été</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_2_f000974_001.tif'/>
+        <page>
+          <![CDATA[. 6cœÏe es Gôncerfs El
 Rn à @eneyæ é
-
- 
-
- 
-
- 
-
- 
-
- Société de
-
+Société de
 Banque Duisse
-
 Fondée en 1872
-
 “ Capital-FAetions et Réserves : Fr. 153 MNilfons
-
 .°
 0°0
-
 P00?
-
 6 CORRATERIE GENÈV E CÔRRATERIE, 6
-
 CORNAVIN * . EAUX-VIVES *
-
 10, Place de Cornavin 3, Place des Eaux-Vives
-
 “ PLAINPALAIS CAROUGE
-
 36, Rue de Carouge ' Rue du Marché
-
 { __ïoùte$,f0pératioﬂs de Banque, de Bourse et de Change
 « ux meilleures Conditions —
-
 /‘o
 JO(C
-
- 
-
- 
-
-e STi F,FE‘N. [MPR1M‘EURS, GEm‘:vz—: Ç]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_2_f000974_002.tif"/>
-<page><![CDATA[‘ }
+e STi F,FE‘N. [MPR1M‘EURS, GEm‘:vz—: Ç
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_2_f000974_002.tif'/>
+        <page>
+          <![CDATA[‘ }
 UE d
 = AENEXEXE
 | L r S
 N e) F ..…»
 \v..o\ Ps
-
 PUBLICITAS.S.À
-
 77270HSONI c{zjcnevc
-
 3
 S
 :
 $
 %
-
 …
 3
 N
-
 L QE 4...—:..}... .I.u.‘ «nu… < " .4 Mw..v 1‘
 R \…... s£ = OVM n..v yN n P‘ /J ’.”.o. ‘>“
 DN S 11 | _ h .
-
 —— uleW\æ.…… .….\
-
-2 sF]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_2_f000974_003.tif"/>
-<page><![CDATA[- " P. ‘ Nos Cafés, mélanges brésillens
+2 sF
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_2_f000974_003.tif'/>
+        <page>
+          <![CDATA[- " P. ‘ Nos Cafés, mélanges brésillens
 SI ] avails et français, sont toujours plus
 ; appréciés,.
 cinq franes en poche pour faire 1 7 °Jo de ristourne
 une affaire, j'en emploierais
 quatre à faire placer des | Les Ctablissements
-
 affiches | AuPlanteur du Brésil
-
 O
-
- 
-
 , Rue du Rhône Rue de Carouge, 31
 Maison de Gros : 6, Rue du Commerce
-
 Société Générale d'Affichage | A
 “ 60, rue du Stand, Genève Importation directe - Torréfaction journalière
-
- 
-
- 
-
 EN CAS DE DÉCÈS
-
 s'adresser ou téléphoner de suite aux
-
 Pompes Funèbres Générales de Suisse
-
 Bureaux : 19, Rue du Rhône, Genève - Téléphone permanent 71-80
-
 se charge gratuitement de toutes les démarches
 et formalités officielles et pour tous cultes
-
- 
-
 Ensevelissements de toutes classes - Transports funèbres pour tous
 Pays - Couronnes mortuaires
-
 Fourgon et Corbillard Automobile Même Maison à Annemasse
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 20-22, Rue de la Confédération
-
- 
-
 La réputation de la Maison de Chaussures IDIS $. À. N’est plus à faire f‘
-
 Son immense stock et son grand choix en ont fait
-la prem1ere Maison de Genève]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_2_f000974_004.tif"/>
-<page><![CDATA[Mamnams !
-
+la prem1ere Maison de Genève
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_2_f000974_004.tif'/>
+        <page>
+          <![CDATA[Mamnams !
 soucieuses de la santé et de la
 prospérité de vos Bébés,
 donnez-leur notre
-
 Articles de Voyage en fous genres
-
- 
-
 ; e Ern. A
 Lait maternisé  CHEVALLIER *
-
 en bouteilles cachetées
-
- 
-
- 
-
 Consultez votre médecin - Nombr. attestations
-
 Laboratoires 4, Place Bel'Air
 Laiteries Genevoises Réunies et Rue du Rhône, 58
-
- 
-
- 
-
- 
-
 MUSIQUE ET | Demandez partout
 INSTRUMENTS |’Apér‘itif
-
 —, | AMER
 J. Montfort | PICON
-
 DTIOEEOET CEOE ETEN
-
 51, Rue du Stand, 51 | _BC(€/‘ et Qe
-
 Genève 11, Rue du Conseil-Général
-
- 
-
- 
-
- 
-
 rixsrarise  BOUJON Frères
 e Suce. de L. JAMIN
-
 Fabrique d’Orfèvrerie Genevoise
 COURS DE RIVE, 14 (1er étage)
-
- 
-
 Snécialités : Plats, Légumiers, Déjeuners, Coupes
-
 Grand choix d'Orfèvrerie courante
 pour cadeaux de mariage, baptême,
-
 Argent contrôlé anniversaire
-
- 
-
- 
-
 CYOLES Pour un
-
 %l 8 -“ Taxis confortable
 ; Téléphonez au
 ‘ W““ Bl Wl N° 550â8tation du Lyrique)
-
 Les meilleures marques N° 70
-
 française et anglaise
 - AUTO-GARAGES DES NATIONS —
-
 Agent : Marcel LEQUATRE 73, Boul. de la Cluse
-3, Rue d'Italie 20, Rue de Lausanne]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_2_f000974_005.tif"/>
-<page><![CDATA[.
-
+3, Rue d'Italie 20, Rue de Lausanne
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_2_f000974_005.tif'/>
+        <page>
+          <![CDATA[.
 ; e
 Vermouth Noblesse
 bu glacé
-
- 
-
 est une délicieuse gourmandise
-
 CIRAVEGNA & Co
-
-     
-
- 
-
- 
-
 Loe Comité de La Société des Concerts d'&té
 “ esf composé de INIK.
-
 Jean DUPÉRIER
 Georges FOUILLOUX
 Paul BUISSON
 Victor ANDRÉOSSI
-
- 
-
 } _
 i Chefs d'Orchestre :
-
 M. Georges FOUILLOUX
 M. Jean DUPÉRIER
-
- 
-
- 
-
 MUSIQUE ET INSTRUMENTS
-
 Grand ABONNEMENT toujours complété des meilleures
 nouveautés, conditions très avantageuses, Corraterie, 22
-
 ROTSCHY FRÈRESs
-
 8, Rue de Candolle — Dépôt des Pianos GAVEAU
 Vente, Achat, Location, Echange et Réparations dé
-
-PIANOS ET HARMONIUMS]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_2_f000974_006.tif"/>
-<page><![CDATA[Compagnie des
-
+PIANOS ET HARMONIUMS
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_2_f000974_006.tif'/>
+        <page>
+          <![CDATA[Compagnie des
 MACHINES A COUDRE
-
 SINGER
-
 Société Anonyme
-
 Sièce SociaL. A-GENEÈVE
-
 Rerlommeée univer
 Payements fa
 Agences dans toutes les principales
 villes de la Suisse
-
 Chasseurs ! Tireurs ! Pêcheurs !
-
 Faites vos achats chez %
-
 Arquebusier-Fabricant
-
- 
-
- 
-
 3, Quai de l’ÎIle
 31, Rue du Rhône
-
- 
-
- 
-
 Gcole de Dactylggraphie
-
 en*
 | L.Domenjoz-Im-Ohersleg
-
 5, Rue Petitot
 Téléph, 59-51
 ®
-
 Ecole de Comptabilité
 et de Commerce
-
- 
-
- 
-
 Rue du Rhône, 19, GENÈVE
 Téléph. 76-78
-
 Café-Brasserie du XX"* Siècle
 SECHECHNEEIEHECOICCCLEONEECCCHITEOKCOENEOVECOEENCHMCOHNNVENNEIMIENTE®
-
 Georges VIGNY, Prop.
-
 Boul. Georges-Favon, 23
-
 Consommations de 12" choix
 Mets de Brasserie
-
 Ouverl après les spectacles
 Céléph. 30-88
-
 PIANOS
-
 Instruments de Musique
-
 J. Bernard
-
 4, Rue Pécolat
 Genève
-
- 
-
- 
-
- 
-
 Achetez vos Chaussures
-
 HESCHBACGH |
-
 à la Maison
-
- 
-
- 
-
 6, Rue du Rhône, 6
-
-Les meilleures Bottines dep. Fr. 24-.50]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_2_f000974_007.tif"/>
-<page><![CDATA[|l‘vl
+Les meilleures Bottines dep. Fr. 24-.50
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_2_f000974_007.tif'/>
+        <page>
+          <![CDATA[|l‘vl
 E
 4.
 d
-
- 
-
- 
-
- 
-
- 
-
 BANQUE DE GENÈVE
-
 Fondée en 1848, avec le concours de l'Etat de Genève
-
 Traïte toutes Ûpefraﬁons de £Üangae
 aux meilleures conditions
-
 Siège Social ; 4, Rue du Commerce
 Agence : 2, Rond-Point de Plainpalais -
-
- 
-
 M. Georges FOUILLOUX, Directeur
-
 Phot, M. Andreossi
-
 MAISON
-
 Pendant les mois de JUIN, JUILLET et AOÛT,
-
 Nous soldons des gros Stocks :
 Tissus-Eté, Confections pour Dames
-
 à des prix depuis longtemps inconnus à Genève
-
 .
 Coutance, &, au 1er … Genève - Céléph. 69-52
-
- 
-
-— =]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_2_f000974_008.tif"/>
-<page><![CDATA[Banque de
+— =
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_2_f000974_008.tif'/>
+        <page>
+          <![CDATA[Banque de
 Paris el des Pays-Bas
-
 Fondée en 1872
-
 Succursale de Genève
-
 EU ERE E EOEE E EEEEEEEOTE E ENEIEEMETT
-
 RUE DE HOLLANDE, 6
-
 O
-
 Capital, Fr. 150.000.000.—, Réserves au 31 Décembre 1920, Fr. 188.000.000.—
 O
-
 Toutes Opérations
 de Banque
-
 Comptes-Courants à Vue et Dépôts à Terme en Argent Suisse
 et en Monnaies Etrangères
-
 Comptes en Frgent Français à des Condifions
 avanfageuses
-
 O
-
 Garde de Titres
-
 O
-
 La Direction de Genève se met à la disposition des Commerçants et
 Industriels suisses pour faciliter leurs transactions avec l'étranger et
 la France en particulier
-
 cSouscription gratuite à foutes les émissions
 (Daïement de Coupons
-
 O-
-
-Changes]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_2_f000974_009.tif"/>
-<page><![CDATA[Fabrique et re'parè
+Changes
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_2_f000974_009.tif'/>
+        <page>
+          <![CDATA[Fabrique et re'parè
 Violons, Violoncelles,
 Archets
-
 |DÛUDEZ
-
 ‘Lutbier du Conservatoire -
-
 22, Rue
 fénéral-Dufour
-
 à l’entresol
-
- 
-
- 
-
 MARDI2JUN à Sh %
 calle Communale de Dlampalais
-
 Marche Tùrque e 11 2 MOZARNE
 Marche Turque . . . BEETHOVEN
 Jeux d’Enfants (suite d’ orchestre) BIZET
-
 a) Marche (Trompette et Tambour).
 b) Berceuse (La Poupée).
-
 c) Impromptu (La Toupie).
-
 d) Duo (Petit Mari, Petite Femme).
 e) Galop (Le Bal).
-
 Scènes Alsaciennes (Souvenirs) . MASSENET
-
 a) Dimanche Matin.
 b) Au Cabaret
-
 c) Sous les Tilleuls
 d) Dimanche Soir.
-
 Le concert sera dirigé par M. Georges FOUILLOUX.
-
 LLUS LUEN AN
-
- 
-
- 
-
 Metropole Garage
-
 6, RUE D’ITALIE, GENÈVE
 TÉLÉPH. 40-22
-
- 
-
- 
-
- 
-
 Le plus centrai - Ouvèr:‘ jour et nuit
-
-ATELIERS : Avenue J.-Lachenal, CAROUGE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_2_f000974_010.tif"/>
-<page><![CDATA[2UNREKIINNEHNTNOEENCOANNAMN
-
+ATELIERS : Avenue J.-Lachenal, CAROUGE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_2_f000974_010.tif'/>
+        <page>
+          <![CDATA[2UNREKIINNEHNTNOEENCOANNAMN
 La Paille de fer
 Phénix
-
 est inusable
-
 Vins fins de Champagne
 A. PIERLOT
-
 LS Guillemaud s. a.
-
 Vermouth blanc supérieur
 Agence du Citron Crozet à Thizy
 Cassis surfins
-
 O
-
 Fabr, par À. Grasset
 Genève
-
 IIHl \… \ CHELONECECCENEEIEANENTNNTE
-
 ä\|ll………iilillll…lHHIIIIHH……HIIIIIIIIHIHHIIIIU—
-
 Rue Richemont, 8, Genève
-
 l lllllIllllllllllllllllllll\HHHHllllllllllllllllllllllllll!ililh;
-
- 
-
- 
-
 mez les Cigarettes
 D1MIT
-
 Pur tabac ture- - Faites à la main
-
- 
-
- 
-
- 
-
 QUAI DES BERGUES, 17
-
- 
-
- 
-
 jî/jred Cempia
 42, Rue de Lyon
-
 Spécialité de Vins de Table
-
- 
-
- 
-
- 
-
- 
-
 Biscuits et Confiserie
-
 hollet
-
-Maison Suisse, Genève]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_2_f000974_011.tif"/>
-<page><![CDATA[r
-
- 
-
- 
-
- 
-
- 
-
- 
-
+Maison Suisse, Genève
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_2_f000974_011.tif'/>
+        <page>
+          <![CDATA[r
 Maison de Charbonnages Belges
-
 C. MARCHANDISE
-
 SPÉCIALITÉ DE CHAPBONS BELGES
 |' Anthracite, Boulets, Coke, Briquettes et Bois de Chauffage
-
 Bureaux : 58, Rue des Vollandes - Téléph. 55.07
 Chantiers : 73, Rue des Vollandes et 51, Route de Frontenex
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 M. DUPERIER Photo M. Andreossi
-
- 
- 
-
 GENEVE
-
-    
-
- 
-
-   
-
- 
-
 54
 exs
 .
 6“\v
 Œeu*
-
 d MDS R
-
-céc b]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_2_f000974_012.tif"/>
-<page><![CDATA[Allons chez la
+céc b
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_2_f000974_012.tif'/>
+        <page>
+          <![CDATA[Allons chez la
 Césarine
-
 Mets de Brasserie
 Jambon et Salés Vaudois
 Vins du Mandement
-
 Café JACQUES, Place Grenus, 10
-
- 
-
- 
-
 Demandez
 dans tous les magasins de
-
 musique, les dernières
 nouveautés des
-
 Editions
 Francis Salabert
-
 Vient de paraîire le 3Me album pr
 piano, contenant 25 grands succès
-
- 
-
- 
-
- 
-
 ﬁrande Ë91Œgü€ïi@ Îe la Gare
-
 M. GUIGUE
 4, RUE DE LAUSANNE, 4
-
 Téléphone 10.051
-
 Prix défiant toute concurrence
-
- 
-
- 
-
 (Misalopécine
-
 Trésor de la
 Chevelure
-
 Arrêt complet de la chûte des cheveux
-
 Vente : Coiffeurs-Parfumeurs
-
 L. Fantex-Melliard & b"
-
 17, Rue de la Croix-d'Or
 Genève
-
 Bas et Chaussettes, Sous-Vêtements en
 tous genres et en Grêpe de Santé
 Rumpf‘“, pr Messieurs, Dames et Enfants
-
 Laines décaties et Cotons à tricoter
-
- 
-
- 
-
- 
-
 L U AA)
-
 l0.Rue de laMuse
-
 Les meilleurs clichés. Les moins
 chers. Livrés le plus rapidement
-
- 
-
- 
-
- 
-
 [=]]
-
 ; COURS DE RIVE, 12
-
 Fourneaux SURSÉE
-
-- LA VILLE PAIE 5O00/o]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_2_f000974_013.tif"/>
-<page><![CDATA[n FLAG Cigarettes
-
+- LA VILLE PAIE 5O00/o
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_2_f000974_013.tif'/>
+        <page>
+          <![CDATA[n FLAG Cigarettes
 ‘
-
 0.30 centimès les dix
-
-  
-
- 
-
- 
-
- 
-
 JEUDL 23 JUIN, à 8 h. #.
-
 Éardin Anglais
-
 En cas de mauvais temps, le Concert aura lieu à la Réformatlon {
-
 12 Symphonie:N2, .. / , .. BEETIOVEN
 (Adagio Molto-Allegro con brio, Larghetto.
 Scherzo. Allegro Molto).
-
 2. - Ouv/Robespierre . .… ... / ÉITOLFF.
-
 3. Invitation à la Valsge. . . . . WEBER
-
 4. Phaëton, poême symphonique . SAINT-SAENS
-
 Le concert sera dirigé par M, Georges FOUILLOUX.
-
- 
-
- 
-
 L'ADIES’ an _ GENTLEMEN’S TAILOR
-
 J. . Mitchens
-
 GENÈVE
-
 RUE DE LA CONFÉDÉRATION, 5 (ENTRÉE : PASSAGE DES LIONS, 5)
-
 Costumes d'Equitation et de Sports
 Draps des premièrés «Manufaclures anglaises
-
- 
-
- 
-
- 
-
 PS
-
 è t ce c ; 4 é
 « 7 cE S cs p
-
- 
-   
-     
-  
-   
-  
-    
-  
- 
-  
-   
- 
- 
-
-)]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_2_f000974_014.tif"/>
-<page><![CDATA[C0utel\lerie
+)
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_2_f000974_014.tif'/>
+        <page>
+          <![CDATA[C0utel\lerie
 V"Ad.VAUTIER
-
 Téléph. 79-18 — 78, Rue de fa Croix-d'Or Lift
-
- 
-
 Maison sp901ale
-
 %%”' LAY
-
 Marque déposée
-
 Instruments pour Manucures et Articles pour Cmffeurs
 et Coiffeuses
-
 Grand choix d'Ecrins Manucures garnis d'ins-
 truments acier 1° qualité, depuis Fr. 1450
-
 Appareils de Sûreté de toutes les Marques
 Gillette
 Star
 Auto-Strop
 Luna
-
 Enders
 Apollo, etc.
-
 Couteaux de Table - Couteaux de Poche
 Véritables Couteaux militaires suisses
 Couverts et Services de Table, Alpacca ‘argenté ou non
-
 Assortiment complet d’Articles pour Bouchers
 Aiguisages et Réparations soignés
-
-Maison de Confiance]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_2_f000974_015.tif"/>
-<page><![CDATA[Mines de Charleroi
+Maison de Confiance
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_2_f000974_015.tif'/>
+        <page>
+          <![CDATA[Mines de Charleroi
 PIERRE MANTILLERI
-
 Chantiers et Bureaux : Rue de la Navigation, 39 et Rue de la Paix, 2.
 Entrepôts en Gare Genève-Sécheron sur embranchement
-
 S
-
 î
 ;' Spécialité en Anthracite, Houilles et Agglomérés belges, pour
 ï} Chauffage domestique, Chauffages centraux et Industries
-
 SAMEDI 25 JUIN, à 8 h. ,
-
 É Calle de la Réformation
-
 ,
-
 IF 1. Ouv. de “ Fra Diavolo ” . AUBER
-
 ë | 2. Les Indes Galantes . { RAMEAU
 3. Symphonie Inachevée secHiBERT
-
 4, L'Arlésienne (1“ suite) 0N BEI
-
 O1
-
 Marche Hongroise . . . . . . BERLIOZ
 (Extrait de la Damnation de Faust)
-
- 
-
- 
-
 Le concert sera dirigé par M. Jean DUPÉRIER
-
 Plus de 4.000 orchestres jouent
-
 R. Drigo, Les Trésors de Colombine, Air de Ballet
-
 Edition pour le piano, avec titre illustré, Fr. 3.
 Edition pour pianoet violon (ou violoncelle), Fr. 3.
 Edition pour orchestre, Fr. 3.75
-
 Edition J & W. CHESTER Ltd, 9, Fusterie, Genève
-
 Editeurs des œuvres de Jaques-Dalcroze,
-
- 
-
 Strawinsky, Goossens de Falla, Poldowsky
 Palmgren, Poulenc, Durey, Honegger, Casella, Malipiero, Jongen, Grovlez, etc
-
 En vente chez tous les îVlarchands de Musique
-
- 
-
 =3 rs —— == —2 77
-
- 
-
- 
-
- 
-
-A 9]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_2_f000974_016.tif"/>
-<page><![CDATA[Valeurs
-
+A 9
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_2_f000974_016.tif'/>
+        <page>
+          <![CDATA[Valeurs
 Aux Livres Fran às
-
- 
-
 non cotées
-
 Achat et Vente
-
 27, Rue de Carouge — Genève
-
 |
-
 |
-
 |
-
 ; ; l
-
 L'ivres anciens |
 et modernes l Demandez prospectus à la
-
 |
-
 (Payables en argent français) Banque Intermédiaire
 Curieux et rares 9, Rue Tour-Maîtresse
-
 Catalogue sur demande GENÈVE
-
- 
-
- 
-
- 
-
 BANQUE POPULAIRE SUISSE
-
 Quai des Bergues, 1 - GENÈVE - Place St-Gervais
 Agence : Bd Helvétique, 28 - Cours de Rive, 18
 — Agence : Route des Acacias, 2
-
 Capiial social et Réserves : Fr. 110.000.000.—
-
 Traite toutes opérations de Banque - Change - Location de casiers
-
 \
-
- 
-
- 
-
 DROGUERIE | D'Alfred VOUGA
-
 Rue du Rhône, 62, 127 ét.
-
 b ‘
 N ochulé & Fs
-
 Maladies des voies urinaires
 et de la peau
-
 4, Rue de Xesse =
-
 R d Consultations de 10 à 12 et de 1 112 à 5h.
-
 30, Boulevard Georges-Favon Cabinets d'attente particuliers
 pour chaque patient ‘
-
 GENÈVE Téléphone 47-47
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Régie «Immeubles François À. Bonaria
-
 Carouge, Rue Si-Viclor, 21 (Jéléphone 76-76)
-
 Assurances : Remises de Commerces : Contentieux:
-
 Incendie Grand choix-de Arrangements
 Vol, Vie Cafés, Epiceries fines Liquidations
 Responsabilité civile Tabacs, etc. Expertises
-
 MÊME MAISON
-
-AIX-LES-BAINS, Place Carnot et Rue des Bains]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_2_f000974_017.tif"/>
-<page><![CDATA[AimÉ KLING
+AIX-LES-BAINS, Place Carnot et Rue des Bains
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_2_f000974_017.tif'/>
+        <page>
+          <![CDATA[AimÉ KLING
 LUTHIER
 11, Boul. des Philosophesî (ler étage) Tél. 93-33
-
 Violons, Altos, Violoncelles
-
- 
-  
-
 Tous les Accessoires - |Les meilleures cordes
-
- 
-
 PAGANiMi
 Réparations, Location
-
 TIMI TT
-
 La Société des Concerts d’Efé
-
 - L'époque bienheureuse, où chacun goûtait le bonheur de vivre au
 gré de sa libre fantaisie, n’est plus aujourd'hui qu'un souvenir impré-
 cis, perdu au milieu des brumes épalsses d'un lointain passé. On était
@@ -1107,67 +604,32 @@ Et désormais l'existence est coûteuse.Les affaires languissent. Chacun
 se plaint et l'amertune est sur toutes les lèvres-; pour atténuer la
 commune misère on se console en disant d'un air entendu : ,, C’est
 la crise ! “
-
 Oui, c'est la crise. Mais de même que les hommes l'ont faite, cette
 crise, Il leur appartient aujourd’hui de la dompter, de la maîtriser et
 de rétablir en ce monde l’ordre créateur et la paix productrice,
-
 , C'est à ce devoir qu'ont obéi les musiciens qui, conscients de
 l'abîme où les conduirait une inactivité prolongée, se sont groupés,
-
 Spontanément et librement, dans le but de faire face aux circons- — :
-
 tances et de ranimer les esprits par leur exemple, peut-être hardi,
 mais généreux à coup sûr, Tournez s. v. p.
-
- 
-
- 
-
 R SS
 rrs Î ecF .y__‘> 12 DE
 e e A
 , n 9
 \/.b <MS
-
- 
-
-     
-
 Rue du hime 3 , Telephore - 24
 - Maison londee en /845-
-
- 
-
- 
-
- 
-
- 
-
- 
-
-  
-
-  
-  
-     
-    
-     
-
 t.
-sn]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_2_f000974_018.tif"/>
-<page><![CDATA[EXPRESS-TRANSPORTS S. A.
+sn
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_2_f000974_018.tif'/>
+        <page>
+          <![CDATA[EXPRESS-TRANSPORTS S. A.
 1, Rue d'Italie _GENÈVE Téléphone 15
-
 Expéditions pour tous pays, Groupages, Transit, Formalités en Douane
-
 - Déménagements, Camionnage
 Garde-Meubles, Agence de Voyage
-
- 
-
 Grâce à eux, Genève possède, cet été, un orchestre symphonique
 de cinquante musieiens, qui — les encouragements de la population
 aidant — pourra donner une moyenne/de trois concerts par semaine.
@@ -1175,7 +637,6 @@ C'est la première fois qu'une institution de ce genre se constitue
 dansnotre ville. L'Orchestre des Concerts d'Eté est, en effet, une
 association coopérative, gérée par les musiciens mêmes qui en font
 partie et qui en courent les risques,
-
 Nous ne doutons pas que le public ne tienñe à leur témoigner sa
 sympathie-et à prouver par sa présence à leurs concerts que tant
 d'efforts ne sont pas dépensés en vain. S'il est vrai que la musique
@@ -1184,115 +645,45 @@ les cœurs et soulage les esprits, Et quand vous redouterez le morne
 ennul d'une soirée sans but, n'oubliez pas que l'Orchestre des Concerts
 d'Eté est là, qui aura tôt fait de vous communiquer son réconfortant
 enthousiasme. ;
-
 V. À.
-
- 
-
 OIOI L
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-“]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_2_f000974_019.tif"/>
-<page><![CDATA[e
+“
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_2_f000974_019.tif'/>
+        <page>
+          <![CDATA[e
 %
 1
 A
 \
-
- 
-
-   
- 
- 
-
- 
-
- 
-
- 
-  
-
-  
-
- 
-
 5@0. An. deg Chauggureg ,,A RY5“
-
 29, RUE DU RHONE
-
- 
-
 “ ARYS“ ne tient que de la chaussure de qualité irréprochable dans tous les genres
-
 cSes prix sont connus pour être les plus bas
 de foute la Suisse
-
 Aussi sa Chentèle augmente dans
 une proporfion ÏI)CI‘0ÿÛÔ[€
-
-   
-  
-
- 
-
 Visitez les étalages de nos 5 vitrines
-
 CHAUSSURES
-
 & ABAYS “.
-
 29, Rue du Rhône
-
- 
-
- 
-
- 
-
 - M. Paul VIGNY, Rue M°*-de-Staël, 4 - Téléph, 87-07
-
 HELVETIA
-
 Société Suisse d’Assurances à Zurich
-
 ASSURANOES ACCIDENTS
 RESPONSABILITE CIVILE
-
 contre fous ris gues
-
 VOLS - DÉGATS D’EAU
-
 Assurances agricoles, domestiques, etc., eftc,
-
 Succursale pour la Suisse française :
 GENÈVE : Rue de Hesse, 12 — Téléphone 49
-
-Inspecteur pour le Canton de Genève :]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_2_f000974_020.tif"/>
-<page><![CDATA[]]></page>       
-        </p>
+Inspecteur pour le Canton de Genève :
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_2_f000974_020.tif'/>
+        <page><![CDATA[]]></page>
+      </p>
     </body>
   </text>
 </TEI>

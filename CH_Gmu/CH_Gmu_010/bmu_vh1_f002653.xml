@@ -1,195 +1,136 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Festival Beethoven<date when="20/03/1927"/></title>
-<series>1926-1927</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Festival Beethoven
+            <date when='20/03/1927'/>
+          </title>
+          <series>1926-1927</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002653</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Gabelles, G. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19270320"/>
-<title>Festival Beethoven</title>
-<placeName key="Victoria Hall"/>
-<name key="1926-1927" type="series"/>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Gabelles, Gustave  (dir.)" ref="https://muscat.rism.info/admin/people/30073762" type="person" role="int">Gabelles, Gustave  (dir.)</name>
-<name key="Harmonie Nautique"  type="person" role="int">Harmonie Nautique</name>
-<name key="Olivet-Decompoix (Mme)"  type="person" role="int">Olivet-Decompoix (Mme)</name>
-<name key="Nodot, Yvonne"  type="person" role="int">Nodot, Yvonne</name>
-<name key="Denizot, Charles"  type="person" role="int">Denizot, Charles</name>
-<name key="Charrot, Fernand"  type="person" role="int">Charrot, Fernand</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002653_001.tif"/>
-<page><![CDATA[VICTORIA-HALL
-
- 
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19270320'/>
+        <title>Festival Beethoven</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1926-1927' type='series'/>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Gabelles, Gustave' ref='https://muscat.rism.info/admin/people/30073762' type='person' role='int'>Gabelles, Gustave</name>
+        <name key='Harmonie Nautique' type='person' role='int'>Harmonie Nautique</name>
+        <name key='Olivet-Decompoix (Mme)' type='person' role='int'>Olivet-Decompoix (Mme)</name>
+        <name key='Nodot, Yvonne' type='person' role='int'>Nodot, Yvonne</name>
+        <name key='Denizot, Charles' type='person' role='int'>Denizot, Charles</name>
+        <name key='Charrot, Fernand' type='person' role='int'>Charrot, Fernand</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002653_001.tif'/>
+        <page>
+          <![CDATA[VICTORIA-HALL
 Ouverture
-
 des portes à Dimanche 20 Mars 1927 commencera à
-
 Sestival Beethoven
-
 (1827-1927)
-
 donné par
-
 L’HARMONIE NAUTIQUE
-
 (HARMONIE MUNICIPALE DE LA VILLE DE GENÈVE)
 Directeur: M. Gustave GABELLES
-
 avec le bienveillant concours de
-
 Mur OLIVET-DECOMPOIX Mrire YvonNNE NODOT
 Soprano Pianiste
-
 M. Curarces DENIZOT M. FERNAND CHARROT
 Ténor Baryton
 ——
-
 1\PIROGIRAM MIF
-
 Première Partie
-
 Allegretto de la SEPTIÈME SYMPHONIE.
 2. SONATE en ré mineur (op. 31).
-
 Allegro - Adagio - Allegretto.
 Mile Yvonne NODOT.
-
 3. CINQUIÈME SYMPHONIE en ut mineur.
-
 Allegro con brio - Andante - Scherzo et final.
-
- 
-
- 
-
- 
-
- 
-
 —
-
 Deuxième Partie
-
 4. Adagio de la NEUVIÈME SYMPHONIE.
-
 S. LE CHRIST AU MONT DES OLIVIERS (fragments).
-
 Le Séraphin:  Mme OLIVET-DECOMPOIX.
 Jésus : M. Ch. DENIZOT.
 Pierre ; M. F. CHARROT.
-
 6. ZUR WEIHE DES HAUSES (Consécration), op. 124.
 (1'e audition).
-
- 
-
- 
-
 Prix des places: Fr. 2.20, 1.10 et —.60 (droit des p;l];l;éS compns)
 LOCATION et BILLETS
 en vente à la MUTUELLE MUSICALE, Corraterie, I8, Téléphone : Stand 18.53
-
 MM es membres assifs ont droit d'entrée sur présentation du coupou No 2 aux places du rez-de-chaussée et de première
 galerie, à l'exception du premier rang et des loges, auxquels ils onl droit moyennant un supplément de Fr. 1.10 (en location)
-
 CIGARETTES
-
 LAURENS
-
 23 GRANDS PRIX ° HORS CONCOURS
-
- 
-
- 
-
- 
-
- 
-
- 
-
-Imp. CHAPUIS & BAUMEISTER, Rue du Stand, 17, Genève]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002653_002.tif"/>
-<page><![CDATA[E—
-
- 
-
+Imp. CHAPUIS & BAUMEISTER, Rue du Stand, 17, Genève
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002653_002.tif'/>
+        <page>
+          <![CDATA[E—
 MANUFACTURE GÉNÉRALE o'INSTRUMENTS DE MUSIQUE
-
 La plus Importante du monde
 Hors Con e Sociélé en commandite par actions au capital de 8 millions Hor Conon
-
 Membre du Jury IE Membre du Jury
 Exposition univer- A Exposition univer-
 selle de Paris 1900 - selle de Paris 4900
-
 94, Rue d’Angoulême, PARIS
-
 ©
 Fournisseurs du Conservatoire Nationat de Musigue de Paris
 de la Garde Républicaine et des IMinistères de la Guerre et de fa Iarine
 et des Grands Concerts
-
- 
-
- 
-
 Spéolalité d’Instruments pour Harmonies, Fanfares, Orohestres, Soolétés de
 Gymnastique, de Tir, Sapeurs-Pompiers, Jazz-Bands et Nouveautés Musloales
-
- 
-
- 
-
 Une nouvelile victoire des Instruments MONOPOLE
 COUESNON
 au Concours annuel du Conservatoire National de Musique de Paris (Juin 1926)
-
 5 PREMIERS PRIX - 3 DEUXIÈMES PRIX - 3 PREMIERS ACCESSITS - 5 SECONDS ACCESSITS
-
- 
-
 Louis van BEETHOVEN
-
 Né à Bonn le 16 décembre 1770, mort à Vienne le 26 mars 1827
-
 Cher Beethoven ! Assez d’autres ont loué sa grandeur artis-
 tique. Mais il est bien davantage que le premier des musiciens.
 Il est la force la plus héroïque de l’art moderne. Il est le plus
@@ -202,46 +143,28 @@ fatigue nous prend de l’éternel combat inutilement livré contre
 la médiocrité des vices et des vertus, c’est un bien indicible de
 se retremper dans cet océan de volonté et de foi. Il se dégage
 de lui une contagion de vaillance, un bonheur de la lutte,
-
- 
-
- 
-
 Œoargaoi va=-t-on au
-
 XX" SIÈCLE ?
-
 Pour sa bière de “ Munich double maltée”,
 sa Spéciale-blonde (Avenir), sa véritable
 “ Pilsen-Urquell”’. Ses vins de Jussy 1°" choix
 et Villeneuve extra. Ses apéritifs de marque.
-Son excellente cuisine. Sa magnifique terrasse]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002653_003.tif"/>
-<page><![CDATA[BANQUE
+Son excellente cuisine. Sa magnifique terrasse
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002653_003.tif'/>
+        <page>
+          <![CDATA[BANQUE
 POPULAIRE SUISSE
-
 PLACE SAINT-GERVAIS Fondée en 1869 1, QUAI DES BERGUES
 AGENCES : 18, COURS DE RIVE
 2, ROUTE DES ACACIAS
 GEN EÈEVE
-
 Capital et réserves : fr. 120.000.000
-
- 
-
- 
-
- 
-
 Dispose du réseau de succursales
 le plus étendu en Suisse
-
 ; . Correspondants dans tous les cen- Organisée pour toutes opérations de
-
 tres importants du monde entier banque aux meilleures conditions
-
- 
-
 l’ivresse d’une conscience qui sent en elle un dieu. Il semble
 que dans sa communion de tous les instants avec la nature, il
 ait fini par s’en assimiler les énergies profondes. Grillparzer,
@@ -256,55 +179,28 @@ Et Schindler, son confident: «Il s’empara de l’esprit de la
 nature » — Cela est vrai : Beethoven est une force de la nature ;
 et c’est un spectacle d’une grandeur homérique, que ce combat
 d’une puissance élémentaire contre le reste de la nature.
-
 Toute sa vie est pareille à une journée d’orage. — Au
 commencement, un jeune matin limpide. A peine quelques
-
- 
-
 © Au dessert un
-
 Cointreau Liqueur
 s’impose
 Cointreau Veuve et Fils, Angers
-
 Ch. BRUCHON, Agent générat pour la Suisse - GENÈVE
-
- 
-
- 
-
- 
-
- 
-
- 
-
--—]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002653_004.tif"/>
-<page><![CDATA[SOCIÉTÉ DE
-
+-—
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002653_004.tif'/>
+        <page>
+          <![CDATA[SOCIÉTÉ DE
 UE SUISSE
-
 —— …ÔÊFONDÉE EN 182 ——
 Capital-actions et Réserves : 153 millions
-
 6-10, Corraterie - GENÈVE - Corraterie, 6-10
-
- 
-
 CORNAVIN EAUX-VIVES
 10, Place de Cornavin 3, Place des Eaux-Vives
 PLAINPALAIS CAROUGE
-
 36, Rue de Carouge 11, Rue du Marché
-
 TOUTES OPÉRATIONS DE BANQUE AUX MEILLEURES CONDITIONS
-
- 
-
- 
-
 souffles de langueur, Mais déjà, dans l’air immobile, une
 secrète menace, un lourd pressentiment. Brusquement, les
 grandes ombres passent, les grondements tragiques, les silences
@@ -321,320 +217,168 @@ disparaître tout entière. noyée, après avoir une ou deux fois
 par une bourrasque. La gaîté même a pris un caractère âpre
 et sauvage. Une fièvre, un poison se mêle à tous les sentiments.
 L'orage s’amasse, à mesure que le soir descend. Et voici les
-
- 
-
- 
-
- 
-
- 
-
 Toutes fournitures pour la couture
 la BRODERIE et le TRICOT
-
 BONNETERIE de soie, fil, laine et coton
-
 ROBES, JUMPERS, BAS, CHAUSSETTES, GANTS, SOUS-VÉTEMENTS
 POUR DAMES ET ENFANTS
-
 Les meilleures qualités aux plus bas prix chez
-
-Charles WEBER, Place Kléberg]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002653_005.tif"/>
-<page><![CDATA[MACHINE À ECRIRE
+Charles WEBER, Place Kléberg
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002653_005.tif'/>
+        <page>
+          <![CDATA[MACHINE À ECRIRE
 AMÉRICAINE
-
 Vente Gchange Location
-
 Œe'paralion de tous systèmes
-
 G. Pozzi
-
 Tour de l’Ile, 4 Genève
-
 Concess/onnaire
-
 des produits originaux “ Yost”
-
 vx .)
-
- 
-
 - Buvez un
-
 AMER PICON
-
 Exigez-le
-
- 
-
- 
-
- 
-
 CIR
 '4PERNÔT
-
-_::*c. ENÈVE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002653_006.tif"/>
-<page><![CDATA[Pour voyager agréablement et sans soucis, adressez-vous à
-
+_::*c. ENÈVE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002653_006.tif'/>
+        <page>
+          <![CDATA[Pour voyager agréablement et sans soucis, adressez-vous à
 P'AGENCE
-
 C. BLENK, FERT & C:
-
 1, Rue du Mont-Blanc, 1
-
 Angle Quai des Bergues
-
 GENEVE
-
- 
-
 Tous les billets de chemins de fer et de passages
 maritimes aux conditions des tarifs
-
 CHÈQUES DE VOYAGEURS - BANQUE =- CHANGE
 VOYAGES A FORFAIT
-
-  
-
 <=
-
- 
-
- 
-
 HARMONIE NAUTIQUE
-
 MEMBRES DU COMITÉ:
 MM. G. MARTINET, président ; G. GABELLES, directeur ; J. LICKERT et
-
 E. LEU_TÉ, vice-présidents ; A. PORTIER, secrétaire ; P. MURITH, vice-
 secrétaire ; M. GALFRE, trésorier ; F CHAPUIS, vice-trésorier ; E. BURDET,
 bibliothécaire ; M. DEPRAZ et J. VIBERT, économes.
-
 MEMBRES EXÉCUTANTS (1926)
-
 Flûtes : MM. BLuM - Baup - COULOMB - ZWEIGART - SEIDEL.
 Hautbois et cor anglaïs: MM. VEYRAT - IENGEL - Gyar - PAINOT.
 Petites clarinettes : MM. SANTANDRÉA - BÉBOUX.
-
 Clarinettes: MM. DÉPRAz - MENNET - PORTIER - CHAPUIS - Roy
-
 RiEunaup - Murrvu - Pezzorrmi - GALLAY - DUCRET
 SCHWIZGUÉBEL - LAVILLAT - HÆrLIGER - ZIBACH - KELLER
 NONNEMANN - VANAT - SANFILIPPO - MARTI - VANBIANCHI
 Rorx - GysiN - MÉpA - BURrDET - BESSON.
-
- 
-
 CROIX-D'OR, 2
-
- 
-
- 
-
 GRANDE BRASSERIE CENTRALE
-
 CAFÉ-RESTAURANT
-
 TÉL. STAND 34.62
-
 Déjeuners et Dîners -  Choucroûte extra toute l’année
-
 BIÈRES WARTECK de Bâle
 et VINS de première qualité
-
-E. MAYERAT]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002653_007.tif"/>
-<page><![CDATA[Ÿ
+E. MAYERAT
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002653_007.tif'/>
+        <page>
+          <![CDATA[Ÿ
 OQUIELOUES FLEURS
-
 » E
 ; .
 / leuriot
 FLEURISTE
 GENÈ YIE
-
 20 €orrcz/erzè, 26 ue e e 5
 Célep. SL 18.15 Célép. Sk 32.67
-
- 
-
- 
-
 Membres exécutants (suile)
-
 Clarinettes basses : MM. RAMONDETTI - Moisy.
-
 Bassons : MM. PORTIER - FRANCOUAL H. - FRANCOUAL J.
-
 Saxophones : MM. D’IvERNOIS - GONDRET - PkpRoNI - Bôscu
 VANAT - MOIEN - CLÉMENT - RoyBIN.
-
 Cornets à pistons : MM. DuPonr - CHaPuis - SOLIER - Droz
 VoLTOLINI M. - Decroux L. - Scumikn - T'RISCONI.
-
 Bugles : MM. Poncion1 - GuyoT - REvoL - LANIER - SIGNORINI.
-
 Trompettes : MM. BURDET - ENGEL - ROSSET - MAIRE.
-
 Cors : MM. RisToR:! - CAILLER - PiGuer - Gay - MARTIN R.
 RETCHITZKY - BoccaARD J. - BIGNATI.
-
 Trombones : MM. SinGy - PIOTTON - MARTIN - MAITRE - Roch.
-
 Barytons, Basses et contre-basses : MM. GREBER - VIBERT
 DEFRANCESCO - BALESTRA - D’OLIVEIRA - CHOUARD - OMARINI
 MOLINATTI - BOCCARD - MONTILLARD.
-
- 
-
 Au Dépôt général du Poisson du Lac Léman
-
 Maison fondée en 1848
-
 LUGRIN & Cie (s.a.)
-
 46, Rue du Rhône, 46 - Genève
-
 Adr. télégr.: LUGRIN-GENÈVE - AUCUNE SUCCURSALE - Téléphone: Stand 2100
-
 Volailles de Bresse - Gibiers de toutes provenances
 Poissons du Lac
-
 Marée française - Huitres de Claires de Marennes
 Arrivages directs et journaliers
-
 Langoustes du parc de Camaret
 Comestibles de toutes espèces - Conserves des jres marques
-
 L’importance de la vente lui permet de ne jamais
 constituer de stock et de garantir à sa clientèle la qualité ct la fraîcheur de ses marchandises
-
 Expéditions en tous pays
-
- 
-
- 
-
- 
-
 @__ SS
-
- 
-
-E , N @]]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002653_008.tif"/>
-<page><![CDATA[TRANSPORTS FUNÈBRES
-
- 
-
- 
-
+E , N @]
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002653_008.tif'/>
+        <page>
+          <![CDATA[TRANSPORTS FUNÈBRES
 Anciente Maison MURITH, DUPARC & FERT Fondée en 1888
-
 À. MURITH s.a.
-
 GENÈVE - siège Social : Rue des Chaudronniers, 16
-
 Téléph. Stand 121 Service permanent
-
 Fabrique de; Cercueils Automobiles Funéraires
-
 L’Administration se charge, sans aucun déplacement pour les
 familles, de toutes les démarches et formalités relatives aux
-
 Inhumations _— Exhumatnons — \Incinérations —  Transports
-
 fomcans CENTRAL-DEUIL 555e
-
- 
-
- 
-
 Membres exécutants (su:/e)
-
 Contre-basses à cordes : MM. RICHTER - MAYER - RiCCIOLI.
-
 Batterie : MM. Kurr - DrvocHE - L. TRÈMÈGE - Ch. TRÈMÈGE
 DESCOMBES.
-
- 
-
 AVIS. — Les personnes qui désirent devenir « Membres
 passifs » de l’Harmonie Nautique peuvent s’inscrire au Vic-
 toria Hall ou à la Librairie Richard (80, rue du Rhône), et
 auprès des membres de la Société. — La carte de « membre
 passif » donne droit à deux entrées pour chaque concert donné
 par l’Harmonie Nautique.
-
- 
-
 Pour les cours d’élèves, s'adresser à M. G. Gabelles,
 directeur, au Victoria-Hall, de 11 à 12 h. 30. — Télép. St. 53.28.
-
- 
-
- 
-
- 
-
 Œ
-
 Randor - Friedericæk
-
 TS 2
-
 FABRIQUE À CHÊNE-BOURG
-
- 
-
- 
-
 Lessives - Cristaux de soude
 Ë ; Ë Encaustiques
 Oleol - Alpina - Nostras - Etoile - Union Cires, Cierges, Bougies de Noël
-
 Graisses surfines pour usages cullnaires :
-
 Savons de ménage : ’ Bougies :
-
 Souris - Lyre - Vénus - Chêne - Aipa | Couronne - Brillant - Diamant - Vénus
-
- 
-
-—a]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002653_009.tif"/>
-<page><![CDATA[SRE ds
-
- 
-
+—a
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002653_009.tif'/>
+        <page>
+          <![CDATA[SRE ds
 PR r raeua nn Rn e N onpaon n e
-
 e
-
 rr
-
- 
-
 CAFÉ DU COMMERCE
 elu Jolaré
-
 Dégustation réputée
-
 cForto Quinto Do <Sabor
-
- 
-
 lourdes nuées gonflées d’éclairs, noires de nuit. grosses de
 tempêtes, du commencement de la Neuvième. — Soudain, au
 plus fort de l’ouragan, les ténèbres se déchirent, la nuit est
 chassée du ciel, et la sérénité du jour rendue par un acte de
 volonté.
-
 Quelle conquête vaut celle-ci, quelle bataille de Bonaparte,
 quel soleil d’Austerlitz atteignent à la gloire de cet effort
 surhumain, de cette victoire, la plus éclatante qu’ait jJamais
@@ -643,237 +387,121 @@ la douleur faite homme, à qui le monde refuse la Joie, crée la
 Joie lui-même pour la donner au monde. Il la forge avec sa
 misère, comme il l’a dit en une fière parole, où se résume sa
 vie, et qui est la devise de toute âme héroïque :
-
 « La Joie par la Souffrance. »
 Durch Leiden Freude.
-
- 
-
- 
-
- 
-
 Union Mutuelle Musicale
 18, Corraterie G. FITY Tél. St. 18,53
-
 Bureau de Concerts
 Location - Organiation
-
 Musique - Instruments
 Grand Choix
-
 —— Studio et Piano à disposition —
-
- 
-
- 
-
-PE QS OE CT]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002653_010.tif"/>
-<page><![CDATA[Faites tous vos achats de
-
+PE QS OE CT
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002653_010.tif'/>
+        <page>
+          <![CDATA[Faites tous vos achats de
 MUSIQUE
-
 et ACCESSOIRES de GRAMOPHONES
 et DISQUES
-
 chez
-
 ROTSCHY FRÈRES, Corraterie, 22
-
- 
-
- 
-
- 
-
-   
-
 QUELQUES PENSÉES DE BEETHOVEN
-
- 
-
 Faire tout le bien qu’on peut,
 Aimer la liberté par dessus tout,
 Et, quand ce serait pour un trône,
 Ne jamais trahir la vérité.
 (Feuille d’Album 1791.)
-
 *
 * *
-
 Aucun de mes amis ne doit manquer de rien, tant que j'ai quelque chose.
 (A Ries, 1801.)
-
 *
 * *
-
 La musique est une révélation plus haute que toute sagesse et toute
 philosophie. Qui pénètre le sens de ma musique doit s’affranchir de toute
 la misère que traînent après eux les autres hommes.
-
 (A Bettina 1810.)
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-e]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002653_011.tif"/>
-<page><![CDATA[1
-
- 
-
+e
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002653_011.tif'/>
+        <page>
+          <![CDATA[1
 RR ETE SS EN PEPEN E
-
 en es
-
 e r E
 458 sl 6 70 R E DEN S OS
-
 ©
-
- 
-
 u
 Parasof Tloderne
-
 1, Rue de la Croix-d'Or (angle Molard)
-
 FABRIQUE :
 13, Place des Eaux-Vives (angle Terrassière)
-
 laison de premier ordre
 fondée en 1906
-
 Si parla itallano — Man spricht deutsch — English spoken
-
- 
-
 Il n’y a rien de plus beau que de s’approcher de la divinité, et d’en
 répandre les rayons sur la race humaine.
 * * *
 Je veux prouver que quiconque agit bien et noblement, peut par cela
 même supporter le malheur.
 (A la Municipalité de Vienne, février 1819.)
-
 *
 * *
-
 Sur la critique :
 En ce qui me concerne comme artiste, on n’a jamais pu dire que j'ai
 fait la moindre attention à tout ce qu’on a pu écrire sur moi.
 (A Schott, 1825.)
-
 *
 * *
-
 Je pense, comme Voltaire, que « quelques piqûüres de mouches ne
 peuvent retenir un cheval dans sa course ardente ».
 (1826.)
-
- 
-
- 
-
 SURANC ACCIDENTS
-
 D à ? "#4é Responsabilité civile
 C4 "
-
 Dégâts d'eau
-
-  
- 
-
- 
-
-  
-  
-
 E
 Ss
-
-      
- 
-
 ê\\
 QU
-
 [LU
-
-  
-
 12, Rue de Hesse - GENÈVE - Tét. ( Stand 57
-
- 
-
 Gaston MOiIsYy, Insp., rue du Centre, 26
-
-Membre de l’Harmonie Nautique]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002653_012.tif"/>
-<page><![CDATA[| RAUBER FRÈRES
-
+Membre de l’Harmonie Nautique
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002653_012.tif'/>
+        <page>
+          <![CDATA[| RAUBER FRÈRES
 Grand’Rue, 50 MONTREUX Téléphone 1062
 Instruments de Musique
-
 Cuivres et bois
 ATELIERS DE RÉPARATIONS AVEC OUTILLAGE MODERNE DE PRÉCISION
-
- 
-
 Spécialistes renommés
 pour saxophones, clarinettes, flûtes, hautbois et bassons de tous systèmes
-
 CATALOGUE ET PRIX-COURANT GRATIS ET FRANCO SUR DEMANDE
-
 Instruments des premières marques françaises au prix de fabrique en argent
 français au change au cours du jour
-
- 
-
- 
-
 Mercredi 13 avril, à 20 h. 30
 au KURSAAL DE GENÈVE (Casino Municipal)
-
 CINQUIÈME
 ET DERNIER CONCERT DE LA SAISON
-
 (suivi de bal)
-
- 
-
 offert aux membres passifs. (Coupons N° 3)
-
- 
-
 Hew DEVRED-VÉTEMENTS
-
 Place St-Gervais GENEVE  Rue de Coutance
-
 La plus grande spécialité pour hommes, jeunes gens et enfants
-
 VISITEZ COMPAREZ
 SES MAGASINS 0 SES MARCHANDISES
 à qualités égales Û à façons égales
-
 MEILLEUR MARCHÉ QUE PARTOUT AILLEURS
-
- 
-
-‘]]></page>       
-        </p>
+‘
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

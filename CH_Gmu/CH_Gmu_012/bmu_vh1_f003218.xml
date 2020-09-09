@@ -1,170 +1,126 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Audition annuelle de l'Ondine genevoise<date when="28/03/1943"/></title>
-<series>1942-1943</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Audition annuelle de l'Ondine genevoise
+            <date when='28/03/1943'/>
+          </title>
+          <series>1942-1943</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F003218</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Gabelles, G.</note>
+        <note>Pépin, A.</note>
+        <note>Duret, L. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19430328"/>
-<title>Audition annuelle de l'Ondine genevoise</title>
-<placeName key="Victoria Hall"/>
-<name key="1942-1943" type="series"/>
-<name key="Leclercq"  type="person" role="cmp">Leclercq</name>
-<name key="Boieldieu"  type="person" role="cmp">Boieldieu</name>
-<name key="Mina, Luis"  type="person" role="cmp">Mina, Luis</name>
-<name key="Chabrier, Emmanuel" ref="https://muscat.rism.info/admin/people/48553" type="person" role="cmp">Chabrier, Emmanuel</name>
-<name key="Mozart, Wolfgang Amadeus" ref="https://muscat.rism.info/admin/people/115324" type="person" role="cmp">Mozart, Wolfgang Amadeus</name>
-<name key="Haydn, Joseph" ref="https://muscat.rism.info/admin/people/55803" type="person" role="cmp">Haydn, Joseph</name>
-<name key="Pépin, A."  type="person" role="cmp">Pépin, A.</name>
-<name key="Strauß, Johann" ref="https://muscat.rism.info/admin/people/132082" type="person" role="cmp">Strauß, Johann</name>
-<name key="Farigoul"  type="person" role="cmp">Farigoul</name>
-<name key="Jaques-Dalcroze, Emile" ref="https://muscat.rism.info/admin/people/109238" type="person" role="cmp">Jaques-Dalcroze, Emile</name>
-<name key="Demerssemann"  type="person" role="cmp">Demerssemann</name>
-<name key="Lauga"  type="person" role="cmp">Lauga</name>
-<name key="Doret, Gustave" ref="https://muscat.rism.info/admin/people/3145724" type="person" role="cmp">Doret, Gustave</name>
-<name key="Bovet, Joseph" ref="https://muscat.rism.info/admin/people/30020921" type="person" role="cmp">Bovet, Joseph</name>
-<name key="Haenni, G."  type="person" role="cmp">Haenni, G.</name>
-<name key="Juillerat, J."  type="person" role="cmp">Juillerat, J.</name>
-<name key="Boller, C."  type="person" role="cmp">Boller, C.</name>
-<name key="Marin, E."  type="person" role="cmp">Marin, E.</name>
-<name key="Gabelles, Gustave" ref="https://muscat.rism.info/admin/people/30073762" type="person" role="int">Gabelles, Gustave</name>
-<name key="Pépin, A. (dir.)"  type="person" role="int">Pépin, A. (dir.)</name>
-<name key="Duret, L. (dir.)"  type="person" role="int">Duret, L. (dir.)</name>
-<name key="Ondine genevoise"  type="person" role="int">Ondine genevoise</name>
-<name key="Choeur Notre Genève"  type="person" role="int">Choeur Notre Genève</name>
-<name key="Pittet"  type="person" role="int">Pittet</name>
-<name key="Loosli"  type="person" role="int">Loosli</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003218_001.tif"/>
-<page><![CDATA[VICTORIA-HALL
-
- 
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19430328'/>
+        <title>Audition annuelle de l'Ondine genevoise</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1942-1943' type='series'/>
+        <name key='Leclercq' type='person' role='cmp'>Leclercq</name>
+        <name key='Boieldieu' type='person' role='cmp'>Boieldieu</name>
+        <name key='Mina, Luis' type='person' role='cmp'>Mina, Luis</name>
+        <name key='Chabrier, Emmanuel' ref='https://muscat.rism.info/admin/people/48553' type='person' role='cmp'>Chabrier, Emmanuel</name>
+        <name key='Mozart, Wolfgang Amadeus' ref='https://muscat.rism.info/admin/people/115324' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Haydn, Joseph' ref='https://muscat.rism.info/admin/people/55803' type='person' role='cmp'>Haydn, Joseph</name>
+        <name key='Pépin, A.' type='person' role='cmp'>Pépin, A.</name>
+        <name key='Strauß, Johann' ref='https://muscat.rism.info/admin/people/132082' type='person' role='cmp'>Strauß, Johann</name>
+        <name key='Farigoul' type='person' role='cmp'>Farigoul</name>
+        <name key='Jaques-Dalcroze, Emile' ref='https://muscat.rism.info/admin/people/109238' type='person' role='cmp'>Jaques-Dalcroze, Emile</name>
+        <name key='Demerssemann' type='person' role='cmp'>Demerssemann</name>
+        <name key='Lauga' type='person' role='cmp'>Lauga</name>
+        <name key='Doret, Gustave' ref='https://muscat.rism.info/admin/people/3145724' type='person' role='cmp'>Doret, Gustave</name>
+        <name key='Bovet, Joseph' ref='https://muscat.rism.info/admin/people/30020921' type='person' role='cmp'>Bovet, Joseph</name>
+        <name key='Haenni, G.' type='person' role='cmp'>Haenni, G.</name>
+        <name key='Juillerat, J.' type='person' role='cmp'>Juillerat, J.</name>
+        <name key='Boller, C.' type='person' role='cmp'>Boller, C.</name>
+        <name key='Marin, E.' type='person' role='cmp'>Marin, E.</name>
+        <name key='Gabelles, Gustave' ref='https://muscat.rism.info/admin/people/30073762' type='person' role='int'>Gabelles, Gustave</name>
+        <name key='Pépin, A.' type='person' role='int'>Pépin, A.</name>
+        <name key='Duret, L.' type='person' role='int'>Duret, L.</name>
+        <name key='Ondine genevoise' type='person' role='int'>Ondine genevoise</name>
+        <name key='Choeur Notre Genève' type='person' role='int'>Choeur Notre Genève</name>
+        <name key='Pittet' type='person' role='int'>Pittet</name>
+        <name key='Loosli' type='person' role='int'>Loosli</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003218_001.tif'/>
+        <page>
+          <![CDATA[VICTORIA-HALL
 Dimanche 28 Mars 1943
-
 Portes à 14 h. 15 - Concert à 14 h. 45
-
 +
-
 - Mudihon
 Yanale
-
 L'ONDINE GENEVOISE
-
 Ecole de Musique fondée en 1891
 Directeur : M. Gustave GABELLES
-
 -ä%
 %
-
- 
-
- 
-
 avec le bienveillant concours du Chœur mixte
-
 ,NOTRE GENÈVE”
-
 sous la direction de M. Louis DURET
-
- 
-
- 
-
- 
-
- 
-
 PRIX D’ENTRÉE: FR. 0.60
-
 à toutes les places (droit des pauvres compris)
-
- 
-
 WM)È@%ËW)ËÈQM)Ë&ËÛËŒÆ
-
- 
-
- 
-
- 
-
- 
-
- 
-
 @
 Régalez-vous à la
 Taverne de St-Jean
 HHN
 RE hpnneur Berceau des bonnes choucroutes
 (a]
-
-Prix du programme : Fr. O.25]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003218_002.tif"/>
-<page><![CDATA[—,
+Prix du programme : Fr. O.25
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003218_002.tif'/>
+        <page>
+          <![CDATA[—,
 [o!:
-
- 
-
- 
-
 fs
 foi
-
- 
-
 —
 [J
 p3
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 9 , A
 LITS PRIMEX” | Café des Pêcheurs
 Paul HIDBER Louis FROSSARD
@@ -211,45 +167,22 @@ Tapissiers-Décorateurs 15, Terrassière — Téléph. 5.49.01
 Tél. 447.774 Membre actif de l'Ondine Membre actif de l'Ondine
 | d J
 (ej =[
-
- 
-
 (O!
-
- 
-
- 
-
-Favorisez de vos achats nos annonciers]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003218_003.tif"/>
-<page><![CDATA[Votre Fleuriste
-
- 
-
+Favorisez de vos achats nos annonciers
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003218_003.tif'/>
+        <page>
+          <![CDATA[Votre Fleuriste
 Maison Orgelet
-
 Successeur de Mme Varonier
-
 Tél. 4.81.23 6, Bd Georges-Favon (angle Rue du Stand)
-
 5 ‘o sur présentation de la carte de membre (Ancien ondin)
-
- 
-
 [e]
-
- 
-
 =<8=8313=8315=63t5=834
-
- 
-
 PROGRAMME
-
 PIRIE MONÈIRIE PANURIMME
-
 1. Batterie de tambours
-
 2. a) Oudinot (allegro) E c0 S .  Leclercq
 b) Fête au village voisin (ouverture). . . . . Boïeldieu
 (HARMONIE)
@@ -261,80 +194,33 @@ sous la direction de M. À. PÉPIN
 b) Minuetto de la 51me symphonie . . . . . . Haydn
 (HARMONIE)
 Désajiüne Deux. . … … A. Pépin
-
 D)'Sélection surlesivalses. — . . Sirauss
 (CORPS DES FLUTES)
-
 G Marcheïdes/Moussess. . . Farigoul
 (HARMONIE - TAMBOURS - CLAIRONS)
-
 ENTR'ACTE 15 MINUTES
-
 Ë@ïääï&@äîæäîﬂæäïﬁïäâîääïêä)ﬁﬁâäïäîä!ﬁæ
-
- 
-
- 
-
 e
-
- 
-
- 
-
- 
-
- 
-
 TESSANA ……
-
 Rue Cornavin, 12 Téléphone 2.66.60
-
 Lavage chimique rapide des vêtements. Nettoyage à sec. Régénération
 par TISSANAGE. Imperméabilisation , Tis”, Nouveau traitement Anti-
 Mites de tous les lainages, la meilleure protection contre les gerces.
 Toutes Teintures. Décatissage des tissus. Stoppage. Repassage immédiat
 (salons d'attente). Tous genres de plissés. ïoutes réparations d’habits.
-
- 
-
 (@}
-
-Favorisez de vos achats nos annonciers]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003218_004.tif"/>
-<page><![CDATA[—
+Favorisez de vos achats nos annonciers
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003218_004.tif'/>
+        <page>
+          <![CDATA[—
 [OË
 Ls
-
- 
-
 (@]
-
- 
-
- 
-
- 
-
- 
-
 =1
 [ot
-
- 
-
- 
-
 fo]
-
- 
-
- 
-
- 
-
- 
-
 , Vins en Gros
 La gamme des Vins ds
 RUE DU STAND, 51 s…
@@ -380,180 +266,85 @@ et rue du Simplon, 16 ;
 Eaux-Vives. Tél. 4.40.76 Metside Bias e
 Membre actif de l'Ondine Bière du Cardinal Alfred JEAN
 (e]
-
- 
-
- 
-
- 
-
 )
-
- 
-
- 
-
-Favorisez de vos achats nos annonciers]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003218_005.tif"/>
-<page><![CDATA[[e]
-
-     
-        
-
+Favorisez de vos achats nos annonciers
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003218_005.tif'/>
+        <page>
+          <![CDATA[[e]
 sotmee . MECERF
-
 5, Rue du Prince Spécialité : Marïcots sans fils
-
 o_=
-
- 
-
-     
-
- 
-
- 
-
 l1
 [e]
 l N 84, Rue
 CENTRAL OCCASI 2 Raône
 I Meubles neufs et occasions vendus
 E avec les plus grandes facilités de paiement i
-
- 
-
 . k .- DIFWUXNIDÈMOE PAOURIMIE
 r Œ [ :
-
 7. Batterie de tambours
 Professeur : M. P. HŒGEN
-
 8. La Ronde du Petit Agneau bêlant . . . E. Jaques-Dalcroze
-
 (Cours de solfège de lre année)
 Professeur : M. J. DOVAZ
-
 9. Fantaisie pour grande flâûte . . . . . Demerssemann
 Ondin PITTET
-
 10. Romance pourtrombone . . . . . Lauga
-
 Professeur : M. L. HOOGSTOËL
-
 Amis de ,,l’ONDINE GENEVOISE”,
 inscrivez-vous comme Membre Passif
-
- 
-
 Ondin LOOSLI %
 11. Andante et Menuet . . . 22 Mozart
 (Par un groupe de Clarinettes)
-
-   
-     
-   
-    
-     
-  
-   
- 
-
- 
-
- 
-
 TIESSANA ] ……
-
 i Rue Cornavin, 12 Téléphone 2.66.60
-
 Lavage chimique rapide des vêtements. Nettoyage à sec. Régénération
 par TISSANAGE. Imperméabilisation , Tis”, Nouveau traitement Anti-
 Mites de tous les lainages, la meilleure protection contre les gerces.
 Toutes Teintures. Décatissage des tissus, Stoppage. Repassage immédiat
 (salons d'attente). Tous genres de plissés, Toutes réparations d’habits.
-
 PE
-
-    
-   
-
- 
-
 Réae 62N
-
 ms c d
 pFs 4
-
-Favorisez de vos achats nos annonciers]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003218_006.tif"/>
-<page><![CDATA[FLEURS
-
+Favorisez de vos achats nos annonciers
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003218_006.tif'/>
+        <page>
+          <![CDATA[FLEURS
 E. Lederrey
 HORTICULTEUR-FLEURISTE
 3, rue Fendt (PI. Montbrillant)
 Téléphone permanent 2.40.25
 Membre actif de l’Ondine
-
- 
-
- 
-
- 
-
- 
-
 La
 Grande
-
 Boucherie du Molard
-
 ne vend que des marchandises
 de premier choix
-
 Téléphone 4.73.85
-
 (I
-
 Café BOVARD
 Pl. Longemalle,6 … Tél. 4.56.61
 Ses spécialités :
 ESCARGOTS (Mode de Bourgogne)
 Fondues -  Biftecks au fromage
 CHARCUTERIE VAUDOISE
-
 Saucisses aux choux et au foie, etc.
 VINS VAUDOIS (1er choix)
-
 Salle de sociétés au premier étage
-
 BOULANGERIE
 PATISSERIE
-
 E. Winkelmann
-
 Rue Caroline, 44 _ Plainpalais
 TÉLÉPHONE 4.58.90
 Membre de l'Ondine
-
 ,.
 1O
 L
-
- 
-
-      
-
- 
-
- 
-
- 
-
- 
-
- 
-
 [
 [o)
 (
@@ -576,106 +367,42 @@ PLACE DU CIRQUE
 110b, rue de Carouge
 Bonne table et bonne cave (Tram 12 : arrêt r. Blanche) Tél 4.80.31
 r ( fo]
-
 Pour un bon instrument
 de musique ou une
 réparation bien faite
 Adressez-vous chez
-
 = Kaspar WICKY
-
 Bue Ecole-de-Médecine, 8
 y Tél. 5.31.12
 Fournisseur de l'Ondine
-
- 
-
- 
-
- 
-
-  
-
 Favorisez de vos
-
- 
-
 achats nos annonciers
-
-    
-
 Gl
-
 rorarag
-
 1}n ; ‘ ‘ * maneey
 Fc p r t e t t
-
 t ns
-
-        
-     
-    
-     
-  
-  
-   
-  
-  
- 
-   
-    
-  
- 
-  
- 
-
 r EN
-—2]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003218_007.tif"/>
-<page><![CDATA[el
-
- 
-
+—2
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003218_007.tif'/>
+        <page>
+          <![CDATA[el
 Si vous avez des tickets, n’oubliez pas que
-
 A. BOVEY iivre bien BOIS et CHARBONS
-
 Fort-Barreau, 27 Membre actif de l'Ondine Téléphone 2.31.32
-
-  
-
- 
-
 @_
-
- 
-
- 
-
- 
-
- 
-
 [e}
 Hôtel-Brasserie Gambrinus (F. JELMINI)
 1 Place de la Navigation - 28, Rue des Pâquis
 ' Téléphone 2.32.63 Spécialité de vins du pays
 | [o] E
-
 83 E8ﬂ5ääîEæiÈûäîæûäîÈæ?äææﬂîäîïﬁæﬂä*
-
- 
-
- 
-
 b
 DIEUXINÈMUE 1PAOURIMOE (suite) /
-
 12 , NOTRE GENÈVE”
-
 Direction : M. L, DURET
-
 La neige fond surlamontagne . . . . . . G. Doret
 Millagedeldians . . 1910 0 Boyet
 lajbergéreteble.galant * R C Maenni
@@ -683,123 +410,69 @@ vendanger. .. - -s e G. Doret
 En revenant des noces, vive l’amour: . . . . J. Juillerat
 Pannbeaumour demar * T C Coller
 Dansilerboisquichante . . G. Doret
-
 13. a) Sonnerie de clairons
-
 DiMarchedes zouaves :. 1 E Marin
 (Cours d’instruments de cuivre et clairons)
 Professeur : M. M. CHAPUIS
-
 Les inscriptions des nouveaux élèves sont reçues dès maintenant au
 local de l’Ondine Genevoise (Ecole des Casemates), tous les jours de
 17 à 19 heures, sauf le jeudi.
-
 Les élèves peuvent suivre plusieurs cours et les instruments sont
 prêtés gratuitement. Prix pour plusieurs cours : Fr. 3.— par mois
-
-  
-
- 
-
- 
-
 | TISSANA …
-
 Rue Cornavin, 12 Téléphone 2.66.60
-
 Lavage chimique rapide des vêtements. Nettoyage à sec. Régénération
 par TISSANAGE. Imperméabilisation , Tis”. Nouveau traitement Anti-
 Mites de tous les lainages, la meilleure protection contre les gerces,
 K Toutes Teintures. Décatissage des tissus. Stoppage. Repassage immédiat
 ; (salons d'attente). Tous genres de plissés, Toutes réparations d’habits.
-
- 
-
- 
-
- 
-
- 
-
 ; 8 &
-Favorisez de vos achats nos annonciers]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003218_008.tif"/>
-<page><![CDATA[Si vous désirez DÉMÉNHGER
-
+Favorisez de vos achats nos annonciers
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003218_008.tif'/>
+        <page>
+          <![CDATA[Si vous désirez DÉMÉNHGER
 dans de bonnes conditisns et à
 prix modérés, adressez vous en
 toute confiance à
-
 Sauvin, Schmidt « C
 Rue des Gares GENÈVÉ ÏTVelr. 2.63.13
-
 Personnel spécialisé Devis sans frais
-
 COMBUSTIBLES
-
 C EN TOUS GENRES
-
 Robert Wahti
-
 Route de Frontenex, 47 Tél. 4.15.78
-
 Membre actif de l'Ondine
-
- 
-
 BRASSERIE
 MODERNE
-
 Rue du Vieux-Collège, 4
 Tél. 4.41.56
-
 Mets de Brasserie et Spécialités
-
 Membre d'honneur de l'Ondine
-
 VITRERIE - MIROITERIE
-
 ENCADREMENT - FABRIQUE
 ET RÉPARATION DE STORES
 DE TOUS SYSTÈMES
-
 Wî"îam Emery
-
 Carrefour de Villereuse, 1 GENÈVE
-
 Téléphone 4.16.11
-
 Ancien membre actif de l'Ondine
-
- 
-
 Werner
-
 Geissbühler
-
 BON BOULANGER
-
 Boul. du Pont-d'Arve, 9
 Téléphone 4.35,71
-
 BOUCHERIE
 des Noirettes
-
 À. MACCABEZ
-
 1,rue des Caroubiers - Acacias
 Téléphone 4.90.65
-
 Marchandises de 1er choix
 Service à domicile
-
 Membre actif de l'Ondine
-
- 
-
 Coutellerie de l’Ile
 M. & Mme FONTAINE
-
 12, Quai des Moulins
 Représentant de
 l'Orfèvrerie Christofle
@@ -807,56 +480,31 @@ Etain, Métal anglais
 Spécialité d'aiguisages
 Chromage - Réparations
 10°/o aux membres
-
 CHARCUTERIE
-
 A. WAEËGELL
-
 10, Rue du Temple
 Téléphone 2.44.91
-
 On porte à domicile
-
 Spécialité de pâtés froids et salés assortis
-
- 
-
- 
-
- 
-
 Garage et Serrurerie
-
- 
-
 H. & L. MATTHEY
-
 Rue du Stand et Rue du Tir, 28
 Téléphone 4.69.19
-
 Fabrique de ferrures en tous genres
 Lavages et toutes fournitures pour l'auto
 Soudure autogène et électrique
-
- 
-
 (|
-
 Sacs dames
 Porte-monnaie
 Sacs commissions
-
 Ernest Muller
-
 1, Rue de la Tertasse
-
 RÉPARATIONS EN TOUS GENRES
 Membre actif de l'Ondine
-
- 
-
-Favorisez de vos achats nos annonciers]]></page>       
-        </p>
+Favorisez de vos achats nos annonciers
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

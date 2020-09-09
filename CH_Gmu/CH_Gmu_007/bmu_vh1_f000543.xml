@@ -1,108 +1,96 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par L'Union instrumentale genevoise (Musique municipale de la Ville de Genève)<date when="20/03/1904"/></title>
-<series>1903-1904</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par L'Union instrumentale genevoise (Musique
+            municipale de la Ville de Genève)
+            <date when='20/03/1904'/>
+          </title>
+          <series>1903-1904</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F000543</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Teissier, A. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19040320"/>
-<title>Concert donné par L'Union instrumentale genevoise (Musique municipale de la Ville de Genève)</title>
-<placeName key="Victoria Hall"/>
-<name key="1903-1904" type="series"/>
-<name key="Wettge, Gustave" ref="https://muscat.rism.info/admin/people/30081063" type="person" role="cmp">Wettge, Gustave</name>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Rossini, Gioachino" ref="https://muscat.rism.info/admin/people/63766" type="person" role="cmp">Rossini, Gioachino</name>
-<name key="Flégier, Ange" ref="https://muscat.rism.info/admin/people/60438" type="person" role="cmp">Flégier, Ange</name>
-<name key="Saint-Saëns, Camille" ref="https://muscat.rism.info/admin/people/76734" type="person" role="cmp">Saint-Saëns, Camille</name>
-<name key="Gounod, Charles-François" ref="https://muscat.rism.info/admin/people/80479" type="person" role="cmp">Gounod, Charles-François</name>
-<name key="Teissier, Aug. (dir.)"  type="person" role="int">Teissier, Aug. (dir.)</name>
-<name key="Union instrumentale genevoise (Fanfare  municipale de la Ville de Genève)"  type="person" role="int">Union instrumentale genevoise (Fanfare  municipale de la Ville de Genève)</name>
-<name key="Mativa (Mlle)"  type="person" role="int">Mativa (Mlle)</name>
-<name key="Galinier"  type="person" role="int">Galinier</name>
-<name key="Vecchi, de"  type="person" role="int">Vecchi, de</name>
-<name key="Tierque"  type="person" role="int">Tierque</name>
-<name key="Schmidt"  type="person" role="int">Schmidt</name>
-<name key="Martinet"  type="person" role="int">Martinet</name>
-<name key="Chométy"  type="person" role="int">Chométy</name>
-<name key="Lyard"  type="person" role="int">Lyard</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000543_001.tif"/>
-<page><![CDATA[æ S —>N e T
-
- 
-
- 
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19040320'/>
+        <title>
+          Concert donné par L'Union instrumentale genevoise (Musique municipale
+          de la Ville de Genève)
+        </title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1903-1904' type='series'/>
+        <name key='Wettge, Gustave' ref='https://muscat.rism.info/admin/people/30081063' type='person' role='cmp'>Wettge, Gustave</name>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Rossini, Gioachino' ref='https://muscat.rism.info/admin/people/63766' type='person' role='cmp'>Rossini, Gioachino</name>
+        <name key='Flégier, Ange' ref='https://muscat.rism.info/admin/people/60438' type='person' role='cmp'>Flégier, Ange</name>
+        <name key='Saint-Saëns, Camille' ref='https://muscat.rism.info/admin/people/76734' type='person' role='cmp'>Saint-Saëns, Camille</name>
+        <name key='Gounod, Charles-François' ref='https://muscat.rism.info/admin/people/80479' type='person' role='cmp'>Gounod, Charles-François</name>
+        <name key='Teissier, Aug.' type='person' role='int'>Teissier, Aug.</name>
+        <name key='Union instrumentale genevoise (Fanfare  municipale de la Ville de Genève)' type='person' role='int'>Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)</name>
+        <name key='Mativa (Mlle)' type='person' role='int'>Mativa (Mlle)</name>
+        <name key='Galinier' type='person' role='int'>Galinier</name>
+        <name key='Vecchi, de' type='person' role='int'>Vecchi, de</name>
+        <name key='Tierque' type='person' role='int'>Tierque</name>
+        <name key='Schmidt' type='person' role='int'>Schmidt</name>
+        <name key='Martinet' type='person' role='int'>Martinet</name>
+        <name key='Chométy' type='person' role='int'>Chométy</name>
+        <name key='Lyard' type='person' role='int'>Lyard</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000543_001.tif'/>
+        <page>
+          <![CDATA[æ S —>N e T
 VICTORIA-HALL
-
- 
-
- 
-
- 
-
- 
-
-  
-
-    
-
 === °
-
 DIMANCHE 20 MARS 1904 On connencens |
-
 à 2 h,!/,
-
 DONNÉ PAR
-
 L'UNION INSTRUMENTALE GHAEVOBSE
 (MUSIQUE MUNICIPALE DE LA VILLE DE GENÈVE)
-
 SOUS LA DIRECTION DE
-
 M. Aug. TEISSIER
-
 AVEC LE BIENVEILLANT ET GRACIEUX CONCOURS DI
-
 M* MATIVA - M. GALINIER
-
- 
-
 du Grand-Théâtre. l du Grand-Théâtre
 PROGRA MM E
 1 Ouverture symphonique. ... . « . 01e 400 E OE
@@ -114,25 +102,21 @@ r e par M GUIN 11e - e FLÉCUERS
 6.  Sélection sur Samson et Dalila (arrangement de M. Teissier) . . - SAINT-SAENS,
 Solistes : M. TIERQUE (bugle). M. SCHMIDT (trombone), M. MARTINET (piston).
 15 Dalletéde Baust. … ; ; O e eN dN (GOUNOD.
-
 a) Allegretto mouvement de valse ; b) Allegretto; «) Adagio: d) Moderalo maestoso ;
 é) Moderato con moto ; /) Allegrelto ; g) Allegretto vivace,
-
 ——
-
 Le piano d'accompagnement sera tenu par M. DE VECCHI, accompagnateur au Grand-Théâtre,
 Piano aux bons soins de M. BERGUER.
-
 PRIX DES PLACES : Loges et 1* rang de la première galerie (numérotées), 2 fr. — Rez-de-chaussée
 et autres places de première galerie, 1 fr. — Seconde galerie, 50 cent.
-
 On peut se procurer des cartes à l’avance, de 9 à 6 heures, Jusqu’au samedi soir, au Victoria-Hall.
-
 MM. les Membres Passifs el Honoraires ont droit d’entrée à ce Concert, sur présentation de leur carte de
 190%, aux places du Rez-de-chaussée et de Première galerie (non numérotées,.
 MM. les Membres exécutants des Corps de Musique d'ELITE, LANDWEHR et HARMONIE NAUTIQUE ont droit à l'entrée de ce Concert
-sur présentation de leur carte personnelle.]]></page>       
-        </p>
+sur présentation de leur carte personnelle.
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

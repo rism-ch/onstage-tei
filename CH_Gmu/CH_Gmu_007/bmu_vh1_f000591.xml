@@ -1,116 +1,87 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par l'Harmonie nautique<date when="25/11/1906"/></title>
-<series>1906-1907</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par l'Harmonie nautique
+            <date when='25/11/1906'/>
+          </title>
+          <series>1906-1907</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F000591</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Bonade, L. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19061125"/>
-<title>Concert donné par l'Harmonie nautique</title>
-<placeName key="Victoria Hall"/>
-<name key="1906-1907" type="series"/>
-<name key="Massenet, Jules" ref="https://muscat.rism.info/admin/people/84264" type="person" role="cmp">Massenet, Jules</name>
-<name key="Čajkovskij, Pëtr Il'ič" ref="https://muscat.rism.info/admin/people/144048" type="person" role="cmp">Čajkovskij, Pëtr Il'ič</name>
-<name key="Néermann, J.-B."  type="person" role="cmp">Néermann, J.-B.</name>
-<name key="Parès, Gabriël" ref="https://muscat.rism.info/admin/people/30024480" type="person" role="cmp">Parès, Gabriël</name>
-<name key="Liszt, Franz" ref="https://muscat.rism.info/admin/people/107196" type="person" role="cmp">Liszt, Franz</name>
-<name key="Bonade, Louis  (dir.)"  type="person" role="int">Bonade, Louis  (dir.)</name>
-<name key="Harmonie Nautique"  type="person" role="int">Harmonie Nautique</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000591_001.tif"/>
-<page><![CDATA[>
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19061125'/>
+        <title>Concert donné par l'Harmonie nautique</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1906-1907' type='series'/>
+        <name key='Massenet, Jules' ref='https://muscat.rism.info/admin/people/84264' type='person' role='cmp'>Massenet, Jules</name>
+        <name key='Čajkovskij, Pëtr Il&apos;ič' ref='https://muscat.rism.info/admin/people/144048' type='person' role='cmp'>Čajkovskij, Pëtr Il'ič</name>
+        <name key='Néermann, J.-B.' type='person' role='cmp'>Néermann, J.-B.</name>
+        <name key='Parès, Gabriël' ref='https://muscat.rism.info/admin/people/30024480' type='person' role='cmp'>Parès, Gabriël</name>
+        <name key='Liszt, Franz' ref='https://muscat.rism.info/admin/people/107196' type='person' role='cmp'>Liszt, Franz</name>
+        <name key='Bonade, Louis' type='person' role='int'>Bonade, Louis</name>
+        <name key='Harmonie Nautique' type='person' role='int'>Harmonie Nautique</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000591_001.tif'/>
+        <page>
+          <![CDATA[>
 % * VICTORIA < HALLH ©
-
 LLÈ3LËLÜ Dimanche 25 Novembre 1906 | * à
 | J
 Ÿ
-
 sé CONCE
-
 donné par,.
-
 L'HARMONIE NAUTIQUE DE GENÈVE
-
 sous la direction de
-
 M. LmDOUIS BONADÆE
-
 — -+ -
-
- 
-
- 
-
- 
-
- 
-
 R
-
- 
-
-   
-
 —
-
- 
-
 *ASSRANNE
-
 t d e
-
- 
-
- 
-
 PREMIÈRE PARTIE
-
- 
-
- 
-
- 
-
- 
-
- 
-
 ©1© ©Y©
 ‘ gnedre oùverture.....,....1 e J. Massenel. afre
 4} E Ë 24fbs
@@ -139,42 +110,26 @@ Rez-de-chaussée et autres places de la première Galerie, 1 fr. — Seconde Gal
 supplément de 1 fr. Les enfants au-dessous dée dix ans paieront demi-place. IL ne sera
 pas délivré de demi-places pour la seconde galerie. e
 ©
-
 Dès ce jour, cartes à l'avance de 9 à 6 h, au Victoria-Hall.
-
 Les membres exécutants des Corps de musique Landwehr, Elite et Fanfare Municipale à
 ont droit a l'entrée de ce concert sur présentation de leur carte personnelle, W
-
 Prière de ne pas entrer pendant l’exécution des morceaux. — BUFFET au rez-de-chaussée.
 La salle sera chauffée. @
-
 ©
 = D O OOn S Ç _,LÙ,Î@7))
 %Êﬁ—% [ LYO%° e E Op S
-8 @% GENÈVE.— IMP.JARRYS, = ä$&% es Vääê)]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000591_002.tif"/>
-<page><![CDATA[—
-
+8 @% GENÈVE.— IMP.JARRYS, = ä$&% es Vääê)
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000591_002.tif'/>
+        <page>
+          <![CDATA[—
 — E e e
-
 ë.
-
 RU es
-
 2aèe
-
- 
-
- 
-
- 
-
 _—
-
 SE S —
-
- 
-
 ; Ÿ L
 X@<«:———aæ— (N EN
 A [ A
@@ -203,12 +158,13 @@ v $
 44 S —E e T e O
 Sx * Ï * ><e
 AVIS. — Pour être recu membre non-exécutant de l’Harmonie
-
 Nautique on peut s’inscrire tous les jours chez le Concierge du
 Victoria-Hall ou par lettre adressée au Comité: le prix de la carte
 est de 8 fr. par an et donne droit à deux entrées pour chaque
-concert donné par l’Harmonie Nautique.]]></page>       
-        </p>
+concert donné par l’Harmonie Nautique.
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

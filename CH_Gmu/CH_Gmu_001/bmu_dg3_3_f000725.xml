@@ -1,128 +1,112 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Distribution des prix<date when="30/06/1875"/></title>
-<series>1874-1875</series>
-<placeName>Conservatoire</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Distribution des prix
+            <date when='30/06/1875'/>
+          </title>
+          <series>1874-1875</series>
+          <placeName>Genève, Conservatoire</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU DG3-3 F000725</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Senger, H. de (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18750630"/>
-<title>Distribution des prix</title>
-<placeName key="Conservatoire"/>
-<name key="1874-1875" type="series"/>
-<name key="Mozart, Wolfgang Amadeus" ref="https://muscat.rism.info/admin/people/115324" type="person" role="cmp">Mozart, Wolfgang Amadeus</name>
-<name key="Méhul, Etienne-Nicolas" ref="https://muscat.rism.info/admin/people/101056" type="person" role="cmp">Méhul, Etienne-Nicolas</name>
-<name key="Bellini, Vincenzo" ref="https://muscat.rism.info/admin/people/11648" type="person" role="cmp">Bellini, Vincenzo</name>
-<name key="Mendelssohn Bartholdy, Felix" ref="https://muscat.rism.info/admin/people/88790" type="person" role="cmp">Mendelssohn Bartholdy, Felix</name>
-<name key="Schubert, Franz" ref="https://muscat.rism.info/admin/people/111603" type="person" role="cmp">Schubert, Franz</name>
-<name key="Meyerbeer, Giacomo" ref="https://muscat.rism.info/admin/people/725" type="person" role="cmp">Meyerbeer, Giacomo</name>
-<name key="Senger, Franz Ludwig Hugo von  (dir.)" ref="https://muscat.rism.info/admin/people/30015297" type="person" role="int">Senger, Franz Ludwig Hugo von  (dir.)</name>
-<name key="Orchestre de la Ville de Genève"  type="person" role="int">Orchestre de la Ville de Genève</name>
-<name key="Erismann (Mlle)"  type="person" role="int">Erismann (Mlle)</name>
-<name key="Bourgeois"  type="person" role="int">Bourgeois</name>
-<name key="Le Grand Roy"  type="person" role="int">Le Grand Roy</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg3_3_f000725_001.tif"/>
-<page><![CDATA[S SS S
-
- 
-
- 
-
- 
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18750630'/>
+        <title>Distribution des prix</title>
+        <placeName key='Genève, Conservatoire'/>
+        <name key='1874-1875' type='series'/>
+        <name key='Mozart, Wolfgang Amadeus' ref='https://muscat.rism.info/admin/people/115324' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Méhul, Etienne-Nicolas' ref='https://muscat.rism.info/admin/people/101056' type='person' role='cmp'>Méhul, Etienne-Nicolas</name>
+        <name key='Bellini, Vincenzo' ref='https://muscat.rism.info/admin/people/11648' type='person' role='cmp'>Bellini, Vincenzo</name>
+        <name key='Mendelssohn Bartholdy, Felix' ref='https://muscat.rism.info/admin/people/88790' type='person' role='cmp'>Mendelssohn Bartholdy, Felix</name>
+        <name key='Schubert, Franz' ref='https://muscat.rism.info/admin/people/111603' type='person' role='cmp'>Schubert, Franz</name>
+        <name key='Meyerbeer, Giacomo' ref='https://muscat.rism.info/admin/people/725' type='person' role='cmp'>Meyerbeer, Giacomo</name>
+        <name key='Senger, Franz Ludwig Hugo von' ref='https://muscat.rism.info/admin/people/30015297' type='person' role='int'>Senger, Franz Ludwig Hugo von</name>
+        <name key='Orchestre de la Ville de Genève' type='person' role='int'>Orchestre de la Ville de Genève</name>
+        <name key='Erismann (Mlle)' type='person' role='int'>Erismann (Mlle)</name>
+        <name key='Bourgeois' type='person' role='int'>Bourgeois</name>
+        <name key='Le Grand Roy' type='person' role='int'>Le Grand Roy</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg3_3_f000725_001.tif'/>
+        <page>
+          <![CDATA[S SS S
 MERCREDI 30 JUIN (875
-
- 
-
 PROCRAMME DE LA SÉANCE
 PREMIÈRE PARTIE
-
 19 Rapport annuel.
 20 Distribution des prix.
-
 DEUXIÈME PARTIE
 Exercice musical des élèves
-
 10 Ouverture de Don Juan, exécutée par l’orchestre de la Ville de Genève, sous
 “la direction de M. H. de Senger
-
 »
-
 - 20 Chœur mixte de l’opéra Joseph .
-
 - Bo Cavatine de la Somnambule pour soprano, chantée par une élève de première
-
 division. //,, c, fz«‘!;ﬂoW«/,/ é
-
 4 Andante et rondo du 7me Concerto , pour violon, exécutés par un élève de
-
 seconde division supérieure /#Ÿ_œ7ç…ÿj/_
-
 8Be Au bord de la mer, mélodie pom voix de baryton, chantée par un élève de
-
 seconde dwusmn/ //z;…« f%
-
 «3 E
 P ///,{/ D e
 60 ler Concerto pour piano, exécuté par une élève (le première division supérieure.
-
 2Û6
 T9 Duo pour deux sopranos de l’opéra l’Africaine . 47 ”/>r/hçt»e»m A
-
 89 Ouverture de la Chasse du jeune Henri, exécutée par l’orchestre de la Ville de
 Genève, sous la direction de M. H. de Senger .
-
 MOZART
 MEHUL
-
 BELLINI
-
 MENDELSSOHN
-
 F, SCHUBERT
 MENDELSSOHN
-
 MEYERBEER
-
 MEHUL
-
-Impr, Bonnant.]]></page>       
-        </p>
+Impr, Bonnant.
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

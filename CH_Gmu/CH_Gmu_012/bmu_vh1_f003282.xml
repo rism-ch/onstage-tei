@@ -1,132 +1,104 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Grand concert par l'Harmonie Nautique<date when="17/11/1945"/></title>
-<series>1945-1946</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Grand concert par l'Harmonie Nautique
+            <date when='17/11/1945'/>
+          </title>
+          <series>1945-1946</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F003282</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Santandréa, P.</note>
+        <note>Taquet (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19451117"/>
-<title>Grand concert par l'Harmonie Nautique</title>
-<placeName key="Victoria Hall"/>
-<name key="1945-1946" type="series"/>
-<name key="Bartoli, C."  type="person" role="cmp">Bartoli, C.</name>
-<name key="Bedu, Ch."  type="person" role="cmp">Bedu, Ch.</name>
-<name key="Zup, H."  type="person" role="cmp">Zup, H.</name>
-<name key="Chabrier"  type="person" role="cmp">Chabrier</name>
-<name key="Taquet"  type="person" role="cmp">Taquet</name>
-<name key="Santandrea, Pierre"  type="person" role="int">Santandrea, Pierre</name>
-<name key="Taquet (dir.)"  type="person" role="int">Taquet (dir.)</name>
-<name key="Harmonie Nautique"  type="person" role="int">Harmonie Nautique</name>
-<name key="Nouba du premier Régiment de Tirailleurs Marocains"  type="person" role="int">Nouba du premier Régiment de Tirailleurs Marocains</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003282_001.tif"/>
-<page><![CDATA[/
-
- 
-
- 
-
- 
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19451117'/>
+        <title>Grand concert par l'Harmonie Nautique</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1945-1946' type='series'/>
+        <name key='Bartoli, C.' type='person' role='cmp'>Bartoli, C.</name>
+        <name key='Bedu, Ch.' type='person' role='cmp'>Bedu, Ch.</name>
+        <name key='Zup, H.' type='person' role='cmp'>Zup, H.</name>
+        <name key='Chabrier' type='person' role='cmp'>Chabrier</name>
+        <name key='Taquet' type='person' role='cmp'>Taquet</name>
+        <name key='Santandrea, Pierre' type='person' role='int'>Santandrea, Pierre</name>
+        <name key='Taquet' type='person' role='int'>Taquet</name>
+        <name key='Harmonie Nautique' type='person' role='int'>Harmonie Nautique</name>
+        <name key='Nouba du premier Régiment de Tirailleurs Marocains' type='person' role='int'>Nouba du premier Régiment de Tirailleurs Marocains</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003282_001.tif'/>
+        <page>
+          <![CDATA[/
 PATEK, PHILIPPE & w
-
 e /
 Z œ //(1/!((//J('/11/‘4'
-
 >—La
-
 GO Ë —, (/,
 enevoise Q cf Clorlogerte
 C /
-
 - y—
-
 Ç
-
 ; @ (
 ()(’ C k/.lu/i e - \/"fx'4 ÔLOII
-
- 
-
 GRAND-QUATI, 22 GENEVEF
-
- 
-
- 
-
- 
-
- 
-
 Victoria - Hlall
-
 samedi 17 Novembre
-
 à 20 h. 30
-
 GRAND CONCERT
-
 Comité Franco-“S$uisse de
 secours à la Tarentanise
 et le Comité d’Entr’nide
-
 aux ssinistrés des Glières
-
- 
-
- 
-
- 
-
- 
-
- 
-
 CRÉDIT LYONNAIS
-
 AGENCE DE GENÈVE
-
 BOURSE - BANQUE - TITRES - CHANGES
-
 aux meilleures conditions
-Capital: 1l Milliard Réserves : 1 Milliard]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003282_002.tif"/>
-<page><![CDATA[sUIS
+Capital: 1l Milliard Réserves : 1 Milliard
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003282_002.tif'/>
+        <page><![CDATA[sUIS
 —
 =
 <
@@ -149,542 +121,267 @@ O
 U
 v
 L
-—]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003282_003.tif"/>
-<page><![CDATA[L. GIVAUDAN & C*
-
+—
+]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003282_003.tif'/>
+        <page>
+          <![CDATA[L. GIVAUDAN & C*
 PARFUMS SYNTHETIQUES
-
 VERNIER/GENÈVE PARIS / LYON
-
- 
-
- 
-
- 
-
 VICTORIA-HALL SAMEDI 17 NOVEMBRE A 20 H. 30 (Portes à 20 h.)
-
- 
-
 organisé au profit des sinistrés de
 la Tarentaise et des Glières, par
 L'Harmonie Nautique de Genève
-
 (direction : P. SANTANDREA)
-
 avec le concours de la
-
 NOUBA
-
 du 1°" Régiment de Tirailleurs Marocaïns
 (direction : Adjudant-chef Taquer)
-
 sous le haut patronage
-
 me
-
 du Général Doyen, commandant de la 14"° région, Lyon
-
 du Colonel MonrorT, commandant de la Brigade 10
-
 de MM. Xavier de GaurLE, consul général de France à Genève
 de MM. Paul Barmer, conseiller d’Etat
-
 et de l’Union des Français de Genève
-
- 
-
 QQS @ÛLE£L…S CîQ QÔTÎO£9ÛQLL)Ç
-
 @acts
-
 Distributeur exclusif pr la Suisse :
-PARTLY SOR S A 5 riedu MtBlanc- GENRVE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003282_004.tif"/>
-<page><![CDATA[RE @
+PARTLY SOR S A 5 riedu MtBlanc- GENRVE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003282_004.tif'/>
+        <page>
+          <![CDATA[RE @
 CIVES £
 l / »
 34, RUE DES NOIRETTES
-
 Importation Vins et Spiritueux
-
 Vermouth “ Cyrano ”
-
-A.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003282_005.tif"/>
-<page><![CDATA[Banque Parisienne de Crédit *
-
+A.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003282_005.tif'/>
+        <page>
+          <![CDATA[Banque Parisienne de Crédit *
 au Commerce et à l'Industrie
-
 1, RUE D’ITALIE (angle rue du Rhône)
-
- 
-
- 
-
- 
-
- 
-
 CLICHÉ PHOTO “ LIBERTÉ", LYON
-
 NOUBA du 1er Régiment de Tirailleurs marocains
-
- 
-
- 
-
 UNE BONNE MONTRE...
 UN BEAU BIJOU... s’achèétent chez
 ‘ ° lo °
 [
 Adrien Julini s.a.
 %Ï Magasin, bureaux et ateliers: RUE DU RHONE 7 — GENÈVE
-É]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003282_006.tif"/>
-<page><![CDATA[UNIVER:
-
+É
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003282_006.tif'/>
+        <page>
+          <![CDATA[UNIVER:
 ME 4
-
 ; EN VENTE CHEZ
-
 PHILIPPE BÉGUIN
-
-GRAND-QUAI, 26 GENÈVE ANGLE PLACE DU PORT]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003282_007.tif"/>
-<page><![CDATA[{ Ïﬂï{»ﬁ:ﬁ:p}-.g«:;”f‘«:'ﬂü: E TRIS SE 4
-
+GRAND-QUAI, 26 GENÈVE ANGLE PLACE DU PORT
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003282_007.tif'/>
+        <page>
+          <![CDATA[{ Ïﬂï{»ﬁ:ﬁ:p}-.g«:;”f‘«:'ﬂü: E TRIS SE 4
 R E é tVF E p r
-
- 
-
- 
-
 Banque de Paris et des Pays-Bas
-
 SUCCURSALE
 DE GENÈVE
 6, rue de Hollande Angle rue Petitot
 Conservation et gérance de titres —  Ordres de Bourse
-
 Comptes-courants à vue et à terme — Accréditifs documentaires, ete.
-
- 
-
 Programme général
-
 SAMFDI 17 NOVEMBRE
-
 14.30 Arrivée à Perly de la Nouba, qui ira prendre ses can-
 tonnements à la Caserne.
-
 16.00 Départ de la Caserne. Cortège en ville.
 (voir itinéraire p. 11)
-
 20.30 Grand concert au Victoria-Hall, avee l’Harmonie Nau-
 tique (voir programme p. 6 et 7).
-
 DIMANCHE 18 NOVEMBRE — Hommage aux Morts.
-
 9.30 Départ de la Caserne. La Nouba, conduite par l’Union
 Musicale Française de Genève, se rendra au Monument
 de Mon-Repos, ensuite à celui du Consulat général de
 France, où des gerbes seront déposées par le Général
 Doyen (voir itinéraire p. 12).
-
- 
-
- 
-
 LA RÉSIDENCIE
-
 11, Florissant — Genève Téléph. 4.13.88 (trams N 1 et 6)
-
- 
-
 HOTEL ::. RESTAURANT : BAR
-
 Dans la Salle Genevoise, sur commande
 nous pouvons vous servir les spécialités
 du pays et tous repas. 2 tennis - Garage
-
- 
-
- 
-
-. .]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003282_008.tif"/>
-<page><![CDATA[<
-
+. .
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003282_008.tif'/>
+        <page>
+          <![CDATA[<
 .:'
-
 bon génie , , ‘
 Genève /
-
- 
-
- 
-
- 
-
- 
-
- 
-
 CINÉBREF
-
 présente cette semaine :
-
 1s paties
-
-  
-  
-   
-
 DEUX ATTRACTIONS
 MUSICALES
-
 gme
-
 partie :
-
 Le célébre chœur des…
-
 Dn PaiitIeh
-
-  
-  
-  
-
 Borrai Mineviich
-
- 
-
- 
- 
-
 1P1R ÎËËË;
 R _']'
-
 NOUBA DU 1*
-
 IË
 %
 3
-
 4.
-
 .
-
 =
-
 =
-
 NOUBA DU 1°" Rai
-
 8.
 9.
 10.
 1blE
-
 Cersica, arrang@Ê ;
 Marche arabe, dè
 Ouïda, de H. Zü
 Marche des Tirat
-
 HARMONIE NAUä {
-
 1° Symphonie,
 a) adagio et alleg
 d) adagio et finä
-
 L’Etoile (0uvert\Ë.
 L’ Arlésienne, de +
-
 a) prélude - b) in
-
-    
-
 Paris-Belfort
 Nos braves Turrt
 Hymme Suisse _
-
 La M arseil.‘e 8
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 - (
-
 ar .
-
 40008
-
 ANRON S E PVS
-
- 
-
- 
-
 .\_
-Pour vos noces et banquets}]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003282_009.tif"/>
-<page><![CDATA[VAcHanon Y
-
+Pour vos noces et banquets}
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003282_009.tif'/>
+        <page>
+          <![CDATA[VAcHanon Y
 .’,r CHEFS D'ŒUVRES DE LA MAITRISE °”M_ 4 >
 H ‘ñæ—»… r TCN GENÈVELEN LILE
-
 g(
 Ï« LA MONTRE ET LE à1J0u
 |
 |
 1
 |
-
- 
-
- 
-
- 
-
- 
-   
- 
- 
-    
-   
-    
-   
-  
- 
-
 A@QTMIE
 # TIRAILLEURS MAROCAINS
 it de C. BArro.L1
-
 & Benv
-
 TAPIS
 CHAVAN
-
 érs
-
 1E DE GENÈVE
 W<ETHOVEN
-
 - b) andante - c) minuetto
-
 # de CHABRIER
 =T .
 |nezzo - c) menuet - d) farandole
-
 ÿ TIRAILLEURS MAROCAINS =
 6, rue du Rhône
-
 arrangement de TaqueTr
-
 GENÈVE
-
-  
-
- 
-
- 
-
- 
-
 OURZES RI SEN OIR
-
 Donnez-y vos rendez-vous Orchestre Achille CHRISTEN
-
- 
-
- 
-
 e Restaurant de l’Arquebuse
 |
-
 (
-
-%]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003282_010.tif"/>
-<page><![CDATA[Rodolphe Haller s.a.
-
+%
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003282_010.tif'/>
+        <page>
+          <![CDATA[Rodolphe Haller s.a.
 Transports internationaux
-
- 
-
- 
-
- 
-
- 
-
- 
-
 GENÈVE
-
 7, rue des Gares Téléphone 2.65.15
-
 ENTREPOTS
-AGENCE EN DOUANE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003282_011.tif"/>
-<page><![CDATA[LE DÉPOT DES LETTRES FRANÇAISES
-
+AGENCE EN DOUANE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003282_011.tif'/>
+        <page>
+          <![CDATA[LE DÉPOT DES LETTRES FRANÇAISES
 Les Librairies
 - Naville & Cie
-
 5-T, rue Lévrier — Passage des Lions — 1, place du Lac
-
- 
-
- 
-
 CLICHÉ PHOTO “ LIBERTÉ ", LYON
-
 Défilé du 1er Régiment de Tirailleurs Marocains
-
- 
-
- 
-
- 
-
- 
-
 ‘ Îﬁ. N .
 N
 N ï
-
 ler ordre
-
 Salles pour banquets et 1(((\])(|011\
 Chambres depuis 6.50
-
 Famille ARMLEDER, prop. méL. 2.71.20
-
--]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003282_012.tif"/>
-<page><![CDATA[TRANPORTS INTERNATIONAUX — VOYAGES
-
+-
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003282_012.tif'/>
+        <page>
+          <![CDATA[TRANPORTS INTERNATIONAUX — VOYAGES
 J. Véron, Grauer & Cie, s.a.
-
 GENÈVE
-
 Agents généraux pour la Suisse de la Cie de Navigation Paquet
 et des Messageries Marocaines. — Agents officiels des principales
 Compagnies françaises de Navigation
-
- 
-
- 
-
 VINS EN GRO5S
-
 À. Louot Fils
-
 VINS EN GROS
-
- 
-
- 
-
 À. Besson et Fils
-
 Villette Tél. 4.96.38 8, rue Gevray Genève
-
 Maison française —
-
- 
-
- 
-
 HIVE FR ÈR ES Dégustez chez
 Huissoud
-
 - RUE DU STAND 31
-
 LEURS VINS FINS
 ET ORDINAIRES
 LEURS APÉRITIFS
-
 Maison française ses excellents vins ouverts
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Pierre Vallade
-
 Succ. de C. Vallade & Fils
-
 3, Bd James-Fazy Téléphone 2.34.47
-
 Vins fins français Liqueurs Spiritueux
-
- 
-
- 
-
 ©
-
 E TT f OE L S E D e
-
 SRE S A E EN
-
 p3
 ;
 E”:
-
 ce mts
-P EN]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003282_013.tif"/>
-<page><![CDATA[Parcours des cortèges effectués
+P EN
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003282_013.tif'/>
+        <page>
+          <![CDATA[Parcours des cortèges effectués
 par la Nouba du 1°" Régiment de
 Tirailleurs Marocains, avec le
 concours de l’Union Musicale
 Française de Genève (direction :
 K. Quartenoud).
-
 SAMEDI 17 NOVEMBRE 1945
 à 16 heures
-
 Départ de la Caserne - boulevard
 Carl-Vogt - rue Ecole de Méde-
 cine - avenue du Mail - boule-
@@ -698,92 +395,60 @@ du Rhône - place Bel-Air - rue
 de la Corraterie - place du Cir-
 que - rue de l’Arquebuse - rue
 du Stand.
-
- 
-
-N OISN UE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003282_014.tif"/>
-<page><![CDATA[!
+N OISN UE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003282_014.tif'/>
+        <page>
+          <![CDATA[!
 | Ê
 couturier-fourreur
-
 5, RUE DES ALPES ; GENÈVE
-
 réLÉéPHONE : 23370
-
- 
-
- 
-
 HWommage aux lÜorts
-
 DIMANCHE 18 NOVEMBRE 1945
 Itinéraire du certège :
-
 9 h. 30 : Départ des Casernes — avenue du Mail — place du Cirque
 — boulevard Georges-Favon — pont de la Coulouvrenière — boule-
 vard James-Fazy — place Cornavin — rue de Lausanne — parc
 Mon-Repos (dépôt d’une gerbe au Monument aux Morts) — retour
 par le quai Wilson — quai du Mont-Blanc — quai des Bergues —
 pont des Bergues — rue du Rhône — place Bel-Air — Corraterie —
-
 place Neuve — rond-point de Plainpalais — boulevard des Philo-
 sophes — rue Imbert-Galloix, Consulat de France (dépôt d’'une
 gerbe devant le Monument) — retour par la rue de Candolle —
-
 place Neuve et rue du Stand.
-
- 
-
 Après la cérémonie au Consulat
 rendez-vous chez
-
- 
-
- 
-
 LANDOLT
 AMER PICON
-
 sain et agréable
-
-   
-
-S]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003282_015.tif"/>
-<page><![CDATA[\ ©
-
- 
-
- 
-
+S
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003282_015.tif'/>
+        <page>
+          <![CDATA[\ ©
 onservent intactes es
-
 jualités qui ont fait la
-
 renommée mondiale des
-
 CIGARETTES DE LA
-
-RÉGIE FRANÇAISE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003282_016.tif"/>
-<page><![CDATA[‘
-
- 
-
+RÉGIE FRANÇAISE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003282_016.tif'/>
+        <page>
+          <![CDATA[‘
 Toujours à disposition
 de la clientèle pour
 renseigner et conseiller
-
 GENÈVE
-
 Angle rue du Rhône et rue du Commerce
 et Âgence du Molard, 17, rue du Marché
-
- 
-
-IMPRIMERIE GENEVOISE - Victor Chevalier - Coulouvrenière, 44]]></page>       
-        </p>
+IMPRIMERIE GENEVOISE - Victor Chevalier - Coulouvrenière, 44
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

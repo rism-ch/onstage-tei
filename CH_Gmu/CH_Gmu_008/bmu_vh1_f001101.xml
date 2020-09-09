@@ -1,172 +1,138 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par le Corps de musique de Landwehr<date when="06/03/1910"/></title>
-<series>1909-1910</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par le Corps de musique de Landwehr
+            <date when='06/03/1910'/>
+          </title>
+          <series>1909-1910</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F001101</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Koch, L. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19100306"/>
-<title>Concert donné par le Corps de musique de Landwehr</title>
-<placeName key="Victoria Hall"/>
-<name key="1909-1910" type="series"/>
-<name key="Berlioz, Hector" ref="https://muscat.rism.info/admin/people/13803" type="person" role="cmp">Berlioz, Hector</name>
-<name key="Haydn, Joseph" ref="https://muscat.rism.info/admin/people/55803" type="person" role="cmp">Haydn, Joseph</name>
-<name key="Gounod, Charles-François" ref="https://muscat.rism.info/admin/people/80479" type="person" role="cmp">Gounod, Charles-François</name>
-<name key="Massenet, Jules" ref="https://muscat.rism.info/admin/people/84264" type="person" role="cmp">Massenet, Jules</name>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Bruch, Max" ref="https://muscat.rism.info/admin/people/73090" type="person" role="cmp">Bruch, Max</name>
-<name key="Czibulka"  type="person" role="cmp">Czibulka</name>
-<name key="Rubinštejn, Anton Grigor'evič" ref="https://muscat.rism.info/admin/people/30008504" type="person" role="cmp">Rubinštejn, Anton Grigor'evič</name>
-<name key="Méhul, Etienne-Nicolas" ref="https://muscat.rism.info/admin/people/101056" type="person" role="cmp">Méhul, Etienne-Nicolas</name>
-<name key="Watelle"  type="person" role="cmp">Watelle</name>
-<name key="Koch, Léonard (dir.)"  type="person" role="int">Koch, Léonard (dir.)</name>
-<name key="Corps de musique de Landwehr"  type="person" role="int">Corps de musique de Landwehr</name>
-<name key="Terracina (Mlle)"  type="person" role="int">Terracina (Mlle)</name>
-<name key="Denizot, Ch."  type="person" role="int">Denizot, Ch.</name>
-<name key="Ketten, Léopold"  type="person" role="int">Ketten, Léopold</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001101_001.tif"/>
-<page><![CDATA[Valene n ». H ÀL |
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19100306'/>
+        <title>Concert donné par le Corps de musique de Landwehr</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1909-1910' type='series'/>
+        <name key='Berlioz, Hector' ref='https://muscat.rism.info/admin/people/13803' type='person' role='cmp'>Berlioz, Hector</name>
+        <name key='Haydn, Joseph' ref='https://muscat.rism.info/admin/people/55803' type='person' role='cmp'>Haydn, Joseph</name>
+        <name key='Gounod, Charles-François' ref='https://muscat.rism.info/admin/people/80479' type='person' role='cmp'>Gounod, Charles-François</name>
+        <name key='Massenet, Jules' ref='https://muscat.rism.info/admin/people/84264' type='person' role='cmp'>Massenet, Jules</name>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Bruch, Max' ref='https://muscat.rism.info/admin/people/73090' type='person' role='cmp'>Bruch, Max</name>
+        <name key='Czibulka' type='person' role='cmp'>Czibulka</name>
+        <name key='Rubinštejn, Anton Grigor&apos;evič' ref='https://muscat.rism.info/admin/people/30008504' type='person' role='cmp'>Rubinštejn, Anton Grigor'evič</name>
+        <name key='Méhul, Etienne-Nicolas' ref='https://muscat.rism.info/admin/people/101056' type='person' role='cmp'>Méhul, Etienne-Nicolas</name>
+        <name key='Watelle' type='person' role='cmp'>Watelle</name>
+        <name key='Koch, Léonard' type='person' role='int'>Koch, Léonard</name>
+        <name key='Corps de musique de Landwehr' type='person' role='int'>Corps de musique de Landwehr</name>
+        <name key='Terracina (Mlle)' type='person' role='int'>Terracina (Mlle)</name>
+        <name key='Denizot, Ch.' type='person' role='int'>Denizot, Ch.</name>
+        <name key='Ketten, Léopold' type='person' role='int'>Ketten, Léopold</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001101_001.tif'/>
+        <page>
+          <![CDATA[Valene n ». H ÀL |
 u
 ; D —
 I
-
 ! >h |  DIMANCHE 6 MARS 4940 sSE PE
-
 } Portes à 2 heures. |
-
- 
-
- 
-
 A 2 heures et demie.
-
 | | @CONCERTe
-
 DONNÉ PAR LE
-
 Corps de Musique de Landwehr
-
 (HARMONIE MILITAIRE)
 sous la direction de M. KLéonard K OCH
-
 î
 M'e TERRACINA M. Ch. DENIZOT
 MEZZ0-SOPRANO TÉNOR
 Elèves de M. le Professeur Léopold KETTEN.
-
 etde M. Léopold KETTEN, Professeur supérieur au Conservatoire.
-
 C cr
-
 /
 l
 |
 ÿ
 A AVEC LE GRACIEUX CONCOURS DE
 |
-
- 
-
 PROGRAMME
-
 PREMIÈRE PARTIE
-
 |
 [
-
 Ï
-
 ” 1. Les Francs Juges, ouverture H. Berlioz.
 |
-
 2. Andante de la symphonie en sol majeur J. Haydn.
-
 È S ancestde Sapho (M TErrACINA,. 111 1 Éounod,
-
 i OR WNerthem(N ChHDENVOPH),. *. 11 1 811e 1 / Massenet.
-
 | 5.  Lohengrin, fragments du 2"° et 3"° acte . R. Wagner.
-
 | DEUXIÈME PARTIE
-
 ( peaodaconedeRopérankoreley . - 1<1 010 M Biuch
-
 ; VElitenmezzo (songe d'amoumaprés:le bal).. . ,, 21040 S Czibulka.
 CC AENTIA(N E TERRACINN e 1 S Rubinstein,
 Pssiddesosephi (M DENVON S …s n N Mh !
-
 e ..,.,.,:;: ;s —
-
 Le piano d'accompagnement sera tfenu par M. le Prof. Léopold KETTEN.
-
 PRIX DES PLACES : Loges et Cordon de Première Galerie [numérotées), @ fr., Rez-de-Chaussée et Première Galerie
 (non numérotées), 1 fr.; 27* Galerie, HS centimes. — Les enfants au-dessous de 10 ans paient demi-place.
 CARTES A L'AVANCE au VICTORIA-HALL, rue Hornung.
 MM. les Membres d’Honneur, Honoraires et Amis visitants ont droit à 2 PLACES de Rez-de-Chaussée ou de 1"“ Galerie
 NON NUMÉROTÉES, sur présentation de leur carte de 1910, Chaque coupon est valable pour 1 PLACE NON NUMÉROTÉE.
 Moyennant un supplément de 1 fr., on peut réserver des places numérotées de loges ou 1re Galerie.
-
- 
-
- 
-
 Ë COURS D D’ÉLÈVES - 5 francs par mois â
-
- 
-
 Sous læ direction de M. L. KOCH, directeur du Corps de Musique.
 SOLFEGE, FLUTE, HAUTBOIS, CLARINETTE, SAXOPHONE, COR ET CUIVRES
-
 }
-
- 
-
- 
-
 “
-
 & S'inserire le Mardi et le Vendredi, dès 9 heures du soir, au local, Bâtiment Electoral (entrée du côté de la Plaine). J
 /
-
-IMPRIMERIE J, STUDER, GENÈVE,]]></page>       
-        </p>
+IMPRIMERIE J, STUDER, GENÈVE,
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

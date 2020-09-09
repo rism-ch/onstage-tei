@@ -1,109 +1,105 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>1er grand concert populaire<date when="16/11/1925"/></title>
-<series>1925-1926</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            1er grand concert populaire
+            <date when='16/11/1925'/>
+          </title>
+          <series>1925-1926</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002607</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Micolod, E.</note>
+        <note>Kunz, A. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19251116"/>
-<title>1er grand concert populaire</title>
-<placeName key="Victoria Hall"/>
-<name key="1925-1926" type="series"/>
-<name key="Staz, H."  type="person" role="cmp">Staz, H.</name>
-<name key="Sturm, W."  type="person" role="cmp">Sturm, W.</name>
-<name key="Giordano"  type="person" role="cmp">Giordano</name>
-<name key="Broche, Robert"  type="person" role="cmp">Broche, Robert</name>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Koch, J."  type="person" role="cmp">Koch, J.</name>
-<name key="Heinrichs"  type="person" role="cmp">Heinrichs</name>
-<name key="Leoncavallo, Ruggero" ref="https://muscat.rism.info/admin/people/30007109" type="person" role="cmp">Leoncavallo, Ruggero</name>
-<name key="Widor, Charles-Marie" ref="https://muscat.rism.info/admin/people/135158" type="person" role="cmp">Widor, Charles-Marie</name>
-<name key="Luigini, Alexandre" ref="https://muscat.rism.info/admin/people/30071428" type="person" role="cmp">Luigini, Alexandre</name>
-<name key="Scassola"  type="person" role="cmp">Scassola</name>
-<name key="Micolod, Emile (dir.)"  type="person" role="int">Micolod, Emile (dir.)</name>
-<name key="Kunz, Alexandre (dir.)"  type="person" role="int">Kunz, Alexandre (dir.)</name>
-<name key="Lyre de Genève"  type="person" role="int">Lyre de Genève</name>
-<name key="Freiheit"  type="person" role="int">Freiheit</name>
-<name key="Daly, Marguerite"  type="person" role="int">Daly, Marguerite</name>
-<name key="Mazzeï, di"  type="person" role="int">Mazzeï, di</name>
-<name key="Lebeau, Germaine"  type="person" role="int">Lebeau, Germaine</name>
-<name key="Kramer, Ch.-A."  type="person" role="int">Kramer, Ch.-A.</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002607_001.tif"/>
-<page><![CDATA[vrren DE ,, GENÈVE
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19251116'/>
+        <title>1er grand concert populaire</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1925-1926' type='series'/>
+        <name key='Staz, H.' type='person' role='cmp'>Staz, H.</name>
+        <name key='Sturm, W.' type='person' role='cmp'>Sturm, W.</name>
+        <name key='Giordano' type='person' role='cmp'>Giordano</name>
+        <name key='Broche, Robert' type='person' role='cmp'>Broche, Robert</name>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Koch, J.' type='person' role='cmp'>Koch, J.</name>
+        <name key='Heinrichs' type='person' role='cmp'>Heinrichs</name>
+        <name key='Leoncavallo, Ruggero' ref='https://muscat.rism.info/admin/people/30007109' type='person' role='cmp'>Leoncavallo, Ruggero</name>
+        <name key='Widor, Charles-Marie' ref='https://muscat.rism.info/admin/people/135158' type='person' role='cmp'>Widor, Charles-Marie</name>
+        <name key='Luigini, Alexandre' ref='https://muscat.rism.info/admin/people/30071428' type='person' role='cmp'>Luigini, Alexandre</name>
+        <name key='Scassola' type='person' role='cmp'>Scassola</name>
+        <name key='Micolod, Emile' type='person' role='int'>Micolod, Emile</name>
+        <name key='Kunz, Alexandre' type='person' role='int'>Kunz, Alexandre</name>
+        <name key='Lyre de Genève' type='person' role='int'>Lyre de Genève</name>
+        <name key='Freiheit' type='person' role='int'>Freiheit</name>
+        <name key='Daly, Marguerite' type='person' role='int'>Daly, Marguerite</name>
+        <name key='Mazzeï, di' type='person' role='int'>Mazzeï, di</name>
+        <name key='Lebeau, Germaine' type='person' role='int'>Lebeau, Germaine</name>
+        <name key='Kramer, Ch.-A.' type='person' role='int'>Kramer, Ch.-A.</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002607_001.tif'/>
+        <page>
+          <![CDATA[vrren DE ,, GENÈVE
 > e 7 US Tt 00
-
 SAISON 1925-1926G
-
 VICTORIÀ HÀLL Lundi 16 Novembre 1925
-
 à 20 h. 30 (8 h. 30)
-
 1 Grand Conceri Populaire
-
 ORGANISÉ P»\R LE
-
 CONSEIL ADMINISTRATIF DE LA VILLE DE GENÈVE
-
 AVEC LE BIENVEILLANT ET GRACIEUX CONCOURS DE
-
 LA LYRE DE GENÈVE |Le Männerchor FREIHEIT
-
 sous la direction de sous la direction de
-
 M. Emile MICOLOD M. Alexandre KUNZ
-
 Mademoiselle Marguerife DALY
-
 CANTATRICE
-
 M. di MAZZEÏ Mc Germaine LEBEAU
-
 TÉNOR SOPRANO
 DU GRAND- THÉATRE DF GENÈVE
-
 DROGRAMME
-
 PREMIÈRE PARTIE
-
 . INTERLUDE DRAMATIQUE
 _ (Lyre de Genève).
-
 . IMPROVISO d'Andrea Chenier Giordano
 M. di Mazzeïi,
 . CHANSON DE LA MAGUELONNE Robert Broche
@@ -112,52 +108,23 @@ Mre Germaine Lebeau. -
 Soliste : Mile Marguerite Daly (Lyre de Genève et Männer-
 chor «Freiheit »).
 SECONDE PARTIE
-
 . a) GRÜSST MIR DAS BLONDE KIND AM RHEIN
-
 b) GEISTESFLUTEN Heinrichs
 Männerchor « Freiheit ».
-
 . ARIOSO de PAGLIACEI Leoncavallo
 M. di Mazzeï. !
-
 . NON CREDO Ch. Widor
 Mme Germaine Lebeau.
-
 . LE PRINTEMPS, poésie musicale A. Luigini
 . WEIMAR-MARSCH Scassola
-
- 
-
- 
-
- 
-
- 
-
 Le jiano ﬂausomua@uemcnl sera fenu par M. Ch.-A. KRAMER
-
 [e] 55es []
-
 Les portes seront fermées pendant l’exécution des morceaux
 P ï
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-IMPRIMERIE POPULAIRE aeNève]]></page>       
-        </p>
+IMPRIMERIE POPULAIRE aeNève
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

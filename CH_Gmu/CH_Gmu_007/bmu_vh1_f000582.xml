@@ -1,97 +1,90 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Grand concert Beethoven-Wagner<date when="04/05/1906"/></title>
-<series>1905-1906</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Grand concert Beethoven-Wagner
+            <date when='04/05/1906'/>
+          </title>
+          <series>1905-1906</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F000582</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Schneevoigt, G. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19060504"/>
-<title>Grand concert Beethoven-Wagner</title>
-<placeName key="Victoria Hall"/>
-<name key="1905-1906" type="series"/>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Schnéevoigt, Georg Lennart  (dir.)"  type="person" role="int">Schnéevoigt, Georg Lennart  (dir.)</name>
-<name key="Orchestre Kaim [de Munich]"  type="person" role="int">Orchestre Kaim [de Munich]</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000582_001.tif"/>
-<page><![CDATA[VICTORIA-HALL < GENÈVE
-
- 
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19060504'/>
+        <title>Grand concert Beethoven-Wagner</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1905-1906' type='series'/>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Schnéevoigt, Georg Lennart' type='person' role='int'>Schnéevoigt, Georg Lennart</name>
+        <name key='Orchestre Kaim de Munich' type='person' role='int'>Orchestre Kaim de Munich</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000582_001.tif'/>
+        <page>
+          <![CDATA[VICTORIA-HALL < GENÈVE
 /1% , *
- Vendredi & Mai à 8 heures et demie précises.
-
+Vendredi & Mai à 8 heures et demie précises.
 <âo <âo â°"
-
 Grand Concert
-
 BEETHOVEN-WAGNER
-
 donné par
-
 L'ORCHESTRE KAIM
-
 (O EXÉCUTANTS)
-
 G ”«&J —
 *@7“J PROGRAMME 09”
 Q_‘7_«ÎÜ@Î/7 = 3
-
- 
-
 v Ouveriure dé Léonote m 3 . ! .!. . . Bectboven.
-
 2. Symphonie n° 5 en wt mineur . . . -  Becthoven.
-
 d) Allegro con brio.
 b) Andante con moto.
 c) Scherzo et Finale (Allegro).
-
 3. Bacchanale de Tannhäuser. . . . . . Wagner.
 4. Enchantement du Vendredi-Saint, de Parsifal Wagner.
-
 ÿ. Prélude ct Mort d’Yseult, de Tristan et Yseult agner.
-
 L'Orchestre sera dirigé par M. Georges SCHNEEVOIGT.
-
 RR> PYASORS
-
 Rez-de-chaussée : Loges, 7 fr.: Parquet, 6 fr.; Parterre, 5 fr.; Pourtour, 4 fr,, Promenoir,
 3 fr. 50; Amphithéâtre, 2 fr. 50. — Première Galerie : Loges, 7 fr., Fauteuils de face (1°" et
 2"° rangs) et Fauteuils de balcon (1°" rang), 5 fr.; Fauteuils de face (autres rangs), 4 fr.; Amphi-
@@ -100,19 +93,14 @@ théâtre, 8 fr. 50; Fauteuils de balcon (2"° et 3"° rangs), 8 fr.; Fauteuils 
 balcon (2"° et 8”* rangs), 1 fr. — La location est ouverte dès aujourd’hui, de 9 heures à midi
 et de 2 à G heures, chez M. Ad. HENN, boulevard du Théâtre, 6. — Les places peuvent être
 demandées par correspondance en joignant le montant des billets à la demande.
-
- 
-
 GENÈVE, — IMP, L. JARRYS ET FILS,
-
-DIRECTION DE CONCERTS Ap. HENN, n GENève]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000582_002.tif"/>
-<page><![CDATA[OPINIONS DE LA PRESSE
-
- 
-
+DIRECTION DE CONCERTS Ap. HENN, n GENève
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000582_002.tif'/>
+        <page>
+          <![CDATA[OPINIONS DE LA PRESSE
 L’Orchestre KAIM.
-
 VIENNE NEUES WIENER TAGEBLATT
 De tous les orchestres étrangers qui se sont fait entendre à Vienne, l’Orchestre Kaim
 est sans contredit le meilleur.
@@ -142,13 +130,11 @@ LA SUISSE
 L'Orchestre Kaim est de tout premier ordre, et c’est avec ravissement que nous
 avons entendu des nuances exprimées avec une finesse, un ensemble et une cohésion
 non surpassables.
-
 M. Georges Schnéevoigt, chef d’orchestre.
 FRANCFORT FRANKFURTER ZEITUNG
 Il s’est révélé comme un véritable élu parmi les chefs d’orchestre.
 q 10e . >s
 STUTTGART SCHWABISCHE MERKUR
-
 Le public a traduit par des ovations aussi spontanées qu’enthousiastes ses sentiments
 de profonde admiration pour l’interprétation grandiose de Schnéevoigt.
 =
@@ -160,8 +146,10 @@ se
 AUGSBURG AUGSBURGER ABENDZEITUNG
 ..... une interprétation pour ainsi dire enivrante, qui transporte et révèle un chef
 d'orchestre de tout premier ordre, qui a en outre le rare mérite d’être simple et
-d'éviter toute affectation ou pose.]]></page>       
-        </p>
+d'éviter toute affectation ou pose.
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

@@ -1,83 +1,85 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert symphonique (Douzième et dernier de l'abonnement)<date when="31/03/1920"/></title>
-<series>1919-1920</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert symphonique (Douzième et dernier de l'abonnement)
+            <date when='31/03/1920'/>
+          </title>
+          <series>1919-1920</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002343</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Ansermet, E. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19200331"/>
-<title>Concert symphonique (Douzième et dernier de l'abonnement)</title>
-<placeName key="Victoria Hall"/>
-<name key="1919-1920" type="series"/>
-<name key="Schumann, Robert" ref="https://muscat.rism.info/admin/people/131206" type="person" role="cmp">Schumann, Robert</name>
-<name key="Huber, Hans" ref="https://muscat.rism.info/admin/people/103857" type="person" role="cmp">Huber, Hans</name>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Ansermet, Ernest  (dir.)" ref="https://muscat.rism.info/admin/people/40219507" type="person" role="int">Ansermet, Ernest  (dir.)</name>
-<name key="Orchestre de la Suisse Romande" ref="https://muscat.rism.info/admin/people/50007615" type="person" role="int">Orchestre de la Suisse Romande</name>
-<name key="Fassbender, Z. (Mme)"  type="person" role="int">Fassbender, Z. (Mme)</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002343_001.tif"/>
-<page><![CDATA[VICTORIA-HALL
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19200331'/>
+        <title>Concert symphonique (Douzième et dernier de l'abonnement)</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1919-1920' type='series'/>
+        <name key='Schumann, Robert' ref='https://muscat.rism.info/admin/people/131206' type='person' role='cmp'>Schumann, Robert</name>
+        <name key='Huber, Hans' ref='https://muscat.rism.info/admin/people/103857' type='person' role='cmp'>Huber, Hans</name>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Ansermet, Ernest' ref='https://muscat.rism.info/admin/people/40219507' type='person' role='int'>Ansermet, Ernest</name>
+        <name key='Orchestre de la Suisse Romande' ref='https://muscat.rism.info/admin/people/50007615' type='person' role='int'>Orchestre de la Suisse Romande</name>
+        <name key='Fassbender, Z. (Mme)' type='person' role='int'>Fassbender, Z. (Mme)</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002343_001.tif'/>
+        <page>
+          <![CDATA[VICTORIA-HALL
 Mercredi 51 mars 1920, à & heures et demie
-
 J} CONCERT SYMPHONIQUE
-
 (Douzième et dernier de l’'abonnement)
-
 SOLISTE :
-
 M" Z. FASSBENDER
-
 de l'Opéra de Munich.
-
 PROGRAMME
 PREMIÈRE PARTIE
-
 . Ouverture de GENEVIÈVE Schumann
 . SYMPHONIE n° 6, en la majeur Huber
-
 a) Allegro con spirito.
 b) Allegretto grazioso.
 c) Adagio non troppo.
-
 0) Finale : Introduction, thème et variations.
-
 DEUXIÈËME PARTIE
 . PRÉLUDE et MORT D’YSEULT, de |
 « Tristan et Yseult»
@@ -86,35 +88,23 @@ M"° Z. FASSBENDER.
 des Dieux »
 S0ENEBINALE, du «Crépuscule des Dieux»
 M"° Z. FASSBENDER.
-
 L'orchestre sera dirigé par
-
 M. ERNEST ANSERMET
-
 Le Concert commencera à 8 heures et demie très précises.
 Aucun morceau ne sera répété ni ajouté au programme.
-
 La direction se réserve le droit d’apporter au programme toutes modifications que
 les circonstances pourraient lui imposer.
-
 Les porles seronl fermées pendanl l’exéculion Oes morceaux.
-
 H. Jarrys, Genève
-
-D RESRE 400 ME]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002343_002.tif"/>
-<page><![CDATA[u
-
- 
-
- 
-
+D RESRE 400 ME
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002343_002.tif'/>
+        <page>
+          <![CDATA[u
 Robert SCHUMANN
-
 Né à Zwickau en 1810, mort à Endwich près Bonn en 1856.
-
 Ouverture de GENEVIÈVE, op. &1.
-
 C’est en 1846 que Schumann écrivit cette œuvre, avant d'aborder
 l’'opéra lui-même. La maladie nerveuse qui devait si cruellement
 avoir raison de sa vie manifestait ses premiers symptômes, mais il
@@ -130,7 +120,6 @@ où elles devaient périr. Quelques années plus tard, Siffroi, en
 chasse, les découvre, alors qu'il poursuivait une biche qui les allai-
 tait. Il reconnaît l’innocence de Geneviève et fait saisir Golo qu'il
 condamne à être écartelé par quatre taureaux indomptés.
-
 Si Schumann n’était pas assez homme de théâtre pour donner un
 opéra qui réussisse, il devait du moins laisser dans l’ouverture la
 marque du génial symphoniste qu'il était. Et de fait l’'ouverture de
@@ -138,7 +127,6 @@ Geneviève nous reste, si l’opéra est passablement délaissé. Elle
 résume d’ailleurs admirablement le conflit. Le /argo initial, qui expose
 le thème de l'innocence entouré de traits ondoyants fait pressentir
 la lutte de la perfidie et de l'innocence.
-
 Un allegro passionné suit, qui expose un premier thème agité et
 haletant comme l’héroïne accusée et innocente, un deuxième thème
 doux et tendre qui s’oppose au premier comme l’amour simple et
@@ -147,54 +135,21 @@ qui fait entendre la joyeuse fanfare de chasse d'où viendra la
 délivrance. Cette exposition se fait deux fois, séparées par une
 période de développement. La seconde fois, la fanfare de cors, dans
 le ton d’ul majeur, ramène le thème d’amour et le thème d'innocence
-
 victorieux et triomphants.
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 2
-
-sn S]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002343_003.tif"/>
-<page><![CDATA[E PE TN DE e p
-
+sn S
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002343_003.tif'/>
+        <page>
+          <![CDATA[E PE TN DE e p
 RE RE r e rn
-
 05088
-
 Tn
-
- 
-
- 
-
- 
-
 Àe E RE EN A
-
- 
-
- 
-
- 
-
- 
-
 N ETEN TMN ETE CON A EF
 . ; n , À ;
-
 Hans HUBER
-
 Né le 28 juin 1852 à Schœnenwerd près Olten, il fut de 1870 à
 1874 l’élève de Richter, Wenzel et Reinecke au Conservatoire de
 Leipzig. Après avoir passé deux ans en Alsace comme maître de
@@ -210,7 +165,6 @@ deux ouvertures, deux festspiele, des œuvres chorales avec ou sans
 accompagnement, de nombreux quintettes, quatuors, trios, sonates,
 morceaux de piano et lieder. Sa Symphonie héroïque a paru dans
 l’Foition nalionale.
-
 Jouée pour la première fois à Bâle, en 1911, la symphonie en /a
 majeur frappa tout de suite par sa fraîcheur, sa spontanéité et sa
 gaîté. Après une série de symphonies à programme, ou tout au
@@ -224,39 +178,21 @@ ment (avec son second thème, ‘qui est presque du /odel), dans la
 bonhomie un peu rustique de l’allegretto, dans la rêverie tour à
 four attendrie et grave de l'adagio, dans la franchise et la gaîté des
 vartations (dont la dernière, en forme de valse, fait entendre aux
-
 basses le Gaudeamus igitur).
-
 444
 Richard WAGNER
-
 Leipzig, 1813, — Venise, 1883.
-
 PREDUDE « SCENE FINADE d à Tristan cb Yoeutt ».
-
 C'est le thème du philtre, de l’amour fatal, coupable et fragique,
 synthèse de l’œuvre entière, que le timbre poignant des violoncelles
 expose incomplètement et qui s’arrête, interrompu par les troublantes
 harmonies des bois. La phrase semble hésiter à prendre son essor,
-
- 
-
- 
-
-nc]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002343_004.tif"/>
-<page><![CDATA[c1748 e RE E QT SIR ETE PR TS SSD
-
-    
-
- 
-
- 
-
-  
-
- 
-
+nc
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002343_004.tif'/>
+        <page>
+          <![CDATA[c1748 e RE E QT SIR ETE PR TS SSD
 et soudain elle vibre sous l’archet des violons pour retourner,
 vibrante et passionnée, aux violoncelles qui la développent. Le
 thème anxieux chante d’abord dans les cordes, s’échauffant foujours
@@ -270,17 +206,10 @@ frombones, pour atteindre son expansion suprême au milieu du
 déchaînement de tout l’orchestre. Mais le thème brisé et mutilé
 refombe au milieu de sonorités apaisées, qui, dans le drame, enchaî-
 nent le prélude avec le lever du rideau.
-
 Dans les concerts symphoniques on a l’habitude d’enchaîner ce
 prélude avec la dernière scène de l’ouvrage : la Mort d’Yseult.
-
 Yseult, sans entendre ni voir ce qui se passe autour d’elle, tourne les yeux vers Tristan
 qu’elle contemple avec extase.
-
- 
-
- 
-
 Mild und leise / wie er lächelt, Quelle paix auguste et sainte
 wie das Auge / hold er ôffnet, Sur sa face s’est empreinte | ÿ
 seht ihr, Freunde, / säh’t ihr’s nicht ? Quel sourire fier et doux ! ‘ ÿ
@@ -300,147 +229,50 @@ Wonne klagend, / Alles sagend, Dans un tourbillon sonore ! 8
 mild versôhnend / aus ihm tônend, Chants délicieux,
 auf sich schwingt, / in mich dringt, _  Sons mélodieux! -
 hold erhallend / um mich klingt ? Étes-vous le souffle des brises,
-
- 
-
 Ou'des flots de vapeurs exquises ?
 Dans vos ondes parfumées, Ï
 Dans vos vagues embaumées,
 Je m’élance dans ma joie,
-
 Heller schallend, / mich umwallend,
 sind es Wellen / sanfter Lüfte ?
 Sind es Wogen / wonniger Düfte !
-
- 
-
-     
- 
-
 Wie sie SChWCH€H, / mich umrauschen, Je me plonge) ie me noie È:1\
 soll ich athmen, / soll ich lauschen ? Dans le gouffre béni
 Soll ich schlürfen, / untertauchen, De l’éther infini. — | Ÿ
 süss in Düften / mich verhauchen ? Dans ton âme sublime, î
 In des Wonnemeeres / wogendem Schwall, Immense immensité, A
-
 in der Duft-Wellen / tônendem Schall, Je ue plouge €£ m'apime,
-
 R
-
 ; ;
-
 ; Sans conscience k | 9
-
 in des Welt-Athems / wehendem All — O volupté ! ; q
-
 ertrinken — / versinken — “l
 unbewusst / — hôchste Lust ? Traduction de Victor Wilder.
-
 Yseult, comme transfigurée et doucement soutenue par Brangaine, glisse sur le corps de
 Tristan. Émotion profonde des assistants, Marke étend les mains, comme pour bénir les cadavres.
-
- 
-
- 
-
- 
-
- 
-
- 
-
 %,
 X
 ä
 }
 &
-
 ‘
-&]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002343_005.tif"/>
-<page><![CDATA[SIR SSE reere,
-
+&
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002343_005.tif'/>
+        <page>
+          <![CDATA[SIR SSE reere,
 TT
-
 TIR G DI RE P e I T
-
- 
-
- 
-
 z
-
 SE
-
 ==
-
- 
-
 E RE r S Ct
-
 Es E SE
-
 e
-
- 
-
 E T sr d
-
- 
-
 E EU A ERRTEERES EUF R 7 ÉREETG A'OST LAS E e 4RN 14 OE 058 À 7 ARTICE DEN AIN A Tx
 ; “ Ï ÿ JH 2 20
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-   
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 ®
 H = &
 72 œ
@@ -480,108 +312,49 @@ maisons d'alimentation.
 A
 / |
 U LARNAAIANANTNTDN
-d — à]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002343_006.tif"/>
-<page><![CDATA[ARTE E = TI SS S ENV TPE 70e d ME PE N R RE TT ESE $ 17 19.7 OURN OEN OEOE S A TRIN RE TC E
+d — à
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002343_006.tif'/>
+        <page>
+          <![CDATA[ARTE E = TI SS S ENV TPE 70e d ME PE N R RE TT ESE $ 17 19.7 OURN OEN OEOE S A TRIN RE TC E
 ; fh RE e , e t RUN ï"\}\ SEN N N
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 VR E . ;
 PIANOS
-
 VENTE ET LOCATION
-
 SAUTIER ET G. & G. JÆGER
-
 C PE t A E
-
 E RE T É SE
-
- 
-
- 
-
- 
-
 12, FUSTERIE, 12 TÉLÉPHONE 21.24 Ë
-
 f
-
 La Banque de Dépôts et de Crédit |e |
-
 I8, Rue de Hesss - GENEVE - I0, Rue Diday Ë
-
 ñ
-
 - ; ‘ A ;
 reçoit actuellement de l'ARGENT EN DEPOT
-
 à des conditions très avantageuses. ñ
-
 û
-
 M" Cuarces BERGUER |
-
 Successeur de Louis BRON et Charles BERGUER. &
-
 11, rue Petitot - GENEÈVWE - 3 rue du Grüili à
-
 Maison genevoise fondée en 1830. i
-
 TÉLÉPHONE 164 Compte-chèques I. 1920 ;
-
 REPRÉSENTANT DES FABRIQUES H €
-
 ERARD, PLEYEL, BECHSTEIN, STEINWAY & SONS, SCHIEDMAYER E
-
- 
-
 PIANOFORTEFABRIK, BURGER & JACOBI, SCHMIEDT-FLOR, RORDAY, ESTEY. O ä
 Vente, Locations, Accords, Réparations, Transports. ?
-
 DROGUERIE MODERNE | _
-
 Croix-d’Or, 23 — GENÈVE — Téléphone 64 -99
-
- 
-
- 
-
- 
-
- 
-
 La seule droguerte moderne à Genève.
 Nos produits s’'imposent par leur qualité !
-Service à domicile. CASTELLA FRÈRES.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002343_007.tif"/>
-<page><![CDATA[fp;—tﬂ*—-ﬂ-:a vn
-
- 
-
+Service à domicile. CASTELLA FRÈRES.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002343_007.tif'/>
+        <page>
+          <![CDATA[fp;—tﬂ*—-ﬂ-:a vn
 P e P e
-
- 
-
- 
-
- 
-
- 
-
 MARCHE FUNÈBRE u « Crépuscule des Dieux ».
-
 Stegfried, victime de la ruse et de la lance traîtresse de Hagen, est
 tombé mort sur son bouclier. Les guerriers consternés vont emporter
 son corps sur un brancard. Lentement, piques baissées, ses compa-
@@ -600,18 +373,14 @@ de la Marche funèbre et font place au souvenir mélancolique de
 l'Amour de Brünnkild, que soupirent clarinette et hautbois. Enfin les
 lugubres accords de la Race des Nichbelungen soulignant la Malédiction
 de l'anneau rappellent la triste fin du héros et ferment la marche.
-
 SCÈNE FINALE ou « Crépuscule des Dieux »
-
 Brünnhilde seule occupe le milieu du théâtre. Longtemps perdue dans la contemplation de
 Siegfried, elle se tourne, enfin, vers les assistants, d’un mouvement noble et solennel.
-
 Starke Scheite Qu’on entasse un tas de bois, là !
 schichtet mir dort Qu’un bûcher, près du Rhin, s’allume !
 am Rande des Rhein’s zu Hauf : Haut et clair flambe le feu! — qu’il
 hoch und hell [consume
 lod’re die Gluth, Le corps du superbe héros, qui gît ici. —
-
 die den edlen Leib
 des herhsten Helden verzehrt ! —
 Sein Ross führet daher,
@@ -620,18 +389,14 @@ denn des Helden heiligste
 Ehre zu theilen
 verlangt mein eig’ner Leib. —
 Vollbringt Brünnhilde’s Wunsch !
-
 Son coursier vienne aussi :
-
 Comme moi, qu’il suive son maître ;
 Car, à l’honneur suprême je veux être
 Et réclame ma part des caresses du feu. —
 Accomplissez mon dernier vœu !
-
 Pendant ce qui suit, les jeunes gens dressent un vaste bûcher, sur la berge du Rbin, Les
 femmes le parent de tapis, de feuillages et de fleurs. Brümnhilde se perd de nouveau dans la
 contemplation du visage de Sieafried. Graduellement s’adoucit l’expression de sa physionomie,
-
 Wie die Sonne lauter
 strahlt mir sein Licht :
 der Reinste war er,
@@ -640,7 +405,6 @@ die Gattin trügend
 treu dem Freunde —
 von der eig’nen Trauten
 — einzig ihm theuer —
-
 De l’éclat du soleil il paraît resplendir.
 Si pur, a-t-il pu me trahir ? —
 . Epoux ingrat, ami fidèle,
@@ -649,39 +413,13 @@ De son bien le plus cher,
 Il se sépara par son fer. —
 Nul n’a juré plus loyale promesse ;
 Nul n’a conclu de pacte plus loyal ;
-
- 
-
- 
-
- 
-
-—]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002343_008.tif"/>
-<page><![CDATA[T E 7 RIUE PE RE ETE
-
-   
-
- 
-
- 
-
- 
-
+—
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002343_008.tif'/>
+        <page>
+          <![CDATA[T E 7 RIUE PE RE ETE
 p
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 [ schied er sich durch sein Schwert. — Nul n’a montré plus de tendresse !
 Aechter als er Pourtant, — ô sort fatal ! — ;
 | schwur keiner Eide ; Pacte et promesse, À
@@ -715,14 +453,9 @@ Alles weiss ich : D'un geste, elle donne l’ordre aux hommes
 alles ward mir nun frei ! de porter le corps de Siegfried sur le bûcher.
 Auch deine Raben En même temps, elle prend, au doigt du héros,
 hôr’ ich rauschen : l’anneau qu’elle contemple pensive.
-
 mit bang ersehnter Botschaft
 send’ ich die beiden nun heim,
-
 “Es rrrc r e % c p Bn és e
-
-  
-
 Ruhe ! Ruhe, du Gott! — . A moi,
 Meine Erbe nun Mon héritage unique! —
 nehm ich zu eigen. — Joyau maudit, or fatidique,
@@ -739,18 +472,13 @@ geb’ ich euch : Et, joyeuses, gardez cet or qui luit, 5
 aus meiner Asche Que pour notre malheur on vous ravit ! F
 su ;
 e PU d0 e Elle à passé la bague à son doigt et se dirige Ÿ
-
 Das Feuer, das mich verbrennt,
 rein’ge den Ring vom Fluch :
 ihr in der Fluth
 lôset ihn auf,
-
 vers le bücher où repose dejà le corps de
 Siegfried. Elle arrache, à l’un des hommes, la
 torche qu’il tient et la brandit.
-
-   
-
 und lauter bewahrt Allez, corbeaux, dire au Dieu souverain,
 das lichte Gold, Ce qui s’est passé sur le Rhin. — |
 den strahlenden Stern des Rhein’s, Passez près du roc, où Lôgue encor flambe «
@@ -759,10 +487,12 @@ der zum Unheil euch geraubt. — [et brûle ; â
 | raun’t es eurem Herrn, Car la face des Dieux déjà s’encrépuscule. '
 | was hier am Rhein ihr gehôrt ! Ainsi, je jette la lamme, 6 Walhall ! —
 An Brünnhild’s Felsen Dans ton manoir royal !
-
-fahret vorbei :]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002343_009.tif"/>
-<page><![CDATA[der dort noch lodert,
+fahret vorbei :
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002343_009.tif'/>
+        <page>
+          <![CDATA[der dort noch lodert,
 weiset Loge nach Walhall !
 Denn der Gôtter Ende
 dämmert nun auf :
@@ -789,27 +519,19 @@ in mächtigster Minne
 vermählt ihm zu sein ! —
 Heiaho ! Grane !
 grüsse den Freund !
-
 SVGES m; BT E E L d Z
 C 2008 “Ï; %):
 170
-
-  
-
 Elle jette sa torche sur le bûcher, qui s’en-
 flamme rapidement. Deux corbeaux, poses sur
 le roc, près du rivage, prennent leur vol el
 disparaissent derrière l’horizon.
-
 Brünnhilde aperçoit son cheval, que deux
 hommes viennent d’amener.
-
 Grane, salut ! — je te désire ! —
-
 Elle court au devant de son cheval, le saisit
 et le débride promptement, puis se penche,
 confiante, sur son encolure.
-
 Sais-tu bien, camarade, où je veux te con-
 [duire ? —
 Dans la flamme claire git ton seigneur,
@@ -825,19 +547,10 @@ Nous unir, dans l’amour, par le même
 [trépas !
 Heiaho ! Grane ! vole en la flamme !
 Siegfried ! Siegfried ! vois, c’est moi ! c’est
-
- 
-
 Siegfried ! Siegfried ! [ta femme !
-
 Selig gilt dir mein Gruss !
-
 rn
-
 Traduction de Victor Wilder.
-
- 
-
 Elle se jette le sur cheva let l’enlève au galop. D’un bond, Grane saute, avec elle, sur le
 bücher embrasé. Le bois crépite et le feu monte haut ; la scène entière semble envahie par les
 flammes, qui menacent d’embraser l’habitation. Les femmes terrifiées descendent jusqu’au bord
@@ -847,245 +560,137 @@ lemps, le Rhin, puissamment gonflé, est sorti de son lit et s’est répandu su
 On aperçoit, dans les nuées, la salle du W'alball, où les Dieux et les Heros se tiennent dans
 l’attitude décrite par Waltraute, au premier acte. Les flammes commencent à envahir la demeure
 divine et les Dieux semblent enveloppés d’un tourbillon de feu,
-
 4n
 â
 Ç
 4
 «
 ä
-
 Ÿ
 f
 l',
 ï
 i
 J
-
 2
-
 B
-
- 
-
 !> | LIBRAIRIE PAYOT & C"
-
 LAUSANNE — GENÈVE — VEVEY — MONTREUX
 8
-
 IË RIEMANN Hvoco. — Déionnaire 06 Musique.
-
 ‘-y Deuxième édition française, entièrement remaniée et augmentée
-
 3 par Georges Humbert, directeur du Conservatoire de Neuchâtel.
-
 } Un volume grand in-8°, de 1144 pages, relié... ...  Fr. 45.—
-
 5 Broché..... OMN E e L N AN »  36.—
-
 8 A
 Le paiement peut en être effectué par versements mensuels de 5 fr. à nos comptes de chèques-
-
-postaux (Lausanne II. 391 — Genève I. 236) ou en mandat postal pour Vevey et Montreux.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002343_010.tif"/>
-<page><![CDATA[——
-
+postaux (Lausanne II. 391 — Genève I. 236) ou en mandat postal pour Vevey et Montreux.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002343_010.tif'/>
+        <page>
+          <![CDATA[——
 OEuvres ljouées c1ans le cours c1e la saison _1919—1920.
-
 Cette liste ne comprend pas les œuvres jouées en dehors des concerts donnés
-
 par la Société. ‘
-
 OUVERTURES ET SUITES CLASSIQUES — SYMPHONIES
-
 a) SUITES ET CONCERTOS
-
 Bacx, Suite en ré.
 ? :
 — Concerto brandebourgeois n° 1.
-
 Bacu-Durarc, Prélude et Fugue en mi min.
-
 Rameau, Air de ballet d'Hippolyteet Aricie.
 Menperssonn, Le Songe d'une Nuit d'Ete.
-
 b) OUVERTURES
-
 Brrruoven, Egmont.
-
 — Proméêthee.
-
 Hænper, Agrippine.
-
 Hasse, Pyrame et Thisbé.
 Mozarr, Les Noces de Figaro.
-
 Mozarr, L’Enlèvement au Sérail.
 — Tilus.
-
 ScHuMANN, Geneviève.
-
 Weser, Obéron.
-
 — Freischültz.
-
 c) SYMPHONIES
-
 BEEFTHOVEN, N° 2, en ré.
-
 — n° 3, Héroïque.
-
 — n° 5, en ut mineur.
-
 — n° 6, Pastorale.
-
 T na6 en fa.
-
 — n° 9, avec chœurs.
 Brruioz, Fanlastique.
 Dvorax, Le Nouveau Monoe.
-
 Haypn, en mi bémol, n° 1.
-
 — en dol majeur, n° 15.
-
 — en mi bémol (n° 3 de l'Edit. Bank).
 Macwarn, À., n° 3, en sù bémol.
 Mozarr, en ut (Jupiter).
-
 SarvT-SaËns, n° 3, en la mineur.
-
 SCHUBERT, en ul.
 Srronc, Le Roi Arthur.
-
 ŒUVRES AVEC CHŒURS
-
 Bacu J.-S., Cantate Gloria in excelsis Deo.
-
 SUITES MODERNES
-
 Bizer, L'Arlésienne, 1"° suite.
 Boronne, Petite Suite.
 Craprier, Suite pastorale.
 Desvssy, Nocturnes.
-
 Laro, Namouna.
-
 Mauriero, Impressioni dal Vero.
 Raver, Valses nobles et sentimentales.
 Rousser, Kvocations.
-
 Srrawmsx1, Le Chant Ou Rossignol.
-
 — L'Oïseau de Feu.
-
 — 10 —
-
- 
-
- 
-
- 
-
 SPE
-
 fn “ G— se rr rn L e e Es es
-
 és
 és
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-  
-
 —
-
 —0
-
 E e e en es OR e t
-
 1 é m
-
 '.-‘M-—:=cævä ssreees
-
-   
-
 q oaeges
-
 R
-é rreT]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002343_011.tif"/>
-<page><![CDATA[OUVERTURES MODERNÊS
+é rreT
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002343_011.tif'/>
+        <page>
+          <![CDATA[OUVERTURES MODERNÊS
 GLXNK:Æ, Russlan et Luomilla. Laro. Le Roi d'Ys.
-
 POÈMES SYMPHONIQUES ET MORCEAUX DIVERS
-
 70
 BARTHOLONI, J(ll.\‘ ()F F[I!ll1(’:f. GRIEG, Dlïlh‘(’vl' norvegrennes.
-
 ; ;
-
 Boropine, Danses Ou Prince Igor. D'Ivpy, Iolar.
-
 Darcomysxy, Fantaisie cur es airs Laro, Rapéodie norvégienne.
 finnois. — Scherzo.
-
 Liszr, Les Préludes.
-
 Moussoresky, Introduction et Gopak.
-
 Drsussy, Ronde de Printemps.
 Duxas, L'Apprenti Sorcier.
-
 — Prélude d'Ariane et Barbe-Bleue. — Intermezzo in modo classico.
 Duparc, Aux Eloiles. Rimsxy-Korsaxorr, Chandon ruse.
 — MDanse lente. SainT-Saëns, Le Rouet d'Omphale.
 Fauré, Pavane. SMETANA, Vyzehrao.
-
 STravss, R., Don Juan.
-
 Svenpsen, Carnaval à Paris.
-
 Grazounow, Slenka Râzine.
 Gramncer, Shepherd's Hey.
-
 FRAGMENTS WAGNÉRIENS
-
 Chevauchée 0des Walkyries.
 Prélude et Hort d'Yseult.
-
 Ouverture de Tannhœuser.
 — des Maîtres Chanteurs.
-
 — pour Faudl. Marche funèbre de Siegfrico.
 Prélude de Parsifal. Final du Crépuacule des Dieux.
 Fragments des Maîtres Chanteurs. L'Enchantement Ou Venoredi-Saint,
-
 Les Murmures de la Forêt.
-
 ŒUVRES POUR INSTRUMENTS DIVERS AVEC ORCHESTRE
-
 Bacu, Concerlo pour violon en mi. Mozarr, Concerlo pour allo, op. 107.
-
 Brrrnoven, Concerlo pour piano en sol — Concerlo pour violon en la.
 mineur. — Concerlo pour clarinette.
 — Concerlo pour piano en ul mineur. Prerné, Poème Symphonique, piano et
@@ -1093,105 +698,67 @@ mineur. — Concerlo pour clarinette.
 Bœrrmann, Varialions symphoniques pour  Sauvr-Satns, Concerto pour violon en ai
 violoncelle et orchestre, mineur.
 Laro, Concerto pour violon. Toreru1, Le Chant du Berger, pour flûte
-
 — Concerlo pour violoncelle, et orchestre.
 Liszr, Concerto pour piano en mi bémol.
-
 PIÈCES POUR CHANT ET ORCHESTRE
-
 Francx, C., Nocturne. Haypn, Air des Saisons.
 Grorpan1, Caro mio ben. Maurer, Lieder.
-
 Grucx, Monologue et Songe d'Iphigénie. Rameau, dAir de Caslor et Pollux,
 — Air d'Iphigénie. — dAir d'Hippolyte et Aricre.
 Hænper, Air de la Passion. Roparrz, Quatre Ooelettes.
-
 — Air u Messie. Wrser, Air d'Agathe.
-
- 
-
-{@{'tf{{ï_ä<{\äîä:&*æ»æ«-:{f«æ;æ."‘,wç:—_{ CON O 40 ETE PE E DIROREN ‘*'W?Ë]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002343_012.tif"/>
-<page><![CDATA[MUSIQUE DE CHAMBRE
-
+{@{'tf{{ï_ä<{\äîä:&*æ»æ«-:{f«æ;æ."‘,wç:—_{ CON O 40 ETE PE E DIROREN ‘*'W?Ë
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002343_012.tif'/>
+        <page>
+          <![CDATA[MUSIQUE DE CHAMBRE
 BrrrHoven, Septuor.
-
 — Trio, pour deux hautbois et cor
 anglais.
-
 Mozart, Quintette mi b., piano et bois.
-
 Mozarr, Quatuor, flûte, violon, alto et
 violoncelle.
-
 ScuvrerT, Octelle, op. 166; cordes, cla-
 rinette, cor et basson.
-
 ŒUVRES DE COMPOSITEURS SUISSES
-
- 
-
 Anpreæz, Noclurne et Scherzo.
-
 Bacu, Fritz, Andante et Scherzo de la
 Z / Symphonie en ut mineur.
-
 Bervarp, R., Troïs poèmes de Hallarmé,
-
 chant et orchestre.
-
 DENÉRÊAZ, Conccr!a, pour orgue et orch.
 Dorer, G., Recueillement ; chant et orch.
 GacneaiN, H., Ouverture Jfrançaise.
 Huser, H., Symphonie n° 6, en la majeur,
-
 JAques-Darcroze, Kermesce.
-
 — Rythmes de Danses,
-
 Mavrice, P., Pêcheurs d'Tslande.
-
 — Air de Misé Brun ; chant et orch.
 Scuæcx, Sérénade, op. 1.
-
 — Lieder ; chant et orchestre.
-
 Surer, H., Symphonie n° 2, en ré mineur.
-
 Wenru, W., Chilbizite.
-
 N. B. — En suite de l’invitation adressée aux jeunes compositeurs romands,
-
 les œuvres suivantes ont été lues dans les répétitions d'orchestre :
-
 Bacx, } Andante et Scherzo de la Sym-
 phonie en ut mineur.
-
 Brrnarp, Trois poèmes de Mallarmé ;
 chant et orchestre.
-
 — Prélude de la Fille aux mains coupées.
-
 Bœrrre, Deux esquisses pour orchestre.
 GacnEaIN, Ouverture française.
 Mavor, Les Fleurs d'Ophélie ; pour chant
-
 et orchestre.
-
 À
-
- 
-
 Pension-Famille LES PERVENCHES
-
 AVENUE DE GRANGE-CANAL, 27 - GENEÈVE
-
 (A 8 minutes de la station de tramwsay,
-
 ligne 12)
-
-CONFORT — CHAUFFAGE CENTRAL —  SITUATION RAVISSANTE]]></page>       
-        </p>
+CONFORT — CHAUFFAGE CENTRAL —  SITUATION RAVISSANTE
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

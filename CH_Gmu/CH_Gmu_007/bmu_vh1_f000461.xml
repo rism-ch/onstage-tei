@@ -1,137 +1,87 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Un seul festival Verdi<date when="13/03/1901"/></title>
-<series>1900-1901</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Un seul festival Verdi
+            <date when='13/03/1901'/>
+          </title>
+          <series>1900-1901</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F000461</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Dami (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19010313"/>
-<title>Un seul festival Verdi</title>
-<placeName key="Victoria Hall"/>
-<name key="1900-1901" type="series"/>
-<name key="Verdi, Giuseppe" ref="https://muscat.rism.info/admin/people/137994" type="person" role="cmp">Verdi, Giuseppe</name>
-<name key="Dami (dir.)"  type="person" role="int">Dami (dir.)</name>
-<name key="Orchestre du théâtre"  type="person" role="int">Orchestre du théâtre</name>
-<name key="Redi, Elisabeth"  type="person" role="int">Redi, Elisabeth</name>
-<name key="Battaini, Eugène"  type="person" role="int">Battaini, Eugène</name>
-<name key="Belloni, Jago"  type="person" role="int">Belloni, Jago</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000461_001.tif"/>
-<page><![CDATA[© ÀÉ © La/cee
-
- 
-
- 
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19010313'/>
+        <title>Un seul festival Verdi</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1900-1901' type='series'/>
+        <name key='Verdi, Giuseppe' ref='https://muscat.rism.info/admin/people/137994' type='person' role='cmp'>Verdi, Giuseppe</name>
+        <name key='Dami' type='person' role='int'>Dami</name>
+        <name key='Orchestre du théâtre' type='person' role='int'>Orchestre du théâtre</name>
+        <name key='Redi, Elisabeth' type='person' role='int'>Redi, Elisabeth</name>
+        <name key='Battaini, Eugène' type='person' role='int'>Battaini, Eugène</name>
+        <name key='Belloni, Jago' type='person' role='int'>Belloni, Jago</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000461_001.tif'/>
+        <page>
+          <![CDATA[© ÀÉ © La/cee
 MEN RRN EN GRSN GRRN OE ER O SR GRR RESRE SREE SR NNN SEN E NNN NNN G N RESRE ON SON ON REN R E NNN OURN SUSN NEBEOONUNSONEDROOESNOONOSOOOOHOOOONOOOONOOUSEOOOOOEONOENNEOODENOHONNEDHONUONOOOSGOUSOOONEHRGOSEUNNEDESNOOHHHHENHHENEEE
-
- 
-
- 
-
 c VIC'IÏORŸA I—îAÎ_._; kÿzj
-
- 
-
- 
-
 I
-
 Mercredi 13 mars 1901, à 8 h. du soir
-
 UN SEUL FESTIVAL
-
 * VERDI «
-
 DONNÉ PAR
-
 M“ ELISABETH REDI, soprano
-
 M. EucènE BATTAINI, ténor, et M. JAco BELLONI, baryton
-
 Artistes des Théâtres de la Scala de Milan et Apollo de Rome
-
- 
-
 MURUNNNRENERNNENARANANENEE
-
- 
-
- 
-
- 
-
- 
-
 AVEC LE CONCOURS DE
-
 L'’'ORCHESTRE DU THÉATRE
-
 DIRIGÉ PAR
-
 M. DAMI, professeur au Conservatoire
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 E PRRRRANN REN a NNN RE RRN AN RESRE RRN EN REN RRN NN NA RE NNN A REN A NE RR REN R NNN RR E RE RE NE SRVE RE NENENEEO SN A RUN A RE SE RE VRVU NANENE RE REFN UNENENE NN NN OEN E RU RS NE VR OR NEURNDASENE OS RE NENENE OR EU NENSENNNAVNNENENENE UHN VR NENONENENNENEGENRANANENENENENE NN NNHRNE NNN HE NENSCENENENESEENNES CTN NENENE NNN EU NEENUNENENT
-
- 
-
- 
-
- 
-
 A é N
 Ë 259 W
 —— PROGRAMME =—
@@ -157,23 +107,12 @@ Prix des Places :
 ë {Zä# La location est ouverte chez M. HENN, magasin de musique, Rue de la Corraterie, 14. K\
 15 e A
 œ VUN E EN V N SUN O NN OON S SRE S CEOE SN E N CO E OS IDON N E GUU EUN EN SSNON SON UN O SUUN ENNENNSONOOSONOOOOAGOONONSNOOOOOHND NN GOS GOGNNNNAN ORN IO SHRSOSOENASRHHHHHSHA860 “ s. TT
-
- 
-
- 
-
- 
-
 îäÊ}‘»{} C—°"Ï-Ër£;" IMP. DE LA TRIBUNE DE GENÈVE
-
- 
-
- 
-
 7
-
-(]]></page>       
-        </p>
+(
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

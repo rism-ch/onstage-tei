@@ -1,117 +1,106 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Grand concert de Noël donné par M. Otto Barblan<date when="25/12/1887"/></title>
-<series>1887-1888</series>
-<placeName>Cathédrale de Saint-Pierre</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Grand concert de Noël donné par M. Otto Barblan
+            <date when='25/12/1887'/>
+          </title>
+          <series>1887-1888</series>
+          <placeName>Genève, Cathédrale de Saint-Pierre</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU DG3-2 F000705</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Date incertaine</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18871225"/>
-<title>Grand concert de Noël donné par M. Otto Barblan</title>
-<placeName key="Cathédrale de Saint-Pierre"/>
-<name key="1887-1888" type="series"/>
-<name key="Merkel"  type="person" role="cmp">Merkel</name>
-<name key="Bach, Johann Sebastian" ref="https://muscat.rism.info/admin/people/2539" type="person" role="cmp">Bach, Johann Sebastian</name>
-<name key="Mozart, Wolfgang Amadeus" ref="https://muscat.rism.info/admin/people/115324" type="person" role="cmp">Mozart, Wolfgang Amadeus</name>
-<name key="Saint-Saëns, Camille" ref="https://muscat.rism.info/admin/people/76734" type="person" role="cmp">Saint-Saëns, Camille</name>
-<name key="Barblan, Otto" ref="https://muscat.rism.info/admin/people/5298" type="person" role="cmp">Barblan, Otto</name>
-<name key="Mendelssohn Bartholdy, Felix" ref="https://muscat.rism.info/admin/people/88790" type="person" role="cmp">Mendelssohn Bartholdy, Felix</name>
-<name key="Thiele"  type="person" role="cmp">Thiele</name>
-<name key="Barblan, Otto" ref="https://muscat.rism.info/admin/people/5298" type="person" role="int">Barblan, Otto</name>
-<name key="Holzmann"  type="person" role="int">Holzmann</name>
-<name key="Sillem (Mlle)"  type="person" role="int">Sillem (Mlle)</name>
-<name key="Cartier (Mlle)"  type="person" role="int">Cartier (Mlle)</name>
-<name key="Bron"  type="person" role="int">Bron</name>
-<name key="Nagy"  type="person" role="int">Nagy</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg3_2_f000705_001.tif"/>
-<page><![CDATA[@Î©@@@@@@@@@@@@@@@Ê@i@@i@i@i@i@@i@@@;@;@;@@@@./ä@ç ,f.
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18871225'/>
+        <title>Grand concert de Noël donné par M. Otto Barblan</title>
+        <placeName key='Genève, Cathédrale de Saint-Pierre'/>
+        <name key='1887-1888' type='series'/>
+        <name key='Merkel' type='person' role='cmp'>Merkel</name>
+        <name key='Bach, Johann Sebastian' ref='https://muscat.rism.info/admin/people/2539' type='person' role='cmp'>Bach, Johann Sebastian</name>
+        <name key='Mozart, Wolfgang Amadeus' ref='https://muscat.rism.info/admin/people/115324' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Saint-Saëns, Camille' ref='https://muscat.rism.info/admin/people/76734' type='person' role='cmp'>Saint-Saëns, Camille</name>
+        <name key='Barblan, Otto' ref='https://muscat.rism.info/admin/people/5298' type='person' role='cmp'>Barblan, Otto</name>
+        <name key='Mendelssohn Bartholdy, Felix' ref='https://muscat.rism.info/admin/people/88790' type='person' role='cmp'>Mendelssohn Bartholdy, Felix</name>
+        <name key='Thiele' type='person' role='cmp'>Thiele</name>
+        <name key='Barblan, Otto' ref='https://muscat.rism.info/admin/people/5298' type='person' role='int'>Barblan, Otto</name>
+        <name key='Holzmann' type='person' role='int'>Holzmann</name>
+        <name key='Sillem (Mlle)' type='person' role='int'>Sillem (Mlle)</name>
+        <name key='Cartier (Mlle)' type='person' role='int'>Cartier (Mlle)</name>
+        <name key='Bron' type='person' role='int'>Bron</name>
+        <name key='Nagy' type='person' role='int'>Nagy</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg3_2_f000705_001.tif'/>
+        <page>
+          <![CDATA[@Î©@@@@@@@@@@@@@@@Ê@i@@i@i@i@i@@i@@@;@;@;@@@@./ä@ç ,f.
 CATHÉDRALE DE SAINT-PIERRE $
-
 /
-
- 
-
- 
-
 GEGSC
-
 WmmæﬁHMmMeà2%wæﬁdmæmææs
-
 ND CONUERT DE 1
-
 DONNÉ PAR
-
 M. OTT0 BARBLAN, Organiste de la Gathédrale
-
 AVEC LE GRACIEUX CONCOURS DE
-
 M. HOIZMANN, Violoncelliste de l'Orchestre
-
 GRA
-
 \),—\—-\
-
 sc Diel
 dlbe+<11
 GB
-
 lé<
 IRC2S
-
 ce
-
 ET D'UN QUATUOR COMPOSÉ DE
-
 M SILLEM, Professeur de Chant, M“° CARTIER, élève de M. Ketten, et de MM. BRON et NAGY
-
 <>#—- PROGRAMME
-
 . Allegro et Andante de la Sonate en ré mineur MERKEL.
 . Cantique n’ 12 de l’Oratoire de Noël >ACH.
 chanté par le Quatuor. *
 3. Larghetto, pour violoncelle à MozanT.
 exécuté par M. HOILZMANN.
-
 SOGBGGHGB6
-
 A
 SZ
-
 C. SAINT-SÆNS.
 . chanté par M"* SILLEM.
 5. Cantique n° 23 de l’Oratoire de Noël 3JACH.
@@ -123,20 +112,13 @@ exécuté par M. HOLZMANN.
 9. Cantique n° 28 de l’Oratoire de Noël.......0200000 00 en se BacH.
 chanté p'ar le Quatuor.*
 10. Fantaisie chromatique THIELE.
-
 BAICRS SE S
-
 pn
-
 LE TEMPLE SERA CHAUFFÉ
 BILLETS à l’avance dans tous les Magasins de musique, chez BRON et BERGUER et le jour du Concert, à l’entrée
-
 Les Portes seront ouvertes à 2 heures. — Entrée par le péristyle de la Cathédrale.
-
 * Le texte des cantiques (traductxon de M. le pasteur Rœhrich) se trouve au verso du programme.
-
 €
-
 9
 &
 &
@@ -187,54 +169,43 @@ D
 &
 N
 LEN
-
 /1\
-
 i4 E l |âElQËQNIQËIËBÊà|ﬂäx@h»«l o/dlC >lr:äﬁ\ﬁà| -s ‘ÉIIQ‘01IQIIANIWVIQI QÏGIÉBIQË|ÉWËÜIËËËWN 4@|ŒO
-
 @
 X2/
 X
-
 \x/
-
 Ç
-
-\X]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg3_2_f000705_002.tif"/>
-<page><![CDATA[N° 12. Brillante et pure, à l’Orient,
-
+\X
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg3_2_f000705_002.tif'/>
+        <page>
+          <![CDATA[N° 12. Brillante et pure, à l’Orient,
 Une grande lumière,
-
 Près du berceau de l’'humble enfant,
 Apparaît sur la terre.
-
 Oh ! bergers, réjouissez-vous.
-
 Venez, adorez à genoux !
 Vous, les puissants, les sages,
 Rendez-lui vos hommages !
-
 Z .…
 G—
-
 N° 23. Amour divin, consolateur,
 Rayonne dans le pauvre cœur !
 Enfant du ciel, ô fils de Dieu
 Béni soit ton nom en tout lieu !
-
 N° 28, Eclatez, chœurs harmonieux :
 Gloire au plus profond des cieux !
 Et parmi nous divine paix,
 Répands tes célestes bienfaits
 À jamais |
-
 (A tout jamais !)
-
 +
-
-Ÿ]]></page>       
-        </p>
+Ÿ
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

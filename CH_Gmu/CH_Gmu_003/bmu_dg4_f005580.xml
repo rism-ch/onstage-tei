@@ -1,261 +1,154 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Grand concert donné par les sociétés chorales et la société instrumentale de Carouge<date when="04/12/1870"/></title>
-<series>1874-1875</series>
-<placeName>Stand de Carouge</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Grand concert donné par les sociétés chorales et la société
+            instrumentale de Carouge
+            <date when='04/12/1870'/>
+          </title>
+          <series>1874-1875</series>
+          <placeName>Genève, Stand de Carouge</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU DG4 F005580</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt> </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18701204"/>
-<title>Grand concert donné par les sociétés chorales et la société instrumentale de Carouge</title>
-<placeName key="Stand de Carouge"/>
-<name key="1874-1875" type="series"/>
-<name key="Schultz"  type="person" role="cmp">Schultz</name>
-<name key="Miramont"  type="person" role="cmp">Miramont</name>
-<name key="Thomas, A."  type="person" role="cmp">Thomas, A.</name>
-<name key="Rossini, Gioachino" ref="https://muscat.rism.info/admin/people/63766" type="person" role="cmp">Rossini, Gioachino</name>
-<name key="Donizetti, Gaetano" ref="https://muscat.rism.info/admin/people/18064" type="person" role="cmp">Donizetti, Gaetano</name>
-<name key="Monestier"  type="person" role="cmp">Monestier</name>
-<name key="Eichberg"  type="person" role="cmp">Eichberg</name>
-<name key="Bordese, Luigi" ref="https://muscat.rism.info/admin/people/30016504" type="person" role="cmp">Bordese, Luigi</name>
-<name key="Rayer"  type="person" role="cmp">Rayer</name>
-<name key="Moog"  type="person" role="cmp">Moog</name>
-<name key="Weber, Carl Maria von" ref="https://muscat.rism.info/admin/people/117485" type="person" role="cmp">Weber, Carl Maria von</name>
-<name key="Société Instrumentale de Carouge"  type="person" role="int">Société Instrumentale de Carouge</name>
-<name key="Echo de l'Arve"  type="person" role="int">Echo de l'Arve</name>
-<name key="Sängerbund"  type="person" role="int">Sängerbund</name>
-<name key="Persin"  type="person" role="int">Persin</name>
-<name key="Roch"  type="person" role="int">Roch</name>
-<name key="E. B. (Mlle)"  type="person" role="int">E. B. (Mlle)</name>
-<name key="Lisbeth"  type="person" role="int">Lisbeth</name>
-<name key="Cordier"  type="person" role="int">Cordier</name>
-<name key="Lanz"  type="person" role="int">Lanz</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f005580_001.tif"/>
-<page><![CDATA[GRHAND %
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18701204'/>
+        <title>
+          Grand concert donné par les sociétés chorales et la société
+          instrumentale de Carouge
+        </title>
+        <placeName key='Genève, Stand de Carouge'/>
+        <name key='1874-1875' type='series'/>
+        <name key='Schultz' type='person' role='cmp'>Schultz</name>
+        <name key='Miramont' type='person' role='cmp'>Miramont</name>
+        <name key='Thomas, A.' type='person' role='cmp'>Thomas, A.</name>
+        <name key='Rossini, Gioachino' ref='https://muscat.rism.info/admin/people/63766' type='person' role='cmp'>Rossini, Gioachino</name>
+        <name key='Donizetti, Gaetano' ref='https://muscat.rism.info/admin/people/18064' type='person' role='cmp'>Donizetti, Gaetano</name>
+        <name key='Monestier' type='person' role='cmp'>Monestier</name>
+        <name key='Eichberg' type='person' role='cmp'>Eichberg</name>
+        <name key='Bordese, Luigi' ref='https://muscat.rism.info/admin/people/30016504' type='person' role='cmp'>Bordese, Luigi</name>
+        <name key='Rayer' type='person' role='cmp'>Rayer</name>
+        <name key='Moog' type='person' role='cmp'>Moog</name>
+        <name key='Weber, Carl Maria von' ref='https://muscat.rism.info/admin/people/117485' type='person' role='cmp'>Weber, Carl Maria von</name>
+        <name key='Société Instrumentale de Carouge' type='person' role='int'>Société Instrumentale de Carouge</name>
+        <name key='Echo de l&apos;Arve' type='person' role='int'>Echo de l'Arve</name>
+        <name key='Sängerbund' type='person' role='int'>Sängerbund</name>
+        <name key='Persin' type='person' role='int'>Persin</name>
+        <name key='Roch' type='person' role='int'>Roch</name>
+        <name key='E. B. (Mlle)' type='person' role='int'>E. B. (Mlle)</name>
+        <name key='Lisbeth' type='person' role='int'>Lisbeth</name>
+        <name key='Cordier' type='person' role='int'>Cordier</name>
+        <name key='Lanz' type='person' role='int'>Lanz</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f005580_001.tif'/>
+        <page>
+          <![CDATA[GRHAND %
 LES $@3ÉÎÉ ; CHORALES
 LA SOCIÉTE INSTRUMENTALE
-
 DE CAROUGE
 | ävec le concours de M"° E B;deM MJZUN de Solistes et d'amateurs distingués
-
 A[ BÉNÉFICE DH MES DE LA GRÊLE
-
-    
-  
-
-   
-        
-
- 
-
 Y M Æ
-
 UGE (@
 STAND DE_CARO D
 C d
-
 Dimanche 25 Juillet | h. de lapæs-m:d:.
-
- 
-
-   
-
 F
 1. Instrumentale de Carouge, — Allegro milit
-
 A 2 Le Banqumte, par M. P@tdesc.
-
 Ë‘ Pæeo
 5
-
-  
-
 SCHULTZ.
 MIRAMONT.
-
-   
-  
-    
-
- 
-
 MONESTIER.
-
-   
-
 8. Société chorale de Ca
-
 9. David chantant deva
 10. L’Astre des Nuits, s
 . Tanko le Fondeur légende du temps de
-
 12, Chansonnette Comique; par M. MOUZON,
 13. Société chorale allemande Suengerbund. —
 14, Instrument: ale de Carouge,
-
 louge. — La Suisse, S
 nt Saül, par M. Cer.)
 pécimen 1702, par M.
-
- 
- 
-
 “ BICHBERG.
 Luigi Borpèse.
-
- 
-  
-
-  
- 
- 
- 
-  
-
 ar M \VMM&L,« cr.
-
-  
-
 RAYER.
-
-  
-  
-  
- 
-
 u.
-
 C.-M. Weper:
 M… G.
-
 — Souvenir de
-
- 
-   
-
- 
-
-  
-
 Une quête au Profit de l’œæ faite entre la 1re et 1a Qme
-
- 
-
 partie.
-
- 
-
 PRIX DES PLACES: PREMIER
-
 PREMIÈRES : Entré
-
-  
-   
-
-   
- 
-
 € par la grande p
-
 En SECUNÏ)ES, d0 CENTIMES
 VONDES : F
-
 «ntrée par la porte latérale de gauclhe. (Ê;
 nève. MM. Vérésoit & C Ç
-
 , place de Bel-Air: Bleuler, Fus- -
 QRIStE, Coutance ; Rosset- Jmm Croix-d’Or ; M: nuh \l, cafetier,
-
 Balet, papeterie. — Lancy. M. Duvet, - —Chene—Bourg‘ F
 # tabacs, St-Lé ger ; Steinm: mn, cafetier ;
-
 Lagrange, ,
 0nt Neuf; A. Roc l| Magasin 4l épice … E.“ 9
 °
-
 L 4
 blll\L—ll]llllll\lll ë ‘) \ËFÊ
 les de Carouge, --- Feux d'artifice,
-
-  
- 
-  
- 
-  
-   
-
-   
-
- 
-
- 
-
 On pe ut Se procurer des cartes aux adresse:
-
 terie : Gænsly, Rive; E gser, Bourg-de-Four: Pe
-
 ( en l’Ie; Café dn lhéuhe — Plampalms M!
 % Marc l[e…im — Carouge. De
-
 lajoux, cafetié
 .{" man de tahacs : l’auaul café du Stand: G
-
- 
-    
-     
-    
-
-   
-
-  
-
 ‘ÿ@———————_
 Après le Goncert, Fête des En
-
- 
-
-  
-
- 
-
->]]></page>       
-        </p>
+>
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

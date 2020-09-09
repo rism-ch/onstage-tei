@@ -1,859 +1,493 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Festival d'opéra-comique français donné par l'Harmonie nautique<date when="01/06/1926"/></title>
-<series>1925-1926</series>
-<placeName>Jardin anglais (Promenade du Lac)</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Festival d'opéra-comique français donné par l'Harmonie nautique
+            <date when='01/06/1926'/>
+          </title>
+          <series>1925-1926</series>
+          <placeName>Genève, Jardin anglais (Promenade du Lac)</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F001939</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Gabelles, G. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19260601"/>
-<title>Festival d'opéra-comique français donné par l'Harmonie nautique</title>
-<placeName key="Jardin anglais (Promenade du Lac)"/>
-<name key="1925-1926" type="series"/>
-<name key="Boieldieu, Adrien" ref="https://muscat.rism.info/admin/people/23607" type="person" role="cmp">Boieldieu, Adrien</name>
-<name key="Rameau, Jean-Philippe" ref="https://muscat.rism.info/admin/people/169730" type="person" role="cmp">Rameau, Jean-Philippe</name>
-<name key="Auber, Daniel-François-Esprit" ref="https://muscat.rism.info/admin/people/38000" type="person" role="cmp">Auber, Daniel-François-Esprit</name>
-<name key="Delibes, Léo" ref="https://muscat.rism.info/admin/people/30016578" type="person" role="cmp">Delibes, Léo</name>
-<name key="Gounod, Charles-François" ref="https://muscat.rism.info/admin/people/80479" type="person" role="cmp">Gounod, Charles-François</name>
-<name key="Thomas, A."  type="person" role="cmp">Thomas, A.</name>
-<name key="Gabelles, Gustave  (dir.)" ref="https://muscat.rism.info/admin/people/30073762" type="person" role="int">Gabelles, Gustave  (dir.)</name>
-<name key="Harmonie Nautique"  type="person" role="int">Harmonie Nautique</name>
-<name key="Magalli, Julien"  type="person" role="int">Magalli, Julien</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001939_001.tif"/>
-<page><![CDATA[Mardi 1 Juin 1926, à 20 heures 30
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19260601'/>
+        <title>Festival d'opéra-comique français donné par l'Harmonie nautique</title>
+        <placeName key='Genève, Jardin anglais (Promenade du Lac)'/>
+        <name key='1925-1926' type='series'/>
+        <name key='Boieldieu, Adrien' ref='https://muscat.rism.info/admin/people/23607' type='person' role='cmp'>Boieldieu, Adrien</name>
+        <name key='Rameau, Jean-Philippe' ref='https://muscat.rism.info/admin/people/169730' type='person' role='cmp'>Rameau, Jean-Philippe</name>
+        <name key='Auber, Daniel-François-Esprit' ref='https://muscat.rism.info/admin/people/38000' type='person' role='cmp'>Auber, Daniel-François-Esprit</name>
+        <name key='Delibes, Léo' ref='https://muscat.rism.info/admin/people/30016578' type='person' role='cmp'>Delibes, Léo</name>
+        <name key='Gounod, Charles-François' ref='https://muscat.rism.info/admin/people/80479' type='person' role='cmp'>Gounod, Charles-François</name>
+        <name key='Thomas, A.' type='person' role='cmp'>Thomas, A.</name>
+        <name key='Gabelles, Gustave' ref='https://muscat.rism.info/admin/people/30073762' type='person' role='int'>Gabelles, Gustave</name>
+        <name key='Harmonie Nautique' type='person' role='int'>Harmonie Nautique</name>
+        <name key='Magalli, Julien' type='person' role='int'>Magalli, Julien</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001939_001.tif'/>
+        <page>
+          <![CDATA[Mardi 1 Juin 1926, à 20 heures 30
 Festival d’opéra-comique français
-
 L’'HARMONTIE NÀÜTJË ()Uh
-
 (HARMONIE MUNICIPALE DE LA VILLE DE
 DIRECTEUR: M,. Gustave GABELLES
-
 avec le bienveillant concours de
-
 MA. JULIEN MAGALLI
 Premier baryton du Théâtre des Arts de Rouen
-
 — -—
-
 TPIROGRAM MIF
 Première Partie
-
 LA FÊTE AU VILLAGE VOISIN (ouverture) . Boieldieu
-
 DARDANUS (Rigaudon) . . . . . ; . . Rameau
-
 PM CONM (sélsction) ... .- ... . Auber
 “LE LAC DES FÉES (ouverture): . . . . . . Auber
-
 Deuxième Partie
-
 ÉF ROIEA DIT.(ouverture) ... . .. . L Delibes
 E COLOMBE (entracte). . . . . ». . . Gounod
-
 DS PRMENTT 11e 1 14 - Auber
-
 Dieenp . 11e 1 N n … ÀA Thomas
 M. J. MAGALLI
-
 AUBERIANA (Potpourris sur les œuvres d’Auber)
-
 En cas de mauvais temps, le concert sera renvoyé au lendemain.
-
 Entrée 60 cent«mes (dronts des pauvres compns)
-
 MM, les m°m*1res n@n execulanh 01t !ml’ d'entrée sur présentation du wunm No 4
-
 Le prochain concert aura lieu le 29 juin avec le concours de M. Trosselli, ténor.
-
- 
-
 CIGARETTES
-
 LAUREN S
-
 23 GRANDS PRIX ° HORS CONCOIMS
-
- 
-
- 
-
- 
-
- 
-
-Imp. CHAPUIS & BAUMEISTER, Rue du Stand, h (.«… ve]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001939_002.tif"/>
-<page><![CDATA[|
+Imp. CHAPUIS & BAUMEISTER, Rue du Stand, h (.«… ve
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001939_002.tif'/>
+        <page>
+          <![CDATA[|
 ﬁêtements pour Hommes, Jeunes-gens et Enfants
-
 ; A SAINT-GERVAIS
-
 1, rue de Coutance - PLACE St-GERVAIS - 2, rue Vallin
-
 ....................
-
 ‘ Maison de conhance ne œndant que des
 Marchandises de toute première qualité aux prix les plus bas
-
 Chapellerie -  Chemiserie -  Bonneterie
-
 VÉTEMENTS SUR MESURE
-
 Le meilleur tissu - La meilleure coupe - Le meilleur marché
 PRÉVOT & Cie
-
- 
-
 FESTIVAL D’OPÉRA-COMIQUE FRANÇAIS
-
 AUBER peut être considéré comme le chef de l’école française d’opéra-
 comique, ce genre charmant un peu bien négligé de nos jours. Si ses
 œuvres sont oubliées de beaucoup, aucun amateur sincère de musique ne
 voudra se priver du plaisir de les entendre lorsque l’occasion s’en présente,
 trop rarement.
-
 Daniel-François-Esprit Auber est né à Caën en 1782, mort à Paris
 en 1871. Contrairement à Grétry, qui s’appelait Modeste et qui ne l’était
 guère, Auber eut beaucoup d’esprit, et du meilleur, dans ses propos
 comme dans sa musique.
-
- 
-
 Œourguoi va-t-on au
-
 (* SIÈCLE ?
-
 Pour sa bière de “ Munich double maltée”,
 sa Spéciale-blonde (Avenir), sa véritable
 “ Pilsen-Urquell”. Ses vins de Jussy 1* choix
 et Villeneuve extra. Ses apéritifs de marque.
 Sonexcellente cuisine. Sa magnifique terrasse
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 |
 «
 û
-
- 
-
- 
-
 E e es
-
 #
 e
 «
 :
 Ë
-
-En rr ce > SE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001939_003.tif"/>
-<page><![CDATA[— eceps
-
+En rr ce > SE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001939_003.tif'/>
+        <page>
+          <![CDATA[— eceps
 /e
-
- 
-
- 
-
 BANQUE
 POPULAIRE SUISSE
-
 PLACE SAINT-GERVAIS Fondée en 1869 1, QUAI DES BERGUES
-
 AGENCES : 18, COURS DE RIVE
 2, ROUTE DES ACACIAS
-
 GENEÈEVE
-
- 
-
- 
-
 Capital et réserves : Fr. 119.000.000
-
 Dispose du réseau de succursales
 le plus étendu en Suisse
-
 Correspondants dans tous les cen- Organisée pour toutes opérations de
 tres importants du monde entier banque aux meilleures conditions
-
- 
-
 Culture artistique d’amateur, essai infructueux d’apprentissage finan-
 cier à Londres, enfin études musicales solides avec Cherubini, Auber
 commence sa carrière à quarante ans, et rien, jusqu’à l’heure finale, n’en
 devait troubler l’heureux cours. (Ch. Malherbe).
-
 Six années avaient suffi pour que l’auteur de la « Bergère Châtelaine »
 eût produit sur la scène huit autres opéras-comiques dont un surtout
 «le Maçon » achevait de donner la mesure de ce talent si brillant et si sensé
 à la fois. (H. Delaborde).
-
 Puis les cadres s’étaient élargis, les tableaux renouvelés… « La Muette
 de Portici», «Fra Diavolo », « le Philtre », « l’Ambassadrice », « Le Domi-
 no Noir», «la Part du Diable », « Haydée », vingt autres qu’il faudrait
 citer encore.
-
- 
-
- 
-
- 
-
 Au dessert un
 Cointreau Ligueur
 s’impose
 Cointreau Veuve et Fils, Angers
-
-Ch. BRUCHON, Agent général pour la Suisse - GENÈVE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001939_004.tif"/>
-<page><![CDATA[m FKONDHE EN 1572
+Ch. BRUCHON, Agent général pour la Suisse - GENÈVE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001939_004.tif'/>
+        <page>
+          <![CDATA[m FKONDHE EN 1572
 Capital-actions et Réserves : 153 millions
-
 6-10, Corraierie - GENÈVE - corraierie, 6-10
-
 CORNAYIN | EAUX-VIVES
 10, Place de Cornavin 'I 3, Piace des Eaux-Vives
 PLAINPALAIS } CAROUGE
 36, Rue de Carouge | 11, Rue du Marché
-
- 
-
 TOUTES OPÉRATIONS DE BANQUE AUX MEILLEURES CONDITIONS
-
 {; E
-
- 
-
 Son imagination se pliait aux sujets les plus variés et passait sans
 effort des suaves et légères mélodies du « Domino Noir » aux nobles accents
 de « Masaniello » chantant l’amour de la patrie.
-
 Le génie d’Auber est fait de clarté, de justesse, de mesure : inspiration
 abondante, grâce pénétrante, sincérité dans l’expression des sentiments et
 des caractères.
-
 La prétendue frivolité n’était que l’horreur du pédantisme, sous cette
 indifférence apparente se cachait une admiration profonde, un culte véri-
 table pour les grands classiques. Directeur du Conservatoire, c’est par ce
 maître sceptique qu’ont été envoyés à Rome des écoliers comme Victor
 Massé, Georges Bizet, Massenet et bien d’autres. /Ambroise Thomas).
-
 (Suite page 9).
-
- 
-
- 
-
 Toutes fournitures pour la couture
 la BRODERIE et le TRICOT
-
 BONNETERIE de soie, fil, laine et coton
-
 ROBES, JUMPERS, BAS, CHAUSSETTES, GANTS, SOUS-VÊTEMENTS
 POUR DAMES ET ENFANTS
-
 Les meilleures qualités aux plus bas prix chez
-
 Charles WEBER, Place Kléberg
-
- 
-
- 
-
- 
-
- 
-
 -
-
 r e e e P e R e e
-
 conoioe sm.
-
- 
-
 ex
-
- 
-
-250e t]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001939_005.tif"/>
-<page><![CDATA[œ
-
+250e t
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001939_005.tif'/>
+        <page>
+          <![CDATA[œ
 m= —
-
 @ MACHINE A ECRIRE
 L AMÉRICAINE
-
 Vente Gchange Location
-
- 
-
-  
-
- 
-
 |
 }
 }
 Ï
 }
 Û{e}aaraﬁon de fous systèmes i
-
 G. Pozzi
-
 Tour de l’Ile, 4 Genève Ë
 |
-
 Concessionnaire
-
- 
-
- 
-
 des produits originaux “ Yost”
-
- 
-
 AMER PICON
-
 Exigez-le
-
 |
 |
 |
 Buvez un
 |
 |
-
- 
-
- 
-
 - ANECUIE
-- 0R]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001939_006.tif"/>
-<page><![CDATA[Pour voyager agréablement et sans soucis, adressez-vous à
-
+- 0R
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001939_006.tif'/>
+        <page>
+          <![CDATA[Pour voyager agréablement et sans soucis, adressez-vous à
 PAGENCE
-
 | CBN FERI SE
-
 1, Rue du Mont-Blanc, 1
-
 Angle Quai des Bergues
-
 | GENÈVE
-
- 
-
 Tous les billets de chemins de fer et de passages
 maritimes aux conditions des tarifs
-
 CHÈQUES DE VOYAGEURS = BANQUE = CHANGE
 VOYAGES A FORFAIT
-
- 
-
- 
-
 i MEMBRES DU COMITÉ :
-
 | MM. G. MARTINET, président ; G. GABELLES, direcleur ; J. LICKERT et
-
 | E. LEqu—Ï, l‘Ï<'(‘—})I‘(’Ï\‘IÏI(’)l/S f '_\. PORTIER, s«’r‘rﬂ'/_a…‘ f l’.' MURITH, vice-
-
 | secrétaire : M. GALFRE, trésorier ; F _ CHAPUIS, vice-trésorier ; E. BURDET,
 | bibliothécaire ; M. DEPRAZ et J. VIBERT, économes.
-
 l MEMBRES EXÉÇUTANTS (1926) ;
-
 | Flûtes : MM. Brum - Baup - COULOMB - ZWEIGART - SEIDEL.
-
 Hautbois e/ cor anglais: MM. VEYRAT - ENGEL - Gya1 - PAINOT.
-
 Petites clarinettes : MM. SANTANDRÉA - BÉBOUX.
-
 Clarinettes: MM. DéPRAZ - MENNET - PORTIER - CHAPUIS - Roy
 RiEuNAaUD - MurirH - Przzorr: - Garray - DuUcRET
 ScuwizauÉéBEL - LaviLrLAT - HÆrFLIGER - ZiBACH - KELILER
 NONNEMANN - VANAT - SANFILIPPO - MARTI - VANBIANCHI
 Rorxn - GysiN - MÉpa - BurpET - BESSON.
-
 i
 |
 | HARMONIE NAUTIQUE
 |
-
- 
-
 GRANDE BRASSERIE CENTRALE
-
 CAFÉ-RESTAURANT
 CROIX-D'OR, 2 TÉL. STAND 34.62
 Déjeuners et Dîners -  Choucroûte extra toute l’année
-
 BIÈRES WARTECK de Bâle
 et VINS de première qualité
-
 E. MAYERAT
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 e rn es 0 r E OE e E E t
-
 F
-
 u u
-
 e
-
- 
-
-0 e > à E E]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001939_007.tif"/>
-<page><![CDATA[î
-
+0 e > à E E
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001939_007.tif'/>
+        <page>
+          <![CDATA[î
 OUELQUES FLEURS
-
 J leuriot
-
 GIENEYIE
-
 . e : ; C @. —
 26, €0rraferze, 26 H5ue de Hive ,15
 Célép. SL 18.15 Celép. SI 32.67
-
- 
-
 Membres exécutants (sui/e)
-
 Clarinettes basses : MM. RAMONDETTI - MoOIsy.
-
 Bassons : MM. PoORTIER - FRANCOUAL H. - FRANCOUAL J.
-
 Saxophones : MM. D’IvVERNOIS - GONDRET - PEDRONI - BôscH
 VANAT - MOIEN - CLÉMENT - ROYBIN.
-
 Cornets à pistons : MM. Duponr - CHAPUIS - SOLIER - DRoz
 VorToLINI M. - Decroux L. - SCHMIED - TRISCONI.
-
 Bugles : MM. Poncion1 - Guyor - REvor - LANIER - SIGNORINI.
-
 Trompettes : MM. BURDET - ENGEL - ROSSET - MAIRE.
-
 Cors : MM. RisToRrI - CAILLER - PicueT - GAay - MARTIN R.
 RETcHITZKY - BoccarDp J. - BIGNATI.
-
 Trombones : MM. Sinayv - Prorron - MARTIN - MAITRE - RocH.
-
 Barytons, Basses et contre-basses : MM. GREBER - VIBERT
 DEFRANCESCO - BALESTRA - D'OLIVEIRA - CHOUARD - OMARINI
 MOLINATTI - BoCCARD - MONTILLARD.
-
- 
-
- 
-
- 
-
- 
-
 Au Dépôt général du Poisson du Lac Léman
-
 Maison fondée en 1848
-
 LUGRIN & Cie (s.A.)
-
 46, Rue du Rhône, 46 - Genève
-
 Adr. télégr.: LUGRIN-GENÈVE - AUCUNE SUCCURSALE - Téléphone: Stand 2100
-
- 
-
 Volailles de Bresse - Gibiers de toutes provenances
 Poissons du Lac
 Marée française - Muitres de Claires de Marennes
 Arrivages directs et journaliers
 Langousties du parc de Camaret
 Comestibles de toutes espèces - (Conserves des lres marques
-
 L’importance de la vente lui permet de ne jamais
 constituer de stock et de garantir à sa clientèle la qualité et la fraîcheur de ses marchandises
-
 Expéditions en tous pays
-
- 
-
-T7 TN]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001939_008.tif"/>
-<page><![CDATA[T
-
+T7 TN
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001939_008.tif'/>
+        <page>
+          <![CDATA[T
 TRANSPORTS FUNÈBRES
-
 Ancienne Maison MURITH, [DUPARC & FERT = Fondée en 1888
-
 A. MURITH s.a.
-
 GENÈVE - siège Sociai : Rue des Chaudronniers, 16
-
 Téléph. Stand 121 Service permanent
-
 Fabrique de. Cercueils Automobiles Funéraires
-
 L’Administration se charge, sans aucun déplacement pour les
 familles, de toutes les démarches et formalités relatives aux
-
 Inhumations — Exhumations — Incinérations —  Transports
-
 O CENTRAL-C DEUIL snesFa,16
-
 @
-
- 
-
- 
-
 Membres exécutants (sui/e)
-
 Contre-basses à cordes : MM. RicHTER - MAYER - Riccrou.
 Batterie : MM. KuLT - DELocHE - L. TRÈMÈGE - Ch. TRÈMÈGE
 DESCOMBES.
-
- 
-
 AVIS. — Les personnes qui désirent devenir « Membres
 passifs » de l’Harmonie Nautique peuvent s’inscrire au Vic-
 toria Hall ou à la Librairie Richard (80, rue du Rhône), et
 auprès des membres de la Société. — La carte de « membre
 passif » donne droit à deux entrées pour chaque concert donné
 par l’Harmonte Nautique.
-
- 
-
 Pour les cours d’élèves, s'adresser à M. G. Gabelles,
 directeur, au Victoria-Hall, de 11 à 12 h. 30. — Télép. St. 53.28.
-
- 
-
- 
-
- 
-
 Randor - Friederick
-
 SA
 FABRIQUE A CHÊNE-BOURG
-
- 
-
- 
-
 Lessives - Cristaux de soude
 Encaustiques
 Cires, Cierges, Bougies de Noël
-
 @ralsses surfines pour usages culinaires :
 Oleol - Alpina - Nostras - Etoile - Union
-
 Savons de ménage : Bougies :
-
 Souris - Lyre - Vénus - Chêne - Alpa | Couronne - Brillant - Diamant - Vénus
-
 k
-
- 
-
- 
-
 #
-
- 
-
- 
-
- 
- 
-
-    
-  
-
 À e e ps sq r e t P É RE
-
-  
-
 ;
 |
 s1
 l
 =
-|]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001939_009.tif"/>
-<page><![CDATA[CAFÉ DU COMMERCE
+|
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001939_009.tif'/>
+        <page>
+          <![CDATA[CAFÉ DU COMMERCE
 cu Jibolaré
-
 Dégustation réputée
-
 cForto Quinfo Do <Sabor
-
- 
-
 Auber n’a pas été populaire seulement en France, il l’a été en Italie,
 en Allemagne surtout.
-
 tichard Wagner le tenait pour un grand musicien, « ein grosser Musi-
 ker » disait-il à Hans Richter, qui partageait son opinion. (Ch. Malherbe).
-
 ses œuvres, lui survivront parce que la grâce et l’esprit sont immortels.
 Est-ce à dire qu’il n’avait pas la science aussi ? non vraiment. Mais il ne
 cherchait pas à en faire montre, il pensait qu’elle devait seconder l’inspi-
 ration et non la dominer. (Kæmp/er).
-
 Facilement intelligible et rare tout ensemble il a ce privilège d’attirer
 la popularité sans devenir jamais vulgaire. (H. Delaborde).
-
- 
-
- 
-
- 
-
 Union Mutuelle Musicale
 18, Corraterie G. FITY Mél SS 53
-
 ©
-
 Bureau de Concerts
 Location - Organisation
-
 Musique - Instruments
 Grand Choix
-
- 
-
- 
-
-—— Studio et Piano à disposition]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001939_010.tif"/>
-<page><![CDATA[Faites tous vos achats de
-
+—— Studio et Piano à disposition
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001939_010.tif'/>
+        <page>
+          <![CDATA[Faites tous vos achats de
 MUSIQUE
-
 et ACCESSOIRES ae GRAMOPHONES
 e DISQUES
-
 chez
-
 ROTSCHY FRÈRES, Corraterie, 22
-
- 
-
- 
-
 Le Maçon. Dans le Macon, représenté à l’Opéra-comique en 1825,
 abondent les idées mélodiques toutes de fraîcheur, de vivacité ou de
 bonhomnie.
-
 Le Serment date de 1832. Dans les couplets du capitaine Jean, le con-
 trebandier, attablé à l’auberge du village, se vante de sa vie d’aventures
 et de dangers.
-
 Le Lac des Fées (1839). L’ouverture résume la partition, sujet légen-
 daire et féérique, qui eut un grand succès, surtout en Allemagne.
-
 Auberiana est une « suite » sur des motifs d’Auber, qui permet d’appré-
 cier sa variété et sa richesse d’invention mélodique et rythmique.
-
- 
-
- 
-
- 
-
 57, Rue du Rhône et Grand-Quai,
 GENEVE
-
 Tennis
-
 RAQUETTES des meilleures marques anglaises
 et françaises
-
 BALLES - FILETS - PRESSES
 FOURRES - CHAUSSURES
-
- 
-
- 
-
- 
-
- 
-
- 
-
-TOUS LES SPORTS J]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001939_011.tif"/>
-<page><![CDATA[%%‘l
-
+TOUS LES SPORTS J
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001939_011.tif'/>
+        <page>
+          <![CDATA[%%‘l
 cLu
 Parasof IMNoderne
-
 1, Rue de la Croix-d Or (angle Molard)
-
 FABRIQUE :
 13, Place des Eaux-Vives (angle Terrassière)
-
 Maison de premier ordre
 fondée en 1906
-
 Si parla italano — Man spricht deutsch — English spoken
-
- 
-
- 
-
 BOIELDIEU. La Fête du Village voisin (1816).
-
 AMBROISE THOMAS. Le Caïd (1849), un opéra bouffe du grave auteur
 de Mignon et d’Hamlet.
-
 Les couplets du Tambour major, «tout galonné d’or» sont pleins de
 rondeur et de verve, comme d’ailleurs tout l’ouvrage.
-
 CH. GOUNOD. La Colombe, entr’acte (1860) écrite sur un charmant
 petit proverbe de Jules Barbier et Michel Carré, d’après un conte de la
 Fontaine… chef d’œuvre de goût et de finesse (entr’acte gracieux).
-
 LÉo DELIBES. Ouverture de Le Roi l'a dit (1873).
-
 L’auteur de Lakmé réussit la note bouffe et spirituelle au même degré
 que la note sentimentale et tendre. L’ouverture est une charmante pièce
 de musique symphonique en même temps qu’un pastiche de haut goùt
 avec la délicatesse de touche du compositeur de ces ballets exquis : Coppé-
 lia, Sylvia.
-
- 
-
 °
-
- 
-
- 
-
 CIDENTS
 8 Vol - Automobile
 ÿ O Dégâls d'eau
-
 Succursale pour (a Suisse française :
-
-  
-  
- 
-
- 
-
 cy (Stand 57
 12, Rue de Hesse - GENÈVE - TÉL. Stong sa
-
 Gaston MOISY, Insp., rue du Centre, 26
-
-Membre de l’Harmonie Nautique]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001939_012.tif"/>
-<page><![CDATA[Grand’Rue, 50 MONÎREUX Téléphone 1062
+Membre de l’Harmonie Nautique
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001939_012.tif'/>
+        <page>
+          <![CDATA[Grand’Rue, 50 MONÎREUX Téléphone 1062
 instruments de Musique
-
 Cuivres et bois
 ATELIERS DE RÉPARATIONS AVEC OUTILLAGE MODERNE DE PRÉCISION
 Spécialistes renommés
 pour saxophones, clarinettes, flûtes, hautbois et bassons de tous systèmes
 CATALOGUE ET PRIX-COURANT GRATIS ET FRANCO SUR DEMANDE
-
 Instruments des premières marques françaises au prix de fabrique en argent
 français au change au cours du jour
-
- 
-
 Le prochain concert
 aura lieu le 29 juin
 avec le concours de
 M. TROSSELLI, ténor
-
- 
-
- 
-
- 
-
 Fréd. AMSTUTZ
-
 >, Rue Petitot - Téléphone: Stand 12.73
-
 Habille chic Dames et Messieurs
-
 Haute Nouveauté
-Coupe parfaite]]></page>       
-        </p>
+Coupe parfaite
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

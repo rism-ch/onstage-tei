@@ -1,72 +1,80 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert populaire donné par l'orchestre de la Ville de Genève<date when="11/06/1876"/></title>
-<series>1875-1876?</series>
-<placeName>Palais électoral (Bâtiment électoral)</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert populaire donné par l'orchestre de la Ville de Genève
+            <date when='11/06/1876'/>
+          </title>
+          <series>1875-1876?</series>
+          <placeName>Genève, Palais électoral (Bâtiment électoral)</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VG2-1 F000901</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Senger, H. de</note>
+        <note>Kling, H. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18760611"/>
-<title>Concert populaire donné par l'orchestre de la Ville de Genève</title>
-<placeName key="Palais électoral (Bâtiment électoral)"/>
-<name key="1875-1876?" type="series"/>
-<name key="Meyerbeer, Giacomo" ref="https://muscat.rism.info/admin/people/725" type="person" role="cmp">Meyerbeer, Giacomo</name>
-<name key="Weber, Carl Maria von" ref="https://muscat.rism.info/admin/people/117485" type="person" role="cmp">Weber, Carl Maria von</name>
-<name key="Verdi, Giuseppe" ref="https://muscat.rism.info/admin/people/137994" type="person" role="cmp">Verdi, Giuseppe</name>
-<name key="Strauß, Johann" ref="https://muscat.rism.info/admin/people/132082" type="person" role="cmp">Strauß, Johann</name>
-<name key="Maillart, Aimé" ref="https://muscat.rism.info/admin/people/40205710" type="person" role="cmp">Maillart, Aimé</name>
-<name key="Berlioz, Hector" ref="https://muscat.rism.info/admin/people/13803" type="person" role="cmp">Berlioz, Hector</name>
-<name key="Senger, Franz Ludwig Hugo von  (dir.)" ref="https://muscat.rism.info/admin/people/30015297" type="person" role="int">Senger, Franz Ludwig Hugo von  (dir.)</name>
-<name key="Kling, Henri  (dir.)" ref="https://muscat.rism.info/admin/people/30022454" type="person" role="int">Kling, Henri  (dir.)</name>
-<name key="Orchestre de la Ville de Genève"  type="person" role="int">Orchestre de la Ville de Genève</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_1_f000901_001.tif"/>
-<page><![CDATA[CONCERT POPULAIRE
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18760611'/>
+        <title>Concert populaire donné par l'orchestre de la Ville de Genève</title>
+        <placeName key='Genève, Palais électoral (Bâtiment électoral)'/>
+        <name key='1875-1876?' type='series'/>
+        <name key='Meyerbeer, Giacomo' ref='https://muscat.rism.info/admin/people/725' type='person' role='cmp'>Meyerbeer, Giacomo</name>
+        <name key='Weber, Carl Maria von' ref='https://muscat.rism.info/admin/people/117485' type='person' role='cmp'>Weber, Carl Maria von</name>
+        <name key='Verdi, Giuseppe' ref='https://muscat.rism.info/admin/people/137994' type='person' role='cmp'>Verdi, Giuseppe</name>
+        <name key='Strauß, Johann' ref='https://muscat.rism.info/admin/people/132082' type='person' role='cmp'>Strauß, Johann</name>
+        <name key='Maillart, Aimé' ref='https://muscat.rism.info/admin/people/40205710' type='person' role='cmp'>Maillart, Aimé</name>
+        <name key='Berlioz, Hector' ref='https://muscat.rism.info/admin/people/13803' type='person' role='cmp'>Berlioz, Hector</name>
+        <name key='Senger, Franz Ludwig Hugo von' ref='https://muscat.rism.info/admin/people/30015297' type='person' role='int'>Senger, Franz Ludwig Hugo von</name>
+        <name key='Kling, Henri' ref='https://muscat.rism.info/admin/people/30022454' type='person' role='int'>Kling, Henri</name>
+        <name key='Orchestre de la Ville de Genève' type='person' role='int'>Orchestre de la Ville de Genève</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_1_f000901_001.tif'/>
+        <page>
+          <![CDATA[CONCERT POPULAIRE
 DONNÉ PAR
-
 ORCHESTRE DE LA VILLE DE GENEVE
-
 DIRIGÉ PAR
-
 MM. HUGO DE SENGER & H. KLING
-
 PROGRAMME :
-
 Marcie aux Flamieaux . e T S -Meyerbeer.
 vennreda +Fraschtz> 11 1 e 0s 0R Weober.
 3. Fantaisie sur « Rigoletto », arrangé par M. Kune . . . . 2 2 2 … Verdi.
@@ -74,18 +82,14 @@ vennreda +Fraschtz> 11 1 e 0s 0R Weober.
 9, Mantaisie sur les « Dragons de Villarss . . . . . . . .… . . . Madllard.
 E Os tn n e … Sirauss,
 7. Fantaisie sur « L’Africaine », arrangé par M. Kine . . . . « . …  Meyerbeer.
-
 8. Ouverture des«Franc-luge5. ce e 1 - Hector Renlion
-
 PRIX DU PROGRAMME : IO CENTIMES
-
- 
-
 Ë
 2 Y REN T A E N C N SE A ‘
-
-Genève, — Imp. coopérative, rue du Conseil-Général, 8.]]></page>       
-        </p>
+Genève, — Imp. coopérative, rue du Conseil-Général, 8.
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

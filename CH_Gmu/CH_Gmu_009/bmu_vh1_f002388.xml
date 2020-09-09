@@ -1,184 +1,141 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par l'Harmonie nautique<date when="11/02/1923"/></title>
-<series>1922-1923</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par l'Harmonie nautique
+            <date when='11/02/1923'/>
+          </title>
+          <series>1922-1923</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002388</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Gabelles, G.</note>
+        <note>Wend, O.</note>
+        <note>Koeckert, G. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19230211"/>
-<title>Concert donné par l'Harmonie nautique</title>
-<placeName key="Victoria Hall"/>
-<name key="1922-1923" type="series"/>
-<name key="Koeckert, Gustave"  type="person" role="cmp">Koeckert, Gustave</name>
-<name key="Chopin, Fryderyk Franciszek" ref="https://muscat.rism.info/admin/people/51160" type="person" role="cmp">Chopin, Fryderyk Franciszek</name>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Tinel, Edgar" ref="https://muscat.rism.info/admin/people/30017136" type="person" role="cmp">Tinel, Edgar</name>
-<name key="Jaques-Dalcroze, Emile" ref="https://muscat.rism.info/admin/people/109238" type="person" role="cmp">Jaques-Dalcroze, Emile</name>
-<name key="Saint-Saëns, Camille" ref="https://muscat.rism.info/admin/people/76734" type="person" role="cmp">Saint-Saëns, Camille</name>
-<name key="Hugo, Victor" ref="https://muscat.rism.info/admin/people/106306" type="person" role="cmp">Hugo, Victor</name>
-<name key="Gabelles, Gustave  (dir.)" ref="https://muscat.rism.info/admin/people/30073762" type="person" role="int">Gabelles, Gustave  (dir.)</name>
-<name key="Wend, O. (dir.)"  type="person" role="int">Wend, O. (dir.)</name>
-<name key="Koeckert, Gustave (dir.)"  type="person" role="int">Koeckert, Gustave (dir.)</name>
-<name key="Harmonie Nautique"  type="person" role="int">Harmonie Nautique</name>
-<name key="Cercle choral"  type="person" role="int">Cercle choral</name>
-<name key="Roesgen, Marguerite"  type="person" role="int">Roesgen, Marguerite</name>
-<name key="Delessert, Mag."  type="person" role="int">Delessert, Mag.</name>
-<name key="Pasche"  type="person" role="int">Pasche</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002388_001.tif"/>
-<page><![CDATA[Em£_—;æË…
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19230211'/>
+        <title>Concert donné par l'Harmonie nautique</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1922-1923' type='series'/>
+        <name key='Koeckert, Gustave' type='person' role='cmp'>Koeckert, Gustave</name>
+        <name key='Chopin, Fryderyk Franciszek' ref='https://muscat.rism.info/admin/people/51160' type='person' role='cmp'>Chopin, Fryderyk Franciszek</name>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Tinel, Edgar' ref='https://muscat.rism.info/admin/people/30017136' type='person' role='cmp'>Tinel, Edgar</name>
+        <name key='Jaques-Dalcroze, Emile' ref='https://muscat.rism.info/admin/people/109238' type='person' role='cmp'>Jaques-Dalcroze, Emile</name>
+        <name key='Saint-Saëns, Camille' ref='https://muscat.rism.info/admin/people/76734' type='person' role='cmp'>Saint-Saëns, Camille</name>
+        <name key='Hugo, Victor' ref='https://muscat.rism.info/admin/people/106306' type='person' role='cmp'>Hugo, Victor</name>
+        <name key='Gabelles, Gustave' ref='https://muscat.rism.info/admin/people/30073762' type='person' role='int'>Gabelles, Gustave</name>
+        <name key='Wend, O.' type='person' role='int'>Wend, O.</name>
+        <name key='Koeckert, Gustave' type='person' role='int'>Koeckert, Gustave</name>
+        <name key='Harmonie Nautique' type='person' role='int'>Harmonie Nautique</name>
+        <name key='Cercle choral' type='person' role='int'>Cercle choral</name>
+        <name key='Roesgen, Marguerite' type='person' role='int'>Roesgen, Marguerite</name>
+        <name key='Delessert, Mag.' type='person' role='int'>Delessert, Mag.</name>
+        <name key='Pasche' type='person' role='int'>Pasche</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002388_001.tif'/>
+        <page>
+          <![CDATA[Em£_—;æË…
 VICTORIA-HALL =
-
 Dimanche 11 février 1923
-
- 
-
 Ouverture = Ë On %
 des portes à ommencera =
 14 heures l = àa14h.45 ë
-
 donné par
-
 L'HARMONIE NAUTIQUE
-
 HARMONIE MUNICIPALE DE LA VILLE DE GENÈVE
 Directeur : M. GUSTAVE GABELLES, Professeur au Conservatoire
-
 avec le concours de
-
 Marguerite RŒSGEN Mme Mag. DELESSERT
-
 PIANISTE MEZZO-SOPRANO
-
 CERCLE CHORAL
-
 sous la direction de M. O. WEND, Professeur au Conservatoire
-
- 
-
- 
-
- 
-
 LES ERINNYES (fragments pour petit orchestre
 . d'harmonie) ; - . Gust. Kœckert
-
 a) Préiude. b) Marche des vieillards. c) Oreste retrouve sa sœur Electre.
 d) Scène des tapis.
 Sous la direction de l’auteur.
-
 BALLADE (en sol p 1 1 . 1.15 ChOPIN
-
 Marguerite RŒSGEN.
-
 TRISTAN ET YSEULT (Prélude et mortd’Yseult) Wagner
 y \s E E e Edgar Tine/
 b) MARCHE NOCTURNE DE LA VEILLÉE Jaques-Dalcroze
-
 CERCLE CHORAL. - Au piano: M. PASCHE.
-
 DEUXIÈME PARTIE
-
 ŒUVRES DE C. SAINT-SAENS
 DEUXIÈME CONCERTO (sol mineur). Piano et orchestre.
-
 à) Andante sostenuto. b) Scherzo. c) Finale.
 Marguerite RŒSGEN.
-
 LA FIANCÉE DU TIMBALIER (Ballade de Victor Hugo)
-
 Mme Mag. DELESSERT et L’HARMONIE NAUTIQUE.
-
 PREMIÈRE SYMPHONIE
-
 a) Adagio et allegro. b) Marche. - Scherzo. c) Allegro et finale.
-
 Piano de concert PLEYEL, aux soins de la maison Charles BERGUER
-
 DIMANCHE- 25 MARS 1923
 40"° ANNIVERSAIRE de l’Harmonie Nautique
-
 La Vie du Poète (drame musical en 3 actes), SO//, chœurs et harmonie (200 exécutants).
 Les Impressions d’Italie, de Gustave CHARPENTIER
-
- 
-
 ' ï . .
 Procurez=vous à [Ûnda5[rze JÙI«55€
 Place du Molard, angle Croïxed'Or
-
 la montre
-
- 
-
 Û Orf éber[, une de nos meilleures marques suisses
-
- 
-
-Imp Cnrapvis & BAUMEISTER, Coulouvrenière, 3, Genève]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002388_002.tif"/>
-<page><![CDATA[SOCIÉTIÉ DE
-
- 
-
+Imp Cnrapvis & BAUMEISTER, Coulouvrenière, 3, Genève
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002388_002.tif'/>
+        <page>
+          <![CDATA[SOCIÉTIÉ DE
 FONDÉE EN 1872
 Capital-actions et Réserves : 153 millions
-
 6-10, Corraterie - GENÈVE - corraterie, G-10
-
 CORNAVIN | EAUX-VIVES
 10, Piace de Cornavin | 2, Place des Eaux-Vives
 PLAINPALAIS | CAROUGE
-
 26, Rue de Carouge Rue du Marché
-
 TOUTES OPÉRATIONS DE BANQUE AUX MEILLEURES CONDITIONS
-
- 
-
- 
-
- 
-
- 
-
 TRISTAN ET YSEULT (Richard Wagner)
-
 Le 15 janvier 1854, Wagner écrit à Liszt : « Aucune de ces
 lernières années ne s'est écoulée sans qu'une fois au moins
 J'aie vu face à face l’idée de la solution extrème, sans que j'aie
@@ -195,69 +152,34 @@ assouvissement : j'ai dans la tête le plan d'un Tristan et
 Yseult, une œuvre absolument simple. où déborde la viela plus
 intense ; et, dans les plis du drapeau noir qui floite au dénoue-
 ment |L veux m c1ndn…»c pour mourir. »
-
- 
-
- 
-
 JARDIN ANGLAIE
 (Promenade du Lac)
-
 Pavillon de rafraîchissements tenu par M. L. FREY,
 restaurateur de la MAISON COMMUNALE DE PLAINPALAIS
-
- 
-
 —-— —-
-
 Du 1” juin au 31 août
-
-VE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002388_003.tif"/>
-<page><![CDATA[===s
-
+VE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002388_003.tif'/>
+        <page>
+          <![CDATA[===s
 (
-
- 
-
 Vétements pour Hommes
 Jeunes gens et Enfants
-
 Chapellerie, Chemiserie
-
- 
- 
- 
- 
-  
-  
-  
- 
-
 Bonneterie
-
 —0>
-
 VÊTEMENTS
 SUR MESURE
 PRIX SANS CONCURRENCE
-
 Fournisseurs de l'Harmonie Nautique
-
- 
-
- 
-
 GRANDE BRASSERIE CENTRALE
-
 |
-
 |
-
 En 1857, sous l’influence de la crise sentimentale que déter-
 mina sa passion pour Mathilde Wesendonk, Wagner aban-
 donna la Tétralogie et se mit à écrire la partition de Tristan.
-
 La loi de l’honneur interdit à Yseult d’aimer le meurtrier
 de son frère Morolt. Elle interdit de même à Tristan d’aimer
 la flancée de son roi, confiée à sa garde loyale. Tristan et Yseul
@@ -271,54 +193,29 @@ un commun anéantissement, leur sera enfin accordée et, dans
 une page sublime, Yseult, pour quelques instants, survivant à
 Tristan, dira le charme de l’Inconscience bienheureuse loin du
 monde décevant des cruelles apparences.
-
- 
-
 € l Nï a Téléphone: Stand 902
 Télégramme: Cintra-Genève
-
 Vente et dégustation des Vins fins du Portugal et de l’Espagne
 Anglo-American Drinks - Splritueux d’origine
-
 27, rue de la Confédération et Fusterie, 16 - Genève
-
- 
-
 CAFÉ-RESTAURANT
 CROIX-D'OR, 2
-
 Choucroute extra toute l’année
-
 TÉL. STAND 34.62
-
 BIÈRES et VINS de première qualité, — A. GSELL.
-
- 
-
- 
-
-—#]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002388_004.tif"/>
-<page><![CDATA[GARAGE CENTRAL
-
+—#
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002388_004.tif'/>
+        <page>
+          <![CDATA[GARAGE CENTRAL
 5, Rue du Diorama, GENÈVE |:
-
 SS SS SS SS SS SRS SRS SS SRS SS SS TS
-
 Albert HUBERT, Prop. _
-
 Représentant des autos |
-
 NAZZARO et CHENARD-WALCKER
-
 Grand atelier pour revisions
-
- 
-
- 
-
 CONCERTO POUR PIANO (Sol mineur) (C. Saint-Saëns)
-
 Des cinq concertos pour piano composés par M. Camille
 Saint-Saëns, celui-ci est, par ordre de date, le deuxième. Il fut
 exécuté pour la première fois par l’auteur aux Concerts Pas-
@@ -333,84 +230,36 @@ zando à 6/8, dont les deux thèmes sont d’un rythme élégant
 et d’une orchestration délicate, et d’un fougueux F#naley. Le
 concerto en sol mineur (op. 22) a été écrit en 1868 et dédié à
 M" la marquise A. de Villers, née de Haber.
-
 banque Populaire Suisse
-
 1, Quai des Bergues … GENÈVE =— Piace St-Gervais
-
- 
-
- 
-
 ACACIAS, 2, Route des Acacias, 2
 AGENCES : RIVE, 18, C* Rive - Bd Hoivétique, 28
-
 CAPITAL SOCIAL ET RÉSERVES : Fr. 118.000.000
-
 OUVERTURE DE CRÉDITS
 aux conditions les plus avantageuses
-
 COMPTES D’ÉPARGNE
-
 Escompte, Encaissement, Change, Coupons, Ordres de bourse, Lettres de Crédit
-
- 
-
- 
-
- 
-
- 
-
-{]]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002388_005.tif"/>
-<page><![CDATA[T r e
-
+{]
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002388_005.tif'/>
+        <page>
+          <![CDATA[T r e
 sn
-
 es d
-
-      
-   
-
- 
-
- 
-
 ‘Î’“ . .…
-
 Aimé KLING
 LUTHIER
-
 ù S RUE DIDAY, 12 (Entresol)
-
- 
-
 Entre le Théâtre et le Musée Rath
-
 1 INaiïson la mieux assortie en
-
 Diolons, Viofoncelles
-
 ef aufres instruments à cordes
-
 Les meilleures cordes farmoniques
 PAGANINI
-
 | ‘ RÉPARATIONS
-
 Téléphone Stand 11.24
-
- 
-
- 
-
- 
-
- 
-
 Fragments des ERINNYES, Musique de G. Kæckert
-
 Les fragments que l’on va entendre sont tirés d’une musique
 destinée à accompagner /es Erinnyes, tragédie antique en deux
 parties, en vers, de Leconte de Lisle. Le poète avait lui-même
@@ -420,65 +269,34 @@ la musique devrait être ici une sorte de décor sonore : elle passe
 au second plan de l’action dont elle est cependant inséparable.
 Mais le prélude, la marche des vieillards et la scène des
 tapis sont, pour ainsi dire, à découvert.
-
 Les Erinnyes sont les déesses de la justice outragée, de la
 vengeance. Ce sont elles qui inspirent les crimes dont le sang
 inonde le palais des Atrides,
-
 DELACROIXRICHE & C':
-
 57, Rue-du Rhône, 57
 88, Grand-Quai, 88
-
- 
-
 GENÈVE
-
- 
-
- 
-
- 
-
 Comparez nos prix!
 Ballons complets fr. 13.75, 15.—, 22.50,
 26.50 avec vessies coutchouc rouge supérieur.
-
 Maillotis en jersey coton, qualité extra
 forte, couleurs inaltérables, depuis fr. 4.75.
-
 Chaussures depuis fr. 16.75.
-
 TOUS LES SPORTS
-
-R E E A]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002388_006.tif"/>
-<page><![CDATA[Fleurs T{aturelles
-
- 
-
- 
-
- 
-
+R E E A
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002388_006.tif'/>
+        <page>
+          <![CDATA[Fleurs T{aturelles
 Fleurs coupées
-
 Location de Plantes
 pour Bals et choirées
-
 Bouguets, Couronnes
-
 CSpéc/a[ile‘ : Cravaux artistiques
 Decoration de tables en Fleurs naturelles
-
 CHARLES FLEURIOT
-
 Corraterie, 26 W Téléphone JStand 18-15
-
- 
-
- 
-
 Agamemnon, fils d’Atreus, revient en Grèce après dix ans
 d’absence. Il a battu les Trovens. À son retour, sa femme
 Clytemnestre l'assassine pour épouser Egisthe, son amant.
@@ -486,7 +304,6 @@ Leur fils, Oreste, d’accord avec sa sœur Electre, vient à son
 tour tuer sa mère pour venger son père. Son crime accompli, il
 sent sa raison s’égarer. Tel est le résumé très succinet du
 drame. V
-
 Le prélude musical cherche à exprimer d’abord la soif de
 vengeance, la haine acharnée des lsrinnyes, inspiratrices de
 tant d’horreurs et decrimes. Puis un solo de flüte, avec accompa-._
@@ -495,110 +312,65 @@ prêtresses dont les prières et les encens doivent calmer le
 courroux des Erinnyes. Mais leur haine ne s'apaise pas encore.
 Leurs cris de rage reprennent et ne s'arrêtent qu'au moment
 de l’invocation à Zeus.
-
- 
-
- 
-
- 
-
 PARASOLS ET
 ABRIS POUR JARDINS
-
 L. CORMIER, rabricanr
-
-9 2p5 - _ ‘ GENÈVE, 6, Rte des ACACIAS]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002388_007.tif"/>
-<page><![CDATA[RE AF RE
-
+9 2p5 - _ ‘ GENÈVE, 6, Rte des ACACIAS
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002388_007.tif'/>
+        <page>
+          <![CDATA[RE AF RE
 1E rr
-
- 
-
 SREE DIS d ésae SREE SU An AVs eN AN T RE
-
 \
 |
-
 |
 |
 i
 î
 |
-
 |'IÛ:—,:_: E E E e en e
-
 \ TRANSPORTS DE BAGAGES - VOYAGES
-
- 
-
- 
-
- 
-
- 
-
 J. Véron, Grauer & C°
-
 22, rue du Mont-Blanc, 22 - GENÈVE
-
 Agence de location de Théâtres et Concerts
 20, Terraillet, 20
-
 Assurances de bagcages et de voyage
 Billets de chemins de fer
 Passages pour tous pays
-
- 
-
- 
-
 Une sonnerie de trompette annonce la victoire des Grecs.
 C‘est la fin du prélude qui s’enchaîne directement à la marche
 des vieillards. C'est la première scène de la tragédie. Appuyés
 sur de hautes crosses, les vieillards entrent parle fond. Ignorant
 encore la victoire des Grecs, ils se lamentent sur le sort de leur
 pays et sur le leur.
-
 Le troisième fragment musical accompagne la scène où
 Klectre reconnait son frère, que l’on croyait mort. Il se présente
 sous le déguisement d’un voyageur étranger et vient venger le
 crime de sa mère. Il annonce d’abord à Électre que son frère
 est vivant, avant de lui déclarer qu’il est lui-même ce frère.
 Electre doute des paroles de l’inconnu.
-
 La Scène des Tapis, enfin (Scène V, première partie) est
 celle où les femmes de Clytemnestre étendent des tapis de
 pourpre devant Agamemnon, au moment où le roi, à son retour,
 doit pénétrer dans son palais.
-
- 
-
 Les cigaretfes éggpﬁennes
-
 È‘ à A TO
-
 HIIEAROOSOMIHEVOAASSONGOOOONENASHONEOOEONAUONKO00066600060000C0006 en 00oerabee0naooebastnsasaenon n ooosensoesobnosOot0000
-
-  
-
 sontf inconfesfablement les meilleures
-
 Demandez nos nouveautés Îo 100 petit format
-
-et 130 grand format avec bout or]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002388_008.tif"/>
-<page><![CDATA[——> _ ——_—_—_—____v -S In
-
+et 130 grand format avec bout or
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002388_008.tif'/>
+        <page>
+          <![CDATA[——> _ ——_—_—_—____v -S In
 | AÂvant de vous décider
 | pour l'achat d'un
-
 Visitez les magasins
 ROLISCHY Frères
 04, Rue du Stand, 04
-
- 
-
 Ce poème bien connu, tiré des Odes e Ballades, a fourni le
 cadre d’une scène lvrique, etl’on pourrait presque dire d’un duo
 | entre la voix et l’orchestre. Car, si le chant précise le sens de
@@ -613,39 +385,21 @@ ceau, la valeur d'un commentaire : tout détail concourt à l’effet
 général. Par la variété des tons et le souci des nuances, l’ins-
 trumentation évoque à nos yeux un véritable tableau, et c'est
 ici que les sons peuvent être justement comparés aux couleurs.
-
 |
 Ï
 i LA FIANCÉE DU TIMBALIER (C. Saint-Saëns)
 |
-
- 
-
 APPAREILLAGE SANITAIRE…. ==
 = — COUVERTURES MÉTA e
-
 Louis Sruber
-
 2 bis, Boulevard James-Fazy, 2 bis
 Téléphone Mt-Blanc 37-29 GEN ÈVE Téléphone Mt-Blanc 37-29
-
- 
-
- 
-
- 
-
- 
-
 CHAMBRES DE BAINS et APPAREILS SANITAIRES
 m— —— —— | w
-
- 
-
- 
-
-(A proximité immédiate de la poste) «.>]]></page>       
-        </p>
+(A proximité immédiate de la poste) «.>
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

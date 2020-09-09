@@ -1,136 +1,111 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert symphonique (Onzième de l'abonnement)<date when="11/03/1922"/></title>
-<series>1921-1922</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert symphonique (Onzième de l'abonnement)
+            <date when='11/03/1922'/>
+          </title>
+          <series>1921-1922</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002376</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Ansermet, E. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19220311"/>
-<title>Concert symphonique (Onzième de l'abonnement)</title>
-<placeName key="Victoria Hall"/>
-<name key="1921-1922" type="series"/>
-<name key="Mozart, Wolfgang Amadeus" ref="https://muscat.rism.info/admin/people/115324" type="person" role="cmp">Mozart, Wolfgang Amadeus</name>
-<name key="Vivaldi, Antonio" ref="https://muscat.rism.info/admin/people/30003267" type="person" role="cmp">Vivaldi, Antonio</name>
-<name key="Bach, Johann Sebastian" ref="https://muscat.rism.info/admin/people/2539" type="person" role="cmp">Bach, Johann Sebastian</name>
-<name key="Liszt, Franz" ref="https://muscat.rism.info/admin/people/107196" type="person" role="cmp">Liszt, Franz</name>
-<name key="Ansermet, Ernest  (dir.)" ref="https://muscat.rism.info/admin/people/40219507" type="person" role="int">Ansermet, Ernest  (dir.)</name>
-<name key="Orchestre de la Suisse Romande" ref="https://muscat.rism.info/admin/people/50007615" type="person" role="int">Orchestre de la Suisse Romande</name>
-<name key="Erb, Carl"  type="person" role="int">Erb, Carl</name>
-<name key="Closset"  type="person" role="int">Closset</name>
-<name key="Lacroix"  type="person" role="int">Lacroix</name>
-<name key="Sottiaux"  type="person" role="int">Sottiaux</name>
-<name key="Sanctis, de"  type="person" role="int">Sanctis, de</name>
-<name key="Albisi"  type="person" role="int">Albisi</name>
-<name key="Soravia, Th. (Mlle)"  type="person" role="int">Soravia, Th. (Mlle)</name>
-<name key="Barblan, Otto" ref="https://muscat.rism.info/admin/people/5298" type="person" role="int">Barblan, Otto</name>
-<name key="Liederkranz"  type="person" role="int">Liederkranz</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002376_001.tif"/>
-<page><![CDATA[e u sA
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19220311'/>
+        <title>Concert symphonique (Onzième de l'abonnement)</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1921-1922' type='series'/>
+        <name key='Mozart, Wolfgang Amadeus' ref='https://muscat.rism.info/admin/people/115324' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Vivaldi, Antonio' ref='https://muscat.rism.info/admin/people/30003267' type='person' role='cmp'>Vivaldi, Antonio</name>
+        <name key='Bach, Johann Sebastian' ref='https://muscat.rism.info/admin/people/2539' type='person' role='cmp'>Bach, Johann Sebastian</name>
+        <name key='Liszt, Franz' ref='https://muscat.rism.info/admin/people/107196' type='person' role='cmp'>Liszt, Franz</name>
+        <name key='Ansermet, Ernest' ref='https://muscat.rism.info/admin/people/40219507' type='person' role='int'>Ansermet, Ernest</name>
+        <name key='Orchestre de la Suisse Romande' ref='https://muscat.rism.info/admin/people/50007615' type='person' role='int'>Orchestre de la Suisse Romande</name>
+        <name key='Erb, Carl' type='person' role='int'>Erb, Carl</name>
+        <name key='Closset' type='person' role='int'>Closset</name>
+        <name key='Lacroix' type='person' role='int'>Lacroix</name>
+        <name key='Sottiaux' type='person' role='int'>Sottiaux</name>
+        <name key='Sanctis, de' type='person' role='int'>Sanctis, de</name>
+        <name key='Albisi' type='person' role='int'>Albisi</name>
+        <name key='Soravia, Th. (Mlle)' type='person' role='int'>Soravia, Th. (Mlle)</name>
+        <name key='Barblan, Otto' ref='https://muscat.rism.info/admin/people/5298' type='person' role='int'>Barblan, Otto</name>
+        <name key='Liederkranz' type='person' role='int'>Liederkranz</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002376_001.tif'/>
+        <page>
+          <![CDATA[e u sA
 | Saison 1921-1922
-
- 
-
- 
-
 ORCHEÆÎRE
-
 DELA
-
 SUISSE ROMANDE
-
- 
-
- 
-
-PROGRAMME OFFICIEL]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002376_002.tif"/>
-<page><![CDATA[L
-
+PROGRAMME OFFICIEL
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002376_002.tif'/>
+        <page>
+          <![CDATA[L
 AVIDOUDEZ
-
 LUTHIER DU CONSERVATOIRE
-
- 
-
 RUE GÉNÉRAL DUFOUR 22
 GENÈVE.
-
 SPÉCIALISTE
 pour la fabrication et la réparation des instruments à cordes.
-
 “Elève Oe Bernardel, à Paris, et de Mougenol, à Bruxelles.
-
 ” Deux Médailles d’or à Berne et à Lyon cù t914.
-
 VIOLONS NEUFS ET ANCIENS
-
 Archets - Etuis - Colophane, etc.
 ACHAT er ÉCHANGE
-
 Cordesjustés élite à bout jaune et noir.
-
 Les meilleures qui exvolent.
-
- 
-
 ;x
 20e
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 $
 à
 3
 ;
 1*
 ;
-
 ù
 |
 [5
@@ -142,161 +117,78 @@ $
 ;
 |ä
 4
-
 Lc
-
- 
-
-5ﬁm…m………………mwﬁvmwæv]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002376_003.tif"/>
-<page><![CDATA[ORCHESTRE DE LA SUISSE ROMANDE
+5ﬁm…m………………mwﬁvmwæv
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002376_003.tif'/>
+        <page>
+          <![CDATA[ORCHESTRE DE LA SUISSE ROMANDE
 VICTORIA-HALL
-
- 
-
- 
-
- 
-
 Samedi 11 mars 1922, à 20 h. et demie précises
-
 CONCERT SYMPHONIQUE
-
 (Onzième de l’abonnement)
-
- 
-
 Soliste : M Catl ERB. ténor
-
 de l'Opéra de Munich.
-
-   
- 
-   
-   
-   
-    
-          
-    
-        
-              
-
 PROGRAMME
-
 PREMIÈRE PARTIE
-
 1. Ouverture de LA CLÉMENCE DE TITUS /ozart
 2. CONCERTO GROSSO en /a mineur, pour
-
 insirumentsé-#cordes., ... Vivaloi
 a) Allegro moderato. — 6) Adagio. — c) Allegro.
-
 Solistes : MM. Crosser, Lacroix, SorTiaux,
 DE SANCTIS.
-
 3. a) Pastorale de l'ORATORIO DE NOËL
 b) CANTATE n° 55, pour le xxi° dimanche
-
 après la Trinité, Zch armer Mensch
 Ténor : M. Carl ERB.
 Flûte solo : M. ArBis1.
 Cembalo : M!!® Th. Soravia.
-
 J.-S. Bach
-
 S
-
- 
-
- 
-
-      
-    
-       
-    
-    
-   
-   
-        
-          
- 
-
 DEUXIÈME PARTIE
-
 4. Une SYMPHONIE sur FAUST, en trois
 portraits de caractère (d’après Gæthe) ...  F. Liszl
-
 a) Faust.
-
 b) Marguerite.
-
 c) Mephistophelès.
 (Chœur final, avec ténor solo et orgue).
 Ténor : M. Carl ERB.
 Orgue : M. le prof. BARBLAN.
-
 L'orchestre sera dirigé par
-
 M. Ernest ANSERMET
-
 Les chœurs seront chantés par le Chœur d'hommes LIEDERK RANZ
 el un chœur de dames, préparés par H. Paul BŒPPLE,.
-
 Le Concert commencera à 20 h.
-
 1 v n 1
 /2 precises et sera terminé vers 22 h. /3.
 La direction se réserve le droit
-
 d'apporter au programme toutes modifications que
 les circonstances pourraient lui imposer.
 Les porles seronl rigoureusement fermées pendant l’exécution Oes morceaux.
-
 H, JARRYS, GENEVE
-
-Prix : 50 centimes.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002376_004.tif"/>
-<page><![CDATA[PEEUS
-
- 
-
+Prix : 50 centimes.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002376_004.tif'/>
+        <page>
+          <![CDATA[PEEUS
 ‘KimMÉ KLING
-
 Luthier
-
- 
-        
-    
-  
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 VIOLONS ANCIENS | ]
 ET MODERNES l 8
-
 Violoncc—:Hes, Altos |
 | F @
 : Contrehasses F
 Ï LES MEILLEURES CORDES |
 :: T1 l)0ul. des Pkilosophes. 1* étage \ ; :
-‘â TÉrÉPHONE : STAND 11.24 GENEVE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002376_005.tif"/>
-<page><![CDATA[Jean-Sebastien BACH
-
+‘â TÉrÉPHONE : STAND 11.24 GENEVE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002376_005.tif'/>
+        <page>
+          <![CDATA[Jean-Sebastien BACH
 1685 - l750,
-
 Bach avait écrit, selon les notices du temps, cinq « années » de
 canfates pour tous les dimanches et jours de fêtes du calendrier
 liturgique. Il nous en reste 190. La cantate lIch armer Mensch est
@@ -312,22 +204,16 @@ seulement pour flûte, ténor et continuo. Le choix de la flûte, avec
 ses fraits rapides et ses plaintes douces est ici un exemple typique
 de la manière dont Bach traduisait dans l’instrumentation ses
 infentions expressives.
-
 CANTATE n° 55, pour le XXII dimanche après la Trinité.
-
 Air. — Ténor.
-
 Ich armer Mensch, ich Sünden- Homme  miserable, que je suis,
 knecht, ich geh' vor Gottes Angesichte pauvre pécheur, je m'approche de la
 mit Furcht und Zittern zum Gerichte; face de Dieu en tremblant et tout
 er ist gerecht, ich ungerecht. effrayé, afin d'être jugé. Il est juste, et
-
 moi je suis pécheur.
-
 Récrrane. — Ténor.
 Ich habe wider Gott gehandelt, und J'ai agi contre Dieu et je n'’ai pas
 bin demselben Pfad, den er mir vor- _ marché dans la voie qu'il m'a prescrite.
-
 geschrieben hat, nicht nachgewandelt.  Où aller? Si je prends les ailes de
 Wohin! soll ich der Morgenrôthe l’aurore pour m'enfuir vers la mer la
 Flügel zu meiner Flucht erkiesen, die plus lointaine, la main du Tout-Puissant
@@ -342,89 +228,49 @@ mich nicht, sie droht mich Scheusal les cieux, là habite Dieu, qui me
 zu verschlingen, und will ich mich zum — condamne.
 Himmel schwingen, da wohnet Gott
 der mir das Urtheil spricht.
-
 Air. — Ténor.
-
 Erbarme dich, lass die Thränen dich Aie pitié de moi ! laisse-toi toucher
 erweichen, lass sie dir zu Herzen
 reichen, erbarme dich! Lass, um Jesu
 Christi willen, deinen Zorn des Eifers
 stillen.
-
 par mes larmes, laisse-les attendrir ton
 cœur, aie pitié de moi ! Par l’amour de
-Jésus-Christ, apaise ton courroux.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002376_006.tif"/>
-<page><![CDATA[Musique et Instruments
-
+Jésus-Christ, apaise ton courroux.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002376_006.tif'/>
+        <page>
+          <![CDATA[Musique et Instruments
 ROTSCHY Frères
 22, Corraterie - GENÈVE
-
 ont en magasin, pour la vente, les
 PARTITIONS D’ORGHESTRE, petit format, de toutes les
 œuvres jouées dans les concerts d’abonnement,
 pour autant qu’elles ont été publiées.
-
 se
-
 ABONNEMENT
 Îrès bien assorti, complété par toutes les œuvres indiquées au
-
 programme des concerts d’abonnement. Conditions très favorables.
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 ROJOUX & SCHAUFELBERGER
-
 Téléphone.- AUX RUES BASSES
 Stand 19:76 MAISON GENEVOISE Fonpée en 1817
-
 .0Qo0
-
 Ascenseur
-
 MERCERIE - NOUVEAUTÉS - BONNETERIE - RUBANS
-
 DENNMELIÉES , VOILETTES - ARTICÉES DE TOILETMTE
-
 GANTS - BAS - SPÉCIALITÉ D’ARTICLES A BRODER
 SOIERIES - DOUBLURES - JUPONS
-
 Lingerie pour Dames et Enfants. — Articles pour bébés.
-
 VOIR LES ETALAGES
-
 Réciamez aux caisses les tickets-prime donnant droit à un beau
 livre moyennant 25 francs d'achats en trois mois.
-
- 
-
- 
-
- 
-
-  
-
- 
-
- 
-
- 
-
-——]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002376_007.tif"/>
-<page><![CDATA[Récrranr. — Ténor.
-
+——
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002376_007.tif'/>
+        <page>
+          <![CDATA[Récrranr. — Ténor.
 Erbarme dich ! Jedoch nun träst’ ich Aie pitié de moi! — Cependant, 1l
 mich ; ich will nicht vor Gerichte stehen,  me reste une consolation. Je ne me
 und lieber vor den Gnadenthron zu presenteran pas devant le tribunal du
@@ -435,37 +281,27 @@ bezahlet und genüge gethan, und bitt!  et de sa rédemption, je lui dirai com-
 ihn um Geduld : hiefür will ich’s nicht  ment il a payé pour mes fautes et
 mehr thun. So nimmt mich Gott zu _ comment il m'a racheté, et je le sup-
 Gnaden wieder an. plicrai d'être miséricordieux ; mainte-
-
 nant je ne pécherai plus jamais. Ainsi
 Dieu m'accordera sa grâce.
-
 CHorar.
 Bin ich gleich von dir gewichen, S1 même je t'ai abandonné
 Stell’ ich mich doch wieder ein, Je reviendrai auprès de toi.
 Hat uns doch dein Sohn verglichen Ton Fils nous a rachetes
 Durch sein’ Angst und Todespein. Par ses angoisses et sa passion .
-
 Ich verleugne nicht die Schuld,
 Aber deine Gnad’ und Huld
 Ist viel grôsser als die Sinde,
 Die ich stets in mir befinden.
-
 Je ne dissimule pas ma faute,
-
 Mais ta grâce est plus grande,
 Bien plus grande que le péché
 Qun est toujours en moi.
-
 J
 Eranz PI15Z1
-
 UNE SYHPHONIE SUR FAUST
 en trois portraits de caractères (d'après Gæthe).
-
 Lorsque Beethoven écrivait la neuvième symphonie, il prenait
-
 ‘congé, en quelque sorte, de la tradition d’où étaient sorties ses
-
 œuvres anférieures, il disait un adieu solennel et sans retour à la
 conception d’une musique instrumentale se suffisant à elle-même et
 tirant d’elle-même sa justification. Sans retour, il semble bien qu'’on
@@ -480,40 +316,29 @@ dans ses poèmes symphoniques et ses symphonies sur Dante et sur
 Faust. En ce sens et par ces œuvres, Liszt nous apparaît comme
 l'héritier et le continuateur direct de Beethoven. Il convient de
 remarquer, en effet, qu’en cédant au désir de mettre la musique au
-
-service de l'idée philosophique ou poétique, Liszt n’essayait pas]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002376_008.tif"/>
-<page><![CDATA[@”>«= SAUTIER &
-
+service de l'idée philosophique ou poétique, Liszt n’essayait pas
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002376_008.tif'/>
+        <page>
+          <![CDATA[@”>«= SAUTIER &
 I2,Fusterie.
-
 JAEGER <
-
 Tel: Stand. 21-24.
-
 Q
 \g VENTE ET LOCATION
-
 LE TRANSPORTS - ACCORDS : RÉPARATIONS
-
 = = >\
 ,
 $$CONTENT$$Œî*‘ô/æ 2
-
-    
- 
-   
-
 —0
-
- 
-
- 
-
 G7 z PLACEn MOLERP3 N
-î‘.:äîä. GENÈVE | DeurscH]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002376_009.tif"/>
-<page><![CDATA[d'outrepasser sa nature, telle que l’avait sentie Beethoven. Ses sujets
+î‘.:äîä. GENÈVE | DeurscH
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002376_009.tif'/>
+        <page>
+          <![CDATA[d'outrepasser sa nature, telle que l’avait sentie Beethoven. Ses sujets
 ne lui fournissent qu’un état d’âme, que son œuvre commente par
 des moyens proprement musicaux. Pour lui, comme pour Schopen-
 hauer, « la musique peut tout exprimer, hormis le phénomène ».
@@ -533,7 +358,6 @@ d'une puissance, d’une générosité inappréciables. C'’est ce qui fait
 en particulier de la Faust-Symphonie la source d’innombrables
 œuvres modernes, une source où Wagner le premier s’est abondam-
 ment pourvu.
-
 Sur la signification de Liszt symphoniste, on consulterait avec
 fruit les articles que M. Robert Godet lui a consacrés dans la
 Musique en Suisse (année 1902), auxquels sont empruntées quelques-
@@ -542,9 +366,6 @@ unes des phrases qui précèdent. C’est encore des notes que M. Godet
 de définir dans ses traits principaux la Fausl-Symphonie — en priant
 le lecteur de ne pas attribuer à notre source les insuffisances d’un
 exposé aussi succinct que possible.
-
- 
-
 On pourrait donner comme motto à la Faust-Symphonie ce vers
 du poème de Gœthe : Zwei Seelen, ach! wobnen in meiner Brust (deux
 âmes, hélas, habitent ma poitrine). Ces deux âmes dont le conflit
@@ -552,66 +373,43 @@ et tour à tour l’accord forment tout l’essentiel du drame faustien,
 ce sont elles, dans Liszt, que caractérise la musique, sans souci de
 l’anecdote où Gæthe poète est obligé de recourir. Cette musique
 ne comporte donc aucun programme et n’illustre pas non plus, à
-
- 
-
- 
-
 proprement parler, des physionomies distinctes. Fauvl contient
 Méphistophélès et Marguerite, comme le Purgatoire de Dante parti-
 cipe du ciel et de l’enfer. On ne saurait d’ailleurs enfermer dans
 une formule comme « enfer » et « ciel », par exemple, le sens de ces
 deux éléments de l’âme humaine. L’élément méphistophélique, lors-
-qu'il prend le dessus, se réduit sans doute à l’esprit destructeur,]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002376_010.tif"/>
-<page><![CDATA[äane Canton
-
+qu'il prend le dessus, se réduit sans doute à l’esprit destructeur,
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002376_010.tif'/>
+        <page>
+          <![CDATA[äane Canton
 “Haute Couture
-
 Rue du Frince, 11 Téléphone
 Rue de Kive, 3 Stfand 35.32
-
- 
-
- 
-
 r
-
 V>c C
-
- 
-
- 
-
 Ê
-
 (3 CCC e DS S T C D
-
 AU SOÀCEHL
-
 2, PLACE DU MOLARD
 A COTÉ DE LA TOUR
 TÉLÉPHONE : STAND 67.24
-
 -ey K=
-
 GRAND CHOIX
 DES DERNIÈRES
 NOUVEAUTÉS EN
-
 CHAUSSURES
-
 DIVTIELE
 ET DU SOIR
 AUXS PRIX L'ES
 PLUS BAS
-
- 
-
-%]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002376_011.tif"/>
-<page><![CDATA[PS e e r rrr r r t rrr
-
+%
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002376_011.tif'/>
+        <page>
+          <![CDATA[PS e e r rrr r r t rrr
 mais plus généralement 1l est le « doute », tour à tour désespéré et
 fécond, l'esprit d’analyse, qui n’est point irrémédiablement voué à
 la stérilité, puisqu’il trouve un chemin de foi — par l’action. Mar-
@@ -623,24 +421,14 @@ convaincante, suggérant avec le plus de grâce et d’éloquence l’idée
 de l’amour partout en travail dans la nature vivante. L’élément
 qu'elle éveille en l’âme de Faust est donc un élément de « foi », le
 positif, l’intuitif de sa nature.
-
 L'introduction de l’œuvre musicale pose d’emblée l’opposition et
 le conflit de ces deux éléments, incarnés dans deux motifs essentiels
 qui alimenteront toutes les parties de la symphonie (élément « doute » :
 moftif 1 ; élément « foi»: motif 2).
-
- 
-  
-
 -
 e pc P
-
 & Æ
-
 erprrrerecez p fn }
-
- 
-
 Mais ce conflit ne sera fécond que mis en œuvre dans une Âme
 vivante. Et c’est l’expression d’une âme individuelle, en proie à ses
 passions essenfielles, qui va se manifester, l’introduction achevée,
@@ -654,108 +442,52 @@ une loi divine ou naturelle. Et alors, après une transition recueillie
 comme une suspension d’armes, l’amour répond, dans un deuxième
 groupe thématique, à ces premiers mouvements de l’Ame faustienne
 — forme chantante, expressive du motif 2, toute fraîcheur, toute
-
 ! © ° , C » . .
 féminité. Mais l agitation reprend, un nouvel élément s’énonce encore :
-
- 
-
 « Am Anfang war die That » dit le poème ; c’est bien, semble-t-il,
 la loi d’action qui s’impose à Faust et s’exprime par ce motif
 énergétique.
-
 = ; ; L , , “
 Ainsi tous les éléments de l’œuvre sont exposés, l’«exposition »
-
- 
-
 |
 r
 |
 F
 |
-] À]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002376_012.tif"/>
-<page><![CDATA[Broderies d'Art
-
+] À
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002376_012.tif'/>
+        <page>
+          <![CDATA[Broderies d'Art
 OUVRAGES DE DAMES
-
 Ÿlanche Ris
-
 Œassage des Loions, 17
-
 Anciennement rue de [a Confédération
-
 Senève
-
- 
- 
-
-    
-
 TÉLEPHONE STAND 52.64
-
 AN ENUET
-
 .‘[Ill'(! ue ./upup/ e
-
- 
-
- 
-
- 
-
-     
-    
- 
-
- 
-
- 
-
- 
-
- 
-
 MÉTROPOLE GARAGE
-
 Mercier, Pictet, Mallet & Co
 GENÈVE — 6, Rue d’Italie, 6 — GENÈVE
 TÉLÉPHONE STAND 40.22
-
-  
-   
- 
- 
-   
- 
-
 es
-
 PE US CN
 BB PI IS MODERNE
-
 Voitures de luxe. de tourisme et d’occasion aux meilleures conditions
-
- 
-
 Atelier spécialement ontillé pour revisions soignées et rapides
-
- 
-
- 
-
-LP,]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002376_013.tif"/>
-<page><![CDATA[_
-
+LP,
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002376_013.tif'/>
+        <page>
+          <![CDATA[_
 de la forme-sonate est achevée. Son développement permettra de
 faire sentir le conflit des éléments «action» et «doute», et plus
 fard, dans un andante mesto, des éléments «amour» et «doute ».
-
 Mais Faust retourne à sa recherche passionnée — c’est la réexpo-
 sition — de nouveau la voix de l’amour se fait entendre, avec plus
-
 de confiance, semble-t-il, et c’est aussi plus persuasif, plus individuel
 que sonne, monodiquement, à la trompette le motif « action » (3) qui
 semble s’élargir ensuite dans un appel plus général. Alors un nouvel
@@ -767,7 +499,6 @@ raître la parenté secrète du motif 3 et du motif 1, la face « doute »
 de cette loi d’« action » mise à l’épreuve, et en fin de compte (motif 2),
 l'âme déçue reconnaît qu’elle ne se satisfera pas à moins d’étreindre
 le Dieu qui est amour.
-
 Le second mouvement de la symphonie, Gretchen, est un lied fondé
 sur deux éléments qui lui sont propres. Le premier est de nature
 purement mélodique (énoncé d’abord par le hautbois), élément
@@ -789,42 +520,25 @@ métamorphose du premier thème du premier mouvement, où l’acti-
 vité passionnée de Faust s’est apaisée, et tout empreinte de suavité
 et de fraîcheur. C’est encore un doux rappel du motif d’« action » (3
 qui fermine l’œuvre, comme pour ramener cefte rêverie à la réalité.
-
 Le troisième mouvement de la symphonie, Méphistophélès, est
 aussi le plus complexe, le plus riche d’invention, de nouveauté, de
 génialité. Disons, en gros, qu‘il reproduit à peu près le plan de
 composition du premier, avec les mêmes éléments, mais transfigurés
-
- 
-
-— e e N]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002376_014.tif"/>
-<page><![CDATA[— SIRENEESEE ETE
-
- 
-
- 
- 
- 
-
- 
-
+— e e N
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002376_014.tif'/>
+        <page>
+          <![CDATA[— SIRENEESEE ETE
 de nouveau, devenus cinglants, heurtés, déchiquetés. Ce n'’est
 portant pas seulement une sorte de caricature de Faust. La seule
 considération de l’élément sarcastique appliqué tout au long du
-
 premier mouvement ne suffit pas à expliquer l'intérêt de ce morceau.
-
 |
-
 |
-
 |
-
 |
-
 |
-
 Ë Une pensée plus riche a sollicité le sens créateur de Liszt. Certes,
 | l’introduction à ce mouvement annonce bien l’esprit destructeur.
 i Mais sitôt que cette vie d’homme figurée dans le premier mouve- _
@@ -834,7 +548,6 @@ d’éléments divers — efforts, douleurs — vont s’y manifester! Le
 premier thème (la passion faustienne) y est haletant, mais la joie
 du savoir s’y fait sentir, comme dans une danse de Zarathoustra ; p
 et lorsque Faust méphistophélique martèle le thème d’amour,
-
 | n’est-ce pas pour enfoncer des clous dans sa chair même ? Ce même
 | thème d’amour, transformé en fugue — sorte d’élaboration scienti-
 | fique du sentiment — conduit au thème d'action (5) où éclate la
@@ -850,102 +563,70 @@ dans l’âme de Faut ne s’est pas résolu par la victoire d'un des
 traînée d’harmonies mystérieuses élargit le chant individuel vers le
 chant collectif; le chœur, dominé par le ténor solo, soutenu par
 l’orchestre et l’orgue, va résumer la pensée du poète. Sur le rythme
-
 rr ps ce
-
 { du motif 1, il entonne ces paroles :
-
 ’ ‘g Alles vergängliches Das Unbeschreibliche . [
-
 ‘ | Ist nur ein Gleichniss, Hier wird es gethan. }
 Das Unzulängliche, Das ewig weibliche '
 Hier wird’s Ereigniss. Zieht uns hinan.
-
 que l’on pourrait transcrire en français à peu près ainsi ;
-
 Tout l’éphémère n'est qu’un symbole — |
 Ce qui n’était qu’ébauche, ici prend figure. .
 Ce qui passait les mots, ici s'accomplit :
 C'’est l’éternel attrait du féminin mystère, qui nous soulève de terre. Î
-
 Autour des dernières paroles du chœur, le motif 5 (« action »)
-
- 
-
-sonne comme des cloches pour la péroraison de l’œuvre. Ë]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002376_015.tif"/>
-<page><![CDATA[LIBRAIRIE
+sonne comme des cloches pour la péroraison de l’œuvre. Ë
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002376_015.tif'/>
+        <page>
+          <![CDATA[LIBRAIRIE
 /{‘ NAVILLE & C'
 AGENCE pes JOURNAUX
-
 $-7, Tue Lévrier - GENÈVE.
 TÉLEPHONE : MonTr-Branc 64
-
 Beau choix de livres pour cadeaux, bel
-
 ; assortiment de volumes reliés, Ouvrages
-
 \{'_,1 de luxe illustrés, livres pour enfants,
 2n ‘… livres classiques, musique, etc:
-
 | ® MWW'EË Grand choix de Journaux de Mode,
 ____'_‘L'Ïl_'__._‘!_‘i de Magazines et de Revues
 RUE DU MONT-BLANC ' aux meilleures conditions.
-
 LIBRAIRIE NAVILLE &:C° ,
-
 Le prix marqué sur tous les livres
-
 AG€Nç€ es JOURNAUX - GENEVE français est celui en vigueur en France.
-
 Abonnements à tous les journaux aux meilleures conditions,
-
 4
-
- 
-
- 
-
- 
-
 Jl'oubliez pas gue
-
 J. Véron, Grauer & C
-
 ; JaccarsaIè au Cerraïllet
-
 2E en
-
 Genève
-
 se chargent, dans les meilleures conditions, de ( ‘organisation
-
 PMSN ME PE vn
-
 - complète de Concerts, Tournées, efc.
-
 O
-
 V}C-é[e'pvﬁàr2]e‘& Direction ; cftand 550
-
-| Service des locations : Stand 31.64]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002376_016.tif"/>
-<page><![CDATA[Maison Genevoise fondée en 1822 ;
+| Service des locations : Stand 31.64
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002376_016.tif'/>
+        <page>
+          <![CDATA[Maison Genevoise fondée en 1822 ;
 La plus ancienne ; ‘
-
 Za plus importonte
 en
-
 —s s=== -
-
 JSoieries -Velours
 Tissus en tous genres
 Colifichets &
 Blouses - Jupons
 Bonneterie de Joie .
 “ Bas - Gants _
-Téléphone: |]]></page>       
-        </p>
+Téléphone: |
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

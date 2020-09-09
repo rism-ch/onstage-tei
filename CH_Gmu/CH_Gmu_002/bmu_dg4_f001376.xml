@@ -1,171 +1,137 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Fête de bienfaisance<date when="30/01/1880"/></title>
-<series>1879-1880</series>
-<placeName>Bâtiment électoral</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Fête de bienfaisance
+            <date when='30/01/1880'/>
+          </title>
+          <series>1879-1880</series>
+          <placeName>Genève, Bâtiment électoral</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU DG4 F001376</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Senger, H. de</note>
+        <note>Bergalonne</note>
+        <note>Ketten, L. (dir)</note>
+        <note>Date présumée</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18800130"/>
-<title>Fête de bienfaisance</title>
-<placeName key="Bâtiment électoral"/>
-<name key="1879-1880" type="series"/>
-<name key="Senger, Franz Ludwig Hugo von  (dir.)" ref="https://muscat.rism.info/admin/people/30015297" type="person" role="cmp">Senger, Franz Ludwig Hugo von  (dir.)</name>
-<name key="Ketten, Léopold"  type="person" role="cmp">Ketten, Léopold</name>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Allard"  type="person" role="cmp">Allard</name>
-<name key="Cherubini, Luigi" ref="https://muscat.rism.info/admin/people/50253" type="person" role="cmp">Cherubini, Luigi</name>
-<name key="Händel, Georg Friedrich" ref="https://muscat.rism.info/admin/people/36552" type="person" role="cmp">Händel, Georg Friedrich</name>
-<name key="Rossini, Gioachino" ref="https://muscat.rism.info/admin/people/63766" type="person" role="cmp">Rossini, Gioachino</name>
-<name key="Senger, Franz Ludwig Hugo von" ref="https://muscat.rism.info/admin/people/30015297" type="person" role="int">Senger, Franz Ludwig Hugo von</name>
-<name key="Bergalonne"  type="person" role="int">Bergalonne</name>
-<name key="Ketten, Léopold (dir.)"  type="person" role="int">Ketten, Léopold (dir.)</name>
-<name key="Cercle des Beaux-Arts"  type="person" role="int">Cercle des Beaux-Arts</name>
-<name key="Société de chant du Conservatoire de Genève" ref="https://muscat.rism.info/admin/people/30079944" type="person" role="int">Société de chant du Conservatoire de Genève</name>
-<name key="Société de chant sacré"  type="person" role="int">Société de chant sacré</name>
-<name key="La Cécilienne"  type="person" role="int">La Cécilienne</name>
-<name key="La Muse"  type="person" role="int">La Muse</name>
-<name key="Orchestre du nouveau théâtre"  type="person" role="int">Orchestre du nouveau théâtre</name>
-<name key="Carrière"  type="person" role="int">Carrière</name>
-<name key="Pons"  type="person" role="int">Pons</name>
-<name key="Badiali"  type="person" role="int">Badiali</name>
-<name key="Lévi, Isidore"  type="person" role="int">Lévi, Isidore</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f001376_001.tif"/>
-<page><![CDATA[t. ]îmr tout ce qui cond
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18800130'/>
+        <title>Fête de bienfaisance</title>
+        <placeName key='Genève, Bâtiment électoral'/>
+        <name key='1879-1880' type='series'/>
+        <name key='Senger, Franz Ludwig Hugo von  (dir.)' ref='https://muscat.rism.info/admin/people/30015297' type='person' role='cmp'>Senger, Franz Ludwig Hugo von (dir.)</name>
+        <name key='Ketten, Léopold' type='person' role='cmp'>Ketten, Léopold</name>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Allard' type='person' role='cmp'>Allard</name>
+        <name key='Cherubini, Luigi' ref='https://muscat.rism.info/admin/people/50253' type='person' role='cmp'>Cherubini, Luigi</name>
+        <name key='Händel, Georg Friedrich' ref='https://muscat.rism.info/admin/people/36552' type='person' role='cmp'>Händel, Georg Friedrich</name>
+        <name key='Rossini, Gioachino' ref='https://muscat.rism.info/admin/people/63766' type='person' role='cmp'>Rossini, Gioachino</name>
+        <name key='Senger, Franz Ludwig Hugo von' ref='https://muscat.rism.info/admin/people/30015297' type='person' role='int'>Senger, Franz Ludwig Hugo von</name>
+        <name key='Bergalonne' type='person' role='int'>Bergalonne</name>
+        <name key='Ketten, Léopold' type='person' role='int'>Ketten, Léopold</name>
+        <name key='Cercle des Beaux-Arts' type='person' role='int'>Cercle des Beaux-Arts</name>
+        <name key='Société de chant du Conservatoire de Genève' ref='https://muscat.rism.info/admin/people/30079944' type='person' role='int'>Société de chant du Conservatoire de Genève</name>
+        <name key='Société de chant sacré' type='person' role='int'>Société de chant sacré</name>
+        <name key='La Cécilienne' type='person' role='int'>La Cécilienne</name>
+        <name key='La Muse' type='person' role='int'>La Muse</name>
+        <name key='Orchestre du nouveau théâtre' type='person' role='int'>Orchestre du nouveau théâtre</name>
+        <name key='Carrière' type='person' role='int'>Carrière</name>
+        <name key='Pons' type='person' role='int'>Pons</name>
+        <name key='Badiali' type='person' role='int'>Badiali</name>
+        <name key='Lévi, Isidore' type='person' role='int'>Lévi, Isidore</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f001376_001.tif'/>
+        <page>
+          <![CDATA[t. ]îmr tout ce qui cond
 n ä£abénn‘ements aux artistes. \ l’Imprimerie J. Q
-
 #
-
- 
-
 BATIMENT ÉLECTORAL
-
 \
-
- 
-
- 
-
 s*
-
 O,
-
 FÊT
 ENFAISANCE
-
 SSN TO SN rr
-
 - CONCERT-FENTIVAL
-
 Donné avec le bienveillant concours
-
- 
-
- 
-
- 
-
- 
-
 du Cercle des Beaux-Arts ; de la Société de Chant du Con-
 servatoire et la Société da chant Sacré réunies; de MM.
 Carrière, Pons et Badiali, du Nouveau Théâtre ; de MM. les
 chefs d’orchestre Hugo de Senger et Bergalonne: Isidore
 Lévi; des sociétés chorales La Cécilienne et La Muse, et de
 l'Orchestre du Nouveau Théâtre.
-
 PROGRAMME :
-
 PREMIÈRE PARTIE
-
 . Prélude pour orchestre H. de Senger.
-
 - Invocation au Soleil, chœur mixte, paroles de M. D. Moriaud
-
 (Société de chant du Conservatoire et Chant sa-
-
 eré réunies), sous la divection de M. Ketten L. Ketten.
 . Grande marche, avec chœur du Tannhauser, par les mè-
-
 mes sociétés, sous la direction de M. H. de Senger Wagner.
- Grande fantaisie sur la Muette, pour violon, exécutée par M. Isidore
-
+Grande fantaisie sur la Muette, pour violon, exécutée par M. Isidore
 LEVI Allard.
-
 - Les illusions perdues, d’aprés Gleyre, TABLEAU VI-
 VANT, organisé par le Cercle des Beaux-Arts.
-
 DEUXIÈME PARTIE
-
 » Chœur de femmes, tiré de Blanche de Provence, (So-
 ciété de Chant du Conservatoire et Chant sacré)
 direction de M. H. de Senger. Cherubini.
-
 - Alleluiadu Messie. grand chœur mixte,direction de M. de Senger. Hændel.
-
 . Guillaume-Tell, d’après le tableau de Lugardon, TABLEAU
 VIVANT, organisé par le Cercle des Beaux-Arts.
-
 - (a) Trio de Guillaume-Tell, chanté par MM. CARRIERE,
 PONS et BADIALI. (b) Final du 2me acte exécuté par les so-
 ciétés chorales réunies La Cécilienne et la Muse, sous la
 direction de M. Bergalonne. ‘
-
- 
-
 Rossini.
-
 SL r rr rrr rrr rrr rrrs
-
 Ouverture des portes à 7 — On commencera à 8 heures précises.
-
 E N
-
 Prix d’entrée 5 franes. — Réservées 10 fr.
-
- 
-
- 
-
- 
-
-= d rr e]]></page>       
-        </p>
+= d rr e
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

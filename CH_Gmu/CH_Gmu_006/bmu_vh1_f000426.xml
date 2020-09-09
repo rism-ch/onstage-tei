@@ -1,286 +1,186 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par l'Harmonie nautique : Assemblée générale du Touring-Club suisse<date when="26/02/1899"/></title>
-<series>1898-1899</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par l'Harmonie nautique : Assemblée générale du
+            Touring-Club suisse
+            <date when='26/02/1899'/>
+          </title>
+          <series>1898-1899</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F000426</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Bonade, L. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18990226"/>
-<title>Concert donné par l'Harmonie nautique : Assemblée générale du Touring-Club suisse</title>
-<placeName key="Victoria Hall"/>
-<name key="1898-1899" type="series"/>
-<name key="Nicolai, Otto" ref="https://muscat.rism.info/admin/people/100329" type="person" role="cmp">Nicolai, Otto</name>
-<name key="Verdi, Giuseppe" ref="https://muscat.rism.info/admin/people/137994" type="person" role="cmp">Verdi, Giuseppe</name>
-<name key="Bruch, Max" ref="https://muscat.rism.info/admin/people/73090" type="person" role="cmp">Bruch, Max</name>
-<name key="Thomas, A."  type="person" role="cmp">Thomas, A.</name>
-<name key="Meyerbeer, Giacomo" ref="https://muscat.rism.info/admin/people/725" type="person" role="cmp">Meyerbeer, Giacomo</name>
-<name key="Chopin, Fryderyk Franciszek" ref="https://muscat.rism.info/admin/people/51160" type="person" role="cmp">Chopin, Fryderyk Franciszek</name>
-<name key="Wilhelmy"  type="person" role="cmp">Wilhelmy</name>
-<name key="Sarasate, Pablo de" ref="https://muscat.rism.info/admin/people/30019733" type="person" role="cmp">Sarasate, Pablo de</name>
-<name key="Halévy, Fromental" ref="https://muscat.rism.info/admin/people/40914" type="person" role="cmp">Halévy, Fromental</name>
-<name key="Douard"  type="person" role="cmp">Douard</name>
-<name key="Bonade, L. (dir.)"  type="person" role="int">Bonade, L. (dir.)</name>
-<name key="Harmonie Nautique"  type="person" role="int">Harmonie Nautique</name>
-<name key="Bonade (Mme)"  type="person" role="int">Bonade (Mme)</name>
-<name key="Nagy, Béla"  type="person" role="int">Nagy, Béla</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000426_001.tif"/>
-<page><![CDATA[Dictorta-Hall
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18990226'/>
+        <title>
+          Concert donné par l'Harmonie nautique : Assemblée générale du
+          Touring-Club suisse
+        </title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1898-1899' type='series'/>
+        <name key='Nicolai, Otto' ref='https://muscat.rism.info/admin/people/100329' type='person' role='cmp'>Nicolai, Otto</name>
+        <name key='Verdi, Giuseppe' ref='https://muscat.rism.info/admin/people/137994' type='person' role='cmp'>Verdi, Giuseppe</name>
+        <name key='Bruch, Max' ref='https://muscat.rism.info/admin/people/73090' type='person' role='cmp'>Bruch, Max</name>
+        <name key='Thomas, A.' type='person' role='cmp'>Thomas, A.</name>
+        <name key='Meyerbeer, Giacomo' ref='https://muscat.rism.info/admin/people/725' type='person' role='cmp'>Meyerbeer, Giacomo</name>
+        <name key='Chopin, Fryderyk Franciszek' ref='https://muscat.rism.info/admin/people/51160' type='person' role='cmp'>Chopin, Fryderyk Franciszek</name>
+        <name key='Wilhelmy' type='person' role='cmp'>Wilhelmy</name>
+        <name key='Sarasate, Pablo de' ref='https://muscat.rism.info/admin/people/30019733' type='person' role='cmp'>Sarasate, Pablo de</name>
+        <name key='Halévy, Fromental' ref='https://muscat.rism.info/admin/people/40914' type='person' role='cmp'>Halévy, Fromental</name>
+        <name key='Douard' type='person' role='cmp'>Douard</name>
+        <name key='Bonade, L.' type='person' role='int'>Bonade, L.</name>
+        <name key='Harmonie Nautique' type='person' role='int'>Harmonie Nautique</name>
+        <name key='Bonade (Mme)' type='person' role='int'>Bonade (Mme)</name>
+        <name key='Nagy, Béla' type='person' role='int'>Nagy, Béla</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000426_001.tif'/>
+        <page>
+          <![CDATA[Dictorta-Hall
 du
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 A l’occasion de l'Assemblée Générale
-
- 
-
- 
-
 —aw
-
 Dimanc‘hè 26 Février
-
 CONGERT
-
 donné par
-
-  
-
 de Génève
-
 sous la direction de M. L. BONADE
-
 avec le gracieux concours de
-
 (Madame Bumzdc
 . Concerto n° 1
-
 (M. Béla Nagy)
 . Fantaisie sur Mignon .
-
 [m PARTIE +
-
 . Fantaisie sur l'Africaine
-
 —|—@%.
-
 . à) Romance
-
 b) Danse Espagnole .
 (M. Béla Nagy)
 'érand A de la Juive.
 (Madame Bonade.)
-
- 
-
 : Les Petits Oiseaux (valse pour petite flûte) .
-
- 
-
 P
 o jË?
 >
-
 1899 à 2 h.°,
-
 E SŸ’5armome Uautique“
-
 Madame L. BONADE, cantatrice,
-
 et de
 M. BELA NAGY, violoniste
 A
 l/ Ï\\
 < PROGERAMME -
 . lepurmE ….
-
 . Ouverture des Joyeuses Commères de Windsor NICOLAÏ
 . Grand air d'Aïda VERDI
-
 MAX BRUCH
-
 À. THOMAS
-
 MEYERBEER
-
 CHOPIN-WILHELMY
-
 SARASATE
-
 HALÉVY
-
 DOUARD
-
 Piano à queue Blüthner, aux soins de M M. _A1.-6. Dubach et C*
-
- 
-
 @
-
- 
-
- 
-
- 
-
- 
-
 \(
 ('*€
 76
-
 ;’4—
-
 ®g 3
-
 9 M
 c
-
 _
 239
-
 SUS
-
 —7e
-
 e
-
 ñ
-
 n
-
 12s
-
 Ÿ
-
 S
 — ‘ ,
 E
-
 'f“4‘
-
 =
 R
-
 ©
 O—
 nÔË/L
 s-—
-
 4>
-
 se
-
- 
-
- 
-
 N
 (g® V
-
- 
-
- 
-
 0
 e ®V se (…>» äâ®È“&îî Â
-
 l
-
 275
-
 #
-
 —“
-
- 
-
- 
-
- 
-
 jW? ;
-
 W. Kü Dic & Fits. — GENÈVE,
-
-TPs eP,]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000426_002.tif"/>
-<page><![CDATA[« NOUVEAUTÉS ET CONFECTIONS POUR DAMES
+TPs eP,
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000426_002.tif'/>
+        <page>
+          <![CDATA[« NOUVEAUTÉS ET CONFECTIONS POUR DAMES
 Alphonse YBLOUX
-
 GENEVE 24 RUE DES AILEMANDS, »4 GENÈVE
-
 Hissortiments toujours variés des meilleures créations.
 ATELIERS DE PREMIER ORDRE
-
 pour Robes et Confections en tous genres, SUR MESURE
 Spécialite de Costumes Tailleur — Costumes Cyclistes — Amazones
-
 Costumes Loden depuis 36 Frs. — Jupes. Culottes, Chemisettes pour Cyclistes
-
- 
-
 Le Dimanche26 c. etjours suivants Etalage d'Articles qui intéressent les membres du T.-C.-S.
-
 ALIMENTS POUR ENFANTS ET ADULTES ;
 DEJEUNER œx TROPON
-
 =
 =
 a
-
 =
-
 m
 æ
 <
@@ -295,61 +195,29 @@ o
 O
 C
 =
-
 CACAO-A VOINE |
 Recommandé pour les estomacs délicats. Se digère plus facilement que n’importe quel déjeuner. Agréable au
 goût. Fortifiant sans charger l’estomac. Ce déjeuner au Tropon-Avoine et Cacao résume la nourriture qui convient
-
 le mieux aux enfants en croissance, aux adultes qui dépassent la mesure de leurs forces, aux convalescents. aux
 voyageurs, alpinistes, bicyclistes. Cet atiment renferme 25°/) de Tropon.
-
 | CHOCOLAT KOLA-TROPON
-
 * C7”ÿogzæz“fes au TROPON dites TROPONETTES *
 | GOEGG & C“
-
 GENEÈVE. 18, Corraterie. GENÈVE
-
- 
-
- 
-
- 
-
 Les TROPONETTES remplacent le pain.
-
- 
-
 EN VENTE PARTOUT
-
- 
-
 Les meilleurs cafés
-
 se trouvent
-
 À LA CÂSE
 L'ONCLE TOM
-
 Par leur torréfaction irréprochable, leur arôme exquis, et la
-
- 
-
 finesse des mélanges, ils ont acquis une réputation qui s’accroît
 chaque jour. — Demandez le Prix-Courant.
-
 Rue des Alpes, 7, Genève,
-
- 
-
 FABRIQUE DE BONNETERIE
-
 Choco/ats et Cacaos fins
-
 GRANBE LIÜ U… AT…N 14
-
 Cacao soluble
-
 pour fin de bail BPronbons fins
 . . N N, O. (N"
 - 0. FORNARO & C
@@ -357,17 +225,11 @@ Mme BURNIER G'ÉEN BV E
 GENÈVE — 1, rue de la Croix-d'Or, 1 — GENÈVE | En vente parfout et pour dégustation chez
 == rue de la Uroix- P — | ;
 ‘ ’ | C FINAZ, Confiserie au Molard
-
- 
-
 AC ETYLE NE | Cycles - Accessoires - Reparations.
-
 Installations complètes
-
 pour villas, hôtels, usines é L
 Eclairage public
 77
-
 D Autogénérateur breveté
 à chute de carbure dans l'eau, rC An Dier ) f )
 Le seul réellement pratique l À\l(… (ll“ ‘IH‘ …]'…“l'
@@ -376,33 +238,20 @@ Lanternes, lustres,
 Articles d’appareillage,
 Becs en stéatite
 Carbure de Calcium.
-
-   
-
 1* Marque américaine
-
 Lanterne pour bicyclette
-
 MODÈLE 1899 H&ﬂg& HUÏH…0[ r e 2
 téflecteur en aluminium RUE DU COMMERCE, 8 E H N EST S IË‘ IH IÜHA Y IE
-
 Poids 400 gr. — Prix 14 Fr. GENÈVE
 R ; ; IO|, RUE DU RHONE _ |10
 Prospectus et devis d’installations sratis ’ : ‘
 p ( $ lONS gratis. GENÈVE
-
 W. KUNDIG & FiLs GENEVE.
-
 e e ——
-
- 
-
- 
-
- 
-
-@]]></page>       
-        </p>
+@
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

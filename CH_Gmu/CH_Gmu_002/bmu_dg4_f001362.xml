@@ -1,138 +1,117 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Le canard à trois becs<date when="07/09/1879"/></title>
-<series>1878-1879</series>
-<placeName>Plaine de Plainpalais</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Le canard à trois becs
+            <date when='07/09/1879'/>
+          </title>
+          <series>1878-1879</series>
+          <placeName>Genève, Plaine de Plainpalais</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU DG4 F001362</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Interprète incertain</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18790907"/>
-<title>Le canard à trois becs</title>
-<placeName key="Plaine de Plainpalais"/>
-<name key="1878-1879" type="series"/>
-<name key="Jonas, Émile"  type="person" role="cmp">Jonas, Émile</name>
-<name key="Moinaux, Jules"  type="person" role="cmp">Moinaux, Jules</name>
-<name key="Théâtre de Bouffes parisiens"  type="person" role="int">Théâtre de Bouffes parisiens</name>
-<name key="Grégoire (Mme)"  type="person" role="int">Grégoire (Mme)</name>
-<name key="[Grégoire ?] , Baptiste"  type="person" role="int">[Grégoire ?] , Baptiste</name>
-<name key="Ponsi"  type="person" role="int">Ponsi</name>
-<name key="[Grégoire ?] , Joseph"  type="person" role="int">[Grégoire ?] , Joseph</name>
-<name key="Baron"  type="person" role="int">Baron</name>
-<name key="Soyez"  type="person" role="int">Soyez</name>
-<name key="Lyonel"  type="person" role="int">Lyonel</name>
-<name key="Polydor"  type="person" role="int">Polydor</name>
-<name key="Esther"  type="person" role="int">Esther</name>
-<name key="Spina (Mme)"  type="person" role="int">Spina (Mme)</name>
-<name key="Doze"  type="person" role="int">Doze</name>
-<name key="Louise"  type="person" role="int">Louise</name>
-<name key="Hortense"  type="person" role="int">Hortense</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f001362_001.tif"/>
-<page><![CDATA[’La plus ancietnés
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18790907'/>
+        <title>Le canard à trois becs</title>
+        <placeName key='Genève, Plaine de Plainpalais'/>
+        <name key='1878-1879' type='series'/>
+        <name key='Jonas, Émile' type='person' role='cmp'>Jonas, Émile</name>
+        <name key='Moinaux, Jules' type='person' role='cmp'>Moinaux, Jules</name>
+        <name key='Théâtre de Bouffes parisiens' type='person' role='int'>Théâtre de Bouffes parisiens</name>
+        <name key='Grégoire (Mme)' type='person' role='int'>Grégoire (Mme)</name>
+        <name key='Grégoire  , Baptiste' type='person' role='int'>Grégoire , Baptiste</name>
+        <name key='Ponsi' type='person' role='int'>Ponsi</name>
+        <name key='Grégoire  , Joseph' type='person' role='int'>Grégoire , Joseph</name>
+        <name key='Baron' type='person' role='int'>Baron</name>
+        <name key='Soyez' type='person' role='int'>Soyez</name>
+        <name key='Lyonel' type='person' role='int'>Lyonel</name>
+        <name key='Polydor' type='person' role='int'>Polydor</name>
+        <name key='Esther' type='person' role='int'>Esther</name>
+        <name key='Spina (Mme)' type='person' role='int'>Spina (Mme)</name>
+        <name key='Doze' type='person' role='int'>Doze</name>
+        <name key='Louise' type='person' role='int'>Louise</name>
+        <name key='Hortense' type='person' role='int'>Hortense</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f001362_001.tif'/>
+        <page>
+          <![CDATA[’La plus ancietnés
 Dépôt d’articles des maisons Pmaud P1ver Alkmson Lubin, Geïlé,
 Farina, Ihse, Ricqlès, Bully, Fay, chquem, Z, etc., etc.
-
 Prix fixe et réduît. — Marclnandl5es de premier choix.
-
- 
-
 PLAINE DE PLAINPALAIS
 Direction de Mme veuve GREGOIRE
-
- 
-
- 
-
 Aujourd’hui Dimanche 7 Septembre 1879
-
 j
 D
-
 QUATRIÈME REPRÉSENTATION DE
-
 LE CANARD
-
 A TROIS BECS
-
 Opéra-bouffe en 3 actes, par M. Jules MorNAUX, musique de M. Émile JoNas.
 PERSONNAGES
-
 C
-
- 
-
 —— =
-
 Distribution : Van Ostebal, MM. BAPTISTE. — Van Bonntronch, Ponsr, —
 Spaniello, JoskpH. — Parmotto, BARON. — Chutentos, Soyez. — Moula-
 gauffre, LYONEL. —Tromp-Tonpif, PoLynor. — Marguerite, Mmes ESTHER.
 Sophronie Ostebal, SPrva. — Barbe, Doze. — Madelaine, Lourse. — Pitot,
 HORTENSE. — Pêcheurs, Pécheuses, Marchands, Acheteurs.
-
- 
-
 MMËÆ
-
 * Ouverture des bureaux à 7 h. 314 — On commencera à 8 heures 14
-
- 
-
- 
-
- 
-
- 
-
 m —— —*
 Prochainement : Le WDroit du Seigneur.
 ns 1s
 PRIX DES PLACES :
 Loges d’avant-scène, 20 fr. (en Iocation 21 fr.) — Logcs de face, 15 fr. (en location 16 fr,)
-
 — Fauteuils dorcheslre, 3 fr, (en location 3 fr. 50 € )— Premières, 2 fr. 50 c. (en loca-
 tion 3 fr.) — Stalles numérotées, 2 fr. (en locatmn 2 fr. 50 c.) — Parleue 1 fr. 25 c, —
-
 7 euxième galerie, 1 fr. — Troisième galerie 50 centimes.
 A
 ' %Le Bureau de location est ouvert tous les jours de 11 h. du matin à 4 h aorbs- r
-
-ps]]></page>       
-        </p>
+ps
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

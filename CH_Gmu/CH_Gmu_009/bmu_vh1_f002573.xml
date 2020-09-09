@@ -1,150 +1,115 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Grand concert donné par la Bürgermusik de la Ville de Lucerne<date when="16/08/1924"/></title>
-<series>1923-1924</series>
-<placeName>Jardin anglais</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Grand concert donné par la Bürgermusik de la Ville de Lucerne
+            <date when='16/08/1924'/>
+          </title>
+          <series>1923-1924</series>
+          <placeName>Genève, Jardin anglais</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002573</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Dahinden, J. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19240816"/>
-<title>Grand concert donné par la Bürgermusik de la Ville de Lucerne</title>
-<placeName key="Jardin anglais"/>
-<name key="1923-1924" type="series"/>
-<name key="Bianchi, G."  type="person" role="cmp">Bianchi, G.</name>
-<name key="Hérold, Ferdinand" ref="https://muscat.rism.info/admin/people/75095" type="person" role="cmp">Hérold, Ferdinand</name>
-<name key="Translateur, S."  type="person" role="cmp">Translateur, S.</name>
-<name key="Mayr, S."  type="person" role="cmp">Mayr, S.</name>
-<name key="Rossini, Gioachino" ref="https://muscat.rism.info/admin/people/63766" type="person" role="cmp">Rossini, Gioachino</name>
-<name key="Gounod, Charles-François" ref="https://muscat.rism.info/admin/people/80479" type="person" role="cmp">Gounod, Charles-François</name>
-<name key="Fetrás, Oscar" ref="https://muscat.rism.info/admin/people/47986" type="person" role="cmp">Fetrás, Oscar</name>
-<name key="Boehm, H."  type="person" role="cmp">Boehm, H.</name>
-<name key="Dahinden, Joseph (dir.)"  type="person" role="int">Dahinden, Joseph (dir.)</name>
-<name key="Bürgermusik de la Ville de Lucerne"  type="person" role="int">Bürgermusik de la Ville de Lucerne</name>
-<name key="Schaub"  type="person" role="int">Schaub</name>
-<name key="Lutolf"  type="person" role="int">Lutolf</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002573_001.tif"/>
-<page><![CDATA[54 QQGN AOONOO UON OO OUR OON EOOCE OEOE OEOEN L
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19240816'/>
+        <title>Grand concert donné par la Bürgermusik de la Ville de Lucerne</title>
+        <placeName key='Genève, Jardin anglais'/>
+        <name key='1923-1924' type='series'/>
+        <name key='Bianchi, G.' type='person' role='cmp'>Bianchi, G.</name>
+        <name key='Hérold, Ferdinand' ref='https://muscat.rism.info/admin/people/75095' type='person' role='cmp'>Hérold, Ferdinand</name>
+        <name key='Translateur, S.' type='person' role='cmp'>Translateur, S.</name>
+        <name key='Mayr, S.' type='person' role='cmp'>Mayr, S.</name>
+        <name key='Rossini, Gioachino' ref='https://muscat.rism.info/admin/people/63766' type='person' role='cmp'>Rossini, Gioachino</name>
+        <name key='Gounod, Charles-François' ref='https://muscat.rism.info/admin/people/80479' type='person' role='cmp'>Gounod, Charles-François</name>
+        <name key='Fetrás, Oscar' ref='https://muscat.rism.info/admin/people/47986' type='person' role='cmp'>Fetrás, Oscar</name>
+        <name key='Boehm, H.' type='person' role='cmp'>Boehm, H.</name>
+        <name key='Dahinden, Joseph' type='person' role='int'>Dahinden, Joseph</name>
+        <name key='Bürgermusik de la Ville de Lucerne' type='person' role='int'>Bürgermusik de la Ville de Lucerne</name>
+        <name key='Schaub' type='person' role='int'>Schaub</name>
+        <name key='Lutolf' type='person' role='int'>Lutolf</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002573_001.tif'/>
+        <page>
+          <![CDATA[54 QQGN AOONOO UON OO OUR OON EOOCE OEOE OEOEN L
 ETE
-
 ! GENÈVE , JARDIN ANGLAIS , GENÈVE
-
 En cas de maüvais temps, au Victoria-Hall f
-
 HONEEEEEET ETE EN vn HEUN HURN NENEEIT Hn
-
 Samedi 16 Août 1924, à 8 h. 30 du soir
-
 G R ÂN
-
 =%
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 SHHLEOOOKOIOOCOOKCOOOOEOOEOTEOTOOOOOOOOOKOECOEKCEOOHOOEIOEONEEOEEOEOOEEOCOOOCEEECECOUEECEEEEEECEEECEEEEEEIEEE
-
 donné par la
-
- 
-
 A Bürgermusil«œmViH&æLuccmc
-
 Direction : M. Joseph Dahinden :: 60 Exécutants
-
 SOUIRUOOOOO IOOEUN OEOEUN ETEN ETEN BUSbiaanen n anra ns =
-
 m
 en
-
 OUR OEOEN
 m
-
 TT
-
 R UCRAMME
-
 PREMIÈRE PARTIE :
-
 pn
 . Pietro Porro, marche italienne . G. Bianchi
 - Ouverture sur l’opéra ,Zampa“ . F. Hérold
-
 3. Feuilles Viennoises, valse . . S. Translateur
 . Le Départ des Hirondelles, polka . S. Mayr
 Solistes : MM. Schaub et Lutolf
-
 DEUXIÈME PARTIE :
-
 ec
-
- 
-
- 
-
 . Ouv. s.l’op. ,Le Barbier de Séville* . Rossini
 ; Divcrtissementsur|’0péra,,Î“aust“ . Gounod
 . Scènes de Russie Osc. Fetras
 - Vie Appenzelloise, potpourri . H. Bœhm
-
 nn rrrn
-
 SOn Hescrenenee pn ccrc F
-
 \llllllllllIHlllllllllllllIIIIIIIIIIIIIIIIIIIYIHIl|lV|lllIlIIIIIIIIIllll|llllllllllllllllllllllIllllllllllu|nllll|||||||||||||llllllﬂ|llllll|lul ||||||||||||||| DEN
-
-5l llllllllllllllllllllIIIIIIIIHHIHIIIIIlllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllﬂllllllllllllIIIIHHIIHIIIIIIIIllllllUlllHlllllllllHlllllllilllllllllllllllllllll TF]]></page>       
-        </p>
+5l llllllllllllllllllllIIIIIIIIHHIHIIIIIlllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllﬂllllllllllllIIIIHHIIHIIIIIIIIllllllUlllHlllllllllHlllllllilllllllllllllllllllll TF
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

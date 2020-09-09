@@ -1,135 +1,118 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert vocal et instrumental donné par M. X. Morel<date when="15/11/1876"/></title>
-<series>1876-1877</series>
-<placeName>Casino [de Saint-Pierre ?]</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert vocal et instrumental donné par M. X. Morel
+            <date when='15/11/1876'/>
+          </title>
+          <series>1876-1877</series>
+          <placeName>Genève, Casino de Saint-Pierre</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU DG4 F001343</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Lieu incertain</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18761115"/>
-<title>Concert vocal et instrumental donné par M. X. Morel</title>
-<placeName key="Casino [de Saint-Pierre ?]"/>
-<name key="1876-1877" type="series"/>
-<name key="Haydn, Joseph" ref="https://muscat.rism.info/admin/people/55803" type="person" role="cmp">Haydn, Joseph</name>
-<name key="Rossini, Gioachino" ref="https://muscat.rism.info/admin/people/63766" type="person" role="cmp">Rossini, Gioachino</name>
-<name key="Panzini"  type="person" role="cmp">Panzini</name>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Fürstenau"  type="person" role="cmp">Fürstenau</name>
-<name key="Verdi, Giuseppe" ref="https://muscat.rism.info/admin/people/137994" type="person" role="cmp">Verdi, Giuseppe</name>
-<name key="Spohr, Louis" ref="https://muscat.rism.info/admin/people/149499" type="person" role="cmp">Spohr, Louis</name>
-<name key="Thalberg"  type="person" role="cmp">Thalberg</name>
-<name key="Tulou"  type="person" role="cmp">Tulou</name>
-<name key="Campana"  type="person" role="cmp">Campana</name>
-<name key="Morel, X."  type="person" role="cmp">Morel, X.</name>
-<name key="Morel, X."  type="person" role="int">Morel, X.</name>
-<name key="Bartkowska"  type="person" role="int">Bartkowska</name>
-<name key="Senger, Franz Ludwig Hugo von" ref="https://muscat.rism.info/admin/people/30015297" type="person" role="int">Senger, Franz Ludwig Hugo von</name>
-<name key="Bartkowska (Mlle)"  type="person" role="int">Bartkowska (Mlle)</name>
-<name key="A."  type="person" role="int">A.</name>
-<name key="Huber"  type="person" role="int">Huber</name>
-<name key="Garin"  type="person" role="int">Garin</name>
-<name key="Battaglia"  type="person" role="int">Battaglia</name>
-<name key="Bibès"  type="person" role="int">Bibès</name>
-<name key="Gerbothe"  type="person" role="int">Gerbothe</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f001343_001.tif"/>
-<page><![CDATA[—
-
- 
-
- 
-
- 
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18761115'/>
+        <title>Concert vocal et instrumental donné par M. X. Morel</title>
+        <placeName key='Genève, Casino de Saint-Pierre'/>
+        <name key='1876-1877' type='series'/>
+        <name key='Haydn, Joseph' ref='https://muscat.rism.info/admin/people/55803' type='person' role='cmp'>Haydn, Joseph</name>
+        <name key='Rossini, Gioachino' ref='https://muscat.rism.info/admin/people/63766' type='person' role='cmp'>Rossini, Gioachino</name>
+        <name key='Panzini' type='person' role='cmp'>Panzini</name>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Fürstenau' type='person' role='cmp'>Fürstenau</name>
+        <name key='Verdi, Giuseppe' ref='https://muscat.rism.info/admin/people/137994' type='person' role='cmp'>Verdi, Giuseppe</name>
+        <name key='Spohr, Louis' ref='https://muscat.rism.info/admin/people/149499' type='person' role='cmp'>Spohr, Louis</name>
+        <name key='Thalberg' type='person' role='cmp'>Thalberg</name>
+        <name key='Tulou' type='person' role='cmp'>Tulou</name>
+        <name key='Campana' type='person' role='cmp'>Campana</name>
+        <name key='Morel, X.' type='person' role='cmp'>Morel, X.</name>
+        <name key='Morel, X.' type='person' role='int'>Morel, X.</name>
+        <name key='Senger, Franz Ludwig Hugo von' ref='https://muscat.rism.info/admin/people/30015297' type='person' role='int'>Senger, Franz Ludwig Hugo von</name>
+        <name key='Bartkowska (Mlle)' type='person' role='int'>Bartkowska (Mlle)</name>
+        <name key='A.' type='person' role='int'>A.</name>
+        <name key='Huber' type='person' role='int'>Huber</name>
+        <name key='Garin' type='person' role='int'>Garin</name>
+        <name key='Battaglia' type='person' role='int'>Battaglia</name>
+        <name key='Bibès' type='person' role='int'>Bibès</name>
+        <name key='Gerbothe' type='person' role='int'>Gerbothe</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f001343_001.tif'/>
+        <page>
+          <![CDATA[—
 GRANDE SALLE DU CASINO
-
- 
-
 MERCREDI 135 NOYVEMBRE 1836, A $ HEURES DU SOIR
-
 CONCERT VOUAI L ET INSTREMENTAL
-
 DONNÉ PAR
-
 VH. K. VHODEENCE,
-
 Organiste et Pianiste Compositeur
-
 AVEC LE BIENVEILLANT CONCOURS DE
-
 Mlle BARTKOWSKA, Soprano; M. A'**, Ténor; M. Huco DE SENGER;
 M. HUBER, Pianiste; M. GARIN, Violon; M. BATTAGLIA, Flàte; M. BIBES,
 Violoncelle et de M. GERBOTHE, Basson.
-
 PE
-
 PROGRAMME :
-
 PREMIÈRE PARTIE
-
 Trio en sol majeur, pour piano, violon et violoncelle (Andante et Presto),. — Haydn.
 mbre-Forét, grand air de Guillaume-Tell,-chanté-par-Mle-Barrxowska, — Rossini.
 Dolce Melanconia, arrangé et exécuté sur l’orgue par M. X. MoreL, .  Panzini.
 Adélaïde, de Beethoven, pour flûte et piano, exécutée par MM. BATTAGLIA et
 Husrn, transcription de ; 10e 4s 1 Fürstenau
 Air de la Traviata, chanté par M. A“' Ps ; Verdi,
-
- 
-
 DEUXIÈME PARTIE
-
 Adagio, exécuté par M. GERBOTHE, . . . ; 0 S S DON R,
 Grande Fantaisie de Concert sur le Trouvère, pour ﬂute et piano, exécutée
-
 par MM. BATTAGLIA et HuBEr, . . 654 5e 0 C Thalhorg « Tutou,
 La-Zingarella, chantée par MIle BARTKOWSKA E =4 V biE 0 e 00 CONF OE
 Romance sans paroles, composée et exécutée sur 1’01gue par M .… X Moral
-
 Orgue de Concert d’ALEXANDRE PÈRE ET FILS, de la Maison H. GOLAZ-KAISER.
-
 Prix des Places: Méservées, 5 fr. -- Premières, 3 fr. -- Secondes, % fr.
-
 On peut se procurer des billets dans tous les magasins de musique, et le soir du Concert à l’entrée, - Pour les
 places réservées, s’adresser au magasin de musique de M"° Frey, Corraterie.
-
- 
-
-Geneève. — lImprumerie J.-D. Jarrys, rue de la Treille, 4.]]></page>       
-        </p>
+Geneève. — lImprumerie J.-D. Jarrys, rue de la Treille, 4.
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

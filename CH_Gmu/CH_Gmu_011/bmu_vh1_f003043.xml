@@ -1,213 +1,151 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Grand concert gratuit<date when="30/01/1940"/></title>
-<series>1939-1940</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Grand concert gratuit
+            <date when='30/01/1940'/>
+          </title>
+          <series>1939-1940</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F003043</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Santandréa, P.</note>
+        <note>Bodet, F. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19400130"/>
-<title>Grand concert gratuit</title>
-<placeName key="Victoria Hall"/>
-<name key="1939-1940" type="series"/>
-<name key="Ropartz, Joseph Guy" ref="https://muscat.rism.info/admin/people/61362" type="person" role="cmp">Ropartz, Joseph Guy</name>
-<name key="Bizet, Georges" ref="https://muscat.rism.info/admin/people/20057" type="person" role="cmp">Bizet, Georges</name>
-<name key="Chopin, Fryderyk Franciszek" ref="https://muscat.rism.info/admin/people/51160" type="person" role="cmp">Chopin, Fryderyk Franciszek</name>
-<name key="Parès, Gabriël" ref="https://muscat.rism.info/admin/people/30024480" type="person" role="cmp">Parès, Gabriël</name>
-<name key="Ganne, Louis Gaston" ref="https://muscat.rism.info/admin/people/30025645" type="person" role="cmp">Ganne, Louis Gaston</name>
-<name key="Boieldieu, Adrien" ref="https://muscat.rism.info/admin/people/23607" type="person" role="cmp">Boieldieu, Adrien</name>
-<name key="Messager, André" ref="https://muscat.rism.info/admin/people/92078" type="person" role="cmp">Messager, André</name>
-<name key="Debussy, Claude" ref="https://muscat.rism.info/admin/people/4338" type="person" role="cmp">Debussy, Claude</name>
-<name key="Guiraud, Ernest" ref="https://muscat.rism.info/admin/people/30024115" type="person" role="cmp">Guiraud, Ernest</name>
-<name key="Albeniz"  type="person" role="cmp">Albeniz</name>
-<name key="Santandréa, Pierre (dir.)"  type="person" role="int">Santandréa, Pierre (dir.)</name>
-<name key="Bodet, F. (dir.)"  type="person" role="int">Bodet, F. (dir.)</name>
-<name key="Harmonie Nautique"  type="person" role="int">Harmonie Nautique</name>
-<name key="Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)"  type="person" role="int">Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)</name>
-<name key="Duperrex, Germaine"  type="person" role="int">Duperrex, Germaine</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003043_001.tif"/>
-<page><![CDATA[VIASE DE GENEVE
-
- 
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19400130'/>
+        <title>Grand concert gratuit</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1939-1940' type='series'/>
+        <name key='Ropartz, Joseph Guy' ref='https://muscat.rism.info/admin/people/61362' type='person' role='cmp'>Ropartz, Joseph Guy</name>
+        <name key='Bizet, Georges' ref='https://muscat.rism.info/admin/people/20057' type='person' role='cmp'>Bizet, Georges</name>
+        <name key='Chopin, Fryderyk Franciszek' ref='https://muscat.rism.info/admin/people/51160' type='person' role='cmp'>Chopin, Fryderyk Franciszek</name>
+        <name key='Parès, Gabriël' ref='https://muscat.rism.info/admin/people/30024480' type='person' role='cmp'>Parès, Gabriël</name>
+        <name key='Ganne, Louis Gaston' ref='https://muscat.rism.info/admin/people/30025645' type='person' role='cmp'>Ganne, Louis Gaston</name>
+        <name key='Boieldieu, Adrien' ref='https://muscat.rism.info/admin/people/23607' type='person' role='cmp'>Boieldieu, Adrien</name>
+        <name key='Messager, André' ref='https://muscat.rism.info/admin/people/92078' type='person' role='cmp'>Messager, André</name>
+        <name key='Debussy, Claude' ref='https://muscat.rism.info/admin/people/4338' type='person' role='cmp'>Debussy, Claude</name>
+        <name key='Guiraud, Ernest' ref='https://muscat.rism.info/admin/people/30024115' type='person' role='cmp'>Guiraud, Ernest</name>
+        <name key='Albeniz' type='person' role='cmp'>Albeniz</name>
+        <name key='Santandréa, Pierre' type='person' role='int'>Santandréa, Pierre</name>
+        <name key='Bodet, F.' type='person' role='int'>Bodet, F.</name>
+        <name key='Harmonie Nautique' type='person' role='int'>Harmonie Nautique</name>
+        <name key='Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)' type='person' role='int'>Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)</name>
+        <name key='Duperrex, Germaine' type='person' role='int'>Duperrex, Germaine</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003043_001.tif'/>
+        <page>
+          <![CDATA[VIASE DE GENEVE
 VICTORIA-HALL
-
 Mardi 30 janvier 1940
-
 Grand Concert Gratuit
-
 ORGANISÉ PAR LA VILLE DE GENÈVE
-
- 
-
 avec le gracieux concours de
-
 l'Harmonie Nautique … la Musique Municipale
-
 (Harmonie Municipale) (Union Instrumentale Genevoise)
 Directeur : M. P, SANTANDRÉA Directeur : M, F, BODET
-
 et de
-
 Mademoiselle Germaine Duperrex
-
 Pianiste, Prix Schumann 1938
-
- 
-
- 
-
- 
-
 Pour votre mobilier, certes il faut…
 Une assurance INCENDIE, VOL et EAU !
-
 >LA FÉDÉRALE«
-
- 
-
- 
-
 délivre des polices combinées à primes modiques
-
-CH. GERDIL & FILS :: rue du Stand, 60]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003043_002.tif"/>
-<page><![CDATA[Toutes les 30 minutes
-
+CH. GERDIL & FILS :: rue du Stand, 60
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003043_002.tif'/>
+        <page>
+          <![CDATA[Toutes les 30 minutes
 litres d’eau chaude par
 L’ÉLECTRICITÉ
-
 à forfait fr. 4o
-
 RENSEIGNEMENTS SERVICE DE
 TÉLÉPHONE 4.13.00 L’ELECTRICITE
-
 par
 mois
-
- 
-
- 
-
 EN LOCATION
 vérifiés et rechargés
 gratuitement
 MODÈLE Pour AUTO
 En vente : RUE PETITOT, 4
 Téléphone 4.47.20
-
 e e Maison B. JUNG
-
 6, RUE WINKELRIED - TÉL. 2.27.85
-
- 
-
 Spécialité de café, thé, chocolats,
 biscuits, vins fins et liqueurs.
-
 Dépôt de Conserves HERO Lenzbourg,
 fruits au jus et confitures
-
 Livraison à domicile, ville et campagne
 ESCOMPTE 5 ° en timbres jaunes
-
- 
-
- 
-
 AU CYGNE DU NORD
-
 ÉPURATION ::: USINE A VAPEUR
 Maison fondée en 1860
-
 Albert Schutzlé
-
 2, rue John-Grasset, 2
 (Plainpalais)
-
 TÉLÉPHONE 4.31.33
-
 Désinfection de locaux après maladie, décès ou
 toutes autres causes d’infection, par le gaz deforma-
 line ou d’anhydride sulfureux S. O? (Raoul Pictet)
-
- 
-
- 
-
 EIHL
-
 RELIURE
 REGISTRES
-
 FORMULAIRES COMPTABLES
 CLASSEURS SUR COMMANDES
-
 BOURG-DE-FOUR, 9
 TÉLÉPHONE 4.04.93
-
- 
-
- 
-
- 
-
- 
-
 FAVRE FILS
-
- 
-
 23 RUE DU RHONE
-
-   
-
-ÉLECTRICITÉ]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003043_003.tif"/>
-<page><![CDATA[en faveur des œuvres de secours
+ÉLECTRICITÉ
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003043_003.tif'/>
+        <page>
+          <![CDATA[en faveur des œuvres de secours
 pendant la Mobilisation.
-
- 
-
 PROGRAMME
-
 PREMIÈRE PARTIE
-
 PL ARENELdES ON qGans e T CO RoPARI
 2. L'Arlésienne a) Intermezzo b) Carillon . . . . G. Brr
 Musique Municipale,
@@ -225,203 +163,91 @@ A ARSON E dansGrenanes n Diprses
 Disegueullas es Adpenrz
 Mlle Duperrex, pianiste.
 9. Danse Persane . . r OTIRAUD
-
 Harmonie Nautique,
-
- 
-
 Banque Commerciale de Bâle
-
- 
-
- 
-
 B'ALEF GENÈVE ZURICH
-
 9-11, PLACE DE LA FUSTERIE
-
 Achat et vente de tous billets étrangers
 OPÉRATIONS DE BOURSE
-
- 
-
-Ferd. DRUZ, Editions et Publicité - Av. Henri-Dunant, 12]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003043_004.tif"/>
-<page><![CDATA[Arbres fruitiers et d’orne-
+Ferd. DRUZ, Editions et Publicité - Av. Henri-Dunant, 12
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003043_004.tif'/>
+        <page>
+          <![CDATA[Arbres fruitiers et d’orne-
 ment, Parcs, Jardins,
 Tennis, Pépinières
-
 * Boccard Frères
-
 PETIT -SACONNEX-GENÈVE
 Téléphone 2.61.15
-
 V
-
 Engrais suisses (de notre
 fabrication), Humengrais (organique), Roburgine
 et Spécial Maraîcher. CATALOGUES
-
- 
-
 MAGALLI
-
 RELIEUR
-
 A
 An
 vour
-
 w
-
 6bis, rue du Môle
-
 GEN - /
-
- 
-
- 
-
- 
-
 Maroquinerie - Sacs de Dames
-
 Tous articles pour chiens
 RÉPARATIONS
-
 Rue Versonnex, 15
 Place des Eaux-Vives
-
 LARGE
-
 Mesuiserie - Charpente
 Parquets
-
 ROBERT VERDEL
-
 Rue Barthélemy-Menn, 3
 GENÈVE
-
- 
-
- 
-
- 
-
 Entreprise, fourniture et pose de
 Carrelages, Mosaïques
 et Revêtements divers
-
 Louis Longo
-
 10, rue Edouard-Rod - Genève
-
 (Ancien chemin Vieusseux)
-
 TÉLÉPHONE 2.94.32 Chèques postaux I. 2155
-
- 
-
 Tout pour
 tous les
-
 Sports
 DELACROIXRICHE
-
 57, rue du Rhône - 38, Grand-Quai
-
- 
-
- 
-
- 
-
- 
-
- 
-
 MEUBLES
 DE BUREAUX
-
 “ERGA” en acier
 “ZEMP” en bois
-
- 
-
- 
-
 Installations rationnelles par
-
 BAUMANN-JEANNERET
-
 3, Bd Georges-Favon
-
- 
-
 Fonderie de Cuivre
-
 BRONZE, LAITON
 ALUMINIUM
 SILUNIUM
-
 V" Louis Perret
-
- 
-
- 
-
- 
-
- 
-
 ACACIAS, 44
-
- 
-
- 
-
- 
-
 Ferd. DRUZ, Editions et Publicité -
-
- 
-
 Av. Henri-Dunant, 12
-
- 
-
-    
- 
- 
-  
-   
-
-_" >]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003043_005.tif"/>
-<page><![CDATA[ERRACINA
-
+_" >
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003043_005.tif'/>
+        <page>
+          <![CDATA[ERRACINA
 ailleur-Genève
-
 MAISON DE |" ORDRE
-
 30, rue du Rhône
 TÉLÉPHONE 44580
-
- 
-
-  
-
 L’ARLÉSIENNE (Bizet 1838-1875)
-
 La musique de scène pour L'Arlésienne est un chef-d'œuvre.
 Jamais Bizet n’a atteint peut-être une semblable perfection. Dans
 cette suite de petits tableaux si pittoresques, si colorés, les nuances
 sont d’une finesse exquise ; il s'en dégage un charme pénétrant et par-
 fois une émotion poignante. C’est l’art de Schumann transposé sous
 un autre ciel, pour une autre race, ensoleillé, devenu méditerranéen.
-
 OUVERTURE DE «LA DAME BLANCHE » (Boïeldieu)
-
 Boïeldieu, né à Rouen en 1775, mort à Paris en 1834, est le plus
 remarquable représentant de l’opéra comique français de 1800 à 1830.
 La facture de ses œuvres est soignée. Ce musicien, qui ne pouvait
@@ -429,248 +255,118 @@ composer qu’en chantant, a des inspirations charmantes de fraîcheur
 et de naïveté, d’un contour mélodique très pur, qui rappellent par-
 fois d’assez près Mozart, sans sa profondeur, sans son intimité, mais
 avec quelque chose de son esprit et de sa légèreté.
-
 L’ouverture de La PDame Blanche, que l Harmonie Nautique
 joue ce soir, fut mise au point par Adam, d’après les esquisses de
-
 l’auteur (1825).
-
 Dixection tomande :
 LONGEMALLE, 1
-
 HENTENTS ° 4… ca0ct
-
 P CHATELAIN, Corraterie 7
-
-Ferd. DRUZ, Editions et Publicité - Av. Henri-Dunant, 12]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003043_006.tif"/>
-<page><![CDATA[Albert Schmidt
-
+Ferd. DRUZ, Editions et Publicité - Av. Henri-Dunant, 12
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003043_006.tif'/>
+        <page>
+          <![CDATA[Albert Schmidt
 GYPSERIE-PEINTURE
-
 RÉPARE BIEN LES
 APPARTEMENTS
-
 @
 BOURG-DE-FOUR, 7
-
- 
-
- 
-
 WINTERTHOUR
-
 Société Suisse d’Assurance
-
 contre les Accidents
-
 AGENT GÉNÉRAL
-
 ROBERT MEYER
-
 11, Rue Général-Dufour, 11
-
- 
-
- 
-
 BALLET DE « SCARAMOUCHE » (A. Messager)
-
 André Messager, né à Montluçon (Allier) le 30 décembre 1853, a
 écrit des œuvres gracieuses, spirituelles, suivant l’ancienne formule
-
 française, relevées par une orchestration ingénieuse et un réel
-
 savoir. Il voulut être et il fut l’un des derniers, peut-être le der-
-
 nier, des compositeurs français « galants ».
-
 « DANSE PERSANE » (E. Guiraud)
-
 E. Guiraud, professeur de composition au Conservatoire de Paris,
 est mort en 1892, au Conservatoire, en plein exercice de ses fonctions.
 «Danse Persane », air de ballet, nous donne une idée du style de
-
 ce génial compositeur qui résume si bien l’école française : élégance,
-
 verve, fougue.
-
 e
-
- 
-
- 
-
 SOCIÉTÉ ANONYME
 VICTOR OLIVET
-
 ENTREPRISE DE BATIMENTS
 ET TRAVAUX PUBLICS
-
- 
-
 38, Rue du Nant
-
 GENÈVE
 Téléphone 5.43.72
-
- 
-
- 
-
 Brasserie - Restaurant
 du 20"° Siècle
-
 Bd Georges-Favon, 23 - Place du Cirque
-
 E UEDR E
-
 GENÈVE - Téléph. 4.30.88
 @
-
 Menu à Fr. 3.— - Plat du jour à Fr. 2.50
 Spécialités (Maison) depuis Fr. 1.50
 Tous les vins fins du pays ::: Salle de Société
-
- 
-
- 
-
- 
-
 Ferd. DRUZ, Editions et Publicité - Av. Henri-Dunant, 12
-
-  
-
-  
-
-—23]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003043_007.tif"/>
-<page><![CDATA[Yoghourt Batke
-
+—23
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003043_007.tif'/>
+        <page>
+          <![CDATA[Yoghourt Batke
 Six sous le pot,
 Chaque matin,
 Pour l'intestin !
-
- 
-
- 
-
 FERBLANTERIE
-
 PLOMBERIE
 ; EAU
 GAZ
-
 V" Henri HENNY à Fils
-
 Installations sanitaires
-
 6, rue Ph.-Plantamour, 6
 GENEVE - Téléph. 2.37.89
-
 A.M.P.E.R.A.
-
 ÉQUIPEMENT
 ÉLECTRIQUE
 POUR AUTOS
-
 Accumulateurs Geinoz
 35, rue des Bains Téléphone 4.58 26
-
- 
-
- 
-
 BATIMENT
-
 E.PERRET
-
 MAÇONNERIE
 BÉTON ARMÉ
-
 Rue du Village-Suisse
 prolon gée
-
 Tél. 4.28.37
-
- 
-
- 
-
 TR T IIN
 JI R UIU
 foit ses achals à [a
-
 01471112
-
-   
-     
-   
-
- 
-
- 
-
- 
-
 \Illl DE
-
- 
-
 GENÈVE
-
 POMPES FUNÈBRES OFFICIELLES
-
 DE LA VILLE DE GENÈVE
-
 (Cité, Eaux-Vives, Petit-Saconnex, Plainpalais, Carouge)
-
 '|‘('—I('-|)lmn(- permanent 4.32.85
-
- 
-
 5, rue de l’Hôtel-de-Ville
-au ler]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003043_008.tif"/>
-<page><![CDATA[PRODUIT SUISSE Ë
+au ler
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003043_008.tif'/>
+        <page>
+          <![CDATA[PRODUIT SUISSE Ë
 |
-
- 
-
 EN VENTE CHEZ TOUS LES ÉLECTRICIENS
-
- 
-
- 
-
- 
-
 Caisse Hypothécaire
-
 DU CANTON DE GENÈVE
-
- 
-
- 
-
 Dépôts à 3, 5 et 10 ans
 Comptes d’épargne
-
- 
-
- 
-
- 
-
 2 MOLARk »
-
- 
-
- 
-
-Imp. Gutenberg (Rigaud, Grlessen & Cie) 14, rue de Hollande]]></page>       
-        </p>
+Imp. Gutenberg (Rigaud, Grlessen & Cie) 14, rue de Hollande
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

@@ -1,152 +1,119 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Grand concert donné par la Fanfare municipale de la Ville de Genève<date when="03/10/1909"/></title>
-<series>1909-1910</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Grand concert donné par la Fanfare municipale de la Ville de Genève
+            <date when='03/10/1909'/>
+          </title>
+          <series>1909-1910</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F001088</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Parès, G.</note>
+        <note>Teissier, A. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19091003"/>
-<title>Grand concert donné par la Fanfare municipale de la Ville de Genève</title>
-<placeName key="Victoria Hall"/>
-<name key="1909-1910" type="series"/>
-<name key="Parès, Gabriël" ref="https://muscat.rism.info/admin/people/30024480" type="person" role="cmp">Parès, Gabriël</name>
-<name key="Puccini, Giacomo" ref="https://muscat.rism.info/admin/people/30921" type="person" role="cmp">Puccini, Giacomo</name>
-<name key="Saint-Saëns, Camille" ref="https://muscat.rism.info/admin/people/76734" type="person" role="cmp">Saint-Saëns, Camille</name>
-<name key="Petit, A."  type="person" role="cmp">Petit, A.</name>
-<name key="Teissier, A."  type="person" role="cmp">Teissier, A.</name>
-<name key="Marie, E."  type="person" role="cmp">Marie, E.</name>
-<name key="Parès, Gabriël  (dir.)" ref="https://muscat.rism.info/admin/people/30024480" type="person" role="int">Parès, Gabriël  (dir.)</name>
-<name key="Teissier, Aug. (dir.)"  type="person" role="int">Teissier, Aug. (dir.)</name>
-<name key="Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)"  type="person" role="int">Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)</name>
-<name key="Joseph"  type="person" role="int">Joseph</name>
-<name key="Culoz, Juliette"  type="person" role="int">Culoz, Juliette</name>
-<name key="Combelle"  type="person" role="int">Combelle</name>
-<name key="Ketten, Léopold"  type="person" role="int">Ketten, Léopold</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001088_001.tif"/>
-<page><![CDATA[—>3 VICTORIA HALL E
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19091003'/>
+        <title>Grand concert donné par la Fanfare municipale de la Ville de Genève</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1909-1910' type='series'/>
+        <name key='Parès, Gabriël' ref='https://muscat.rism.info/admin/people/30024480' type='person' role='cmp'>Parès, Gabriël</name>
+        <name key='Puccini, Giacomo' ref='https://muscat.rism.info/admin/people/30921' type='person' role='cmp'>Puccini, Giacomo</name>
+        <name key='Saint-Saëns, Camille' ref='https://muscat.rism.info/admin/people/76734' type='person' role='cmp'>Saint-Saëns, Camille</name>
+        <name key='Petit, A.' type='person' role='cmp'>Petit, A.</name>
+        <name key='Teissier, A.' type='person' role='cmp'>Teissier, A.</name>
+        <name key='Marie, E.' type='person' role='cmp'>Marie, E.</name>
+        <name key='Parès, Gabriël' ref='https://muscat.rism.info/admin/people/30024480' type='person' role='int'>Parès, Gabriël</name>
+        <name key='Teissier, Aug.' type='person' role='int'>Teissier, Aug.</name>
+        <name key='Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)' type='person' role='int'>Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)</name>
+        <name key='Joseph' type='person' role='int'>Joseph</name>
+        <name key='Culoz, Juliette' type='person' role='int'>Culoz, Juliette</name>
+        <name key='Combelle' type='person' role='int'>Combelle</name>
+        <name key='Ketten, Léopold' type='person' role='int'>Ketten, Léopold</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001088_001.tif'/>
+        <page>
+          <![CDATA[—>3 VICTORIA HALL E
 DIMANCHE 3 OCTOBRE 1909, à 2 h. et demie après midi.
-
 (AND CONCERT
-
 DONNÉ PAR LA
-
 FANFARE MUNICIPALE DE IA VILLE DE GENÈVE
-
 SOUS A PDIRECTION DE
-
 M. GABRIEL PARÈS
-
 Chef de la Musique de la Garde Républicaine de Paris
 t M. A. TVEISSIEER, divcieur de la Fanfare Municipale de la Ville de Genève
-
 AVEC LE BIENVEILLANT ET GRACIEUX CONCOURS DE
-
 M. JOSEPH : M* Jutiette CULOZ : M.COMBELLE
-
 Piston solo de la Musique de la Garde. 1°"Contralto de l'Opéra de Nice. Saxophone solo de la Musique de la Garde.
-
 M. Léopold KETTEN
-
 Professeur supérieur au Conservatoire de Musique.
-
- 
-
- 
-
 —n v —
-
 — PROGRAMME —
-
 PREMIÈRE PARTIE
-
 Sous la direction de M. Aug. TEISSIER, directeur de la Fanfare Municipale de la Ville de Genève.
-
 T6s Cadgis déAntriche, allégro militaire … . .… . ;; GABRIEL PARÉS
-
 ns es LaVie de Bohôme . 4. 11 1 en - PUCCINI
 (Transcription de M. Aug. TEISSIER.)
-
 Fantaisie-Ballet .. . . 4 GABRIEL PARÈS
 Grand air de Samson et Da111a @ 06 uE SAINT-SÆNS
 M'"° Juliette CULOZ, 1°" contralto de l’ Opéra de Nice,
-
 DEUXIÈME PARTIE
-
 Sous la direction de M. Gabriel PARÈS, chef de la Musique de la Garde Républicaine.
-
 Jour de Fête, petites scènes romantiques. . . . . .. GABRIEL PARES
 Cypris. solo de piston . . 0n 1 A PAIRUE
-
 M. JOSEPH, piston de la Garde
 Tts sn e A. TEISSIER
 La Tyrolienne, air varié pour saxophone . . . . 1 . . lÿ. MARIE
-
 M. COMBELLE, saxophone solo de la Garde.
 ts d A E GABRIEL PARÉS
-
 Prix des Places : Rez-de-Chaussée et 1" Galerie, 1 fr. - 2”* Galerie, 0.50 c.
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 MM. les membres honoraires et passifs ont droità 2 entrées sur présentation de leur carte 1909,
-
 BILLETS EN VENTE A L'AVANCE CHEZ LE CONCIERGE DU VICTORIA-HALL
-
 t &
-
-IMPRIMER(E J, STUDER, GENÈVE,]]></page>       
-        </p>
+IMPRIMER(E J, STUDER, GENÈVE,
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

@@ -1,70 +1,78 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>[Concerts de musique de chambre]<date when="18/12/1945"/></title>
-<series>1945-1946</series>
-<placeName>Université</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            [Concerts de musique de chambre]
+            <date when='18/12/1945'/>
+          </title>
+          <series>1945-1946</series>
+          <placeName>Genève, Université</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU DG4 F004525</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt> </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19451218"/>
-<title>[Concerts de musique de chambre]</title>
-<placeName key="Université"/>
-<name key="1945-1946" type="series"/>
-<name key="Hindemith, Paul" ref="https://muscat.rism.info/admin/people/90311" type="person" role="cmp">Hindemith, Paul</name>
-<name key="Schönberg, Arnold" ref="https://muscat.rism.info/admin/people/86683" type="person" role="cmp">Schönberg, Arnold</name>
-<name key="Stravinskij, Igor' Fëdorovič" ref="https://muscat.rism.info/admin/people/132137" type="person" role="cmp">Stravinskij, Igor' Fëdorovič</name>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Bernand, G."  type="person" role="int">Bernand, G.</name>
-<name key="Neufeld, C."  type="person" role="int">Neufeld, C.</name>
-<name key="Gugolz, R."  type="person" role="int">Gugolz, R.</name>
-<name key="Ribaupierre, Ch. de"  type="person" role="int">Ribaupierre, Ch. de</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f004525_001.tif"/>
-<page><![CDATA[&, Croix-d’Or Genève
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19451218'/>
+        <title>[Concerts de musique de chambre]</title>
+        <placeName key='Genève, Université'/>
+        <name key='1945-1946' type='series'/>
+        <name key='Hindemith, Paul' ref='https://muscat.rism.info/admin/people/90311' type='person' role='cmp'>Hindemith, Paul</name>
+        <name key='Schönberg, Arnold' ref='https://muscat.rism.info/admin/people/86683' type='person' role='cmp'>Schönberg, Arnold</name>
+        <name key='Stravinskij, Igor&apos; Fëdorovič' ref='https://muscat.rism.info/admin/people/132137' type='person' role='cmp'>Stravinskij, Igor' Fëdorovič</name>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Bernand, G.' type='person' role='int'>Bernand, G.</name>
+        <name key='Neufeld, C.' type='person' role='int'>Neufeld, C.</name>
+        <name key='Gugolz, R.' type='person' role='int'>Gugolz, R.</name>
+        <name key='Ribaupierre, Ch. de' type='person' role='int'>Ribaupierre, Ch. de</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f004525_001.tif'/>
+        <page>
+          <![CDATA[&, Croix-d’Or Genève
 À propos de Schônberg…
-
 Au mois de septembre 1944, Arnold Schônberg fétait le 70"
 anniversaire de sa naissance, anniversaire qui passa inaperçu en
 Suisse. Il est vrai que son art n’est presque pas connu chez nous
 C’est là une regrettable lacune pour le public des concerts, qui n’a
 pas l’occasion de se faire par lui-même une idée de cet art si
 controversé.
-
 Les premières œuvres de Schônberg devaient encore beaucoup
 au style wagnérien et jouissaient par cela même d’une certaine
 réputation en. Allemagne et en Autriche. Mais déjà dans l’Opus 11
@@ -82,124 +90,78 @@ de dominante. La fonction de la dominante y est remplacée par les
 quatre états de la série : affirmatif, négatif, interrogatif et interro-
 gatif-négatif. Tl en résulte un échange extraordinairement complexe
 de données, une grande richesse de formes,
-
 ETUDIANTS candidats médecins-dentistes
-
 adressez-vous pour l’achat de vos trousses de l’Institut Dentaire, à
-
 REYMOND FIÉS & C'E S À.
-
 Boulevard du Théâtre, 10
 GENÈVE
-
 fournitures pour dentistes, qui vous donnera tous les
 l'enseignements nécessaires
-
- 
-
 |
-"]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f004525_002.tif"/>
-<page><![CDATA[Boulangerie-Pâtisserie
-
+"
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f004525_002.tif'/>
+        <page>
+          <![CDATA[Boulangerie-Pâtisserie
 Ernest MEIER
-
 Le rendez-vous des Etudiants
 pendant le « quart d'heure »
-
 18, rue du Conseil-Général
 Genève - Tél. 4.19.66
-
- 
-
 Equipements de
-
 SKI
-
 pour Dames et Messieurs
-
 Magnifique
 Collection
-
 GRAND SPORT
-
 au Grand Passage —
-
- 
-
- 
-
- 
-
 UI vA à GENÈVEVA à la (Chesa
-
-IPonnez-y vos rendez-vous]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f004525_003.tif"/>
-<page><![CDATA[——c
-
- 
-
- 
- 
-
+IPonnez-y vos rendez-vous
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f004525_003.tif'/>
+        <page>
+          <![CDATA[——c
 JVNES = MUSIQUIE
-
 Neufs et d'occasion
-
 VENTE - ACHAT - KCHANGE
-
 1>1R OIR
-
 Corraterie, 9
-
 Mardi 18 Décembre
-
 Quatuor . ; ; ; ; ; ; P. Hindemith
-
 pour clarinette, violon, violoncelle et piano (1938)
 a) Mässig bewegt b) sehr langsam
 c) Mässig bewegt d) lebhaït
 3 pièces pour piano Op. 11. (1910) - , A. Schônberg
 a) Mässige b) Mässige c) Bewegte
-
- 
-
 3 pièces pour clarinette solo , ; ; [ Strawinsky
 Entr’acte
 Trio en ré majeur Op.70No 1 L. van Beethoven
-
 a) Allegro vivace e con brio
 b) Largo assai ed esprersivo
-
 c) Presto
 M. G. Bernand M. R. Gugolz
 piano clarinette
-
 M. C. Neufeld | M. Ch. de Ribaupierre
-
-violon violoncelle]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f004525_004.tif"/>
-<page><![CDATA[Chacun son : ê 7 SI -E Travaux
+violon violoncelle
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f004525_004.tif'/>
+        <page>
+          <![CDATA[Chacun son : ê 7 SI -E Travaux
 appareil v P \IS E photo et ciné
 photo ou ciné %% 1'È% - impeccables
 de la PETOLOE NNN O NME SN SUS | Photocopie
-
-   
-
 ROBERT FEHLMANN
-
 Place Longemalle - Angle rue du Rhône, 47
-
 Nous maintenons
-
 Nous promettions dans notre éditorial de l’an passé de créer une tradition :
 nous nous appliquons à tenir cette promesse.
-
 Nos concerts de cette année sont presque uniquement réservés à des œuvres
 que le public n’a pas l’occasion d’entendre, si ce n’est en salon ; ainsi les Quintettes
 de Mozart et Beethoven pour souffleurs et piano, la Sérénade de Mozart pour alto,
 violon et flûte, le Quatuor de Hindemith pour clarinette, piano et cordes, etc.
-
 Conscients de la nécessité de notre œuvre, nous la poursuivons malgré les
 innombrables difficultés auxquelles nous nous heurtons. (Les étudiants portent toute la
 responsabilité morale de la réussite ou de l’échec de ces manifestations…) Il est vrai,
@@ -208,28 +170,18 @@ de la compréhension de M. le Recteur A. Babel, ainsi que de son appui matériel
 me de celui du Conseil d’Etat. I| serait difficile de ne pas associer dans notre recon-
 naissance tous les artistes qui nous prêtent leur concours. Ils ont compris notre devise
 et l’ont adoptée :
-
 SERVIR LA MUSIQUE ET LES MUSICIENS
-
 dans le domaine que nous avons choisi : la musique de chambre. Mais aussi servir le
 pays dans l'esprit désintéressé qui doit être celui de l’étudiant.
-
 Pour l'Office des Arts : J.M.U.
-
 Cintra
-
 TOUJOURS
-
 Cintra
-
 DÉGUSTATION, Fusterie 16 - GENÈVE
-
- 
-
- 
-
-E AI]]></page>       
-        </p>
+E AI
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

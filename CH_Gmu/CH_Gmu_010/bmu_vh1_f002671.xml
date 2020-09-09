@@ -1,192 +1,126 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert de musique française donné par l'Harmonie nautique<date when="01/04/1928"/></title>
-<series>1927-1928</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert de musique française donné par l'Harmonie nautique
+            <date when='01/04/1928'/>
+          </title>
+          <series>1927-1928</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002671</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Gabelles, G. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19280401"/>
-<title>Concert de musique française donné par l'Harmonie nautique</title>
-<placeName key="Victoria Hall"/>
-<name key="1927-1928" type="series"/>
-<name key="Widor, Charles-Marie" ref="https://muscat.rism.info/admin/people/135158" type="person" role="cmp">Widor, Charles-Marie</name>
-<name key="Indy, Vincent d'" ref="https://muscat.rism.info/admin/people/114686" type="person" role="cmp">Indy, Vincent d'</name>
-<name key="Debussy, Claude" ref="https://muscat.rism.info/admin/people/4338" type="person" role="cmp">Debussy, Claude</name>
-<name key="Fourdrain, Félix Alfred" ref="https://muscat.rism.info/admin/people/30073678" type="person" role="cmp">Fourdrain, Félix Alfred</name>
-<name key="Saint-Saëns, Camille" ref="https://muscat.rism.info/admin/people/76734" type="person" role="cmp">Saint-Saëns, Camille</name>
-<name key="Delaye, Georges"  type="person" role="cmp">Delaye, Georges</name>
-<name key="Gabelles, Gustave  (dir.)" ref="https://muscat.rism.info/admin/people/30073762" type="person" role="int">Gabelles, Gustave  (dir.)</name>
-<name key="Harmonie Nautique"  type="person" role="int">Harmonie Nautique</name>
-<name key="Péterwitz, Jane"  type="person" role="int">Péterwitz, Jane</name>
-<name key="Zumsteg, Hélène"  type="person" role="int">Zumsteg, Hélène</name>
-<name key="Sougné, Henri"  type="person" role="int">Sougné, Henri</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002671_001.tif"/>
-<page><![CDATA[VICTORIA-HALL
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19280401'/>
+        <title>Concert de musique française donné par l'Harmonie nautique</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1927-1928' type='series'/>
+        <name key='Widor, Charles-Marie' ref='https://muscat.rism.info/admin/people/135158' type='person' role='cmp'>Widor, Charles-Marie</name>
+        <name key='Indy, Vincent d&apos;' ref='https://muscat.rism.info/admin/people/114686' type='person' role='cmp'>Indy, Vincent d'</name>
+        <name key='Debussy, Claude' ref='https://muscat.rism.info/admin/people/4338' type='person' role='cmp'>Debussy, Claude</name>
+        <name key='Fourdrain, Félix Alfred' ref='https://muscat.rism.info/admin/people/30073678' type='person' role='cmp'>Fourdrain, Félix Alfred</name>
+        <name key='Saint-Saëns, Camille' ref='https://muscat.rism.info/admin/people/76734' type='person' role='cmp'>Saint-Saëns, Camille</name>
+        <name key='Delaye, Georges' type='person' role='cmp'>Delaye, Georges</name>
+        <name key='Gabelles, Gustave' ref='https://muscat.rism.info/admin/people/30073762' type='person' role='int'>Gabelles, Gustave</name>
+        <name key='Harmonie Nautique' type='person' role='int'>Harmonie Nautique</name>
+        <name key='Péterwitz, Jane' type='person' role='int'>Péterwitz, Jane</name>
+        <name key='Zumsteg, Hélène' type='person' role='int'>Zumsteg, Hélène</name>
+        <name key='Sougné, Henri' type='person' role='int'>Sougné, Henri</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002671_001.tif'/>
+        <page>
+          <![CDATA[VICTORIA-HALL
 ; Ouverture On
 ‘ des portes à commencera à
-
 Dimanche 1# Avril 1928 14 h. 45
-
 CONCERT DE MUSIQUE FRANÇAISE
-
 donné par
-
 L’HARMONIE NAUTIQUE
-
 (HARMONIE MUNICIPALE DE LA VILLE DE GENEÈVE)
 M. Gustave GABELLES
-
 avec le bienveillant concours de
-
 Mire JANE PÉTERWITZ Mirsc HÉLÈNE ZUMSTEG
 Soprano Pianiste
-
 M. HENRI SOUGNÉ
 Alto-solo de l’Orchestre Romand
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Directeur:
-
- 
-
 Première Partie
-
 1. OUVERTURE DES PÈCHEURS DE
 SAINT-JEAN . . . . ; 0 V/IOOP
-
 CID FOUR ATO ° 2111 .. . Vincent d'Indy
 M. Henrl SOUGNÉ
-
 3 a) JET D'EAU
-
 Ç
-
 b) L’ENFANT PRODIGUE | .
 Mlile Jane PÉTERWITZ
-
 4 LA BOITE A JOUJOUX, ballet. . . . . C. Debussy
-
 Deuxième Partie
 cÉ GEANEUSE. .. . 1 OUrArAIN
-
 Poème symphonique (1re aud…on)
-
 6. RAPSODIE D'AUVERGNE. . . . . . : Saint-Säens
-
 (Piano et orchestre)
 Mlle Hélène ZUMSTEG
-
 7 (,DANS LES VIGNES. . . . . Georges Delaye
 Scène poétique de /la Bourgogne (1 re aud…on)
-
 Piano de concert STEINWAY aux soins de la Maison Ch. BERGUER
-
- 
-
 Le piano d'accompagnement sera tenu par MM. O. WEND et Marce/ MILLIOUD
-
 CIGARETTES
-
 LAUHENS'
-
 23 GHANDS PRIX HOHS CONCOURS
-
- 
-
- 
-
-   
-
-      
- 
- 
-
-  
- 
-
- 
-
- 
-
- 
-
- 
-
-Imp Cuapuis & BauwEisTen, Rue du Stand, 47, Genève]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002671_002.tif"/>
-<page><![CDATA[RESTAURANT =— TEA-ROOM
-
+Imp Cuapuis & BauwEisTen, Rue du Stand, 47, Genève
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002671_002.tif'/>
+        <page>
+          <![CDATA[RESTAURANT =— TEA-ROOM
 ROLFO
-
 20, Rue du Marché - GENÈVE - Téléphone: Stand 72.11
-
- 
-
- 
-
 Maison de premier ordre au centre des affaires
-
- 
-
- 
-
 LUNCH à fr. 3.50 et 4.50 TEA-ROOM
 binea ... .- CONCERT DE 4 à 6 h.
-
 Grand choix de Pâtisserie
-
- 
-
 LES PÉCHEURS DE St-JEAN (C. M. Widor)
-
 L’ouverture des Pécheurs de St-Jean (St-Jean de Luz) résume le drame
 maritime de Henri Cain, traduit musicalement par Ch. M. Widor (secré-
 taire perpétuel de l'Académie des beaux-arts) et représenté à l’Opéra-
@@ -196,66 +130,38 @@ symphoniquement développée, difficile pour l’orchestre, l’est encore plus
 pour musique d’harmonie. Elle fut transcrite spécialement dans une tonalité
 aride par M. Parès pour le concours de Paris 1912 en division d’excellence
 et c’est cette transcription qu’interprête, ce jour, l’Harmonie Nautique.
-
- 
-
- 
-
- 
-
- 
-
 SOCIÉTÉ DE
-
 BANQUE SUISSE
-
 . RONDEE PN3 ”
 Capital-actions et Réserves : 180 millions
-
 6-10, Corraterie - GENÈVE - Corraterie, 6-10
-
- 
-
 CORNAVIN | EAUX-VIVES
 10, Place de Cornavin 3, Place des Eaux-Vives
 PLAINPALAIS CAROUGE
-
 36, Rue de Carouge 11, Rue du Marché
-
-TOUTES OPÉRATIONS DE BANQUE AUX MEILLEURES CONDITIONS]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002671_003.tif"/>
-<page><![CDATA[Grâce à ses nombreux perfectionnements et aux merveilleux enregistrements de
+TOUTES OPÉRATIONS DE BANQUE AUX MEILLEURES CONDITIONS
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002671_003.tif'/>
+        <page>
+          <![CDATA[Grâce à ses nombreux perfectionnements et aux merveilleux enregistrements de
 disques, le gramophone est devenu l’ami des musiciens.
-
 A JUPITER
-
 4, RUE DU RHONE TÉLÉPHONE ST. 61.12
 GENÈVE
 La plus ancienne et la plus importante maison de Gramophones
 et de disques.
 APPAREILS ET DISQUES
-
 DE TOUTES LES MEILLEURES MARQUES €
 L’appareil VIVA-TONAL COLUMBIA est l’appareil idéal ÿ I
 pour la musique classique. COLUMBIA et VOIX DE SON
 MAITRE les meilleurs disques artistiques. APEX les meilleurs
-
 disques de danse. 47
-
 Facilités de paiement sur désir.
-
- 
-
- 
-
- 
-
 VINCENT D’INDY
-
 Né à Paris le 27 mars 1851, d’une famille originaire des Cévennes, il
 abandonna l’étude du droit pour entreprendre la carrière musicale, au len-
 demain de la guerre de 1870 à laquelle il prit part comme volontaire. |
-
 Il devint l’élève de César Franck auprès duquel il travailla pendant six
 aus. Entre 1875 et 1881, il écrivit la « Trilogie de Wallenstein ». En 1886,
 il obtint le grand prix de Composition de la Ville de Paris, avec le « Chant
@@ -263,7 +169,6 @@ de la Cloche », légende dramatique en 7 tableaux qui fut exécutée sous la
 direction de Ch. Lamoureux. Puis ce fut « Sauge fleurie », poème pour
 orchestre ; la « 1re Symphonie », dite : Cévenole, pour piano et orchestre,
 et beaucoup de pièces pour chant ou instruments. |
-
 En 1895, frappé de l’ignorance de la plupart des jeunes musiciens,
 Vincent d’Indy se joint à Charles Bardes et à Alexandre Guilmant pour
 fonder la «Schola Cantorum », Ecole Supérieure de Musique où il enseigne l
@@ -271,58 +176,32 @@ lui-même l’art de composer, dans un cours d’une durée de dix ans. De |
 cette école sont déjà sortis bien des jeunes talents qui ont fait leur chemin |
 dans la carrière musicale et beaucoup d’artistes de mérite, parvenus à des
 postes de directeurs de Conservatoires.
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Ll aa2 1 .
-
 Ercquèn
-
-… FRIBOURG [HLUNILE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002671_004.tif"/>
-<page><![CDATA[BANQUE
+… FRIBOURG [HLUNILE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002671_004.tif'/>
+        <page>
+          <![CDATA[BANQUE
 POPULAIRE SUISSE
-
 PLACE SAINT-GERVAIS Fondée en 1869 1, QUAI DES BERGUES
-
 AGENCES : 18, COURS DE RIVE
 2, ROUTE DES ACACIAS
-
 GENEÈVE
-
 mmm e en
-
 Capital et réserves : fr. 125.000.000
-
- 
-
 Dispose du réseau de succursales
 le plus étendu en Suisse
-
 Correspondants dans tous les cen- Organisée pour toutes opérations de
 tres importants du monde entier banque aux meilleures conditions
-
- 
-
- 
-
 Vincent d’Indy sait que l’amour seul est capable de susciter, chez
 l’Artiste, l’esprit de création, et il a consacré la plus grande partie de sa
 vie à cultiver l’amour de l’Art chez ses élèves, auxquels il porte la plus
 vive affection, et il estime qu’il n’a pas lieu de se repentir d’avoir travaillé
 à faire de son école un centre de Foi et d’Amour pour la saine Musique
 qu’il aima toute sa vie.
-
 LA BOITE A JOUJOUX (C/. Debussy)
-
 En 1912, le peintre Hellé écrivit et dessina le scénario de la « Boîte à
 joujoux » et s'adressa à Cl. Debussy qui accepta immédiatement d’en écrire
 la musique. Les lettres du compositeur au peintre, témoignent de la joie
@@ -332,94 +211,52 @@ parut à la fin de la même année. Le ballet devait passer en décembre 1914
 1919, une année après la mort de Debussy, M. Ghensi, alors directeur du
 Théâtre Lyrique, monta l’ouvrage avec tous les soins désirables, et la pre-
 mière fut un triomphe.
-
 Depuis, les ballets suédois ont dansé la « Boîte à joujoux ».
-
 Les orchestres Lamoureux et Colonne en ont donné plusieurs auditions.
-
- 
-
-   
-
- 
-
 TAVERNE DE ST-JEAN
-
 BRASSERIE-RESTAURANT
-
- 
-
 La plus belle, la plus grande Brasserie de Genève
 ÉTABLISSEMENT DE PREMIER ORDRE
 Grande Terrasse - Salle de Société
 Téléphone : MB. 45.39
-
 Se recommande Même maison
-
-A. ANDEREGG Brasserie Genevoise]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002671_005.tif"/>
-<page><![CDATA[Au Dépôt général du Poisson du Lac Léman
-
+A. ANDEREGG Brasserie Genevoise
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002671_005.tif'/>
+        <page>
+          <![CDATA[Au Dépôt général du Poisson du Lac Léman
 Maison fondée en 1848
-
 LUGRIN & Cie (s.A.)
-
 46, Rue du Rhône, 46 - Genève
-
 Adr. télégr.: LUGRIN-GENÈVE - AUCUNE SUCCURSALE - Téléphone: Stand 2100
-
 Volailles de Bresse - Gibiers de toutes provenances
 Poissons du Lac
 Marée française - Huitres de Claires de Marennes
 Arrivages directs et journaliers
 Langoustes du parce de Camaret
 Comestibles de toutes espèces - (Conserves des lres marques
-
 L’importance de la vente lui permet de ne jamais
 constituer de stock et de garantir à sa clientèle la qualité et la fraîcheur de ses marchandises
-
 Expéditions en tous pays
-
- 
-
- 
-
- 
-
- 
-
 { Buvez un
-
 AMER PICON
-
 ( Exigez-le
-
- 
-
- 
-
 ETE
-
 sn
-
-1 grandehî qu_e“S…sse des']]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002671_006.tif"/>
-<page><![CDATA[Hew DEVRED-VÉTEMENTS
-
+1 grandehî qu_e“S…sse des'
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002671_006.tif'/>
+        <page>
+          <![CDATA[Hew DEVRED-VÉTEMENTS
 Place St-Gervais | GENÈVE  Rue de Coutance
-
 La plus grande spécialité pour hommes, jeunes gens et enfants
-
 VISITEZ COMPAREZ
 SES MAGASINS Û SES MARCHANDISES
 à qualités égales 0 à façons égales
-
 MEILLEUR MARCHÉ QUE PARTOUT AILLEURS
-
- 
-
 HARMONIE NAUTIQUE
-
 MEMBRES DU COMITÉ:
 MM. G. MARTINET, président ; G. GABELLES, directeur ; J. LICKERT et
 E. LEUTÉ, vice-présidents ; A. PORTIER, secrétaire ; P. MURITH, vice-
@@ -433,366 +270,203 @@ Petites clarinettes : MM. SANTANDRÉA - BÉBOUX.
 Clarinettes: MM. DÉPRAz - PORTIER - CHAPUIS - Roy - RIEUNAUD
 MURITH - PEZZOTTI - DUCRET - SCHWITZGUÉBEL - Ed. VANAT
 HÆFLIGER - ZIBACH - RoTH - GYSIN - NONNEMANN - MARTI
-
- 
-
 GRANDE BRASSERIE CENTRALE
-
 CAFÉ-RESTAURANT
 CROIX-D'OR, 2 TÉL. STAND 34.62
 Déjeuners et Dîners -  Choucroute extra toute l’année
-
 BIÈRES WARTECK de Bâle
 et VINS de première qualité
-
-E. MAYERAT]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002671_007.tif"/>
-<page><![CDATA[U€1(1UCS fl€UI‘S
-
+E. MAYERAT
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002671_007.tif'/>
+        <page>
+          <![CDATA[U€1(1UCS fl€UI‘S
 de
-
 1 ÉHURIOT
-
 RUE DE RIVE, 15 ﬂeuriste artistique
-
- 
-
- 
-
 Membres exécutants (suile)
-
 VANBIANCHI - MÉDA - BURDET - Bsson - LUDIN - BERGOIN
 BoDOoIRA - CHATELAIN - GABELLES fils - MARTIGNIER - VIGNA
 BuscH.
-
 Clarinette basse : M. Moisy.
-
 Bassons : MM. FrancouaL Ch. - Francouar J. - LANcoux.
-
 Saxophones : MM. D’IvERNOIS - GONDRET - PEDRONI - BôscH
 MARET - VANAT H. - CLÉMENT - RovBIN.
-
 Cornets à pistons : MM. DuPonT - M. CHAPuIS - DROZ - SCHMIED
 DEcroux L. - TRISCONI - SIGNORINI.
-
 Bugles : MM. Poncionr - Guyor - REvoL - REISSER.
-
 Trompettes : MM. E. BurDET - CoLomBO - RossET - MAIRE.
-
 Cors : MM. RIsTOR1 - PIGUET - GAy - MARTIN B. - RETSCHINSKY
 BoccaARD J. - BINEATI - ZBINDEN.
-
 Trombones : MM. Sinay - PiorroN - G. MARTIN - MAITRE - RocH
 Marc PorTIER.
-
- 
-
- 
-
 Randor - Friederick
-
 4 SA .
 FABRIQUE A CHÊNE-BOURG
-
- 
-
- 
-
 Graleses surfines pour usages culinaires : Lessives - Cristaux de soude
-
 Encaustiques
 Oleol - ina - 5 ile - Uni
 eol - Alpina - Nostras - Etoile - Union Cires, Cierges, Bougies de Noël
-
 Savons de ménage :
-
 Bougies :
 Souris - Lyre - Vénus - Chêne - Alpa
-
 Couronne - Brillant - Diamant - Vénus
-
- 
-
- 
-
- 
-
-@;]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002671_008.tif"/>
-<page><![CDATA[c1:xssiquc et moâcrne 1 . . .
+@;
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002671_008.tif'/>
+        <page>
+          <![CDATA[c1:xssiquc et moâcrne 1 . . .
 Grand C1101X pour piano, vxolou et clmut
-
 16, Corraterie Méthodes - Partitions
-
 TÉLÉPHONE : STAND 0.685 Littérature musicale
-
 VENTE ET ABONNEMENT
-
 A(‘(‘CSSOiX‘CS (1iVCI'S
 Aucienne M:\isou CHOUET & GADEN
-
 Alifred PÉNARD, Successeur
-
- 
-
 x
 MUSIQUE crr
-
- 
-
- 
-
 Membres exécutants (sui/e)
-
 Barylons, Basses et contre-basses : MM. GREBER - DONZÉ - VIBERT
 BALESTRA - D'OLIVEIRA - CHOUARD - OMARINI - MOLINATTI
 MoNTILLARD - VOUMARD - THOMMEN - ABREZOL.
-
 Contre-basses à cordes: MM. RICHTER - MAYER - KNUCHEL.
-
 Batterie : MM. Kurr - DELOCHE - DESCOMBES - GRIEDER.
-
- 
-
 AVIS. — Les personnes qui désirent devenir « Membres
 passifs » de l’Harmonte Nautique peuvent s’inscrire au Vic-
 toria Hall ou à la Librairie Richard (80, rue du Rhône), et
 auprès des membres de la Société. — La carte de « membre
 passif » donne droit à deux entrées pour chaque concert donné
 par l’Harmonie Nautique.
-
- 
-
 Pour les cours d’élèves, s’adresser à M. G. Gabelles,
 directeur, au Victoria-Hall, de 11 à 12 h. 30. — Télép. St. 53.28.
-
- 
-
- 
-
- 
-
 TRANSPORTS FUNÈRES
-
 Ancienne Maison MURITH, DUPARC & FERT : __——  Fondée en 1888
-
 À. MURITH s.a.
-
 GENEÈVE - siège Social : Rue des Chaudronniers, 16
-
 Téléph. Stand 121 Service permanent
-
 Fabrique de Cercueils Automobiles Funéraires
-
 L’Administration se charge, sans aucun déplacement pour les
 familles, de toutes les démarches et formalités relatives aux
-
 Inhumations —  Exhumations —  Incinérations —  Transports
-
- 
-
-   
-
 vorteares CENTRAL-DEUIL sanesFe.16
-—]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002671_009.tif"/>
-<page><![CDATA[CLARINETTES, FLUTES, HAUTBOIS
-
+—
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002671_009.tif'/>
+        <page>
+          <![CDATA[CLARINETTES, FLUTES, HAUTBOIS
 de la maison
-
 LEBLANC
-
 DE PARIS
 ont été appréciés par tous les connaisseurs
 à l'Exposition de la Musique
 à Genève
-
- 
-
- 
-
 LA GLANEUSE (Fourdrain)
-
 Je suis la glaneuse…
 Qui voudrait glaner du bonheur
 Et qui ne glane que des pleurs.
-
 Sur le livret de P. Choudens et A. Bernède, qui est d’une grande sim-
 plicité, mais combien poignantes sont les scènes de chaque acte, le regretté
 compositeur Fourdrain à écrit une partition réellement belle et qui assu-
 rément restera au répertoire, ayant obtenu dans toutes les grandes villes,
 un énorme succès.
-
- 
-
 enftrefenez-le 507ÿneasemem‘.
-
- 
-
 Four le faire accorder, nettfoger
 ou réparer, téléphonez Ot, 42.75
-
 64, Rue du Stand, 64 (ler étage)
-
- 
-
-Zn Œ] OIO coûte cher,]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002671_010.tif"/>
-<page><![CDATA[k =
-
- 
-
- 
-
+Zn Œ] OIO coûte cher,
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002671_010.tif'/>
+        <page>
+          <![CDATA[k =
 Pour voyager agréablement et sans soucis, adressez-vous à
-
 L’AGENCE
-
 C. BLENK, FERT & Co
-
 1, Rue du Mont-Blanc, 1
 Angle Quai des Bergues
-
 GENÈV
-
- 
-
 Tous les billets de chemins de fer et de passages
 maritimes aux conditions des tarifs
-
 CHÈQUES DE VOYAGEURS - BANQUE - CHANGE
 VOYAGES A FORFAIT
-
- 
-
 RHAPSODIE D'AUVERGNE (C. Saint-Saëns)
-
 Ce morceau brillant est un exemple bon à citer de l’emploi des thèmes
 populaires.
-
 Ce que Liszt avait fait avec les airs tziganes, ce qu’ont pratiqué systé-
 matiquement Dargomijsky, Balakirew, et autres compositeurs du Nord,
 ainsi que l’a démontré M. Albert Soubies dans son intéressant ouvrage sur
 la musique russe, Saint-Saëns l’a tenté, et avec une particulière réussite,
 avec d’anciennes mélodies recueillies en Auvergne.
-
 Il y a là comme un goùt de terroir bien caractéristique, dont l’auteur a
 su tirer un parti remarquable. Sur ce canevas primitif, il a tracé les bro-
 deries les plus délicates et les plus rares.
-
 La date de composition nous est donnée par le manuscerit : décembre
 1884. Ce morceau, qui porte le numéro d’op. 73, a été dédié à M. Louis
 Diémer et joué par lui pour la première fois aux Concerts Colonne, le 15
 mars 1885, et par M. Francis Planté, accompagné de la Musique de la
 Garde Républicaine, pour qui a été faite la transcription.
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-| 'A;5=7_R‘u'è du Rhône ..]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002671_011.tif"/>
-<page><![CDATA[Œoarga0i va-t-on au
-
+| 'A;5=7_R‘u'è du Rhône ..
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002671_011.tif'/>
+        <page>
+          <![CDATA[Œoarga0i va-t-on au
 XX" SIÈCLE ?
-
 Pour sa bière de “ Munich double maltée”,
 sa  Spéciale-blonde (Avenir), sa véritable
 “ Pilsen-Urquell””. Ses vins de Jussy 1“ choix
 et Villeneuve extra. Ses apéritifs de marque.
 Son excellente cuisine. Sa magnifique terrasse
-
- 
-
- 
-
- 
-
 DANS LES VIGNES, Scène poétique (Georges Delaye)
-
 En 1925, la Ville de Cannes mettait au concours la composition d’une
 pièce pour musique d’harmonie en vue de l’imposer au concours de
 musique de cette ville en 1926. Il y eut 72 concurrents. L’œuvre de
 M. G. Delaye fut choisie par un jury composé de MM. Gabriel Fauré, André
 Messager, Alexandre Georges, Henri Busser, chef d’orchestre de l’Opéra,
 ËÎ_b1‘@el Parès et Guillaume Balay, chefs de musique de la Garde Répu-
-
 icaine.
-
 Ce morceau est construit sur trois thèmes, dont l’un est une Chanson
 populaire Bourguignonne. L’auteur s’est inspiré de la nature, par un beau
 jour d’été, et desmœurs du pays pittoresque où vécut le poète de Lamartine.
 Ajoutons que cette pièce a été exécutée par la Musique de la Garde Répu-
 blicaine sous la direction de M. Balay.
-
- 
-
- 
-
 Toutes fournitures pour
-
- 
-
 la Couture
 la Broderie
 le Tricot
-
 BAS - CHAUSSETTES - GANTS
 SOUS-VÊTEMENTS ÉLÉGANTS
-
-Les meilleures qualités au plus bas prix]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002671_012.tif"/>
-<page><![CDATA[%—
-
+Les meilleures qualités au plus bas prix
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002671_012.tif'/>
+        <page>
+          <![CDATA[%—
 Musique Prior et Librairie circulante
 sont transiérés à la “Petite Corraterie ”
-
 Fr. 15.— par an ou fîr. 2.50 par mois
 pour un livre ou trois cahiers de musique
 échangeables tous les jours
-
 Nouveautés littéraires et musicales dès parution. Tarif postal spécial.
-
 Catalogue à disposition.
-
 Cité, 16: Vente, achat et échange de livres anciens et modernes
-
- 
-
 OO 09
-
 <adt{{{tra. cA0H{H010, cadf{E0t00. ccefAEU r. conbEO 00 B EE 01 ct U{t0. eOEUUt 0. bl c0U es EU
-
 FAITES VOS ACHATS de préférence chez les commerçants
-
 indiqués dans nos programmes analytiques !
-
 A A RR TRI = CUCEEENOP  <CCAQQUEUPP5 CON CCOEQAE CRL
-
 Wn
-
- 
-
- 
-
- 
-
-   
-
 Au dessert un
 Cointreau Liqueur
 s’impose
 Cointreau S. A. R. L, Angers
-Ch. BRUCHON, Agent général pour la Suisse - GENÈVE]]></page>       
-        </p>
+Ch. BRUCHON, Agent général pour la Suisse - GENÈVE
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

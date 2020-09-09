@@ -1,71 +1,79 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Pour le nouvel an russe<date when="19/00/0000"/></title>
-<series>[19--?]</series>
-<placeName>Genève ?</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Pour le nouvel an russe
+            <date when='00/00/1900'/>
+          </title>
+          <series>[19--?]</series>
+          <placeName>Genève</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU DG4 F009959</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Lieu incertain</note>
+        <note>Date incertaine</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="00000019"/>
-<title>Pour le nouvel an russe</title>
-<placeName key="Genève ?"/>
-<name key="[19--?]" type="series"/>
-<name key="Wallace, Vincent" ref="https://muscat.rism.info/admin/people/30018906" type="person" role="cmp">Wallace, Vincent</name>
-<name key="Marc-Michel"  type="person" role="cmp">Marc-Michel</name>
-<name key="Labiche, Eugène" ref="https://muscat.rism.info/admin/people/20002219" type="person" role="cmp">Labiche, Eugène</name>
-<name key="Monod"  type="person" role="int">Monod</name>
-<name key="Montet"  type="person" role="int">Montet</name>
-<name key="Oustinoff"  type="person" role="int">Oustinoff</name>
-<name key="Wolodimeroff (Mlle)"  type="person" role="int">Wolodimeroff (Mlle)</name>
-<name key="Monson (Mlle)"  type="person" role="int">Monson (Mlle)</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f009959_001.tif"/>
-<page><![CDATA[POUR LE
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19000000'/>
+        <title>Pour le nouvel an russe</title>
+        <placeName key='Genève'/>
+        <name key='[19--?]' type='series'/>
+        <name key='Wallace, Vincent' ref='https://muscat.rism.info/admin/people/30018906' type='person' role='cmp'>Wallace, Vincent</name>
+        <name key='Marc-Michel' type='person' role='cmp'>Marc-Michel</name>
+        <name key='Labiche, Eugène' ref='https://muscat.rism.info/admin/people/20002219' type='person' role='cmp'>Labiche, Eugène</name>
+        <name key='Monod' type='person' role='int'>Monod</name>
+        <name key='Montet' type='person' role='int'>Montet</name>
+        <name key='Oustinoff' type='person' role='int'>Oustinoff</name>
+        <name key='Wolodimeroff (Mlle)' type='person' role='int'>Wolodimeroff (Mlle)</name>
+        <name key='Monson (Mlle)' type='person' role='int'>Monson (Mlle)</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f009959_001.tif'/>
+        <page>
+          <![CDATA[POUR LE
 OUVERTURE DE MARITANA
-
 DE WALLACE
-
 s
-
 enx ÉÉ imdes
-
 Comédie en un acte, par
-
 MM. Marc-Mrcuer & Evcène LABICHE
 Distribution
 Mhibaudier 11e M. MONOD.
@@ -73,12 +81,12 @@ Jules Frémissin, . 4 ; Ë M. MONTET.
 Anatole Garadoux, . . . . ; M. OUSTINOFF,(")
 Cécile, fille Thibaudier,: . . ….  M"° WOLODIMEROFF.
 Annette, femme de chambre, . .  M"° MOSON.
-
 (*) Réclame toute{l’indulgence de la Société pour son premier début.
 è3
-
-Imprimerie J.-D. Jarrys. ËÎÊJ]]></page>       
-        </p>
+Imprimerie J.-D. Jarrys. ËÎÊJ
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

@@ -1,253 +1,177 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Fête des Vignerons de 1865<date when="02/12/1896"/></title>
-<series>1896-1897</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Fête des Vignerons de 1865
+            <date when='02/12/1896'/>
+          </title>
+          <series>1896-1897</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F000389</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Bonade, L. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18961202"/>
-<title>Fête des Vignerons de 1865</title>
-<placeName key="Victoria Hall"/>
-<name key="1896-1897" type="series"/>
-<name key="Grast, Franz Gabriel" ref="https://muscat.rism.info/admin/people/30022423" type="person" role="cmp">Grast, Franz Gabriel</name>
-<name key="Kling, Henri" ref="https://muscat.rism.info/admin/people/30022454" type="person" role="cmp">Kling, Henri</name>
-<name key="Bonade, Louis (dir.)"  type="person" role="int">Bonade, Louis (dir.)</name>
-<name key="Galin-Paris-Chevé"  type="person" role="int">Galin-Paris-Chevé</name>
-<name key="Harmonie Nautique"  type="person" role="int">Harmonie Nautique</name>
-<name key="Charbonnet"  type="person" role="int">Charbonnet</name>
-<name key="Raymond, C."  type="person" role="int">Raymond, C.</name>
-<name key="Leisenheimer, E."  type="person" role="int">Leisenheimer, E.</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000389_001.tif"/>
-<page><![CDATA[RR RR
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18961202'/>
+        <title>Fête des Vignerons de 1865</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1896-1897' type='series'/>
+        <name key='Grast, Franz Gabriel' ref='https://muscat.rism.info/admin/people/30022423' type='person' role='cmp'>Grast, Franz Gabriel</name>
+        <name key='Kling, Henri' ref='https://muscat.rism.info/admin/people/30022454' type='person' role='cmp'>Kling, Henri</name>
+        <name key='Bonade, Louis' type='person' role='int'>Bonade, Louis</name>
+        <name key='Galin-Paris-Chevé' type='person' role='int'>Galin-Paris-Chevé</name>
+        <name key='Harmonie Nautique' type='person' role='int'>Harmonie Nautique</name>
+        <name key='Charbonnet' type='person' role='int'>Charbonnet</name>
+        <name key='Raymond, C.' type='person' role='int'>Raymond, C.</name>
+        <name key='Leisenheimer, E.' type='person' role='int'>Leisenheimer, E.</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000389_001.tif'/>
+        <page>
+          <![CDATA[RR RR
 VICTORIA-HALL
-
- 
-
 R
-
 Ÿ
-
 0”
-
 000906009000000000900000000000009000000000000 00000000
-
 06%09%056%6060606006000006000000006000
-
- 
-
- 
-
 PMlercredi 2 Décembre 7896G, à hurik hemres ct deme.
-
 FÊTE DES VIGNERONS DE 1865
-
 midsiqus de HR GRAST
-
 exécutée par les Sociétés genevoises
-
 Galin-Paris-Chevé e: L’Harmonie Nautique
-
 sous 1- direction de M. LOUIS BONADE
-
 «
 $
-
 S
-
 05004
-
 007050
-
 avec le gracieux concours de Messieurs
-
 CHARBONNET, ténor — C. RAYMOND, baryton — E. LEISENHEIMER, basse.
-
 0
 L
-
 105050505000
-
 >
-
 HSs e e p S E
-
- 
-
 gç‘j>
-
 @REMIERE PARTIE “Seconne ParTIE
-
 5010
-
 93050
-
 . Marche triomphale (Harmonie Nautique). Scène de l’Été.
 - Salut à la Patrie (Chœur). 9. Invocation du grand-prêtre de Cérès
 (M. Raymond et Chœurs).
 10. Chant des batteurs, semeurs et bêcheuses.
-
 *
 »
-
 <,…
 2
-
 00
-
 >
 S
-
 >
 )»Ô—9Ï’
-
 3. Invocation à l’Agriculture, trio des grands-prêtres
 (MM. Charbonnet, Raymond, Leisenheimer).
-
 o rrs
-
 s00x
-
 Scène de l’Automne.
-
 . Invocation du grand-prêtre de Bacchus.
 (M. Leisenheimer et Chœurs).
 2. Bacchanale (Chœur d'Hommes).
 3. Chant des vignerons du printemps (Chœur de Dames)
 4. Chant des vignerons d’automne (Chœur d’Hommes).
-
 Chœur général.
-
 e
-
 s000
-
 =
-
 0505
-
 Scène du Printemps.
-
 5. Invocation du grand-prêtre de Palès
 (M. Charbonnet et Chœurs).
-
 2 Scène de l’Hiver.
 6. Ballet du Printemps (Chœur).
-
 ; ; 7 | 15. Noce villageoise (Harmonie Nautique).
 T. Ronde des petits bergers (Chœur de Dames). | 16. Chant de la noce (Chœur).
-
 S. Ranz des vaches (Chœur d’Hommes). , 17. Hymne final (Chœur).
-
 SO O pO s000
-
 L’adaptation nouvelle de la partition a été faite par M, H, KLING,
-
 PRIX DES PLACES : Rez-de-chaussée. Loges et parquet, 3 fr, — Parterre, stalles de pourtour et promenoir, 2 fr. —
 Amphithéâtre, 1 fr. — Première galerie. Loges, fauteuils de face et 1°" rang, 3 fr. — 2 et 3e rang, amphithéâtre et
 orgue, 2 fr. — 4° rang, 1 fr. — Deuxième galerie. Fauteuils et amphithéâtre, 1 fr.
-
 20
-
 &
-
 En échange du coupon n° 8 il sera accordé à MM. les sociétaires de l’Harmonie Nautique une réduction de moitié prix
 à toutes les places. — Les membres des sociétés Galin-Paris-Chevé auront droit à la même réduction en s’adressant
 d’avance à leurs présidents. _
-
 0005000070
-
 La location est ouverte dès ce jour au Victoria-Hall, de 10 heures à midi et de 2 à 4 heures.
-
 ©
-
 Ouverture dés portes à 7 heures trois quarts.
-
 w —A SO O OIS ——
-
 20000
-
 WBUFFET AU REZ-DE-CHAUSSÉE TENU PAR M. DÉSARNOD, CONFISEUR.
 .
-
- 
-
 9095000050 060 90/0°00/0/0/0101070/0/0/0/0/070500/070/0/010701010/070700010/ 070 0707000 707050/ 07010700 r0NOr0P 0
-
 °
 ©
 %
-
- 
-
- 
-
 GO
-
 sTT S SE S STSESNES
-
 GENÈVE, — ImP. L.-F, JARRYS,
-
- 
-
 }
 u
 9070
-
 Ss TN
-
 S
-
 =}
 =
-
 t>
-
 >
-
- 
-
 en
 se
-
-dn P E]]></page>       
-        </p>
+dn P E
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

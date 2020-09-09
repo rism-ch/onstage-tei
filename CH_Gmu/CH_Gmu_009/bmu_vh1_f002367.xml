@@ -1,260 +1,157 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par le Corps de musique d'Elite<date when="04/12/1921"/></title>
-<series>1921-1922</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par le Corps de musique d'Elite
+            <date when='04/12/1921'/>
+          </title>
+          <series>1921-1922</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002367</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Romain, F. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19211204"/>
-<title>Concert donné par le Corps de musique d'Elite</title>
-<placeName key="Victoria Hall"/>
-<name key="1921-1922" type="series"/>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Diaz"  type="person" role="cmp">Diaz</name>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Weber, Carl Maria von" ref="https://muscat.rism.info/admin/people/117485" type="person" role="cmp">Weber, Carl Maria von</name>
-<name key="Massenet, Jules" ref="https://muscat.rism.info/admin/people/84264" type="person" role="cmp">Massenet, Jules</name>
-<name key="Lalo, Edouard" ref="https://muscat.rism.info/admin/people/65446" type="person" role="cmp">Lalo, Edouard</name>
-<name key="Ketten, Léopold"  type="person" role="cmp">Ketten, Léopold</name>
-<name key="Gounod, Charles-François" ref="https://muscat.rism.info/admin/people/80479" type="person" role="cmp">Gounod, Charles-François</name>
-<name key="Romain, F. (dir.)"  type="person" role="int">Romain, F. (dir.)</name>
-<name key="Corps de musique d'Elite"  type="person" role="int">Corps de musique d'Elite</name>
-<name key="Schumacher, Cécile"  type="person" role="int">Schumacher, Cécile</name>
-<name key="Favre, Emile"  type="person" role="int">Favre, Emile</name>
-<name key="Ketten, Léopold"  type="person" role="int">Ketten, Léopold</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002367_001.tif"/>
-<page><![CDATA[© 2
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19211204'/>
+        <title>Concert donné par le Corps de musique d'Elite</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1921-1922' type='series'/>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Diaz' type='person' role='cmp'>Diaz</name>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Weber, Carl Maria von' ref='https://muscat.rism.info/admin/people/117485' type='person' role='cmp'>Weber, Carl Maria von</name>
+        <name key='Massenet, Jules' ref='https://muscat.rism.info/admin/people/84264' type='person' role='cmp'>Massenet, Jules</name>
+        <name key='Lalo, Edouard' ref='https://muscat.rism.info/admin/people/65446' type='person' role='cmp'>Lalo, Edouard</name>
+        <name key='Ketten, Léopold' type='person' role='cmp'>Ketten, Léopold</name>
+        <name key='Gounod, Charles-François' ref='https://muscat.rism.info/admin/people/80479' type='person' role='cmp'>Gounod, Charles-François</name>
+        <name key='Romain, F.' type='person' role='int'>Romain, F.</name>
+        <name key='Corps de musique d&apos;Elite' type='person' role='int'>Corps de musique d'Elite</name>
+        <name key='Schumacher, Cécile' type='person' role='int'>Schumacher, Cécile</name>
+        <name key='Favre, Emile' type='person' role='int'>Favre, Emile</name>
+        <name key='Ketten, Léopold' type='person' role='int'>Ketten, Léopold</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002367_001.tif'/>
+        <page>
+          <![CDATA[© 2
 Prix : 10 centimes
-
 ..unuonuouuouuunuuooo:‘nO . coccaccoc0c0000s0e0000c0ese0000000
-
- 
-    
-
- 
-   
-
 VICTORIA-HALL
 Quverture des portes à 13 h, 45 GENÈVE Concert à 14 h. 30
-
- 
-
 F Q—
-
 DIMANCHE 4 DÉCEMBRE 1921
-
 CONCERT
-
 DONNÉ PAR LE CORPS DE
-
 FUTENAESSASSERSENNENHENONO GH CEN SE VHN IO SH OHN SDTNDUGCHNESSENOPSSENO OO TON OEDONNO NN TRN TSN CNENONSNT OSN O OHN HU NNSCANO CCN OS OON IHU THN NAURARSENNSHDESREDESEHOSHOH00E
-
 00c.cen0cenen0000000000000000000000000000
 —oscoscnenc0uc0000000000 2000000000 00000000
-
- 
-
-  
-
 Photographie F. Jullien
-
 IllllllIlllllllllllllllll'lllllllllllIllI|llIlIlIlIllIllIllllIlllllllllllllllllllllllllIllllllIIIlllIlIllllIlllllIlIlIlIIIIIIIIIIII!IIIIIIIIII.
-
 e
 /° ;
 MUSIQUE D'ÉLITE
-
 Direction : F. ROMAIN #
 avec le bienveiilant concours de
-
 Mme Cécile SCHUMACKER M. Emile FAVRE
-
 Soprano © Ténor
-
 Elèves de M. le Professeur KETTEN
-
 M. Léopold KETTEN *
-
 Professeur supérieur au Conservatoire
-
- 
-
 cosses00000000000000000000000000000000e0000000
-
-  
-
 —acsasentnec0nne0n 000000N C0000000000000000GACOBAN
-
-     
-
-IMPRIMERIE CENTRALE, GENÈÊVE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002367_002.tif"/>
-<page><![CDATA[mersosennsess e naren 0000000 0a00a000 0000000s (C)onassosaesennsensssa00se eramsaras UOn See s0000
-
- 
-
- 
-
- 
-
+IMPRIMERIE CENTRALE, GENÈÊVE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002367_002.tif'/>
+        <page>
+          <![CDATA[mersosennsess e naren 0000000 0a00a000 0000000s (C)onassosaesennsensssa00se eramsaras UOn See s0000
 VICTORIA-HALL - DIMA‘£-
-
- 
-
- 
-
 ........................ docosepeseu0emedoutaenaenipetendecvenmansecntEveseesa en CR CI
-
 PRO@E
-
- 
-
- 
-
 PREMIÈERE PARTIE
-
 so.00s000000ec000000000000000000000000 Ÿ
-
 1. Ouverture de Prométhée . . . . . . . Beethoven ll
 ; (Elite) ,|
 2. a) Romance de La Coupe du Roi de Thulé Diaz
-
 b) Air du Printemps de la Walkyrie . . Wagner
-
 (M. Favre)
-
 S Tannhausers ° VVagner
 (Elite)
-
 4. Grand air de Kreischutz $ Weber
 (Mme Schumacker)
-
 S Hérodiade … assPnet :
 (Elite) . l{
-
 09020000000008000000000000000
-
- 
-
 ° : Entre la 1re et la 2%e parth;
 ä 1
-
 PRIX DES PLACES : Loges et 1“" rang de la 1"* galerie (numérotée
 ° Qmek
-
 Cartes a l’avance: Victoria-Halil ; Epicerie Geij
-
 .
-
- 
-
 se0ac0e000020000000000000009000B2002A00O0CO0000000G00C00000000C0000S000200S0000000D00000 0N
 <
-
- 
-
- 
-
 Les cartes de Membres bonoraire et ?
 Le coupon No & donne droit à une entrée et moyk,
-
- 
-
- 
-
- 
-
- 
-
- 
-
-   
-
-'lI‘uo-nuo-|-ooooo.olnooon.oonnoon.nouol.l.oo..lo“o@oL‘.|ooo.c‘oov...ol.o--.o.ool.o.u.oouooou.to."" ']]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002367_003.tif"/>
-<page><![CDATA[ÎCHE 4 DÉCEMBRE 1921
-
+'lI‘uo-nuo-|-ooooo.olnooon.oonnoon.nouol.l.oo..lo“o@oL‘.|ooo.c‘oov...ol.o--.o.ool.o.u.oouooou.to."" '
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002367_003.tif'/>
+        <page>
+          <![CDATA[ÎCHE 4 DÉCEMBRE 1921
 r
-
- 
-
- 
-
 H“L...‘Oû...l.on|oo.lo|oonDoooooo..ou.oovovncl\.oo.onnonluo--tt|ooooo
-
-  
-
 vosseseesceux
-
- 
-
- 
-
- 
-
 f DEUXIÈME PARTIE
 | -
-
 6. Ouverture d RoïdÿYs. . . falo
 (Elite)
-
 W NuitdiEté *. . ; - - - — Léopold Ketten
 (Mme Scbumacker et M. Favre) ;
-
 & Ballet-dekaust . °> - . # Gounod
 i (Elite)
-
- 
-
 ‘Entr’acte de 15 minutes
-
- 
-
 {”fr. 10 — Rez-de-chaussée et autres places de 1"° galerie, 1 fr. 10
-
 erie, 60 ct.
-
 \rd, Place Cornavin, 2 ; E. Fivaz, Terrassière, 9.
-
-  
-
 °
 °
 °
@@ -380,47 +277,26 @@ e
 .
 °
 A
-
 uoo--.o-aou.-..a-.so-.o----.-.---oa-o-.o-oo.--u-ooo-.u.oo-.--.o-oooooooo.-oo..o-.oou-o.o--o.o
-
- 
-
- 
-
 exécutant donnent droit à 2 entrées
-
-   
-
- 
-
- 
-
 ant supplément de 1 fr. aux places numérotées
-
- 
-
- 
-
- 
-
- 
-
-£]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002367_004.tif"/>
-<page><![CDATA[\ CT artingay e ;
-
+£
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002367_004.tif'/>
+        <page>
+          <![CDATA[\ CT artingay e ;
 ; ‘
 … HO Fiue Ou Marché ‘ ;
 /QÎ au Melar) _ %Œ\…Œî% 6
-
-  
-
 / EY « \
 $ u
 OOP.. M e …H.w. » ; f À F 7 ‘àOO
 y Ÿ G d Ks 2 ;
-, N 4 Z 4]]></page>       
-        </p>
+, N 4 Z 4
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

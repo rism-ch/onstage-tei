@@ -1,208 +1,119 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>2me grand concert populaire<date when="28/11/1927"/></title>
-<series>1927-1928</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            2me grand concert populaire
+            <date when='28/11/1927'/>
+          </title>
+          <series>1927-1928</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002662</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Ansermet, E. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19271128"/>
-<title>2me grand concert populaire</title>
-<placeName key="Victoria Hall"/>
-<name key="1927-1928" type="series"/>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Franck, César" ref="https://muscat.rism.info/admin/people/70009" type="person" role="cmp">Franck, César</name>
-<name key="Debussy, Claude" ref="https://muscat.rism.info/admin/people/4338" type="person" role="cmp">Debussy, Claude</name>
-<name key="Caplet"  type="person" role="cmp">Caplet</name>
-<name key="Liszt, Franz" ref="https://muscat.rism.info/admin/people/107196" type="person" role="cmp">Liszt, Franz</name>
-<name key="Berlioz, Hector" ref="https://muscat.rism.info/admin/people/13803" type="person" role="cmp">Berlioz, Hector</name>
-<name key="Ansermet, Ernest  (dir.)" ref="https://muscat.rism.info/admin/people/40219507" type="person" role="int">Ansermet, Ernest  (dir.)</name>
-<name key="Orchestre de la Suisse Romande" ref="https://muscat.rism.info/admin/people/50007615" type="person" role="int">Orchestre de la Suisse Romande</name>
-<name key="Breslauer, Maryla"  type="person" role="int">Breslauer, Maryla</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002662_001.tif"/>
-<page><![CDATA[p
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19271128'/>
+        <title>2me grand concert populaire</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1927-1928' type='series'/>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Franck, César' ref='https://muscat.rism.info/admin/people/70009' type='person' role='cmp'>Franck, César</name>
+        <name key='Debussy, Claude' ref='https://muscat.rism.info/admin/people/4338' type='person' role='cmp'>Debussy, Claude</name>
+        <name key='Caplet' type='person' role='cmp'>Caplet</name>
+        <name key='Liszt, Franz' ref='https://muscat.rism.info/admin/people/107196' type='person' role='cmp'>Liszt, Franz</name>
+        <name key='Berlioz, Hector' ref='https://muscat.rism.info/admin/people/13803' type='person' role='cmp'>Berlioz, Hector</name>
+        <name key='Ansermet, Ernest' ref='https://muscat.rism.info/admin/people/40219507' type='person' role='int'>Ansermet, Ernest</name>
+        <name key='Orchestre de la Suisse Romande' ref='https://muscat.rism.info/admin/people/50007615' type='person' role='int'>Orchestre de la Suisse Romande</name>
+        <name key='Breslauer, Maryla' type='person' role='int'>Breslauer, Maryla</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002662_001.tif'/>
+        <page>
+          <![CDATA[p
 L
 4
 E;
 Ë_j ;
 - 8
-
 VILLE
-
-  
-
 DE G 1
 q VICTORIA-HALIL = SAISON 1927-1928
-
- 
-
- 
-
- 
-
 Lundi 28 Novembre, à 20 h. 30 (8 h. 30)
-
 Î" Grand Bmwerl Populaire
-
 ORGANISÉ PAR LE
-
 CONSEIL ADMINISTRATIF DE LA VILLE DE GENÈVE
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 e AVEC LE BIENVEILLANT ET GRACIEUX CONCOURS DE
-
 G 5
 L'Orchestre à » Suisse Romand
 | M"" Marylap | ÈËËSLAUER .
-
- 
-
- 
-
- 
-
 PROGRAMME :
-
 PREMIÈRE PARTIE : SECONDE PARTIE :
-
 3. Childern’s corner (suite
-
 1. Symphonie Ne 6 (pastorale): _ BEETHOVEN. d'orchestre): DeBussy-CAPLET.
-
 a) impressions heureuses à l'arrivée à 1 ,
 ) L Ey 3 a) doctor Gradus ad Panassum ;
-
 la campaQne:' b) berceuse de l'éléphant ;
 b) au bord du ruisseau ; c) sérénade à la poupée;
-
 c) fête villageoise, orage ; d) llu neigebdunse;
 d) chant des bergers, Sentiments de recon- ÉÉ RE vch\c:r; ;
 naissance après l'orage. f) Golliwog's Cake-walk.
 4. Fantaisie hongroise (pour
 piano et orchestre). LISZT.
 Soliste ; Mlle BRESLAUER.
-
 5. Ouverture de Benvenuto
 E TS Cellini BERLIOZ,
-
 2. Variations symphoniques C. FRANCK.
 (pour piano et orchestre).
 Soliste ; Mlle BRESLAUER.
-
- 
-
- 
-
- 
-
- 
-
- 
-
 ÿ | L'Orchestre sera diriéé par M. Ernest ANSERMET
-
- 
-
- 
-
-  
-  
- 
- 
-
- 
-
 Pendant l'exécution des morceaux les portes seront fermées et le silence le plus absolu devra
-
 être observé. Prière de ne pas faire les préparatifs de départ avant que le dernier morceau ne soit
 complètement exécuté,
-
- 
-
- 
-
- 
-
- 
-
- 
-
 SE
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 S
-
-   
- 
-
- 
-
- 
-
-MPRIMERIE POPULAIRE GENÈVE]]></page>       
-        </p>
+MPRIMERIE POPULAIRE GENÈVE
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

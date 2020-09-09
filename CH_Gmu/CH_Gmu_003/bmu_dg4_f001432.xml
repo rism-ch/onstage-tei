@@ -1,132 +1,120 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>La belle Hélène<date when="21/06/1881"/></title>
-<series>1880-1881</series>
-<placeName>Coulouvrenière (Théâtre des Bouffes parisiens)</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            La belle Hélène
+            <date when='21/06/1881'/>
+          </title>
+          <series>1880-1881</series>
+          <placeName>Genève, Coulouvrenière (Théâtre des Bouffes parisiens)</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU DG4 F001432</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Date présumée</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18810621"/>
-<title>La belle Hélène</title>
-<placeName key="Coulouvrenière (Théâtre des Bouffes parisiens)"/>
-<name key="1880-1881" type="series"/>
-<name key="Offenbach, Jacques" ref="https://muscat.rism.info/admin/people/111831" type="person" role="cmp">Offenbach, Jacques</name>
-<name key="Meilhac, Henri" ref="https://muscat.rism.info/admin/people/86908" type="person" role="cmp">Meilhac, Henri</name>
-<name key="Halévy, Ludovic" ref="https://muscat.rism.info/admin/people/40918" type="person" role="cmp">Halévy, Ludovic</name>
-<name key="Théâtre des Bouffes parisiens"  type="person" role="int">Théâtre des Bouffes parisiens</name>
-<name key="Cadet-Grégoire (Mme)"  type="person" role="int">Cadet-Grégoire (Mme)</name>
-<name key="Grégoire, Joseph"  type="person" role="int">Grégoire, Joseph</name>
-<name key="Grégoire, Victor"  type="person" role="int">Grégoire, Victor</name>
-<name key="Grégoire, Baptiste"  type="person" role="int">Grégoire, Baptiste</name>
-<name key="Lyonel"  type="person" role="int">Lyonel</name>
-<name key="Frédéric"  type="person" role="int">Frédéric</name>
-<name key="Roche"  type="person" role="int">Roche</name>
-<name key="Estiot"  type="person" role="int">Estiot</name>
-<name key="Desjardins (Mme)"  type="person" role="int">Desjardins (Mme)</name>
-<name key="Spina (Mme)"  type="person" role="int">Spina (Mme)</name>
-<name key="Polydor (Mme)"  type="person" role="int">Polydor (Mme)</name>
-<name key="Eva"  type="person" role="int">Eva</name>
-<name key="Théo (Mme)"  type="person" role="int">Théo (Mme)</name>
-<name key="Polydor"  type="person" role="int">Polydor</name>
-<name key="Fernand"  type="person" role="int">Fernand</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f001432_001.tif"/>
-<page><![CDATA[Ÿ THEATRE DES BOUFPES PARISIENS |
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18810621'/>
+        <title>La belle Hélène</title>
+        <placeName key='Genève, Coulouvrenière (Théâtre des Bouffes parisiens)'/>
+        <name key='1880-1881' type='series'/>
+        <name key='Offenbach, Jacques' ref='https://muscat.rism.info/admin/people/111831' type='person' role='cmp'>Offenbach, Jacques</name>
+        <name key='Meilhac, Henri' ref='https://muscat.rism.info/admin/people/86908' type='person' role='cmp'>Meilhac, Henri</name>
+        <name key='Halévy, Ludovic' ref='https://muscat.rism.info/admin/people/40918' type='person' role='cmp'>Halévy, Ludovic</name>
+        <name key='Théâtre des Bouffes parisiens' type='person' role='int'>Théâtre des Bouffes parisiens</name>
+        <name key='Cadet-Grégoire (Mme)' type='person' role='int'>Cadet-Grégoire (Mme)</name>
+        <name key='Grégoire, Joseph' type='person' role='int'>Grégoire, Joseph</name>
+        <name key='Grégoire, Victor' type='person' role='int'>Grégoire, Victor</name>
+        <name key='Grégoire, Baptiste' type='person' role='int'>Grégoire, Baptiste</name>
+        <name key='Lyonel' type='person' role='int'>Lyonel</name>
+        <name key='Frédéric' type='person' role='int'>Frédéric</name>
+        <name key='Roche' type='person' role='int'>Roche</name>
+        <name key='Estiot' type='person' role='int'>Estiot</name>
+        <name key='Desjardins (Mme)' type='person' role='int'>Desjardins (Mme)</name>
+        <name key='Spina (Mme)' type='person' role='int'>Spina (Mme)</name>
+        <name key='Polydor (Mme)' type='person' role='int'>Polydor (Mme)</name>
+        <name key='Eva' type='person' role='int'>Eva</name>
+        <name key='Théo (Mme)' type='person' role='int'>Théo (Mme)</name>
+        <name key='Polydor' type='person' role='int'>Polydor</name>
+        <name key='Fernand' type='person' role='int'>Fernand</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f001432_001.tif'/>
+        <page>
+          <![CDATA[Ÿ THEATRE DES BOUFPES PARISIENS |
 Dircetion de Mme veuve CADET-CRÉGOIRE Hld88U à 8 h '/‘l;
-
 __ Aujourd'hui Mardi 21 Juin /iss
 \ BPREMIÈRE REPRÉSENTATION DE
-
- 
-
 ‘ Opéra bouffe en 3 actes
 _Pdr MM. H. MEILHAC « L. HALÉVY. — Musique de J. OFFENBACH
-
 PREMIER ACTE DEUXIÈME ACTE
-
 L'ORACLE 11 0 DE Loer
-
 TROISIÈME ACTE
 lLa Galère de Vénus
-
 DISTRIBUTION
-
 Pâris, fils du roi Priam. . MM. Jogeph Grégoire, Hélène, reine de Sparte. M"es Desjardins.
 Ménélas, roi deSparte. . Victor Grégoire. Oreste, fils d’Agamemnon Spina.
 Agamemnon, roi des rois. Baptiste Grégoire. | Bacchis, suivante d'Hélène Polydor.
-
 — Calchas, grand augure de Leæna, hétaïre . ; Eva.
 up 1 ” Lyonel. Parthœnis, hétaïre. . . Théo.
 Achille, roi de Phtiotide. Frédéric. Phylocome, serviteur de
-
 “ Ajax Ier, roi de Salamine Roche. Calchas. . . . - . /MM. Polydor.
-
 - Ajax II, roi des Locriens. Estiot. Eutyclès, forgeron. . . Fernand.
-
 Gardes, esclaves, peuple, pleureuses d’Adonis, suivantes d’Hélène.
-
- 
-
 PRIX DES PLACES
-
 … Loges d'avant-scène, 5 places, 25 fr. — Loges de face, 5 places, 20 fr. — Fauteuils d’orchestre,
 4 fr.— Stalles de parquet, 2 fr. 50 — Premières, 3 fr. — Parterre, 1 fr. 50. — Secondes, 1 fr. 25,
-
 — Troisièmes, 75 cent.
-
 ——s rs
-
 ; ——c
 KBemaimn Mercredi
-
 REPRESENTATION DE M"‘°SICI—IEL
-
 AI
-
 A l’étude :
-
 Opéra-comique en 3 actes <0
 [7 .
-
 EMEF E
-
-831, — Imprimerie Centrale Genevoise, Rhône, 52]]></page>       
-        </p>
+831, — Imprimerie Centrale Genevoise, Rhône, 52
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

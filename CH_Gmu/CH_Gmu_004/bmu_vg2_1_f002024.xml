@@ -1,117 +1,112 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert<date when="20/08/1883"/></title>
-<series>1882-1883</series>
-<placeName>Kiosque (Promenade des Bastions)</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert
+            <date when='20/08/1883'/>
+          </title>
+          <series>1882-1883</series>
+          <placeName>Genève, Kiosque (Promenade des Bastions)</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VG2-1 F002024</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Senger, H. de (dir)</note>
+        <note>Date présumée</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18830820"/>
-<title>Concert</title>
-<placeName key="Kiosque (Promenade des Bastions)"/>
-<name key="1882-1883" type="series"/>
-<name key="Mozart, Wolfgang Amadeus" ref="https://muscat.rism.info/admin/people/115324" type="person" role="cmp">Mozart, Wolfgang Amadeus</name>
-<name key="Hérold, Ferdinand" ref="https://muscat.rism.info/admin/people/75095" type="person" role="cmp">Hérold, Ferdinand</name>
-<name key="Strauss"  type="person" role="cmp">Strauss</name>
-<name key="Rossini, Gioachino" ref="https://muscat.rism.info/admin/people/63766" type="person" role="cmp">Rossini, Gioachino</name>
-<name key="Frank"  type="person" role="cmp">Frank</name>
-<name key="Provesi, L."  type="person" role="cmp">Provesi, L.</name>
-<name key="Reynaud"  type="person" role="cmp">Reynaud</name>
-<name key="Donizetti, Gaetano" ref="https://muscat.rism.info/admin/people/18064" type="person" role="cmp">Donizetti, Gaetano</name>
-<name key="Massenet, Jules" ref="https://muscat.rism.info/admin/people/84264" type="person" role="cmp">Massenet, Jules</name>
-<name key="Senger, Franz Ludwig Hugo von  (dir.)" ref="https://muscat.rism.info/admin/people/30015297" type="person" role="int">Senger, Franz Ludwig Hugo von  (dir.)</name>
-<name key="Orchestre de la Ville de Genève"  type="person" role="int">Orchestre de la Ville de Genève</name>
-<name key="Delarue"  type="person" role="int">Delarue</name>
-<name key="Doumenc"  type="person" role="int">Doumenc</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_1_f002024_001.tif"/>
-<page><![CDATA[4 "4a. %3v ryJ,
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18830820'/>
+        <title>Concert</title>
+        <placeName key='Genève, Kiosque (Promenade des Bastions)'/>
+        <name key='1882-1883' type='series'/>
+        <name key='Mozart, Wolfgang Amadeus' ref='https://muscat.rism.info/admin/people/115324' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Hérold, Ferdinand' ref='https://muscat.rism.info/admin/people/75095' type='person' role='cmp'>Hérold, Ferdinand</name>
+        <name key='Strauss' type='person' role='cmp'>Strauss</name>
+        <name key='Rossini, Gioachino' ref='https://muscat.rism.info/admin/people/63766' type='person' role='cmp'>Rossini, Gioachino</name>
+        <name key='Frank' type='person' role='cmp'>Frank</name>
+        <name key='Provesi, L.' type='person' role='cmp'>Provesi, L.</name>
+        <name key='Reynaud' type='person' role='cmp'>Reynaud</name>
+        <name key='Donizetti, Gaetano' ref='https://muscat.rism.info/admin/people/18064' type='person' role='cmp'>Donizetti, Gaetano</name>
+        <name key='Massenet, Jules' ref='https://muscat.rism.info/admin/people/84264' type='person' role='cmp'>Massenet, Jules</name>
+        <name key='Senger, Franz Ludwig Hugo von' ref='https://muscat.rism.info/admin/people/30015297' type='person' role='int'>Senger, Franz Ludwig Hugo von</name>
+        <name key='Orchestre de la Ville de Genève' type='person' role='int'>Orchestre de la Ville de Genève</name>
+        <name key='Delarue' type='person' role='int'>Delarue</name>
+        <name key='Doumenc' type='person' role='int'>Doumenc</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_1_f002024_001.tif'/>
+        <page>
+          <![CDATA[4 "4a. %3v ryJ,
 —.
-
 BONCERL - ©
-
 Programme 0lluwl
-
 Lundi 20 Août, à 8 h. 1|4
-
 Société civile e 10 chesî ?8 [lﬂ la Ville ;
-
 Direction de M. Hugo de SENGER
-
 PREMIÈRE PARTIE
-
 1. Marche turque . . . .  MozarT
 9. Ouverture de Manwrie ou Ia Ë’r0-
-
 mise. . . . . . … < Hérorn
 3. Vie d’artiste, v: xls( 4 - . STRAUSS
 4. Grande fantaisie sur Guillaumes-
-
 merr 7 710 4n e e RossIiNI
-
 DEUXIÈME PARTIE
 b, Quverture de Fête. . 3 PRANK
 améditatgon ; T °—° —. . . . L. Provess
 7. Merle et Pinson, polka pour
 deux pistons, MM. Delarue et
-
 pomenene T T HESNAUP
 8. Fantaisie (n° 2) sur Lucrezia
-
 Morgis. | ” ” . . . -Domzennr
 9. Fête Bonhême . . . . . . .  MASSENET
-
 Ein cas de force majeure, le Chef l’orchestre se réserve de modifier le
 programme.
-
 CON C Ell'l"ä àl KEDBSQUE les Dimanches, Lundis,
-
 Murcredis«i Vendrelis, à 8 lieures du soir.
-
- 
-
 CONCER T CL\‘H"Œ*"&H… — Orchestre et Grandes
-
 Orgues, à la Cathédr: ale de St-Pierre, les Samedis à 4 h.
-
 Abonnements par feuille de 20 coupons: fr. 7.50. S’adresser
-à l’entrée.]]></page>       
-        </p>
+à l’entrée.
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

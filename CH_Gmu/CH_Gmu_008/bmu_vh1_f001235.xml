@@ -1,98 +1,88 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Grand concert populaire de bienfaisance donné par la Fanfare municipale de la Ville de Genève : Au profit de l'Association nationale des orphelins de la guerre et de la caisse de secours des soldats genevois nécessiteux<date when="05/10/1917"/></title>
-<series>1917-1918</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Grand concert populaire de bienfaisance donné par la Fanfare
+            municipale de la Ville de Genève : Au profit de l'Association
+            nationale des orphelins de la guerre et de la caisse de secours des
+            soldats genevois nécessiteux
+            <date when='05/10/1917'/>
+          </title>
+          <series>1917-1918</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F001235</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Interprète incertain</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19171005"/>
-<title>Grand concert populaire de bienfaisance donné par la Fanfare municipale de la Ville de Genève : Au profit de l'Association nationale des orphelins de la guerre et de la caisse de secours des soldats genevois nécessiteux</title>
-<placeName key="Victoria Hall"/>
-<name key="1917-1918" type="series"/>
-<name key="Allier"  type="person" role="cmp">Allier</name>
-<name key="Rossini, Gioachino" ref="https://muscat.rism.info/admin/people/63766" type="person" role="cmp">Rossini, Gioachino</name>
-<name key="Arban, Jean-Baptiste" ref="https://muscat.rism.info/admin/people/31980" type="person" role="cmp">Arban, Jean-Baptiste</name>
-<name key="Rossini, Gioachino" ref="https://muscat.rism.info/admin/people/63766" type="person" role="cmp">Rossini, Gioachino</name>
-<name key="Joyce"  type="person" role="cmp">Joyce</name>
-<name key="Ganne, Louis Gaston" ref="https://muscat.rism.info/admin/people/30025645" type="person" role="cmp">Ganne, Louis Gaston</name>
-<name key="Sellenick"  type="person" role="cmp">Sellenick</name>
-<name key="Puccini, Giacomo" ref="https://muscat.rism.info/admin/people/30921" type="person" role="cmp">Puccini, Giacomo</name>
-<name key="Donizetti, Gaetano" ref="https://muscat.rism.info/admin/people/18064" type="person" role="cmp">Donizetti, Gaetano</name>
-<name key="Bidgood"  type="person" role="cmp">Bidgood</name>
-<name key="[Union instrumentale genevoise] Fanfare municipale de la Ville de Genève"  type="person" role="int">[Union instrumentale genevoise] Fanfare municipale de la Ville de Genève</name>
-<name key="Bernard"  type="person" role="int">Bernard</name>
-<name key="Decompoix, Lucie"  type="person" role="int">Decompoix, Lucie</name>
-<name key="Beckmans"  type="person" role="int">Beckmans</name>
-<name key="Mégevand, Jules"  type="person" role="int">Mégevand, Jules</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001235_001.tif"/>
-<page><![CDATA[125 R
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19171005'/>
+        <title>
+          Grand concert populaire de bienfaisance donné par la Fanfare
+          municipale de la Ville de Genève : Au profit de l'Association
+          nationale des orphelins de la guerre et de la caisse de secours des
+          soldats genevois nécessiteux
+        </title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1917-1918' type='series'/>
+        <name key='Allier' type='person' role='cmp'>Allier</name>
+        <name key='Rossini, Gioachino' ref='https://muscat.rism.info/admin/people/63766' type='person' role='cmp'>Rossini, Gioachino</name>
+        <name key='Arban, Jean-Baptiste' ref='https://muscat.rism.info/admin/people/31980' type='person' role='cmp'>Arban, Jean-Baptiste</name>
+        <name key='Rossini, Gioachino' ref='https://muscat.rism.info/admin/people/63766' type='person' role='cmp'>Rossini, Gioachino</name>
+        <name key='Joyce' type='person' role='cmp'>Joyce</name>
+        <name key='Ganne, Louis Gaston' ref='https://muscat.rism.info/admin/people/30025645' type='person' role='cmp'>Ganne, Louis Gaston</name>
+        <name key='Sellenick' type='person' role='cmp'>Sellenick</name>
+        <name key='Puccini, Giacomo' ref='https://muscat.rism.info/admin/people/30921' type='person' role='cmp'>Puccini, Giacomo</name>
+        <name key='Donizetti, Gaetano' ref='https://muscat.rism.info/admin/people/18064' type='person' role='cmp'>Donizetti, Gaetano</name>
+        <name key='Bidgood' type='person' role='cmp'>Bidgood</name>
+        <name key='Union instrumentale genevoise Fanfare municipale de la Ville de Genève' type='person' role='int'>Union instrumentale genevoise Fanfare municipale de la Ville de Genève</name>
+        <name key='Bernard' type='person' role='int'>Bernard</name>
+        <name key='Decompoix, Lucie' type='person' role='int'>Decompoix, Lucie</name>
+        <name key='Beckmans' type='person' role='int'>Beckmans</name>
+        <name key='Mégevand, Jules' type='person' role='int'>Mégevand, Jules</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001235_001.tif'/>
+        <page>
+          <![CDATA[125 R
 F »
 |
 e TORA HALL
@@ -105,85 +95,50 @@ PISTON SOLO DE LA MUSIQUE DE L:A GA<R;;ÏR—E—P—U—BÇIACA;N—E
 lAssociation Nationale des Orphelins de la Guerre
 (SECTION DE GENEVE)
 Caisse de Secours des Soldats Genevois  Nécessiteux
-z 4j PROGRAMME - SOUVENIR LŸ/\]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001235_002.tif"/>
-<page><![CDATA[TT r
+z 4j PROGRAMME - SOUVENIR LŸ/\
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001235_002.tif'/>
+        <page>
+          <![CDATA[TT r
 rwŒm—n»
-
 VIN
-
 .
-
- 
-
- 
-
- 
-
- 
-
 k
-
 r. Bourg-Achard.
 FANFARE MUNICIPALE
-
 Ouverture du Barbie
 FANFARE MUNICIPALE
-
 Mariborough .
-
 M. BERNARD
-
- 
-
 Marche Russe .
 FANFARE MUNICIPALE
 ‘
-
 2. La Bavarde, caprice
-
 M. BERNARD
-
 PROGRAMME
-
 %
-
 PREMIÈRE PARTIE
-
 ALLIER. 4. Chant
 M. BECKMANS
-
 derSsevillen Rossin1. . (Grand air du Barbier de Séville Rossini.
 [VI DECOMPOIX
-
 ARBAN. Songe d’Automne
-
 ET LA FANFARE MUNICIPALE FANFARE MUNICIPALE
-
- 
-
 M. BERNARD, Piston solo de la Musique de la Garde Républicaine
-
 SECONDE PARTIE
-
 GANNE. 4. Duo de la Fille du Régiment . . . Donizern.
 M ‘ DECOMPOIX er M. BECKMANS
-
 SELLENICK. 5s Silentleroès e 1 7 .  Brbuoon.
-
 J
 eT LA FANFARE MUNICIPALE SE
-
 3. Fantaisie sur la Vie de Bohême 1 Puceinr
-
 FANFARE MUNICIPALE
-
 Au piano, M. Jules Mégevand
-
- 
-
-SENÈVE, - IMPH. WYBB ET DUCHÊME, AUE VERDAINE]]></page>       
-        </p>
+SENÈVE, - IMPH. WYBB ET DUCHÊME, AUE VERDAINE
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

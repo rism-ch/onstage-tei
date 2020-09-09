@@ -1,80 +1,83 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert<date when="12/08/1883"/></title>
-<series>1882-1883</series>
-<placeName>Kiosque (Promenade des Bastions)</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert
+            <date when='12/08/1883'/>
+          </title>
+          <series>1882-1883</series>
+          <placeName>Genève, Kiosque (Promenade des Bastions)</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VG2-1 F002014</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Senger, H. de (dir)</note>
+        <note>Date présumée</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18830812"/>
-<title>Concert</title>
-<placeName key="Kiosque (Promenade des Bastions)"/>
-<name key="1882-1883" type="series"/>
-<name key="Franz"  type="person" role="cmp">Franz</name>
-<name key="Mattei, Tito" ref="https://muscat.rism.info/admin/people/30005473" type="person" role="cmp">Mattei, Tito</name>
-<name key="Pedrotti, Carlo" ref="https://muscat.rism.info/admin/people/30015632" type="person" role="cmp">Pedrotti, Carlo</name>
-<name key="Halévy, Fromental" ref="https://muscat.rism.info/admin/people/40914" type="person" role="cmp">Halévy, Fromental</name>
-<name key="Balfe, Michael William" ref="https://muscat.rism.info/admin/people/4403" type="person" role="cmp">Balfe, Michael William</name>
-<name key="Bilse, Benjamin" ref="https://muscat.rism.info/admin/people/18342" type="person" role="cmp">Bilse, Benjamin</name>
-<name key="Rossini, Gioachino" ref="https://muscat.rism.info/admin/people/63766" type="person" role="cmp">Rossini, Gioachino</name>
-<name key="Delibes, Léo" ref="https://muscat.rism.info/admin/people/30016578" type="person" role="cmp">Delibes, Léo</name>
-<name key="Senger, Franz Ludwig Hugo von  (dir.)" ref="https://muscat.rism.info/admin/people/30015297" type="person" role="int">Senger, Franz Ludwig Hugo von  (dir.)</name>
-<name key="Orchestre de la Ville de Genève"  type="person" role="int">Orchestre de la Ville de Genève</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_1_f002014_001.tif"/>
-<page><![CDATA[j t . ns : d r S/ rrn e e
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18830812'/>
+        <title>Concert</title>
+        <placeName key='Genève, Kiosque (Promenade des Bastions)'/>
+        <name key='1882-1883' type='series'/>
+        <name key='Franz' type='person' role='cmp'>Franz</name>
+        <name key='Mattei, Tito' ref='https://muscat.rism.info/admin/people/30005473' type='person' role='cmp'>Mattei, Tito</name>
+        <name key='Pedrotti, Carlo' ref='https://muscat.rism.info/admin/people/30015632' type='person' role='cmp'>Pedrotti, Carlo</name>
+        <name key='Halévy, Fromental' ref='https://muscat.rism.info/admin/people/40914' type='person' role='cmp'>Halévy, Fromental</name>
+        <name key='Balfe, Michael William' ref='https://muscat.rism.info/admin/people/4403' type='person' role='cmp'>Balfe, Michael William</name>
+        <name key='Bilse, Benjamin' ref='https://muscat.rism.info/admin/people/18342' type='person' role='cmp'>Bilse, Benjamin</name>
+        <name key='Rossini, Gioachino' ref='https://muscat.rism.info/admin/people/63766' type='person' role='cmp'>Rossini, Gioachino</name>
+        <name key='Delibes, Léo' ref='https://muscat.rism.info/admin/people/30016578' type='person' role='cmp'>Delibes, Léo</name>
+        <name key='Senger, Franz Ludwig Hugo von' ref='https://muscat.rism.info/admin/people/30015297' type='person' role='int'>Senger, Franz Ludwig Hugo von</name>
+        <name key='Orchestre de la Ville de Genève' type='person' role='int'>Orchestre de la Ville de Genève</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_1_f002014_001.tif'/>
+        <page>
+          <![CDATA[j t . ns : d r S/ rrn e e
 Programme officiel
-
 Dimanche 12 Août, à 3 h. (gratuit)
-
 d'oat
-
- 
-
 Société civile de l'Orchesire de la VO
-
 Direction de M. Hugo de SENGER
-
- 
-
 , PREMIÈRE PARTIE
 . Skobeleff, marche.
-
 i Ls 4 PRANZ
 2. Tourbillom, vals . . . . . .  MarrEI
 3. Les Masques, ouverture . . .  PEprOTTI
@@ -85,21 +88,17 @@ DEUXIÈME PARTIE
 7. Fantaisie sur le Barbier de Sé-
 vl 1 1 1 11 ROSSINI
 8. Cortège de Bacchus . . . . Devisrs
-
 En cas de force majeure, le Chef d’orchestre se réserve de moditier le
-
 prograimme.
-
 CONCERTS AU KIOSQUE les Dimanches, Lundis,
 Mercredis et Vendredis, à 8 heures du soir.
-
 CONCERT CLASSIQUE. — Orchestre et Grandes
-
 , Orgues, à la Cathédrale de St-Pierre, les Samedis à 4 h.
-
 Abonnements par feuille de 20 coupons: fr. 7.50. S’adresser
-à l’entrée. ;]]></page>       
-        </p>
+à l’entrée. ;
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

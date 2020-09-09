@@ -1,104 +1,99 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Deux concerts Jan Kubelik<date when="26/04/1904"/></title>
-<series>1903-1904</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Deux concerts Jan Kubelik
+            <date when='26/04/1904'/>
+            <date when='28/04/1904'/>
+          </title>
+          <series>1903-1904</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F000548</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt> </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19040426
-19040428"/>
-<title>Deux concerts Jan Kubelik</title>
-<placeName key="Victoria Hall"/>
-<name key="1903-1904" type="series"/>
-<name key="Paganini, Nicolò" ref="https://muscat.rism.info/admin/people/1603" type="person" role="cmp">Paganini, Nicolò</name>
-<name key="Schumann, Robert" ref="https://muscat.rism.info/admin/people/131206" type="person" role="cmp">Schumann, Robert</name>
-<name key="Bach, Johann Sebastian" ref="https://muscat.rism.info/admin/people/2539" type="person" role="cmp">Bach, Johann Sebastian</name>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Saint-Lubin, Napoléon-Antoine-Eugène-Léon de" ref="https://muscat.rism.info/admin/people/30002017" type="person" role="cmp">Saint-Lubin, Napoléon-Antoine-Eugène-Léon de</name>
-<name key="Haydn, Joseph" ref="https://muscat.rism.info/admin/people/55803" type="person" role="cmp">Haydn, Joseph</name>
-<name key="Liszt, Franz" ref="https://muscat.rism.info/admin/people/107196" type="person" role="cmp">Liszt, Franz</name>
-<name key="Schubert, Franz" ref="https://muscat.rism.info/admin/people/111603" type="person" role="cmp">Schubert, Franz</name>
-<name key="Wieniawski, Henryk" ref="https://muscat.rism.info/admin/people/137176" type="person" role="cmp">Wieniawski, Henryk</name>
-<name key="Tartini, Giuseppe" ref="https://muscat.rism.info/admin/people/162506" type="person" role="cmp">Tartini, Giuseppe</name>
-<name key="Ernst"  type="person" role="cmp">Ernst</name>
-<name key="Händel, Georg Friedrich" ref="https://muscat.rism.info/admin/people/36552" type="person" role="cmp">Händel, Georg Friedrich</name>
-<name key="Moszkowski, Moritz" ref="https://muscat.rism.info/admin/people/94844" type="person" role="cmp">Moszkowski, Moritz</name>
-<name key="Kubelik, Jan"  type="person" role="int">Kubelik, Jan</name>
-<name key="Roger-Miclos (Mme)"  type="person" role="int">Roger-Miclos (Mme)</name>
-<name key="Schwob, Ludwig"  type="person" role="int">Schwob, Ludwig</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000548_001.tif"/>
-<page><![CDATA[VICTORIA-HALL — GENÈVE
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19040426'/>
+        <date when='19040428'/>
+        <title>Deux concerts Jan Kubelik</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1903-1904' type='series'/>
+        <name key='Paganini, Nicolò' ref='https://muscat.rism.info/admin/people/1603' type='person' role='cmp'>Paganini, Nicolò</name>
+        <name key='Schumann, Robert' ref='https://muscat.rism.info/admin/people/131206' type='person' role='cmp'>Schumann, Robert</name>
+        <name key='Bach, Johann Sebastian' ref='https://muscat.rism.info/admin/people/2539' type='person' role='cmp'>Bach, Johann Sebastian</name>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Saint-Lubin, Napoléon-Antoine-Eugène-Léon de' ref='https://muscat.rism.info/admin/people/30002017' type='person' role='cmp'>Saint-Lubin, Napoléon-Antoine-Eugène-Léon de</name>
+        <name key='Haydn, Joseph' ref='https://muscat.rism.info/admin/people/55803' type='person' role='cmp'>Haydn, Joseph</name>
+        <name key='Liszt, Franz' ref='https://muscat.rism.info/admin/people/107196' type='person' role='cmp'>Liszt, Franz</name>
+        <name key='Schubert, Franz' ref='https://muscat.rism.info/admin/people/111603' type='person' role='cmp'>Schubert, Franz</name>
+        <name key='Wieniawski, Henryk' ref='https://muscat.rism.info/admin/people/137176' type='person' role='cmp'>Wieniawski, Henryk</name>
+        <name key='Tartini, Giuseppe' ref='https://muscat.rism.info/admin/people/162506' type='person' role='cmp'>Tartini, Giuseppe</name>
+        <name key='Ernst' type='person' role='cmp'>Ernst</name>
+        <name key='Händel, Georg Friedrich' ref='https://muscat.rism.info/admin/people/36552' type='person' role='cmp'>Händel, Georg Friedrich</name>
+        <name key='Moszkowski, Moritz' ref='https://muscat.rism.info/admin/people/94844' type='person' role='cmp'>Moszkowski, Moritz</name>
+        <name key='Kubelik, Jan' type='person' role='int'>Kubelik, Jan</name>
+        <name key='Roger-Miclos (Mme)' type='person' role='int'>Roger-Miclos (Mme)</name>
+        <name key='Schwob, Ludwig' type='person' role='int'>Schwob, Ludwig</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000548_001.tif'/>
+        <page>
+          <![CDATA[VICTORIA-HALL — GENÈVE
 pn en yn en en e se e cy 20e e e e
 E E TEI XE XX ON AN E
-
 Mardi 26 et Jeudi 28 Avril 1904
-
 e o o o à 8heures et demie o o o o
-
 DEUX CONCERTS *
-
 JAN KUBELIK
-
 Impresario : J. SCHÜURMANN
-
- 
-
 Avec le concours de
-
 M" ROGER-MICLOS
-
 et
-
 M. Ludwig SCHWOB
-
 P PS O RESRE
-
 T KOUGKhMMES .° <
 Mardi 26 mMvyril Jeudi 28 Mvril
-
 . Le Trille du Diable
 M. JAN KUBELIK.
-
 . Concerto en ré majeur Paganini.
 M. JAN KUBELIK,
-
 . Carnaval Schumann.
 Mme Roger-Miclos.
 . a) Prélude Bach.
@@ -111,69 +106,50 @@ Mme Roger-Miclos.
 . a) Ave Maria Schubert.
 b) Carnaval Russe Wieniawshki.
 M. JAN KUBELIK.
-
 . Études symphoniques
 Mme Roger-Miclos.
-
 . Concerto en /a diése mineur
 M. JAN KUBELIK.
 . a) Gavotte Hendel.
-
 b) Valse Moszkowski,
 Mme Roger-Miclos.
-
 . a) Variations sur le « Gode save the
 Queen » } Paganini.
 b) Moïse, fantaisie sur une seule corde
 M. JAN KUBELIK.
-
 CCC CETEEUETECTEE
-
 Accompagnateur : M. Ludwig SCHWOB.
-
 Piano de la Maison Pleyel, Wolff, Lyon et. Cie, aux soins de M. Ch. Berguer.
-
 PRl DES PLN @HS
 Rez-de-chaussée : Loges, 10 fr. — Parquets, 8 fr. — Parterre, 6 fr. — Pourtour, 5 fr. — Promenoir, 5 fr. — Amphithéâtre, 3 fr.
 Première galerie : Loges, 10 fr. — Fauteuils de face, 1er et 2me rangs, 7 fr. ; autres rangs,»5 fr. — Fauteuils de balcon, 1ér rang, 7 fr.; 2me et
 3me rangs, 4 fr.; qme rang, 3 fr. — Amphithéâtre, 4 fr.
 Deuxième galerie : Amphithéâtre et Fauteuils de balcon, 1er rang, 3 fr.; autres rangs, 2 fr.
-
 La location est ouverte tous les jours, de 9 heures à midi et de 2 à 6 heures, chez M. HENN, 6, boulevard du Théâtre, à Genève. — Les
 ‘places peuvent être retenues par correspondance en joignant le montant à la demande. Il ne sera pas envoyé de places contre remboursement.
-
 GENÈVE, — IMP, L, JARRYS ET FILS.
-
 DIRECTION DE CONCERTS Ao. HENN, Genève es ' ,
-
-ltopr«uluotlôù j interdite.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000548_002.tif"/>
-<page><![CDATA[e
-
+ltopr«uluotlôù j interdite.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000548_002.tif'/>
+        <page>
+          <![CDATA[e
 > Je t
 ï
-
 #
-
 Jan Kubelik, né le 5 juillet 1880, est le fils d’un
-
 - marchand de grains à Michle-lez-Prague. Ayant
 - découvert déjà dans sa prime jeunesse les disposi-
 — tions musicales de son fils, son père lui fit donner
 des leçons de violon à l’âge de cinq ans. Une année
-
 — après, il le confia à un professeur, qui perfectionna
 ses études, de sorte que le « petit Jan », à l’'âge
-
 de huit ans, était déjà capable de donner avec
-
 grand succès un concert en public à Prague avec
-
 des compositions d’Alard, Wieniawski et Vieux-
 témps. En 1892, il entra au célèbre Conservatoire
-
 — de Prague, qu’il quitta en 1898 avec le prix d’excel-
-
 lence. La même année, son père étant mort et ayant
 ‘alors à sa charge sa mère et son frère cadet,
 Kubelik allait à Vienne, muni de son violon de
@@ -185,42 +161,29 @@ forme de procès comme sorcier », et le conseiller
 Wôrz dans le Sonn- und Montag-Zeitung : « Don-
 nez au jeune homme un violon et le monde entier
 sera à ses genoux. »
-
 Peu de temps après, Friederich Brosche, fabri-
 cant à Vienne, lui fit cadeau d’un violon « Joseph
 Guarnerius », et c’est alors qu’il entreprit une tour-
 née glorieuse en Bohème. Au commencement de la
 saison 1899, il débuta à Budapest avec un succès
-
 inouï. Kubelik joua dans la ville capitale de
 la Hongrie quatorze fois, devant des salles archi-
 combles, toutes les salles si vastes de Budapest
-
 “ étant trop petites pour contenir ses admirateurs.
-
 Auguste Behr dit dans le Pester Lloyd : « Kubelik
-
 - commence là où les autres finissent. »
-
 Kubelik alors retourna à Vienne et donna une
 - série de sept concerts devant une affluence énorme
-
 - de public. La Neue Freie Presse disait à pro-
-
 pos de lui : « Depuis Paganini, on n’a pas vu un
-
 '.".‘pa1"eil sur la terre », et Max Kalbeck, dans le Neue
-
 ; Wiener Taÿeblatt: « Kubelik est le seul et unique
 qui a su par un seul bond se mettre à la tête de
-
 — tous les violonistes contemporains. »
-
 Ensuite, continuant son voyage triomphal, il
 donna des concerts en Autriche-Hongrie, Roumanie,
 Italie, France et Angleterre, et partout se couvrit de
 gloire.
-
 Le roi Carol de Roumanie le nomma chevalier
 de l’ordre Bene-Mereanti, première classe, et le
 nomma virtuose de la chambre ; le pape lui donna la
@@ -241,11 +204,9 @@ annales de l’art symphonique. Il rapporta tous les
 cadeaux précieux des Américains dans deux
 grandes malles. Tous les records de recettes en
 Amérique sont nuls devant ceux de Kubelik.
-
 La tournée de Kubelik en Russie fut encore une
 des plus glorieuses; on n’avait jamais vu un succès
 tellement enthousiaste depuis Anton Rubinstein.
-
 La critique à l’unanimité était en extase devant
 le talent de Kubelik et l’affluence du publie pour
 ses concerts était énorme et inouïe. En quelques
@@ -260,9 +221,10 @@ la croix russe de l’ordre de Sainte-Anne. Ensuite,
 l’impératrice veuve Maria-Féodorowna et le grand-
 duc héritier invitèrent Kubelik à la cour à Gatehina
 et furent enthousiasmés du grand talent du jeune
-
-maître.]]></page>       
-        </p>
+maître.
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

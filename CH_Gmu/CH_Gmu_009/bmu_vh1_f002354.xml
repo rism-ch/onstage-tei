@@ -1,110 +1,102 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert symphonique (Quatrième de l'abonnement)<date when="27/11/1921"/></title>
-<series>1920-1921</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert symphonique (Quatrième de l'abonnement)
+            <date when='27/11/1921'/>
+          </title>
+          <series>1920-1921</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002354</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Andreae, V. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19211127"/>
-<title>Concert symphonique (Quatrième de l'abonnement)</title>
-<placeName key="Victoria Hall"/>
-<name key="1920-1921" type="series"/>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Brahms, Johannes" ref="https://muscat.rism.info/admin/people/39914" type="person" role="cmp">Brahms, Johannes</name>
-<name key="Andreae, Volkmar  (dir.)" ref="https://muscat.rism.info/admin/people/31221" type="person" role="int">Andreae, Volkmar  (dir.)</name>
-<name key="Orchestre de la Suisse Romande" ref="https://muscat.rism.info/admin/people/50007615" type="person" role="int">Orchestre de la Suisse Romande</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002354_001.tif"/>
-<page><![CDATA[VICTORIA -HALL
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19211127'/>
+        <title>Concert symphonique (Quatrième de l'abonnement)</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1920-1921' type='series'/>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Brahms, Johannes' ref='https://muscat.rism.info/admin/people/39914' type='person' role='cmp'>Brahms, Johannes</name>
+        <name key='Andreae, Volkmar' ref='https://muscat.rism.info/admin/people/31221' type='person' role='int'>Andreae, Volkmar</name>
+        <name key='Orchestre de la Suisse Romande' ref='https://muscat.rism.info/admin/people/50007615' type='person' role='int'>Orchestre de la Suisse Romande</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002354_001.tif'/>
+        <page>
+          <![CDATA[VICTORIA -HALL
 — Samedi 27 novembre 1920, à 20 h. et demie précioce
-
 CONCERT SYMPHONIQUE
-
 (Quatrième de l’abonnement)
-
 sous la direction de
-
 M. Volkmar ANDREÆ
-
 Chef d'orchestre des Concerts de la Tonkalle e Zurich.
-
 PROGRAMME
-
 ÿ PREMIÈRE PARTIE
 1. Ouverture des MAITRES CHANTEURS ... Wagner
-
 2. SYMPHONIE n° 4, en si bémol Beethoven
-
 a) Adagio. - Allegro vivace.
 b) Adagio.
 c) Allegro vivace.
-
 0) Allegro ma non troppo.
-
 DEUXIÈME PARTIE
-
 3. SYMPHONIE n° 1, en à mineur Brahms
-
 a) Un poco sostenuto. - Allegro.
-
 b) Andante sostenuto.
-
 c) Un poco allegretto e grazioso.
-
 0) Adagio. - Allegro non troppo ma con brio.
-
 Le Concert commencera à 20 heures et demie très précises.
 Aucun morceau ne scra répété ni ajouté au programme.
-
 La direction se réserve le droit d’apporter au programme toutes modifications que
-
 les circonstances pourraient lui imposer.
-
 Les portes seront fermées pendant l’exéculion des morceaux.
-
-H, JARRYS, GENÈVE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002354_002.tif"/>
-<page><![CDATA[Richard WAGNER
-
+H, JARRYS, GENÈVE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002354_002.tif'/>
+        <page>
+          <![CDATA[Richard WAGNER
 Ouverture des MAITRES CHANTEURS.
-
 Les Maitres Chanteurs prennent dans l’œuvre entière de Richard
 Wagner une place semblable à celle qu’occupait le drame satirique
 vis-à-vis de la tragédie, et c’est dans un sens analogue qu’ils furent
@@ -120,25 +112,21 @@ prodigieux et un progrès incessant, qu'il reprit ce sujet comme pour
 se reposer de ses longs labeurs. (Les Maîtres Chanteurs furent repré-
 sentés pour la première fois à Munich, en juin 1868.) Il l’aborda
 alors avec une expérience consommée ef une entière sérénité…
-
 Ce prélude est construit sur cinq thèmes pris parmi les plus
 importants de l’ouvrage, dont il expose le sujet réduit à sa plus
 grande simplicité. Deux de ces thèmes font connaître la docte et
 prétentieuse corporation des Maîtres Chanteurs ; les trois autres
 nous dépeignent les diverses phases de l’amour d’Eva et du chevalier
 Walther de Stolzing.
-
 Tout d’abord, des accords lourds et pompeux, d’une allure à la
 fois noble et pédante, affectant un rythme de marche, dessinent
 énergiquement le caractère des Maïtres Chanteurs, gens à convictions
 profondes, à principes inébranlables, respectables au fond, mais
 poussant parfois leur zèle jusqu’à l’absurdité; d’ailleurs gais et
 dispos.
-
 Par une douce opposition, aussitôt se fait entendre le charmant
 motif de l'amour natssant, à la fois léger, discret, déjà tendre pour-
 tant : l’éclosion de l’amour inconscient.
-
 Après cet épisode très court apparaît un deuxième motif caracté-
 ristique des maîtres, /a bannière, moins bourgeois, plus héraldique
 que le motif des maîtres proprement dit. Ce motif s’étale largement
@@ -147,143 +135,67 @@ court épisode, il se présente un nouveau thème d'importance capitale,
 la passion déclarée, qui parcourra tout l’ouvrage et trouvera sa forme
 définitive, au dernier acte, dans le chant de Maîtrise. Après un
 autre motif attaché au seul personnage de Walther, ardeur impaliente,
-
 ä
 Ë
-
 |
-
 E L E T E A STRES
-
 DEN e r N S S TC
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-   
-  
-
 T E TO R O OS N ON 6
-
- 
-    
-
 E É es
-
 rn
-
-$]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002354_003.tif"/>
-<page><![CDATA[PR E e ce e A e
+$
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002354_003.tif'/>
+        <page>
+          <![CDATA[PR E e ce e A e
 cs e
 ? se
-
- 
-
 ;
 â«
 l
 |
 ë
 !
-
- 
-
 e
-
- 
-
- 
-
 RTIOERE E CEI E ETEN S
-
- 
-
- 
-
- 
-
- 
-
 MUSIQUE et RUMENTS
-
 ROTSCHY FRÈRES
-
 22, Corraterie — GENÈVE
 ont en magasin, pour la vente, les PARTITIONS D’'ORCHESTRE,
 petit format, de toutes les œuvres jouées dans les concerts d’ abonnement,
 pour autant qu’elles ont été publiées.
-
 ABONNEMENT très bien assorti, complété de toutes les œuvres indiquées au
 programme des concerts d’abonnement. Conditions très favorables.
-
- 
-
 Violons - Violoncelles =- Archets
 et tout ce qui 1es concerne.
-
 A. VIDOUDEZ
-
 Luthier du Conservatoire
 22, rue Général-Dufour (à l’entresol) - GENÈVE
-
 A
-
 Cordes justes à bout jaune et noir. -- Les meilleures qui existent.
 Réparations. — Instruments d’occeasion. — Téléphone 65-75,
-
 A LA SIBÉRIE
-
 Fourrures confectionnées et sur mesure.
-
- 
-
 Cransformations et réparations
-
 Eo S© Ë U B E B Î\ CONSERVATION de F9URRURES
-
 pendant l’été.
-
- 
-
 Fourreur ‘ SE S ; L
 ; Cravail soigné. — Prix modérés.
 11, rue Ceard, 11 — GENÈVE Téléphone 67.80
 = Ë‘ Vente et
 = L«waüon
-
-  
-
 Pleyel - (mveau Bluthnm - Stemwav Bieger
 Schmidt-Flohr - Bu1‘gm & Jacob1 - Wohlfahrt
-
 SAUTIER & JAÆAGER
-
-12, Fusterie, 13 — GENÈVE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002354_004.tif"/>
-<page><![CDATA[EET VRS T SREE ETE SS
-
+12, Fusterie, 13 — GENÈVE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002354_004.tif'/>
+        <page>
+          <![CDATA[EET VRS T SREE ETE SS
 va
-
- 
-
- 
-
- 
-
- 
-
 La Machine à écrire française ” JAPY"”
-
 Souple — Résistante — Silencieuse — Extrême rapidité
 S’est placée en 1920 à la tête des premières marques :
 Championnat suisse (9 h. d’épreuves en 4 langues).
@@ -291,85 +203,38 @@ Championnat romand (hors concours).
 Record de vitesse (100 mots par minute).
 Premier prix, Concours de travaux d’art de l’A. D. F.
 La meilleur marché en raison du change.
-
 SSN
-
 A. Persiaux, Agent général Suisse romande.
 16, place Longemalle - GENÈVE - Téléphone 59-31
-
- 
-
- 
-
- 
-
 | CHAUSSEZ-VOUS _
 | curz J. KURTH
-
 GRANDE CORDONNERIE
-
-  
-    
-
- 
-
 CII}
-
- 
-
- 
-
- 
-
- 
-
 Ï
-
 GENÈVE ëR°O°I?IRDPÆRÊÏ;Ï * ;j #
-
 { NEUCNATEL Fbe. de l'Hôpital %
-
 NEUVEVILLE ]
-
 L es |
 BANQUE FÉDÉRALE |
 Q RALE |
-
 p
-
 SOCIÉTÉ ANONYME, FONDÉE EN 1863
-
 — GENÈVE
 GARDE DE TITRES - LOCATION DE COFFRES-FORTS
-
 ET TOUTES OPÉRATIONS DE BANQUE EN GÉNÉRAL
-
- 
-
 MUSIECHIENS !
-
 Vous ne savez pas encore que vous avez à votre disposition une
 Bibliothèque cireulante de littérature musicale
 unique en son genre dans toute la Suisse. — Elle renferme
-
 plus de 2500 ouvrages sur la musique, les musiciens, ete.
 Demandez les conditions. Catæalogue 1 fr. 50.
-
 FŒTISCH Frères, $. À.… à Lausanne
-
- 
-
- 
-
- 
-
- 
-
- 
-
-|]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002354_005.tif"/>
-<page><![CDATA[l’ouverture se développe par des alternances de ces divers motifs,
+|
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002354_005.tif'/>
+        <page>
+          <![CDATA[l’ouverture se développe par des alternances de ces divers motifs,
 jusqu‘au moment où trois d’entre eux : les maîtres, la bannière et la
 passion déclarée, se combinant simultanément de la façon la plus
 ingénieuse, viennent nous faire pressentir ce que sera le dénouement
@@ -377,14 +242,10 @@ de l’action elle-même : l’alliance, la passion de l’art savant, mais
 roufinier, des vieux maîtres avec un art nouveau, plus spontané,
 celui de Walther, inspiré par l’amour.
 (D'après Albert Lavicnac.)
-
 st
 Louis van BEETHOVEN
-
 1770-1827
-
 S'YMPHONIE N° j, en st bémol (op. 6o).
-
 Après la composition de l’Froïca, Beethoven s’était mis à écrire
 Fidelio. Cet opéra fut lancé à Vienne à deux reprises : en 1804,
 alors que l’armée de Napoléon occupait la ville, et en 1805, les
@@ -399,10 +260,8 @@ période. Elle paraît comme le cantique spontané qui s’exhale d’un
 cœur satisfait, car il interrompit, pour l’écrire, sa préparation de
 la Symphonie en ut mineur. Et l'on n’en trouve d’esquisses dans
 aucun des carnets connus de Beethoven.
-
 Un esprit conciliant, issu de l’amour, agissait alors sur les ma-
 nières et la façon de vivre de Beethoven.
-
 Il était « plein d'entrain, vif, joyeux, spirituel, courtois dans le
 monde, patient avec les importuns, vêtu de façon recherchée ».
 Cette humeur se marque dans sa musique, qu'il manie d’une main
@@ -413,24 +272,14 @@ Beethoven en pleine maîtrise. Son génie de l'harmonie se révèle
 pleinement dans le développement de l’allegro vivace. Et l’on sent
 dans les rythmes du menuet et dans les tutti du finale, ces saillies
 soudaines, ces accents brusques qui caractérisent le pathétique .
-particulier à Beethoven.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002354_006.tif"/>
-<page><![CDATA[u A E es
-
- 
-
- 
-
- 
-
- 
-
- 
-
+particulier à Beethoven.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002354_006.tif'/>
+        <page>
+          <![CDATA[u A E es
 Johannès BRAHMS
-
 1833-1897
-
 On n’observe pas, à l’égard des symphonies de Brahms, cette
 progression d’'intérêt que l’on constate chez la plupart des compo-
 siteurs qui ont commencé étant jeunes à écrire pour l'orchestre.
@@ -448,7 +297,6 @@ premier rang des artistes contemporains. C’est sans doute à ce fait
 d’avoir travaillé pour l’orchestre seulement après s’être fait une
 technique à lui pour le piano et les archets, qu’il faut attribuer sa
 façon toute particulière de concevoir l’ensemble instrumental.
-
 Les symphonies de Brahms sont rigoureusement thématiques,
 c’est-à-dire qu’elles montrent avant tout, sous leurs divers aspects
 et dans la plupart des parties instrumentales, comme s’il s'agissait
@@ -459,7 +307,6 @@ c’est le dessin qui l’emporte aux dépens de la couleur, et c'est ce
 qui fait paraître grises ses compositions orchestrales, si on les
 compare aux vrais coloristes de la symphonie : Beethoven ou .
 Wagner.
-
 Mais il s’en faut qu’elles soient dépourvues en fotalité de ce
 charme prestigieux et plus sensuel que l’on retrouve chez les maîtres
 de l’orchestre. Plus sobre, plus recueillie, plus renfermée dans son
@@ -469,23 +316,22 @@ toute spéciale. L'exécution de ces symphonies exige une précision
 absolue en même temps qu’une affirmation expressive très accentuée
 dans l’exposition, le développement et la conclusion de chacun des
 thèmes, ainsi que dans leurs relations polyphoniques.
-
-(Extrait du Guide Musical.)]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002354_007.tif"/>
-<page><![CDATA[SYMPHONTIE n° 1, en ut mineur.
-
+(Extrait du Guide Musical.)
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002354_007.tif'/>
+        <page>
+          <![CDATA[SYMPHONTIE n° 1, en ut mineur.
 La première symphonie est une œuvre forte, se rapprochant, par
 son caractère et le développement des idées, de la cinguième symphonie
 de Beethoven. Le premier mouvement est précédé d’une introduction
 lente (un poco sostenuto, 6/8) qui esquisse les thèmes de l’allegro
 principal. À remarquer, le motif chromatique joué par les violons,
-
 mofif important, servant de base à la première partie de la symphonie
 et qu'on retrouve plus tard dans les deux mouvements subséquents.
 Ce thème domine le premier allegro; après avoir servi à décrire les
 scènes passionnées, il se change en mélodie plaintive, donnant à la
 fin de ce morceau une tournure élégiaque.
-
 Le commencement de l’andante soslenuto est encore sous l’influence
 du premier mouvement bien que la tonalité et les idées soient de
 nature à amener une détente. Cette influence se manifeste par de
@@ -494,7 +340,6 @@ quelques-uns des motifs précédents. Peu à peu le calme se fait et'
 le second thème (hautbois et clarinettes) exprime la confiance qui
 renaît. Cette mélodie consolante revient à la fin de l’andante,
 commentée par le cor et le violon-solo.
-
 Le troisième morceau (un poco allegretto) n’a pas le caractère fran-
 chement joyeux du scherzo traditionnel, mais reflète un peu l’état
 d’âme dépeint dans le premier mouvement. En conséquence, cette
@@ -505,7 +350,6 @@ motif charmant, confié alternativement aux bois et aux cordes qui
 s'entre-répondent de la façon la plus gracieuse, prouve que les soucis
 se sont éloignés. Cette pièce de musique intime se termine par une
 péroraison tranquille et douce.
-
 L'allegro non troppo (ut majeur), qui sert de final, est précédé d’une
 introduction en deux mouvemeñts : d’abord, un aodagio (ut mineur)
 rappelant les sombres dispositions de la première partie de la sym-
@@ -515,63 +359,37 @@ ténèbres si longtemps persistantes. Cette victoire est célébrée par
 un hymne joyeux, thème principal de l’allegro non troppo qui alterne
 avec plusieurs motifs secondaires auxquels se joint aussi la mélodie
 de l’andante, jouée par le cor.
-
-P]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002354_008.tif"/>
-<page><![CDATA[E :?Î #
-
- 
-
- 
-
- 
-
- 
-
- 
-
+P
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002354_008.tif'/>
+        <page>
+          <![CDATA[E :?Î #
 VICTORIA-HALL
-
- 
-
 Samedi 4 décembre 1920, à 20 heures et demie
-
 CONCERT SYMPHONIQUE
-
 (Cinquième de l'Abonnement)
-
 M"* N. JAQUES-DALCROZE, crcc |
 la Société de Chant du Conservatoime * la
-
 Classe Je Chœurs clu Conservatoire
-
 (Direction : M. MONTILLET)
-
 M“ de STOPPANI M" Sophie PACHE
-
 Contralto Soprano
-
 M A POCHON ..
-
- 
-
 1. Sinfonia del Oratorio Sant’Elena al Calvario Leonardo LE0
-
 2. Concerto grosso per la Notte di Natale ... CORELLI
 3. Fragments de Castor et Pollux, pour soli,
 chœuûr'et orchestre ... RAMEAU
-
 4. La Damoiselle Elue, pour chœur de femmes,
-
 soliet'orchestre(:.:. Y1 Desussy _
 5. Matin paotoral, pour chant et orchestre ... JAques-Darcroze ||
 6:"Suité de la*Prsanelles 100 PIzzermI
-
 Orchestre et cl’1œ1us sous la c11recüon (16 M ANSERMET
-
 Location dès lundi à l'Agence VÊRON, GRAUER et C'°, suceursale du
-_ Terraillet, rue du Marché, 20, téléphone 31-64.]]></page>       
-        </p>
+_ Terraillet, rue du Marché, 20, téléphone 31-64.
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

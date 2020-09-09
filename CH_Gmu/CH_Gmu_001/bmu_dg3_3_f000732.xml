@@ -1,142 +1,115 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Un seul grand concert donné par Madame Carlotta Patti<date when="22/04/1882"/></title>
-<series>1881-1882</series>
-<placeName>Conservatoire</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Un seul grand concert donné par Madame Carlotta Patti
+            <date when='22/04/1882'/>
+          </title>
+          <series>1881-1882</series>
+          <placeName>Genève, Conservatoire</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU DG3-3 F000732</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt> </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18820422"/>
-<title>Un seul grand concert donné par Madame Carlotta Patti</title>
-<placeName key="Conservatoire"/>
-<name key="1881-1882" type="series"/>
-<name key="Munck, Ernest de"  type="person" role="cmp">Munck, Ernest de</name>
-<name key="Liszt, Franz" ref="https://muscat.rism.info/admin/people/107196" type="person" role="cmp">Liszt, Franz</name>
-<name key="Verdi, Giuseppe" ref="https://muscat.rism.info/admin/people/137994" type="person" role="cmp">Verdi, Giuseppe</name>
-<name key="Dunkler"  type="person" role="cmp">Dunkler</name>
-<name key="Schubert, Franz" ref="https://muscat.rism.info/admin/people/111603" type="person" role="cmp">Schubert, Franz</name>
-<name key="Eckert"  type="person" role="cmp">Eckert</name>
-<name key="Popper, David" ref="https://muscat.rism.info/admin/people/27091" type="person" role="cmp">Popper, David</name>
-<name key="Iradier"  type="person" role="cmp">Iradier</name>
-<name key="Patti, Carlotta"  type="person" role="int">Patti, Carlotta</name>
-<name key="Cezano, Olga"  type="person" role="int">Cezano, Olga</name>
-<name key="Munck, Ernest de"  type="person" role="int">Munck, Ernest de</name>
-<name key="Ketten, Léopold"  type="person" role="int">Ketten, Léopold</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg3_3_f000732_001.tif"/>
-<page><![CDATA[SALLE DU CONSERVATOIRE
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18820422'/>
+        <title>Un seul grand concert donné par Madame Carlotta Patti</title>
+        <placeName key='Genève, Conservatoire'/>
+        <name key='1881-1882' type='series'/>
+        <name key='Munck, Ernest de' type='person' role='cmp'>Munck, Ernest de</name>
+        <name key='Liszt, Franz' ref='https://muscat.rism.info/admin/people/107196' type='person' role='cmp'>Liszt, Franz</name>
+        <name key='Verdi, Giuseppe' ref='https://muscat.rism.info/admin/people/137994' type='person' role='cmp'>Verdi, Giuseppe</name>
+        <name key='Dunkler' type='person' role='cmp'>Dunkler</name>
+        <name key='Schubert, Franz' ref='https://muscat.rism.info/admin/people/111603' type='person' role='cmp'>Schubert, Franz</name>
+        <name key='Eckert' type='person' role='cmp'>Eckert</name>
+        <name key='Popper, David' ref='https://muscat.rism.info/admin/people/27091' type='person' role='cmp'>Popper, David</name>
+        <name key='Iradier' type='person' role='cmp'>Iradier</name>
+        <name key='Patti, Carlotta' type='person' role='int'>Patti, Carlotta</name>
+        <name key='Cezano, Olga' type='person' role='int'>Cezano, Olga</name>
+        <name key='Munck, Ernest de' type='person' role='int'>Munck, Ernest de</name>
+        <name key='Ketten, Léopold' type='person' role='int'>Ketten, Léopold</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg3_3_f000732_001.tif'/>
+        <page>
+          <![CDATA[SALLE DU CONSERVATOIRE
 Samedi 22 Avril 1882, à $ heures du soir
-
 y SRUI GRAND CONCERT
-
 DONNÉ PAR MADAME
-
 | Crrc PAT'TI
-
 AVEC LE CONCOURS DE MADAME
-
 OLGA CEZANO
-
 ET DE MESSIEURS
-
 YRNEST DE M U N C K, VIOLONCELLINTE
-
 LÉOPOLD KETTEN, accompagnateur.
-
 ——> ""—3>—+———
-
- 
-
 P ERO0CGMRAMME
-
 M Morceaundestantaisien ts e 1 11 es 7 B DE-MUNCK.
 Violoncelle : M. E. de Munck. «
-
 es r e N LISZT.
 Piano : Mme Cezano
-
 Minadiemieniei TTs 1 e 8 8 x , NERDI,
 Chant : Mme Patti.
-
 Mn TO e 1 DUNELER
 Violoncelle : M. de Munck.
-
 ooréesidemienne(Vaise-Caprice .° . .. ° : .. . - . “ . . SCHUBERT:
 Piano : M'me Cezano.
-
 esshehossuisseen 1Ts n n d 1- 0 ECKERT.
 Chant : Mme Patti. ;
-
 OENpetiene(etopnn n 1 31 e 114N DE MUNCK.
 A % CEplioet Ts e e . PORPER.
 Violoncelle : M. de Munck.
 es (kdlecenai(enansomespagnole à ‘ T n . . . S - … TRADIER.
 Chant: Mme Patti.
-
 sreviemeknansodiesHonanoise . t sT e - Liiszt.
 â Piano : Mme Cezano.
-
- 
-
 Piano de la maison Erard.
-
 PRIX DES PLACES:
-
 Réservées : 10 francs. — Premières : 5 franes. — Estrade, 3 francs.
-
- 
-
- 
-
 Pour les places réservées, s’adresser à M. Clavel, concierge du Conservatoire. Pour les autres
 places, chez tous les marchands de musique. E{Ë
-
- 
-
- 
-
- 
-
- 
-
 Ts J
-
-G:nève. — Imp, A.-F, FALK,— B, Cons -Gén,]]></page>       
-        </p>
+G:nève. — Imp, A.-F, FALK,— B, Cons -Gén,
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

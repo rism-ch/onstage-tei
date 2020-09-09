@@ -1,100 +1,85 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par l'Harmonie nautique<date when="31/10/1940"/></title>
-<series>1940-1941</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par l'Harmonie nautique
+            <date when='31/10/1940'/>
+          </title>
+          <series>1940-1941</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F003056</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Santandréa, P. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19401031"/>
-<title>Concert donné par l'Harmonie nautique</title>
-<placeName key="Victoria Hall"/>
-<name key="1940-1941" type="series"/>
-<name key="Mendelssohn Bartholdy, Felix" ref="https://muscat.rism.info/admin/people/88790" type="person" role="cmp">Mendelssohn Bartholdy, Felix</name>
-<name key="Schumann, Robert" ref="https://muscat.rism.info/admin/people/131206" type="person" role="cmp">Schumann, Robert</name>
-<name key="Strauss, Richard" ref="https://muscat.rism.info/admin/people/132111" type="person" role="cmp">Strauss, Richard</name>
-<name key="Musorgskij, Modest Petrovič" ref="https://muscat.rism.info/admin/people/30019183" type="person" role="cmp">Musorgskij, Modest Petrovič</name>
-<name key="Rachmaninov, Sergej Vasil'evič" ref="https://muscat.rism.info/admin/people/32447" type="person" role="cmp">Rachmaninov, Sergej Vasil'evič</name>
-<name key="Balakirew"  type="person" role="cmp">Balakirew</name>
-<name key="Borodin, Alexandr Porfir'evič" ref="https://muscat.rism.info/admin/people/30015583" type="person" role="cmp">Borodin, Alexandr Porfir'evič</name>
-<name key="Santandréa, Pierre (dir.)"  type="person" role="int">Santandréa, Pierre (dir.)</name>
-<name key="Harmonie Nautique"  type="person" role="int">Harmonie Nautique</name>
-<name key="Marcet-Filosa, Lilia"  type="person" role="int">Marcet-Filosa, Lilia</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003056_001.tif"/>
-<page><![CDATA[VICTORIA-HALL
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19401031'/>
+        <title>Concert donné par l'Harmonie nautique</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1940-1941' type='series'/>
+        <name key='Mendelssohn Bartholdy, Felix' ref='https://muscat.rism.info/admin/people/88790' type='person' role='cmp'>Mendelssohn Bartholdy, Felix</name>
+        <name key='Schumann, Robert' ref='https://muscat.rism.info/admin/people/131206' type='person' role='cmp'>Schumann, Robert</name>
+        <name key='Strauss, Richard' ref='https://muscat.rism.info/admin/people/132111' type='person' role='cmp'>Strauss, Richard</name>
+        <name key='Musorgskij, Modest Petrovič' ref='https://muscat.rism.info/admin/people/30019183' type='person' role='cmp'>Musorgskij, Modest Petrovič</name>
+        <name key='Rachmaninov, Sergej Vasil&apos;evič' ref='https://muscat.rism.info/admin/people/32447' type='person' role='cmp'>Rachmaninov, Sergej Vasil'evič</name>
+        <name key='Balakirew' type='person' role='cmp'>Balakirew</name>
+        <name key='Borodin, Alexandr Porfir&apos;evič' ref='https://muscat.rism.info/admin/people/30015583' type='person' role='cmp'>Borodin, Alexandr Porfir'evič</name>
+        <name key='Santandréa, Pierre' type='person' role='int'>Santandréa, Pierre</name>
+        <name key='Harmonie Nautique' type='person' role='int'>Harmonie Nautique</name>
+        <name key='Marcet-Filosa, Lilia' type='person' role='int'>Marcet-Filosa, Lilia</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003056_001.tif'/>
+        <page>
+          <![CDATA[VICTORIA-HALL
 d8:;âäëïä Jeudi 31 Oct0bre 1940 comrn22cera à
-
 CONCERT
-
 donné par
-
 L’HARMONIE NAUTIQUE
-
 HARMONIE MUNICIPALE DE LA VILLE DE GENEVE
 avec le gracieux concours de
-
 â Mme Lilia Marcet-Filosag pianiste
-
 Prix de virtuosité avec distinction du Conservatoire (1939)
 Second prix au Concours national d’exécution musicale à Genève (1940)
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Première partie
-
- 
-
 TPRRUVEBLHS ouventure. = * ° . . . . . . . Mendelssohn
 2. Carnaval, Scènes mignonnes pour piano . . . . <Schumann
 1. Préambule 9. Papillons 16. | Valse allemande
@@ -110,34 +95,25 @@ Mme Marcet-Filosa
 A Deuxième partie
 36
 H ARBORISIGODOUNOM T . : : . .. . Moussorgsky
-
 1. Marche du Tsarevitch Dimitri.
 2. Marina et Dimitri.
 3. Glorification du Tsar Boris.
-
- 
-
 5. a) Prélude en do dièse mineur. . . . . . . . Rachmaninoff
 baDeuxiemerscherzon — . . . - . . Balakirew
 Mme Marcet-Filosa
 6. DEUXIÈME SYMPHONIE (le" mouvement) . . . . Borodine
-
 Piano de concert Steinway, aux bons soins de la Maison Sautier & Jæger
-
 Le concert sera dirigé par
-
 M. Pierre SANTANDREA
-
 Premier Prix d’excellence du Conservatoire de Paris
-
 Prix des places: Loges et Cordon de la 1° galerie, numérotées, fr: 1.50
 Autres rangs de la 1r° galerie et Rez-de-chaussée, fr. 1.—
 Deuxième galerie, fr. O.5O (droit des pauvres compris).
-
 Location chez MM. Sautier & Jæger, 12, Fusterie, Téléph. 4 21 24
-
-Pour MM. les membres non exécutants, coupons N°5 5 et 6]]></page>       
-        </p>
+Pour MM. les membres non exécutants, coupons N°5 5 et 6
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

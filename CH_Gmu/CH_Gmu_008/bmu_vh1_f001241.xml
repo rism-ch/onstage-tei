@@ -1,147 +1,100 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par le Corps de musique de Landwehr<date when="01/12/1918"/></title>
-<series>1918-1919</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par le Corps de musique de Landwehr
+            <date when='01/12/1918'/>
+          </title>
+          <series>1918-1919</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F001241</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Koch, L. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19181201"/>
-<title>Concert donné par le Corps de musique de Landwehr</title>
-<placeName key="Victoria Hall"/>
-<name key="1918-1919" type="series"/>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Schubert, Franz" ref="https://muscat.rism.info/admin/people/111603" type="person" role="cmp">Schubert, Franz</name>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Méhul, Etienne-Nicolas" ref="https://muscat.rism.info/admin/people/101056" type="person" role="cmp">Méhul, Etienne-Nicolas</name>
-<name key="Gluck, Christoph Willibald" ref="https://muscat.rism.info/admin/people/67338" type="person" role="cmp">Gluck, Christoph Willibald</name>
-<name key="Verdi, Giuseppe" ref="https://muscat.rism.info/admin/people/137994" type="person" role="cmp">Verdi, Giuseppe</name>
-<name key="Ratez, E."  type="person" role="cmp">Ratez, E.</name>
-<name key="Bruneau, Alfred" ref="https://muscat.rism.info/admin/people/78271" type="person" role="cmp">Bruneau, Alfred</name>
-<name key="Thomas, A."  type="person" role="cmp">Thomas, A.</name>
-<name key="Massenet, Jules" ref="https://muscat.rism.info/admin/people/84264" type="person" role="cmp">Massenet, Jules</name>
-<name key="Koch, Léonard (dir.)"  type="person" role="int">Koch, Léonard (dir.)</name>
-<name key="Corps de musique de Landwehr"  type="person" role="int">Corps de musique de Landwehr</name>
-<name key="Coquillot, Marcelle"  type="person" role="int">Coquillot, Marcelle</name>
-<name key="Salmond"  type="person" role="int">Salmond</name>
-<name key="Wend, Otto"  type="person" role="int">Wend, Otto</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001241_001.tif"/>
-<page><![CDATA[PORTES ÉÉ 1 ; CONCERT
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19181201'/>
+        <title>Concert donné par le Corps de musique de Landwehr</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1918-1919' type='series'/>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Schubert, Franz' ref='https://muscat.rism.info/admin/people/111603' type='person' role='cmp'>Schubert, Franz</name>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Méhul, Etienne-Nicolas' ref='https://muscat.rism.info/admin/people/101056' type='person' role='cmp'>Méhul, Etienne-Nicolas</name>
+        <name key='Gluck, Christoph Willibald' ref='https://muscat.rism.info/admin/people/67338' type='person' role='cmp'>Gluck, Christoph Willibald</name>
+        <name key='Verdi, Giuseppe' ref='https://muscat.rism.info/admin/people/137994' type='person' role='cmp'>Verdi, Giuseppe</name>
+        <name key='Ratez, E.' type='person' role='cmp'>Ratez, E.</name>
+        <name key='Bruneau, Alfred' ref='https://muscat.rism.info/admin/people/78271' type='person' role='cmp'>Bruneau, Alfred</name>
+        <name key='Thomas, A.' type='person' role='cmp'>Thomas, A.</name>
+        <name key='Massenet, Jules' ref='https://muscat.rism.info/admin/people/84264' type='person' role='cmp'>Massenet, Jules</name>
+        <name key='Koch, Léonard' type='person' role='int'>Koch, Léonard</name>
+        <name key='Corps de musique de Landwehr' type='person' role='int'>Corps de musique de Landwehr</name>
+        <name key='Coquillot, Marcelle' type='person' role='int'>Coquillot, Marcelle</name>
+        <name key='Salmond' type='person' role='int'>Salmond</name>
+        <name key='Wend, Otto' type='person' role='int'>Wend, Otto</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001241_001.tif'/>
+        <page>
+          <![CDATA[PORTES ÉÉ 1 ; CONCERT
 ‘à 2 heures su A 7 EUrO E
-
 précises ; E précises
-
- 
-
- 
-
- 
-
- 
-
- 
-
 donné par le D AVEC LE GRACIEUX CONCOURS DE
-
 CONTS DE MUSIQUE DE LANDWEHR # "1* Marcelle 9P 1 0T
-
 CANTATRICE
-
 M'° SALMOND
-
 TÉNOR
 Élève de M" Ofto WEND, Professeur au Conservafoire
-
 | PARFUMERIE DEBAY e Csa)
-
 (HARMONIE MILITAIRE)
-
 ; sous la direction
-
 de M. Léonard KOCH, professeur au Conservatoire
-
- 
-
- 
-
 1 llenüfnces Dentalhine - Eau de Cologne 1914 - Borax de Bay - Parfums nouveaux etc 1
 EXXGER NOS PRODUXTS DANS TOUS lLES MÂGÂSXNS *
-
-—c —— “n e]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001241_002.tif"/>
-<page><![CDATA["æ_‘
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
+—c —— “n e
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001241_002.tif'/>
+        <page>
+          <![CDATA["æ_‘
 x seq* = = z — F P e : e ;—_‘;1g. ps
 F
 v\ ’}
@@ -186,55 +139,26 @@ Déj t Dîr G
 _]euners.e pn 9. Hérodiade, Grande fantaisie, Mus. Landwehr | Massenet
 Plat du jour Consommations de 1 choix
 Vins et Liqueurs de marque J— Le piano d'accompagnement sera obligeamment tenu par M. le Professaur 0. Wend d Tripes & Choucroute q
-
- 
-
 ,, POUDRE ALPHA
-
 LE MEILLEUR SHAMPOING
-
 2 _ SON EMPLOI RÉGULIER ENTRETIENT LE CUIR CHEVELU,
 ":.*c LUSTRE LES CHEVEUX ET SUPPRIME LES PELLICULES
-
- 
-
- 
- 
-
 EN VENTE; PHARMACIES, DROGUERIES,
-
 O l'enveloppe PARFUMERIES
-
- 
-
 7s=—-—-—-— 00056
 -
 I T /
 ,
-
 » ﬁ) SE FAIT AUX: CAMOMILLES, ROMARIN, JAUNE D'ŒUF, GOUDRON ET VIOLETTES
-
-    
-   
- 
-       
-  
-
- 
-
-   
-
 é rr
-
- 
-
 L A rrc rr
-
 e
-
-cm]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001241_003.tif"/>
-<page><![CDATA[î"" ; # ® ; PR ETE PE IRR TS w ET ;
+cm
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001241_003.tif'/>
+        <page>
+          <![CDATA[î"" ; # ® ; PR ETE PE IRR TS w ET ;
 ! FLE”RS MACHINES A COUDRE GÛMMEHŒ f
 j‘_ T . YN i >
 | SINGER 2
@@ -282,29 +206,28 @@ x . , , Oo en
 ;i dês & h. ; du soir au Grand assortiments de fleurs coupées et plantes » r11
 f local, d'appartements. —  Spécialités pour Sociétés ‘ R A RR
 R Bâtiment €lectoral BOUQUETÊS -ÉCOURONNES - PALMES :: m ;
-; TÉELÉPHONE 10 76 e A]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001241_004.tif"/>
-<page><![CDATA[»4
-
+; TÉELÉPHONE 10 76 e A
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001241_004.tif'/>
+        <page>
+          <![CDATA[»4
 Q
-
 o. —
 E 7732480
 3 Æz[ es , f0/(â_’{’ﬂ(!/êJ
 J'éinages G cJcéertes
 œ y
-
 /
-
- 
-
 UULME
 00044
 % #0 Sc Oue fearché 3
 %ce. ut //3/(0[a/'
 = S
-\oo]]></page>       
-        </p>
+\oo
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

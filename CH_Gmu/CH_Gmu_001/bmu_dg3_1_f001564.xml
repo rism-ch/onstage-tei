@@ -1,86 +1,104 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert-conférence donné par l'Union musicale franco-suisse<date when="21/02/1880"/></title>
-<series>1879-1880</series>
-<placeName>Salle de la Réformation</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert-conférence donné par l'Union musicale franco-suisse
+            <date when='21/02/1880'/>
+          </title>
+          <series>1879-1880</series>
+          <placeName>Genève, Salle de la Réformation</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU DG3-1 F001564</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Doumenc (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18800221"/>
-<title>Concert-conférence donné par l'Union musicale franco-suisse</title>
-<placeName key="Salle de la Réformation"/>
-<name key="1879-1880" type="series"/>
-<name key="Marie"  type="person" role="cmp">Marie</name>
-<name key="Verdi, Giuseppe" ref="https://muscat.rism.info/admin/people/137994" type="person" role="cmp">Verdi, Giuseppe</name>
-<name key="Lorenzi [et al.]"  type="person" role="cmp">Lorenzi [et al.]</name>
-<name key="Doumenc (dir.)"  type="person" role="int">Doumenc (dir.)</name>
-<name key="Union musicale franco-suisse"  type="person" role="int">Union musicale franco-suisse</name>
-<name key="Régis, Adélaïde"  type="person" role="int">Régis, Adélaïde</name>
-<name key="Senger, Franz Ludwig Hugo von" ref="https://muscat.rism.info/admin/people/30015297" type="person" role="int">Senger, Franz Ludwig Hugo von</name>
-<name key="Lévi, I. [et al.]"  type="person" role="int">Lévi, I. [et al.]</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg3_1_f001564_001.tif"/>
-<page><![CDATA[SALLE DE jA REFORMATION
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18800221'/>
+        <title>Concert-conférence donné par l'Union musicale franco-suisse</title>
+        <placeName key='Genève, Salle de la Réformation'/>
+        <name key='1879-1880' type='series'/>
+        <name key='Marie' type='person' role='cmp'>Marie</name>
+        <name key='Verdi, Giuseppe' ref='https://muscat.rism.info/admin/people/137994' type='person' role='cmp'>Verdi, Giuseppe</name>
+        <name key='Lorenzi' type='person' role='cmp'>Lorenzi</name>
+        <name key='Alard, Delphin' type='person' role='cmp'>Alard, Delphin</name>
+        <name key='Beethoven, Ludwig van' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Godefroy' type='person' role='cmp'>Godefroy</name>
+        <name key='Diodati, Aloïs' type='person' role='cmp'>Diodati, Aloïs</name>
+        <name key='Boccherini, Luigi' type='person' role='cmp'>Boccherini, Luigi</name>
+        <name key='Bléger, Michel' type='person' role='cmp'>Bléger, Michel</name>
+        <name key='Doumenc' type='person' role='int'>Doumenc</name>
+        <name key='Union musicale franco-suisse' type='person' role='int'>Union musicale franco-suisse</name>
+        <name key='Régis, Adélaïde' type='person' role='int'>Régis, Adélaïde</name>
+        <name key='Senger, Franz Ludwig Hugo von' ref='https://muscat.rism.info/admin/people/30015297' type='person' role='int'>Senger, Franz Ludwig Hugo von</name>
+        <name key='Lévi, Isidore' type='person' role='int'>Lévi, Isidore</name>
+        <name key='Kling' type='person' role='int'>Kling</name>
+        <name key='Naumann' type='person' role='int'>Naumann</name>
+        <name key='Garin' type='person' role='int'>Garin</name>
+        <name key='Bibès' type='person' role='int'>Bibès</name>
+        <name key='Montobbio' type='person' role='int'>Montobbio</name>
+        <name key='Desmazes' type='person' role='int'>Desmazes</name>
+        <name key='Blanchereau' type='person' role='int'>Blanchereau</name>
+        <name key='Degoutte' type='person' role='int'>Degoutte</name>
+        <name key='Pabst' type='person' role='int'>Pabst</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg3_1_f001564_001.tif'/>
+        <page>
+          <![CDATA[SALLE DE jA REFORMATION
 Sumedi 21 Février 1880, u & heures M soir.
-
 CONCERT-CONFERENCE
-
 DONNÉ PAR
-
 L’UNION MUSICALE FRANCO-SUISSE
-
 Sous la divection de M. DOUMENC
 AVEC LE BIENVEILLANT CONCOURS DE
 M'« Adélaïde RÉGIS, professeur de harpe au Conservatoire de Genève
 MM. Hugo de SENGER ; Isidore LÉYI, premier prix de violon du Conservatoire de Paris :
 KLING et NAUMANN,
 GARIN, BIBÈS. MONTOBBIO, DESMAZES, BLANCHEREAU, DEGOUTTE et PABST
-
 SS DSEGNEH O A —— —
-
 PREMIÈRE PARTIE
 - Ouverture de Concert {Unmn musicale f{ranco-suisse,
-
 & TRÀVML et CHARITÉ Conférence par M. Gcorges FAVON
-
 3. (avatine de l’opéra Nabuchodonosor (Solo de petite basse, Union musicale) Verpi.
-
- DEUXIÈME PARTIE
+DEUXIÈME PARTIE
 1. Il sogno, nocturne caractéristique p. la havpe, exéc. par M'e Adélaide Régis LoRENZI.
 2. Grande Fantaisie sur des motifs du Trouvère, pour violon, avec ace. de piano,
 exécutée par MM. Isidore Léviet Hugo de Senger.
@@ -91,37 +109,23 @@ k. Marche triomphale du roi David, exécutée sur la harpe par M'e Régis.
 « 5. a) (auserie intime .
 5) (élèbre menuet
 pour double quintette à wules
-
 Manik.
-
- 
-
 VERDI-ALARD.
 BEETHOVEN.
-
- 
-
 GODEFROY,
 Aloïs Droparr.
 BOCCHERINI.
-
 6. Fleur de Mai, marche, (Union musicale franco-suisse) c10e 64 300 EU DAGRE
-
 Les n* 3 et 5 de la deuxième partie seront dirigés par M. H, de SENGER,
-
 Prix des places : Réservées, 3 fr, 1° galerie, 2 fr. Parterre, 1 fr. 2° galerie, 50 cent.
-
- 
-
 On trouve des billets aux adresses suivantes : MM. Golaz-Kaiser, marchand de musique, Cité ; chhard
-
 libraire, rue du Rhône ; Rotschy, marchand de musique, Corz ater1e ; Lelièvre-Drache, l1bra1re rue du
 «S&V[ont Blanc chez le concier ge de la salle de la Réformation, pour les places réservées, et le soir, à l’ entrée
-
 (O f 1E e 71 ==n = — —— = —
-
-Genève, — Imp. Schira-Blanchard,]]></page>       
-        </p>
+Genève, — Imp. Schira-Blanchard,
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

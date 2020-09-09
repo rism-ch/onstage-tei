@@ -1,84 +1,86 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concerts populaires<date when="18/01/1902"/></title>
-<series>1901-1902</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concerts populaires
+            <date when='18/01/1902'/>
+          </title>
+          <series>1901-1902</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F000481</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Richter, C.-H. (dir)</note>
+        <note>Compositeur incertain</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19020118"/>
-<title>Concerts populaires</title>
-<placeName key="Victoria Hall"/>
-<name key="1901-1902" type="series"/>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Reyer, Ernest" ref="https://muscat.rism.info/admin/people/46219" type="person" role="cmp">Reyer, Ernest</name>
-<name key="Bruckner ?"  type="person" role="cmp">Bruckner ?</name>
-<name key="Mendès, Catulle" ref="https://muscat.rism.info/admin/people/50031595" type="person" role="cmp">Mendès, Catulle</name>
-<name key="Richter, C.-H."  type="person" role="cmp">Richter, C.-H.</name>
-<name key="Wieniawski, Henryk" ref="https://muscat.rism.info/admin/people/137176" type="person" role="cmp">Wieniawski, Henryk</name>
-<name key="Lara, J. de"  type="person" role="cmp">Lara, J. de</name>
-<name key="Chrétien, Hedwige"  type="person" role="cmp">Chrétien, Hedwige</name>
-<name key="Molière" ref="https://muscat.rism.info/admin/people/119611" type="person" role="cmp">Molière</name>
-<name key="Richter, C.-H. (dir.)"  type="person" role="int">Richter, C.-H. (dir.)</name>
-<name key="Carrichon, Marguerite"  type="person" role="int">Carrichon, Marguerite</name>
-<name key="Seligmann, Jos."  type="person" role="int">Seligmann, Jos.</name>
-<name key="Bourquin  (Mlle)"  type="person" role="int">Bourquin  (Mlle)</name>
-<name key="Thorel (Mlle)"  type="person" role="int">Thorel (Mlle)</name>
-<name key="Vierne"  type="person" role="int">Vierne</name>
-<name key="Schulz, Oscar"  type="person" role="int">Schulz, Oscar</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000481_001.tif"/>
-<page><![CDATA[g — Cours complet,
-
- 
-
- 
-
- 
-
- 
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19020118'/>
+        <title>Concerts populaires</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1901-1902' type='series'/>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Reyer, Ernest' ref='https://muscat.rism.info/admin/people/46219' type='person' role='cmp'>Reyer, Ernest</name>
+        <name key='Bruckner, Anton' type='person' role='cmp'>Bruckner, Anton</name>
+        <name key='Mendès, Catulle' ref='https://muscat.rism.info/admin/people/50031595' type='person' role='cmp'>Mendès, Catulle</name>
+        <name key='Richter, C.-H.' type='person' role='cmp'>Richter, C.-H.</name>
+        <name key='Wieniawski, Henryk' ref='https://muscat.rism.info/admin/people/137176' type='person' role='cmp'>Wieniawski, Henryk</name>
+        <name key='Lara, J. de' type='person' role='cmp'>Lara, J. de</name>
+        <name key='Chrétien, Hedwige' type='person' role='cmp'>Chrétien, Hedwige</name>
+        <name key='Molière' ref='https://muscat.rism.info/admin/people/119611' type='person' role='cmp'>Molière</name>
+        <name key='Richter, C.-H.' type='person' role='int'>Richter, C.-H.</name>
+        <name key='Carrichon, Marguerite' type='person' role='int'>Carrichon, Marguerite</name>
+        <name key='Seligmann, Jos.' type='person' role='int'>Seligmann, Jos.</name>
+        <name key='Bourquin  (Mlle)' type='person' role='int'>Bourquin (Mlle)</name>
+        <name key='Thorel (Mlle)' type='person' role='int'>Thorel (Mlle)</name>
+        <name key='Vierne' type='person' role='int'>Vierne</name>
+        <name key='Schulz, Oscar' type='person' role='int'>Schulz, Oscar</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000481_001.tif'/>
+        <page>
+          <![CDATA[g — Cours complet,
 | ENSEIGNEMENT
-
 Musique
-
 - AGADÉNIE DE MUSIQUE
 FQnïiéè en 1886. 4, Boulev, Helvétique, Genève
-
 _ PROFESSEURS. — Cours de chant
 et Classe’ d’opéra, Mme Torrigi-Heiroth. —
 \ Diction, M. E. Fournier. — Italien, M. C.
@@ -89,459 +91,235 @@ crey, B. Bonny, Mlle E. Wittmer et M. Cartier.
 Flûte, M. P. Buyssens. — Solfège, M. E.
 Bonny. — Harmonie, contrepoint et compo-
 sition, M. C.-H. Richter.
- Pour inscriptions, s’adresser au directeur :
+Pour inscriptions, s’adresser au directeur :
 -H. RICHTER.
-
 -M. Albert REHFOUS, violoniste, ex-élève
 -de Marsick, professeur à l’Académie de
 Musique. — Cours, leçons partieu-
- Kières et d'accompagnement, 7, boule-
- vard des Philosophes.
-
- 
-
- 
-
+Kières et d'accompagnement, 7, boule-
+vard des Philosophes.
 _ M. Aimé KLING, deuxième premier violon
-
 solo de l’orchestre du Théâtre et des Con-
-
 \ certs d’abonnement, professeur suppléant
-
 au Conservatoire. Leçous particulières
-
 _ de Violon, d’Alto et d’accompagne-
 'ment. Rue de Candolle, 13.
-
 M Pierre RENARD, officier d’académie,
-
 “ professeur au Conservatoue — Cours
-
 ; complet de cornet à piston, rue de
 la Cloche,9. —
-
- 
-
- 
-
 Mme GUILLEMOT-THURINGER, de l’Opéra
 de Paris et de la Monnaie de Bruxelles Le-
 çons de chant et déclamation lyrique, Rue
-
 F d‘e Saussure, 6, au 1er.
-
- 
-
 — M Alfred EBERHARDT, professeur de mu-
 ‘sxque — Lecons de violon et d’ae-
 compagmement, boulevard des Tran-
 chées, 8, Genève.
-
- 
-
 GONSERVATOIRE .de Mlles SENÉ & WYSS,
 ourg-de-Four, 8, au 3me, — Piano, 6 fr.
 ar mois ; Soliege, 4 fÎr. par mois,
 our ? heures per semaime.
-
 ; M T4 BERTELLETTO, direeteur de la
 rémata, prdlesseur de Suliege,
-
 olon
 1dresser
-
- 
-
 de sze, 1.
-
- 
-
 DARNAULT orgamste p1amste
 pnot”esseur Ln Leçons de piano, orgue,
 harmonie, composition, cours ou
 leçoms particulières, 71, boulevard
 — St-Georges.
-
 - Mme MILELLA- BIDELEUX, professeur
 — au Conservatoire. — Lecçons de chant.
 , méthode ita-
 - lien‘ne. — Chemin Vert, 58, Eaux-Vives.
-
 ; M. Richard WISSMANN, professeur de
 - musique, Place de la Nav1qat10n 10. —
 Lecçons de chant, piano, théorie.
-
 Mme CORREVON de RIBAUCOURT, com-
 ; positeur, élève de Liszt.— Cours de pia-
 _ no, violon, solfège et harmonie, 3
 _ rue Vallin.
-
 _ Mlle E. MORANGE, cantatrice. — Cours
 ,et leçons de chant, méthode du Con-
 servatoire de Paris, 9, rue Lévrier, 9. —
 Recçoit de 11 h. à midi.
-
- 
-
- 
-
- 
-
 ,
-
- 
-
 M. Willy REHBERG chef d’orchestre des
 - Concerts d“Abonnement prof. sup« rieur de
 “ piano au Conservatoire. Rue Bellot,
-
 M. H. MARTEAU, professeur de violon au
-
 . Conservatoire. Rue de l’Observatoire, 15.
-
- 
-
 M. E. REYMOND, professeur de violon au
 Conservat01ro ‘Boul. de Plainpalais, 41.
-
 M. W. PAHNKE, professeur de violon au
 ; Conservatoire. Rue de Çandolle 15.
-
 ‘M. Ad. REHBERG, prof. de vmlonullr :ui
 Conservatoire. Boul. des Philosophes, 11
-
 “ Mile M, CARRICHON. Cours et 1ccons
 de chant et de pïamo. Auditions d’élè-
 ves = hue Saint-Jean, 27.
-
- 
-
- 
-
 - Mlle L. ISAAC, professeur .supp. au u Con-
 - servatoire. Leqzons de piamo et sol-
- fège. — RKue Le Fort, 25.
-
+fège. — RKue Le Fort, 25.
 Mme Elisa LUSCHER. — Cours et le-
 çons de eythare et guiîtare, rue des
 — Instruments et accessoires.
-
 î@@£XËK PR
-
- 
-
 ;_Gu tare et Mandolnne. cf
-
 MANUFACTURE DE
-
 CÀNTERI
-
 en tous genres
-
 Js P IP
-
 Maison de Gros : 26, Rue Ou Marché
 _ GEN EV/E
-
 Demandez le Gant J. P.
-
 dans toutes les bonnes maisons
 | TC
 G. H RCHTER
-
 D1rect10n artlsmque
 Dimanche 18 Janvier 1902, à 8 heures et demie
-
 PREMIFRE AUD [TION
-
 AVEC
-
 Mle Marguerite CARRICHON M. Jos. SELIGMANN
-
 Cantatrice Violoniste
-
 M" BOURQUIN, THOREL et M. VIERNE
-
 Élèves de M. FOURNIER, professeur de diction à l’Académie de Musique
-
 - .-
-
 PROGRAMME
-
 Sonate, en la majeur, N. VI., pour violon et piano .
 par M, Jos. Seligmann et M Schulz,
 a) Allegro
-
- 
-
- 
-
 VICTORIA HALUL z
-
 LE CONCOT
-
 élève de Joachim
-
 . — b) Adagio molto expressi c)
 variazioni.
-
 Air de Siqurd .
-
 Mlle & Yrichon
-
 Deux1en‘boncerto, en ré mineur, Op. 44, .
 Première partie : Adagio ma non troppo
 M. Seligmann.
-
 Le Consentement
 Mlle Bourquin.
-
 Un Conte, poésie de H.-C. '\Nh>s
 Mlle Carmchon
-
 d) Legenﬁ
-
 b) Obertaiss, mazurka
 M. Seligmann.
-
 a) Rondel de l’adieu . . . r 0 4047 JA d LARA:
-
 b) Que je t’oublie Hedwige
 Mlle Carrichon.
-
 L’École des Femmes
 Scène jouée par Mlle
-
 Allegretto con
-
 REYER.
 Bructa 9
-
 Catulle Mennts,
-
 C.-H. RICHTER.
-
 WIEN ).
-
 CHRETIEN
-
 MOLIÈRE
 Thorel et M., Vierne.
 soins de MM, DupacH et Cie,
-
 Piano de concert BLUTHNER, aux
-
 Le piano d;1u0mm;_numnt sera tenu par MM. Oscar ScHULZ, professeur au Conservatoire
-
 et C.-H. RicHTFR, directeur de l’Académie de Musique.
-
 PRIX DES PLACES : Loges, 3 fr.
 autres places de rez-de- chaussee Ttn
-
 Fauteu11s de Parquet, 2 fr.
 ; Galeries O.,50.
-
 Cartes en vente dans tous les magasins de musique.
-
 Buvez les Thés Stemmann
-
 ÉTRENNES UTILES
-
 10°|o au comptant jusqu’à fin Janvier 1 O°‘O
-
 BOITES D 0U'I‘IIAÏ1AGFS pour le découpage du bois. Variété de Des-
 sims ct de Bois à découper. — Fabrique de Plaques émaillées, — Patins,
 Jumelles, Lunettes, Pince-nez.
-
 Choix de RÉVEILS, PENDULES et ( RÉGULATEURS
-
 GRAND ASSORTIMENT DE
 MONTRES, BIJOUTERIE EN OR ET EN ARGENT
-
 et de tous prix.
-
 A. SCHWITZGUEÉBEL
-
 8, rue de Chantepoulet, GENÈVE
-
 Réparations de Pendules, Réveils, Montres, Bijouterie, ete,, etc.
-
- 
-
- 
-
- 
-
 Maison de confiance.
-
 47, rue du Ehône, 47
-
 | EXPOSITION PERMANENTE
-
 Cet ce
 Ehatla .
-
 As = CR X
-
 SN GSS
 (R . L L; =
 en SV 294
-
 LE
-
 “aplencid Programme
-
 est en lecture dans
-
- 
-
 1200 familles du Canton de Genève
-
- 
-
- 
-
- 
-
 dans
-
- 
-
 Tous les principaux Cafésl
-
- 
-
- 
-
 dans
-
- 
-
- 
-
 Toutes les principales Brasseries |
-
- 
-
- 
-
 dans
-
- 
-
- 
-
 Tous les principaux Hôtels |
-
- 
-
- 
-
 dans
-
- 
-
- 
-
- 
-
 Toutes les princlales Pensions
-
- 
-
- 
-
 Ant.
-
 dans l
-
- 
-
- 
-
 Tous les principanx Restanrants
-
 Ete., ete.
-
- 
-
 *
 n
 .\
 ,3’..
-
 « ;
 ‘
-
 Langues vivantes
-
 “RANCAIS. Lecons aux étrangers, méthode
 | directe. Conversation. Traductions. M.
-
 Granger, 29, boulev. de Plainpalais.
-
 NGLAIS. Lecons par Mrs Smyth de Lon-
 ’\ dres, Place des Alpes, 2, 4me, Maison Al-
 lard et Sandoz.
-
- 
-
- 
-
 MDPanse
 M. F. MÆDER, Place de la Fusterie,
 Lecons de danse.
-
 MDPocteurs
-
 Mlie Dr A. Bayer, rue des Alpes, 9. —
 Maladies de femmes et d’enfants, — Medi-
 cal practitioner. Massage et Electricité. —
 Recoit de 2 à 4 heures.
-
 Yakehiüäteh.
-
 2me padge.
-
 - (Voir annonce
-
 W" :"ll«
-
 >,»:"1‘Itl/r' en
-
 Place
-
 /IH)t'
-
 M. Ervmest Greïimer, Oculariste.
 des XXII Cantons, 1. (Voir annonce en
 puge
-
 Tour-Maitresse, 4. —
 Recoit tous les
-
 M. Louis MOREL, rue
 Méd.-dentiste diplômé.
 jours, lundi excepte.
-
 C CGs
 ,2r2€3
-
 e3>
-
 w Ë'v î“. Ÿ'
-
 E
-
 |
 i
-|]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000481_002.tif"/>
-<page><![CDATA[L'ART DU CHANT
-
+|
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000481_002.tif'/>
+        <page>
+          <![CDATA[L'ART DU CHANT
 Par Casimir Blanc, professeur à Montreux,
 préface de Mathis I Lussy.
-
 TABLE DES MATIÈRES
 l_ntroduclion. — Du chant en général. — La voix hu-
 maine. — Hygiène de la voix. — Education du chanteur.
@@ -549,44 +327,14 @@ maine. — Hygiène de la voix. — Education du chanteur.
 — Respiration. — Articulation. — Prononciation. —
 Accentuation. — Expression. — Conclusion.
 Fr. 1.—
-
 En vente dans les |lllll‘dll\ du Splendid Programme,
 imprimerie, rue du Rhône, 52.
-
 avec une
-
 1 voltume broché.
-
- 
-
 Le « Splendid Programme » est en vente dans
 tous les kiosques.
-
- 
-
 "°{Ê *:£—”?{QÊ € | ec lesises) {\jZ‘
 3 Compioir Ph11atehqnel ernatmnal -
-
- 
-
- 
-
-           
-
- 
-
-  
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Hans KIRCHHOFER ë%
 ” “
 Sé, RUE DU RHONE, 545*
@@ -608,86 +356,43 @@ N *‘<“- xl 2F E SEGQ yc
 @ SO E E G 57043 |F E S |
 5 QÈ;‘L'ÂQ‘« Q läa14 ':°. ï‘ aj: ?\ ,
 © a)
-
- 
-
 BOGER-KNODEL
-
 Tailleur
 27, RGaela @Groix-d'©r 27
 Nouveautés en tous genres
 Spécialité de costumes tailleur pour dames dep. fr. 75
 Costumes pour Messieurs dep. fr. 65
-
 On se rend à domicile
-
- 
-
 Docteur M" Yakchitch
 Aocouchements. — Maladies des Femmes et des Enfants
-
 16, Rue de Fribourg
-
 de 1 à 3 heures. - Sonnette de nuit. - Téléphone 3857
-
 PMOIAUIE MODERNE
-
 Henri DELAFONTAINE, pharmacien
 2, PLACE DES BERGUES, 2
-
 (Bâtiment de l'HÔtﬂcÿlÿdcs Bergues)
-
 APOTHEKE — DISPENSING CHEMIST
-
- 
-
- 
-
 ; JU" À. Sanguinetti
 ROBES & CONFECTIONS
-
 2, Rue Winkelried, 2
-
 -* GENÈVE » —
-
 LEÇONS DE DANSE
-
 PAR
-
 M. F. MAEDER, professeur
-
 Place de la Fusterie, 12
-
- 
-
- 
-
 Louis Morel
 Dentiste
-
 Rcoït tous les jours, Lundi excepté
-
 Mécanicien, diplômé
-
 Rue Tour-Maitresse, 4 GENÈVE
-
- 
-
 FABRICATION ET ADAPTATION
-
 D'YEUX ARTIFICIELS
-
 Spécialité d’yeux réformés
 d’après les procédés du Profr Doctr Snellen,
 les pius nmmobiles et les plus solides.
-
 BXÉCUTION d'après NATURE, RESSEMBLANCE GARANTIE
-
 Place des XXII Cantons, 1 (au 2me étage
 GENÈVE
-
- 
-
 Mmes et MM. les professeurs de musique, artis-
 tes lyriques ou instrumentistes, compositeurs de
 musique, elc., désirant se faire entendre ou faire
@@ -695,7 +400,6 @@ connaître leurs œuvres en Suisse et à l'Etranger
 sont priés de s'adresser à l'administration du
 «Splendid Programme » où tous renseignements
 eur seront fournis à ce sujet.
-
 Mesdames et Messieurs les abonnés et annonciers au
 « Splendid Programme », notamment Professeurs et
 Artistes, sont non seulement remboursés intégralement
@@ -704,72 +408,39 @@ entrees de faveur dans un ou plusieurs concerts de la sai-
 , son, mais encoye ils bénéficient après d'une réduction de
 450 9/, dans divers autres concerts jusqu'à expiration (Il
 leur abonnement ou de leur annonce.
-
- 
-
 Pour paraitre en temps utile, le « Bulletin Artistique »
 donnant la liste des artistes et_associations artistiques
 désiveux de se faire entendre en Suisse et à l'étranger. Ce
 Bulletin sera tiré à 10.000 exemplaires et expédié aux
 .ii:lù/'px.s‘ux dans tous les pays d'Europe.
-
 Inscription gratuite pour les ABONNÉS et -L\Â.—
 Prière aux artistes que cela intéresse de nous faire
-
 CIERS du « Splendid Programme ».
 jparvenir au plus tôt leurs inscription et prétentions.
-
- 
-
 FABRIQUE D'INSTRUMENTS de MUSIQUE
 E.-F. CRETENOUD
 Atelier rue Dizerens, 1, PLAINPALAIS-GENÈVE
-
- 
-
 Protégez
 l'industrie du pays
 sked np eussnpul,|
-
 Zaba101d
-
 Réparations en tous genres. — Réparations
 spéciales pour .\:l.\‘ll|lll0ll(“ ilàtes, clarinettes
 Bœhm, tambours. Prix m…h rés. — Échange
 d’instruments. — Nikelage. — Argenture.
-
- 
-
 H0rtmulteurs - Pep1memstes
-
 Pouvant fournir plantes et se charger de
 décoration de Salles pour Concerts et Soirées sont
 priés de s'adresser au Splendid Programme tous les
 soirs de 5 à 6 heures, Imprimerie Moderne, rue
 du Rhône 52. ‘
-
 HON L'ENON
-
- 
-
 En vente
-
 partout
-
- 
-
- 
-
 CONCERTS, THÉATRE
-
 H
 |
 [
-
- 
-
- 
-
 soirées littéraires G0nference s, sports, etc., etc.
 JANVIER
 Dimanche 11 ' }
@@ -779,32 +450,23 @@ avec le concours de Mlle Demours: 1° La Traviata. ;
 Wumdi 12
 THÉATRE. — Relâche. T
 Mardi 13 ;
-
 THÉATRE. — lre 1ep1csenl…on reprise de Les Pè-
-
 cheurs de Perles, opéra en 3 actes, 4 tableaux ; pa-
 roles de MM. Cormon et Carré: musique de Bizet. —
 M. Delmas chantera le rôle de Nadir qu’il à créé à -
 l'Opéra Comique.
-
 CONSERVATOIRE. — 8 h., cinquième séance de la So-
-
 ciété de musique de chambre.
 Mardi 13 et Mercrede 14
-
 CASINO DE ST-PIERRE. — 5 h.. con!‘ére_nces académi-
 ques sur la diction du Théâtre français par le pro-
 fesseur Ph. Franck, de l'Universite de France.
-
 Mercredi 14
 THÉATRE. — Prix réduits : Suzette.
 Jeudis 15, 272 et 29
-
 ATHÉNÉE. — 5 h., Récitals littéraires par M. Alph.
 Scheler ; poésies, poèmes, contes humoristiques,
-
 récits comiques.
-
 Samedi 17
 RÉFORMATION. — 8 h., récital vocal, par Mme Faliero-
 Daleroze.
@@ -816,46 +478,31 @@ Mardi 29
 CONSERVATAIRE. — S h. Mme Lane-Malignon, canta-
 trice et M. Criekboom, violoniste.
 Mercredi 214
-
 — 8 h. Mlle Apna Auvergne, can-
-
- 
-
 ns
-
 P
 es
-
 CONSERVATOIRE.
 tatrice.
 Mecrcredi 214. "e‘n(lrcdi 23
 RÉFORMATION. — 8 h., soirée de projections.
 Samedi 24 ; ;
-
 THÉATRE. — 8 h… sixième concert d'abonnement. ‘
-
 CONSERVATOIRE. — 8 h., récital de piano, par
 M. Willv Rehberg. ‘ e
-
 FEVRIER ‘ n
 WDimmnmche fc"
-
 VICTORIA-HALL. — 2 h. 1/2., musique d'Elite, avec le
 concours de MIle mr…lmn. cantatrice et diver
 artistes.
-
 Eundis et Mardis, à 5 h., Samedi, à 3 h.
 Du 13 Janvier au 16 Fevrier ‘ Ë e
-
 ATHÉNÉE.— Cours sur des sujets littéraires et historis
 ques, par MM. Adrien Naville, Philippe Monnier, Ph.
 Godet et Albert Bernard. #
-
 -s eqn
-
 ‘ Bets
 é
-
 Tous les Mardis
 Du 13 Janvier au 1* Mars
 Rue Verdaine, 13. — 3 à 4 h, seize causeries sur l’ edu—
@@ -865,163 +512,82 @@ Du 15 Janvier au 2 A vril
 Rue Verdaine, 13. — 3 à 4 h. et 4 h. 1/2 à 5 h., lec- \
 tures d’œuvres littéraires tlamalses et et1ancères
 par Mlle Berthe Vadier. ‘
-
 TOUS LES JOURS
-
 BRASSERIE HANDWERCK (Avenue du Mail). — Tous
 les soirs à 8 h. 1/2 et dimanche en matinée. Concert- ;
 spectacle. , ;
-
 BRASSERIE BONFANTINI, Terrassière 46. — Tous les
 soirs concert. Entrée libre.
-
 CASINO DE L'ESPÉRANCE (Rue de Carouge). — 8. h.
 et demie. Spectacle-concert.
-
 PANORAMA DE LA JONCTION. — Immense toile exé-
 cutée par le peintre Braun, de Munich, et repréèsen-
 tant la Bataille de Morat, en 1476. Entrée : 1 franc.
-
 BRASSERIE DU CROCODILE. — Tous les soirs, exyçpté
 lundis et vendredis, concert par l’orchestre Estudian- sA
 tina. <4
-
- 
-
- 
-
 Tout abonné ou annoncier au «Splendid
 Programme » est remboursé intégralement en
 entrées de faveur dans les principaux concerts
 de la saison. 4
-
- 
-
 CHOCOLAT TOI
-
- 
-
 BERNE
-
 LER,
-
 NE CRAINT AUCUNE
-«F  CONCURRENCE —]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000481_003.tif"/>
-<page><![CDATA[E n -N°0115.
-
+«F  CONCURRENCE —
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000481_003.tif'/>
+        <page>
+          <![CDATA[E n -N°0115.
 <.
 .
 A E
-
- 
-
- 
-
- 
-
- 
-
- 
-
 à CÂGN E CN
-
 DE péirire rnga s5 b qs édhansse "ae En RS E d TS F
-
 !
 Î
 |
-
 PR
-
 KÉGZSZG GSF
-
- 
-
 PORRPR1 11900777 0EDDDDRDLPÉ D7
-
 +
-
 > 10 CENTIMES —
-
 JOUERINVNAI
-
 11 Janvier 1908.
-
 SPLENDID PROGRAMME
-
 DE> FRHINCIPAUX CONCERTS ET SOIRÉES DE GENEVE
-
 DONNANT LA LISTE COMPLÈTE DE TOUS LES CONCERTS, SPECTACLES ET ATTRACTIONS DIVERSES
-
- 
-
 Bureaux de 5h. à 6 h.
-
- 
-
- 
-
 Bureaux de 5 h. à 6 h.
-
- 
-
- 
-
 ABONNEMENTS :
-
- 
-
 SPLENDID PROGRAMME, Ne 112, 11 Janvier 1903
-
 SOMMAIRE
-
 Chronique musicale (Concerts, Théâtre).
-
 Paroles intégrales des œuvres qui ssront exécutées par
-
 - Mlle Carvichon, le 18 janvier courant au Victoria-Hall.
-
 Notes biographiques- sur MUe Marg. Carrichon et M.
 Seligmann.
-
 Programme du Concert Populaire du 18 janvier courant,.
-
 Liste générale des conceyts, spectacles et attractions di-
 verses.
-
 AVIS IMPORTANT
-
 Le montant des annonces et abon-
 nemenis est remboursé iniégrale-
 mMent en enitrées de faveur dans un
-
 ; ou plusieurs concerts ayant lieu dans
 f,
-
-  
-
 }
-
 l
-
 # Moderne, vue du Rhône,
 T5 d06heures. ;
-
- 
-
 ;
-
 l'année couranie.,
-
 Multiples avantages offerts à Mmes et MM. les Professeurs
 Artistes, Compositeurs
 Sociétés arlistiques, etc.… affiliés au “Splendid Programme”
-
 1° Abonnement au « Splendid Programme »
-
 2° Annonce permanente à la vubrique «Enseignement ».
-
 39 Inscription dans le BULLETIN ARTISTIQUE,
 supplément au «Splendid Progamme », tiré à 10.000
 exemplaires et expédié dans toute l'Europe à tous les Chefs
@@ -1029,79 +595,46 @@ d’'orchestres, Comités d'associations artistiques, Sociétés
 musicales, ete. (Ce Bulletin à pour but de donner une
 liste détaillée des artistes à disposition pour concerts et
 soirées).
-
 4 Facilités pour les compositeurs de musique de faire
 connditre leurs œuvres en se servant du BULLÉTIN
 ARTISTIQUE.
-
 5° Favcilités aux Professcurs de
 leurs élèves et sans frais.
-
 6° Facilités aux Compositeurs de faire exécuter et
 connaitre leurs œuvres à Genève, dans divers concerts
 organisés par nous.
-
 7° Réduction de 50 0/ dans divers concerts, notamment
 aux professeurs affiliés et leurs élèves.
-
 3° Memboursemeut intégral du droit d'affiliation en
-
 entrées gratuites dans divers concerts.
-
 * 9P Les artistes qui nous sont demandés pour concerts
-
 se produire ainsi que
-
- 
-
 10° Publicité TOUTE SPÉCIALE dans le « Splendid
 .Pl"f.'/"Hn?,nu' » pour les professeurs et artistes affiliés lors-
 - qu'ils doivent se faire entendre dans un concert.
-
 W 4 2 4 , Ds
 % el soirées sont choisis de préférence parmi nos affiliés.
 t
-
 î ; _ 11° Organisation des concerts de nos affiliés avec con-
 !t"dtlll}lt$
-
 spéciales, ete… ete.
-
 $ — Pour plus amples renseignements écrire ou s'adreser à
-
 * l'Admimistration du « Splendid Programme », Imprimerie
 22. Bureaux tous les soirs de
-
- 
-
- 
-
 ADMINISTRATION
-
 IMPRIMERIE MODERNE
-
 02, RUE DU RHONE, 32, léléphone 277
-
 AVIS
-
 Le prochain numéro du « Splendid Pro-
 gramme » paraîtra le 25 Janvier.
-
- 
-
 STONIQUE MUSTGAILE
-
 CONCERTS
-
 Comme'nos lecteurs le verront. le premier concert
-
 populaire annoncé pour le 18 conrant, aura lieu à la
 date (ixée. Nous savons que ce concert attirera un nom
 bretix public, car beaucoup de personnes, retenues dans
 des raisons diverses,
-
 la semaine pour
-
 moins jouir du plaisir d’entendre de la belle et bonne
 lllll,(‘_ D'autre part, les dilettanti fréquentant les
 concérts qui ont lieu durant la semaine pourront à
@@ -1109,40 +642,28 @@ l'instar des grandes villes de France et d'ailleurs —
 honorer de leur présence ces concerts dominicaux qui,
 tou(@a étant très artistiques, procurent en mème temps
 le r’ ;s aux personnes ne pouvant supporter les veil
-
 lées.
-
 pourront au
-
 Ges avantages ne sont-ils pas superbes ? et ne doit
 On pas encourager une tentative aussi utile ?
-
 Nous reportons nos lecteurs an programme figurant
 dans ce numéro, ainsi qu’aux notes biographiques sur
 les deux solistes qui se produiront.
-
 *
 k ‘
-
 Nous enregistrons avec plaisir le grand succès que
 vient de remporter Mlle Augusta L'Huillier, cantatrice.
 et élève de Mme Brambilla-Ponchielli. de notre ville.
 En effet. tous les journaux de
 d’éloges sur le Lieder-Abend que cette artiste a donné
 récemment au Musenhaus de cette ville.
-
 Dresde sont remplis
-
 Nos lélicitations au professeur et à l’élève que nous
 espérons bien entendre sous peu à Genève.
-
 THÉATRE
-
 Nouvel-An , les directeurs
 monté Le Voyage de Suzette,
-
 Pour les fètes du ont
-
 agréable Doulfonnerie
 en somme, quoique un peu longue. En parcourant les
 journaux d’outre-Rhin, on remarque par exemple que
@@ -1155,50 +676,28 @@ de laisser dans l’oubli ; puis, Zampa, Le Pré aux Cleves.
 de Hérold, ne sont pas à dédaigner non plus ; enfin, il
 y a Rossini, dont Le Barbier de Séville, ainsi que Le
 Comte Ory, auraient quelque chance de ravir nos
-
 oreilles.
-
- 
-
- 
-
 |
-
- 
-
 ANNONCES :
-
 0.20
 0.40
-
 La ligne ou son espace .
-
 Réclames
-
 l v a deux ans, La Flüté enchantée. de Mozart fit
 pendant 27 ou 28 représentations salle comble : eh
 bien ? î…l||'nlllnl nh a-t-on pas monté Les Noces di ,“Ir/(l!l)_
-
 Mozart?... Je suis étonné de ce
-
 que la critique, qui parle sans cesse du décorum artis-
-
 tutre chef-d’œuvre de
-
 tique de notre scène, considérée comme le fover le plus
 brillant de l’art Ivrique, etc., ne mentionne jamais les
 noms glorieux des anciens maitres : serait-ce que peut-
-
 être d’aucuns confondent Mozart avec WHusord ? C'est
 possible.
-
 En attendant, un nouveau drame Ivrique L'Etranger,
 de Vincent d’Indy va
-
 de la Monnaie à Bruxelles.
-
 passer incessamment au théâtre
-
 En Amérique, un certain docteur Ware avant dé
 couvert que le baiser est un acte antihygiénique dont
 les suites peuvent être déplorablement funestes à ceux
@@ -1206,110 +705,71 @@ qui v participent, à présenté à la législature de l'Etat
 de Virginie, un projet de loi portant interdiction du
 haiser « intempestif», sous peine d’une amende de
 25 schellings, portée au double en cas de récidive.
-
 Un directeur de théâtre lui avant fait observer que
-
 '«l;un> un grand nombre de productions scéniques il y à
-
 des échanges de baisers, le terrible docteur n’a fait ni
-
 un ni deux : il s’est anssitôt empressé d’ajouter à son
 projet un article qui interdit aux auteurs d’écrire des
 pièces dans lesquelles les personnages sont amenés à
 s'embrasser
-
 H. KLING.
-
 x=——
-
 PAROLES INTÉGRALES
-
 DES
-
 À
-
 œuvres qui seront, exécutées par M'e Carrichon
 \
-
 Concert Populaire du 18 Janvier 1903
-
 Siqurd
-
 salut! splendeurdu jour! salut! astre au front pur,
 Qui de tes rayous d’'or sèmes l’immense azur!
 Dieux, abaissez sur nous des regards lavorables,
-
 Aux douleurs des humains montrez-vous secou-
-
 (rables (his)
 Salut, terre, salut! nourrice au sein fécond,
 Qui fait croître pour nous l’épi du froment blond!
 Dieux ! que votre bonté nous donne en sa largesse
 La ‘orce, la raison, le savoir, la sagesse !
-
 Mais quel guerrier vaillant et fort,
-
 Bravant pour moi l’affreuse morJ,
 \, par le pouvoir de ses armes,
 De ma prison rompu les charmes ?
 O mon sauveur silencieux,
-
 La Walkyrie est ta conquête,
-
 l£t ne crains pas qu’elle regrette
-
 Près de toi les palais des cieux
-
- 
-
 MACHINES « COUDRE “PFAFF"
-
 Ütto WEBER, mécanicien
-
-RÉPARATIONS TRÈS SOIGNÉES — Place Kléberg]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000481_004.tif"/>
-<page><![CDATA[&
-
+RÉPARATIONS TRÈS SOIGNÉES — Place Kléberg
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000481_004.tif'/>
+        <page>
+          <![CDATA[&
 SCHWEIZER SEIDE
-
 Hübsche Artikel für GESCHENKE
-
 SCHWEIZER & C’
-
 30, Rue du Rhône — GENÈVE
-
 >
-
 Ÿ
 =
-
 M
-
 Les esprits, déployant leurs ailes,
 Vont vers les demeures mortelles,
 Bientôt m’emporter avee toi.
-
 Guerrier, prends place auprès de moi !
 Brunehild encor vierge et pure,
-
 Pour toi dénouant sa ceinture,
-
 Te la donne en gage d’amour!
-
 A ton foyer, assise,
-
 Elle
 En t'aimant jusqu’au dernier jour (bis).
-
 paisible,
 vivra fière et soumise,
-
 La Walkyrie est ta conquète,
 Et ne crains pas qu’elle regrette
 Près de toi les palais des cieux!
-
 Un Conte
-
 Sont venus trois princes blonds
 (Chantez, les oiseaux, puisque l’hiver cesse),
 L’amour dans leurs yeux profonds
@@ -1324,9 +784,7 @@ Veux-tu?
 Sinon je me ferai prêtre.
 La princesse dit : Peut-être,
 Peut-être.
-
 Comme
-
 Le second lui dit : Viens-t’en !
 Viens-t'en !
 (Chantez, les oiseaux, l’amour est en route),
@@ -1336,103 +794,56 @@ Viens-t'en,
 Ouvre ton cœur et m'écoute.
 La princesse dit (bis) : je doute,
 Jedoute (ter).
-
 viens-t'en!
-
 Le troisième dit : Je crains.
-
 (Chantez, les oiseaux, gazouillez quand même),
-
 Le troisième dit : Je crains,
 Mais en chantant mes chagrins,
 J’éprouve un bonheur extrême.
 La princesse dit : Je t'aime,
 Je t’aime.
-
 Sont venus trois princes blonds,
 (Chantez, les oiseaux, chantez d’allégresse),
-
 L’amour dans leurs yeux profonds,
-
 Sont venus trois princes blonds
-
 Pour épouser la princesse.
-
 Rondel!l de l’Adieu
-
 Partir, c’est mourir un peu,
 C’est mourir à ce qu’on aime ;
 On laisse un peu de soi-même
 En toute heure et dans tout lieu.
-
 C’est toujours le deuil d’un vœu,
 Le dernier vers d’un poème ;
 Partir, c’est mourir un peu,
 C’est mourir à ce qu’on aime,
-
 Et l’on part, et c’est un jeu,
-
 Et jusqu’à l’adieu suprème,
 C’est son âme que l’on sème,
 Que l’on sème en chaque adieu.
 Partir, c’est mourir un peu.
-
 Que je t’oublie ?
-
 Comment veux-tu que je t’oublie,
 Quand sur ta lèvre si jolie,
-
 Je pris l’autre jour un baiser ?
-
 V’ai de la joie à m’en griser (bis/,
 Comment veux-tu que je t’oublie ?
-
 GTRENNE
-
- 
-
- 
-
 (N
-
 tn és
-
- 
-
 PARFUMERIE FINE
-
- 
-
- 
-
- 
-
- 
-
 SOIERIES |
-
 TRÈS JOLIS ARTICLES POUR CADEAUX
-
 Comment veux-tu que je t’oublie
-
 Quand à genoux je te suppiie,
-
 Bavar] inquiet, amoureux ?
-
 Après un baiser, j'en veux deux! (bis).
 74
-
 Comment veux-tu que je t’oublie ?
-
 Comment veux-tu que je t’oublie?
 Quand tout ce bonheur qui nous lie
 Remrlit ma vie en un moment?
-
 Les heures qu’on passe en aimant (bis)
 Comment veux-tu qu’on les oublie.
-
- 
-
 Mlle Marguerite Carrichon est née à Genève, a fait
 ses études au conservatoire de cette ville, d’abord avec
 Mlle Pautex, ensuite avec M. L. Ketten. Après six an-
@@ -1443,169 +854,62 @@ tatrice de valeur mais encore une très bonne musi-
 cienne et excellente pianiste. Comme cantatrice, un
 critique musical lui consacrait récemment les lignes
 suivantes
-
 « Voix pure et chaude, méthode excellente, diction
 parfaite, un sentiment profond dans son exécütion ;
 telles sont les qualités de cette cantatrice distinguée,
 qui s'est vouée à l’'enseignement.
-
 « Les auditions annuelles qu’elle donne dans un ca-
 dre intime, toutefois, prouvent la valeur de ses con-
 seils, et ses élèves sont unanimes à reporter sur ellé les
 succès et les bravos qu’elles y récoltent. »
-
 Jomme professeur, nous dirons seulemengg que
 Mlle Carrichon a donné le 22 mai dernier, unée »adi-
 tion d’élèves où elle a pu produire, avec un très grand
 succès, 24 sujets différents.
-
- 
-
 M. Jos. Seliymann est né à Tomsk (Sibérie). — Son
 oncle à été son premier maître de musique, puis il eut à
 Varsovie, comme professeur Stanislaus Barzewitsch ; à
 Berlin, Charles Gregorowitsch ; professeur Kruse, pro-
 jesseur Halir et proi. J. Joachim.
-
 En 1899, le 28 juin a quitté l’'Académie royale de
-
 Berlin avec le prix Joachim.
-
- 
-
 SALLES DE CONCERTS DE GENÈVE
-
 Victoria-Hall. 1,800 places.
-
 Réformation. 2,000 »
 . Conservatoire 600 »
 Casino de Saint-Pierre . 600 »
-
 Pour tous renseignements sur location et
 organisations s’adresser au « Splendid Pro-
 gramme », rue du Rhône, 52, Genève.
-
- 
-
 Recommandé aux personnes élégantes. —
 Demandez chez vos fournisseurs les gants de
 fabrication française J. P., la marque en fa-
 veur, réunissant élégance et solidité.
-
 Buvez les Thés Steinmann
-
- 
-
- 
-
 $ ARTICLES DE TOILETTE
-
 Peignes et Garnitures riches — Nouveautés — Dépôt de Crèpes de santé
-
 17 me dn M-s M" CR.SET ConrrEUsE
-
 rue du Mont -Blanc, I7
-
-  
-  
-  
- 
-   
- 
-   
- 
-  
- 
- 
-  
-    
- 
-  
-  
-   
-   
-    
- 
-    
-  
-   
-  
-   
-  
-  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-  
-  
-  
-  
-  
- 
- 
-  
-  
- 
- 
- 
-  
-   
-  
- 
-  
-  
- 
-  
- 
- 
-  
- 
-  
- 
-   
-
 SWISS SILKS
-
 Pretty Artwles for PRESENTS
-
 SCHWEIZER &c .
-
 æ, Place Fusterie — GENEY,Er
-
 LIBRATRIS GEORE & D à GÈNEVE
-
 Maison fondée en 1857
-
 RICHE ASSORTIMENT
-
 (I
-
 Allemantis, Anulæus
-
 POUR
-
- 
-
 PUBLICATIONS ILLUSTREES
-
 ÉDITIONS DE LUXE
-
 SSIQUES, POÈTE
 BEAUX- ARTS
 HISTOIRE, BIOGRAPHIE GEOGRAPHIE VOYAGES»
-
 O
-
-Z]]></page>       
-        </p>
+Z
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

@@ -1,171 +1,129 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Festival Massenet<date when="13/11/1884"/></title>
-<series>1884-1885</series>
-<placeName>Grand Théâtre</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Festival Massenet
+            <date when='13/11/1884'/>
+          </title>
+          <series>1884-1885</series>
+          <placeName>Genève, Grand Théâtre</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VG2-1 F002088</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Massenet, J. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18841113"/>
-<title>Festival Massenet</title>
-<placeName key="Grand Théâtre"/>
-<name key="1884-1885" type="series"/>
-<name key="Massenet, Jules" ref="https://muscat.rism.info/admin/people/84264" type="person" role="cmp">Massenet, Jules</name>
-<name key="Massenet, J. (dir.)"  type="person" role="int">Massenet, J. (dir.)</name>
-<name key="[Orchestre de la Ville de Genève ?]"  type="person" role="int">[Orchestre de la Ville de Genève ?]</name>
-<name key="Société de chant du Conservatoire de Genève" ref="https://muscat.rism.info/admin/people/30079944" type="person" role="int">Société de chant du Conservatoire de Genève</name>
-<name key="Harmonie Nautique"  type="person" role="int">Harmonie Nautique</name>
-<name key="Holzmann"  type="person" role="int">Holzmann</name>
-<name key="Bergmann"  type="person" role="int">Bergmann</name>
-<name key="Kaempfe"  type="person" role="int">Kaempfe</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_1_f002088_001.tif"/>
-<page><![CDATA[; À
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18841113'/>
+        <title>Festival Massenet</title>
+        <placeName key='Genève, Grand Théâtre'/>
+        <name key='1884-1885' type='series'/>
+        <name key='Massenet, Jules' ref='https://muscat.rism.info/admin/people/84264' type='person' role='cmp'>Massenet, Jules</name>
+        <name key='Massenet, J.' type='person' role='int'>Massenet, J.</name>
+        <name key='Orchestre de la Ville de Genève' type='person' role='int'>Orchestre de la Ville de Genève</name>
+        <name key='Société de chant du Conservatoire de Genève' ref='https://muscat.rism.info/admin/people/30079944' type='person' role='int'>Société de chant du Conservatoire de Genève</name>
+        <name key='Harmonie Nautique' type='person' role='int'>Harmonie Nautique</name>
+        <name key='Holzmann' type='person' role='int'>Holzmann</name>
+        <name key='Bergmann' type='person' role='int'>Bergmann</name>
+        <name key='Kaempfe' type='person' role='int'>Kaempfe</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_1_f002088_001.tif'/>
+        <page>
+          <![CDATA[; À
 ” à 3
 Ÿ
-
 ;…
-
- 
-
 e = ‘)da
 JP* GRAND THÉATRE DE GENÈVE. - SOCIÉTÉ DES CONCERTS âî
-
 SAMEDI 13 DÉCEMBRE 18S14, à $ heures précises,
-
 FESTIVAL MASSENET
-
 CHŒURS MIXTES DE LA SOCIÈTÉ DE CHANT DU CONSERVATOIRE
 TL’'EARMONIE NAUTIQUE
 (200 EXECUTANTS)
-
 J. MASSENET
-
 (Glembre de l’Institut).
 E
-
 PREMIÈRE PARTIE
-
- 
-
- 
-
- 
-
- 
-
 11e m 1 e - - J, Massenet.
 « C’est Vénus tout entière à sa proie attachée. »
 A) Sévillana de « Don César de Bazan, » . J. Massenet.
-
 B) Le dernier Sommeil de la Vierge,. . . . . . … … J, Massenet.
 Scènes Alsaciennes,
-
 1. Dimanche matin; - 2. Au Cabaret; - 3. Sous les Tilleuls; - 4. Dimanche soir.
 Le solo de Violoncelle par M. HOLZMANN ; — le solo de Clarinette par M. BERGMANN.
 E 7 AILSACE! ALSACE!
-
 « . Maintenant surtout que l’Alsace est murée, il me revient de ce pays perdu toutes mes impressions d’autrefois. . .
 Ce que je me rappelle avec bonheur, c’est le village alsacien, le Dimanche matin, à l’heure des offices ; les rues désertes, les maisons vides avec
 quelques vieux qui se chauffent devant leur porte, l’église pleine. . . et les chants religieux entendus par bouffées au passage.
-
 Et le cabaret, dans la grande rue, avec ses petits vitraux encadrés de plomb, enguirlandés de houblons et de roses
 Oh là! Schmidt, à boire ! . . .
-
 Et la chanson des gardes forestiers se rendant au tir! .. . —  Oh! la joyeuse vic et les gais compagnons! . . .
 Plus loin encore, c’était toujours le même village, mais avec le grand silence des après-midi d’été. . . et tout au bout du pays, la longue
-
 avenue de tilleuls, à lombre desquels, la main dans la main, marchait paisiblement un couple amoureux ; elle, doucement penchée vers lui, et
 murmurant bien bas : « M’aimeras-tu toujours? . . .»
-
 Aussi le soir, sur la grand’place, que de bruit, que de mouvement!.
 rue. . . et les danses que rhythmaient les chants du pays. . .
-
 Huit heures! . . . le bruit des tambours, le chant des clairons. . . c’était la retraite! . . . la retraite française! . . , Alsace! Alsace !
 Et quand dans le lointain s’éteignait le dernier roulement du tambour, les femmes appelaientles enfants sur la route. . . , les vieux rallumaient
 leurs bonnes grosses pipes et au son des violons la danse joyeuse recommencait en rondes plus pressées, en couples plus serrés.
-
 DEUXIÈME PARTIE
-
 A) Danse Grecque, - B) La Troyenne regrettant sa Patrie, . . . J. Massenet.
 (Extraits des Erynnies), —  Le solo de Hautbois par M. KAËMPFE.
-
 5. 3me acte du « Roi de Lahore, » TT 45 A Massennt
-
 19 Marche céleste (Chœurs et Orchestre) — 2° Divertissement (Orchestre)
 3° Incantation (Chœurs et Orchestre).
-
 J. Massenet.
-
 . - tout le monde sur les portes, les bandes de petits blondins dans la
-
 4.
-
 AVIS — On est instamment prié de ne pas entrer pendant l’exécution des morceaux.
 On commencera à $ heures très précises.
 ; Prix des places restant en dehors des abonnements : Parterre, 2 fr., location, 2 fr. 50 (sous réserve d'augmentation de la location, dans des
 c1rconstanc_egspéciales. —- Parterre debout, 2 fr. — Strapontins 12 Galerie, 4 fr. — Loges de face, 2"© Galerie, 2 fr., location, 2 fr. 50. —
 Loges de côté, 2M° Galerie, 4 fr. 25., location, 1 fr. 50. — Stalles numérotées, 5M° Galerie, 4 fr. 50., location, 1 fr. 60. — Avant-scène, 3me
-
 Galerie,} fr.‘50.2 location, 1 fr. 60. — Galerie, 3""°, 75 c., location, 85 c. — Le Bureau de lecation est ouvert au Théâtre, tous les jours de
 la semaine où a lieu le Concert, de 11 h. à 4 heures.
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-Genève. — Imprimerie J-D. Jarrys. p]]></page>       
-        </p>
+Genève. — Imprimerie J-D. Jarrys. p
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

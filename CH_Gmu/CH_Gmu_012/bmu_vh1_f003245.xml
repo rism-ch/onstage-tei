@@ -1,275 +1,220 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Semaine Jean-Sébastien Bach<date when="07/06/1944"/></title>
-<series>1943-1944</series>
-<placeName>Temple de Saint-Gervais ; Conservatoire ; Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Semaine Jean-Sébastien Bach
+            <date when='07/06/1944'/>
+            <date when='11/06/1944'/>
+          </title>
+          <series>1943-1944</series>
+          <placeName>Genève, Temple de Saint-Gervais</placeName>
+          <placeName>Genève, Conservatoire</placeName>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F003245</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Bodet, F. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19440607
-19440611"/>
-<title>Semaine Jean-Sébastien Bach</title>
-<placeName key="Temple de Saint-Gervais ; Conservatoire ; Victoria Hall"/>
-<name key="1943-1944" type="series"/>
-<name key="Bach, Johann Sebastian" ref="https://muscat.rism.info/admin/people/2539" type="person" role="cmp">Bach, Johann Sebastian</name>
-<name key="Bodet, Francis (dir.)"  type="person" role="int">Bodet, Francis (dir.)</name>
-<name key="Cercle J.-S. Bach"  type="person" role="int">Cercle J.-S. Bach</name>
-<name key="Orchestre de la Suisse Romande" ref="https://muscat.rism.info/admin/people/50007615" type="person" role="int">Orchestre de la Suisse Romande</name>
-<name key="Schmidt, Eric"  type="person" role="int">Schmidt, Eric</name>
-<name key="Ginster, Ria"  type="person" role="int">Ginster, Ria</name>
-<name key="Rehfuss, Heinz"  type="person" role="int">Rehfuss, Heinz</name>
-<name key="Vuataz, Roger"  type="person" role="int">Vuataz, Roger</name>
-<name key="Helbling, Maria"  type="person" role="int">Helbling, Maria</name>
-<name key="Faller, Charles"  type="person" role="int">Faller, Charles</name>
-<name key="Cramer, Georges"  type="person" role="int">Cramer, Georges</name>
-<name key="Otz, Andrée"  type="person" role="int">Otz, Andrée</name>
-<name key="Haefliger, Ernest"  type="person" role="int">Haefliger, Ernest</name>
-<name key="Matthaei, Karl"  type="person" role="int">Matthaei, Karl</name>
-<name key="Dubuis, Madeleine"  type="person" role="int">Dubuis, Madeleine</name>
-<name key="Demierre, François"  type="person" role="int">Demierre, François</name>
-<name key="Golay, Dorothée"  type="person" role="int">Golay, Dorothée</name>
-<name key="Tuller, Erwin"  type="person" role="int">Tuller, Erwin</name>
-<name key="Schlaefli, Ernest"  type="person" role="int">Schlaefli, Ernest</name>
-<name key="Vaucher-Clerc, Germaine"  type="person" role="int">Vaucher-Clerc, Germaine</name>
-<name key="Dennes, Paul"  type="person" role="int">Dennes, Paul</name>
-<name key="Flesch, Carl"  type="person" role="int">Flesch, Carl</name>
-<name key="Buenzod, Emmanuel"  type="person" role="int">Buenzod, Emmanuel</name>
-<name key="Goehring, Jean"  type="person" role="int">Goehring, Jean</name>
-<name key="Minkoff, Jouval"  type="person" role="int">Minkoff, Jouval</name>
-<name key="Fert, Juliette"  type="person" role="int">Fert, Juliette</name>
-<name key="Montandon, Gabrielle"  type="person" role="int">Montandon, Gabrielle</name>
-<name key="Meschini, André"  type="person" role="int">Meschini, André</name>
-<name key="Guilhot, Richard"  type="person" role="int">Guilhot, Richard</name>
-<name key="Helaerts, Henri"  type="person" role="int">Helaerts, Henri</name>
-<name key="Pépin, André"  type="person" role="int">Pépin, André</name>
-<name key="Bindschedler, Otto"  type="person" role="int">Bindschedler, Otto</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003245_001.tif"/>
-<page><![CDATA[L IRR 6S CIS ORF QE SE E E
-
-LUN RL 0UN UID]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003245_002.tif"/>
-<page><![CDATA[Caisse hypothécaire
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19440607'/>
+        <date when='19440611'/>
+        <title>Semaine Jean-Sébastien Bach</title>
+        <placeName key='Genève, Temple de Saint-Gervais'/>
+        <placeName key='Genève, Conservatoire'/>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1943-1944' type='series'/>
+        <name key='Bach, Johann Sebastian' ref='https://muscat.rism.info/admin/people/2539' type='person' role='cmp'>Bach, Johann Sebastian</name>
+        <name key='Bodet, Francis' type='person' role='int'>Bodet, Francis</name>
+        <name key='Cercle J.-S. Bach' type='person' role='int'>Cercle J.-S. Bach</name>
+        <name key='Orchestre de la Suisse Romande' ref='https://muscat.rism.info/admin/people/50007615' type='person' role='int'>Orchestre de la Suisse Romande</name>
+        <name key='Schmidt, Eric' type='person' role='int'>Schmidt, Eric</name>
+        <name key='Ginster, Ria' type='person' role='int'>Ginster, Ria</name>
+        <name key='Rehfuss, Heinz' type='person' role='int'>Rehfuss, Heinz</name>
+        <name key='Vuataz, Roger' type='person' role='int'>Vuataz, Roger</name>
+        <name key='Helbling, Maria' type='person' role='int'>Helbling, Maria</name>
+        <name key='Faller, Charles' type='person' role='int'>Faller, Charles</name>
+        <name key='Cramer, Georges' type='person' role='int'>Cramer, Georges</name>
+        <name key='Otz, Andrée' type='person' role='int'>Otz, Andrée</name>
+        <name key='Haefliger, Ernest' type='person' role='int'>Haefliger, Ernest</name>
+        <name key='Matthaei, Karl' type='person' role='int'>Matthaei, Karl</name>
+        <name key='Dubuis, Madeleine' type='person' role='int'>Dubuis, Madeleine</name>
+        <name key='Demierre, François' type='person' role='int'>Demierre, François</name>
+        <name key='Golay, Dorothée' type='person' role='int'>Golay, Dorothée</name>
+        <name key='Tuller, Erwin' type='person' role='int'>Tuller, Erwin</name>
+        <name key='Schlaefli, Ernest' type='person' role='int'>Schlaefli, Ernest</name>
+        <name key='Vaucher-Clerc, Germaine' type='person' role='int'>Vaucher-Clerc, Germaine</name>
+        <name key='Dennes, Paul' type='person' role='int'>Dennes, Paul</name>
+        <name key='Flesch, Carl' type='person' role='int'>Flesch, Carl</name>
+        <name key='Buenzod, Emmanuel' type='person' role='int'>Buenzod, Emmanuel</name>
+        <name key='Goehring, Jean' type='person' role='int'>Goehring, Jean</name>
+        <name key='Minkoff, Jouval' type='person' role='int'>Minkoff, Jouval</name>
+        <name key='Fert, Juliette' type='person' role='int'>Fert, Juliette</name>
+        <name key='Montandon, Gabrielle' type='person' role='int'>Montandon, Gabrielle</name>
+        <name key='Meschini, André' type='person' role='int'>Meschini, André</name>
+        <name key='Guilhot, Richard' type='person' role='int'>Guilhot, Richard</name>
+        <name key='Helaerts, Henri' type='person' role='int'>Helaerts, Henri</name>
+        <name key='Pépin, André' type='person' role='int'>Pépin, André</name>
+        <name key='Bindschedler, Otto' type='person' role='int'>Bindschedler, Otto</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003245_001.tif'/>
+        <page><![CDATA[L IRR 6S CIS ORF QE SE E E
+LUN RL 0UN UID
+]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003245_002.tif'/>
+        <page>
+          <![CDATA[Caisse hypothécaire
 du Canton de Genève
-
 Instituée par la Constitution de 1847 Molard, 2
-
 Prêts et crédits hypothécaires
 Certificats de dépôt
-Livrets d’épargne]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003245_003.tif"/>
-<page><![CDATA[Z-11 juin 1944 N
+Livrets d’épargne
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003245_003.tif'/>
+        <page>
+          <![CDATA[Z-11 juin 1944 N
 = e
-
 le DEMAINE
 1 e EN DACH
-
 |
 Béeur SÉs
 PIO DE GENEVE
 L'ASSOCIATION DES INTÉRÊTS DE GENÈVE
 LR
-
 @ MIPPPIOAGENEVE
 ET DE LA
-
-SOCIÉTÉ DES EMISSIONS RADIO-GENÈVE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003245_004.tif"/>
-<page><![CDATA[ADILER
-
+SOCIÉTÉ DES EMISSIONS RADIO-GENÈVE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003245_004.tif'/>
+        <page>
+          <![CDATA[ADILER
 C I(ï(/ﬂll(‘(‘$ l11ﬂS(‘ll[i!l('8
-
- 
-
 (])r(m(/ Café- NMestaurant du £yrique
-
 C
-
 CCOOCIECECICCLEELECEOEEECEEEEOEEOOOOOOOHOOOOOOHOOOOHOHOOOOHOHH
-
 R. TISSOT, propriétaire
 12. Bd du Théâtre
 Téléphone 408 00
-
 Jes menus réputés Sa cave renommée
-
- 
-
 (7nsﬁfuf de L73()(1111‘é
-
 LYDIA DAINOW
-
 S('S /)I‘0([Uil&‘ réputés
-
- 
-
-  
-
- 
-
 2 PlACE FUSTERIE / GENÈVE / TÉL. 44210
-
- 
-
- 
-
- 
- 
-
 % ALIMENTATION
 GÉNÉRALE
 VINS-LIQUEURS
 BOISSONS
 NON ALCOOLIQUES
-
-   
- 
-
 [< COMBUSTIBLE
-
 BOULANGERIE
 PATISSERIE
-
- 
-
- 
-
- 
-
- 
-
-  
-
-ei]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003245_005.tif"/>
-<page><![CDATA[JEAN-SÉBASTIEN BACH
+ei
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003245_005.tif'/>
+        <page>
+          <![CDATA[JEAN-SÉBASTIEN BACH
 ET SON ŒUVRE
-
- 
-
 Somme de l’art de son temps, l’œuvre de Jean-Sébastien Bach clôt
 une époque dont elle résume les traits essentiels, en opérant la synthèse
 et les magnifiant.
-
 Car, contrairement à d’autres maîtres dont les noms marquent des
 moments décisifs de l’histoire de la musique, le Cantor de Leipzig n'eut
 rien d’un novateur. Il ne regarde point vers l'avenir, et ne montre pas des
 voies nouvelles, comme le firent Claudio Monteverdi et Beethoven, pour
 ne citer que ceux-là.
-
 Bien plutôt, il considère le passé et le présent de son art. Il s'en saisit
 pour en extraire tout ce qui mérite de durer. Et, des éléments épars qu'il
 choisit avec une perspicacité sans défaut, et que son génie transfigure,
 il édifie un monument impérissable qui, par sa grandeur, sa richesse et ses
 proportions, constitue l’un des plus splendides sommets de la musique.
-
 Homme d’étude, travailleur obstiné auquel rien ne demeura étranger
-de ce qui était de sa profession, Jean-Sébastien s’était initié, dès son jeune]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003245_006.tif"/>
-<page><![CDATA[VS 374 EXPOSITIO
-
+de ce qui était de sa profession, Jean-Sébastien s’était initié, dès son jeune
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003245_006.tif'/>
+        <page>
+          <![CDATA[VS 374 EXPOSITIO
 N° DU POTIER
-
-   
-
- 
-
-   
-
 E.p
-
 "AU PICHET D'ARGILE”X4 PLACE NEUVE
-
-  
-
- 
-
 S Ï d /1 érez
 AU CERCLE JEAN-SÉBASTIEN BACH DE GENÈVE
-
- 
-
 Les amateurs de l'œuvre de Jean-Sébastien Bach, les
 amateurs de bonne musique, et les personnes ‘désireuses de
 soutenir un groupement qui s'est donné pour tâche principale de
 contribuer au développement culturel de notre population, peu-
 vent appuyer le Cercle J-S. Bach en souscrivant une carte
 annuelle de membre auxiliaire au prix de cinq francs.
-
 Sauf circonstances spéciales, cette carte donne droit à une
 place aux concerts organisés par le Cercle J.-S. Bach.
-
 l suffit, pour obtenir la qualité de membre auxiliaire du
 Cercle J.-S. Bach, de verser le montant de Fr. 5— au compte
 de chèques postaux C. J.-S. Bach, N° I. 4612, en indiquant :
 “ Pour une carte de membre auxiliaire .
-
 Le Cercle J.-S. Bach de Genève.
-
- 
-
- 
-
- 
-
 NELUETIA-ACCIDENTS
-
-ASSURANCES AUX MEILLEURES CONDITIONS]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003245_007.tif"/>
-<page><![CDATA[âge, au style des compositeurs qui l’avaient immédiatement précédé et
+ASSURANCES AUX MEILLEURES CONDITIONS
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003245_007.tif'/>
+        <page>
+          <![CDATA[âge, au style des compositeurs qui l’avaient immédiatement précédé et
 de ceux qui vivaient de son temps. Il emprunte à tous : Allemands du
 Nord et du Sud, Italiens, Français. Mais les matériaux qu'’il rassemble
 ainsi de droite et de gauche, il se garde de les reproduire servilement. Il
 les transforme pour en faire jaillir constamment des conséquences inatten-
 dues. Il ne s’enrichit de ce que d’autres ont dit avant lui, que pour l’achever
 et lui donner un sens plus profond.
-
 Et c’est merveille de voir cette magnifique intelligence apercevoir
 mmédiatement le parti qu’elle peut tirer d’une idée ou d’un procédé dont
 son auteur n’avait point deviné toutes les possibilités.
-
 Sans cesse, Bach trouve le prétexte de créations incomparables, là où
 ses prédécesseurs n’avaient su faire qu’œuvre aimable et sans grand carac-
 tère.
-
 Il semble prendre un particulier plaisir à rendre plus parfaites et à
 anoblir les pensées qu’il rencontre au gré de ses explorations à travers la
 musique de ses devanciers et de ses contemporains,
-
 Pour autant, l’idée ne viendrait à personne d'accuser Jean-Sébastien
 de plagiat, pas plus que l’on ne songe à reprocher à Molière d'avoir pris son
 bien où bon lui semblait. Car c’est toujours un ouvrage entièrement nouveau
@@ -278,217 +223,142 @@ même que, dans la construction de certains monuments antiques dont la
 magnificence nous confond aujourd’hui, les architectes assyriens, grecs
 ou romains firent entrer des matériaux arrachés à la maçonnerie d’un
 bâtiment vulgaire.
-
 Ainsi qu’en témoignent d’innombrables manuscrits toujours tracés
 d’une main sûre d’elle-même, et qui ne portent pas une rature, cette œuvre
 immense semble naître sans effort, sans une hésitation. Dès le premier
 instant, la pensée musicale s’y présente sous sa forme accomplie et défi-
 nitive. Elle ignore la laborieuse genèse et les affres de l’enfantement qui
 présidèrent à la mise au monde du moindre ouvrage de Beethoven.
-
 Passions, messes, cantates, motets, pièces instrumentales : la musique
 coule ici avec l’abondance d’un fleuve majestueux et intarissable, attestant
 la puissance et l’incroyable faculté imaginative d’un artiste de génie, qui
 compte parmi les plus grands et les plus féconds.
-
-AI. M.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003245_008.tif"/>
-<page><![CDATA[PATEK PHILIPPE & Co
-
+AI. M.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003245_008.tif'/>
+        <page>
+          <![CDATA[PATEK PHILIPPE & Co
 .,ÉZ((I/ Q'//([}/{%{/c'///2& r/ '_(:}?/( ?/;y&r?tà //l' 7?rll/(>/f 'Â(‘,).)ô
-
-GENÈVE 22, GRAND QUAI]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003245_009.tif"/>
-<page><![CDATA[PROGRAMME GÉNÉRAL
-
+GENÈVE 22, GRAND QUAI
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003245_009.tif'/>
+        <page>
+          <![CDATA[PROGRAMME GÉNÉRAL
 Mercredi 7 juin 1944
-
 20 h. 00: Temple de St-Gervais.
 CONCERT.
-
 Jeudi 8 juin 1944
-
 20 h. 30 : Salle du Conservatoire.
 a CONFÉRENCE.
-
 Vendredi 9 juin 1944
 17 h.00: Temple de St-Gervais.
 RÉCITAL D'ORGUE.
 20 h. 30 : Temple de St-Gervais.
 AUDITION INTÉGRALE DE L'OFFRANDE
 MUSICALE.
-
 Samedi 10 juin 1944
-
 16 h. 30 : Victoria Hall,
 CONFÉRENCEF-AUDITION
 20 h. 30 : Victoria Hall.
 CONCERT DE GALA
-
 Dimanche 11 juin 1944
-
 Q Temple de St-Gervais.
 10 h.00: CULTE avec le concours du Cercle J.-S. Bach
 16 h. 30: CAUSERIE sur l’œuvre d'orgue de J.-S. Bach
 17 h, 00: RÉCITAL D'ORGUE.
-
 REMARQUES GÉNÉRALES IMPORTANTES
-
 Les portes seronf ouverfes 50 minufes avant l'heure fixée par le programme, heure qui
 sera strictemenf respectée ; elles seronf frès rigoureusement fermées dès le commencement des
 conférences ou concerfs. En raison de la situation générale frès exceptionnelle, le Comité
 d'organisafion se réserve la faculté de modifier ou de supprimer {felle ou telle partie du pro-
-
-gramme s'il s‘y frouvait absolument contrainft par les circonsfances.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003245_010.tif"/>
-<page><![CDATA[QUELQUES-UNS DES SOLISTES DE LAE
-
- 
-
+gramme s'il s‘y frouvait absolument contrainft par les circonsfances.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003245_010.tif'/>
+        <page>
+          <![CDATA[QUELQUES-UNS DES SOLISTES DE LAE
 M" Ria GINSTER M. Roger VUATAZ
-
 soprano compositeur de musique
-
- 
-
 Mlle Maria HELBLING M. Charles FALLER M. Georges CRAMER
-
 alto organtiste organiste
-
- 
-
 M"w° Andrée OTZ M. Ernest HAEFLIGER M. Heinz REHFUSS
-
 ténor basse
-
-soprano]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003245_011.tif"/>
-<page><![CDATA[20
-
+soprano
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003245_011.tif'/>
+        <page>
+          <![CDATA[20
 ISEMAINE JEAN-SÉBASTIEN BACH
-
- 
-
 M. Karl MATTHAEI M!le Madeleine DUBUIS
-
 organiste soprano
-
-   
-
 M, Eric SCHMIDT M. François DEMIERRI M Dorothée GOLAY,
-
 orgamste organiste alto
-
-  
-
 M. Erwin TULLER M. Ernest SCHLAEFLI M"e Germaine VAUCHER-CLERC
-
-ténor bassé claveciniste]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003245_012.tif"/>
-<page><![CDATA[W. BAUME
-
- 
-
+ténor bassé claveciniste
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003245_012.tif'/>
+        <page>
+          <![CDATA[W. BAUME
 Rue du Marché, 20
-
 Horlogerie :
-
 LONGINES OMÉGA
 “E MITH-=TISSOT
 PENDULES — RÉVEILS
-
 Orfèvrerie :
 JEZLER, ARGENT MASSIF
 Bijouterie :
-
 OR, ARGENT ET FANTAISIE
-
 GENÈVE
-
 « votre maîson de confiancee »
-
- 
-
- 
-
- 
-
- 
-
 ANDRÉE WIEGANDT
-
 GENÈVE
 7, place du Molard
-
-   
-
 ROBES ET MANTEAUX
-
 Tél.
-
-4 92 83]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003245_013.tif"/>
-<page><![CDATA[®
-
+4 92 83
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003245_013.tif'/>
+        <page>
+          <![CDATA[®
 TEMPLE DE SAINT-GERVAIS
-
 Mercredi 7 juin 1944 à 20 heures
-
 PROGRAMME
-
 1. Prélude et triple fugue en mi bémol.
-
 Orgue : M. Eric SCHMIDI
-
 2. Cantate n° 59: « Wer mich liebet, der wird mein Wort halten
-
 pour soprano, basse, chœur et orchestre.
-
 Soprano : Mme Ria GINSTEI
 Basse : M. Heinz REHFUSsS
-
 3. Motet n°5: « Viens, Jésus, viens
-
 pour double chœur et orgue.
-
 4. Cantate n° 21 : « J'avais de l’'ombre plein le cœur
-
 pour quatuor solo, chœur et or« hestre.
-
 Soprano Mme Ria GINSTER
-
 Alto Mme Dorothée GOLAY
-
 Ténor M. Ernest HAEFLIGEI
-
 Basse M. Heinz REHFUs
-
 Haubois solo: M. Paul DENNES
-
 Clavecin Mme Germaine VAUCHER-CLER(
 Orgue M. Eric ScHMID1
-
- 
-
 LE CERCLE JEAN-SÉBASTIEN BACH DE GENEVI
-
 L’ORCHESTRE DE LA SUISSE ROMANDI
-
-Le concert sera dirigé par M. Francis BODET, Directeur du Cercle J.-S. Bach]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003245_014.tif"/>
-<page><![CDATA[Texte des œuvres présentées au Concert
-
+Le concert sera dirigé par M. Francis BODET, Directeur du Cercle J.-S. Bach
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003245_014.tif'/>
+        <page>
+          <![CDATA[Texte des œuvres présentées au Concert
 du 7 juin 1044
-
 CANTATE No 59: « Wer mich liebet, der wird mein Wort halten »
-
 Duo : Soprano et basse.
-
 Wer mich liebet, der wird mein Wort halten, und mein Vater wird
 ihn lieben, und wir werden zu ihm kommen und Wohnung bei ihm machen.
-
 Récitatif : Soprano.
-
 O ! was sind das für Ehren, wozu uns Jesu setzt ? Der uns so würdig
 schätzt, dass er verheisst, sammt Vater und dem heil’gen Geist, in unsre
 Herzen einzukehren. O! was sind das für Ehren! Der Mensch ist Staub,
@@ -496,275 +366,195 @@ der Eitelkeit ihr Raub, der Müh’und Arbeit Trauerspiel, und allen Elends
 Zweck und Ziel. Wie nun ? Der Allerhôchste spricht: er will in unsern
 Seelen die Wohnung sich erwählen. Ach! was thut Gottes Liebe nicht ?
 Ach, dass doch, wie es wollte, ihn auch ein Jeder lieben !
-
 Air : Basse.
-
 Die Welt mit allen Kôänig reichen, die Welt mit aller Herrlichkeit_
 kann dieser Herrlichkeit nicht gleichen, womit uns unser Gott erfreut :
 dass er in unsern Herzen thronet und wie in einem Himmel wohnet. Ach!
 Gott, wie selig sind wir doch, wie selig sind wir doch, wie selig werden wir
 erst noch, wenn wir nach dieser Zeit der Erden bei dir im Himmel wohnen
 werden.
-
 Choral.
-
 Komm, heiliger Geist, Herre Gott, erfüll’ mit deiner Gnaden Gut
 deiner Gläubigen Herz, Muth und Sinn ! Dein’ brünstig’ Lieb’ entzünd’
 in ihn’n ! O Herr, durch deines Lichtes Glanz zu dem Glauben versammelt
 hast das Volk aus aller Welt Zungen ; das sei dir, Herr, zu Lob’gesungen.
 Alleluja !
-
 CANTATE N° 59 : Traduction française de Ed. Mercier
-
 Duo : Soprano et basse.
-
 L’homme qui m'’aime, garde ma parole, celui-là mon Père l’aime.
 Nous irons en sa demeure qui deviendra la nôtre.
-
 Récitatif : Soprano.
-
 Oh ! quel honneur suprême de recevoir Jésus ! Mériter cet honneur
 c'est avec lui, avoir le Père et l’Esprit-Saint au fond intime de notre âme.
 Oh ! quel honneur suprême ! car l’'homme est poudre, en proie aux vanités.
 Quel sort l’attend donc ici-bas ? Un sort tragique : la misère ! Pourtant
 le Tout-Puissant l’a dit : « Dans l’âÂme de tout homme doit être ma demeure. »
 Ah ! que ne fait l’'amour divin ? Que l’'homme y réponde par un amour
-semblable.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003245_015.tif"/>
-<page><![CDATA[»
-
- 
-
+semblable.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003245_015.tif'/>
+        <page>
+          <![CDATA[»
 Air : Basse.
-
 Le monde et toutes ses richesses, le monde et toutes ses splendeurs
 ne saurait être en rien semblable à ce bonheur que Dieu promet : la place
 qu’il prend dans notre âme comme en des régions célestes, O Seigneur,
 déjà c’est être heureux ; mais que sera-ce après la mort, après ce court
 pèlerinage alors que nous aurons le ciel pour demeure !
-
 Choral.
-
 Oh ! viens, Esprit-Saint ! Seigneur Dieu, veuille accorder tes plus
 beaux dons : et sagesse et force aux cœurs croyants ! Insuffle-leur ton grand
 amour. À ta parole de clarté la même foi put rassembler l’'humanité toute
 entière ; que cela soit à ta louange. Alleluia !
-
 MOTET N°o5: « Komm, Jesu, komm »
-
 Komm, Jesu, komm, mein Leib ist müde, die Kraft verschwind't
 je mehr und mehr, ich sehne mich nach deinem Frieden ; der saure Weg
 wird mir zu schwer, Komm, ich wil mich dir ergeben, du bist der rechte
 Weg, die Wahrheit und das Leben.
-
 Choral.
-
 Drauf schliess’ich mich in deine Hände und sage, Welt, zu guter
 Nacht ! eilt gleich mein Lebenslauf zu Ende, ist doch der Geist wohl
 angebracht. Er soll bei seinem Schôpfer schweben, weil Jesu ist und bleibt
 der wahre Weg zum Leben.
-
 MOTET N° 5: « Viens, Jésus, viens», Traduction française de Ed. Mercier
-
 Viens, Jésus, viens, ma voix t'appelle, sans ton secours tout est dou-
 leurs, mon cœur languit, ami fidèle ; Ah ! viens à moi, taris mes pleurs.
 Ah ! viens, je veux chercher ta face, c’est toi le vrai chemin, la vérité,
 la vie.
-
 Choral.
-
 Je vais bientôt quitter la terre et posséder le vrai bonheur ; bientôt
 plus de tristesse amère, tu vas reprendre à toi, Seigneur, mon âme à la
 douleur ravie, Jésus est le chemin de l’éternelle vie.
-
 CANTATE N° 21: « Ich hatte viel Bekiimmerniss
 Chœur.
 [ch hatte viel Bekümmernis, in meinem Herzen ; aber deine Trôs-
 tungen erquicken meine Seele.
-
 Air : Soprano.
-
 Seufzer, Thränen, Kummer, Noth, ängstlich’s Sehnen, Furcht und Tod.
 Récitatif : Ténor.
-
 Wie hast du dich, mein Gott, in meiner Noth, in meiner Fureht und
 Zagen, denn ganz von mir gewandt ? Ach ! kennst du nicht dein Kind ?
 Ach! hôrst du nicht die Klagen von denen, die dir sind mit Bund und
 [reu’verwandt ? Du warest meine Lust, und bist mir grausam worden !
 Ich suche dich an allen Orten, ich ruf’, ich schrel’dir nach, allein, mein
-Weh und Ach, scheint jetzt, als sei es dir ganz unbewusst.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003245_016.tif"/>
-<page><![CDATA[Air : Ténor.
-
+Weh und Ach, scheint jetzt, als sei es dir ganz unbewusst.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003245_016.tif'/>
+        <page>
+          <![CDATA[Air : Ténor.
 Bäche von gesalznen Zähren, Fluthen rauschen stets einher, Sturm
 und Wellen mich versehren. Und dies trübsalvolle Meer will mir Geist
 und Leben schwächen, Mast und Anker wollen brechen, Hier versink’
 ich den Grund, dort seh’ ich der Hôlle Schlund :
-
 Chœur.
-
 Was betrübst du dich, meine Seele, und bist so unruhig, in mir ?
 Harre auf Gott ; denn ich werde ihm noch danken : dass er meines Ange-
 sichtes Hülfe, und mein Gott ist.
-
 Récitatif : Soprano et basse.
-
 > Ach Jesu, meine Ruh’, mein Licht, wo bleibest du ?
-
 B. O Seele, sieh ! ich bin bei dir.
-
 S Bei mir ? hier ist ja lauter Nacht !
-
 1B> Ich bin dein teuer Freund, der auch im Dunkeln wacht, wo
 lauer Schalken sind.
-
 S Brich doch mit deinem Glanz und Licht des Trostes ein !
-
 B. Die Stunde kommet schon, da deines Kampfes Kron’ dir wird
-
 ein süsses Labsal sein.
-
 Duo : Soprano et basse.
-
 _ Komm, mein Jesu, und erquicke,
-
 B. Ja, ich komme und erquicke.
-
 S. und erfreu’ mit deinem Blicke,
-
 R dich mit meinem Gnadenblicke,
-
 e komm, mein Jesu,
-
 B. ja, ich komme,
-
 S. komm, mein Jesu, und erquicke, und erfreu’ mit deinem Blicke !
 Diese Seele
-
 J8}. ja, ich komme und erquicke dich mit meinem Gnadenblicke.
-
 * Die soll sterben, diese Seele, und nicht leben,
-
 Bi die soll leben, deine Seele, die soll leben und nicht sterben.
-
 S und in ihrer Unglückshôhle ganz verderben ?
-
 B. hier aus dieser Wunden Hôhle sollt du erben.
-
 S Ich muss stets in Kummer schweben, ja, ach ja ! ich bin verloren.
-
 BR Heil ! durch diesen Saft der Reben, nein, ach nein ! du bist erkoren,
-
 s ja, ach ja, ach ja ! ich bin verloren, ja, ach ja !
-
 BI Nein, ach nein ! du bist erkoren,
-
 Se nein, ach nein, du hassest mich, nein, ach nein !
-
 B. Ja, ach ja ! ich liebe dich,
-
 S ja, ach ja ! ich bin verloren,
-
 B nein, ach nein ! du bist erkoren,
-
 S. nein, ach nein ! du hassest mich.
-
 13 Ja, ach ja ! ich liebe dich.
-
 S Ach Jesu, durchsüsse mir Seele und Herze,
-
 B Entweichet ihr Sorgen, verschwinde du Schmerze,
-
 . Komm, mein Jesu, und erquicke mich mit deinem Gnadenblick !
-
 Æ = . . . - <ri>e |
-
 B. Ja, ich komme und erquicke dich mit meinem Gnadenblicke !
 Chœur.
-
-Sei nun wieder zufrieden, meine Seele, denn der Herr thut dir Guts]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003245_017.tif"/>
-<page><![CDATA[>
-
+Sei nun wieder zufrieden, meine Seele, denn der Herr thut dir Guts
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003245_017.tif'/>
+        <page>
+          <![CDATA[>
 €
-
- 
-
 Choral.
-
 Was helfen uns die schweren Sorgen, was hilft uns unser Weh und
 Ach ? Was hilft es, dass wir alle Morgen beseufzen unser Ungemach ?
 Wir machen unser Kreuz und Leid nur grôsser durch die Traurigkeit.
 Denk’ nicht in deiner Drangsalshitze : dass du von Gott verlassen seist
 und dass der Gott im Schoosse sitze, der sich mit stetem Glücke speist.
 Die Folgezeit verändert viel und setzet Jeglichem sein Ziel.
-
 Air : Ténor.
-
 Erfreue dich Seele, erfreue dich Herze, entweiche nun Kummer
 verschwinde du Schmerze ! Verwandle dich Weinen in lauteren Wein
 es wird nun mein Aeschzen ein Jauchzen nur sein! Es brennet und flammet
 die reineste Kerze der Liebe, des Trostes in Seele und Brust, weil Jesu
 mich trôstet mit himmlischer Lust !
-
 Chœur.
-
 Das Lamm, das erwürget ist, ist würdig zu nehmen Kraft, und Reich
 thum, und Weisheit, und Stärke, und Ehre, und Preis und Lob. Lob
 und Ehre, und Preis, und Gewalt sei unserm Gott von Ewigkeit zu Ewigkeit.
 Amen, Alleluja !
-
 CANTATE N° 21 : « J’avais de l’ombre plein le cœur
 Traduction française de Maurice Bouchor
 Chœur.
 Moi, j'avais de l’ombre plein le cœur, à mon foyer glacé, mon Dieu,
 mourait la flamme ; Mais toi, soleil vainqueur, tu brilles sur mon âme.
-
 Air : Soprano.
-
 Larmes, plaintes, longs soupirs, peines, larmes vaines, crainte et
 mort, Âpre angoisse, affreux remords, Ah ! mon cœur, le triste sort
 Récitatif : Ténor.
-
 Pourquoi, mon Dieu, dans ma douleur, dans ma détresse affreuse
 fuis-tu si loin de moi ? Ah! ne suis-je pas ton fils ? Ah ! fermes-tu l’oreille
 aux plaintes de ceux-là qui dans le Christ ont foi ? Mon souffle, à Dieu,
 c'est toi, pourtant tu m’abandonnes. Partout je vais pleurant ma vie ;
 mes cris montent vers toi; mais seul, hélas ! tout seul, J'appelle en vain
 mon Dieu toujours caché.
-
 Air : Ténor.
-
 Loin, bien loin de tout rivage, j’erre sur les vastes flots. Mer cruelle
 mer sauvage. D'âcres pleurs, de longs sanglots! Sombre nuit, pas une
 étoile, rien, plus rien, ni mât, ni voile. Là mugit le gouffre amer, l’âpre,
 1mmense, affreuse mer,.
-
 Chœur.
-
 Quel profond émoi, ma pauvre âme, et d’où vient ce trouble en moi ?
 Pence à Jésus ; Sa clémence est immense. Mon refuge, mon appui, mon
 Dieu, c’est lui, toujours lui,
-
 Récitatif : Soprano et basse.
-
 D, Ah ! maître, mon Jésus, ma paix, où donc es-tu ?
 B} Pauvre âme, vois, tout près de toi !
-O De moi ? partout s’étend la nuit !]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003245_018.tif"/>
-<page><![CDATA[e
-
+O De moi ? partout s’étend la nuit !
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003245_018.tif'/>
+        <page>
+          <![CDATA[e
 B. — Je veille, moi, ton Dieu, dans les ténèbres, seul, parmi les noirs
 démons.
-
 S. — Alors parais enfin ; rayonne, pur soleil!
-
 B. — Ton heure sonnera ; ta palme est prête au ciel, ami la palme
-
 du vainqueur.
-
 Duo : Soprano et basse.
-
 S. — Viens, Jésus, mon âme est lasse,
 B. — Oui, je viens, pauvre âme lasse,
 S. — et sur moi répands ta grâce,
@@ -788,63 +578,47 @@ B. — Ton cœur doit m’en croire, il faut que l’on ose,
 S. — Ah ! fais que mon âme enfin se repose,
 B. — Je veux que ton âme enfin se repose.
 Chœur.
-
 Maintenant sois paisible, mon âme trop douloureuse. Plus jamais
 de tristesse, avec Dieu sois heureuse, Dieu descend jusqu'’à toi.
-
 Choral.
-
 Pour moi n’est-il aucun remède ? Mon pauvre cœur voudrait guérir.
 Partout je vais cherchant qui m’aide ; J’appelle en vain, faut-il périr ?
 La croix qui m’a rendu si las, est chaque jour plus lourde, hélas! Ne dis ‘
 jamais que Dieu délaisse, Les cœurs saignants que tout meurtrit ; Il vit . ’
 en eux, Il les nourrit ; Du ciel, pour toi, Jésus descend ; Mangez sa chair,
 buvez son sang.
-
 Air : Ténor.
-
 Mon cœur, sois en fête, exulte, à mon âme, Traverse en chantant
 l’azur et la flamme ! Jésus fait éclore, ici mille fleurs, En vin de lumière
 il change mes pleurs, Remords, deuil, tristesse, Au loin tout s’efface, tout
 fuit comme un songe amer, triste et vain, Jésus plein d’amour, effleure
 ma face d’un souffle divin.
-
 Chœur.
-
 L’agneau qui mourut pour nous est digne à jamais d’avoir richesse,
 sagesse, louange et gloire, honneur, pouvoir. Donc, louange, honneur,
 à jamais, Victoire à tout jamais à Dieu, le seul Seigneur. Amen, Alleluia !
-
-  
-
-16]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003245_019.tif"/>
-<page><![CDATA["—
-
+16
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003245_019.tif'/>
+        <page>
+          <![CDATA["—
 SALLE DU CONSERVATOIRE
-
 Jeudi 8 juin 1944, à 20 h. 30
-
 CONFÉRENCE
-
 de
-
 Monsieur le Professeur
-
 EMMANUEL BUENZOD
 « Actualité de J.-S. Bach »
-
 La conférence sera précé(/èc ef suivie de chorals
-
 par le Cercle J.-S. Bach de Cienève
-
- 
-
-M. le professeur Emmanuel BUENZOD]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003245_020.tif"/>
-<page><![CDATA[PE GERELE -> PACH
+M. le professeur Emmanuel BUENZOD
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003245_020.tif'/>
+        <page>
+          <![CDATA[PE GERELE -> PACH
 DRCENEVE
-
 Il y a quinze années que ce groupe-
 ment a été fondé par son Directeur actuel,
 M. Francis BODET, professeur de musique
@@ -854,86 +628,62 @@ nal de Musique de Paris), en collaboration
 avec M'e: Gabrielle BODET, sa femme,
 également professeur de musique, préma-
 turément disparue, et d’un groupe d’élèves.
-
 Dès l’origine, le nombre des membres
 est strictement limité, mais les candidats
 doivent démontrer leurs aptitudes musi-
 cales et s’engager à suivre un travail
-
 - st individuel très minutieux.
 M. Francis BODET C’est le 11 mai 1929, au Temple de
 _ Directeur-fondateur Saint-Gervais, empli jusqu’à ses derniers
 au Cercle J-S. Bach de Genèye recoins, que le Cercle Bach donne son
 premier concert.
-
- 
-
 Dès lors, il a donné 35 auditions publiques. Il a chanté à Lausanne,
 2
-
 aléyonia» PRanisieLe:
-
 Le Cercle J.-S Bach, avec l’appui, aussi compréhensif qu'indispensable
 pour une semblable entreprise, de Radio-Genève et de l'Orchestre de la
 Suisse romande et sous la direction de son Directeur Francis BODET,
 contribue certainement à faire mieux connaître l’œuvre de J.-S. Bach
 à la population de Genève ainsi qu’aux vastes auditoires de la Radio.
-
 Nous ne saurions mieux faire ici que de laisser les voix les plus
 autorisées, parler du Cercle Bach :
-
 Mme Wanda LANDOWSKA, l’illustre claveciniste :
-
 «… Le Festival Bach (Xe anniversaire) restera parmi mes plus chers
 souvenirs. La ferveur admirable des animateurs du Cercle, MM. Francis
 BopET et René KIsTER, entourés de leurs collaborateurs, ont donné à
 ces belles manifestations un caractère profondément émouvant. »
-
 M. Ernest ANSERMET, Directeur de l’Orchestre de la Suisse romande :
-
 «… Le culte de Jean-Sébastien Bach est devenu aujourd’hui le signe
 de ralliement de ceux qui recherchent les valeurs fondamentales et per-
 manentes, car son œuvre est vraiment le clef de voûte de notre art musical.
-
 » Parmi les institutions auxquelles ce culte a donné naissance, le
 Cercle Jean-Sébastien Bach de Genève mérite d'occuper une place d’hon-
 neur pour la pureté et la sincérité de son propos, le courage, le désinté-
 ressement et l’enthousiasme avec lesquels il le poursuit. »
-
 M. Albert Worr, Directeur des Concerts Pasdeloup, à Paris :
-
 «Le Cercle Bach, sous la remarquable direction de Francis BODET,
 a donné aux Concerts Pasdeloup à Paris, une des plus nobles et plus émou-
 antes auditions chorales qu’il ait été donné d’entendre. »
-
 Enfin, le Cercle J.-S. Bach lui-même conclut par un texte du grand
 chanteur C. PANZERA, qui traduit l’esprit dont il veut être animé :
-
 «Et ces sommets — où planent vos chœurs — vous les dominez de
 votre incomparable amour de la Musique, de cette Musique qui est…
 «toute la Musique, toute la poésie, toute la vie, tout l’art lui-même. »
-
 LE CERCLE J.-S. BACH DE GENÈVE.
-
-    
-
 e
 e
-
-©]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003245_021.tif"/>
-<page><![CDATA[]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003245_022.tif"/>
-<page><![CDATA[À propos de
-
+©
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003245_021.tif'/>
+        <page><![CDATA[]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003245_022.tif'/>
+        <page>
+          <![CDATA[À propos de
 L'« OFFRANDE MUSICALE »
-
 (1747)
-
 DE J.-S. BACH VERSION ROGER VUATAZ
-
 (Ed. de l'Ars Viva, Bruxelles 1937)
-
 Si elles n’étaient pas vraies, les circonstances qui ont entouré l’éclosion
 de l’Offrande musicale composeraient vraiment une bien jolie histoire, Mais
 les documents sont là qui témoignent de leur authenticité et les notes
@@ -945,37 +695,26 @@ Ce n’était pas une flatterie d’un «très humble serviteur » à son monarq
 de l’avoir qualifié, dans sa dédicace, de « vraiment royal ». Et l'on comprend
 que Bach s’y soit pris à plusieurs fois pour composer l'Offrande, tant ce
 sujet est inépuisable.
-
 Cette œuvre de science contrapuntique qui enseigne autant qu'elle
 émeut, illustre à merveille cette première proposition de Vinci: « L'’art
 naît par contrainte… »
-
 R V
-
- 
-
 Ûu Qunlilé P I A N 0 s
 RAPDIOS
-
 MERVEILLES SONORES ET TECHNIQUES
-
 Experts spécialistes
-
 SAUTEER et JAEGER
-
-FUSTERIE, 12 — TÉLÉPHONE 4 21 24]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003245_023.tif"/>
-<page><![CDATA[na5®
-
+FUSTERIE, 12 — TÉLÉPHONE 4 21 24
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003245_023.tif'/>
+        <page>
+          <![CDATA[na5®
 TEMPLE DE SAINT-GERVAIS
-
 Vendredi O juin 1944, à 20 h. 30
-
 OFFRANDE MUSICALE
 MUSIKALISCHES OPFER
-
 VERSION DE M. ROGER VUATAZ
-
 É Ricercare à 3 hautbois, cor anglais, basson
 ;Ï) Canon perpetuus violon, alto, violoncelle
 Canones diversi :
@@ -996,12 +735,9 @@ Allegro
 Andante
 Allegro
 Ricercare à 6 hautbois, violon, cor anglais, alto,
-
 violoncelle, basson
-
 &
 Q COMMENTAIRE PAR M. ROGER VUATAZ
-
 Solistes :
 Violon I : M. Jean GOEHRING
 Violon II: M. Jouval MINKOFE
@@ -1012,79 +748,57 @@ Hautbois : M. Paul DENNES
 Cor anglais : M. Richard GUILHOT
 Basson : M. Henri HELAERTS
 Clavecin : Mme Germaine VAUCHER-CLER(
-
 Direction : M. Francis BODET, Directeur du Cercle J.-S. Bach
-
-21]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003245_024.tif"/>
-<page><![CDATA[LIVRES-MUSIQUE
+21
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003245_024.tif'/>
+        <page>
+          <![CDATA[LIVRES-MUSIQUE
 NEUFS ET D'OCCASION
-
 Vente - Achat - Echange
 Papeterie -  Librairie circulante
-
 =
 ‘ r‘0r CORRATERIE, 9 (sur la terrasse)
-
- 
-
- 
-
 ZENITH
-
 )(n e merveille
 de
-
 f0(‘/1niquv et d (‘[(‘gﬂll(‘("
-
- 
-
- 
-
- 
-
 La gamme des Wbas %ÿ
 %ÿt vous
-
 enchantera…
-CROIX-D'OR, 6]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003245_025.tif"/>
-<page><![CDATA["—
+CROIX-D'OR, 6
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003245_025.tif'/>
+        <page>
+          <![CDATA["—
 VICTORIA HALL
-
 Samedi 10 juin 1944, à 16 h. 30
-
 CONFÉRENCE - AUDITION
-
 de
-
 CRs ON
-
 sur l(‘\‘
-
 Six sonafes pour violon solo
-
- 
-
-M. le professeur Carl FLESCH]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003245_026.tif"/>
-<page><![CDATA[GRAND PRIX
+M. le professeur Carl FLESCH
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003245_026.tif'/>
+        <page>
+          <![CDATA[GRAND PRIX
 PARIS 1900 BERNE 1914
-
 PROCHAINEMENT :
-
-6, GRAND-QUAI, —- 27, RUE DU RHONE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003245_027.tif"/>
-<page><![CDATA[—0
-
+6, GRAND-QUAI, —- 27, RUE DU RHONE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003245_027.tif'/>
+        <page>
+          <![CDATA[—0
 VICTORIA HALL
 Samedi 10 juin 1944, à 20 h. 30
-
 PROGRAMME
-
 1. Schäferkantate : « Entfliehet, verschwindet, entweichet ihr Sorgen »
 (Version primitive inédite de l’Oratorio de Pâques
-
 ) pour quatuor solo et orchestre
 Soprano : Mlle Madeleine DuBu1s
 ATTOR: Mlle Maria HELBLING
@@ -1092,406 +806,260 @@ Ténor : M. Erwin TULLER
 Basse : M. Ernest SCHLAEFLI
 Flûte solo : M. André PÉPIN
 Hautbois solo : M. Paul DENNES
-
 rre trompette enré : M. Otto BINDSCHEDLER
-
 2. Concerto en Mi majeur pour violon et orchestre.
 Soliste : M. Carl FLESCH
-
 Allegro, Adagio, Allegro assai
-
 3. Magnificat en Ré majeur.
-
 Pour soli, chœur et orchestre.
-
 Soprano I : M!le Madeleine DuBuIs
 Soprano II : Mme Andrée OTz
-
 A1to : M!le Maria HELBLING
 Ténor : M. Erwin TULLER
-
 Q 3asse : M. Ernest SCHLAEFLI
 = M.
-
 Hautbois d’amour Paul DENNES
 1'° trompette en ré M. Otto BINDSCHEDLER
-
 Clavecin : Mme Germaine VAUCHER-CLER(
 Orgue : M. Eric SCHMIDI
-
 LE CERCLE JEAN-SÉBASTIEN BACH DE GENÈVI
-
 L’ORCHESTRE DE LA SUIssE ROMANDI
-
-Le concert sera dirigé par M. Francis BODET, Directeur du Cercle J.-S. Bach]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003245_028.tif"/>
-<page><![CDATA[Texte des œuvres présentées au Concert
+Le concert sera dirigé par M. Francis BODET, Directeur du Cercle J.-S. Bach
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003245_028.tif'/>
+        <page>
+          <![CDATA[Texte des œuvres présentées au Concert
 du 10 juin 1044
-
 SCHÆFERKANTATE
-
 « Entfliehet, verschwindet, entweichet, ihr Sorgen »
-
 CANTATE PASTORALE (Version primitive de l’Oratorio de Päques)
-
 Duetto : Ténor et basse.
-
 $ Entfliehet, verschwindet, entfliehet, verschwindet, entweichet, ihr
 Sorgen, verwirret die lustigen Regungen nicht. Lachen und Scherzen erfüllet
 die Herzen, die Freude malet des Gesicht.
-
 Récitatif :
-
 Basse : Was hôr ich da ?
-
 Ténor : Wer unterbricht uns hier ?
-
 Basse : Wie ? Doris und Sylvia ?
-
 Alto: So glaubet ihr, dass eure Brust allein voll Jauchzen und
 voll Freude ?
-
 Soprano : Und dass wir beide jetzt ohne Wonne sollen sein ?
-
 Air : Soprano.
 Hunderttausend Schmeicheleien wallen jetz in meiner Brust. Und
 die Lust, so die Zärtlichkeiten zeigen, kann die Zunge nicht verschweigen.
-
 Récitatif.
-
 Basse : Wie aber, schônste Schäterin, was habt ihr vor, wo wollt
 ihr hin ?
-
 Soprano : Bei Buchen, Eiden oder Linden die Blumengôttin aufzu-
 suchen nun einen Kranz für unsern teuren Christian zu winden. Der unge-
 meine Glanz von seiner hohen Feier, so meiner Seele wert und teuer,
 bricht jetzund an.
-
 Ténor : Thr geht mit uns auf gleichen Wegen.
-
 Alto: Wer aber wird die Schafe pflegen ?
-
 Air : Ténor.
-
 Wieget euch, ihr satten Schafe, in dem Schlafe unterdessen selber
 ein, Dort in jenen tiefen Gründen, wo schon junge Rasen sein, wir euch
 wiedertinden.
-
 Récitatif : Basse.
-
 Wohlan ! Geliebte Schäferinnen, ihr sollt mit uns zu Hofe gehn und
 unserm freudigen Beginnen zur Seite stehn ! Allein, wo werden Rosen und
 Narzissen, Jasminen, Lilien und Melissen zu unsern Kränzen sein °
-
 Alto: Wahr ist es, ich kann nichts erblicken, um unsre Stirnen aus-
 zuschmücken, doch wünsch ich mir durch mein Bemühn, die Blumen annoch
 vor der Zeit aus ihre kalten Gruft zu ziehen.
-
-26]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003245_029.tif"/>
-<page><![CDATA[2j
-
- 
-
+26
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003245_029.tif'/>
+        <page>
+          <![CDATA[2j
 Air : Alto.
-
 Komm doch, Flora, komm geschwinde, hauche mit dem Westen-
 winde unsre Felder lieblich an, Dass [ein treuer Untertan seinem milden
 Christian, Pflicht und Schuld bezahlen kann.
-
 Récitatif : Basse.
-
 Was sorgt ihr viel, die Flora zu beschweren ? Was wird sich unser
 grosser Fürst besonders an die Blumen kehren ? Ein Wunsch, den Treu
 und Liebe zeigt, und der, als ein beständig Ziel, durch Luft und Wolken
 steiget, wird seinen Ohren wohlgefallen. Drum auf! Lasst euren Lob-
 gesang mit untermischtem Paukenklang ertônen und erschallen !
-
 Air à quatre.
-
 Glück und Heil, bleibe dein beständig Teil! Grosser Herzog, dein
 Vergnügen müsse wie die Palmen stehn, die sich niemals niederbiegen
 sondern bis zu Wolken gehn. So werden sich künftig bei stetem Gedeihen
 die Deinen mit Lachen und Scherzen erfreuen,
-
 « MAGNIFICAT »
-
 Chœur.
-
 Magnificat anima mea Dominum.
-
 Air pour mezzo-soprano.
 Et exultavit spiritus meus in Deo salutari meo.
-
 Air pour soprano.
-
 Quia respexit humilitatem ancillae suae : ecce enim ex hoc beatam
 me dicent.
 Chœur.
-
 Omnes generationes.
 Air pour basse.
-
 Quia fecit mihi magna, qui potens, est, et sanctum nomen ejus,
 Duo pour alto et ténor.
-
 Et misericordia progenie in progenies timentibus eum.
 Chœur.
-
 Fecit potentiam in brachio suo dispersit superbos mente cordis sui,
 Air pour ténor.
-
 Deposuit potentes de sede et exaltavit humiles.
 Air pour alto.
-
 Esurientes implevit bonis et divites dimisit inanes.
 Trio pour soprano I, soprano II et alto.
-
 Suscepit Israel puerum suum, recordatus misericordiae suae,
 Chœur.
-
 Sicut locutus est ad patres nostros Abraham et semini ejus in secula,
 Chœur.
-
 Gloria patri filio et spiritui sancto, sicut erat in principio et nunc et
-semper et in secula seculorum, Amen.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003245_030.tif"/>
-<page><![CDATA[Traduction
-
+semper et in secula seculorum, Amen.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003245_030.tif'/>
+        <page>
+          <![CDATA[Traduction
 Chœur.
-
 Mon âme glorifie le Seigneur.
-
 Air pour mezzo-soprano.
-
 Et mon esprit est ravi de joie dans le Dieu Sauveur.
-
 Air pour soprano.
-
 Parce qu'il a regardé l’humilité de sa servante, et voilà que je serai
 appelée bienheureuse.
 Chœur.
-
 Dans toute la suite des siècles.
-
 Air pour basse.
-
 Car celui qui est tout puissant a fait pour moi de grandes choses et
 son nom est saint.
 Duo pour alto et ténor.
-
 Et sa miséricorde s’étend sur ceux qui le craignent, de génération en
 génération.
 Chœur.
-
 Il a signalé la puissance de son bras et confondu les pensées des superbes,
-
 Air pour ténor.
-
 Il a fait descendre les puissants de leur siège et il a élevé les humbles.
-
 Air pour alto.
-
 Il a comblé de biens ceux qui étaient pauvres et réduit à la disette
 ceux qui étaient riches.
 Trio pour soprano I, soprano II et alto.
-
 [1 s’est ressouvenu de ses miséricordes et. a pris sous sa protection
 Israël son serviteur.
-
 Chœur.
 Comme il avait promis à nos pères, à Abraham et à sa postérité dans
 tous les siècles.
-
 Chœur.
-
 Gloire au Père et au Fils et au Saint-Esprit : maintenant et toujours
-comme dès ls commencement et dans les siècles des siècles. Ainsi soit-il.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003245_031.tif"/>
-<page><![CDATA[A A \
+comme dès ls commencement et dans les siècles des siècles. Ainsi soit-il.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003245_031.tif'/>
+        <page>
+          <![CDATA[A A \
 E E = S uETE
 T =m S
 p TR T
 # X
 piceu e 'Vu5
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-  
-
 'l ll:: —.__4-“'
 n w + w p en e
 LI LD _ Vr7 Y{ e 'û‘ x '.
 Ç e C. , \)% =,
 7 …n S
-
- 
-
- 
-
 53 3 .w—!AL
 p e
-
- 
-
-     
-
 IIl
-
 nales de
-
 ustr, du
-
 scose
-
 \
-
 la Sonate
-
 Vme
-
 D%
-
 achaux «
-
 ; ( G, C Ç
-
 « _-'A-JI-‘IA-"'_1" "—
-
 L A UI T TSN
 L ps e e MS LS
-
- 
-
 en ré
-
 e He
-
- 
-    
-
-  
-
- 
-    
-
 Chacone
-
-elbacher]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003245_032.tif"/>
-<page><![CDATA[Traduction
-
+elbacher
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003245_032.tif'/>
+        <page>
+          <![CDATA[Traduction
 Chœur.
-
 Mon âme glorifie le Seigneur.
-
 Air pour mezzo-soprano.
-
- 
-
- 
-
 Et mon esprit est ravi de joie dans le Dieu
 Air pour soprano.
 Parce qu’il a regardé l’humilité de sa serv
-
 appelée bienheureuse.
-
 Chœur.
-
 Dans toute la suite des siècles
 Air pour basse.
 Car celui qui est tout puissant a fait pour
 son nom est saint.
 Duo pour alto et ténor.
 génération.
-
 Chœur.
-
 [l a signalé la puissance de son bras et confoni
-
 Air pour ténor.
-
 Il a fait descendre les puissants de leur sièg
-
 Air pour alto.
-
 Il a comblé de biens ceux qui étaient pau
 ceux qui étaient riches.
 Trio pour soprano I, soprano II et alto.
-
 [1 s’est ressouvenu de ses miséricordes et
 Israël son serviteur.
 Chœur.
-
 Comme il avait promis à nos pères, à Abral
 tous les siècles.
 Chœur.
-
 Gloire au Père et au Fils et au Saint-Espri
 comme dès ls commencement et dans les siècle un
-
 D
 /zaufement‘
-
 œfyr réctée/
-24]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003245_033.tif"/>
-<page><![CDATA[Qnelques lignes originales de la Sonate en ré mineur (Chacone)
-
- 
-
- 
-
+24
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003245_033.tif'/>
+        <page>
+          <![CDATA[Qnelques lignes originales de la Sonate en ré mineur (Chacone)
 La vieille église Saint-Thomas à Leipzig
-
 (Ilustr, du « Vme Evangéliste » de Hesselbacher
-Delachaux et Nieslé)]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003245_034.tif"/>
-<page><![CDATA[L'orgue du temple de Saint-Gervais à Genève
-
- 
-
- 
-
+Delachaux et Nieslé)
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003245_034.tif'/>
+        <page>
+          <![CDATA[L'orgue du temple de Saint-Gervais à Genève
 ——>s SEN
-
-Le temple de Saint-Gervais à Genève]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003245_035.tif"/>
-<page><![CDATA[e d
-
+Le temple de Saint-Gervais à Genève
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003245_035.tif'/>
+        <page>
+          <![CDATA[e d
 TEMPLE DE SAINT-GERVAIS
 Dimanche 11 juin 1944 à 16 h. 30
 AUDITION D’ŒUVRES POUR ORGUE
-
 donnée sous les auspices
-
 de l’Association des Organistes et Maîtres de Chapelle protestants romands
-
 par
 Charles FALLER François DEMIERRE
 Organiste Organiste
 . de la Cathédrale de Lausanne du Temple de Saint-Martin à Vevey
-
 et précédée d’une causerie
 sur l'Œuvre d’orgue de J.-S. Bach
 par
 Georges CRAMER
-
 Professeur d’orgue au Conservatoire de Lausanne
-
 PROGRAMME
-
 1. L’'Œuvre d’orgue de J.-S. Bach.
 Georges CRAMER
 2. Fantaisie et fugue en ut mineur.
@@ -1502,13 +1070,10 @@ a) Wachet auf, ruft uns die Stimme,
 à 3 voix, choral au ténor, extrait de la cantate n° I40.
 b) Wo soll ich fliehen hin,
 à 3 voix, choral à la pédale formant ténor, extrait de la cantate
-
 n° s.
-
 . c) Wer nur den lieben Gott lässt walten,
 à 4 voix, choral à la pédale formant ténor, extrait de la cantate
 n° 93.
-
 d) Meine Seele erhebt den Herrn,
 à 4 VOIx, choral au soprano, extrait de la cantate n° 10.
 e) Ach, bleib bei uns Hevwr Jesu Christ,
@@ -1517,112 +1082,65 @@ f) Kommst du nun Jesu, vom Himmel herunter,
 à 3 voix, choral à la pédale formant ténor, extrait de la cantate
 n° 69,
 François DEMIERRE,
-
 4. Partita sur le choral: O Gott, Du frommer Gott.
-
 5. Prélude et fugue en si mineur.
-
-Charles FALLER.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003245_036.tif"/>
-<page><![CDATA[Le rendez-vous
+Charles FALLER.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003245_036.tif'/>
+        <page>
+          <![CDATA[Le rendez-vous
 de la société cultivée
 et des gens de gout
-
 Ëville «& C
-
- 
-
 TOUS LES LÉIVRES SUR L'ART
-
 Ouvrages de luxe —  Occasions rares
-
- 
-
 maître-ﬂeunste
-
 Genève
-
 Corraterie. 26
-
- 
-
- 
-
- 
-
 MAISON GENEVOISE D'OPTIQUE
-
 FONDÉE EN 1800
-
 Gn G. CHOITEL
-
 OPTIGIEN-DIPLOMEÉ
-
-     
-
 BOUSSOLES - JUMELLES KERN ET ZEISS - COMPAS KERN - SPÉC. LUNETTERIE SOIGNÉE
-
- 
-
- 
-
- 
-
 CORRMTIERIE 22 — 1EN 07 SI
-
- 
-
- 
-
- 
-
-   
-
-&]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003245_037.tif"/>
-<page><![CDATA[La maison natale de Jean-Sébastien Bach à Eisenach
-
+&
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003245_037.tif'/>
+        <page>
+          <![CDATA[La maison natale de Jean-Sébastien Bach à Eisenach
 JEAN-SÉBASTIEN BACH
-
 Jean-Sébastien Bach, né à Eisenach le 21 mars 1685 et décédé à Leipzig
 le 28 juillet 1750. Marié en 1707 avec Maria-Barbara Bach ; veuf après
 treize années d’une union qui lui avait donné sept enfants. Remarié avec
 Anne-Madeleine Wülken ; treize enfants naquirent de ce second mariage.
-
 Jean-Sébastien Bach devint complètement aveugle durant les der-
 nières années de sa vie. Il recouvra subitement la vue le 18 juillet 1750,
 puis mourut dans la soirée du 28 juillet à Leipzig et fut enterré le 31 juillet
 au cimetière de Saint-Jean, à Leipzig.
-
 LES PRINCIPALES ŒUVRES DE J.-S. BACH
-
 Pour clavecin : Cappriccio.
 Sonates.
 Inventions, Symphonies, Suites, Toccatas.
 Préludes et fugues ;
-
 ; clavecin bien tempéré.
-Concertos.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003245_038.tif"/>
-<page><![CDATA[Chorals.
-
- 
-
+Concertos.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003245_038.tif'/>
+        <page>
+          <![CDATA[Chorals.
 Pour orgue :
-
 Huit petits préludes, six sonates, l'Orgelbüchlein.
-
 Pour instruments
 à cordes : Sonates et Partites pour violon seul.
 Sonates pour clavecin et violon.
 Concertos pour violon.
 Suite pour violoncelle seul.
-
 Pour orchestre : Concertos.
-
 Œuvres théoriques L’offrande musicale.
 L’art de la fugue.
-
 Œuvres vocales : Motets.
 Cinq passions.
 Deux oratorios.
@@ -1631,224 +1149,104 @@ Messe en si mineur.
 Quatre messes brèves.
 Neuf cantates profanes.
 Cent quatre-vingt-dix Cantates d’église.
-
 »—'er… Entres - mrivr /Æ,W'
 E / TEfE prftnd
 T %*—Î P
-
 /V.4 r'£vw£7
-
 ns ……f Pn w»r—!n……— Js
-
 M@ /*‘«/" //—«//«Ævyf “
 çf'a£*F Mv»r‘waL #
 {Jw Ç’NJ“ ;
-
- 
-
 [ L ”‘% ;
 & M
 J/.£} $ î'î IG u "%'7£‘”
-
 -
-
 Aurt
-
 Page d’une lettre de J.-S. Bach au conseiller Klemm
-du IS novembre 1730]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003245_039.tif"/>
-<page><![CDATA[vs ®
-
- 
-
+du IS novembre 1730
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003245_039.tif'/>
+        <page>
+          <![CDATA[vs ®
 LISEZ LE
-
 JOURNAL DE GENÈVE
-
 NATIONAL. POLITIQUE ET LITTÉRAIRE
-
 CORRESPONDANCE DIRECTE DES CAPITALES
 LITTERATURE *  ARTS
-
 sripd@e e ABONNEZ-VOUS "
-
- 
-
- 
-
-   
-
 s.'an
-
 9. PLACE DES EAUX-VIVES
-
-   
-
- 
-
- 
-
 OUVROIR DE L’UNION DES FEMMES
-
 Place de la Fusterie, 5 - Téléphone 5 35 66 Ï
 x et layettes, So vêtements pour homme inge de maison. Tricotage
 nmodages
-
 LABEL
 DE LA
-
 ’ai Î i LIGUE SOCIALE
-Entr'aide sociale par le travail S TRCHETEURS]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003245_040.tif"/>
-<page><![CDATA[Î< S- VJOmm nostm '
+Entr'aide sociale par le travail S TRCHETEURS
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003245_040.tif'/>
+        <page>
+          <![CDATA[Î< S- VJOmm nostm '
 - $ t- « SECU HE !LUﬂ— Lï’dRÿ}“)£A3m Jj{Z%É…
-
 A x \ ; Ï Ç ;
 0P Sta  per Domnum ;ﬂ€/@“‘éﬂ
-
 ? 'aldas Picander dictus
 Cf /Ïu f£“‘ÿL (Aî ÿ tf À “J£ ‘
-
 *
-
 D Toma .4Æ;‘*ﬁf,_
-
 Page de titre de la À/“rHÎ/!Ï«‘)} de la Passion
-
-selon saint Matthieu]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003245_041.tif"/>
-<page><![CDATA[PHOTOGRAVURE
-
+selon saint Matthieu
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003245_041.tif'/>
+        <page>
+          <![CDATA[PHOTOGRAVURE
 AMOR
-
 7, RUE DE L'ARQUE
-
-  
-
 \ Tous clichés typographiques pour l'illustration
-
- 
-
 Vos Imprimés e Vos clichés e Vos publications
-
 dies 80012.v6E ANonynEe
-
 ATAR
-
 11,RUE DE LA DOLE-GENÈVE
-
- 
-
 de la Ville de Genève
 CGarouge et Lancy
-
 ËË POMPES FUNÈBRES OFFICIELLES
 4
-
 5, rue de l’Hôtel-de-Ville, au 1* - Tél. 432 85 permanent
 EN CAS DE DÉCÈS
-
 s'adresser ou téléphoner de suite à l'adresse ci-dessus
 Formalités gratuites
-
- 
-
- 
-
 AGENCE AGRICOLE & IMMOBILIÈRE
-
 DUMUR & FILS
-
 7, RUE DE LA FONTAINE - GENEÈVE
 ©
-
 3ESTION, VENTE. ACHAT, ET LOCATION
-DE PROPRIÉTÉS, VILLAS ET IMMEUBLES]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003245_042.tif"/>
-<page><![CDATA[Cornavin
-
- 
-
+DE PROPRIÉTÉS, VILLAS ET IMMEUBLES
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003245_042.tif'/>
+        <page>
+          <![CDATA[Cornavin
 Votre Banque…
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 LA SOCIÉTÉ DE
-
 BANQUE SUISSE
-
 195 millions
-
 Capital-Actions et Réserves : Fr.
-
 GENEÈVE
-
 2, Rue de la Confédération
 ©
-
 Eaux-Vives Plainpalais
-
-   
- 
-  
-   
-    
-
 Carouge
-
- 
-
- 
-
-  
- 
-
- 
-
 Publicité J. Bolmond - Genève
-
 Imprimerie du «Journal de Genève »
-
-    
-
- 
-
- 
-
 r t cr T E E
-
- 
-
-e e n e E P E S]]></page>       
-        </p>
+e e n e E P E S
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

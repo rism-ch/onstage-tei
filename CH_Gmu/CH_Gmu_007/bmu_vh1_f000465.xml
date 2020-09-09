@@ -1,66 +1,81 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par l'Harmonie nautique : Au bénéfice du monument international Verdi<date when="20/04/1901"/></title>
-<series>1900-1901</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par l'Harmonie nautique : Au bénéfice du monument
+            international Verdi
+            <date when='20/04/1901'/>
+          </title>
+          <series>1900-1901</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F000465</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Bonade, L. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19010420"/>
-<title>Concert donné par l'Harmonie nautique : Au bénéfice du monument international Verdi</title>
-<placeName key="Victoria Hall"/>
-<name key="1900-1901" type="series"/>
-<name key="Verdi, Giuseppe" ref="https://muscat.rism.info/admin/people/137994" type="person" role="cmp">Verdi, Giuseppe</name>
-<name key="Bonade, Louis (dir.)"  type="person" role="int">Bonade, Louis (dir.)</name>
-<name key="Harmonie Nautique"  type="person" role="int">Harmonie Nautique</name>
-<name key="Bonade (Mme)"  type="person" role="int">Bonade (Mme)</name>
-<name key="Monti"  type="person" role="int">Monti</name>
-<name key="Delpech"  type="person" role="int">Delpech</name>
-<name key="Bastard, W."  type="person" role="int">Bastard, W.</name>
-<name key="M. (Mlle)"  type="person" role="int">M. (Mlle)</name>
-<name key="W. (Mlle)"  type="person" role="int">W. (Mlle)</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000465_001.tif"/>
-<page><![CDATA[ù
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19010420'/>
+        <title>
+          Concert donné par l'Harmonie nautique : Au bénéfice du monument
+          international Verdi
+        </title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1900-1901' type='series'/>
+        <name key='Verdi, Giuseppe' ref='https://muscat.rism.info/admin/people/137994' type='person' role='cmp'>Verdi, Giuseppe</name>
+        <name key='Bonade, Louis' type='person' role='int'>Bonade, Louis</name>
+        <name key='Harmonie Nautique' type='person' role='int'>Harmonie Nautique</name>
+        <name key='Bonade (Mme)' type='person' role='int'>Bonade (Mme)</name>
+        <name key='Monti' type='person' role='int'>Monti</name>
+        <name key='Delpech' type='person' role='int'>Delpech</name>
+        <name key='Bastard, W.' type='person' role='int'>Bastard, W.</name>
+        <name key='M. (Mlle)' type='person' role='int'>M. (Mlle)</name>
+        <name key='W. (Mlle)' type='person' role='int'>W. (Mlle)</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000465_001.tif'/>
+        <page>
+          <![CDATA[ù
 Ÿ
 Æ
-
 v
-
 n
 sOD
 ;
@@ -68,34 +83,13 @@ f
 9
 ©
 ]
-
 !
-
 e Ton A .H A TLiT,
-
 —— es
-
- 
-
- 
-
- 
-
- 
-
- 
-
 | Ouverture à ; e ‘/N(E commencomî
 m ue Samedi 20 <Avril 1901 [ CTeteues ts | 2
-
- 
-
- 
-
 se
-
 CONCERT
-
 DONNE PAR
 L'HARMONIE NAUTIQUE DE GENEVE
 sous la direction de M. LOUIS BONADE
@@ -104,24 +98,13 @@ MONUMENT INTERNATIONAL VERDI
 avec le gracieux concours de
 M"° L. BONADE, M“ H. et W., MM. MONTI, ténor,
 DELPECH, basse, et W. BASTARD, pianiste.
-
 PROSRANMME
-
 N \ v
 d L ut ue un
-
- 
-
- 
-
- 
-
 PREMIÈRE PARTIE
-
 1. Ouverture des Vêpres Siciliennes (V. Flori)......…. Veran. e 1e
 Harmonie Nautique. ÎÈÎ
 > 0 dAida chantéeénitalien. _ 411 … Verdi. g.; °
-
 M. Monti. %‘ŸE‘Z
 3. Hommage à Verdi, fantaisie sur des opéras (Maitioli) .. Verdi. 30.
 Harmonrie Nautique. 1‘P
@@ -135,54 +118,33 @@ M" Bonade.
 7. Quatuor de Rigoletto ...........…. e Verdi.
 M"* Bonade, M"* H, MM. Monti et Delpech. R
 8. Prélude, scène, sextuor et final de Macbeth (Sache/i) .. Verdi.
-
 Harmonie Nautique.
-
 vn
-
- 
-
- 
-
- 
-
 Piano ERARD, de la maison Bron et Berguer.
 —E DEGT——3——
-
 Prix pes Praces : Rez-de-chaussée. Loges numérotées (la place), 3 fr. — Parquets numérotés,
 3 fr. — Parterres et stalles de pourtour numérotés, 2 fr. —
-
- 
-
 1* Galerie. Loges numérotées
-
 (la place), 3 fr. — Fauteuils 1* rang numérotés, 2 fr, — 2" Galerie, non numérotées, 1 fr.
 MM, les membres non-exécutants ont droit à ce concert sur présentation du coupon n°3,
-
 au rez-de-chaussée aux places suivantes : amphithéâtre, promenoir et podium el à toute la
 1"* galerie, à l’exclusion du premier rang et des loges. — Moyennant des suppléments de
 2 ou 1 fr., ils auront droit aux places de 3 ou 2 fr,
-
 La location est ouverte dès ce jour, au Victoria Hall, de 9 heures à midi et de ? à 6 h
-
 Prière de ne pas entrer pendant l’exécution des morceaux. — BUFFET au rez-de-chaussée.
-
 —>
-
 @%—
-
- 
-
 Genêve, — Imp, L.-F, Jarrys,
-
 0 O, sr e A # s-
-T ONG 1]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000465_002.tif"/>
-<page><![CDATA[N OV 5>4
+T ONG 1
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000465_002.tif'/>
+        <page>
+          <![CDATA[N OV 5>4
 e ï - e 33e ©
 à A
 |e Cours d’Instruments |
-
 |
 | DE ‘
 | -
@@ -206,8 +168,10 @@ vent s'inscrire tous les jours, auprès du Concierge du
 Victoria-Hall.
 Ÿ
 î1r)Â'@ —2 —{ ä H « —3 {6)
-AC e N]]></page>       
-        </p>
+AC e N
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

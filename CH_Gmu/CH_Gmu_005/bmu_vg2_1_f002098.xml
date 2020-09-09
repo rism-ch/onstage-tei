@@ -1,139 +1,120 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert spirituel [Dixième et dernier concert classique]<date when="28/03/1885"/></title>
-<series>1884-1885</series>
-<placeName>Grand Théâtre</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert spirituel [Dixième et dernier concert classique]
+            <date when='28/03/1885'/>
+          </title>
+          <series>1884-1885</series>
+          <placeName>Genève, Grand Théâtre</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VG2-1 F002098</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Senger, H. de</note>
+        <note>Ketten, L. (dir)</note>
+        <note>Interprète incertain</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18850328"/>
-<title>Concert spirituel [Dixième et dernier concert classique]</title>
-<placeName key="Grand Théâtre"/>
-<name key="1884-1885" type="series"/>
-<name key="Bach, Johann Sebastian" ref="https://muscat.rism.info/admin/people/2539" type="person" role="cmp">Bach, Johann Sebastian</name>
-<name key="Méhul, Etienne-Nicolas" ref="https://muscat.rism.info/admin/people/101056" type="person" role="cmp">Méhul, Etienne-Nicolas</name>
-<name key="Rossini, Gioachino" ref="https://muscat.rism.info/admin/people/63766" type="person" role="cmp">Rossini, Gioachino</name>
-<name key="Senger, Franz Ludwig Hugo von" ref="https://muscat.rism.info/admin/people/30015297" type="person" role="int">Senger, Franz Ludwig Hugo von</name>
-<name key="Ketten, Léopold (dir.)"  type="person" role="int">Ketten, Léopold (dir.)</name>
-<name key="[Orchestre de la Ville de Genève ?]"  type="person" role="int">[Orchestre de la Ville de Genève ?]</name>
-<name key="Société de chant du Conservatoire de Genève" ref="https://muscat.rism.info/admin/people/30079944" type="person" role="int">Société de chant du Conservatoire de Genève</name>
-<name key="Arnaud, Félicie"  type="person" role="int">Arnaud, Félicie</name>
-<name key="Basta, de (Mlle)"  type="person" role="int">Basta, de (Mlle)</name>
-<name key="Vuillaume (Mlle)"  type="person" role="int">Vuillaume (Mlle)</name>
-<name key="Séran, Louis" ref="https://muscat.rism.info/admin/people/30044110" type="person" role="int">Séran, Louis</name>
-<name key="Bataille"  type="person" role="int">Bataille</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_1_f002098_001.tif"/>
-<page><![CDATA[ND THÉATRE DE GENÈVE. - SOCIÉTÉ DES CONCERTS “
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18850328'/>
+        <title>Concert spirituel [Dixième et dernier concert classique]</title>
+        <placeName key='Genève, Grand Théâtre'/>
+        <name key='1884-1885' type='series'/>
+        <name key='Bach, Johann Sebastian' ref='https://muscat.rism.info/admin/people/2539' type='person' role='cmp'>Bach, Johann Sebastian</name>
+        <name key='Méhul, Etienne-Nicolas' ref='https://muscat.rism.info/admin/people/101056' type='person' role='cmp'>Méhul, Etienne-Nicolas</name>
+        <name key='Rossini, Gioachino' ref='https://muscat.rism.info/admin/people/63766' type='person' role='cmp'>Rossini, Gioachino</name>
+        <name key='Senger, Franz Ludwig Hugo von' ref='https://muscat.rism.info/admin/people/30015297' type='person' role='int'>Senger, Franz Ludwig Hugo von</name>
+        <name key='Ketten, Léopold' type='person' role='int'>Ketten, Léopold</name>
+        <name key='Orchestre de la Ville de Genève' type='person' role='int'>Orchestre de la Ville de Genève</name>
+        <name key='Société de chant du Conservatoire de Genève' ref='https://muscat.rism.info/admin/people/30079944' type='person' role='int'>Société de chant du Conservatoire de Genève</name>
+        <name key='Arnaud, Félicie' type='person' role='int'>Arnaud, Félicie</name>
+        <name key='Basta, de (Mlle)' type='person' role='int'>Basta, de (Mlle)</name>
+        <name key='Vuillaume (Mlle)' type='person' role='int'>Vuillaume (Mlle)</name>
+        <name key='Séran, Louis' ref='https://muscat.rism.info/admin/people/30044110' type='person' role='int'>Séran, Louis</name>
+        <name key='Bataille' type='person' role='int'>Bataille</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_1_f002098_001.tif'/>
+        <page>
+          <![CDATA[ND THÉATRE DE GENÈVE. - SOCIÉTÉ DES CONCERTS “
 | SAMEDI ?8 MARS 1885, A S HEURES DU SOIR,
-
 (Dixième et dernier Concert de l’Abonnement).
-
 CONCERT SPIRITUEL
-
 AVEC LE CONCOURS DE
 Mc Félicie ARNAUD, DE BASTA, VUILLAUME,
 MM. L. SÉRAN ET BATAILLE
-
 Artistes du Grand Théâtre de Genève
-
 ET DES CHŒURS MIXTES DE LA SOCIÉTÉ DE CHANT DU CONSERVATOIRE
-
 Directeur M. Léopold KETTEN.
-
 L’Orchestre, de 60 Musiciens, sera dirigé par M. HUGO DE SENGER.
-
 PREMIÈRE PARTIE
-
 40 Pastorale, tirée de l’Oratorio « Noël, ».:8. . . . . . … … J-8S. Bach
 90 lPraoment. de c Joseph, » opéra biblique,. . . 1< 145 Méhul
-
 A) Ouverture.
-
 B) Prière. chantée par les Chœurs mixtes de la Société de Chant du Conservatoire.
-
 C) Trio, chanté par Mlle VuiLLAUME, MM. SÉRAN et BATAILLE.
-
 D) Cantique, chanté par Mlle VUILLAUME et les Chœurs mixtes de la Société de Chant.
-
 DEUXIÈME PARTIE
-
 STABIS3A T NEFATTSX
-
 Pour Soli, Chœurs et Orchestre, par G. Rossim.
-
 Introduction et Quatuor, — MIles ArNaun, De BAsTA, MM. SÉRAN, BATAILLE et les Chœurs.
 Air, — M. SÉRAN.
-
 Duo, — Mlles Félicie ArNAUD et DE BasTA.
-
 Air, — M. BATAILLE.
-
 Chœur et Récitatif, — M. BATAILLE et les Chœurs.
-
 Quatuor, — Mlles Félicie Arnaun, DE BasTA, MM. SÉRAN et BATAILLE.
-
 Cavatine, — MlIle DE BasTa.
-
 Air et Chœur, — Mlle Félicie ARNAUD et les Chœurs.
-
 Quatuor, — Miles Félicie ARNAUD, DE BAsTA, MM. SÉRAN et BATAILLE.
-
 10. Final, — par la Société de Chant du Conservatoire.
-
 SeIposeN=
-
 AVIS. — On est instamment prié de ne pas entrer pendant l’exécution des morceaux.
-
- 
-
 Prix des places restant en dehors des abonnements : Parterre, 2 fr., location, 2 fr. 50 (sous réserve d'augmentation de la location, dans des
 circonstances spéciales. —- Parterre debout, 2 fr. — Strapontins 1" Galerie, 4 fr. — Loges de face, 2M° Galerie, 2 fr., location, 2 fr. 50. —
 Loges de côté, 2M" Galcrie, 4 fr. 25., location, 1 fr. 50. — Stalles numérotées, 3° Galerie, 1 fr. 50., location, 1 fr. 60. — Avant-scène, 3°
 Galerie, 1 fr. 50., location, 4 fr. 60. — Galerie, 3", 75 c., location, 83 c. — Le Bureau de lecation est ouvert au Théâtre, tous les jours de
 la semaine où a lieu le Concert, de 11 h. à 4 heures.
-
- 
-
- 
-
-Geneve. —- Imprimerie J-D. Jarrys..]]></page>       
-        </p>
+Geneve. —- Imprimerie J-D. Jarrys..
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

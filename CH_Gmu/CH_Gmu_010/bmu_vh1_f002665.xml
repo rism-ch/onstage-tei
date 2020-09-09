@@ -1,213 +1,140 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Choeur des cosaques du Don<date when="07/12/1927"/></title>
-<series>1927-1928</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Choeur des cosaques du Don
+            <date when='07/12/1927'/>
+          </title>
+          <series>1927-1928</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002665</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Jaroff, S. (dir)</note>
+        <note>Date présumée</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19271207"/>
-<title>Choeur des cosaques du Don</title>
-<placeName key="Victoria Hall"/>
-<name key="1927-1928" type="series"/>
-<name key="Gretchaninov, A."  type="person" role="cmp">Gretchaninov, A.</name>
-<name key="Turtschaninoff, P."  type="person" role="cmp">Turtschaninoff, P.</name>
-<name key="Archangelsky, A."  type="person" role="cmp">Archangelsky, A.</name>
-<name key="Samoiloff"  type="person" role="cmp">Samoiloff</name>
-<name key="Dobrowen, J."  type="person" role="cmp">Dobrowen, J.</name>
-<name key="Jaroff, Serge"  type="person" role="cmp">Jaroff, Serge</name>
-<name key="Trailin"  type="person" role="cmp">Trailin</name>
-<name key="Jaroff, Serge (dir.)"  type="person" role="int">Jaroff, Serge (dir.)</name>
-<name key="Choeur des Cosaques du Don"  type="person" role="int">Choeur des Cosaques du Don</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002665_001.tif"/>
-<page><![CDATA[CHŒUR
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19271207'/>
+        <title>Choeur des cosaques du Don</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1927-1928' type='series'/>
+        <name key='Gretchaninov, A.' type='person' role='cmp'>Gretchaninov, A.</name>
+        <name key='Turtschaninoff, P.' type='person' role='cmp'>Turtschaninoff, P.</name>
+        <name key='Archangelsky, A.' type='person' role='cmp'>Archangelsky, A.</name>
+        <name key='Samoiloff' type='person' role='cmp'>Samoiloff</name>
+        <name key='Dobrowen, J.' type='person' role='cmp'>Dobrowen, J.</name>
+        <name key='Jaroff, Serge' type='person' role='cmp'>Jaroff, Serge</name>
+        <name key='Trailin' type='person' role='cmp'>Trailin</name>
+        <name key='Jaroff, Serge' type='person' role='int'>Jaroff, Serge</name>
+        <name key='Choeur des Cosaques du Don' type='person' role='int'>Choeur des Cosaques du Don</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002665_001.tif'/>
+        <page>
+          <![CDATA[CHŒUR
 DIES
-
 COSAQUES
 DU DON
-
- 
-
 Direction : SERGE JAROFF
-
- 
-
 &
-
 P rogramme”
-
- 
- 
-
-    
-       
-  
-  
-  
-  
- 
-
 !
 Ê
-
- 
-
- 
-
 PPAPH S QVRI T
-
 __ AGENCE DE CONCERTS DE LA S, A. DES ÉDITIONS HENN.
-
- 
-
-  
-
 Es 24 bs L Kn Gts L V G0 -
-
-H, JARAYE, GENÈVE,]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002665_002.tif"/>
-<page><![CDATA[PFROGREAMME
-
+H, JARAYE, GENÈVE,
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002665_002.tif'/>
+        <page>
+          <![CDATA[PFROGREAMME
 PREMIÈRE PARTIE
-
 CHANTS RELIGIEUX
-
- 
-
 1.1Credo 1 1 A AN Â. Grelschaninoff
 2a.4lLe vénéré Jogeph... °.7..... 4< P. Turtackhaninoff
 3. Seigneur, entends ma prière,
-
 psaumexDDA .. » - ps - 100 À. Archangelsky
 4. Seigneur, délivre ton peuple ... P. Tschesnokoff
-
 DEUXIÈME PARTIE
-
 CHANTS PROFANES
-
 5:Désir de la Patrie .....…... .-..…. Samoiloff
 6. Trois chants populaires .......….. J. Dobrowen
-
 7. Ehj uchnjem, chant des Bateliers
 deflagVolea. e sy arrang. S. Jarofff
-
 8 Sensronde * J. Dobrowen
-
 TROISIÈME PARTIE
-
- 
-
 CHANTS PROFANES
-
 9 Kanawka ;; .. -L P. Tochesnokoff
 10. Stenika\Rasn ... ‘ - J. Dobrowen
-
 11. O toi, mon chalumeau .........….. Ch. pop. de la Russie blanche
 12. Chant des Cosaques du Don ... Trailin
-
 ++++4—++++++++4—++++++‘4—++++++++++++++++++++++++++++++++Ü‘TTTTTTW…WT‘#‘WWTW
-
- 
-
- 
-
- 
-
 (ON E EE EE S SSN SN
 %, Fn S SÏ e AI I e F e e e 1 n I e I e e n r e e 2 e e 1 e e 8 e 1 e e e t t 1 e e n e e 13e e e F e e Sc V
-
-FFF FFFFFIFIFFFFFFFEFFFFFAFEFIEFFFFEOIEFRAE E]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002665_003.tif"/>
-<page><![CDATA[O+Oÿ_“‘*+ÿt++t***ôt*!ÿ.tùû0++++++Q**+++Q++Q++++++*ûÿ+‘+_.ÿ_+*‘+o*tvt++*+ü‘*ûûQ_*+++++O)‘
-
- 
-
- 
-
- 
-
- 
-
+FFF FFFFFIFIFFFFFFFEFFFFFAFEFIEFFFFEOIEFRAE E
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002665_003.tif'/>
+        <page>
+          <![CDATA[O+Oÿ_“‘*+ÿt++t***ôt*!ÿ.tùû0++++++Q**+++Q++Q++++++*ûÿ+‘+_.ÿ_+*‘+o*tvt++*+ü‘*ûûQ_*+++++O)‘
 AI II I I IS YI e I Y 1I Y YI I III en I I I I I III I III III IIIN
-
 LES
 COSAQUES DU DON
-
 ONT ENREGISTRÉ
 LES CHŒURS SUIVANTS
-
 DISQUES COLUMBIA
-
 As
-
 *
-
 C 9085 Chant Jes Bateliers c1e laV0183 (EIŒJ uchnjem).
-
 La Clochette ne donne qu,un son.
-
 C 91 54 Marche-—signal.
-
 Les Cosaques prisonniers.
-
 E 9125 Les Douze ravisseurs.
 Sur le chemin de Pétersbourg.
-
 C 9186 Sois loué, o Seigneur.
 Chant de Cosaques.
-
- 
-
- 
-
 X
-
- 
-
 +o++.o»u+.boo+«+++oo++b+b+++++++++o++++++bu—++oob
-
 M
-
- 
-
- 
-
 4
 4
 4
@@ -291,56 +218,35 @@ j+
 4
 Ç
 “
-A]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002665_004.tif"/>
-<page><![CDATA[RÉPFERTOIRE
-
+A
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002665_004.tif'/>
+        <page>
+          <![CDATA[RÉPFERTOIRE
 DES
-
 COSAQUES DU DON
-
 ——
-
 RECUEIL
-
 contenant les œuvres suivantes
-
 arrangées pour chœur et piano par
-
 Serge JAROFF
 ns
-
 . Ehj uchnjem (Burlakenlied)
 Stenjka Rasin (arr. v. J. Dobrowen)
-
 —
-
 Abendglocken (arr. v. Serge Jaroff)
-
 Zwôlf Räuber (alte Klosterlegende)
-
 Eintônig klingt das Glôckhen (Volksweise)
 Dobrinja Nikititsch (Fragment aus einer Sage)
 Der rote Sarafan (Volkslied)
-
 A. d. Petersburger Landstrasse (Fuhrmannslied)
 Platoff Lied.
-
- 
-
 SPEN S HR H
-
 x
 C‘@I
-
 Le Recueil complet Fr. 4.50.
-
 En vente le soir du Concert.
-
- 
-
- 
-
 *
 »
 w
@@ -427,9 +333,10 @@ w
 »
 >
 x
-
-FFF AFXFFFIFFFEFEFTEFFEFEFEEFFAFIEFFEFIIEFFEFEEFTEFEIEEFE]]></page>       
-        </p>
+FFF AFXFFFIFFFEFEFTEFFEFEFEEFFAFIEFFEFIIEFFEFEEFTEFEIEEFE
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

@@ -1,91 +1,93 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Dixième et dernier concert du théâtre avec le concours de Mme Roger-Miglos<date when="23/03/1889"/></title>
-<series>1888-1889</series>
-<placeName>Grand Théâtre</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Dixième et dernier concert du théâtre avec le concours de Mme
+            Roger-Miglos
+            <date when='23/03/1889'/>
+          </title>
+          <series>1888-1889</series>
+          <placeName>Genève, Grand Théâtre</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VG2-1 F002330</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Senger, H. de (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18890323"/>
-<title>Dixième et dernier concert du théâtre avec le concours de Mme Roger-Miglos</title>
-<placeName key="Grand Théâtre"/>
-<name key="1888-1889" type="series"/>
-<name key="Mozart, Wolfgang Amadeus" ref="https://muscat.rism.info/admin/people/115324" type="person" role="cmp">Mozart, Wolfgang Amadeus</name>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Rousseau, Jean-Jacques" ref="https://muscat.rism.info/admin/people/67075" type="person" role="cmp">Rousseau, Jean-Jacques</name>
-<name key="Mendelssohn Bartholdy, Felix" ref="https://muscat.rism.info/admin/people/88790" type="person" role="cmp">Mendelssohn Bartholdy, Felix</name>
-<name key="Haydn, Joseph" ref="https://muscat.rism.info/admin/people/55803" type="person" role="cmp">Haydn, Joseph</name>
-<name key="Chopin, Fryderyk Franciszek" ref="https://muscat.rism.info/admin/people/51160" type="person" role="cmp">Chopin, Fryderyk Franciszek</name>
-<name key="Raff, Joachim" ref="https://muscat.rism.info/admin/people/32686" type="person" role="cmp">Raff, Joachim</name>
-<name key="Schumann, Robert" ref="https://muscat.rism.info/admin/people/131206" type="person" role="cmp">Schumann, Robert</name>
-<name key="Chaminade, Cécile" ref="https://muscat.rism.info/admin/people/30016699" type="person" role="cmp">Chaminade, Cécile</name>
-<name key="Pfeiffer"  type="person" role="cmp">Pfeiffer</name>
-<name key="Wiernsberger, Jules Auguste" ref="https://muscat.rism.info/admin/people/41009093" type="person" role="cmp">Wiernsberger, Jules Auguste</name>
-<name key="Liszt, Franz" ref="https://muscat.rism.info/admin/people/107196" type="person" role="cmp">Liszt, Franz</name>
-<name key="Saint-Saëns, Camille" ref="https://muscat.rism.info/admin/people/76734" type="person" role="cmp">Saint-Saëns, Camille</name>
-<name key="Senger, Franz Ludwig Hugo von  (dir.)" ref="https://muscat.rism.info/admin/people/30015297" type="person" role="int">Senger, Franz Ludwig Hugo von  (dir.)</name>
-<name key="Orchestre de la Ville de Genève"  type="person" role="int">Orchestre de la Ville de Genève</name>
-<name key="Roger-Miglos (Mme)"  type="person" role="int">Roger-Miglos (Mme)</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_1_f002330_001.tif"/>
-<page><![CDATA[y
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18890323'/>
+        <title>Dixième et dernier concert du théâtre avec le concours de Mme Roger-Miglos</title>
+        <placeName key='Genève, Grand Théâtre'/>
+        <name key='1888-1889' type='series'/>
+        <name key='Mozart, Wolfgang Amadeus' ref='https://muscat.rism.info/admin/people/115324' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Rousseau, Jean-Jacques' ref='https://muscat.rism.info/admin/people/67075' type='person' role='cmp'>Rousseau, Jean-Jacques</name>
+        <name key='Mendelssohn Bartholdy, Felix' ref='https://muscat.rism.info/admin/people/88790' type='person' role='cmp'>Mendelssohn Bartholdy, Felix</name>
+        <name key='Haydn, Joseph' ref='https://muscat.rism.info/admin/people/55803' type='person' role='cmp'>Haydn, Joseph</name>
+        <name key='Chopin, Fryderyk Franciszek' ref='https://muscat.rism.info/admin/people/51160' type='person' role='cmp'>Chopin, Fryderyk Franciszek</name>
+        <name key='Raff, Joachim' ref='https://muscat.rism.info/admin/people/32686' type='person' role='cmp'>Raff, Joachim</name>
+        <name key='Schumann, Robert' ref='https://muscat.rism.info/admin/people/131206' type='person' role='cmp'>Schumann, Robert</name>
+        <name key='Chaminade, Cécile' ref='https://muscat.rism.info/admin/people/30016699' type='person' role='cmp'>Chaminade, Cécile</name>
+        <name key='Pfeiffer' type='person' role='cmp'>Pfeiffer</name>
+        <name key='Wiernsberger, Jules Auguste' ref='https://muscat.rism.info/admin/people/41009093' type='person' role='cmp'>Wiernsberger, Jules Auguste</name>
+        <name key='Liszt, Franz' ref='https://muscat.rism.info/admin/people/107196' type='person' role='cmp'>Liszt, Franz</name>
+        <name key='Saint-Saëns, Camille' ref='https://muscat.rism.info/admin/people/76734' type='person' role='cmp'>Saint-Saëns, Camille</name>
+        <name key='Senger, Franz Ludwig Hugo von' ref='https://muscat.rism.info/admin/people/30015297' type='person' role='int'>Senger, Franz Ludwig Hugo von</name>
+        <name key='Orchestre de la Ville de Genève' type='person' role='int'>Orchestre de la Ville de Genève</name>
+        <name key='Roger-Miglos (Mme)' type='person' role='int'>Roger-Miglos (Mme)</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_1_f002330_001.tif'/>
+        <page>
+          <![CDATA[y
 J
-
 GRAND THEHATRE DE GENEVE
-
 DIRHOTION F. B \RIL\ DUC \‘51] L
-
 Samedi 28 Mars 1889, à huit heures du soir
 DIXIEME ET DERNIER
-
 CONCERT DU THÉATRE
-
 AVEC LE CONCOURS DE
-
 Pianiste
-
 ET DE
-
 L’ORCHESTRE DE LA VILLE DE GENEVE
-
 Sous la direction de M. HUGO DE SENGER
-
- 
-
 PREMIÈRE PARTIE
 Symphonie en ré majeur (op. 7), première audition Mozart
 Allegro con spirito. — Andante. — Menuetto. - — Finale (Presto).
@@ -96,47 +98,30 @@ Pastourelle. — Lento. — Forlane.
 a) Prélude Mendelssohn
 b) Arietta variée pour piano, — Mme ROGER-MICLOS..., Haydn
 c) Polonaise en mi bémol Chopin
-
 Les Pécheuses de Procida, tarentelle (redemandée)
 Orchestration de Muller-Berghaus.
-
 Schumann
 b) Fileuse pour piano, — Mme ROGER-MICLOS..., Chaminade
 c) Inquiétude Pfeiffer
-
 Prélude de Rioval (première audition) J-A.Wiernsberger
-
 Fantaisie hongroise pour piano et orchestre, - Mme ROGER-MICLOS. Liszl
 Marche héroïque (à la mémoire d’Henri Regnaulb........000000- Saint-Saëns
-
 Piano de concert de la maison PLEYEL-WOLE & C de Paris, aux soins de MM. DUBACH & (°.
-
 —0 05 O——
-
 PRIX ORDINAIRES DES PLACES — Voitures de tramways pour Carouge el Chéne-Annemasse.
-
- 
-
 DIVMANCEE 24 MARS 1889
 A deux heures après-midi, Matinée Le soir, à huit heures
-
 A PRIX RÉDUITS | A PRIX RÉDUITS
-
 LE PETIT DUC |CARMÉN
-
 Opéra-comique en 3 actes, de Lecocq. | Opéra-comique en 4 actes, de Bizet.
 M"* M. Pirard joucra le rôle du due de Parthenay. ' MM. Séran, Dechesne, Gaultheil, M"° Bouvard.
-
- 
-
 Genève, — Imp. L.-F. Jarrys, Treille, %
-
- 
-
 Ç
 %
-=]]></page>       
-        </p>
+=
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

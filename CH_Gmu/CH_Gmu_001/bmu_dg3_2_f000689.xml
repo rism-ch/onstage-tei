@@ -1,119 +1,108 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert populaire donné par l'Orchestre de la Ville de Genève<date when="21/11/1875"/></title>
-<series>1875-1876</series>
-<placeName>Cathédrale de Saint-Pierre</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert populaire donné par l'Orchestre de la Ville de Genève
+            <date when='21/11/1875'/>
+          </title>
+          <series>1875-1876</series>
+          <placeName>Genève, Cathédrale de Saint-Pierre</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU DG3-2 F000689</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Senger, H. de (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18751121"/>
-<title>Concert populaire donné par l'Orchestre de la Ville de Genève</title>
-<placeName key="Cathédrale de Saint-Pierre"/>
-<name key="1875-1876" type="series"/>
-<name key="Cherubini, Luigi" ref="https://muscat.rism.info/admin/people/50253" type="person" role="cmp">Cherubini, Luigi</name>
-<name key="Mozart, Wolfgang Amadeus" ref="https://muscat.rism.info/admin/people/115324" type="person" role="cmp">Mozart, Wolfgang Amadeus</name>
-<name key="Schubert, Franz" ref="https://muscat.rism.info/admin/people/111603" type="person" role="cmp">Schubert, Franz</name>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Senger, Franz Ludwig Hugo von  (dir.)" ref="https://muscat.rism.info/admin/people/30015297" type="person" role="int">Senger, Franz Ludwig Hugo von  (dir.)</name>
-<name key="Orchestre de la Ville de Genève"  type="person" role="int">Orchestre de la Ville de Genève</name>
-<name key="Bonade"  type="person" role="int">Bonade</name>
-<name key="Sternberg"  type="person" role="int">Sternberg</name>
-<name key="Heidi"  type="person" role="int">Heidi</name>
-<name key="Frigge"  type="person" role="int">Frigge</name>
-<name key="Bierlich"  type="person" role="int">Bierlich</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg3_2_f000689_001.tif"/>
-<page><![CDATA[\ CATHÉDRALE DE SAINT-PIERRE
-
- 
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18751121'/>
+        <title>Concert populaire donné par l'Orchestre de la Ville de Genève</title>
+        <placeName key='Genève, Cathédrale de Saint-Pierre'/>
+        <name key='1875-1876' type='series'/>
+        <name key='Cherubini, Luigi' ref='https://muscat.rism.info/admin/people/50253' type='person' role='cmp'>Cherubini, Luigi</name>
+        <name key='Mozart, Wolfgang Amadeus' ref='https://muscat.rism.info/admin/people/115324' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Schubert, Franz' ref='https://muscat.rism.info/admin/people/111603' type='person' role='cmp'>Schubert, Franz</name>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Senger, Franz Ludwig Hugo von' ref='https://muscat.rism.info/admin/people/30015297' type='person' role='int'>Senger, Franz Ludwig Hugo von</name>
+        <name key='Orchestre de la Ville de Genève' type='person' role='int'>Orchestre de la Ville de Genève</name>
+        <name key='Bonade' type='person' role='int'>Bonade</name>
+        <name key='Sternberg' type='person' role='int'>Sternberg</name>
+        <name key='Heidi' type='person' role='int'>Heidi</name>
+        <name key='Frigge' type='person' role='int'>Frigge</name>
+        <name key='Bierlich' type='person' role='int'>Bierlich</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg3_2_f000689_001.tif'/>
+        <page>
+          <![CDATA[\ CATHÉDRALE DE SAINT-PIERRE
 æ
-
 P ; / à
 - Mimanche 21 Novembre 1855, à trois heures de l’après-midè
-
 CONCERT POPULAIRE
-
 DONNÉ PAR
-
 CORCHESTRE DE LA VILIX DE CENÈM
-
 SOUS LA DIRECTION DE
-
 M. L0GO DE SENCER
-
 PFRÜGRAMME :
-
 PREMIÈRE PARTIE
-
 TT e r L Chérubini.
 2. Larghetto du Quintette pour clarinette, 2 violons, alto et violoncelle, Mozart,
 Exécuté par MM. BoNADE, STERNBERG, HerpL, FriaGE et Bn« RLICH,
- Andante con moto, pour Orchestre, . , . . Schubert,
-
+Andante con moto, pour Orchestre, . , . . Schubert,
 LA
-
 DEUXIÈME PARTIE
-
 pympnome Pastorale, . . . 11 4 4 0 Becthoven,
-
 I. Allo ma non troppo. Sensations douces en arrivant à la Campagne.
 I. Andante molto moto. Scène près du Ruisseau.
 IT. Allegro. a) Réunion joyeuse des Villageois. - B) Éclairs, Orage.
 G) Allegretto. - Chants des Bergers. - Sentiments de Joie et de
 reconnaissance après l’Orage.
-
 =
-
 PRIX DU BILLET : 4 franc, entrée par la povte du Péristyle.
 PLAGES RÉSERVÉES : 2 franes, entrée par \‘\ porte de Kohan.
-
 On peut se procurer des billets chez le Concierge de la Cathédrale et chez tous les marchands de musique.
-
 Pour les places réservées, s’adresser exclusivement au Concierge de la Cathédrale.
-
- 
-
- 
-
 “ Genève - Imprimerie J.-D. Jarrys, rue de la Treille, 4.
-
-E]]></page>       
-        </p>
+E
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

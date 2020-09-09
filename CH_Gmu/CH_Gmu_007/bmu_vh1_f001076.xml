@@ -1,144 +1,112 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par le Corps de musique d'Elite (Fanfare genevoise)<date when="07/03/1909"/></title>
-<series>1908-1909</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par le Corps de musique d'Elite (Fanfare genevoise)
+            <date when='07/03/1909'/>
+          </title>
+          <series>1908-1909</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F001076</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Romain, F. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19090307"/>
-<title>Concert donné par le Corps de musique d'Elite (Fanfare genevoise)</title>
-<placeName key="Victoria Hall"/>
-<name key="1908-1909" type="series"/>
-<name key="Auber, Daniel-François-Esprit" ref="https://muscat.rism.info/admin/people/38000" type="person" role="cmp">Auber, Daniel-François-Esprit</name>
-<name key="Massenet, Jules" ref="https://muscat.rism.info/admin/people/84264" type="person" role="cmp">Massenet, Jules</name>
-<name key="Reyer, Ernest" ref="https://muscat.rism.info/admin/people/46219" type="person" role="cmp">Reyer, Ernest</name>
-<name key="Halévy, Fromental" ref="https://muscat.rism.info/admin/people/40914" type="person" role="cmp">Halévy, Fromental</name>
-<name key="Rossini, Gioachino" ref="https://muscat.rism.info/admin/people/63766" type="person" role="cmp">Rossini, Gioachino</name>
-<name key="Adam, Adolphe" ref="https://muscat.rism.info/admin/people/689" type="person" role="cmp">Adam, Adolphe</name>
-<name key="Meyerbeer, Giacomo" ref="https://muscat.rism.info/admin/people/725" type="person" role="cmp">Meyerbeer, Giacomo</name>
-<name key="Saint-Saëns, Camille" ref="https://muscat.rism.info/admin/people/76734" type="person" role="cmp">Saint-Saëns, Camille</name>
-<name key="Romain"  type="person" role="cmp">Romain</name>
-<name key="Romain, F. (dir.)"  type="person" role="int">Romain, F. (dir.)</name>
-<name key="Corps de musique d'Elite (Fanfare genevoise)"  type="person" role="int">Corps de musique d'Elite (Fanfare genevoise)</name>
-<name key="Rouilly, M.-L."  type="person" role="int">Rouilly, M.-L.</name>
-<name key="Denizot, Ch."  type="person" role="int">Denizot, Ch.</name>
-<name key="Ketten, Léopold"  type="person" role="int">Ketten, Léopold</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001076_001.tif"/>
-<page><![CDATA[Me M-L Rouilly
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19090307'/>
+        <title>Concert donné par le Corps de musique d'Elite (Fanfare genevoise)</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1908-1909' type='series'/>
+        <name key='Auber, Daniel-François-Esprit' ref='https://muscat.rism.info/admin/people/38000' type='person' role='cmp'>Auber, Daniel-François-Esprit</name>
+        <name key='Massenet, Jules' ref='https://muscat.rism.info/admin/people/84264' type='person' role='cmp'>Massenet, Jules</name>
+        <name key='Reyer, Ernest' ref='https://muscat.rism.info/admin/people/46219' type='person' role='cmp'>Reyer, Ernest</name>
+        <name key='Halévy, Fromental' ref='https://muscat.rism.info/admin/people/40914' type='person' role='cmp'>Halévy, Fromental</name>
+        <name key='Rossini, Gioachino' ref='https://muscat.rism.info/admin/people/63766' type='person' role='cmp'>Rossini, Gioachino</name>
+        <name key='Adam, Adolphe' ref='https://muscat.rism.info/admin/people/689' type='person' role='cmp'>Adam, Adolphe</name>
+        <name key='Meyerbeer, Giacomo' ref='https://muscat.rism.info/admin/people/725' type='person' role='cmp'>Meyerbeer, Giacomo</name>
+        <name key='Saint-Saëns, Camille' ref='https://muscat.rism.info/admin/people/76734' type='person' role='cmp'>Saint-Saëns, Camille</name>
+        <name key='Romain' type='person' role='cmp'>Romain</name>
+        <name key='Romain, F.' type='person' role='int'>Romain, F.</name>
+        <name key='Corps de musique d&apos;Elite (Fanfare genevoise)' type='person' role='int'>Corps de musique d'Elite (Fanfare genevoise)</name>
+        <name key='Rouilly, M.-L.' type='person' role='int'>Rouilly, M.-L.</name>
+        <name key='Denizot, Ch.' type='person' role='int'>Denizot, Ch.</name>
+        <name key='Ketten, Léopold' type='person' role='int'>Ketten, Léopold</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001076_001.tif'/>
+        <page>
+          <![CDATA[Me M-L Rouilly
 D—>
-
 ce
-
 uu .
-
-    
-
 — \
 DONNÉ PAR LE
-
 ÉGoRPS DE MUSIQUE D'ÉELITE
-
- 
-
 (Fanfare genevoise)
-
 I)mc11*n F
-
 ROMAIN
-
 avec le gracieux concours de
-
- 
-
 M. Ch. Denizot
-
 WI Leopold Ketten
-
 Contralto Ténoi yfesseur Supérieur au Conservatoire
 (Elèves de M. L Ketten)
 ; ——s
 PROG RAMME
-
 Prem1cär‘e Partie
-
 Le Lac des Fées, ouverture .
-
 Grand Air d'Hérodiade (M. C/h. Denisot)
-
 Salammbô, fantaisie A 18 -
 Grand Air de Charles VI ; W//e Rouilly)
-
 Cavatine du Barbier de Séville, p'cornet solo (soliste :
-
 AUBER:
 MASSENET.
 REYER.
 HALÉVY.
-
 M. Helaerts\ RossIN:.
-
- 
-
- 
-
 r
-
 E DE A SSDN
-
 C()
-
 26,
-
 ﬂ NÛUVEÂUT
-
- 
-
 VOIR AU DOS LA DÉUXIÈMEB PARTIE
-
-      
- 
-
- 
-
- 
-
 HUÉULTE BU
 Rue du Marché, Genève
 ; “ =
@@ -177,18 +145,11 @@ Dl , Ses2
 A-SSAA S Ÿ
 DD
 ilbert et Cle, Grand’J2
-
 (NION ARTISTIQUE
-
 20, Rue Général-Dufour — Genève
 FABRIQUE ET RÉPARATIONS
-
 d'instruments de Musique
-
 en tous genres
-
- 
-
 6 Médailles et Diplômes, Genève 1896
 Seule marque suisse récompensée à Paris 1900
 Hors concours, Vevay 1901
@@ -200,115 +161,61 @@ Vendue 180 francs avec 40 productions
 30 MOIS DE CRÉDIT
 & francs par mois — 20 centimes par jour
 DEMANDEZ LES CATALOGUES
-
 Disques double face à aiguille
-
 sonora — àfr.4.50 Homophone à fr. 4.50
 Favorite 5.50 Odéon 6.50
-
 Disque double face à Saphir
 Ultima à fr. 2.25 Aspir à fr. 5—
-
 Le catalogue de ces disques est distribué
 gratuitement.
-
 -ﬂnﬂ-ânâ 2E ﬂ-ﬂ-p-'ﬂ-ﬂ-â-â-â-ﬂ E
-
 J
-
- 
-
-s” vn]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001076_002.tif"/>
-<page><![CDATA[ADAM.
-
+s” vn
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001076_002.tif'/>
+        <page>
+          <![CDATA[ADAM.
 MEYERBEER.
-
 _Samson et Dahla (Wllle Rouilly et M. Ch. Denisot) . . SAINT-SAENS.
-
 MASSENET.
-
 ROMAIN.
-
 uR
-
 ;
-
 fæææäæäææææÆŒÆÆËÆ%ËË%ÆŒÆäÆÆÆ%ŒÆÆÆŒŒA
-
 Piano offert par la Maison Sautier & Jaeger
-
 ; PRIXDES PLACES : Loges et premier rang de la première galerie (numérotées) 2 fr.;
-
 z-de-chaussée et aulres places de la 1'e galerie 4 fr.; seconde galeric 50 cent.
-
 à l’avance aux adresses suivantes: Victoria-Hall; CVase de l’Oncle Tom. rue Bonivard, 2
 - MM. J. Béranger & Cie, (M. Sommer, Suce")rue du Rhône, 92 ; M. E. Fivaz, Terrassière, 9.
-
 $ cur tes de Membre honoraire et de Membre pussif donnent droit à deux entrées, les coupons,
 e Nos 4 et 2, chacun à une entrée. Les enfants au-dessous de 10 ans ,nuwoul demi-place ;
 - d wen sera pus délivré pour la deuxième galerie.
-
- 
-
 ARSAARRAET
-
- 
-
 2 ; _n es
 PRU JN JJ dc pn r ragrge 10 u
-
 NGE . MACHINES A LA
-
 A COUDRE
-
 sn SINGER | SANARITAINE
-
 SINGE MACCTNCEUCIRE { 9, Rue du RhÔH€, q
-
 Les me1lleqres — Les plus simples
 Les plus populaires
-
- 
-
 .. LAYPLUS IMPORTANTE
 "Côﬁâit:jons de paiement très avanta(euses
-
 | Becompte au comptant Maison de Venté par Abonnement
-
 "À"ï_,;v'ÏEXPOSITIONS UNIVERSELLES , en Suisse
 . ; GRANDS PRIX —
 Ë 7 PARIS 1900 — SAINT-LOUIS 190
 65 0 MILAN 1906 J 2 GRANDES FACILITÉS DE PAYEMENTS
-
 POUR
-
 C _ 'g"'-. Si ve . es
 — suceursaies à Genève . | QS lés obets dHabilemens
-
 ' , … 18, Rue du Marché ,
 2 4,* Rue "Pécolat (en face de la G\ran‘de Poste) et d AIÏIGUbIQÏHGHËS
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-Rs]]></page>       
-        </p>
+Rs
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

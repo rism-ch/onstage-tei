@@ -1,163 +1,132 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert [donné par] l'Harmonie nautique : Au profit des Polonais nécessiteux<date when="27/02/1916"/></title>
-<series>1915-1916</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert [donné par] l'Harmonie nautique : Au profit des Polonais
+            nécessiteux
+            <date when='27/02/1916'/>
+          </title>
+          <series>1915-1916</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F001215</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Pieyre, A. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19160227"/>
-<title>Concert [donné par] l'Harmonie nautique : Au profit des Polonais nécessiteux</title>
-<placeName key="Victoria Hall"/>
-<name key="1915-1916" type="series"/>
-<name key="Weber, Carl Maria von" ref="https://muscat.rism.info/admin/people/117485" type="person" role="cmp">Weber, Carl Maria von</name>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Hessler"  type="person" role="cmp">Hessler</name>
-<name key="Liszt, Franz" ref="https://muscat.rism.info/admin/people/107196" type="person" role="cmp">Liszt, Franz</name>
-<name key="Saint-Saëns, Camille" ref="https://muscat.rism.info/admin/people/76734" type="person" role="cmp">Saint-Saëns, Camille</name>
-<name key="Meyerbeer, Giacomo" ref="https://muscat.rism.info/admin/people/725" type="person" role="cmp">Meyerbeer, Giacomo</name>
-<name key="Proch, Heinrich" ref="https://muscat.rism.info/admin/people/29436" type="person" role="cmp">Proch, Heinrich</name>
-<name key="Liszt, Franz" ref="https://muscat.rism.info/admin/people/107196" type="person" role="cmp">Liszt, Franz</name>
-<name key="Mendelssohn Bartholdy, Felix" ref="https://muscat.rism.info/admin/people/88790" type="person" role="cmp">Mendelssohn Bartholdy, Felix</name>
-<name key="Poldini"  type="person" role="cmp">Poldini</name>
-<name key="Schubert, Franz" ref="https://muscat.rism.info/admin/people/111603" type="person" role="cmp">Schubert, Franz</name>
-<name key="Moszkowski, Moritz" ref="https://muscat.rism.info/admin/people/94844" type="person" role="cmp">Moszkowski, Moritz</name>
-<name key="Pieyre, Auguste (dir.)"  type="person" role="int">Pieyre, Auguste (dir.)</name>
-<name key="Harmonie Nautique"  type="person" role="int">Harmonie Nautique</name>
-<name key="Trumbull, Florence"  type="person" role="int">Trumbull, Florence</name>
-<name key="Korwin-Szymanowska (Mme)"  type="person" role="int">Korwin-Szymanowska (Mme)</name>
-<name key="Wend, Otto"  type="person" role="int">Wend, Otto</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001215_001.tif"/>
-<page><![CDATA[v OR T A TIS
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19160227'/>
+        <title>Concert [donné par] l'Harmonie nautique : Au profit des Polonais nécessiteux</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1915-1916' type='series'/>
+        <name key='Weber, Carl Maria von' ref='https://muscat.rism.info/admin/people/117485' type='person' role='cmp'>Weber, Carl Maria von</name>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Hessler' type='person' role='cmp'>Hessler</name>
+        <name key='Liszt, Franz' ref='https://muscat.rism.info/admin/people/107196' type='person' role='cmp'>Liszt, Franz</name>
+        <name key='Saint-Saëns, Camille' ref='https://muscat.rism.info/admin/people/76734' type='person' role='cmp'>Saint-Saëns, Camille</name>
+        <name key='Meyerbeer, Giacomo' ref='https://muscat.rism.info/admin/people/725' type='person' role='cmp'>Meyerbeer, Giacomo</name>
+        <name key='Proch, Heinrich' ref='https://muscat.rism.info/admin/people/29436' type='person' role='cmp'>Proch, Heinrich</name>
+        <name key='Liszt, Franz' ref='https://muscat.rism.info/admin/people/107196' type='person' role='cmp'>Liszt, Franz</name>
+        <name key='Mendelssohn Bartholdy, Felix' ref='https://muscat.rism.info/admin/people/88790' type='person' role='cmp'>Mendelssohn Bartholdy, Felix</name>
+        <name key='Poldini' type='person' role='cmp'>Poldini</name>
+        <name key='Schubert, Franz' ref='https://muscat.rism.info/admin/people/111603' type='person' role='cmp'>Schubert, Franz</name>
+        <name key='Moszkowski, Moritz' ref='https://muscat.rism.info/admin/people/94844' type='person' role='cmp'>Moszkowski, Moritz</name>
+        <name key='Pieyre, Auguste' type='person' role='int'>Pieyre, Auguste</name>
+        <name key='Harmonie Nautique' type='person' role='int'>Harmonie Nautique</name>
+        <name key='Trumbull, Florence' type='person' role='int'>Trumbull, Florence</name>
+        <name key='Korwin-Szymanowska (Mme)' type='person' role='int'>Korwin-Szymanowska (Mme)</name>
+        <name key='Wend, Otto' type='person' role='int'>Wend, Otto</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001215_001.tif'/>
+        <page>
+          <![CDATA[v OR T A TIS
 ——
-
- 
-
- 
-
- 
-
-  
-
 e e Dimanche 27 Février 1916 O
 -—" e O
 C
 I organisé par la Colonie Polonaise de Genève
 4 AU PROFIT
-
 |  DES POLONAIS NÉCESSITEUX
-
 avec le gracieux concours de
-
 Miss FLORENCE TRUMBULL
-
 Première suppléante du Professeur Leschetitzky
-
 @ M“ KORWIN-SZYMANOWSKA
-
 Prima donna de l'Opéra de Lemberg
-
 ‘
 ‘
 Ë et de
 |
-
- 
-
 * L'HARMONIE NAUTIQUE
-
 (Harmonie municipale de la Ville de Genève)
-
 | Sous la direction de M. Auguste PIEYRE, professeur au Conservatoire.
-
 Au piano d’accompagnement ; M. Otto WEND, professeur au Conservatoire.
-
- 
-
- 
-
 —— —— =
-
 i‘
 f’Ï PROGRAMME
-
 ] PREMIÈRE PARTIE
-
- 
-
- 
-
 « PU NDON (onverture) …. ..............… JWoeber
-
 ë Harmonie Nautique.
-
 | 0m e Becthoven
 J; l7) e . 1O Hessler
-
 x c) ST-FRANÇOIS MARCHANT SUR LES
-
 | . prorsR es … Liszl
-
 Ü Miss Trumbull.
 n G ERENNPRESYMPHONIF ... Saint-Saëns
 j a) Adagio - b) Marche-Scherzo - c) Finale.
 ':5‘ Harmonie Nautique.
 | DEUXIÈME PARTIE
-
 ïÎ‘l{ 2 "IRDUPAGE DES HUGUENOTS .… Meyerbeer
-
 £ DENEEIITONS 2111 Proch
-
 â' Mne Szymanowska.
-
 ê PR UES AILES DU @HANT.........…. Mendelssobn- Liszl
 i‘l JS RETE MIGNON .1s Poldini
 j. S RGUIERUTE AU-ROUET ... Schubert-Liszl
 I OR PSODIE N 11e Liszt
 î Miss Trumbull.
-
 ÿ DE BT Moszkowoki
-
 Harmonie Nautique.
-
-H. Jarrys, Genève]]></page>       
-        </p>
+H. Jarrys, Genève
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

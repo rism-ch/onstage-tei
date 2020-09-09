@@ -1,80 +1,85 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par l'Harmonie nautique<date when="27/01/1906"/></title>
-<series>1905-1906</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par l'Harmonie nautique
+            <date when='27/01/1906'/>
+          </title>
+          <series>1905-1906</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F000595</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Bonade, L. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19060127"/>
-<title>Concert donné par l'Harmonie nautique</title>
-<placeName key="Victoria Hall"/>
-<name key="1905-1906" type="series"/>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Boieldieu, Adrien" ref="https://muscat.rism.info/admin/people/23607" type="person" role="cmp">Boieldieu, Adrien</name>
-<name key="Beer"  type="person" role="cmp">Beer</name>
-<name key="Massenet, Jules" ref="https://muscat.rism.info/admin/people/84264" type="person" role="cmp">Massenet, Jules</name>
-<name key="Logeart, G."  type="person" role="cmp">Logeart, G.</name>
-<name key="Flégier, Ange" ref="https://muscat.rism.info/admin/people/60438" type="person" role="cmp">Flégier, Ange</name>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Parès, Gabriël" ref="https://muscat.rism.info/admin/people/30024480" type="person" role="cmp">Parès, Gabriël</name>
-<name key="Bonade, Louis  (dir.)"  type="person" role="int">Bonade, Louis  (dir.)</name>
-<name key="Harmonie Nautique"  type="person" role="int">Harmonie Nautique</name>
-<name key="Hinden, A."  type="person" role="int">Hinden, A.</name>
-<name key="Roesgen (Mlle)"  type="person" role="int">Roesgen (Mlle)</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000595_001.tif"/>
-<page><![CDATA[# VICTORIA-HALL }
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19060127'/>
+        <title>Concert donné par l'Harmonie nautique</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1905-1906' type='series'/>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Boieldieu, Adrien' ref='https://muscat.rism.info/admin/people/23607' type='person' role='cmp'>Boieldieu, Adrien</name>
+        <name key='Beer' type='person' role='cmp'>Beer</name>
+        <name key='Massenet, Jules' ref='https://muscat.rism.info/admin/people/84264' type='person' role='cmp'>Massenet, Jules</name>
+        <name key='Logeart, G.' type='person' role='cmp'>Logeart, G.</name>
+        <name key='Flégier, Ange' ref='https://muscat.rism.info/admin/people/60438' type='person' role='cmp'>Flégier, Ange</name>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Parès, Gabriël' ref='https://muscat.rism.info/admin/people/30024480' type='person' role='cmp'>Parès, Gabriël</name>
+        <name key='Bonade, Louis' type='person' role='int'>Bonade, Louis</name>
+        <name key='Harmonie Nautique' type='person' role='int'>Harmonie Nautique</name>
+        <name key='Hinden, A.' type='person' role='int'>Hinden, A.</name>
+        <name key='Roesgen (Mlle)' type='person' role='int'>Roesgen (Mlle)</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000595_001.tif'/>
+        <page>
+          <![CDATA[# VICTORIA-HALL }
 C haure b Dimanche 27 Janvier 1906 Tm
-
 donné par
-
 L'HARMONIE NAUTIQUE DE GENÈVE
-
 sous la direction de M. LOUIS BONADE
-
 avec le gmcieux concours de
-
 M. A. HINDEN, ténor, élève de Mc BONADE.
-
 ——>c
-
 PREMIÈRE PARTIE
-
 Ouverture de Léonore, n° 3 Becthoven.
 . Cavatine de la Dame blanche Boïeldieu.
 (« Viens, gentille dame… »)
@@ -87,45 +92,32 @@ SECONDE PARTIE
 Le beau Rêve, barcarolle Flégier.
 M. Hinden.
 . Enchantement du Vendredi-Saint R. Wagner.
-
 Allegro militaire Parés.
-
 Accompagnateur : MIle RŒSGKN.
 ——>
-
 PRIX DES PLACES : Loges et premier rang de la première Galerie (numérotés), 2 fr, —
 Rez-de-chaussée et autres places de la première Galerie, 1 fr. — Seconde Galerie, 50 cent,
 MM. les membres non-exécutants ont droit d'entrée à ce concert sur présen-
-
 lalion du coupon m° K aux places du rez-de-chaussée et de la première galerie,
-
 a ll‘.'!,‘l‘(!]}ll()l! du premier rang et des loges, auxquels ils ont droit moyennant un
-
 supplément de 1 fr. Les enfants au-dessous dé dix ans paieront demi-place, Il ne sera
-
 pas délivré de demi-places pour la seconde galerie.
 Dès ce jour, cartes à l’avance de 9 à 6 h, au Victoria-Hall.
 Prière de ne pas entrer pendant l'exécution des morceaux. — BUFFET an rez de-chaussée,
-
 = —©+ cH © @— -
 — —
-
 GENÈVE. — IMP.JARRYS.
-
 w. s. v.p.
-
- 
-
 !
-
 ©
-
-[]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f000595_002.tif"/>
-<page><![CDATA[v © L
+[
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f000595_002.tif'/>
+        <page>
+          <![CDATA[v © L
 n 1X
 ÛN ”
-
 | Cours d’Instruments
 |
 ] DE î
@@ -140,28 +132,22 @@ Q Ph Flâte. b
 lesre s… Solfège. ‘
 M 1 5 Basson.
 ;L Prix des cours de solfège Fcuivres, clarinettes, saxophones :
-
 5 fr. par mois.
-
 ——l __4.*. =
-
 Les jeunes gens désireux de suivre ces cours peu-
 | vent s'inscriré tous les jours, auprès du Concierge du
 | Victoria-Hall.
-
- 
-
 $ Ÿ
 (U Q DE E SE SS E e N T S — 1G
-
 707 e
 AVIS. — Pour être reçu membre non-exécutant de l’Harmonie
-
 Nautique on peut s’inscrire tous les jours chez le Concierge du
 Victoria-Hall ou par lettre adressée au Comité; le prix de la carte
 est de S fr. par an et donne droit à deux entrées pour chaque
-concert donné par l’Harmonie Nautique.]]></page>       
-        </p>
+concert donné par l’Harmonie Nautique.
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

@@ -1,492 +1,362 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Grand concert de gala ; Soirée musicale, littéraire et dansante : A l'occasion du 75e anniversaire de la fondation [de la Musique municipale de la Ville de Genève (Union instrumentale genevoise)]<date when="25/11/1938"/></title>
-<series>1938-1939</series>
-<placeName>Victoria Hall ; Kursaal</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Grand concert de gala ; Soirée musicale, littéraire et dansante : A
+            l'occasion du 75e anniversaire de la fondation [de la Musique
+            municipale de la Ville de Genève (Union instrumentale genevoise)]
+            <date when='25/11/1938'/>
+            <date when='27/11/1938'/>
+          </title>
+          <series>1938-1939</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <placeName>Genève, Kursaal</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F003013</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Bodet, F. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19381125
-19381127"/>
-<title>Grand concert de gala ; Soirée musicale, littéraire et dansante : A l'occasion du 75e anniversaire de la fondation [de la Musique municipale de la Ville de Genève (Union instrumentale genevoise)]</title>
-<placeName key="Victoria Hall ; Kursaal"/>
-<name key="1938-1939" type="series"/>
-<name key="Glazunov, Aleksandr Konstantinovič" ref="https://muscat.rism.info/admin/people/30015584" type="person" role="cmp">Glazunov, Aleksandr Konstantinovič</name>
-<name key="Rimskij-Korsakov, Nikolaj Andreevič" ref="https://muscat.rism.info/admin/people/55357" type="person" role="cmp">Rimskij-Korsakov, Nikolaj Andreevič</name>
-<name key="Liadow, A."  type="person" role="cmp">Liadow, A.</name>
-<name key="Gabrieli, Giovanni"  type="person" role="cmp">Gabrieli, Giovanni</name>
-<name key="Albéniz, Isaac" ref="https://muscat.rism.info/admin/people/30016275" type="person" role="cmp">Albéniz, Isaac</name>
-<name key="Moszkowski, Moritz" ref="https://muscat.rism.info/admin/people/94844" type="person" role="cmp">Moszkowski, Moritz</name>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Chopin, Fryderyk Franciszek" ref="https://muscat.rism.info/admin/people/51160" type="person" role="cmp">Chopin, Fryderyk Franciszek</name>
-<name key="Weber, Carl Maria von" ref="https://muscat.rism.info/admin/people/117485" type="person" role="cmp">Weber, Carl Maria von</name>
-<name key="Kreisler"  type="person" role="cmp">Kreisler</name>
-<name key="Strauß, Johann" ref="https://muscat.rism.info/admin/people/132082" type="person" role="cmp">Strauß, Johann</name>
-<name key="Offenbach, Jacques" ref="https://muscat.rism.info/admin/people/111831" type="person" role="cmp">Offenbach, Jacques</name>
-<name key="Kalmann, E."  type="person" role="cmp">Kalmann, E.</name>
-<name key="Waldteufel, Emile" ref="https://muscat.rism.info/admin/people/30005460" type="person" role="cmp">Waldteufel, Emile</name>
-<name key="Schubert, Franz" ref="https://muscat.rism.info/admin/people/111603" type="person" role="cmp">Schubert, Franz</name>
-<name key="Jessel, L."  type="person" role="cmp">Jessel, L.</name>
-<name key="Sauer, E. , Rachmaninov, Sergej Vasil'evič" ref="https://muscat.rism.info/admin/people/32447" type="person" role="cmp">Sauer, E. , Rachmaninov, Sergej Vasil'evič</name>
-<name key="Giudici, Marcel"  type="person" role="cmp">Giudici, Marcel</name>
-<name key="Bodet, Francis (dir.)"  type="person" role="int">Bodet, Francis (dir.)</name>
-<name key="Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)"  type="person" role="int">Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)</name>
-<name key="Section fédérale de gymnastique Genève-Ville"  type="person" role="int">Section fédérale de gymnastique Genève-Ville</name>
-<name key="Capoulade, François"  type="person" role="int">Capoulade, François</name>
-<name key="Graebner, Alice"  type="person" role="int">Graebner, Alice</name>
-<name key="Orloff, Maroussia"  type="person" role="int">Orloff, Maroussia</name>
-<name key="Pasche, Jean-Marc"  type="person" role="int">Pasche, Jean-Marc</name>
-<name key="Rippl, Maurice"  type="person" role="int">Rippl, Maurice</name>
-<name key="Viani, G."  type="person" role="int">Viani, G.</name>
-<name key="Gaillepand, G."  type="person" role="int">Gaillepand, G.</name>
-<name key="Pignolo, R."  type="person" role="int">Pignolo, R.</name>
-<name key="Silbermann (Mlle)"  type="person" role="int">Silbermann (Mlle)</name>
-<name key="Bavaud, A."  type="person" role="int">Bavaud, A.</name>
-<name key="Duchâble, A."  type="person" role="int">Duchâble, A.</name>
-<name key="Baechler, G."  type="person" role="int">Baechler, G.</name>
-<name key="Godet, E."  type="person" role="int">Godet, E.</name>
-<name key="Borghans, E."  type="person" role="int">Borghans, E.</name>
-<name key="Jazz Devils"  type="person" role="int">Jazz Devils</name>
-<name key="Morand, G."  type="person" role="int">Morand, G.</name>
-<name key="Baud (Mme)"  type="person" role="int">Baud (Mme)</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003013_001.tif"/>
-<page><![CDATA[Musique Municipale de là Ville de Genève
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19381125'/>
+        <date when='19381127'/>
+        <title>
+          Grand concert de gala ; Soirée musicale, littéraire et dansante : A
+          l'occasion du 75e anniversaire de la fondation [de la Musique
+          municipale de la Ville de Genève (Union instrumentale genevoise)]
+        </title>
+        <placeName key='Genève, Victoria Hall'/>
+        <placeName key='Genève, Kursaal'/>
+        <name key='1938-1939' type='series'/>
+        <name key='Glazunov, Aleksandr Konstantinovič' ref='https://muscat.rism.info/admin/people/30015584' type='person' role='cmp'>Glazunov, Aleksandr Konstantinovič</name>
+        <name key='Rimskij-Korsakov, Nikolaj Andreevič' ref='https://muscat.rism.info/admin/people/55357' type='person' role='cmp'>Rimskij-Korsakov, Nikolaj Andreevič</name>
+        <name key='Liadow, A.' type='person' role='cmp'>Liadow, A.</name>
+        <name key='Gabrieli, Giovanni' type='person' role='cmp'>Gabrieli, Giovanni</name>
+        <name key='Albéniz, Isaac' ref='https://muscat.rism.info/admin/people/30016275' type='person' role='cmp'>Albéniz, Isaac</name>
+        <name key='Moszkowski, Moritz' ref='https://muscat.rism.info/admin/people/94844' type='person' role='cmp'>Moszkowski, Moritz</name>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Chopin, Fryderyk Franciszek' ref='https://muscat.rism.info/admin/people/51160' type='person' role='cmp'>Chopin, Fryderyk Franciszek</name>
+        <name key='Weber, Carl Maria von' ref='https://muscat.rism.info/admin/people/117485' type='person' role='cmp'>Weber, Carl Maria von</name>
+        <name key='Kreisler' type='person' role='cmp'>Kreisler</name>
+        <name key='Strauß, Johann' ref='https://muscat.rism.info/admin/people/132082' type='person' role='cmp'>Strauß, Johann</name>
+        <name key='Offenbach, Jacques' ref='https://muscat.rism.info/admin/people/111831' type='person' role='cmp'>Offenbach, Jacques</name>
+        <name key='Kalmann, E.' type='person' role='cmp'>Kalmann, E.</name>
+        <name key='Waldteufel, Emile' ref='https://muscat.rism.info/admin/people/30005460' type='person' role='cmp'>Waldteufel, Emile</name>
+        <name key='Schubert, Franz' ref='https://muscat.rism.info/admin/people/111603' type='person' role='cmp'>Schubert, Franz</name>
+        <name key='Jessel, L.' type='person' role='cmp'>Jessel, L.</name>
+        <name key='Sauer, E. , Rachmaninov, Sergej Vasil&apos;evič' ref='https://muscat.rism.info/admin/people/32447' type='person' role='cmp'>Sauer, E. , Rachmaninov, Sergej Vasil'evič</name>
+        <name key='Giudici, Marcel' type='person' role='cmp'>Giudici, Marcel</name>
+        <name key='Bodet, Francis' type='person' role='int'>Bodet, Francis</name>
+        <name key='Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)' type='person' role='int'>Union instrumentale genevoise (Fanfare municipale de la Ville de Genève)</name>
+        <name key='Section fédérale de gymnastique Genève-Ville' type='person' role='int'>Section fédérale de gymnastique Genève-Ville</name>
+        <name key='Capoulade, François' type='person' role='int'>Capoulade, François</name>
+        <name key='Graebner, Alice' type='person' role='int'>Graebner, Alice</name>
+        <name key='Orloff, Maroussia' type='person' role='int'>Orloff, Maroussia</name>
+        <name key='Pasche, Jean-Marc' type='person' role='int'>Pasche, Jean-Marc</name>
+        <name key='Rippl, Maurice' type='person' role='int'>Rippl, Maurice</name>
+        <name key='Viani, G.' type='person' role='int'>Viani, G.</name>
+        <name key='Gaillepand, G.' type='person' role='int'>Gaillepand, G.</name>
+        <name key='Pignolo, R.' type='person' role='int'>Pignolo, R.</name>
+        <name key='Silbermann (Mlle)' type='person' role='int'>Silbermann (Mlle)</name>
+        <name key='Bavaud, A.' type='person' role='int'>Bavaud, A.</name>
+        <name key='Duchâble, A.' type='person' role='int'>Duchâble, A.</name>
+        <name key='Baechler, G.' type='person' role='int'>Baechler, G.</name>
+        <name key='Godet, E.' type='person' role='int'>Godet, E.</name>
+        <name key='Borghans, E.' type='person' role='int'>Borghans, E.</name>
+        <name key='Jazz Devils' type='person' role='int'>Jazz Devils</name>
+        <name key='Morand, G.' type='person' role='int'>Morand, G.</name>
+        <name key='Baud (Mme)' type='person' role='int'>Baud (Mme)</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003013_001.tif'/>
+        <page>
+          <![CDATA[Musique Municipale de là Ville de Genève
 (Union Instrumentale Gencvoise)
-
 1863 - 1938
-
 G lH…PA\\\N\ WD UIF l…HES\HNÎ l……\\\VA\\IML
-
 Oc Ccas | |on
-
 75c annivcrsairc
 25, 26, 27 novembre 1938
-
 PROGRANVE
-
-Prix : 0,20 ct.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003013_002.tif"/>
-<page><![CDATA[Pour vos déplacements d’affaires et d’agrément,
+Prix : 0,20 ct.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003013_002.tif'/>
+        <page>
+          <![CDATA[Pour vos déplacements d’affaires et d’agrément,
 où que vous alliez,
-
-    
-  
-   
-   
- 
-  
-  
-  
- 
- 
-  
-   
-   
- 
-
 EN SUISSE,
 A Ll'ÉTRANGER
 OU OUTRE-MER
-
 n’importe quel que soit le moyen de locomotion
 que vous employez, adressez-vous toujours à |
-
 l’'Agence de Voyages | . |
-
 S. A. DANZAS & C*
-
 Gare Cornavin l
 GENEÈVE l
 Téléphone 2.64.19 |
-
 |
-
- 
-
- 
-
- 
-
- 
-
 Ameublement
 Rideaux - Literie
-
- 
-
 ; Au Mobilier Moderne
 F. KRANCK
-
 Rue Berthelier, 2-4 Rue Winkelried, !
-
 GENÈVE |
 Téléph. 2.31.09 |
-
-  
-
-Exposition Hôtel des Bergues]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003013_003.tif"/>
-<page><![CDATA[Union Instrumentale Genevoise
+Exposition Hôtel des Bergues
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003013_003.tif'/>
+        <page>
+          <![CDATA[Union Instrumentale Genevoise
 Musique Municipale de la Ville de Genève
-
 15*  ANNIVERSAIRE DE SA FONDATION
-
 Vendredi 25 novembre 1938
 Victoria-Hall, à 20h. 30
-
 Grand Concert de Gala
-
 sous la direction de .\Ïuvnlr ir
 Francis BODET
 ( prix du Conservatoire de Paris)
-
 avec le concours de
-
 M. François CAPOULADE, 1 violon-solo de l'Orchestre Romand
 et de M Alice GRÆBNER, planiste
-
 Samedi 26 novembre 1938
 Kursaal, à 20 h. 30
-
 Soirée musicale, littéraire
 et dansante
-
 avec le gracieux concours de
-
 M"° Maroussia ORLOFF, pianiste
 M. Jean-Marc PASCHE, pianiste, de Radio-Genève
-
 de la Section fédérale de gymnastique « GENEVE-VILLE »
 Moniteurs : MM. KNEUSS et THOENI
-
 de M"* A. BAVAUD et C. SILBERMANN
 de MM. A. BAVAUD, G. BÆCHLER, A. et E. DUCHABLE,
 E. GODET, E. BORGHANS, de l'Association lyrique de Genève
-
 de M. R. P|(}NUI.O, chef d’'orchestre
 de M" S()URAY/\, danseuse étoile
-
 BAL
-
-conduit par le Jazz DEVILS]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003013_004.tif"/>
-<page><![CDATA[Vendredi 25 novembre 1938
+conduit par le Jazz DEVILS
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003013_004.tif'/>
+        <page>
+          <![CDATA[Vendredi 25 novembre 1938
 Victoria-Hall, à 20 h. 30
-
-   
-
 CONCERE DE GALA
-
 S
-
- 
-
 PREMIÈRE PARTIE
-
 Les Fanfares exécutées au Jubilé de
 N. Rimsky-Korsakow
 le 22 décembre 1890 à Saint-Pétersbourg.
 a) Allegretto A. Liadow c) Moderato scherzando
 b) Moderato A. Liadow d) Allegretto
-
 e) 7rhl'ﬂ1l‘ russe, {\‘lU(ir'r{l[0 arr. par (;1L110llﬂ0ll'
-
 Sonata pian e forte, (1'® audition)
 I)(‘UÏ KiUlll)lt' l)[\‘h( stre (]K' cuivres,
-
 Œluvre originale composée pour le titre « Sacrae Sympho-
 nica » en 1597 ; l'une des plus remarquables du Maître
 vénitien.
-
 a) Jota-Aragonaise
-
 b)'Guitare . e
 M. François CAPOULADE, violoniste
 Au piano : Mlle Alice Græbner
-
 Ouverture de « Tannhauser »
 Cornet solo: M. P. Gaillepand.
 Opéra en 3 actes créé à Dresde le 19 octobre 1845 ;
 l’ouverture contiert en raccourci tout le résumé du drame :
 d'ﬂhÛfd ll' fdn\k'\l‘ k'h(l’\lf (lP.\ !)(.'ll‘Ïinﬁ, Plli$ lk' n]0'if dU
 Vénusberg et enfin l'Hymne à Vénus.
-
 DEUXIÈME PARTIE
-
 Polonaise N° 4
-
 Œuvre écrite originalement pour piano, inspirée des mélo-
 dies et rythmes de la Pologne et d'une étonnante puis-
 sance évocatrice.
-
 Invitation à la Valse
 Basse solo : Maurice Rippl
 Œuvre écrite originalement pour piano en 1819 où l’on
 retrouve toute l’élégance de race de son auteur : la dis-
 tinction.
-
 a) Tambourin chinois -
 b) Schon Rosmarin
-
 M. F. CAPOULADE
-
 Au piano : Mlle A. Græbner
-
 Ouverture de « La Chauve Souris »
 Saxophone soprano solo : M. G. Viani
 Opérette créée en 1874, remaniée sous le titre « La
 Ïznganc ), représentée à Paris en 1877.
-
 A. Glazounow
 A. Liadow
-
 Giovanni Gabrieli .
 1557-1612
-
 Albeniz |
 Moskowsky |
-
 R. Wagner
 1813-1883
-
 F. Chopin
 1809-1849
-
 C.-M. Weber .
 1786-1826
-
 Kreisler
-
 Kreisler
-
 J Strauss
-1825-1899]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003013_005.tif"/>
-<page><![CDATA[Samedi 26 novembre 1938
+1825-1899
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003013_005.tif'/>
+        <page>
+          <![CDATA[Samedi 26 novembre 1938
 Kursaal de Genève
-
 GPAND FF
-
 PREMIÈÉRE PARTIE
-
 - |. a) Ouverture d’Orphée aux enfers
 Saxophone soprano solo M. G. Viani; Cornet |
 M. G. Gaillepand ; Basse solo: M. M. Rippl
 b) Princesse Czardas
 Fantaisie-sélection sur les motifs de la célèbre opérette
-
 }
-
 (Musique Municipale)
-
 2.  Exercices aux barres parallèles et à la barre fixe
 (Section de Genève-Ville)
-
 >. a) La Valse des Patineurs
 b) Moment Musical . .
 Danse : M Sc Piano d'ac« ompagnem. : M.R
-
 4. Parade des soldats de bois
-
 Section de Genève-Ville (moniteur M
 de la Musique Municipale
-
 juraya ;
-
 l'hoeni) et un grou
-
 5. a) Légendes de la forêt viennoise
 (Transcription W. Rehberg)
 b) Boîte à musique
 c) Tarentelle
 es 2 cfenrse M
-
 >
 Pianos gracieusement prétés
-
 Maroussia Orloff et l an-Marc Pasche )
 par la Maison Sautier & lu-,h r
-
 6. Massues lumineuses
-
 Section de Genève-Ville (moniteur : M. Kneuss
 la Musique Municipale
-
 DEUXIÈME
-
 UN TRÉSOE
-
 Sketch music al en de
-
 PARTIE
-
 1x tableaux de Marcel GIUDIC ]
 DISTRIBUTION
 ', |4l||r ; femme de ] intouin  .\|l ermann Le c abinotier
 La vendeuse de programme M"* À. Bavaud Ronron
 l'intouin M.A. Duchâble Dutron
 Armand M. A. Bavaud l e garçon de cafe
-
 EESHTEVAIE
-
 /_ ()[/«"!/M/l h
-
 ! Kalmann
-
 Waldteufel
 Schubert
-
 L. Jessel
-
 /. Strauss
-
 / .Ÿzlll( ï
 Rachmaninof}
-
 PIN CACHE
-
 M. G. Bæchler
 M.E. Duchâble
 M. E. Godet
-
 M. E. Borghan
-
 Mise en scène de M. Claude ALAIN, professeur au Conservatoire
 Orchestre sous la direction de M. R. PIGNOL@
-
 À 23 h. 45
-
 GRAND BAL
-
 DEVILS “
 MORAND et M
-
 Orchestre ’JAZZ
-
 avec l“ concours (lll l’ÏU[. (|
-
- 
-
-BAUD, élève.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003013_006.tif"/>
-<page><![CDATA[Programme général
-
+BAUD, élève.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003013_006.tif'/>
+        <page>
+          <![CDATA[Programme général
 des manifestations
 du 75° Anniversaire
-
- 
-
 Vendredi 25 novembre
-
 Réception des délégués.
-
 20 h. 30  Victoria - Hall : Grand
 Concert de Gala.
-
 Samedi 26 novembre
-
 Réception des délégués.
-
 20 h. 30 Kursaal de Genève: Grand
 I-—()5ti       
         </p>
     </body>
   </text>
 </TEI>dl ,
-
 23 h. 30 Réception des délégués au
 Foyer ;
-
 23 h. 45 Bal du 75°.
-
 Dimanche 27 novembre
-
 Réception des délégués.
-
 11 h. 30 Apéritif d’Honneur au
 local (Ecole de Mala-
 gnou).
-
 12‘h. 30 Dépdrt du cortège, avec
 Délégations et Sociétés
 amies.
-
 192hE Banquvt officiel (Sa”c des
 Rois) rue du Stand.
-
- 
-
 M. Francis BODET
-
 Directeur
-
- 
-
-  
-
 p
-
 7 d
 e
-
 M .* Henri MULLER
 Offcier-Président
-
 Comité actuel :
-
 Président :
-
 Henri MULLER ;
 Vice-Présidents :
-
 Philippe, ALBERT ;
-
 MauriceRIPPL.
 Trésorier :
-
 Jérôme MARCONI.
-
 Secrétaire général : .
-
 Aristide TEMPIA.
 Membres :
-
 Paul BRASIER ; Ruben BUS-
 SIEN ; Edouard CARRIÈRE ;
 Jean DUVILLARD ; Paul
@@ -496,73 +366,50 @@ Paul HŒGEN ; Edmond JOLY ;
 Fernand MONNIER ; John
 ROCHAT ; André ROIT-
 STEIN.
-
 Directeur :
-
-Francis BODET.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003013_007.tif"/>
-<page><![CDATA[Ouvert au public
-
-   
-     
-   
-    
-   
-  
-  
-     
-
+Francis BODET.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003013_007.tif'/>
+        <page>
+          <![CDATA[Ouvert au public
 Le Caïé-Restaurant de l’Arquebuse
-
 vous offre, dans son cadre
-
 charmant, menus soignés,
-
 cave de qualité, à des prix
 modérés
-
 SALLES POUR BANQUETS DE NOCES ET DE SOCIÉTÉS
-
 Rue du Stand, 36
-
 1l ÉLÉPHONE 4.99.93
-
 REBSAMEN
-
 Marchand-Tailleur
-
 @ OM Es s707>15
 IN © -M E S
-
 Draperies anglaises
-
-11, boulevard James-Fazy, 11]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003013_008.tif"/>
-<page><![CDATA[/"
-
+11, boulevard James-Fazy, 11
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003013_008.tif'/>
+        <page>
+          <![CDATA[/"
 j
 ä
-
 —-
-
 =l
-
 ZE
-
 20
-
 SOCIÉTÉ DE
 BANQUE SUISSE
 Fondée en 1872
 Capital-Actions et Réserves : Fr. 193 millions
 GENÈVE, 2, rue de la Confédération
-
 Cornavin Eaux-Vives
 Plainpalais Carouge
-
 Toutes opérations de banque et de
-change aux meilleures conditions]]></page>       
-        </p>
+change aux meilleures conditions
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

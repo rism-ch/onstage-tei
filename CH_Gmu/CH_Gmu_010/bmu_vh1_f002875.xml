@@ -1,57 +1,70 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Neuvième concert donné pour la jeunesse<date when="27/01/1933"/></title>
-<series>1932-1933</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Neuvième concert donné pour la jeunesse
+            <date when='27/01/1933'/>
+          </title>
+          <series>1932-1933</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002875</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Ansermet, E. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19330127"/>
-<title>Neuvième concert donné pour la jeunesse</title>
-<placeName key="Victoria Hall"/>
-<name key="1932-1933" type="series"/>
-<name key="Händel, Georg Friedrich" ref="https://muscat.rism.info/admin/people/36552" type="person" role="cmp">Händel, Georg Friedrich</name>
-<name key="Haydn, Joseph" ref="https://muscat.rism.info/admin/people/55803" type="person" role="cmp">Haydn, Joseph</name>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Ansermet, Ernest  (dir.)" ref="https://muscat.rism.info/admin/people/40219507" type="person" role="int">Ansermet, Ernest  (dir.)</name>
-<name key="Orchestre de la Suisse Romande" ref="https://muscat.rism.info/admin/people/50007615" type="person" role="int">Orchestre de la Suisse Romande</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002875_001.tif"/>
-<page><![CDATA[{ ;
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19330127'/>
+        <title>Neuvième concert donné pour la jeunesse</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1932-1933' type='series'/>
+        <name key='Händel, Georg Friedrich' ref='https://muscat.rism.info/admin/people/36552' type='person' role='cmp'>Händel, Georg Friedrich</name>
+        <name key='Haydn, Joseph' ref='https://muscat.rism.info/admin/people/55803' type='person' role='cmp'>Haydn, Joseph</name>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Ansermet, Ernest' ref='https://muscat.rism.info/admin/people/40219507' type='person' role='int'>Ansermet, Ernest</name>
+        <name key='Orchestre de la Suisse Romande' ref='https://muscat.rism.info/admin/people/50007615' type='person' role='int'>Orchestre de la Suisse Romande</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002875_001.tif'/>
+        <page>
+          <![CDATA[{ ;
 q ASSOCIATION DES CONCERTS POUR LA JEUNESSE
 |
 | SOUS LE PATRONAGE DE L'UNION INTERNATIONALE
@@ -60,92 +73,51 @@ H et
 nl ,
 ' { SOUS LES AUSPICES DU DÉPARTEMENT
 H DE L'INSTRUCTION PUBLIQUE, A GENÈVE
-
 |
 |
 |
-
 avec le concours de
-
 sous la direction de
-
 M. Ernest ANSERMET
-
- 
-
 VICTORIA:-HALI
-
 (oblîgeamment prêté par la Ville de Genève)
-
 Vendredi 27 janvier 1933, à 16 h. 30 précises
-
- 
-
- 
-
- 
-
- NEUVIÈME CONCERT.
+NEUVIÈME CONCERT.
 PBOUR A JFUNESSF
-
-1’Orcllestre (l€ lfl SlliSS€ ROI‘D&HCl€]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002875_002.tif"/>
-<page><![CDATA[|
+1’Orcllestre (l€ lfl SlliSS€ ROI‘D&HCl€
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002875_002.tif'/>
+        <page>
+          <![CDATA[|
 |
-
- 
-
- 
-
- 
-
 c
-
 Pl‘("Sl‘.“l mme
-
 1. Concerto grosso en ré mnjcur (cxtmils)
-
 Introduction ; Largo ; Presto.
-
 2. Symp]xonîc (n° 5) crreemaçetm 1-
-
 Adagio - Allegro assai ; Largo cantabile ;
-
 Allcgrclto; Presto, ma non troppo.
-
 S. “Ouverture de Fidelio. ... e cUE .
-
 G.-F. IÏ[i…I«[
-
 Ne à Ilalle le 25 février 1685.
-
 Mort à Londres le 14 avril 1759.
-
 H
-
 Né à Rohrau le 51 mars 1732.
 Mort à Vienne le 31 mai 1809.
-
 L- van B.'«‘f /Hrl'l’ll
-
 Né Z‘l læ()llll lk‘ l() dt‘Cllllbl(‘ |77(L
-
 Mort à Vienne le 20 mars 1527.
-
 Le silence absolu est de rigueur pendant l'exécution des œuvres
-
 et au cours des explications données
-
 par M. Ansermet.
-
 Pendant ce même temps les portes seront fermées.
-
 Ne sont admis que les élèves des écoles porteurs de billets
-
 et le personnel enscignant délégué à la surveillance.
-
-L'accès de la salle est interdit au public.]]></page>       
-        </p>
+L'accès de la salle est interdit au public.
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

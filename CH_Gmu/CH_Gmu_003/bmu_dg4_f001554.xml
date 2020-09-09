@@ -1,78 +1,84 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Audition de quelques élèves de violon donnée par M. le professeur Louis Rey<date when="01/06/1893"/></title>
-<series>1892-1893</series>
-<placeName>Casino de Saint-Pierre</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Audition de quelques élèves de violon donnée par M. le professeur
+            Louis Rey
+            <date when='01/06/1893'/>
+          </title>
+          <series>1892-1893</series>
+          <placeName>Genève, Casino de Saint-Pierre</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU DG4 F001554</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt> </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18930601"/>
-<title>Audition de quelques élèves de violon donnée par M. le professeur Louis Rey</title>
-<placeName key="Casino de Saint-Pierre"/>
-<name key="1892-1893" type="series"/>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Nardini, Pietro" ref="https://muscat.rism.info/admin/people/89002" type="person" role="cmp">Nardini, Pietro</name>
-<name key="Bach, Johann Sebastian" ref="https://muscat.rism.info/admin/people/2539" type="person" role="cmp">Bach, Johann Sebastian</name>
-<name key="Sarasate, Pablo de" ref="https://muscat.rism.info/admin/people/30019733" type="person" role="cmp">Sarasate, Pablo de</name>
-<name key="Viotti, Giovanni Battista" ref="https://muscat.rism.info/admin/people/144451" type="person" role="cmp">Viotti, Giovanni Battista</name>
-<name key="Wieniawski, Henryk" ref="https://muscat.rism.info/admin/people/137176" type="person" role="cmp">Wieniawski, Henryk</name>
-<name key="Golmark, Carl"  type="person" role="cmp">Golmark, Carl</name>
-<name key="Saint-Saëns, Camille" ref="https://muscat.rism.info/admin/people/76734" type="person" role="cmp">Saint-Saëns, Camille</name>
-<name key="Brahms, Johannes" ref="https://muscat.rism.info/admin/people/39914" type="person" role="cmp">Brahms, Johannes</name>
-<name key="Joachim"  type="person" role="cmp">Joachim</name>
-<name key="Bloch, Ernest" ref="https://muscat.rism.info/admin/people/30081166" type="person" role="int">Bloch, Ernest</name>
-<name key="Barbault, P."  type="person" role="int">Barbault, P.</name>
-<name key="Haas, R."  type="person" role="int">Haas, R.</name>
-<name key="Hausamann, M."  type="person" role="int">Hausamann, M.</name>
-<name key="Pochon, A."  type="person" role="int">Pochon, A.</name>
-<name key="Chavin, M."  type="person" role="int">Chavin, M.</name>
-<name key="Favre, Ed."  type="person" role="int">Favre, Ed.</name>
-<name key="Christen, E."  type="person" role="int">Christen, E.</name>
-<name key="Delisle, Marguerite"  type="person" role="int">Delisle, Marguerite</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f001554_001.tif"/>
-<page><![CDATA[_/_Ûîfi un SHGô,
-
- 
-
- 
-
- 
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18930601'/>
+        <title>Audition de quelques élèves de violon donnée par M. le professeur Louis Rey</title>
+        <placeName key='Genève, Casino de Saint-Pierre'/>
+        <name key='1892-1893' type='series'/>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Nardini, Pietro' ref='https://muscat.rism.info/admin/people/89002' type='person' role='cmp'>Nardini, Pietro</name>
+        <name key='Bach, Johann Sebastian' ref='https://muscat.rism.info/admin/people/2539' type='person' role='cmp'>Bach, Johann Sebastian</name>
+        <name key='Sarasate, Pablo de' ref='https://muscat.rism.info/admin/people/30019733' type='person' role='cmp'>Sarasate, Pablo de</name>
+        <name key='Viotti, Giovanni Battista' ref='https://muscat.rism.info/admin/people/144451' type='person' role='cmp'>Viotti, Giovanni Battista</name>
+        <name key='Wieniawski, Henryk' ref='https://muscat.rism.info/admin/people/137176' type='person' role='cmp'>Wieniawski, Henryk</name>
+        <name key='Golmark, Carl' type='person' role='cmp'>Golmark, Carl</name>
+        <name key='Saint-Saëns, Camille' ref='https://muscat.rism.info/admin/people/76734' type='person' role='cmp'>Saint-Saëns, Camille</name>
+        <name key='Brahms, Johannes' ref='https://muscat.rism.info/admin/people/39914' type='person' role='cmp'>Brahms, Johannes</name>
+        <name key='Joachim' type='person' role='cmp'>Joachim</name>
+        <name key='Bloch, Ernest' ref='https://muscat.rism.info/admin/people/30081166' type='person' role='int'>Bloch, Ernest</name>
+        <name key='Barbault, P.' type='person' role='int'>Barbault, P.</name>
+        <name key='Haas, R.' type='person' role='int'>Haas, R.</name>
+        <name key='Hausamann, M.' type='person' role='int'>Hausamann, M.</name>
+        <name key='Pochon, A.' type='person' role='int'>Pochon, A.</name>
+        <name key='Chavin, M.' type='person' role='int'>Chavin, M.</name>
+        <name key='Favre, Ed.' type='person' role='int'>Favre, Ed.</name>
+        <name key='Christen, E.' type='person' role='int'>Christen, E.</name>
+        <name key='Delisle, Marguerite' type='person' role='int'>Delisle, Marguerite</name>
+        <name key='Okromtchedell, G.' type='person' role='int'>Okromtchedell, G.</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f001554_001.tif'/>
+        <page>
+          <![CDATA[_/_Ûîfi un SHGô,
 ,
 ‘
 ‘ P
@@ -90,41 +96,31 @@ e ;
 1108
 | î
 |
-B]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f001554_002.tif"/>
-<page><![CDATA[< “ «
+B
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f001554_002.tif'/>
+        <page>
+          <![CDATA[< “ «
 F'RZ&_N_ÏDE )SÀLLE DU PJ\S£NO DE P.À_IN_T—ÎÂERRIË
-
 EN S ——n es
-
 AUDITION DE QUELQUES ELEVES DE VIOLON
-
 donnée par M. le professeur LOUIS REY
-
 e-=
-
 = n—, —
-
 SevupIi 1” JUIN 1895 & 2 HEURES PRÉCISHS
-
 e
-
 —( < PROGRAMME
-
 l
 |
 @
-
 ynpioniens p 18 17 . “Bervnovkn. ‘ ». Chaconne, pour violon seul
-
 1'® partie: Adagio molto. M. A. POCHON.
 Allegro con brio, T. Etude-Caprice n° 3, avec accompagnemen[l
 2we parlie: Andante canlabile con molo. d'un secondivialon …. .x . - WIENIAWSEIE
 Orchestre 50 exécutants. M'le M. CHAVIN.
 S. Aria
-
 >aac
-
 2 (Aarghetton(# 725-1793)..° - . ; . Prérro NARDINI. U Garr Gormanx,
 h) Menuet en mi-majeur pour violon seul. . J-S. Bacu. M. G. OKROMTCHEDELI
 M. E. BLOCH. J. 3" Concerto (1'° partie) .
@@ -132,27 +128,21 @@ se DS e
 3. Danse espagnole (Malaguëna). . . . . . SanasaTe. y l"'l'_ e ;
 M. P. BARBAULT. . (t) Etude-Caprice n° 2, avec accompagnement = WieniawsKt,
 d'un second violon.
-
 f . p e 0N TR I
 J. 23'ne Con\c|erly ( parlie) e 1E MIOUN n)Danse hongroise . . . ... : . : Brauns-JoaGHN
 MR TTAAS. M. B. CHRISTEN.
-
 5. Danse espagnole (Komanza andaluza) . . Sanasare. . Rondo capriccioso Ÿ
 M. M. IAUSAMANN. N A POCHION.
-
 SI-SAENS,
-
 DT-DARNS,
-
 Le piano d’accompagnement sera tenu par M" Marguevrite Deliste
-
 PIANO A QUEUE DE LA MAISON BRON ET BERGUER
-
 —— —A e m t h d dl p d dn mth 2224 p u rr rn rn p r rr p p r p pc — n r r r r r — Nn
 OE E E e e e r e r r e e r e S 309*
-
-Imprimerie Contraie genovoiss]]></page>       
-        </p>
+Imprimerie Contraie genovoiss
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

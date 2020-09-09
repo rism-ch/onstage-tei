@@ -1,82 +1,85 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Grand concert donné par l'Ecole sociale de musique<date when="22/04/1944"/></title>
-<series>1943-1944</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Grand concert donné par l'Ecole sociale de musique
+            <date when='22/04/1944'/>
+          </title>
+          <series>1943-1944</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F003243</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Closset, F. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19440422"/>
-<title>Grand concert donné par l'Ecole sociale de musique</title>
-<placeName key="Victoria Hall"/>
-<name key="1943-1944" type="series"/>
-<name key="Locatelli, Pietro Antonio" ref="https://muscat.rism.info/admin/people/30001978" type="person" role="cmp">Locatelli, Pietro Antonio</name>
-<name key="Schubert, Franz" ref="https://muscat.rism.info/admin/people/111603" type="person" role="cmp">Schubert, Franz</name>
-<name key="Händel, Georg Friedrich" ref="https://muscat.rism.info/admin/people/36552" type="person" role="cmp">Händel, Georg Friedrich</name>
-<name key="Šostakovič, Dmitrij Dmitrievič" ref="https://muscat.rism.info/admin/people/407504" type="person" role="cmp">Šostakovič, Dmitrij Dmitrievič</name>
-<name key="Weprik"  type="person" role="cmp">Weprik</name>
-<name key="Stravinskij, Igor' Fëdorovič" ref="https://muscat.rism.info/admin/people/132137" type="person" role="cmp">Stravinskij, Igor' Fëdorovič</name>
-<name key="Grieg, Edvard" ref="https://muscat.rism.info/admin/people/84066" type="person" role="cmp">Grieg, Edvard</name>
-<name key="Closset, Fernand (dir.)"  type="person" role="int">Closset, Fernand (dir.)</name>
-<name key="École Sociale de Musique"  type="person" role="int">École Sociale de Musique</name>
-<name key="Menschini, André"  type="person" role="int">Menschini, André</name>
-<name key="Bernand, Georges"  type="person" role="int">Bernand, Georges</name>
-<name key="Moujon, Flore"  type="person" role="int">Moujon, Flore</name>
-<name key="Frauen- und Töchterchor Vorwärts"  type="person" role="int">Frauen- und Töchterchor Vorwärts</name>
-<name key="Sängerbund Frohsinn"  type="person" role="int">Sängerbund Frohsinn</name>
-<name key="Männerchor Freiheit"  type="person" role="int">Männerchor Freiheit</name>
-<name key="Union Chorale du Travail"  type="person" role="int">Union Chorale du Travail</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003243_001.tif"/>
-<page><![CDATA[VICTORIA-HAIL SAMEDI àﬁä :XRIL 1944
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19440422'/>
+        <title>Grand concert donné par l'Ecole sociale de musique</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1943-1944' type='series'/>
+        <name key='Locatelli, Pietro Antonio' ref='https://muscat.rism.info/admin/people/30001978' type='person' role='cmp'>Locatelli, Pietro Antonio</name>
+        <name key='Schubert, Franz' ref='https://muscat.rism.info/admin/people/111603' type='person' role='cmp'>Schubert, Franz</name>
+        <name key='Händel, Georg Friedrich' ref='https://muscat.rism.info/admin/people/36552' type='person' role='cmp'>Händel, Georg Friedrich</name>
+        <name key='Šostakovič, Dmitrij Dmitrievič' ref='https://muscat.rism.info/admin/people/407504' type='person' role='cmp'>Šostakovič, Dmitrij Dmitrievič</name>
+        <name key='Weprik' type='person' role='cmp'>Weprik</name>
+        <name key='Stravinskij, Igor&apos; Fëdorovič' ref='https://muscat.rism.info/admin/people/132137' type='person' role='cmp'>Stravinskij, Igor' Fëdorovič</name>
+        <name key='Grieg, Edvard' ref='https://muscat.rism.info/admin/people/84066' type='person' role='cmp'>Grieg, Edvard</name>
+        <name key='Closset, Fernand' type='person' role='int'>Closset, Fernand</name>
+        <name key='École Sociale de Musique' type='person' role='int'>École Sociale de Musique</name>
+        <name key='Menschini, André' type='person' role='int'>Menschini, André</name>
+        <name key='Bernand, Georges' type='person' role='int'>Bernand, Georges</name>
+        <name key='Moujon, Flore' type='person' role='int'>Moujon, Flore</name>
+        <name key='Frauen- und Töchterchor Vorwärts' type='person' role='int'>Frauen- und Töchterchor Vorwärts</name>
+        <name key='Sängerbund Frohsinn' type='person' role='int'>Sängerbund Frohsinn</name>
+        <name key='Männerchor Freiheit' type='person' role='int'>Männerchor Freiheit</name>
+        <name key='Union Chorale du Travail' type='person' role='int'>Union Chorale du Travail</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003243_001.tif'/>
+        <page>
+          <![CDATA[VICTORIA-HAIL SAMEDI àﬁä :XRIL 1944
 GRAND CONCkKI
-
 donné par
 L'ECOLE SOCIALE DE MUSIQUE
-
 avec le concours de
-
- 
-
- 
-
- 
-
 M. André Meschini, flûtiste M. Georges Bernand, pianiste
 professeur à l'E.S.M. professeur à l'E.S.M.
 Mme Flore Moujon
@@ -86,27 +89,21 @@ Sängerbund Frohsinn dir. M. H. Kônig
 Männerchor Freiheit dir. M. W. Hänel
 Union Chorale du Travail dir. M. W. Hänel
 Gemischter Chor dir. M. H. Kônig
-
-et d'un groupe de dames]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003243_002.tif"/>
-<page><![CDATA[RP E S E r—.‘.:
-
- 
-
+et d'un groupe de dames
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003243_002.tif'/>
+        <page>
+          <![CDATA[RP E S E r—.‘.:
 ——n
-
 ﬁagmmnæ
-
 Symphonie funèbre Locatelli
 Classe d’orchestre de l’E.S.M,
-
 Introduction et variations sur un fhème
 de La belle meunière, pour flûte et pijano — Fr. Schubert
 MM. André Meschini et Georges Bernand
-
 Rosamunde (exécution intégrale) Fr. Schubert
 Chœurs et orchestre
-
 Entr'acte
 Passacaille Haendel
 Corps d’harmonie de l’E.S.M. transcription p. harmonie
@@ -116,15 +113,14 @@ b) 3 Danses populaires russes op. 13 A. Weprik
 c) Danse russe de « Petrouchka » Igor Stravinsky
 M. Georges Bernand
 Peer Gynt, 1re suite Grieg
-
 Au matin — La mort d’Ase — Danse d’Anitra
 — Dans le hall du roi de la montagne
 Corps d’harmonie de l’E.S.M.
-
 Le concert sera dirigé par M. Fernand Closset,
-
-directeur de l'Ecole Sociale de Musique]]></page>       
-        </p>
+directeur de l'Ecole Sociale de Musique
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

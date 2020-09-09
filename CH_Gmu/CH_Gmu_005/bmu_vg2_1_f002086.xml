@@ -1,104 +1,106 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Grands festivals et concerts classiques : saison d'hiver 1884-1885<date when="08/11/1884"/></title>
-<series>1884-1885</series>
-<placeName>Grand Théâtre</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Grands festivals et concerts classiques : saison d'hiver 1884-1885
+            <date when='08/11/1884'/>
+            <date when='28/03/1885'/>
+          </title>
+          <series>1884-1885</series>
+          <placeName>Genève, Grand Théâtre</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VG2-1 F002086</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Senger, H. de (dir)</note>
+        <note>Interprète présumé</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18841108
-18850328"/>
-<title>Grands festivals et concerts classiques : saison d'hiver 1884-1885</title>
-<placeName key="Grand Théâtre"/>
-<name key="1884-1885" type="series"/>
-<name key="Saint-Saëns, Camille" ref="https://muscat.rism.info/admin/people/76734" type="person" role="cmp">Saint-Saëns, Camille</name>
-<name key="Massenet, Jules" ref="https://muscat.rism.info/admin/people/84264" type="person" role="cmp">Massenet, Jules</name>
-<name key="Guiraud, Ernest" ref="https://muscat.rism.info/admin/people/30024115" type="person" role="cmp">Guiraud, Ernest</name>
-<name key="Delibes, Léo" ref="https://muscat.rism.info/admin/people/30016578" type="person" role="cmp">Delibes, Léo</name>
-<name key="Gounod, Charles-François" ref="https://muscat.rism.info/admin/people/80479" type="person" role="cmp">Gounod, Charles-François</name>
-<name key="Senger, Franz Ludwig Hugo von  (dir.)" ref="https://muscat.rism.info/admin/people/30015297" type="person" role="int">Senger, Franz Ludwig Hugo von  (dir.)</name>
-<name key="[Orchestre de la Ville de Genève]"  type="person" role="int">[Orchestre de la Ville de Genève]</name>
-<name key="Société de chant du Conservatoire de Genève" ref="https://muscat.rism.info/admin/people/30079944" type="person" role="int">Société de chant du Conservatoire de Genève</name>
-<name key="Rey, Louis"  type="person" role="int">Rey, Louis</name>
-<name key="Fogliasso"  type="person" role="int">Fogliasso</name>
-<name key="Garin"  type="person" role="int">Garin</name>
-<name key="Holzmann"  type="person" role="int">Holzmann</name>
-<name key="Pabst"  type="person" role="int">Pabst</name>
-<name key="Brivadi"  type="person" role="int">Brivadi</name>
-<name key="Kaëmpfe"  type="person" role="int">Kaëmpfe</name>
-<name key="Bergmann"  type="person" role="int">Bergmann</name>
-<name key="Leroux"  type="person" role="int">Leroux</name>
-<name key="Bleye, de"  type="person" role="int">Bleye, de</name>
-<name key="Delarue"  type="person" role="int">Delarue</name>
-<name key="Jandelli, Dante"  type="person" role="int">Jandelli, Dante</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_1_f002086_001.tif"/>
-<page><![CDATA[SOCIÉTÉ DES CONCERTS
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18841108'/>
+        <date when='18850328'/>
+        <title>Grands festivals et concerts classiques : saison d'hiver 1884-1885</title>
+        <placeName key='Genève, Grand Théâtre'/>
+        <name key='1884-1885' type='series'/>
+        <name key='Saint-Saëns, Camille' ref='https://muscat.rism.info/admin/people/76734' type='person' role='cmp'>Saint-Saëns, Camille</name>
+        <name key='Massenet, Jules' ref='https://muscat.rism.info/admin/people/84264' type='person' role='cmp'>Massenet, Jules</name>
+        <name key='Guiraud, Ernest' ref='https://muscat.rism.info/admin/people/30024115' type='person' role='cmp'>Guiraud, Ernest</name>
+        <name key='Delibes, Léo' ref='https://muscat.rism.info/admin/people/30016578' type='person' role='cmp'>Delibes, Léo</name>
+        <name key='Gounod, Charles-François' ref='https://muscat.rism.info/admin/people/80479' type='person' role='cmp'>Gounod, Charles-François</name>
+        <name key='Senger, Franz Ludwig Hugo von' ref='https://muscat.rism.info/admin/people/30015297' type='person' role='int'>Senger, Franz Ludwig Hugo von</name>
+        <name key='Orchestre de la Ville de Genève' type='person' role='int'>Orchestre de la Ville de Genève</name>
+        <name key='Société de chant du Conservatoire de Genève' ref='https://muscat.rism.info/admin/people/30079944' type='person' role='int'>Société de chant du Conservatoire de Genève</name>
+        <name key='Rey, Louis' type='person' role='int'>Rey, Louis</name>
+        <name key='Fogliasso' type='person' role='int'>Fogliasso</name>
+        <name key='Garin' type='person' role='int'>Garin</name>
+        <name key='Holzmann' type='person' role='int'>Holzmann</name>
+        <name key='Pabst' type='person' role='int'>Pabst</name>
+        <name key='Brivadi' type='person' role='int'>Brivadi</name>
+        <name key='Kaëmpfe' type='person' role='int'>Kaëmpfe</name>
+        <name key='Bergmann' type='person' role='int'>Bergmann</name>
+        <name key='Leroux' type='person' role='int'>Leroux</name>
+        <name key='Bleye, de' type='person' role='int'>Bleye, de</name>
+        <name key='Delarue' type='person' role='int'>Delarue</name>
+        <name key='Jandelli, Dante' type='person' role='int'>Jandelli, Dante</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_1_f002086_001.tif'/>
+        <page>
+          <![CDATA[SOCIÉTÉ DES CONCERTS
 VIh DEäGENLVE
-
 Saison d’hiver 1884-85
-
 GRANDS FESTIVALS
-
 ET
-
 CONCERTS CLASSIQUES
-
 \  Chef d’Orchestre : M. HÙGO DE SENGER
-
 SOLISTES
-
 MM. Louis Rey, 1" violon solo. | MM. Kaëmpfe, hautbois solo.
 Fogliasso, 2me » Bergmann, clarinette
 Garin, alto Leroux, basson
 Holzmann, violoncelle De Bleye, cor
 Pabst, contrebasse Delarue, piston
 Brivadi, flûte Dante Jandelli, harpiste
-
 Orchestre GO musiciens.
-
 ——
-
 CHŒURS MIXTES DE LA SOCIÉTÉ DE CHANT DU CONSERVATOIRE
-
 Directeur : M. Léopold KETTEN
-
 Dates des Festivals et Concerts classiques '
-
 Samedi 8 novembre, 18" Festival SAINT-SAENS.
 2% » ler Concert classique.
 (D décembre, 27e Festival MASSENET.
@@ -109,48 +111,21 @@ O » 3me Concert classique.
 28 » 4me Concert classique.
 14 mars 5me Festival GOUNOD.
 28 » 5me Concert classique.
-
 _ } En cas d’empêchement majeur, il pourra être apporté un ‘changement aux dates et à la compo-
-sition des Festivals et Concerts.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_1_f002086_002.tif"/>
-<page><![CDATA[7 l PE D TT A
-
- 
-
+sition des Festivals et Concerts.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_1_f002086_002.tif'/>
+        <page>
+          <![CDATA[7 l PE D TT A
 *019ÿ943 Np U014890] Ap Neo1Nnq ne ‘syuouiouroge sop 9210 A17AITO *N Ÿ NO “(pAQUeH) @ “AvpIq ons ‘9 ‘oyduronsa,p 1103401009 Np s01313 sop |
 Q PI 7) 10110891 “UOSUTSOE *N V SOMVJUOOA SUOIJdTIOSNOS SINOT TOSIOA qUOANAA s7100U0 39 SIPAIFSOLT 800 9p sgoons ne 49 onbrsnux ?]  JUOSsSOI9IUT,S MD soUtOSIOd sarT
 “NOI] BANE TF HO OUIBUIOS VI 07N07 39 QIQUI INOL 9J 41901109 onbuyo anod 410An0 t198 UOINROO] Op NWA1NG OJ
-
 *np1od r108 JUOUIOUUOAR,T 39 OJOIJUOO NE 89911901 JUOIOS “soITR[NITF So] onb souVos1Ad s "3ne,p awd sogquesgxd juore1os mb sopro9 soynoy € sa77awvos.sad juour
 —SNOAMOS[I JUBIP SOJITO 09 *INOFION] 97*N IVA o9uSIS ‘suIOU s.mo] JUBI1O4 97180 OUN,p HUNUT OS JUOTAOP OTOIRAIASUON np soAgT9 so] “syulouIQUUOGE sIno] o1puoId IMOŸ
-
 | *801020948 899UDISUOI.12I 8IP SUVP UO24090] DI 9P UONDIUAWÉND,P 2012824 8ROS
-
- 
-
- 
-
- 
-
- 
-
- 
-
 ï
 | p RE FORS N RS HEO E 0 ; E
-
- 
-
- 
-
- 
- 
-
- 
-
- 
- 
-
 |
 | e ll…… 4 f R _,....................7.:_‘::_È….:ŒW
 c8 eL n u .S VaS M T 071 A S O 1mn
@@ -172,54 +147,37 @@ _ | Ï “IIMoqeS opuogas ‘o9ssnweyo-op-zoz
 | UI (l TT “1] 1 "1
 |es | u5 117 |
 v LHON0) AYd | °2 | °2 v1dd0N09 dYd | E | ° £
-
- 
-
- 
-
- 
-
- 
-
-SHDPVIAd_ SHE XIH]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_1_f002086_003.tif"/>
-<page><![CDATA[T
-
+SHDPVIAd_ SHE XIH
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_1_f002086_003.tif'/>
+        <page>
+          <![CDATA[T
 e
-
 P e
-
 Messieurs les Abonnés et Habitués des Concerts classignes
-
 Messieurs.
-
 Le Comité de la Société des Concerts fait appel à tous les amateurs de belle
 musique si nombreux à Genève, afin de lui faciliter les moyens de continuer
 l’œuvre de l’ancienne Société Civile.
-
 Sans avoir la prétention de faire oublier les grands services rendus, les sacri-
 fices et l’absolu dévouement de la Société Civile de l’orchestre, à laquelle la
 population de notre Ville a été redevable de tant de belles soirées musicales, le
 Comité de la Société des Concerts tient avant tout à ce que personne n’ignore,
-
 ‘qu’il n’existe ancune espèce d’antagonisme entre l’ancienne et lanouvelle Société:
 Ï
-
 que le but est le même, c’est-à-dire de réunir les efforts de tous, afin de donner
 dans notre théâtre les plus parfaites exécutions des œuvres des grands maîtres.
-
 Le nouveau Comité fera tout pour continuer la tâche si dignement remplie pa
 ses honorables prédécesseurs, fort de l’appui précieux de la Société de chant du
 Conserwitoire et de son directeur, et grâce aux grandes relations artistiques de
 M. Gravière qui a accepté de faire partie du Comité, le public de Genève aura
 cet hiver des concerts et des jouissances musicales, qu’il serait peut-être témé-
 raire de promettre de renouveler souvent.
-
 Le Comité espère que toute la population qui a fréquenté si assidäment les
 nombreux concerts gratuits donnés par l’orchestre cet été, viendra l’aider par sa
 présence cet hiver, à reconnaître les sacrifices faits par des amateurs généreux
 et dévoués afin de maintenir la réputation artistique de Genève,
-
 Les grands maîtres de l’école francaise, MM. Gouxon, MASSENET, SAINT-
 SAENS, LÉo DELIBES et GUIRAUD ont promis de venir diriger cinq festivals com-
 posés de leurs œuvres, — Pour les cinq autres concerts classiques, le Comité
@@ -230,19 +188,17 @@ le célèbre virtuose, F. Planté le pianiste de grand talent si apprécié de n
 public, D’Albert le jeune pianiste déjà si réputé et qui produisit un effet immense
 la saison dernière, Marsick un artiste violoniste fort en renom, J. Servais et
 David Popper deux des premiers violoncellistes connus, etc… ete.
-
 Le Comité espère que ces solennités musicales augmenteront encore le juste
 renom que Genève possède déjà à l’étranger, comme ville intelligente, amie des
 beaux-arts et des belles choses dans tous les domaines
-
 L'abonnement est ouvert à partir du 20 octobre au bureau de location du théd-
 tre auprès de M. Olivary, spécialement chargé des abonnements.
-
 Messieurs les abonnés du théâtre qui désirent conserver leurs loges ou leurs
 places pour les Concerts, sont priés d’en aviser M. Olivary avant le 20 octobre.
-
-—— —>]]></page>       
-        </p>
+—— —>
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

@@ -1,192 +1,136 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par l'Harmonie nautique<date when="08/02/1931"/></title>
-<series>1930-1931</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par l'Harmonie nautique
+            <date when='08/02/1931'/>
+          </title>
+          <series>1930-1931</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002734</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Gabelles, G. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19310208"/>
-<title>Concert donné par l'Harmonie nautique</title>
-<placeName key="Victoria Hall"/>
-<name key="1930-1931" type="series"/>
-<name key="Humperdinck, Engelbert" ref="https://muscat.rism.info/admin/people/107032" type="person" role="cmp">Humperdinck, Engelbert</name>
-<name key="Chabrier, Emmanuel" ref="https://muscat.rism.info/admin/people/48553" type="person" role="cmp">Chabrier, Emmanuel</name>
-<name key="Liszt, Franz" ref="https://muscat.rism.info/admin/people/107196" type="person" role="cmp">Liszt, Franz</name>
-<name key="Toch, Ernst" ref="https://muscat.rism.info/admin/people/41023517" type="person" role="cmp">Toch, Ernst</name>
-<name key="Albeniz"  type="person" role="cmp">Albeniz</name>
-<name key="Hindemith, Paul" ref="https://muscat.rism.info/admin/people/90311" type="person" role="cmp">Hindemith, Paul</name>
-<name key="Pierné, Gabriel" ref="https://muscat.rism.info/admin/people/18686" type="person" role="cmp">Pierné, Gabriel</name>
-<name key="Saint-Saëns, Camille" ref="https://muscat.rism.info/admin/people/76734" type="person" role="cmp">Saint-Saëns, Camille</name>
-<name key="Boeck, August de" ref="https://muscat.rism.info/admin/people/30016573" type="person" role="cmp">Boeck, August de</name>
-<name key="Gabelles, Gustave  (dir.)" ref="https://muscat.rism.info/admin/people/30073762" type="person" role="int">Gabelles, Gustave  (dir.)</name>
-<name key="Harmonie Nautique"  type="person" role="int">Harmonie Nautique</name>
-<name key="Chéridjian, Nina"  type="person" role="int">Chéridjian, Nina</name>
-<name key="Dupont, A."  type="person" role="int">Dupont, A.</name>
-<name key="Piotton, J."  type="person" role="int">Piotton, J.</name>
-<name key="Blum"  type="person" role="int">Blum</name>
-<name key="Veyrat"  type="person" role="int">Veyrat</name>
-<name key="Dépraz"  type="person" role="int">Dépraz</name>
-<name key="Francoual, J."  type="person" role="int">Francoual, J.</name>
-<name key="Francoual, Ch."  type="person" role="int">Francoual, Ch.</name>
-<name key="Zbinden"  type="person" role="int">Zbinden</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002734_001.tif"/>
-<page><![CDATA[de Ia anle de Genèvc
-
- 
-
- 
-
- 
-
- 
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19310208'/>
+        <title>Concert donné par l'Harmonie nautique</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1930-1931' type='series'/>
+        <name key='Humperdinck, Engelbert' ref='https://muscat.rism.info/admin/people/107032' type='person' role='cmp'>Humperdinck, Engelbert</name>
+        <name key='Chabrier, Emmanuel' ref='https://muscat.rism.info/admin/people/48553' type='person' role='cmp'>Chabrier, Emmanuel</name>
+        <name key='Liszt, Franz' ref='https://muscat.rism.info/admin/people/107196' type='person' role='cmp'>Liszt, Franz</name>
+        <name key='Toch, Ernst' ref='https://muscat.rism.info/admin/people/41023517' type='person' role='cmp'>Toch, Ernst</name>
+        <name key='Albeniz' type='person' role='cmp'>Albeniz</name>
+        <name key='Hindemith, Paul' ref='https://muscat.rism.info/admin/people/90311' type='person' role='cmp'>Hindemith, Paul</name>
+        <name key='Pierné, Gabriel' ref='https://muscat.rism.info/admin/people/18686' type='person' role='cmp'>Pierné, Gabriel</name>
+        <name key='Saint-Saëns, Camille' ref='https://muscat.rism.info/admin/people/76734' type='person' role='cmp'>Saint-Saëns, Camille</name>
+        <name key='Boeck, August de' ref='https://muscat.rism.info/admin/people/30016573' type='person' role='cmp'>Boeck, August de</name>
+        <name key='Gabelles, Gustave' ref='https://muscat.rism.info/admin/people/30073762' type='person' role='int'>Gabelles, Gustave</name>
+        <name key='Harmonie Nautique' type='person' role='int'>Harmonie Nautique</name>
+        <name key='Chéridjian, Nina' type='person' role='int'>Chéridjian, Nina</name>
+        <name key='Dupont, A.' type='person' role='int'>Dupont, A.</name>
+        <name key='Piotton, J.' type='person' role='int'>Piotton, J.</name>
+        <name key='Blum' type='person' role='int'>Blum</name>
+        <name key='Veyrat' type='person' role='int'>Veyrat</name>
+        <name key='Dépraz' type='person' role='int'>Dépraz</name>
+        <name key='Francoual, J.' type='person' role='int'>Francoual, J.</name>
+        <name key='Francoual, Ch.' type='person' role='int'>Francoual, Ch.</name>
+        <name key='Zbinden' type='person' role='int'>Zbinden</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002734_001.tif'/>
+        <page>
+          <![CDATA[de Ia anle de Genèvc
 llllll“llllllllllllllll
-
 S’adresser à Gaston MOISY Inspecteur de la Compagnie
-e ULS Téléphone 43. 257]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002734_002.tif"/>
-<page><![CDATA[La Chaussure de Quahte »
-
- 
-
-   
-       
-     
-   
-  
- 
-
-  
-
+e ULS Téléphone 43. 257
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002734_002.tif'/>
+        <page>
+          <![CDATA[La Chaussure de Quahte »
 … — 7 Nos series à _
 39.50 35— 3250 29.50
 - "21.50 19._50 16.50, |
-
-    
-
 12 e e D
-
 CHAUSSURES
 KURTH
-
 ]UlSSOIl ,«P a lSCITLLJV
-
 G6RGUC
-
 GRANDE MAISON DE BLAN C
-
-   
-  
-
 Trousseaux D <»  Lingerier <»  Bonneterier
-
 f ; ; \
 6 0 0 . e A A e . d A d A À-—---‘. mn
-
- 
-
- 
-
 r SS SS SS
-
 l"'"ll”ﬂ'lll"'"ﬂlll'“llllﬂllllllmllIl""ü"'ﬂlll'"llll"'lllIl""lllll'"llll""llll""!lIll"llllll'*lllll'llll|I"HllI"mlIN""lllllmlllllmllllmllbl"lll'"l"ll'""'l!
-
 PRIOR
-
 — CiTÉ, 16 - CORR|“'ERIB,
-
 4
 T
 . ‘
-
- 
-
- 
-
 Vend neufs _7Ÿ'chez‘e, loue |
 ; et d’occasmn 0 « livresetmusique 5
-
 Nouveautés llttéralres et mustcales dès parutmn Ï 5 )Î
 ; ! [ Ï
 Le seul abonnement qul vous accordo à votre gré Ilvres ou musîque î;'
-
 Fr. 15 — par an, Fr 2.50 par mois
-
 .llmlll|lnnll|||iu|l|llm|“|m|||||n|l'lli||u)ll|||u4lûhml"wulﬂl||Â|llll…|lll||…"
 Glhiccue{jirveci{faconi }} ivreci}arosea{ vs rrc (Hronsan{Frrnce{roonct{ rrn {}ieont{}avent
-
-|um||||muﬂ|mul||mul|nmﬂ|nm"ﬂumülu -ll|llu|ll"luu|"|m||||lmll"!uul||luull|lmlll||ml"nm|||l|||ul||null|l|u||||||u||‘ﬂlnﬂ|llml"luul||Imnllhuull]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002734_003.tif"/>
-<page><![CDATA[VICTORIA-HALL
-
- 
-
- 
-
+|um||||muﬂ|mul||mul|nmﬂ|nm"ﬂumülu -ll|llu|ll"luu|"|m||||lmll"!uul||luull|lmlll||ml"nm|||l|||ul||null|l|u||||||u||‘ﬂlnﬂ|llml"luul||Imnllhuull
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002734_003.tif'/>
+        <page>
+          <![CDATA[VICTORIA-HALL
 ——
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Ouverture On Ë
 , ‘ . era
 se Dimanche 8 février 1931 setiqae
 donné par
-
 L’HARMONIE NAUTIQUE
-
 (HARMONIE MUNICIPALE DE LA VILLE DE GENÈVE)
 Directeur: M. Gustave GABELLES
-
 avec le gracieux concours de
-
 Mile Nina CHÉRIDJIAN
-
 PIANISTE
 Prix de virtuosité du Conservatoire de Genève
 1\PIROGIR A MMIIE
@@ -196,94 +140,47 @@ Première partie
 b) AU BORD D'UNE SOURCE . . . . Liszt
 ORÉESJONGEEURE UL 0N Æ sT O0h
 OISEGUEPIEERS 1 en
-
 MIle Nina CHÉRIDJIAN
 3. KONZERTMUSIK pour orchestre d'harmonie Pau/ Hindemith
-
 (Tre audition)
-
 OUVERTURE - THÈME ET VARIATIONS SUR L’AIR DU
 PRINCE EUGÈNE - MARCHE
-
 Trompette : M. A. DUPONT — Trombone : M. J. PIOTTON
-
 Deuxième partie
-
 4.  PASTORALE VARIÉE dans le style ancien  Gabrie/ Pierné
-
 Fiûte : M. BLUM - Hautbois : M. VEYRAT
 Clarinette : M. DÉPRAZ - Bassons ; J, et Ch. FRANCOUAL
 Trompette : M. DUPONT - Cor : M. ZBINDEN
-
 S. DEUXIEME CONCERTO en so/ . . . . Saint-Saëns
 (Pour piano et orchestre)
 ANDANTE - ALLEGRO SCHERZANDO - FINALE
 Mile Nina CHÉRIDJIAN
-
 6. RAPSODIE DAHOMÉENNE .. . . .. Aug. de Boeck
-
 (Tre audition)
-
- 
-
 Piano de concert PLEYEL aux soins de la Maison Ch. BERGUER
-
 Le plus grand succès
 2 O 1 de l’année
 E NE
-
 Etabl. A. FLEURY, Genève
 30, Av. de Frontenex - 36, Grand-Quai
-
- 
-
- 
-
- 
-
-Imp. Chapuis & BAUMEISTER, IHËÛÎ SœndîÜîîiÏnÎve]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002734_004.tif"/>
-<page><![CDATA[maison Ch. BERGUER
-
+Imp. Chapuis & BAUMEISTER, IHËÛÎ SœndîÜîîiÏnÎve
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002734_004.tif'/>
+        <page>
+          <![CDATA[maison Ch. BERGUER
 11, RUE PETITOT, 11
 Représentation Représentation
-
 principale à , exclusive à
 Genève des | | '. Genève des
 dsssse= se
-
-  
- 
-  
- 
- 
-  
-
- 
- 
- 
-  
-
- 
-
 pianos clavecins
-
- 
-
- 
-
- 
-
- 
-
 PRÉLUDE DE « HÆNSEL ET GRETEL » (Humperdinek)
-
 C’est un simple conte d’enfants, transporté à la scène; mais par la
 magie de sa palette instrumentale, le compositeur a fait de ses trois petits
 actes une sorte de triptyque musical où l’ingéniosité de la science corrige
 la naïveté du sujet, et met au service de l’idée poétique un dessin habile
 et des couleurs chatoyantes. 2
-
 Dès son apparition à Weimar le 23 décembre 1893, puis à Munich le
 30 décembre de la même année, l’œuvre obtint un très grand succès, et
 d’Allemagne, elle a pris son essor vers l’Autriche, la Belgique, l’Angle-
@@ -291,57 +188,26 @@ terre ; partout, elle a été accueillie presque triomphalement. Paris connut
 d’abord le prélude, exécuté aux Concerts-Lamoureux le 4 novembre 1894,
 et sans grand succès, faut-il ajouter. L’Ouvreuse toutefois le qualifia de
 «charmant » en signalant cune régression vers le style de l'ancien Singspiel
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Les Super-Instruments de la Maison
-
 LEBLANEG
-
 70, rue des Rigoles - PARIS
 sont adoptés par
-
 La Musique de la garde Républicaine L’Harmonie Nautique
 de Paris de Genève
-
-et appréciés par les artistes du Monde entier]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002734_005.tif"/>
-<page><![CDATA[(—
-
+et appréciés par les artistes du Monde entier
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002734_005.tif'/>
+        <page>
+          <![CDATA[(—
 Il
-
- 
-
- 
-
 BANQUE e PARIS E pes PAYS-BAS
-
 PARIS
-
 AMSTERDAM - BRUXELLES - GENÈVE
-
- 
-
 SUCCURSALÉ de GENÈVE 6, rue de Hollande
-
 TOUTES OPÉRATIONS DE BANQUE
-
 ORDRES DE BOURSE
-
 Ouverture de Comptes en toutes monnaies
-
- 
-
 germanique, mais avec un raffinement de sonorités charmeuses et une
 mise en œuvre de toutes les ressources de la polyphonie moderne ; la
 berceuse de Hænsel et Gretel qui invoquent les quatorze anges préposés à
@@ -356,56 +222,31 @@ chansons populaires traitées‘symphoniquement avec une rare dextérité ; ils
 en méconnurent la grâce charmante et laissèrent ainsi passer avec indif-
 férence ce prélude qui résume l’œuvre entière et atteste la réelle virtuosité
 de son auteur.
-
- 
-
- 
-
- 
-
 GRANDE BRASSERIE ET CAFÉ
 Du XX" SIÈCLE
-
 23, Boulevard Georges-Favon - GENÈVE
 On
-
 Bières de Munich - Pilsen-Urquell - Spéciale Bittrée - Brune et
 Blonde ordinaire - Apéritifs de marque - Dégustation des grands
 vins français - Lunch à fr. 3— et 3.50 - Grande carte de spécialités
 Tous les samedis “Amourettes” - Menus fins sur commande
 Salle de société
-
- 
-
- 
-
- 
-
-À]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002734_006.tif"/>
-<page><![CDATA[SOCIÉTÉ DE
-
+À
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002734_006.tif'/>
+        <page>
+          <![CDATA[SOCIÉTÉ DE
 BANQUE SUISSE
-
 —— FONDÉE EN 1872
 mp1tal—achons et Réserves : Fr. 212 millions
-
 6-10, Corraterie - GENÈVE - Corraterie, 6-10
 CORNAVIN EAUX-VIVES
-
 10, Piace de Cornavin Place des Eaux-Vives, 3
-
 PLAINPALAIS CAROUGE
 36, Rue de Carouge { Rue du Marché, 11
-
- 
-
 TOUTES OPÉRATIONS DE BANQUE AUX MEILLEURES CONDITIONS
-
- 
-
 PAUL HINDEMITH
-
 Compositeur bâdois, né à Hanau, le 16 novembre 1894, Paul Hindemith
 est considéré actuellement comme le représentant le plus remarquable de
 la jeune école allemande. Sa vie comme son œuvre, est faite de mouve-
@@ -415,66 +256,32 @@ dancing, sans dédaigner l’opérette, le jazz-band et la musique militaire.
 À vingt ans, il fut nommé Konzertmeister de l’Opéra de Francfort et il est
 actuellement professeur au Conservatoire de Berlin. Il est de plus l’altiste
 renommé du quatuor qui porte son nom.
-
 Le Konzertmusik, inscrit au programme de ce jour est une œuvre
 remarquable et d’une grande difficulté pour tous les registres (parti-
 culièrement la partie de trompette: M. Dupont et celle de trombone :
-
- 
-
- 
-
-   
-
- 
-
- 
-
 Drocuerie À. SCHULE & Fits
-
 30, Boulevard Georges-Favon et Rue de Hesse, 4
-
 SERVICE RAPIDE GEN ÈVE ESCOMPTE 5°/o
-
 A DOMICILE Téléphone 43.784 AU COMPTANT
-
 —- ——
-
- 
-
 Spécialités recommandées :
-
 ‘“OXxX Y-FLI?°” SACS
 pour la” deséruction des mités, ‘“IMPERMITE’”
-
 mouches, moustiques, punaises et pour la protection
-autres insectes nuisibles des vêterments]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002734_007.tif"/>
-<page><![CDATA[l(iosque clu jarclin an glais
+autres insectes nuisibles des vêterments
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002734_007.tif'/>
+        <page>
+          <![CDATA[l(iosque clu jarclin an glais
 > frey et f115
-
 ses thés concerts
-
- 
-
 ses consommations orclqestre sottiaux
-
- 
-
 s'on .?‘lt€ mC°ÏPPa_I‘3LIÊ en hiver salle communale de Plainpalais
-
- 
-
- 
-
 GRANDE
-
 BOUCHERIE DU MOLARD
-
 BOVAGNE & DURET
-
 TÉLÉPHONE 47.385
-
 A
 La plus importante maison de Toujours les meilleures mar-
 Genève, ce qu’il y a de plus chandises, le plus grand choix
@@ -482,293 +289,168 @@ moderne comme magasin de et les prix les plus modérés.
 vente et installation frigori- Service de commande très soigné et
 ; livraison rapide dans toutes les
 fique. directions.
-
- 
-
- 
-
 Spécialité d’AGNEAU DE PRÉ-SALÉ
-
- 
-
- 
-
- 
-
 50/ d’escompte en tickets jaunes de l’U. C. G. pour tous les achats faits
 0 au comptant.
-
- 
-
- 
-
- 
-
 Buvez un
-
 AMER PICON
-
-Exigez-le]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002734_008.tif"/>
-<page><![CDATA[Pharmacie de l’Université
-
+Exigez-le
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002734_008.tif'/>
+        <page>
+          <![CDATA[Pharmacie de l’Université
 11, rue du Conseil-Général — GENÈVE — Téléphone 51.434
-
 C. TAUCHER
-
 Pharmacien-chimiste diplômé fédéral
-
- 
-
 |
-
 |  Lesordonnances pour/es sociétés de
 | secours mutuels, caisses de mala-
 Exécution scrupuleuse de toutes les |  dies, assurance scolaire, etc… sont
 ordonnances avec des produits de exécutées avec fous les soins voulus
-
 marque et chimiquement purs par | 5 ps
 un personnel scientifique et diplômé. ! et taxées aux tarifs les plus bas fixés. |
-
 Pharmacie d'ordonnances recom-
 mandée par /e corps médical.
-
 Spécialités de tous les pays — Service à domicile
-
- 
-
 HARMONIE NAUTIQUE
-
 MEMBRES DU COMITÉ:
 MM. G. MARTINET, président ; G. GABELLES, directeur ; J. LICKERT et
 E. LEUTÉ, vice-présidents ; À. Pl)RTIER, secrétaire ; F. CHAPUIS, vice-
 secrétaire ; M. GALFRE, trésorier ; P. MURITH, vice-trésorier ; E. BURDET,
 l)lbli0//zt‘caue ; M. DePRaz et J. \IBLhT, économes.
-
 MEMBRES EXÉCUTANTS (19830)
-
 Flûtes : MM. BLuM - Baup - SEmDEL - LEvy - STOCKBURGER.
 Hautbois c/ cor anglais: MM. VEYRAT - FENGEL - Gyar - PAINOT
 CoNTI.
-
 Petites clarinettes : MM. SANTANDRÉA - BéBoux - BERTONE.
 Clarinettes: MM. DÉPRAZ - A. PORTIER - RIEUNAUD - MURITH
 PEzzoTTI - DUCRET - SCHWITZGUÉBEL - Moisy - Rorx - GYSsIN
 MARTI - BURDET - MÉDA - VANBIANCHI - BopoIRA - BERGOIN
-
- 
-
- 
-
- 
-
 LA
-
 BIÈRE
 DES
 CONNAISSEURS
-
-2]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002734_009.tif"/>
-<page><![CDATA[E
-
- 
-
+2
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002734_009.tif'/>
+        <page>
+          <![CDATA[E
 Au Dépôt général du Poisson du Lac Léman
-
 Maison fondée en 1848
-
 LUGRIN & Cie (s.a.)
-
 46, Rue du Rhône, 46 - Genève
-
 Adr. télégr.: LUGRIN-GENÈVE - AUCUNE SUCCURSALE - Téléphone 48.266
-
 Voilailles de Bresse - Gibiers de foutes provenances
 Poissons du Lac
 Marée française - Huitres de Claires de Marennes
 Arrivages directs et journaliers
 Langoustes du parc de Camaret
 Comestibies de fouies espèces - Conserves des jres marques
-
 ; L’importance de la vente lui permet de ne jamais
 constituer de stock et de garantir à sa clientèle la qualité et la fraîcheur de ses marchandises
-
 Expéditions en tous pays
-
- 
-
 Membres exécutants (suile)
 CHATELAIN - GABELLES fils - CHARLON - ViIGNA - BuscH
 BROILLAT - VERMOT - KAESER - NUSSBAUM - BINET - KuUNz
 G. PORTIER.
-
 Clarinette basse : M. BESSsON.
-
 Bassons : MM. Ch. Francouar. - J. FrancouaL - J. LAncoup.
-
 Saxophones : MM. D’IVERNOIS - GONDRET - MARET - H. VANAT
 RoyBIN - RizzATo - DEPOISIER - KNOBEL - GODIO.
-
 Cors : MM. ZBINDEN - A. PiGuET - R. MARTIN - RETrscHISKY
 J. BOCCARD - MERCIER.
-
 Cornets à pistons : MM. A. DuronT - M. Cuapuis - C. Droz
 L. DEcRoUx - Triscon: - J. PIGUET - Moo - LANIER.
-
 Bugles : MM, Poncion! - GuyoT - FROELS - DAvAL.
-
 Trompettes : MM. E. Burper - CoLomBo - RossET - MAIRE.
-
 Trombones : MM. ProTron - Sinay - Ch. MARTIN - MAITRE - RocH
 Marc PoRTIER - TABACZNIK.
-
 TRANSPORTS FUNÈBRES|
-
 Ancienne Maison MURITH, DUPARC & FERT __——  Fondée en 1888
-
 A. MURITH sœ.
-
 GENÈVE - siège Social : Rue des Chaudronniers, 16
-
 Téléph. 50.?88 (Service permanent) 3
 Fabrique de Cercueils Automobiles Funéraires |
-
 L'Administration se charge, sans aucun déplacement pour les
 familles, de toutes les démarches et formalités relatives aux
-
 Inhumations — Exhumations — Incinérations —  Transports
-
 ; es =N
-vorruares CENTRAL-DEUIL 15* …]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002734_010.tif"/>
-<page><![CDATA[GRANDS VINS DE CHAMPAGNE
-
+vorruares CENTRAL-DEUIL 15* …
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002734_010.tif'/>
+        <page>
+          <![CDATA[GRANDS VINS DE CHAMPAGNE
 MOËT & CHANDON
-
 ÉPIERNAY
-
 MAISON FONDÉE EN 17453
-
 Louis LECHEÈRE & Fils
-
 AGENTS GÉNÉRAUX
-
 3, Rue de la Monnaie
 Téléphone : 50.732 GENÈVE
-
- 
-
 Membres exécutants (suile)
-
 Barytons, Basses et contrebasses: MM. (GREBER - Ducray
 M. MANDAILAZ - VIBERT - CHOUARD - OMARINI - BossoN
 DALEX - G. MANDALLAZ - LEISER - MONTILLARD - MOLINATTI
 Marocco - Revos.
-
 Contrebasses à cordes : MM. RicHTER - MAYER - KNUCHEL.
 ScHUP.
-
 Batterie : MM. KurT - DELOCHE - DESCOMBES - GRIEDER - BELET
 Gav.
-
- 
-
 AVIS. — Les personnes q… désirent devenir «membres passifs » de
 l’Harmonie Nautique peuvent s’inscrire au Victoria Hall ou à la Librairie
 Richard (80, rue du Rhône), et auprès des membres de la Société. La carte
 de «membre passif» donne droit à deux entrées pour chaque concert
 donné par l’Harmonie Nautique.
-
- 
-
- 
-
- 
-
 ISCUITS
 - PERNOÏ
-
 GENEVE.
-
 La grande marque Suisse des
-PS f1ns []]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002734_011.tif"/>
-<page><![CDATA[MANUFACTURE GENÉPALE
+PS f1ns [
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002734_011.tif'/>
+        <page>
+          <![CDATA[MANUFACTURE GENÉPALE
 D'INSTRUNENTS r MUSIQUE
-
 COUESNON ;
-
 soc1t-râ ANONYME AU CAPITAL
 12 MILLIONS DE FRANCS
-
 94 RUE D'ANGOULÈME,
 PARIS (11”*)
-
-          
-
- 
-
- 
-
 M. J. Piotton). 1l a été joué dernièrement à la fète de musique de Liége
 (Belgique) par les Guides de Bruxelles. Si le modernisme de cette auda-
 cieuse composition surprenait un peu les oreilles de nos auditeurs, que
 ceux-ci veuillent bien reconnaître que l’Harmonie Nautique tient toujours
 à faire entendre à Genève, les dernières nouveautés écrites particuliè-
 rement pour musique d’harmonie.
-
- 
-
 Restaurant YVROUD
-
 QUAI DES BERGUES, 23
-
 Téléphone (en face du Pont de la Machine)
-
 A L’ENTRESOL Téléphone
 25.420 e
-
 GENÈVE
-
- 
-
 Repas à fr. 3.50, fr. 5,— et fr. G—
 THÉ - GLACES - CHOCOLAT
-
- 
-
 TERRASSE avec vue du Mont-Blanc J, YVR O U ID
-
 et la Chaîne des Alpes CHEF DE CUISINE
-
- 
-
-J_]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002734_012.tif"/>
-<page><![CDATA[=—
-
- 
-
+J_
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002734_012.tif'/>
+        <page>
+          <![CDATA[=—
 H…. DEVRED-VÉTEMENTS
-
 Place St-Gervas  GENEVE — Rue de Coutance
-
 La plus grande spécialité pour hommes, jeunes gens et enfants
-
 VISITEZ COMPAREZ
 SES MAGASINS Ü SES MARCHANDISES
 à qualités égales Û à façons égales
-
 MEILLEUR MARCHÉ QUE PARTOUT AILLEURS
-
- 
-
 CONCERTO POUR PIANO (So/ mineur)
 (C. Saint-Saëns)
-
- 
-
 Des cinq Concertos pour piano composés par M. Camille Saint-Saëns,
 | celui-ci est, par ordre de date, le deuxième. Il fut exécuté pour la première
 | fois par l'auteur aux Concerts Pasdeloup, le 13 décembre 1868, puis au
@@ -781,165 +463,87 @@ d’un Allegro scherzando à 6/8, dont les deux thèmes sont d’un rythme
 élégant et d’une orchestration délicate, et d’un fougueux Finale ». Le
 Concerto en sol mineur (op. 22) à été écrit en 1868 et dédié à Mme la mar-
 quise A. de Villers, née de Haber.
-
- 
-
- 
-
 GRANDE BRASSERIE CENTRALE
-
 CAFÉ-RESTAURANT
 CROIX-D'OR, 2 TÉLÉPH. 43.462
 Déjeuners et Dîners -  Choucroute extra toute l’année
-
 BIÈRES WARTECK de Bâle
 et VINS de première qualité
-
 IL Salle au premier E. MAYERAT
-
- 
-
- 
-
- 
-
- 
-
-5i]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002734_013.tif"/>
-<page><![CDATA[@
-
- 
-
- 
-
+5i
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002734_013.tif'/>
+        <page>
+          <![CDATA[@
 Pour voyager agréablement et sans soucis, adressez-vous à
-
 L’AGENCE
-
 C. BLENK, FERT & Co
-
 1, Rue du Mont-Blanc, 1
 Angle Quai des Bergues
-
 GENÈVE
-
- 
-
 Tous les billets de chemins de fer et de passages
 maritimes aux conditions des tarifs
-
 CHÈQUES DE VOYAGEURS - BANQUE - CHANGE
 VOYAGES A FORFAIT
-
- 
-
 RAPSODIE DAHOMÉENNE (Aug. de Boeck)
-
 Le maître Auguste de Boeck, un des plus grands musiciens belges,
 à écrit de nombreuses œuvres où la facture solide, s’allie à l’inspiration
 généreuse et belle. Organiste fameux, Professeur d’Harmonie au Conser-
 vatoire Royal de Bruxelles, Directeur du Conservatoire de Malines, ce grand
 artiste vit cependant, très retiré, de la vie modeste et calme des simples.
-
 La Rupsodie Dahoméenne est faite de motifs musicaux authentiques
 notés par le compositeur lors de la présentation des Danseuses du Dahomey
 à l’Exposition Universelle de Bruxelles.
-
 D’une seule venue, ainsi qu’une admirable improvisation, aux rythmes
 souples, nerveux et très marqués, la Rapsodie, devenue rèveuse avec sa
 mélopée langoureuse, reprend bientôt sa fière allure pour terminer en un
 « vivacissimo » prestigieux.
-
 La Rapsodie, date de 1894. À cette époque, les Amazones du Dahomey
 donnaient des représentations au musée Castan, Galerie du Commerce à
-
- 
-
- 
-
- 
-
- 
-
 AU PRINTEMPS
-
 — 34 et 4o — @]ËN]ÈŒ — 34 et qo —
-
 Rue du Rhône = mmmn = Rue du Rhône
-
 VISITEZ EXPOSITION PERMANENTE VOIR NOS
-
 NOS MODÈLES,
-
 nic DES DERNIÈRES NOUVEAUTÉS u*
 DE PARIS
-
-Nos artictes sont marqués en francs français]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002734_014.tif"/>
-<page><![CDATA[Un Rendez-vous
-
+Nos artictes sont marqués en francs français
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002734_014.tif'/>
+        <page>
+          <![CDATA[Un Rendez-vous
 à La Jlarquise
-
 Rond- Poini de Plainpalais, 1 s'impose
-
- 
-
 SALON DE THÉ
 PATISSERIES FINES - GLACES
-
- 
-
 TÉLÉPHONE 42.968 ORCHESTRE
-
- 
-
- 
-
 Bruxelles. Pendant leurs exercices guerriers, ces braves personnes chan-
 taient. Chaque exercice était accompagné d’un seul thème qui était répété
 des centaines de fois, le début assez modéré, puis « sempre accell. » pour
 aboutir à un presto.
-
- 
-
 Dimanche 22 mars 1931
-
 quatrième et dernier concert de la saison
-
 FESTIVAE DE MUSIQUE RUSSE
 avec le concours de
 M. et M"° Serge PopowitzKky (pianistes)
 AU PROGRAMME :
 Rimsky-Korsakow - Arensky - Moussorgsky
 Tschaïkowsky - Rachmaninoff
-
- 
-
- 
-
-  
-
- 
-
 LES PIANOS
 PLEYEL - GAVEAU - LIPP - SEILER - SCHMIDT-FLOHR
 BURGER-JACOBI
-
 sont représentés par
-
 ROTSCHY FRÈRES
-
 ler et 2n étages 64 RUE DU STAND, 64 — Pas d’arcade sur rue
 ESCOMPTE AU COMPTANT Grandes facilités de paiement
-
-GRAMOS - DISQUES - T.S.F.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002734_015.tif"/>
-<page><![CDATA[||mnl|||nllﬂlml…m[“|mllllllull|hm|||llnu|l|llml||umll|||m||l|null||nu|||||u|||||mul”mu|l|uullliuull||mll||m|||||nu|||l|m||bw}|llu|llllunlllluull.
-
-  
- 
-
+GRAMOS - DISQUES - T.S.F.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002734_015.tif'/>
+        <page>
+          <![CDATA[||mnl|||nllﬂlml…m[“|mllllllull|hm|||llnu|l|llml||umll|||m||l|null||nu|||||u|||||mul”mu|l|uullliuull||mll||m|||||nu|||l|m||bw}|llu|llllunlllluull.
 ë =
 Ë e ä
 = 0s =
@@ -953,167 +557,90 @@ F & E BAECHLER Freres
 ä 15 Place du Marché Carouge - 22, Rue Voltaire Ë
 Î Uslne: 84, Rue de Lausanne - GENÈVE â
 Ë|||m||]||un|||luu||||m||||nu|||||n|||||||u||||l|;n|||[|m|||||m|l|||n|||l|||u|ll||m||"|lu|||l|uu||||uu|||]uu|l|lnul||l|nﬂ||!|mll||uu||l|ïu||l||uull||lmll|llm||||uul|
-
 hh 0 ds
-
-  
-
 Braäéeñe
 LANDOLT
-
 Etablissement de 1" ordre
-
-  
-
- 
-     
- 
-
 d’une anclenne renommée
-
 00000000000000000000000000000000000000000000000000000
-
 2
-
 Pour et1:e serw 6X
 rap1dement et b1en, 4 ;
 én adressez-vous cla -
-
 - Service régulier à domîçila;
 ville et banlieue
-
 9990900090
-
- 
-
- 
-
 â BOUEANGERIË/PATISSERIE DE PARIS
 Ê es ç{SPBCIäÏIÎCS.
 ë Pams de reg1me. _ Pains de gluten pour diabétiques
-
 0°00000000OOOOOQOQOOOQOOOOO
-
-O00000000600060‘0000000050000000 000000000 299990900000900]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002734_016.tif"/>
-<page><![CDATA[PLEYE L
-
+O00000000600060‘0000000050000000 000000000 299990900000900
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002734_016.tif'/>
+        <page>
+          <![CDATA[PLEYE L
 pÔPI,S
-
 ; Fondéen
 1807
-
-  
-
 | EN 18&0 > ÀMJOW hm , "
 LE PIANO DE CHOPIN - ŒPHAN@mC@MŒN;:
-
- 
-
 ; soxwr EXPOSÉS cnnz
-
 | FUSTERIE S
-
 . mnsow FONDÉE EN 1852
-
 - PiaNOS ; 18
 ŒŒ@*Ë‘EË@ENE—% E
- pisques n |
-
-Larges îacnhtês de pa1ementS ;]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002734_017.tif"/>
-<page><![CDATA[Ouverture On
-
+pisques n |
+Larges îacnhtês de pa1ementS ;
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002734_017.tif'/>
+        <page>
+          <![CDATA[Ouverture On
 à |
 e Dimanche 8 fevner 1937 C
-
 CONCIERI
-
 donné par
-
 L’HARMONIE NAUTIQUE
-
 (HARMONIE MUNICIPALE DE LA VILLE DE GENÈVE )
 Directeur: M. Gustave GABELLES
-
 avec le.gracieux concours de
 Mile Nina CHÉRIDJIAN
-
 ; PIANISTE
 Prix de virtuosité du Conservatoire de Genève
-
- 
-
- 
-
- 
-
- 
-
 —— ——
-
 PIROGRA MMF
-
 Première partie
-
 HAENSEL ET GRETEL (ouverture). . .  Aumperdinek
 a) SCHERZO-VALSE .. . . ° Ghapnen
-
 b) AU BORD D’UNE SOURCE 1150 LISZI
 OREJONCEEUR ° 1 <E Toch
-
 d) SEGQUEDIEENS … 3 S Albenitz
 Mile Nina CHÉRIDJIAN
 KONCERTMUSIK pour harmonie . . . . Pau/ Hindemith
 (1re audition)
-
 OUVERTURE - THÈME ET VARIATIONS SUR L’AIR DU
 PRINCE EUGÈNE - MARCHE
-
 Deuxième partie
-
 PASTORALE VARIÉE dans le style ancien  Gabrie/ Pierné
-
 Flûte : M. BLUM - Hautbois: M. VEYRAT
 Clarinette : M. DÉPRAZ - Bassons ; J. et Ch. FRANCOUAL
 Trompette : M. DUPONT - Cor : M. ZBINDEN
-
 DEUXIÈME CONCERTO en so/ . . . . Saint-Saëns
 (Pour piano et orchestre)
 Mile Nina CHÉRIDJIAN
-
 RAPSODIE DAHOMÉENNE . . . . . . Aug. de Boeck
 (Ire audition)
-
 Piano de concert Pleyel aux soins de la Maison Ch. BERGUER
-
- 
-
- 
-
- 
-
- 
-
 Prix des places : Fr. 3.50 ; 2.30 ; 1.15 (droits compris) -— Coupon No (
-
 Location chez ROTSCHY FRÈRES (Musique et Gramophones)
 22, Corraterie, téléphone 43.477
-
 Dimanche 22 mars: FESTIVAL DE MUSIQUE RUSSE
-
- 
-
- 
-
- 
-
- 
-
 Imp CHAPUIS & BANMEISTPR, Rue dn Hl.1n(l 47 heneve
-
-@__ A]]></page>       
-        </p>
+@__ A
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

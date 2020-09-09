@@ -1,177 +1,127 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Messe solennelle en ré, op. 123<date when="14/12/1912"/></title>
-<series>1912-1913</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Messe solennelle en ré, op. 123
+            <date when='14/12/1912'/>
+          </title>
+          <series>1912-1913</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F001152</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Witkowski, G. M. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19121214"/>
-<title>Messe solennelle en ré, op. 123</title>
-<placeName key="Victoria Hall"/>
-<name key="1912-1913" type="series"/>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Witkowski, G. M. (dir.)"  type="person" role="int">Witkowski, G. M. (dir.)</name>
-<name key="Société des grands concerts"  type="person" role="int">Société des grands concerts</name>
-<name key="Schola cantorum de Lyon"  type="person" role="int">Schola cantorum de Lyon</name>
-<name key="Mellot-Joubert (Mme)"  type="person" role="int">Mellot-Joubert (Mme)</name>
-<name key="Legrand-Philip (Mme)"  type="person" role="int">Legrand-Philip (Mme)</name>
-<name key="Plamondon, R."  type="person" role="int">Plamondon, R.</name>
-<name key="Mary, Georges"  type="person" role="int">Mary, Georges</name>
-<name key="Fleuret, D."  type="person" role="int">Fleuret, D.</name>
-<name key="Guichardon, A."  type="person" role="int">Guichardon, A.</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001152_001.tif"/>
-<page><![CDATA[AGENCE DE CONCERTS AD. HENN È
-
- 
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19121214'/>
+        <title>Messe solennelle en ré, op. 123</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1912-1913' type='series'/>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Witkowski, G. M.' type='person' role='int'>Witkowski, G. M.</name>
+        <name key='Société des grands concerts' type='person' role='int'>Société des grands concerts</name>
+        <name key='Schola cantorum de Lyon' type='person' role='int'>Schola cantorum de Lyon</name>
+        <name key='Mellot-Joubert (Mme)' type='person' role='int'>Mellot-Joubert (Mme)</name>
+        <name key='Legrand-Philip (Mme)' type='person' role='int'>Legrand-Philip (Mme)</name>
+        <name key='Plamondon, R.' type='person' role='int'>Plamondon, R.</name>
+        <name key='Mary, Georges' type='person' role='int'>Mary, Georges</name>
+        <name key='Fleuret, D.' type='person' role='int'>Fleuret, D.</name>
+        <name key='Guichardon, A.' type='person' role='int'>Guichardon, A.</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001152_001.tif'/>
+        <page>
+          <![CDATA[AGENCE DE CONCERTS AD. HENN È
 VICTORIA-HALL — GENÈVE
-
 Le Samedi 11 Décembre 1912
-
- 
-
 à 8 h. 1/2 du soir très précises
 UNE SEULE AUDITION INTÉGRALE DE LA
-
 MESSE SOLENNELLE
-
 en Ré, Op. 123 de
-
 L. VAN BEETHOVEN
-
 PAR LA
-
 SOCIÉTÉ ves GRANDS CONCERTS et1a SCHOLA CANTORUM te LYON
-
 Orchestre et Chœurs (200 Exécutants)
 SOUS LA. DIRECTION DE
-
 M. G. M. WITKOWSKI
-
 SsSOLDISTES ;
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 Mxe MELLOT-JOUBERT M LEGRAND-PHILIP
-
- 
-
- 
-
 Soprano Contralto
 M. R. PLAMONDON ! M. Georges MARY
 Ténor Basse
-
- 
-
- 
-
- 
-
 M. A. GUICHARDON M. D. FLEURET
 Violon Solo Orgue
-
- 
-
 PRIX DES PLACES :
 BEZ-DIÿ—BHÀUSSÉE - Loges, 8 fr.; Parquets, 7 fr.; Parterre et Pourtour, 5 fr.; Promenoir, « fr.; Amphithéâtre, 3 fr
 PREMIÈRE GALERIE : Loges, 8 fr.; Fauteuils de face, 1er ep Qme rangs, 6 {r.; autres rangs, 5 fr.; Fauteuils de
 balcon, 1er rang, 6 Îr.; Zme k{ 3me rangs, & fn 4me rang, 2 fr.; Amphitheâtre, 4 fr.
 DEUXIEME GALERIE : Amphithéâtre et Balcon, 4er rang, 3 fr.; Balcon, 2*"° rang, 2 fr.
-
- 
-
- 
-
 ) La location est ouverte dès ce jour au magasin de musique J, MONTFORT, bonlevard cu Théâtre, 6
 (Téléphone 51-08). tous les jours de 9 heures à miai et de 2 à 6 heures.
 -
-
 ImP. MAILLET, AUVERGNE & CIE, LYON
-
 Brochure analytique par M. E. GOBLOT, Professeur à la Faculté des Lettres de Lyon
-
-PRIX ! O,25 centimes.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001152_002.tif"/>
-<page><![CDATA[{
+PRIX ! O,25 centimes.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001152_002.tif'/>
+        <page>
+          <![CDATA[{
 |
-
- 
-
- 
-
 « Nous voici en présence de l’un des plus grands chefs-d’œuvre de toute la musique. Seules,t %es_
 œuvres comme la Grand’Messe en si mineur de Bach et le Parsifal de Richard Wagner, peuvent lui
 être comparées ». Voir : « BEETHOVEN » par V1iNcENT D'INDy — HENRi LAURENS, éditeur,
-
 Le 25 février 1912, les Chœurs et l'Orchestre de la Société des Grands Concerts "_‘Î >L_‘/n‘n, sous la direction de
 M. G. M. Withowski, donnaient la première audition de la Messe solennelle en Ré dans <‘yÿtte»1 11./(,. e -
-
 L'exécution en avait été préparée minutieusement par l'éminent chef d'orchestre et les .\l)[(.\[€î; '«‘]”Î{-}'$ f;' 1; ] l*u.…l-l!hil/' ;
 culier, formaient un quatuor vocal d'une parfaite homogénéité ; c'étaient M* Mellol-Joubert el Legr p,
-
 M mon z. Mary. ë .
 >. Îe ÿî£:Zä?äzîä-aﬁilÉi:aL?e{te mémorable séance fut tel que trois exéculions successives avec des .s‘«rine_.\" rn:»:l{l:}.7.l me \“/'Ï;" "î
 pas pour rassasier les amateurs de musique et M. Withowski dut annoncer pour la présente saison, lrois nouvelles execulions
 7 R -d'œuvre. ; = è
-
 s2 l1m£ﬁ%æeä?£îﬂaä%:æis de Mai 1912, c'est à Marseille et à qulpelliaï' que les (‘h(z*m'.ÿ et I_Q.'(‘hﬂs{,"u .L_:{n',fu….; "_”,,‘3”,.”';/,/.
 complet se transportèrent pour donner encore, toujours avec les mémes solistes vt'so'ns la r[n_' )v(um dul le ,u,,_ r ref Ï”_” …[«;} 4 "/ '
 nouvelles exécutions de la Messe solennelle,. Là aussi le chef-d'œuvre fut acclamé d'enthousi me par des salles combles, et «
 Marseille en particulier où le Théâtre des Nations contient plus de 3.500 personnes, le succès fut consideruble,
-
 LYON QUELQUES APPRÉCIATIONS DE LA PRESSE
-
 Pour mettre au point un ouvrage de cette envergure, il faut, on doit le reconnaître, avec la science- «ll ll'x- \Hl…lt
 une volonté, une ténacité peu communes et on doit rendre un hommage bien mérité au distingué dy1{«:_« teur de la S _«_»:]n| |«_
 des Grands Concerts qui n’a pas reculé devant les énormes difficultés de cette täche. M. Witkowski est un véri îl ble
@@ -182,16 +132,13 @@ la Schola à un travail acharné, ininterrompu, multipliant les répétitions, e
 g s éloges. à ; ;
 bl5andLa Sâæïrîce d'hier comptera dans les annales de la Société des Grands Concerts. Jamais on ne vit enthousiasme
 plus grand, plus spontané et plus sincère. A. F. (La Dépéche de Lyon).
-
 Les Grands Concerts s’étaient distingués déjà dans les œuvres de Vincent d'Indy et de Franck, dans la Passion de
 Bach, et surtout dans la Neuvième dont ils nous donnèrent de superbes exécutions, mais jamais, je suis, heureux de le
 constater, Witkowski et ses masses chorales et orchestrales n’étaient arrivés à une pareille cohésion. C’est que d«-|…1_\
 deux ans l’énergique directeur des Grands Concerts stylait, entraînait la Schola en vue de la grande journée où elle à
 triomphé hier dans un éclat si vif, et parallèlement faisait travailler ses musiciens, faisait choix de ses solistes. De 1à
 l’exécution chaleureuse, éloquente, qu’une salle archicomble vient de saluer de ses applaudissements enthousiastes.
-
 Raour Cinon (Lyon Republicain).
-
 L’'impression produite par l’audition de la Messe en Ré à été immense ct profonde, et s’il en faut attribuer 1 h._…-
 neur d’abord à l’œuvre elle-méme, qui est d’une beauté incomparable. il convient de proclamer hautement qu'une très
 large part aussi en revient à la magnifique interprétation qui en a été donnée. L’extréme tension des parties vocales
@@ -203,11 +150,8 @@ pas été moins consciencieux ni moins remarquable, et le quatuor des quatre exc
 parisienne, MM. Plamondon, Georges Mary. Mmes Mellot-Joubert et Legrand-Philip, auxquels étaient confiés les solis,
 ont mérité les mêmes éloges, ainsi que MM. Fleuret et Guichardon, qui étaient chargés des parties d'orgue ct de
 violon solo. AmauRrY (Salut Public).
-
 MARSEILLE
-
 — Il faudrait écouter, le front dans la poussière. A ë.
-
 « Ecouter quoi ? Nous ne savons plus. De saisissement, nous avons oublié, là-haut, notre programme, et nous voilà
 bien privé de dire en quel ton et à quel endroit de la Messe le quatuor chanta les plus. célestes choses. Nous croyons
 cependant pouvoir affirmer que la belle voix grave de M. Mary eut, à l’Agnus dei, des accents surtout remarquables.
@@ -216,27 +160,14 @@ son mezzo savoureux. Et que le timbre est donc resté de précieuse qualité che
 M. Plamondon, que nous avons retrouvé en pleine possession de ses moyens, maître de sa technique et capable encore
 d'affirmer son style. Cette haute beauté du style, cette perfection d’art qui consiste pour l’artiste à emprunter l’ame de
 la musique même qu’elle chante, nous les reconnaissions d’écouter le soprano léger, délicat, pur, azuré de M"* Mellot-Joubert.
-
 « De tels solistes étaient dignes d’être associés à la belle entreprise de Witkowski. Un monmient l’auditoire frémissant
 eut belle envie d’éclater en bravos au milieu du temps.
-
 « Marseille à fleuri, fêté, acclamé d’amitié enthousiaste la Société des Concerts de Lyon et son chef ardent et son
 quatuor précieux, et son orchestre discipliné, et ses masses chorales grondantes.
-
 « Bien rugi, Lyon ! » CraupE Riar (Le Petit Marseillais).
-
- 
-
- 
-
- 
-
-   
-
 Mais l’impression générale des 3.600 auditeurs qui, jusque dans les couloirs, avaient envahi la salle Vallette-Prat.
 était que l’on venait d’assister à une solennité musicale bien rare, à une merveilleuse manifestation d’art. qui fera époque
 à Marseille ; quand on voudra dater un fait quelconque de 1912, on dira : « C’était l'année de la Messe en Ré. »
-
 Nous n’avions jamais entendu ce chef-d’œuvre à Marseille. Aussi, ne saurions-nous trop remercier M. G. M.
 Witkowski et ses deux cents musiciens — orchestre et chœurs — d’être venus de Lyon nous donner cette pure joie ;
 d’autant que l’exécution a été admirable de cohésion, de nuances, de sentiment exact. Mre Mellot-Joubert (soprano) et
@@ -245,51 +176,39 @@ avec elles de justesse et d’émotion ; les chœurs, écrits souvent très haut
 admirables de vaillance et d’ensemble, autant que l’orchestre. Il faut dire aussi que deux années de répétitions n’ont pas
 paru trop fatigantes pour ces deux cents artistes qui, sous l’énergique et intelligente direction de M. G. M. Witkowski.
 ont su comprendre et s’assimiler toutes les beautés de cette œuvre colossale. KARL CisvENN (La Gazette du Midi).
-
 . La manière dont la Société des Grands Concerts et la Schola Cantorum de Lyon ont présenté la Messe en Ré au
 public marseillais est digne de tous les éloges. Je ne voudrais pas ici accumuler les épithètes, ni signaler par le menu
 tous les soins et toutes les qualités dont cette exécution bénéficia; mais je tiendrais cependant à faire ressortir une
 àççon_ ît un enseignement de cette soirée musicale qui fut une des plus marquantes auxquelles il nous ait été donné
-
 ’assister.
-
 Car c’est une chose vraiment admirable que le nombre et la qualité des artistes qui, un beau jour, nous sont ainsi
 descendus de Lyon où nous ignorions ou feignions d’ignorer presque complètement leur existence. Voici un orchestre
 souple et discipliné ; voici cent choristes chantant juste, en mesure, avec des attaques précises et de fines nuances ;
 voici conduisant cette armée ardente, un chef d’orchestre qui est un véritable artiste, un musicien sérieux, une réelle et
 intéressante personnalité et ceci (que les Lyonnais ne m’en veuillent pas de le dire, nous en sommes si. fiers et avons
 tant lutté pour cette suprématie toute numérique), ceci dans la troisième ville de France. J. B. (Le Sémaphore).
-
 , ,, J'ai eu le plaisir, la semaine dernière. d’assister à Paris, à une inoubliable interprétation de cette œuvre, sous
 l’admirable direction de Weintgartner, qui disposait de ressources exceptionnelles: le magnifique orchestre Côlonne
 presque donblé d’effectif, un quatuor vocal comptant des artistes éminents et, enfin, les célèbres chœurs anglais de
 Leeds, prodigieuse masse chorale de quatre cents voix merveilleusement disciplinées, dont la hardiesse, la sûreté, la
 puissance, la cohésion arrivaient même à pallier les défauts de l’écriture. ;
-
 Loin de provoquer des comparaisons désavantageuses pour la Société Lyonnaise, l’interprétation de Weintgartner
 me remplit d’admiration pour le talent, l’activité et les efforts de M. Witkowski, ainsi que pour les remarquables et
 artistiques résultats qu’il à pu obtenir avec des ressources infiniment plus modestes. HIPPOLYTE MIRANDE (Le Bavard).
-
 MONTPELLIER
-
 L’ensemble de l’exécution a donné aux auditeurs une pleine satisfaction. Les chœurs de la Schola de Lyon ont été
 étonnants de fermeté, d’aplomb et de justesse dans les fugues scholastiques du Gloria et du Credo, pleines ‘d’aspérités
 n excelsis. Le quatuor, les bois et les cuivres de l’orchestre sonnent avéc une ampleur admirable, et leur interprétation
 est un modèle de style, de probité et de classicisme. On connaît — par la lecture d’un programme rédigé avec goût —
 les anecdotes qui ont cours sur le rigorisme de Beethoven au sujet des parties des solistes et de la technique des voix.
-
 «e quatuor vocal amené par M. Witkowski à assumé sans défaillance cet office, considéré assez généralement comme
-
-  
-
- 
-
 !me gageure, et affirmé l'excellence des traditions de la Schola Cantorum d’Indyste. MM. Plamondon. Georges Mary.
 @autç—contre et basse ; Mrae Mellot-Joubert et Legrand-Phillip, soprano et contraltä, ainsi que M"* B. Rozan Ît M. Gui-
 chardon, chargés des parties d’orgue et de violon solo, ont des titres certains à notre meilleure reconnaissance.
-
-Raour Davray (Montpellier).]]></page>       
-        </p>
+Raour Davray (Montpellier).
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

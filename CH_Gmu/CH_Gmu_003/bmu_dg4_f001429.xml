@@ -1,138 +1,123 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Barbe-bleue<date when="11/06/1881"/></title>
-<series>1880-1881</series>
-<placeName>Coulouvrenière (Théâtre des Bouffes parisiens)</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Barbe-bleue
+            <date when='11/06/1881'/>
+          </title>
+          <series>1880-1881</series>
+          <placeName>Genève, Coulouvrenière (Théâtre des Bouffes parisiens)</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU DG4 F001429</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Date présumée</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18810611"/>
-<title>Barbe-bleue</title>
-<placeName key="Coulouvrenière (Théâtre des Bouffes parisiens)"/>
-<name key="1880-1881" type="series"/>
-<name key="Offenbach, Jacques" ref="https://muscat.rism.info/admin/people/111831" type="person" role="cmp">Offenbach, Jacques</name>
-<name key="Meilhac, Henri" ref="https://muscat.rism.info/admin/people/86908" type="person" role="cmp">Meilhac, Henri</name>
-<name key="Halévy, Ludovic" ref="https://muscat.rism.info/admin/people/40918" type="person" role="cmp">Halévy, Ludovic</name>
-<name key="Théâtre des Bouffes parisiens"  type="person" role="int">Théâtre des Bouffes parisiens</name>
-<name key="Cadet-Grégoire (Mme)"  type="person" role="int">Cadet-Grégoire (Mme)</name>
-<name key="Simon-Mey, C. (Mme)"  type="person" role="int">Simon-Mey, C. (Mme)</name>
-<name key="Grégoire, Joseph"  type="person" role="int">Grégoire, Joseph</name>
-<name key="Grégoire, Alphonse"  type="person" role="int">Grégoire, Alphonse</name>
-<name key="Grégoire, Victor"  type="person" role="int">Grégoire, Victor</name>
-<name key="Grégoire, Baptiste"  type="person" role="int">Grégoire, Baptiste</name>
-<name key="Duchaussoy"  type="person" role="int">Duchaussoy</name>
-<name key="Roche"  type="person" role="int">Roche</name>
-<name key="Henri"  type="person" role="int">Henri</name>
-<name key="Spina (Mme)"  type="person" role="int">Spina (Mme)</name>
-<name key="Eva"  type="person" role="int">Eva</name>
-<name key="Florentin (Mme)"  type="person" role="int">Florentin (Mme)</name>
-<name key="Polydor (Mme)"  type="person" role="int">Polydor (Mme)</name>
-<name key="Fréderic (Mme)"  type="person" role="int">Fréderic (Mme)</name>
-<name key="Guérini (Mme)"  type="person" role="int">Guérini (Mme)</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f001429_001.tif"/>
-<page><![CDATA[A LA COÛLOUVRENIÈRE
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18810611'/>
+        <title>Barbe-bleue</title>
+        <placeName key='Genève, Coulouvrenière (Théâtre des Bouffes parisiens)'/>
+        <name key='1880-1881' type='series'/>
+        <name key='Offenbach, Jacques' ref='https://muscat.rism.info/admin/people/111831' type='person' role='cmp'>Offenbach, Jacques</name>
+        <name key='Meilhac, Henri' ref='https://muscat.rism.info/admin/people/86908' type='person' role='cmp'>Meilhac, Henri</name>
+        <name key='Halévy, Ludovic' ref='https://muscat.rism.info/admin/people/40918' type='person' role='cmp'>Halévy, Ludovic</name>
+        <name key='Théâtre des Bouffes parisiens' type='person' role='int'>Théâtre des Bouffes parisiens</name>
+        <name key='Cadet-Grégoire (Mme)' type='person' role='int'>Cadet-Grégoire (Mme)</name>
+        <name key='Simon-Mey, C. (Mme)' type='person' role='int'>Simon-Mey, C. (Mme)</name>
+        <name key='Grégoire, Joseph' type='person' role='int'>Grégoire, Joseph</name>
+        <name key='Grégoire, Alphonse' type='person' role='int'>Grégoire, Alphonse</name>
+        <name key='Grégoire, Victor' type='person' role='int'>Grégoire, Victor</name>
+        <name key='Grégoire, Baptiste' type='person' role='int'>Grégoire, Baptiste</name>
+        <name key='Duchaussoy' type='person' role='int'>Duchaussoy</name>
+        <name key='Roche' type='person' role='int'>Roche</name>
+        <name key='Henri' type='person' role='int'>Henri</name>
+        <name key='Spina (Mme)' type='person' role='int'>Spina (Mme)</name>
+        <name key='Eva' type='person' role='int'>Eva</name>
+        <name key='Florentin (Mme)' type='person' role='int'>Florentin (Mme)</name>
+        <name key='Polydor (Mme)' type='person' role='int'>Polydor (Mme)</name>
+        <name key='Fréderic (Mme)' type='person' role='int'>Fréderic (Mme)</name>
+        <name key='Guérini (Mme)' type='person' role='int'>Guérini (Mme)</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f001429_001.tif'/>
+        <page>
+          <![CDATA[A LA COÛLOUVRENIÈRE
 THÉATRE DES BOUFFES PARISIENS
-
 Direction de Mme veuve CADET-GREGOIRE Rideau à 8 hf _"/2__
-
- 
-
- 
-
 Aujourd'hui Samedi 11 J uin
 POUR LES REPRÉSENTATIONS DE
-
 M" C. SIMOIN- MEŸ
-
 À " représentation de
-
 JLEUE
-
 Opérette en 3 actes et 4 tableaux
 Paroles de MM. Meilhac et Halévy. — Musique de J. Offenbach
-
 Premier acte: Les Noces de RBarbe-Bleue
 2e acte, 1 tableau : | 3° acte, 2° tableau :
 Le baîse-mains du Roi | Les caveaux de l’alchimiste
 Troisième acte : Les Boñhémiens
-
 DISTRIBUTION
-
 Barbe-Bleue . ; MM. Joseph Grégoire. Boulotte ; Mmes SIMON-MEY.
 Le roi Bobêche ; Alphonse Grégoire. || La reine Clémentine . Spina.
-
 Le comte Oscar ; Victor Grégoire. La princesse Hermia . Eva.
 Popolani . ; 5 Baptiste Grégoire. || Héloïse . : , Florentin.
-
 Le prince Saph1r ; Duchaussoy. Rosalinde . ; ; Polydor.
 Alvarez . , Roche. Isaure . : ; , Fréderic.
-
 Un greffier . ; Henri. Blanche ; ; ; Guérini.
-
 Paysans et paysannes, hommes d’armes de Barbe-bleue, seigneurs et dames de la cour, pages et gardes du
 roi Bobèche.
-
- 
-
- 
-
 PRIX DES PLACES
-
 Loges d'avant-scène, 5 places, 25 fr. — Loges de face, 5 places, 20 fr. — Fauteuils d’orchestre,
 4 fr.— Stalles de parquet, 2 fr. 50— Premières, 3 fr.— Parterre, 1 fr. 50. — Secondes, 4 fr. 95,
 — Troisièmes, 75 cent.
-
 Demain Dimanche, à 3 174 heures
 GRANDE_MATIINÉE
 A PRIX RÉDUITS
-
 , LES CLOCHES DE CORNEVILLE
-
 Opéra comique en 3 actes et 4 tableaux
 y Fteprésentation semblable à celle du soir S,
-
 ŒÈ%%%WGŒ%%WÈ% An e
-
 — Imprimerie Centrale Genevoise, Rhône, 52
-
-ë<@% PRIESEVIECYI—CY2]]></page>       
-        </p>
+ë<@% PRIESEVIECYI—CY2
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

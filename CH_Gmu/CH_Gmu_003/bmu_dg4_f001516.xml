@@ -1,66 +1,78 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Séance musicale et littéraire donnée par M. E. Jaques-Dalcroze<date when="07/04/1886"/></title>
-<series>1885-1886</series>
-<placeName>Salle des amis de l'Instruction</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Séance musicale et littéraire donnée par M. E. Jaques-Dalcroze
+            <date when='07/04/1886'/>
+          </title>
+          <series>1885-1886</series>
+          <placeName>Genève, Salle des amis de l'Instruction</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU DG4 F001516</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Jaques-Dalcroze, E. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18860407"/>
-<title>Séance musicale et littéraire donnée par M. E. Jaques-Dalcroze</title>
-<placeName key="Salle des amis de l'Instruction"/>
-<name key="1885-1886" type="series"/>
-<name key="Jaques-Dalcroze, Emile" ref="https://muscat.rism.info/admin/people/109238" type="person" role="cmp">Jaques-Dalcroze, Emile</name>
-<name key="Medine, Alex."  type="person" role="cmp">Medine, Alex.</name>
-<name key="Vieuxtemps, Henri" ref="https://muscat.rism.info/admin/people/142566" type="person" role="cmp">Vieuxtemps, Henri</name>
-<name key="Gounod, Charles-François" ref="https://muscat.rism.info/admin/people/80479" type="person" role="cmp">Gounod, Charles-François</name>
-<name key="Murger, Henry" ref="https://muscat.rism.info/admin/people/40200691" type="person" role="cmp">Murger, Henry</name>
-<name key="Jaques-Dalcroze, Emile  (dir.)" ref="https://muscat.rism.info/admin/people/109238" type="person" role="int">Jaques-Dalcroze, Emile  (dir.)</name>
-<name key="Cartier (Mlle)"  type="person" role="int">Cartier (Mlle)</name>
-<name key="Pourrat (Mlle)"  type="person" role="int">Pourrat (Mlle)</name>
-<name key="Geloso, Albert" ref="https://muscat.rism.info/admin/people/258051" type="person" role="int">Geloso, Albert</name>
-<name key="Le Grand'Roy"  type="person" role="int">Le Grand'Roy</name>
-<name key="Bron"  type="person" role="int">Bron</name>
-<name key="Ivasieff"  type="person" role="int">Ivasieff</name>
-<name key="G. P."  type="person" role="int">G. P.</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f001516_001.tif"/>
-<page><![CDATA[—,v}€®“ — ‘
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18860407'/>
+        <title>Séance musicale et littéraire donnée par M. E. Jaques-Dalcroze</title>
+        <placeName key='Genève, Salle des amis de l&apos;Instruction'/>
+        <name key='1885-1886' type='series'/>
+        <name key='Jaques-Dalcroze, Emile' ref='https://muscat.rism.info/admin/people/109238' type='person' role='cmp'>Jaques-Dalcroze, Emile</name>
+        <name key='Medine, Alex.' type='person' role='cmp'>Medine, Alex.</name>
+        <name key='Vieuxtemps, Henri' ref='https://muscat.rism.info/admin/people/142566' type='person' role='cmp'>Vieuxtemps, Henri</name>
+        <name key='Gounod, Charles-François' ref='https://muscat.rism.info/admin/people/80479' type='person' role='cmp'>Gounod, Charles-François</name>
+        <name key='Murger, Henry' ref='https://muscat.rism.info/admin/people/40200691' type='person' role='cmp'>Murger, Henry</name>
+        <name key='Jaques-Dalcroze, Emile' ref='https://muscat.rism.info/admin/people/109238' type='person' role='int'>Jaques-Dalcroze, Emile</name>
+        <name key='Cartier (Mlle)' type='person' role='int'>Cartier (Mlle)</name>
+        <name key='Pourrat (Mlle)' type='person' role='int'>Pourrat (Mlle)</name>
+        <name key='Geloso, Albert' ref='https://muscat.rism.info/admin/people/258051' type='person' role='int'>Geloso, Albert</name>
+        <name key='Le Grand&apos;Roy' type='person' role='int'>Le Grand'Roy</name>
+        <name key='Bron' type='person' role='int'>Bron</name>
+        <name key='Ivasieff' type='person' role='int'>Ivasieff</name>
+        <name key='G. P.' type='person' role='int'>G. P.</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f001516_001.tif'/>
+        <page>
+          <![CDATA[—,v}€®“ — ‘
 Æ
 ®
 ‘
@@ -73,45 +85,27 @@ $
 5
 ;
 {
-
 @
-
 GRANDE SALLE D]S AMIS DE LINSTRUCTION
-
 Mercredi Z Avril 1886, à 7 heures et demie du soir
-
 SÉANCE MUSICALE & LITTÉRAIRE ponnée ear ME JAQUES-DALCROZE
-
 PREMIÈRE AUDITION DE FRAGMENTS DE
-
 RIQUET A LA HOUPPE
-
 >
 Op. comiq. en 2 actes de M. Alex. Medine, musique de F. Jaques-Daleroze
-
 ‘ET DE
-
 LE RETOUR D’ALEXANDROS
-
 Ode lyrique, poésie de M. A/ex. Medine, musique de #. Jaques-Daleroze
 AVEC LE CONCOURS OBLIGEANT DE
 M"° CARTANHEè, nwzzn-…»pranu. M" POURRAT, soprano
-
 L3s3 GaUVO0ODD
-
 VlOLONIS'L‘E
-
 M. LEGRAND'RUY, baryton. M. BRON, ténor. M. IVASIEFF, baryton
-
 D'un chœur de jeunes filles et de plusieurs artistes et amateurs distingués
-
 se3
 PROGRAMME
 . Riquet à la Houppe ( ragmenh) ; . E. JAqUES-DALCROZE.
 a) Petit chœur % baid ÆW L VS ce en 6
-
- 
-
 (
 b) Chanson — Menuet (M. I\dsl( ff). L
 c) Ariette (…£-L—GÆ!—LÆDÂ é
@@ -120,44 +114,30 @@ e) Air de la Princesse (Mlle Cartier). h
 . Introduction et Rondo (M. Geloso) . . . . ‘ r.{( ° VIEUxTEMPS.
 à. Songe et Mensonge, mélodie (M. Le Grand Roy)Ææ e IAQUES DALCROZE,.
 us -
-
 harnicos
 = Riqu9t a |a H°Uppe ld”nlenl\) JAQUFS DALCROL
 a) Duetto (NI”‘*P@+Ë»—M«t( artier) /{baÎ““““"z“‘*""—thlÿü{/@;{kî/‘ /Z»—
-
 b) Quatuor (Mlles Pourrat el («llll1! MM. Bron et Ivasielf).
-
 c) Récitatifet Terzetto. j
-
 d) Duo (Mlle Cartier, M. Le Grand’Roy). Mn {k«a.y)æ uE ﬁ,;…J£ Tlaus domtb
 . Prélude et Berceuse (M. Geloso) . ; . . E. Jaques-DALCROZE.
 . Air des ‘ijoux (M" Cartier) …7’a4lu 10 (GOUNOP,
-
 . Le Retour d’Alexandros (fragment). . . . . . .. C+ . . . E. Jaques-DALOROZE.
 (Chœur des jeunes lilles grecques avec solo du soln';1nu. Mle Tèonsseet.)
-
 =e)) & r—Jr <
 =—> J ..f 3> \£)' —Ij—J ./_ç ‘J
 Comédie en un acte, de H. MUI{h.|CH
 Le Bonhomme Jadis, M. K. Jaques-Dalcroz). — Octave, M, G. P. — Jacqueline, G
-
 PRIX DES PLAOE»S: Premières, fr. 5 Parterro fr. 2 50 —Galorle, fr. 150
-
- 
-
 Cartes à l’avance dans les magasins de musique et chez le concierge des Amis de l’Instruction.
 Réservées exclusivement chez M. LACHENAL, magasin de musique, Corraterie.
-
 @ R A C MRE SE E OE
-
 Im:pr, de la Tribune de Gertève, rve du Rhône, 1
-
- 
-
 AN
-
-""“"'”&"“"”"”‘ RFF S TSN]]></page>       
-        </p>
+""“"'”&"“"”"”‘ RFF S TSN
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

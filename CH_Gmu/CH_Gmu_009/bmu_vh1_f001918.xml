@@ -1,79 +1,86 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Orchestre philharmonique de Berlin<date when="06/05/1923"/></title>
-<series>1922-1923</series>
-<placeName>Victoria Hall ; Cathédrale de Lausanne</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Orchestre philharmonique de Berlin
+            <date when='06/05/1923'/>
+            <date when='08/05/1923'/>
+          </title>
+          <series>1922-1923</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <placeName>Lausanne, Cathédrale</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F001918</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Andreae, V. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19230506
-19230508"/>
-<title>Orchestre philharmonique de Berlin</title>
-<placeName key="Victoria Hall ; Cathédrale de Lausanne"/>
-<name key="1922-1923" type="series"/>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Brun, Fritz (dir.)"  type="person" role="int">Brun, Fritz (dir.)</name>
-<name key="Caecilienverein Bern"  type="person" role="int">Caecilienverein Bern</name>
-<name key="Liedertafel Bern"  type="person" role="int">Liedertafel Bern</name>
-<name key="Stooss, Hélène"  type="person" role="int">Stooss, Hélène</name>
-<name key="Durigo, Ilona" ref="https://muscat.rism.info/admin/people/50033935" type="person" role="int">Durigo, Ilona</name>
-<name key="Erb, Carl"  type="person" role="int">Erb, Carl</name>
-<name key="Rehfuss, Carl"  type="person" role="int">Rehfuss, Carl</name>
-<name key="Graf, Ernest"  type="person" role="int">Graf, Ernest</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001918_001.tif"/>
-<page><![CDATA[>
-
- 
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19230506'/>
+        <date when='19230508'/>
+        <title>Orchestre philharmonique de Berlin</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <placeName key='Lausanne, Cathédrale'/>
+        <name key='1922-1923' type='series'/>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Brun, Fritz' type='person' role='int'>Brun, Fritz</name>
+        <name key='Caecilienverein Bern' type='person' role='int'>Caecilienverein Bern</name>
+        <name key='Liedertafel Bern' type='person' role='int'>Liedertafel Bern</name>
+        <name key='Stooss, Hélène' type='person' role='int'>Stooss, Hélène</name>
+        <name key='Durigo, Ilona' ref='https://muscat.rism.info/admin/people/50033935' type='person' role='int'>Durigo, Ilona</name>
+        <name key='Erb, Carl' type='person' role='int'>Erb, Carl</name>
+        <name key='Rehfuss, Carl' type='person' role='int'>Rehfuss, Carl</name>
+        <name key='Graf, Ernest' type='person' role='int'>Graf, Ernest</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001918_001.tif'/>
+        <page>
+          <![CDATA[>
 En raison du déficit de cette année, qui vient
-
 s'ajouter à celui de la saison précédente, le Comité
 de l’'O. S. R. se voit dans l’obligation, sous peine de
-
 ‘ cesser son activité, de s'adresser directement au public.
-
 H a pensé que le meilleur moyen de sauver l'existence
 de notre Orchestre était d'organiser une
-
 LOTERIE
-
 à laquelle il espère que le public musical fera le meilleur
-
 accueil. Pour donner à cette loterie un attrait spécial,
 le gros lot sera constitué par un Piano à queue, d'une
 grande marque; de nombreux lots en nature, objets
@@ -81,62 +88,43 @@ d'art, etc., y seront encore attribués, selon le nombre
 des billets vendus. Le Comité invite chaleureusement les
 amis de l'O. S. R., non seulement à prendre des billets,
 mais encore à recommander la loterie autour d'eux.
-
 Les billets, dont le prix est de 1 franc, sont en vente
 dans les dépôts suivants : [
-
 Magasins de musique : Rorscuy frères, Corraterie. — Crouer
 & GADEN, Corraterie. — Prior, Cité, — MONTFORT, rue du
 Stand. — SuocH, place Longemalle.
-
 Magasins de pianos : Maison BrrGuEr, rue Petitot, 11,. —  SAUTIER
 & JÆGER, place de la Fusterie.
-
 Luthiers : MM. Vipoupez, rue Général-Dufour, 22, — H. Kuinc,
-
 boul. des Philosophes, 11.
-
 Agence Véron, Graver & Cie, rue du Mont-Blanc, 22, et succur-
 sale passage du Terraillet.
-
 CONSERVATOIRE DE MusIQUE (chez le concierge). — InsriruT JAQUES-
 DALCROZE, ;
-
 M. BITTERLIN, magasin de tabac, Corraterie.
-
 ASSOCIATION DES INTéRÉTS DE GENÈVE, place des Bergues.
-
 “ P. S. — Les amis de l’Orchestre qui accepteraient de prendre
 un carnet de vingt billets pour les placer eux-mêmes, sont priés de
 donner leurs nom et adresse au Secrétariat de l'O. S. R., 2, boul,
-
 du Théâtre.
-
 e llité SISI
-ï * ; ; ;]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001918_002.tif"/>
-<page><![CDATA[“ Samedi 1" avril Dimanche 2 avril
+ï * ; ; ;
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001918_002.tif'/>
+        <page>
+          <![CDATA[“ Samedi 1" avril Dimanche 2 avril
 à 20 b. et quart e / 15 heures
-
 ——
-
 DEUX AUDITIONS
-
 DE LA
-
 MISSA SOLEMNIS
 de Louis vn BEETHOVEN
-
 pour quatuor mË@; ﬁkæﬂeﬂ, orchestre et orgue
-
 avec le concours du
-
 CÆCILIENVEREIN de BERNE
-
 et d'un groupe important de la
-
 LIEDERTAFEL de BERNE
-
 soüsws g
 ‘ Madame Hélène SÏÛÛSS soprano.
 Ml Los DURICO. sl
@@ -148,68 +136,36 @@ D' Fritz BRUN | e
 Chef d'orchestre de la Société de Musique de Berne. |
 [ Durée d’exécution : 1 heure 4o minutes.
 Billets de 2 fr. à 12 fr. (Taxe municipale de zé 9/o en m).ü
-
 En vente chez MM. FŒTISCH frères, S. A., rue de Bourg, Lausanne. -
 On peut s'inscrire pour des places à l'Agence VÉrON, Graver & C°, passage du Terraillet.
-
- 
-
 HORAIRE DES TRAINS. — Samedi soir : Départ de Genève, 17 heures (direct).
 ‘ Départ de Lausanne, 23 h. 15 (direct). Arrivée à Genève, o h. 26, — Dimancke :
 - Départ de Genève, 13 h. 35 (direct). Départ de Lausanne, 18 h. 15 (omnibus) ou
-20 h. 30 (direct). Arrivée à Genève, 20 h. 13 ou 21 h, 3o,]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001918_003.tif"/>
-<page><![CDATA[“ ŒUVRES JOUÉES A GENÈVE |
-
+20 h. 30 (direct). Arrivée à Genève, 20 h. 13 ou 21 h, 3o,
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001918_003.tif'/>
+        <page>
+          <![CDATA[“ ŒUVRES JOUÉES A GENÈVE |
 dans les concerts de l'O. S. R. au cours de la saison 1921-1922.
-
 ŒllW‘fc' 0/'Cbﬂ’J[/‘[1[(’J anciennee.
-
- 
-
 | XVI© SIÈCLE,
-
 Ÿ
 { GAPBRIELI, Giovanni .. _ Sonate piano e forte.
-
 XVIIS SIÈCLE
 ) q
 ‘ FrANCK, Melchior ... Entrée à six voix.
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 HassLer, Hans-Leo.. Entrée à six voix.
-
 Porey, B. Ouverture de la Grotle de Versailles.
 I MONTEVERDE. .....…. Fragments d’Orfeo. Ë
 y ( Eyreper 112 Fragments de Didon et Enée. |
-
 ROSENMULLER ....... Studenten-Nusic.
-
 SCHEIN, Jpn E 45 Suite du Banchetlo musicale.
-
 H Lorpum 4 Sinfonia en mi mineur.
 XVIIIÉ SIÈCLE
 Bechahes 4 Concerto brandebourgeois n° 4, en «o/majeur.
 31es E UEU Concerto brandebourgeois n° 5, enrémajeur. |
 u.1 e e Suite en « mineur. |
-
 » RE Pastorale de l’Oratorio de Noël.
 A BacH, Ph.-Emm. ...  Symphonie en ré majeur. |
 Ë? BacH, W.-Friedemann … Sinfonia.
@@ -227,97 +183,50 @@ i Darr‘Apncon .. — Coencerto da Chicoa.
 / Esmeau .  Airs de ballets d’Heppolyte et Aricie.
 | SAMMARTINI ......…. ..  Symphonie.
 ; STAMMUEZ Symphonie en s0/ majeur.
-
 VivAn.. 100 0 Concerto grosso en /a mineur.
-
-‘s]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001918_004.tif"/>
-<page><![CDATA[j ane Canton
-
+‘s
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001918_004.tif'/>
+        <page>
+          <![CDATA[j ane Canton
 “FHaute Couture
-
 Rue du Prince, 11 Téléphone
 Rue de “Kive, 3 <Stand 35.32
-
- 
-
- 
-
- 
-
- 
-
 AU SOLEIL
-
 c*
-
 2, PLACE DU MOLARD
-
 æ \
-
 = —— N A3
 / TÉLEPHONE : STAND 67.24
-
 / -
-
 S
-
 FCICTICTDIC DD C DN
-
-   
-
 GRAND CHOIX
 DES DERNIÈRES
-
 NOUVEAUTÉS En
-
 CHAUSSURES
-
 DE VILLE
-
 ET DU SOIR El*
 EMEAUX PRIX LES
-
 PLUS BAS
-
 — _— — __ _*
-
- 
-
 U3 D
-
 ;
-
 , 5 EN _—s . S
 (>>> — e C D e e e e D
-
- 
-
- 
-
 E 22 — e OE d
-
-Tt E t Ss]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001918_005.tif"/>
-<page><![CDATA[œ
-
+Tt E t Ss
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001918_005.tif'/>
+        <page>
+          <![CDATA[œ
 ï
 0C
-
- 
-
- 
-
 — _ = e RE SE TPE
-
- 
-
- 
-
 Ouvertures classiques et modernes.
-
 BEETHOVEN ......... Cortolan
-
 D O Prométhée.
 DRÉHMEMA. 56 541404 Tragique.
 Gruers 4 Alceste.
@@ -325,22 +234,16 @@ HHUMPERDINCK .....…. Hænsel et Gretel.
 MEHUE t La Chasse du Jeune Henri.
 MENDELSSOHN ... Le Songe d'une Nuit d'Ele.
 Mozirus … La Flüte enchantée.
-
 » MN La Clémence de Titus.
 HossintF r. EU RN 0, L'Italienne à Alger.
 SMETANAE A La Ftancée vendue.
 EschAatkowske. | . Roméo et Juliette.
-
 WAGNER 1 Le Vatoseau fantôme.
 $°14 SEN E ME EN Les Mattres Chanteurs.
 S- e Tannhäuser.
-
 Wresern » Obéron.
-
 p A S , Turandot.
-
 Symphonies classiques et mocernes
-
 BFETHOYEN ... N° 3, Héroïque.
 D p N° 5, en ul mineur.
 » T N° 6, Pastorale.
@@ -366,63 +269,38 @@ M Mozarn 8 1 En mi bémol.
 | BI«:RNERS(LOrd} ...... Fantlaisie espagnole.
 BIZET . se 1R L 4 L'Arlésienne, 1'© suite.
 Boronme, , .. Danse polovtsiennes du Prince lgor.
-Ü]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001918_006.tif"/>
-<page><![CDATA[SE ) Tapisseries et
+Ü
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001918_006.tif'/>
+        <page>
+          <![CDATA[SE ) Tapisseries et
 %roderies d'ért
-
 OUVRÀGES DE DAMES
-
 Dlanche Kis
-
 Œassage des Loions, 12
-
 Znciennement rue de fa Confédération
-
 £È;_':—
 U
-
 pn d Senève
 A MENUET
-
 Marque deposée
-
 TELEPHONE STAND 52.64
-
- 
-
- 
-
- 
-
- 
-
- 
-
 e
-
- 
-
- 
-
 MÉTROPOLE GARAGE
-
 Mercier, Pictet, Mallet & Co
 GENÈVE — 6, Rue d’Italie, 6 — GENÈVE
 TÉLÉPHONE STAND 40.22
-
 LF US CENIR 0L
 LF.PLWS MODERNE
-
 Voitures de luxe. de tourisme et d’occasion aux meilleures conditions
-
- 
-
 Atelier spécialement outillé pour revisions soignées et rapides
-
-P Pa]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001918_007.tif"/>
-<page><![CDATA[|
+P Pa
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001918_007.tif'/>
+        <page>
+          <![CDATA[|
 | IDrpnssy , e Ibéria(n° 2 des Images).
 } » p Marche écossaise.
 Duparesr 0 Lénore.
@@ -471,64 +349,35 @@ I » Concerto en /a mineur, violon . M. Lacroix.
 Fauré , .  Ballade pour piano.........…. Mle Herr-Japy.
 ! Franck, C. .  Variations symphoniques, piano M. Cortot.
 i n'Inpy, V. ... Fantaisie pour hautbois ... M. Dennes.
-
 <
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
-T4]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001918_008.tif"/>
-<page><![CDATA[MENDELSSOHN
+T4
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001918_008.tif'/>
+        <page>
+          <![CDATA[MENDELSSOHN
 MozarT
-
 Porrora ...
 Rimsky-Korsakow .
 ScHuLTHESs ..
 SCHUMANN ….
-
 »
-
 TARTINI
-
 Bacu, J.-S.. :
 BEETHOVEN ..
-
 » ..
 BoRODINE ...
 BRÉVILLE (DE)
-
 MoussoRGSKI.
-
 »
 IMOZARTI E
 RAMEAU
-
 SCHUBERT .…
 WAGNER....
-
 BEETHOVEN ..
-
 MoussoresKky
-
 Symphonie espagnole, violon .
 Danse macabre, piano
-
 Concerto en mi, violon
 Concerto en /a majeur, piano .
 Concerto en mi bémol, piapo ...
@@ -539,73 +388,45 @@ Concerto en ut dièze mineur, piano
 Concertino pour violon
 Concerto en /a mineur, piano, .
 Concerto p" violoncelle
-
 Elégie pour violoncelle
 Concerto en ré mineur, violon,
 1* concerto pour clarinette ...
-
 M. Thibaud.
-
 M. Braïlowsky.
 M. Crickboom.
 M. Braïlowsky.
 Mle Darré.
-
 M. Weinberger.
 M. Thibaud.
-
 M. Albisi.
-
 M!e Herr-Japy.-
 Ml'le Wuilleumier.
 M. Aubert.
-
 M. Morel.
-
 M. de Sanctis.
 Mlie Wuilleumier.
 M. Hoogstoël.
-
 Œluvres pour chant et orchestre.
-
 Cantate n° 55, Zcharmer Mensch.
-
 Introduction du 2° acte et air de
 Florestan, de Fidelio
-
 Chant élégiaque
-
 Chant de la jeune Polovtaienne..
-
 Eros vainqueur, fragments
-
 Trois Balladesde Villon
-
 Phydilé
-
 Au pays où se fail la guerre
-
 Borts Godounow, air
-
 ux Champignons
-
 Ch'’io mi Scordi di te
-
 Air de Castor et Pollux........
-
 Shéhérazaode
-
 Die Allmacht
-
 1°" acte de la Walkyrie
-
 Cinq poèmes
 Preisleid des Maïtres chanteurs .
-
 Air de Rézia, Obéron
-
 M. Erb.
-
 M'le Tatianoff.
 Mre Croiza.
 M"" Croiza.
@@ -619,25 +440,20 @@ M"* Doria.
 Mre W'eidt.
 Mre L. Weidt.
 (Mme Kruger.
-
 ) M. Hofer.
 (M. de la Cruz.
 Mr"e Kruger.
-
 M. Hofer.
 Mre L. Weidt.
-
 Œ'uvres pour chœurs et orcheatre.
-
 IX° Symphonie avec chœurs...
-
 Prologue de Borts Godounow..….
-
 Gesangverein de Bâle,
-
 Lyre de Carouge.
-Chœur de dames.]]></page>       
-        </p>
+Chœur de dames.
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

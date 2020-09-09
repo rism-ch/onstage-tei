@@ -1,105 +1,96 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par l'Harmonie nautique<date when="07/12/1919"/></title>
-<series>1919-1920</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par l'Harmonie nautique
+            <date when='07/12/1919'/>
+          </title>
+          <series>1919-1920</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F001274</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Gabelles, G. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19191207"/>
-<title>Concert donné par l'Harmonie nautique</title>
-<placeName key="Victoria Hall"/>
-<name key="1919-1920" type="series"/>
-<name key="Franck, César" ref="https://muscat.rism.info/admin/people/70009" type="person" role="cmp">Franck, César</name>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Mozart, Wolfgang Amadeus" ref="https://muscat.rism.info/admin/people/115324" type="person" role="cmp">Mozart, Wolfgang Amadeus</name>
-<name key="Widor, Charles-Marie" ref="https://muscat.rism.info/admin/people/135158" type="person" role="cmp">Widor, Charles-Marie</name>
-<name key="Lauber, Joseph"  type="person" role="cmp">Lauber, Joseph</name>
-<name key="Sporck, G."  type="person" role="cmp">Sporck, G.</name>
-<name key="Hué, Georges-Adolphe" ref="https://muscat.rism.info/admin/people/30073649" type="person" role="cmp">Hué, Georges-Adolphe</name>
-<name key="Sinigaglia, Leone" ref="https://muscat.rism.info/admin/people/141195" type="person" role="cmp">Sinigaglia, Leone</name>
-<name key="Duparc, Henri" ref="https://muscat.rism.info/admin/people/41011746" type="person" role="cmp">Duparc, Henri</name>
-<name key="Borodin, Alexandr Porfir'evič" ref="https://muscat.rism.info/admin/people/30015583" type="person" role="cmp">Borodin, Alexandr Porfir'evič</name>
-<name key="Gabelles, Gustave  (dir.)" ref="https://muscat.rism.info/admin/people/30073762" type="person" role="int">Gabelles, Gustave  (dir.)</name>
-<name key="Harmonie Nautique"  type="person" role="int">Harmonie Nautique</name>
-<name key="Rouilly, Jean-Louise"  type="person" role="int">Rouilly, Jean-Louise</name>
-<name key="Lacroix, Jean"  type="person" role="int">Lacroix, Jean</name>
-<name key="Lauber, Joseph"  type="person" role="int">Lauber, Joseph</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001274_001.tif"/>
-<page><![CDATA[EJ
-
-    
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19191207'/>
+        <title>Concert donné par l'Harmonie nautique</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1919-1920' type='series'/>
+        <name key='Franck, César' ref='https://muscat.rism.info/admin/people/70009' type='person' role='cmp'>Franck, César</name>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Mozart, Wolfgang Amadeus' ref='https://muscat.rism.info/admin/people/115324' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Widor, Charles-Marie' ref='https://muscat.rism.info/admin/people/135158' type='person' role='cmp'>Widor, Charles-Marie</name>
+        <name key='Lauber, Joseph' type='person' role='cmp'>Lauber, Joseph</name>
+        <name key='Sporck, G.' type='person' role='cmp'>Sporck, G.</name>
+        <name key='Hué, Georges-Adolphe' ref='https://muscat.rism.info/admin/people/30073649' type='person' role='cmp'>Hué, Georges-Adolphe</name>
+        <name key='Sinigaglia, Leone' ref='https://muscat.rism.info/admin/people/141195' type='person' role='cmp'>Sinigaglia, Leone</name>
+        <name key='Duparc, Henri' ref='https://muscat.rism.info/admin/people/41011746' type='person' role='cmp'>Duparc, Henri</name>
+        <name key='Borodin, Alexandr Porfir&apos;evič' ref='https://muscat.rism.info/admin/people/30015583' type='person' role='cmp'>Borodin, Alexandr Porfir'evič</name>
+        <name key='Gabelles, Gustave' ref='https://muscat.rism.info/admin/people/30073762' type='person' role='int'>Gabelles, Gustave</name>
+        <name key='Harmonie Nautique' type='person' role='int'>Harmonie Nautique</name>
+        <name key='Rouilly, Jean-Louise' type='person' role='int'>Rouilly, Jean-Louise</name>
+        <name key='Lacroix, Jean' type='person' role='int'>Lacroix, Jean</name>
+        <name key='Lauber, Joseph' type='person' role='int'>Lauber, Joseph</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001274_001.tif'/>
+        <page>
+          <![CDATA[EJ
 u0m1 S TTAIT,
-
- 
-
 ,
-
 * Dimanche 7 Décembre 1919, à 8 heures et demie du soir
-
-   
-
 donné par
-
 ; 9 e N to
-
 - l’Harmonie Nautique
 . (HARMONIE MUNICIPALE DE LA VILLE DE GENÈVE)
-
 - Directeur: M. Gustave GABELLES
-
 PROFESSEUR AU CONSERVATOIRE
-
 avec le gracieux concours de
-
 M* Jeanne-Louise ROUILLY, cantatice = M. Jean LACROIX, violoniste
 M. J. LAUBER, organiste-compositeur
-
 0 aiuue D
 —- © PROGRANME $
-
 PREMIÈRE PARTIE
-
- 
-
 1. Symphonie en ré mineur
-
 ........................................... César Franck
 r. Lento; Allegro non troppo.
 2. Allegretto.
@@ -112,43 +103,36 @@ Mlle J.-L. ROUILLY.
 ; DEUXIÈME PARTIE
 Pn J. Lauber
 ‘ Par l’Auteur.
-
 6. Islande, poème symphonique (première SaUVONE A 4T G. Sporck
 X 0UN TT Georges Flüe
 C naae 11e E Sinigaglia
-
 M. J. LACROIX,
 T T——…Q…üiôi
 A rocedaiones e p
 M'e J.-L. ROUILLY.
 9. a) Dans les Steppes de l’Asie centrale......... 1111111111 | Borodi
 b) Le Prince Igor, danses polovtsiennes (première audition).........…. É
-
 Au piano d'accompagnement : M. LAUBER.
 PIANO BLUÜUTHNER
-
 PRIX DES PLACES : Loges el premier rang de la première Galerie (numérotés), 2 fr, -
 el autres places de la première Galerie, 1 fr. — Seconde Galerie, 50 cent,
-
 MM. les membres non-exécutants ont droit d'entrée à ce concert sur presentalion du coupon
 n° 10 aux places du rez-de-chaussée et de la prémière galerie, à l'exception du premier vang et des loges,
 auxquels ils ont droit moyennant un supplément de 1 fr. — Les enfants au-dessous de dix ans paieront
 demi-place. — Il ne sera pas délivré de demi-places pour la seconde galerie.
-
 Dès ce jour, cartes à l'avance de 9 à 6 h., au Viotoria-Hall.
 Prière de ne pas entrer pendant l'exeoution des morceaux. — BUFFET au rez-de-chaussée.
-
 Rez-de-chaussée
-
 Jeudi 18 dêcemËr_e_a_ËmËç»ÿsé_æz_qçe de musique de chambre avec le concours de M. P. BAER, de l'Opéra.
-
 Le troisième concert aura lieu le dimanche 8 février 1920, avec le concours de Mme BARBEY,
 cantatrice, et de M. G. PILEUR, pianiste.
-mprimerie H, Jarrys. Treille, 4, Geneve T. S. V. P,]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001274_002.tif"/>
-<page><![CDATA[Symphonie en ré mineur
+mprimerie H, Jarrys. Treille, 4, Geneve T. S. V. P,
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001274_002.tif'/>
+        <page>
+          <![CDATA[Symphonie en ré mineur
 de César Franck
-
 La Symphonie en ré mineur, de César Franck, fut composée de 1880 à 1888, tout
 de suite après la célèbre Sonate piano et violon, en même temps que Prélude, Aria et
 finale (pour piano) et que Psyché (pour orchestre et chœur). C’était l’époque où les
@@ -156,10 +140,8 @@ plus notables de nos compositeurs revenaient délibérément à cette forme, si 
 dédaignée en France, de la symphonie pure. La symphonie en sol mineur, de Lalo, et
 la symphonie en wt mineur, de M. Saint-Saëns, sont à peu près contemporaines de la
 symphonie en é mineur de César Franck.
-
 Cette œuvre, dans ses grandes lignes, a conservé les divisions caractéristiques de
 la symphonie classique, mais les ldéveloppements sont d’une plus grande liberté.
-
 < Le premier morceau commence par une introduction lente et grave dont le dessin
 initial, en s’animant, devient le tlième de l’allegro. Après une brève exposition de ce
 mouvement, le lento est repris, dans un autre ton, et se relie de nouveau à l’allegro
@@ -169,16 +151,13 @@ de ce chromatique si particulier an génie de César Franck, s’y développent 
 à tour. Puis le thème de l’introduction lente intervient une dernière fois, traité en
 canon avec toutes les forces de l’orchestre ; enfin, l’allegro s’impose définitivement : sa
 reprise conduit rapidement à la conclusion.
-
 La deuxième partie tient lieu à la fois d’andante et de scherzo. Un chant d’un
 caractère doux est présenté par le cor anglais, que soutiennent des accords pincés.
 Après quelques développements et l’énoncé d’un nouvean thème, vient un dessin animé,
 d’aspect en quelque sorte fantastique. À la fin, ce dessin et le chant du cor anglais se
 combinent et se superposent.
-
 Les Pêcheurs de Saint-Jean
 de Ch-M. Wulor.
-
 L’ouverture des Pêcheurs de Saint-Jean (Saint-Jean de Enz) résume le drame
 maritime de Henri Cain, traduit musicalement par Ch-M. Widor (secrétaire perpétuel
 de l'Académie des Beaux-arts) et représenté à l'Opéra-comique en 1910. Le thème de
@@ -188,53 +167,39 @@ l’est encore plus pour musique d’harmonie. Elle fut transcrite spécialement
 une tonalité aride par M. Parès, pour le concours de Paris 1912, en division d’excel-
 lence, et c’est cette transcription qu’interprète ce jour l’Harmonie Nautique, pour la
 première fois à Genève. ;
-
 Dans les Steppes de l’Asie ‘centrale
-
 de Borodine.
-
 Dans le silence des Steppes sablonneuses de l’Asie centrale, retentit le premier refrain
 d’une chanson paisible russe. On entend aussi les sons mélancoliques des chants de
 l’Orient; on entend le pas des chevaux et des chameaux qui s’approchent. Une cara-
-
 « vane, escortée par des soldats russes, traverse l’immense désert, continue son long
-
 voyage sans crainte, s'abandonnant avec confiance à la garde de la force guerrière
 russe. La caravane s’avance toujours. Les chants russes et ceux dés indigènes se
 confondent dans la même harmonie, leurs refrains se font entendre longtemps dans le
 désert et finissent par se perdre dans le lointain. E
-
 Le Prince [gor (Danses polovtsiennes) .
-
 de Borodine.
-
 « Le Prince Igor, disait Borodine, est essentiellement un opéra national, qui ne peut
 avoir d’intérêt que pour nous autres Russes, qui aimons à retremper notre patriotisme
 aux sources mêmes de notre histoire, et à voir revivre, sur la scène, les origines de
 notre nationalité. » En cela il se trompait, car la précieuse qualité de son art donne
 à son ouvrage un attrait auquel ne résisterait aucun public, si étranger qu’il fût aux
 mœurs et aux préoccupations patriotiques des Russes,
-
 Dans les Danses polovtsiennes, notamment, nous sommes entraînés par l'ardeur
 sauvage de rythmes extraordinairement souples et vivants, en même temps que nous
 sommes éblouis par le puissant coloris des timbres orchestraux, et que nous subissons
 l’empire d’une sorte de passion sensuelle pour la beauté physique des sons, des formes
 et des mouvements qui s’y traduit avec une violence et une précision d’évocation tout
 à fait extraordinaires,
-
- 
-
 4
 t
-
 AN
-
 mts cé
-
 e e uc
-
-A E E]]></page>       
-        </p>
+A E E
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

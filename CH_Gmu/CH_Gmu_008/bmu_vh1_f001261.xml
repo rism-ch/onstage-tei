@@ -1,261 +1,176 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Dernier concert symphonique, 12me de l'abonnement<date when="12/04/1919"/></title>
-<series>1918-1919</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Dernier concert symphonique, 12me de l'abonnement
+            <date when='12/04/1919'/>
+          </title>
+          <series>1918-1919</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F001261</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Ansermet, E. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19190412"/>
-<title>Dernier concert symphonique, 12me de l'abonnement</title>
-<placeName key="Victoria Hall"/>
-<name key="1918-1919" type="series"/>
-<name key="Corelli, Arcangelo" ref="https://muscat.rism.info/admin/people/30000734" type="person" role="cmp">Corelli, Arcangelo</name>
-<name key="Mozart, Wolfgang Amadeus" ref="https://muscat.rism.info/admin/people/115324" type="person" role="cmp">Mozart, Wolfgang Amadeus</name>
-<name key="Mahler, Gustav" ref="https://muscat.rism.info/admin/people/68537" type="person" role="cmp">Mahler, Gustav</name>
-<name key="Bartholoni, Jean"  type="person" role="cmp">Bartholoni, Jean</name>
-<name key="Stravinskij, Igor' Fëdorovič" ref="https://muscat.rism.info/admin/people/132137" type="person" role="cmp">Stravinskij, Igor' Fëdorovič</name>
-<name key="Ansermet, Ernest  (dir.)" ref="https://muscat.rism.info/admin/people/40219507" type="person" role="int">Ansermet, Ernest  (dir.)</name>
-<name key="Orchestre de la Suisse Romande" ref="https://muscat.rism.info/admin/people/50007615" type="person" role="int">Orchestre de la Suisse Romande</name>
-<name key="Jaques-Dalcroze, Nina"  type="person" role="int">Jaques-Dalcroze, Nina</name>
-<name key="Closset"  type="person" role="int">Closset</name>
-<name key="Klein"  type="person" role="int">Klein</name>
-<name key="Brandia"  type="person" role="int">Brandia</name>
-<name key="Barbier"  type="person" role="int">Barbier</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001261_001.tif"/>
-<page><![CDATA[VICGTORIA-MHAlala - GENÈVE
-
- 
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19190412'/>
+        <title>Dernier concert symphonique, 12me de l'abonnement</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1918-1919' type='series'/>
+        <name key='Corelli, Arcangelo' ref='https://muscat.rism.info/admin/people/30000734' type='person' role='cmp'>Corelli, Arcangelo</name>
+        <name key='Mozart, Wolfgang Amadeus' ref='https://muscat.rism.info/admin/people/115324' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Mahler, Gustav' ref='https://muscat.rism.info/admin/people/68537' type='person' role='cmp'>Mahler, Gustav</name>
+        <name key='Bartholoni, Jean' type='person' role='cmp'>Bartholoni, Jean</name>
+        <name key='Stravinskij, Igor&apos; Fëdorovič' ref='https://muscat.rism.info/admin/people/132137' type='person' role='cmp'>Stravinskij, Igor' Fëdorovič</name>
+        <name key='Ansermet, Ernest' ref='https://muscat.rism.info/admin/people/40219507' type='person' role='int'>Ansermet, Ernest</name>
+        <name key='Orchestre de la Suisse Romande' ref='https://muscat.rism.info/admin/people/50007615' type='person' role='int'>Orchestre de la Suisse Romande</name>
+        <name key='Jaques-Dalcroze, Nina' type='person' role='int'>Jaques-Dalcroze, Nina</name>
+        <name key='Closset' type='person' role='int'>Closset</name>
+        <name key='Klein' type='person' role='int'>Klein</name>
+        <name key='Brandia' type='person' role='int'>Brandia</name>
+        <name key='Barbier' type='person' role='int'>Barbier</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001261_001.tif'/>
+        <page>
+          <![CDATA[VICGTORIA-MHAlala - GENÈVE
 - SAMEDI 12 AVRIL 1919, à & heures 30
-
 EF IORCHESTRE
-
 DE
-
 sUISSE ROMANDE
-
 DERNIER CONGERT SYMPHONIQUE
-
 125e DE L'ABONNEMENT
 Soliste : M"° Nina JAQUES-DALCROZE
-
 CANTATRICE
 PROGRAMME
 PREMIÈRE PARTIE
-
 . CONCERTO GROSSO, N° 2, en fa majeur . . . . . .  Corelli
-
 Concertino : MM. CLOSSET, KLEIN, BRANDIA.
 Cembalo : M* BARBIER.
-
 . à) AIR DE SUZANNE « (liunse alfin il momento » n 0 7 Ms acd
 ; ; O
 b) AIR DE CHÉRUBIN « Non so più », des Noces de Figaro |
 Mme Nina JAQUES-DALCROZE
-
 3. MUSIQUE FUNÈBRE MAÇONNIQUE .. . . . . .  Mozart
-
 4. Quatre chants du COMPAGNON ERRANT .. . . . Mahler
 Mme Nina JAQUES-DALCROZE
-
 ‘ DEUXIÈME PARTIR
 5. LA NUIT CÈDE AU JOUR (1re audition) . . . . , - - Bartholoni
 » SUITE de L’OISEAU DE FEU (1re auditionn . . . . … Strawinsky
-
 à) Introduction. - L’oiseau de feu et sa danse.
 b) RKonde des Princesses (Khorovode).
-
 c) Danse infernale du Roi Kastcheï.
-
 d) Berceuse et Final.
-
 L'Orchestre sera dirigé par M. Ernest ANSERMET
-
 Aucun morceau ne sera répélé, ni ajoulé au programme.
-
- 
-
 La Direction se réserve le droif d'apporter au programme foufes modifications que les
 circonsfances pourraien( lui imposer.
-
 Location et renseignements chez MM. ROTSCHY frères
-
- 
-
- 
-
 PRIX: Fr. 0.25
-
-Imp. Buloz & Jacquier, rue John-Grasset, 7 - Genève]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001261_002.tif"/>
-<page><![CDATA[Arcangelo CORELLI #
-
+Imp. Buloz & Jacquier, rue John-Grasset, 7 - Genève
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001261_002.tif'/>
+        <page>
+          <![CDATA[Arcangelo CORELLI #
 (Né à Fusignano en 1653, mort à Rome en 1713.)
 = u 7 «
 Le Concerto grosso en fa majeur est le deuxième de la série qui parut sous le }
 titre : ; ; #
 Concerti grossi
-
 con duoi Violini, e Violoncello di Concertino obligati,
-
 e S
-
 e duoi altri Violini, Viola e Basso di Concerto grosso,
 ad arbitrio che si potranno radoppiare.
 OPERA SESTA
 in Roma 1712
-
 Type significatif et éminent de la musique orchestrale primitive, l’œuvre est donc
-
 conçue pour un groupe de 3 solistes auquel répond ou qu’accompagne un chœur
-
- 
-
 d’instruments à archets, Le cembalo (ou piano) réalise la basse continue. D'un seul
 tenant, ce concerto passe par les mouvements que voici :
-
 e E e n
-
 d N e d rs
-
 Vivace. Allegro. Adagio. Vivace. Allegro. — Largo andante. Allegro. — Grave. q
 Andante largo. Allegro. q
-
 sh tn
-
 Gustave Mahler |
-
 (Ne à Kalischt (Bohème) le 7 juillet 1860 ; mort à Vienne le 18 mai 1911)
 Chants du Compagnon errant
-
 La première œuvre connue de Mahler, écrite en 18883, reprise souvent dans ses sym-
 phonies, et qui donne l’orientaätion de toute son œuvre. Textes extraits du recueil
 populaire Des Knaden Wunderhorn, traduits en français par M. Jaques-Dalcroze.
-
- 
-
 J
-
 |
-
 l #
-
 ï
-
 Ma mignonne se marie et me Jlaisse seul: Ne fleurissez plus, ne chantez plus, }
 Qu’on prépare mon linceul ! Les chansons s'envolent, les parfums sonft -L
-
 Je m’enfuis dans ma chambrette [superflus !… | È]
-
 Où gémit le vent. l'espoir s’en va, les soucis demeurent ;
-
 Et je grogne comme une hête Pleure, mon cœur pleure !…. i
-
 e OE
-
 Et je pleure comme un enfant !…
 Fleur d’amour, fleur d’un jour,
 Tu fleuris parfumée ! L
-
 Rossignol, beau rossignol,
-
 Pour charmer ta bien-aimée,
-
 Chante le jour, chante la nuit,…
-
 (Cui-eui…
-
 Suis descendu au jardin,
 L’herbe est satinée !
 Le pinson m’à dit bonjour.
-«Bonjour, cousin !»]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001261_003.tif"/>
-<page><![CDATA[rr
-
+«Bonjour, cousin !»
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001261_003.tif'/>
+        <page>
+          <![CDATA[rr
 m TTx
-
- 
-
 Faipe
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 “ p SN
-
-   
- 
-
 E
-
- 
-
 uE e
 = ;
-
 MRE RIR E REN E d AIN RE
-
-  
-
 DE E RE RE
-
- 
-
-  
-
- 
-
- 
-
- 
-
 Oh ! la belle matinée
 Parfumée,
 Oh ! le beau matin !
@@ -264,31 +179,22 @@ Mes chansons, éveillez-vous !
 Les muguets, dans les sillons
 Sonnent de gais carillons
 Pour héler les papillons !
-
 Kling, klang, klang, Kkling,
 Parfums des roses et du thym,
 Volez dans le clair matin !
-
 You hou !… l’air est si doux,
 Mes chansons, éveillez vous !
 La clarté du gai soleil
 À mis la terre en éveil !
-
 Tout s’abandonne et tout sourit,
 Tout rayonne et tout fleurit !
-
 Tout dans la nature
-
 Gaîment murmure :
-
 «Qu’il fait bon-vivre ici bas !
-
 Seul, mon cœur, lui, n’à rien dit
 . Las, mon cœur dort.
 Mon amour est mort !
-
 II
-
 Dans ma poitrine nue un poivnard est
 [planté
 Kt le déchire! — Aux heures même de
@@ -300,7 +206,6 @@ Coule sur la route…
 Jour et nuit je le sens couler !…
 Si je lève aux ciel mes veux,
 Jy vois sourire deux yeux bleus,
-
 Dans le lac pâle qui s’endort
 Je crois revoir les yeux encor
 De ma mie ! Et lorsqu’au lointain clocher
@@ -309,9 +214,7 @@ J’entends son rire !…
 Que ne puis-je m’enfuir ailleurs, ail-
 [leurs !
 Pour oublier celle pour qui je meurs !
-
 LV
-
 Deux jolis yeux doux, couleur de jour,
 Ont pris ma force et ma joie et mon cou-
 [rage !…
@@ -337,74 +240,48 @@ Alors j'ai senti que j'oubliais tout,
 Et tout m’a semblé si doux, si doux !….
 Tout s’efface,
 Tout passe…
-
 Joie.… souci… amour… et larmes !….
-
 Jean Bartholoni
-
 À fait ses études musicales à Paris, avec Joseph Monpain pour l’harmonie et le
 contrepoint, et César Galeotti (élève de Franck) pour la composition et l’orchestration.
 Les Quatre Impressions d'Kté, dont celle-ci est la deuxième, forment une œuvre im-
 portante qui vient d’être accueillie avec succès à Paris.
-
 La Nuit cède au Jour
-
 La-lente nuit se poursuit en lignes indécises, elle vibre en silènce et se complaît en
-
 ses douces ténèbres :
-
 elle a vu les heuves fuir, mais elle réone encore ;
-
 elle attend,
-
 majestueuse, le jour qui va venir ; elte sait qu’à cet instant il Iài faudra mourir.
-
 Un timide rayon vient caresser la
-
 étreintes.
-
 Les êtres mystérieux qui peuplent les ténèbres saluent le
-
 terre, il affleure doucement la planète endormie
 pour l'éveiller bientôt à là splendeur du jour, car la nuit va céder :
 d’autres rayons plus vifs chassent les premiers ot la
-
 la lumière grandit,
-
 terre frémit sous leurs chaudes
-
 matin en une dernière
-
 ronde, puis laissent place à la vie qui renaît.
-
- 
-
 es rayons vihrent, le
 à chassé les lignes indé
 L’air s’irradie et
-
- 
-
 soleil monte et la nuit cède au jour: l’harmonieuse lumière
 cises, tout chante maintenant dans un grand frémissement.…
 reprend sa pureté, le jour monte encore mäjestueux ef splendide :
-
 il à vaineu la “belle nuit obscure, la lumière est acquise, le jour est victorieux !
 Solennel et puissant, il règne sur le monde, et ses grands rayons d’or jouent dans
-
-l’immensité.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001261_004.tif"/>
-<page><![CDATA[Igor STRAWINSKY
+l’immensité.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001261_004.tif'/>
+        <page>
+          <![CDATA[Igor STRAWINSKY
 (Né à Pétrograd, le 23 mai) 5 juin 1882)
-
 L'Oiseau de Feü
-
 Le livret chorégraphique de P’Oiseau de feu est fait d’après une série d'anciens contes-
 pationaux russes sur Kastcheï l’'Innocent, l’Oiseau de feu et Tvan Tzaréviteh. Kastcheï y
 symbolise l’esprit du Mal, le Tzaréviteh, sa victime, que sauve l’Oiseau de feu.
-
 Au cours d’une chasse, [van s’est mis-à poursuivre 'Oiseau de feu, plus exactement
-
 l’«Oiseau au plumage ardent». Sa poursuite l’amène, sans qu'il s’en aperçoive, dans- les
 jardins enchantés de Kastcheï. Incapable d’atteindre l'Oiseau avee une flèche, Ivan se
 cache dans un arbre et finit par attraper l’Oiseau par la queue. L'Oiseau se soumet, mais
@@ -415,13 +292,9 @@ de Kastcheï, descendent dans l’endroit défendu du jardin pour y jouer avec l
 d'or. Au cours de leurs jeux, elles aperçoivent Ivan qui salue 1'ebpectueuselnenf Elles
 songent un moment à le chasser, puis s’en approchent et font autour de I… une 1oude
 Bientôt, les trompettes claires du chevalier du Matin se font entenduæ les’ pmmesses
-
 s’enfuyent et ferment à Ivan le chemin du château. Ivan brise le portail. Mais, aussitôt.
-
 un carillon féerique se déclanche, les gardiens du château s'animent et défilent ; Kastcheï
-
 apparaît sous une forme monstrueuse,
-
 [yan est pris par des gardiens et placé dans une grille pour y être pétrifié. Mais il se
 souvient de sa plume magique ; il fait le triple geste ; l’Oiseau apparaît et fait des tour-
 billons qui entraînent tous les sujets de Kastcheï dans une danse infernale. À la fin, tous
@@ -433,122 +306,68 @@ dans les ténèbres. Quand la lumière reparaît, tous les êtres que Kastcheï 
 dans son jardin sont ranimés. [van a retrouvé sa fiancée, et reçoit du peuple délivré le
 sceptre du commandement. L'Oiseau de feu passe une dernière fois en faisant son adieu
 au conte. ;
-
 Une première suite d’orchestre, faite de fragmeuts purement et simplement détachés
 de l’œuvre à été donnée à Genève en 1943. L’auteur’ lui-même vient de tirer
 de son œuvre la suite inédite inscrite à ce programme, spécialement conçue pour le
 concert et à cet effet entièrement réorchestrée eu vue d'un effectif moyen, tandis que
 l’œuvre originale demandait un appareil orchestral considérable.
-
 On situera aisément les fragments indiqués dâns le récit qui vient d’être fait. L'intro-
-
 duction évoque les jardins enchantés de Kasteheï où l’oiseau va venir s'ébattre. On
-
 remarquera dès le début, aux trombones l’enchaînement des deux «tierces» (imajeure -
 mineure) de Kastcheï, sur lesquelles tout l’organisme musical de l’œuvre est fondé. La
 Ronde des Princesses se termine au moment où l’auvore va poindre. La Berœuse est
 reliée au Final par les harmonies des ténèbres qui suivent 1éu‘0ulement de B&stchûî
-
 alors un nouveau jour se lève et la lumière monte avec l'hymne. d dllëgress&ﬁu .1;euàﬂe
-
-délivré.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001261_005.tif"/>
-<page><![CDATA[SOCIÉTÉ DE ‘
-
+délivré.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001261_005.tif'/>
+        <page>
+          <![CDATA[SOCIÉTÉ DE ‘
 BRNQUE SUISSE
-
 FONDÉE EN 1872
 Capital-actions et réserves 110 millions Genève - G, Corraterie
-
 AGENGE DES EAUX-VIVES 3, Place des Eaux-Vives
 AGENCE DE PLAINPALAIS 36, Rue de Carouge (Angle Boul. du Pont-d'Arve)
-
 Toutes opérations de Banque aux meilleures conditions _
 v
-
- 
-
- 
-
- 
-
 PIANOS \
 Ch. <Ybloux
 |
-
 7, Fusterie Genève
-
- 
-
 Rotschy Strères - Genève — ;
-
 MUSIQUE ET INSTRUMENTS | PIANOS ET HARMONIUMS
 _ VENTE ET ABONNEMENT Vente, Location, Réparation
-
 Corraterie, 22 | Rue de Candolle 8
-
 Grand abonnement. - Choix considérable. - Conditions favorables.
-
- 
-
 ©
-
- 
-
- 
-
 La Banque de Denôts et de Grédit
-
 18, Rue de Hese - GENEVE - |0, Rue Diday
 reçoit actuellement de l'Atgent en Dépôt
-
 pour un an et au-delà au taux de S % l'an
-
- 
-
- 
-
 p ‘ |
-L []]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f001261_006.tif"/>
-<page><![CDATA[rakrdr. m
-
+L [
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f001261_006.tif'/>
+        <page>
+          <![CDATA[rakrdr. m
 P rrrs rr e rr m e A S
 2 P DE Tn ï 7
-
 e>
-
 A
 +
 sE
 %
 >s
-
- 
-
 B
-
 SauTieR & Jaecen PIANOS
-
 (2, FUSTERIE (à côté de la Poste)
-
 PIANOS °"" queue Vour Vente et Location
-
 PI_IANOS D'OCCASION GARANTIS
 MAISON RECOMMANDÉE
-
- 
-
- 
-
- 
-
 “ Étaiissements UH HLTEBRAND & C
-
 INGÉNIEURS CONSTRUCTEURS
-
- 
-
 … rr
 S ><
 = E-
@@ -573,31 +392,15 @@ PARIS (IX-) GENEVE
 10, Rue Nouvelle (Rue de Clichy) 3, RUE CHAPONNIÈRE, 3
 Téléphone : Central 18-60 Téléphone 68-11
 Adresse félégr. Hiltebing-Paris Adresse félégr, Hiltebing-Genève
-
- 
-
 Ne pas confondre notre maison avec des noms similaires
-
- 
-
- 
-
 —
-
- 
-
 ( e —>
 Oulure ek 0/1ﬂ<://0æ
-
- 
-
- 
-
- 
-
 |
-(|]]></page>       
-        </p>
+(|
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

@@ -1,715 +1,412 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Grand concert populaire : Au profit intégral des chômeurs<date when="27/03/1935"/></title>
-<series>1934-1935</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Grand concert populaire : Au profit intégral des chômeurs
+            <date when='27/03/1935'/>
+          </title>
+          <series>1934-1935</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002924</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Delaye, G.</note>
+        <note>Willems</note>
+        <note>Blavignac [et al.] (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19350327"/>
-<title>Grand concert populaire : Au profit intégral des chômeurs</title>
-<placeName key="Victoria Hall"/>
-<name key="1934-1935" type="series"/>
-<name key="Diabelly"  type="person" role="cmp">Diabelly</name>
-<name key="Maeder"  type="person" role="cmp">Maeder</name>
-<name key="Gounod, Charles-François" ref="https://muscat.rism.info/admin/people/80479" type="person" role="cmp">Gounod, Charles-François</name>
-<name key="Schall, H."  type="person" role="cmp">Schall, H.</name>
-<name key="Pahl, K."  type="person" role="cmp">Pahl, K.</name>
-<name key="Debecq, A."  type="person" role="cmp">Debecq, A.</name>
-<name key="Planquette"  type="person" role="cmp">Planquette</name>
-<name key="Saint-Saëns, Camille" ref="https://muscat.rism.info/admin/people/76734" type="person" role="cmp">Saint-Saëns, Camille</name>
-<name key="Lendvai, E."  type="person" role="cmp">Lendvai, E.</name>
-<name key="Kratter, W."  type="person" role="cmp">Kratter, W.</name>
-<name key="Scherchen"  type="person" role="cmp">Scherchen</name>
-<name key="Schubert, Franz" ref="https://muscat.rism.info/admin/people/111603" type="person" role="cmp">Schubert, Franz</name>
-<name key="Willems (dir.)"  type="person" role="int">Willems (dir.)</name>
-<name key="Blavignac (Mme) (dir.)"  type="person" role="int">Blavignac (Mme) (dir.)</name>
-<name key="Adler, F. (dir.)"  type="person" role="int">Adler, F. (dir.)</name>
-<name key="Cujean, M. (dir.)"  type="person" role="int">Cujean, M. (dir.)</name>
-<name key="Grant, Michel (dir.)"  type="person" role="int">Grant, Michel (dir.)</name>
-<name key="Hänel, W. (dir.)"  type="person" role="int">Hänel, W. (dir.)</name>
-<name key="Pochon, A. (dir.)"  type="person" role="int">Pochon, A. (dir.)</name>
-<name key="Delaye, G. (dir.)"  type="person" role="int">Delaye, G. (dir.)</name>
-<name key="Lyre de Genève"  type="person" role="int">Lyre de Genève</name>
-<name key="Ecole sociale de musique"  type="person" role="int">Ecole sociale de musique</name>
-<name key="Fanfare ouvrière de Châtelaine"  type="person" role="int">Fanfare ouvrière de Châtelaine</name>
-<name key="Freiheit"  type="person" role="int">Freiheit</name>
-<name key="Union chorale du travail"  type="person" role="int">Union chorale du travail</name>
-<name key="Frohsinn"  type="person" role="int">Frohsinn</name>
-<name key="Frauenchor Vorwärts"  type="person" role="int">Frauenchor Vorwärts</name>
-<name key="Persévérante"  type="person" role="int">Persévérante</name>
-<name key="Chorale ouvrière chênoise"  type="person" role="int">Chorale ouvrière chênoise</name>
-<name key="Musique ouvrière de Versoix"  type="person" role="int">Musique ouvrière de Versoix</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002924_001.tif"/>
-<page><![CDATA[CRN DEDE DE NE DE DEDE DEDE DEDE DEDE DEDE DEDE VEDEDE DEDE DEDE DEDE DE VA
-
- 
-
- 
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19350327'/>
+        <title>Grand concert populaire : Au profit intégral des chômeurs</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1934-1935' type='series'/>
+        <name key='Diabelly' type='person' role='cmp'>Diabelly</name>
+        <name key='Maeder' type='person' role='cmp'>Maeder</name>
+        <name key='Gounod, Charles-François' ref='https://muscat.rism.info/admin/people/80479' type='person' role='cmp'>Gounod, Charles-François</name>
+        <name key='Schall, H.' type='person' role='cmp'>Schall, H.</name>
+        <name key='Pahl, K.' type='person' role='cmp'>Pahl, K.</name>
+        <name key='Debecq, A.' type='person' role='cmp'>Debecq, A.</name>
+        <name key='Planquette' type='person' role='cmp'>Planquette</name>
+        <name key='Saint-Saëns, Camille' ref='https://muscat.rism.info/admin/people/76734' type='person' role='cmp'>Saint-Saëns, Camille</name>
+        <name key='Lendvai, E.' type='person' role='cmp'>Lendvai, E.</name>
+        <name key='Kratter, W.' type='person' role='cmp'>Kratter, W.</name>
+        <name key='Scherchen' type='person' role='cmp'>Scherchen</name>
+        <name key='Schubert, Franz' ref='https://muscat.rism.info/admin/people/111603' type='person' role='cmp'>Schubert, Franz</name>
+        <name key='Willems' type='person' role='int'>Willems</name>
+        <name key='Blavignac (Mme)' type='person' role='int'>Blavignac (Mme)</name>
+        <name key='Adler, F.' type='person' role='int'>Adler, F.</name>
+        <name key='Cujean, M.' type='person' role='int'>Cujean, M.</name>
+        <name key='Grant, Michel' type='person' role='int'>Grant, Michel</name>
+        <name key='Hänel, W.' type='person' role='int'>Hänel, W.</name>
+        <name key='Pochon, A.' type='person' role='int'>Pochon, A.</name>
+        <name key='Delaye, G.' type='person' role='int'>Delaye, G.</name>
+        <name key='Lyre de Genève' type='person' role='int'>Lyre de Genève</name>
+        <name key='Ecole sociale de musique' type='person' role='int'>Ecole sociale de musique</name>
+        <name key='Fanfare ouvrière de Châtelaine' type='person' role='int'>Fanfare ouvrière de Châtelaine</name>
+        <name key='Freiheit' type='person' role='int'>Freiheit</name>
+        <name key='Union chorale du travail' type='person' role='int'>Union chorale du travail</name>
+        <name key='Frohsinn' type='person' role='int'>Frohsinn</name>
+        <name key='Frauenchor Vorwärts' type='person' role='int'>Frauenchor Vorwärts</name>
+        <name key='Persévérante' type='person' role='int'>Persévérante</name>
+        <name key='Chorale ouvrière chênoise' type='person' role='int'>Chorale ouvrière chênoise</name>
+        <name key='Musique ouvrière de Versoix' type='person' role='int'>Musique ouvrière de Versoix</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002924_001.tif'/>
+        <page>
+          <![CDATA[CRN DEDE DE NE DE DEDE DEDE DEDE DEDE DEDE DEDE VEDEDE DEDE DEDE DEDE DE VA
 Ï ï i 27 Mars 1935
 Victoria-Hall Mercredi ars
-
 Portes à 20 h.
 Grand
-
 Concert Populaire
-
 organisé par le
-
 CARTEL DES SOCIÉTÉS OUVRIÈRES DE DÉLASSEMENT DE GENÈVE
-
- 
-
 au profit intégral des chômeurs
 avec la participation de :
-
 LA LYRE DE GENÈVE ; ÉCOLE SOCIALE DE MUSIQUE ; FANFARE OUVRIÈRE DE CHATE-
-
 LAINE ; MANNERCHOR FREIHEIT; UNION CHORALE DU TRAVAIL ; SANGERBUND
-
 FROHSINN ; FRAUENCHOR VORWARTS ; LA PERSÉVÉRANTE ; CHORALE OUVRIÈRE
 CHÉNOISE et la MUSIQUE OUVRIÈRE DE VERSOIX
-
- 
-
 CRL DEDE DEDESE DEDE DEDEDNEDNEDNESESESNENENEDEDES
-
- 
-
- 
-
 x
-
 D R RE EN E OE OE E E E E E E ETE
-
 *
-
 Pour la préparation de vos ordonnances,
 pour tous vos achats en médicaments,
 produits pharmaceutiques, parfumerie, etc.
-
 Adressez-vous aux
-
 Pharmacies
 | Populaires
-
 fondées en 1891
 par les Sociétés de secours mutuels,
-
 ms e — —E » anre 1O S Q
-
 27, Quai des Bergues 50, Rue de Monthoux
 8, Rue d'Italie 6, Avenue du Mail
 57, Rue de Carouge 27, Rue de la Servette
-
- 
-
- 
-
- 
-
- 
-
-IMPRIMERIES POPULAIRES, GENÈVE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002924_002.tif"/>
-<page><![CDATA[BRASSERIE BONIVARD
+IMPRIMERIES POPULAIRES, GENÈVE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002924_002.tif'/>
+        <page>
+          <![CDATA[BRASSERIE BONIVARD
 CAFÉ-RESTAURANT
-
 C. BERTOGLIO
-
 Rue des Alpes, 6 et rue Thalberg
 Téléphone 23.802 - -
-
 GENÈVE
-
 Importation directe de vins d’Italie. Consommations |°' choix
-
- 
-
- 
-  
- 
- 
-  
- 
-
-  
-
- 
-
 Meubles de qualité
 Facilités de payement
-
 Au Meilleur Meuble
 Rue du Cendrier, 19
-
 Grand choix
-
 Prix avantageux
-
- 
-
 Munhistein
-
 Le vêtement de qualité
 a prix avantageux
-
- 
-
 CAFÉ -BRASSERIE
-
 O. RIBI
-
 Spécialités :
-
 Boulevard Saint-Georges, 73
-
 Amourettes Tripes Fondues Vins de ler choix
-
- 
-
- 
-
 RAPIDE - RADIO
 DÉPANNAGE - SERVICE
-
 par spécialiste
-
 ôtablissaggnIs Ceber
-
 S6, Boulevard St-Georges
 mélépah s2062
-
-Genève]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002924_003.tif"/>
-<page><![CDATA[_—
-
- 
-
- 
-
+Genève
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002924_003.tif'/>
+        <page>
+          <![CDATA[_—
 DAS DE DOUTE
-
 our avoir une si belle mine
-
- 
-
 il doit manger du pain
-
 DE LA COOPÉRATIVE
-
 Et vous
-
-EN MANGEZ-VOUS ? ?]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002924_004.tif"/>
-<page><![CDATA[Sociétés du cartel !
+EN MANGEZ-VOUS ? ?
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002924_004.tif'/>
+        <page>
+          <![CDATA[Sociétés du cartel !
 Pour vos bouquets
 gerbes et couronnes
 Les meilleurs prix.
-
 M. Novel
-
 FLEURISTE
-
 2, rue de Lausanne
-
 Immeuble Hôtel des Familles
-
 Téléph. 28.885
-
 Les vê
-
 habillent tout le mondeæ«
 Tout le monde dit : ;
-
 Henci Dew
-
 Chez lui, du chicÿl De la perfecçm
-
- 
-
 Camarades !
-
 Achetez à la
-
 Coopérative
 Ouvrière
-
 de la
-
 Rue des Savoises, Genève
-
 c‘est dans votre intérêt
-
- 
-
- 
-
 BRASSERIE
-
 |||||||| Vn rrr
-
 Fritz Kunz
-
 SERVETTE I
-
 poreree
-
 se recommande pour ses
 spécialités et consom-
 mations de choix.
-
 Téléphone : 22.130
-
- 
-
 PROGRAMME k
-
 PREMIÈRE PARTIE
-
 liSonatne. .… …… Diabelly
-
 ÉCOLE SOCIALE DE MUSIQUE
 Direction : G. Delaye
-
 2. Tonne libre chant! …
-
 CHORALE OUVRIÈRE CHÊËNOISE
 Direction: Prof. Willems
-
 3. Hymne à la Paix .… Gounod
-
 CHŒUR DAMES « LA PERSÉVÉRANTE »
 Direction: Mme Blavignac
-
 Maeder
-
 4. Die Schmiede im Walde H. Schal!
-
 SANGERBUND FROHSINN, Dir.: A. Pochon
-
 5. Lied der Bergmanns-
 frauen
-
 avec accompagnement au piano
 FRAUENCHOR « VORWARTS », Dir.: F.Adler
-
 |
 Grlrénée .s A. Debecq 1 ‘
 MUSIQUE OUVRIÈRE VERSOIX, Dir.: M. Cujean |
-
 ENTR'ACTE
-
- 
-
- 
-
- 
-
 Oisellerie Genevoise
-
 Oiseaux et animaux de toutes
-
 espèces - Cages - Graines, Acces-
-
 soires - Remèdes pour oiseaux
-
 Le plus grand choix d’oiseaux
-
 en Suisse, au plus bas prix
-
 EF Achat et échanges
 Chiens de luxe
-
 Tél. 40.627 23, Rue de Carouge
-
- 
-
- 
-
- 
-
- 
-
 RÉVOLUTION ? Sä};{_
-
 nous n'offrons que de la marchandise achetée aui
 tentons d'un bénéfice normal sur des articles de t
 6 vitrines. |
-
 A LA BONN
-
 Saint-Ge*.
-
- 
- 
-
 7, Rue Vallin —
-
-Malgré nos prix avantageux, sur tout achat nous]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002924_005.tif"/>
-<page><![CDATA[DES PRIX
-
+Malgré nos prix avantageux, sur tout achat nous
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002924_005.tif'/>
+        <page>
+          <![CDATA[DES PRIX
 Nouveau
-
 Restaurant Barcelone
-
 RBue de Berne, 21
 Rue des Alpes, 12
-
 Téléphone : 26283
 Spécialités de cuisine espagnole
 Spécialités de vins fins d’l£spa-
 gne - Plus de 50 qualités de vins
-
 Se recommande :
-
 JOSÉ SANS E.
-
 différents.
-
- 
-
 Pour vos déménagements !
 Pour vos excursions !
-
 Cardin
-
 12, Chantepoulet
 Téléphone 23,557
-
 CAFÉ DU LEM N
-
 Ouvert tous les jours jusqu'à 1 heure
-
 Samedi et dimanche jusqu'à 2 heures
-
 P. Fardel-Fobin
-
 24, Rue de Berne GENÈVE Téléphone 24.580
-
 Restauration à la carte et à toute heure
 Grande salle pour banquets
 Arrangement sur demande
 Spécialités valaisannes
-
 Local du Cercle Socialiste Valaisan
-
- 
-
 ÉPICERIE - PRIMEURS
-
 A Polosi
-
 28, rue des Grottes
-
 LIVRAISON A DOMICILE
 Timbres escompte jaunes
-
- 
-
 le kg de linge
-
 0.60 :
-
 lavé et séché à
-
 Buanderie
 Rue de Berne, 28
-
 Bains ouverts dimanche matin
 Téléphone 26.769
-
 Draps 0.40 pièce,
-
 Service à domicile
-
- 
-
 \Zar nos prix défient toute concurrence.
-
 AJOI ? Parce que nous avons peu de frais et
 jarniers prix de baisse, Parce que nous nous con-
 ilité. Venez vous en rendre compte. Voyez nos
-
 | MÉNAGÈRE
-
 sî,als - Angle rue Grenus
-
 Àfrons les TIMBRES JAUNES,
-
 ÿ
-
- 
-
 Hôtel-Restaurant
 Ou Gruili
-
 Chantepoulet, 21
 Siège du Cartel ouvrier
-
 Se recommande :
-Famille Joh. Schumacher]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002924_006.tif"/>
-<page><![CDATA[Garçon! Uncaléccème…
-
+Famille Joh. Schumacher
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002924_006.tif'/>
+        <page>
+          <![CDATA[Garçon! Uncaléccème…
 mais pas avec du lait!
-
 Donnez-moi le bocal fermé
-
 ° °
 de l’ Æ”1û«Læb qui me donnera
 °
 la garantie de la Wono
-
- 
-
-   
-  
- 
-   
- 
-
- 
- 
-
- 
-
- 
-
- 
-
 LES BIÈRES PROGRAMME
 DEUXIÈME PARTIE
 Fe/dschlôsschen |Ë 7 Les cloches
-
 de Corneville ..... Planquette
 ; FANFARE OUVRIÈRE DE CHATELAINE
 SO/}f f/H€Ô Direction: Michel Grant
-
 8. Hymne au Travail .. Saint-Saëns
-
 UNION CHORALE DU TRAVAIL
 Direction: W. Hänel
-
- 
-
 el digestives
-
- 
-
 9. Wir, die den Hammer
 CAFÉ-BRASSERIE schwingen .....……. E. Lendvai
-
 MANNERCHOR « FREIHEIT », Dir.: W. Hänel
-
 10. Sonnenwende ....… W. Kratter
-
 BUÎQ/, Gêﬂè V@ Cœur mixte « VORWARTS DAMES » et
-
 «SANGERBUND FROHSINN», Dir.: A.Pochon
-
 Spécialités de brasserie !!. Salut à la liberté .. . Scherchen
-
 CHŒUR de MASSE, exécuté par tous les chanteurs
 Direction: W. Hänel
-
 12. Symphonieinachevée Schubert
 Rue de Lausanne, 64 Téléphone 23.813 HARMONIE « LA LYRE»,  Dir.: G. Delaye
-
 Restauration
 Consommations de premier choix
-
-       
-
- 
-
- 
-   
-   
-
 ©
-
- 
-
- 
-
- 
-
 Tous vos produits laitiers
 Toute votre charcuterie
-
 aux
-
-Laitevies Réumes]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002924_007.tif"/>
-<page><![CDATA[BOUCHERIE-CHARCUTERIE
+Laitevies Réumes
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002924_007.tif'/>
+        <page>
+          <![CDATA[BOUCHERIE-CHARCUTERIE
 MonoPoLE &. À.
-
 se recommande pour ses QUALITÉS
 Ses SPÉCIALITÉS - Ses PRIX
-
 11, Rue de Chantepoulet GENEVE
-
- 
-
 Apéritif à la Gentiane
-
 SUZE
-
 ne fatigue pas l'estomac
-
- 
-
 se
-
 D
-
 Seul
-
 un imprimé de bon goût force l'attention !
-
 Adressez-vous en toute confiance aux
-
- 
-
 IMPRIMERIES POPULAIRES - GENÈVE
-
 Rue de Lausanne, 37-39 - Téléphone 28.060 - Chèques postaux |.2545
-
- 
-
 Agence Générale des Cycles
 “TRIUMPH”
-
 Cycles ” Léman*“
-
 Jean MEIER
-
 Mécanicien-Constructeun
 16,rue de Neuchâtel
-
 Facilités de paiement Téléphone 29.433
-
- 
-
- 
-
 Grande Boucherie du Rond - Point
 L. Durosier
-
 9, Rond-Point de Plainpalais
 et l, rue de Carouge, Genève
-
 banlieue
-
 48.036
-
 Livraison ville et
-
 TÉLÉPHONE :
 SPÉCIALITÉ DE PIÈCES
-
 Maison de premier ordre
-
 PARÉES
 Plus bas prix
-
- 
-
 Notre campagne de reprise vous
 permettra d'obtenir à des conditions
 avantageuses toutes les nouveautés en
-
 radio, soit :
-
 INGELEN - SCHAUB
 POINT-BLEU
-
 DESO - SABA
 MENDE c.
-
 Nos conditions de reprises
-
 sont très intéressantes.
-
-   
-
 Radio-Electro
 p r es ;
-
 CR E
 R
-
 A. ROSSET & Ci° - Genève
-
 Galeries Centrales (Passage Malbuisson)
-Téléphone 54.343]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002924_008.tif"/>
-<page><![CDATA[Camarades ouveiers !
-
+Téléphone 54.343
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002924_008.tif'/>
+        <page>
+          <![CDATA[Camarades ouveiers !
 Entrez dans les sociétés
 sportives et récréatives.
-
 Vous y serez bien reçus!
-
- 
-
- 
-
- 
-
- 
-
- 
-
 rrr
 == sS
-
 É pt mt e e S ES
-
 e
-
- 
-
-( eme e 1 0 m PE]]></page>       
-        </p>
+( eme e 1 0 m PE
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

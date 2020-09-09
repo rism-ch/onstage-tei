@@ -1,128 +1,108 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Eden-concert<date when="26/04/1883"/></title>
-<series>1882-1883</series>
-<placeName>Eden-Concert</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Eden-concert
+            <date when='26/04/1883'/>
+          </title>
+          <series>1882-1883</series>
+          <placeName>Genève, Eden-Concert</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU DG4 F001486</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt> </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18830426"/>
-<title>Eden-concert</title>
-<placeName key="Eden-Concert"/>
-<name key="1882-1883" type="series"/>
-<name key="Métra, Jules-Louis-Olivier  ." ref="https://muscat.rism.info/admin/people/30022610" type="person" role="cmp">Métra, Jules-Louis-Olivier  .</name>
-<name key="Lamothe, A."  type="person" role="cmp">Lamothe, A.</name>
-<name key="Fessy, Alexandre Charles" ref="https://muscat.rism.info/admin/people/51202" type="person" role="cmp">Fessy, Alexandre Charles</name>
-<name key="Arnaud"  type="person" role="cmp">Arnaud</name>
-<name key="Damiani, A."  type="person" role="cmp">Damiani, A.</name>
-<name key="Desseaux"  type="person" role="cmp">Desseaux</name>
-<name key="Péricaud"  type="person" role="cmp">Péricaud</name>
-<name key="Villemer"  type="person" role="cmp">Villemer</name>
-<name key="Delormel"  type="person" role="cmp">Delormel</name>
-<name key="Alfred"  type="person" role="int">Alfred</name>
-<name key="Alfred (Mme)"  type="person" role="int">Alfred (Mme)</name>
-<name key="Danguy"  type="person" role="int">Danguy</name>
-<name key="Berthile (Mme)"  type="person" role="int">Berthile (Mme)</name>
-<name key="Catel"  type="person" role="int">Catel</name>
-<name key="Dubois, A. (Mlle)"  type="person" role="int">Dubois, A. (Mlle)</name>
-<name key="Deverny"  type="person" role="int">Deverny</name>
-<name key="Djaly (Mlle)"  type="person" role="int">Djaly (Mlle)</name>
-<name key="Ludovic"  type="person" role="int">Ludovic</name>
-<name key="Robert, H. (Mlle)"  type="person" role="int">Robert, H. (Mlle)</name>
-<name key="Ledoux"  type="person" role="int">Ledoux</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f001486_001.tif"/>
-<page><![CDATA[ÉDEN- CONCERT
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18830426'/>
+        <title>Eden-concert</title>
+        <placeName key='Genève, Eden-Concert'/>
+        <name key='1882-1883' type='series'/>
+        <name key='Métra, Jules-Louis-Olivier  .' ref='https://muscat.rism.info/admin/people/30022610' type='person' role='cmp'>Métra, Jules-Louis-Olivier .</name>
+        <name key='Lamothe, A.' type='person' role='cmp'>Lamothe, A.</name>
+        <name key='Fessy, Alexandre Charles' ref='https://muscat.rism.info/admin/people/51202' type='person' role='cmp'>Fessy, Alexandre Charles</name>
+        <name key='Arnaud' type='person' role='cmp'>Arnaud</name>
+        <name key='Damiani, A.' type='person' role='cmp'>Damiani, A.</name>
+        <name key='Desseaux' type='person' role='cmp'>Desseaux</name>
+        <name key='Péricaud' type='person' role='cmp'>Péricaud</name>
+        <name key='Villemer' type='person' role='cmp'>Villemer</name>
+        <name key='Delormel' type='person' role='cmp'>Delormel</name>
+        <name key='Alfred' type='person' role='int'>Alfred</name>
+        <name key='Alfred (Mme)' type='person' role='int'>Alfred (Mme)</name>
+        <name key='Danguy' type='person' role='int'>Danguy</name>
+        <name key='Berthile (Mme)' type='person' role='int'>Berthile (Mme)</name>
+        <name key='Catel' type='person' role='int'>Catel</name>
+        <name key='Dubois, A. (Mlle)' type='person' role='int'>Dubois, A. (Mlle)</name>
+        <name key='Deverny' type='person' role='int'>Deverny</name>
+        <name key='Djaly (Mlle)' type='person' role='int'>Djaly (Mlle)</name>
+        <name key='Ludovic' type='person' role='int'>Ludovic</name>
+        <name key='Robert, H. (Mlle)' type='person' role='int'>Robert, H. (Mlle)</name>
+        <name key='Ledoux' type='person' role='int'>Ledoux</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f001486_001.tif'/>
+        <page>
+          <![CDATA[ÉDEN- CONCERT
 DIRECTION PROVNST
-
 Tous les soirs Eclairage par la lumière électrique
 ( Ë'1/\r: me Ld230n)
-
 CATFL y
 Regzssem A
-
 —
 î
-
- 
-
 Ce soir
 Débuts
-
- 
-
 Excentricité anglaise et fr: inçaise
-
 N
-
 M. & M’ ALFRED
-
 MARCEL
 Administrateur
-
 Ce soir
 MDébuts
-
- 
-
- 
-
- 
-
- 
-
 - Programme da JEUDI % Ami
-
 PREMIÈRE PA TR
-
 . Le Prince charmant (quadrille)
 . À la plus jolie (redowa).
-
 . L'amour à la porte
-
 . Le médicament de Baptiste
-
 . Pveux pas m'griser
-
 19es 1nocedex de Boidru.
-
 118
-
 Méetra,
 A. Lamothe.
 M BRADHILR.
@@ -130,14 +110,10 @@ M. CATEL.
 MEs A DUROIS.
 M. DEVERNY.
 MeeEDJAUY.
-
 . La fille à papa .
-
 . Quand on à fait un peu ‘de bien. M. LUDOVIC.
-
 . Cor et Amour e 2 54 1 TOSERE
 Les Maréchaux (ouvertuw E A. Fessy
-
 1
 2
 3
@@ -148,67 +124,39 @@ Les Maréchaux (ouvertuw E A. Fessy
 8
 9
 0.
-
 1
-
 LA BOTTE DE MON PÉRE
-
 Opérette bouffe, ‘paroles et mus ique de Péricaud, Villemer et Delormel
 M. DEVERNY. | Séraphin M. LEDOUX. | Beaupoil M. CATEL. |
-
 Entr’acte de 10 minutes
-
 Mlle BERT HILE
-
 Bistsquard Rosine.
-
- 
-
 SHCONDRH FARTIH
-
 Arnaud.
-
 M'e A. DUBOIS.
-
 M. Ll'D()       
         </p>
     </body>
   </text>
 </TEI>l(‘…
-
 M“ ROBERT.
 el |> M)()l x.
-
 . Juliette (polka) .
-
 . Les volontaires ;
-
 - Le contrat des amours .
 5. Pompier et municipal ;
 ). C'est pas gentil pour ta famillé
-
 DÉBUTS M & Mjkm.L ALFRED DÉBUTS
-
 18. Eden Concert (marche) . A Damiani.
-
 ° série de tableaux et n0uvelle excursion par le professeur DANGUY
-
 VOYAGE AUTOUR DU MONDE
-
 30 Tableaux nouveaux
-
 ‘)0 Bucephal (galop final) Desseaux,
-
 Demain Vendredi 27 avril, adieux de M" H. ROBERT
-
- 
-
- 
-
- 
-
-Imprimerie de l’Annuaire du Commerce Suisse (Société anonyme)]]></page>       
-        </p>
+Imprimerie de l’Annuaire du Commerce Suisse (Société anonyme)
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

@@ -1,118 +1,103 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>1er grand concert populaire<date when="20/10/1928"/></title>
-<series>1928-1929</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            1er grand concert populaire
+            <date when='20/10/1928'/>
+          </title>
+          <series>1928-1929</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002674</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Closset, F. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19281020"/>
-<title>1er grand concert populaire</title>
-<placeName key="Victoria Hall"/>
-<name key="1928-1929" type="series"/>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Mozart, Wolfgang Amadeus" ref="https://muscat.rism.info/admin/people/115324" type="person" role="cmp">Mozart, Wolfgang Amadeus</name>
-<name key="Lalo, Edouard" ref="https://muscat.rism.info/admin/people/65446" type="person" role="cmp">Lalo, Edouard</name>
-<name key="Berlioz, Hector" ref="https://muscat.rism.info/admin/people/13803" type="person" role="cmp">Berlioz, Hector</name>
-<name key="Debussy, Claude" ref="https://muscat.rism.info/admin/people/4338" type="person" role="cmp">Debussy, Claude</name>
-<name key="Franck, César" ref="https://muscat.rism.info/admin/people/70009" type="person" role="cmp">Franck, César</name>
-<name key="Closset, Fernand (dir.)"  type="person" role="int">Closset, Fernand (dir.)</name>
-<name key="Orchestre de la Suisse Romande" ref="https://muscat.rism.info/admin/people/50007615" type="person" role="int">Orchestre de la Suisse Romande</name>
-<name key="Stooss, Hélène"  type="person" role="int">Stooss, Hélène</name>
-<name key="Sanctis, A. de"  type="person" role="int">Sanctis, A. de</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002674_001.tif"/>
-<page><![CDATA[T<
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19281020'/>
+        <title>1er grand concert populaire</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1928-1929' type='series'/>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Mozart, Wolfgang Amadeus' ref='https://muscat.rism.info/admin/people/115324' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Lalo, Edouard' ref='https://muscat.rism.info/admin/people/65446' type='person' role='cmp'>Lalo, Edouard</name>
+        <name key='Berlioz, Hector' ref='https://muscat.rism.info/admin/people/13803' type='person' role='cmp'>Berlioz, Hector</name>
+        <name key='Debussy, Claude' ref='https://muscat.rism.info/admin/people/4338' type='person' role='cmp'>Debussy, Claude</name>
+        <name key='Franck, César' ref='https://muscat.rism.info/admin/people/70009' type='person' role='cmp'>Franck, César</name>
+        <name key='Closset, Fernand' type='person' role='int'>Closset, Fernand</name>
+        <name key='Orchestre de la Suisse Romande' ref='https://muscat.rism.info/admin/people/50007615' type='person' role='int'>Orchestre de la Suisse Romande</name>
+        <name key='Stooss, Hélène' type='person' role='int'>Stooss, Hélène</name>
+        <name key='Sanctis, A. de' type='person' role='int'>Sanctis, A. de</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002674_001.tif'/>
+        <page>
+          <![CDATA[T<
 Kññññññﬁñ&‘bññﬁñﬁñﬁññññﬁññﬁññﬁññññﬁñññﬁñﬁñﬁñﬁñä? MWﬁñë‘bﬁññ)“
-
 — -
-
- 
-
 #
-
 Saison 1928-1929  VICTORIA-HALL es îŸ£ÎËÏÎËË} 1925
-
 ;
-
 1" Grand Concert Populaire
-
 organisé par le
-
 Conseil Administratif à 1 Ville « Genève
-
 ë‘$ñ&‘\“àñﬁñê‘äê‘äñﬁñ
-
 . ; : ‘
 avec le bienveillant et gracieux concours de
-
 l'Orchestre de la Suisse Romande
-
 sous la direction de Ï
-
 M. FERNAND CLOSSET
-
 et avec le très gracieux concours de
-
 Madame Hélèﬂ€ STOOSS, cantatrice\
-
 PROGRAMME —
-
 1. SUITE DE BALLET DE , PROMÉTHÉE"” (op. 43) BrerHoveN. 3. , NAMOUNA”, SUITE D’ORCHESTRE ;
-
 a) Ouverture ; b) Introduction (allegro non | a) Prélude; b) Sérénade; c) Thème varié; d) La
-
 troppo) ; c) Poco adagio (allegro con brio) ; | sieste; e) Parade de foire; /) Fête foraine.
-
 d) Allegro vivace; e) Adagio (Violoncelle-solo : |
-
 M. À. de Sanctis); f) Allegro ; g) Final (allegretto). | & a) L’'ABSENCE . ....°... 9 Brrrro,
-
 b) AIR DE LIA DE ,L’ENFANT PRODIGUE* Drpvssy.
 2. DEUX AIRS DE CHÉRUBIN | Pour chant et orchestre (Mme Hélène Stooss).
 (DES ,NOCES DE FIGARO’”) Mozarr.
 Pour chant et orchestre (Mme Hélène Stooss). 5. LE CHASSEUR MAUDIT, poème symphonique C: Franox.
-
- 
-
 Pendant l’exécution des morceaux, les portes seront fermées et le silence le plus absolu devra être observé. Prière de me pas faire les préparatifs de départ avant
 e que le dernier morceau me soit complètement exécuté. |
-
 [
 C
 L
@@ -138,31 +123,16 @@ C
 ’
 (
 (
-
 SISI SISI 0 I 00 D 00SD DD E E S E T SE SD ETE
-
- 
-
- 
-
- 
-
- 
-
- 
-
 RESDES
-
- 
-
 x
-
-;]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002674_002.tif"/>
-<page><![CDATA[Ville de
-
+;
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002674_002.tif'/>
+        <page>
+          <![CDATA[Ville de
 pervice MüﬂilË@ﬂêS Loncerts
-
 Ès le lendemain du brillant concert gratuit
 du Jardin Anglais, manifestation artistique
 populaire qui termina heureusement la série
@@ -170,54 +140,32 @@ des beaux concerts d’été, le Service muni-
 cipal des Concerts de la Ville de Genève
 prépara l’organisation des grandes séances
 de musique au Victoria-Hall, pour la saison
-
 d’hiver 1928-1929.
-
 Pour la première de ces séances populaires, nous avons
 obtenu le concours gracieux de l’Orchestre de la Suisse
 romande, qui a bien voulu aimablement consentir à nous
 réserver, cet hiver, quatre concerts.
-
 Nous comptons donner, pendant la saison, sept séances
 des plus intéressantes. En plus de l’Orchestre de la Suisse
 romande, nous nous assurerons du concours également gra-
 cieux d’autres sociétés locales très appréciées et de solistes
 réputés.
-
- 
-
- 
-
- 
-
- 
-
 Voici dans quel ordre auront lieu nos concerts :
-
 1928 — Samedi 20 octobre. — Orchestre de la Suisse
 romande et soliste.
-
 Lundi 29 novembre. — Orchestre de la Suisse
 romande et soliste.
-
 — Jeudi 27 décembre. — Orchestre de la Suisse
 romande et soliste.
 Lundi 14 janvier. - Harmonie Nautique,
-
 Chœurs, Solistes.
-
 Lundi 4 février. — Orchestre de la Suisse
 romande et soliste.
-
 — Lundi mars. — Société de Musique sym-
 phonique et solistes.
-
 — Lundi avril. — Sociétés ouvrières de
-
 chant, de musique ins-
-
 trumentale et solistes.
-
 En inaugurant la septième saison de nos grands concerts
 populaires du Victoria-Hall, nous nous réjouissons d’avoir
 été compris par la population laborieuse, qui suit assidûment
@@ -227,18 +175,16 @@ artistes qui nous accordent leur indispensable collaboration.
 Qu’il nous soit permis de leur adresser publiquement, ainsi
 qu’à tous ceux qui concourent à la réussite de nos séances,
 nos plus sincères remerciements.
-
 15 octobre 1928.
 Le Conseiller administratif
 délégué aux Beaux-Arts et à la Musique :
 J.-B. PONS.
-
 co….0.0..00...00c000000000000000000000.0000.
-
 . ‘cocoo00000000000000000000000000000000000000000000000000000000000000000000000000000000
-
-0006060000000000000000060600000000000000000000000000000000000000]]></page>       
-        </p>
+0006060000000000000000060600000000000000000000000000000000000000
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

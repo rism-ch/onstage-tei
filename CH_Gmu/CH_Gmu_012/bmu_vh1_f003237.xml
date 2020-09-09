@@ -1,65 +1,75 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Neuvième concert de l'abonnement<date when="16/02/1944"/></title>
-<series>1943-1944</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Neuvième concert de l'abonnement
+            <date when='16/02/1944'/>
+          </title>
+          <series>1943-1944</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F003237</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Ansermet, E. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19440216"/>
-<title>Neuvième concert de l'abonnement</title>
-<placeName key="Victoria Hall"/>
-<name key="1943-1944" type="series"/>
-<name key="Händel, Georg Friedrich" ref="https://muscat.rism.info/admin/people/36552" type="person" role="cmp">Händel, Georg Friedrich</name>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Ansermet, Ernest  (dir.)" ref="https://muscat.rism.info/admin/people/40219507" type="person" role="int">Ansermet, Ernest  (dir.)</name>
-<name key="Orchestre de la Suisse Romande" ref="https://muscat.rism.info/admin/people/50007615" type="person" role="int">Orchestre de la Suisse Romande</name>
-<name key="Union chorale de Lausanne"  type="person" role="int">Union chorale de Lausanne</name>
-<name key="Ginster, Ria"  type="person" role="int">Ginster, Ria</name>
-<name key="Helbling, Maria"  type="person" role="int">Helbling, Maria</name>
-<name key="Frey, Willy"  type="person" role="int">Frey, Willy</name>
-<name key="Tappolet, Siegfried"  type="person" role="int">Tappolet, Siegfried</name>
-<name key=""  type="person" role="int"></name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003237_001.tif"/>
-<page><![CDATA[NDE
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19440216'/>
+        <title>Neuvième concert de l'abonnement</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1943-1944' type='series'/>
+        <name key='Händel, Georg Friedrich' ref='https://muscat.rism.info/admin/people/36552' type='person' role='cmp'>Händel, Georg Friedrich</name>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Ansermet, Ernest' ref='https://muscat.rism.info/admin/people/40219507' type='person' role='int'>Ansermet, Ernest</name>
+        <name key='Orchestre de la Suisse Romande' ref='https://muscat.rism.info/admin/people/50007615' type='person' role='int'>Orchestre de la Suisse Romande</name>
+        <name key='Union chorale de Lausanne' type='person' role='int'>Union chorale de Lausanne</name>
+        <name key='Ginster, Ria' type='person' role='int'>Ginster, Ria</name>
+        <name key='Helbling, Maria' type='person' role='int'>Helbling, Maria</name>
+        <name key='Frey, Willy' type='person' role='int'>Frey, Willy</name>
+        <name key='Tappolet, Siegfried' type='person' role='int'>Tappolet, Siegfried</name>
+        <name key='' type='person' role='int'/>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003237_001.tif'/>
+        <page><![CDATA[NDE
 PROGRAMME
-
 =
 N
 q
@@ -67,274 +77,176 @@ q
 D
 &
 O
-
-SUISSE ROMA]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003237_002.tif"/>
-<page><![CDATA[,
-
+SUISSE ROMA
+]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003237_002.tif'/>
+        <page>
+          <![CDATA[,
 Ps =
-
- 
-
 NÈVE
 €\°Ë’— desEaux-Vives
-
- 
-
 Fabrication de tous pays
 En gros et en détail
-
 Téléphone: 5 08 92
 Télégrammes : Paptenture, Genève
 Chèques postaux : 1. 4605
-
- 
-
- 
-
- 
-
 Wagner... 3 ; ; -
-
 Un des compositeurs les
 plus rad10phomquesl
-
 91 vous voulez jouir ‘d'une belle retransmission,
 comme si vous étiez dans la salle de concert,
-
 achetez un PHILIPS
-
- 
-
 Les PHILIPS sont tous dunè musœalrte
 remarquabîe !
-
 Venez écouter les derniers modèles dans mon
 magasin.
-
 RADIO BALTASSAT
-
 20, rue de Rive
 vAnclen technicien de la maison Philips, Genève
-
-     
-
- 
- 
-
 U/ L..’(Ïî'///\\
-
- 
-  
-
- 
-
- 
-
- 
-
 e
 =
 08
 u
 51
 ñ
-
- 
-
 95 ps Fs se
-
- 
-
 æ
-
 “
-
- 
-
-PSF RE OÉ]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003237_003.tif"/>
-<page><![CDATA[GENÈVE
-
- 
-
+PSF RE OÉ
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003237_003.tif'/>
+        <page>
+          <![CDATA[GENÈVE
 | - NEUVIÈME CONCERT
 e DE L’'ABONNEMENT
-
 VICTORIA-HALL
-
 MERCREDI 16 FÉVRIER 10944
 à 19h.45
-
- 
-
 per e ps
-
 Direction :
-
-Ernest ANSERMET]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003237_004.tif"/>
-<page><![CDATA[WN
-
+Ernest ANSERMET
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003237_004.tif'/>
+        <page>
+          <![CDATA[WN
 PIANOS
 «ÉTUDE»
-
- 
-
- 
-
 L'INSTRUMENT
 RÊVÉ DU STUDIO
-
 SE FAIT EN TOUS
 STYLES ET BOIS
-
 Fabriqué en Suisse
-
- 
-
- 
-
 L'AUTORITÉ EN
-
 PEARNOS
-
 2 Steinway & Sons - Bluthner
 Pleyel - Schmidt-Flohr - Bur-
 ger-Jacobi, etc.
-
 bs Location - Toutes réparations - Accords
 Echange - Instruments anciens.
-
 e LA SPÉCIALITÉ EN
 4| / _
 RADIOS
 Deso - Marconi - Aga - Albis
-
 â Telefunken - Philips
-
 | Antennes collectives, blindées - Radio
 Gramos - Changeurs - Dépannage,
-
 L FJ service de premier ordre.
 | —AN |
 1 DISQUES
 TOUSPÉES  GENRES
 L NOUVEAUTÉS
 5
-
 LA MAISON DE LA MUSIQUE
 | Existe depuis 1830
-
 w SAUTIER s. JAEGER
-
-FUSTERIE ,12, GENEVE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003237_005.tif"/>
-<page><![CDATA[Conseil de Fondation
+FUSTERIE ,12, GENEVE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003237_005.tif'/>
+        <page>
+          <![CDATA[Conseil de Fondation
 de l’Orchestre de la Suisse Romande
-
 n -
-
 Président : M. Paul LACHENAL, Genève.
 Vice-président: M. le Dr Fréd. BLANCHOD, Lausanne.
 Secrétaire : M. René DOVAZ.
-
 Trésorier : M. Henri BROLLIET.
-
 Conseillers délégués :
 MM. Emile HEUBI, Lausanne; Pierre JACCOUD, Emile UNGER,
-
 Genève; MM. les Directeurs des studios de Genève et Lausanne.
-
 Membres :
-
 M
 MM
-
 M.
-
 MM.
-
 MM.
-
 MM.
-
 . GLOGG, Directeur général de la Radiodiffusion, Berne.
 . les représentants des Gouvernements cantonaux: Conseiller d'Etat
-
 Henri MOUTTET, Berne (Jura romand); Conseiller d’Etat
 Adrien LACHENAL, Genève; Conseiller d’Etat Joseph PILLER,
 Fribourg; Conseiller communal Gérard BAUER, Neuchâtel;
 Conseiller d’Etat Cyrille PITTELOUD, Valais; Conseiller d’Etat
 Paul PERRET, Vaud.
-
 le Conseiller d’Etat Louis CASAÏ, MM. les Conseillers administratifs
 Jules PENEY et Fernand COTTIER, MM. Philippe ALBERT,
 Léopold BOISSIER, Alfred BOREL, André GUINAND, Emile
 JAQUES-DALCROZE, Alfred PELLIGOT, Maurice PICTET
 DE ROCHEMONT, Marcel RAYMOND, Charles ZANELLO,
 à Genève.
-
 Antoine VODOZ, Conseiller d’Etat, Marius AMANN, Conseiller
 municipal, Jacques BÉRANGER, René BICKART, Roger
 CORREVON, Louis SALATHE, Auguste MARGUERAT, Georges
 ROSSET, Henri STIERLIN-VALLON, à Lausanne.
-
 Samuel GÉTAZ et E. ROSSIER-GEORG, à Vevey; François
 ESSEIVA et le Dr Paul RYNCKI, à Fribourg; Claude DU
 PASQUIER, à Neuchâtel; Tell PERRIN, à La Chaux-de-Fonds;
 Edmond BILLE et Gustave TURINI, à Sierre.
-
 les délégués des Associations genevoise et vaudoise des Amis de
 l'O.S.R., de la Société des Emissions Radio-Genève, de la Société
 Romande de Radiodiffusion, de la Commission des Programmes
 de Sottens et des Artistes-Musiciens de l’Orchestre.
-
 Chef d’Orchestre: E. ANSERMET
-
-ADMINISTRATION: 22, CORRATERIE, GENÈVE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003237_006.tif"/>
-<page><![CDATA[PATEK, PHILIPPE & C°
-
-@//Û/ 705 0,/, 5 )/(;/]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003237_007.tif"/>
-<page><![CDATA[Les solistes
+ADMINISTRATION: 22, CORRATERIE, GENÈVE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003237_006.tif'/>
+        <page><![CDATA[PATEK, PHILIPPE & C°
+@//Û/ 705 0,/, 5 )/(;/
+]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003237_007.tif'/>
+        <page>
+          <![CDATA[Les solistes
 de la Neuvième Symphonie
-
 Madame R. Ginster, soprano, a bien voulu remplacer Madame
 A.Weber, retenue par des services imprévus au Théâtre de Bâle.
-
 Mme RIA GINSTER enseigne le chant professionnel à Zurich
 depuis quelques années ; elle est très appréciée dans toutes les
 grandes villes d’Europe et participe à un grand nombre de
 manifestations musicales importantes.
-
 Notre public l’a déjà applaudie comme soliste des concerts
 d’abonnements.
-
 Mme MARIA HELBLING sort des classes de M" Ilona
 Durigo à Zurich et de celles de MM® Maria Philippi à Cologne.
 Elle s’est classée troisième sur 240 concurrentes au Concours
 international de Vienne en 1936 et a participé à de nombreux
 concerts dans divers pays.
-
 M. WILLY FREY est né à Zurich où il a fait ses études au
 Conservatoire. Après avoir débuté sur la scène de Berne, il a
 joué sur les principales scènes allemandes, notamment à Breslau
 où il est resté neuf ans.
-
 Depuis la guerre, il réside à Berne, mais il est fréquemment
 appelé sur les autres scènes et prête son concours à de nombreux
 concerts.
-
 M. SIEGFRIED TAPPOLET a travaillé le chant à Zurich
 et à Berlin, puis fut engagé à Stuttgart, Cologne et Berlin, avant
 de partir en tournée sur les deux continents. Il participe aux
 festivals de Lucerne et s’est de nouveau fixé en Suisse depuis
 quelques mois.
-
 L’UNION CHORALE DE LAUSANNE
-
 vient d’entrer dans sa quatre-vingt-quatrième année. Fondée en
 1860, elle s’est constamment attachée comme chefs des musi-
 ciens de valeur, au nombre desquels il convient de citer Henri
@@ -343,52 +255,33 @@ Ch. Troyon, Richard Wissmann, Ch. Mayor, Paul Boepplé,
 Hermann Lang et Carlo Hemmerling, son directeur actuel.
 Tout en réservant une large place à la musique populaire, elle
 a sans cesse apporté son tribut au développement de la musique
-artistique ; sans se laisser décourager par le risque de résultats]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003237_008.tif"/>
-<page><![CDATA[Maison du beau linge, trous-
+artistique ; sans se laisser décourager par le risque de résultats
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003237_008.tif'/>
+        <page>
+          <![CDATA[Maison du beau linge, trous-
 seau soigné, lingerie fine,
 blouses et peignoirs élégants.
-
- 
-
- 
-
 Grande maison de É/ancfbndêe en 1865
 3, rue du Rhône, GENÈVE
-
- 
-
- 
-
- 
-
-  
-
 Une belle fourrure… Un manteau élégant…
-
- 
-
 S
 c
-
 e ;
-
-     
- 
-  
-
 "\ n \£‘\\\ m
 J
 d
 N
-
 GENÈVE, 3, RUE DE RIVE
-Même maison: LAUSANNE, 6, RUE DE BOURG - J. LÉVY]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003237_009.tif"/>
-<page><![CDATA[J
+Même maison: LAUSANNE, 6, RUE DE BOURG - J. LÉVY
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003237_009.tif'/>
+        <page>
+          <![CDATA[J
 T
 |
-
 financiers parfois médiocres, elle organise régulièrement des
 manifestations intéressantes de la vie musicale à Lausanne. Elle
 ne méconnaît point les œuvres «a cappella» pour chœurs
@@ -397,7 +290,6 @@ nécessaire de se rapprocher du grand public par un renou-
 vellement du répertoire choral, aussi bien sacré que profane.
 Elle est une des plus anciennes sections vaudoises des Sociétés
 fédérale et cantonale de chant.
-
 Pénétré d’un même idéal artistique, le CHŒUR DE DAMES
 DE LAUSANNE doit sa création à l’initiative de Charles Troyon,
 en 1910, sous le nom de Chœur de Dames du Conservatoire.
@@ -409,7 +301,6 @@ ment indispensable des grandes auditions. Largement ouvert
 aux amateurs de l’art vocal, le Chœur de Dames jouit comme
 son coadjuteur habituel de la faveur du public et continue à
 s’inspirer de l’esprit des traditions les meilleures.
-
 C’est la quatrième fois depuis sa fondation que l’Orchestre
 de la Suisse romande a recours aux chanteurs lausannois pour
 l’exécution des chœurs de la Neuvième Symphonie. Conscients de
@@ -418,11 +309,9 @@ leurs sentiments d’admiration et de reconnaissance envers une
 institution qui, tout en secondant les efforts des associations
 chorales, met obligeamment à leur disposition un si remarquable
 ensemble pour la réalisation de leurs aspirations communes.
-
 Principales œuvres exécutées avec accompagnement d’orches-
 tre par l’Union chorale et le Chœur de Dames de Lausanne
 au cours de ces dernières années :
-
 La « Passion selon Saint Matthieu », la « Passion selon Saint -
 Jean », l’« Oratorio de Noël » et diverses « Cantates », de J.-S.
 Bach; chœurs de la « Neuvième Symphonie », de Beethoven ;
@@ -435,23 +324,17 @@ de Berlioz; « Jephté », de Carissimi; « Elie », de Mendelssohn ;
 rambes », de Frank Martin; le « Roi David », de Honegger ;
 les « Laudi », de Hermann Suter; les chœurs de la « Fête des
 Vignerons » et d’« Henriette », de Gustave Doret ; le « Festival
-Jaques-Dalcroze ».]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003237_010.tif"/>
-<page><![CDATA[Es
-
+Jaques-Dalcroze ».
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003237_010.tif'/>
+        <page>
+          <![CDATA[Es
 P
-
 GALLOPIN & C*
-
 En vente chez
-
- 
-
 17
 Rue du Rhône
-
- 
-
 E
 Z
 2
@@ -461,170 +344,113 @@ Z
 Ë
 ;
 ;
-
- 
-
- 
-
 PE PE E E PR E REN
-S FSAE TS]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003237_011.tif"/>
-<page><![CDATA[Neuvième Concert de l’Abonnement
-
+S FSAE TS
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003237_011.tif'/>
+        <page>
+          <![CDATA[Neuvième Concert de l’Abonnement
 Direction : Ernest ANSERMET
-
 PROGRAMME
-
 A -
 / @ PREMIÈRE PARTIE
-
 1. CONCERTO GROSSO en ré mineur . HÆNDEL
-
 a) Grave — Allegro — Lent
 b) Air
-
 c) Allegro
-
 d) Allegro
-
 e) Allegro moderato
-
 Grands virtuoses d’autrefois
-
 Henriette Sonntag, dont le portrait figure en tête de ce programme,
 fut l’une des plus illustres cantatrices allemandes de la première moitié
-
 , du x1x° siècle. ;
 | . Née à Coblence, en 1806, dans une famille d’artistes dramatiques,
 elle se destina très jeune à la scène, et fit ses études à Prague, puis elle
-
 ‘g, fut appelée à l’Opéra de Vienne où Beethoven, ayant remarqué sa merveil-
 ! leuse voix, lui confia la partie de soprano-solo, lors de la première exécution
 | de la Neuvième Symphonie, le 7 mai 1824.
-
 ‘ Son talent dramatique et ses extraordinaires qualités vocales lui
 i valurent d’être engagée bientôt à Leipzig, à Berlin, puis à l’Opéra-Italien
-
 | de Paris.
 Mais, s’étant mariée secrètement à Londres avec le comte Rossi,
-
 secrétaire de l’ambassade sarde, elle renonça à la scène et se consacra au
 ; concert. Elle fit alors de nombreuses tournées en Europe et en Amérique,
 ‘ connaissant partout de véritables triomphes.
 ‘ Sur la fin de sa vie, des revers de fortune l’obligèrent de rentrer au
 l théâtre. Et c’est au cours d’un engagement qu'elle avait contracté à
-F l'Opéra de Mexico, qu’elle mourut du choléra, en 1854.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003237_012.tif"/>
-<page><![CDATA[paris-house
-
+F l'Opéra de Mexico, qu’elle mourut du choléra, en 1854.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003237_012.tif'/>
+        <page>
+          <![CDATA[paris-house
 5, ruûe aoes alipes
-
 paul
-
 daunay
-
 couturier-fourreur
-
 à genève
 2 33 70
-
-téléphone]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003237_013.tif"/>
-<page><![CDATA[d p
-
+téléphone
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003237_013.tif'/>
+        <page>
+          <![CDATA[d p
 PROGRAMME (suite)
-
 DEUXIÈME PARTIE
 e
 2. NEUVIÈME SYMPHONIE, op. 125 . . 3EETHOVEN
-
 avec chœur final sur l’Ode à la Joie de Schiller,
 chanté suivant le texte original avec le concours
 de l’Union chorale de Lausanne
 et son Chœur de Dames
-
 (Direction: Carlo HEMMERLING)
-
 RKia GINSTER Maria HELBLING
 soprano contralto
-
 Willy FREY Siegfried TAPPOLET
 ténor basse
-
 (250 exécutants.)
-
 Allegro ma non troppo
-
 a) 1
 V
 " . b) Scherzo
-
 kê C
-
 | ) Adagio molto e cantabile
-
 ï »
-
 , d) Finale, avec quatuor et chœur
 |
-
 p S
-
-—2l]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003237_014.tif"/>
-<page><![CDATA[BRASSÉRIE-CABARET -BAR- DANCING
+—2l
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003237_014.tif'/>
+        <page>
+          <![CDATA[BRASSÉRIE-CABARET -BAR- DANCING
 rx accessibles à tous!. ,
-
- 
-
 Soirée dès
-
 Après-midi 21 heures
 CONCERT Orchestre Christen CABARET
 de 4à6h. DANCING ï
 4
-
- 
-
- 
-
 d ctyrreetiasianet u
-
 Confiserie — Cea-Room
-
- 
-
 ds EN E
-
- 
-
 *
-
 £e rendez-vous de la clientèle élégante
-
 2, place du $ac Genève
-
- 
-
- 
-
 4 E E
-
- 
-
-Mitcaer e vs V]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003237_015.tif"/>
-<page><![CDATA[——s sS
-
+Mitcaer e vs V
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003237_015.tif'/>
+        <page>
+          <![CDATA[——s sS
 Georges-Frédéric HÆANDEL
-
 (1685-1759)
-
 GY
-
 N sait que le genre « concerto grosso », qui consiste essen-
 O tiellement en un dialogue entre un groupe de solistes (le
-
 « concertino ») et le chœur des instruments (« concerto
 grosso »), auxquels se joint le « cembalo », fut, sinon inventé,
 du moins porté à sa perfection et rendu classique par Corelli.
@@ -647,7 +473,6 @@ riciens. Et c’est ce dont il faut plutôt le louer. Car il n’a pas
 cherché à imposer un cadre uniforme à sa pensée; mais il a
 laissé celle-ci se façonner le cadre dont elle avait besoin ; et ce
 cadre varie, comme elle, suivant les passions et les jours.
-
 La spontanéité de cette pensée, qui nous est déjà révélée par
 l’extrême rapidité avec laquelle ces « concerti» ont été com-
 posés — chacun en un seul jour, d’un seul trait, et plusieurs
@@ -656,58 +481,38 @@ le mot de M. Kretzschmar, de grands « Stimmunésbilder »
 (des peintures d’impressions), traduits en une forme précise et
 souple, où le moindre changement d’émotion peut se faire
 sentir.
-
-$ P]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003237_016.tif"/>
-<page><![CDATA[VIDOUDEZ
-
+$ P
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003237_016.tif'/>
+        <page>
+          <![CDATA[VIDOUDEZ
 LUTHIER DU CONSERVATOIRE
-
 Corraterie 22
 Téléphone 4 43 35
-
- 
-
- 
-
- 
-
 Cadeaux artistiques
-
 Fleurs de choix
-
 Maître Fleuriste
-
-CORRÀTER|E, 26 (Pas de succursale)]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003237_017.tif"/>
-<page><![CDATA[E ts cp
-
+CORRÀTER|E, 26 (Pas de succursale)
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003237_017.tif'/>
+        <page>
+          <![CDATA[E ts cp
 e e 10
-
 — D
-
 ns nc A R
-
- 
-
 Louis van BEEFTHOVEN
-
 (t770-1827)
-
 GAev
-
 NEUVIÈME SYMPHONIE en ré mineur
 avec chœur final sur l’Ode à la Joie, de Schiller
-
 pour grand orchestre, quatre voix solo, et chœur à quatre
-
 voix, dédiée, avec la plus profonde vénération à S. M. le
 Roi de Prusse, Fréd. Guillaume III par Louis van Beethoven. —
 op. 125. » Tel est le titre de la première édition, parue en 1825
 ou 1826 chez les éditeurs Schott, à Mayence et Paris.
-
 SYMPHONIE avec chœur final sur l’Ode à la joie, de Schiller,
-
 Il y avait presque douze ans que Beethoven avait composé sa
 « Huitième Symphonie », quand il acheva, fin de 1823, ou com-
 mencement de 1824, la « Neuvième ». Il avait touché, en 1814 et
@@ -730,97 +535,50 @@ avait esquissé maint passage. Une société de musique de Londres
 l’tinvie, en 1822, à diriger, dans un de ses concerts, une œuvre
 qu’il écrirait pour cette occasion. On offrait à Beethoven un
 cachet assez considérable. Il accepta ; c’est-à-dire qu’il se remit,
-avec plus de décision, au travail.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003237_018.tif"/>
-<page><![CDATA[£ainœ SULSSOS
-
+avec plus de décision, au travail.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003237_018.tif'/>
+        <page>
+          <![CDATA[£ainœ SULSSOS
 DURUZ
-
 Croix-d’Or 3
-
 Le plus grand choix
 Les meilleures qualités
 Les prix les plus bas Salon de tricotage
-
 A notre magasin de bonneterie, place des Eaux-Vives 5:
 Sous-vêtements chauds en bonnes qualités d’avant guerre
-
- 
-
- 
-
- 
-
- 
- 
-
- 
-
- 
-
- 
-
 Vous dl‘llh': la belle mu.u‘;/!u',
-
 aimez aussi la beauté el la
-
 ORFÉVRERIE « BIJOUTERIE
 YS HORLOGERIE
-
 Heses es 8 D)//ESS OR AMRT
-
 qualité de votre montre el de
-
- 
-
 …alors faztes votre choix parmi les montres soignées :
-
 LONGINES . TISSOT
 OMÉGA . ZÉNITH
-
 ORFÉVRERIE JEZLER ARGENT MASSIF ET CHRISTOFLE
 BIJOUTERIE OR ET ARGENT
-
 Le plus beau choix
-
 Prix très moderés
-
-  
-
- 
-
- 
-
- 
-
 3
-
 XE EME
-
 E e
-
 reprece
-
 smt
-
 ps és
-
 scI
-
 e E S rrs r
-
-   
-
 E
 Ï
-
 V RSTTIISE
-
 ct
-
-, S É S E E]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003237_019.tif"/>
-<page><![CDATA[Il va écrire la symphonie en ré, sa « Neuvième Symphonie ».
+, S É S E E
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003237_019.tif'/>
+        <page>
+          <![CDATA[Il va écrire la symphonie en ré, sa « Neuvième Symphonie ».
 Mais, en même temps, il en projette une « Dixième »; et, fait
 significatif, c’est pour cette « Dixième Symphonie » seulement
 qu’il prévoit, d’emblée, le concours de la voix humaine. Par
@@ -833,13 +591,11 @@ sa forme définitive, une « Symphonie », avec un chœur final, et
 non pas un chœur que l’on attend avec impatience pendant les
 trois quarts d’heure environ que durent les trois premiers
 mouvements.
-
 En 1823 Beethoven hésitait encore sur la forme qu’il donne-
 rait à son Finale. Mais il inclinait de plus en plus à faire intervenir
 un chœur dans ce dernier mouvement, sans oser encore se décider.
 « Peut-être quand même le chœur à la joie », lit-on, dans ses
 esquisses.
-
 S’il hésita si longtemps, malgré le désir qui l’obsédait depuis
 tant d’années, bien avant qu’il songeât à une « Neuvième Sym-
 phonie », de mettre en musique l’Ode de Schiller, c’est qu’il sen-
@@ -848,7 +604,6 @@ tait la difficulté qu’il y avait à introduire cette Cantate dans une
 trumentales déjà très avancées — les trois premiers mouve-
 ments — ne préparaient l’intervention de la voix humaine, chan-
 tant un texte qui n’était pas destiné à cet usage.
-
 Comment enchaîner, en effet, ce chœur, à une symphonie déjà
 presque achevée ? C’était le point critique, qui jeta Beethoven
 dans de grandes perplexités. Il y avait une explication à donner.
@@ -863,54 +618,32 @@ version définitive, défilent, cortège de souvenirs qui cherchent à
 revivre des lambeaux de thèmes des trois premiers mouvements.
 Le musicien les écarte successivement par une phrase chantée.
 Du « Scherzo », il dira même avec impatience : « Ce n’est qu’une
-farce ». Après les premières mesures de l’« Adagio », il faisait]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003237_020.tif"/>
-<page><![CDATA[DE BANQUES SUISSES
-
+farce ». Après les premières mesures de l’« Adagio », il faisait
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003237_020.tif'/>
+        <page>
+          <![CDATA[DE BANQUES SUISSES
 G E N E Y ;
-
 Angle rue du Rhône et rue du Commerce
-
- 
-
- 
-
- 
-
-     
-
- 
-
 CI ONF INETETTETS
-
-e3 10 CR]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003237_021.tif"/>
-<page><![CDATA[P DE E e
-
- 
-
- 
-
+e3 10 CR
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003237_021.tif'/>
+        <page>
+          <![CDATA[P DE E e
 PRN E en e én e mame PEOU 11
-
 e
-
 }
 y
-
 en
-
- 
-
-  
-
 déclamer: « Cela encore est trop tendre; cherchons quelque
 chose de plus vif; je vais moi-même vous chanter quelque chose ;
 les voix n’auront qu’à me suivre ». — Alors, enfin, paraissent
 les premières mesures du thème de l’« Ode à la joie », saluées
 d’une joyeuse exclamation : « C’est cela ! ah ! enfin nous avons
 trouvé ce qu’il nous faut: Freude schôner… »
-
 Ce pauvre texte, touchant dans sa maladresse, n’était qu’un
 subterfuge. Sans doute Beethoven le comprit-il. Il le supprime,
 mais il garde le récitatif sur lequel il était chanté, de même que
@@ -920,7 +653,6 @@ une des originalités de cette Symphonie, et dont la puissance
 expressive dépasse de beaucoup celle d’aucun texte. En outre,
 il préparait le passage de la musique instrumentale à la musique
 chantée.
-
 Mais c’était un compromis, et cela explique peut-être les
 scrupules dont Beethoven fut saisi après coup : scrupules d’ordre
 esthétique et psychologique, car, en dépit de toutes ces précau-
@@ -943,60 +675,40 @@ prend, comme une folie, de renverser toutes les barrières, de
 communier directement avec la nature et avec l’humanité, de
 pousser une fois un cri définitif et sans restriction, comme un cri
 de la nature elle-même.
-
 D’ailleurs Beethoven était hanté par le désir, le besoin de
 mettre en musique l’« Ode à la joie ». Il en fait le projet à l’âge
 de vingt-trois ans déjà ; et plusieurs fois, dans la suite, il chercha
-une mélodie pour la première strophe. Cela n’avait pour ainsi]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003237_022.tif"/>
-<page><![CDATA[PIANOS
-
+une mélodie pour la première strophe. Cela n’avait pour ainsi
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003237_022.tif'/>
+        <page>
+          <![CDATA[PIANOS
 Steinway & Sons, Fôrster, Feurich,
-
 Schmidt-Flohr, Wohlfahrt
-
 H'anna J(neiﬁeâ
-
 POCA TT ON
-
 É ç AN G E Passage du Terraillet 20
 REPARATIONS Tél. 4 41 92 (ENTRESOL)
-
- 
-
- 
-
- 
-
- 
-
 BOULANGERIE FINE
 PATISSER(IE
-
- 
-
-  
-
 Chantepoulet 10 Plantamour 37
-
 Tél. 22978 Tél. 258 09
-
- 
-
-Fournisseur des grands élablissements de Genève]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003237_023.tif"/>
-<page><![CDATA[dire rien de commun avec le projet réfléchi d’une œuvre d’art.
+Fournisseur des grands élablissements de Genève
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003237_023.tif'/>
+        <page>
+          <![CDATA[dire rien de commun avec le projet réfléchi d’une œuvre d’art.
 C’était comme l’effet d’une poussée irrésistible, d’une force
 élémentaire ; puis, un beau jour, au milieu de la mer bleue une île
 nouvelle a surgi, aux récifs de laquelle, désormais, s’accroche-
 ront les rayons du soleil levant. Comme un phénomène de nature
 a jailli cet étonnant Finale, après trente ans de sourd travail ; et
 il est là, comme un fait, à la fois étrange et merveilleux.
-
 ÀA cette symphonie qu’il est en train d’achever pour la Société
 philharmonique de Londres, Beethoven joindra ce chœur où, dans
 une grande exaltation, il crie son plus ardent espoir.
-
 L’on comprend bien, dès lors, qu’il ne faille pas chercher dans
 les trois premiers mouvements de la « Neuvième Symphonie » un
 acheminement prémédité vers le Finale; pourtant ils lui sont
@@ -1027,74 +739,43 @@ volonté et d’inexprimable, de suppliant espoir s’affronteront
 encore, jusqu’à ce que le sourd motif des basses impose son ordre
 à cette musique; après une lente et sûre ascension, toutes ces
 forces divisées s’uniront pour conclure dans le geste olympien
-du premier thème.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003237_024.tif"/>
-<page><![CDATA[Le parfum de lavande
+du premier thème.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003237_024.tif'/>
+        <page>
+          <![CDATA[Le parfum de lavande
 est Ja plus belle offrande !
-
 Vente en gros
-
 F. Uhimann-Eyraud, S. À.
-
 Genève - Zurich
-
- 
-
- 
-
 \‘,,
 X E S B ETE
-
- 
-
- 
-
 Pour tous renseignements financiers
-
 Pour toutes opérations de banque
-
 adressez-vous à la
-
 Hanque Commerciale de Bâle
-
 GENÈVE
-
 9-11, place de la Fusterie
-
 ÆR NE M
-
 ,4
 2 LA 500 E RE q
-
- 
-
- 
-
 A E R E
-
-   
-
-tn ETE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003237_025.tif"/>
-<page><![CDATA[*
+tn ETE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003237_025.tif'/>
+        <page>
+          <![CDATA[*
 ;
-
- 
-
 L;
-
 E r —
-
 p
-
 —E
-
 —
-
 B
 n
 p
-
 Le « Molto vivace », par son allure, ses dimensions, dépasse
 la portée d’un Scherzo, dont il tient la place. Son entrée en
 matière, intrépide, annonce déjà le rire épique. Tout, ici, est
@@ -1107,7 +788,6 @@ cette danse. Il eût été étonnant qu’il ne joignît pas à ce tableau
 de la joie terrestre une évocation — « Presto » — de la nature, qui
 mêle à ce divertissement héroïque un chant tout imprégné du
 simple bonheur champêtre.
-
 Le « Molto vivace » est une suite naturelle et nécessaire de
 l’« Allegro »: mouvement, encore, mais sans conflit, fête d’une
 liberté chèrement conquise. L’« Adagio », c’est le repos, la médi-
@@ -1122,13 +802,11 @@ seconde Variation, à rêver dans un état voisin de l’extase. Et
 voici que les cors et les trompettes sonnent un fier appel. Qu’an-
 noncent-ils ? Les portes du ciel vont-elles s’ouvrir ? Le cœur
 de l’artiste se trouble ; le morceau finit dans une grande émotion.
-
 Que pouvait-il désirer encore ? Il s’est construit un monde où
 la joie et la souffrance ont ét subordonnées à un ordre souverain.
 Faut-il se résigner à cet univers que régit malgré tout une loi
 impitoyable ? Que ton règne vienne ! Que ton règne vienne !
 règne de la joie et non de la résignation.
-
 Tel est le cri de tout le « Finale », qui est, tout entier, d’une
 exaltation croissante. Ce sont encore des Variations, comme dans
 l’« Adagio », mais emportées dans un mouvement de plus en
@@ -1138,21 +816,18 @@ un thème audacieux qui ressemble au mouvement des mondes
 dans l’espace — « Seid umschlungen » — puis un autre — « Ihr
 stürzt nieder » — qui fait plier les genoux, et élève les regards
 vers le « Père qui habite au-dessus de la voûte étoilée ».
-
-Le thème d’où sortira la prodigieuse floraison de ce Final est,]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003237_026.tif"/>
-<page><![CDATA[RESTAURANT
-
+Le thème d’où sortira la prodigieuse floraison de ce Final est,
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003237_026.tif'/>
+        <page>
+          <![CDATA[RESTAURANT
 HOTEL DES BERGUES
-
 Salons et salles pour
 conférences, réceptions,
 noces, etc.
-
 TÉL. 2 66 45
-
 RESTAURANT AMPHITRYON
-
 |
 q
 q
@@ -1160,49 +835,26 @@ q
 d
 4
 |
-
- 
-
- 
-
-   
-   
-
 *
-
 8 Croix-d’Or 8
-
- 
-
 BAR (Place des Bergues)
 Menus soignés
 Spécialités culinaires
 SERVICE EN VIÈILE
 TÉL. 2 69 56
 Cailleur Éemisios - CÆa;aeâiaz
-
 Tissus anglais pure laine (Importation directe)
-
 DIISTR/BUÜTEUR OFFICIEL DES CÉLÈBRES
-
 MANTEAUX IMPERMÉABLES
-
 AQUASCUTUM
-
-RAINCOATS]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003237_027.tif"/>
-<page><![CDATA[R rc
+RAINCOATS
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003237_027.tif'/>
+        <page>
+          <![CDATA[R rc
 —
-
-  
-
 T E
-
-  
- 
-
-  
-
 on le sait, d’une étonnante simplicité. Mais, par sa simplicité, et
 par ses répétitions qui le ramènent sans cesse à son début et le
 font comme tourner sur lui-même, il se prêtait d’autant mieux
@@ -1217,7 +869,6 @@ Et Beethoven, porté par la cadence entraînante de ce rythme à 6/8,
 écrit, pour l’orchestre seul, un morceau d’une ardeur de plus en
 plus intense qui lui sert à ramener son thème, ponctué avec force
 par le chœur.
-
 Ici intervient l’épisode central, que nous avons déjà signalé. On
 n’entendra plus, dès lors, le thème en son entier. Allié tout
 d’abord à l’un des thèmes nouveaux — « Seid umschlungen » —
@@ -1231,359 +882,222 @@ elle ne peut plus se lier à une forme définie et prolonsée. Une
 cadence lumineuse du quatuor de solistes projette pendant un
 court instant comme une mystique clarté. Puis c’est la fin,
 rapide, dans un « Prestissimo » délirant.
-
 Cette symphonie a été exécutée, pour la première fois, à
 Vienne, dans un concert qui eut lieu le 7 mars 1824. On ne put
 faire que deux répétitions, de sorte qu’il fallut s’arrêter au milieu
 du Scherzo pour recommencer.
-
 Wy S.
-
 ODE N PA OE
-
 de Schiller
-
 BASSE-SOLO
-
 O Freunde, nicht diese Tône ! son- O Frères, ces sons m'’attristent ;
 dern lasst uns angenehmere an- Faites que résonnent chants joyeux
-stimmen, und freudenvollere. O Joie ! en nous descends ! (de fête.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003237_028.tif"/>
-<page><![CDATA[RSN RE e
+stimmen, und freudenvollere. O Joie ! en nous descends ! (de fête.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003237_028.tif'/>
+        <page>
+          <![CDATA[RSN RE e
 NELVETIA-ACCIDENTS
-
 DIRECTION ROMANDE
-
 AGENCE GÉNÉRALE :
-
 L. CHATELAIN ET H. COLLOMB
-
 C:10 RARTAINTÉE RE 27
-
- 
-
- 
-
- 
-
- 
-
 .Æe yzﬂaisiz pac la musique
-
 La sécurité par une assurance su: Va vie
-
 &
 COLLOMB
-
 Agents généraux
-
- 
-
 HELVETTIA - VIE
-
 COMPAGNIE D'’ASSURANCES
-
- 
-
 SIVIREEN VTE
-
-  
-  
-
- 
-
 Corraterie 7 Tél. 40350
-
- 
-
- 
-
- 
-
 PLACE LONGEMALLE, 1 Œ
-
-CHATELAIN e]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003237_029.tif"/>
-<page><![CDATA[Freude, schôner Gôtterfunken,
+CHATELAIN e
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003237_029.tif'/>
+        <page>
+          <![CDATA[Freude, schôner Gôtterfunken,
 Tochter aus Elysium !
-
 Wir betreten feuertrunken
 Himmilische dein Heiligtum !
 Deine Zauber binden wieder,
 Was die Mode streng geteilt,
 Alle Menschen werden Brüder,
 Wo dein sanfter Flügel weilt.
-
 BASSE SOLO ET CHŒUR
-
- 
-
 Joie, fille du vieil Empyrée,
 Flamme prise au front des Dieux,
 Nous entrons, l’âme enivrée,
 Dans ton temple élorieux.
-
 Ton magique attrait resserre
 Quand la mode en vain détruit,
 L’homme est, pour tout homme, un
 Où ton aile nous conduit. frère.
-
 QUATUOR SOLO
-
 Wem der grosse Wurf gelungen
 Eines Freundes Freund zu sein,
 Wer ein holdes Weib errungen,
 Mische seinen Jubel ein !
-
 Ja, wer auch nur eine Seele
-
 Sein nennt auf dem Erdenrund,
 Und wer’s nie gekonnt, der stehle
 Heimlich sich aus diesem Bund.
-
 Si le sort, comblant ton âme,
 D’un ami t’a fait l’ami,
-
 S’il te donne un cœur de femme,
 Suis nos pas au seuil béni.
 Viens, si tu n’aimas qu’une heure,
 Qu’un seul être sous les cieux.
 Vous que nul amour n’effleure,
 En pleurant, fuvez ces lieux.
-
 CHŒUR
-
 Ja, wer auch nur eine Seele usw.
-
 Viens, si tu n’aimas qu’une heure,
 (etc.
-
 QUATUOR SOLO
-
 Freude trinken alle Wesen
-
 An den Briissten der Natur,
-
 Alle Guten, alle Bôsen
-
 Folgen ihrer Rosenspur,
-
 Küsse gab sie uns und Reben,
 Einen Freund, geprüft im Tod,
 Wollust ward dem Wurm gegeben,
 Und der Cherub steht vor Gott !
-
 L’être au sein de la nature,
-
 Boit la joie au bruit des chants;
 Tous, de roses, sa parure,
-
 Ont leur part, bons ou méchants.
 Elle a tout, raisins qu’on presse,
 Sûrs amis, baisers de feu,
-
 Donne au ver rampant l’ivresse ;
 Et le chérubin voit Dieu.
-
 CHŒUR
-
 Kiisse gab sie uns usw.
-
 Elle a tout, raisins qu’on presse,
 [etc.
-
 TÉNOR SOLO
-
 Froh wie seine Sonnen fliegen
 Durch des Himmels prächt’gen Plan,
 Laufet, Brüder, eure Bahn,
-
 Freudig, wie ein Held zum Siegen.
-
-   
-
 Fiers, tels les soleils d’or volent
 Sur le plan vermeil des cieux,
 Faites, frères, votre voie.
-
 Gais, tels combattent les héros
-[épris de gloire.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003237_030.tif"/>
-<page><![CDATA[LES ATEFÉIERS PROFESSIONNELS
+[épris de gloire.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003237_030.tif'/>
+        <page>
+          <![CDATA[LES ATEFÉIERS PROFESSIONNELS
 DE
-
- 
-
 executent tous travaux de
-
 PUBLICITÉ
-
 DESSINS DE MODE
 ENSEMBLIER-DÉCORATEUR
 PHOTOGRAPHIE
-
 1, PROMENADE DU PIN GENÈVE
 TÉLÉPHONE 4 7564
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 PRIOR
-
 CORRATERIE 9 — CITÉ 18
 TSL A 50 E
-
 e vend neuf et d’occasion
 e achète
-
 e expertise
-
 LIVRES ET MUSIQUE
-
- 
-
- 
-
 D2
-
- 
-
-e 87405 T t A F S E t]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003237_031.tif"/>
-<page><![CDATA[T p L
-
+e 87405 T t A F S E t
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003237_031.tif'/>
+        <page>
+          <![CDATA[T p L
 T rr
-
 ex e mm t =
-
 ——s
-
- 
-
 sT
-
- 
-
 TÉNOR ET BASSE SOLO
-
 Faites, frères votre voie, etc.
-
- 
-
 Laufet, Brüder, eure Bahn, usw.
-
 CHŒUR
-
 Freude, schôner Gôtterfunken usw. Joie, fille du vieil Empyrée, etc.
-
 CHŒUR ET SOLI
-
 Seid umschlungen, Millionen ! Qu’ils s’enlacent, tous les êtres !
 Diesen Kuss der ganzen Welt ! Un baiser au monde entier !
 Brüder, überm Sternenzelt Frères, au plus haut des cieux
 Muss ein lieber Vater wohnen : Doit régner un tendre Père.
-
 Ihr stürzt nieder, Millionen ; Tous les êtres se prosternent.
 Ahnest du den Schôpfer, Welt ? Pressens-tu ce Père, Monde ?
 Ueber Sternen muss er thronen. Cherche alors ce Créateur
-
 Au-dessus des cieux d’étoiles.
-
 CHŒUR
-
 Freude, schôner Gôtterfunken usw. Joie, fille du vieil Empyrée, etc.
-
 Dès lors les solistes ou le chœur ne chantent plus que la pre-
-mière, ou, dans le rapide chœur final, cette dernière strophe.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003237_032.tif"/>
-<page><![CDATA[L
-
+mière, ou, dans le rapide chœur final, cette dernière strophe.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003237_032.tif'/>
+        <page><![CDATA[L
 OIR (001 500011 e
-e E ;]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003237_033.tif"/>
-<page><![CDATA[Prochain Concert :
-
+e E ;
+]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003237_033.tif'/>
+        <page>
+          <![CDATA[Prochain Concert :
 (Dixième de l’abonnement)
-
 Mercredi I“ mars 1944, à I9 h. 45
 VICTORIA-HALL
-
 Direction :
-
 Ernest ANSERMET
-
 Walther GIESEKING
-
 pianiste
-
 3
-
 AU PROGRAMME :
-
 Schubert - Mozgart - Oboussier
-Debussy -  Marescotti]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003237_034.tif"/>
-<page><![CDATA[Le consommateur
-
+Debussy -  Marescotti
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003237_034.tif'/>
+        <page>
+          <![CDATA[Le consommateur
 COOPER
-
 soucieux de ses intérêts
-
 fait ses achats à la
-
-ATIVE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003237_035.tif"/>
-<page><![CDATA[CAISSE
+ATIVE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003237_035.tif'/>
+        <page>
+          <![CDATA[CAISSE
 HYPOTHECAIRE
-
 DU CANTON
 DE GENEVE
-
 INSTITUÉE PAR LA
 CONSTITUTION DE 1847 ‘
-
 MOLARD 2
-
 Æ
-
 PRÊTS ET CRÉDITS HYPOTHÉCAIRES
-
 CERTIFICATS
 DE DÉPOT
-
 (U UVRE TS
-D’ÉPARGNE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003237_036.tif"/>
-<page><![CDATA[% /£WZÆ a/ â%wZ% Ææ [ 54008
-
-  
-  
-    
-
+D’ÉPARGNE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003237_036.tif'/>
+        <page>
+          <![CDATA[% /£WZÆ a/ â%wZ% Ææ [ 54008
 ; E
-
-    
-
- 
-
 ‘ % ET— | SR
 $ CONSTANTIN * |
-
 - KUNDie- GENèVE Ÿ
-
 Ï
 |
-VACHERON ’X‘ î]]></page>       
-        </p>
+VACHERON ’X‘ î
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

@@ -1,90 +1,91 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Troisième concert classique<date when="31/01/1885"/></title>
-<series>1884-1885</series>
-<placeName>Grand Théâtre</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Troisième concert classique
+            <date when='31/01/1885'/>
+          </title>
+          <series>1884-1885</series>
+          <placeName>Genève, Grand Théâtre</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VG2-1 F002093</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Senger, H. de (dir)</note>
+        <note>Interprète incertain</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18850131"/>
-<title>Troisième concert classique</title>
-<placeName key="Grand Théâtre"/>
-<name key="1884-1885" type="series"/>
-<name key="Schumann, Robert" ref="https://muscat.rism.info/admin/people/131206" type="person" role="cmp">Schumann, Robert</name>
-<name key="Spohr, Louis" ref="https://muscat.rism.info/admin/people/149499" type="person" role="cmp">Spohr, Louis</name>
-<name key="Paësiello"  type="person" role="cmp">Paësiello</name>
-<name key="Bach, Johann Sebastian" ref="https://muscat.rism.info/admin/people/2539" type="person" role="cmp">Bach, Johann Sebastian</name>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Glinka, Michail Ivanovič" ref="https://muscat.rism.info/admin/people/479437" type="person" role="cmp">Glinka, Michail Ivanovič</name>
-<name key="Weckerlin, Jean Baptiste" ref="https://muscat.rism.info/admin/people/118631" type="person" role="cmp">Weckerlin, Jean Baptiste</name>
-<name key="Chopin, Fryderyk Franciszek" ref="https://muscat.rism.info/admin/people/51160" type="person" role="cmp">Chopin, Fryderyk Franciszek</name>
-<name key="Brahms, Johannes" ref="https://muscat.rism.info/admin/people/39914" type="person" role="cmp">Brahms, Johannes</name>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Senger, Franz Ludwig Hugo von  (dir.)" ref="https://muscat.rism.info/admin/people/30015297" type="person" role="int">Senger, Franz Ludwig Hugo von  (dir.)</name>
-<name key="[Orchestre de la Ville de Genève ?]"  type="person" role="int">[Orchestre de la Ville de Genève ?]</name>
-<name key="Joachim, J."  type="person" role="int">Joachim, J.</name>
-<name key="Ketten, Léopold"  type="person" role="int">Ketten, Léopold</name>
-<name key="Litvinoff, Félia"  type="person" role="int">Litvinoff, Félia</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_1_f002093_001.tif"/>
-<page><![CDATA[ND THÉATRE DE GENÈVE. - SOCIÉTÉ DES CONCERTS “
-
- 
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18850131'/>
+        <title>Troisième concert classique</title>
+        <placeName key='Genève, Grand Théâtre'/>
+        <name key='1884-1885' type='series'/>
+        <name key='Schumann, Robert' ref='https://muscat.rism.info/admin/people/131206' type='person' role='cmp'>Schumann, Robert</name>
+        <name key='Spohr, Louis' ref='https://muscat.rism.info/admin/people/149499' type='person' role='cmp'>Spohr, Louis</name>
+        <name key='Paësiello' type='person' role='cmp'>Paësiello</name>
+        <name key='Bach, Johann Sebastian' ref='https://muscat.rism.info/admin/people/2539' type='person' role='cmp'>Bach, Johann Sebastian</name>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Glinka, Michail Ivanovič' ref='https://muscat.rism.info/admin/people/479437' type='person' role='cmp'>Glinka, Michail Ivanovič</name>
+        <name key='Weckerlin, Jean Baptiste' ref='https://muscat.rism.info/admin/people/118631' type='person' role='cmp'>Weckerlin, Jean Baptiste</name>
+        <name key='Chopin, Fryderyk Franciszek' ref='https://muscat.rism.info/admin/people/51160' type='person' role='cmp'>Chopin, Fryderyk Franciszek</name>
+        <name key='Brahms, Johannes' ref='https://muscat.rism.info/admin/people/39914' type='person' role='cmp'>Brahms, Johannes</name>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Senger, Franz Ludwig Hugo von' ref='https://muscat.rism.info/admin/people/30015297' type='person' role='int'>Senger, Franz Ludwig Hugo von</name>
+        <name key='Orchestre de la Ville de Genève' type='person' role='int'>Orchestre de la Ville de Genève</name>
+        <name key='Joachim, J.' type='person' role='int'>Joachim, J.</name>
+        <name key='Ketten, Léopold' type='person' role='int'>Ketten, Léopold</name>
+        <name key='Litvinoff, Félia' type='person' role='int'>Litvinoff, Félia</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_1_f002093_001.tif'/>
+        <page>
+          <![CDATA[ND THÉATRE DE GENÈVE. - SOCIÉTÉ DES CONCERTS “
 SAMEDEI 31 JANVIER 1886, ü $ heures précises,
-
 TROISIÈME  CONCERT CLASSIQUE
-
 AVEC LE CONCOURS DE
-
 PF CD DR C HHENE
-
 ET DE
-
 BL" CRLSA LS VINOLF
 - L’Orchestre, de 60 Musiciens, sera dirigé par M. HUGO DE SENGER
-
 Le piano d’accompagnement sera tenu par M. Léopold KETTEN.
-
- 
-
 —— N e
 PREMIÈRE PARTIE
-
 Ouverture de l’opéra « Geneviève, > . . 177 % - dt Sohmoe
 Concerto no 9, pour violon, avec accompagnement d010hest1e . 9ponx
 - Exécuté par J. JOACHIM.
@@ -93,41 +94,28 @@ Chantés par MlIle F. LITVINOFF. ‘
 Romance en fa majeur, pour violon, ) M \I S Bach.
 Chaconne en ré mineur, pour violon seul,$ " Beethoven
 N vonesa, *. 10 00 01e 155e inka
-
 rs SE S A ,
-
 exécutées par J. JOACHI
-
 DEUXIÈME PARTIE
-
 Symphome ne 5, en ut mineur, ; . " . — Beethoven
 Allegro con brio. — Andante con moto. — Allegro et fmal
-
 Ts 1s 1 1 Wekerlin
-
 poMazourka, . . . . e 1 Chopin
 Chantées par Mlle F. LITVINOFF
-
 Deux Danses Hongroises (nos 1 et 6), pour violon, . . . .  Brahms
 Exécutées par J. JOACHIM.
-
 Macchegauernière de « Rienzi, » ... .. e e » , - …  Richard Wagnet
-
 Piano de la Maison ÉRARD, aux soins de MM. Bron et BERGUER.
-
 AVIS. — On est instamment prié de ne pas entrer pendant l’exécution des morceaux.
-
 Prix des places restant en dehors des abonnements : Parterre, 2 fr., location. 2 fr. 50 (sous réserve d’augmentation de la location, dans des
 circonstances spéciales. — Parterre debout, 2 fr. — Strapontins 1'é Galvrie, &fr. — Loges de face, 2M° Galerie, 2 fr., location, 2 fr. 50. —
 Loges de côté, 2'"* Galerie, 4 fr. 23., location, 1 fr. 30. — Stalles numérotées, 3° Galerie. ( fr. 50., location, 4 fr. 60. — Avant-scène, 3me
 Galerie, 4 fr. 50., location, 4 fr.60. — Galerie, 5""°, 73 c, location, 85 c — Le Bureau de lecation est ouvert au Théâtre, to:s les jours de
-
 | la semaine où a lieu le Concert, de 14 h. à 4 heures.
-
- 
-
-Genève. — Imprimerie J-D. Jarrys.]]></page>       
-        </p>
+Genève. — Imprimerie J-D. Jarrys.
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

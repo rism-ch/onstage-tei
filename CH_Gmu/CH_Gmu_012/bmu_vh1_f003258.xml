@@ -1,103 +1,75 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Huitième concert de l'abonnement<date when="31/01/1945"/></title>
-<series>1944-1945</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Huitième concert de l'abonnement
+            <date when='31/01/1945'/>
+          </title>
+          <series>1944-1945</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F003258</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Kletzki, P. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19450131"/>
-<title>Huitième concert de l'abonnement</title>
-<placeName key="Victoria Hall"/>
-<name key="1944-1945" type="series"/>
-<name key="Geiser, Walther" ref="https://muscat.rism.info/admin/people/30104029" type="person" role="cmp">Geiser, Walther</name>
-<name key="Brahms, Johannes" ref="https://muscat.rism.info/admin/people/39914" type="person" role="cmp">Brahms, Johannes</name>
-<name key="Dvořák, Antonín" ref="https://muscat.rism.info/admin/people/26196" type="person" role="cmp">Dvořák, Antonín</name>
-<name key="Kletzki, Paul  (dir.)"  type="person" role="int">Kletzki, Paul  (dir.)</name>
-<name key="Orchestre de la Suisse Romande" ref="https://muscat.rism.info/admin/people/50007615" type="person" role="int">Orchestre de la Suisse Romande</name>
-<name key="Schwalbé, Michel"  type="person" role="int">Schwalbé, Michel</name>
-<name key="Krausz, Laszlo"  type="person" role="int">Krausz, Laszlo</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003258_001.tif"/>
-<page><![CDATA[YUN 4
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19450131'/>
+        <title>Huitième concert de l'abonnement</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1944-1945' type='series'/>
+        <name key='Geiser, Walther' ref='https://muscat.rism.info/admin/people/30104029' type='person' role='cmp'>Geiser, Walther</name>
+        <name key='Brahms, Johannes' ref='https://muscat.rism.info/admin/people/39914' type='person' role='cmp'>Brahms, Johannes</name>
+        <name key='Dvořák, Antonín' ref='https://muscat.rism.info/admin/people/26196' type='person' role='cmp'>Dvořák, Antonín</name>
+        <name key='Kletzki, Paul' type='person' role='int'>Kletzki, Paul</name>
+        <name key='Orchestre de la Suisse Romande' ref='https://muscat.rism.info/admin/people/50007615' type='person' role='int'>Orchestre de la Suisse Romande</name>
+        <name key='Schwalbé, Michel' type='person' role='int'>Schwalbé, Michel</name>
+        <name key='Krausz, Laszlo' type='person' role='int'>Krausz, Laszlo</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003258_001.tif'/>
+        <page>
+          <![CDATA[YUN 4
 5355 TT TT S
-
- 
-
- 
-
 Ÿ
 m.â$_ RESRE m S MS TI
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
 HSI
 NNÉPS p
 |{ftes f
@@ -118,54 +90,23 @@ eN
 E
 /n……… ;:A...….
 PEN TI
-
 dert
-
 +
-
 cA
-
 XL
-
- 
-
- 
-
- 
-
- 
-
 ===
-
 s===
-
 fH
 ut ]
-
 U+
-
 FF
 10 m
-
 —0 e
-
- 
-
- 
-
- 
-
- 
-
- 
-
 ORCHESTRE
-
 x
 =
 y
 Q
-
 S
 ;
 =
@@ -177,121 +118,80 @@ C
 <
 D
 —
-
- 
-
 PROGRAMME
-
-É e E]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003258_002.tif"/>
-<page><![CDATA[Pour tous renseignements financiers
-
+É e E
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003258_002.tif'/>
+        <page>
+          <![CDATA[Pour tous renseignements financiers
 Pour toutes opérations de banque
-
 adressez-vous à la
-
 Hanque Commerciale de Bâle
-
 GENÈVE
-
 9-11, place de la Fustorie
-
 BATR ZURICH
-
- 
-
- 
-
- 
-
 PHILIPS
-
- 
-
- 
-
 “ PHILIPS
-RADIO]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003258_003.tif"/>
-<page><![CDATA[GENÈVE
-
+RADIO
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003258_003.tif'/>
+        <page>
+          <![CDATA[GENÈVE
 HUITIÈME CONCERT
 DE LlÀ'ABONNEMENT
-
 VICTORIA-HALL
-
 MERCREDI 31 JANVIER 1945
-
 à 20 h.15 précises
-
 =”
-
 Direction :
-
 Paul KLFTZKI
-
 Soliste :
-
 Michel SCHWALBÉ
-
-Violoniste]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003258_004.tif"/>
-<page><![CDATA[PIANOS
+Violoniste
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003258_004.tif'/>
+        <page>
+          <![CDATA[PIANOS
 «ÉFUDE)»
-
 L'INSTRUMENT
-
 SE FAIT EN TOUS
 STYLES ET BOIS
-
 Fabrigué en Suisse
-
 L'AUTORITÉ EN
-
 PHARNOS
-
 Steinway & Sons - Bluthner
 Pleyel - Schmidt-Flohr
-
 Burger-Jacobi, etc.
-
 Location - Toutes réparations - Accords
 Echange - Instruments anciens.
-
 LA SPÉCIALITÉ EN
-
 RADIOS
-
 Deso - Marconi - Aga - Albis
 Telefunken - Philips
-
 Antennes collectives, blindées - Radio-
 Gramos - Changeurs - Dépannage,
 service de premier ordre.
-
 DIESQUES
-
 TOUS LES GENRES
 NOUVEAUTÉS
-
 LA MAISON DE LA MUSIQUE
 Existe depuisT1830
-
 SAUTIER gJAEGER
-
-FUSTERIE ,12, GENÈVE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003258_005.tif"/>
-<page><![CDATA[Association des Amis
+FUSTERIE ,12, GENÈVE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003258_005.tif'/>
+        <page>
+          <![CDATA[Association des Amis
 de l’Orchestre Romand à Genève
-
 b E
-
 COMITÉ :
-
 MM. Pierre JACCOUD, Président,
 Henri BROLLIET, Vice-président,
 Charles BABEL, Trésorier,
-
 Ml. Edmond MARTIN-ACHARD, Secrétaire.
 n MM. Léopold BOISSIER, Alfred BOREL, Emile BRUNSCHWIG,
 « René DOVAZ, Paul FUETER, Jean LULLIN, Frank MARTIN,
@@ -299,166 +199,115 @@ n MM. Léopold BOISSIER, Alfred BOREL, Emile BRUNSCHWIG,
 ZANELLO.
 *
 # #*
-
 Devenir souscripteur, membre des Amis de 1l’O.S.R., c’est
 collaborer activement au maintien de notre orchestre et à
 l’élément de culture qu’il représente en notre ville.
-
 LES AVANTAGES SONT LES SUIVANTS:
-
- 
-
 A. Une souscription de 10 francs conférera :
-
 | I, — un droit de priorité pour le choix d’une place d’abonnement ;
 Ï 2, — un droit de priorité pour la location des places disponibles
-
 a' . aux concerts ordinaires et extraordinaires de l'O.S.R.;
-
 12 3. — Une entrée gratuite à un concert réservé
-
 au Studio de Radio-Genève.
-
 B. Une souscription de 20 francs et plus conférera :
 r. — un droit de priorité pour le choix d’une ou plusieurs places
 d’abonnement ;
-
 , 2. — un droit de priorité pour la location des places disponibles
 ; aux concerts ordinaires et extraordinaires de l'O.S.R.;
-
 ; 3. — Une entrée gratuite à trois concerts réservés
 f au Studio de Radio-Genève — (un concert de musique de
 ë chambre, octuor, septuor, etc.; un concert avec soliste; un
 ; concert de musique contemporaine).
-
-Compte de chèques postaux des Amis de l'O.S.R. n° I 6870.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003258_006.tif"/>
-<page><![CDATA[Muürie au soleil de Provence,
+Compte de chèques postaux des Amis de l'O.S.R. n° I 6870.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003258_006.tif'/>
+        <page>
+          <![CDATA[Muürie au soleil de Provence,
 Parfum de tendresse et d'amour,
 Lavande, tu nous rends l'essence
 Lumineuse des plus beaux jours.
-
 Eau de Lavande
 M “ BLACKFORD”
-
 se e e ce e e
 Mn r 05 080 p - ; x Î
-
- 
-
 ÿ
 H
 $
-
- 
-
 EN VENTE PARTOUT
-
 PARFUMERIE OSME S. A, GENÊVE
-
- 
-
- 
-
- 
-
- 
-
 RE st e r E G e r
-
- 
-
 PRIOR
-
 p rr E
-
 CORRATERIE 9 — CITÉ 18
 Tél. 5 63 70
-
 e vend neuf et d’occasion
 e achète
-
 © expertise
-
 LIVRES ET MUSIQUE
-
- 
-
- 
-
 e L tn dn é atsdne tn sù
 É ETE S E E é E d
-
-2 ctonquss]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003258_007.tif"/>
-<page><![CDATA[R es
-
+2 ctonquss
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003258_007.tif'/>
+        <page>
+          <![CDATA[R es
 Conseil de Fondation
 de l’Orchestre de la Suisse Romande
-
 Président : M. Paul LACHENAL, Genève.
 Vice-président: M. le D' Fréd. BLANCHOD, Lausanne.
 Secrétaire : M. René DOVAZ.
-
 Trésorier : M. Henri BROLLIET.
-
 Conseillers délégués :
-
 MM. Emile HEUBI, Lausanne; Pierre JACCOUD, Emile UNGER,
 Genève; Léopold BOISSIER; Auguste MARGUERAT; GLOGG,
 Directeur général de la Radiodiffusion, Berne; René DOVAZ,
 Directeur de la Société des Emissions Radio-Genève; Marcel
 BESENÇON, Directeur de la Société romande de Radiodiffusion.
-
 Memubres :
-
 MM. les représentants des Gouvernements cantonaux; Conseiller d’Etat
 Henri MOUTTET, Berne (Jura romand); Conseiller d’Etat
 Adrien LACHENAL, Genève ; Conseiller d’Etat Joseph PILLER,
 Fribourg; Conseiller communal Gérard BAUËR, Neuchâtel;
 Conseiller d’Etat Cyrille PITTELOUD, Valais; Conseiller d’Etat
 Paul PERRET, Vaud.
-
 M. le Conseiller d’Etat Louis CASAÏ, MM. les Conseillers administratifs
 Jules PENEY et Fernand COTTIER, MM. Philippe ALBERT,
 Alfred BOREL, André GUINAND, Emile JAQUES-DALCROZE,
 Alfred PELLIGOT, Maurice PICTET DE ROCHEMONT, Marce-
 RAYMOND, Charles ZANELLO, Jean LULLIN, Pierre VII
 DOUDEZ, à Genève.
-
 MM. Antoine VODOZ, Conseiller d’Etat, Marius AMANN, Conseiller
 municipal, Jacques BÉRANGER, René BICKART, Roger
 CORREVON, Louis SALATHÉ, Georges ROSSET, Henri
 STIERLIN-VALLON, Charles GILLIÉRON, à Lausanne.
-
 MM. Samuel GÉTAZ et E. ROSSIER-GEORG, à Vevey; François
 ESSEIVA et le D' Paul RYNCKI, à Fribourg ; Claude DU
 PASQUIER, à Neuchâtel; Tell PERRIN, à La Chaux-de-Fonds:
 Edmond BILLE et Gustave TURINI, à Sierre.
-
 MM. les délégués des associations genevoise et vaudoise des Amis de
 l’O.S.R., de la Société des Emissions Radio-Genève, de la Société
 romande de Radiodiffusion, de la Commission des Programmes
 de Sottens et des Artistes-Musiciens de l’Orchestre.
-
 Chef d’Orchestre: E. ANSERMET
-
-ADMINISTRATION: 22, CORRATERIE, GENÈVE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003258_008.tif"/>
-<page><![CDATA[Un- elégant manteau de
-
+ADMINISTRATION: 22, CORRATERIE, GENÈVE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003258_008.tif'/>
+        <page>
+          <![CDATA[Un- elégant manteau de
 CASTOR RASÉ DU CANADA
-
 modèle exécuté par le spécialiste
-
 Même maison Ÿ ; d
 6, rue de Bourg 3, rue de Rive
 LAUSANNE @lﬂ9 GENÈVE
-
-fourrures]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003258_009.tif"/>
-<page><![CDATA[Paul KLETZKI
-
+fourrures
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003258_009.tif'/>
+        <page>
+          <![CDATA[Paul KLETZKI
 Paul Kletzki, le lauréat du concours de composition de la Philharmonie
 de Varsovie, naquit le 21 mars 1900 à Lodz en Pologne. Tout jeune, il
 montre déjà sa vocation musicale et à l’âge de 13 ans il se présente en
@@ -477,267 +326,182 @@ ainsi, par exemple, que Furtwängler écrit à propos de lui: « Ce n’est pas
 seulement en tant que compositeur très doué que je connais M. Paul Kletzki,
 mais aussi comme un de ces rares chefs d’orchestre de talent des jeunes
 générations, qui ont devant eux le plus grand avenir ».
-
 Professeur de composition et chef d’un orchestre de chambre, de 1934
 à 1936 à Milan. En 1936, concerts avec l’Orchestre philharmonique de
 Léninegrade. Premier chef de la Philharmonie à Karkhov (Ukraine) en
 1937. En 1938, concerts à Bruxelles. Depuis 1939, Kletzki vit à Clarens,
-s’adonnant à la composition.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003258_010.tif"/>
-<page><![CDATA[VIDOUDEZ
-
+s’adonnant à la composition.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003258_010.tif'/>
+        <page>
+          <![CDATA[VIDOUDEZ
 , É
 1///M}L d (Oonseruartorre
-
- 
-
 22, RUE DE LA CORRATERIE - GENÈVE
-
- 
-
- 
-
- 
-
- 
-
 Cadeaux artistiques
-
-  
- 
-
 e r se e e ts vc se ,
-
 Fleurs de choix
-
- 
-
 d "r
 e E À 1 mm r t
-
 50en
-
 Maître Fleuriste
-
- 
-
-CORRATERIE 26 (Pas de succursale)]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003258_011.tif"/>
-<page><![CDATA[M
+CORRATERIE 26 (Pas de succursale)
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003258_011.tif'/>
+        <page>
+          <![CDATA[M
 U |
-
- 
-
- 
-
 Michel SCHWALBÉ
-
 Michel Schwalbé, né le 27 octobre 1919 à Radom (Pologne).
-
 A commencé les études de violon à l’âÂge de 8 ans à Varsovie où, quel-
 ques années plus tard (en 1932-1933) il se fait entendre en public, rem-
 portant un très grand succès (au Conseryatoire, à l’Opéra, à la Radio).
-
 Ayant 13 ans et demi, termine l’Ecole supérieure de musique Moniuszko
 à Varsovie, et quelques mois plus tard, part pour Paris, afin d’y parfaire
 ses études musicales.
-
 En 1934-1935-1936, travaille avec Georges Enesco à l’Institut instru-
 mental à Paris.
-
 En octobre 1936, est admis à l’unanimité au Conservatoire national
 de Paris, dans la classe de Jules Boucheret, et en 1938 (le 24 juin) obtient
 la récompense suprême: Premier Prix, Premier nommé des Lauréats,
 hommes et femmes.
-
 En 1938, 1939 et au commencement de 1940, joue en soliste à Paris,
 Rouen, Angers, à la Radio, avec un très grand succès.
-
 En 1941-1942, prend part à plusieurs tournées comme violon-solo de
-
 l’Orchestre Symphonique de France, et en même temps étudie l’harmonie
-au Conservatoire national de Lyon.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003258_012.tif"/>
-<page><![CDATA[irième = qei RSN qn v r è]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003258_013.tif"/>
-<page><![CDATA[Huitième Concert de l’Abonnement
+au Conservatoire national de Lyon.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003258_012.tif'/>
+        <page><![CDATA[irième = qei RSN qn v r è
+]]></page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003258_013.tif'/>
+        <page>
+          <![CDATA[Huitième Concert de l’Abonnement
 Direction: Paul KLETZKI
-
 Soliste: Michel SCHWALBÉ, violoniste
-
 |… . IË" violon-solo de l’'O.S.R.
 /
-
 PROGRAMME
-
 PREMIÈRE PARTIE
-
 1. FANTAISIF, op. 31, pour
-
 orchestre à cordes, timbales et
-
 plano e 1 10 ANNalthér GEISER
 Lento funebre — Moderato espres-
 _ sivo — Vivace assai e deciso —
 } . Moderato assai.
-
 Alto-solo: M. Laszlo KrAUszZ.
-
 2. CONCERTO, en ré majeur,
-
 pour violon et orchestre. . . . BRAHMS
-
 a) Allegro non troppo.
-
 b) Adagio.
-
 c) Allegro giocoso ma non troppo
 vivace.
-
-Soliste: M. Michel SCHWALBÉ.,]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003258_014.tif"/>
-<page><![CDATA[Le rendez-vous du public cultivé
-
+Soliste: M. Michel SCHWALBÉ.,
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003258_014.tif'/>
+        <page>
+          <![CDATA[Le rendez-vous du public cultivé
 et des gens de goût
-
 LIBRAIRYIF>
 NAVILLE & C”
-
 PASSAGE DES LIONS 5-7, RUE LÉVRIER 1, PLACE DU LAC
-
 Ouvrages sur la musique
-
 et les beaux-arts
-
 LIVRES DE LUXE
-
- 
-
- 
-
- 
-
 S.GROsJEAN
-
 9. PLACE DES EAUX-VIVES
-
 Téléphone: s5 08 92
 Télégrammes : Paptenture, Genève
-Chèques postaux: !. 4605]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003258_015.tif"/>
-<page><![CDATA[0
-
- 
-
+Chèques postaux: !. 4605
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003258_015.tif'/>
+        <page>
+          <![CDATA[0
 PROGRAMME (sumte)
-
 DEUXIÈME PARTIE
-
 3. SYMPHONIE, en mi mineur,
-
 « Au Nouveau-Monde». . . DVORAK
 d) Adagio — Allegro molto.
 b) Largo.
-
 c) Scherzo molto vivace.
 d) Allegro con fuoco.
-
 L’ÉCRITURE DES GRANDS COMPOSITEURS
-
 La vignette de la couverture veproduit un fragment du manuserit
 autographe d’une musique de scène écrite par Robert Schumamn,
-pour une des Tragédies de H. Heine.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003258_016.tif"/>
-<page><![CDATA[ad S
+pour une des Tragédies de H. Heine.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003258_016.tif'/>
+        <page>
+          <![CDATA[ad S
 « “N
-
 r É
-
- 
-
 4
 |
 O
-
 mkrrente
-
- 
-
- 
-
- 
-
 PATEK, PHILIPPE & C°
-
 7 7 ; N OL Ë
 o%z/ @//Æﬁ/{/{àçâæa {/ % pz/äyaw'a î/«[/aﬂaya/.4e/
 B V2
 d Ç :%rz E @€k/ä{«b%
-
-G4 OQUAT 22 GENÈVE]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003258_017.tif"/>
-<page><![CDATA[e
-
+G4 OQUAT 22 GENÈVE
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003258_017.tif'/>
+        <page>
+          <![CDATA[e
 Walther GEISER
-
 GV
-
 RANTAISIE, op 31,
-
 pour orchestre à cordes, timbales et piano.
-
 ON intention première, dit Walther Geiser, était d’écrire
 M une musique funèbre pour alto-solo, orchestre à cordes
 et timbales. Pendant le travail mon plan s’est considéra-
 blement modifié parce que je m’étais senti le devoir d’introduire
 de plus grands contrastes aussi bien dans le tempo que dans
 l’expression.
-
 Evidemment le premier mouvement « Lento funebre » et le
 mouvement final « Moderato assai » ont gardé dans la présente
 fantaisie leur caractère premier, mais la substance musicale
 contenue dans ce cadre dépasse le plan primitif.
-
 On distingue nettement deux parties: Une première, dans
 le sentiment de l’introduction, de plus en plus passionnée, mais
 qui garde un tempo tranquille; et une seconde, poussée par un
 mouvement rapide et impétueux.
-
 Les cordes sont occasionnellement divisées. L’œuvre a été
 écrite en 1941-1942 pour l’Orchestre de chambre de Bâle sous
-la direction de Paul Sacher.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003258_018.tif"/>
-<page><![CDATA[UNION
+la direction de Paul Sacher.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003258_018.tif'/>
+        <page>
+          <![CDATA[UNION
 DE BANQUES SUISSES
-
 G E N E V E
-
-Angle rue du Rhône et rue du Commerce]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003258_019.tif"/>
-<page><![CDATA[;I,‘ »
+Angle rue du Rhône et rue du Commerce
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003258_019.tif'/>
+        <page>
+          <![CDATA[;I,‘ »
 e
-
 urr
-
 ï
-
- 
-
 Johannes BRAHMS
-
 (1833-1897)
-
 GÂ
-
 CONCERTO pour violon et orchestre.
-
 ETTE œuvre, on le sait, fut dédiée par Brahms à son
 grand ami, le violoniste Joachim. Le 1" janvier 1879,
 l’on vit Joachim présenter aux concerts du Gewandhaus
-
 de Leipzig, l’œuvre qui lui avait été dédiée et que conduisait
 Brahms en personne.
-
 Si le violon-solo y joue un rôle prépondérant, la partie d’orches -
 tre y garde une telle importance qu’on a, avac raison, nommé
 l’œuvre « Symphonie avec violon principal ». Les passages pure-
@@ -745,97 +509,50 @@ ment techniques y sont, en effet, si intimement entrelacés au
 tissu symphonique que ce « Concerto » n’apparaît point, sauf
 peut-être en son dernier mouvement, comme und œuvre de
 pure virtuosité violonistique.
-
 Rappelons que l’Adagio débute par une exquise mélodie de
 hautbois qu’accompagnent les bois et les cors, alors que le soliste,
-
 qui n’intervient que longtemps après, tisse une ligne mélodique
-fort différente.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003258_020.tif"/>
-<page><![CDATA[FAINES - B>> * 1500
+fort différente.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003258_020.tif'/>
+        <page>
+          <![CDATA[FAINES - B>> * 1500
 ARTICLES DE BÉBÉS - LAYETTES COMPLÈTES
-
 Coujours les meilleures qualités
-
 « DURUZ -
-
 L'e grand spécialiste des Rues-TSasses
-
 Durant toule l’année, chaque achat de LAYETTE destiné à un
-
 cadeau est gracieusement emballé dans un carton fantaisie.
-
- 
-
- 
-
- 
-
- 
-
 l us XUH /1 // // mitte )/H
-
 aimez ausoi la beaulé el la
-
-  
-
- 
-
- 
-  
-
 N RFËVDERIE BIJOUTERIE
 Ÿ À YEssHORLOGERIE
-
 5:20. R, du MARCHE
-
 qualité Je votre montre et de
-
 votre orfèvrerie…
-
- 
-
- 
-
- 
-
- 
-
 …alors faites votre choix parmi les montres sorgnées :
-
 LONGINES . TISSOT
-
 m 5
 OMEGA . Z2ENITH
 ORFEVRERIE
 JEZLER ARGENT MASSIF ET CHRISTOFLE
 BIJOUTERIE OR ET ARGENT
-
 LE PLUS BEAU CHOIX PRIX TRÈS MODÉRÉS
-
- 
-
- 
-
- 
-
 ec en recsa e tn T
-
 2ésrre sm
-
-e]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003258_021.tif"/>
-<page><![CDATA[Anton DVORAK
-
+e
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003258_021.tif'/>
+        <page>
+          <![CDATA[Anton DVORAK
 (1841-1904)
 eN
-
 SYMPHONIE en mi mineur : Au Nouveau-Monde.
-
 NTON DVORAK est né en 1841, dans un milieu extrême-
 ment modeste (le père était aubergiste) d’un petit village
 de Bohême. Mais l’éminence de ses dons musicaux lui
-
 fit franchir très vite les bornes du milieu natal pour l’emporter
 vers une carrière glorieuse et toutes sortes d’honneurs — entre
 autres les doctorats « honoris causa » des Universités de Prague
@@ -847,7 +564,6 @@ pendant plusieurs années pensionné par l’Etat. En 1892, il fut
 appelé à New-York pour diriger le « Conservatoire national de
 musique ». En 1901, il revint, en cette même qualité, à Prague,
 où il mourut en 1904.
-
 La musique de Dvorak affecte un académisme qui lui a nui
 dans nos contrées, mais qui ne devrait pas faire méconnaître
 sa profonde « authenticité ». Ce n’est pas sans raison qu’une
@@ -857,77 +573,46 @@ programmes du monde entier, après ses sensationnelles et
 mémorables premières auditions en 1893, à New-York, sous
 Anton Seidl, à Vienne sous Hans Richter, en présence de l’auteur
 accompagné de Brahms.
-
 On a beaucoup discuté sur le titre de cette symphonie, il
 s’explique cependant aisément. Résidant en Amérique en 1893,
 Dvorak fut mis au courant par le critique Krehbiel — qui en fut
 le premier observateur sérieux — de la musique des nègres des
 cotonnades, et des « Negro spirituals »; il en sentit aussitôt
 la saveur et l’originalité et comme il était le type des musiciens
-qui cherchent à élaborer de « grandes formes » sur la base de]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003258_022.tif"/>
-<page><![CDATA[PIANOS
-
+qui cherchent à élaborer de « grandes formes » sur la base de
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003258_022.tif'/>
+        <page>
+          <![CDATA[PIANOS
 Steinway & Sons, Fôrster, Feurich,
 Schmidt-Flohr, Wohlfahrt
-
 H'anna J<neiﬁeâ
-
 LOGATION
-
 Ë ,C HANGE Passage du Terraillet 20
 REPARATIONS Tél. 4 41 92 (ENTRESOL)
-
- 
-
- 
-
- 
-
 BOULANGERIE FINE
 P'ATAESIS ERIIE
-
- 
-
- 
-
 Chantepoulet 10 Plantamour 37
 Tél. 2 29 78 Tél. 2 58 09
-
 " . , . “
 1‘ ourntusseur JA':P‘ _1]I'(llll?d‘ f/ﬂ[)llm‘«‘k'lill‘lll.l‘ l)(’ seneve
-
- 
-
- 
-
 e
-
 C e À d E
-
 vn
-
 us
-
 d O EN e r
-
- 
-
 L e
-
 es
-
- 
-
 4LV E
-
 PE
-
 fl 2 um
-
-E]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003258_023.tif"/>
-<page><![CDATA[thèmes populaires, il y trouva la matière d’une symphonie.
+E
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003258_023.tif'/>
+        <page>
+          <![CDATA[thèmes populaires, il y trouva la matière d’une symphonie.
 Empruntant ses thèmes aux nègres d’Amérique, ce n’est cepen-
 dant pas «le Nouveau-Monde » qu’exprime cette symphonie,
 mais bel et bien Dvorak et son temps. Ÿ chercher un programme,
@@ -936,89 +621,52 @@ récits de Longfellow n’est plus de mise aujourd’hui. C’est une
 symphonie à la manière romantique, à la fois épique et lyrique,
 et où les chants d’oiseaux — pour être des tropiques — ne sont
 là qu’une évocation de la nature, de cette nature éternelle nour-
-
 rice des pastorales et des poètes.
-p A]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003258_024.tif"/>
-<page><![CDATA[“ALIMENTATION
+p A
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003258_024.tif'/>
+        <page>
+          <![CDATA[“ALIMENTATION
 GÉNÉRALE
-
 ( .°.‘.°.‘.°.' ‘.
-
 C C I CO
 Ç
-
 Ç
-
 O
-
 .’.
-
- 
- 
-
 v
 ...
-
-  
-
 e
 SOSESE
 QOO
-
-  
- 
-
- 
- 
-
- 
-
- 
-
- 
-
 Ses exclusivités :
-
 Cnanpeaux anglais:
 VEHIRISTY ? @ SSCOTTF*
-
 Chemises élégantes:
 ; D'FARBY N ge$
-
 “ IMPER-MOBIL-CALOR "
 “ RAINTEX" et “WEST-END"
-
- 
-
- 
-
 Za£Ma ue
 CÆamiﬂ'eZ
 C/za;zzeâiez
-
 DISTRIBUTEUR  OFFICIEL DES  CÉLÈBRES
-
 MANTEAUX IMPERMÉABLES
-
 AQUASCUTUM
-
 —,  RAINCOATS
-
 BUREAUX D'ACHATS A LONDRES W. 1.
-
-GENÈVE 8, Croix-d'Or]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003258_025.tif"/>
-<page><![CDATA[e
-
+GENÈVE 8, Croix-d'Or
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003258_025.tif'/>
+        <page>
+          <![CDATA[e
 QUE PEUT-ON ATTENDRE
 D'UNE ŒUVRE MUSICALE NOUVELLE ?
-
 Dans umne de ces pénétrantes études que M. Frank Martin publie trop
 rarement dans le Journal de Genève, le président de l’Association suisse
 de Musiciens analyse, comme seul un auteur peut le faire, ce qu’on peut
 attendre d'une œuvre musicale nouvelle. Voici l’essentiel de son argument :
-
 Comprendre une musique, c’est la suivre avec son intelligence
 et sa sensibilité musicale dans ses éléments principaux: forme
 mélodique et construction harmonique et tonale. Il n’est aucun
@@ -1032,10 +680,8 @@ prenante. On découvre l’œuvre à mesure qu’on la reconnaît.
 C’est précisément la marque du génie de rester surprenant
 alors même que l’œuvre est connue et comprise. Il n’est pas
 malaisé de surprendre à première vue, mais surprendre dans
-
 la justesse, la clarté et l’équilibre n’est le fait que de quelques-
 uns.
-
 Le plus grand compliment qu’un compositeur puisse recevoir,
 c’est celui d’un musicien qui lui dirait: « Il m’a semblé à chaque
 instant, en entendant votre musique pour la première fois,
@@ -1047,61 +693,37 @@ il est impossible que le public comprenne une œuvre nouvelle,
 ait compris quelque chose, puisqu’il s’anime, s’émeut, s’en-
 thousiasme même. C’est exceptionnel, mais cela arrive parfois,
 malgré tout. Il est vrai que ce phénomène est plus fréquent
-lorsqu’il s’agit d’œuvres musicales reposant sur un texte litté-]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003258_026.tif"/>
-<page><![CDATA[FN
+lorsqu’il s’agit d’œuvres musicales reposant sur un texte litté-
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003258_026.tif'/>
+        <page>
+          <![CDATA[FN
 IN
-
- 
-
 mu€S mPErgUES
-
 toujours fidèle à sa tradition
 de ‘“Leading Hotel'’ de Genève
-
 (—
-
 SES SALONS
-
 uniques pour réceptions et banquets
 SON BAR
 distingué
-
 L’AMPHITRYON
-
 le rendez-vous des gourmets
-
 S E E S S OE CN A SRE
-
- 
-
- 
-
- 
-
-   
-
 1 PORT ON DE LR OM /" GE
-
 PETIT-NÈGRE
-
 DONNE 3 GROSSES. TARTINES
-
- 
-
- 
-
- 
-
 |
-
 _t
-
 s}
 ; 96 00
-tn]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003258_027.tif"/>
-<page><![CDATA[raire, que ce texte soit chanté ou qu’il serve simplement d’argu-
+tn
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003258_027.tif'/>
+        <page>
+          <![CDATA[raire, que ce texte soit chanté ou qu’il serve simplement d’argu-
 ment à un développement symphonique. Cela s’explique fort
 aisément: l’auditeur moyen, en face d’une œuvre musicale
 nouvelle, manque totalement d’association d’idées ; cette musique
@@ -1112,7 +734,6 @@ jamais entendu les « Passions » et la « Messe » en si. Je ne pense
 pas non plus que l’œuvre de Wagner aurait eu un tel retentisse-
 ment s’il avait été un pur symphoniste, ni celle de Strawinsky
 si ses premières œuvres n’avaient accompagné des ballets.
-
 A côté de la compréhension musicale proprement dite, qui
 est le fait d’un nombre restreint d’auditeurs et qui ne peut venir
 que tardivement, je suis convaincu du rôle immense joué par les
@@ -1138,44 +759,31 @@ paraissent totalement avec sa composition. C’est ainsi que
 chacun se fait une représentation, si vague soit-elle, du monde
 spirituel, inexprimable par essence, tout en sachant fort bien
 à quel point cette représentation est inadéquate.
-
 Il s’agit pour l’artiste non pas d’exprimer cette sorte de
 vision, ce pressentiment d’une réalité d’ordre spirituel: il s’agit
 de l’incarner dans une œuvre musicale. L’œuvre faite, il ne lui
 restera que des mélodies, des harmonies, bref des phénomènes
 musicaux plus ou moins réussis. La réalité spirituelle s’en
-trouve détruite. Pour l’auteur, il ne reste là qu’une œuvre de]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003258_028.tif"/>
-<page><![CDATA[DÉMÉNAGEMENTS
-
- 
-
+trouve détruite. Pour l’auteur, il ne reste là qu’une œuvre de
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003258_028.tif'/>
+        <page>
+          <![CDATA[DÉMÉNAGEMENTS
 22, rue du Mont-Blanc Tél. 2 64 47
-
- 
-
- 
-
- 
-
- 
-
 GRAND CAFÉ-RESTAURANT
 LYRIQUE
-
 [
 SA CAVE RENOMMÉE
-
 @
-
 119>01
-
-TÉLÉPHONE 4 08 00 12, Boul. du Théâtre]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003258_029.tif"/>
-<page><![CDATA[mTn
-
+TÉLÉPHONE 4 08 00 12, Boul. du Théâtre
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003258_029.tif'/>
+        <page>
+          <![CDATA[mTn
 v
-
 plus, un objet, mais un objet nouveau, ou mieux un organisme
 nouveau, si son travail a abouti, quelque chose de vivant comme
 une nouvelle plante ou un nouvel animal. Et c’est alors que se
@@ -1189,225 +797,148 @@ vision de l’œuvre encore à créer. Ce n’est que plus tard, si elle
 est d’un maître, que l’auditeur pourra y trouver la sensation de
 justesse, de clarté et d’équilibre que donne l’audition des grands
 classiques qu’il peut comprendre et suivre pas à pas, dont il
-peut apprécier la beauté.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003258_030.tif"/>
-<page><![CDATA[HELUETIA-AGCIDENTS
-
+peut apprécier la beauté.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003258_030.tif'/>
+        <page>
+          <![CDATA[HELUETIA-AGCIDENTS
 DIRECTION ROMANDE
-
 PEAGCE ÉONGEM/AÉLE, 1
-
 AGENCE GÉNÉRALE :
-
 L. CHATELAIN ET H. COLLOMB
-
-C'OORREA LU ERILE-: 7]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003258_031.tif"/>
-<page><![CDATA[CONCERT
+C'OORREA LU ERILE-: 7
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003258_031.tif'/>
+        <page>
+          <![CDATA[CONCERT
 EX TRAORDINAIRE
-
 Mercredi 14 février 1945, à 20 h. I5.
-
 VICTORIA-HALL
 7
-
 Direction :
-
 WilhelIm Furtwängler
-
 AU PROGRAMME :
-
 SYMPHONIE Nor . “… ..…. .. BEFTHOVEN
 OUVERTURE LEONORE No2 . . . BEETHOVEN
 SYMPHONIE N° 2,enré majeur . . Branms
-
 LOCATION — Souscripteurs :
-
 À partir du lundi 5 février à 10 heures jusqu’au
 mercredi à 18 heures
-
 et jeudi dès 9 heures pour le public.
-
- 
-
 PRIX ORDINAIRE des places : de Z fr. SO à S francs.
-1SOO0 places.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003258_032.tif"/>
-<page><![CDATA[Maison du beau linge, trous-
+1SOO0 places.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003258_032.tif'/>
+        <page>
+          <![CDATA[Maison du beau linge, trous-
 seau soigné, lingerie fine, =
-
 blouses et peignoirs élégants. _ |
 ËË —
-
 \ËË '{Îî "Â\ .:
-
 q
-
 /âaæwxX…, %
-
 Grande maison de blanc fbmÎée en 1865 |
-
 3, rue du Rhône, GENÈVE |
-
- 
-
- 
-
- 
-
- 
-
 21, RUE DU STAND
 G'EN E V E
 TéL. 4.51.60
-
- 
-
 RETOUCHES CrOONS . DES SN3 3
-; L "]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003258_033.tif"/>
-<page><![CDATA[e
-
+; L "
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003258_033.tif'/>
+        <page>
+          <![CDATA[e
 1 RR t v
-
 UE RD UE,
-
 Neuvième Concert de l’abonnement :
-
- 
-
 Mercredi 21 février 1945, à 20 h. I5
-
 GRAND-THÉATRE
-
 $ —
-
 Direction :
-
 Ernest ANSERMET
-
 Soliste :
-
 Dinu LIPATTI
-
 pianiste
-
 L d
-
 AU PROGRAMME :
-
-Schubert - Liszt - Frank Martin - Debussy]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003258_034.tif"/>
-<page><![CDATA[GRAND-THÉATRE DE GENÈVE
+Schubert - Liszt - Frank Martin - Debussy
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003258_034.tif'/>
+        <page>
+          <![CDATA[GRAND-THÉATRE DE GENÈVE
 SOCIÉTÉ ROMANDE DE SPECTACLES
-
 PRAFE pPr pre pn N pn Ps
-
 Saison 1944/1945 II© année
-
 Vendredi o jévrier 1945
-
 en soirée à 20 h. 30
 SPECTACLE DE GALA
 CRÉATION A GENÈVE :
-
 LES
-
 TRÉTEAUX ps M* PIERRE
-
 D'APRÈS CERVANTES — MUSIQUE DE MANUEL DE FALLA
-
 L’HISTOIRE npuv SOLDAT
-
 Lue, chantée et dansée.
 POÈME DE C.-F. RAMUZ — MUSIQUE DE IGOR STRAVINSKY
-
 Orchestre de la Suisse Romande, dir.: Ernest ANSERMET
-
- 
-
- 
-
- 
-
 Samedi 17 février 1945
-
 en soirée à 20 h. 30
-
 Dimanche 18 février 1945
-
 en matinée à 14 h. 30
-
 HÆNSEL ET GRÉTEL
-
 CONTE LYRIQUE EN 3 ACTES D’'HUMPERDINCK
-
 L’APRÈS-MIDI D’UN FAUNE
-
 DE CLAUDE DEBUSSY
 Dansé par Willy FLA Y
-
 LA VALSE
-
 DE MAURICE RAVEL
 Dansée par Delly et Willy FLAY et le Corps de Ballet
-Orchestre de la Suisse Romande, direction : Richard BECK]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003258_035.tif"/>
-<page><![CDATA[Caisse hypothécaire
-
+Orchestre de la Suisse Romande, direction : Richard BECK
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003258_035.tif'/>
+        <page>
+          <![CDATA[Caisse hypothécaire
 du Canton de Genève
-
 Instituée par la Constitution de 1847
-
 Molard, 2
-
 Prêts et crédits hypothécaires
 Certificats de dépôt
-
-Livrets d’épargne]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f003258_036.tif"/>
-<page><![CDATA[GRAND NOM
-
+Livrets d’épargne
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f003258_036.tif'/>
+        <page>
+          <![CDATA[GRAND NOM
 DANS
 LA MUSIQUE
-
 OVEN
 UN
-
 G5
 7
 e
-
 \
-
 e
 Ra
 t
 es
-
 NORLOGERIE
-
 VACHERON
-
 p
 CONSTANTIN
-
 ?
-
 *
-
 À GFHÈVE DEPUIS 1768
-
 G 4 N
-
 …
-
 7 …..…\o.
 L _.…\_. ÎJ
-
 i
 A
-
 S
 N S
 w =
@@ -1428,9 +959,10 @@ u\ .H\ VN
 4 10G
 / 12
 A .\ -
-
-UN GRAND NOM DANS L]]></page>       
-        </p>
+UN GRAND NOM DANS L
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

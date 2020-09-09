@@ -1,139 +1,120 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Premier concert classique<date when="14/11/1885"/></title>
-<series>1885-1886</series>
-<placeName>Grand Théâtre</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Premier concert classique
+            <date when='14/11/1885'/>
+          </title>
+          <series>1885-1886</series>
+          <placeName>Genève, Grand Théâtre</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VG2-1 F002103</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Bergalonne, F. (dir)</note>
+        <note>Interprète incertain</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18851114"/>
-<title>Premier concert classique</title>
-<placeName key="Grand Théâtre"/>
-<name key="1885-1886" type="series"/>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Soler, Pedro" ref="https://muscat.rism.info/admin/people/30013924" type="person" role="cmp">Soler, Pedro</name>
-<name key="Adler, Ernest"  type="person" role="cmp">Adler, Ernest</name>
-<name key="Schubert, Carl" ref="https://muscat.rism.info/admin/people/30015555" type="person" role="cmp">Schubert, Carl</name>
-<name key="Bizet, Georges" ref="https://muscat.rism.info/admin/people/20057" type="person" role="cmp">Bizet, Georges</name>
-<name key="Servais, Adrien-François" ref="https://muscat.rism.info/admin/people/147751" type="person" role="cmp">Servais, Adrien-François</name>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Bergalonne, F. (dir.)"  type="person" role="int">Bergalonne, F. (dir.)</name>
-<name key="[Orchestre de la Ville de Genève ?]"  type="person" role="int">[Orchestre de la Ville de Genève ?]</name>
-<name key="Oudshoorn, A."  type="person" role="int">Oudshoorn, A.</name>
-<name key="Weiss, A."  type="person" role="int">Weiss, A.</name>
-<name key="Valdéjo"  type="person" role="int">Valdéjo</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vg2_1_f002103_001.tif"/>
-<page><![CDATA[GRAND THÉATRE DE GENÈVE
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18851114'/>
+        <title>Premier concert classique</title>
+        <placeName key='Genève, Grand Théâtre'/>
+        <name key='1885-1886' type='series'/>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Soler, Pedro' ref='https://muscat.rism.info/admin/people/30013924' type='person' role='cmp'>Soler, Pedro</name>
+        <name key='Adler, Ernest' type='person' role='cmp'>Adler, Ernest</name>
+        <name key='Schubert, Carl' ref='https://muscat.rism.info/admin/people/30015555' type='person' role='cmp'>Schubert, Carl</name>
+        <name key='Bizet, Georges' ref='https://muscat.rism.info/admin/people/20057' type='person' role='cmp'>Bizet, Georges</name>
+        <name key='Servais, Adrien-François' ref='https://muscat.rism.info/admin/people/147751' type='person' role='cmp'>Servais, Adrien-François</name>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Bergalonne, F.' type='person' role='int'>Bergalonne, F.</name>
+        <name key='Orchestre de la Ville de Genève' type='person' role='int'>Orchestre de la Ville de Genève</name>
+        <name key='Oudshoorn, A.' type='person' role='int'>Oudshoorn, A.</name>
+        <name key='Weiss, A.' type='person' role='int'>Weiss, A.</name>
+        <name key='Valdéjo' type='person' role='int'>Valdéjo</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vg2_1_f002103_001.tif'/>
+        <page>
+          <![CDATA[GRAND THÉATRE DE GENÈVE
 Samedi 14 Novembre 1885, à 8 heures précises,
-
 PREMIER CONCERT CLASSIQUE
-
 AVEC LE CONCOURS DE
-
 M A. OUDSIIOOHKIN
-
 Violoncelliste solo des Concerts Colonne
-
 ET DE
-
 M. A WEISS
-
 Hautbois solo. --- Premier Prix du Conservatoire de Paris.
-
 L’O£‘chestre sera dirigé par M. F. BERGALONNE.
-
- 
-
 Le Piano x\’accomv13nemeu\ sera tenu \‘\° M. VALDÉIO.
-
 PROCRAMME: —
-
 PREMIÈRE PARTIE
-
 Symphonie héroïque,. . q - 110 5= Pecthouen
-
 A) Allegro. - 8) Adagio (Marche funob10) - C) AH(…10 vivace (%1101/0) - p) Allegro molto (Final).
-
 Souvenir de Madrid, Fantaisie pour Hautbois solo, . . << = Pédro Soler
 par M. WEISS (1er Prix du Conservatoire de Paris).
-
 DEUXIÈME PARTIE
-
 Almée et Odalisque, Mélopée orientale pour Orchestre, . - . — Ernest Alder
-
 P . . . … . . —. - Garl Schubert
-
 B) Rhapsodie hongroise, . . 10e 1E
 Exécutées par M. A. OUDSHOORN
-
 Suite d’Orchestre (Jeux d'Enfants), . . - 1 GABRZEL
-
 A) Berceuse (la Poupée). - 8) Impromptu (la Toupie). - €) I)uo (Pct1t \L… Pct1to Femme).
-
 A) Prière, )
-
 B) O cara mémoria, |
-
 Exécutées par M. A. OUDSHOORN, avec accompagnement d’Orchestre.
-
 ……s s1 r e e Wagner
-
 . … Servais
-
 AVIS. — On est instamment prié de ne pas entrer pendant l’exécution des morceaux.
 — —2 SS S s——
-
 Prix des places restant en dehors des abonnements : Parterre, 2 fr., location, 2 fr. 50 (sous réserve d’ au'rmontallon de la location, dans des
 circonstances spéciales. — Parterre debout, 2 fr. — Strapontins 1 Galerie, # fr. — Loges de face, 2"° Galerie, 2 fr., location, 2 fr. 50. —
 Loges de côté, 2 Galerie, 4 fr. 25., location, 1 fr. 50. — Stalles numérotées, 31N° (nlcuc 4 fr. 50., location, 4 fr. 60. — Avant-scène, as
 Galerie, 1 fr. 50., location, 4 fr. 60. — Galerie, 5"°, 75 c, lomtmu, 85 c. — Le Bureau de lec.xhon pour les-Concerts, comme pour les
 Représentations, est ouvert au Théâtre, tous les jours de 14 h. à 4 heures.
-
 Les personnes qui s’inté reascnt à la musique et au succès de ces Concerts, peuvent verser leurs souscriptions volontaires à M, Goy, Banque
 L. Lullin, 2, rue Abauzit, ou à M. OurvAry, chargé des abonnements, au bureau de location du Théâtre.
-
 Samedi 28 Novembre, 2"° Concert Classique avec le concours de M. Frit, BLUMER, Pianiste.
-
- 
-
-Genève. — Imprimerie L-F. Jarrys.]]></page>       
-        </p>
+Genève. — Imprimerie L-F. Jarrys.
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

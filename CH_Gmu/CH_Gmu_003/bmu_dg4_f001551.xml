@@ -1,75 +1,79 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert donné par l'Harmonie nautique<date when="22/02/1891"/></title>
-<series>1890-1891</series>
-<placeName>Bâtiment électoral</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert donné par l'Harmonie nautique
+            <date when='22/02/1891'/>
+          </title>
+          <series>1890-1891</series>
+          <placeName>Genève, Bâtiment électoral</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU DG4 F001551</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Bonade, L. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18910222"/>
-<title>Concert donné par l'Harmonie nautique</title>
-<placeName key="Bâtiment électoral"/>
-<name key="1890-1891" type="series"/>
-<name key="Sellenick"  type="person" role="cmp">Sellenick</name>
-<name key="Perck, B. van"  type="person" role="cmp">Perck, B. van</name>
-<name key="Genin"  type="person" role="cmp">Genin</name>
-<name key="Meyerbeer, Giacomo" ref="https://muscat.rism.info/admin/people/725" type="person" role="cmp">Meyerbeer, Giacomo</name>
-<name key="Concone, Giuseppe" ref="https://muscat.rism.info/admin/people/30005359" type="person" role="cmp">Concone, Giuseppe</name>
-<name key="Rossini, Gioachino" ref="https://muscat.rism.info/admin/people/63766" type="person" role="cmp">Rossini, Gioachino</name>
-<name key="Bonade, Louis (dir.)"  type="person" role="int">Bonade, Louis (dir.)</name>
-<name key="Harmonie nautique de Genève"  type="person" role="int">Harmonie nautique de Genève</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f001551_001.tif"/>
-<page><![CDATA[BATIMEN ELECTORAL
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18910222'/>
+        <title>Concert donné par l'Harmonie nautique</title>
+        <placeName key='Genève, Bâtiment électoral'/>
+        <name key='1890-1891' type='series'/>
+        <name key='Sellenick' type='person' role='cmp'>Sellenick</name>
+        <name key='Perck, B. van' type='person' role='cmp'>Perck, B. van</name>
+        <name key='Genin' type='person' role='cmp'>Genin</name>
+        <name key='Meyerbeer, Giacomo' ref='https://muscat.rism.info/admin/people/725' type='person' role='cmp'>Meyerbeer, Giacomo</name>
+        <name key='Concone, Giuseppe' ref='https://muscat.rism.info/admin/people/30005359' type='person' role='cmp'>Concone, Giuseppe</name>
+        <name key='Rossini, Gioachino' ref='https://muscat.rism.info/admin/people/63766' type='person' role='cmp'>Rossini, Gioachino</name>
+        <name key='Bonade, Louis' type='person' role='int'>Bonade, Louis</name>
+        <name key='Harmonie nautique de Genève' type='person' role='int'>Harmonie nautique de Genève</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f001551_001.tif'/>
+        <page>
+          <![CDATA[BATIMEN ELECTORAL
 ; ‘_'D_IZIÎAÂ\YCHE 22 FÉ VRIER 1891, à 2 heures et demie.
-
 4\
-
 DON"ÏE PAR
-
 LHARMÛNEE NAUTIQUE DE GENÈVE
-
 = “ SOUS ]A DIRECTION DE
-
 M. LOUÇES BONADE
-
- 
-
 YRSEHINMME à
 PPEMIERE PARTIE
 Selleniel.
@@ -77,42 +81,30 @@ Selleniel.
 _ Nautique B. van Perck,
 301 pleut, bergère!... variations p' petite flûte .. Genin.
 4. Fantaisie sur Manon …. Massenet.
-
 Marche de Schiller ... Meyerbeer.
 . Gavotte sur des airs favoris de Marie Leczinska. ***
-
 , ; . |
 . Grand air de Judith, solo pour piston . Concone. |
-
 4 ; Ouverture_dç Guillaume Tell (redemandée) .. Rossini.
-
 CEOE
 : 7
-
 PRIX D'ENTRÉE : 50 CENTIMES. — RÉSERVÉES : 1 FRANC.
-
- 
-
 |
 |
 |
 À
 —S Y
-
 VuATAZ, droguiste, à Coutance, M"* Pouzer, oplicien, rue du Mont- Blance, et M'e SrALET,
-
 Ëpeut se procurer des bille(s à l’av anc e chez M"* Frey & C?, magasin dé musique, Corraterie;
 pcÿî‘<ær10, route de Caxouge ŒT
-
 s\
-
 M ]es, membre_s non exécntants sont priés de se“munir de leurs cartes de sociétaires. w
-
 LA SALLE SERA CHAUFFÉE
-
 -—-———————_____ L Ë D a e n 0E. 464
-Impr. U ,_[….,.y{\._ lf%4ÿ}9 ; Q %]]></page>       
-        </p>
+Impr. U ,_[….,.y{\._ lf%4ÿ}9 ; Q %
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

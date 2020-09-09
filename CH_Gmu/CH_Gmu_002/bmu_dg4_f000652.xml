@@ -1,93 +1,99 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Trois concerts du Quatuor Florentin de M. Jean Becker<date when="04/11/1872"/></title>
-<series>1872-1873</series>
-<placeName>Casino [de Saint-Pierre?]</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Trois concerts du Quatuor Florentin de M. Jean Becker
+            <date when='04/11/1872'/>
+          </title>
+          <series>1872-1873</series>
+          <placeName>Genève, Casino de Saint-Pierre</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU DG4 F000652</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Lieu incertain</note>
+        <note>Date présumée</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18721104
-18721111"/>
-<title>Trois concerts du Quatuor Florentin de M. Jean Becker</title>
-<placeName key="Casino [de Saint-Pierre?]"/>
-<name key="1872-1873" type="series"/>
-<name key="Haydn, Joseph" ref="https://muscat.rism.info/admin/people/55803" type="person" role="cmp">Haydn, Joseph</name>
-<name key="Rubinštejn, Anton Grigor'evič" ref="https://muscat.rism.info/admin/people/30008504" type="person" role="cmp">Rubinštejn, Anton Grigor'evič</name>
-<name key="Cherubini, Luigi" ref="https://muscat.rism.info/admin/people/50253" type="person" role="cmp">Cherubini, Luigi</name>
-<name key="Beethoven, Ludwig van" ref="https://muscat.rism.info/admin/people/11035" type="person" role="cmp">Beethoven, Ludwig van</name>
-<name key="Mozart, Wolfgang Amadeus" ref="https://muscat.rism.info/admin/people/115324" type="person" role="cmp">Mozart, Wolfgang Amadeus</name>
-<name key="Mendelssohn Bartholdy, Felix" ref="https://muscat.rism.info/admin/people/88790" type="person" role="cmp">Mendelssohn Bartholdy, Felix</name>
-<name key="Schumann, Robert" ref="https://muscat.rism.info/admin/people/131206" type="person" role="cmp">Schumann, Robert</name>
-<name key="Gotthard"  type="person" role="cmp">Gotthard</name>
-<name key="Florentiner Streichquartett" ref="https://muscat.rism.info/admin/people/63018" type="person" role="int">Florentiner Streichquartett</name>
-<name key="Becker, Jean" ref="https://muscat.rism.info/admin/people/10513" type="person" role="int">Becker, Jean</name>
-<name key="Masi, Enrico" ref="https://muscat.rism.info/admin/people/30111498" type="person" role="int">Masi, Enrico</name>
-<name key="Chiostri, Luigi" ref="https://muscat.rism.info/admin/people/30111499" type="person" role="int">Chiostri, Luigi</name>
-<name key="Hilpert, Fr."  type="person" role="int">Hilpert, Fr.</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f000652_001.tif"/>
-<page><![CDATA[SA t} DU CASINO
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18721104'/>
+        <title>Trois concerts du Quatuor Florentin de M. Jean Becker</title>
+        <placeName key='Genève, Casino de Saint-Pierre'/>
+        <name key='1872-1873' type='series'/>
+        <name key='Haydn, Joseph' ref='https://muscat.rism.info/admin/people/55803' type='person' role='cmp'>Haydn, Joseph</name>
+        <name key='Rubinštejn, Anton Grigor&apos;evič' ref='https://muscat.rism.info/admin/people/30008504' type='person' role='cmp'>Rubinštejn, Anton Grigor'evič</name>
+        <name key='Cherubini, Luigi' ref='https://muscat.rism.info/admin/people/50253' type='person' role='cmp'>Cherubini, Luigi</name>
+        <name key='Beethoven, Ludwig van' ref='https://muscat.rism.info/admin/people/11035' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Mozart, Wolfgang Amadeus' ref='https://muscat.rism.info/admin/people/115324' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Mendelssohn Bartholdy, Felix' ref='https://muscat.rism.info/admin/people/88790' type='person' role='cmp'>Mendelssohn Bartholdy, Felix</name>
+        <name key='Schumann, Robert' ref='https://muscat.rism.info/admin/people/131206' type='person' role='cmp'>Schumann, Robert</name>
+        <name key='Gotthard' type='person' role='cmp'>Gotthard</name>
+        <name key='Florentiner Streichquartett' ref='https://muscat.rism.info/admin/people/63018' type='person' role='int'>Florentiner Streichquartett</name>
+        <name key='Becker, Jean' ref='https://muscat.rism.info/admin/people/10513' type='person' role='int'>Becker, Jean</name>
+        <name key='Masi, Enrico' ref='https://muscat.rism.info/admin/people/30111498' type='person' role='int'>Masi, Enrico</name>
+        <name key='Chiostri, Luigi' ref='https://muscat.rism.info/admin/people/30111499' type='person' role='int'>Chiostri, Luigi</name>
+        <name key='Hilpert, Fr.' type='person' role='int'>Hilpert, Fr.</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f000652_001.tif'/>
+        <page>
+          <![CDATA[SA t} DU CASINO
 TROIS CONCERTS
-
 QUATVOR FLORENTIN
-
 DE
-
 M. JEAN BECKER
-
 LUNDI 4, SAMEDI 9 et LUNDI 11 NOVEMBRE
-
 A $ HEURES DU SOIR
-
 Prenier  Violon.… … ; . .* ""/ "JEAN BECKER.
 Deuxième Violon . . ! . ‘. . ENRICO MASI.
-
 O— . - LUIGI CHIOSTRE
 Mioonéels %, .. .. . FR. HILPERT.
-
 Prix d’'Abonnement pour les 3 Concerts: 12 Fr.
 Bour 1 Concert: 5 Fr.
-
 Pour les Programmes et les Billets d’entrée s’adresser aux magasins de
 musique de M"° Frey, Grand’rue 23; de M. Rorscuy, Corraterie 22
-ou au Concierge du Casino.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f000652_002.tif"/>
-<page><![CDATA[QUATUOR en ré majeur
+ou au Concierge du Casino.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f000652_002.tif'/>
+        <page>
+          <![CDATA[QUATUOR en ré majeur
 Allegro,
 Andante,
 Minueltto,
@@ -100,59 +106,39 @@ Allegro,
 Allegretto scherzando.
 Minuetto.
 Finale.
-
 è
 © ©
-
 Qt =
 ©
-
- 
-
 Lundi 4 Novembre, à 8 heures du soir.
-
 PROURANNE Du 1
-
 redemandés
-
 CUNOBNT
-
 HAYDN.
-
 RUBINSTEIN.
 HAYDN.
-
 ’ CHERUBINI.
-BEETHOVEN.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f000652_003.tif"/>
-<page><![CDATA[Samedi 9 Novembre, à 8 heures du soir.
-
+BEETHOVEN.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f000652_003.tif'/>
+        <page>
+          <![CDATA[Samedi 9 Novembre, à 8 heures du soir.
 WHAMME DÛ 2" tcoNtENnT
-
 19 QUATUOR en sol majeur . . . . Mozanrt.
-
 Allegro,
-
 Minuelto,
-
 Adagio,
-
 Finale.
 20 VANTAHIONS … . — . Iavpn.
 30 CANZONF A 1 T T | MENDELSSOMN.
 4o QUATUORK enla. . . …… . . .SCHUMAN.
-
 Introduction, Allegro.
 Scherzo.
-
 Adagio,
-
 Finale.
-
 Lundi 11 Novembre, à 8 heures du soir.
-
 v'ikOtN AîŸ…ÏÏ* î… ONCHRT
-
 to QUATUOR en mi mineur . . .  MENDELSSOHN.
 Allegro,
 Schérzo.
@@ -164,16 +150,15 @@ Finale.
 Allés m
 Variations (la jeune fille etla mort).
 Scherzo,
-Pinale.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f000652_004.tif"/>
-<page><![CDATA[W
-
+Pinale.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f000652_004.tif'/>
+        <page>
+          <![CDATA[W
 VIENT DE PARAITRE CHEZ :
-
 J. B. ROTSCHY, ÉDITEUR, CORRATERIE, 22
-
 "
-
 A. RurHarpr, 24 petites études dans tous les tons maj. et min. Fr. 5. 35
 Ces études, destinées aux élèves qui ont 3 ou 4 années de Piano, ont pour
 but de familiariser ceux-ci avec tous les tons maj. et min, et dée les pré-
@@ -189,22 +174,17 @@ T petits morceaux de piano, pour la 2m et 3m° année d’étude, très-mélodie
 et bien à la portée des enfants.
 A. Ruruarpr, Polka-Caprice. Messls 75
 Cette charmante composition, réunissant l'élégant et le sérieux, sera cer-
-
 tainement bien accueillie.
-
 SOUS PRESSE :
 H. p£ SenGer, la « Genevoise, » Polka-Mazurka pour Piano.
-
 GrUNHOLZER, « Je m’en remets à Dieu, » Duo pour Mezzo soprano. Paro-
 les de J. Olivier.
-
 GENÈVE. — IMPRIMERIE J.-D. JARRYS, RUE DE LA TREILLE, 4.
-
- 
-
 0 rn
-Vn aemie]]></page>       
-        </p>
+Vn aemie
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

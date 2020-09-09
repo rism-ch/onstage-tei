@@ -1,342 +1,217 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>3me concert symphonique populaire<date when="28/12/1932"/></title>
-<series>1932-1933</series>
-<placeName>Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            3me concert symphonique populaire
+            <date when='28/12/1932'/>
+          </title>
+          <series>1932-1933</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU VH1 F002872</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Ansermet, E. (dir)</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="19321228"/>
-<title>3me concert symphonique populaire</title>
-<placeName key="Victoria Hall"/>
-<name key="1932-1933" type="series"/>
-<name key="Händel, Georg Friedrich" ref="https://muscat.rism.info/admin/people/36552" type="person" role="cmp">Händel, Georg Friedrich</name>
-<name key="Bach, Johann Sebastian" ref="https://muscat.rism.info/admin/people/2539" type="person" role="cmp">Bach, Johann Sebastian</name>
-<name key="Haydn, Joseph" ref="https://muscat.rism.info/admin/people/55803" type="person" role="cmp">Haydn, Joseph</name>
-<name key="Wagner, Richard" ref="https://muscat.rism.info/admin/people/111172" type="person" role="cmp">Wagner, Richard</name>
-<name key="Berlioz, Hector" ref="https://muscat.rism.info/admin/people/13803" type="person" role="cmp">Berlioz, Hector</name>
-<name key="Strauß, Johann" ref="https://muscat.rism.info/admin/people/132082" type="person" role="cmp">Strauß, Johann</name>
-<name key="Ansermet, Ernest  (dir.)" ref="https://muscat.rism.info/admin/people/40219507" type="person" role="int">Ansermet, Ernest  (dir.)</name>
-<name key="Orchestre de la Suisse Romande" ref="https://muscat.rism.info/admin/people/50007615" type="person" role="int">Orchestre de la Suisse Romande</name>
-<name key="Kling, Jean"  type="person" role="int">Kling, Jean</name>
-<name key="Neufeld, C."  type="person" role="int">Neufeld, C.</name>
-<name key="Breitmayer (Mlle)"  type="person" role="int">Breitmayer (Mlle)</name>
-<name key="Honegger, Henri"  type="person" role="int">Honegger, Henri</name>
-<name key="Kohler"  type="person" role="int">Kohler</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002872_001.tif"/>
-<page><![CDATA[VILLE DE
-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='19321228'/>
+        <title>3me concert symphonique populaire</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='1932-1933' type='series'/>
+        <name key='Händel, Georg Friedrich' ref='https://muscat.rism.info/admin/people/36552' type='person' role='cmp'>Händel, Georg Friedrich</name>
+        <name key='Bach, Johann Sebastian' ref='https://muscat.rism.info/admin/people/2539' type='person' role='cmp'>Bach, Johann Sebastian</name>
+        <name key='Haydn, Joseph' ref='https://muscat.rism.info/admin/people/55803' type='person' role='cmp'>Haydn, Joseph</name>
+        <name key='Wagner, Richard' ref='https://muscat.rism.info/admin/people/111172' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Berlioz, Hector' ref='https://muscat.rism.info/admin/people/13803' type='person' role='cmp'>Berlioz, Hector</name>
+        <name key='Strauß, Johann' ref='https://muscat.rism.info/admin/people/132082' type='person' role='cmp'>Strauß, Johann</name>
+        <name key='Ansermet, Ernest' ref='https://muscat.rism.info/admin/people/40219507' type='person' role='int'>Ansermet, Ernest</name>
+        <name key='Orchestre de la Suisse Romande' ref='https://muscat.rism.info/admin/people/50007615' type='person' role='int'>Orchestre de la Suisse Romande</name>
+        <name key='Kling, Jean' type='person' role='int'>Kling, Jean</name>
+        <name key='Neufeld, C.' type='person' role='int'>Neufeld, C.</name>
+        <name key='Breitmayer (Mlle)' type='person' role='int'>Breitmayer (Mlle)</name>
+        <name key='Honegger, Henri' type='person' role='int'>Honegger, Henri</name>
+        <name key='Kohler' type='person' role='int'>Kohler</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002872_001.tif'/>
+        <page>
+          <![CDATA[VILLE DE
 ——
-
- 
-
 VICTORIA-HALL Saison 1932-1933
-
 Mercredi 28 décembre 1952, à 20 b. 50
-
 J" Concert Symphonique Populaire
-
 organtsé par le Conveil Adminiotralif de la Viille de Genève
 avec le bienveillant et gracieux concours de
 9 ° ;
 L’Orchestre de la Suisse Romande
-
 sous la direction de
-
 M. Ernest ANSERMET
-
 et de
-
 M. Jean KLING
-
 = BARYTON-BASSE
-
- 
-
 Soliste des  Concerts Pasdeloup, Poulet,
 de l’Orchestre symphonique de Paris, des Concerts du Queen’s Hall de Londres
 et du Conservatoire Royal de Bruxelles, etc.
-
- 
-
 ai
-
-Lies porles seront rigoureusement fermées pendant l'exécution Jes morceaux.]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002872_002.tif"/>
-<page><![CDATA[LISEZ
-
+Lies porles seront rigoureusement fermées pendant l'exécution Jes morceaux.
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002872_002.tif'/>
+        <page>
+          <![CDATA[LISEZ
 GENÈVE MAGAZINE
-
 è B I-M EN S UE uS TR E
-
- 
-
- 
-
 il vous renseignera sur tout
-
 PROGEAMME
-
- 
-
 Première Partie
 1. CONCERTO GROSSO op. 5, en ré majeur Haendel.
 Larghetto - ‘Allegro - Presto - Largo - Allegro - Menuet.
-
 Solistes: M. C. Neurerp et Mlle Brerrmayer, violonistes.
 M. Henri HoneGGEr, violoncelliste: Cembalo : M. Kourer.
-
 t9
-
 Récit et air de la Passion selon St Mathieu J. S. Bach.
 Pour chant et orchestre, M. Jean Kurno.
-
 3 SYMPHONIE e , ensémaeur. *  Hayan
 a) Adagio, Allegro assai - b) Largo cantabile - c) Menuetto
 d) Presto ma non troppo.
-
 Deuxième Partie
-
 4. Ouverture du Vaisseau Fantôme . . . . . . Wagner.
 5. a) Romance de l’Etoile, de CTannhäuser . . Wagner.
-
 b) Sérénade de Meph15to de la Damnation de
 Faust . . . 11 # Derox
-
 Pour chant et orchestre, M _]ean KLING
-
 L'Orchestre sera dirigé par
-
 M. Erness« ANSERMET
-
 Le Melographe ? \
-
 J'en suis absolument abasourdi ! Ramener à un jeu de salon le travail
 immense et difficile des studios d’enregistrements phonographiques !
 Copier un disque ! Imprimer une audition de T.S.F. Envoyer sa voix à
 un lointain ami !!! Miracle et merci à MELORAD de m’avoir appris
-
 cette merveille à Genève
 Perchicot
 MELORAD-RADIO, 104, rue du Rhône
-
- 
-
- 
-
- 
-
 s……..c00000000000000000000»ec000000O0A000
-
- 
-
- 
-
 2occoc00nc.c0n000000000000000N000D0000000000000000000000000ennc0na.0vacseu.n2u0.00.000csenDace0 s000
-
 Exécution précédée de commentaires par M. Ernest ANSERMECT.
-
 6. WIENERBLUT, suite de valses . . . . . . Johann Strauss.
-
 °
 °
 °
 °
-
-   
-
- 
-
- 
-  
-    
-   
-  
-    
-     
-  
- 
- 
-   
-   
-  
-  
-  
-  
-  
-    
-   
-      
-
 RDU ETE e
-
 f ;
-
-r e ec]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002872_003.tif"/>
-<page><![CDATA[e e
-
-   
-
- 
-
+r e ec
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002872_003.tif'/>
+        <page>
+          <![CDATA[e e
 1
 [
 |
 |
 [
-
 R A TIS MEU
-
 M ETE S S RR e e
-
 Ts
-
-  
- 
-
 E
-
-  
-
-  
-
- 
-
 :IMPRIMERIE PE GRIVET
 5 SaU , CC TEIs Es UM R D& E Ln V AS RR VS
 â Une Maison centenaire
 â Ses travaux modernes
 Ê RU RENPIERAZA AN C RUE DE I A TRREIBEE)
-
 GEORGES-FREDERIC HAENDEL
-
 Né à Lille en 1685, mort à Londres en 1759.
-
 C’est en 1739 que Haendel écrivit ses douze concerti grossi. Il se trouvait
 alors à une époque critique de sa vie orageuse, et il allait abandonner pour
 toujours le théâtre, où il ne pouvait lutter contre la concurrence italienne pour
 se consacrer exclusivement à la composition de ses grands oratorios. Dans ses
 Concerti grossi, Haendel s’inspire de la manière italienne, de Corelli notamment.
-
 .1[s sont écrits pour un orchestre à cordes d’où se détachent en solistes quelques
-
 struments que l’on appelle le concertino.
 Le Concerto n° 5s est conçu comme une vaste ouverture, et l’œuvre entière
 semble aspirer à la grandeur décorative.
-
 JEAN-SEBASTIEN BACH
-
 Né à Eisenach en 1685, mort à Leipzig en 1750
-
 La Passion selon St-Mathieu est la première des Passions écrites par Bach.
 Bourgault-Ducoudrey l’appelait justement « le plus beau monument élevé à la
 gloire de la religion et de la musique ». Au contraire de la Passion selon St-
 Jean, où la partie récitative est encore le récitatif sec, le rôle de Jésus offre ici
 des récits d’une poignante expansion et d’une puissance extrême. Le style de
 Bach s’est clarifié pour aboutir à la création d’une œuvre essentiellement populaire.
-
 Le Récit et l’air qui font partie de notre programme portent dans la parti-
 tion les nos 28 et 29. Ils sont chantés selon la version française de Gustave Bret.
-
 FRANCOIS-JOSEPH HAYDN
 1732-1809
 On a longtemps attribué à Haydn la paternité glorieuse de la Symphonie
 Aujourd’'hui il est prouvé que cette forme de musique instrumentale est dûe à
 l’école de Mannheim dont Stamitz (1717-1757) fut le plus illustre représentant.
-
 ‘ela n’enlève rien aux mérites de Haydn, qui n’écrivit pas moins de 104 sympho-
-
 es; cet exemple de fécondité et de rapidité de création a de quoi confondre
 bien qu’il ne soit point isolé à cette époque.
 Haydn, a dit M. Ernest Ansermet, c’est tout à la fois l’art savant devenu
 sensible parce que nourri de la sève populaire, et l’art populaire fixé par Ie
 style dans une forme impérissable.
-
 D'.CIOO.................ol.l.è.l..O.C'ooolOOI..Ouo.'....i..0!.0."""0"00“'0’l..'°'..'ûnﬂ.b0l..
-
 A M O R C ÉICHÉS BOUR
-
 É INPUSTRIE
 L'E, COMMERCE
 10 RUÜE DE LA MUSE L E S A R TS
-
- 
-
- 
-
- 
-
- 
-
 oc0cec000000000000000000000
 —socnscccncecnecc0 0000000000
-
-eccoscc. CO]]></page>
-<pb facs="CH_Gmu_prg/pyr_bmu_vh1_f002872_004.tif"/>
-<page><![CDATA[66 p Î t “ La meilleure l|.essive automatique
+eccoscc. CO
+]]>
+        </page>
+        <pb facs='CH_Gmu_prg/pyr_bmu_vh1_f002872_004.tif'/>
+        <page>
+          <![CDATA[66 p Î t “ La meilleure l|.essive automatique
 er ec a Fr. ®5@ au lieu de Fr. 0.90
-
 66 Fl 66 Flocons de savon pour les tissus délicats
 OC Fr. @.5@® au lieu de Fr. 1.—
-
- 
-
-  
-  
-  
- 
-   
-
- 
-
 000.0000
-
 s000000000000 000000000000000000s0caccencnenc.00000000200002000000c0c000nn2000000000000000000000000
-
 RICHARD WAGNER
-
 Né à Leipzig en 1813, mort à Venise en 1883
-
 Le Vaisseau-fantôme fut représenté pour la première fois à Dresde en 1843.
 Voici, en abrégé, le commentaire que Wagner écrivit lui-même pour l’ouverture
 de cet ouvrage : ;
-
 « Le vaisseau maudit s'avance au milieu de la tempète; il aborde à la côte
 où son maître doit trouver la délivrance; on entend les accents pleins de pitié de —
 cette annonce du salut à laquelle le navigateur damné prêète l’oreille. Lass.'
@@ -352,17 +227,8 @@ regard d’une femme, chargé de douleur et d'une divine compassion. Devant cett
 apparition céleste le malheureux s’effondre, son vaisseau fracassé est englouti
 par la mer; mais on le voit apparaître marchant avec sa libératrice, rayonnante
 et victorieuse, au-devant d’une aube du plus sublime amour. »
-
- 
-
- 
-
- 
-
 HECTOR BERLIOZ
-
 1803-1869
-
 La Dammation de Faust fut exécutée pour la première fois, au concert, les
 6 et 20 décembre 1846, sous la direction de l’auteur. Cette œuvre, à laquelle il
 pensait depuis près de vingt années, avait été écrite au cours de ses nombreux
@@ -372,23 +238,17 @@ la contemple avec ravissement, puis il se cache. Elle entre et chante alors $
 Ballade du Roi de Thulé. Pendant ce temps, devant la maison, Méphistophélès
 rassemble ses follets, et après leur danse, destinée à charmer Marguerite, il
 chante une Sérénade « pour la perdre plus sûrement ».
-
- 
-
 0000.00.00
-
 “ Perfecta “ « “Floc“
 se vendent Fr. 0.50
 che Leclerc
-
 DROGUERIE DE LA CROIX-D'OR — 8 Rue de Rive, 8
-
 accovocosan0c0a0opsoccasasnencanec 2002000000 a0a0n. 00000000s 00c0c0cecunuens e 1n070020000C00000000
-
 000000.c00e0.00000000a000000
-
-0900000000 c0c0000000000000]]></page>       
-        </p>
+0900000000 c0c0000000000000
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>

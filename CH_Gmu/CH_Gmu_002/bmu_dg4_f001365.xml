@@ -1,161 +1,132 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>La Musicale Genève</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Florence Weber</persName>
-                    <persName>Lynn Beutler</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Fabienne Grandjean</persName>
-                    <persName>Sylvain Féjoz</persName>
-                    <date when="2020-06">2020</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gm</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>La Musicale Genève</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Florence Weber</persName>
+            <persName>Lynn Beutler</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Fabienne Grandjean</persName>
+            <persName>Sylvain Féjoz</persName>
+            <date when='2020-06'>2020</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gm</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Le droit du Seigneur<date when="19/09/1879"/></title>
-<series>1878-1879</series>
-<placeName>Plaine de Plainpalais</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Le droit du Seigneur
+            <date when='19/09/1879'/>
+          </title>
+          <series>1878-1879</series>
+          <placeName>Genève, Plaine de Plainpalais</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+          <idno>BMU DG4 F001365</idno>
+        </bibl>
       </sourceDesc>
+      <notesStmt>
+        <note>Interprète incertain</note>
+      </notesStmt>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <date when="18790919"/>
-<title>Le droit du Seigneur</title>
-<placeName key="Plaine de Plainpalais"/>
-<name key="1878-1879" type="series"/>
-<name key="Vasseur, Léon" ref="https://muscat.rism.info/admin/people/30073658" type="person" role="cmp">Vasseur, Léon</name>
-<name key="Burani, Paul"  type="person" role="cmp">Burani, Paul</name>
-<name key="Boucheron, Maxime"  type="person" role="cmp">Boucheron, Maxime</name>
-<name key="Théâtre de Bouffes parisiens"  type="person" role="int">Théâtre de Bouffes parisiens</name>
-<name key="Lyonel"  type="person" role="int">Lyonel</name>
-<name key="Grégoire (Mme)"  type="person" role="int">Grégoire (Mme)</name>
-<name key="[Grégoire ?] Baptiste"  type="person" role="int">[Grégoire ?] Baptiste</name>
-<name key="[Grégoire ?] , Joseph"  type="person" role="int">[Grégoire ?] , Joseph</name>
-<name key="Baron"  type="person" role="int">Baron</name>
-<name key="Oscar"  type="person" role="int">Oscar</name>
-<name key="Fernand"  type="person" role="int">Fernand</name>
-<name key="Esther"  type="person" role="int">Esther</name>
-<name key="Louise"  type="person" role="int">Louise</name>
-<name key="Spina (Mme)"  type="person" role="int">Spina (Mme)</name>
-<name key="Hortense (Mme)"  type="person" role="int">Hortense (Mme)</name>
-<name key="Doze (Mme)"  type="person" role="int">Doze (Mme)</name>
-<name key="Clara"  type="person" role="int">Clara</name>
-<name key="Polydor (Mme)"  type="person" role="int">Polydor (Mme)</name>
-<pb facs="CH_Gmu_prg/pyr_bmu_dg4_f001365_001.tif"/>
-<page><![CDATA[z_- e ; = 0
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <date when='18790919'/>
+        <title>Le droit du Seigneur</title>
+        <placeName key='Genève, Plaine de Plainpalais'/>
+        <name key='1878-1879' type='series'/>
+        <name key='Vasseur, Léon' ref='https://muscat.rism.info/admin/people/30073658' type='person' role='cmp'>Vasseur, Léon</name>
+        <name key='Burani, Paul' type='person' role='cmp'>Burani, Paul</name>
+        <name key='Boucheron, Maxime' type='person' role='cmp'>Boucheron, Maxime</name>
+        <name key='Théâtre de Bouffes parisiens' type='person' role='int'>Théâtre de Bouffes parisiens</name>
+        <name key='Lyonel' type='person' role='int'>Lyonel</name>
+        <name key='Grégoire (Mme)' type='person' role='int'>Grégoire (Mme)</name>
+        <name key='Grégoire  Baptiste' type='person' role='int'>Grégoire Baptiste</name>
+        <name key='Grégoire  , Joseph' type='person' role='int'>Grégoire , Joseph</name>
+        <name key='Baron' type='person' role='int'>Baron</name>
+        <name key='Oscar' type='person' role='int'>Oscar</name>
+        <name key='Fernand' type='person' role='int'>Fernand</name>
+        <name key='Esther' type='person' role='int'>Esther</name>
+        <name key='Louise' type='person' role='int'>Louise</name>
+        <name key='Spina (Mme)' type='person' role='int'>Spina (Mme)</name>
+        <name key='Hortense (Mme)' type='person' role='int'>Hortense (Mme)</name>
+        <name key='Doze (Mme)' type='person' role='int'>Doze (Mme)</name>
+        <name key='Clara' type='person' role='int'>Clara</name>
+        <name key='Polydor (Mme)' type='person' role='int'>Polydor (Mme)</name>
+        <pb facs='CH_Gmu_prg/pyr_bmu_dg4_f001365_001.tif'/>
+        <page>
+          <![CDATA[z_- e ; = 0
 LAINE DE PLAINPALAIS 5 ;
-
 rep) — Direction de Mme veuve GREGOIRE | 5
-
 4
-
 cES PARISIENS —
-
- 
-
- 
-
 ; 1äujourd’hui Vendredi 49 Sepiembre 1879
-
 DEUXIÈME REPRÉSENTATION DE
-
 “ LE DROIT
-
 MD U
-
 par MM. Paul BURANI et Maxime BOUCHERON,
 musique de NF. LÉON VASSEUR
-
- 
-
 .
 4
-
 CR
-
 AELXRŒUIE
-
 =
 A
-
 Distribution : Le Duc, MM. LyonEL.— Le Baron, BAPTISTE. — Bibolais,
 JosgPH. — Le Capitaine Berzélius, BARON. — Antoine, OscAR. — Un ser-
 gent, FERNAND. — Lucinetie, Miles ESTHER. — Calinou, Louise. — La
 Baronne SPINA. — Jehan, page, HoRTENSE. — Guduie, DozEe. — Cuné-
-
 gonde, GLARA. — Yvonne, PoLYDoR. — Pages, Gardes, Dames du château.
 Paysans, Paysannes. ’
-
- 
-
 )
-
 G=
-
 La scéne se passe en 16
-
 Ouverture des bureaux à 7 h. 3:4 — On commencera à 8 heures 14
-
- 
-
- 
-
 S
-
 Au premier jour, bénéfice de RE. JO&STRE
-
- 
-
- 
-
 PRIX DES PLACES :
 Loges d'avant-scène, 20 fr. (en location 21 fr,) — Loges de face, [5 fr.
 — Fauteuils d’orchestre, 3 {r. (en location 3 fr. 50 c,) — Premières,
 tion 3 fr.) — Stalles numérotées, 2 fr. (en location 2 fr.
 Deuxième galerie, ! fr, — Troisième galeric 59 centimes,
-
 ,în ;
 Le Bureau de location est ouvert tous les jours de 11 he du matin à 4 h. après-midi. :;9\—3.
 PE
 R ; 5
-
 (en location 16 fr,)
 2 f[r. 50 c, (en loca-
 90 c.) — Parterre, ! fr. 25 c. —
-
- 
-
 { %/Ôo :â ;
-
 r
 S
 »
-
 5
-=.]]></page>       
-        </p>
+=.
+]]>
+        </page>
+      </p>
     </body>
   </text>
 </TEI>
