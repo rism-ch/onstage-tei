@@ -1,89 +1,97 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>HEMU Conservatoire de Lausanne - Programme de concert</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Paolo Boschetti</persName>
-                    <persName>Laurent Pugin</persName>
-                    <persName>Violeta Struijk van Bergen</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <date when="2012-11">Novembre 2012</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_lac</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>HEMU Conservatoire de Lausanne - Programme de concert</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Paolo Boschetti</persName>
+            <persName>Laurent Pugin</persName>
+            <persName>Violeta Struijk van Bergen</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <date when='2012-11'>Novembre 2012</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_lac</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Audition d'élèves du Conservatoire de Lausanne: Classes élémentaires, primaires et secondaires <date when="19340607">07 juin 1934</date></title>
-<series>Auditions</series>
-<placeName>Maison du Peuple, Grande salle</placeName>
-<orgName role="holding">Bibliothèque HEMU-CL;<link target="http://biblio.hemu-cl.ch"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Audition d'élèves du Conservatoire de Lausanne: Classes élémentaires, primaires et secondaires 
+            <date when='19340607'>07 juin 1934</date>
+          </title>
+          <series>Auditions</series>
+          <placeName>Maison du Peuple, Grande salle</placeName>
+          <orgName role='holding'>
+            Bibliothèque HEMU-CL;
+            <link target='http://biblio.hemu-cl.ch'/>
+          </orgName>
+        </bibl>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <pb facs="LAc_prg/CH_LAc_prg_dates/pyr_CH_LAc_prg_dates-0134.tif"/>
-<date when="19340607"/>
-<name key="Beethoven, Ludwig van" type="person" role="cmp">Beethoven</name>
-<name key="Schumann, Robert" type="person" role="cmp">Schumann</name>
-<name key="Gade, Niels Wilhelm" type="person" role="cmp">Gade</name>
-<name key="Jensen, Adolf" type="person" role="cmp">Jensen</name>
-<name key="Fitzenhagen, Wilhelm" type="person" role="cmp">Fitzenhagen</name>
-<name key="Leclair, Jean-Marie" type="person" role="cmp">Leclair</name>
-<name key="Schubert, Franz" type="person" role="cmp">Schubert</name>
-<name key="Heller, Stephen" type="person" role="cmp">Heller</name>
-<name key="Tartini, Giuseppe" type="person" role="cmp">Tartini</name>
-<name key="Scharwenka" type="person" role="cmp">Scharwenka</name>
-<name key="Mozart, Wolfgang Amadeus" type="person" role="cmp">Mozart</name>
-<name key="Ravizé, Angèle" type="person" role="cmp">Ravizé</name>
-<name key="Boller, Carlo" type="person" role="cmp">Boller, Carlo</name>
-<name key="Bréval, Jean-Baptiste Sébastien" type="person" role="cmp">Bréval</name>
-<name key="Cui, Cezar' Antonovič" type="person" role="cmp">Cui, César</name>
-<name key="Lalo, Edouard" type="person" role="cmp">Lalo</name>
-<name key="Frommelt, Richard" type="person" role="cmp">Frommelt</name>
-<name key="Molière" type="person" role="var">Molière</name>
-<name key="Montéclair, Michel Pignolet de" type="person" role="cmp">Monteclair</name>
-<name key="Debussy, Claude" type="person" role="cmp">Debussy</name>
-<name key="Ibert, Jacques" type="person" role="cmp">Ibert, J.</name>
-<name key="Dubois, Théodore" type="person" role="cmp">Dubois, Th.</name>
-<name key="Vivaldi, Antonio" type="person" role="cmp">Vivaldi</name>
-<name key="Chopin, Fryderyk" type="person" role="cmp">Chopin</name>
-<name key="Mendelssohn, Felix" type="person" role="cmp">Mendelssohn</name>
-<name key="Capt" type="person" role="prof">Capt</name>
-<name key="Rosat, Suzanne" type="person" role="prof">Rosat</name>
-<name key="Margot" type="person" role="prof">Margot</name>
-<name key="Ramel" type="person" role="prof">Ramel</name>
-<name key="Burger, Paul" type="person" role="prof">Burger</name>
-<name key="Frommelt, Richard" type="person" role="prof">Frommelt</name>
-<name key="Olivier" type="person" role="prof">Olivier</name>
-<name key="Troyon-Bläsi" type="person" role="prof">Troyon-Blaesi</name>
-<name key="Burger, Paul" type="person" role="prof">Burger</name>
-<name key="Frommelt, Richard" type="person" role="prof">Frommelt</name>
-<name key="Margot" type="person" role="prof">Margot</name>
-<name key="Appia, Edmond" type="person" role="prof">Appia</name>
-<title>Audition d'élèves du Conservatoire de Lausanne: Classes élémentaires, primaires et secondaires</title>
-<placeName key="Lausanne, Maison du Peuple, Gande salle"/>
-<name key="Auditions" type="series"/>
-<note>Piano Steinway</note>
-<page><![CDATA[﻿i
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <pb facs='LAc_prg/CH_LAc_prg_dates/pyr_CH_LAc_prg_dates-0134.tif'/>
+        <date when='19340607'/>
+        <name key='Beethoven, Ludwig van' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Schumann, Robert' type='person' role='cmp'>Schumann</name>
+        <name key='Gade, Niels Wilhelm' type='person' role='cmp'>Gade</name>
+        <name key='Jensen, Adolf' type='person' role='cmp'>Jensen</name>
+        <name key='Fitzenhagen, Wilhelm' type='person' role='cmp'>Fitzenhagen</name>
+        <name key='Leclair, Jean-Marie' type='person' role='cmp'>Leclair</name>
+        <name key='Schubert, Franz' type='person' role='cmp'>Schubert</name>
+        <name key='Heller, Stephen' type='person' role='cmp'>Heller</name>
+        <name key='Tartini, Giuseppe' type='person' role='cmp'>Tartini</name>
+        <name key='Scharwenka' type='person' role='cmp'>Scharwenka</name>
+        <name key='Mozart, Wolfgang Amadeus' type='person' role='cmp'>Mozart</name>
+        <name key='Ravizé, Angèle' type='person' role='cmp'>Ravizé</name>
+        <name key='Boller, Carlo' type='person' role='cmp'>Boller, Carlo</name>
+        <name key='Bréval, Jean-Baptiste Sébastien' type='person' role='cmp'>Bréval</name>
+        <name key='Cui, Cezar&apos; Antonovič' type='person' role='cmp'>Cui, César</name>
+        <name key='Lalo, Edouard' type='person' role='cmp'>Lalo</name>
+        <name key='Frommelt, Richard' type='person' role='cmp'>Frommelt</name>
+        <name key='Molière' type='person' role='var'>Molière</name>
+        <name key='Montéclair, Michel Pignolet de' type='person' role='cmp'>Monteclair</name>
+        <name key='Debussy, Claude' type='person' role='cmp'>Debussy</name>
+        <name key='Ibert, Jacques' type='person' role='cmp'>Ibert, Jacques</name>
+        <name key='Dubois, Théodore' type='person' role='cmp'>Dubois, Théodore</name>
+        <name key='Vivaldi, Antonio' type='person' role='cmp'>Vivaldi</name>
+        <name key='Chopin, Fryderyk Franciszek' type='person' role='cmp'>Chopin, Fryderyk Franciszek</name>
+        <name key='Mendelssohn, Felix' type='person' role='cmp'>Mendelssohn</name>
+        <name key='Capt' type='person' role='prof'>Capt</name>
+        <name key='Rosat, Suzanne' type='person' role='prof'>Rosat</name>
+        <name key='Margot' type='person' role='prof'>Margot</name>
+        <name key='Ramel' type='person' role='prof'>Ramel</name>
+        <name key='Burger, Paul' type='person' role='prof'>Burger</name>
+        <name key='Frommelt, Richard' type='person' role='prof'>Frommelt</name>
+        <name key='Olivier' type='person' role='prof'>Olivier</name>
+        <name key='Troyon-Bläsi' type='person' role='prof'>Troyon-Blaesi</name>
+        <name key='Burger, Paul' type='person' role='prof'>Burger</name>
+        <name key='Frommelt, Richard' type='person' role='prof'>Frommelt</name>
+        <name key='Margot' type='person' role='prof'>Margot</name>
+        <name key='Appia, Edmond' type='person' role='prof'>Appia</name>
+        <title>Audition d'élèves du Conservatoire de Lausanne: Classes élémentaires, primaires et secondaires</title>
+        <placeName key='Lausanne, Maison du Peuple, Grande salle'/>
+        <name key='Auditions' type='series'/>
+        <note>Piano Steinway</note>
+        <page><![CDATA[﻿i
 GRANDE SALLE DE LA MAISON Dü PEUPLE
 Jeudi 7 juin 1934, à 20 h. 30 très précises
   ÂU®iïl©N P'ÉHÉVl
@@ -186,8 +194,8 @@ PIANO DE CONCERT STEINWAY,. DE LA MAISON FOETISCH S. A.
 Ce programme sert de carte d’entrée
 91- go	**■
 ]]></page>
-<pb facs="LAc_prg/CH_LAc_prg_dates/pyr_CH_LAc_prg_dates-0135.tif"/>
-<page><![CDATA[﻿STEINWAY
+        <pb facs='LAc_prg/CH_LAc_prg_dates/pyr_CH_LAc_prg_dates-0135.tif'/>
+        <page><![CDATA[﻿STEINWAY
 & SONS
 J Appréciation!
 ,,Je ne puis comprendre
@@ -232,8 +240,7 @@ dont le plus petit, de 170 cm.
 coûte frs4450. —
  modèles de pianos droits,
  à partir de frs 2500 . —]]></page>
-       
-        </p>
+      </p>
     </body>
   </text>
 </TEI>

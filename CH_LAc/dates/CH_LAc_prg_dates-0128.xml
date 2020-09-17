@@ -1,79 +1,87 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>HEMU Conservatoire de Lausanne - Programme de concert</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Paolo Boschetti</persName>
-                    <persName>Laurent Pugin</persName>
-                    <persName>Violeta Struijk van Bergen</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <date when="2012-11">Novembre 2012</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_lac</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>HEMU Conservatoire de Lausanne - Programme de concert</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Paolo Boschetti</persName>
+            <persName>Laurent Pugin</persName>
+            <persName>Violeta Struijk van Bergen</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <date when='2012-11'>Novembre 2012</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_lac</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Neuvième audition d'élèves: Classes élémentaires, primaires et secondaires <date when="19340208">08 février 1934</date></title>
-<series>Auditions</series>
-<placeName>Conservatoire de Lausanne</placeName>
-<orgName role="holding">Bibliothèque HEMU-CL;<link target="http://biblio.hemu-cl.ch"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Neuvième audition d'élèves: Classes élémentaires, primaires et secondaires 
+            <date when='19340208'>08 février 1934</date>
+          </title>
+          <series>Auditions</series>
+          <placeName>Conservatoire de Lausanne</placeName>
+          <orgName role='holding'>
+            Bibliothèque HEMU-CL;
+            <link target='http://biblio.hemu-cl.ch'/>
+          </orgName>
+        </bibl>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <pb facs="LAc_prg/CH_LAc_prg_dates/pyr_CH_LAc_prg_dates-0128.tif"/>
-<date when="19340208"/>
-<name key="Conguerras, L." type="person" role="cmp">Conguerras, L.</name>
-<name key="Hary, J." type="person" role="cmp">Hary, J.</name>
-<name key="Zilcher, Hermann" type="person" role="cmp">Zilcher</name>
-<name key="Burgmüller, Friederich Johann Franz" type="person" role="cmp">Burgmuller</name>
-<name key="Pillonel, Roger" type="person" role="cmp">Pillonel, R.</name>
-<name key="Volkmann, Robert" type="person" role="cmp">Volkmann</name>
-<name key="Heller, Stephen" type="person" role="cmp">Heller</name>
-<name key="Parlow, J." type="person" role="cmp">Parlow, J.</name>
-<name key="Lack, Théodore" type="person" role="cmp">Lack, Th.</name>
-<name key="Gabrielli, Andrea" type="person" role="cmp">Gabrielli</name>
-<name key="Vieuxtemps, Henry" type="person" role="cmp">Vieuxtemps</name>
-<name key="Chopin, Fryderyk" type="person" role="cmp">Chopin</name>
-<name key="Mozart, Wolfgang Amadeus" type="person" role="cmp">Mozart</name>
-<name key="Beethoven, Ludwig van" type="person" role="cmp">Beethoven</name>
-<name key="Rameau, Jean-Philippe" type="person" role="cmp">Rameau</name>
-<name key="Scharwenka, Philipp" type="person" role="cmp">Scharwenka, Ph.</name>
-<name key="Chopin, Fryderyk" type="person" role="cmp">Chopin</name>
-<name key="Gade, Niels Wilhelm" type="person" role="cmp">Gade</name>
-<name key="Dubois, Théodore" type="person" role="cmp">Dubois, Th.</name>
-<name key="Capt" type="person" role="prof">Capt</name>
-<name key="Rosat, Suzanne" type="person" role="prof">Rosat</name>
-<name key="Ramel" type="person" role="prof">Ramel</name>
-<name key="Margot" type="person" role="prof">Margot</name>
-<name key="Frommelt, Richard" type="person" role="prof">Frommelt</name>
-<name key="Gilliard" type="person" role="prof">Gilliard</name>
-<name key="Olivier" type="person" role="prof">Olivier</name>
-<title>Neuvième audition d'élèves: Classes élémentaires, primaires et secondaires</title>
-<placeName key="Lausanne, Conservatoire"/>
-<name key="Auditions" type="series"/>
-<note>Piano Bluthner</note>
-<note>Ajout manuscrit "Op. 24 n°3"</note>
-<page><![CDATA[﻿CONSERVATOIRE DE LAUSANNE
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <pb facs='LAc_prg/CH_LAc_prg_dates/pyr_CH_LAc_prg_dates-0128.tif'/>
+        <date when='19340208'/>
+        <name key='Conguerras, L.' type='person' role='cmp'>Conguerras, L.</name>
+        <name key='Hary, J.' type='person' role='cmp'>Hary, J.</name>
+        <name key='Zilcher, Hermann' type='person' role='cmp'>Zilcher</name>
+        <name key='Burgmüller' type='person' role='cmp'>Burgmüller</name>
+        <name key='Pillonel, Roger' type='person' role='cmp'>Pillonel, Roger</name>
+        <name key='Volkmann, Robert' type='person' role='cmp'>Volkmann</name>
+        <name key='Heller, Stephen' type='person' role='cmp'>Heller</name>
+        <name key='Parlow, J.' type='person' role='cmp'>Parlow, J.</name>
+        <name key='Lack, Théodore' type='person' role='cmp'>Lack, Théodore</name>
+        <name key='Gabrielli, Andrea' type='person' role='cmp'>Gabrielli</name>
+        <name key='Vieuxtemps, Henry' type='person' role='cmp'>Vieuxtemps</name>
+        <name key='Chopin, Fryderyk Franciszek' type='person' role='cmp'>Chopin, Fryderyk Franciszek</name>
+        <name key='Mozart, Wolfgang Amadeus' type='person' role='cmp'>Mozart</name>
+        <name key='Beethoven, Ludwig van' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Rameau, Jean-Philippe' type='person' role='cmp'>Rameau</name>
+        <name key='Scharwenka, Philipp' type='person' role='cmp'>Scharwenka, Philipp</name>
+        <name key='Chopin, Fryderyk Franciszek' type='person' role='cmp'>Chopin, Fryderyk Franciszek</name>
+        <name key='Gade, Niels Wilhelm' type='person' role='cmp'>Gade</name>
+        <name key='Dubois, Théodore' type='person' role='cmp'>Dubois, Théodore</name>
+        <name key='Capt' type='person' role='prof'>Capt</name>
+        <name key='Rosat, Suzanne' type='person' role='prof'>Rosat</name>
+        <name key='Ramel' type='person' role='prof'>Ramel</name>
+        <name key='Margot' type='person' role='prof'>Margot</name>
+        <name key='Frommelt, Richard' type='person' role='prof'>Frommelt</name>
+        <name key='Gilliard' type='person' role='prof'>Gilliard</name>
+        <name key='Olivier' type='person' role='prof'>Olivier</name>
+        <title>Neuvième audition d'élèves: Classes élémentaires, primaires et secondaires</title>
+        <placeName key='Lausanne, Conservatoire'/>
+        <name key='Auditions' type='series'/>
+        <note>Piano Bluthner</note>
+        <note>Ajout manuscrit "Op. 24 n°3"</note>
+        <page><![CDATA[﻿CONSERVATOIRE DE LAUSANNE
 INSTITUT DE MUSIQUE
                                 DIRECTION = C. TROYON Seule Ecole de musique subventionnée par l’Etat de Vaud et la Ville de Jeudi 8 février 1934, à 20 h. 15 très précises.
 Neuvième audition d’élèves
@@ -145,8 +153,8 @@ Ce programme sert de carte d’entrée
          31*
 
 psi_ ra]]></page>
-<pb facs="LAc_prg/CH_LAc_prg_dates/pyr_CH_LAc_prg_dates-0129.tif"/>
-<page><![CDATA[﻿I
+        <pb facs='LAc_prg/CH_LAc_prg_dates/pyr_CH_LAc_prg_dates-0129.tif'/>
+        <page><![CDATA[﻿I
 $82
 PVj\SSM-»Ct
 anos
@@ -197,8 +205,7 @@ IMPORTANT
                                   A MM. les Professeurs
                                        Pour vos auditions d'élèves, causeries, conférences, etc., nous mettons gratuitement une salle (contenance 100 personnes) pianos, lutrins, etc., etc. à votre disposition. Demandez-nous de plus amples détails.
 ]]></page>
-       
-        </p>
+      </p>
     </body>
   </text>
 </TEI>

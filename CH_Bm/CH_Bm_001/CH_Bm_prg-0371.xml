@@ -1,60 +1,70 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>BASEL</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Laurent Pugin</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <date when="2016-01">Janvier 2016</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_famb</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>BASEL</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Laurent Pugin</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <date when='2016-01'>Janvier 2016</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_famb</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert<date when="19750131">31/01/1975</date></title>
-<series>Concert</series>
-<placeName>Basel, Martinskirche</placeName>
-<orgName role="holding">Archiv des Vereins Freunde alter Musik Basel; <link target="http://famb.ch/"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert
+            <date when='19750131'>31/01/1975</date>
+          </title>
+          <series>Concert</series>
+          <placeName>Basel, Martinskirche</placeName>
+          <orgName role='holding'>
+            Archiv des Vereins Freunde alter Musik Basel; 
+            <link target='http://famb.ch/'/>
+          </orgName>
+        </bibl>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <pb facs="CH_Bm_prg/pyr_CH_Bm_prg-0371.tif"/>
-<date when="19750131"/>
-<name key="Bernart de Ventadorn" type="person" role="cmp">Bernart de Ventadorn</name>
-<name key="Arnaut Daniel" type="person" role="cmp">Arnaut Daniel</name>
-<name key="Peire Vidal" type="person" role="cmp">Peire Vidal</name>
-<name key="Anonymus" type="person" role="cmp">Anonymus</name>
-<name key="Giraut de Bornelh" type="person" role="cmp">Giraut de Bornelh</name>
-<name key="Peire Cardenal" type="person" role="cmp">Peire Cardenal</name>
-<name key="Perotinus" type="person" role="cmp">Perotinus</name>
-<name key="Gillebert de Berneville" type="person" role="cmp">Gillebert de Berneville</name>
-<name key="Guiot de Dijon" type="person" role="cmp">Guiot de Dijon</name><name key="Ramm, Andrea von" type="person" role="int">Ramm, Andrea von</name>
-<name key="Levitt, Richard" type="person" role="int">Levitt, Richard</name>
-<name key="Jones, Sterling" type="person" role="int">Jones, Sterling</name>
-<name key="Binkley, Thomas" type="person" role="int">Binkley, Thomas</name><title>Concert</title>
-<placeName key="Basel, Martinskirche"/>
-<name key="Concert" type="series"/>
-<page><![CDATA[﻿FREUNDE ALTER MUSIK IN BASEL
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <pb facs='CH_Bm_prg/pyr_CH_Bm_prg-0371.tif'/>
+        <date when='19750131'/>
+        <name key='Ventadorn, Bernart de' type='person' role='cmp'>Ventadorn, Bernart de</name>
+        <name key='Daniel, Arnaut' type='person' role='cmp'>Daniel, Arnaut</name>
+        <name key='Peire Vidal' type='person' role='cmp'>Peire Vidal</name>
+        <name key='Anonymus' type='person' role='cmp'>Anonymus</name>
+        <name key='Bornelh, Giraut de' type='person' role='cmp'>Bornelh, Giraut de</name>
+        <name key='Peire Cardenal' type='person' role='cmp'>Peire Cardenal</name>
+        <name key='Perotinus' type='person' role='cmp'>Perotinus</name>
+        <name key='Berneville, Gillebert de' type='person' role='cmp'>Berneville, Gillebert de</name>
+        <name key='Guiot de Dijon' type='person' role='cmp'>Guiot de Dijon</name>
+        <name key='Ramm, Andrea von' type='person' role='int'>Ramm, Andrea von</name>
+        <name key='Levitt, Richard' type='person' role='int'>Levitt, Richard</name>
+        <name key='Jones, Sterling' type='person' role='int'>Jones, Sterling</name>
+        <name key='Binkley, Thomas' type='person' role='int'>Binkley, Thomas</name>
+        <title>Concert</title>
+        <placeName key='Basel, Martinskirche'/>
+        <name key='Concerts' type='series'/>
+        <page><![CDATA[﻿FREUNDE ALTER MUSIK IN BASEL
 3. Konzert
 MUSIK AUS DER ZEIT DER ALBIGENSERKRIEGE Freitag, den 31. Januar 197 5,
                                            20.15	Uhr, Martinskirche
@@ -77,8 +87,8 @@ wpaJti.	.
                  • CP
 STUDIO DER FRÜHEN MUSIK
 Andrea von Ramm Richard Levitt Sterling Jones Thomas Binkley]]></page>
-<pb facs="CH_Bm_prg/pyr_CH_Bm_prg-0372.tif"/>
-<page><![CDATA[﻿PROGRAMM
+        <pb facs='CH_Bm_prg/pyr_CH_Bm_prg-0372.tif'/>
+        <page><![CDATA[﻿PROGRAMM
 Die Albigenserkriege, die zwischen 1209 und 1229 den Südwesten Frankreichs verwüsteten, gehören zu jenen geschichtlichen Ereignissen, die uns heute sinnlos und unglücklich erscheinen. Das Motiv des Feldzuges war zwar religiöser Art; aber schon zeitgenössische Zeugnisse weisen darauf hin, dass auch ganz andere, viel menschlichere Beweggründe wie Neid und Streben nach Macht und Besitz bei diesem Krieg eine beträchtliche Rolle gespielt hatten.
 1209 zog nach einem Kreuzzugs-Aufruf Papst Innozenz' III. ein Ritterheer aus Nord- und Mittelfrankreich in den "Languedoc", um den Katharismus, eine als ketzerisch angesehene religiöse Bewegung, auszurotten; dabei wurde das Land von den fremden Truppen besetzt und ausgeplündert. Der Krieg dauerte bis 1229 und endete mit der Unterwerfung des Gebietes. Die dem Lande eigentümliche Kultur und mit ihr auch die okzitanische Literatur der Troubadours ging dabei unter.
 I DERNIERS FEUX D'UNE CIVILISATION QUI VA MOURIR	^
@@ -119,8 +129,8 @@ Ein typisches Liebeslied der Trouvlre-Kunst, das im Bereich der Troubadours zum 
 Guiot de Dijon	Chantar por mon coraige
 erste Hälfte 13. Jahrhundert
 Das Lied erzählt die Geschichte zweier kreuz fahrender Brüder. Beide gerieten in Syrien in Gefangenschaft, und nur einer kehrte zurück. In dem Lied wird sein Schicksal beklagt.]]></page>
-<pb facs="CH_Bm_prg/pyr_CH_Bm_prg-0373.tif"/>
-<page><![CDATA[﻿anonyffl
+        <pb facs='CH_Bm_prg/pyr_CH_Bm_prg-0373.tif'/>
+        <page><![CDATA[﻿anonyffl
 Eine zweisprachige Motette.
 Or vois - Eximium
 Giraut Riquier	Pies de tristor
@@ -129,8 +139,7 @@ Giraut ist der letzte Zeuge der Troubadour-Kultur. Da er in seiner Heimat nicht 
 anonymus	Li joliz temps d'estez
 "Je les sens les maus d'amer doucement". Ein Trouv&re-Lied im
 populären Stil.]]></page>
-       
-        </p>
+      </p>
     </body>
   </text>
 </TEI>
