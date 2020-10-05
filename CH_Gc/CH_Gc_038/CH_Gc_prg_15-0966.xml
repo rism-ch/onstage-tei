@@ -1,82 +1,90 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>HEMU Conservatoire de Genève - Programme de concert</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Paolo Boschetti</persName>
-                    <persName>Laurent Pugin</persName>
-                    <persName>Violeta Struijk van Bergen</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <date when="2016-01">Janvier 2016</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gc</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>HEMU Conservatoire de Genève - Programme de concert</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Paolo Boschetti</persName>
+            <persName>Laurent Pugin</persName>
+            <persName>Violeta Struijk van Bergen</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <date when='2016-01'>Janvier 2016</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gc</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title><date when="19300613">13/06/1930</date></title>
-<series>None</series>
-<placeName>Genève, Union chrétienne de jeunes gens</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            <date when='19300613'>13/06/1930</date>
+            [sans titre]
+          </title>
+          <series>None</series>
+          <placeName>Genève, Union chrétienne de jeunes gens</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+        </bibl>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <pb facs="Gc_prg/CH_Gc_prg_15/pyr_CH_Gc_prg_15-0966.tif"/>
-<date when="19300613"/>
-<name key="Daquin, Louis-Claude" type="person" role="cmp">Daquin, Claude</name>
-<name key="Bach, Johann Sebastian" type="person" role="cmp">Johann Sebastian Bach</name>
-<name key="Liszt, Franz" type="person" role="cmp">Liszt, Franz</name>
-<name key="Händel, Georg Friedrich" type="person" role="cmp">Georg Friedrich Händel</name>
-<name key="Geminiani, Francesco" type="person" role="cmp">Geminiani, Francesco</name>
-<name key="Vieuxtemps, Henri" type="person" role="cmp">Vieuxtemps, Henri</name>
-<name key="Rode, Pierre" type="person" role="cmp">Rode, Pierre</name>
-<name key="Thibaud, Jacques" type="person" role="cmp">Thibaud, Jacques</name>
-<name key="Wieniawski, Henryk" type="person" role="cmp">Wieniawski, Henryk</name>
-<name key="Leclair, Jean-Marie" type="person" role="cmp">Leclair, Jean-Marie</name>
-<name key="Lalo, Edouard" type="person" role="cmp">Lalo, Edouard</name>
-<name key="Paganini, Nicolò" type="person" role="cmp">Paganini, Niccolò</name>
-<name key="Kreisler, Fritz" type="person" role="cmp">Kreisler, Fritz</name>
-<name key="Saint-Saëns, Camille" type="person" role="cmp">Saint-Saëns, Camille</name>
-<name key="Somis, Giovanni Battista" type="person" role="cmp">Giovanni Battista Somis</name>
-<name key="Falla, Manuel de" type="person" role="cmp">Manuel de Falla</name>
-<name key="Weber, Carl Maria von" type="person" role="cmp">Carl Maria von Weber</name>
-<name key="Aumont, Frédéric" type="person" role="cmp">Aumont, Frédéric</name>
-<name key="Busser, Henri" type="person" role="cmp">Busser, Henri</name>
-<name key="Indy, Vincent d'" type="person" role="cmp">d'Indy, Vincent</name>
-<name key="Mozart, Wolfgang Amadeus" type="person" role="cmp">Wolfgang Amadeus Mozart</name>
-<name key="Beethoven, Ludwig van" type="person" role="cmp">Ludwig van Beethoven</name>
-<name key="Mendelssohn Bartholdy, Felix" type="person" role="cmp">Felix Mendelssohn Bartholdy</name>
-<name key="Grieg, Edvard" type="person" role="cmp">Grieg, Edvard</name>
-<name key="Franck, César" type="person" role="cmp">Franck, César</name>
-<name key="Brahms, Johannes" type="person" role="cmp">Brahms, Johannes</name>
-<name key="Galuppi, Baldassare" type="person" role="cmp">Galuppi, Baldassare</name>
-<name key="Scarlatti, Domenico" type="person" role="cmp">Scarlatti, Domenico</name>
-<name key="Fauré, Gabriel" type="person" role="cmp">Fauré, Gabriel</name>
-<name key="Liszt, Franz" type="person" role="cmp">Liszt, Franz</name>
-<name key="Ravel, Maurice" type="person" role="cmp">Ravel, Maurice</name>
-<name key="Schumann, Robert" type="person" role="cmp">Schumann, Robert</name><title/>
-<placeName key="Genève, Union chrétienne de jeunes gens"/>
-<name key="None" type="series"/>
-<page><![CDATA[﻿  UNION CHRÉTIENNE DE JEUNES G E N 5
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <pb facs='Gc_prg/CH_Gc_prg_15/pyr_CH_Gc_prg_15-0966.tif'/>
+        <date when='19300613'/>
+        <name key='Daquin, Louis-Claude' type='person' role='cmp'>Daquin, Louis-Claude</name>
+        <name key='Bach, Johann Sebastian' type='person' role='cmp'>Bach, Johann Sebastian</name>
+        <name key='Liszt, Franz' type='person' role='cmp'>Liszt, Franz</name>
+        <name key='Händel, Georg Friedrich' type='person' role='cmp'>Händel, Georg Friedrich</name>
+        <name key='Geminiani, Francesco' type='person' role='cmp'>Geminiani, Francesco</name>
+        <name key='Vieuxtemps, Henri' type='person' role='cmp'>Vieuxtemps, Henri</name>
+        <name key='Rode, Pierre' type='person' role='cmp'>Rode, Pierre</name>
+        <name key='Thibaud, Jacques' type='person' role='cmp'>Thibaud, Jacques</name>
+        <name key='Wieniawski, Henryk' type='person' role='cmp'>Wieniawski, Henryk</name>
+        <name key='Leclair, Jean-Marie' type='person' role='cmp'>Leclair, Jean-Marie</name>
+        <name key='Lalo, Edouard' type='person' role='cmp'>Lalo, Edouard</name>
+        <name key='Paganini, Nicolò' type='person' role='cmp'>Paganini, Nicolò</name>
+        <name key='Kreisler, Fritz' type='person' role='cmp'>Kreisler, Fritz</name>
+        <name key='Saint-Saëns, Camille' type='person' role='cmp'>Saint-Saëns, Camille</name>
+        <name key='Somis, Giovanni Battista' type='person' role='cmp'>Somis, Giovanni Battista</name>
+        <name key='Falla, Manuel de' type='person' role='cmp'>Falla, Manuel de</name>
+        <name key='Weber, Carl Maria von' type='person' role='cmp'>Weber, Carl Maria von</name>
+        <name key='Aumont, Frédéric' type='person' role='cmp'>Aumont, Frédéric</name>
+        <name key='Busser, Henri' type='person' role='cmp'>Busser, Henri</name>
+        <name key='Indy, Vincent d&apos;' type='person' role='cmp'>Indy, Vincent d&apos;</name>
+        <name key='Mozart, Wolfgang Amadeus' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Beethoven, Ludwig van' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Mendelssohn Bartholdy, Felix' type='person' role='cmp'>Mendelssohn Bartholdy, Felix</name>
+        <name key='Grieg, Edvard' type='person' role='cmp'>Grieg, Edvard</name>
+        <name key='Franck, César' type='person' role='cmp'>Franck, César</name>
+        <name key='Brahms, Johannes' type='person' role='cmp'>Brahms, Johannes</name>
+        <name key='Galuppi, Baldassare' type='person' role='cmp'>Galuppi, Baldassare</name>
+        <name key='Scarlatti, Domenico' type='person' role='cmp'>Scarlatti, Domenico</name>
+        <name key='Fauré, Gabriel' type='person' role='cmp'>Fauré, Gabriel</name>
+        <name key='Liszt, Franz' type='person' role='cmp'>Liszt, Franz</name>
+        <name key='Ravel, Maurice' type='person' role='cmp'>Ravel, Maurice</name>
+        <name key='Schumann, Robert' type='person' role='cmp'>Schumann, Robert</name>
+        <title/>
+        <placeName key='Genève, Union chrétienne de jeunes gens'/>
+        <page><![CDATA[﻿  UNION CHRÉTIENNE DE JEUNES G E N 5
                             3,	RUE GÉNÉRAL DUFOUR, 3
                       Vendredi i3 Juin î^o, à 20 k. 3o
 SÉANCE DE SONATES
@@ -102,8 +110,7 @@ a) Allegro vivace, A) Andante Sostenuto, c) Rondo.
 Prix des places: Fr. 0.60, i.i5 et a.3o (Droit compris)
 Billets en vente au Secrétariat, Rue Général-Dufour, 3, Magasin Rotschy, Corraterie, et le soir à l entrée.
 ]]></page>
-       
-        </p>
+      </p>
     </body>
   </text>
 </TEI>

@@ -1,85 +1,95 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>BASEL</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Laurent Pugin</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <date when="2016-01">Janvier 2016</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_famb</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>BASEL</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Laurent Pugin</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <date when='2016-01'>Janvier 2016</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_famb</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Season<date when="20010915">15/09/2001</date></title>
-<series>Season</series>
-<placeName>Basel, Historisches Museum (Chor der Barfüsserkirche)</placeName>
-<orgName role="holding">Archiv des Vereins Freunde alter Musik Basel; <link target="http://famb.ch/"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Season
+            <date when='20010915'>15/09/2001</date>
+          </title>
+          <series>Season</series>
+          <placeName>Basel, Historisches Museum (Chor der Barfüsserkirche)</placeName>
+          <orgName role='holding'>
+            Archiv des Vereins Freunde alter Musik Basel; 
+            <link target='http://famb.ch/'/>
+          </orgName>
+        </bibl>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <pb facs="CH_Bm_prg/pyr_CH_Bm_prg-0318.tif"/>
-<date when="20010915"/>
-<name key="n.n." type="person" role="cmp">n.n.</name>
-<name key="Willaert, Adrian" type="person" role="cmp">Willaert, Adrian</name>
-<name key="Rore, Cipriano de" type="person" role="cmp">Rore, Cipriano de</name>
-<name key="Senfl, Ludwig" type="person" role="cmp">Senfl, Ludwig</name>
-<name key="Josquin des Prez" type="person" role="cmp">Josquin des Prez</name>
-<name key="Mouton, Jean" type="person" role="cmp">Mouton, Jean</name>
-<name key="Lasso, Orlando di" type="person" role="cmp">Lasso, Orlando di</name>
-<name key="n.n." type="person" role="cmp">n.n.</name>
-<name key="Corelli, Arcangelo" type="person" role="cmp">Corelli, Arcangelo</name>
-<name key="Vivaldi, Antonio" type="person" role="cmp">Vivaldi, Antonio</name>
-<name key="n.n." type="person" role="cmp">n.n.</name>
-<name key="Haydn, Joseph" type="person" role="cmp">Haydn, Joseph</name>
-<name key="Salomon, Johann" type="person" role="cmp">Salomon, Johann</name><name key="Young, Crawford" type="person" role="int">Young, Crawford</name>
-<name key="Nevel, Paul van" type="person" role="int">Nevel, Paul van</name>
-<name key="Lutz, Rudolf" type="person" role="int">Lutz, Rudolf</name>
-<name key="Jans, Markus" type="person" role="int">Jans, Markus</name>
-<name key="Scholl, Andreas" type="person" role="int">Scholl, Andreas</name>
-<name key="Budzińska-Bennett, Agnieszka" type="person" role="int">Budzińska-Bennett, Agnieszka</name>
-<name key="Deftwiler, Anita" type="person" role="int">Deftwiler, Anita</name>
-<name key="Landerkin, Kelly" type="person" role="int">Landerkin, Kelly</name>
-<name key="Domínguez, Rosa" type="person" role="int">Domínguez, Rosa</name>
-<name key="Costoyas, Dolores" type="person" role="int">Costoyas, Dolores</name>
-<name key="Pustilnik, Mónica" type="person" role="int">Pustilnik, Mónica</name>
-<name key="Figueras, Montserrat" type="person" role="int">Figueras, Montserrat</name>
-<name key="Lislevand, Rolf" type="person" role="int">Lislevand, Rolf</name>
-<name key="Savall, Arianna" type="person" role="int">Savall, Arianna</name>
-<name key="Estevan, Pedro" type="person" role="int">Estevan, Pedro</name>
-<name key="Gonzales-Campa, Adela" type="person" role="int">Gonzales-Campa, Adela</name>
-<name key="Savall, Jordi" type="person" role="int">Savall, Jordi</name>
-<name key="Lancaster, Geoffrey" type="person" role="int">Lancaster, Geoffrey</name>
-<name key="Banchini, Chiara" type="person" role="int">Banchini, Chiara</name>
-<name key="Gohl-Moser, Käthi" type="person" role="int">Gohl-Moser, Käthi</name><title>Season</title>
-<placeName key="Basel, Historisches Museum (Chor der Barfüsserkirche)"/>
-<name key="Season" type="series"/>
-<page><![CDATA[﻿Freunde alter Musik
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <pb facs='CH_Bm_prg/pyr_CH_Bm_prg-0318.tif'/>
+        <date when='20010915'/>
+        <name key='Anonymous' type='person' role='cmp'>Anonymous</name>
+        <name key='Willaert, Adrian' type='person' role='cmp'>Willaert, Adrian</name>
+        <name key='Rore, Cipriano de' type='person' role='cmp'>Rore, Cipriano de</name>
+        <name key='Senfl, Ludwig' type='person' role='cmp'>Senfl, Ludwig</name>
+        <name key='Josquin des Prez' type='person' role='cmp'>Josquin des Prez</name>
+        <name key='Mouton, Jean' type='person' role='cmp'>Mouton, Jean</name>
+        <name key='Lasso, Orlando di' type='person' role='cmp'>Lasso, Orlando di</name>
+        <name key='Anonymous' type='person' role='cmp'>Anonymous</name>
+        <name key='Corelli, Arcangelo' type='person' role='cmp'>Corelli, Arcangelo</name>
+        <name key='Vivaldi, Antonio' type='person' role='cmp'>Vivaldi, Antonio</name>
+        <name key='Anonymous' type='person' role='cmp'>Anonymous</name>
+        <name key='Haydn, Joseph' type='person' role='cmp'>Haydn, Joseph</name>
+        <name key='Salomon, Johann' type='person' role='cmp'>Salomon, Johann</name>
+        <name key='Young, Crawford' type='person' role='int'>Young, Crawford</name>
+        <name key='Nevel, Paul van' type='person' role='int'>Nevel, Paul van</name>
+        <name key='Lutz, Rudolf' type='person' role='int'>Lutz, Rudolf</name>
+        <name key='Jans, Markus' type='person' role='int'>Jans, Markus</name>
+        <name key='Scholl, Andreas' type='person' role='int'>Scholl, Andreas</name>
+        <name key='Budzińska-Bennett, Agnieszka' type='person' role='int'>Budzińska-Bennett, Agnieszka</name>
+        <name key='Deftwiler, Anita' type='person' role='int'>Deftwiler, Anita</name>
+        <name key='Landerkin, Kelly' type='person' role='int'>Landerkin, Kelly</name>
+        <name key='Domínguez, Rosa' type='person' role='int'>Domínguez, Rosa</name>
+        <name key='Costoyas, Dolores' type='person' role='int'>Costoyas, Dolores</name>
+        <name key='Pustilnik, Mónica' type='person' role='int'>Pustilnik, Mónica</name>
+        <name key='Figueras, Montserrat' type='person' role='int'>Figueras, Montserrat</name>
+        <name key='Lislevand, Rolf' type='person' role='int'>Lislevand, Rolf</name>
+        <name key='Savall, Arianna' type='person' role='int'>Savall, Arianna</name>
+        <name key='Estevan, Pedro' type='person' role='int'>Estevan, Pedro</name>
+        <name key='Gonzales-Campa, Adela' type='person' role='int'>Gonzales-Campa, Adela</name>
+        <name key='Savall, Jordi' type='person' role='int'>Savall, Jordi</name>
+        <name key='Lancaster, Geoffrey' type='person' role='int'>Lancaster, Geoffrey</name>
+        <name key='Banchini, Chiara' type='person' role='int'>Banchini, Chiara</name>
+        <name key='Gohl-Moser, Käthi' type='person' role='int'>Gohl-Moser, Käthi</name>
+        <title>Season</title>
+        <placeName key='Basel, Historisches Museum (Chor der Barfüsserkirche)'/>
+        <name key='Saisons' type='series'/>
+        <page><![CDATA[﻿Freunde alter Musik
 Generalprogramm
 2001/2002
 ]]></page>
-<pb facs="CH_Bm_prg/pyr_CH_Bm_prg-0319.tif"/>
-<page><![CDATA[﻿Das FAMB-Generalprogramm 2001/2002 im Überblick:
+        <pb facs='CH_Bm_prg/pyr_CH_Bm_prg-0319.tif'/>
+        <page><![CDATA[﻿Das FAMB-Generalprogramm 2001/2002 im Überblick:
 Sonderkonzert zum "Basler Münsterschatz":
 Samstag	15. 09. 2001
 19.00h Einführung und Austeilung 20.00h Konzert Barfüsserkirche
@@ -131,8 +141,8 @@ Klaviertrio As-Dur
 Geoffrey Lancaster, Fortepiano
 Chiara Banchini, Violine
 Käthi Gohl, Violoncello]]></page>
-<pb facs="CH_Bm_prg/pyr_CH_Bm_prg-0320.tif"/>
-<page><![CDATA[﻿Liebe FAMB-Mitglieder,
+        <pb facs='CH_Bm_prg/pyr_CH_Bm_prg-0320.tif'/>
+        <page><![CDATA[﻿Liebe FAMB-Mitglieder,
 sehr geehrte Damen und Herren,
 Mit diesem weit gefächerten Programm für die Saison 2001 -
 2002	nähern sich die Freunde alter Musik in Basel dem Ende des 6. Jahrzehnts ihres Bestehens. Anstatt müde zu werden, verfolgt der Verein weiterhin eine erfrischende Art von "Vorwärtsstrategie", lädt die namhaftesten Ensembles unserer Jahre ein, bietet mit einem zusätzlichen Sonderkonzert zum Abschluss der "Münsterschatz''-Ausstellung im September 2002 eine "Vernetzung" zum Basler Kunstleben und veranstaltet zum ersten Mal seit langer Zeit ein weiteres musikalisches "highlight" zur Generalversammlung - dass Basel mit der Schola Cantorum Basiliensis und den Konzerten unseres Vereins überall in Europa als Hochburg der Alten Musik gilt, ist beim ersten Blick auf eine solche Konzertsaison verständlich.
@@ -151,8 +161,8 @@ Prof. Dr. Robert Kopp, Präsident Rolf Grolimund, Vizepräsident Dr. des. Thomas
 Internet:	http://www.unibas.ch/mab/scb/famb.htm
  Markus Jans Hans-Martin Linde Hans Linnartz (ab 1. 1 2. 01 Dr. Andre Baltensperger)
  Dr. Peter Reidemeister Carole Wiesmann]]></page>
-<pb facs="CH_Bm_prg/pyr_CH_Bm_prg-0321.tif"/>
-<page><![CDATA[﻿ZUM GELEIT
+        <pb facs='CH_Bm_prg/pyr_CH_Bm_prg-0321.tif'/>
+        <page><![CDATA[﻿ZUM GELEIT
 "Die ganze Gesellschaft war äusserst vergnügt und auch ich. Ich machte diesen Abend vier tausend Gulden. So etwas kann man nur in England machen."
 Dass das letzte Konzert der neuen Saison der Freunde alter Musik in Basel etwas mit Vergnügen und mit Geld zu tun hat, ist unbestritten: Gegen Ende des 1 8. Jahrhhunderts kamen zahlreiche Kammermusik-Arrangements auf den Markt; die Nachfrage der professionellen Musiker und der Laien nach Noten für häusliche und öffentliche Konzerte war enorm gewachsen, und die Verleger machten gute Geschäfte.
 Wie in den zeitgenössischen Originalkompositionen wurde Kammermusik für Klavier und Streicher besonders geschätzt. Die Partiturreduktionen mit künstlerischem Anspruch entstanden dabei häufig aus der Verehrung für einen älteren Komponisten oder aus Freundschaft zu einem Kollegen. Johann Salomon war der Violinist und Konzertunternehmer, dem es 1790 gelang, Joseph Haydn zu seiner ersten Englandreise zu bewegen, und der in London im Jahr darauf, im Frühling 1791, zwölf Subskriptionskonzerte und ein Benefizkonzert für Haydn organisierte.
@@ -168,8 +178,8 @@ Aus den Jahrhunderten, in denen der einzelne Mensch und seine Ge > fühle zum er
 So mischt sich in der Jubiläumssaison der Freunde alter Musik in Basel Neues mit "Altem", das heisst mit Interpretation von Musik, die in den letzten Jahren und Jahrzehnten in ihrer Tiefe wieder ausgelotet worden ist: sicherlich zum Vergnügen der Musikerinnen und Musiker, hoffentlich auch zu Ihrem Vergnügen und zu Ihrer Erbauung, liebe Konzertbesucher, und hoffentlich zum Erfolg für die Veranstalter, die ihren 60. Ge burtstag feiern können.
                                                    Regula Rapp
 i]]></page>
-<pb facs="CH_Bm_prg/pyr_CH_Bm_prg-0322.tif"/>
-<page><![CDATA[﻿Sonderkonzert zum "Basler Münsterschatz":
+        <pb facs='CH_Bm_prg/pyr_CH_Bm_prg-0322.tif'/>
+        <page><![CDATA[﻿Sonderkonzert zum "Basler Münsterschatz":
 Aurum musicum -Oberrheinische Musik der Spätgotik
 Lieder, Motetten und Instrumentalwerke aus dem 15. Jahrhundert
 Ferrara-Ensemble Leitung: Crawford Young
@@ -196,8 +206,8 @@ Konzert I	Montag, 1 2. November 2001
                 Huelgas Ensemble, Paul van Nevel
 Autoren der klassischen Antike und ihre Stoffe entfalteten in der Musikgeschichte spätestens mit der Neuen Musik des 17. Jahrhunderts eine kaum zu überschätzende Wirkung. Wo stünden wir heute ohne das Vor- und Sinnbild des Orpheus für die Oper und ohne die Stoffe aus Ovids Metamorphosen für zahllose Libretti und Kantatentexte!
 Im Programm des Huelgas-Ensembles sind jedoch wenig bekannte Vertonungen aus dem 16. Jahrhundert zu hören, also noch vor dem eigentlichen Zeitalter der Monodie und der Oper. Im Zuge der intensivierten Antiken-Rezeption der Renaissance hatte es den Komponisten schon damals die Aeneis von Vergil (79 - 19 v.C.) angetan, die in der tragischen Liebesgeschichte von Dido mit dem Helden einen unerschöpflichen Stoff bot. Wie Vergil verkehrte auch Horaz (65 - 8 v.C.) im Zirkel um den sagenhaften Mäcenas. Dessen Oden und Epoden regten ebenfalls zu klingendem Vortrag an, ebenso wie die Carmina des etwas älteren Catull (984 - 954 v.C.) und Dichtungen anonymer Anakreon-tiker. Auch Nachdichtungen in den Landessprachen und deren Vertonung sind Zeugnisse einer intensiven Auseinandersetzung mit der Antike. Besonderen Reiz versprechen unterschiedliche Vertonungen derselben Texte, die im Programm des Huelgas-Ensembles nebeneinandergestellt werden.]]></page>
-<pb facs="CH_Bm_prg/pyr_CH_Bm_prg-0323.tif"/>
-<page><![CDATA[﻿Konzert II	Donnerstag, 6. Dezember 2001
+        <pb facs='CH_Bm_prg/pyr_CH_Bm_prg-0323.tif'/>
+        <page><![CDATA[﻿Konzert II	Donnerstag, 6. Dezember 2001
               20.15 Uhr
                  Predigerkirche Basel
              Sankt Nikolaus - Eine Spurensuche in der Improvisation
@@ -214,8 +224,8 @@ Extrakonzert I Sonntag, 6. Januar 2002
                 Werke von A. Corelli und A. Vivaldi
                 Andreas Scholl, Countertenor und das Freiburger Barockorchester
 "II canto figurato" hiessen in der Blütezeit des Barock-Gesangs die Lehrbücher von Tosi (1723) bis Mancini (1774), die eine Einführung in Ästhetik und Technik des "Bel canto” gaben und für uns heute die wichtigsten Quellen für die Vokalpraxis jener Zeit darstellen: Klangvorstellung, Schlankheit und Beweglichkeit der Stimme, Verzierungswesen u.a.m. Diese Maximen hatten ebenso in der Kirchen- und Kammermusik Gültigkeit wie in der Oper. Unser Programm beschränkt sich auf geistliche Werke des italienischen Hochbarock. Andreas Scholl, der seine Ausbildung bei Rene Jacobs und Richard Levitt an der Schola Cantorum Basiliensis erhalten hat und seit Oktober 2000 als Lehrer an unserem Institut tätig ist, realisiert diese Anforderungen an einen "Barock-Sänger" in der heutigen Zeit wie wenige Andere.]]></page>
-<pb facs="CH_Bm_prg/pyr_CH_Bm_prg-0324.tif"/>
-<page><![CDATA[﻿Montag, 4. Februar 2002
+        <pb facs='CH_Bm_prg/pyr_CH_Bm_prg-0324.tif'/>
+        <page><![CDATA[﻿Montag, 4. Februar 2002
 Generalversammlung
 19.30 Uhr, Zimmer 6 der Schola Cantorum Basiliensis
 GRUSSKONZERT DER SCB
@@ -236,8 +246,8 @@ Konzert III Dienstag, 26. Februar und
                  Ensemble "Bella Diva":
                Rosa Dominguez, Mezzo-Sopran Dolores Costoyas, Theorbe, Gitarre, Laute Laura Monika Pustilnik, Theorbe, Gitarre, Laute
 Die Neue Musik in Italien nach 1600 ist von mehreren bis dahin "un-erhörten" Eigenschaften gekennzeichnet: einem neuen Verhältnis der Musik zum Text, einem neuen, nuancierten Gesangsstil und einer neuen Technik des Accompagnements, dem Generalbass, der seine Konsequenzen bis tief in die Komposition hinein entfaltete. Das Ensemble "Bella Diva" hat es sich zur Aufgabe gemacht, diese neuen Errungenschaften der "Monodie" mit aller virtuosen Kompetenz und Phantasie auszuleuchten und eine Interaktion zwischen vokaler Expressivität und instrumentaler Brillanz zu erreichen - sehr zum Vorteil dieser frischen Musik, die 400 Jahre nach ihrer Entstehung nichts von ihrer Unmittelbarkeit verloren hat: Die erste, emphatisch als "Le Nuove Musiche" betitelte Sammlung von Solo-Madrigalen, die der Römer Giulio Caccini edierte, erschien in Florenz im Jahre 1601.]]></page>
-<pb facs="CH_Bm_prg/pyr_CH_Bm_prg-0325.tif"/>
-<page><![CDATA[﻿Extrakonzert II Freitag, 19. April 2002
+        <pb facs='CH_Bm_prg/pyr_CH_Bm_prg-0325.tif'/>
+        <page><![CDATA[﻿Extrakonzert II Freitag, 19. April 2002
                20.15 Uhr
                  Martinskirche Basel
               Folias & Pasacalles -
@@ -256,8 +266,8 @@ Konzert IV Montag, 13. Mai 2002
 Joseph Haydn soll 1792 in einem London Konzert überraschend die persönliche Leitung seiner Sinfonie Nr. 96 übernommen haben. Die neugierigen Leute verliessen ihre Sitze im Parkett und drängten an den Orchestergraben, um den berühmten Meister besser beobachten zu können. In diesem Moment krachte der riesige Lüster des Saales von der Decke auf die nun unbesetzten Plätze. Haydns Bewunderer kamen wie durch ein Wunder nicht zu Schaden.
 Die Musik des Meisters war in aller Ohren und da es keine Tonträger gab, konnten kammermusikalische Bearbeitungen von grossbesetzten Werken, wie die im Programm zu hörende Trio-Version der Sinfonie von Salomon, der Unterhaltung in jeder besseren Gesellschaft dienen. Umgekehrt findet sich die h-moll-Klaviersonate (Hob.XVI:32) in einer zeitgenössischen Bearbeitung "vergrössert" für Streichquartett, um sich neue Interessenten zu erschliessen. Für gute Geschäfte mit Mehrfach-Verwertungen war Haydn ohnehin empfänglich. Sein As-Dur Klaviertrio (Hob.XV:14) C'Clavier Sonate mit Begleitung einer Violin und Violoncello") verkaufte er nicht nur exklusiv an den Verleger Artaria in Wien, sondern 1792 auch noch an einen Londoner Drucker.
 Wir dürfen uns in diesem Programm wieder vom Erfindungsreichtum Haydns verführen lassen, mit dem er sein Publikum zu allen Zeiten fasziniert hat. Wunder wollen eben erarbeitet sein!]]></page>
-<pb facs="CH_Bm_prg/pyr_CH_Bm_prg-0326.tif"/>
-<page><![CDATA[﻿DANK
+        <pb facs='CH_Bm_prg/pyr_CH_Bm_prg-0326.tif'/>
+        <page><![CDATA[﻿DANK
 Die Zeiten im Kulturleben werden in unseren Jahren nicht leichter. Alle Konzertveranstalter haben steigende Kosten und sinkende Einnahmen zu verzeichnen -und dabei wissen wir doch alle: Qualität hat ihren Preis...
 Auch für die FAMB wäre es schön, neue Mitglieder
 zu gewinnen, um die gesteckten Ziele auf hohem Niveau erreichen zu können.
@@ -273,8 +283,8 @@ O
 Blasinstrumente Compact Discs Digital Keyboards Musiknoten und -bücher Flügel und Klaviere Saiteninstrumente Schlaginstrumente Musiksoftware Ticketvorverkauf Videos Werkstätten Zubehör
 M u s i k H u g
 Basel, Freie Strasse 70, Telefon 061 272 33 90 www.musikhug.ch]]></page>
-<pb facs="CH_Bm_prg/pyr_CH_Bm_prg-0327.tif"/>
-<page><![CDATA[﻿Gönnermitglieder, die eigentlichen Träger unseres Vereins, entrichten einen Jahresbeitrag von mindestens Fr. 180.-. Er berechtigt zum freien Eintritt zu den Konzerten I - IV und den beiden Extrakonzerten.
+        <pb facs='CH_Bm_prg/pyr_CH_Bm_prg-0327.tif'/>
+        <page><![CDATA[﻿Gönnermitglieder, die eigentlichen Träger unseres Vereins, entrichten einen Jahresbeitrag von mindestens Fr. 180.-. Er berechtigt zum freien Eintritt zu den Konzerten I - IV und den beiden Extrakonzerten.
 Mitglieder bezahlen einen Jahresbeitrag von Fr. 120.-. Sie haben freien Eintritt zu den Konzerten I - IV und können reduzierte Einzelkarten für die beiden Extrakonzerte bei Musik Hug beziehen. Bitte nicht für einzelne Konzerte einzahlen! Für zusätzliche Karten bitte den Vorverkauf benützen!
 Konzert III, 26. und 27. Februar 2002
 Für das doppelt geführte Konzert möchten wir alle Gönnermitglieder, Mitglieder und Studenten bitten, auf dem beiliegenden Einzahlungsschein das gewünschte Datum anzukreuzen.
@@ -291,16 +301,15 @@ Anmeldungen zur Mitgliedschaft
 Freunde alter Musik in Basel, Leonhardsstr. 6, Postfach 232, CH-4003 Basel, Telefon 061-264 57 57 Fax 061-264 57 49 e-mail:	famb@musakabas.ch
 Internet:	http://www.unibas.ch/mab/scb/famb.htm
 ]]></page>
-<pb facs="CH_Bm_prg/pyr_CH_Bm_prg-0328.tif"/>
-<page><![CDATA[﻿Mit Dank für die freundliche Unterstützung
+        <pb facs='CH_Bm_prg/pyr_CH_Bm_prg-0328.tif'/>
+        <page><![CDATA[﻿Mit Dank für die freundliche Unterstützung
 Kultur*
 II
  Basel-Stadt
 d Ir
 Schweizer Radio DRS
 ]]></page>
-       
-        </p>
+      </p>
     </body>
   </text>
 </TEI>

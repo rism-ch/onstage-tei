@@ -1,59 +1,67 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>HEMU Conservatoire de Genève - Programme de concert</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Paolo Boschetti</persName>
-                    <persName>Laurent Pugin</persName>
-                    <persName>Violeta Struijk van Bergen</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <date when="2016-01">Janvier 2016</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gc</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>HEMU Conservatoire de Genève - Programme de concert</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Paolo Boschetti</persName>
+            <persName>Laurent Pugin</persName>
+            <persName>Violeta Struijk van Bergen</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <date when='2016-01'>Janvier 2016</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gc</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title><date when="18940318">18/03/1894</date></title>
-<series>None</series>
-<placeName>Genève, Bâtiment électoral</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            <date when='18940318'>18/03/1894</date>
+            [sans titre]
+          </title>
+          <series>None</series>
+          <placeName>Genève, Bâtiment électoral</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+        </bibl>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <pb facs="Gc_prg/CH_Gc_prg_04/pyr_CH_Gc_prg_04-0361.tif"/>
-<date when="18940318"/>
-<name key="Perck, B. van" type="person" role="cmp">B. van Perck</name>
-<name key="Litolff, Henry" type="person" role="cmp">Henry Charles Litolff</name>
-<name key="Mascagni, Pietro" type="person" role="cmp">Mascagni, Pietro</name>
-<name key="Klein, Jules" type="person" role="cmp">Klein, Jules</name>
-<name key="Gürtner" type="person" role="cmp">Gürtner</name>
-<name key="Delibes, Léo" type="person" role="cmp">Delibes, Léo</name>
-<name key="Liszt, Franz" type="person" role="cmp">Liszt, Franz</name>
-<name key="Gounod, Charles-François" type="person" role="cmp">Gounod, Charles</name>
-<name key="Pellevestre, J." type="person" role="cmp">Pellevestre, J.</name><title/>
-<placeName key="Genève, Bâtiment électoral"/>
-<name key="None" type="series"/>
-<page><![CDATA[﻿û r '
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <pb facs='Gc_prg/CH_Gc_prg_04/pyr_CH_Gc_prg_04-0361.tif'/>
+        <date when='18940318'/>
+        <name key='Van Perck, B.' type='person' role='cmp'>Van Perck, B.</name>
+        <name key='Litolff, Henry Charles' type='person' role='cmp'>Litolff, Henry Charles</name>
+        <name key='Mascagni, Pietro' type='person' role='cmp'>Mascagni, Pietro</name>
+        <name key='Klein, Jules' type='person' role='cmp'>Klein, Jules</name>
+        <name key='Gürtner' type='person' role='cmp'>Gürtner</name>
+        <name key='Delibes, Léo' type='person' role='cmp'>Delibes, Léo</name>
+        <name key='Liszt, Franz' type='person' role='cmp'>Liszt, Franz</name>
+        <name key='Gounod, Charles-François' type='person' role='cmp'>Gounod, Charles-François</name>
+        <name key='Pellevestre, J.' type='person' role='cmp'>Pellevestre, J.</name>
+        <title/>
+        <placeName key='Genève, Bâtiment électoral'/>
+        <page><![CDATA[﻿û r '
 ■%-ê
 BATi.M.tlNT ELECTORAL
 ‘Dimanche iS Murs 1894, à 2 heures et demie.
@@ -92,8 +100,7 @@ Les membres non exécutants ont droit d’entrée à ce concert, sur présentati
 du coupon n° 3.
             LA SALLE SEKA CHAUFFEE »-
 ]]></page>
-       
-        </p>
+      </p>
     </body>
   </text>
 </TEI>

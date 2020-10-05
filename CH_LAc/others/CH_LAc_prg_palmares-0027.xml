@@ -1,107 +1,115 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>HEMU Conservatoire de Lausanne - Programme de concert</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Paolo Boschetti</persName>
-                    <persName>Laurent Pugin</persName>
-                    <persName>Violeta Struijk van Bergen</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <date when="2012-11">Novembre 2012</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_lac</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>HEMU Conservatoire de Lausanne - Programme de concert</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Paolo Boschetti</persName>
+            <persName>Laurent Pugin</persName>
+            <persName>Violeta Struijk van Bergen</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <date when='2012-11'>Novembre 2012</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_lac</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Cérémonie du palmarès <date when="19920627">27 juin 1992</date></title>
-<series>Palmarès</series>
-<placeName>Conservatoire de Lausanne</placeName>
-<orgName role="holding">Bibliothèque HEMU-CL;<link target="http://biblio.hemu-cl.ch"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Cérémonie du palmarès 
+            <date when='19920627'>27 juin 1992</date>
+          </title>
+          <series>Palmarès</series>
+          <placeName>Conservatoire de Lausanne</placeName>
+          <orgName role='holding'>
+            Bibliothèque HEMU-CL;
+            <link target='http://biblio.hemu-cl.ch'/>
+          </orgName>
+        </bibl>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <pb facs="LAc_prg/CH_LAc_prg_palmares/pyr_CH_LAc_prg_palmares-0027.tif"/>
-<date when="19920627"/>
-<name key="Borel, Stéphane" type="person" role="cmp">Borel, Stéphane</name>
-<name key="Baumann, Peter" type="person" role="int">Baumann, Peter</name>
-<name key="Hostetter, Jacques" type="person" role="int">Hostettler, Jacques</name>
-<name key="Klaus, Christine" type="person" role="int">Klaus, Christine</name>
-<name key="Müller, Philippe" type="person" role="int">Müller, Philippe</name>
-<name key="Duruz, Grégoire" type="person" role="int">Duruz, Grégoire</name>
-<name key="Cavin, Laurent" type="person" role="int">Cavin, Laurent</name>
-<name key="Marrache, Michel" type="person" role="int">Marrache, Michel</name>
-<name key="Trunde, Jean-Baptiste" type="person" role="int">Trunde, Jean-Baptiste</name>
-<name key="Borel, Stéphane" type="person" role="prof">Borel, Stéphane</name>
-<name key="Rochat, Pierre" type="person" role="var">Rochat, Pierre</name>
-<name key="Mozart, Wolfgang Amadeus" type="person" role="cmp">Mozart, Wolfgang Amadeus</name>
-<name key="Rapin, Christophe" type="person" role="int">Rapin, Christophe</name>
-<name key="Blaser, Pierre-André" type="person" role="prof">Blaser, Pierre-André</name>
-<name key="Lenherr-Arnold, Rachel" type="person" role="int">Lenherr-Arnold, Rachel</name>
-<name key="Rapin, Jean-Jacques" type="person" role="var">Rapin, Jean-Jacques</name>
-<name key="Debussy, Claude" type="person" role="cmp">Debussy, Claude</name>
-<name key="Choeur du Conservatoire" type="person" role="int">Choeur du Conservatoire</name>
-<name key="Carrot, Véronique" type="person" role="int">Carrot, Véronique</name>
-<name key="Essade, Marie-Hélène" type="person" role="int">Essade, Marie-Hélène</name>
-<name key="Ribaupierre, Madeleine de" type="person" role="cmp">Ribaupierre, Madeleine de</name>
-<name key="Kolly, Rachel" type="person" role="int">Kolly, Rachel</name>
-<name key="Ferrero, David" type="person" role="int">Ferrero, David</name>
-<name key="Lakhdari, Ellinor" type="person" role="int">Lakhdari, Ellinor</name>
-<name key="Joggi, Anouk" type="person" role="int">Joggi, Anouk</name>
-<name key="Goldmann, Jaël" type="person" role="int">Goldmann, Jaël</name>
-<name key="Meyer, Charlotte" type="person" role="int">Meyer, Cahrlotte</name>
-<name key="Fivaz, Joëlle" type="person" role="int">Fivaz, Joële</name>
-<name key="Madera, Natalia" type="person" role="int">Madera, Natalia</name>
-<name key="Ilschner, Benjamin" type="person" role="int">Ilschner, Benjamin</name>
-<name key="Grandi, David de" type="person" role="int">Grandi, David de</name>
-<name key="Weiss, Arnaud" type="person" role="int">Weiss, Arnaud</name>
-<name key="Jaquerod, Anne-Marie" type="person" role="prof">Jaquerod, Anne-Marie</name>
-<name key="Berkovits, Françoise" type="person" role="int">Berkovits, Françoise</name>
-<name key="Bovard, Jean-François" type="person" role="cmp">Bovard, Jean-François</name>
-<name key="Chinet, Mathilde" type="person" role="int">Chinet, Mathilde</name>
-<name key="Ducret, Jean-Christophe" type="person" role="int">Ducret, Jean-Christophe</name>
-<name key="Favre, Nikolas" type="person" role="int">Favre, Nikolas</name>
-<name key="Corboz, Denis" type="person" role="int">Corboz, Denis</name>
-<name key="Müller, Sabine" type="person" role="int">Müller, Sabine</name>
-<name key="Huguenin, Claire" type="person" role="int">Huguenin, Claire</name>
-<name key="Frusciante, Joseph" type="person" role="int">Frusciante, Joseph</name>
-<name key="Lavanchy, Jean-Paul" type="person" role="int">Lavanchy, Jean-Paul</name>
-<name key="Rochat, Jean" type="person" role="int">Rochat, Jean</name>
-<name key="Trinchan, Bernard" type="person" role="int">Trinchan, Bernard</name>
-<name key="Bovard, Jean-François" type="person" role="prof">Bovard, Jean-François</name>
-<name key="Bach, Johann Sebastian" type="person" role="cmp">Bach, Johann Sebastian</name>
-<name key="Handel, George Frideric" type="person" role="cmp">Haendel, Georg Friedrich</name>
-<name key="Haydn, Joseph" type="person" role="cmp">Haydn, Joseph</name>
-<name key="Meier, Jost" type="person" role="int">Meier, Jost</name>
-<title>Cérémonie du palmarès</title>
-<placeName key="Lausanne, Conservatoire"/>
-<placeName key="Lausanne, Cathédrale"/>
-<name key="Palmarès" type="series"/>
-<page><![CDATA[﻿CONSERVATOIRE DE LAUSANNE RECONNU PAR L'ETAT DE VAUD ET LA VILLE DE LAUSANNE DIRECTEUR JEAN-JACQUES RAPIN
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <pb facs='LAc_prg/CH_LAc_prg_palmares/pyr_CH_LAc_prg_palmares-0027.tif'/>
+        <date when='19920627'/>
+        <name key='Borel, Stéphane' type='person' role='cmp'>Borel, Stéphane</name>
+        <name key='Baumann, Peter' type='person' role='int'>Baumann, Peter</name>
+        <name key='Hostetter, Jacques' type='person' role='int'>Hostettler, Jacques</name>
+        <name key='Klaus, Christine' type='person' role='int'>Klaus, Christine</name>
+        <name key='Müller, Philippe' type='person' role='int'>Müller, Philippe</name>
+        <name key='Duruz, Grégoire' type='person' role='int'>Duruz, Grégoire</name>
+        <name key='Cavin, Laurent' type='person' role='int'>Cavin, Laurent</name>
+        <name key='Marrache, Michel' type='person' role='int'>Marrache, Michel</name>
+        <name key='Trunde, Jean-Baptiste' type='person' role='int'>Trunde, Jean-Baptiste</name>
+        <name key='Borel, Stéphane' type='person' role='prof'>Borel, Stéphane</name>
+        <name key='Rochat, Pierre' type='person' role='var'>Rochat, Pierre</name>
+        <name key='Mozart, Wolfgang Amadeus' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Rapin, Christophe' type='person' role='int'>Rapin, Christophe</name>
+        <name key='Blaser, Pierre-André' type='person' role='prof'>Blaser, Pierre-André</name>
+        <name key='Lenherr-Arnold, Rachel' type='person' role='int'>Lenherr-Arnold, Rachel</name>
+        <name key='Rapin, Jean-Jacques' type='person' role='var'>Rapin, Jean-Jacques</name>
+        <name key='Debussy, Claude' type='person' role='cmp'>Debussy, Claude</name>
+        <name key='Choeur du Conservatoire de Lausanne' type='person' role='int'>Choeur du Conservatoire de Lausanne</name>
+        <name key='Carrot, Véronique' type='person' role='int'>Carrot, Véronique</name>
+        <name key='Essade, Marie-Hélène' type='person' role='int'>Essade, Marie-Hélène</name>
+        <name key='Ribaupierre, Madeleine de' type='person' role='cmp'>Ribaupierre, Madeleine de</name>
+        <name key='Kolly, Rachel' type='person' role='int'>Kolly, Rachel</name>
+        <name key='Ferrero, David' type='person' role='int'>Ferrero, David</name>
+        <name key='Lakhdari, Ellinor' type='person' role='int'>Lakhdari, Ellinor</name>
+        <name key='Joggi, Anouk' type='person' role='int'>Joggi, Anouk</name>
+        <name key='Goldmann, Jaël' type='person' role='int'>Goldmann, Jaël</name>
+        <name key='Meyer, Charlotte' type='person' role='int'>Meyer, Charlotte</name>
+        <name key='Fivaz, Joëlle' type='person' role='int'>Fivaz, Joële</name>
+        <name key='Madera, Natalia' type='person' role='int'>Madera, Natalia</name>
+        <name key='Ilschner, Benjamin' type='person' role='int'>Ilschner, Benjamin</name>
+        <name key='Grandi, David de' type='person' role='int'>Grandi, David de</name>
+        <name key='Weiss, Arnaud' type='person' role='int'>Weiss, Arnaud</name>
+        <name key='Jaquerod, Anne-Marie' type='person' role='prof'>Jaquerod, Anne-Marie</name>
+        <name key='Berkovits, Françoise' type='person' role='int'>Berkovits, Françoise</name>
+        <name key='Bovard, Jean-François' type='person' role='cmp'>Bovard, Jean-François</name>
+        <name key='Chinet, Mathilde' type='person' role='int'>Chinet, Mathilde</name>
+        <name key='Ducret, Jean-Christophe' type='person' role='int'>Ducret, Jean-Christophe</name>
+        <name key='Favre, Nikolas' type='person' role='int'>Favre, Nikolas</name>
+        <name key='Corboz, Denis' type='person' role='int'>Corboz, Denis</name>
+        <name key='Müller, Sabine' type='person' role='int'>Müller, Sabine</name>
+        <name key='Huguenin, Claire' type='person' role='int'>Huguenin, Claire</name>
+        <name key='Frusciante, Joseph' type='person' role='int'>Frusciante, Joseph</name>
+        <name key='Lavanchy, Jean-Paul' type='person' role='int'>Lavanchy, Jean-Paul</name>
+        <name key='Rochat, Jean' type='person' role='int'>Rochat, Jean</name>
+        <name key='Trinchan, Bernard' type='person' role='int'>Trinchan, Bernard</name>
+        <name key='Bovard, Jean-François' type='person' role='prof'>Bovard, Jean-François</name>
+        <name key='Bach, Johann Sebastian' type='person' role='cmp'>Bach, Johann Sebastian</name>
+        <name key='Händel, Georg Friedrich' type='person' role='cmp'>Händel, Georg Friedrich</name>
+        <name key='Haydn, Joseph' type='person' role='cmp'>Haydn, Joseph</name>
+        <name key='Meier, Jost' type='person' role='int'>Meier, Jost</name>
+        <title>Cérémonie du palmarès</title>
+        <placeName key='Lausanne, Conservatoire'/>
+        <placeName key='Lausanne, Cathédrale'/>
+        <name key='Palmarès' type='series'/>
+        <page><![CDATA[﻿CONSERVATOIRE DE LAUSANNE RECONNU PAR L'ETAT DE VAUD ET LA VILLE DE LAUSANNE DIRECTEUR JEAN-JACQUES RAPIN
 CEREMONIE DU PALMARES
 SAMEDI 27 JUIN 1992, à 15 h 00 AU CONSERVATOIRE DE LAUSANNE
 ]]></page>
-<pb facs="LAc_prg/CH_LAc_prg_palmares/pyr_CH_LAc_prg_palmares-0028.tif"/>
-<page><![CDATA[﻿PROGRAMME
+        <pb facs='LAc_prg/CH_LAc_prg_palmares/pyr_CH_LAc_prg_palmares-0028.tif'/>
+        <page><![CDATA[﻿PROGRAMME
 Stéphane BOREL
 Totem
 Peter BAUMANN, Jacques HOSTETTLER, Christine KLAUS, Philippe MULLER, Grégoire DURUZ, Laurent CAVIN,
@@ -117,8 +125,8 @@ ALLOCU TION de Monsieur Jean-Jacques RAPIN Directeur
 Claude DEBUSSY Claude DEBUSSY
      Dieu ! qu'il la fait bon regarder ! Quant j'ai ouy le tambourin Choeur du Conservatoire Direction : Véronique CARROT Soliste : Marie-Hélène ESSADE
 ]]></page>
-<pb facs="LAc_prg/CH_LAc_prg_palmares/pyr_CH_LAc_prg_palmares-0029.tif"/>
-<page><![CDATA[﻿LECTURE DU PALMARES
+        <pb facs='LAc_prg/CH_LAc_prg_palmares/pyr_CH_LAc_prg_palmares-0029.tif'/>
+        <page><![CDATA[﻿LECTURE DU PALMARES
 Madeleine de RIBAUPIERRE Wolfgang Amadeus MOZART Madeleine de RIBAUPIERRE
 De bon matin Andantino
 La Valse des Coucous
@@ -142,8 +150,8 @@ Bernard TRINCHAN, trombone
 Ecole de jazz et de musique actuelle (EJMA) Atelier de Jean-François BOVARD
 RECEPTION 3ème étage
 ]]></page>
-<pb facs="LAc_prg/CH_LAc_prg_palmares/pyr_CH_LAc_prg_palmares-0030.tif"/>
-<page><![CDATA[﻿Le 2ème concert des lauréats, avec la participation de /'Orchestre de Chambre de Lausanne, aura lieu le
+        <pb facs='LAc_prg/CH_LAc_prg_palmares/pyr_CH_LAc_prg_palmares-0030.tif'/>
+        <page><![CDATA[﻿Le 2ème concert des lauréats, avec la participation de /'Orchestre de Chambre de Lausanne, aura lieu le
            lundi 29 juin 1992, à 20 h 00, Cathédrale de Lausanne
 Ceorg Friedrich HAENDEL
 Concerto no 10 en ré mineur, op. 7/IV pour orgue et orchestre
@@ -155,8 +163,7 @@ Wolfgang Amadeus MOZART Concerto en la majeur, KV 622
                                 pour clarinette et orchestre
                             Direction : Jost ME 1ER
 Entrée libre]]></page>
-       
-        </p>
+      </p>
     </body>
   </text>
 </TEI>

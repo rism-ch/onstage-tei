@@ -1,82 +1,91 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>HEMU Conservatoire de Genève - Programme de concert</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Paolo Boschetti</persName>
-                    <persName>Laurent Pugin</persName>
-                    <persName>Violeta Struijk van Bergen</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <date when="2016-01">Janvier 2016</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gc</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>HEMU Conservatoire de Genève - Programme de concert</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Paolo Boschetti</persName>
+            <persName>Laurent Pugin</persName>
+            <persName>Violeta Struijk van Bergen</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <date when='2016-01'>Janvier 2016</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gc</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Cinq concerts d'orgue<date when="19160517">17/05/1916</date></title>
-<series>Cinq concerts d'orgue</series>
-<placeName>Genève, Temple de Saint-Gervais</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Cinq concerts d'orgue
+            <date when='19160517'>17/05/1916</date>
+          </title>
+          <series>Cinq concerts d'orgue</series>
+          <placeName>Genève, Temple de Saint-Gervais</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+        </bibl>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <pb facs="Gc_prg/CH_Gc_prg_10/pyr_CH_Gc_prg_10-0288.tif"/>
-<date when="19160517"/>
-<date when="19160524"/>
-<date when="19160529"/>
-<date when="19160607"/>
-<date when="19160614"/>
-<name key="Sweelinck, Jan Pieterszoon" type="person" role="cmp">Jan Pieterszoon Sweelinck</name>
-<name key="Leclair, Jean-Marie" type="person" role="cmp">Leclair, Jean-Marie</name>
-<name key="Raison, André" type="person" role="cmp">Raison, André</name>
-<name key="Couperin, François" type="person" role="cmp">Couperin, François</name>
-<name key="Clérambault, Louis Nicolas" type="person" role="cmp">Clerambault, Louis-Nicolas</name>
-<name key="Titelouze, Jehan" type="person" role="cmp">Titelouze, Jehan</name>
-<name key="Goudimel, Claude" type="person" role="cmp">Goudimel, Claude</name>
-<name key="Grigny, Nicolas de" type="person" role="cmp">Nicolas de Grigny</name>
-<name key="Marchand, Louis" type="person" role="cmp">Marchand, Louis</name>
-<name key="Dumage, Pierre" type="person" role="cmp">Dumage, Pierre</name>
-<name key="Buxtehude, Dietrich" type="person" role="cmp">Buxtehude, Dieterich</name>
-<name key="Praetorius, Michael" type="person" role="cmp">Praetorius, Michael</name>
-<name key="Muffat, Georg" type="person" role="cmp">Muffat, Georg</name>
-<name key="Pachelbel, Johann" type="person" role="cmp">Pachelbel, Johann</name>
-<name key="Walther, Johann Gottfried" type="person" role="cmp">Johann Gottfried Walther</name>
-<name key="Beethoven, Ludwig van" type="person" role="cmp">Ludwig van Beethoven</name>
-<name key="Widor, Charles-Marie" type="person" role="cmp">Widor, Charles-Marie</name>
-<name key="Gabrieli, Giovanni" type="person" role="cmp">Gabrieli, Giovanni</name>
-<name key="Veracini, Antonio" type="person" role="cmp">Veracini, Antonio</name>
-<name key="Guami, Gioseffo" type="person" role="cmp">Guami, Gioseffo</name>
-<name key="Frescobaldi, Girolamo Alessandro" type="person" role="cmp">Frescobaldi, Girolamo</name>
-<name key="Dall'Abaco, Evaristo Felice" type="person" role="cmp">Evaristo Felice Dall'Abaco</name>
-<name key="Gibbons, Orlando" type="person" role="cmp">Gibbons, Orlando</name>
-<name key="Byrd, William" type="person" role="cmp">Byrd, William</name>
-<name key="Boyce, William" type="person" role="cmp">Boyce, William</name>
-<name key="Purcell, Henry" type="person" role="cmp">Purcell, Henry</name>
-<name key="Bach, Johann Sebastian" type="person" role="cmp">Johann Sebastian Bach</name>
-<name key="Franck, César" type="person" role="cmp">Franck, César</name><title>Cinq concerts d'orgue</title>
-<placeName key="Genève, Temple de Saint-Gervais"/>
-<name key="Cinq concerts d'orgue" type="series"/>
-<page><![CDATA[﻿Temple de St-Gerv»is- Genève
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <pb facs='Gc_prg/CH_Gc_prg_10/pyr_CH_Gc_prg_10-0288.tif'/>
+        <date when='19160517'/>
+        <date when='19160524'/>
+        <date when='19160529'/>
+        <date when='19160607'/>
+        <date when='19160614'/>
+        <name key='Sweelinck, Jan Pieterszoon' type='person' role='cmp'>Sweelinck, Jan Pieterszoon</name>
+        <name key='Leclair, Jean-Marie' type='person' role='cmp'>Leclair, Jean-Marie</name>
+        <name key='Raison, André' type='person' role='cmp'>Raison, André</name>
+        <name key='Couperin, François' type='person' role='cmp'>Couperin, François</name>
+        <name key='Clérambault, Louis-Nicolas' type='person' role='cmp'>Clérambault, Louis-Nicolas</name>
+        <name key='Titelouze, Jehan' type='person' role='cmp'>Titelouze, Jehan</name>
+        <name key='Goudimel, Claude' type='person' role='cmp'>Goudimel, Claude</name>
+        <name key='Grigny, Nicolas de' type='person' role='cmp'>Grigny, Nicolas de</name>
+        <name key='Marchand, Louis' type='person' role='cmp'>Marchand, Louis</name>
+        <name key='Dumage, Pierre' type='person' role='cmp'>Dumage, Pierre</name>
+        <name key='Buxtehude, Dietrich' type='person' role='cmp'>Buxtehude, Dieterich</name>
+        <name key='Praetorius, Michael' type='person' role='cmp'>Praetorius, Michael</name>
+        <name key='Muffat, Georg' type='person' role='cmp'>Muffat, Georg</name>
+        <name key='Pachelbel, Johann' type='person' role='cmp'>Pachelbel, Johann</name>
+        <name key='Walther, Johann Gottfried' type='person' role='cmp'>Walther, Johann Gottfried</name>
+        <name key='Beethoven, Ludwig van' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Widor, Charles-Marie' type='person' role='cmp'>Widor, Charles-Marie</name>
+        <name key='Gabrieli, Giovanni' type='person' role='cmp'>Gabrieli, Giovanni</name>
+        <name key='Veracini, Antonio' type='person' role='cmp'>Veracini, Antonio</name>
+        <name key='Guami, Gioseffo' type='person' role='cmp'>Guami, Gioseffo</name>
+        <name key='Frescobaldi, Girolamo Alessandro' type='person' role='cmp'>Frescobaldi, Girolamo</name>
+        <name key='Dall&apos;Abaco, Evaristo Felice' type='person' role='cmp'>Dall&apos;Abaco, Evaristo Felice</name>
+        <name key='Gibbons, Orlando' type='person' role='cmp'>Gibbons, Orlando</name>
+        <name key='Byrd, William' type='person' role='cmp'>Byrd, William</name>
+        <name key='Boyce, William' type='person' role='cmp'>Boyce, William</name>
+        <name key='Purcell, Henry' type='person' role='cmp'>Purcell, Henry</name>
+        <name key='Bach, Johann Sebastian' type='person' role='cmp'>Bach, Johann Sebastian</name>
+        <name key='Franck, César' type='person' role='cmp'>Franck, César</name>
+        <title>Cinq concerts d'orgue</title>
+        <placeName key='Genève, Temple de Saint-Gervais'/>
+        <name key='Concerts d&apos;orgue' type='series'/>
+        <page><![CDATA[﻿Temple de St-Gerv»is- Genève
 I
 o o Les MERCREDIS 17 et 24 MAI o o le LUNDI 29 MAI et les MERCREDIS 7 et 14 IUIN 1916
 o o à 8 h. 30 du soir o o
@@ -95,8 +104,8 @@ Billets en vente chez MM. ROTSCHY, Corraterie, 22 et le soir des concerts à l�
 Le bénéfice (le ces Concerts sera remis au Comité genevois de Secours aux Arméniens
                                                                                                £S
 programme:: 10 cent. rà]]></page>
-<pb facs="Gc_prg/CH_Gc_prg_10/pyr_CH_Gc_prg_10-0289.tif"/>
-<page><![CDATA[﻿  PREMIER CONCERT
+        <pb facs='Gc_prg/CH_Gc_prg_10/pyr_CH_Gc_prg_10-0289.tif'/>
+        <page><![CDATA[﻿  PREMIER CONCERT
 Mercredi 17 ffllai, à 8 h. M>
 AVEC LE CONCOURS DE
 M. Edmond APPIA
@@ -202,8 +211,8 @@ GROUPE VOCAL MIXTE
        L. van BEETHOVEN (1760-1827)
        CHARLES-MARIE WIDOR. né à Lyon en IK45, organiste de St-Sulpice à Paris.
 ]]></page>
-<pb facs="Gc_prg/CH_Gc_prg_10/pyr_CH_Gc_prg_10-0290.tif"/>
-<page><![CDATA[﻿QUATRIÈME CONCERT
+        <pb facs='Gc_prg/CH_Gc_prg_10/pyr_CH_Gc_prg_10-0290.tif'/>
+        <page><![CDATA[﻿QUATRIÈME CONCERT
 ‘TKercredi 7 Juin, à 8 Jè d.
 AVEC LE CONCOURS DE
 M. Jean LACROIX
@@ -270,8 +279,7 @@ César Franck.
       JOHANN-SEBASTIAN BACH (Eisenach 1685-Leipzig 1750) l'un des plus grands maîtres de tous les temps, l’un de ceux qui personnifient la vie musicale non d’une école, mais de toute une époque.
        CÉSAR-AUGUSTE FRANCK (Liège 1822-Paris 1890) peut être considéré comme le fondateur de la « jeune école française ».
 *]]></page>
-       
-        </p>
+      </p>
     </body>
   </text>
 </TEI>

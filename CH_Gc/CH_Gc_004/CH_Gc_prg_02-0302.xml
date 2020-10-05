@@ -1,60 +1,68 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>HEMU Conservatoire de Genève - Programme de concert</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Paolo Boschetti</persName>
-                    <persName>Laurent Pugin</persName>
-                    <persName>Violeta Struijk van Bergen</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <date when="2016-01">Janvier 2016</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gc</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>HEMU Conservatoire de Genève - Programme de concert</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Paolo Boschetti</persName>
+            <persName>Laurent Pugin</persName>
+            <persName>Violeta Struijk van Bergen</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <date when='2016-01'>Janvier 2016</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gc</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title><date when="18790305">05/03/1879</date></title>
-<series>None</series>
-<placeName>Genève, Salle du Conservatoire</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            <date when='18790305'>05/03/1879</date>
+            [sans titre]
+          </title>
+          <series>None</series>
+          <placeName>Genève, Salle du Conservatoire</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+        </bibl>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <pb facs="Gc_prg/CH_Gc_prg_02/pyr_CH_Gc_prg_02-0302.tif"/>
-<date when="18790305"/>
-<name key="Ketten, Henri" type="person" role="cmp">Ketten, Henry</name>
-<name key="Díaz de la Peña, Eugenio" type="person" role="cmp">Diaz, Eugène-Emile</name>
-<name key="Rossini, Gioachino" type="person" role="cmp">Rossini, Gioacchino</name>
-<name key="Halévy, Fromental" type="person" role="cmp">Halévy, Fromental</name>
-<name key="Ketten, Léopold" type="person" role="cmp">Ketten, Léopold</name>
-<name key="Händel, Georg Friedrich" type="person" role="cmp">Georg Friedrich Händel</name>
-<name key="Gounod, Charles-François" type="person" role="cmp">Gounod, Charles</name>
-<name key="Thomas, Ambroise" type="person" role="cmp">Thomas, Ambroise</name>
-<name key="Meyerbeer, Giacomo" type="person" role="cmp">Meyerbeer, Giacomo</name>
-<name key="Liszt, Franz" type="person" role="cmp">Liszt, Franz</name><title/>
-<placeName key="Genève, Salle du Conservatoire"/>
-<name key="None" type="series"/>
-<page><![CDATA[﻿SALLE DU CONSERVATOIRE
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <pb facs='Gc_prg/CH_Gc_prg_02/pyr_CH_Gc_prg_02-0302.tif'/>
+        <date when='18790305'/>
+        <name key='Ketten, Henri' type='person' role='cmp'>Ketten, Henri</name>
+        <name key='Díaz de la Peña, Eugenio' type='person' role='cmp'>Díaz de la Peña, Eugenio</name>
+        <name key='Rossini, Gioachino' type='person' role='cmp'>Rossini, Gioachino</name>
+        <name key='Halévy, Fromental' type='person' role='cmp'>Halévy, Fromental</name>
+        <name key='Ketten, Léopold' type='person' role='cmp'>Ketten, Léopold</name>
+        <name key='Händel, Georg Friedrich' type='person' role='cmp'>Händel, Georg Friedrich</name>
+        <name key='Gounod, Charles-François' type='person' role='cmp'>Gounod, Charles-François</name>
+        <name key='Thomas, Ambroise' type='person' role='cmp'>Thomas, Ambroise</name>
+        <name key='Meyerbeer, Giacomo' type='person' role='cmp'>Meyerbeer, Giacomo</name>
+        <name key='Liszt, Franz' type='person' role='cmp'>Liszt, Franz</name>
+        <title/>
+        <placeName key='Genève, Salle du Conservatoire'/>
+        <page><![CDATA[﻿SALLE DU CONSERVATOIRE
 Ouverture des portes à 7 heures
 Mercredi 5 Mars 1879
 On commencera à 8 heures
@@ -92,8 +100,7 @@ marchands de musique.
 Le piano sort des ateliers de la maison PLEYEL, WOLFF et C°, rue Rochechouart, Paris.
 r.-nève.— lmp. A.-K. KALK.—8, Cons.-Gôn.
 ]]></page>
-       
-        </p>
+      </p>
     </body>
   </text>
 </TEI>

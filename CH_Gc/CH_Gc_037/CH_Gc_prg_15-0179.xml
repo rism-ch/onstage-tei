@@ -1,79 +1,87 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>HEMU Conservatoire de Genève - Programme de concert</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Paolo Boschetti</persName>
-                    <persName>Laurent Pugin</persName>
-                    <persName>Violeta Struijk van Bergen</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <date when="2016-01">Janvier 2016</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gc</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>HEMU Conservatoire de Genève - Programme de concert</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Paolo Boschetti</persName>
+            <persName>Laurent Pugin</persName>
+            <persName>Violeta Struijk van Bergen</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <date when='2016-01'>Janvier 2016</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gc</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Saison 1928-1929<date when="19281201">01/12/1928</date></title>
-<series>Saison 1928-1929</series>
-<placeName>Genève, Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Saison 1928-1929
+            <date when='19281201'>01/12/1928</date>
+          </title>
+          <series>Saison 1928-1929</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+        </bibl>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <pb facs="Gc_prg/CH_Gc_prg_15/pyr_CH_Gc_prg_15-0179.tif"/>
-<date when="19281201"/>
-<name key="Scott, Cyril" type="person" role="cmp">Scott, Cyril</name>
-<name key="Skrjabin, Aleksandr Nikolaevič" type="person" role="cmp">Aleksandr Nikolaevič Skrjabin</name>
-<name key="Borodin, Alexandr Porfir'evič" type="person" role="cmp">Alexandr Porfir'evič Borodin</name>
-<name key="Godowsky, Leopold" type="person" role="cmp">Godowsky, Leopold</name>
-<name key="Moszkowski, Moritz" type="person" role="cmp">Moszkowski, Moritz</name>
-<name key="Beethoven, Ludwig van" type="person" role="cmp">Ludwig van Beethoven</name>
-<name key="Glazunov, Aleksandr Konstantinovič" type="person" role="cmp">Aleksandr Konstantinovič Glazunov</name>
-<name key="Glinka, Michail Ivanovič" type="person" role="cmp">Mihail Ivanovič Glinka</name>
-<name key="Grieg, Edvard" type="person" role="cmp">Grieg, Edvard</name>
-<name key="Dargomyžskij, Aleksandr Sergeevič" type="person" role="cmp">Aleksandr Sergeevič Dargomyžskij</name>
-<name key="Ippolitov-Ivanov, Michail Michajlovič" type="person" role="cmp">Ippolitov-Ivanov, Mikhail</name>
-<name key="Koennemann, Miloslav" type="person" role="cmp">Koennemann, Miloslaw</name>
-<name key="Koreshchenko, Arseny" type="person" role="cmp">Koreshchenko, Arseny</name>
-<name key="Lichine" type="person" role="cmp">Lichine</name>
-<name key="Malashkin, Leonid" type="person" role="cmp">Malashkin, Leonid</name>
-<name key="Mozart, Wolfgang Amadeus" type="person" role="cmp">Wolfgang Amadeus Mozart</name>
-<name key="Musorgskij, Modest Petrovič" type="person" role="cmp">Modest Petrovič Musorgskij</name>
-<name key="Rimskij-Korsakov, Nikolaj Andreevič" type="person" role="cmp">Nikolay Andreyevich Rimsky-Korsakov</name>
-<name key="Rubinstein, Anton" type="person" role="cmp">Anton Grigor´evič Rubinštejn</name>
-<name key="Sakhnovsky, Yuri Sergeevich" type="person" role="cmp">Yuri Sergeevich Sakhnovsky</name>
-<name key="Čajkovskij, Pëtr Il'ič" type="person" role="cmp">Pëtr Il'ič Čajkovskij</name>
-<name key="Schubert, Franz" type="person" role="cmp">Schubert, Franz</name>
-<name key="Schumann, Robert" type="person" role="cmp">Schumann, Robert</name><title>Saison 1928-1929</title>
-<placeName key="Genève, Victoria Hall"/>
-<name key="Saison 1928-1929" type="series"/>
-<page><![CDATA[﻿]]></page>
-<pb facs="Gc_prg/CH_Gc_prg_15/pyr_CH_Gc_prg_15-0180.tif"/>
-<page><![CDATA[﻿VICTORIA - HALL - GENEVE
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <pb facs='Gc_prg/CH_Gc_prg_15/pyr_CH_Gc_prg_15-0179.tif'/>
+        <date when='19281201'/>
+        <name key='Scott, Cyril' type='person' role='cmp'>Scott, Cyril</name>
+        <name key='Skrjabin, Aleksandr Nikolaevič' type='person' role='cmp'>Skrjabin, Aleksandr Nikolaevič</name>
+        <name key='Borodin, Alexandr Porfir&apos;evič' type='person' role='cmp'>Borodin, Alexandr Porfir&apos;evič</name>
+        <name key='Godowsky, Leopold' type='person' role='cmp'>Godowsky, Leopold</name>
+        <name key='Moszkowski, Moritz' type='person' role='cmp'>Moszkowski, Moritz</name>
+        <name key='Beethoven, Ludwig van' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Glazunov, Aleksandr Konstantinovič' type='person' role='cmp'>Glazunov, Aleksandr Konstantinovič</name>
+        <name key='Glinka, Michail Ivanovič' type='person' role='cmp'>Glinka, Michail Ivanovič</name>
+        <name key='Grieg, Edvard' type='person' role='cmp'>Grieg, Edvard</name>
+        <name key='Dargomyžskij, Aleksandr Sergeevič' type='person' role='cmp'>Dargomyžskij, Aleksandr Sergeevič</name>
+        <name key='Ippolitov-Ivanov, Michail Michajlovič' type='person' role='cmp'>Ippolitov-Ivanov, Michail Michajlovič</name>
+        <name key='Koennemann, Miloslav' type='person' role='cmp'>Koennemann, Miloslaw</name>
+        <name key='Koreshchenko, Arseny' type='person' role='cmp'>Koreshchenko, Arseny</name>
+        <name key='Lichine' type='person' role='cmp'>Lichine</name>
+        <name key='Malashkin, Leonid' type='person' role='cmp'>Malashkin, Leonid</name>
+        <name key='Mozart, Wolfgang Amadeus' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Musorgskij, Modest Petrovič' type='person' role='cmp'>Musorgskij, Modest Petrovič</name>
+        <name key='Rimskij-Korsakov, Nikolaj Andreevič' type='person' role='cmp'>Rimskij-Korsakov, Nikolaj Andreevič</name>
+        <name key='Rubinštejn, Anton Grigor&apos;evič' type='person' role='cmp'>Rubinštejn, Anton Grigor&apos;evič</name>
+        <name key='Sakhnovsky, Yuri Sergeevich' type='person' role='cmp'>Sakhnovsky, Yuri Sergeevich</name>
+        <name key='Čajkovskij, Pëtr Il&apos;ič' type='person' role='cmp'>Čajkovskij, Pëtr Il&apos;ič</name>
+        <name key='Schubert, Franz' type='person' role='cmp'>Schubert, Franz</name>
+        <name key='Schumann, Robert' type='person' role='cmp'>Schumann, Robert</name>
+        <title>Saison 1928-1929</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <page><![CDATA[﻿]]></page>
+        <pb facs='Gc_prg/CH_Gc_prg_15/pyr_CH_Gc_prg_15-0180.tif'/>
+        <page><![CDATA[﻿VICTORIA - HALL - GENEVE
        ïamedi 1er décembre 1928, à 20 heures et demia
        T^ocation au Magasin Je jMimque NAVILLE & C'e Anqle Passage des Lions - Rue de la Confédération]]></page>
-<pb facs="Gc_prg/CH_Gc_prg_15/pyr_CH_Gc_prg_15-0181.tif"/>
-<page><![CDATA[﻿SOLE AGENT FOR SWITZERLAND DES MANTEAUX AQUASCUTUM
+        <pb facs='Gc_prg/CH_Gc_prg_15/pyr_CH_Gc_prg_15-0181.tif'/>
+        <page><![CDATA[﻿SOLE AGENT FOR SWITZERLAND DES MANTEAUX AQUASCUTUM
 
 ■w
 Quelques mots sur Chaliapine^
@@ -87,8 +95,8 @@ FÉODOR 1VAN0VITCH CHALIAPINE, te 3 plus grand des artistes lyriques et dramatiq
       On ne revit plus Chaliapines en Europe jusqu'en octobres uj2i, lorsqu enfin le j gouvernement des Soviets le laissa partir pour l’étranger’ ou il donnait une série de concerts en faveur de la Russie affamée par la disette. Sa première réapparition à l’Albert Hall, devant un auditoire enthousiasmé, ne sera jamais oubliées. Son entrée en scène fut le signal d’applaudissements qui durèrent de longues minutes.
       Au Metropolitan; Opéra de New-York, le 9 décembres 1921, Chaliapines fil sa première réapparition dans « Boris Godounow. » Ce fut une entrée sensationnelles et loule la critique fut unanimey à louer son jeu : « Chaliapines est un arhsle au superlatif , nonj seulement grand chanteur, mais aussi grand acteur'’.»
       Chaliapines demande que ses auditeurs saisissent bien le sens des paroles do ses chants tels qu’il les prononces s’ils désirent jouir pleinement de son art. Car, dans son opinion, personne ne devrait écouter un chant dont les mots seiaient en langue étrangère, à moins qu’on ne comprenne les motifs qui ont inspiré le compositeur’.	G. T.]]></page>
-<pb facs="Gc_prg/CH_Gc_prg_15/pyr_CH_Gc_prg_15-0182.tif"/>
-<page><![CDATA[﻿CHALIAPim
+        <pb facs='Gc_prg/CH_Gc_prg_15/pyr_CH_Gc_prg_15-0182.tif'/>
+        <page><![CDATA[﻿CHALIAPim
 a confié la reproduction de son art
 (Bons Godounov - Don Quichotte - Chants)
 exclusivement à
@@ -129,8 +137,8 @@ Chanson de Danse moscovite (83)...........      Chan.wn populaire
 Le Chanteur (101)........................       A. Rubinstein        
 Le Prince Igor, air du Khan Kontchak (io5). .   A. Borodine          
        * Voir plus loin ta traduction des telles chantés. Pour faciliter ta mise en page, les mélodies n’onl pas été classées dane l’ordre numérique.]]></page>
-<pb facs="Gc_prg/CH_Gc_prg_15/pyr_CH_Gc_prg_15-0183.tif"/>
-<page><![CDATA[﻿T A / L L e U R
+        <pb facs='Gc_prg/CH_Gc_prg_15/pyr_CH_Gc_prg_15-0183.tif'/>
+        <page><![CDATA[﻿T A / L L e U R
 3 M 0 L A R D
  (y- e n ève
          Ce Concert est donne avec le concours du l*ianiste
@@ -151,8 +159,8 @@ III. a) Au Couvent.............................. Borodine
 c)	Etude.................................... Moszkowsky
   M. lia v Kaltinou itcli.
 IV. Féodor <11 A 1,1 APISK.]]></page>
-<pb facs="Gc_prg/CH_Gc_prg_15/pyr_CH_Gc_prg_15-0184.tif"/>
-<page><![CDATA[﻿TRADUCTIONS
+        <pb facs='Gc_prg/CH_Gc_prg_15/pyr_CH_Gc_prg_15-0184.tif'/>
+        <page><![CDATA[﻿TRADUCTIONS
 N° ..
 Laisse-moi sous la pierre tombale
 Paroleà de Ai. Slonoff.
@@ -212,8 +220,8 @@ par Serge Kournakotf.
      Depuis tout le temps que je vis
      Je n'ai vu, pas même en songe
 Sur des seaux une paire d'éperons ! » (bis).]]></page>
-<pb facs="Gc_prg/CH_Gc_prg_15/pyr_CH_Gc_prg_15-0185.tif"/>
-<page><![CDATA[﻿
+        <pb facs='Gc_prg/CH_Gc_prg_15/pyr_CH_Gc_prg_15-0185.tif'/>
+        <page><![CDATA[﻿
 N° 10.
 La Revue «le nu il
 F antaisie.
@@ -293,8 +301,8 @@ S’en fut le petit employé
 Et passa toute la nuit dans un bouge...
 Dans les lourdes fumées de l ivresse Il revit la fille du général...
 Qu’est-ce... que... la fille... d’un gé... né.. .rai... ?]]></page>
-<pb facs="Gc_prg/CH_Gc_prg_15/pyr_CH_Gc_prg_15-0186.tif"/>
-<page><![CDATA[﻿L assortiment completdes
+        <pb facs='Gc_prg/CH_Gc_prg_15/pyr_CH_Gc_prg_15-0186.tif'/>
+        <page><![CDATA[﻿L assortiment completdes
 EST EN VENTE CHEZ
 SAUTIER Sl JAEC5ER
 PIANOS, DISQUES, GRAMOPHONES la, FVSTERIE, i, - GENÈVE
@@ -375,8 +383,8 @@ Sur les courtines du jardin défeuillé Toutes les fleurs sont fanées à jamais
 Nous sommes seuls, je me tais, triste et morne, Tu réponds par un sombre silence...
 Pas une flamme dans mon cœur épuisé !
 Car les fleurs sont fanées à jamais...]]></page>
-<pb facs="Gc_prg/CH_Gc_prg_15/pyr_CH_Gc_prg_15-0187.tif"/>
-<page><![CDATA[﻿Joli» POCHELON
+        <pb facs='Gc_prg/CH_Gc_prg_15/pyr_CH_Gc_prg_15-0187.tif'/>
+        <page><![CDATA[﻿Joli» POCHELON
   •Joaillier - Orfèvre
   expose
  à la rue du Rliône, n° 7
@@ -442,8 +450,8 @@ Quand le lfoi s’en lut en guerre
   Quant Jeannot lut mis en terre La brise seule dit une prière Et sonna le glas du pauvre manant Avec une mauve clochette de chant...
   Disque “ La voix de son Alailre” D B 101.
 B-]]></page>
-<pb facs="Gc_prg/CH_Gc_prg_15/pyr_CH_Gc_prg_15-0188.tif"/>
-<page><![CDATA[﻿o
+        <pb facs='Gc_prg/CH_Gc_prg_15/pyr_CH_Gc_prg_15-0188.tif'/>
+        <page><![CDATA[﻿o
 Maison (1li. BËRGI ER
 à la rue Petltot, n° 11
 Représentation principale pour Cienève de
@@ -524,8 +532,8 @@ Traduit	Alusique de Aloussorgsky.
       Tout le monde s’en alla tranquillement,
       Et seules, sur la tombe, courbées,
       Les feuilles bruissaient tristement.]]></page>
-<pb facs="Gc_prg/CH_Gc_prg_15/pyr_CH_Gc_prg_15-0189.tif"/>
-<page><![CDATA[﻿ N° 34.
+        <pb facs='Gc_prg/CH_Gc_prg_15/pyr_CH_Gc_prg_15-0189.tif'/>
+        <page><![CDATA[﻿ N° 34.
      La Chanson «le la I*nee
        Par Gœlbe,
 Traduit	Æuôique de JH. JHouééorgêky.
@@ -594,8 +602,8 @@ Si tu veux que mon âme déverse Mon amour tout entier dans tes yeux,
 Viens, ô viens près de moi...
 Dans l’ombre nocturne...
 Si seulement cela pouvait durer... (bià).]]></page>
-<pb facs="Gc_prg/CH_Gc_prg_15/pyr_CH_Gc_prg_15-0190.tif"/>
-<page><![CDATA[﻿Féodor chaliapine
+        <pb facs='Gc_prg/CH_Gc_prg_15/pyr_CH_Gc_prg_15-0190.tif'/>
+        <page><![CDATA[﻿Féodor chaliapine
 DANS « MépHISTO » DE BoÏTO
 DANS « RüSSLAN ET LuDMILI.A » DE GlINKA
 dans « Khovanchtchina »
@@ -672,8 +680,8 @@ Mon ami ! silence ! nul soupir.
 Maintenant nous devons nous taire :
 Songe que la tombe les voit qui s inclinent Les verts rameaux pleureurs du saule,
 Les verts rameaux pleureurs du saule !]]></page>
-<pb facs="Gc_prg/CH_Gc_prg_15/pyr_CH_Gc_prg_15-0191.tif"/>
-<page><![CDATA[﻿ANTECLA
+        <pb facs='Gc_prg/CH_Gc_prg_15/pyr_CH_Gc_prg_15-0191.tif'/>
+        <page><![CDATA[﻿ANTECLA
   FABRIQUE DE MACHINES PARLANTES
  SAINTE-CROIX et GENÈVE
                   présente en son magasin, au centre du Passage des Lions, ses nouveaux modèles 1929 et ses dernières créations
@@ -749,8 +757,8 @@ Les Deux 4*rena«Iiers
  J ai mon Empereur à défendre !
   Didijue “La Voix de ton Ataître ” D B g33.
 ★	★ ★]]></page>
-<pb facs="Gc_prg/CH_Gc_prg_15/pyr_CH_Gc_prg_15-0192.tif"/>
-<page><![CDATA[﻿JLES PLUS BEAUX SACS
+        <pb facs='Gc_prg/CH_Gc_prg_15/pyr_CH_Gc_prg_15-0192.tif'/>
+        <page><![CDATA[﻿JLES PLUS BEAUX SACS
 ARTICLES DE VOYAGE
 4, Place Bel~A îr et Rue du Rhône, 58
 GENÈVE
@@ -809,8 +817,8 @@ Chanson des Itateliers de la Volga
     ÏÏLvfue “ La Voix de oon Jtailre " D H io5.
 ★ ★ ★
 t C--]]></page>
-<pb facs="Gc_prg/CH_Gc_prg_15/pyr_CH_Gc_prg_15-0193.tif"/>
-<page><![CDATA[﻿31, quai des Bergues, 31 TAPIS D’OItlEJtfT
+        <pb facs='Gc_prg/CH_Gc_prg_15/pyr_CH_Gc_prg_15-0193.tif'/>
+        <page><![CDATA[﻿31, quai des Bergues, 31 TAPIS D’OItlEJtfT
         €* e u è v e
 \s.
 (I
@@ -885,8 +893,8 @@ Paroleô et muôique de A. Borodine.
      Les Khans ont, par leur vaillance Scellé l’alliance.
      Tout F univers nous est soumis.
      Il n est pour nous plus d’ennemis.]]></page>
-<pb facs="Gc_prg/CH_Gc_prg_15/pyr_CH_Gc_prg_15-0194.tif"/>
-<page><![CDATA[﻿  bureau de location magasin de musique naville et eie, angle rn&/Æffî\sy£onfédération-passage des lions, tous letif/jonrs ouvrable* de 9 heures à midi et de 13 %. ÜO à 18 heures.
+        <pb facs='Gc_prg/CH_Gc_prg_15/pyr_CH_Gc_prg_15-0194.tif'/>
+        <page><![CDATA[﻿  bureau de location magasin de musique naville et eie, angle rn&/Æffî\sy£onfédération-passage des lions, tous letif/jonrs ouvrable* de 9 heures à midi et de 13 %. ÜO à 18 heures.
   les places retenues par téléphone (stand 0.491) «loivent être retirées dans l«^s «jiiarante-huit heures au plus tar«l le jour du concert à mi«li ; passé ce «lélai elles seront remises en vent© et cela sans réclamation possible. l«*s billets ne sont pas envoyés contre rémbourseraeiit ; toute «lemaiule doit être accompagnée «le son montant versé amfeompte de chèques postaux ï. 51473.
   la personne chargée «le la locati«»n a l’or«lr«» formel de ne repiTiuliM' aueiin billet. Co
 Mb
@@ -899,10 +907,9 @@ VIDOUDEZ
 LUTHIER DU C O A S E R VA T O I R E
  RUE GÉNÉRAL DUFOUR, 22 - GENÈVE
 ]]></page>
-<pb facs="Gc_prg/CH_Gc_prg_15/pyr_CH_Gc_prg_15-0195.tif"/>
-<page><![CDATA[﻿Conservatoire de Musique Genève]]></page>
-       
-        </p>
+        <pb facs='Gc_prg/CH_Gc_prg_15/pyr_CH_Gc_prg_15-0195.tif'/>
+        <page><![CDATA[﻿Conservatoire de Musique Genève]]></page>
+      </p>
     </body>
   </text>
 </TEI>

@@ -1,83 +1,92 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>BASEL</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Laurent Pugin</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <date when="2016-01">Janvier 2016</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_famb</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>BASEL</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Laurent Pugin</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <date when='2016-01'>Janvier 2016</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_famb</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert<date when="20100613">13/06/2010</date></title>
-<series>Concert</series>
-<placeName>Basel, Reithalle der Kaserne Basel</placeName>
-<orgName role="holding">Archiv des Vereins Freunde alter Musik Basel; <link target="http://famb.ch/"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Concert
+            <date when='20100613'>13/06/2010</date>
+          </title>
+          <series>Concert</series>
+          <placeName>Basel, Reithalle der Kaserne Basel</placeName>
+          <orgName role='holding'>
+            Archiv des Vereins Freunde alter Musik Basel; 
+            <link target='http://famb.ch/'/>
+          </orgName>
+        </bibl>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <pb facs="CH_Bm_prg/pyr_CH_Bm_prg-2825.tif"/>
-<date when="20100613"/>
-<name key="Purcell, Henry" type="person" role="cmp">Purcell, Henry</name>
-<name key="Weelkes, Thomas" type="person" role="cmp">Weelkes, Thomas</name>
-<name key="Tomkins, Thomas" type="person" role="cmp">Tomkins, Thomas</name>
-<name key="Lawes, William" type="person" role="cmp">Lawes, William</name>
-<name key="Anonymus" type="person" role="cmp">Anonymus</name><name key="Mahler, Anna-Sophie" type="person" role="int">Mahler, Anna-Sophie</name>
-<name key="Rooley, Anthony" type="person" role="int">Rooley, Anthony</name>
-<name key="Brüderlin, Boris" type="person" role="int">Brüderlin, Boris</name>
-<name key="Bischoff, Duri" type="person" role="int">Bischoff, Duri</name>
-<name key="Egli, Mirjam" type="person" role="int">Egli, Mirjam</name>
-<name key="Dubach, Brigitte" type="person" role="int">Dubach, Brigitte</name>
-<name key="Abelein, Susanne" type="person" role="int">Abelein, Susanne</name>
-<name key="Dieterle, Christian" type="person" role="int">Dieterle, Christian</name>
-<name key="Douglas, Thomas" type="person" role="int">Douglas, Thomas</name>
-<name key="Störmer, Cathrin" type="person" role="int">Störmer, Cathrin</name>
-<name key="Horsewood, Adrian" type="person" role="int">Horsewood, Adrian</name>
-<name key="Järveläinen, Hanna" type="person" role="int">Järveläinen, Hanna</name>
-<name key="Macoboy, Kate" type="person" role="int">Macoboy, Kate</name>
-<name key="Mikkonen, Yulia" type="person" role="int">Mikkonen, Yulia</name>
-<name key="Mota, Tiago" type="person" role="int">Mota, Tiago</name>
-<name key="Munderloh, David" type="person" role="int">Munderloh, David</name>
-<name key="Stelzenmüller, Ralph" type="person" role="int">Stelzenmüller, Ralph</name>
-<name key="Bauer, Markus" type="person" role="int">Bauer, Markus</name>
-<name key="Hess, Christina" type="person" role="int">Hess, Christina</name>
-<name key="Picon, Olivier" type="person" role="int">Picon, Olivier</name>
-<name key="Wood, Nathaniel" type="person" role="int">Wood, Nathaniel</name>
-<name key="Wada, Kentaro" type="person" role="int">Wada, Kentaro</name>
-<name key="Santos, Hiram" type="person" role="int">Santos, Hiram</name>
-<name key="Vicens, Catalina" type="person" role="int">Vicens, Catalina</name>
-<name key="Drescher, Susanna" type="person" role="int">Drescher, Susanna</name>
-<name key="Ettlin, Donata" type="person" role="int">Ettlin, Donata</name>
-<name key="Olloz, Florian" type="person" role="int">Olloz, Florian</name><title>Concert</title>
-<placeName key="Basel, Reithalle der Kaserne Basel"/>
-<name key="Concert" type="series"/>
-<page><![CDATA[������������A]]></page>
-<pb facs="CH_Bm_prg/pyr_CH_Bm_prg-2826.tif"/>
-<page><![CDATA[����C]]></page>
-       
-        </p>
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <pb facs='CH_Bm_prg/pyr_CH_Bm_prg-2825.tif'/>
+        <date when='20100613'/>
+        <name key='Purcell, Henry' type='person' role='cmp'>Purcell, Henry</name>
+        <name key='Weelkes, Thomas' type='person' role='cmp'>Weelkes, Thomas</name>
+        <name key='Tomkins, Thomas' type='person' role='cmp'>Tomkins, Thomas</name>
+        <name key='Lawes, William' type='person' role='cmp'>Lawes, William</name>
+        <name key='Anonymus' type='person' role='cmp'>Anonymus</name>
+        <name key='Mahler, Anna-Sophie' type='person' role='int'>Mahler, Anna-Sophie</name>
+        <name key='Rooley, Anthony' type='person' role='int'>Rooley, Anthony</name>
+        <name key='Brüderlin, Boris' type='person' role='int'>Brüderlin, Boris</name>
+        <name key='Bischoff, Duri' type='person' role='int'>Bischoff, Duri</name>
+        <name key='Egli, Mirjam' type='person' role='int'>Egli, Mirjam</name>
+        <name key='Dubach, Brigitte' type='person' role='int'>Dubach, Brigitte</name>
+        <name key='Abelein, Susanne' type='person' role='int'>Abelein, Susanne</name>
+        <name key='Dieterle, Christian' type='person' role='int'>Dieterle, Christian</name>
+        <name key='Douglas, Thomas' type='person' role='int'>Douglas, Thomas</name>
+        <name key='Störmer, Cathrin' type='person' role='int'>Störmer, Cathrin</name>
+        <name key='Horsewood, Adrian' type='person' role='int'>Horsewood, Adrian</name>
+        <name key='Järveläinen, Hanna' type='person' role='int'>Järveläinen, Hanna</name>
+        <name key='Macoboy, Kate' type='person' role='int'>Macoboy, Kate</name>
+        <name key='Mikkonen, Yulia' type='person' role='int'>Mikkonen, Yulia</name>
+        <name key='Mota, Tiago' type='person' role='int'>Mota, Tiago</name>
+        <name key='Munderloh, David' type='person' role='int'>Munderloh, David</name>
+        <name key='Stelzenmüller, Ralph' type='person' role='int'>Stelzenmüller, Ralph</name>
+        <name key='Bauer, Markus' type='person' role='int'>Bauer, Markus</name>
+        <name key='Hess, Christina' type='person' role='int'>Hess, Christina</name>
+        <name key='Picon, Olivier' type='person' role='int'>Picon, Olivier</name>
+        <name key='Wood, Nathaniel' type='person' role='int'>Wood, Nathaniel</name>
+        <name key='Wada, Kentaro' type='person' role='int'>Wada, Kentaro</name>
+        <name key='Santos, Hiram' type='person' role='int'>Santos, Hiram</name>
+        <name key='Vicens, Catalina' type='person' role='int'>Vicens, Catalina</name>
+        <name key='Drescher, Susanna' type='person' role='int'>Drescher, Susanna</name>
+        <name key='Ettlin, Donata' type='person' role='int'>Ettlin, Donata</name>
+        <name key='Olloz, Florian' type='person' role='int'>Olloz, Florian</name>
+        <title>Concert</title>
+        <placeName key='Basel, Reithalle der Kaserne Basel'/>
+        <name key='Concerts' type='series'/>
+        <page><![CDATA[������������A]]></page>
+        <pb facs='CH_Bm_prg/pyr_CH_Bm_prg-2826.tif'/>
+        <page><![CDATA[����C]]></page>
+      </p>
     </body>
   </text>
 </TEI>

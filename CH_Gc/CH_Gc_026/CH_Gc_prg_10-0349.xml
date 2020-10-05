@@ -1,92 +1,101 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>HEMU Conservatoire de Genève - Programme de concert</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Paolo Boschetti</persName>
-                    <persName>Laurent Pugin</persName>
-                    <persName>Violeta Struijk van Bergen</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <date when="2016-01">Janvier 2016</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gc</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>HEMU Conservatoire de Genève - Programme de concert</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Paolo Boschetti</persName>
+            <persName>Laurent Pugin</persName>
+            <persName>Violeta Struijk van Bergen</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <date when='2016-01'>Janvier 2016</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gc</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Dix concerts d'abonnement<date when="19161104">04/11/1916</date></title>
-<series>Dix concerts d'abonnement</series>
-<placeName>Genève, Théâtre de la ville</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            Dix concerts d'abonnement
+            <date when='19161104'>04/11/1916</date>
+          </title>
+          <series>Dix concerts d'abonnement</series>
+          <placeName>Genève, Théâtre de la ville</placeName>
+          <orgName role='holding'>
+            Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+        </bibl>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <pb facs="Gc_prg/CH_Gc_prg_10/pyr_CH_Gc_prg_10-0349.tif"/>
-<date when="19161104"/>
-<date when="19161118"/>
-<date when="19161202"/>
-<date when="19161216"/>
-<date when="19170113"/>
-<date when="19170127"/>
-<date when="19170210"/>
-<date when="19170224"/>
-<date when="19170310"/>
-<date when="19170324"/>
-<name key="Mozart, Wolfgang Amadeus" type="person" role="cmp">Wolfgang Amadeus Mozart</name>
-<name key="Haydn, Joseph" type="person" role="cmp">Haydn, Joseph</name>
-<name key="Falla, Manuel de" type="person" role="cmp">Manuel de Falla</name>
-<name key="Balakirev, Milij Alekseevič" type="person" role="cmp">Milij Alexeïevitch Balakirev</name>
-<name key="Dittersdorf, Carl Ditters von" type="person" role="cmp">Carl Ditters von Dittersdorf</name>
-<name key="Rameau, Jean-Philippe" type="person" role="cmp">Rameau, Jean-Philippe</name>
-<name key="Debussy, Claude" type="person" role="cmp">Debussy, Claude</name>
-<name key="Borodin, Alexandr Porfir'evič" type="person" role="cmp">Alexandr Porfir'evič Borodin</name>
-<name key="Lalo, Edouard" type="person" role="cmp">Lalo, Edouard</name>
-<name key="Stravinskij, Igor' Fëdorovič" type="person" role="cmp">Igor' Fëdorovič Stravinskij</name>
-<name key="Wagner, Richard" type="person" role="cmp">Wagner, Richard</name>
-<name key="Beethoven, Ludwig van" type="person" role="cmp">Ludwig van Beethoven</name>
-<name key="Gluck, Christoph Willibald" type="person" role="cmp">Christoph Willibald Gluck</name>
-<name key="Ravel, Maurice" type="person" role="cmp">Ravel, Maurice</name>
-<name key="Rimskij-Korsakov, Nikolaj Andreevič" type="person" role="cmp">Nikolay Andreyevich Rimsky-Korsakov</name>
-<name key="Bach, Carl Philipp Emmanuel" type="person" role="cmp">Carl Philipp Emanuel Bach</name>
-<name key="Senger, Hugo de" type="person" role="cmp">Hugo de Senger</name>
-<name key="Rachmaninov, Sergej Vasil'evič" type="person" role="cmp">Sergej Vasil'evič Rachmaninov</name>
-<name key="Astorga, Emanuele d'" type="person" role="cmp">d'Astorga, Emanuele</name>
-<name key="Rosa, Salvator" type="person" role="cmp">Rosa, Salvator</name>
-<name key="Caldara, Antonio" type="person" role="cmp">Caldara, Antonio</name>
-<name key="Durante, Francesco" type="person" role="cmp">Durante, Francesco</name>
-<name key="Turina, Joaquín" type="person" role="cmp">Turina, Joaquín</name>
-<name key="Mahler, Gustav" type="person" role="cmp">Mahler, Gustav</name>
-<name key="Schubert, Franz" type="person" role="cmp">Schubert, Franz</name>
-<name key="Dvořák, Antonín" type="person" role="cmp">Dvořák, Antonín</name>
-<name key="Strauss, Richard" type="person" role="cmp">Strauss, Richard</name>
-<name key="Glazunov, Aleksandr Konstantinovič" type="person" role="cmp">Aleksandr Konstantinovič Glazunov</name>
-<name key="Bach, Johann Sebastian" type="person" role="cmp">Johann Sebastian Bach</name>
-<name key="Blanchet, Emile-Robert" type="person" role="cmp">Blanchet, Emile</name>
-<name key="Musorgskij, Modest Petrovič" type="person" role="cmp">Modest Petrovič Musorgskij</name>
-<name key="Duparc, Henri" type="person" role="cmp">Duparc, Henri</name>
-<name key="Liszt, Franz" type="person" role="cmp">Liszt, Franz</name><title>Dix concerts d'abonnement</title>
-<placeName key="Genève, Théâtre de la ville"/>
-<name key="Dix concerts d'abonnement" type="series"/>
-<page><![CDATA[﻿CONCERTS D ABONNEMENT
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <pb facs='Gc_prg/CH_Gc_prg_10/pyr_CH_Gc_prg_10-0349.tif'/>
+        <date when='19161104'/>
+        <date when='19161118'/>
+        <date when='19161202'/>
+        <date when='19161216'/>
+        <date when='19170113'/>
+        <date when='19170127'/>
+        <date when='19170210'/>
+        <date when='19170224'/>
+        <date when='19170310'/>
+        <date when='19170324'/>
+        <name key='Mozart, Wolfgang Amadeus' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Haydn, Joseph' type='person' role='cmp'>Haydn, Joseph</name>
+        <name key='Falla, Manuel de' type='person' role='cmp'>Falla, Manuel de</name>
+        <name key='Balakirev, Milij Alekseevič' type='person' role='cmp'>Balakirev, Milij Alekseevič</name>
+        <name key='Dittersdorf, Carl Ditters von' type='person' role='cmp'>Dittersdorf, Carl Ditters von</name>
+        <name key='Rameau, Jean-Philippe' type='person' role='cmp'>Rameau, Jean-Philippe</name>
+        <name key='Debussy, Claude' type='person' role='cmp'>Debussy, Claude</name>
+        <name key='Borodin, Alexandr Porfir&apos;evič' type='person' role='cmp'>Borodin, Alexandr Porfir&apos;evič</name>
+        <name key='Lalo, Edouard' type='person' role='cmp'>Lalo, Edouard</name>
+        <name key='Stravinskij, Igor&apos; Fëdorovič' type='person' role='cmp'>Stravinskij, Igor&apos; Fëdorovič</name>
+        <name key='Wagner, Richard' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Beethoven, Ludwig van' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Gluck, Christoph Willibald' type='person' role='cmp'>Gluck, Christoph Willibald</name>
+        <name key='Ravel, Maurice' type='person' role='cmp'>Ravel, Maurice</name>
+        <name key='Rimskij-Korsakov, Nikolaj Andreevič' type='person' role='cmp'>Rimskij-Korsakov, Nikolaj Andreevič</name>
+        <name key='Bach, Carl Philipp Emanuel' type='person' role='cmp'>Bach, Carl Philipp Emanuel</name>
+        <name key='Senger, Franz Ludwig Hugo von' type='person' role='cmp'>Senger, Franz Ludwig Hugo von</name>
+        <name key='Rachmaninov, Sergej Vasil&apos;evič' type='person' role='cmp'>Rachmaninov, Sergej Vasil&apos;evič</name>
+        <name key='Astorga, Emanuele d&apos;' type='person' role='cmp'>Astorga, Emanuele d&apos;</name>
+        <name key='Rosa, Salvator' type='person' role='cmp'>Rosa, Salvator</name>
+        <name key='Caldara, Antonio' type='person' role='cmp'>Caldara, Antonio</name>
+        <name key='Durante, Francesco' type='person' role='cmp'>Durante, Francesco</name>
+        <name key='Turina, Joaquín' type='person' role='cmp'>Turina, Joaquín</name>
+        <name key='Mahler, Gustav' type='person' role='cmp'>Mahler, Gustav</name>
+        <name key='Schubert, Franz' type='person' role='cmp'>Schubert, Franz</name>
+        <name key='Dvořák, Antonín' type='person' role='cmp'>Dvořák, Antonín</name>
+        <name key='Strauss, Richard' type='person' role='cmp'>Strauss, Richard</name>
+        <name key='Glazunov, Aleksandr Konstantinovič' type='person' role='cmp'>Glazunov, Aleksandr Konstantinovič</name>
+        <name key='Bach, Johann Sebastian' type='person' role='cmp'>Bach, Johann Sebastian</name>
+        <name key='Blanchet, Emile-Robert' type='person' role='cmp'>Blanchet, Emile-Robert</name>
+        <name key='Musorgskij, Modest Petrovič' type='person' role='cmp'>Musorgskij, Modest Petrovič</name>
+        <name key='Duparc, Henri' type='person' role='cmp'>Duparc, Henri</name>
+        <name key='Liszt, Franz' type='person' role='cmp'>Liszt, Franz</name>
+        <title>Dix concerts d'abonnement</title>
+        <placeName key='Genève, Théâtre de la ville'/>
+        <name key='Abonnements' type='series'/>
+        <page><![CDATA[﻿CONCERTS D ABONNEMENT
                                                                                                              Gencve, octobre iyi6.
         M
 PlNSi qu’il le fait chaque année à pareille époque, le Comité des Concerts d’abonnement a l’honneur de vous présenter ci-contre le programme général des concerts pour l’hiver 1916-17.
@@ -103,8 +112,8 @@ AVIS IMPORTANT
       On peut retenir ses places par correspondance. Prière, dans ce cas, de donner l’adresse exacte.
       Les cartes devront être retirées avant le 1er NOVEMBRE. Passé cette date, le Comité se réserve de disposer des places qui n’auraient pas été retirées.
       Les RÉPÉTITIONS GÉNÉRALES sont publiques ; elles ont lieu au Théâtre le jour de chaque concert, à 1 heure. Il est ouvert un abonnement à ces répétitions à raison de 15 FRANCS. — En outre, des cartes de 2 FRANCS pour une seule répétition seront mises en vente au bureau de location.]]></page>
-<pb facs="Gc_prg/CH_Gc_prg_10/pyr_CH_Gc_prg_10-0350.tif"/>
-<page><![CDATA[﻿PROGRAMME DES CONCERTS
+        <pb facs='Gc_prg/CH_Gc_prg_10/pyr_CH_Gc_prg_10-0350.tif'/>
+        <page><![CDATA[﻿PROGRAMME DES CONCERTS
                                          4* 4e 4*
                         Premier Concert. — Samedi jj novembre kji6.
                                Soliste : M. Ricardo Vinès, pianiste de Paris.
@@ -172,8 +181,8 @@ a.	t ANTAISIE pour p.ano et orchestre	^ INTERMÈDE. — AUX ÉTOILES
 5.	CONCERTO en la majeur pour piano et orchestre...... LUzu>
 Le Comité se réserve expressément la faculté d’apporter à ces programmes toutes les modifications
                                         nécessitées par des circonstances imprévues.]]></page>
-<pb facs="Gc_prg/CH_Gc_prg_10/pyr_CH_Gc_prg_10-0351.tif"/>
-<page><![CDATA[﻿DATES DES CONCERTS
+        <pb facs='Gc_prg/CH_Gc_prg_10/pyr_CH_Gc_prg_10-0351.tif'/>
+        <page><![CDATA[﻿DATES DES CONCERTS
 ier Concert . . . . Samedi 4  novembre   1916. 6m,: Concert. .     Samedi 27 janvier 191 7  
 2me _               Samedi 18 novembre   ---        ymt _          Samedi 10  février ---   
 3rae ---            Samedi  2 décembre   ---       8me ---         Samedi 2-f février ---   
@@ -226,8 +235,7 @@ _     _       2 ---    ---            Fauteuils de balcon et strapontins        
  Pour prendre leurs abonnements, les élèves du Conservatoire, de l’Académie de musique et de l’Ecole artistique de violon devront se
  munir d’une carte portant leurs noms, signée par M. le Directeur. Ces cartes étant rigoureusement personnelles, toutes celles qui seraient présentées par d’autres personnes que les titulaires seront retirées au contrôle et l’abonnement sera perdu.
  Le bureau de location sera ouvert pour chaque concert le jour même et toute la semaine où il a lieu.	genéve._ i«r j»rr»*]]></page>
-       
-        </p>
+      </p>
     </body>
   </text>
 </TEI>
