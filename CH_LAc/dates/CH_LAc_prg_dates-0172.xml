@@ -1,75 +1,83 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>HEMU Conservatoire de Lausanne - Programme de concert</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Paolo Boschetti</persName>
-                    <persName>Laurent Pugin</persName>
-                    <persName>Violeta Struijk van Bergen</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <date when="2012-11">Novembre 2012</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_lac</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>HEMU Conservatoire de Lausanne - Programme de concert</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Paolo Boschetti</persName>
+            <persName>Laurent Pugin</persName>
+            <persName>Violeta Struijk van Bergen</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <date when='2012-11'>Novembre 2012</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_lac</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Douzième audition d'élèves <date when="19370430">30 avril 1937</date></title>
-<series>Auditions</series>
-<placeName>Conservatoire de Lausanne</placeName>
-<orgName role="holding">Bibliothèque HEMU-CL;<link target="http://biblio.hemu-cl.ch"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+             Douzième audition d'élèves 
+            <date when='19370430'>30 avril 1937</date>
+          </title>
+          <series>Auditions</series>
+          <placeName>Conservatoire de Lausanne</placeName>
+          <orgName role='holding'>
+             Bibliothèque HEMU-CL; 
+            <link target='http://biblio.hemu-cl.ch'/>
+          </orgName>
+        </bibl>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <pb facs="LAc_prg/CH_LAc_prg_dates/pyr_CH_LAc_prg_dates-0172.tif"/>
-<date when="19370430"/>
-<name key="Weber, Carl Maria von" type="person" role="cmp">Weber</name>
-<name key="Moszkowski, Moritz" type="person" role="cmp">Moszkowski</name>
-<name key="Debussy, Claude" type="person" role="cmp">Debussy</name>
-<name key="Schumann, Robert" type="person" role="cmp">Schumann</name>
-<name key="Verhaeren" type="person" role="var">Verhaeren</name>
-<name key="La Fontaine, Jean de" type="person" role="cmp">La Fontaine</name>
-<name key="Brahms, Johannes" type="person" role="cmp">Brahms</name>
-<name key="Daquin, Louis-Claude" type="person" role="cmp">Daquin</name>
-<name key="Rhené-Baton" type="person" role="cmp">Rhené-Baton</name>
-<name key="Beethoven, Ludwig van" type="person" role="cmp">Beethoven</name>
-<name key="Saint-Saëns, Camille" type="person" role="cmp">St-Saëns</name>
-<name key="Fauré, Gabriel" type="person" role="cmp">Fauré</name>
-<name key="Mozart, Wolfgang Amadeus" type="person" role="cmp">Mozart</name>
-<name key="Sinding, Christian" type="person" role="cmp">Sinding</name>
-<name key="Franck, César" type="person" role="cmp">Franck</name>
-<name key="Olivier" type="person" role="prof">Olivier</name>
-<name key="Koëlla, Jean" type="person" role="prof">Koëlla, J.</name>
-<name key="André" type="person" role="prof">André</name>
-<name key="Daulte, Madeleine" type="person" role="prof">Daulte</name>
-<name key="Crousaz, Juliette de" type="person" role="prof">Crousaz, J. de</name>
-<name key="Gamboni, Yvonne" type="person" role="prof">Gamboni</name>
-<name key="Stierlin-Vallon, Henri" type="person" role="prof">Stierlin-Vallon</name>
-<name key="Appia, Edmond" type="person" role="prof">Appia</name>
-<title>Douzième audition d'élèves</title>
-<placeName key="Lausanne, Conservatoire"/>
-<name key="Auditions" type="series"/>
-<note>Annotations manuscrites concernant la qualité d'exécution</note>
-<page><![CDATA[﻿CONSERVATOIRE DE LAUSANNE I
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <pb facs='LAc_prg/CH_LAc_prg_dates/pyr_CH_LAc_prg_dates-0172.tif'/>
+        <date when='19370430'/>
+        <name key='Weber, Carl Maria von' type='person' role='cmp'>Weber</name>
+        <name key='Moszkowski, Moritz' type='person' role='cmp'>Moszkowski</name>
+        <name key='Debussy, Claude' type='person' role='cmp'>Debussy, Claude</name>
+        <name key='Schumann, Robert' type='person' role='cmp'>Schumann, Robert</name>
+        <name key='Verhaeren' type='person' role='var'>Verhaeren</name>
+        <name key='La Fontaine, Jean de' type='person' role='cmp'>La Fontaine</name>
+        <name key='Brahms, Johannes' type='person' role='cmp'>Brahms, Johannes</name>
+        <name key='Daquin, Louis-Claude' type='person' role='cmp'>Daquin, Louis-Claude</name>
+        <name key='Rhené-Baton' type='person' role='cmp'>Rhené-Baton</name>
+        <name key='Beethoven, Ludwig van' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Saint-Saëns, Camille' type='person' role='cmp'>Saint-Saëns, Camille</name>
+        <name key='Fauré, Gabriel' type='person' role='cmp'>Fauré, Gabriel</name>
+        <name key='Mozart, Wolfgang Amadeus' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Sinding, Christian' type='person' role='cmp'>Sinding, Christian</name>
+        <name key='Franck, César' type='person' role='cmp'>Franck, César</name>
+        <name key='Olivier' type='person' role='prof'>Olivier</name>
+        <name key='Koëlla, Jean' type='person' role='prof'>Koëlla, Jean</name>
+        <name key='André' type='person' role='prof'>André</name>
+        <name key='Daulte, Madeleine' type='person' role='prof'>Daulte</name>
+        <name key='Crousaz, Juliette de' type='person' role='prof'>Crousaz, Juliette de</name>
+        <name key='Gamboni, Yvonne' type='person' role='prof'>Gamboni</name>
+        <name key='Stierlin-Vallon, Henri' type='person' role='prof'>Stierlin-Vallon</name>
+        <name key='Appia, Edmond' type='person' role='prof'>Appia</name>
+        <title>Douzième audition d'élèves</title>
+        <placeName key='Lausanne, Conservatoire'/>
+        <name key='Auditions' type='series'/>
+        <note>Annotations manuscrites concernant la qualité d'exécution</note>
+        <page><![CDATA[﻿CONSERVATOIRE DE LAUSANNE I
 INSTITUT DE MUSIQUE
 DIRECTION : C. TROYON Seule Ecole de musique subventionnée par l’Etat de Vaud et la Ville de Lau
 Vendredi 30 avril 1937, à 20 h. 15 précises
@@ -126,8 +134,8 @@ PIANOS A QUEUE DE LA MAISON FOETISCH S. A.
 Imprimerie Vaudolie, Lausanne.
 Ce programme sert de carte d’entrée
 ]]></page>
-<pb facs="LAc_prg/CH_LAc_prg_dates/pyr_CH_LAc_prg_dates-0173.tif"/>
-<page><![CDATA[﻿C/XVEAI
+        <pb facs='LAc_prg/CH_LAc_prg_dates/pyr_CH_LAc_prg_dates-0173.tif'/>
+        <page><![CDATA[﻿C/XVEAI
 PARIS
      Piano à queue
           1 m. 33, depuis Fr. 2.600. -
@@ -136,8 +144,7 @@ PARIS
           Seuls représentants:
 FŒTISCH
         Frères S A. Caroline, 5 LAUSANNE - VEVEY]]></page>
-       
-        </p>
+      </p>
     </body>
   </text>
 </TEI>

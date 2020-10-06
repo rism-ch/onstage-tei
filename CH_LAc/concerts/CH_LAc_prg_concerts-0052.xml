@@ -1,77 +1,85 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>HEMU Conservatoire de Lausanne - Programme de concert</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Paolo Boschetti</persName>
-                    <persName>Laurent Pugin</persName>
-                    <persName>Violeta Struijk van Bergen</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <date when="2012-11">Novembre 2012</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_lac</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>HEMU Conservatoire de Lausanne - Programme de concert</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Paolo Boschetti</persName>
+            <persName>Laurent Pugin</persName>
+            <persName>Violeta Struijk van Bergen</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <date when='2012-11'>Novembre 2012</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_lac</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Echange entre les classes de clavecin des Conservatoire "A. Casella", L'Aquila (Italie), et Conservatoire de Lausanne (Suisse) <date when="19970227">27 février 1997</date></title>
-<series>Concerts</series>
-<placeName>Musée historique de Lausanne</placeName>
-<orgName role="holding">Bibliothèque HEMU-CL;<link target="http://biblio.hemu-cl.ch"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+             Echange entre les classes de clavecin des Conservatoire "A. Casella", L'Aquila (Italie), et Conservatoire de Lausanne (Suisse) 
+            <date when='19970227'>27 février 1997</date>
+          </title>
+          <series>Concerts</series>
+          <placeName>Musée historique de Lausanne</placeName>
+          <orgName role='holding'>
+             Bibliothèque HEMU-CL; 
+            <link target='http://biblio.hemu-cl.ch'/>
+          </orgName>
+        </bibl>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <pb facs="LAc_prg/CH_LAc_prg_concerts/pyr_CH_LAc_prg_concerts-0052.tif"/>
-<date when="19970227"/>
-<name key="Sieni, Maria-Clotilde" type="person" role="prof">Sieni, Maria-Clotilde</name>
-<name key="Sartoretti, Christine" type="person" role="prof">Sartoretti, Christine</name>
-<name key="Rapin, Jean-Jacques" type="person" role="var">Rapin, Jean-Jacques</name>
-<name key="Sieni, Maria-Clotilde" type="person" role="int">Sieni, Maria-Clotilde</name>
-<name key="Sartoretti, Christine" type="person" role="int">Sartoretti, Christine</name>
-<name key="Di Girolamo, Francesco" type="person" role="int">Di Girolamo, Francesco</name>
-<name key="Wetter, Sophie" type="person" role="int">Wetter, Sophie</name>
-<name key="Facchini, Fiammetta" type="person" role="int">Facchini, Fiammetta</name>
-<name key="Lugon, Isabelle" type="person" role="int">Lugon, Isabelle</name>
-<name key="Michida, Satsuki" type="person" role="int">Michida, Satsuki</name>
-<name key="Mozart, Wolfgang Amadeus" type="person" role="cmp">Mozart, W. A.</name>
-<name key="Bach, Johann Christian" type="person" role="cmp">Bach, J. C.</name>
-<name key="Dahlberg, F. H." type="person" role="cmp">Dahlberg, F. H.</name>
-<name key="Zipoli, Domenico" type="person" role="cmp">Zipoli, D.</name>
-<name key="Couperin, Louis" type="person" role="cmp">Couperin, L.</name>
-<name key="Vivaldi, Antonio" type="person" role="cmp">Vivaldi</name>
-<name key="Rameau, Jean-Philippe" type="person" role="cmp">Rameau, J. Ph.</name>
-<name key="Bach, Johann Sebastian" type="person" role="cmp">Bach, J. S.</name>
-<name key="Pescetti, Giovanni Battista" type="person" role="cmp">Peschetti, G. M.</name>
-<name key="Cimarosa, Domenico" type="person" role="cmp">Cimarosa, D.</name>
-<name key="Marcello, Benedetto" type="person" role="cmp">Marcello, B.</name>
-<name key="Rutini, Giovanni Maria" type="person" role="cmp">Rutini, G.M.</name>
-<name key="Galuppi, Baldassare" type="person" role="cmp">Galuppi, B.</name>
-<name key="Platti, Giovanni Battista" type="person" role="cmp">Platti, G. B.</name>
-<title>Echange entre les classes de clavecin des Conservatoire "A. Casella", L'Aquila (Italie), et Conservatoire de Lausanne (Suisse)</title>
-<placeName key="Lausanne, Musée historique"/>
-<placeName key="Lausanne, Conservatoire, Petite salle d'auditions"/>
-<placeName key="Lausanne, Conservatoire, Grande salle"/>
-<name key="Concerts" type="series"/>
-<page><![CDATA[﻿CONSERVATOIRE
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <pb facs='LAc_prg/CH_LAc_prg_concerts/pyr_CH_LAc_prg_concerts-0052.tif'/>
+        <date when='19970227'/>
+        <name key='Sieni, Maria-Clotilde' type='person' role='prof'>Sieni, Maria-Clotilde</name>
+        <name key='Sartoretti, Christine' type='person' role='prof'>Sartoretti, Christine</name>
+        <name key='Rapin, Jean-Jacques' type='person' role='var'>Rapin, Jean-Jacques</name>
+        <name key='Sieni, Maria-Clotilde' type='person' role='int'>Sieni, Maria-Clotilde</name>
+        <name key='Sartoretti, Christine' type='person' role='int'>Sartoretti, Christine</name>
+        <name key='Di Girolamo, Francesco' type='person' role='int'>Di Girolamo, Francesco</name>
+        <name key='Wetter, Sophie' type='person' role='int'>Wetter, Sophie</name>
+        <name key='Facchini, Fiammetta' type='person' role='int'>Facchini, Fiammetta</name>
+        <name key='Lugon, Isabelle' type='person' role='int'>Lugon, Isabelle</name>
+        <name key='Michida, Satsuki' type='person' role='int'>Michida, Satsuki</name>
+        <name key='Mozart, Wolfgang Amadeus' type='person' role='cmp'>Mozart, W. A.</name>
+        <name key='Bach, Johann Christian' type='person' role='cmp'>Bach, Johann Christian</name>
+        <name key='Dahlberg, F. H.' type='person' role='cmp'>Dahlberg, F. H.</name>
+        <name key='Zipoli, Domenico' type='person' role='cmp'>Zipoli, Domenico</name>
+        <name key='Couperin, Louis' type='person' role='cmp'>Couperin, Louis</name>
+        <name key='Vivaldi, Antonio' type='person' role='cmp'>Vivaldi, Antonio</name>
+        <name key='Rameau, Jean-Philippe' type='person' role='cmp'>Rameau, Jean-Philippe</name>
+        <name key='Bach, Johann Sebastian' type='person' role='cmp'>Bach, Johann Sebastian</name>
+        <name key='Pescetti, G. M.' type='person' role='cmp'>Pescetti, G. M.</name>
+        <name key='Cimarosa, Domenico' type='person' role='cmp'>Cimarosa, Domenico</name>
+        <name key='Marcello, Benedetto' type='person' role='cmp'>Marcello, Benedetto</name>
+        <name key='Rutini, Giovanni Maria' type='person' role='cmp'>Rutini, Giovanni Maria</name>
+        <name key='Galuppi, Baldassare' type='person' role='cmp'>Galuppi, Baldassare</name>
+        <name key='Platti, Giovanni Benedetto' type='person' role='cmp'>Platti, Giovanni Benedetto</name>
+        <title>Echange entre les classes de clavecin des Conservatoire "A. Casella", L'Aquila (Italie), et Conservatoire de Lausanne (Suisse)</title>
+        <placeName key='Lausanne, Musée historique'/>
+        <placeName key='Lausanne, Conservatoire, Petite salle d&apos;auditions'/>
+        <placeName key='Lausanne, Conservatoire, Grande salle'/>
+        <name key='Concerts' type='series'/>
+        <page><![CDATA[﻿CONSERVATOIRE
   -DE LAUSANNE
 ECHANGE
 entre les classes de clavecin des
@@ -82,8 +90,8 @@ Conservatoire de Lausanne (Suisse)
       Professeur : Christine Sartoretti
 21 février - 1er mars 1997
 ]]></page>
-<pb facs="LAc_prg/CH_LAc_prg_concerts/pyr_CH_LAc_prg_concerts-0053.tif"/>
-<page><![CDATA[﻿Bienvenue
+        <pb facs='LAc_prg/CH_LAc_prg_concerts/pyr_CH_LAc_prg_concerts-0053.tif'/>
+        <page><![CDATA[﻿Bienvenue
 Le Conservatoire de Lausanne a le plaisir et l’honneur de recevoir en ses murs le Conservatoire « Alfredo Casella » de L ’Aquila (Italie). A l’heure où notre pays se sent isolé dans une Europe en pleine élaboration, de tels échanges prennent valeur de symbole.
 Jean-Jacques Rapin Directeur du Conservatoire de Lausanne
 Quelques étudiants clavecinistes des deux Ecoles vont se rencontrer, échanger leur savoir, leurs expériences et leurs espoirs. La musique, merveilleux outil de développement personnel, est une des lignes de force de leur vie. Demain, ces jeunes prendront en main la formation d’autres jeunes et leur communiqueront l’amour du travail bien fait, la joie de se surpasser, le plaisir à jouer du clavecin. Accompagnons-les dans leurs efforts.
@@ -91,8 +99,8 @@ Quelques étudiants clavecinistes des deux Ecoles vont se rencontrer, échanger 
 L’espace d'une brève soirée, le Musée historique de Lausanne a le privilège d’accueillir deux clavecinistes de grand talent, Maria-Clotilde Sieni, professeur au Conservatoire de L ’Aquila et Christine Sartoretti, professeur au Conservatoire de Lausanne. Par les voies de la musique, comme c ’est si souvent le cas, un lien se lisse entre nos deux contrées, entre nos deux histoires. Bienvenue à nos hôtes italiens ! Que ce séjour soit le prélude à une longue et fructueuse collaboration dans le futur.
                                                  Olivier Pavillon Conservateur du Musée historique de Lausanne
 ]]></page>
-<pb facs="LAc_prg/CH_LAc_prg_concerts/pyr_CH_LAc_prg_concerts-0054.tif"/>
-<page><![CDATA[﻿Manifestations prévues
+        <pb facs='LAc_prg/CH_LAc_prg_concerts/pyr_CH_LAc_prg_concerts-0054.tif'/>
+        <page><![CDATA[﻿Manifestations prévues
 Jeudi 27février 1997 à 18h00
 Musée historique de Lausanne Concert des professeurs
 Programme de clavecin à quatre mains Christine Sartoretti et Maria-Clotilde Sieni
@@ -104,8 +112,8 @@ Grande Salle du Conservatoire Concert d’écitange
 Samedi 1er mars 1997 à lOhOO
 Petite salle d’audition du Conservatoire Conférence de Maria-Clotilde Sieni
 « La musique et la vie en Italie pendant la période galante»]]></page>
-<pb facs="LAc_prg/CH_LAc_prg_concerts/pyr_CH_LAc_prg_concerts-0055.tif"/>
-<page><![CDATA[﻿Musée Historique de Lausanne 27février 1997 à
+        <pb facs='LAc_prg/CH_LAc_prg_concerts/pyr_CH_LAc_prg_concerts-0055.tif'/>
+        <page><![CDATA[﻿Musée Historique de Lausanne 27février 1997 à
 W.A. Mozart J.C. Bacli
 F.H. Dahlberg W.A. Mozart
      Concert Clavecin à quatre mains Maria-Clotilde Sieni Christine Sartoretti
@@ -114,8 +122,8 @@ Andante con variazioni KV 501
 Sonate en la majeur op. 18 n.5 Allegro - Tempo di Minuetto
 Sonate en mi mineur Largo giusto - Allegro -Arioso Andantino - Presto
 Sonate en do majeur KV 521 Allegro - Andante - Allegretto]]></page>
-<pb facs="LAc_prg/CH_LAc_prg_concerts/pyr_CH_LAc_prg_concerts-0056.tif"/>
-<page><![CDATA[﻿Grande Salle du Conservatoire
+        <pb facs='LAc_prg/CH_LAc_prg_concerts/pyr_CH_LAc_prg_concerts-0056.tif'/>
+        <page><![CDATA[﻿Grande Salle du Conservatoire
 28février 1997 à 18lt30
              Concert d’échange par les élèves des classes de clavecin des Conservatoires de L’Aquila et de Lausanne
 Programme
@@ -134,16 +142,16 @@ J.S. Bach
 Toccata en sol mineur
 Satsuki Michida
 ]]></page>
-<pb facs="LAc_prg/CH_LAc_prg_concerts/pyr_CH_LAc_prg_concerts-0057.tif"/>
-<page><![CDATA[﻿Petite Salle du Conservatoire
+        <pb facs='LAc_prg/CH_LAc_prg_concerts/pyr_CH_LAc_prg_concerts-0057.tif'/>
+        <page><![CDATA[﻿Petite Salle du Conservatoire
 28 février 1997 à 10h 30
 Conférence avec illustrations musicales de la classe de clavecin du Conservatoire de Lausanne Professeur Christine Sartoretti
 « Les Inventions de J.S. Bach »
 Quelques inventions seront interprétées par les élèves des classes élémentaires et secondaires
 Lydia Bungu Thomas Chappuis Friederike Ilschner
 Stéphanie Jaquier Marie Widmer]]></page>
-<pb facs="LAc_prg/CH_LAc_prg_concerts/pyr_CH_LAc_prg_concerts-0058.tif"/>
-<page><![CDATA[﻿ Petite Salle du Conservatoire
+        <pb facs='LAc_prg/CH_LAc_prg_concerts/pyr_CH_LAc_prg_concerts-0058.tif'/>
+        <page><![CDATA[﻿ Petite Salle du Conservatoire
 1er mars 1997 à lOhOO
 Conférence
 avec illustrations musicales (le la classe de clavecin du Conservatoire «A. Casella » de L ’Aquila - Professeur Maria-Clotilde Sieni
@@ -182,8 +190,7 @@ Sonate en la mineur (Allegro - Adagio - Allegro assai)
  (1694-1744)
  (1707-1791)
 ]]></page>
-       
-        </p>
+      </p>
     </body>
   </text>
 </TEI>

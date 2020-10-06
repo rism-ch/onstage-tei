@@ -1,79 +1,87 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>HEMU Conservatoire de Genève - Programme de concert</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Paolo Boschetti</persName>
-                    <persName>Laurent Pugin</persName>
-                    <persName>Violeta Struijk van Bergen</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <date when="2016-01">Janvier 2016</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gc</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>HEMU Conservatoire de Genève - Programme de concert</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Paolo Boschetti</persName>
+            <persName>Laurent Pugin</persName>
+            <persName>Violeta Struijk van Bergen</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <date when='2016-01'>Janvier 2016</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gc</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title><date when="19130515">15/05/1913</date></title>
-<series>None</series>
-<placeName>Genève, Café Restaurant du Nord</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            <date when='19130515'>15/05/1913</date>
+             [sans titre] 
+          </title>
+          <series>None</series>
+          <placeName>Genève, Café Restaurant du Nord</placeName>
+          <orgName role='holding'>
+             Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+        </bibl>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <pb facs="Gc_prg/CH_Gc_prg_09/pyr_CH_Gc_prg_09-0374.tif"/>
-<date when="19130515"/>
-<date when="191309--"/>
-<name key="Mozart, Wolfgang Amadeus" type="person" role="cmp">Wolfgang Amadeus Mozart</name>
-<name key="Massenet, Jules" type="person" role="cmp">Massenet, Jules</name>
-<name key="Beethoven, Ludwig van" type="person" role="cmp">Ludwig van Beethoven</name>
-<name key="Lalo, Edouard" type="person" role="cmp">Lalo, Edouard</name>
-<name key="Strauß, Johann" type="person" role="cmp">Johann Strauss II</name>
-<name key="Saint-Saëns, Camille" type="person" role="cmp">Saint-Saëns, Camille</name>
-<name key="Wagner, Richard" type="person" role="cmp">Wagner, Richard</name>
-<name key="Chopin, Fryderyk" type="person" role="cmp">Chopin, Fryderyk</name>
-<name key="Weber, Carl Maria von" type="person" role="cmp">Carl Maria von Weber</name>
-<name key="Mendelssohn Bartholdy, Felix" type="person" role="cmp">Felix Mendelssohn Bartholdy</name>
-<name key="Bach, Johann Sebastian" type="person" role="cmp">Johann Sebastian Bach</name>
-<name key="Ropartz, Joseph Guy" type="person" role="cmp">Joseph Guy Marie Ropartz</name>
-<name key="Ochs, Siegfried" type="person" role="cmp">Ochs, Siegfried</name>
-<name key="Strauss, Richard" type="person" role="cmp">Strauss, Richard</name>
-<name key="Moszkowski, Moritz" type="person" role="cmp">Moszkowski, Moritz</name>
-<name key="Humperdinck, Engelbert" type="person" role="cmp">Humperdinck, Engelbert</name>
-<name key="Franck, César" type="person" role="cmp">Franck, César</name>
-<name key="Ivanovici, Iosif" type="person" role="cmp">Ivanovici, Iosif</name>
-<name key="Thomas, Ambroise" type="person" role="cmp">Thomas, Ambroise</name>
-<name key="Lalo, Edouard" type="person" role="cmp">Lalo, Edouard</name>
-<name key="Scassola, A." type="person" role="cmp">Scassola, A.</name>
-<name key="Wieniawski, Henryk" type="person" role="cmp">Wieniawski, Henryk</name><title/>
-<placeName key="Genève, Café Restaurant du Nord"/>
-<name key="None" type="series"/>
-<page><![CDATA[﻿/ CAFE \
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <pb facs='Gc_prg/CH_Gc_prg_09/pyr_CH_Gc_prg_09-0374.tif'/>
+        <date when='19130515'/>
+        <date when='19130900'/>
+        <name key='Mozart, Wolfgang Amadeus' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Massenet, Jules' type='person' role='cmp'>Massenet, Jules</name>
+        <name key='Beethoven, Ludwig van' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Lalo, Edouard' type='person' role='cmp'>Lalo, Edouard</name>
+        <name key='Strauss, Johann' type='person' role='cmp'>Strauss, Johann</name>
+        <name key='Saint-Saëns, Camille' type='person' role='cmp'>Saint-Saëns, Camille</name>
+        <name key='Wagner, Richard' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Chopin, Fryderyk Franciszek' type='person' role='cmp'>Chopin, Fryderyk Franciszek</name>
+        <name key='Weber, Carl Maria von' type='person' role='cmp'>Weber, Carl Maria von</name>
+        <name key='Mendelssohn Bartholdy, Felix' type='person' role='cmp'>Mendelssohn Bartholdy, Felix</name>
+        <name key='Bach, Johann Sebastian' type='person' role='cmp'>Bach, Johann Sebastian</name>
+        <name key='Ropartz, Joseph Guy' type='person' role='cmp'>Ropartz, Joseph Guy</name>
+        <name key='Ochs, Siegfried' type='person' role='cmp'>Ochs, Siegfried</name>
+        <name key='Strauss, Richard' type='person' role='cmp'>Strauss, Richard</name>
+        <name key='Moszkowski, Moritz' type='person' role='cmp'>Moszkowski, Moritz</name>
+        <name key='Humperdinck, Engelbert' type='person' role='cmp'>Humperdinck, Engelbert</name>
+        <name key='Franck, César' type='person' role='cmp'>Franck, César</name>
+        <name key='Ivanovici, Iosif' type='person' role='cmp'>Ivanovici, Iosif</name>
+        <name key='Thomas, Ambroise' type='person' role='cmp'>Thomas, Ambroise</name>
+        <name key='Lalo, Edouard' type='person' role='cmp'>Lalo, Edouard</name>
+        <name key='Scassola, Aristide' type='person' role='cmp'>Scassola, Aristide</name>
+        <name key='Wieniawski, Henryk' type='person' role='cmp'>Wieniawski, Henryk</name>
+        <title/>
+        <placeName key='Genève, Café Restaurant du Nord'/>
+        <page><![CDATA[﻿/ CAFE \
 •' RE5TAURAMJ’;
 lv	v "w a •	I	^Él^ 1 n
  PROGRAAWE RE5 CONCERJ5
 ]]></page>
-<pb facs="Gc_prg/CH_Gc_prg_09/pyr_CH_Gc_prg_09-0375.tif"/>
-<page><![CDATA[﻿4a,/s4gne des eaux
+        <pb facs='Gc_prg/CH_Gc_prg_09/pyr_CH_Gc_prg_09-0375.tif'/>
+        <page><![CDATA[﻿4a,/s4gne des eaux
 EN VENTE ICI
 UMS EM ©l©i TELÉpH0N™6
          CHAMPAGNES de toutes Marques
@@ -97,8 +105,8 @@ GENÈVE du 15 Mai à fin Septembre 1913.
 JttTonsieur £éonce £ffllard
               Organisateur, violoncelliste, 1er prix du Conservatoire de J3ruxelles, soliste des Concerts classiques de £yon.
    PUBLICITÉ E. RIVE, 14, RUE PIERRE-FATIO, GENÈVE]]></page>
-<pb facs="Gc_prg/CH_Gc_prg_09/pyr_CH_Gc_prg_09-0376.tif"/>
-<page><![CDATA[﻿□-
+        <pb facs='Gc_prg/CH_Gc_prg_09/pyr_CH_Gc_prg_09-0376.tif'/>
+        <page><![CDATA[﻿□-
 -□
    Avant de quitter Genève, nous vous conseillons de faire une visite
 Chic Parisien
@@ -136,8 +144,8 @@ Photo Jullien, Cours de Rive.
               iDirecteur artistique, pianiste, 1er prix du Conservatoire de J3ruxeIIes, 1er chef d’orchestre au grand S'héâtre Jîoyal d’Sînvers.
      Demandez les
  Cigarettes LAURENS]]></page>
-<pb facs="Gc_prg/CH_Gc_prg_09/pyr_CH_Gc_prg_09-0377.tif"/>
-<page><![CDATA[﻿□----—□
+        <pb facs='Gc_prg/CH_Gc_prg_09/pyr_CH_Gc_prg_09-0377.tif'/>
+        <page><![CDATA[﻿□----—□
               DEMANDEZ
  un Quart CACHA"
          le meilleur APÉRITIF
@@ -174,8 +182,8 @@ Genève
               Organiste, pianiste virtuose, 1er prix du Conservatoire de £eipzig.
     Demandez les
  Cigarettes LAURENS]]></page>
-<pb facs="Gc_prg/CH_Gc_prg_09/pyr_CH_Gc_prg_09-0378.tif"/>
-<page><![CDATA[﻿la IIIIQIIUIIIIUIU et le
+        <pb facs='Gc_prg/CH_Gc_prg_09/pyr_CH_Gc_prg_09-0378.tif'/>
+        <page><![CDATA[﻿la IIIIQIIUIIIIUIU et le
 sont garantis absolument purs.
 ÜS AMEUBLEMENTS WSSSM ET MENUISERIES D'ARTS
 L'ARTISAN
@@ -210,8 +218,8 @@ JtiConsieur Closset
 7.	BOURG'DE-POUR, GENÈVE
 GYPSERIE - PEINTURE - DÉCORATION - PAPIERS PEINTS
 , -,__— Téléphone 943 —]]></page>
-<pb facs="Gc_prg/CH_Gc_prg_09/pyr_CH_Gc_prg_09-0379.tif"/>
-<page><![CDATA[﻿                                    ADI ES
+        <pb facs='Gc_prg/CH_Gc_prg_09/pyr_CH_Gc_prg_09-0379.tif'/>
+        <page><![CDATA[﻿                                    ADI ES
 GO WNS
 Robes& Manteaux '■
 M,,es Sarnier & Jienaud
@@ -256,8 +264,8 @@ pendant la saison 1913
  3.	Toutes les plus belles œuvres de L. van Beethoven.
       I Les 9 symphonies transcrites pour piano, harmonium, quintette à cordes et clarinette. Les quatuors et quintettes à cordes Les trios à cordes, ainsi que les trios : piano, violon et violoncelle. Les sonates pour piano seul, pour piano et violon, pour piano et violoncelle, et enfin toutes les œuvres intéressantes instrumentales, comme le célèbre concerto en ré pour violon, les 2 romances en fa et en sol, et les concertos pour piano en mi bémol et en ut mineur.
   9]]></page>
-<pb facs="Gc_prg/CH_Gc_prg_09/pyr_CH_Gc_prg_09-0380.tif"/>
-<page><![CDATA[﻿4	Quelques œuvres très importantes de Brahms, comme les deux sérénades, les sonates pour piano et violon, pour piano et violoncelle, pour piano et clarinette, le beau trio en si majeur, les quatuors à cordes et avec piano, le quintette et toutes les célèbres danses hongroises.
+        <pb facs='Gc_prg/CH_Gc_prg_09/pyr_CH_Gc_prg_09-0380.tif'/>
+        <page><![CDATA[﻿4	Quelques œuvres très importantes de Brahms, comme les deux sérénades, les sonates pour piano et violon, pour piano et violoncelle, pour piano et clarinette, le beau trio en si majeur, les quatuors à cordes et avec piano, le quintette et toutes les célèbres danses hongroises.
 5.	Toutes les œuvres de musique de chambre d’Haydn et
       Mozart, en trios, quatuors et quintettes, les concertos pour violon et plusieurs symphonies de ces deux auteurs si purement classiques, ainsi que le concerto en ré pour violoncelle et celui en la pour clarinette.
 6.	de Haendel, les 3 belles sonates pour piano et violoncelle,
@@ -302,8 +310,8 @@ pendant la saison 1913
 27 de Moussorgsky. Introduction et polonaise de « Boris-Qodounow ».
 28.	de Paderewski, Moszkowski, différentes pièces d’orchestre.
 il]]></page>
-<pb facs="Gc_prg/CH_Gc_prg_09/pyr_CH_Gc_prg_09-0381.tif"/>
-<page><![CDATA[﻿29.	de Liszt. Les préludes et poèmes symphoniques, les
+        <pb facs='Gc_prg/CH_Gc_prg_09/pyr_CH_Gc_prg_09-0381.tif'/>
+        <page><![CDATA[﻿29.	de Liszt. Les préludes et poèmes symphoniques, les
        rapsodies pour piano, et les deux rapsodies transcrites pour orchestre.
  30.	de Lalo, les trios piano, violon et violoncelle, le concerto
        pour violon, le concerto pour violoncelle, la rapsodie pur orchestre, et la symphnie espagnole pour violon.
@@ -342,8 +350,8 @@ m
      Grand Choix de Couvertures de Voyage
 ° ° Plaids Ecossais - Sweaters pour Dames °^°
 o	---------- o]]></page>
-<pb facs="Gc_prg/CH_Gc_prg_09/pyr_CH_Gc_prg_09-0382.tif"/>
-<page><![CDATA[﻿GRANDS VINS de CHAMPAGNE
+        <pb facs='Gc_prg/CH_Gc_prg_09/pyr_CH_Gc_prg_09-0382.tif'/>
+        <page><![CDATA[﻿GRANDS VINS de CHAMPAGNE
 CHARLES HEIDSIECK
 Agent général Aimé DESRAYAUD
 TANGO
@@ -431,8 +439,8 @@ E
 Vendredi 26 : SEANCE WAGNER
 a Maison F. GUIGNARD
 ]]></page>
-<pb facs="Gc_prg/CH_Gc_prg_09/pyr_CH_Gc_prg_09-0383.tif"/>
-<page><![CDATA[﻿□-
+        <pb facs='Gc_prg/CH_Gc_prg_09/pyr_CH_Gc_prg_09-0383.tif'/>
+        <page><![CDATA[﻿□-
 LIQUEURS & SPIRITUEUX
 VINS FINS & SIROPS HENRI ZBINÜËN
 Prieuré, 24, Genève. — Maison fondée en 1854. - Télép. 15-91
@@ -483,8 +491,8 @@ pendant la saison 1913
 EL CUNO
 EL CUNO
   ££cdid en todo estanco]]></page>
-<pb facs="Gc_prg/CH_Gc_prg_09/pyr_CH_Gc_prg_09-0384.tif"/>
-<page><![CDATA[﻿  Lotti, Luigini, Leroux, Lalo, Liszt, Leclair, Léoncavallo, Lanzetti, Loeillet, Lortzing, Lekeu.
+        <pb facs='Gc_prg/CH_Gc_prg_09/pyr_CH_Gc_prg_09-0384.tif'/>
+        <page><![CDATA[﻿  Lotti, Luigini, Leroux, Lalo, Liszt, Leclair, Léoncavallo, Lanzetti, Loeillet, Lortzing, Lekeu.
 Mariotte, Mendelssohn, Mozart, Meyerbeer, Massenet, Massé, Mascagni, Magnard, Moussorgsky et Moszkowski.
 Nicolaï, Nicodé, Neuville.
 Offenbach.
@@ -526,8 +534,8 @@ CONSULS ÉTRANGERS A GENÈVE
  Norvège. — M. André Jaccoud, rue de la Croix-d’Or, 17.
  Panama. — M. Mathieu Dreyfus, consul honoraire, rue de Lausanne, 54. Reçoit de 10 h. à midi.
 19]]></page>
-<pb facs="Gc_prg/CH_Gc_prg_09/pyr_CH_Gc_prg_09-0385.tif"/>
-<page><![CDATA[﻿  Paraguay. — M. Emmanuel Schoch, chemin Mire-mont, 3. Reçoit de i à 2 h.
+        <pb facs='Gc_prg/CH_Gc_prg_09/pyr_CH_Gc_prg_09-0385.tif'/>
+        <page><![CDATA[﻿  Paraguay. — M. Emmanuel Schoch, chemin Mire-mont, 3. Reçoit de i à 2 h.
   Pays-Bas. — M K.-V. Vkrmaire, place Claparède, 5. Reçoit de 2 h. à 3 % h
   Pérou. — M. Abdon Vargas Quinones, quai du Léman, 2s. Reçoit de 3 à 4 heures.
   Portugal. — M. Ernest Métral. quai de l’île, 15. Reçoit de m h. à midi.
@@ -559,8 +567,8 @@ Violoniste virtuose, 1er prix du Conservatoire de Jdruxelles, 1er violon-solo du
 £n Suiza si X)d. desea fu-mar buen Gigarrillo, compre ;; el verdadero Jffabana
  EL CUNO
 JtfTonsieur ffosé Çtorta]]></page>
-<pb facs="Gc_prg/CH_Gc_prg_09/pyr_CH_Gc_prg_09-0386.tif"/>
-<page><![CDATA[﻿                            -13
+        <pb facs='Gc_prg/CH_Gc_prg_09/pyr_CH_Gc_prg_09-0386.tif'/>
+        <page><![CDATA[﻿                            -13
 Rue du Rhône
          GENÈVE
 69	Ç6
@@ -594,8 +602,8 @@ CHARLES HEIDSIECK
 H. BOZONNET
  35, Rue du Rhône, 35 — Téléphone 65-45 - GENÈVE -
                BRIQUETS ET ALLUMEURS EN TOUS GENRES Cartes à jouer Grimaud et de luxe 23]]></page>
-<pb facs="Gc_prg/CH_Gc_prg_09/pyr_CH_Gc_prg_09-0387.tif"/>
-<page><![CDATA[﻿□--—
+        <pb facs='Gc_prg/CH_Gc_prg_09/pyr_CH_Gc_prg_09-0387.tif'/>
+        <page><![CDATA[﻿□--—
  Les amateurs de bonne bière
  demandent toujours l’excellente
 Bière de St-Jean
@@ -636,8 +644,8 @@ f
  £Téléphone 47
 Spécialité de Jtfalles en ÿonc — Sacs de 'Voyage Objets en Cuir SFin
 Malles et Valises en tous genres]]></page>
-<pb facs="Gc_prg/CH_Gc_prg_09/pyr_CH_Gc_prg_09-0388.tif"/>
-<page><![CDATA[﻿     A près avoir dégusté votre tasse de Café du Brésil, allez visiter les Galeries de Y
+        <pb facs='Gc_prg/CH_Gc_prg_09/pyr_CH_Gc_prg_09-0388.tif'/>
+        <page><![CDATA[﻿     A près avoir dégusté votre tasse de Café du Brésil, allez visiter les Galeries de Y
 EXPOSITION
 PERMANENTE
 BRÉSILIENNE
@@ -651,8 +659,8 @@ Clarinettiste, 1er prix Conservatoire de £yon
 Monsieur rffuybrechtx
              Contrebassiste, 1er prix du Conservatoire de Jiruxelles, 1ère contrebasse du EThéâtre de la Monnaie, à J3ruxelles.
 27]]></page>
-<pb facs="Gc_prg/CH_Gc_prg_09/pyr_CH_Gc_prg_09-0389.tif"/>
-<page><![CDATA[﻿□-
+        <pb facs='Gc_prg/CH_Gc_prg_09/pyr_CH_Gc_prg_09-0389.tif'/>
+        <page><![CDATA[﻿□-
 Jûaison fondée en 1796
 Samuel CHATENAY, propriétaire
 à NEUCHATEL
@@ -687,8 +695,8 @@ spécialement indiquée pour les rhumatismes, la goutte, les maladies d'estomac,
 Eau de table gazeuse parfaite.
 Chez tous les marchands d’eaux minérales.
 Dépôt vénérai : H. RAMBAUD. Chemin Ferrler. - Téléph. 58-03]]></page>
-<pb facs="Gc_prg/CH_Gc_prg_09/pyr_CH_Gc_prg_09-0390.tif"/>
-<page><![CDATA[﻿The largest firm in Switzerland.
+        <pb facs='Gc_prg/CH_Gc_prg_09/pyr_CH_Gc_prg_09-0390.tif'/>
+        <page><![CDATA[﻿The largest firm in Switzerland.
 Das grôsste Geschâft der Schweiz.
 CnMwfi 6ojihniofl ToproRNii joMt, IIlBofinapin.
 Spécialité :
@@ -716,8 +724,7 @@ j j <
 Montres Boules
 Montres Bagues
 Imprimerie Soullier, Genève]]></page>
-       
-        </p>
+      </p>
     </body>
   </text>
 </TEI>

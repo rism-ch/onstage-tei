@@ -1,91 +1,101 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>BASEL</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Laurent Pugin</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <date when="2016-01">Janvier 2016</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_famb</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>BASEL</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Laurent Pugin</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <date when='2016-01'>Janvier 2016</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_famb</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert<date when="20010402">02/04/2001</date></title>
-<series>Concert</series>
-<placeName>Basel, Martinskirche</placeName>
-<orgName role="holding">Archiv des Vereins Freunde alter Musik Basel; <link target="http://famb.ch/"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+             Concert 
+            <date when='20010402'>02/04/2001</date>
+          </title>
+          <series>Concert</series>
+          <placeName>Basel, Martinskirche</placeName>
+          <orgName role='holding'>
+             Archiv des Vereins Freunde alter Musik Basel; 
+            <link target='http://famb.ch/'/>
+          </orgName>
+        </bibl>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <pb facs="CH_Bm_prg/pyr_CH_Bm_prg-1050.tif"/>
-<date when="20010402"/>
-<name key="Marais, Marin" type="person" role="cmp">Marais, Marin</name>
-<name key="Rameau, Jean-Philippe" type="person" role="cmp">Rameau, Jean-Philippe</name>
-<name key="Lully, Jean-Baptiste" type="person" role="cmp">Lully, Jean-Baptiste</name><name key="Savall, Jordi" type="person" role="int">Savall, Jordi</name>
-<name key="Plantier, David" type="person" role="int">Plantier, David</name>
-<name key="Pfister, Stephanie" type="person" role="int">Pfister, Stephanie</name>
-<name key="Koubková, Lenka" type="person" role="int">Koubková, Lenka</name>
-<name key="Rudolf, Christoph" type="person" role="int">Rudolf, Christoph</name>
-<name key="Stawiarski, Cosimo" type="person" role="int">Stawiarski, Cosimo</name>
-<name key="Schröder, Julia" type="person" role="int">Schröder, Julia</name>
-<name key="Deuter, Daniel" type="person" role="int">Deuter, Daniel</name>
-<name key="Mangra, Dorina" type="person" role="int">Mangra, Dorina</name>
-<name key="Nikitassova, Plamena" type="person" role="int">Nikitassova, Plamena</name>
-<name key="Janner, Salome" type="person" role="int">Janner, Salome</name>
-<name key="Staehelin, Elisabeth" type="person" role="int">Staehelin, Elisabeth</name>
-<name key="Giger, Sarah" type="person" role="int">Giger, Sarah</name>
-<name key="Torgersen, Andreas" type="person" role="int">Torgersen, Andreas</name>
-<name key="Herzog, Benjamin" type="person" role="int">Herzog, Benjamin</name>
-<name key="Ruso, Rebecca" type="person" role="int">Ruso, Rebecca</name>
-<name key="Finckh, Franziska" type="person" role="int">Finckh, Franziska</name>
-<name key="Gohl-Moser, Käthi" type="person" role="int">Gohl-Moser, Käthi</name>
-<name key="Amrein, Maya" type="person" role="int">Amrein, Maya</name>
-<name key="Sepec, Patrick" type="person" role="int">Sepec, Patrick</name>
-<name key="Jávor, Barbara" type="person" role="int">Jávor, Barbara</name>
-<name key="Krigovský, Ján" type="person" role="int">Krigovský, Ján</name>
-<name key="Otto, Christine" type="person" role="int">Otto, Christine</name>
-<name key="Fiedler, Jörg" type="person" role="int">Fiedler, Jörg</name>
-<name key="Genewein, Claire" type="person" role="int">Genewein, Claire</name>
-<name key="Löffler, Xenia" type="person" role="int">Löffler, Xenia</name>
-<name key="Kramp, Kerstin" type="person" role="int">Kramp, Kerstin</name>
-<name key="Leitherer, Christian" type="person" role="int">Leitherer, Christian</name>
-<name key="Beyer, Daniel" type="person" role="int">Beyer, Daniel</name>
-<name key="Lenzing, Eckhard" type="person" role="int">Lenzing, Eckhard</name>
-<name key="Farkas, Györgyi" type="person" role="int">Farkas, Györgyi</name>
-<name key="Berglund, Frans" type="person" role="int">Berglund, Frans</name>
-<name key="Lilly, Simon" type="person" role="int">Lilly, Simon</name>
-<name key="Luks, Václav" type="person" role="int">Luks, Václav</name>
-<name key="Rovenský, Miroslav" type="person" role="int">Rovenský, Miroslav</name>
-<name key="Estevan, Pedro" type="person" role="int">Estevan, Pedro</name>
-<name key="Würsch, Matthias" type="person" role="int">Würsch, Matthias</name>
-<name key="Costoyas, Dolores" type="person" role="int">Costoyas, Dolores</name>
-<name key="Grange, Manuel De" type="person" role="int">Grange, Manuel De</name>
-<name key="Bonavita, Rafael" type="person" role="int">Bonavita, Rafael</name>
-<name key="Bötticher, Jörg-Andreas" type="person" role="int">Bötticher, Jörg-Andreas</name><title>Concert</title>
-<placeName key="Basel, Martinskirche"/>
-<name key="Concert" type="series"/>
-<page><![CDATA[﻿               Montag, 2. 4. 2001, 20.15 Uhr Martinskirche Basel
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <pb facs='CH_Bm_prg/pyr_CH_Bm_prg-1050.tif'/>
+        <date when='20010402'/>
+        <name key='Marais, Marin' type='person' role='cmp'>Marais, Marin</name>
+        <name key='Rameau, Jean-Philippe' type='person' role='cmp'>Rameau, Jean-Philippe</name>
+        <name key='Lully, Jean-Baptiste' type='person' role='cmp'>Lully, Jean-Baptiste</name>
+        <name key='Savall, Jordi' type='person' role='int'>Savall, Jordi</name>
+        <name key='Plantier, David' type='person' role='int'>Plantier, David</name>
+        <name key='Pfister, Stephanie' type='person' role='int'>Pfister, Stephanie</name>
+        <name key='Koubková, Lenka' type='person' role='int'>Koubková, Lenka</name>
+        <name key='Rudolf, Christoph' type='person' role='int'>Rudolf, Christoph</name>
+        <name key='Stawiarski, Cosimo' type='person' role='int'>Stawiarski, Cosimo</name>
+        <name key='Schröder, Julia' type='person' role='int'>Schröder, Julia</name>
+        <name key='Deuter, Daniel' type='person' role='int'>Deuter, Daniel</name>
+        <name key='Mangra, Dorina' type='person' role='int'>Mangra, Dorina</name>
+        <name key='Nikitassova, Plamena' type='person' role='int'>Nikitassova, Plamena</name>
+        <name key='Janner, Salome' type='person' role='int'>Janner, Salome</name>
+        <name key='Staehelin, Elisabeth' type='person' role='int'>Staehelin, Elisabeth</name>
+        <name key='Giger, Sarah' type='person' role='int'>Giger, Sarah</name>
+        <name key='Torgersen, Andreas' type='person' role='int'>Torgersen, Andreas</name>
+        <name key='Herzog, Benjamin' type='person' role='int'>Herzog, Benjamin</name>
+        <name key='Ruso, Rebecca' type='person' role='int'>Ruso, Rebecca</name>
+        <name key='Finckh, Franziska' type='person' role='int'>Finckh, Franziska</name>
+        <name key='Gohl-Moser, Käthi' type='person' role='int'>Gohl-Moser, Käthi</name>
+        <name key='Amrein, Maya' type='person' role='int'>Amrein, Maya</name>
+        <name key='Sepec, Patrick' type='person' role='int'>Sepec, Patrick</name>
+        <name key='Jávor, Barbara' type='person' role='int'>Jávor, Barbara</name>
+        <name key='Krigovský, Ján' type='person' role='int'>Krigovský, Ján</name>
+        <name key='Otto, Christine' type='person' role='int'>Otto, Christine</name>
+        <name key='Fiedler, Jörg' type='person' role='int'>Fiedler, Jörg</name>
+        <name key='Genewein, Claire' type='person' role='int'>Genewein, Claire</name>
+        <name key='Löffler, Xenia' type='person' role='int'>Löffler, Xenia</name>
+        <name key='Kramp, Kerstin' type='person' role='int'>Kramp, Kerstin</name>
+        <name key='Leitherer, Christian' type='person' role='int'>Leitherer, Christian</name>
+        <name key='Beyer, Daniel' type='person' role='int'>Beyer, Daniel</name>
+        <name key='Lenzing, Eckhard' type='person' role='int'>Lenzing, Eckhard</name>
+        <name key='Farkas, Györgyi' type='person' role='int'>Farkas, Györgyi</name>
+        <name key='Berglund, Frans' type='person' role='int'>Berglund, Frans</name>
+        <name key='Lilly, Simon' type='person' role='int'>Lilly, Simon</name>
+        <name key='Luks, Václav' type='person' role='int'>Luks, Václav</name>
+        <name key='Rovenský, Miroslav' type='person' role='int'>Rovenský, Miroslav</name>
+        <name key='Estevan, Pedro' type='person' role='int'>Estevan, Pedro</name>
+        <name key='Würsch, Matthias' type='person' role='int'>Würsch, Matthias</name>
+        <name key='Costoyas, Dolores' type='person' role='int'>Costoyas, Dolores</name>
+        <name key='Grange, Manuel De' type='person' role='int'>Grange, Manuel De</name>
+        <name key='Bonavita, Rafael' type='person' role='int'>Bonavita, Rafael</name>
+        <name key='Bötticher, Jörg-Andreas' type='person' role='int'>Bötticher, Jörg-Andreas</name>
+        <title>Concert</title>
+        <placeName key='Basel, Martinskirche'/>
+        <name key='Concerts' type='series'/>
+        <page><![CDATA[﻿               Montag, 2. 4. 2001, 20.15 Uhr Martinskirche Basel
 Extra konzert II
 Le Parnasse Francais
              J.-B. Lully: Alceste M. Marais: Alcione J. Ph. Rameau: Les Boreades
@@ -94,8 +104,8 @@ Le Parnasse Francais
                             Kartenvorverkauf: Musik Hug AG Freie Strasse 70, Basel Tel. 061-272 33 95
 in Bas
 ]]></page>
-<pb facs="CH_Bm_prg/pyr_CH_Bm_prg-1051.tif"/>
-<page><![CDATA[﻿          Zu diesem Programm "Le Parnasse Fran^ais"
+        <pb facs='CH_Bm_prg/pyr_CH_Bm_prg-1051.tif'/>
+        <page><![CDATA[﻿          Zu diesem Programm "Le Parnasse Fran^ais"
 Lully - Marais - Rameau: Das Programm vereint das musikalische Dreigestirn der französischen Klassik. Die Entstehungsdaten der gespielten Werke liegen genau 89 Jahre auseinander, womit schon angedeutet ist, dass hier eine grosse und langandauernde Tradition französischer Musik vorgestellt wird. Orchestersuiten sind gewissermassen Nebenprodukte der durch Lully im letzten Drittel des 1 7. Jahrhunderts neu konzipierten französischen Oper, die durch Integrationen Ballettteilen, durch eine aufwendige Bühnentechnik und nicht zuletzt durch die wichtige Rolle des Orchesters zu jenem repräsentativen Gesamtkunstwerk verschmolzen wurde, das sich zur Demonstration der materiellen und kulturellen Dominanz des selbstbewussten Königshofes unter Ludwig XIV. eignete.
 Anders als in italienischer Musik waren die vokalen Teile der französischen Oper vor allem dem Textvortrag in rezitativi-scher Form gewidmet. Die grossen Emotionen wurden auf Ballett, Bühnentechnik und Massenszenen verlagert. All dies aber mit untermalender Beteiligung des Orchesters, dem auf diese Weise ein wesentlicher Teil am dramaturgischen Konzept zukam. In einer Zeit, in der ein genuines Repertoire für jenes neuartige Ensemble noch kaum existierte, wurden deshalb die instrumentalen Teile aus dem Zusammenhang der Opernhandlung herausgelöst und begannen als „Orchestersuiten" ein Eigenlebenzu führen. Johann MattlÄpn schwärmt 1713 von französischen Suiten und lässt erkennen, dass ein wichtiger Teil ihrer Wirkung auf der präzisen Ausführung beruht, hinter der sich nichts anderes als der Beginn des modernen Orchesterspiels verbirgt: „Ob sich auch gleich die Italiäner die gröste Mühe von der Welt mit ihren Symphonien und Concerten geben / welche auch gewiß überaus schön sind / so ist doch wol eine frische Frantzösische Ouverture ihnen allen zu praeferieren. Denn / nechst der Composition einer solchen Piege mit ihrer Suite ä la Francoise, ist die Execution in ihrem Genere, welche die Frantzosen derselbigen geben / so admirable, so unie und so ferme, daß nichts darüber seyn kann."
 
@@ -103,8 +113,8 @@ Um die programmatischen Titel einzelner Suitensätze besser zu verstehen, sollen
 Marin Marais war nicht nur der bedeutendste Gambist des französischen Hofes, sondern auch Kompositionsschüler Lullys. Alcione war die erfolgreichste seiner vier Opern. Im Prolog wird der Wettstreit zwischen Apollo und Pan geschildert. Zur Feier von Apollos Sieg erklingt dann die Geschichte Alciones (aus Ovids Metamorphosen). Wie schon bei Alceste wird auch hier eine Hochzeit-zwischen Ceix und Alcione-durch Bösewichte verhindert, indem diese von Furien den Palast in Brand stecken lassen. Ceix wird von Dämonen sogar dazu gebracht, Alcione zu entsagen und begibt sich auf eine Schiffsreise. Alcione, in tiefen Schlaf versetzt, träumt den Untergang des Schiffes und den Tod ihres Bräutigams in einem grauenhaften Sturm. Als Alcione schliesslich den realen Leichnam Ceix' am Strand entdeckt, tötet sie sich mit seinem Sd^'ert. Neptun aber erweckt die beiden Liebenden wieder und feiert mit dem glücklichen Paar.
 Der Erfolg von Alcione beruhte zu einem nicht unwesentlichen Teil auf den grossen Orchestersätzen der Oper, wobei vor allem die grosse Sturmszene des IV. Aktes - obwohl nicht die erste ihrer Art - zum Prototyp vieler ähnlicher Stücke im 1 8. Jahrhundert wurde. Der Einsatz von dumpfen Trommeln im Kontrast zu hohen Streichern und Bläsern trägt besonders zur Wirkung bei.
 Von Marais zu Rameaus letzter Oper "Les Boreades" lässt sich über Sturm und Wind eine direkte thematische Brücke schlagen. Alphise soll einen Gatten aus dem Geschlecht der Boreaden wählen, lehnt aber alle Bewerber ab, weil sie]]></page>
-<pb facs="CH_Bm_prg/pyr_CH_Bm_prg-1052.tif"/>
-<page><![CDATA[﻿heimlich den fremden Abaris liebt. Im "Divertissement" vergleichen Tänzer und Sänger die Ehe mit einem ereignisarmen Tag auf stiller See und die leidenschaftliche (nicht auf die Ehe gerichtete) Liebe mit den Gefahren des Sturms. Alphise entscheidet sich für Abaris und verzichtet auf den Thron. Voller Wut bricht Boree, Vater der abgewiesenen Freier, mit einem Unwetter über Alphise herein und entführt sie. Er stellt ihr die schrecklichen Folgen ihrer Weigerung vor Augen, doch sie bleibt standhaft. Der herbeigeeilte Abaris kämpft erfolgreich gegen die Boreaden und wird schliesslich von Apollo als sein eigener Sohn aus der Verbindung mit einer Nymphe ausjbm Geschlecht der Boreaden vorgestellt. Boree muss der '^Rsi-nigung nun zustimmen. Die Genien der Liebe, des Vergnügens und der Freude feiern das Paar.
+        <pb facs='CH_Bm_prg/pyr_CH_Bm_prg-1052.tif'/>
+        <page><![CDATA[﻿heimlich den fremden Abaris liebt. Im "Divertissement" vergleichen Tänzer und Sänger die Ehe mit einem ereignisarmen Tag auf stiller See und die leidenschaftliche (nicht auf die Ehe gerichtete) Liebe mit den Gefahren des Sturms. Alphise entscheidet sich für Abaris und verzichtet auf den Thron. Voller Wut bricht Boree, Vater der abgewiesenen Freier, mit einem Unwetter über Alphise herein und entführt sie. Er stellt ihr die schrecklichen Folgen ihrer Weigerung vor Augen, doch sie bleibt standhaft. Der herbeigeeilte Abaris kämpft erfolgreich gegen die Boreaden und wird schliesslich von Apollo als sein eigener Sohn aus der Verbindung mit einer Nymphe ausjbm Geschlecht der Boreaden vorgestellt. Boree muss der '^Rsi-nigung nun zustimmen. Die Genien der Liebe, des Vergnügens und der Freude feiern das Paar.
 Rameau hat die Ansprüche an das Orchester gegenüber Lully und Marais nochmals gesteigert. Er differenziert die Instrumentation wesentlich und bereichert sie mit Piccoloflöten, Klarinetten und Hörnern um neue Farben. Dieses virtuose "Malen" mit orchestralen Klangfarben ist eine spezifische französische Errungenschaft, die im 19. Jahrhundert von Berlioz ausgehend eine tiefe Wirkung auf die weitere Behandlung des Orchestersatzes bis Wagner, Strauss und Mahler entfaltet.
 Wie man heute annimmt, erlebte "Les Boreades" keine Aufführung im 18. Jahrhundert. Das Stück wurde erstmals 1975 in London vollständig gespielt. Wie die Liebenden von den Göttern - so scheint es -, wird ihre Musik von einer späteren Zeit wieder zum Leben erweckt.
 Thomas Drescher
@@ -131,8 +141,8 @@ D
 Schweizer Radio DRS
 Voraussichtlicher Sendetermin (Änderungen Vorbehalten):
  Das Konzert wird von Schweizer Radio DRS2 aufgenommen und am Donnerstag, 31. Mai 2001, um 20.00 Uhr ausgestrahlt.]]></page>
-<pb facs="CH_Bm_prg/pyr_CH_Bm_prg-1053.tif"/>
-<page><![CDATA[﻿La Cetra Barockorchester Basel
+        <pb facs='CH_Bm_prg/pyr_CH_Bm_prg-1053.tif'/>
+        <page><![CDATA[﻿La Cetra Barockorchester Basel
 Violine
 David Plantier Stephanie Pfister Lenka Koubkova Christoph Rudolf Cosimo Stawiarski Julia Schröder Daniel Deuter Dorina Mangra Plamena Nikitassova
 Viola
@@ -164,8 +174,8 @@ Kern des Ensembles sind Lehrer und Absolventen der Schola Cantorum B^Äensis (SC
 Das Konzept verfolgt das Ziel, in der Schweiz ein Spitzenensemble seiner Art zu etablieren. LA CETRA erarbeitet jährlich vier bis fünf Konzert-Projekte, die es sowohl in eigener Regie zur Aufführung bringt als auch Veranstaltern im In- und Ausland zur Übernahme anbietet. CD-Aufnahmen und die Mitwirkung bei Barockopernprojekten sind ebenfalls geplant.
 Die Trägerschaft ist der Verein LA CETRA, dessen Vorstand aus dem Umfeld der Schola Cantorum Basiliensis stammt.
 Möglich wurde die Gründung des Basler Barockorchesters LA CETRA dank der Kulturpartnerschaft mit der Sophie und Karl Binding Stiftung, welche das Orchester während der kommenden fünf Jahre finanziell unterstützen wird.]]></page>
-<pb facs="CH_Bm_prg/pyr_CH_Bm_prg-1054.tif"/>
-<page><![CDATA[﻿         Unser nächstes Konzert:
+        <pb facs='CH_Bm_prg/pyr_CH_Bm_prg-1054.tif'/>
+        <page><![CDATA[﻿         Unser nächstes Konzert:
 Konzert IV Montag, 7. Mai 2001
             20.15	Uhr
               Casino Basel, Hans Huber-Saal
@@ -176,8 +186,7 @@ Konzert IV Montag, 7. Mai 2001
                 Hist. Klarinette: Pierre-Andre Taillard Fortepiano: Edoardo Torbianelli
 Vorverkauf: Musik Hug AG, Tel. 061- 272 33 95
 ]]></page>
-       
-        </p>
+      </p>
     </body>
   </text>
 </TEI>

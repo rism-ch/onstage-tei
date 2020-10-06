@@ -1,95 +1,103 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>HEMU Conservatoire de Lausanne - Programme de concert</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Paolo Boschetti</persName>
-                    <persName>Laurent Pugin</persName>
-                    <persName>Violeta Struijk van Bergen</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <date when="2012-11">Novembre 2012</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_lac</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>HEMU Conservatoire de Lausanne - Programme de concert</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Paolo Boschetti</persName>
+            <persName>Laurent Pugin</persName>
+            <persName>Violeta Struijk van Bergen</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <date when='2012-11'>Novembre 2012</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_lac</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Audition d'élèves: Classes élémentaires, primaires et secondaires du Conservatoire de Lausanne <date when="19370602">02 juin 1937</date></title>
-<series>Auditions</series>
-<placeName>Maison du Peuple, Grande sale</placeName>
-<orgName role="holding">Bibliothèque HEMU-CL;<link target="http://biblio.hemu-cl.ch"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+             Audition d'élèves: Classes élémentaires, primaires et secondaires du Conservatoire de Lausanne 
+            <date when='19370602'>02 juin 1937</date>
+          </title>
+          <series>Auditions</series>
+          <placeName>Maison du Peuple, Grande sale</placeName>
+          <orgName role='holding'>
+             Bibliothèque HEMU-CL; 
+            <link target='http://biblio.hemu-cl.ch'/>
+          </orgName>
+        </bibl>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <pb facs="LAc_prg/CH_LAc_prg_dates/pyr_CH_LAc_prg_dates-0174.tif"/>
-<date when="19370602"/>
-<name key="Rhené-Baton" type="person" role="cmp">Rhené-Baton</name>
-<name key="Le Couppey, Félix" type="person" role="cmp">Le Couppey</name>
-<name key="Burgmüller, Friederich Johann Franz" type="person" role="cmp">Burgmüller</name>
-<name key="Francmesnil, Roger de" type="person" role="cmp">Francmesnil</name>
-<name key="Grechaninov, Aleksandr Tikhonovich" type="person" role="cmp">Gretchaninoff</name>
-<name key="Mozart, Wolfgang Amadeus" type="person" role="cmp">Mozart</name>
-<name key="Carse, Adam" type="person" role="cmp">Carse, Adam</name>
-<name key="Dolmetsch" type="person" role="cmp">Dolmetsch</name>
-<name key="Demierre, François" type="person" role="cmp">Demierre, F.</name>
-<name key="Kuhlau, Friedrich" type="person" role="cmp">Kuhlau</name>
-<name key="Schubert, Franz" type="person" role="cmp">Schubert</name>
-<name key="Pierné, Gabriel" type="person" role="cmp">Pierné</name>
-<name key="Dowell, Max" type="person" role="cmp">Dowell, Max</name>
-<name key="Nardini, Pietro" type="person" role="cmp">Nardini</name>
-<name key="Zilcher, Hermann" type="person" role="cmp">Zilcher</name>
-<name key="Scharwenka" type="person" role="cmp">Scharwenka</name>
-<name key="Schleemüller, Hugo" type="person" role="cmp">Schleemüller</name>
-<name key="Maïkapar, Samuel Moïséevitch" type="person" role="cmp">Maykapar, S.</name>
-<name key="Hugo, Victor" type="person" role="var">Hugo, V.</name>
-<name key="Handel, George Frideric" type="person" role="cmp">Haendel</name>
-<name key="Gurlitt" type="person" role="cmp">Gurlitt</name>
-<name key="Heller, Stephen" type="person" role="cmp">Heller</name>
-<name key="Debussy, Claude" type="person" role="cmp">Debussy</name>
-<name key="Chopin, Fryderyk" type="person" role="cmp">Chopin</name>
-<name key="Lebell" type="person" role="cmp">Lebell</name>
-<name key="Beethoven, Ludwig van" type="person" role="cmp">Beethoven</name>
-<name key="Vigny, Alfred de" type="person" role="cmp">de Vigny</name>
-<name key="Tchaikovsky, Pyotr Il′yich" type="person" role="cmp">Tschaïkowsky</name>
-<name key="Skryabin, Aleksandr Nikolayevich" type="person" role="cmp">Scriabine</name>
-<name key="Borodin, Aleksandr Porfir'yevich" type="person" role="cmp">Borodine</name>
-<name key="Haydn, Joseph" type="person" role="cmp">Haydn</name>
-<name key="Margot" type="person" role="prof">Margot</name>
-<name key="Ramel" type="person" role="prof">Ramel</name>
-<name key="Capt" type="person" role="prof">Capt</name>
-<name key="Desarzens" type="person" role="prof">Desarzens</name>
-<name key="Rosat, Suzanne" type="person" role="prof">Rosat</name>
-<name key="André" type="person" role="prof">André</name>
-<name key="Frommelt, Richard" type="person" role="prof">Frommelt</name>
-<name key="Burger, Paul" type="person" role="prof">Burger</name>
-<name key="Daulte, Madeleine" type="person" role="prof">Daulte</name>
-<name key="Crousaz, Juliette de" type="person" role="prof">Crousaz, J. de</name>
-<name key="Gamboni, Yvonne" type="person" role="prof">Gamboni</name>
-<name key="Giroud, Auguste" type="person" role="prof">Giroud</name>
-<name key="Koëlla, Mirette" type="person" role="prof">Koëlla</name>
-<title>Audition d'élèves: Classes élémentaires, primaires et secondaires du Conservatoire de Lausanne</title>
-<placeName key="Lausanne, Maison du Peuple, Gande salle"/>
-<name key="Auditions" type="series"/>
-<page><![CDATA[﻿                                                                           lA
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <pb facs='LAc_prg/CH_LAc_prg_dates/pyr_CH_LAc_prg_dates-0174.tif'/>
+        <date when='19370602'/>
+        <name key='Rhené-Baton' type='person' role='cmp'>Rhené-Baton</name>
+        <name key='Le Couppey, Félix' type='person' role='cmp'>Le Couppey</name>
+        <name key='Burgmüller, Friedrich' type='person' role='cmp'>Burgmüller, Friedrich</name>
+        <name key='Francmesnil, Roger de' type='person' role='cmp'>Francmesnil</name>
+        <name key='Grečaninov, Aleksandr Tihonovič' type='person' role='cmp'>Grečaninov, Aleksandr Tihonovič</name>
+        <name key='Mozart, Wolfgang Amadeus' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Carse, Adam' type='person' role='cmp'>Carse, Adam</name>
+        <name key='Dolmetsch' type='person' role='cmp'>Dolmetsch</name>
+        <name key='Demierre, François' type='person' role='cmp'>Demierre, François</name>
+        <name key='Kuhlau, Friedrich' type='person' role='cmp'>Kuhlau</name>
+        <name key='Schubert, Franz' type='person' role='cmp'>Schubert, Franz</name>
+        <name key='Pierné, Gabriel' type='person' role='cmp'>Pierné</name>
+        <name key='Dowell, Max' type='person' role='cmp'>Dowell, Max</name>
+        <name key='Nardini, Pietro' type='person' role='cmp'>Nardini</name>
+        <name key='Zilcher, Hermann' type='person' role='cmp'>Zilcher</name>
+        <name key='Scharwenka' type='person' role='cmp'>Scharwenka</name>
+        <name key='Schleemüller, Hugo' type='person' role='cmp'>Schleemüller</name>
+        <name key='Majkapar, Samuil Moiseevič' type='person' role='cmp'>Majkapar, Samuil Moiseevič</name>
+        <name key='Hugo, Victor' type='person' role='var'>Hugo, V.</name>
+        <name key='Händel, Georg Friedrich' type='person' role='cmp'>Händel, Georg Friedrich</name>
+        <name key='Gurlitt' type='person' role='cmp'>Gurlitt</name>
+        <name key='Heller, Stephen' type='person' role='cmp'>Heller</name>
+        <name key='Debussy, Claude' type='person' role='cmp'>Debussy, Claude</name>
+        <name key='Chopin, Fryderyk Franciszek' type='person' role='cmp'>Chopin, Fryderyk Franciszek</name>
+        <name key='Lebell' type='person' role='cmp'>Lebell</name>
+        <name key='Beethoven, Ludwig van' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Vigny, de' type='person' role='cmp'>Vigny, de</name>
+        <name key='Čajkovskij, Pëtr Il&apos;ič' type='person' role='cmp'>Čajkovskij, Pëtr Il&apos;ič</name>
+        <name key='Skrjabin, Aleksandr Nikolaevič' type='person' role='cmp'>Skrjabin, Aleksandr Nikolaevič</name>
+        <name key='Borodin, Alexandr Porfir&apos;evič' type='person' role='cmp'>Borodin, Alexandr Porfir&apos;evič</name>
+        <name key='Haydn, Joseph' type='person' role='cmp'>Haydn, Joseph</name>
+        <name key='Margot' type='person' role='prof'>Margot</name>
+        <name key='Ramel' type='person' role='prof'>Ramel</name>
+        <name key='Capt' type='person' role='prof'>Capt</name>
+        <name key='Desarzens' type='person' role='prof'>Desarzens</name>
+        <name key='Rosat, Suzanne' type='person' role='prof'>Rosat</name>
+        <name key='André' type='person' role='prof'>André</name>
+        <name key='Frommelt, Richard' type='person' role='prof'>Frommelt</name>
+        <name key='Burger, Paul' type='person' role='prof'>Burger</name>
+        <name key='Daulte, Madeleine' type='person' role='prof'>Daulte</name>
+        <name key='Crousaz, Juliette de' type='person' role='prof'>Crousaz, Juliette de</name>
+        <name key='Gamboni, Yvonne' type='person' role='prof'>Gamboni</name>
+        <name key='Giroud, Auguste' type='person' role='prof'>Giroud</name>
+        <name key='Koëlla, Mirette' type='person' role='prof'>Koëlla</name>
+        <title>Audition d'élèves: Classes élémentaires, primaires et secondaires du Conservatoire de Lausanne</title>
+        <placeName key='Lausanne, Maison du Peuple, Grande salle'/>
+        <name key='Auditions' type='series'/>
+        <page><![CDATA[﻿                                                                           lA
    GRANDE SALLE DE LA MAISON DU PEUPLE
 Mercredi 2 juin 1937, à 20 h. 15 précises
  AUDITION D’ÉLÈ
@@ -187,8 +195,8 @@ Entrée 1 franc.
 34.	Variations en do majeur, piano........Haydn
           Mlle Marie-Louise Rey, classe de Mme Gamboni.
 PIANO A QUEUE DE LA MAISON FOETISCH S. A.]]></page>
-<pb facs="LAc_prg/CH_LAc_prg_dates/pyr_CH_LAc_prg_dates-0175.tif"/>
-<page><![CDATA[﻿
+        <pb facs='LAc_prg/CH_LAc_prg_dates/pyr_CH_LAc_prg_dates-0175.tif'/>
+        <page><![CDATA[﻿
 STEINWAY
 & SONS
 I Appréciation !
@@ -221,8 +229,7 @@ jÿ Continents!
  parce que sa sonorité, sa distinction, sa poésie et son ampleur sont sans égales
 6 modèles de pianos à queue,
  dont le plus petit, de 170 cm, coûte frs 4450.—]]></page>
-       
-        </p>
+      </p>
     </body>
   </text>
 </TEI>

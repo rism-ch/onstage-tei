@@ -1,91 +1,99 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>HEMU Conservatoire de Lausanne - Programme de concert</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Paolo Boschetti</persName>
-                    <persName>Laurent Pugin</persName>
-                    <persName>Violeta Struijk van Bergen</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <date when="2012-11">Novembre 2012</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_lac</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>HEMU Conservatoire de Lausanne - Programme de concert</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Paolo Boschetti</persName>
+            <persName>Laurent Pugin</persName>
+            <persName>Violeta Struijk van Bergen</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <date when='2012-11'>Novembre 2012</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_lac</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Treizième audition d'élèves: Réservée aux classes élémentaires, primaires et secondaires <date when="19260622">22 juin 1926</date></title>
-<series>Auditions</series>
-<placeName>Conservatoire de Lausanne, salle des concerts</placeName>
-<orgName role="holding">Bibliothèque HEMU-CL;<link target="http://biblio.hemu-cl.ch"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+             Treizième audition d'élèves: Réservée aux classes élémentaires, primaires et secondaires 
+            <date when='19260622'>22 juin 1926</date>
+          </title>
+          <series>Auditions</series>
+          <placeName>Conservatoire de Lausanne, salle des concerts</placeName>
+          <orgName role='holding'>
+             Bibliothèque HEMU-CL; 
+            <link target='http://biblio.hemu-cl.ch'/>
+          </orgName>
+        </bibl>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <pb facs="LAc_prg/CH_LAc_prg_dates/pyr_CH_LAc_prg_dates-0068.tif"/>
-<date when="19260622"/>
-<name key="Mozart, Wolfgang Amadeus" type="person" role="cmp">Mozart</name>
-<name key="Bosset, G.-F." type="person" role="cmp">Bosset, G.-F.</name>
-<name key="Kullak, Theodor" type="person" role="cmp">Kullak</name>
-<name key="Demierre, François" type="person" role="cmp">Demierre</name>
-<name key="Poldini, Ede" type="person" role="cmp">Poldini</name>
-<name key="Stierlin-Vallon, Henri" type="person" role="cmp">Sterlin</name>
-<name key="Vallon" type="person" role="var">Vallon</name>
-<name key="Thomé, Francis" type="person" role="cmp">Thomé</name>
-<name key="Handel, George Frideric" type="person" role="cmp">Haendel</name>
-<name key="Schubert, Franz" type="person" role="cmp">Schubert</name>
-<name key="Gurlitt" type="person" role="cmp">Gurlitt</name>
-<name key="Kjerulf, Halfdan" type="person" role="cmp">Kjerulf</name>
-<name key="Vivaldi, Antonio" type="person" role="cmp">Vivaldi</name>
-<name key="Bach, Johann Sebastian" type="person" role="cmp">Bach</name>
-<name key="Kirchner, Theodor" type="person" role="cmp">Kirchner</name>
-<name key="Grieg, Edvard" type="person" role="cmp">Grieg</name>
-<name key="Chopin, Fryderyk" type="person" role="cmp">Chopin</name>
-<name key="Brahms, Johannes" type="person" role="cmp">Brahms</name>
-<name key="Demierre, François" type="person" role="cmp">Demierre, Franç.</name>
-<name key="Handel, George Frideric" type="person" role="cmp">Haendel</name>
-<name key="De Greef, Arthur" type="person" role="cmp">de Greef</name>
-<name key="Lack, Théodore" type="person" role="cmp">Lack</name>
-<name key="Schumann, Robert" type="person" role="cmp">Schumann</name>
-<name key="Gade, Niels Wilhelm" type="person" role="cmp">Gade</name>
-<name key="Kuhlav" type="person" role="cmp">Kuhlav</name>
-<name key="Niess" type="person" role="prof">Niess</name>
-<name key="Aubert, Jacques" type="person" role="prof">Aubert</name>
-<name key="Courvoisier" type="person" role="prof">Courvoisier</name>
-<name key="Gilliard" type="person" role="prof">Gilliard</name>
-<name key="Margot" type="person" role="prof">Margot</name>
-<name key="Olivier" type="person" role="prof">Olivier</name>
-<name key="Tissot" type="person" role="prof">Tissot</name>
-<name key="Frommelt, Richard" type="person" role="prof">Frommelt</name>
-<name key="Rosat, Suzanne" type="person" role="prof">Rosat</name>
-<name key="Troyon-Bläsi" type="person" role="prof">Troyon-Blaesi</name>
-<name key="Ramel" type="person" role="prof">Ramel</name>
-<name key="Capt" type="person" role="prof">Capt</name>
-<title>Treizième audition d'élèves: Réservée aux classes élémentaires, primaires et secondaires</title>
-<placeName key="Lausanne, Conservatoire, Salle des concerts"/>
-<name key="Auditions" type="series"/>
-<note>Piano Berdux</note>
-<note>Annotations manuscrites concernant la qualité de l'exécution ou l'intérêt des pièces jouées</note>
-<note>Ajout manuscrit: "L'Attente, Saint-Saëns"</note>
-<page><![CDATA[﻿OK-II
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <pb facs='LAc_prg/CH_LAc_prg_dates/pyr_CH_LAc_prg_dates-0068.tif'/>
+        <date when='19260622'/>
+        <name key='Mozart, Wolfgang Amadeus' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Bosset, G.-F.' type='person' role='cmp'>Bosset, G.-F.</name>
+        <name key='Kullak, Theodor' type='person' role='cmp'>Kullak</name>
+        <name key='Demierre, François' type='person' role='cmp'>Demierre</name>
+        <name key='Poldini, Ede' type='person' role='cmp'>Poldini</name>
+        <name key='Stierlin-Vallon, Henri' type='person' role='cmp'>Sterlin</name>
+        <name key='Vallon' type='person' role='var'>Vallon</name>
+        <name key='Thomé, Francis' type='person' role='cmp'>Thomé</name>
+        <name key='Händel, Georg Friedrich' type='person' role='cmp'>Händel, Georg Friedrich</name>
+        <name key='Schubert, Franz' type='person' role='cmp'>Schubert, Franz</name>
+        <name key='Gurlitt' type='person' role='cmp'>Gurlitt</name>
+        <name key='Kjerulf, Halfdan' type='person' role='cmp'>Kjerulf</name>
+        <name key='Vivaldi, Antonio' type='person' role='cmp'>Vivaldi, Antonio</name>
+        <name key='Bach, Johann Sebastian' type='person' role='cmp'>Bach</name>
+        <name key='Kirchner, Theodor' type='person' role='cmp'>Kirchner</name>
+        <name key='Grieg, Edvard' type='person' role='cmp'>Grieg, Edvard</name>
+        <name key='Chopin, Fryderyk Franciszek' type='person' role='cmp'>Chopin, Fryderyk Franciszek</name>
+        <name key='Brahms, Johannes' type='person' role='cmp'>Brahms, Johannes</name>
+        <name key='Demierre, François' type='person' role='cmp'>Demierre, François</name>
+        <name key='Händel, Georg Friedrich' type='person' role='cmp'>Händel, Georg Friedrich</name>
+        <name key='Greef, de' type='person' role='cmp'>Greef, de</name>
+        <name key='Lack, Théodore' type='person' role='cmp'>Lack</name>
+        <name key='Schumann, Robert' type='person' role='cmp'>Schumann, Robert</name>
+        <name key='Gade, Niels-Wilhelm' type='person' role='cmp'>Gade, Niels-Wilhelm</name>
+        <name key='Kuhlau' type='person' role='cmp'>Kuhlau</name>
+        <name key='Niess' type='person' role='prof'>Niess</name>
+        <name key='Aubert, Jacques' type='person' role='prof'>Aubert</name>
+        <name key='Courvoisier' type='person' role='prof'>Courvoisier</name>
+        <name key='Gilliard' type='person' role='prof'>Gilliard</name>
+        <name key='Margot' type='person' role='prof'>Margot</name>
+        <name key='Olivier' type='person' role='prof'>Olivier</name>
+        <name key='Tissot' type='person' role='prof'>Tissot</name>
+        <name key='Frommelt, Richard' type='person' role='prof'>Frommelt</name>
+        <name key='Rosat, Suzanne' type='person' role='prof'>Rosat</name>
+        <name key='Troyon-Blaesi, C.' type='person' role='prof'>Troyon-Blaesi, C.</name>
+        <name key='Ramel' type='person' role='prof'>Ramel</name>
+        <name key='Capt' type='person' role='prof'>Capt</name>
+        <title>Treizième audition d'élèves: Réservée aux classes élémentaires, primaires et secondaires</title>
+        <placeName key='Lausanne, Conservatoire, Salle des concerts'/>
+        <name key='Auditions' type='series'/>
+        <note>Piano Berdux</note>
+        <note>Annotations manuscrites concernant la qualité de l'exécution ou l'intérêt des pièces jouées</note>
+        <note>Ajout manuscrit: "L'Attente, Saint-Saëns"</note>
+        <page><![CDATA[﻿OK-II
 CONSERVATOIRE DE LAOS
 IMSTITUT DE MUSIQUE
 SALLE DES CONCERTS
@@ -170,8 +178,7 @@ i
  Imprimerie Vatdolse, Lausanne.
 s
 ]]></page>
-       
-        </p>
+      </p>
     </body>
   </text>
 </TEI>

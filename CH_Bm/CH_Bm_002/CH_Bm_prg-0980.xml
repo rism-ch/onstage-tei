@@ -1,88 +1,98 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>BASEL</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Laurent Pugin</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <date when="2016-01">Janvier 2016</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_famb</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>BASEL</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Laurent Pugin</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <date when='2016-01'>Janvier 2016</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_famb</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert<date when="19990218">18/02/1999</date></title>
-<series>Concert</series>
-<placeName>Basel, Martinskirche</placeName>
-<orgName role="holding">Archiv des Vereins Freunde alter Musik Basel; <link target="http://famb.ch/"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+             Concert 
+            <date when='19990218'>18/02/1999</date>
+          </title>
+          <series>Concert</series>
+          <placeName>Basel, Martinskirche</placeName>
+          <orgName role='holding'>
+             Archiv des Vereins Freunde alter Musik Basel; 
+            <link target='http://famb.ch/'/>
+          </orgName>
+        </bibl>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <pb facs="CH_Bm_prg/pyr_CH_Bm_prg-0980.tif"/>
-<date when="19990218"/>
-<name key="Schütz, Heinrich" type="person" role="cmp">Schütz, Heinrich</name>
-<name key="Gabrieli, Giovanni" type="person" role="cmp">Gabrieli, Giovanni</name><name key="Tachikawa, Akira" type="person" role="int">Tachikawa, Akira</name>
-<name key="Dyck, Stephane van" type="person" role="int">Dyck, Stephane van</name>
-<name key="Lutz, Rudolf" type="person" role="int">Lutz, Rudolf</name>
-<name key="Dickey, Bruce" type="person" role="int">Dickey, Bruce</name>
-<name key="Toet, Charles" type="person" role="int">Toet, Charles</name>
-<name key="Amrein, Maya" type="person" role="int">Amrein, Maya</name>
-<name key="Fischer, Maren" type="person" role="int">Fischer, Maren</name>
-<name key="Gessler, Ruth" type="person" role="int">Gessler, Ruth</name>
-<name key="Hahn, Dominique von" type="person" role="int">Hahn, Dominique von</name>
-<name key="Köhler, Judith" type="person" role="int">Köhler, Judith</name>
-<name key="Meszaros, Kinga" type="person" role="int">Meszaros, Kinga</name>
-<name key="Steinmann, Renate" type="person" role="int">Steinmann, Renate</name>
-<name key="Förster, Christine" type="person" role="int">Förster, Christine</name>
-<name key="Hurni, Bettina" type="person" role="int">Hurni, Bettina</name>
-<name key="Ikonomu, Ellena" type="person" role="int">Ikonomu, Ellena</name>
-<name key="Jenkins, Isobel" type="person" role="int">Jenkins, Isobel</name>
-<name key="Meinecke, Gabriela" type="person" role="int">Meinecke, Gabriela</name>
-<name key="Müller, Yvonne" type="person" role="int">Müller, Yvonne</name>
-<name key="Piller, Gudrun" type="person" role="int">Piller, Gudrun</name>
-<name key="Waldmeier, Claudia" type="person" role="int">Waldmeier, Claudia</name>
-<name key="Meier, Hans-Jürg" type="person" role="int">Meier, Hans-Jürg</name>
-<name key="Reich, Simon" type="person" role="int">Reich, Simon</name>
-<name key="Senn, Georg" type="person" role="int">Senn, Georg</name>
-<name key="Steiger, Pascal" type="person" role="int">Steiger, Pascal</name>
-<name key="Zaugg, Michael" type="person" role="int">Zaugg, Michael</name>
-<name key="Urech, Rolf" type="person" role="int">Urech, Rolf</name>
-<name key="Amrhein, Valentin" type="person" role="int">Amrhein, Valentin</name>
-<name key="Eberhardt, Patrick" type="person" role="int">Eberhardt, Patrick</name>
-<name key="Fiechter, Stefan" type="person" role="int">Fiechter, Stefan</name>
-<name key="Hoffarth, Jörg" type="person" role="int">Hoffarth, Jörg</name>
-<name key="Scholkmann, Philipp" type="person" role="int">Scholkmann, Philipp</name>
-<name key="Sonnleitner, Florian" type="person" role="int">Sonnleitner, Florian</name>
-<name key="Sherwin, Doron David" type="person" role="int">Sherwin, Doron David</name>
-<name key="David, Gebhard" type="person" role="int">David, Gebhard</name>
-<name key="Smith, Bork-Frithjof" type="person" role="int">Smith, Bork-Frithjof</name>
-<name key="Andersen, Ole-Kristian" type="person" role="int">Andersen, Ole-Kristian</name>
-<name key="Mechelen, Simen van" type="person" role="int">Mechelen, Simen van</name>
-<name key="Yacus, David" type="person" role="int">Yacus, David</name>
-<name key="Becu, Wim" type="person" role="int">Becu, Wim</name><title>Concert</title>
-<placeName key="Basel, Martinskirche"/>
-<name key="Concert" type="series"/>
-<page><![CDATA[﻿8-
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <pb facs='CH_Bm_prg/pyr_CH_Bm_prg-0980.tif'/>
+        <date when='19990218'/>
+        <name key='Schütz, Heinrich' type='person' role='cmp'>Schütz, Heinrich</name>
+        <name key='Gabrieli, Giovanni' type='person' role='cmp'>Gabrieli, Giovanni</name>
+        <name key='Tachikawa, Akira' type='person' role='int'>Tachikawa, Akira</name>
+        <name key='Dyck, Stephane van' type='person' role='int'>Dyck, Stephane van</name>
+        <name key='Lutz, Rudolf' type='person' role='int'>Lutz, Rudolf</name>
+        <name key='Dickey, Bruce' type='person' role='int'>Dickey, Bruce</name>
+        <name key='Toet, Charles' type='person' role='int'>Toet, Charles</name>
+        <name key='Amrein, Maya' type='person' role='int'>Amrein, Maya</name>
+        <name key='Fischer, Maren' type='person' role='int'>Fischer, Maren</name>
+        <name key='Gessler, Ruth' type='person' role='int'>Gessler, Ruth</name>
+        <name key='Hahn, Dominique von' type='person' role='int'>Hahn, Dominique von</name>
+        <name key='Köhler, Judith' type='person' role='int'>Köhler, Judith</name>
+        <name key='Meszaros, Kinga' type='person' role='int'>Meszaros, Kinga</name>
+        <name key='Steinmann, Renate' type='person' role='int'>Steinmann, Renate</name>
+        <name key='Förster, Christine' type='person' role='int'>Förster, Christine</name>
+        <name key='Hurni, Bettina' type='person' role='int'>Hurni, Bettina</name>
+        <name key='Ikonomu, Ellena' type='person' role='int'>Ikonomu, Ellena</name>
+        <name key='Jenkins, Isobel' type='person' role='int'>Jenkins, Isobel</name>
+        <name key='Meinecke, Gabriela' type='person' role='int'>Meinecke, Gabriela</name>
+        <name key='Müller, Yvonne' type='person' role='int'>Müller, Yvonne</name>
+        <name key='Piller, Gudrun' type='person' role='int'>Piller, Gudrun</name>
+        <name key='Waldmeier, Claudia' type='person' role='int'>Waldmeier, Claudia</name>
+        <name key='Meier, Hans-Jürg' type='person' role='int'>Meier, Hans-Jürg</name>
+        <name key='Reich, Simon' type='person' role='int'>Reich, Simon</name>
+        <name key='Senn, Georg' type='person' role='int'>Senn, Georg</name>
+        <name key='Steiger, Pascal' type='person' role='int'>Steiger, Pascal</name>
+        <name key='Zaugg, Michael' type='person' role='int'>Zaugg, Michael</name>
+        <name key='Urech, Rolf' type='person' role='int'>Urech, Rolf</name>
+        <name key='Amrhein, Valentin' type='person' role='int'>Amrhein, Valentin</name>
+        <name key='Eberhardt, Patrick' type='person' role='int'>Eberhardt, Patrick</name>
+        <name key='Fiechter, Stefan' type='person' role='int'>Fiechter, Stefan</name>
+        <name key='Hoffarth, Jörg' type='person' role='int'>Hoffarth, Jörg</name>
+        <name key='Scholkmann, Philipp' type='person' role='int'>Scholkmann, Philipp</name>
+        <name key='Sonnleitner, Florian' type='person' role='int'>Sonnleitner, Florian</name>
+        <name key='Sherwin, Doron David' type='person' role='int'>Sherwin, Doron David</name>
+        <name key='David, Gebhard' type='person' role='int'>David, Gebhard</name>
+        <name key='Smith, Bork-Frithjof' type='person' role='int'>Smith, Bork-Frithjof</name>
+        <name key='Andersen, Ole-Kristian' type='person' role='int'>Andersen, Ole-Kristian</name>
+        <name key='Mechelen, Simen van' type='person' role='int'>Mechelen, Simen van</name>
+        <name key='Yacus, David' type='person' role='int'>Yacus, David</name>
+        <name key='Becu, Wim' type='person' role='int'>Becu, Wim</name>
+        <title>Concert</title>
+        <placeName key='Basel, Martinskirche'/>
+        <name key='Concerts' type='series'/>
+        <page><![CDATA[﻿8-
 P.
 Donnerstag, 18. 2. 99, 20.15 Uhr
 Martinskirche Basel
@@ -97,8 +107,8 @@ Sv.’:
  K.../ JL
      Kartenvorverkauf: Musik Hug AG Basel Tel. 061-272 33 95
 ]]></page>
-<pb facs="CH_Bm_prg/pyr_CH_Bm_prg-0981.tif"/>
-<page><![CDATA[﻿
+        <pb facs='CH_Bm_prg/pyr_CH_Bm_prg-0981.tif'/>
+        <page><![CDATA[﻿
                        Heinrich Schutz und Giovanni Gabrieli
                                  mit den Ensembles VOCALES BASIUENSES
 und
@@ -112,8 +122,8 @@ Basel-Stadt
 II
 Das Konzert wird von Schweizer Radio DRS2 aufgenommenund am Sonntag,
 14. März 1999, um 1 1.00 Uhr ausgestrahlt.]]></page>
-<pb facs="CH_Bm_prg/pyr_CH_Bm_prg-0982.tif"/>
-<page><![CDATA[﻿Ausführend«
+        <pb facs='CH_Bm_prg/pyr_CH_Bm_prg-0982.tif'/>
+        <page><![CDATA[﻿Ausführend«
 Solisten
 Akiro Tochikowa, Altus Stephane van Dyck, Tenor
 Ensemble VOCALES BASIUENSES
@@ -171,23 +181,23 @@ Ist nicht Ephraim mein teurer Sohn
 Der. 31, 20) SWV 40
 Canzon 5 6 7 (Venedig 1615)
 Magnificat ä 1 2 (Venedig 1615)]]></page>
-<pb facs="CH_Bm_prg/pyr_CH_Bm_prg-0983.tif"/>
-<page><![CDATA[﻿
+        <pb facs='CH_Bm_prg/pyr_CH_Bm_prg-0983.tif'/>
+        <page><![CDATA[﻿
 Heinrich Sek ^ und Giovanni Gabrieli
 Das Programm des heutigen Abends verfolgt die Absicht, zwei der größten Komponisten ihrer Zeit in Deutschland und Italien: den Kapellmeister am Dresdener Hof und den Organisten an San Marco in Venedig, den berühmten Schüler und den bedeutenden Lehrer, den Nehmenden und den Gebenden: Heinrich Schütz (1585 -1672) und Giovanni Gabrieli (ca. 1553 -1612) in einen klingenden Zusammenhang zu stellen.
 Heinrich Schütz steht in einer jahrhundertelangen Reihe deutscher Musiker, die ihre Bildungsjahre in Italien verbrachten. Die Reihe beginnt mit Jakob Meiland und Hans-Leo Haßler, wird fortgesetzt bei Gregor Aichinger, Johann Grabbe, Christoph Clemsee und vielen Anderen und endet noch nicht bei Händel und Hasse, die selber fast zu "Italienern" wurden, öohann Sebastian Bach ist zwar nie in Italien gewesen, hat aber die neuesten Ideen VivaIdis und seiner Zeitgenossen eifrig studiert und in seine Arbeit integriert): Die Komponisten haben zu allen Zeiten über die Landesgrenzen hinweg beobachtet und erforscht, was ihre Kollegen taten, um abzuschätzen, welche neuen Errungenschaften sie selber aufnehmen und weiterentwickeln konnten.
 Bei Giovanni Gabrieli war Schütz während seiner Studienzeit 1609 - 161 2 an der Quelle venezianischer Tradition: Giovanni war geistiger und musikalischer Erbe seines Onkels Andrea Gabrieli (1510 -1586), der seinerseits Schüler von Adrian Willaert gewesen war, des ("niederländischen'!) Begründers der Venezianischen Schule. Und diese mit den Elementen des "nordischen" Kontrapunkts angereicherte moderne "italianitä" im Kompositionsstil der Gabrielis muß es gewesen sein, die für ein junges Talent wie Schütz eine solche Faszination ausübte. Von besonderer Attraktivität war offenbar für den Studenten neben den neuen Erscheinungen des Generalbasses, der Monodie und des "Concerto"-Stils die sogenannte "Mehrchörigkeit" (oder "Cori spezzati"-Technik), d.h. das Komponieren für eine große vokal-instrumentale Besetzung in zwei oder mehr kontrastierenden Klanggruppen. Die "dramatischen" Möglichkeiten, die diese formale Anlage beinhaltete, die flächigere Harmonik, der Abwechslungsreichtum und die Farbigkeit in klanglicher Hinsicht, der Einbezug des Raumes in die Klangdisposition, die mächtige Wirkung auf die Zuhörer - das alles war neu und ging weit über die Traditionen des 16. Jahrhunderts hinaus.
 Die expansiven, mehrchörigen Motetten Gabrielis, aufgeführt entweder im liturgischen Zusammenhang in San Marco oder bei großen weltlichen Zeremonien im Dogenpalast und außerhalb, zirkulierten anscheinend schon in Abschriften, bevor sie in der Druckfassung erschienen. Die Anzahl der Drucke ist gering: Die Sammlung "Sacrae Symphoniae", gewidmet den 4 Söhnen des Hauses Fugger, erschien 1597 (nicht in Partitur, sondern in Stimmbüchern ); sie wurde ausführlich rezipiert und kommentiert von Michael Praetorius in seinem "Syntagma musicum" von 1619. Bereits 1587 hatte Giovanni die großen Motetten seines Onkels An-]]></page>
-<pb facs="CH_Bm_prg/pyr_CH_Bm_prg-0984.tif"/>
-<page><![CDATA[﻿        drea, ergänzt um einige eigene Werke, in der Sammlung 'O^fcerti' herausgebracht (das erste Mal, daß der Begriff "Concerto' an so exponierter Stelle erscheint); und 1615, drei Jahre nach Giovannis Tode, wurde eine Sammlung, wieder unter dem Titel 'Sacrae Symphoniae', von Freunden und Schülern Giovannis zum Druck befördert, um das Andenken eines großen Lehrers und Komponisten zu ehren. Eine größere Anzahl von Drucken mag sich für den Verleger (Gardano in Venedig) nicht gelohnt haben, weil kaum ein anderes Ensemble über die spektakuläre Besetzung der Kapelle von San Marco verfügte, die ja ihre Funktionen nicht nur im Gottesdienst, sondern auch in der Repräsentation eines der glänzendsten Höfe im damaligen Europa (besonders während der Regierungszeit des Dogen Marino Grimani) ausübte: 'non tanto trenta, e piü Cantori, ma venti, e piü Instrumentisti da fiato, e da arco" haben hier gewirkt, und unter den Zink-Virtuosen waren Namen wie Giovanni Bassano und Girolamo dalla Casa. Die Sammlung von 1597 ist so angeordnet, daß die Canzonen jeweils nach den Motetten zu finden sind: die 8-stimmigen im Anschluß an die 8-stimmigen Motetten, die 10-stimmigen nach den 10-stimmigen Motetten und so fort, - beide Gattungen unterliegen ja denselben Kompositionsprinzipien. Die Canzonen gehören zu den frühesten Werken der Musikgeschichte, in denen für die Ausführenden dynamische Angaben wie 'piano' und 'forte' notiert sind,- Zeichen dafür, daß die klangliche Komponente - ähnlich wie die Schattierungen des Lichts in der zeitgenössischen Malerei des 'chiaroscuro' - nun ein wesentliches Merkmal der Komposition und ihrer Wirkung ist. Sie waren schon damals so berühmt, daß Versionen für Laute und für Tasteninstrumente von ihnen angefertigt wurden.
+        <pb facs='CH_Bm_prg/pyr_CH_Bm_prg-0984.tif'/>
+        <page><![CDATA[﻿        drea, ergänzt um einige eigene Werke, in der Sammlung 'O^fcerti' herausgebracht (das erste Mal, daß der Begriff "Concerto' an so exponierter Stelle erscheint); und 1615, drei Jahre nach Giovannis Tode, wurde eine Sammlung, wieder unter dem Titel 'Sacrae Symphoniae', von Freunden und Schülern Giovannis zum Druck befördert, um das Andenken eines großen Lehrers und Komponisten zu ehren. Eine größere Anzahl von Drucken mag sich für den Verleger (Gardano in Venedig) nicht gelohnt haben, weil kaum ein anderes Ensemble über die spektakuläre Besetzung der Kapelle von San Marco verfügte, die ja ihre Funktionen nicht nur im Gottesdienst, sondern auch in der Repräsentation eines der glänzendsten Höfe im damaligen Europa (besonders während der Regierungszeit des Dogen Marino Grimani) ausübte: 'non tanto trenta, e piü Cantori, ma venti, e piü Instrumentisti da fiato, e da arco" haben hier gewirkt, und unter den Zink-Virtuosen waren Namen wie Giovanni Bassano und Girolamo dalla Casa. Die Sammlung von 1597 ist so angeordnet, daß die Canzonen jeweils nach den Motetten zu finden sind: die 8-stimmigen im Anschluß an die 8-stimmigen Motetten, die 10-stimmigen nach den 10-stimmigen Motetten und so fort, - beide Gattungen unterliegen ja denselben Kompositionsprinzipien. Die Canzonen gehören zu den frühesten Werken der Musikgeschichte, in denen für die Ausführenden dynamische Angaben wie 'piano' und 'forte' notiert sind,- Zeichen dafür, daß die klangliche Komponente - ähnlich wie die Schattierungen des Lichts in der zeitgenössischen Malerei des 'chiaroscuro' - nun ein wesentliches Merkmal der Komposition und ihrer Wirkung ist. Sie waren schon damals so berühmt, daß Versionen für Laute und für Tasteninstrumente von ihnen angefertigt wurden.
         Heinrich Schütz setzte diesem Kompositionsstil und seinem 'Praeceptor' Gabrieli ein eigenes Denkmal: 1619, ganz zu Beginn des 30-jährigen Krieges, brachte der 34-jährige seine "Psalmen Davids" heraus, an denen er seit Antritt seiner Kapellmeisterstelle in Dresden (1617) gearbeitet hatte. In der Widmung und in der Vorrede bezieht er sich expressis verbis auf seine Lehrjahre in Venedig und das große Vorbild Giovanni Gabrieli (vgl. Dokument 2).
          1648, im Jahr des Westfälischen Friedens, läßt der 63-jährige Schütz seine "Geistliche Chormusik' erscheinen, 29 fünf-, sechs- und siebenstimmige, deutsch textierte Motetten, 'beides vocaliter und instrumentaliter zu gebrauchen", in Dresden entstanden und dem Thomaner-Chor in Leipzig zugeeignet. Im Vorwort betont der Komponist sein Anliegen, nach einem halben Jahrhundert mehrheitlich generalbaßbestimmter Musik wieder Werke im kontrapunktischen Stil vorzulegen, der doch die Grundlage der Komposition sei und bleiben müsse: Durch die italienischen Einflüsse hindurch und über seine eigenen Jugend-Eindrücke hinaus gelangt er hier zurück zum polyphonen "Stylus Compositionis", zu dieser "harten Nuß, worinnen der rechte Kern und das rechte Fundament eines guten Contropuncts zu suchen ist" (vgl. Dokument 4) - eine Art Synthese aus nördlich geprägter "horizontaler" (in Stimmen denkender) Auffassung und südlich geprägter, "vertikaler", klanglicher Ausrichtung der Komposition, - und zwar im textlichen Gewände der deutschen Sprache mit allen ihren Konsequenzen auf die musikalische Rhythmik und Expression.
 
 Die Offenheit c ^vAusiker gegenüber den Neuerungen der Kollegen spiegelt sich jeweils in den sogenannten Bearbeitungen, also einer Methode, vorliegende Kompositionen zu verändern, zu "modernisieren", einem neuen Aufführungszweck anzupassen, und durch diesen Umgang mit den fremden Stücken studierte man sie und drang in ihr Wesen ein. Schütz bearbeitete auf diese Weise in seinen 'Psalmen Davids' ein berühmtes Frühlings-Madrigal von G. Gabrieli, "Lieto godea", und legte es der Doxologie ('Ehre sei dem Vater...*) seines 111. Psalms zugrunde, wobei der Komponist an dieser Stelle ausdrücklich den Zusatz anbringt: "Imitazione sopra: Lieto godea. Canzone di Giovanni Gabrieli" - "Hommage" an den Lehrer und verehrten Freund. (Dieser Psalm erklingt in unserem Programm). Und in der 'Geistlichen Chormusik' geht er sogar so weit, in Nr. 27 ("Der Engel sprach zu den Hirten') die Übertragung einer gesamten Motette von Andrea Gabrieli ('Angelus ad pastores ait") zu bringen, diesmal allerdings ohne Namensnennung - kein Plagiatsproblem in einer Zeit, die das Urheberrecht noch nicht kannte. 'Entlehnen ist eine erlaubte Sache', sagte noch Johann Mattheson (1719), "man muß aber das Entlehnte mit Zinsen erstatten, d.i. man muß die Nachahmungen so einrichten und ausarbeiten, daß sie ein schöneres und besseres Ansehen gewinnen, als die Sätze, aus welchen sie entlehnet sind.'
 Ob Schütz dies beim “Entnehmen" von Anregungen Gabrielis gelungen ist, mag das Publikum nach dem Konzert entscheiden...
 Peter Reidemeister]]></page>
-<pb facs="CH_Bm_prg/pyr_CH_Bm_prg-0985.tif"/>
-<page><![CDATA[﻿        Dokumente
+        <pb facs='CH_Bm_prg/pyr_CH_Bm_prg-0985.tif'/>
+        <page><![CDATA[﻿        Dokumente
           1.	Aus der Widmung der Italienischen Madrigale von Heinrich Schütz an Landgraf Moritz von Hessen, Venedig 1611:
             ...tanto piü, che della sua corte, ove da teneri anni per sua clemenza benignamente fui enodrito, emmi toccato uscir per l'ltalia in particolore, e quivi mescolarmi a quell'onda, che tutta l'ltalia, con mormorio piü d'ogni altro simile all'Armonia Celesti vä illustrando, qual e il famosissimo Gabrieli, che m'hä fatto partecipe dell'oro delle sue sponde, si ricche in questa qualitä di studij, che ne al Pattob invidiar certo ponno. Non isdegni dunque V. A. Serenissima p'cciol tributo di gratitudine, ma grande die affetto in questi miei primi Madrigali, quali le offero con deliberatissimo animo... Di Venetia il di Primo di Maggio 1611.
             (.. .umso mehr, als an Eurem Hofe, an dem seit zartester Kindheit durch Eure Milde ich gütig genährt wurde, es mir zukam besonders nach Italien zu gehen, und daselbst mich in jene Woge zu stürzen, die ganz Italien mit ihrem Rauschen ziert, welches mehr als allem anderen der Himmlischen Harmonie gleichkommt und die der hochberühmte Gabrieli ist, der mich am Gold seiner Ufer teilhaben liess, welche an dieser Art von Studien so reich sind, dass weder diejenigen des Tagus, noch jene des Pactolus sie beneiden können. Eure Durchlauchtigste Hoheit möge also diesen an Dankbarkeit geringen, aber an Zuneigung grossen, aus diesen meinen ersten Madrigalen bestehenden Beitrag nicht verachten, den ich Euch mit aufrichtigem Gemüt darbiete .., Venedig, 1. Mai 1611.
@@ -203,8 +213,8 @@ Günstiger Leser:
 Es ist bekand und am Tage / das nach dem der über den Bassum Continuum concertiiende Stylus Compositionis, aus Italia auch uns Deutschen zu Gesichte kommen und in die Hände gerathen / derselbige gar sehr von uns beliebet worden ist / und dahero auch mehr Nachfolger / bekommen hat / als vorhin kein anderer jemahls mag gehabt haben / davon dann die bißhero unterschiedliche in Deutschland hin und wieder ausgelassene / und in denen Buchläden befindliche Musicalische Opera, genugsam Zeugnüß geben. Nun tadele ich zwar solch Beginnen keines weges; Sondern vermercke vielmehr hierunter auch unter unserer Deutschen Nation / allerhand zu der Profession der Music wohlgeschickte und geneigte Ingenia, denen ich auch ihr Lob gerne gönne / und selbst zugeben willig bin: Weil es aber gleichwohl an dem / auch bey allen in guten Schulen erzogenen Musicis auser zweifei ist / daß in dem schweresten Studio Contrapuncli niemand andere Arten der Composition in guter Ordnung angehen / und dieselbigen gebührlich handeln oder tractiren könne / er habe sich dann vorhero in dem Stylo ohne den Bassum continuum genugsam geübet / und darneben die zu einer Regulirten Composition nothwendige Requisita wohl eingeholet / als da (unter ändern) sind die Dispositiones Modorum; Fugae Simplices, mixlae, inversae; Contrapunctum duplex: Differentia Styli in arte Musicä diversi: Modulatio Vocum: Connexio subiectorum, & c. Und dergleichen Dinge mehr; Worvon die gelehrten Theorici weitleufftig schreiben / und in Schola Praticä die Studiosi Contrapuncti mit lebendiger Stimme unterrichtet werden; Ohne welche / bey erfahrnen Componisten ja keine eintzige Composition (ob auch solche denen in der Music nicht recht gelehrten Ohren / gleichsam als eine Himmlische Harmoni fürkommen möchte) nicht bestehen / oder doch nicht viel höher als einer tauben Nuß wert geschätzet werden kan / &.
 Als ich hierdurch veranlasset worden derogleichen Wercklein ohne Bassum Continuum auch einsten wieder anzugehen / und hierdurch vielleicht etliche / insonderheit aber theils der angehenden Deutschen Componisten anzufrischen / das / ehe Sie zu dem concerf/renden Stylo schreitten / Sie vorher diese harte Nuß (als worinnen der rechte Kern / und das rechte Fundament eines guten Contrapuncts zu suchen ist) auffbeissen / und darinnen ihre erste Proba ablegen möchten: Allermaßen dann auch in Italien / als auff der rechten Musicalischen hohen Schule (als in meiner Jugend ich erstmahls meine Fundamente in dieser Profession zulegen angefangen) der Gebrauch gewesen / das die Anfahenden iedesmahl derogleichen Geist- oder Weltlich Wercklein / ohne den Bassum Continuum, zu erst recht ausgearbeitet / und also von sich gelassen haben / wie denn daselbsten solche gute Ordnung vermuthlichen noch in acht genommen wird. Welche meine zum Auffnehmen der Music / auch Vermehrung unserer Nation Ruhm / wohlgemeinte Erinnerung dann / ein iedweder im besten / und zu niemands Verkleinerung gemeinet / von mir vermerken wolle.
 ...Author.]]></page>
-<pb facs="CH_Bm_prg/pyr_CH_Bm_prg-0986.tif"/>
-<page><![CDATA[﻿5.	Memorial von Heinrich Schütz an den Kurfürsten von Sachsen, 1651:
+        <pb facs='CH_Bm_prg/pyr_CH_Bm_prg-0986.tif'/>
+        <page><![CDATA[﻿5.	Memorial von Heinrich Schütz an den Kurfürsten von Sachsen, 1651:
  Mit gegenwärtiger untertänigster Überreichung, meines unter E. Churf Durchl hohen Namen, Itzo an den tag kommenden Werckleins [Symphoniae sacrae, Teil III), werde ich zugleich veranlasset, meinen von Jugend auff bishero geführten fast mühseeligen Lebenslauf in etwas mich zu berüren... Es wurde aber solcher mein fürsatz (:sonder zweiffel aus Schickung Gottes:) mir bald verücket, In dem, nemblich, Herr Landgraff Moritz einsten nacher Marpurgk kam, (:welcher die Zeit über, als an Seinem Hoffe Ich für einen Capellknaben mich gebrauchen lassen, vieleicht vermercket haben mochte, ob zu der Music Ich von Natur in etwas geschickt were:) und nach folgenden Vorschlag mir thun lies: Weil dero Zeit in Italia, zwar ein hochberümbter, aber doch zimlich alter Musicus und Componist noch am leben were (Giovanni Gabrieli war. ca. 56 Jahre alt! -), So sollte Ich nicht verabseumen, denselbigen auch zu hören, undt etwas von Ihm zu ergreiffen, undt liessen hochgedachte Ihre Fstl. Gnaden, zu Vollstreckung solcher Reise, mir zugleich ein Stipendium von 200 thlrn jährlichen anpraesentiren, welchen Vorschlag dann (:als ein junger, und die Weid zu durchsehen auch begieriger Mensch.) Ich zu unterthenigem Danck ganz willigst annam, und darauff Ao. 1609 gleichsamb wieder meiner Eltern Willen, nacher Venedig fortzog, Ob nun zwar zu meiner anhinkunfft (:nach dem bey meinem lehrherrn Ich mich in etwas weniges aufgehalten:) Ich die Wichtigkeit undt Schwere des mir fürgenommenen Studii der Composition, und das hirinnen ich noch einen vngegründeten schlechten anfang hatte, bald vermercket... da ichs dann mit Göttlicher hülffe, sonder rühm so weit gebracht habe, das nach dreyen jahren (:undt Ein Jahr zuvohr ehe ich aus Italia wieder zurüecke gereiset:) Ich mein Erstes Musicalisches Wercklein (Madrigale op. 1) in Italienischer spräche, mit sonderbarem lobe, der damahls fürnembsten Musicorum zu Venedig, daselbst habe drücken lassen, und von daraus Herrn Landgraff Moritzen (:deme Ichs auch zu unterthäniger Danksagung Dedicirt:) zugeschickt habe, Nach welcher publicirung Itzo gedachtes meines Ersten Werckleins, Ich nicht alleine von meinem Praeceptor, dem Johann Gabriel, Sondern auch von dem Capellmeister undt anderen fürnembsten Musiciis daselbst vermahnet und angefrischet worden binn, das bey dem Studio Musices Ich verhören sollte... Und als Ich nach diesem mich noch Ein jahr (:wiewohl auff meiner Eltern Unkosten:) auffhielte, noch etwas mehrers in solchem Studio zu erfahren, Begab sichs eben, das oberwehnter mein Praeceptor, zu Venedig versterbe, dem Ich auch das gleite zu seinem Ruhbette gegeben, Er mir auf seinem thodbette, aus sonderbarer affection, einen aus seinen hinterbliebenen Ringen zu seinem guten andencken verordnet gehabt, welcher mir von seinem Beichtvater einem Augustiner Mönch (:aus dem Kloster, da D. Luther sich für diesem auch einsten auffgehalten.) nach seinem erfolgten thodesfall, auch praesentirt und zugestelt worden ist...
  Die Texte wurden entnommen dem Buch:
  Heinrich Schütz, Gesammelte Briefe und Schriften, hrsg. von Erich H. Müller, Regensburg 1931. Die deutschen Uber Setzungen stammen aus:
@@ -255,8 +265,8 @@ Psalm 2
 Warum toben die Heiden,
 und die Leute reden so vergeblich?
 Die König' im Lande lehnen sich auf, und die Herren ratschlagen miteinander wider den Herren und seinen Gesalbten: "Lasset uns zerreissen ihre Bande und von uns werfen ihre Seile!"]]></page>
-<pb facs="CH_Bm_prg/pyr_CH_Bm_prg-0987.tif"/>
-<page><![CDATA[﻿Aber der im Himmel wohnet, lochet ihr', und der Herr spottet ihr'.
+        <pb facs='CH_Bm_prg/pyr_CH_Bm_prg-0987.tif'/>
+        <page><![CDATA[﻿Aber der im Himmel wohnet, lochet ihr', und der Herr spottet ihr'.
 Er wird einest mit ihnen reden in seinem Zorn, und mit seinem Grimm wird er sie erschrecken.
 "Aber ich habe meinen König eingesetzt auf meinem heilgen Berge Zion."
 Ich will von einer solchen Weise predigen, dass der Herr zu mir gesagt hat:
@@ -350,8 +360,8 @@ Abraham, et semini ejus in soecula.
 Gloria Patri, et Filio, et Spiritui Sancto.
 Sicut erat in principio, et nunc
 et semper, et in saecula saecolorum. Amen.]]></page>
-<pb facs="CH_Bm_prg/pyr_CH_Bm_prg-0988.tif"/>
-<page><![CDATA[﻿Akira Tachikawa wurde 1961 in Shizoüka (Japan) geboren. / ™1968 sang er im Shizouka-Kinderchor und studierte ab 1980 Gesang an der Staatlichen Hochschule für Bildende Kunst und Musik Tokyo bei Takanosuke Watanabe und Ryosuke Hatanaka scwie 1986- 1991 an der Schola Cantorum Basiliensis bei Rene Jacobs, Nigel Rogers und Dominique Vellard. Er wirkte mit in Rundfunk-, Fernsehaufnahmen (Radio France in Paris mit Rene Jacobs, TV France in Chapelle Royale du chäteau de Versailles u.s.w.) sowie Schallplatteneinspielungen von Schütz' "Weihnachts-Historie", "Auferstehungs-Historie" mit dem Ensemble Concerto Vocale; "Le Banquet de voeu 1454" mit dem Ensemble Gilles Binchois; “Kantaten Vol. 1 und 4" mit dem Bach Collegium, "La Chapelle des chantres des Ducs de Lorraine" mit dem Ensemble Cantus Figuratus u.v.m. Konzerttourneen führten ihn durch ganz Europa und Japan. Sein Repertoire reicht vom Mittelalter über den Barock bis zur Moderne. Seit 1997 leitet er das Ensemble Musica Pacific JPN.
+        <pb facs='CH_Bm_prg/pyr_CH_Bm_prg-0988.tif'/>
+        <page><![CDATA[﻿Akira Tachikawa wurde 1961 in Shizoüka (Japan) geboren. / ™1968 sang er im Shizouka-Kinderchor und studierte ab 1980 Gesang an der Staatlichen Hochschule für Bildende Kunst und Musik Tokyo bei Takanosuke Watanabe und Ryosuke Hatanaka scwie 1986- 1991 an der Schola Cantorum Basiliensis bei Rene Jacobs, Nigel Rogers und Dominique Vellard. Er wirkte mit in Rundfunk-, Fernsehaufnahmen (Radio France in Paris mit Rene Jacobs, TV France in Chapelle Royale du chäteau de Versailles u.s.w.) sowie Schallplatteneinspielungen von Schütz' "Weihnachts-Historie", "Auferstehungs-Historie" mit dem Ensemble Concerto Vocale; "Le Banquet de voeu 1454" mit dem Ensemble Gilles Binchois; “Kantaten Vol. 1 und 4" mit dem Bach Collegium, "La Chapelle des chantres des Ducs de Lorraine" mit dem Ensemble Cantus Figuratus u.v.m. Konzerttourneen führten ihn durch ganz Europa und Japan. Sein Repertoire reicht vom Mittelalter über den Barock bis zur Moderne. Seit 1997 leitet er das Ensemble Musica Pacific JPN.
 Stephan van Dyck
 Nach seinem "Diplome Superieur de Chant“ am Conservatoire Royal in Brüssel und seinem Abschluss des Studiums der Musikwissenschaften an der "Universite Libre" von Brüssel, perfektionierte er sein Können im “Studio Versailles Opera" unter Rene Jacobs und Rachel Yakar und am "Conservatoire National Superieur de Musique de Paris", wo er den 1. Preis in der Klasse von William Christie erhielt.
 Er hat mit namhaften Ensembles wie z.B. La Chapelle Rcyale IPh. Herreweghe), Ensemble Organum IM. Peres), Las Huelgas fP. Van Nevel), Janequin (D. Visse), Gilles Bonchois (D. Vellard) u.v.a. gearbeitet.
@@ -366,8 +376,8 @@ Unter Entlehnung des Namens der im 17. und 18. Jahrhundert berühmten Bologneser
 Concerto Palatino arbeitet auch mit anderen Ensembles zusammen, darunter jüngst La Chapelle Royale, Tragicomedia, das Hilliard Ensemble, Cantus Cölln und das Vokaal Ensemble Currende. Es ist regelmässiger Gast bei grösseren Festivals der Alten Musik, wie etwa in Aix-en-Provence, Utrecht, Barcelona, Saintes, Stuttgart, München, Berlin, Moskau, London (Lufthansa), St. Petersburg, Malrroa, Turku (Finnland), Rom, Mailand und Wien. Neben zahlreichen CD-Produktionen für das Label Accent fand die Aufnahme von Cavallis "Marien-Vesper" in der Reihe “Schob Cantorum Basiliensis-Documenta" bei Harmonia Mundi France besonders starke Beachtung.
 Bruce Dickey wurde 1949 in South Bend, Indiana (USA) geboren. Nach dem Studium der Psychologie und Musik an der Michigan State University erwarb er ein Masters Degree in Musikwissenschaft und Trompete an der Indiana University. Wachsendes Interesse an alter Musik führte ihn an die Schob Cantorum Basiliensis, wo er Blockflöte und Zink studierte und seit 1977 eine eigene Klasse leitet. Seit 1976 tritt er als Zinkenist auf, sowohl als Solist, wie als Mitglied einiger der bekanntesten Ensembles auf dem Feld der Alten Musik (Hesperion XX, The Taverner Players of London, The Amsterdam Baroque Orchestra, The Kees Boeke Consort), Daneben hat er Aufsätze zur historischen Aufführungspraxis und zu Geschichte und Repertoire des Zinken veröffentlicht. Seit 1981 lebt er in Italien, momentan in Bologna.
 Charles Toet wurde 1951 in Den Haag geboren. Er erhielt die musikalische Ausbildung am Königlichen Konservatorium seiner Heimatstadt, wo er Posaune mit Anner Bijlsma (senior) studierte. Nach und nach spezialisierte er sich auf Alte Musik und das Spiel der Barock-Posaune und unterrichtet sein Instrument nun am Den Haager Konservatorium. Er konzertiert intensiv mit Bruce Dickey und zahlreichen Ensembles wie Hesperion XX, The Taverner Players of London, dem Kees Boeke Consort, La Petite Bande und dem Amsterdam Baroque Orchestra. An der Schob Cantorum Basiliensis ist er seit 10 Jahren jeweils 2 Wochen im Studienjahr "in residence“.]]></page>
-<pb facs="CH_Bm_prg/pyr_CH_Bm_prg-0989.tif"/>
-<page><![CDATA[﻿Unsere nächsten Konzerte:
+        <pb facs='CH_Bm_prg/pyr_CH_Bm_prg-0989.tif'/>
+        <page><![CDATA[﻿Unsere nächsten Konzerte:
 Konzert III
 Dienstag, 30. März 1999
 20.1	5 Uhr, Predigerkirche Basel
@@ -384,8 +394,8 @@ Violine	Gilles Colliard
 Violoncello	Christophe Coin
 Fortepiano	Patrick Cohen
 Kartenvorverkauf: Musik Hug AG, Basel, Tel. 061-272 33 95]]></page>
-<pb facs="CH_Bm_prg/pyr_CH_Bm_prg-0990.tif"/>
-<page><![CDATA[﻿fi .v ., te
+        <pb facs='CH_Bm_prg/pyr_CH_Bm_prg-0990.tif'/>
+        <page><![CDATA[﻿fi .v ., te
 H i
 HiüSSÄI
 mm
@@ -439,8 +449,7 @@ tfi
 “ÄS»
  ■
  M ' '.I' <•!]]></page>
-       
-        </p>
+      </p>
     </body>
   </text>
 </TEI>

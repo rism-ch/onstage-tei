@@ -1,77 +1,85 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>HEMU Conservatoire de Lausanne - Programme de concert</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Paolo Boschetti</persName>
-                    <persName>Laurent Pugin</persName>
-                    <persName>Violeta Struijk van Bergen</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <date when="2012-11">Novembre 2012</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_lac</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>HEMU Conservatoire de Lausanne - Programme de concert</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Paolo Boschetti</persName>
+            <persName>Laurent Pugin</persName>
+            <persName>Violeta Struijk van Bergen</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <date when='2012-11'>Novembre 2012</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_lac</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Septième audition d'élèves <date when="19270331">31 mars 1927</date></title>
-<series>Auditions</series>
-<placeName>Conservatoire de Lausanne, salle des concerts</placeName>
-<orgName role="holding">Bibliothèque HEMU-CL, Fonds Claude-Pascal Perna<link target="http://biblio.hemu-cl.ch"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+             Septième audition d'élèves 
+            <date when='19270331'>31 mars 1927</date>
+          </title>
+          <series>Auditions</series>
+          <placeName>Conservatoire de Lausanne, salle des concerts</placeName>
+          <orgName role='holding'>
+             Bibliothèque HEMU-CL, Fonds Claude-Pascal Perna 
+            <link target='http://biblio.hemu-cl.ch'/>
+          </orgName>
+        </bibl>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <pb facs="LAc_prg/CH_LAc_prg_fond_prive/pyr_CH_LAc_prg_fond_prive-0003.tif"/>
-<date when="19270331"/>
-<name key="Borodin, Aleksandr Porfir'yevich" type="person" role="cmp">Borodine</name>
-<name key="Weber, Carl Maria von" type="person" role="cmp">Weber</name>
-<name key="Chopin, Fryderyk" type="person" role="cmp">Chopin</name>
-<name key="Grieg, Edvard" type="person" role="cmp">Grieg</name>
-<name key="Schumann, Robert" type="person" role="cmp">Schumann</name>
-<name key="Franck, César" type="person" role="cmp">Franck</name>
-<name key="Rachmaninov, Sergei" type="person" role="cmp">Rachmaninoff</name>
-<name key="Brahms, Johannes" type="person" role="cmp">Brahms</name>
-<name key="Mozart, Wolfgang Amadeus" type="person" role="cmp">Mozart</name>
-<name key="Goldmark" type="person" role="cmp">Goldmark</name>
-<name key="Beethoven, Ludwig van" type="person" role="cmp">Beethoven</name>
-<name key="Fauré, Gabriel" type="person" role="cmp">Fauré</name>
-<name key="Bach, Johann Sebastian" type="person" role="cmp">Bach</name>
-<name key="Busoni, Ferruccio" type="person" role="cmp">Busoni</name>
-<name key="Koëlla, Jean" type="person" role="prof">Koëlla, J.</name>
-<name key="Keller-Ching, Gertrude S." type="person" role="prof">Keller-Ching</name>
-<name key="Gerzabeck, de" type="person" role="prof">Gerzabeck, de</name>
-<name key="Capt" type="person" role="prof">Capt</name>
-<name key="Crousaz, Juliette de" type="person" role="prof">Crousaz, J. de</name>
-<name key="Gayrhos, Eugène" type="person" role="prof">Gayrhos</name>
-<name key="Schryber" type="person" role="prof">Schryber</name>
-<name key="Frommelt, Richard" type="person" role="prof">Frommelt</name>
-<name key="Koëlla, Jean" type="person" role="prof">Koëlla, J.</name>
-<name key="Koëlla, Mirette" type="person" role="prof">Koëlla</name>
-<name key="Rehberg" type="person" role="prof">Rehberg</name>
-<title>Septième audition d'élèves</title>
-<placeName key="Lausanne, Conservatoire, Salle des concerts"/>
-<name key="Auditions" type="series"/>
-<note>Piano Berdux</note>
-<page><![CDATA[﻿CONSERVATOIRE DE LAUSANNE
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <pb facs='LAc_prg/CH_LAc_prg_fond_prive/pyr_CH_LAc_prg_fond_prive-0003.tif'/>
+        <date when='19270331'/>
+        <name key='Borodin, Alexandr Porfir&apos;evič' type='person' role='cmp'>Borodin, Alexandr Porfir&apos;evič</name>
+        <name key='Weber, Carl Maria von' type='person' role='cmp'>Weber</name>
+        <name key='Chopin, Fryderyk Franciszek' type='person' role='cmp'>Chopin, Fryderyk Franciszek</name>
+        <name key='Grieg, Edvard' type='person' role='cmp'>Grieg, Edvard</name>
+        <name key='Schumann, Robert' type='person' role='cmp'>Schumann, Robert</name>
+        <name key='Franck, César' type='person' role='cmp'>Franck, César</name>
+        <name key='Rachmaninov, Sergej Vasil&apos;evič' type='person' role='cmp'>Rachmaninov, Sergej Vasil&apos;evič</name>
+        <name key='Brahms, Johannes' type='person' role='cmp'>Brahms, Johannes</name>
+        <name key='Mozart, Wolfgang Amadeus' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Goldmark' type='person' role='cmp'>Goldmark</name>
+        <name key='Beethoven, Ludwig van' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Fauré, Gabriel' type='person' role='cmp'>Fauré, Gabriel</name>
+        <name key='Bach, Johann Sebastian' type='person' role='cmp'>Bach</name>
+        <name key='Busoni, Ferruccio' type='person' role='cmp'>Busoni, Ferruccio</name>
+        <name key='Koëlla, Jean' type='person' role='prof'>Koëlla, Jean</name>
+        <name key='Keller-Ching, Gertrude S.' type='person' role='prof'>Keller-Ching</name>
+        <name key='Gerzabeck, de' type='person' role='prof'>Gerzabeck, de</name>
+        <name key='Capt' type='person' role='prof'>Capt</name>
+        <name key='Crousaz, Juliette de' type='person' role='prof'>Crousaz, Juliette de</name>
+        <name key='Gayrhos, Eugène' type='person' role='prof'>Gayrhos</name>
+        <name key='Schryber' type='person' role='prof'>Schryber</name>
+        <name key='Frommelt, Richard' type='person' role='prof'>Frommelt</name>
+        <name key='Koëlla, Jean' type='person' role='prof'>Koëlla, Jean</name>
+        <name key='Koëlla, Mirette' type='person' role='prof'>Koëlla</name>
+        <name key='Rehberg' type='person' role='prof'>Rehberg</name>
+        <title>Septième audition d'élèves</title>
+        <placeName key='Lausanne, Conservatoire, Salle des concerts'/>
+        <name key='Auditions' type='series'/>
+        <note>Piano Berdux</note>
+        <page><![CDATA[﻿CONSERVATOIRE DE LAUSANNE
  Direction : C. TROYON SALLE DES CONCERTS
  Jeudi 31 mars 1927, à 20 h. 15 très précises
 SEPTIÈME AUDITION D’ÉLÈVES
@@ -118,8 +126,7 @@ PROGRAMME
                       Mlle Lisa Kiausfelder : Classe de Mlle J. de Crousaz.
 ^ ^ ^
  Piano de concert Berdux, aux soins de la Maison Czapek.]]></page>
-       
-        </p>
+      </p>
     </body>
   </text>
 </TEI>

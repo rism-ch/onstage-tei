@@ -1,118 +1,126 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>HEMU Conservatoire de Genève - Programme de concert</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Paolo Boschetti</persName>
-                    <persName>Laurent Pugin</persName>
-                    <persName>Violeta Struijk van Bergen</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <date when="2016-01">Janvier 2016</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gc</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>HEMU Conservatoire de Genève - Programme de concert</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Paolo Boschetti</persName>
+            <persName>Laurent Pugin</persName>
+            <persName>Violeta Struijk van Bergen</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <date when='2016-01'>Janvier 2016</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gc</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title><date when="19150117">17/01/1915</date></title>
-<series>None</series>
-<placeName>Genève, Grand café restaurant du Nord</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            <date when='19150117'>17/01/1915</date>
+             [sans titre] 
+          </title>
+          <series>None</series>
+          <placeName>Genève, Grand café restaurant du Nord</placeName>
+          <orgName role='holding'>
+             Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+        </bibl>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <pb facs="Gc_prg/CH_Gc_prg_09/pyr_CH_Gc_prg_09-0810.tif"/>
-<date when="19150117"/>
-<date when="19150118"/>
-<date when="19150119"/>
-<date when="19150120"/>
-<date when="19150121"/>
-<date when="19150122"/>
-<date when="19150123"/>
-<name key="Weber, Carl Maria von" type="person" role="cmp">Carl Maria von Weber</name>
-<name key="Bizet, Georges" type="person" role="cmp">Bizet, Georges</name>
-<name key="Komzák, Karel" type="person" role="cmp">Komzák, Karel</name>
-<name key="Puccini, Giacomo" type="person" role="cmp">Puccini, Giacomo</name>
-<name key="Godard, Benjamin-Louis-Paul" type="person" role="cmp">Godard, Benjamin</name>
-<name key="Massenet, Jules" type="person" role="cmp">Massenet, Jules</name>
-<name key="Delibes, Léo" type="person" role="cmp">Delibes, Léo</name>
-<name key="Mouton, Hubert" type="person" role="cmp">Mouton, Hubert</name>
-<name key="Waldteufel, Emile" type="person" role="cmp">Waldteufel, Emile</name>
-<name key="Saint-Saëns, Camille" type="person" role="cmp">Saint-Saëns, Camille</name>
-<name key="Casella, Alfredo" type="person" role="cmp">Casella, Alfredo</name>
-<name key="Boieldieu, François Adrien" type="person" role="cmp">Boieldieu, Adrien</name>
-<name key="Scassola, A." type="person" role="cmp">Scassola, A.</name>
-<name key="Rossini, Gioachino" type="person" role="cmp">Rossini, Gioacchino</name>
-<name key="Gluck, Christoph Willibald" type="person" role="cmp">Christoph Willibald Gluck</name>
-<name key="Mendelssohn Bartholdy, Felix" type="person" role="cmp">Felix Mendelssohn Bartholdy</name>
-<name key="Wagner, Richard" type="person" role="cmp">Wagner, Richard</name>
-<name key="Guiraud, Ernest" type="person" role="cmp">Guiraud, Ernest</name>
-<name key="Kreutzer, Conradin" type="person" role="cmp">Kreutzer, Conradin</name>
-<name key="Mozart, Wolfgang Amadeus" type="person" role="cmp">Wolfgang Amadeus Mozart</name>
-<name key="Schubert, Franz" type="person" role="cmp">Schubert, Franz</name>
-<name key="Lalo, Edouard" type="person" role="cmp">Lalo, Edouard</name>
-<name key="Chausson, Ernest" type="person" role="cmp">Chausson, Ernest</name>
-<name key="Couperin, François" type="person" role="cmp">Couperin, François</name>
-<name key="Fauré, Gabriel" type="person" role="cmp">Fauré, Gabriel</name>
-<name key="Debussy, Claude" type="person" role="cmp">Debussy, Claude</name>
-<name key="Haydn, Joseph" type="person" role="cmp">Haydn, Joseph</name>
-<name key="Moszkowski, Moritz" type="person" role="cmp">Moszkowski, Moritz</name>
-<name key="Leoncavallo, Ruggero" type="person" role="cmp">Leoncavallo, Ruggero</name>
-<name key="Schumann, Robert" type="person" role="cmp">Schumann, Robert</name>
-<name key="Weber, Carl Maria von" type="person" role="cmp">Carl Maria von Weber</name>
-<name key="Berlioz, Hector" type="person" role="cmp">Berlioz, Hector</name>
-<name key="Chopin, Fryderyk" type="person" role="cmp">Chopin, Fryderyk</name>
-<name key="Vieuxtemps, Henri" type="person" role="cmp">Vieuxtemps, Henri</name>
-<name key="Liszt, Franz" type="person" role="cmp">Liszt, Franz</name>
-<name key="Reyer, Ernest" type="person" role="cmp">Reyer, Ernest</name>
-<name key="Gounod, Charles-François" type="person" role="cmp">Gounod, Charles</name>
-<name key="Alard, Delphin" type="person" role="cmp">Alard, Delphin</name>
-<name key="Brahms, Johannes" type="person" role="cmp">Brahms, Johannes</name>
-<name key="Čajkovskij, Pëtr Il'ič" type="person" role="cmp">Pëtr Il'ič Čajkovskij</name>
-<name key="Heynberg, Désiré" type="person" role="cmp">Heynberg, Désiré</name>
-<name key="Charpentier, Gustave" type="person" role="cmp">Charpentier, Gustave</name>
-<name key="Dvořák, Antonín" type="person" role="cmp">Dvořák, Antonín</name>
-<name key="Grieg, Edvard" type="person" role="cmp">Grieg, Edvard</name>
-<name key="Massenet, Jules" type="person" role="cmp">Massenet, Jules</name>
-<name key="Ketten, Léopold" type="person" role="cmp">Ketten, Léopold</name>
-<name key="Musin, Ovide" type="person" role="cmp">Musin, Ovide</name>
-<name key="Luigini, Alexandre" type="person" role="cmp">Luigini, Alexandre</name>
-<name key="Haydn, Joseph" type="person" role="cmp">Haydn, Joseph</name>
-<name key="Strauß, Johann" type="person" role="cmp">Johann Strauss II</name>
-<name key="Rossini, Gioachino" type="person" role="cmp">Rossini, Gioacchino</name>
-<name key="Verdi, Giuseppe" type="person" role="cmp">Verdi, Giuseppe</name>
-<name key="Indy, Vincent d'" type="person" role="cmp">d'Indy, Vincent</name>
-<name key="Lotti, Antonio" type="person" role="cmp">Lotti, Antonio</name>
-<name key="Bruch, Max" type="person" role="cmp">Bruch, Max</name>
-<name key="Reicha, Anton" type="person" role="cmp">Reicha, Antoine</name>
-<name key="Kamm, Henri" type="person" role="cmp">Kamm, Henri</name>
-<name key="Donizetti, Gaetano" type="person" role="cmp">Donizetti, Gaetano</name>
-<name key="Lortzing, Albert" type="person" role="cmp">Lortzing, Alfred</name>
-<name key="Filippucci, Edmond" type="person" role="cmp">Filippucci, Edmond</name>
-<name key="Strauß, Johann" type="person" role="cmp">Johann Strauss II</name>
-<name key="Bach, Carl Philipp Emmanuel" type="person" role="cmp">Carl Philipp Emanuel Bach</name><title/>
-<placeName key="Genève, Grand café restaurant du Nord"/>
-<name key="None" type="series"/>
-<page><![CDATA[﻿Programme des Concerts
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <pb facs='Gc_prg/CH_Gc_prg_09/pyr_CH_Gc_prg_09-0810.tif'/>
+        <date when='19150117'/>
+        <date when='19150118'/>
+        <date when='19150119'/>
+        <date when='19150120'/>
+        <date when='19150121'/>
+        <date when='19150122'/>
+        <date when='19150123'/>
+        <name key='Weber, Carl Maria von' type='person' role='cmp'>Weber, Carl Maria von</name>
+        <name key='Bizet, Georges' type='person' role='cmp'>Bizet, Georges</name>
+        <name key='Komzák, Karel' type='person' role='cmp'>Komzák, Karel</name>
+        <name key='Puccini, Giacomo' type='person' role='cmp'>Puccini, Giacomo</name>
+        <name key='Godard, Benjamin-Louis-Paul' type='person' role='cmp'>Godard, Benjamin</name>
+        <name key='Massenet, Jules' type='person' role='cmp'>Massenet, Jules</name>
+        <name key='Delibes, Léo' type='person' role='cmp'>Delibes, Léo</name>
+        <name key='Mouton, Hubert' type='person' role='cmp'>Mouton, Hubert</name>
+        <name key='Waldteufel, Emile' type='person' role='cmp'>Waldteufel, Emile</name>
+        <name key='Saint-Saëns, Camille' type='person' role='cmp'>Saint-Saëns, Camille</name>
+        <name key='Casella, Alfredo' type='person' role='cmp'>Casella, Alfredo</name>
+        <name key='Boieldieu, François Adrien' type='person' role='cmp'>Boieldieu, Adrien</name>
+        <name key='Scassola, Aristide' type='person' role='cmp'>Scassola, Aristide</name>
+        <name key='Rossini, Gioachino' type='person' role='cmp'>Rossini, Gioachino</name>
+        <name key='Gluck, Christoph Willibald' type='person' role='cmp'>Gluck, Christoph Willibald</name>
+        <name key='Mendelssohn Bartholdy, Felix' type='person' role='cmp'>Mendelssohn Bartholdy, Felix</name>
+        <name key='Wagner, Richard' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Guiraud, Ernest' type='person' role='cmp'>Guiraud, Ernest</name>
+        <name key='Kreutzer, Conradin' type='person' role='cmp'>Kreutzer, Conradin</name>
+        <name key='Mozart, Wolfgang Amadeus' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Schubert, Franz' type='person' role='cmp'>Schubert, Franz</name>
+        <name key='Lalo, Edouard' type='person' role='cmp'>Lalo, Edouard</name>
+        <name key='Chausson, Ernest' type='person' role='cmp'>Chausson, Ernest</name>
+        <name key='Couperin, François' type='person' role='cmp'>Couperin, François</name>
+        <name key='Fauré, Gabriel' type='person' role='cmp'>Fauré, Gabriel</name>
+        <name key='Debussy, Claude' type='person' role='cmp'>Debussy, Claude</name>
+        <name key='Haydn, Joseph' type='person' role='cmp'>Haydn, Joseph</name>
+        <name key='Moszkowski, Moritz' type='person' role='cmp'>Moszkowski, Moritz</name>
+        <name key='Leoncavallo, Ruggero' type='person' role='cmp'>Leoncavallo, Ruggero</name>
+        <name key='Schumann, Robert' type='person' role='cmp'>Schumann, Robert</name>
+        <name key='Weber, Carl Maria von' type='person' role='cmp'>Weber, Carl Maria von</name>
+        <name key='Berlioz, Hector' type='person' role='cmp'>Berlioz, Hector</name>
+        <name key='Chopin, Fryderyk Franciszek' type='person' role='cmp'>Chopin, Fryderyk Franciszek</name>
+        <name key='Vieuxtemps, Henri' type='person' role='cmp'>Vieuxtemps, Henri</name>
+        <name key='Liszt, Franz' type='person' role='cmp'>Liszt, Franz</name>
+        <name key='Reyer, Ernest' type='person' role='cmp'>Reyer, Ernest</name>
+        <name key='Gounod, Charles-François' type='person' role='cmp'>Gounod, Charles-François</name>
+        <name key='Alard, Delphin' type='person' role='cmp'>Alard, Delphin</name>
+        <name key='Brahms, Johannes' type='person' role='cmp'>Brahms, Johannes</name>
+        <name key='Čajkovskij, Pëtr Il&apos;ič' type='person' role='cmp'>Čajkovskij, Pëtr Il&apos;ič</name>
+        <name key='Heynberg, Désiré' type='person' role='cmp'>Heynberg, Désiré</name>
+        <name key='Charpentier, Gustave' type='person' role='cmp'>Charpentier, Gustave</name>
+        <name key='Dvořák, Antonín' type='person' role='cmp'>Dvořák, Antonín</name>
+        <name key='Grieg, Edvard' type='person' role='cmp'>Grieg, Edvard</name>
+        <name key='Massenet, Jules' type='person' role='cmp'>Massenet, Jules</name>
+        <name key='Ketten, Léopold' type='person' role='cmp'>Ketten, Léopold</name>
+        <name key='Musin, Ovide' type='person' role='cmp'>Musin, Ovide</name>
+        <name key='Luigini, Alexandre' type='person' role='cmp'>Luigini, Alexandre</name>
+        <name key='Haydn, Joseph' type='person' role='cmp'>Haydn, Joseph</name>
+        <name key='Strauss, Johann' type='person' role='cmp'>Strauss, Johann</name>
+        <name key='Rossini, Gioachino' type='person' role='cmp'>Rossini, Gioachino</name>
+        <name key='Verdi, Giuseppe' type='person' role='cmp'>Verdi, Giuseppe</name>
+        <name key='Indy, Vincent d&apos;' type='person' role='cmp'>Indy, Vincent d&apos;</name>
+        <name key='Lotti, Antonio' type='person' role='cmp'>Lotti, Antonio</name>
+        <name key='Bruch, Max' type='person' role='cmp'>Bruch, Max</name>
+        <name key='Reicha, Anton' type='person' role='cmp'>Reicha, Antoine</name>
+        <name key='Kamm, Henri' type='person' role='cmp'>Kamm, Henri</name>
+        <name key='Donizetti, Gaetano' type='person' role='cmp'>Donizetti, Gaetano</name>
+        <name key='Lortzing, Albert' type='person' role='cmp'>Lortzing, Albert</name>
+        <name key='Filippucci, Edmond' type='person' role='cmp'>Filippucci, Edmond</name>
+        <name key='Strauss, Johann' type='person' role='cmp'>Strauss, Johann</name>
+        <name key='Bach, Carl Philipp Emanuel' type='person' role='cmp'>Bach, Carl Philipp Emanuel</name>
+        <title/>
+        <placeName key='Genève, Grand café restaurant du Nord'/>
+        <page><![CDATA[﻿Programme des Concerts
 17 au 23 Janvier 1915
 g>rcm6 gtafé
 ■gîlestcmrcmt
@@ -147,8 +155,8 @@ DE BAY & Ci8
  Au centre de la Ville
  Le plus grand assortiment en articles de toilette
  Brosserie. Cristallerie. Nécessaires à ongles, etc., etc.]]></page>
-<pb facs="Gc_prg/CH_Gc_prg_09/pyr_CH_Gc_prg_09-0811.tif"/>
-<page><![CDATA[﻿Dans l'intérêt des amateurs de musique nous recommandons le silence pendant l'exécution des morceaux
+        <pb facs='Gc_prg/CH_Gc_prg_09/pyr_CH_Gc_prg_09-0811.tif'/>
+        <page><![CDATA[﻿Dans l'intérêt des amateurs de musique nous recommandons le silence pendant l'exécution des morceaux
  Lundi 18 janvier
 Après-midi à 4 ‘/a h.
 1.	Iphigénie en Aulide (ouverture)..........................Gluck
@@ -275,8 +283,8 @@ CHAV1N TRIPLE-SEC
 AGENTS DÉPOSITAIRES : DOMENICI cSc TBTTAMANTI, GENEVE
 CHERRY BRANDY GHAVIN
 ]]></page>
-<pb facs="Gc_prg/CH_Gc_prg_09/pyr_CH_Gc_prg_09-0812.tif"/>
-<page><![CDATA[﻿         Vendredi 22 yaÀ lier
+        <pb facs='Gc_prg/CH_Gc_prg_09/pyr_CH_Gc_prg_09-0812.tif'/>
+        <page><![CDATA[﻿         Vendredi 22 yaÀ lier
                     Ap^s-midi à 4 ‘h h.
  1.	Titus (ouverture).....,........................................Mozart
  2	Suite en 5 partie»................................................Moszkowski
@@ -333,8 +341,7 @@ Bue du Rhdne, 34
  %lliert IjIIjIKV violoniste
                                     lauréat du Conservatoire de Tournai i flleliel IM BOI&. contrebassiste
                                          prix au Conservatoire de Liège |]]></page>
-       
-        </p>
+      </p>
     </body>
   </text>
 </TEI>

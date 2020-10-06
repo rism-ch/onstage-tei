@@ -1,74 +1,82 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>HEMU Conservatoire de Lausanne - Programme de concert</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Paolo Boschetti</persName>
-                    <persName>Laurent Pugin</persName>
-                    <persName>Violeta Struijk van Bergen</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <date when="2012-11">Novembre 2012</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_lac</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>HEMU Conservatoire de Lausanne - Programme de concert</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Paolo Boschetti</persName>
+            <persName>Laurent Pugin</persName>
+            <persName>Violeta Struijk van Bergen</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <date when='2012-11'>Novembre 2012</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_lac</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Treizième audition d'élèves <date when="19270623">23 juin 1927</date></title>
-<series>Auditions</series>
-<placeName>Conservatoire de Lausanne, salle des concerts</placeName>
-<orgName role="holding">Bibliothèque HEMU-CL;<link target="http://biblio.hemu-cl.ch"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+             Treizième audition d'élèves 
+            <date when='19270623'>23 juin 1927</date>
+          </title>
+          <series>Auditions</series>
+          <placeName>Conservatoire de Lausanne, salle des concerts</placeName>
+          <orgName role='holding'>
+             Bibliothèque HEMU-CL; 
+            <link target='http://biblio.hemu-cl.ch'/>
+          </orgName>
+        </bibl>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <pb facs="LAc_prg/CH_LAc_prg_dates/pyr_CH_LAc_prg_dates-0073.tif"/>
-<date when="19270623"/>
-<name key="Beethoven, Ludwig van" type="person" role="cmp">Beethoven</name>
-<name key="Nardini, Pietro" type="person" role="cmp">Nardini</name>
-<name key="Debussy, Claude" type="person" role="cmp">Debussy</name>
-<name key="Fauré, Gabriel" type="person" role="cmp">Fauré</name>
-<name key="Tchaikovsky, Pyotr Il′yich" type="person" role="cmp">Tschaikowsky</name>
-<name key="Grieg, Edvard" type="person" role="cmp">Grieg</name>
-<name key="Ganz, Rudolph" type="person" role="cmp">Ganz, R.</name>
-<name key="Hahn, Reynaldo" type="person" role="cmp">Hahn</name>
-<name key="Schumann, Robert" type="person" role="cmp">Schumann</name>
-<name key="Chopin, Fryderyk" type="person" role="cmp">Chopin</name>
-<name key="Liszt, Franz" type="person" role="cmp">Liszt</name>
-<name key="Bruch, Max" type="person" role="cmp">Bruch, Max</name>
-<name key="Bach, Philippe" type="person" role="cmp">Bach-Philippe</name>
-<name key="Olivier" type="person" role="prof">Olivier</name>
-<name key="Gerber" type="person" role="prof">Gerber</name>
-<name key="Koëlla, Mirette" type="person" role="prof">Koëlla</name>
-<name key="Troyon-Bläsi" type="person" role="prof">Troyon-Blaesi</name>
-<name key="Bosch y Pagès" type="person" role="prof">Bosch y Pagès</name>
-<name key="Keller-Ching, Gertrude S." type="person" role="prof">Keller-Ching</name>
-<name key="Crousaz, Juliette de" type="person" role="prof">Crousaz, J. de</name>
-<name key="Porta, José" type="person" role="prof">Porta</name>
-<name key="Lassueur, Charles" type="person" role="prof">Lassueur</name>
-<title>Treizième audition d'élèves</title>
-<placeName key="Lausanne, Conservatoire, Salle des concerts"/>
-<name key="Auditions" type="series"/>
-<note>Pianos Steinway et Berdux</note>
-<page><![CDATA[﻿CONSERVATOIRE DE LAUSANNE
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <pb facs='LAc_prg/CH_LAc_prg_dates/pyr_CH_LAc_prg_dates-0073.tif'/>
+        <date when='19270623'/>
+        <name key='Beethoven, Ludwig van' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Nardini, Pietro' type='person' role='cmp'>Nardini</name>
+        <name key='Debussy, Claude' type='person' role='cmp'>Debussy, Claude</name>
+        <name key='Fauré, Gabriel' type='person' role='cmp'>Fauré, Gabriel</name>
+        <name key='Čajkovskij, Pëtr Il&apos;ič' type='person' role='cmp'>Čajkovskij, Pëtr Il&apos;ič</name>
+        <name key='Grieg, Edvard' type='person' role='cmp'>Grieg, Edvard</name>
+        <name key='Ganz, Rudolph' type='person' role='cmp'>Ganz, Rudolph</name>
+        <name key='Hahn, Reynaldo' type='person' role='cmp'>Hahn</name>
+        <name key='Schumann, Robert' type='person' role='cmp'>Schumann, Robert</name>
+        <name key='Chopin, Fryderyk Franciszek' type='person' role='cmp'>Chopin, Fryderyk Franciszek</name>
+        <name key='Liszt, Franz' type='person' role='cmp'>Liszt, Franz</name>
+        <name key='Bruch, Max' type='person' role='cmp'>Bruch, Max</name>
+        <name key='Philipp, Isidore' type='person' role='cmp'>Philipp, Isidore</name>
+        <name key='Olivier' type='person' role='prof'>Olivier</name>
+        <name key='Gerber' type='person' role='prof'>Gerber</name>
+        <name key='Koëlla, Mirette' type='person' role='prof'>Koëlla</name>
+        <name key='Troyon-Blaesi, C.' type='person' role='prof'>Troyon-Blaesi, C.</name>
+        <name key='Bosch y Pagès' type='person' role='prof'>Bosch y Pagès</name>
+        <name key='Keller-Ching, Gertrude S.' type='person' role='prof'>Keller-Ching</name>
+        <name key='Crousaz, Juliette de' type='person' role='prof'>Crousaz, Juliette de</name>
+        <name key='Porta, José' type='person' role='prof'>Porta</name>
+        <name key='Lassueur, Charles' type='person' role='prof'>Lassueur</name>
+        <title>Treizième audition d'élèves</title>
+        <placeName key='Lausanne, Conservatoire, Salle des concerts'/>
+        <name key='Auditions' type='series'/>
+        <note>Pianos Steinway et Berdux</note>
+        <page><![CDATA[﻿CONSERVATOIRE DE LAUSANNE
                  INSTITUT DE MUSIQUE Direction: C. TROY ON SALLE DES CONCERTS (1°°
 IL LAUSANNE g)
           Jeudi 23 juin 1927, à 20 h. 30 précises, ^oJJ
@@ -109,8 +117,8 @@ b)	Sérépade, pour chant................................ Tschaikowsky
               Imprimerie Vaudolse, Lausanne.
 Pianos de concert Steinway, de la Maison Fœtisch S. fl et Berdux, aux soins de la Maison Czapek.
 ]]></page>
-<pb facs="LAc_prg/CH_LAc_prg_dates/pyr_CH_LAc_prg_dates-0074.tif"/>
-<page><![CDATA[﻿DANS LE MONDE ENTIER LES GRANDS
+        <pb facs='LAc_prg/CH_LAc_prg_dates/pyr_CH_LAc_prg_dates-0074.tif'/>
+        <page><![CDATA[﻿DANS LE MONDE ENTIER LES GRANDS
 VIRTUOSES JOUENT LES PIANOS
 Gaveau
 @AVEAtJ
@@ -121,8 +129,7 @@ esl souvenl imilé mais jamais égalé. Il fait parloul 'objet des éloges unani
 A LAUSANNE, NEUCHATEL ET VEVEY seuls représenianls pour les cantons de Vaud, Valais, Neuchâtel,
 Fribourg el Uura bernois.
 Coo)]]></page>
-       
-        </p>
+      </p>
     </body>
   </text>
 </TEI>

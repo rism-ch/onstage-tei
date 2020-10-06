@@ -1,88 +1,95 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>HEMU Conservatoire de Lausanne - Programme de concert</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Paolo Boschetti</persName>
-                    <persName>Laurent Pugin</persName>
-                    <persName>Violeta Struijk van Bergen</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <date when="2012-11">Novembre 2012</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_lac</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>HEMU Conservatoire de Lausanne - Programme de concert</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Paolo Boschetti</persName>
+            <persName>Laurent Pugin</persName>
+            <persName>Violeta Struijk van Bergen</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <date when='2012-11'>Novembre 2012</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_lac</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title> <date when="20091104">04 novembre 2009</date></title>
-<series>Midi-concerts</series>
-<placeName>Conservatoire de Lausanne, Grande salle</placeName>
-<orgName role="holding">Bibliothèque HEMU-CL;<link target="http://biblio.hemu-cl.ch"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            <date when='20091104'>04 novembre 2009</date>
+          </title>
+          <series>Midi-concerts</series>
+          <placeName>Conservatoire de Lausanne, Grande salle</placeName>
+          <orgName role='holding'>
+             Bibliothèque HEMU-CL; 
+            <link target='http://biblio.hemu-cl.ch'/>
+          </orgName>
+        </bibl>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <pb facs="LAc_prg/CH_LAc_prg_midi-concerts/pyr_CH_LAc_prg_midi-concerts-0254.tif"/>
-<date when="20091104"/>
-<name key="Hindemith, Paul" type="person" role="cmp">Hindemith, Paul</name>
-<name key="Bumcke, Gustav" type="person" role="cmp">Bumcke, Gustav</name>
-<name key="Stravinskij, Igor' Fëdorovič" type="person" role="cmp">Stravinsky, Igor</name>
-<name key="Mozart, Wolfgang Amadeus" type="person" role="cmp">Mozart</name>
-<name key="Beethoven, Ludwig van" type="person" role="cmp">Beethoven</name>
-<name key="Schostakovich, Dmitry" type="person" role="cmp">Chostakovich</name>
-<name key="Roulet, Bertrand" type="person" role="cmp">Roulet, Bertrand</name>
-<name key="Bernstein, Leonard" type="person" role="cmp">Berstein, Leonard</name>
-<name key="Infante, Manuel" type="person" role="cmp">Infante, Manuel</name>
-<name key="Britten, Benjamin" type="person" role="cmp">Britten, Benjamin</name>
-<name key="Mendelssohn Bartholdy, Felix" type="person" role="cmp">Mendelssohn, Felix</name>
-<name key="EOL, Ensemble Orchestral de Lausanne" type="person" role="int">EOL, Ensemble Orchestral de Lausanne</name>
-<name key="Lanfrey, Pierre" type="person" role="int">Lanfrey, Pierre</name>
-<name key="Castellón, José-Daniel" type="person" role="int">Castellon, José-Daniel</name>
-<name key="Capezzali, Jean-Louis" type="person" role="int">Capezzali, Jean-Louis</name>
-<name key="Carrot, Véronique" type="person" role="int">Carrot, Véronique</name>
-<name key="Puccia, Irene" type="person" role="int">Puccia, Irene</name>
-<name key="Awano, Yumiko" type="person" role="int">Awano, Yumiko</name>
-<name key="Martinelli, Massimiliano" type="person" role="int">Martinelli, Massimiliano</name>
-<name key="Rapin, Frédéric" type="person" role="int">Rapin, Frédéric</name>
-<name key="Ubaldini, Blaise" type="person" role="int">Ubaldini, Blaise</name>
-<name key="Duss, Emilie" type="person" role="int">Duss, Emilie</name>
-<name key="Scholtz, Gérard" type="person" role="int">Scholtz, Gérard</name>
-<name key="Roulet, Bertrand" type="person" role="int">Roulet, Bretrand</name>
-<name key="Gay Des Combes, Céline" type="person" role="int">Gay des Combres, Céline</name>
-<name key="Herklots-Jeanningros, Laurence" type="person" role="int">Herklots-Jeanningros, Laurence</name>
-<name key="Cerantola, Eric" type="person" role="int">Cerantola, Eric</name>
-<name key="Balleys, Brigitte" type="person" role="int">Balleys, Brigitte</name>
-<name key="Bacsinszky, Daniel" type="person" role="int">Bacsinszky, Daniel</name>
-<name key="Amoyal, Pierre" type="person" role="int">Amoyal, Pierre</name>
-<name key="Stanculeasa, Vlad" type="person" role="int">Stanculeasa, Vlad</name>
-<name key="Camerata de Lausanne" type="person" role="int">Camerata de Lausanne</name>
-<name key="Carneiro, Marcio" type="person" role="int">Carneiro, Marcio</name>
-<name key="Rossano, Fernando" type="person" role="int">Rossano, Fernando</name>
-<name key="Bourquin, Magali" type="person" role="int">Bourquin, Magali</name>
-<name key="Froschhammer, Felix" type="person" role="int">Froschhammer, Félix</name>
-<name key="Prinz, Nico" type="person" role="int">Prinz, Nico</name>
-<placeName key="Lausanne, Conservatoire, Grande salle"/>
-<name key="Midi-concerts" type="series"/>
-<note>Programme des 10 midi-concerts donnés en novembre et décembre 2009 et janvier 2010</note>
-<page><![CDATA[﻿Midi-concerts
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <pb facs='LAc_prg/CH_LAc_prg_midi-concerts/pyr_CH_LAc_prg_midi-concerts-0254.tif'/>
+        <date when='20091104'/>
+        <name key='Hindemith, Paul' type='person' role='cmp'>Hindemith, Paul</name>
+        <name key='Bumcke, Gustav' type='person' role='cmp'>Bumcke, Gustav</name>
+        <name key='Stravinskij, Igor&apos; Fëdorovič' type='person' role='cmp'>Stravinskij, Igor&apos; Fëdorovič</name>
+        <name key='Mozart, Wolfgang Amadeus' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Beethoven, Ludwig van' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Šostakovič' type='person' role='cmp'>Šostakovič</name>
+        <name key='Roulet, Bertrand' type='person' role='cmp'>Roulet, Bertrand</name>
+        <name key='Bernstein, Leonard' type='person' role='cmp'>Bernstein, Leonard</name>
+        <name key='Infante, Manuel' type='person' role='cmp'>Infante, Manuel</name>
+        <name key='Britten, Benjamin' type='person' role='cmp'>Britten, Benjamin</name>
+        <name key='Mendelssohn Bartholdy, Felix' type='person' role='cmp'>Mendelssohn Bartholdy, Felix</name>
+        <name key='EOL, Ensemble Orchestral de Lausanne' type='person' role='int'>EOL, Ensemble Orchestral de Lausanne</name>
+        <name key='Lanfrey, Pierre' type='person' role='int'>Lanfrey, Pierre</name>
+        <name key='Castellón, José-Daniel' type='person' role='int'>Castellón, José-Daniel</name>
+        <name key='Capezzali, Jean-Louis' type='person' role='int'>Capezzali, Jean-Louis</name>
+        <name key='Carrot, Véronique' type='person' role='int'>Carrot, Véronique</name>
+        <name key='Puccia, Irene' type='person' role='int'>Puccia, Irene</name>
+        <name key='Awano, Yumiko' type='person' role='int'>Awano, Yumiko</name>
+        <name key='Martinelli, Massimiliano' type='person' role='int'>Martinelli, Massimiliano</name>
+        <name key='Rapin, Frédéric' type='person' role='int'>Rapin, Frédéric</name>
+        <name key='Ubaldini, Blaise' type='person' role='int'>Ubaldini, Blaise</name>
+        <name key='Duss, Emilie' type='person' role='int'>Duss, Emilie</name>
+        <name key='Scholtz, Gérard' type='person' role='int'>Scholtz, Gérard</name>
+        <name key='Roulet, Bertrand' type='person' role='int'>Roulet, Bertrand</name>
+        <name key='Gay des Combes, Céline' type='person' role='int'>Gay des Combes, Céline</name>
+        <name key='Herklots-Jeanningros, Laurence' type='person' role='int'>Herklots-Jeanningros, Laurence</name>
+        <name key='Cerantola, Eric' type='person' role='int'>Cerantola, Eric</name>
+        <name key='Balleys, Brigitte' type='person' role='int'>Balleys, Brigitte</name>
+        <name key='Bacsinszky, Daniel' type='person' role='int'>Bacsinszky, Daniel</name>
+        <name key='Amoyal, Pierre' type='person' role='int'>Amoyal, Pierre</name>
+        <name key='Stanculeasa, Vlad' type='person' role='int'>Stanculeasa, Vlad</name>
+        <name key='Camerata de Lausanne' type='person' role='int'>Camerata de Lausanne</name>
+        <name key='Carneiro, Marcio' type='person' role='int'>Carneiro, Marcio</name>
+        <name key='Rossano, Fernando' type='person' role='int'>Rossano, Fernando</name>
+        <name key='Bourquin, Magali' type='person' role='int'>Bourquin, Magali</name>
+        <name key='Froschhammer, Felix' type='person' role='int'>Froschhammer, Felix</name>
+        <name key='Prinz, Nico' type='person' role='int'>Prinz, Nico</name>
+        <placeName key='Lausanne, Conservatoire, Grande salle'/>
+        <name key='Midi-concerts' type='series'/>
+        <note>Programme des 10 midi-concerts donnés en novembre et décembre 2009 et janvier 2010</note>
+        <page><![CDATA[﻿Midi-concerts
 saison 2009-2010
 4 novembre 2009 -12h15
  Ensemble Orchestral de Lausanne - EOL (direction : Pierre Lanfrey)
@@ -114,8 +121,7 @@ CONSERVATOIRE DE LAUSANNE ! CI ASSO JE HAUTE ÉCOLE DE MUSIQUE I & JAZZ
 mi<J* çorcerts 2009-2010 1 doc / 2B 10.09
 Hes so
 ]]></page>
-       
-        </p>
+      </p>
     </body>
   </text>
 </TEI>

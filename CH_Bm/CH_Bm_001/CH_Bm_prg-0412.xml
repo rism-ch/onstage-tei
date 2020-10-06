@@ -1,67 +1,77 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>BASEL</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Laurent Pugin</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <date when="2016-01">Janvier 2016</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_famb</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>BASEL</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Laurent Pugin</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <date when='2016-01'>Janvier 2016</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_famb</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert<date when="19771115">15/11/1977</date></title>
-<series>Concert</series>
-<placeName>Basel, Martinskirche</placeName>
-<orgName role="holding">Archiv des Vereins Freunde alter Musik Basel; <link target="http://famb.ch/"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+             Concert 
+            <date when='19771115'>15/11/1977</date>
+          </title>
+          <series>Concert</series>
+          <placeName>Basel, Martinskirche</placeName>
+          <orgName role='holding'>
+             Archiv des Vereins Freunde alter Musik Basel; 
+            <link target='http://famb.ch/'/>
+          </orgName>
+        </bibl>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <pb facs="CH_Bm_prg/pyr_CH_Bm_prg-0412.tif"/>
-<date when="19771115"/>
-<name key="Rubinus" type="person" role="cmp">Rubinus</name>
-<name key="Berbignant" type="person" role="cmp">Berbignant</name>
-<name key="Paulus de Roda (de Broda)" type="person" role="cmp">Paulus de Roda (de Broda)</name>
-<name key="Paumann, Conrad" type="person" role="cmp">Paumann, Conrad</name>
-<name key="Anonymus" type="person" role="cmp">Anonymus</name>
-<name key="Brolo, Bartholomeus " type="person" role="cmp">Brolo, Bartholomeus </name>
-<name key="Senfl, Ludwig" type="person" role="cmp">Senfl, Ludwig</name><name key="Vandersteene, Zeger" type="person" role="int">Vandersteene, Zeger</name>
-<name key="Hildebrand, Renate" type="person" role="int">Hildebrand, Renate</name>
-<name key="Wagner, Käthe" type="person" role="int">Wagner, Käthe</name>
-<name key="Alpert, Lorenzo" type="person" role="int">Alpert, Lorenzo</name>
-<name key="Erig, Richard" type="person" role="int">Erig, Richard</name>
-<name key="Huber, Heinrich" type="person" role="int">Huber, Heinrich</name>
-<name key="Zehnder, Jean-Claude" type="person" role="int">Zehnder, Jean-Claude</name><title>Concert</title>
-<placeName key="Basel, Martinskirche"/>
-<name key="Concert" type="series"/>
-<page><![CDATA[﻿
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <pb facs='CH_Bm_prg/pyr_CH_Bm_prg-0412.tif'/>
+        <date when='19771115'/>
+        <name key='Rubinus' type='person' role='cmp'>Rubinus</name>
+        <name key='Berbignant' type='person' role='cmp'>Berbignant</name>
+        <name key='Paulus de Roda' type='person' role='cmp'>Paulus de Roda</name>
+        <name key='Paumann, Conrad' type='person' role='cmp'>Paumann, Conrad</name>
+        <name key='Anonymus' type='person' role='cmp'>Anonymus</name>
+        <name key='Brolo, Bartholomeus ' type='person' role='cmp'>Brolo, Bartholomeus </name>
+        <name key='Senfl, Ludwig' type='person' role='cmp'>Senfl, Ludwig</name>
+        <name key='Vandersteene, Zeger' type='person' role='int'>Vandersteene, Zeger</name>
+        <name key='Hildebrand, Renate' type='person' role='int'>Hildebrand, Renate</name>
+        <name key='Wagner, Käthe' type='person' role='int'>Wagner, Käthe</name>
+        <name key='Alpert, Lorenzo' type='person' role='int'>Alpert, Lorenzo</name>
+        <name key='Erig, Richard' type='person' role='int'>Erig, Richard</name>
+        <name key='Huber, Heinrich' type='person' role='int'>Huber, Heinrich</name>
+        <name key='Zehnder, Jean-Claude' type='person' role='int'>Zehnder, Jean-Claude</name>
+        <title>Concert</title>
+        <placeName key='Basel, Martinskirche'/>
+        <name key='Concerts' type='series'/>
+        <page><![CDATA[﻿
 FFEUNDE ALTER MUSIK IN BASEL
 1.	Konzert
 Dienstag, den 15. November, 20.15 Uhr in der Martinskirche
 Musik aus deutschen Liederbüchern um 1500]]></page>
-<pb facs="CH_Bm_prg/pyr_CH_Bm_prg-0413.tif"/>
-<page><![CDATA[﻿AUSFUEHRENDE
+        <pb facs='CH_Bm_prg/pyr_CH_Bm_prg-0413.tif'/>
+        <page><![CDATA[﻿AUSFUEHRENDE
 Zeger Vandersteene (Gesang)
 "i pifferi": Renate Hildebrand Käthe Wagner Lorenzo Alpert Richard Erig Heinrich Huber (Schalmei, Alt-, Tenor- und Basspommer, Tenorposaune, Bassdulzian, Blockflöten)
 Jean-Claude Zehnder (Orgel)
@@ -96,8 +106,8 @@ Ich schell mein Horn in Jammers Ton (Ludwig Senfl) (26) Jetz bringt St.Martin Gs
 *(1), (3), (4), (10), (11), (13-19): "Glogauer Liederbuch" (um 1480); (5-9): Conrad Paumann, "Fundamentum organisandi" (1452-55); (21-24): "Buxheimer Orgelbuch" (um 1455-60);
 (2), (12): Liederbuch von Hartmann Schedel (1460-67); (20): Handschrift Berlin, mus.ms. 40021 (Ende des 15. Jhs.);
 (25): Handschrift Basel, F.X.5-9 (um 1535); (26), (27): Johann Ott, "115 guter neuer Liedlein" (1544); (28): Georg Förster, "Frische teutsche Liedlein" (1540) .]]></page>
-<pb facs="CH_Bm_prg/pyr_CH_Bm_prg-0414.tif"/>
-<page><![CDATA[﻿            Ich bins erfreut (10)
+        <pb facs='CH_Bm_prg/pyr_CH_Bm_prg-0414.tif'/>
+        <page><![CDATA[﻿            Ich bins erfreut (10)
             Ich bins erfreut aus rotem mund von dir, du hochlibste mein, in deiner übe gar entzundt und wend mir grosse pein, die ich nun hab mit grösser klag bis ich dich wieder sehen mag.
             In hoffnung steht nach dir mein sin, du tust von mir nit keren, wann ich allein dein eigen bin, von dir so wil ich leren ganz freuden vil, mein libst gespil tu mir setzen ein rechtes zil.
             Mein augentrost, das tu gar bald, dass ich nicht trostes werde an*, gedank die sind so mannigfalt, die ich nach deiner libe hab.
@@ -130,8 +140,8 @@ nobis detur caeli via	dei tu vocaris,
 de hac saeculi miseria.	divinum auxilium
                               nobis largiaris.
 (18)]]></page>
-<pb facs="CH_Bm_prg/pyr_CH_Bm_prg-0415.tif"/>
-<page><![CDATA[﻿           Mein herz in hohen freuden ist
+        <pb facs='CH_Bm_prg/pyr_CH_Bm_prg-0415.tif'/>
+        <page><![CDATA[﻿           Mein herz in hohen freuden ist
            bei dir, mein allerliebste frau,
            wan du mir doch die allerliebste bist,
            so gar on argen list, die ich im herzen han,
@@ -185,8 +195,7 @@ guretzch, guretzch, guritzi maretzch, / herorimatori
 Der Mann muss jetz sein Narr im Haus, / herorimatori
 die Frau lebt Tag und Nacht im Saus -
 guretzch, guretzch, guritzi maretzch, / herorimatori]]></page>
-       
-        </p>
+      </p>
     </body>
   </text>
 </TEI>

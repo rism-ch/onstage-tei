@@ -1,114 +1,122 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>HEMU Conservatoire de Lausanne - Programme de concert</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Paolo Boschetti</persName>
-                    <persName>Laurent Pugin</persName>
-                    <persName>Violeta Struijk van Bergen</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <date when="2012-11">Novembre 2012</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_lac</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>HEMU Conservatoire de Lausanne - Programme de concert</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Paolo Boschetti</persName>
+            <persName>Laurent Pugin</persName>
+            <persName>Violeta Struijk van Bergen</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <date when='2012-11'>Novembre 2012</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_lac</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Arthur Honegger: Centenaire de la naissance <date when="19910120">20 janvier 1991</date></title>
-<series>Concerts</series>
-<placeName>Conservatoire de Genève</placeName>
-<orgName role="holding">Bibliothèque HEMU-CL;<link target="http://biblio.hemu-cl.ch"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+             Arthur Honegger: Centenaire de la naissance 
+            <date when='19910120'>20 janvier 1991</date>
+          </title>
+          <series>Concerts</series>
+          <placeName>Conservatoire de Genève</placeName>
+          <orgName role='holding'>
+             Bibliothèque HEMU-CL; 
+            <link target='http://biblio.hemu-cl.ch'/>
+          </orgName>
+        </bibl>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <pb facs="LAc_prg/CH_LAc_prg_concerts/pyr_CH_LAc_prg_concerts-0037.tif"/>
-<date when="19910120"/>
-<name key="Honegger, Arthur" type="person" role="cmp">Honegger, Arthur</name>
-<name key="Quatuor Parisii" type="person" role="int">Quatuor Parisii</name>
-<name key="Quatuor Keller" type="person" role="int">Quatuor Keller</name>
-<name key="Goetze, Christa" type="person" role="int">Goetze, Christa</name>
-<name key="Zürcher, Liliane" type="person" role="int">Zürcher, Liliane</name>
-<name key="Lang, Frieder" type="person" role="int">Lang,Frieder</name>
-<name key="Kisfaludi, Örs" type="person" role="int">Kisfaludi, Eörs</name>
-<name key="Mermoud, Véronique" type="person" role="int">Mermoud, Véronique</name>
-<name key="Choeur Faller" type="person" role="int">Choeur Faller</name>
-<name key="Mayer, Pascal" type="person" role="int">Mayer, Pascal</name>
-<name key="Delafontaine, Christian" type="person" role="int">Delafontaine, Christian</name>
-<name key="Marguerat, Patrick" type="person" role="int">Marguerat, Patrick</name>
-<name key="Orchestre des Rencontres Musicales" type="person" role="int">Orchestre des Rencontres Musicales</name>
-<name key="Grob, Jean-Marc" type="person" role="int">Grob, Jean-Marc</name>
-<name key="Quatuor Sine Nomine" type="person" role="int">Quatuor Sine Nomine</name>
-<name key="Balleys, Brigitte" type="person" role="int">Balleys, Brigitte</name>
-<name key="Orchestre Cinq sept" type="person" role="int">Orchestre Cinq sept</name>
-<name key="Quatuor Martinu" type="person" role="int">Suatuor Martinu</name>
-<name key="Antonioli, Jean-François" type="person" role="int">Antonioli, Jean-François</name>
-<name key="Orchestre de chambre de Lausanne" type="person" role="int">Orchestre de chambre de Lausanne</name>
-<name key="López-Cobos, Jesús" type="person" role="int">Lopez Cobos, Jesus</name>
-<name key="Ferry, Dennis" type="person" role="int">Ferry, Dennis</name>
-<name key="Birnstingl, Roger" type="person" role="int">Birnstingl, Roger</name>
-<name key="Litton, Andrew" type="person" role="int">Litton, Andrew</name>
-<name key="Orchestre de la Suisse Romande" type="person" role="int">Orchestre de la Suisse Romande</name>
-<name key="Choeur et orchestre du Collegium Musicum de Lucerne" type="person" role="int">Choeur et orchestre du Collegium Musicum de Lucerne</name>
-<name key="Koch, Alois" type="person" role="int">Koch, Alois</name>
-<name key="Jansons, Mariss" type="person" role="int">Jansons, Mariss</name>
-<name key="Dütschler, Ursula" type="person" role="int">Dütschler, Ursula</name>
-<name key="Zymansky, Robert" type="person" role="int">Zymansky, Robert</name>
-<name key="Rostropovich, Mstislav" type="person" role="int">Rostropovich, Mstislav</name>
-<name key="Menuhin, Yehudi" type="person" role="int">Menuhin, Yehudi</name>
-<name key="Orchestre de la Julliard School of Music" type="person" role="int">Orchestre de la Julliard School of Music</name>
-<name key="Jordan, Armin" type="person" role="int">Jordan, Armin</name>
-<name key="Bamert, Matthias" type="person" role="int">Bamert, Matthias</name>
-<name key="Choeur Pro Arte" type="person" role="int">Choeur Pro Arte</name>
-<name key="Charlet, André" type="person" role="int">Charlet, André</name>
-<name key="Baumgartner, Rudolf" type="person" role="int">Baumgartner, Rudolf</name>
-<name key="Festival Strings Lucerne" type="person" role="int">Festival Strings Lucerne</name>
-<name key="Schweizerisches Festspielorchester" type="person" role="int">Schweizerisches Festspielorchester</name>
-<name key="Frühbeck de Burgos, Rafael" type="person" role="int">Frühbeck de Burgos, Rafael</name>
-<name key="Collegium Musicum de Zurich" type="person" role="int">Colleguim Musicum de Zurich</name>
-<name key="Sacher, Paul" type="person" role="int">Sacher, Paul</name>
-<name key="Zihlmann, Singkreis Maihof" type="person" role="int">Zihlmann, Singkreis Maihof</name>
-<title>Arthur Honegger: Centenaire de la naissance</title>
-<placeName key="Genève, Conservatoire"/>
-<placeName key="Pully, Théâtre de l'Octogone"/>
-<placeName key="Lausanne, Cathédrale"/>
-<placeName key="Lausanne, Casino de Montbenon, Salle Paderewski"/>
-<placeName key="Paris, Centre Culturel Suisse"/>
-<placeName key="Le Havre, Centre culturel Le Volcan"/>
-<placeName key="Genève, Victoria Hall"/>
-<placeName key="Lucerne, Kunsthaus"/>
-<placeName key="Gland, Nouvelle salle de concert"/>
-<placeName key="Bienne, Salle de la Loge"/>
-<placeName key="Evian, Casino, Auditorium Mstislav Rostropovich"/>
-<placeName key="Genève, Cour de l'Hôtel de Ville"/>
-<placeName key="Stuttgart"/>
-<placeName key="Lucerne, Stadttheater"/>
-<placeName key="Zürich, Interationale Musikfestwochen, Kunsthaus Nordsaal"/>
-<name key="Concerts" type="series"/>
-<page><![CDATA[﻿ ARTHUR HONEGGER
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <pb facs='LAc_prg/CH_LAc_prg_concerts/pyr_CH_LAc_prg_concerts-0037.tif'/>
+        <date when='19910120'/>
+        <name key='Honegger, Arthur' type='person' role='cmp'>Honegger, Arthur</name>
+        <name key='Quatuor Parisii' type='person' role='int'>Quatuor Parisii</name>
+        <name key='Quatuor Keller' type='person' role='int'>Quatuor Keller</name>
+        <name key='Goetze, Christa' type='person' role='int'>Goetze, Christa</name>
+        <name key='Zürcher, Liliane' type='person' role='int'>Zürcher, Liliane</name>
+        <name key='Lang, Frieder' type='person' role='int'>Lang, Frieder</name>
+        <name key='Kisfaludy, Örs' type='person' role='int'>Kisfaludy, Örs</name>
+        <name key='Mermoud, Véronique' type='person' role='int'>Mermoud, Véronique</name>
+        <name key='Choeur Faller' type='person' role='int'>Choeur Faller</name>
+        <name key='Mayer, Pascal' type='person' role='int'>Mayer, Pascal</name>
+        <name key='Delafontaine, Christian' type='person' role='int'>Delafontaine, Christian</name>
+        <name key='Marguerat, Patrick' type='person' role='int'>Marguerat, Patrick</name>
+        <name key='Orchestre des Rencontres Musicales, Lausanne' type='person' role='int'>Orchestre des Rencontres Musicales, Lausanne</name>
+        <name key='Grob, Jean-Marc' type='person' role='int'>Grob, Jean-Marc</name>
+        <name key='Quatuor Sine Nomine' type='person' role='int'>Quatuor Sine Nomine</name>
+        <name key='Balleys, Brigitte' type='person' role='int'>Balleys, Brigitte</name>
+        <name key='Orchestre Cinq sept' type='person' role='int'>Orchestre Cinq sept</name>
+        <name key='Quatuor Martinu' type='person' role='int'>Quatuor Martinu</name>
+        <name key='Antonioli, Jean-François' type='person' role='int'>Antonioli, Jean-François</name>
+        <name key='Orchestre de chambre de Lausanne' type='person' role='int'>Orchestre de chambre de Lausanne</name>
+        <name key='Lopez Cobos, Jesús' type='person' role='int'>Lopez Cobos, Jesús</name>
+        <name key='Ferry, Dennis' type='person' role='int'>Ferry, Dennis</name>
+        <name key='Birnstingl, Roger' type='person' role='int'>Birnstingl, Roger</name>
+        <name key='Litton, Andrew' type='person' role='int'>Litton, Andrew</name>
+        <name key='Orchestre de la Suisse Romande, Genève' type='person' role='int'>Orchestre de la Suisse Romande, Genève</name>
+        <name key='Collegium Musicum Luzern' type='person' role='int'>Collegium Musicum Luzern</name>
+        <name key='Koch, Alois' type='person' role='int'>Koch, Alois</name>
+        <name key='Jansons, Mariss' type='person' role='int'>Jansons, Mariss</name>
+        <name key='Dütschler, Ursula' type='person' role='int'>Dütschler, Ursula</name>
+        <name key='Zymansky, Robert' type='person' role='int'>Zymansky, Robert</name>
+        <name key='Rostropovich, Mstislav' type='person' role='int'>Rostropovich, Mstislav</name>
+        <name key='Menuhin, Yehudi' type='person' role='int'>Menuhin, Yehudi</name>
+        <name key='Orchestre de la Julliard School of Music, New York' type='person' role='int'>Orchestre de la Julliard School of Music, New York</name>
+        <name key='Jordan, Armin' type='person' role='int'>Jordan, Armin</name>
+        <name key='Bamert, Matthias' type='person' role='int'>Bamert, Matthias</name>
+        <name key='Choeur Pro Arte' type='person' role='int'>Choeur Pro Arte</name>
+        <name key='Charlet, André' type='person' role='int'>Charlet, André</name>
+        <name key='Baumgartner, Rudolf' type='person' role='int'>Baumgartner, Rudolf</name>
+        <name key='Festival Strings Lucerne, Luzern' type='person' role='int'>Festival Strings Lucerne, Luzern</name>
+        <name key='Schweizerisches Festspielorchester' type='person' role='int'>Schweizerisches Festspielorchester</name>
+        <name key='Frühbeck de Burgos, Rafael' type='person' role='int'>Frühbeck de Burgos, Rafael</name>
+        <name key='Collegium musicum, Zürich' type='person' role='int'>Collegium musicum, Zürich</name>
+        <name key='Sacher, Paul' type='person' role='int'>Sacher, Paul</name>
+        <name key='Zihlmann, Singkreis Maihof' type='person' role='int'>Zihlmann, Singkreis Maihof</name>
+        <title>Arthur Honegger: Centenaire de la naissance</title>
+        <placeName key='Genève, Conservatoire'/>
+        <placeName key='Pully, Théâtre de l&apos;Octogone'/>
+        <placeName key='Lausanne, Cathédrale'/>
+        <placeName key='Lausanne, Casino de Montbenon, Salle Paderewski'/>
+        <placeName key='Paris, Centre Culturel Suisse'/>
+        <placeName key='Le Havre, Centre culturel Le Volcan'/>
+        <placeName key='Genève, Victoria Hall'/>
+        <placeName key='Luzern, Kunsthaus'/>
+        <placeName key='Gland, Nouvelle salle de concert'/>
+        <placeName key='Bienne, Salle de la Loge'/>
+        <placeName key='Evian, Casino, Auditorium Mstislav Rostropovich'/>
+        <placeName key='Genève, Cour de l&apos;Hôtel de Ville'/>
+        <placeName key='Stuttgart'/>
+        <placeName key='Luzern, Stadttheater'/>
+        <placeName key='Zürich, Interationale Musikfestwochen, Kunsthaus Nordsaal'/>
+        <name key='Concerts' type='series'/>
+        <page><![CDATA[﻿ ARTHUR HONEGGER
      CENTENAIRE DE LA NAISSANCE
      1892 ■ 1992
                 Calendrier des manifestations du 1er janvier au 31 août 1992]]></page>
-<pb facs="LAc_prg/CH_LAc_prg_concerts/pyr_CH_LAc_prg_concerts-0038.tif"/>
-<page><![CDATA[﻿Dates / Oeuvres d’Arthur Honegger
+        <pb facs='LAc_prg/CH_LAc_prg_concerts/pyr_CH_LAc_prg_concerts-0038.tif'/>
+        <page><![CDATA[﻿Dates / Oeuvres d’Arthur Honegger
 Lundi 20 janvier 1992 Quatuor N° 3 Conservatoire de Genève Quatuor Parisii
 Lundi 2 mars 1992 Quatuor à cordes N° 2
 Conservatoire de Genève Quatuor Keller
@@ -131,8 +139,8 @@ Symphonie N° 4 «Deliciae Basilienses »
 Salle Paderewski, Casino de Montbenon, Lausanne Jean-François Antonioli, piano Orchestre de Chambre de Lausanne
 Jésus Lopez Cobos, direction
 ]]></page>
-<pb facs="LAc_prg/CH_LAc_prg_concerts/pyr_CH_LAc_prg_concerts-0039.tif"/>
-<page><![CDATA[﻿Lundi 13 avril 1992 Christophe Colomb (extraits) Concertino pour piano et orchestre
+        <pb facs='LAc_prg/CH_LAc_prg_concerts/pyr_CH_LAc_prg_concerts-0039.tif'/>
+        <page><![CDATA[﻿Lundi 13 avril 1992 Christophe Colomb (extraits) Concertino pour piano et orchestre
 Symphonie N° 4 «Deliciae Basilienses »
 Centre culturel Le Volcan,
 Le Havre
@@ -162,8 +170,8 @@ Sir Yehudi Menuhin, direction
 Lundi 1erjuin 1992 Symphonie N° 3 «Liturgique»
 Victoria Hall, Genève Orchestre de la Suisse Romande Armin Jordan, direction
 ]]></page>
-<pb facs="LAc_prg/CH_LAc_prg_concerts/pyr_CH_LAc_prg_concerts-0040.tif"/>
-<page><![CDATA[﻿Vendredi 3 juillet 1992 Symphonie N° 3 ou La Pastorale d’Eté (à confirmer)
+        <pb facs='LAc_prg/CH_LAc_prg_concerts/pyr_CH_LAc_prg_concerts-0040.tif'/>
+        <page><![CDATA[﻿Vendredi 3 juillet 1992 Symphonie N° 3 ou La Pastorale d’Eté (à confirmer)
 Cour de l’Hôtel de Ville, Genève Orchestre de la Suisse Romande Matthias Bamert, direction
 Dimanche 23 août 1992 Lundi 24 août 1992 Symphonie N° 4 Internationale Musikfestwochen Lôwendenkmal Lucerne Collegium Musicum de Zurich Paul Sacher, direction
 Samedi 8 août 1992 Le Roi David Stuttgart
@@ -183,8 +191,7 @@ Internationale Musikfestwochen Kunsthaus Nordsaal
 Vendredi 28 août 1992 Sonate N° 1
 Internationale Musikfestwochen Kunsthaus Nordsaal Padovani/Mazzola
 ]]></page>
-       
-        </p>
+      </p>
     </body>
   </text>
 </TEI>

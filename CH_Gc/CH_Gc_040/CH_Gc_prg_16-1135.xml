@@ -1,88 +1,97 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>HEMU Conservatoire de Genève - Programme de concert</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Paolo Boschetti</persName>
-                    <persName>Laurent Pugin</persName>
-                    <persName>Violeta Struijk van Bergen</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <date when="2016-01">Janvier 2016</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gc</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>HEMU Conservatoire de Genève - Programme de concert</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Paolo Boschetti</persName>
+            <persName>Laurent Pugin</persName>
+            <persName>Violeta Struijk van Bergen</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <date when='2016-01'>Janvier 2016</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gc</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Dix concerts par abonnement (série B)<date when="19321108">08/11/1932</date></title>
-<series>Dix concerts par abonnement (série B)</series>
-<placeName>Genève, Salle de la Réformation </placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+             Dix concerts par abonnement (série B) 
+            <date when='19321108'>08/11/1932</date>
+          </title>
+          <series>Dix concerts par abonnement (série B)</series>
+          <placeName>Genève, Salle de la Réformation </placeName>
+          <orgName role='holding'>
+             Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+        </bibl>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <pb facs="Gc_prg/CH_Gc_prg_16/pyr_CH_Gc_prg_16-1135.tif"/>
-<date when="19321108"/>
-<date when="19321124"/>
-<date when="19321208"/>
-<date when="19321222"/>
-<date when="19330112"/>
-<date when="19330126"/>
-<date when="19330211"/>
-<date when="19330228"/>
-<date when="19330316"/>
-<date when="19330330"/>
-<name key="Beethoven, Ludwig van" type="person" role="cmp">Ludwig van Beethoven</name>
-<name key="Chopin, Fryderyk" type="person" role="cmp">Chopin, Fryderyk</name>
-<name key="Schubert, Franz" type="person" role="cmp">Schubert, Franz</name>
-<name key="Haydn, Joseph" type="person" role="cmp">Haydn, Joseph</name>
-<name key="Mendelssohn Bartholdy, Felix" type="person" role="cmp">Felix Mendelssohn Bartholdy</name>
-<name key="Debussy, Claude" type="person" role="cmp">Debussy, Claude</name>
-<name key="Lalo, Edouard" type="person" role="cmp">Lalo, Edouard</name>
-<name key="Mozart, Wolfgang Amadeus" type="person" role="cmp">Wolfgang Amadeus Mozart</name>
-<name key="Honegger, Arthur" type="person" role="cmp">Honegger, Arthur</name>
-<name key="Weber, Carl Maria von" type="person" role="cmp">Carl Maria von Weber</name>
-<name key="Haydn, Joseph" type="person" role="cmp">Haydn, Joseph</name>
-<name key="Martinů, Bohuslav" type="person" role="cmp">Martinů, Bohuslav</name>
-<name key="Hindemith, Paul" type="person" role="cmp">Hindemith, Paul</name>
-<name key="Berlioz, Hector" type="person" role="cmp">Berlioz, Hector</name>
-<name key="Bach, Johann Sebastian" type="person" role="cmp">Johann Sebastian Bach</name>
-<name key="Schoenberg, Arnold" type="person" role="cmp">Schönberg, Arnold</name>
-<name key="Händel, Georg Friedrich" type="person" role="cmp">Georg Friedrich Händel</name>
-<name key="Mahler, Gustav" type="person" role="cmp">Mahler, Gustav</name>
-<name key="Wagner, Richard" type="person" role="cmp">Wagner, Richard</name>
-<name key="Brahms, Johannes" type="person" role="cmp">Brahms, Johannes</name>
-<name key="Roussel, Albert" type="person" role="cmp">Roussel, Albert</name>
-<name key="Ibert, Jacques" type="person" role="cmp">Ibert, Jacques</name>
-<name key="Binet, Jean" type="person" role="cmp">Binet, Jean</name>
-<name key="Ravel, Maurice" type="person" role="cmp">Ravel, Maurice</name>
-<name key="Delvincourt, Claude" type="person" role="cmp">Delvincourt, Claude</name>
-<name key="Chaix, Charles" type="person" role="cmp">Chaix, Charles</name>
-<name key="Brahms, Johannes" type="person" role="cmp">Brahms, Johannes</name>
-<name key="Lully, Jean-Baptiste" type="person" role="cmp">Lully, Jean-Baptiste</name>
-<name key="Stravinskij, Igor' Fëdorovič" type="person" role="cmp">Igor' Fëdorovič Stravinskij</name><title>Dix concerts par abonnement (série B)</title>
-<placeName key="Genève, Salle de la Réformation "/>
-<name key="Dix concerts par abonnement (série B)" type="series"/>
-<page><![CDATA[﻿  SOCIÉTÉ DE L’ORCHESTRE DE LA SUISSE ROMANDE
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <pb facs='Gc_prg/CH_Gc_prg_16/pyr_CH_Gc_prg_16-1135.tif'/>
+        <date when='19321108'/>
+        <date when='19321124'/>
+        <date when='19321208'/>
+        <date when='19321222'/>
+        <date when='19330112'/>
+        <date when='19330126'/>
+        <date when='19330211'/>
+        <date when='19330228'/>
+        <date when='19330316'/>
+        <date when='19330330'/>
+        <name key='Beethoven, Ludwig van' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Chopin, Fryderyk Franciszek' type='person' role='cmp'>Chopin, Fryderyk Franciszek</name>
+        <name key='Schubert, Franz' type='person' role='cmp'>Schubert, Franz</name>
+        <name key='Haydn, Joseph' type='person' role='cmp'>Haydn, Joseph</name>
+        <name key='Mendelssohn Bartholdy, Felix' type='person' role='cmp'>Mendelssohn Bartholdy, Felix</name>
+        <name key='Debussy, Claude' type='person' role='cmp'>Debussy, Claude</name>
+        <name key='Lalo, Edouard' type='person' role='cmp'>Lalo, Edouard</name>
+        <name key='Mozart, Wolfgang Amadeus' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Honegger, Arthur' type='person' role='cmp'>Honegger, Arthur</name>
+        <name key='Weber, Carl Maria von' type='person' role='cmp'>Weber, Carl Maria von</name>
+        <name key='Haydn, Joseph' type='person' role='cmp'>Haydn, Joseph</name>
+        <name key='Martinů, Bohuslav' type='person' role='cmp'>Martinů, Bohuslav</name>
+        <name key='Hindemith, Paul' type='person' role='cmp'>Hindemith, Paul</name>
+        <name key='Berlioz, Hector' type='person' role='cmp'>Berlioz, Hector</name>
+        <name key='Bach, Johann Sebastian' type='person' role='cmp'>Bach, Johann Sebastian</name>
+        <name key='Schoenberg, Arnold' type='person' role='cmp'>Schönberg, Arnold</name>
+        <name key='Händel, Georg Friedrich' type='person' role='cmp'>Händel, Georg Friedrich</name>
+        <name key='Mahler, Gustav' type='person' role='cmp'>Mahler, Gustav</name>
+        <name key='Wagner, Richard' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Brahms, Johannes' type='person' role='cmp'>Brahms, Johannes</name>
+        <name key='Roussel, Albert' type='person' role='cmp'>Roussel, Albert</name>
+        <name key='Ibert, Jacques' type='person' role='cmp'>Ibert, Jacques</name>
+        <name key='Binet, Jean' type='person' role='cmp'>Binet, Jean</name>
+        <name key='Ravel, Maurice' type='person' role='cmp'>Ravel, Maurice</name>
+        <name key='Delvincourt, Claude' type='person' role='cmp'>Delvincourt, Claude</name>
+        <name key='Chaix, Charles' type='person' role='cmp'>Chaix, Charles</name>
+        <name key='Brahms, Johannes' type='person' role='cmp'>Brahms, Johannes</name>
+        <name key='Lully, Jean-Baptiste' type='person' role='cmp'>Lully, Jean-Baptiste</name>
+        <name key='Stravinskij, Igor&apos; Fëdorovič' type='person' role='cmp'>Stravinskij, Igor&apos; Fëdorovič</name>
+        <title>Dix concerts par abonnement (série B)</title>
+        <placeName key='Genève, Salle de la Réformation '/>
+        <name key='Saisons' type='series'/>
+        <page><![CDATA[﻿  SOCIÉTÉ DE L’ORCHESTRE DE LA SUISSE ROMANDE
           SAISON J93a-i933 (XVe année)
  PROGRAMME GÉNÉRAL
                                DES
@@ -91,8 +100,8 @@ DIX CONCERT
       A TARIF POPULAIRE
                      (Série B)
 SALLE DE LA RÉFORMATION GENÈVE]]></page>
-<pb facs="Gc_prg/CH_Gc_prg_16/pyr_CH_Gc_prg_16-1136.tif"/>
-<page><![CDATA[﻿Société de l Orchestre de la S lusse Romande
+        <pb facs='Gc_prg/CH_Gc_prg_16/pyr_CH_Gc_prg_16-1136.tif'/>
+        <page><![CDATA[﻿Société de l Orchestre de la S lusse Romande
 N‘
                                                     Genève, octobre kjJ2.
             Al
@@ -108,8 +117,8 @@ Nulle <le la Réformation. Le nombre de ces Concerts, qui était précédemment 
                        R. de Haller, Président.
      MM. Jean Bartholoni. - Pierre Bordier. - Robert Bory. -Jacques Brun. - Gustave Dunant. - Henri Gagnebin. -Maurice Gautier. — Paul Lachenal. - Albert Lullin. -E. de Marignac. - Frank Martin. - Mce Pictet de Rochemont. - Dr Roger Steinmetz. - W. Tappolet. -Templetox-Strong. - E. Vidoudez.
 Secrétaire Général: ErneA G101'ANNA.]]></page>
-<pb facs="Gc_prg/CH_Gc_prg_16/pyr_CH_Gc_prg_16-1137.tif"/>
-<page><![CDATA[﻿>1* *1* *J* *J*	*J* *J* *J* »J« >J* »J* »J* *J* »J* *J* *1* *J* »J* *J* *J* »J» *J* *J* *J* *Jt *1» *J* *1* *1» *J*
+        <pb facs='Gc_prg/CH_Gc_prg_16/pyr_CH_Gc_prg_16-1137.tif'/>
+        <page><![CDATA[﻿>1* *1* *J* *J*	*J* *J* *J* »J« >J* »J* »J* *J* »J* *J* *1* *J* »J* *J* *J* »J» *J* *J* *J* *Jt *1» *J* *1* *1» *J*
 Orck
 estre
 de la Sui
@@ -143,8 +152,8 @@ i',: harpe................... Mme BARRIERA-de SANCTIS, ier prix d’excellence d
 
  M Emest ANSERMET
 Premier Chef d'orchestre de l’O. S. R.]]></page>
-<pb facs="Gc_prg/CH_Gc_prg_16/pyr_CH_Gc_prg_16-1138.tif"/>
-<page><![CDATA[﻿DATES ET PROGRAMMES
+        <pb facs='Gc_prg/CH_Gc_prg_16/pyr_CH_Gc_prg_16-1138.tif'/>
+        <page><![CDATA[﻿DATES ET PROGRAMMES
 DES
 10 Concerts de la Série B
  SALLE DE LA RÉFORMATION
@@ -201,8 +210,8 @@ Direction : M. Fernand CLOSSET Soliste: M. André de RIBAUPIERRE, violoniste
 2.	Concerto en ré majeur, pour violon et orchestre	Brahms
 3.	Le festin de l’araignée..........................................Rotudel
 4-*Paris, suite symphonique........................................Ibert]]></page>
-<pb facs="Gc_prg/CH_Gc_prg_16/pyr_CH_Gc_prg_16-1139.tif"/>
-<page><![CDATA[﻿Huitième Concert	Mardi 28 février ig33
+        <pb facs='Gc_prg/CH_Gc_prg_16/pyr_CH_Gc_prg_16-1139.tif'/>
+        <page><![CDATA[﻿Huitième Concert	Mardi 28 février ig33
   Direction : M. Ernest ANSERMET Soliste : M. Franz-Josef HIRT, pianiste Le Chœur Romand
 1.	Suite n° 1, en ul............................ Bach
 2.*0de	a Diane et Apollon, pour chœur et orchestre Binet
@@ -237,8 +246,8 @@ cdl>^
 M1'* Madeleine GONSER , violoniste.
   Née à Bâle, M1'0 Gonser, a passé son enfance à Zurich où elle a commencé l’étude du violon au Conservatoire de cette ville. A Vevey, où sa famille s’est fixée plus tard, elle a travaillé avec Emile de Ribau-pierre. Après avoir obtenu son diplôme de virtuosité Ml!e Gonser continua ses études à Pisek, en Tchécoslovaquie, auprès du vieux maître
 O.	Scevcik. Ce dernier l’engagea vivement à embrasser la carrière de soliste, déclarant que son talent lui rappelait celui d'Erica Morini. Elle travailla également à Paris avec G. Enesco. De nombreux concerts en Suisse, en Belgique et à Paris ont fait apprécier sa brillante technique, son jeu d’une belle ampleur, et son ardente nature de musicienne.]]></page>
-<pb facs="Gc_prg/CH_Gc_prg_16/pyr_CH_Gc_prg_16-1140.tif"/>
-<page><![CDATA[﻿M"1' Adelheid ARAtHOLD, cantatrice
+        <pb facs='Gc_prg/CH_Gc_prg_16/pyr_CH_Gc_prg_16-1140.tif'/>
+        <page><![CDATA[﻿M"1' Adelheid ARAtHOLD, cantatrice
   Native des Frises, Mme Adelheid Armhold a fait ses études de chant à Berlin auprès de différents professeurs de l’école italienne. Les débuts, très récents, de sa carrière ont été remarquablement rapides, et elle se créa d’emblée une place en vue comme chanteuse d’oratorios et lie-dersângerin. L’attention du public musical fut surtout attirée par sa création à Berlin, la saison dernière, du fameux oratorio de Paul Hindemith, Das Unaujhôrliche, qu’elle doit chanter cet hiver également à Zurich et dont elle interprétera un fragment chez nous. Pour la présente saison, Mme Armhold est engagée par de nombreuses Sociétés de Concerts, à Zurich, Winterthur, Amsterdam, La Haye, Londres, et diverses villes allemandes.
 M. Cl iarles PANZERA, b ary ton.
   Premier prix d’excellence au Conservatoire de Paris, M. Charles Panzera attira sur lui l’attention du monde musical dès le début de sa carrière par de remarquables interprétations de divers rôles à l’Opéra-Comique et par le succès remporté au cours de nombreux concerts et représentations dans toutes les grandes villes d’Europe. A Genève, on se souvient de sa création du Roi David d’Arthur Honegger suivie peu après de l’audition intégrale des Mélodies de Duparc sous le patronage de l’auteur. Dans nos concerts il chanta encore des scènes de Pelléas et Méli-sande, puis la Damnation de Faust. Enfin il fut le Pelléas idéal des inoubliables représentations données au Grand Théâtre par l’O. S. R. en novembre 1930. Son interprétation du rôle de Pelléas fut du reste dès le début une révélation si sensationnelle que Mmp Debussy écrivait à l’artiste une lettre enthousiaste terminée par ces mots : « quelle joie pour le Maître s’il avait été là... » C’est également à M. Panzéra que fut confiée la création d'Amphion, la belle œuvre d’Arthur Honegger que nous donnons cette saison en première audition.
@@ -248,8 +257,8 @@ M.me Lily KRAUSS, pianiste.
 Mme II ona DURIGO,
   Originaire de Budapest, Mmc llona Durigo commença sa carrière en obte nant le diplôme de professeur de piano au Conservatoire de sa ville natale. Puis elle se rendit à Vienne, où elle travailla le chant au Conservatoire. Fixée à Zurich, Mme Durigo est l’une des solistes favorites des Associations symphoniques suisses et sa carrière n’a été qu’une longue suite de succès. Notre public a eu de fréquentes occasions d’admirer ses émou vantes interprétations des grands maîtres classiques et modernes. Le nom de Mme Durigo est en effet associé à toutes les belles manifestations musicales de notre pays.
 cantatrice.]]></page>
-<pb facs="Gc_prg/CH_Gc_prg_16/pyr_CH_Gc_prg_16-1141.tif"/>
-<page><![CDATA[﻿M.. André de RIBAUPIERRE, violoniste.
+        <pb facs='Gc_prg/CH_Gc_prg_16/pyr_CH_Gc_prg_16-1141.tif'/>
+        <page><![CDATA[﻿M.. André de RIBAUPIERRE, violoniste.
    Elève du violoniste polonais Gorski, André de Ribaupierre débuta avec éclat à Londres à dix-se|>t ans, après quoi, aidé des conseils de Paderewski,
 il	fit comme virtuose de nombreuses tournées à l’étranger. Nommé à l’âge de vingt et un ans professeur des classes de virtuosité au Conservatoire de Lausanne, il fut parmi les premiers solistes engagés par l’O. S. R. aux débuts de son activité et se révéla à cette occasion violoniste de grande classe et musicien raffiné. Puis il alla rejoindre à Cincinnati l’illustre maître Eugène Ysaye qui dirigeait là-bas l’orchestre symphonique. Il travailla avec lui et joua comme soliste sous sa direction; après une tournée de concerts aux Etats-Unis, de Ribaupierre remplaça Ysaye, rentré à Bruxelles, au Conservatoire de Cincinnati. Puis en 1923, il fut nommé à l’institut de musique de Cleveland, comme directeur de l’enseignement des instruments à cordes et des classes de musique de chambre et chef de l’orchestre symphonique.
 M . Frana-Joscp k HIRT, pianiste.
@@ -260,8 +269,8 @@ Mlle Bl a ne lie HONEGGER, violoniste.
 M.. Henri HONEGGER , violoncelliste.
 Frère de M"e Blanche Honegger,
 Henri Honegger fit ses premières études de violoncelle avec M. Briquet, puis les continua pendant trois années au Conservatoire de Leipzig auprès de l’illustre Klengel. Henri Honegger se rendit ensuite à Paris où il perfectionna son talent en travaillant également pendant trois années sous la direction d’Alexanian, à l’Ecole Normale. M. Henri Honegger entra il y a une année à l’Orchestre de la Suisse romande et lors du concours institué en mars dentier, il fit preuve de si remarquables qualités que le Comité lui confia sans hésiter le poste de violoncelle solo, laissé vacant par le départ de M. de Sanctis.]]></page>
-<pb facs="Gc_prg/CH_Gc_prg_16/pyr_CH_Gc_prg_16-1142.tif"/>
-<page><![CDATA[﻿aJ*	AJ* *|* j,T* *!* *T< >t« >î« *J* »t4 *t4 ,1,	j|* j|*
+        <pb facs='Gc_prg/CH_Gc_prg_16/pyr_CH_Gc_prg_16-1142.tif'/>
+        <page><![CDATA[﻿aJ*	AJ* *|* j,T* *!* *T< >t« >î« *J* »t4 *t4 ,1,	j|* j|*
                                 Mlle Lina FALK, cantatrice.
 Lina Falk, qui est née à Genève, fit ses études dans sa ville natale ainsi qu’à Paris. Très remarquée lors de ses débuts en 1922, dans les concerts symphoniques en Suisse, elle fut successivement engagée les années suivantes aux Concerts du Théâtre Royal de la Monnaie du Conservatoire Royal de Bruxelles, aux Concerts classiques d’Ostende, Liège, Anvers, etc., ainsi qu’à Paris aux Concerts du Conservatoire, Colonne, Lamoureux, Pasde-loup, Société Bach, et à diverses manifestations religieuses. Depuis lors, la carrière de Mlle Falk s’est brillamment poursuivie. Par l’égale perfection de sa technique et de son style et par la beauté de son organe, Lina Falk s’impose comme l'interprète idéale de Bach.
 
@@ -269,8 +278,8 @@ Lina Falk, qui est née à Genève, fit ses études dans sa ville natale ainsi q
 M . Samtie 1 BAUD-BOVY, chef d'orchestre
 qui dirigera le concert du 16 mars
   Né à Genève en 1906, Samuel Baud-Bovy commença ses études musicales avec sa mère, puis il les continua à l’institut Jaques-Dalcroze et au Conservatoire de Genève où il fut l’élève de M. Fernand Closset pour le violon, et de M. Ch. Chaix pour l’harmonie, le contrepoint et la composition. En 1928 et 1929, il étudia à Paris avec Paul Dukas et Nadia Boulanger, puis alla suivre le cours de direction du D1 Félix Weingartner. Ses études littéraires qu’il a poursuivies concurramment avec celles de musique l’ayant amené à Athènes, il recueillait en Grèce des chansons populaires grecques et eut l’occasion de diriger en 1930 un concert de l’Orchestre symphonique d’Athènes. A Genève, Samuel Baud-Bovy a fait ses débuts de chef d’orchestre en 1931 en dirigeant au Conservatoire un concert donné par le petit orchestre qu'il avait formé et dirigé périodiquement depuis l’époque de ses études.]]></page>
-<pb facs="Gc_prg/CH_Gc_prg_16/pyr_CH_Gc_prg_16-1143.tif"/>
-<page><![CDATA[﻿PRIX DES ABONNEMENTS
+        <pb facs='Gc_prg/CH_Gc_prg_16/pyr_CH_Gc_prg_16-1143.tif'/>
+        <page><![CDATA[﻿PRIX DES ABONNEMENTS
 pour la Saison, aux 10 Concerts Je la Série B
 SALLE DE LA RÉFORMATION
 (Droit des pauvres compris)
@@ -292,8 +301,7 @@ Parterre, places de côté................. » 2.50 f Droit des
 Première galerie, 1er rang de côté et 2 premiers rangs de face » 3.50 , pauvres Première galerie, 2e rang de côté, 3e au 8e rangs de face » 2.50 i compris Places non numérotées .................. » 1.20 ]
      Abonnement aux programmes analytiques des dix concerts
 Série B (envoyés k domicile) : 5 francs.]]></page>
-       
-        </p>
+      </p>
     </body>
   </text>
 </TEI>

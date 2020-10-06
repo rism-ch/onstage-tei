@@ -1,82 +1,89 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>HEMU Conservatoire de Lausanne - Programme de concert</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Paolo Boschetti</persName>
-                    <persName>Laurent Pugin</persName>
-                    <persName>Violeta Struijk van Bergen</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <date when="2012-11">Novembre 2012</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_lac</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>HEMU Conservatoire de Lausanne - Programme de concert</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Paolo Boschetti</persName>
+            <persName>Laurent Pugin</persName>
+            <persName>Violeta Struijk van Bergen</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <date when='2012-11'>Novembre 2012</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_lac</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title> <date when="20081105">05 novembre 2008</date></title>
-<series>Midi-concerts</series>
-<placeName>Conservatoire de Lausanne, Grande salle</placeName>
-<orgName role="holding">Bibliothèque HEMU-CL;<link target="http://biblio.hemu-cl.ch"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+            <date when='20081105'>05 novembre 2008</date>
+          </title>
+          <series>Midi-concerts</series>
+          <placeName>Conservatoire de Lausanne, Grande salle</placeName>
+          <orgName role='holding'>
+             Bibliothèque HEMU-CL; 
+            <link target='http://biblio.hemu-cl.ch'/>
+          </orgName>
+        </bibl>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <pb facs="LAc_prg/CH_LAc_prg_midi-concerts/pyr_CH_LAc_prg_midi-concerts-0252.tif"/>
-<date when="20081105"/>
-<name key="Bruch, Max" type="person" role="cmp">Bruch, M.</name>
-<name key="Schumann, Robert" type="person" role="cmp">Schumann, R.</name>
-<name key="Chačaturjan (Khachaturian), Aram" type="person" role="cmp">Khachaturian, Aram</name>
-<name key="Mashayekhi, Ali Reza" type="person" role="cmp">Mashayekhi, Ali Reza</name>
-<name key="Bartók, Béla" type="person" role="cmp">Bartok, B.</name>
-<name key="Schubert, Franz" type="person" role="cmp">Schubert, Franz</name>
-<name key="Browers, Charley" type="person" role="var">Browers, Charley</name>
-<name key="Sali-Sade, Frangis" type="person" role="cmp">Sali-Sade, Frangis</name>
-<name key="Crumb, George" type="person" role="cmp">Crumb, George</name>
-<name key="Messiaen, Olivier" type="person" role="cmp">Messiaen, Olivier</name>
-<name key="Martini, Padre Giovanni Battista" type="person" role="cmp">Martini</name>
-<name key="Handel, George Frideric" type="person" role="cmp">Haendel</name>
-<name key="Corelli, Arcangelo" type="person" role="cmp">Corelli</name>
-<name key="Pasquier, Bruno" type="person" role="int">Pasquier, Bruno</name>
-<name key="Rapin, Frédéric" type="person" role="int">Rapin, Frédric</name>
-<name key="Pantillon, Marc" type="person" role="int">Pantillon, Marc</name>
-<name key="Ubaldini, Blaise" type="person" role="int">Ubaldini, Blaise</name>
-<name key="Pasteknik, Betina" type="person" role="int">Pasteknik, Betina</name>
-<name key="Ramezan, Layla" type="person" role="int">Ramezan, Layla</name>
-<name key="Froschhammer, Felix" type="person" role="int">Froschhammer, Felix</name>
-<name key="Prinz, Nico" type="person" role="int">Prinz, Nico</name>
-<name key="Buclin, Lucas" type="person" role="int">Buclin, Lucas</name>
-<name key="Camponovo, Enrico" type="person" role="prof">Camponovo, Enrico</name>
-<name key="Touzery, Delphine" type="person" role="int">Touzery, Delphine</name>
-<name key="Giroud, Eléonore" type="person" role="int">Giroud, Eléonore</name>
-<name key="Oehninger, Priscille" type="person" role="int">Oehninger, Priscille</name>
-<name key="Dorbath, Elsa" type="person" role="int">Dorbath, Elsa</name>
-<name key="Le Roy, Nicolas" type="person" role="int">Le Roy, Nicolas</name>
-<name key="Adni, Daniel" type="person" role="int">Adni, Daniel</name>
-<name key="Mayfield, Nathaniel" type="person" role="int">Mayfield, Nathaniel</name>
-<name key="Theurillat, Olivier Anthony" type="person" role="int">Theurillat, Olivier Anthony</name>
-<placeName key="Lausanne, Conservatoire, Grande salle"/>
-<name key="Midi-concerts" type="series"/>
-<note>Programme des 7 midi-concerts donnés en novembre et décembre 2008</note>
-<page><![CDATA[﻿Midi-concerts
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <pb facs='LAc_prg/CH_LAc_prg_midi-concerts/pyr_CH_LAc_prg_midi-concerts-0252.tif'/>
+        <date when='20081105'/>
+        <name key='Bruch, Max' type='person' role='cmp'>Bruch, Max</name>
+        <name key='Schumann, Robert' type='person' role='cmp'>Schumann, Robert</name>
+        <name key='Chačaturjan, Aram' type='person' role='cmp'>Chačaturjan, Aram</name>
+        <name key='Mashayekhi, Ali Reza' type='person' role='cmp'>Mashayekhi, Ali Reza</name>
+        <name key='Bartók, Béla' type='person' role='cmp'>Bartók, Béla</name>
+        <name key='Schubert, Franz' type='person' role='cmp'>Schubert, Franz</name>
+        <name key='Browers, Charley' type='person' role='var'>Browers, Charley</name>
+        <name key='Ali-Sade, Frangis' type='person' role='cmp'>Ali-Sade, Frangis</name>
+        <name key='Crumb, George' type='person' role='cmp'>Crumb, George</name>
+        <name key='Messiaen, Olivier' type='person' role='cmp'>Messiaen, Olivier</name>
+        <name key='Martini, Padre Giovanni Battista' type='person' role='cmp'>Martini</name>
+        <name key='Händel, Georg Friedrich' type='person' role='cmp'>Händel, Georg Friedrich</name>
+        <name key='Corelli, Arcangelo' type='person' role='cmp'>Corelli, Arcangelo</name>
+        <name key='Pasquier, Bruno' type='person' role='int'>Pasquier, Bruno</name>
+        <name key='Rapin, Frédéric' type='person' role='int'>Rapin, Frédéric</name>
+        <name key='Pantillon, Marc' type='person' role='int'>Pantillon, Marc</name>
+        <name key='Ubaldini, Blaise' type='person' role='int'>Ubaldini, Blaise</name>
+        <name key='Pasteknik, Betina' type='person' role='int'>Pasteknik, Betina</name>
+        <name key='Ramezan, Layla' type='person' role='int'>Ramezan, Layla</name>
+        <name key='Froschhammer, Felix' type='person' role='int'>Froschhammer, Felix</name>
+        <name key='Prinz, Nico' type='person' role='int'>Prinz, Nico</name>
+        <name key='Buclin, Lucas' type='person' role='int'>Buclin, Lucas</name>
+        <name key='Camponovo, Enrico' type='person' role='prof'>Camponovo, Enrico</name>
+        <name key='Touzery, Delphine' type='person' role='int'>Touzery, Delphine</name>
+        <name key='Giroud, Eléonore' type='person' role='int'>Giroud, Eléonore</name>
+        <name key='Oehninger, Priscille' type='person' role='int'>Oehninger, Priscille</name>
+        <name key='Dorbath, Elsa' type='person' role='int'>Dorbath, Elsa</name>
+        <name key='Le Roy, Nicolas' type='person' role='int'>Le Roy, Nicolas</name>
+        <name key='Adni, Daniel' type='person' role='int'>Adni, Daniel</name>
+        <name key='Mayfield, Nathaniel' type='person' role='int'>Mayfield, Nathaniel</name>
+        <name key='Theurillat, Olivier Anthony' type='person' role='int'>Theurillat, Olivier Anthony</name>
+        <placeName key='Lausanne, Conservatoire, Grande salle'/>
+        <name key='Midi-concerts' type='series'/>
+        <note>Programme des 7 midi-concerts donnés en novembre et décembre 2008</note>
+        <page><![CDATA[﻿Midi-concerts
 Novembre - décembre 2008
  5 novembre 2008
  M. Bruch, Pièce pour alto et piano, op. 5 et Pièces op. 83, R. Schumann, Mârchenerzàhlungen, Bruno Pasquier (alto), Frédéric Rapin (clarinette), Marc Pantillon (piano). Grande salle, 12h15.
@@ -96,8 +103,7 @@ Novembre - décembre 2008
 Hes so
  CONSERVATOIRE DE LAUSANNE I
      HAUTE ÉCOLE D£ MUSIQUE I» JAZZ]]></page>
-       
-        </p>
+      </p>
     </body>
   </text>
 </TEI>

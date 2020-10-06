@@ -1,111 +1,120 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>HEMU Conservatoire de Genève - Programme de concert</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Paolo Boschetti</persName>
-                    <persName>Laurent Pugin</persName>
-                    <persName>Violeta Struijk van Bergen</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <date when="2016-01">Janvier 2016</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gc</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>HEMU Conservatoire de Genève - Programme de concert</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Paolo Boschetti</persName>
+            <persName>Laurent Pugin</persName>
+            <persName>Violeta Struijk van Bergen</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <date when='2016-01'>Janvier 2016</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gc</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Douze concerts symphoniques<date when="19191025">25/10/1919</date></title>
-<series>Douze concerts symphoniques</series>
-<placeName>Genève, Victoria Hall</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+             Douze concerts symphoniques 
+            <date when='19191025'>25/10/1919</date>
+          </title>
+          <series>Douze concerts symphoniques</series>
+          <placeName>Genève, Victoria Hall</placeName>
+          <orgName role='holding'>
+             Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+        </bibl>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <pb facs="Gc_prg/CH_Gc_prg_11/pyr_CH_Gc_prg_11-0591.tif"/>
-<date when="19191025"/>
-<date when="19191108"/>
-<date when="19191122"/>
-<date when="19191206"/>
-<date when="19191220"/>
-<date when="19200110"/>
-<date when="19200124"/>
-<date when="19200207"/>
-<date when="19200221"/>
-<date when="19200306"/>
-<date when="19200320"/>
-<date when="19200330"/>
-<name key="Beethoven, Ludwig van" type="person" role="cmp">Ludwig van Beethoven</name>
-<name key="Liszt, Franz" type="person" role="cmp">Liszt, Franz</name>
-<name key="Debussy, Claude" type="person" role="cmp">Debussy, Claude</name>
-<name key="Pierné, Gabriel" type="person" role="cmp">Pierné, Gabriel</name>
-<name key="Dukas, Paul" type="person" role="cmp">Dukas, Paul</name>
-<name key="Bach, Johann Sebastian" type="person" role="cmp">Johann Sebastian Bach</name>
-<name key="Wagner, Richard" type="person" role="cmp">Wagner, Richard</name>
-<name key="Suter, Hermann" type="person" role="cmp">Suter, Hermann</name>
-<name key="Händel, Georg Friedrich" type="person" role="cmp">Georg Friedrich Händel</name>
-<name key="Gluck, Christoph Willibald" type="person" role="cmp">Christoph Willibald Gluck</name>
-<name key="Haydn, Joseph" type="person" role="cmp">Haydn, Joseph</name>
-<name key="Jaques-Dalcroze, Emile" type="person" role="cmp">Jaques-Dalcroze, Emile</name>
-<name key="Ropartz, Joseph Guy" type="person" role="cmp">Joseph Guy Marie Ropartz</name>
-<name key="Indy, Vincent d'" type="person" role="cmp">d'Indy, Vincent</name>
-<name key="Berlioz, Hector" type="person" role="cmp">Berlioz, Hector</name>
-<name key="Malipiero, Gian Francesco" type="person" role="cmp">Gian Francesco Malipiero</name>
-<name key="Stravinskij, Igor' Fëdorovič" type="person" role="cmp">Igor' Fëdorovič Stravinskij</name>
-<name key="Borodin, Alexandr Porfir'evič" type="person" role="cmp">Alexandr Porfir'evič Borodin</name>
-<name key="Magnard, Albéric" type="person" role="cmp">Magnard, Albéric</name>
-<name key="Saint-Saëns, Camille" type="person" role="cmp">Saint-Saëns, Camille</name>
-<name key="Rimskij-Korsakov, Nikolaj Andreevič" type="person" role="cmp">Nikolay Andreyevich Rimsky-Korsakov</name>
-<name key="Corelli, Arcangelo" type="person" role="cmp">Corelli, Archangelo</name>
-<name key="Rameau, Jean-Philippe" type="person" role="cmp">Rameau, Jean-Philippe</name>
-<name key="Franck, César" type="person" role="cmp">Franck, César</name>
-<name key="Duparc, Henri" type="person" role="cmp">Duparc, Henri</name>
-<name key="Roussel, Albert" type="person" role="cmp">Roussel, Albert</name>
-<name key="Schubert, Franz" type="person" role="cmp">Schubert, Franz</name>
-<name key="Schoenberg, Arnold" type="person" role="cmp">Schönberg, Arnold</name>
-<name key="Goossens, Eugène" type="person" role="cmp">Goosens, Eugene</name>
-<name key="Ravel, Maurice" type="person" role="cmp">Ravel, Maurice</name>
-<name key="Mozart, Wolfgang Amadeus" type="person" role="cmp">Wolfgang Amadeus Mozart</name>
-<name key="Nardini, Pietro" type="person" role="cmp">Nardini, Pietro</name>
-<name key="Paganini, Nicolò" type="person" role="cmp">Paganini, Niccolò</name>
-<name key="Beethoven, Ludwig van" type="person" role="cmp">Ludwig van Beethoven</name>
-<name key="Denéréaz, Alexandre" type="person" role="cmp">Derénéaz, Alexandre</name>
-<name key="Schumann, Robert" type="person" role="cmp">Schumann, Robert</name>
-<name key="Strauss, Richard" type="person" role="cmp">Strauss, Richard</name>
-<name key="Strong, George Templeton" type="person" role="cmp">George Templeton Strong</name>
-<name key="Mahler, Gustav" type="person" role="cmp">Mahler, Gustav</name>
-<name key="Andreae, Volkmar" type="person" role="cmp">Andreae, Volkmar</name>
-<name key="Schoeck, Othmar" type="person" role="cmp">Schoeck, Othmar</name>
-<name key="Bartholoni, Jean" type="person" role="cmp">Bartholoni, Jean</name>
-<name key="Glazunov, Aleksandr Konstantinovič" type="person" role="cmp">Aleksandr Konstantinovič Glazunov</name><title>Douze concerts symphoniques</title>
-<placeName key="Genève, Victoria Hall"/>
-<name key="Douze concerts symphoniques" type="series"/>
-<page><![CDATA[﻿ri 44 Ad>àtdid*^d*^ÊdÊLâLÀ*<44*4Ê4+Aà*tA4d^4é^l^j»hkibi*hA fchikfchAifch h fc'>iWhikhh^fchA*h«kfcfr^hA*frA*kh»>j^>ih\hhj^ j|
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <pb facs='Gc_prg/CH_Gc_prg_11/pyr_CH_Gc_prg_11-0591.tif'/>
+        <date when='19191025'/>
+        <date when='19191108'/>
+        <date when='19191122'/>
+        <date when='19191206'/>
+        <date when='19191220'/>
+        <date when='19200110'/>
+        <date when='19200124'/>
+        <date when='19200207'/>
+        <date when='19200221'/>
+        <date when='19200306'/>
+        <date when='19200320'/>
+        <date when='19200330'/>
+        <name key='Beethoven, Ludwig van' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Liszt, Franz' type='person' role='cmp'>Liszt, Franz</name>
+        <name key='Debussy, Claude' type='person' role='cmp'>Debussy, Claude</name>
+        <name key='Pierné, Gabriel' type='person' role='cmp'>Pierné, Gabriel</name>
+        <name key='Dukas, Paul' type='person' role='cmp'>Dukas, Paul</name>
+        <name key='Bach, Johann Sebastian' type='person' role='cmp'>Bach, Johann Sebastian</name>
+        <name key='Wagner, Richard' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Suter, Hermann' type='person' role='cmp'>Suter, Hermann</name>
+        <name key='Händel, Georg Friedrich' type='person' role='cmp'>Händel, Georg Friedrich</name>
+        <name key='Gluck, Christoph Willibald' type='person' role='cmp'>Gluck, Christoph Willibald</name>
+        <name key='Haydn, Joseph' type='person' role='cmp'>Haydn, Joseph</name>
+        <name key='Jaques-Dalcroze, Emile' type='person' role='cmp'>Jaques-Dalcroze, Emile</name>
+        <name key='Ropartz, Joseph Guy' type='person' role='cmp'>Ropartz, Joseph Guy</name>
+        <name key='Indy, Vincent d&apos;' type='person' role='cmp'>Indy, Vincent d&apos;</name>
+        <name key='Berlioz, Hector' type='person' role='cmp'>Berlioz, Hector</name>
+        <name key='Malipiero, Gian Francesco' type='person' role='cmp'>Malipiero, Gian Francesco</name>
+        <name key='Stravinskij, Igor&apos; Fëdorovič' type='person' role='cmp'>Stravinskij, Igor&apos; Fëdorovič</name>
+        <name key='Borodin, Alexandr Porfir&apos;evič' type='person' role='cmp'>Borodin, Alexandr Porfir&apos;evič</name>
+        <name key='Magnard, Albéric' type='person' role='cmp'>Magnard, Albéric</name>
+        <name key='Saint-Saëns, Camille' type='person' role='cmp'>Saint-Saëns, Camille</name>
+        <name key='Rimskij-Korsakov, Nikolaj Andreevič' type='person' role='cmp'>Rimskij-Korsakov, Nikolaj Andreevič</name>
+        <name key='Corelli, Arcangelo' type='person' role='cmp'>Corelli, Arcangelo</name>
+        <name key='Rameau, Jean-Philippe' type='person' role='cmp'>Rameau, Jean-Philippe</name>
+        <name key='Franck, César' type='person' role='cmp'>Franck, César</name>
+        <name key='Duparc, Henri' type='person' role='cmp'>Duparc, Henri</name>
+        <name key='Roussel, Albert' type='person' role='cmp'>Roussel, Albert</name>
+        <name key='Schubert, Franz' type='person' role='cmp'>Schubert, Franz</name>
+        <name key='Schoenberg, Arnold' type='person' role='cmp'>Schönberg, Arnold</name>
+        <name key='Goossens, Eugène' type='person' role='cmp'>Goossens, Eugène</name>
+        <name key='Ravel, Maurice' type='person' role='cmp'>Ravel, Maurice</name>
+        <name key='Mozart, Wolfgang Amadeus' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Nardini, Pietro' type='person' role='cmp'>Nardini, Pietro</name>
+        <name key='Paganini, Nicolò' type='person' role='cmp'>Paganini, Nicolò</name>
+        <name key='Beethoven, Ludwig van' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Denéréaz, Alexandre' type='person' role='cmp'>Denéréaz, Alexandre</name>
+        <name key='Schumann, Robert' type='person' role='cmp'>Schumann, Robert</name>
+        <name key='Strauss, Richard' type='person' role='cmp'>Strauss, Richard</name>
+        <name key='Strong, George Templeton' type='person' role='cmp'>Strong, George Templeton</name>
+        <name key='Mahler, Gustav' type='person' role='cmp'>Mahler, Gustav</name>
+        <name key='Andreae, Volkmar' type='person' role='cmp'>Andreae, Volkmar</name>
+        <name key='Schoeck, Othmar' type='person' role='cmp'>Schoeck, Othmar</name>
+        <name key='Bartholoni, Jean' type='person' role='cmp'>Bartholoni, Jean</name>
+        <name key='Glazunov, Aleksandr Konstantinovič' type='person' role='cmp'>Glazunov, Aleksandr Konstantinovič</name>
+        <title>Douze concerts symphoniques</title>
+        <placeName key='Genève, Victoria Hall'/>
+        <name key='Saisons' type='series'/>
+        <page><![CDATA[﻿ri 44 Ad>àtdid*^d*^ÊdÊLâLÀ*<44*4Ê4+Aà*tA4d^4é^l^j»hkibi*hA fchikfchAifch h fc'>iWhikhh^fchA*h«kfcfr^hA*frA*kh»>j^>ih\hhj^ j|
                      Saison 1919-1920
   Orchestre
         DE LA
 Suisse Romande
     Programme général]]></page>
-<pb facs="Gc_prg/CH_Gc_prg_11/pyr_CH_Gc_prg_11-0592.tif"/>
-<page><![CDATA[﻿PROGRAMME GÉNÉRAL des Concerts d’abonnement de La saison i()i()-i()2o
+        <pb facs='Gc_prg/CH_Gc_prg_11/pyr_CH_Gc_prg_11-0592.tif'/>
+        <page><![CDATA[﻿PROGRAMME GÉNÉRAL des Concerts d’abonnement de La saison i()i()-i()2o
 au F'icloria-Hall cviît^s
 icr concert, 25 octobre. — Soliste : M. Blanchet, pianiste.
 Symphonie n° 8, en fa majeur................................Beethoven
@@ -187,8 +196,8 @@ La direction se réserve le droit d’apporter au programme toutes modifications
 Lci) parle*) seront fennéed pendant l’exccutioti dcà morceaux.
  i
 H. Jarrye, Genève]]></page>
-<pb facs="Gc_prg/CH_Gc_prg_11/pyr_CH_Gc_prg_11-0593.tif"/>
-<page><![CDATA[﻿if —----— --------=------ Louis van BEETHOVEN
+        <pb facs='Gc_prg/CH_Gc_prg_11/pyr_CH_Gc_prg_11-0593.tif'/>
+        <page><![CDATA[﻿if —----— --------=------ Louis van BEETHOVEN
   Né à Bonn le 16 décembre 1770, mort à Vienne le 26 mars 1827.
  SYMPHONIE n° S‘, en fa majeur, op. <jj.
       Presque contemporaine de la symphonie en la, conçue peut-être vers la même époque, écrite et terminée moins de cinq mois après la « symphonie-sœur », exécutée presque en même temps qu’elle, la
@@ -210,8 +219,8 @@ m--------------------------------------é
   Voici, traduite par Henri de Blaze de Bury, la ballade de Goethe qui a fourni le sujet de cette scène musicale :
    « Enfin, il s’est donc absenté, le vieux maître sorcier! Et maintenant c’est à moi aussi de commander à ses esprits ; j’ai observé ses paroles et ses œuvres, j’ai retenu sa formule, et, avec de la force d’esprit, moi aussi je vous ferai des miracles. — Que pour l’œuvre l’eau bouillonne et ruisselle et s’épanche en bain à large seau ! — Et maintenant approche, viens, viens, balai ! prends-moi ces mauvaises guenilles ! tu as été domestique assez longtemps ; aujourd’hui songe à remplir ma volonté ! Debout sur deux jambes, une tête en haut, cours vite et te dépêche de m’aller puiser de l’eau ! — Bravo ! il
 -à]]></page>
-<pb facs="Gc_prg/CH_Gc_prg_11/pyr_CH_Gc_prg_11-0594.tif"/>
-<page><![CDATA[﻿descend au rivage ; en vérité il est déjà au fleuve, et- plus prompt que l’éclair, le voilà ici de retour avec un flot rapide. Déjà, une seconde fois ! comme chaque cuve s’enfle ! comme chaque vase s’emplit jusqu’au bord ! — Arrête, arrête ! car nous avons assez de tes services. — Ah! je m’en aperçois! — Malheur! malheur! j’ai oublié le mot ! — Ah ! la parole qui le rendra enfin ce qu’il était tout à l’heure...
+        <pb facs='Gc_prg/CH_Gc_prg_11/pyr_CH_Gc_prg_11-0594.tif'/>
+        <page><![CDATA[﻿descend au rivage ; en vérité il est déjà au fleuve, et- plus prompt que l’éclair, le voilà ici de retour avec un flot rapide. Déjà, une seconde fois ! comme chaque cuve s’enfle ! comme chaque vase s’emplit jusqu’au bord ! — Arrête, arrête ! car nous avons assez de tes services. — Ah! je m’en aperçois! — Malheur! malheur! j’ai oublié le mot ! — Ah ! la parole qui le rendra enfin ce qu’il était tout à l’heure...
   « Il court et se démène ! Fusses-tu donc le vieux balai ! Toujours de nouveaux seaux qu’il apporte ! Ah ! et cent fleuves se précipitent sur moi ! — Non ! je ne puis le souffrir plus longtemps : il faut que je l’empoigne. C’est trop de malice! Ah! mon angoisse augmente. Quelle mine ! Quel regard ! — Engeance de l’enfer ! faut-il que la maison entière soit engloutie? Te vois sur chaque seuil courir déjà des torrents d’eau. Un damné balai qui ne veut plus rien entendre !
    « Bûche que tu étais, tiens-toi donc tranquille ! — Si tu n’en finis pas, prends garde que je ne t’empoigne et ne fende ton vieux bois au tranchant de la hache ! — Oui-dà ! le voilà qui se traîne encore par ici ! attends, que je t’attrape ! Un moment, Kobold, et tu seras par terre. Le tranchant poli de la hache l’atteint. Il craque ! bravo ! vraiment fort bien touché! Voyez, il est en deux! et maintenant j’espère et je respire. — Malheur ! malheur ! deux morceaux s’agitent maintenant, et s’empressent comme des valets debout pour le service. A mon aide, puissances supérieures! — Comme ils courent ! De plus en plus, l’eau gagne la salle et les degrés ; quelle effroyable inondation ! Seigneur et maître ! Entends ma voix ! — Ah ! voici venir le maître ! — Maître, le péril est grand ; les esprits que j’ai évoqués, je ne peux plus m’en débarrasser. — Dans le coin, balai ! balai ! que cela finisse ! car le vieux maître ne vous anime que pour vous faire servir à ses desseins. »
 4. 4.*}.
@@ -254,8 +263,8 @@ Concerto brandebourgeois, n° 2 .................. Bach
 Nocturnes.................................. Debussy
 Fragments du Coq d'Or et de Sneeqourotchka . \ ,.. , „ , ^ Marche nuptiale du Coq d’Or (ire audition).....S l,n'i ^ °rsa ofj
 Le Comité se réserve d'apporter a ces programmes toutes modifications qui seraient nécessitées par tes circonstances.]]></page>
-<pb facs="Gc_prg/CH_Gc_prg_11/pyr_CH_Gc_prg_11-0595.tif"/>
-<page><![CDATA[﻿ORCHESTRE DE LA SUISSE ROMANDE
+        <pb facs='Gc_prg/CH_Gc_prg_11/pyr_CH_Gc_prg_11-0595.tif'/>
+        <page><![CDATA[﻿ORCHESTRE DE LA SUISSE ROMANDE
  Saison 1919-1920
 TABLEAU DE L’ORCHESTRE
            i'r Chef : M. Ernest ANSERMET 2e Chef : M. Fernand CLOSSET
@@ -326,8 +335,7 @@ ZEISSIG
 AMEIS REHBOCK LECHNER MATTHES, piano
 OTT
 BARRIERA]]></page>
-       
-        </p>
+      </p>
     </body>
   </text>
 </TEI>

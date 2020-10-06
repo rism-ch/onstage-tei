@@ -1,101 +1,110 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>HEMU Conservatoire de Genève - Programme de concert</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Paolo Boschetti</persName>
-                    <persName>Laurent Pugin</persName>
-                    <persName>Violeta Struijk van Bergen</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <date when="2016-01">Janvier 2016</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gc</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>HEMU Conservatoire de Genève - Programme de concert</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Paolo Boschetti</persName>
+            <persName>Laurent Pugin</persName>
+            <persName>Violeta Struijk van Bergen</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <date when='2016-01'>Janvier 2016</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gc</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Douze concerts par abonnement (série A)<date when="19301011">11/10/1930</date></title>
-<series>Douze concerts par abonnement (série A)</series>
-<placeName>Genève, Victoria Hall; Grand Théâtre de Genève</placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+             Douze concerts par abonnement (série A) 
+            <date when='19301011'>11/10/1930</date>
+          </title>
+          <series>Douze concerts par abonnement (série A)</series>
+          <placeName>Genève, Victoria Hall; Grand Théâtre de Genève</placeName>
+          <orgName role='holding'>
+             Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+        </bibl>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <pb facs="Gc_prg/CH_Gc_prg_15/pyr_CH_Gc_prg_15-1020.tif"/>
-<date when="19301011"/>
-<date when="19301025"/>
-<date when="19301108"/>
-<date when="19301122"/>
-<date when="19301206"/>
-<date when="19301220"/>
-<date when="19310110"/>
-<date when="19310124"/>
-<date when="19310207"/>
-<date when="19310214"/>
-<date when="19310228"/>
-<date when="19310307"/>
-<name key="Händel, Georg Friedrich" type="person" role="cmp">Georg Friedrich Händel</name>
-<name key="Haydn, Joseph" type="person" role="cmp">Haydn, Joseph</name>
-<name key="Mozart, Wolfgang Amadeus" type="person" role="cmp">Wolfgang Amadeus Mozart</name>
-<name key="Musorgskij, Modest Petrovič" type="person" role="cmp">Modest Petrovič Musorgskij</name>
-<name key="Wagner, Richard" type="person" role="cmp">Wagner, Richard</name>
-<name key="Bach, Johann Sebastian" type="person" role="cmp">Johann Sebastian Bach</name>
-<name key="Schoenberg, Arnold" type="person" role="cmp">Schönberg, Arnold</name>
-<name key="Beethoven, Ludwig van" type="person" role="cmp">Ludwig van Beethoven</name>
-<name key="Strauss, Richard" type="person" role="cmp">Strauss, Richard</name>
-<name key="Ravel, Maurice" type="person" role="cmp">Ravel, Maurice</name>
-<name key="Bach, Johann Christian" type="person" role="cmp">Johann Christian Bach</name>
-<name key="Andreae, Volkmar" type="person" role="cmp">Andreae, Volkmar</name>
-<name key="Honegger, Arthur" type="person" role="cmp">Honegger, Arthur</name>
-<name key="Berlioz, Hector" type="person" role="cmp">Berlioz, Hector</name>
-<name key="Brahms, Johannes" type="person" role="cmp">Brahms, Johannes</name>
-<name key="Schumann, Robert" type="person" role="cmp">Schumann, Robert</name>
-<name key="Beck, Conrad" type="person" role="cmp">Beck, Conrad</name>
-<name key="Chaix, Charles" type="person" role="cmp">Chaix, Charles</name>
-<name key="Mozart, Wolfgang Amadeus" type="person" role="cmp">Wolfgang Amadeus Mozart</name>
-<name key="Szymanowski, Karol" type="person" role="cmp">Szymanowski, Karol</name>
-<name key="Debussy, Claude" type="person" role="cmp">Debussy, Claude</name>
-<name key="Stravinskij, Igor' Fëdorovič" type="person" role="cmp">Igor' Fëdorovič Stravinskij</name>
-<name key="Vaughan Williams, Ralph" type="person" role="cmp">Ralph Vaughan Williams</name>
-<name key="Nicolai, Otto" type="person" role="cmp">Nicolaï, Otto</name>
-<name key="Castro, Juan José" type="person" role="cmp">Juan José Castro</name>
-<name key="Falla, Manuel de" type="person" role="cmp">Manuel de Falla</name>
-<name key="Liszt, Franz" type="person" role="cmp">Liszt, Franz</name>
-<name key="Ibert, Jacques" type="person" role="cmp">Ibert, Jacques</name>
-<name key="Rossini, Gioachino" type="person" role="cmp">Rossini, Gioacchino</name>
-<name key="Hindemith, Paul" type="person" role="cmp">Hindemith, Paul</name>
-<name key="Pizzetti, Ildebrando" type="person" role="cmp">Pizzetti, Ildebrando</name>
-<name key="Turina, Joaquín" type="person" role="cmp">Turina, Joaquín</name><title>Douze concerts par abonnement (série A)</title>
-<placeName key="Genève, Victoria Hall; Grand Théâtre de Genève"/>
-<name key="Douze concerts par abonnement (série A)" type="series"/>
-<page><![CDATA[﻿SOCIÉTÉ DE LORCHESTRE DE LA SUISSE ROMANDE
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <pb facs='Gc_prg/CH_Gc_prg_15/pyr_CH_Gc_prg_15-1020.tif'/>
+        <date when='19301011'/>
+        <date when='19301025'/>
+        <date when='19301108'/>
+        <date when='19301122'/>
+        <date when='19301206'/>
+        <date when='19301220'/>
+        <date when='19310110'/>
+        <date when='19310124'/>
+        <date when='19310207'/>
+        <date when='19310214'/>
+        <date when='19310228'/>
+        <date when='19310307'/>
+        <name key='Händel, Georg Friedrich' type='person' role='cmp'>Händel, Georg Friedrich</name>
+        <name key='Haydn, Joseph' type='person' role='cmp'>Haydn, Joseph</name>
+        <name key='Mozart, Wolfgang Amadeus' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Musorgskij, Modest Petrovič' type='person' role='cmp'>Musorgskij, Modest Petrovič</name>
+        <name key='Wagner, Richard' type='person' role='cmp'>Wagner, Richard</name>
+        <name key='Bach, Johann Sebastian' type='person' role='cmp'>Bach, Johann Sebastian</name>
+        <name key='Schoenberg, Arnold' type='person' role='cmp'>Schönberg, Arnold</name>
+        <name key='Beethoven, Ludwig van' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Strauss, Richard' type='person' role='cmp'>Strauss, Richard</name>
+        <name key='Ravel, Maurice' type='person' role='cmp'>Ravel, Maurice</name>
+        <name key='Bach, Johann Christian' type='person' role='cmp'>Bach, Johann Christian</name>
+        <name key='Andreae, Volkmar' type='person' role='cmp'>Andreae, Volkmar</name>
+        <name key='Honegger, Arthur' type='person' role='cmp'>Honegger, Arthur</name>
+        <name key='Berlioz, Hector' type='person' role='cmp'>Berlioz, Hector</name>
+        <name key='Brahms, Johannes' type='person' role='cmp'>Brahms, Johannes</name>
+        <name key='Schumann, Robert' type='person' role='cmp'>Schumann, Robert</name>
+        <name key='Beck, Conrad' type='person' role='cmp'>Beck, Conrad</name>
+        <name key='Chaix, Charles' type='person' role='cmp'>Chaix, Charles</name>
+        <name key='Mozart, Wolfgang Amadeus' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Szymanowski, Karol' type='person' role='cmp'>Szymanowski, Karol</name>
+        <name key='Debussy, Claude' type='person' role='cmp'>Debussy, Claude</name>
+        <name key='Stravinskij, Igor&apos; Fëdorovič' type='person' role='cmp'>Stravinskij, Igor&apos; Fëdorovič</name>
+        <name key='Vaughan Williams, Ralph' type='person' role='cmp'>Vaughan Williams, Ralph</name>
+        <name key='Nicolai, Otto' type='person' role='cmp'>Nicolai, Otto</name>
+        <name key='Castro, Juan José' type='person' role='cmp'>Castro, Juan José</name>
+        <name key='Falla, Manuel de' type='person' role='cmp'>Falla, Manuel de</name>
+        <name key='Liszt, Franz' type='person' role='cmp'>Liszt, Franz</name>
+        <name key='Ibert, Jacques' type='person' role='cmp'>Ibert, Jacques</name>
+        <name key='Rossini, Gioachino' type='person' role='cmp'>Rossini, Gioachino</name>
+        <name key='Hindemith, Paul' type='person' role='cmp'>Hindemith, Paul</name>
+        <name key='Pizzetti, Ildebrando' type='person' role='cmp'>Pizzetti, Ildebrando</name>
+        <name key='Turina, Joaquín' type='person' role='cmp'>Turina, Joaquín</name>
+        <title>Douze concerts par abonnement (série A)</title>
+        <placeName key='Genève, Victoria Hall; Grand Théâtre de Genève'/>
+        <name key='Saisons' type='series'/>
+        <page><![CDATA[﻿SOCIÉTÉ DE LORCHESTRE DE LA SUISSE ROMANDE
 PROGRAMME GENERAL
 DES
 OUZE CONCERT!
 PAR ABONNEMENT
 AU GRAND THÉÂTRE ET AU VICTORIA-HALL GENÈVE
 SAISON 1930-1931 (XIIIe année) (SÉRIE A)]]></page>
-<pb facs="Gc_prg/CH_Gc_prg_15/pyr_CH_Gc_prg_15-1021.tif"/>
-<page><![CDATA[﻿                                               Genève, septembre îgjo.
+        <pb facs='Gc_prg/CH_Gc_prg_15/pyr_CH_Gc_prg_15-1021.tif'/>
+        <page><![CDATA[﻿                                               Genève, septembre îgjo.
             Ai
 OVS avons L’honneur de vous communiquer ici Le pian des Concerts par abonnement, Série A, pour la saison> 1930-1931- Comme la saison dernière, notre J distingué chef, M. Ernest Ansermet dirigera lui-même ? la plus grande parties> de ces C oncerts, soit neuf sur la sene des douze. La direction des trois autres sera confiée ? à AiAt. ir Félix Weingartner et D' Volkmar Andréa.
      La liste des solistes engagés a été composée ? de manière à donner satisfaction, aux plus exigeants. A côté de noms déjà connus et hautement estimés figurent ceux de quelques artistes de grandes valeur qui n ’ont pas encore été entendus à Genève ?. Dans l’élaboration> des programmes, nous restons fidèles à nôtres but, qui est de tenir le public au courant des diverses tendances de la vie musicaleJ.
@@ -112,8 +121,8 @@ Principaux avantages des Abonnements :
        20 Certitude de pouvoir occuper à chaque audition leé placeé préféréeé et de leé conserver d’une saiéon à l’autre.
       )° Privilège sur cej placeé pour leé concerté bord abonnement qui seront donnéa au Grand Théâtre et au Victoria-Hall.
      4° Nous rappelons en outre que nous réservons à nos Sociétaires un privilège pour la location de leurs places à l’occasion des représentations théâtrales données par notre Société au Grand Théâtre.]]></page>
-<pb facs="Gc_prg/CH_Gc_prg_15/pyr_CH_Gc_prg_15-1022.tif"/>
-<page><![CDATA[﻿Orchestre de la Suisse R omande
+        <pb facs='Gc_prg/CH_Gc_prg_15/pyr_CH_Gc_prg_15-1022.tif'/>
+        <page><![CDATA[﻿Orchestre de la Suisse R omande
 SAISON 193o-193l
 Premier chef d’orchestre : M. Ernest AN SE RM El Deuxième chef d’orcheélre : M. Fernand CLOSSET
 CHEFS DE PUPITRES :
@@ -140,8 +149,8 @@ ire harpe.......... Mme BARBIERA-de SANCTIS, 1" prix d’excellence du
 Conservatoire de Turin.
 M. Ernest ANSERMET
 Premier Chef d orchestre de l'O. S. R.]]></page>
-<pb facs="Gc_prg/CH_Gc_prg_15/pyr_CH_Gc_prg_15-1023.tif"/>
-<page><![CDATA[﻿Programmes des 12 Concerts par Abonnement
+        <pb facs='Gc_prg/CH_Gc_prg_15/pyr_CH_Gc_prg_15-1023.tif'/>
+        <page><![CDATA[﻿Programmes des 12 Concerts par Abonnement
 Premier Concerl	Samedi xi octobre 1930, VICTORI A-HALL
                  Direction : M. Ernest ANSERMET Soliste : M. Alexandre KIPNIS, basse avec le concours du CHŒUR ROMAND
 1.	Concerto grosso n° 6, en sol mineur................Hændel
@@ -199,8 +208,8 @@ Direction : Dr Félix WEINGARTNER
 1.	Suite en ré............................. Bach
 2.	Symphonie n° 4, en ré mineur........... Schumannj
 3.	Symphonie en ul (Jupiter)................ Mozaru*]]></page>
-<pb facs="Gc_prg/CH_Gc_prg_15/pyr_CH_Gc_prg_15-1024.tif"/>
-<page><![CDATA[﻿Neuvième Concert	Samedi 7 février 1931, Grand Théâtre
+        <pb facs='Gc_prg/CH_Gc_prg_15/pyr_CH_Gc_prg_15-1024.tif'/>
+        <page><![CDATA[﻿Neuvième Concert	Samedi 7 février 1931, Grand Théâtre
 Direction : M. Ernest ANSERMET
 Soliste : M. Ferenc von VECSEY, violoniste
 1. Ouverture des Maîtres Chanteurs........... Wagner’
@@ -237,8 +246,8 @@ CHEFS DORCHESTRE INVITÉS
 Dr Volkmar ANDREÆ
                Chef d'orchestre des
               Concerts d’Abonnement de Zurich.]]></page>
-<pb facs="Gc_prg/CH_Gc_prg_15/pyr_CH_Gc_prg_15-1025.tif"/>
-<page><![CDATA[﻿SOLISTES DE LA SAISON
+        <pb facs='Gc_prg/CH_Gc_prg_15/pyr_CH_Gc_prg_15-1025.tif'/>
+        <page><![CDATA[﻿SOLISTES DE LA SAISON
 M. Al exan dre KIPNIiS, lasse.
   Né en Russie, Alexandre Kipnis fit des études musicales très complètes au Conservatoire de sa ville natale, obtenant à la fin de ses études le diplôme de chef d’orchestre. Il travailla ensuite plus spécialement le chant et se perfectionna à Berlin. Dès le début de sa carrière, il fut engagé à la Stâdtische Oper de Berlin, puis au Covent Garden de Londres, au Théâtre Colon de Buenos-Ayres et à Chicago. Ses succès mondiaux furent récemment couronnés par de triomphales représentations à l’Opéra de Paris. Alexandre Kipnis est l'un des solistes attitrés des grands Festivals wagnériens de Bayreuth.
 rvîfe>î
@@ -251,8 +260,8 @@ M. ^iaurice .M-ARÉCHAL, violoncelliste.
    Né à Dijon, élève du Conservatoire de cette ville, puis de celui de Paris, dont il fut un brillant lauréat, Maurice Maréchal fit ses débuts de concertiste à Paris, aux Concerts Lamoureux, sous la direction de Chevillard, en novembre 1919. En dix années, il a joué et triomphé dans tous les grands centres musicaux du monde, et fourni indiscutablement la carrière la plus brillante de tous les violoncellistes surgis depuis la guerre. Résumant les plus belles qualités de l’école française, son art a été célébré par les critiques les plus éminents des deux mondes. Tous sont unanimes à reconnaître les dons exceptionnels de Maurice Maréchal, qui a su ouvrir de nouveaux horizons à l’art cellistique. Maréchal est le créateur de nombreuses œuvres importantes, tels que Epiphanie de Caplet et le Concerto d’Arthur Honegger, que l’auteur lui a dédié.
 M. Arthur RUBINSTEIN, pianiste.
    Cet étonnant virtuose fut le protégé de Joseph Joachim, qui lui remit, lorsqu’il eut quatorze ans, une lettre d’introduction pour Paderewski. Le grand pianiste l’accueillit chez lui, à Morges, et ce fut sur son avis que Rubinstein entreprit son premier voyage en Amérique à l’âge de seize ans (1906). Depuis lors, de brillantes tournées de concerts en Europe et en Amérique consacrèrent sa réputation et sa première apparition chez nous, y a quelques années, nous révéla son prestigieux talent.]]></page>
-<pb facs="Gc_prg/CH_Gc_prg_15/pyr_CH_Gc_prg_15-1026.tif"/>
-<page><![CDATA[﻿.M., André de RIBAUPIERRE, violoniste.
+        <pb facs='Gc_prg/CH_Gc_prg_15/pyr_CH_Gc_prg_15-1026.tif'/>
+        <page><![CDATA[﻿.M., André de RIBAUPIERRE, violoniste.
   Elève du violoniste polonais Gorski,
 André de Ribaupierre débuta avec éclat à Londres à dix-sept ans, après quoi, aidé des conseils de Paderewski, il fit comme virtuose de nombreuses tournées à l’étranger. Nommé à l’âge de vingt et un ans professeur des classes de virtuosité au Conservatoire de Lausanne. Il fut parmi les premiers solistes engagés par l’O. S. R. aux débuts de son activité et se révéla a cette occasion violoniste de grande classe et musicien raffiné. Puis il alla rejoindre à Cincinnati l’illustre violoniste Eugène Ysaye qui dirigeait là-bas l’orchestre symphonique. Il travailla avec le maître et joua comme soliste sous sa direction; après une tournée de concerts aux Etats-Unis, de Ribaupierre remplaça Ysaye, rentré à Bruxelles, au Conservatoire de Cincinnati. Puis en 1923, i 1 fut nommé à l’institut de musique de Cleveland, comme directeur de l’enseignement des instruments à cordes et des classes de musique de chambre et chef de l’orchestre symphonique.
   Miss Jelly d ARANYI, violoniste.
@@ -265,13 +274,13 @@ M . Ferenc von VECSEY, violoniste.
               Grecque d’origine et brésilienne de naissance, Mme Janacopoulos a très vite actjuis, à Paris, une notoriété particulière au milieu de toutes les cantatrices de concerts. Ses récitals avec piano ou avec orchestre de chambre se sont toujours distingués par t	l’originalité et l’heureux choix des pro-
           grammes, et son succès de soliste a été consacré par son apparition dans »	de nombreux grands concerts avec
            orchestre, à Paris et Bruxelles surtout. Douée d’une fort belle voix, elle y joint une intelligence musicale et un talent d’interprète qui l’ont désignée particulièrement à l’attention du Comité de l’Orchestre.]]></page>
-<pb facs="Gc_prg/CH_Gc_prg_15/pyr_CH_Gc_prg_15-1027.tif"/>
-<page><![CDATA[﻿M. Walter GIESEKING, pianiste
+        <pb facs='Gc_prg/CH_Gc_prg_15/pyr_CH_Gc_prg_15-1027.tif'/>
+        <page><![CDATA[﻿M. Walter GIESEKING, pianiste
    Né à Lyon, de parents allemands, en 1895, M. Gieseking fut élevé dans le Midi de la France et en Italie. La ville de Hanovre qu’il habite encore actuellement, fut aussi le lieu où dès 1911, il fit ses études musicales. M. Gieseking doit à ses remarquables interprétations de pièces modernes (spécialement des œuvres de Debussy) la célébrité qu’il s’est acquise à ce jour. Auteur de lieder, de pièces pour piano et d’œuvres de musique de chambre, M. Gieseking est considéré aujourd’hui, aussi bien en Amérique qu’en Europe, comme un des premiers maîtres de son instrument.
 M"'e Conckita iSUPERVIA, cantatrice.
   Ayant débuté à l’âge de quatorze ans, cette très remarquable artiste remportait à quinze ans déjà un brillant succès dans le rôle de Carmen. Elle fut la créatrice, à Rome, du rôle d’Octave dans le Chevalier a la Rode, de Richard Strauss, et chanta ensuite à la -Scala de Milan sous la direction de Toscanini et de Richard Strauss. Elle est depuis quatre ans l’une des principales vedettes de l’Opéra Royal de Madrid et du Liceo de Barcelone. Durant la saison 1929-1930, Mme Supervia se fit entendre avec le plus grand succès à Paris, au Théâtre des Champs-Elysées, à Londres, Bruxelles et autres grandes villes européennes.]]></page>
-<pb facs="Gc_prg/CH_Gc_prg_15/pyr_CH_Gc_prg_15-1028.tif"/>
-<page><![CDATA[﻿PRIX DES PLACES
+        <pb facs='Gc_prg/CH_Gc_prg_15/pyr_CH_Gc_prg_15-1028.tif'/>
+        <page><![CDATA[﻿PRIX DES PLACES
  pour les D ouze Concerts par Abonnement
                                                Compris le droit des pauvres   
 Rez-de-chaussée :                                 Par concert Abonnement      
@@ -345,8 +354,8 @@ AVIS IMPORTANT
     3.	Les souscriptions en dessous de 25 francs (minimum
 10	francs), donnent droit seulement à un abonnement de 3me galerie au Théâtre, et de 2me galerie au Victoria-Hall.
 Prière de remplir le formulaire inclué auééi exactement que poMible.]]></page>
-<pb facs="Gc_prg/CH_Gc_prg_15/pyr_CH_Gc_prg_15-1029.tif"/>
-<page><![CDATA[﻿,»|»|»| M..UUTTT
+        <pb facs='Gc_prg/CH_Gc_prg_15/pyr_CH_Gc_prg_15-1029.tif'/>
+        <page><![CDATA[﻿,»|»|»| M..UUTTT
                   jioumio.j »p **llelÇ
 PLAN DU VICTORI A-HALL
 Méi\6S \<S?\6»\?1 \y» \75\v\n I/o\7* \?i I/o !*k 1** l»
@@ -362,8 +371,8 @@ Fauteuils d'Orgue (43 places)
 „	nalerie, dont le plan ne figure pa.< ici, comprend Deux rang.. <\
                               et l'amphithéâtre au J on?.
 chaque côté]]></page>
-<pb facs="Gc_prg/CH_Gc_prg_15/pyr_CH_Gc_prg_15-1030.tif"/>
-<page><![CDATA[﻿  CONDITIONS D’ABONNEMENT
+        <pb facs='Gc_prg/CH_Gc_prg_15/pyr_CH_Gc_prg_15-1030.tif'/>
+        <page><![CDATA[﻿  CONDITIONS D’ABONNEMENT
      La location et la vente des billets se feront à l’Age J. VÉRON, QRAUER & Cie, rue du Rhône, 27, tous jours de 9 h. à 12 h. 15 et de 13 h. 30 à 18 heures, le sarr jusqu’à 17 heures (Téléphone 41.254).
 I.	— Renouvellement des anciens Abonnement;
      MM. les anciens Abonnés qui sont Sociétaires-Souscr teurs de l’O.S.R. et qui désirent conserver leurs places de la sai précédente au Grand Théâtre et au Victoria-Hall, sont priés le faire en utilisant le formulaire ci-inclus, qu’ils voudront b renvoyer au Secrétariat jusqu’au jeudi 20 septembre inclusiveme Leur privilège sur ces places leur sera réservé seulem» jusqu’à cette date.
@@ -371,8 +380,7 @@ I.	— Renouvellement des anciens Abonnement;
 2.	— Nouveaux Abonnements ou modifications de places
      MM. les Sociétaires-Souscripteurs qui n’étaient pas abonni la saison précédente pourront choisir des places au Bureau de ! location à partir du Mardi 30 septembre sur présentation de carte de Sociétaire ou de Souscripteur. Ceux qui étaient dé abonnés précédemment mais qui désirent choisir d’autres places pot ront les choisir au Bureau de la location à partir de la même dat
       3° Les personnes qui ne sont pas Sociétaires-Souscripteurs pou ront retenir des places par abonnement à partir du Jeudi 2 octobr (y compris les anciens Abonnés qui ne sont pas Sociétairt souscripteurs).]]></page>
-       
-        </p>
+      </p>
     </body>
   </text>
 </TEI>

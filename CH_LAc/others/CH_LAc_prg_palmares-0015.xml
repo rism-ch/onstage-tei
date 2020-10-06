@@ -1,88 +1,96 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>HEMU Conservatoire de Lausanne - Programme de concert</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Paolo Boschetti</persName>
-                    <persName>Laurent Pugin</persName>
-                    <persName>Violeta Struijk van Bergen</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <date when="2012-11">Novembre 2012</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_lac</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>HEMU Conservatoire de Lausanne - Programme de concert</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Paolo Boschetti</persName>
+            <persName>Laurent Pugin</persName>
+            <persName>Violeta Struijk van Bergen</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <date when='2012-11'>Novembre 2012</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_lac</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Cérémonie du palmarès <date when="19860702">02 juillet 1986</date></title>
-<series>Palmarès</series>
-<placeName>Théâtre municipal de Lausanne</placeName>
-<orgName role="holding">Archives Cantonales Vaudoises<link target="http://www.davel.vd.ch/detail.aspx?ID=43974"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+             Cérémonie du palmarès 
+            <date when='19860702'>02 juillet 1986</date>
+          </title>
+          <series>Palmarès</series>
+          <placeName>Théâtre municipal de Lausanne</placeName>
+          <orgName role='holding'>
+             Archives Cantonales Vaudoises 
+            <link target='http://www.davel.vd.ch/detail.aspx?ID=43974'/>
+          </orgName>
+        </bibl>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <pb facs="LAc_prg/CH_LAc_prg_palmares/pyr_CH_LAc_prg_palmares-0015.tif"/>
-<date when="19860702"/>
-<name key="Bach, Carl Philipp Emmanuel" type="person" role="cmp">Bach, C.-Ph.-E.</name>
-<name key="Liszt, Franz" type="person" role="cmp">Liszt, F.</name>
-<name key="Fauré, Gabriel" type="person" role="cmp">Fauré, G.</name>
-<name key="Carrasco, Clément" type="person" role="int">Carrasco, Clément</name>
-<name key="Chabloz, Olivier" type="person" role="int">Chabloz, Olivier</name>
-<name key="Schmid, Jean-Jacques" type="person" role="int">Schmid, Jean-Jacques</name>
-<name key="Delmotte, Roger" type="person" role="prof">Delmotte, Roger</name>
-<name key="Samonikov, Vanca" type="person" role="prof">Samonikov, Vanca</name>
-<name key="Matthey, Jean-Louis" type="person" role="int">Matthey, Jean-Louis</name>
-<name key="Rochat, Pierre" type="person" role="var">Rochat, Pierre</name>
-<name key="Fournier, Isabelle" type="person" role="int">Fournier, Isabelle</name>
-<name key="Zaza, Francesco" type="person" role="prof">Zaza, Francesco</name>
-<name key="Gillot, Delphine" type="person" role="int">Gillot, Delphine</name>
-<name key="Wuthrich, Delphine" type="person" role="prof">Wuthrich, Delphine</name>
-<name key="Varidel, Claude-Line" type="person" role="int">Varidel, Claude-Line</name>
-<name key="Rapin, Jean-Jacques" type="person" role="var">Rapin, Jean-Jacques</name>
-<name key="Perrin, Jean" type="person" role="cmp">Perrin, Jean</name>
-<name key="Graf, Hans Peter" type="person" role="int">Graf, Hans Peter</name>
-<name key="Bise, Juliette" type="person" role="prof">Bise, Juliette</name>
-<name key="Petraglio, Curzio" type="person" role="int">Petraglio, Curzio</name>
-<name key="Kemblinski, Robert" type="person" role="prof">Kemblinsky, Robert</name>
-<name key="Goffart, Emmanuelle" type="person" role="int">Goffart, Emmanuelle</name>
-<name key="Perrin, Jean" type="person" role="int">Perrin, Jean</name>
-<name key="Balissat, Jean" type="person" role="cmp">Balissat, Jean</name>
-<name key="Orchestre du Conservatoire de Lausanne" type="person" role="int">Orchestre du Conservatoire</name>
-<name key="Klopfenstein, Hervé" type="person" role="int">Klopfenstein, Hervé</name>
-<name key="Fallot, Guy" type="person" role="prof">Fallot, Guy</name>
-<name key="Okada, Naoko" type="person" role="int">Okada, Naoko</name>
-<name key="Gaudibert, Janine" type="person" role="int">Gaudibert, Janine</name>
-<name key="Rachmaninov, Sergei" type="person" role="cmp">Rachmaninoff, S.</name>
-<name key="Debussy, Claude" type="person" role="cmp">Debussy, C.</name>
-<title>Cérémonie du palmarès</title>
-<placeName key="Lausanne, Théâtre municipal"/>
-<name key="Palmarès" type="series"/>
-<page><![CDATA[﻿CONSERVATOIRE DE LAUSANNE RECONNU PAR L'ETAT DE VAUD ET LA VILLE DE LAUSANNE DIRECTION JEAN-JACQUES RAPIN
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <pb facs='LAc_prg/CH_LAc_prg_palmares/pyr_CH_LAc_prg_palmares-0015.tif'/>
+        <date when='19860702'/>
+        <name key='Bach, Carl Philipp Emanuel' type='person' role='cmp'>Bach, Carl Philipp Emanuel</name>
+        <name key='Liszt, Franz' type='person' role='cmp'>Liszt, Franz</name>
+        <name key='Fauré, Gabriel' type='person' role='cmp'>Fauré, Gabriel</name>
+        <name key='Carrasco, Clément' type='person' role='int'>Carrasco, Clément</name>
+        <name key='Chabloz, Olivier' type='person' role='int'>Chabloz, Olivier</name>
+        <name key='Schmid, Jean-Jacques' type='person' role='int'>Schmid, Jean-Jacques</name>
+        <name key='Delmotte, Roger' type='person' role='prof'>Delmotte, Roger</name>
+        <name key='Samonikov, Vanca' type='person' role='prof'>Samonikov, Vanca</name>
+        <name key='Matthey, Jean-Louis' type='person' role='int'>Matthey, Jean-Louis</name>
+        <name key='Rochat, Pierre' type='person' role='var'>Rochat, Pierre</name>
+        <name key='Fournier, Isabelle' type='person' role='int'>Fournier, Isabelle</name>
+        <name key='Zaza, Francesco' type='person' role='prof'>Zaza, Francesco</name>
+        <name key='Gillot, Delphine' type='person' role='int'>Gillot, Delphine</name>
+        <name key='Wuthrich, Delphine' type='person' role='prof'>Wuthrich, Delphine</name>
+        <name key='Varidel, Claude-Line' type='person' role='int'>Varidel, Claude-Line</name>
+        <name key='Rapin, Jean-Jacques' type='person' role='var'>Rapin, Jean-Jacques</name>
+        <name key='Perrin, Jean' type='person' role='cmp'>Perrin, Jean</name>
+        <name key='Graf, Hans Peter' type='person' role='int'>Graf, Hans Peter</name>
+        <name key='Bise, Juliette' type='person' role='prof'>Bise, Juliette</name>
+        <name key='Petraglio, Curzio' type='person' role='int'>Petraglio, Curzio</name>
+        <name key='Kemblinski, Robert' type='person' role='prof'>Kemblinsky, Robert</name>
+        <name key='Goffart, Emmanuelle' type='person' role='int'>Goffart, Emmanuelle</name>
+        <name key='Perrin, Jean' type='person' role='int'>Perrin, Jean</name>
+        <name key='Balissat, Jean' type='person' role='cmp'>Balissat, Jean</name>
+        <name key='Orchestre du Conservatoire de Lausanne' type='person' role='int'>Orchestre du Conservatoire de Lausanne</name>
+        <name key='Klopfenstein, Hervé' type='person' role='int'>Klopfenstein, Hervé</name>
+        <name key='Fallot, Guy' type='person' role='prof'>Fallot, Guy</name>
+        <name key='Okada, Naoko' type='person' role='int'>Okada, Naoko</name>
+        <name key='Gaudibert, Janine' type='person' role='int'>Gaudibert, Janine</name>
+        <name key='Rachmaninov, Sergej Vasil&apos;evič' type='person' role='cmp'>Rachmaninov, Sergej Vasil&apos;evič</name>
+        <name key='Debussy, Claude' type='person' role='cmp'>Debussy, Claude</name>
+        <title>Cérémonie du palmarès</title>
+        <placeName key='Lausanne, Théâtre municipal'/>
+        <name key='Palmarès' type='series'/>
+        <page><![CDATA[﻿CONSERVATOIRE DE LAUSANNE RECONNU PAR L'ETAT DE VAUD ET LA VILLE DE LAUSANNE DIRECTION JEAN-JACQUES RAPIN
 CEREMONIE DU PALMARES
 *	* *
 THEATRE MUNICIPAL MERCREDI 2 JUILLET 1986 20 h.00
 ]]></page>
-<pb facs="LAc_prg/CH_LAc_prg_palmares/pyr_CH_LAc_prg_palmares-0016.tif"/>
-<page><![CDATA[﻿    PROGRAMME
+        <pb facs='LAc_prg/CH_LAc_prg_palmares/pyr_CH_LAc_prg_palmares-0016.tif'/>
+        <page><![CDATA[﻿    PROGRAMME
 C.-Ph.-E. Bach
 Fanfare pour trois trompettes et timbales
 Clément CARRASCO Olivier CHABLOZ Jean-Jacques SCHMID trompettes
@@ -99,8 +107,8 @@ Delphine C ILLOT
 Classe de Madeleine WU T H RICH Formation de voix d'enfants
          Au piano: Claude-Line VARIDEL
 ]]></page>
-<pb facs="LAc_prg/CH_LAc_prg_palmares/pyr_CH_LAc_prg_palmares-0017.tif"/>
-<page><![CDATA[﻿Jean Perrin
+        <pb facs='LAc_prg/CH_LAc_prg_palmares/pyr_CH_LAc_prg_palmares-0017.tif'/>
+        <page><![CDATA[﻿Jean Perrin
  Allocution de Monsieur Jean-Jacques RAPIN Directeur
  Lecture du Palmarès et distribution des Prix
  En création à l'occasion du 125e anniversaire de la fondation du Conservatoire de Lausanne:
@@ -126,8 +134,8 @@ Extraits de la Petite
 tuite
 Orchestre du Conservatoire Direction Hervé KLOPFENS TEIN
 ]]></page>
-<pb facs="LAc_prg/CH_LAc_prg_palmares/pyr_CH_LAc_prg_palmares-0018.tif"/>
-<page><![CDATA[﻿Association des Amis du Conservatoii^_
+        <pb facs='LAc_prg/CH_LAc_prg_palmares/pyr_CH_LAc_prg_palmares-0018.tif'/>
+        <page><![CDATA[﻿Association des Amis du Conservatoii^_
 Fondée en 1969, elle a pour but de
              participer à la vie du Conservatoire et de favoriser son rayonnement
             patronner des concerts et des conférences favoriser la création d’œuvres nouvelles offrir des bourses à des élèves promouvoir l’intérêt du public à la musique.
@@ -152,8 +160,7 @@ Date:
 Bulletin à renvoyer au secrétariat de l’Association des Amis du Conservatoire, case postale 16, 1001 Lausanne.
 Les personnes qui s’inscrivent recevront un bulletin de versement avec le prochain Calendrier Musical Vaudois.
 ]]></page>
-       
-        </p>
+      </p>
     </body>
   </text>
 </TEI>

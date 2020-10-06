@@ -1,86 +1,95 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>HEMU Conservatoire de Genève - Programme de concert</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Paolo Boschetti</persName>
-                    <persName>Laurent Pugin</persName>
-                    <persName>Violeta Struijk van Bergen</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <date when="2016-01">Janvier 2016</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_gc</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>HEMU Conservatoire de Genève - Programme de concert</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Paolo Boschetti</persName>
+            <persName>Laurent Pugin</persName>
+            <persName>Violeta Struijk van Bergen</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <date when='2016-01'>Janvier 2016</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_gc</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Dix concerts populaires Marteau<date when="19041027">27/10/1904</date></title>
-<series>Dix concerts populaires Marteau</series>
-<placeName>Genève, Salle de la Réformation </placeName>
-<orgName role="holding">Bibliothèque du Conservatoire de Musique de Genève; <link target="http://www.cmusge.ch/contact_bibliotheque"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+             Dix concerts populaires Marteau 
+            <date when='19041027'>27/10/1904</date>
+          </title>
+          <series>Dix concerts populaires Marteau</series>
+          <placeName>Genève, Salle de la Réformation </placeName>
+          <orgName role='holding'>
+             Bibliothèque du Conservatoire de Musique de Genève; 
+            <link target='http://www.cmusge.ch/contact_bibliotheque'/>
+          </orgName>
+        </bibl>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <pb facs="Gc_prg/CH_Gc_prg_06/pyr_CH_Gc_prg_06-0711.tif"/>
-<date when="19041027"/>
-<date when="19041110"/>
-<date when="19041117"/>
-<date when="19041124"/>
-<date when="19041219"/>
-<date when="19050202"/>
-<date when="19050218"/>
-<date when="19050302"/>
-<date when="19050313"/>
-<date when="19050331"/>
-<name key="Février, Henri" type="person" role="cmp">Février, Henry</name>
-<name key="Andreae, Volkmar" type="person" role="cmp">Andreae, Volkmar</name>
-<name key="Reger, Max" type="person" role="cmp">Reger, Max</name>
-<name key="Beethoven, Ludwig van" type="person" role="cmp">Ludwig van Beethoven</name>
-<name key="Saint-Saëns, Camille" type="person" role="cmp">Saint-Saëns, Camille</name>
-<name key="Schlegel, Leander" type="person" role="cmp">Schlegel, Lauder</name>
-<name key="Niggli, Friedrich" type="person" role="cmp">Niggli, Friedrich</name>
-<name key="Haydn, Joseph" type="person" role="cmp">Haydn, Joseph</name>
-<name key="Berger, Wilhelm" type="person" role="cmp">Berger, Wilhelm</name>
-<name key="Schubert, Franz" type="person" role="cmp">Schubert, Franz</name>
-<name key="Schumann, Robert" type="person" role="cmp">Schumann, Robert</name>
-<name key="Strauss, Richard" type="person" role="cmp">Strauss, Richard</name>
-<name key="Paderewski, Ignacy Jan" type="person" role="cmp">Ignacy Jan Paderewski</name>
-<name key="Franck, César" type="person" role="cmp">Franck, César</name>
-<name key="Fassbaender, Peter" type="person" role="cmp">Fassbaender, Peter</name>
-<name key="Bizet, Georges" type="person" role="cmp">Bizet, Georges</name>
-<name key="Dubois, Théodore" type="person" role="cmp">Dubois, Théodore</name>
-<name key="Fauré, Gabriel" type="person" role="cmp">Fauré, Gabriel</name>
-<name key="Beethoven, Ludwig van" type="person" role="cmp">Ludwig van Beethoven</name>
-<name key="Vreuls, Victor" type="person" role="cmp">Vreuls, Victor</name>
-<name key="Brahms, Johannes" type="person" role="cmp">Brahms, Johannes</name>
-<name key="Sgambati, Giovanni" type="person" role="cmp">Sgambati, Giovanni</name>
-<name key="Dvořák, Antonín" type="person" role="cmp">Dvořák, Antonín</name>
-<name key="Pahnke, Woldemar" type="person" role="cmp">Pahnke, Woldemar</name>
-<name key="Ehrhart, Jacques" type="person" role="cmp">Ehrhart, Jan</name>
-<name key="Marteau, Henri" type="person" role="cmp">Marteau, Henri</name>
-<name key="Lalo, Edouard" type="person" role="cmp">Lalo, Edouard</name><title>Dix concerts populaires Marteau</title>
-<placeName key="Genève, Salle de la Réformation "/>
-<name key="Dix concerts populaires Marteau" type="series"/>
-<page><![CDATA[﻿Concerts Populaires Marteau
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <pb facs='Gc_prg/CH_Gc_prg_06/pyr_CH_Gc_prg_06-0711.tif'/>
+        <date when='19041027'/>
+        <date when='19041110'/>
+        <date when='19041117'/>
+        <date when='19041124'/>
+        <date when='19041219'/>
+        <date when='19050202'/>
+        <date when='19050218'/>
+        <date when='19050302'/>
+        <date when='19050313'/>
+        <date when='19050331'/>
+        <name key='Février, Henri' type='person' role='cmp'>Février, Henri</name>
+        <name key='Andreae, Volkmar' type='person' role='cmp'>Andreae, Volkmar</name>
+        <name key='Reger, Max' type='person' role='cmp'>Reger, Max</name>
+        <name key='Beethoven, Ludwig van' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Saint-Saëns, Camille' type='person' role='cmp'>Saint-Saëns, Camille</name>
+        <name key='Schlegel, Leander' type='person' role='cmp'>Schlegel, Leander</name>
+        <name key='Niggli, Friedrich' type='person' role='cmp'>Niggli, Friedrich</name>
+        <name key='Haydn, Joseph' type='person' role='cmp'>Haydn, Joseph</name>
+        <name key='Berger, Wilhelm' type='person' role='cmp'>Berger, Wilhelm</name>
+        <name key='Schubert, Franz' type='person' role='cmp'>Schubert, Franz</name>
+        <name key='Schumann, Robert' type='person' role='cmp'>Schumann, Robert</name>
+        <name key='Strauss, Richard' type='person' role='cmp'>Strauss, Richard</name>
+        <name key='Paderewski, Ignacy Jan' type='person' role='cmp'>Paderewski, Ignacy Jan</name>
+        <name key='Franck, César' type='person' role='cmp'>Franck, César</name>
+        <name key='Fassbaender, Peter' type='person' role='cmp'>Fassbaender, Peter</name>
+        <name key='Bizet, Georges' type='person' role='cmp'>Bizet, Georges</name>
+        <name key='Dubois, Théodore' type='person' role='cmp'>Dubois, Théodore</name>
+        <name key='Fauré, Gabriel' type='person' role='cmp'>Fauré, Gabriel</name>
+        <name key='Beethoven, Ludwig van' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Vreuls, Victor' type='person' role='cmp'>Vreuls, Victor</name>
+        <name key='Brahms, Johannes' type='person' role='cmp'>Brahms, Johannes</name>
+        <name key='Sgambati, Giovanni' type='person' role='cmp'>Sgambati, Giovanni</name>
+        <name key='Dvořák, Antonín' type='person' role='cmp'>Dvořák, Antonín</name>
+        <name key='Pahnke, Woldemar' type='person' role='cmp'>Pahnke, Woldemar</name>
+        <name key='Ehrhart, Jacques' type='person' role='cmp'>Ehrhart, Jan</name>
+        <name key='Marteau, Henri' type='person' role='cmp'>Marteau, Henri</name>
+        <name key='Lalo, Edouard' type='person' role='cmp'>Lalo, Edouard</name>
+        <title>Dix concerts populaires Marteau</title>
+        <placeName key='Genève, Salle de la Réformation '/>
+        <name key='Saisons' type='series'/>
+        <page><![CDATA[﻿Concerts Populaires Marteau
       Saisor) 1904-1905
 Genève, Octobre 1904.
             M
@@ -101,8 +110,8 @@ Genève, Octobre 1904.
                  Première galerie : Réservées, 5 fr. — Autres places, 2 fr. — Seconde galerie : 50 centimes.
                                             (Ces prix peuvent être augmentés pour certains concerts.)
                               DIRECTION DE CONCERTS AD. HENN. A GENÈVE]]></page>
-<pb facs="Gc_prg/CH_Gc_prg_06/pyr_CH_Gc_prg_06-0712.tif"/>
-<page><![CDATA[﻿
+        <pb facs='Gc_prg/CH_Gc_prg_06/pyr_CH_Gc_prg_06-0712.tif'/>
+        <page><![CDATA[﻿
 PROGRAMME GÉNÉRAL DES DIX CONCERTS
 I. — 27 octobre 1904.
                     SONATES MODERNES (pour piano et violon).
@@ -156,10 +165,9 @@ MM. Ch. Troyon, H. Marteau, Ad. Rehberg, J. Ehrhart et l Orchestre symphonique d
                                                      Suite pour flûte, et orchestre (lr0 audition), de J. Ehrhart.
                                                    Mélodies pour ijénor et orchestre (1" audition), de II. Marteau.
                                                  Symphonie espagnole pour violon et orchestre, de E. Lalo.]]></page>
-<pb facs="Gc_prg/CH_Gc_prg_06/pyr_CH_Gc_prg_06-0713.tif"/>
-<page><![CDATA[﻿]]></page>
-       
-        </p>
+        <pb facs='Gc_prg/CH_Gc_prg_06/pyr_CH_Gc_prg_06-0713.tif'/>
+        <page><![CDATA[﻿]]></page>
+      </p>
     </body>
   </text>
 </TEI>

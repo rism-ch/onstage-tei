@@ -1,76 +1,86 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>BASEL</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Laurent Pugin</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <date when="2016-01">Janvier 2016</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_famb</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>BASEL</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Laurent Pugin</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <date when='2016-01'>Janvier 2016</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_famb</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert<date when="19790213">13/02/1979</date></title>
-<series>Concert</series>
-<placeName>Basel, Tituskirche</placeName>
-<orgName role="holding">Archiv des Vereins Freunde alter Musik Basel; <link target="http://famb.ch/"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+             Concert 
+            <date when='19790213'>13/02/1979</date>
+          </title>
+          <series>Concert</series>
+          <placeName>Basel, Tituskirche</placeName>
+          <orgName role='holding'>
+             Archiv des Vereins Freunde alter Musik Basel; 
+            <link target='http://famb.ch/'/>
+          </orgName>
+        </bibl>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <pb facs="CH_Bm_prg/pyr_CH_Bm_prg-1498.tif"/>
-<date when="19790213"/>
-<name key="Schütz, Heinrich" type="person" role="cmp">Schütz, Heinrich</name><name key="Smith, Jennifer" type="person" role="int">Smith, Jennifer</name>
-<name key="Kwella, Patrizia" type="person" role="int">Kwella, Patrizia</name>
-<name key="Bowman, James" type="person" role="int">Bowman, James</name>
-<name key="Rogers, Nigel" type="person" role="int">Rogers, Nigel</name>
-<name key="Partridge, Ian" type="person" role="int">Partridge, Ian</name>
-<name key="Wistreich, Richard" type="person" role="int">Wistreich, Richard</name>
-<name key="Agosti, Josef" type="person" role="int">Agosti, Josef</name>
-<name key="Ulbrich, Markus" type="person" role="int">Ulbrich, Markus</name>
-<name key="Tarr, Edward H." type="person" role="int">Tarr, Edward H.</name>
-<name key="Cecil, Leonard" type="person" role="int">Cecil, Leonard</name>
-<name key="Apostle, Victor" type="person" role="int">Apostle, Victor</name>
-<name key="Naess, Lars" type="person" role="int">Naess, Lars</name>
-<name key="Nicholson, Graham" type="person" role="int">Nicholson, Graham</name>
-<name key="Collver, Michael" type="person" role="int">Collver, Michael</name>
-<name key="Huber, Heinrich" type="person" role="int">Huber, Heinrich</name>
-<name key="Weiner, Howard" type="person" role="int">Weiner, Howard</name>
-<name key="Lambelet, René" type="person" role="int">Lambelet, René</name>
-<name key="Singer, Erich" type="person" role="int">Singer, Erich</name>
-<name key="Coin, Christophe" type="person" role="int">Coin, Christophe</name>
-<name key="Hirao, Masako" type="person" role="int">Hirao, Masako</name>
-<name key="Ros, Pere" type="person" role="int">Ros, Pere</name>
-<name key="Gini, Roberto" type="person" role="int">Gini, Roberto</name>
-<name key="Lewis, Carol" type="person" role="int">Lewis, Carol</name>
-<name key="Szedlak, Béla" type="person" role="int">Szedlak, Béla</name>
-<name key="Lüthi, Marianne" type="person" role="int">Lüthi, Marianne</name>
-<name key="Scheidegger, Rudolf" type="person" role="int">Scheidegger, Rudolf</name>
-<name key="Linde, Susanne" type="person" role="int">Linde, Susanne</name>
-<name key="Linde, Hans-Martin" type="person" role="int">Linde, Hans-Martin</name><title>Concert</title>
-<placeName key="Basel, Tituskirche"/>
-<name key="Concert" type="series"/>
-<page><![CDATA[﻿       FREUNDE ALTER MUSIK IN BASEL Extrakonzert
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <pb facs='CH_Bm_prg/pyr_CH_Bm_prg-1498.tif'/>
+        <date when='19790213'/>
+        <name key='Schütz, Heinrich' type='person' role='cmp'>Schütz, Heinrich</name>
+        <name key='Smith, Jennifer' type='person' role='int'>Smith, Jennifer</name>
+        <name key='Kwella, Patrizia' type='person' role='int'>Kwella, Patrizia</name>
+        <name key='Bowman, James' type='person' role='int'>Bowman, James</name>
+        <name key='Rogers, Nigel' type='person' role='int'>Rogers, Nigel</name>
+        <name key='Partridge, Ian' type='person' role='int'>Partridge, Ian</name>
+        <name key='Wistreich, Richard' type='person' role='int'>Wistreich, Richard</name>
+        <name key='Agosti, Josef' type='person' role='int'>Agosti, Josef</name>
+        <name key='Ulbrich, Markus' type='person' role='int'>Ulbrich, Markus</name>
+        <name key='Tarr, Edward H.' type='person' role='int'>Tarr, Edward H.</name>
+        <name key='Cecil, Leonard' type='person' role='int'>Cecil, Leonard</name>
+        <name key='Apostle, Victor' type='person' role='int'>Apostle, Victor</name>
+        <name key='Naess, Lars' type='person' role='int'>Naess, Lars</name>
+        <name key='Nicholson, Graham' type='person' role='int'>Nicholson, Graham</name>
+        <name key='Collver, Michael' type='person' role='int'>Collver, Michael</name>
+        <name key='Huber, Heinrich' type='person' role='int'>Huber, Heinrich</name>
+        <name key='Weiner, Howard' type='person' role='int'>Weiner, Howard</name>
+        <name key='Lambelet, René' type='person' role='int'>Lambelet, René</name>
+        <name key='Singer, Erich' type='person' role='int'>Singer, Erich</name>
+        <name key='Coin, Christophe' type='person' role='int'>Coin, Christophe</name>
+        <name key='Hirao, Masako' type='person' role='int'>Hirao, Masako</name>
+        <name key='Ros, Pere' type='person' role='int'>Ros, Pere</name>
+        <name key='Gini, Roberto' type='person' role='int'>Gini, Roberto</name>
+        <name key='Lewis, Carol' type='person' role='int'>Lewis, Carol</name>
+        <name key='Szedlak, Béla' type='person' role='int'>Szedlak, Béla</name>
+        <name key='Lüthi, Marianne' type='person' role='int'>Lüthi, Marianne</name>
+        <name key='Scheidegger, Rudolf' type='person' role='int'>Scheidegger, Rudolf</name>
+        <name key='Linde, Susanne' type='person' role='int'>Linde, Susanne</name>
+        <name key='Linde, Hans-Martin' type='person' role='int'>Linde, Hans-Martin</name>
+        <title>Concert</title>
+        <placeName key='Basel, Tituskirche'/>
+        <name key='Concerts' type='series'/>
+        <page><![CDATA[﻿       FREUNDE ALTER MUSIK IN BASEL Extrakonzert
 fo\d)tbei) (jrrriüfcr 0nbf)0(t)anfe^nluf)er^d)b^attung/
   n>eplan&t ^ot^wolgrbornen^rrnt/
 ernt
@@ -85,8 +95,8 @@ $u untertänigem lebten ße&adjtnu« auff begehen jjjn bit muAc »erfef tt / tmi
  6eb entft &u 0rej}bm/ bei? SOolff öeDffect/gmgJafcr/
 163 6.
     Dienstag, den 13. Februar 1979, 20.15 Uhr in der Tituskirche]]></page>
-<pb facs="CH_Bm_prg/pyr_CH_Bm_prg-1499.tif"/>
-<page><![CDATA[﻿AUSFUEHRENDE
+        <pb facs='CH_Bm_prg/pyr_CH_Bm_prg-1499.tif'/>
+        <page><![CDATA[﻿AUSFUEHRENDE
 Vokalensemble Nigel Rogers:
 Jennifer Smith Patrizia Kwella
 James Bowman
@@ -117,8 +127,8 @@ Davidsharfe
 Orgelpositiv
 Orgelpositive von Bernhard Fleig, Basel
 Das Konzert wird mit Unterstützung der Firma EMI Electrola durchgeführt.]]></page>
-<pb facs="CH_Bm_prg/pyr_CH_Bm_prg-1500.tif"/>
-<page><![CDATA[﻿PROGRAMM
+        <pb facs='CH_Bm_prg/pyr_CH_Bm_prg-1500.tif'/>
+        <page><![CDATA[﻿PROGRAMM
 Heinrich Schütz	Musikalische Exequien op. 7 (1636)
 1585-1672	für sechs und acht Stimmen in
                                             zwei Chören und basso continuo
@@ -154,8 +164,8 @@ Sein Wort sein Tauff sein Nachtmahl dient wieder allen Vnfahl (der heilge Geist 
 Gehe hin. (mein Volk, in eine Kammer und schleuss die Thür nach dir zu, verbirge dich einen kleinen Augenblick, bis der Zorn vorübergehe.)
 Der Gerechten Seelen, (sind in Gottes Hand und keine Qual rühret sie an: für den Unverständigen werden sie angesehen, als stürben sie, und ihr Abschied wird für eine Pein gerechnet, und ihr Hinfahren für Verderben, aber sie sind in Frieden.
 Herr, wenn ich nur dich habe, so frage ich nichtt nach Himmel und Erden,) Wenn [wann] mir gleich Leib vnd Seele versehmacht so bistu GOtt allzeit meines Hertzen Trost vnd mein Ttihl.]]></page>
-<pb facs="CH_Bm_prg/pyr_CH_Bm_prg-1501.tif"/>
-<page><![CDATA[﻿(Er ist das Heil und selig Licht, für die Heiden,
+        <pb facs='CH_Bm_prg/pyr_CH_Bm_prg-1501.tif'/>
+        <page><![CDATA[﻿(Er ist das Heil und selig Licht, für die Heiden,
 zu erleuchten, die dich kennen nicht
 und zu weiden,
 er ist seines Volks Israel)
@@ -212,8 +222,7 @@ liCt) —	«|.78,51; US,8-11.
  24.	unb erlöfte uns »on unfern ftelnben — benn feine ©üte mähret emiglid) —;
  25.	ber ‘allem ‘Sleifä Spetfe gibt — benn feine ©Ute mähret eroigltd). *«f. iw.it.
 26.	©anfet bem ©ott bei Simmel« — benn feine ©Ute mäbret emiglid).]]></page>
-       
-        </p>
+      </p>
     </body>
   </text>
 </TEI>

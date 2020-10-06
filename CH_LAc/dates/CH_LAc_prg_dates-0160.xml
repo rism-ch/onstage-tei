@@ -1,85 +1,93 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>HEMU Conservatoire de Lausanne - Programme de concert</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Paolo Boschetti</persName>
-                    <persName>Laurent Pugin</persName>
-                    <persName>Violeta Struijk van Bergen</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <date when="2012-11">Novembre 2012</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_lac</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>HEMU Conservatoire de Lausanne - Programme de concert</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Paolo Boschetti</persName>
+            <persName>Laurent Pugin</persName>
+            <persName>Violeta Struijk van Bergen</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <date when='2012-11'>Novembre 2012</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_lac</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Audition d'élèves du Conservatoire de Lausanne: Claases élémentaires, primaires et secondaires <date when="19360603">03 juin 1936</date></title>
-<series>Auditions</series>
-<placeName>Maison du Peuple, Grande salle</placeName>
-<orgName role="holding">Bibliothèque HEMU-CL;<link target="http://biblio.hemu-cl.ch"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+             Audition d'élèves du Conservatoire de Lausanne: Claases élémentaires, primaires et secondaires 
+            <date when='19360603'>03 juin 1936</date>
+          </title>
+          <series>Auditions</series>
+          <placeName>Maison du Peuple, Grande salle</placeName>
+          <orgName role='holding'>
+             Bibliothèque HEMU-CL; 
+            <link target='http://biblio.hemu-cl.ch'/>
+          </orgName>
+        </bibl>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <pb facs="LAc_prg/CH_LAc_prg_dates/pyr_CH_LAc_prg_dates-0160.tif"/>
-<date when="19360603"/>
-<name key="Zilcher, Hermann" type="person" role="cmp">Zilcher</name>
-<name key="Lack, Théodore" type="person" role="cmp">Lack</name>
-<name key="Rhené-Baton" type="person" role="cmp">Rhené-Baton</name>
-<name key="Gurlitt, Cornelius" type="person" role="cmp">Gürlitt</name>
-<name key="Gedicke, Aleksandr Fyodorovich" type="person" role="cmp">Goedicke</name>
-<name key="Franck, César" type="person" role="cmp">Franck</name>
-<name key="Schumann, Robert" type="person" role="cmp">Schumann</name>
-<name key="Heller, Stephen" type="person" role="cmp">Heller</name>
-<name key="André, J. A." type="person" role="cmp">André, J.-A.</name>
-<name key="Chopin, Fryderyk" type="person" role="cmp">Chopin</name>
-<name key="Arensky, Anton Stepanovich" type="person" role="cmp">Arensky</name>
-<name key="Bach, Johann Sebastian" type="person" role="cmp">Bach</name>
-<name key="Grieg, Edvard" type="person" role="cmp">Grieg</name>
-<name key="Gade, Niels Wilhelm" type="person" role="cmp">Gade</name>
-<name key="Séverac, Déodat de" type="person" role="cmp">Severac, D. de</name>
-<name key="Hofmann, Michel-Rostislav" type="person" role="cmp">Hofmann</name>
-<name key="Strong, George Templeton" type="person" role="cmp">Strong, Templeton</name>
-<name key="Bortkiewicz, Sergueï" type="person" role="cmp">Borkievitch</name>
-<name key="Bréval, Jean-Baptiste Sébastien" type="person" role="cmp">Bréval</name>
-<name key="Schubert, Franz" type="person" role="cmp">Schubert</name>
-<name key="Bach, Carl Philipp Emmanuel" type="person" role="cmp">Bach, Ph.-Em.</name>
-<name key="Bach, Johann Sebastian" type="person" role="cmp">Bach</name>
-<name key="Mozart, Wolfgang Amadeus" type="person" role="cmp">Mozart</name>
-<name key="Chopin, Fryderyk" type="person" role="cmp">Chopin</name>
-<name key="Ramel" type="person" role="prof">Ramel</name>
-<name key="Rosat, Suzanne" type="person" role="prof">Rosat</name>
-<name key="Gamboni, Yvonne" type="person" role="prof">Gamboni</name>
-<name key="Margot" type="person" role="prof">Margot</name>
-<name key="Gamboni, Yvonne" type="person" role="prof">Gamboni</name>
-<name key="Capt" type="person" role="prof">Capt</name>
-<name key="André" type="person" role="prof">André</name>
-<name key="Frommelt, Richard" type="person" role="prof">Frommelt</name>
-<name key="Burger, Paul" type="person" role="prof">Burger</name>
-<name key="Olivier" type="person" role="prof">Olivier</name>
-<title>Audition d'élèves du Conservatoire de Lausanne: Claases élémentaires, primaires et secondaires</title>
-<placeName key="Lausanne, Maison du Peuple, Gande salle"/>
-<name key="Auditions" type="series"/>
-<page><![CDATA[﻿Ce programme sert de carte d’entrée
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <pb facs='LAc_prg/CH_LAc_prg_dates/pyr_CH_LAc_prg_dates-0160.tif'/>
+        <date when='19360603'/>
+        <name key='Zilcher, Hermann' type='person' role='cmp'>Zilcher</name>
+        <name key='Lack, Théodore' type='person' role='cmp'>Lack</name>
+        <name key='Rhené-Baton' type='person' role='cmp'>Rhené-Baton</name>
+        <name key='Gurlitt' type='person' role='cmp'>Gurlitt</name>
+        <name key='Gedicke, Aleksandr Fyodorovich' type='person' role='cmp'>Goedicke</name>
+        <name key='Franck, César' type='person' role='cmp'>Franck, César</name>
+        <name key='Schumann, Robert' type='person' role='cmp'>Schumann, Robert</name>
+        <name key='Heller, Stephen' type='person' role='cmp'>Heller</name>
+        <name key='André, J. A.' type='person' role='cmp'>André, J. A.</name>
+        <name key='Chopin, Fryderyk Franciszek' type='person' role='cmp'>Chopin, Fryderyk Franciszek</name>
+        <name key='Arenskij, Anton Stepanovič' type='person' role='cmp'>Arenskij, Anton Stepanovič</name>
+        <name key='Bach, Johann Sebastian' type='person' role='cmp'>Bach</name>
+        <name key='Grieg, Edvard' type='person' role='cmp'>Grieg, Edvard</name>
+        <name key='Gade, Niels-Wilhelm' type='person' role='cmp'>Gade, Niels-Wilhelm</name>
+        <name key='Séverac, Déodat de' type='person' role='cmp'>Séverac, Déodat de</name>
+        <name key='Hofmann, Michel-Rostislav' type='person' role='cmp'>Hofmann</name>
+        <name key='Strong, George Templeton' type='person' role='cmp'>Strong, George Templeton</name>
+        <name key='Bortkevieč, Sergej Eduardovič' type='person' role='cmp'>Bortkevieč, Sergej Eduardovič</name>
+        <name key='Bréval, Jean-Baptiste' type='person' role='cmp'>Bréval, Jean-Baptiste</name>
+        <name key='Schubert, Franz' type='person' role='cmp'>Schubert, Franz</name>
+        <name key='Bach, Carl Philipp Emanuel' type='person' role='cmp'>Bach, Carl Philipp Emanuel</name>
+        <name key='Bach, Johann Sebastian' type='person' role='cmp'>Bach</name>
+        <name key='Mozart, Wolfgang Amadeus' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Chopin, Fryderyk Franciszek' type='person' role='cmp'>Chopin, Fryderyk Franciszek</name>
+        <name key='Ramel' type='person' role='prof'>Ramel</name>
+        <name key='Rosat, Suzanne' type='person' role='prof'>Rosat</name>
+        <name key='Gamboni, Yvonne' type='person' role='prof'>Gamboni</name>
+        <name key='Margot' type='person' role='prof'>Margot</name>
+        <name key='Gamboni, Yvonne' type='person' role='prof'>Gamboni</name>
+        <name key='Capt' type='person' role='prof'>Capt</name>
+        <name key='André' type='person' role='prof'>André</name>
+        <name key='Frommelt, Richard' type='person' role='prof'>Frommelt</name>
+        <name key='Burger, Paul' type='person' role='prof'>Burger</name>
+        <name key='Olivier' type='person' role='prof'>Olivier</name>
+        <title>Audition d'élèves du Conservatoire de Lausanne: Claases élémentaires, primaires et secondaires</title>
+        <placeName key='Lausanne, Maison du Peuple, Grande salle'/>
+        <name key='Auditions' type='series'/>
+        <page><![CDATA[﻿Ce programme sert de carte d’entrée
           r
 Parterre
   Entrée 1 franc.
@@ -135,8 +143,8 @@ Nocturne, en si bémol mineur, piano.....Chopin
  PIANO A QUEUE DE LA MAISON FOETISCH S. A.
 = 25 =
 sa]]></page>
-<pb facs="LAc_prg/CH_LAc_prg_dates/pyr_CH_LAc_prg_dates-0161.tif"/>
-<page><![CDATA[﻿
+        <pb facs='LAc_prg/CH_LAc_prg_dates/pyr_CH_LAc_prg_dates-0161.tif'/>
+        <page><![CDATA[﻿
 STEINWAY
 & SONS
 Appréciation
@@ -177,8 +185,7 @@ STEINWAY
  modèles de pianos droits,
  d partir de frs 2550.
 ■]]></page>
-       
-        </p>
+      </p>
     </body>
   </text>
 </TEI>

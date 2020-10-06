@@ -1,86 +1,96 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>BASEL</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Laurent Pugin</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <date when="2016-01">Janvier 2016</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_famb</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>BASEL</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Laurent Pugin</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <date when='2016-01'>Janvier 2016</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_famb</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert<date when="19781212">12/12/1978</date></title>
-<series>Concert</series>
-<placeName>Basel, Martinskirche</placeName>
-<orgName role="holding">Archiv des Vereins Freunde alter Musik Basel; <link target="http://famb.ch/"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+             Concert 
+            <date when='19781212'>12/12/1978</date>
+          </title>
+          <series>Concert</series>
+          <placeName>Basel, Martinskirche</placeName>
+          <orgName role='holding'>
+             Archiv des Vereins Freunde alter Musik Basel; 
+            <link target='http://famb.ch/'/>
+          </orgName>
+        </bibl>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <pb facs="CH_Bm_prg/pyr_CH_Bm_prg-1496.tif"/>
-<date when="19781212"/>
-<name key="Flecha, Mateo" type="person" role="cmp">Flecha, Mateo</name>
-<name key="Cabezón, Antonio de" type="person" role="cmp">Cabezón, Antonio de</name>
-<name key="Anonymus" type="person" role="cmp">Anonymus</name>
-<name key="Encina, Juan del" type="person" role="cmp">Encina, Juan del</name>
-<name key="Morata, Ginés de" type="person" role="cmp">Morata, Ginés de</name>
-<name key="Valderrábano, Enríquez de" type="person" role="cmp">Valderrábano, Enríquez de</name>
-<name key="Modena, Julius de" type="person" role="cmp">Modena, Julius de</name>
-<name key="Ortega" type="person" role="cmp">Ortega</name>
-<name key="Vasquez, Juan" type="person" role="cmp">Vasquez, Juan</name>
-<name key="Crecquillon, Thomas" type="person" role="cmp">Crecquillon, Thomas</name>
-<name key="Guerrero, Francisco" type="person" role="cmp">Guerrero, Francisco</name>
-<name key="Cabezón, Juan de" type="person" role="cmp">Cabezón, Juan de</name>
-<name key="Santa Cruz, Antonio de" type="person" role="cmp">Santa Cruz, Antonio de</name>
-<name key="Castro, Juan Blas de" type="person" role="cmp">Castro, Juan Blas de</name>
-<name key="Lasso, Orlando di" type="person" role="cmp">Lasso, Orlando di</name>
-<name key="Machado, Manuel" type="person" role="cmp">Machado, Manuel</name>
-<name key="Martín y Coll, Antonio " type="person" role="cmp">Martín y Coll, Antonio </name>
-<name key="Arañés, Juan" type="person" role="cmp">Arañés, Juan</name><name key="Figueras, Montserrat" type="person" role="int">Figueras, Montserrat</name>
-<name key="Benet, Josep" type="person" role="int">Benet, Josep</name>
-<name key="Savall, Jordi" type="person" role="int">Savall, Jordi</name>
-<name key="Coin, Christophe" type="person" role="int">Coin, Christophe</name>
-<name key="Ros, Pere" type="person" role="int">Ros, Pere</name>
-<name key="Hirao, Masako" type="person" role="int">Hirao, Masako</name>
-<name key="Casademunt, Sergi" type="person" role="int">Casademunt, Sergi</name>
-<name key="Alpert, Lorenzo" type="person" role="int">Alpert, Lorenzo</name>
-<name key="Garrido, Gabriel" type="person" role="int">Garrido, Gabriel</name>
-<name key="Cook, Randall" type="person" role="int">Cook, Randall</name>
-<name key="Dickey, Bruce" type="person" role="int">Dickey, Bruce</name>
-<name key="Smith, Hopkinson" type="person" role="int">Smith, Hopkinson</name>
-<name key="Weiner, Howard" type="person" role="int">Weiner, Howard</name><title>Concert</title>
-<placeName key="Basel, Martinskirche"/>
-<name key="Concert" type="series"/>
-<page><![CDATA[﻿  Freunde alter Musik in Basel
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <pb facs='CH_Bm_prg/pyr_CH_Bm_prg-1496.tif'/>
+        <date when='19781212'/>
+        <name key='Flecha, Mateo' type='person' role='cmp'>Flecha, Mateo</name>
+        <name key='Cabezón, Antonio de' type='person' role='cmp'>Cabezón, Antonio de</name>
+        <name key='Anonymus' type='person' role='cmp'>Anonymus</name>
+        <name key='Encina, Juan del' type='person' role='cmp'>Encina, Juan del</name>
+        <name key='Morata, Ginés de' type='person' role='cmp'>Morata, Ginés de</name>
+        <name key='Valderrábano, Enríquez de' type='person' role='cmp'>Valderrábano, Enríquez de</name>
+        <name key='Modena, Julius de' type='person' role='cmp'>Modena, Julius de</name>
+        <name key='Ortega' type='person' role='cmp'>Ortega</name>
+        <name key='Vasquez, Juan' type='person' role='cmp'>Vasquez, Juan</name>
+        <name key='Crecquillon, Thomas' type='person' role='cmp'>Crecquillon, Thomas</name>
+        <name key='Guerrero, Francisco' type='person' role='cmp'>Guerrero, Francisco</name>
+        <name key='Cabezón, Juan de' type='person' role='cmp'>Cabezón, Juan de</name>
+        <name key='Santa Cruz, Antonio de' type='person' role='cmp'>Santa Cruz, Antonio de</name>
+        <name key='Castro, Juan Blas de' type='person' role='cmp'>Castro, Juan Blas de</name>
+        <name key='Lasso, Orlando di' type='person' role='cmp'>Lasso, Orlando di</name>
+        <name key='Machado, Manuel' type='person' role='cmp'>Machado, Manuel</name>
+        <name key='Martín y Coll, Antonio ' type='person' role='cmp'>Martín y Coll, Antonio </name>
+        <name key='Arañés, Juan' type='person' role='cmp'>Arañés, Juan</name>
+        <name key='Figueras, Montserrat' type='person' role='int'>Figueras, Montserrat</name>
+        <name key='Benet, Josep' type='person' role='int'>Benet, Josep</name>
+        <name key='Savall, Jordi' type='person' role='int'>Savall, Jordi</name>
+        <name key='Coin, Christophe' type='person' role='int'>Coin, Christophe</name>
+        <name key='Ros, Pere' type='person' role='int'>Ros, Pere</name>
+        <name key='Hirao, Masako' type='person' role='int'>Hirao, Masako</name>
+        <name key='Casademunt, Sergi' type='person' role='int'>Casademunt, Sergi</name>
+        <name key='Alpert, Lorenzo' type='person' role='int'>Alpert, Lorenzo</name>
+        <name key='Garrido, Gabriel' type='person' role='int'>Garrido, Gabriel</name>
+        <name key='Cook, Randall' type='person' role='int'>Cook, Randall</name>
+        <name key='Dickey, Bruce' type='person' role='int'>Dickey, Bruce</name>
+        <name key='Smith, Hopkinson' type='person' role='int'>Smith, Hopkinson</name>
+        <name key='Weiner, Howard' type='person' role='int'>Weiner, Howard</name>
+        <title>Concert</title>
+        <placeName key='Basel, Martinskirche'/>
+        <name key='Concerts' type='series'/>
+        <page><![CDATA[﻿  Freunde alter Musik in Basel
   Dienstag, den 12. Dezember 1978 20.15 Uhr in der Martinskirche
   EL SIGLO DE ORO
   Weltliche Musik der königlich spanischen Hofkapelle 1550 - 1630
 
   1. Konzert
   Ensemble HESPERION XX]]></page>
-<pb facs="CH_Bm_prg/pyr_CH_Bm_prg-1497.tif"/>
-<page><![CDATA[﻿AUSFUEHRENDE
+        <pb facs='CH_Bm_prg/pyr_CH_Bm_prg-1497.tif'/>
+        <page><![CDATA[﻿AUSFUEHRENDE
 Hesperion XX
 Montserrat Figueras Josep Benet
 Gesang
@@ -108,8 +118,7 @@ Zink, Flöte Renaissance-Posaune
             Das Ensemble widmet sich der Wiederentdeckung wichtiger Bereiche europäischer und insbesondere spanischer Musik vor 1800. Durch die Tätigkeit Jordi Savalls an der SCHOLA CANTORUM BASILIENSIS erfuhr es bald eine Erweiterung um ein Gambenconsort, verschiedene Blasinstrumente und Cembalo. Damit waren die Voraussetzungen für die Aufführung der grösser besetzten vokalen und instrumentalen Ensemblemusik des 16. und 17. Jahrhunderts geschaffen, der sich Hesperion XX in letzter Zeit besonders widmete.
             In der heute viel diskutierten Aufführungspraxis alter Musik umschreibt das Ensemble seinen Standpunkt als das Streben nach einer Synthese zwischen dem Wissen um die historischen und stilistischen Gegebenheiten der alten Musik und der kreativen Vorstellungskraft des heutigen Musikers.
 ]]></page>
-       
-        </p>
+      </p>
     </body>
   </text>
 </TEI>

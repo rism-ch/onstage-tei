@@ -1,98 +1,108 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>BASEL</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Laurent Pugin</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <date when="2016-01">Janvier 2016</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_famb</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>BASEL</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Laurent Pugin</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <date when='2016-01'>Janvier 2016</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_famb</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Season<date when="20051105">05/11/2005</date></title>
-<series>Season</series>
-<placeName>Basel, Hans Huber-Saal des Stadtcasinos Basel</placeName>
-<orgName role="holding">Archiv des Vereins Freunde alter Musik Basel; <link target="http://famb.ch/"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+             Season 
+            <date when='20051105'>05/11/2005</date>
+          </title>
+          <series>Season</series>
+          <placeName>Basel, Hans Huber-Saal des Stadtcasinos Basel</placeName>
+          <orgName role='holding'>
+             Archiv des Vereins Freunde alter Musik Basel; 
+            <link target='http://famb.ch/'/>
+          </orgName>
+        </bibl>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <pb facs="CH_Bm_prg/pyr_CH_Bm_prg-0358.tif"/>
-<date when="20051105"/>
-<name key="Bach, Johann Sebastian" type="person" role="cmp">Bach, Johann Sebastian</name>
-<name key="Josquin des Prez" type="person" role="cmp">Josquin des Prez</name>
-<name key="Arbeau, Thoinot" type="person" role="cmp">Arbeau, Thoinot</name>
-<name key="Lasso, Orlando di" type="person" role="cmp">Lasso, Orlando di</name>
-<name key="Isaac, Heinrich" type="person" role="cmp">Isaac, Heinrich</name>
-<name key="Dowland, John" type="person" role="cmp">Dowland, John</name>
-<name key="n.n." type="person" role="cmp">n.n.</name>
-<name key="Anonymus" type="person" role="cmp">Anonymus</name>
-<name key="Frescobaldi, Girolamo Alessandro" type="person" role="cmp">Frescobaldi, Girolamo</name>
-<name key="D'India, Sigismondo" type="person" role="cmp">D'India, Sigismondo</name>
-<name key="Strozzi, Barbara" type="person" role="cmp">Strozzi, Barbara</name>
-<name key="Monteverdi, Claudio" type="person" role="cmp">Monteverdi, Claudio</name>
-<name key="Palestrina, Giovanni Pierluigi da" type="person" role="cmp">Palestrina, Giovanni Pierluigi da</name>
-<name key="Bach, Johann Sebastian" type="person" role="cmp">Bach, Johann Sebastian</name>
-<name key="Haydn, Joseph" type="person" role="cmp">Haydn, Joseph</name>
-<name key="n.n." type="person" role="cmp">n.n.</name><name key="Valetti, Pablo" type="person" role="int">Valetti, Pablo</name>
-<name key="Plantier, David" type="person" role="int">Plantier, David</name>
-<name key="Lopes, Mauro" type="person" role="int">Lopes, Mauro</name>
-<name key="Zanella, Fabrizio" type="person" role="int">Zanella, Fabrizio</name>
-<name key="Gagnon, Patricia" type="person" role="int">Gagnon, Patricia</name>
-<name key="Skalka, Petr" type="person" role="int">Skalka, Petr</name>
-<name key="Brany, Ludek" type="person" role="int">Brany, Ludek</name>
-<name key="Baroni, Diana" type="person" role="int">Baroni, Diana</name>
-<name key="Beduschi, Luis" type="person" role="int">Beduschi, Luis</name>
-<name key="Cornewal, Sarah van" type="person" role="int">Cornewal, Sarah van</name>
-<name key="Frisch, Céline" type="person" role="int">Frisch, Céline</name>
-<name key="Bertotti, Lavinia" type="person" role="int">Bertotti, Lavinia</name>
-<name key="Allanic, Constance" type="person" role="int">Allanic, Constance</name>
-<name key="Clark, Kate" type="person" role="int">Clark, Kate</name>
-<name key="Chauvet, Frédérique" type="person" role="int">Chauvet, Frédérique</name>
-<name key="Moonen, Marion" type="person" role="int">Moonen, Marion</name>
-<name key="Gatti, Marcello" type="person" role="int">Gatti, Marcello</name>
-<name key="Budzińska-Bennett, Agnieszka" type="person" role="int">Budzińska-Bennett, Agnieszka</name>
-<name key="Landerkin, Kelly" type="person" role="int">Landerkin, Kelly</name>
-<name key="Donadini, Lorenza" type="person" role="int">Donadini, Lorenza</name>
-<name key="Andersen, Ulrike" type="person" role="int">Andersen, Ulrike</name>
-<name key="Jaunalksne, Kristine" type="person" role="int">Jaunalksne, Kristine</name>
-<name key="Hofbauer, Ulrike" type="person" role="int">Hofbauer, Ulrike</name>
-<name key="Bournisien, Marie" type="person" role="int">Bournisien, Marie</name>
-<name key="Vellard, Dominique" type="person" role="int">Vellard, Dominique</name>
-<name key="Türk, Gerd" type="person" role="int">Türk, Gerd</name>
-<name key="Dickey, Bruce" type="person" role="int">Dickey, Bruce</name>
-<name key="Toet, Charles" type="person" role="int">Toet, Charles</name>
-<name key="Coin, Christophe" type="person" role="int">Coin, Christophe</name><title>Season</title>
-<placeName key="Basel, Hans Huber-Saal des Stadtcasinos Basel"/>
-<name key="Season" type="series"/>
-<page><![CDATA[﻿Freunde alter Musik.5
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <pb facs='CH_Bm_prg/pyr_CH_Bm_prg-0358.tif'/>
+        <date when='20051105'/>
+        <name key='Bach, Johann Sebastian' type='person' role='cmp'>Bach, Johann Sebastian</name>
+        <name key='Josquin des Prez' type='person' role='cmp'>Josquin des Prez</name>
+        <name key='Arbeau, Thoinot' type='person' role='cmp'>Arbeau, Thoinot</name>
+        <name key='Lasso, Orlando di' type='person' role='cmp'>Lasso, Orlando di</name>
+        <name key='Isaac, Heinrich' type='person' role='cmp'>Isaac, Heinrich</name>
+        <name key='Dowland, John' type='person' role='cmp'>Dowland, John</name>
+        <name key='Anonymous' type='person' role='cmp'>Anonymous</name>
+        <name key='Anonymus' type='person' role='cmp'>Anonymus</name>
+        <name key='Frescobaldi, Girolamo Alessandro' type='person' role='cmp'>Frescobaldi, Girolamo</name>
+        <name key='D&apos;India, Sigismondo' type='person' role='cmp'>D'India, Sigismondo</name>
+        <name key='Strozzi, Barbara' type='person' role='cmp'>Strozzi, Barbara</name>
+        <name key='Monteverdi, Claudio' type='person' role='cmp'>Monteverdi, Claudio</name>
+        <name key='Palestrina, Giovanni Pierluigi da' type='person' role='cmp'>Palestrina, Giovanni Pierluigi da</name>
+        <name key='Bach, Johann Sebastian' type='person' role='cmp'>Bach, Johann Sebastian</name>
+        <name key='Haydn, Joseph' type='person' role='cmp'>Haydn, Joseph</name>
+        <name key='Anonymous' type='person' role='cmp'>Anonymous</name>
+        <name key='Valetti, Pablo' type='person' role='int'>Valetti, Pablo</name>
+        <name key='Plantier, David' type='person' role='int'>Plantier, David</name>
+        <name key='Lopes, Mauro' type='person' role='int'>Lopes, Mauro</name>
+        <name key='Zanella, Fabrizio' type='person' role='int'>Zanella, Fabrizio</name>
+        <name key='Gagnon, Patricia' type='person' role='int'>Gagnon, Patricia</name>
+        <name key='Skalka, Petr' type='person' role='int'>Skalka, Petr</name>
+        <name key='Brany, Ludek' type='person' role='int'>Brany, Ludek</name>
+        <name key='Baroni, Diana' type='person' role='int'>Baroni, Diana</name>
+        <name key='Beduschi, Luis' type='person' role='int'>Beduschi, Luis</name>
+        <name key='Cornewal, Sarah van' type='person' role='int'>Cornewal, Sarah van</name>
+        <name key='Frisch, Céline' type='person' role='int'>Frisch, Céline</name>
+        <name key='Bertotti, Lavinia' type='person' role='int'>Bertotti, Lavinia</name>
+        <name key='Allanic, Constance' type='person' role='int'>Allanic, Constance</name>
+        <name key='Clark, Kate' type='person' role='int'>Clark, Kate</name>
+        <name key='Chauvet, Frédérique' type='person' role='int'>Chauvet, Frédérique</name>
+        <name key='Moonen, Marion' type='person' role='int'>Moonen, Marion</name>
+        <name key='Gatti, Marcello' type='person' role='int'>Gatti, Marcello</name>
+        <name key='Budzińska-Bennett, Agnieszka' type='person' role='int'>Budzińska-Bennett, Agnieszka</name>
+        <name key='Landerkin, Kelly' type='person' role='int'>Landerkin, Kelly</name>
+        <name key='Donadini, Lorenza' type='person' role='int'>Donadini, Lorenza</name>
+        <name key='Andersen, Ulrike' type='person' role='int'>Andersen, Ulrike</name>
+        <name key='Jaunalksne, Kristine' type='person' role='int'>Jaunalksne, Kristine</name>
+        <name key='Hofbauer, Ulrike' type='person' role='int'>Hofbauer, Ulrike</name>
+        <name key='Bournisien, Marie' type='person' role='int'>Bournisien, Marie</name>
+        <name key='Vellard, Dominique' type='person' role='int'>Vellard, Dominique</name>
+        <name key='Türk, Gerd' type='person' role='int'>Türk, Gerd</name>
+        <name key='Dickey, Bruce' type='person' role='int'>Dickey, Bruce</name>
+        <name key='Toet, Charles' type='person' role='int'>Toet, Charles</name>
+        <name key='Coin, Christophe' type='person' role='int'>Coin, Christophe</name>
+        <title>Season</title>
+        <placeName key='Basel, Hans Huber-Saal des Stadtcasinos Basel'/>
+        <name key='Saisons' type='series'/>
+        <page><![CDATA[﻿Freunde alter Musik.5
 Generalprogramm
 2005/2006
 Basel
 ]]></page>
-<pb facs="CH_Bm_prg/pyr_CH_Bm_prg-0359.tif"/>
-<page><![CDATA[﻿
+        <pb facs='CH_Bm_prg/pyr_CH_Bm_prg-0359.tif'/>
+        <page><![CDATA[﻿
 Das Generalprogramm 2005/2006 im Überblick:
 Samstag   5. 11.2005      
 20.15 Uhr Stadtcasino     
@@ -134,8 +144,8 @@ Donnerstag 1. 6. 2006
 Extrakonzert II
 ARKADIEN IN DER WIENER KLASSIK Werke für Lira organizzata, Baryton, Dudelsack, Maultrommel von Joseph Haydn u.a.
 Ensemble Baroque de Limoges Christophe Coin]]></page>
-<pb facs="CH_Bm_prg/pyr_CH_Bm_prg-0360.tif"/>
-<page><![CDATA[﻿Gönnermitglieder die eigentlichen Träger unseres Vereins, entrichten einen Jahresbeitrag von mindestens Fr. 1 80.-. Er berechtigt zum freien Eintritt zu den Konzerten I - IV und den beiden Extrakonzerten.
+        <pb facs='CH_Bm_prg/pyr_CH_Bm_prg-0360.tif'/>
+        <page><![CDATA[﻿Gönnermitglieder die eigentlichen Träger unseres Vereins, entrichten einen Jahresbeitrag von mindestens Fr. 1 80.-. Er berechtigt zum freien Eintritt zu den Konzerten I - IV und den beiden Extrakonzerten.
 Mitglieder bezahlen einen Jahresbeitrag von Fr. 1 20.-. Sie haben freien Eintritt zu den Konzerten I - IV und können bei Musik Wyler je eine reduzierte Einzelkarte für die beiden Extrakonzerte beziehen.
 Studierende und Lehrlinge sowie Personen unter 20 Jahren bezahlen einen Jahresbeitrag von Fr. 70.-. Er berechtigt zum freien Eintritt zu den Konzerten I - IV und den beiden Extrakonzerten.
 Einzahlungsschein
@@ -172,8 +182,8 @@ Telefon	061-264 57 57
 Fax	061-264 57 49
 e-mail	famb@musakabas.ch
 Internet	www.musakabas.ch/scb/famb/famb. shtml]]></page>
-<pb facs="CH_Bm_prg/pyr_CH_Bm_prg-0361.tif"/>
-<page><![CDATA[﻿ZUM GELEIT
+        <pb facs='CH_Bm_prg/pyr_CH_Bm_prg-0361.tif'/>
+        <page><![CDATA[﻿ZUM GELEIT
 Schillerjahrgerecht zitieren wir zu Beginn den Dichter: „Das Alte stürzt, es ändert sich die Zeit". Erfreulicherweise fährt er fort mit einem Blick in die Zukunft und erkennt, wie aus solchem Zerfall „neues Leben blüht".
 Der Wunsch aus Altem Neues zu erwecken, ist ein movens der „Freunde alter Musik". Aus solchem Antrieb heraus lebt und gedeiht unser Verein. Bekanntlich sieht man meistens das Vergangene als Hintergrund für die Entstehung von Neuem. Aber es ist auch statthaft, diese Betrachtungsweise einmal umzukehren. Dann dürfte man also zur Überzeugung kommen, dass Altes seinen Sinn erst erhielte im Rückblick und aus gegenwärtigem Erleben.
 Das freilich ist ein Gedankenspiel. Und das darf man wohl anstellen, wenn man wie der Schreibende seit 50 Jahren FAMB-Mitglied und seit 25 Jahren in deren Vorstand ist und ausserdem in sehr vielen Konzerten auftrat. Natürlich kommt einem da sogleich die Fragenkette nach dem Woher, dem Wo und dem Wohin in den Sinn. Wo stand man „damals", wo befinden wir uns heute und was mag man wohl in kommenden Zeiten unter „alter Musik" verstehen?
@@ -186,8 +196,8 @@ Heute lesen und hören wir oft, alte Musik bedürfe einer „Aktualisierung", da
 Wie lässt sich also der Zeitgebundenheit alter (besser: aller) Musik begegnen? Da bleibt vor allem die Suche nach sinnvoller Verknüpfung von Alt und Neu.Dabei ist es nicht immer leicht, unsere zweifellos modernen Ohren zufrieden zu stellen und doch stilgerecht und massvoll vorzugehen.
 Unsere Konzertreihe versucht, auch in der kommenden Saison diese Richtung einzuhalten. J. S. Bach abseits vom Gängigen und allzu Geläufigen: das dürfen wir vom 1. Extrakonzert erwarten. Wie erklang während der Zeit der Renaissance jene Musik, die einen exilierten König erfreute? Vielleicht gelingt es uns, hier einen neuen Höreindruck zu erleben und dabei auch einen Blick in die Tiefe der Zeit zu tun (1. Konzert). Noch weiter in die Vergangenheit begeben wir uns in der Erwartung mittelalterlicher Musik, die wie „Milch und Honig" klingen kann (2. Konzert). Frühbarocke Gesänge mit ihren kühnen Modernismen bringen alt und neu in aufregender Weise in eine enge Nachbarschaft (3. Konzert). Gespannt ist man ferner auf eine weitere Begegnung mit Bach,wenn er aus dem Geist seiner Zeit heraus alt und neu verbindet (Konzert 4). Und schliesslich, im 2. Extrakonzert, lassen wir uns ins wienerische „Arkadien" entführen, beschwingt vom Klang höchst ungewöhnlicher Instrumente.
 Entscheidende Impulse zur Saison 2005/06 wie schon zu sehr vielen vorangegangenen Konzertreihen verdanken wir Dr. Peter Reidemeister. Uber viele Jahre hinweg hat er ideenreich, stets auch in die Zukunft blickend und geschickt abwägend zwischen Wünschbarem und Machbarem die reichhaltigen Programme der FAMB erdacht. Ein gerüttelt Mass an Drumherum zum Wohle]]></page>
-<pb facs="CH_Bm_prg/pyr_CH_Bm_prg-0362.tif"/>
-<page><![CDATA[﻿unseres Vereins hat er obendrein bewältigt. Mit seiner Pensionierung als Direktor der Schola Cantorum Basiliensis verlässt er nun auch unseren Vorstand. Alte Musik-Freunde in Basel und anderenorts grüssen ihn dankbar. Möge seine sicherlich für alles Alt-Neue aufgeschlossene Zukunft ihm viel Erfreuliches bescheren.
+        <pb facs='CH_Bm_prg/pyr_CH_Bm_prg-0362.tif'/>
+        <page><![CDATA[﻿unseres Vereins hat er obendrein bewältigt. Mit seiner Pensionierung als Direktor der Schola Cantorum Basiliensis verlässt er nun auch unseren Vorstand. Alte Musik-Freunde in Basel und anderenorts grüssen ihn dankbar. Möge seine sicherlich für alles Alt-Neue aufgeschlossene Zukunft ihm viel Erfreuliches bescheren.
 Hans-Martin Linde
 Extrakonzert I Samstag, 5. November 2005
               20.15 Uhr
@@ -197,8 +207,8 @@ Extrakonzert I Samstag, 5. November 2005
                    Sarah van Cornewal - Blockflöte Celine Frisch - Cembalo
 „Six Concerts avec plusieurs instruments" nennt Johann Sebastian Bach seine heute als „Brandenburgische Konzerte" bekannten Werke, 1721 dem Markgrafen von Brandenburg gewidmet. Damit umschreibt er sehr präzise, was er unter „Konzerten" versteht, wie sie an diesem Abend mehrheitlich auf dem Programm stehen: keine grossen „Orchester"-Besetzungen und auch keine Kammermusik, sondern konzertierende Werke in erweiterten Formationen unterschiedlichster Art, orchestrale Kammermusik gewissermassen. Bach verbindet in diesen Kompositionen auf unerreichte Art virtuose Brillanz mit satztechnischer Komplexität und rhythmischer Intensität. Die solistische(n) Stimme(n) treten jeweils in einen intensiven Dialog mit den übrigen Instrumenten, aus dem heraus ein dichtes Netz musikalischer Rhetorik erwächst: „Unterhaltungsmusik" im doppelten Wortsinn also.
 Das Ensemble Cafe Zimmermann nennt sich nach dem Ort, in dem Bachs Collegium Musicum in Leipzig musizierte und „Einheimische als Frembde Hohen und Niedern Standes, Männ- und Weiblichen Geschlechts" unterhielt. Wie wohl am Originalschauplatz üblich, spielt auch das in Frankreich beheimatete Ensemble in einfacher Besetzung. Es hat sich in den vergangenen Jahren zu einer der bekanntesten Gruppen seiner Art entwickelt und besondere Aufmerksamkeit für seine vitalen Bach-Interpretationen erhalten. Dabei freut es uns natürlich besonders, dass ein wichtiger Teil der Musizierenden aus der Schola Cantorum Basiliensis hervorgegangen ist.]]></page>
-<pb facs="CH_Bm_prg/pyr_CH_Bm_prg-0363.tif"/>
-<page><![CDATA[﻿Konzert I	Freitag, 2. Dezember 2005, 20.15 Uhr
+        <pb facs='CH_Bm_prg/pyr_CH_Bm_prg-0363.tif'/>
+        <page><![CDATA[﻿Konzert I	Freitag, 2. Dezember 2005, 20.15 Uhr
               Sonntag, 4. Dezember 2005, 17.00 Uhr
                Musik-Akademie, Grösser Saal
            FRANCOIS I. VON FRANKREICH IM EXIL
@@ -223,8 +233,8 @@ Ein Neues Lied für Maria - aquitanische Gesänge des 1 2. Jahrhunderts
 Ein freudvolles Neues Lied - darin fand eine neue Richtung mittelalterlicher Frömmigkeit des 1 2. Jahrhunderts ihren bis heute packenden und berührenden Ausdruck. Verbunden mit diesen Nova Cantica ist eine wachsende Bedeutung und Verehrung Marias als Mutter Christi. Dichter und Komponisten gleicher-massen liessen sich zu Gesängen inspirieren, die mit neuen und bislang unerhörten musikalischen und poetischen Mitteln das Lob der Gottesmutter und das Mysterium der Menschwerdung Christi besingen. Überliefert ist dieses Repertoire in den berühmten Handschriften aus dem Umkreis des Klosters St. Martial in Limoges, die auch die frühesten Aufzeichnungen einer mehrstimmigen Gesangskunst enthalten, sowie in Handschriften aus dem Norden Frankreichs.
 Mit den grossen Ereignissen des Weihnachtsfestkreises, die schon immer musikalisch besonders reich ausgestattet waren
 -	von der Nativitas über die Epiphanie bis zur Purificatio - steht auch Maria, die Mutter Gottes, im Zentrum. Ihre unbefleckte Empfängnis ist symbolisiert im Salben mit Honig durch den Heiligen Geist. Dabei ist ihre Rolle als Mutter des Erlösers nicht nur die eines Gefässes oder einer Kammer, sondern ebenso - symbolisiert durch die Milch - die einer Spenderin und Erhalterin des Lebens.]]></page>
-<pb facs="CH_Bm_prg/pyr_CH_Bm_prg-0364.tif"/>
-<page><![CDATA[﻿Konzert III Montag, 20. März 2006, 20.15 Uhr
+        <pb facs='CH_Bm_prg/pyr_CH_Bm_prg-0364.tif'/>
+        <page><![CDATA[﻿Konzert III Montag, 20. März 2006, 20.15 Uhr
 Dienstag, 21. März 2006, 20.15 Uhr
                Musik-Akademie, Grösser Saal
             "SE M AMATE, IO V'ADORO"
@@ -245,8 +255,8 @@ Konzert IV Samstag, 1 3. Mai 2006
                  J. S. Bach: Kantate "Aus tiefer Not”, BWV 38
                   D.	Vellard, G. Türk, B. Dickey, Ch. Toet, Studierende der Schola Cantorum Basiliensis
 Entgegen der oft wiederholten Schulbuch-Weisheit, wonach die Komponisten früher gerade kein Interesse an „alter Musik", sondern ausschliesslich Sinn für das zeitgenössische Schaffen gehabt hätten, ist beispielsweise Johann Sebastian Bachs Beschäftigung mit der Musik Palestrinas nachweisbar anhand seiner Bearbeitung der 6-stimmigen Messe des Renaissance-Meisters: Der evangelische „Erzkantor" des 1 8. Jahrhunderts hat eine Messe des katholischen „Retters der Kirchenmusik" des 16. Jahrhunderts in seiner Kirche aufgeführt! Ob er sich bei seinem „Arrangement" mehr am Klangbild seiner eigenen Zeit orientiert hat oder aber den Charakter des „originalen" Werks eher bewahren wollte, ist dabei eine spannende Frage, die Auskunft über Bachs Verhältnis zur Geschichte geben kann. Während in unserem Konzert weitere Vokalwerke Palestrinas in die Welt seiner Polyphonie einführen und eine Bach-Kantate das Programm abrundet, vermitteln Instrumentalstücke aus der Leipziger Stadt-pfeifer-Tradition zwischen beiden Stilen.]]></page>
-<pb facs="CH_Bm_prg/pyr_CH_Bm_prg-0365.tif"/>
-<page><![CDATA[﻿Extrakonzert II Donnerstag, 1. Juni 2006
+        <pb facs='CH_Bm_prg/pyr_CH_Bm_prg-0365.tif'/>
+        <page><![CDATA[﻿Extrakonzert II Donnerstag, 1. Juni 2006
               20.15 Uhr
                 Stadtcasino Basel, Hans Huber-Saal
            ARKADIEN IN DER WIENER KLASSIK
@@ -254,14 +264,13 @@ Entgegen der oft wiederholten Schulbuch-Weisheit, wonach die Komponisten früher
                Ensemble Baroque de Limoges Christophe Coin
 In einem grossen musikwissenschaftlichen und instrumenten-kundlichen Projekt haben Christophe Coin und das Ensemble Baroque de Limoges die Rekonstruktion der so genannten „Lira organizzata" angeregt und damit eine Reihe bisher nicht sinnvoll aufführbarer Werke wieder zugänglich gemacht, unter ihnen Joseph Haydns für den König von Neapel komponierte Concerti und Notturni für zwei Orgel-Drehleiern aus den 1780er Jahren. Zum ersten Mal erklingen diese Instrumente und diese Stücke in Basel, bereichert um weitere charmante Preziosen für „pastorale", volkstümliche Raritäten unter den Instrumenten dieser Epoche. Sie beleuchten die damalige Tendenz, dem Komplexen, Artifiziellen in der Komposition das Einfache, „Ländliche" gegenüberzustellen und damit das gesamte ästhetische Spektrum auszuschöpfen. Für uns bleibt es ein Wunder, dass Phantasie und Erfindungsreichtum jener Komponisten nicht Halt machten vor dem vermeintlich Simplen, Begrenzten des Instrumentariums. Es ist denkbar, dass diese Begrenztheit im Gegenteil gerade eine Art „Herausforderung" darstellte und die Musiker anregte, „aus der Not eine Tugend" zu machen und „das Kunstvolle im Einfachen" zu realisieren.
 ]]></page>
-<pb facs="CH_Bm_prg/pyr_CH_Bm_prg-0366.tif"/>
-<page><![CDATA[﻿Mit Dank für die freundliche Unterstützung
+        <pb facs='CH_Bm_prg/pyr_CH_Bm_prg-0366.tif'/>
+        <page><![CDATA[﻿Mit Dank für die freundliche Unterstützung
 KU LTU Ri
 Basel-Stadt
 Ir
 Schweizer Radio DRS]]></page>
-       
-        </p>
+      </p>
     </body>
   </text>
 </TEI>

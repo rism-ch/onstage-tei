@@ -1,77 +1,85 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>HEMU Conservatoire de Lausanne - Programme de concert</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Paolo Boschetti</persName>
-                    <persName>Laurent Pugin</persName>
-                    <persName>Violeta Struijk van Bergen</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <date when="2012-11">Novembre 2012</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_lac</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>HEMU Conservatoire de Lausanne - Programme de concert</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Paolo Boschetti</persName>
+            <persName>Laurent Pugin</persName>
+            <persName>Violeta Struijk van Bergen</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <date when='2012-11'>Novembre 2012</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_lac</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Douzième audition d'élèves <date when="19360401">01 avril 1936</date></title>
-<series>Auditions</series>
-<placeName>Conservatoire de Lausanne</placeName>
-<orgName role="holding">Bibliothèque HEMU-CL;<link target="http://biblio.hemu-cl.ch"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+             Douzième audition d'élèves 
+            <date when='19360401'>01 avril 1936</date>
+          </title>
+          <series>Auditions</series>
+          <placeName>Conservatoire de Lausanne</placeName>
+          <orgName role='holding'>
+             Bibliothèque HEMU-CL; 
+            <link target='http://biblio.hemu-cl.ch'/>
+          </orgName>
+        </bibl>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <pb facs="LAc_prg/CH_LAc_prg_dates/pyr_CH_LAc_prg_dates-0154.tif"/>
-<date when="19360401"/>
-<name key="Chopin, Fryderyk" type="person" role="cmp">Chopin</name>
-<name key="Beethoven, Ludwig van" type="person" role="cmp">Beethoven</name>
-<name key="Vivaldi, Antonio" type="person" role="cmp">Vivaldi</name>
-<name key="Schumann, Robert" type="person" role="cmp">Schumann</name>
-<name key="Taffanel, Paul" type="person" role="cmp">Taffanel</name>
-<name key="Liszt, Franz" type="person" role="cmp">Liszt</name>
-<name key="Vacaresco, Hélène" type="person" role="var">Vacaresco, Hélène</name>
-<name key="Fort, Paul" type="person" role="var">Fort, Paul</name>
-<name key="Renard, Jules" type="person" role="var">Renard, Jules</name>
-<name key="Mozart, Wolfgang Amadeus" type="person" role="cmp">Mozart</name>
-<name key="Fauré, Gabriel" type="person" role="cmp">Fauré</name>
-<name key="Busser, Henri" type="person" role="cmp">Busser</name>
-<name key="Franck, César" type="person" role="cmp">Franck</name>
-<name key="Blanchet, Emile-Robert" type="person" role="var">Blanchet</name>
-<name key="Aubert, Jacques" type="person" role="cmp">Aubert</name>
-<name key="Olivier" type="person" role="prof">Olivier</name>
-<name key="Koëlla, Jean" type="person" role="prof">Koëlla, J.</name>
-<name key="Crousaz, Juliette de" type="person" role="prof">Crousaz, J. de</name>
-<name key="Appia, Edmond" type="person" role="prof">Appia</name>
-<name key="Lassueur, Charles" type="person" role="prof">Lassueur</name>
-<name key="Giroud, Auguste" type="person" role="prof">Giroud</name>
-<name key="Stierlin-Vallon, Henri" type="person" role="prof">Stierlin-Vallon</name>
-<name key="Daulte, Madeleine" type="person" role="prof">Daulte</name>
-<name key="Koëlla, Jean" type="person" role="prof">Koëlla, J.</name>
-<name key="Troyon-Bläsi" type="person" role="prof">Troyon-Blaesi</name>
-<title>Douzième audition d'élèves</title>
-<placeName key="Lausanne, Conservatoire"/>
-<name key="Auditions" type="series"/>
-<note>Annotations manuscrites concernant la qualité d'exécution</note>
-<page><![CDATA[﻿CONSERVATOIRE DE LAUSANNE
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <pb facs='LAc_prg/CH_LAc_prg_dates/pyr_CH_LAc_prg_dates-0154.tif'/>
+        <date when='19360401'/>
+        <name key='Chopin, Fryderyk Franciszek' type='person' role='cmp'>Chopin, Fryderyk Franciszek</name>
+        <name key='Beethoven, Ludwig van' type='person' role='cmp'>Beethoven, Ludwig van</name>
+        <name key='Vivaldi, Antonio' type='person' role='cmp'>Vivaldi, Antonio</name>
+        <name key='Schumann, Robert' type='person' role='cmp'>Schumann, Robert</name>
+        <name key='Taffanel, Paul' type='person' role='cmp'>Taffanel</name>
+        <name key='Liszt, Franz' type='person' role='cmp'>Liszt, Franz</name>
+        <name key='Vacaresco, Hélène' type='person' role='var'>Vacaresco, Hélène</name>
+        <name key='Fort, Paul' type='person' role='var'>Fort, Paul</name>
+        <name key='Renard, Jules' type='person' role='var'>Renard, Jules</name>
+        <name key='Mozart, Wolfgang Amadeus' type='person' role='cmp'>Mozart, Wolfgang Amadeus</name>
+        <name key='Fauré, Gabriel' type='person' role='cmp'>Fauré, Gabriel</name>
+        <name key='Busser, Henri' type='person' role='cmp'>Busser</name>
+        <name key='Franck, César' type='person' role='cmp'>Franck, César</name>
+        <name key='Blanchet, Emile-Robert' type='person' role='var'>Blanchet</name>
+        <name key='Aubert, Jacques' type='person' role='cmp'>Aubert</name>
+        <name key='Olivier' type='person' role='prof'>Olivier</name>
+        <name key='Koëlla, Jean' type='person' role='prof'>Koëlla, Jean</name>
+        <name key='Crousaz, Juliette de' type='person' role='prof'>Crousaz, Juliette de</name>
+        <name key='Appia, Edmond' type='person' role='prof'>Appia</name>
+        <name key='Lassueur, Charles' type='person' role='prof'>Lassueur</name>
+        <name key='Giroud, Auguste' type='person' role='prof'>Giroud</name>
+        <name key='Stierlin-Vallon, Henri' type='person' role='prof'>Stierlin-Vallon</name>
+        <name key='Daulte, Madeleine' type='person' role='prof'>Daulte</name>
+        <name key='Koëlla, Jean' type='person' role='prof'>Koëlla, Jean</name>
+        <name key='Troyon-Blaesi, C.' type='person' role='prof'>Troyon-Blaesi, C.</name>
+        <title>Douzième audition d'élèves</title>
+        <placeName key='Lausanne, Conservatoire'/>
+        <name key='Auditions' type='series'/>
+        <note>Annotations manuscrites concernant la qualité d'exécution</note>
+        <page><![CDATA[﻿CONSERVATOIRE DE LAUSANNE
 INSTITUT DE MUSIQUE
 DIRECTION = C. TROYON
  Seule Ecole de musique subventionnée par l’Etat de Vaud et la Ville de Lausi
@@ -125,8 +133,8 @@ Ce programme sert de carte d’entrée
       DV
 )
 ]]></page>
-<pb facs="LAc_prg/CH_LAc_prg_dates/pyr_CH_LAc_prg_dates-0155.tif"/>
-<page><![CDATA[﻿     Piano à queue
+        <pb facs='LAc_prg/CH_LAc_prg_dates/pyr_CH_LAc_prg_dates-0155.tif'/>
+        <page><![CDATA[﻿     Piano à queue
           t m 33, depuis Fr. 2.600.
      Piano droit
  depuis Fr. 1.875.—
@@ -134,8 +142,7 @@ Ce programme sert de carte d’entrée
 FŒTISCH
         F'erts S A. Ca-olme 5 LAUSANNE - VEVEY
 ]]></page>
-       
-        </p>
+      </p>
     </body>
   </text>
 </TEI>

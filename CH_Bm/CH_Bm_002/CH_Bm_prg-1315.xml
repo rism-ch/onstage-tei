@@ -1,74 +1,84 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>BASEL</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Laurent Pugin</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <date when="2016-01">Janvier 2016</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_famb</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>BASEL</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Laurent Pugin</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <date when='2016-01'>Janvier 2016</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_famb</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert<date when="19641113">13/11/1964</date></title>
-<series>Concert</series>
-<placeName>Basel, Grosser Saal der Musik-Akademie</placeName>
-<orgName role="holding">Archiv des Vereins Freunde alter Musik Basel; <link target="http://famb.ch/"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+             Concert 
+            <date when='19641113'>13/11/1964</date>
+          </title>
+          <series>Concert</series>
+          <placeName>Basel, Grosser Saal der Musik-Akademie</placeName>
+          <orgName role='holding'>
+             Archiv des Vereins Freunde alter Musik Basel; 
+            <link target='http://famb.ch/'/>
+          </orgName>
+        </bibl>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <pb facs="CH_Bm_prg/pyr_CH_Bm_prg-1315.tif"/>
-<date when="19641113"/>
-<name key="Du Tertre, Etienne" type="person" role="cmp">Du Tertre, Etienne</name>
-<name key="Du Caurroy, Eustache" type="person" role="cmp">Du Caurroy, Eustache</name>
-<name key="Matteo da Perugia" type="person" role="cmp">Matteo da Perugia</name>
-<name key="Anonymus" type="person" role="cmp">Anonymus</name>
-<name key="Solage" type="person" role="cmp">Solage</name>
-<name key="Grimace" type="person" role="cmp">Grimace</name>
-<name key="Brumel, Antoine" type="person" role="cmp">Brumel, Antoine</name>
-<name key="Finck, Heinrich" type="person" role="cmp">Finck, Heinrich</name>
-<name key="Josquin des Prez" type="person" role="cmp">Josquin des Prez</name>
-<name key="Coprario, John" type="person" role="cmp">Coperario, John</name>
-<name key="Holborne, Antony" type="person" role="cmp">Holborne, Antony</name>
-<name key="Tomkins, Thomas" type="person" role="cmp">Tomkins, Thomas</name>
-<name key="Ward, John" type="person" role="cmp">Ward, John</name>
-<name key="Viadana, Lodovico" type="person" role="cmp">Viadana, Lodovico</name>
-<name key="Lappi, Pietro" type="person" role="cmp">Lappi, Pietro</name>
-<name key="Guami, Gioseffo" type="person" role="cmp">Guami, Gioseffo</name>
-<name key="Grillo, Giovanni Battista" type="person" role="cmp">Grillo, Giovanni Battista</name>
-<name key="Massaini, Tiburtio" type="person" role="cmp">Massaini, Tiburtio</name><name key="Harnoncourt, Alice" type="person" role="int">Harnoncourt, Alice</name>
-<name key="Schäftlein, Jürgen" type="person" role="int">Schäftlein, Jürgen</name>
-<name key="Stastny, Leopold" type="person" role="int">Stastny, Leopold</name>
-<name key="Pöttler, Hans" type="person" role="int">Pöttler, Hans</name>
-<name key="Theiner, Kurt" type="person" role="int">Theiner, Kurt</name>
-<name key="Harnoncourt, Nikolaus" type="person" role="int">Harnoncourt, Nikolaus</name>
-<name key="Kubizek, Elli" type="person" role="int">Kubizek, Elli</name>
-<name key="Höbarth, Hermann" type="person" role="int">Höbarth, Hermann</name>
-<name key="Pirker, Firmin" type="person" role="int">Pirker, Firmin</name><title>Concert</title>
-<placeName key="Basel, Grosser Saal der Musik-Akademie"/>
-<name key="Concert" type="series"/>
-<page><![CDATA[﻿     Freitag, den 13. November 1964, 20.15 Uhr, im Großen Saal der Musik-Akademie
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <pb facs='CH_Bm_prg/pyr_CH_Bm_prg-1315.tif'/>
+        <date when='19641113'/>
+        <name key='Du Tertre, Etienne' type='person' role='cmp'>Du Tertre, Etienne</name>
+        <name key='Du Caurroy, Eustache' type='person' role='cmp'>Du Caurroy, Eustache</name>
+        <name key='Matteo da Perugia' type='person' role='cmp'>Matteo da Perugia</name>
+        <name key='Anonymus' type='person' role='cmp'>Anonymus</name>
+        <name key='Solage' type='person' role='cmp'>Solage</name>
+        <name key='Grimace' type='person' role='cmp'>Grimace</name>
+        <name key='Brumel, Antoine' type='person' role='cmp'>Brumel, Antoine</name>
+        <name key='Finck, Heinrich' type='person' role='cmp'>Finck, Heinrich</name>
+        <name key='Josquin des Prez' type='person' role='cmp'>Josquin des Prez</name>
+        <name key='Coprario, John' type='person' role='cmp'>Coperario, John</name>
+        <name key='Holborne, Antony' type='person' role='cmp'>Holborne, Antony</name>
+        <name key='Tomkins, Thomas' type='person' role='cmp'>Tomkins, Thomas</name>
+        <name key='Ward, John' type='person' role='cmp'>Ward, John</name>
+        <name key='Viadana, Lodovico' type='person' role='cmp'>Viadana, Lodovico</name>
+        <name key='Lappi, Pietro' type='person' role='cmp'>Lappi, Pietro</name>
+        <name key='Guami, Gioseffo' type='person' role='cmp'>Guami, Gioseffo</name>
+        <name key='Grillo, Giovanni Battista' type='person' role='cmp'>Grillo, Giovanni Battista</name>
+        <name key='Massaini, Tiburtio' type='person' role='cmp'>Massaini, Tiburtio</name>
+        <name key='Harnoncourt, Alice' type='person' role='int'>Harnoncourt, Alice</name>
+        <name key='Schäftlein, Jürgen' type='person' role='int'>Schäftlein, Jürgen</name>
+        <name key='Stastny, Leopold' type='person' role='int'>Stastny, Leopold</name>
+        <name key='Pöttler, Hans' type='person' role='int'>Pöttler, Hans</name>
+        <name key='Theiner, Kurt' type='person' role='int'>Theiner, Kurt</name>
+        <name key='Harnoncourt, Nikolaus' type='person' role='int'>Harnoncourt, Nikolaus</name>
+        <name key='Kubizek, Elli' type='person' role='int'>Kubizek, Elli</name>
+        <name key='Höbarth, Hermann' type='person' role='int'>Höbarth, Hermann</name>
+        <name key='Pirker, Firmin' type='person' role='int'>Pirker, Firmin</name>
+        <title>Concert</title>
+        <placeName key='Basel, Grosser Saal der Musik-Akademie'/>
+        <name key='Concerts' type='series'/>
+        <page><![CDATA[﻿     Freitag, den 13. November 1964, 20.15 Uhr, im Großen Saal der Musik-Akademie
     ^reunbc alter ITtufiF in 23afel
   ZWEITES KONZERT
 Wf $ 4/<lvu/ *
@@ -77,8 +87,8 @@ Concentus Musicus, Wien Ensemble für alte Musik Leitung: Nikolaus Harnoncourt
 Alice Harnoncourt (Pardessus de Viole, Violine),
 Jürg Schaeftlein (Blockflöte), Leopold Stastny (Blockflöte, Schlagzeug), Hans Pöttler (Posaune), Kurt Theiner (Tenorbratsche, Portativ), Nikolaus Harnoncourt (Tenorgambe), Elli Kubizek (Baßgambe), Hermann Höbarth (Baßgambe, Baßfidel), Firmin Pirker (Contrabaß)
 Programm 50 Rappen Eintritt für Mitglieder frei. Karten für Nichtmitglieder zu Fr. 6.90 (Jugendliche unter 20 Jahren, Studenten und Berufsschüler der Musik-Akademie Fr. 4.-) bei Hug & Co., Freiestraße 70 a, und an der Abendkasse]]></page>
-<pb facs="CH_Bm_prg/pyr_CH_Bm_prg-1316.tif"/>
-<page><![CDATA[﻿Programm
+        <pb facs='CH_Bm_prg/pyr_CH_Bm_prg-1316.tif'/>
+        <page><![CDATA[﻿Programm
       1.	Französische Tanzsätze und Fantasien
 ^ Etienne du Tertre um 1550
 Vierstimmige Tanzsätze aus dem 7. Buch der «Danceries»,
@@ -111,8 +121,8 @@ v Pluseurs gens voy, vierstimmig (Blockflöte, Posaune, Pardessus de Viole, Teno
     V	Or sus, vous dormez trop, dreistimmig (Blockflöte, Posaune, Pardessus de Viole, Tenorgambe, Portativ, Schlagzeug)
      I
                                 z.]]></page>
-<pb facs="CH_Bm_prg/pyr_CH_Bm_prg-1317.tif"/>
-<page><![CDATA[﻿           3. Musik am Hofe Maximilians I.
+        <pb facs='CH_Bm_prg/pyr_CH_Bm_prg-1317.tif'/>
+        <page><![CDATA[﻿           3. Musik am Hofe Maximilians I.
    Heinrich Isaac um 1450-1517
 Drei Instrumentalstücke:
 2	(1
@@ -149,8 +159,8 @@ gest. 1602	. i
        gest. vor 1641	f
   >/
   Fantasia in c für Viola da gamba-Quartett]]></page>
-<pb facs="CH_Bm_prg/pyr_CH_Bm_prg-1318.tif"/>
-<page><![CDATA[﻿      3.	Italienische Instrumentalcanzonen
+        <pb facs='CH_Bm_prg/pyr_CH_Bm_prg-1318.tif'/>
+        <page><![CDATA[﻿      3.	Italienische Instrumentalcanzonen
  Lodovico Grossi da Viadana
 1564-1645	| <(
      » La Romana (1610), achtstimmig ^ 3 ^ (Blockflöten, Posaune, Violine, Violen da gamba, Tenorbratsche, Contrabaß)
@@ -170,10 +180,9 @@ gest. um 1622	1 11
                      )
                Die verwendeten Instrumente:
 ^^enaissanceblockflöten in c’, f’, g’, c”, Kopien von M. Skow-^Rieck, Bremen / Tenorposaune Friedrich Ehe, Nürnberg um 1700 / Pardessus de Viole Ludovicus Guersan, Paris 1755 / Tenorgambe, Brescia Ende 16. Jahrhundert / Baßgamben Jakob Precheisn, Wien 1670, und Deutschland um 1760 / Baßfidel Stefanus de Fantis, Oberitalien 1558 / Violine Jakobus Stainer, Absam 1658 / Tenorbratsche Marcellus Hollmayr, Wien 17. Jahrhundert / Q>ntrabaß (Violone) Antony Stefan Posch, Wien 1729 / Portativorgel, Rekonstruktion eines niederländischen Instrumentes um 1400 von Ahrend und Brunzema, Loga bei Leer (Ostfriesland).]]></page>
-<pb facs="CH_Bm_prg/pyr_CH_Bm_prg-1319.tif"/>
-<page><![CDATA[﻿]]></page>
-       
-        </p>
+        <pb facs='CH_Bm_prg/pyr_CH_Bm_prg-1319.tif'/>
+        <page><![CDATA[﻿]]></page>
+      </p>
     </body>
   </text>
 </TEI>

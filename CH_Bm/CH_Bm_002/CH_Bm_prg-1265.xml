@@ -1,58 +1,68 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?> 
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<TEI xmlns='http://www.tei-c.org/ns/1.0'>
   <teiHeader>
     <fileDesc>
-        <titleStmt>
-            <title>BASEL</title>
-        </titleStmt>
-        <editionStmt>
-            <edition>TEI P5.1 Edition</edition>
-            <respStmt>
-                <resp>
-                    <persName>Claudio Bacciagaluppi</persName>
-                    <persName>Laurent Pugin</persName>
-                    <persName>Rodolfo Zitellini</persName>
-                    <date when="2016-01">Janvier 2016</date>
-                </resp>
-                <name>Bureau Suisse du RISM</name>
-            </respStmt>
-        </editionStmt>
-        <publicationStmt>
-            <publisher><orgName xml:base="http://www.rism-ch.org">Bureau Suisse du RISM</orgName></publisher>
-        </publicationStmt>
-	    <seriesStmt>
-	     <idno type="collection">ch_famb</idno>
-	    </seriesStmt>
+      <titleStmt>
+        <title>BASEL</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>TEI P5.1 Edition</edition>
+        <respStmt>
+          <resp>
+            <persName>Claudio Bacciagaluppi</persName>
+            <persName>Laurent Pugin</persName>
+            <persName>Rodolfo Zitellini</persName>
+            <date when='2016-01'>Janvier 2016</date>
+          </resp>
+          <name>Bureau Suisse du RISM</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName xml:base='http://www.rism-ch.org'>Bureau Suisse du RISM</orgName>
+        </publisher>
+      </publicationStmt>
+      <seriesStmt>
+        <idno type='collection'>ch_famb</idno>
+      </seriesStmt>
       <sourceDesc>
-		<bibl>
-        <title>Concert<date when="19610414">14/04/1961</date></title>
-<series>Concert</series>
-<placeName>Basel, Grosser Saal der Musik-Akademie</placeName>
-<orgName role="holding">Archiv des Vereins Freunde alter Musik Basel; <link target="http://famb.ch/"/></orgName>
-
-		</bibl>
+        <bibl>
+          <title>
+             Concert 
+            <date when='19610414'>14/04/1961</date>
+          </title>
+          <series>Concert</series>
+          <placeName>Basel, Grosser Saal der Musik-Akademie</placeName>
+          <orgName role='holding'>
+             Archiv des Vereins Freunde alter Musik Basel; 
+            <link target='http://famb.ch/'/>
+          </orgName>
+        </bibl>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
   <text>
     <body>
-        <p> <!-- all the content of the program in one paragraph -->
-            <pb facs="CH_Bm_prg/pyr_CH_Bm_prg-1265.tif"/>
-<date when="19610414"/>
-<name key="Handel, George Frideric" type="person" role="cmp">Händel, Georg Friedrich</name>
-<name key="Purcell, Henry" type="person" role="cmp">Purcell, Henry</name>
-<name key="Naudot, Jacques-Christophe" type="person" role="cmp">Naudot, Jacques-Christophe</name>
-<name key="Schmittbauer, Joseph Aloys" type="person" role="cmp">Schmittbauer, Joseph Aloys</name>
-<name key="Sammartini, Giuseppe" type="person" role="cmp">Sammartini, Giuseppe</name>
-<name key="Bach, Johann Christoph Friedrich" type="person" role="cmp">Bach, Johann Christoph Friedrich</name><name key="Linde, Hans-Martin" type="person" role="int">Linde, Hans-Martin</name>
-<name key="Vorholz, Dieter" type="person" role="int">Vorholz, Dieter</name>
-<name key="Wolff-Malm, Doris" type="person" role="int">Wolff-Malm, Doris</name>
-<name key="Buhl, Reinhold Johannes" type="person" role="int">Buhl, Reinhold Johannes</name>
-<name key="Ruf, Hugo" type="person" role="int">Ruf, Hugo</name><title>Concert</title>
-<placeName key="Basel, Grosser Saal der Musik-Akademie"/>
-<name key="Concert" type="series"/>
-<page><![CDATA[﻿FREUNDE ALTER MUSIK IN BASEL
+      <p>
+        <!-- all the content of the program in one paragraph -->
+        <pb facs='CH_Bm_prg/pyr_CH_Bm_prg-1265.tif'/>
+        <date when='19610414'/>
+        <name key='Handel, George Frideric' type='person' role='cmp'>Händel, Georg Friedrich</name>
+        <name key='Purcell, Henry' type='person' role='cmp'>Purcell, Henry</name>
+        <name key='Naudot, Jacques-Christophe' type='person' role='cmp'>Naudot, Jacques-Christophe</name>
+        <name key='Schmittbauer, Joseph Aloys' type='person' role='cmp'>Schmittbauer, Joseph Aloys</name>
+        <name key='Sammartini, Giuseppe' type='person' role='cmp'>Sammartini, Giuseppe</name>
+        <name key='Bach, Johann Christoph Friedrich' type='person' role='cmp'>Bach, Johann Christoph Friedrich</name>
+        <name key='Linde, Hans-Martin' type='person' role='int'>Linde, Hans-Martin</name>
+        <name key='Vorholz, Dieter' type='person' role='int'>Vorholz, Dieter</name>
+        <name key='Wolff-Malm, Doris' type='person' role='int'>Wolff-Malm, Doris</name>
+        <name key='Buhl, Reinhold Johannes' type='person' role='int'>Buhl, Reinhold Johannes</name>
+        <name key='Ruf, Hugo' type='person' role='int'>Ruf, Hugo</name>
+        <title>Concert</title>
+        <placeName key='Basel, Grosser Saal der Musik-Akademie'/>
+        <name key='Concerts' type='series'/>
+        <page><![CDATA[﻿FREUNDE ALTER MUSIK IN BASEL
                         4.	Konzert
 Freitag, den 14.April 1961, 20.15 Uhr, im Grossen Saal der Mus ik-Akademie
 Die Vereinigung "MUSICA DA CAMERA":
@@ -81,8 +91,7 @@ Johann Christoph Friedrich Bach
           Quartett D-dnr für Traversflöte, Violine, Bratsche und Continuo Allegretto/Minuetto
 Verzeichnis der verwendeten Instrumente:
 Blockflöte Bärenreiter, Kassel 1958, Traversflöte Martin Metzler, Karlsruhe um 1750, Violinen in Originalmensur Sebastian Klotz, Mittenwald 1762, und Mathias Albani, Tirol um 1680, Bratsche in Originalmensur, Deutschland um 1750, Violoncello in Originalmensur Sebastian Dallinger, Wien um 1780, Violone (= Contrabas sgambe) Hans Jordan, Markneukirchen 1950, Cembalo J.C.Neupert, Bamberg.]]></page>
-       
-        </p>
+      </p>
     </body>
   </text>
 </TEI>
